@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_SEengJx" coord="1,223.68,89.33,164.51,16.06;1,107.28,109.25,397.57,16.06">Exascale Computing: The challenges and opportunities in the next decade</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,264.00,140.73,84.12,9.85"><roleName>Dr</roleName><forename type="first">Tilak</forename><surname>Agerwala</surname></persName>
+							<email>tilak@us.ibm.com</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VP of Systems IBM Research</note>
+								<orgName type="department">VP of Systems IBM Research</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Indian Institute of Technology, Kanpur, India</note>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<settlement>Kanpur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Johns Hopkins University, Baltimore, Maryland.</note>
+								<orgName type="institution">Johns Hopkins University</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>Maryland</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_723GVta" coord="1,223.68,89.33,164.51,16.06;1,107.28,109.25,397.57,16.06">Exascale Computing: The challenges and opportunities in the next decade</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2CB05C694757252CB7FBBCBE93B8CB27</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T23:53+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_ZuR8KGQ">C</term>
+					<term xml:id="_HGwNEau">5</term>
+					<term xml:id="_vhnrt2q">0 [Computer Systems Implementation]: General</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_AQ3bfgw"><p xml:id="_zJMM29Y"><s xml:id="_nhaSd4h" coords="1,126.00,221.55,360.20,8.03;1,126.00,234.51,360.00,8.03;1,126.00,247.47,29.98,8.03">Supercomputing systems have made great strides in recent years as the extensive computing needs of cutting-edge engineering work and scientific discovery have driven the development of more powerful systems.</s><s xml:id="_pnARxpu" coords="1,158.17,247.47,327.82,8.03;1,126.00,260.55,123.96,8.03">In 2008, the first petaflop machine was released, and historic trends indicate that in ten years, we should be at the exascale level.</s><s xml:id="_vDYyfBb" coords="1,252.50,260.55,233.59,8.03;1,126.00,273.51,227.16,8.03">Indeed, various agencies are targeting a computer system capable of 1 Exaop (10**18 ops) of computation within the next decade.</s><s xml:id="_PeFRcBS" coords="1,355.35,273.51,130.86,8.03;1,126.00,286.47,226.07,8.03">We believe that applications in many industries will be materially transformed by exascale computers.</s></p><p xml:id="_Hgd2nt5"><s xml:id="_xEp5MzY" coords="1,126.00,305.55,360.05,8.03;1,125.99,318.51,61.07,8.03">Meeting the exascale challenge will require significant innovation in technology, architecture and programmability.</s><s xml:id="_XNk5Grc" coords="1,192.39,318.51,293.68,8.03;1,125.99,331.47,360.03,8.03;1,126.00,344.55,359.99,8.03;1,126.00,357.51,359.97,8.03;1,126.00,370.47,274.79,8.03">Power is a fundamental problem at all levels; traditional memory cost and performance are not keeping pace with compute potential; the storage hierarchy will have to be rearchitected; networks will be a much bigger part of the system cost; reliability at exascale levels will require a holistic approach to architecture design, and programmability and ease-of-use will be an essential component to extract the promised performance at the exascale level.</s></p><p xml:id="_54DANw2"><s xml:id="_YqKPj5U" coords="1,128.15,389.55,357.98,8.03;1,126.00,402.51,258.21,8.03">In this talk, I will discuss the importance of exascale computing and address the major challenges, touching on the areas of technology, architecture, reliability and usability.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body/>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

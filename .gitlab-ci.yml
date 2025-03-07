@@ -1,0 +1,174 @@
+stages:
+  - install
+  - lint
+  - test
+  - deploy
+  - clean
+
+# define yaml anchors for frontend and backend before_script
+.change_to_frontend_dir: &change_to_frontend_dir
+  before_script:
+    - cd frontend
+    - pwd
+
+.change_to_backend_dir: &change_to_backend_dir
+  before_script:
+    - cd backend
+    - pwd
+
+# frontend jobs
+cache: # cache node_modules
+  paths:
+    - frontend/node_modules/
+
+frontend_install:
+  stage: install
+  image: node:20
+  tags:
+    - frontend
+  <<: *change_to_frontend_dir
+  script:
+    - echo "Cleaning installed the dependency..."
+    - rm -rf node_modules
+    - npm ci
+    - echo "Installed!"
+  rules:
+    - changes:
+      - frontend/**/*
+      - .gitlab-ci.yml
+
+frontend_lint:
+  stage: lint
+  image: node:20
+  tags:
+    - frontend
+  <<: *change_to_frontend_dir
+  script:
+    - echo "Linting code..."
+    - npm run lint
+    - echo "Lint passed!"
+  rules:
+    - changes:
+      - frontend/**/*
+      - .gitlab-ci.yml
+
+frontend_test:
+  stage: test
+  image: node:20
+  tags:
+    - frontend
+  <<: *change_to_frontend_dir
+  script:
+    - echo "Running unit tests..."
+    - npm test
+    - echo "All test passed!"
+  rules:
+    - changes:
+      - frontend/**/*
+      - .gitlab-ci.yml
+
+frontend_deploy:
+  stage: deploy
+  tags:
+    - shell
+  <<: *change_to_frontend_dir
+  script:
+      - echo "Deploying application..."
+      - sudo docker stop frontend-container || true
+      - sudo docker rm frontend-container || true
+      - sudo docker build -t frontend-image .
+      - sudo docker run -d --network host -p 5173:5173 --restart=unless-stopped --name frontend-container frontend-image
+      - echo "Deployed!"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      changes:
+        - frontend/**/*
+        - .gitlab-ci.yml
+
+# backend jobs
+backend_lint:
+  stage: lint
+  image: python:3.10
+  tags:
+    - backend
+  <<: *change_to_backend_dir
+  script:
+    - pip install flake8
+    - flake8 . --max-line-length=120
+  rules:
+    - changes:
+      - backend/**/*
+      - .gitlab-ci.yml
+
+backend_test:
+  stage: test
+  image: python:3.10
+  tags:
+    - backend
+  <<: *change_to_backend_dir
+  script:
+    - apt-get update && apt-get install -y ruby-full # Install ruby for anystyle-cli
+    - gem install anystyle-cli # Install anystyle-cli
+    - pip install -r requirements.txt # Install python dependencies
+    - pytest . # Run tests
+  rules:
+    - changes:
+      - backend/**/*
+      - .gitlab-ci.yml
+
+backend_deploy:
+  stage: deploy
+  tags:
+    - shell
+  <<: *change_to_backend_dir
+  script:
+    - echo "Deploying application..."
+    - sudo docker stop backend-container || true
+    - sudo docker rm backend-container || true
+    - sudo docker build -t backend-image .
+    - sudo docker run -d --network host -p 8000:8000 --restart=unless-stopped --name backend-container backend-image
+    - echo "Deployed!"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      changes:
+        - backend/**/*
+        - .gitlab-ci.yml
+
+grobid_deploy:
+  stage: deploy
+  tags:
+    - shell
+  <<: *change_to_backend_dir
+  script:
+    - echo "Deploying grobid..."
+    - sudo docker stop grobid-container || true
+    - sudo docker rm grobid-container || true
+    - sudo docker run -d --network host -p 8070:8070 --restart=unless-stopped --name grobid-container grobid/grobid:0.8.0
+    - |
+      echo "Checking Grobid service status..."
+      timeout=300  # 5 minutes
+      while [ $timeout -gt 0 ]; do
+        response=$(curl -s http://localhost:8070/api/isalive || echo "fail")
+        if [ "$response" = "true" ]; then
+          echo "Grobid is alive. Deployment successful."
+          exit 0
+        fi
+        sleep 10
+        timeout=$((timeout-10))
+      done
+      echo "Grobid deployment verification failed after 5 minutes."
+      exit 1
+    - echo "Deployed!"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      changes:
+        - backend/**/*
+        - .gitlab-ci.yml
+
+cleanup:
+  stage: clean
+  tags:
+    - shell
+  script:
+    - sudo docker image prune -f
+  when: always

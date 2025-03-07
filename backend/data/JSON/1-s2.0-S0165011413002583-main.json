@@ -1,0 +1,1010 @@
+{
+    "metadata": {
+        "title": "Development of child's home environment indexes based on consistent families of aggregation operators with prioritized hierarchical information",
+        "doi": "10.1016/j.fss.2013.06.007",
+        "publisher": "Elsevier BV",
+        "journal": "Fuzzy Sets and Systems",
+        "published_date": "24 June 2013"
+    },
+    "content": {
+        "abstract": "The interventions aimed at the early childhood are of a main interest in educational policy, since it is in this period when it is possible to produce a major impact in the subsequent human development. The quality of children's social environment is the main influence to consider in achieving sound child development, affecting throughout school life. For this reason, the development of child's environment indexes appears in a natural way in the evaluation of all kind of educational policy research and social programs. However, crisp measures and indexes, based on usual linear techniques, do not ensure an adequate representation of social reality, since this last has a fuzzy nature and a nonlinear behavior. The development of indexes can be seen as an aggregation problem. In this paper, we extend the notions of consistency and strict stability of a family of aggregation operators (FAO), proposed in a previous work of the authors for the case of an aggregation process in which the data have no particular structure, to the case in which the information has a prioritized hierarchical structure. This extended notion of strict stability is then used to address the construction of indexes. Particularly, we apply this approach to develop a construction method of child's home environment indexes in which a stable family of prioritized aggregation operators is used in order to ensure robustness of the aggregation process when the information has a lineal structure. These indexes are built using fuzzy data that fit into a hierarchical structure by means of a stable family of prioritized aggregation operators based on the prioritized operator formulated by Yager, where the order relationship over fuzzy information was defined by experts on child development.",
+        "keywords": [
+            "selfidentity",
+            "child",
+            "operator",
+            "consistent",
+            "consistency",
+            "home",
+            "aggregation",
+            "hierarchical",
+            "index",
+            "development"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Karina Rojas",
+            "affiliation": "Facultad de Ciencias Matem\u00e1ticas",
+            "email": "krojas@spm.uach.cl"
+        },
+        {
+            "name": "Daniel G\u00f3mez",
+            "affiliation": "Escuela de Estad\u00edstica",
+            "email": "dagomez@estad.ucm.es"
+        },
+        {
+            "name": "Javier Montero",
+            "affiliation": "Facultad de Ciencias Matem\u00e1ticas",
+            "email": null
+        },
+        {
+            "name": "J Tinguaro Rodr\u00edguez",
+            "affiliation": "Facultad de Ciencias Matem\u00e1ticas",
+            "email": null
+        },
+        {
+            "name": "Andrea Valdivia",
+            "affiliation": "Instituto de Comunicaci\u00f3n e Imagen",
+            "email": "andrea.valdivia@uchile.cl"
+        },
+        {
+            "name": "Francisco Paiva",
+            "affiliation": "Facultad de Filosof\u00eda y Humanidades",
+            "email": "fpaiva@uach.cl"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Amo",
+                    "given": "A."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                },
+                {
+                    "family": "Molina",
+                    "given": "E."
+                }
+            ],
+            "title": "Representation of consistent recursive rules",
+            "type": "article-journal",
+            "container_title": [
+                "Eur. J. Oper.Res"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Anders",
+                    "given": "Y."
+                },
+                {
+                    "family": "Rossbach",
+                    "given": "H.-G."
+                },
+                {
+                    "family": "Weinert",
+                    "given": "S."
+                },
+                {
+                    "family": "Ebert",
+                    "given": "S."
+                },
+                {
+                    "family": "Kuger",
+                    "given": "S."
+                },
+                {
+                    "family": "Lehrl",
+                    "given": "S."
+                },
+                {
+                    "family": "Maurice",
+                    "given": "J.",
+                    "particle": "von"
+                }
+            ],
+            "title": "Home and preschool learning environments and their relations to the development of early numeracy skills, Early Childhood Res",
+            "type": "article-journal",
+            "container_title": [
+                "Quart"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Beliakov",
+                    "given": "G."
+                },
+                {
+                    "family": "Pradera",
+                    "given": "A."
+                },
+                {
+                    "family": "Calvo",
+                    "given": "T."
+                }
+            ],
+            "title": "Aggregation Functions, a Guide to Practitioners",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Beltr\u00e1n",
+                    "given": "M."
+                }
+            ],
+            "title": "Cinco v\u00edas de acceso a la realidad social, En: Garc\u00eda Ferrando; Iba\u00f1ez y Alvira, El an\u00e1lisis de la realidad social, M\u00e9todos y t\u00e9cnicas de investigaci\u00f3n",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1986"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bradley",
+                    "given": "R.H."
+                },
+                {
+                    "family": "Caldwell",
+                    "given": "B.M."
+                },
+                {
+                    "family": "Corwyn",
+                    "given": "R.F."
+                }
+            ],
+            "title": "The child care HOME inventories: assessing the quality of family child care homes, Early Childhood Res",
+            "type": "article-journal",
+            "container_title": [
+                "Quart"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bradley",
+                    "given": "R.H."
+                },
+                {
+                    "family": "Caldwell",
+                    "given": "B.M."
+                }
+            ],
+            "title": "The HOME inventory and family demographics, Dev",
+            "type": "article-journal",
+            "container_title": [
+                "Psychol"
+            ],
+            "doi": "",
+            "published_date": "1984"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bradley",
+                    "given": "R.H."
+                },
+                {
+                    "family": "Caldwell",
+                    "given": "B.M."
+                },
+                {
+                    "family": "Corwyn",
+                    "given": "R.F."
+                }
+            ],
+            "title": "The child care HOME inventories: assessing the quality of family child care homes, Early Childhood Res",
+            "type": "article-journal",
+            "container_title": [
+                "Quart"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bronfenbrenner",
+                    "given": "U."
+                }
+            ],
+            "title": "La ecolog\u00eda del desarrollo humano, Paidos",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1987"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Burston",
+                    "given": "A."
+                },
+                {
+                    "family": "Puckering",
+                    "given": "C."
+                },
+                {
+                    "family": "Kearney",
+                    "given": "E."
+                }
+            ],
+            "title": "At HOME in Scotland: validation of the home observation for measurement of the environment inventory",
+            "type": "article-journal",
+            "container_title": [
+                "Child Care Health Dev"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bustince",
+                    "given": "H."
+                },
+                {
+                    "family": "Barrenechea",
+                    "given": "E."
+                },
+                {
+                    "family": "Fern\u00e0ndez",
+                    "given": "J."
+                },
+                {
+                    "family": "Pagola",
+                    "given": "M."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                },
+                {
+                    "family": "Guerra",
+                    "given": "C."
+                }
+            ],
+            "title": "Contrast of a fuzzy relation",
+            "type": "article-journal",
+            "container_title": [
+                "Information Sciences"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Calvo",
+                    "given": "T."
+                },
+                {
+                    "family": "Koles\u00e1rov\u00e1",
+                    "given": "A."
+                },
+                {
+                    "family": "Komorn\u00edkov\u00e1",
+                    "given": "M."
+                },
+                {
+                    "family": "Mesiar",
+                    "given": "R."
+                }
+            ],
+            "title": "Aggregation operators, properties, classes and construction methods",
+            "type": "chapter",
+            "container_title": [
+                "Aggregation Operators New trends ans Aplications"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Calvo",
+                    "given": "T."
+                },
+                {
+                    "family": "Mayor",
+                    "given": "G."
+                },
+                {
+                    "family": "Torrens",
+                    "given": "J."
+                },
+                {
+                    "family": "Su\u00f1er",
+                    "given": "J."
+                },
+                {
+                    "family": "Mas",
+                    "given": "M."
+                },
+                {
+                    "family": "Carbonell",
+                    "given": "M."
+                }
+            ],
+            "title": "Generation of weighting triangles associated with aggregation functions",
+            "type": "article-journal",
+            "container_title": [
+                "Int. J. Uncertainty Fuzziness Knowl.-Based Syst"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Carlsson",
+                    "given": "C.H."
+                },
+                {
+                    "family": "Fuller",
+                    "given": "R."
+                }
+            ],
+            "title": "Fuzzy Reasoning in Decision Making and Optimization",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Creswell",
+                    "given": "J."
+                },
+                {
+                    "family": "Plano",
+                    "given": "V."
+                }
+            ],
+            "title": "Designing and Conducting Mixed Methods Research",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cutello",
+                    "given": "V."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                }
+            ],
+            "title": "Hierarchical aggregation of OWA operators: basic measures and related computational problems",
+            "type": "article-journal",
+            "container_title": [
+                "Int. J. Uncertainty Fuzziness Knowl.-Based Syst"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cutello",
+                    "given": "V."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                }
+            ],
+            "title": "Recursive families of OWA operators",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the FUZZ-IEEE Conference"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cutello",
+                    "given": "V."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                }
+            ],
+            "title": "Recursive connective rules",
+            "type": "article-journal",
+            "container_title": [
+                "Int. J. Intell. Syst"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Child Health",
+                    "given": "Eunice Kennedy Shriver National Institute",
+                    "particle": "of"
+                },
+                {
+                    "family": "Human Development",
+                    "given": "N.I.H."
+                },
+                {
+                    "given": "D.H.H.S."
+                }
+            ],
+            "title": "The NICHD Study of Early Child Care and Youth Development (SECCYD): Findings for Children up to Age 4 1/2 Years (05-4318",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Evans",
+                    "given": "J."
+                },
+                {
+                    "family": "Myers",
+                    "given": "R."
+                },
+                {
+                    "family": "Illfeld",
+                    "given": "E."
+                }
+            ],
+            "title": "Early Childhood Counts-A Programming Guide on Early Childhood Care for Development",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fung",
+                    "given": "L.W."
+                },
+                {
+                    "family": "Fu",
+                    "given": "K.S."
+                }
+            ],
+            "title": "An axiomatic approach to rational decision making in a fuzzy environment",
+            "type": "chapter",
+            "container_title": [
+                "Fuzzy Sets and their Applications to Cognitive and Decision Processes"
+            ],
+            "doi": "",
+            "published_date": "1975"
+        },
+        {
+            "authors": [
+                {
+                    "family": "G\u00f3mez",
+                    "given": "D."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                }
+            ],
+            "title": "A discussion of aggregation functions",
+            "type": "article-journal",
+            "container_title": [
+                "Kybernetika"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "G\u00f3mez",
+                    "given": "D."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                },
+                {
+                    "family": "Y\u00e1\u00f1ez",
+                    "given": "J."
+                },
+                {
+                    "family": "Poidomani",
+                    "given": "C."
+                }
+            ],
+            "title": "A graph coloring algorithm approach for image segmentation",
+            "type": "article-journal",
+            "container_title": [
+                "Omega"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "G\u00f3mez",
+                    "given": "D."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                },
+                {
+                    "family": "Y\u00e1\u00f1ez",
+                    "given": "J."
+                }
+            ],
+            "title": "A coloring algorithm for image classification, Inf",
+            "type": "article-journal",
+            "container_title": [
+                "Sci"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Grabisch",
+                    "given": "M."
+                },
+                {
+                    "family": "Marichal",
+                    "given": "J."
+                },
+                {
+                    "family": "Mesiar",
+                    "given": "R."
+                },
+                {
+                    "family": "Pap",
+                    "given": "E."
+                },
+                {
+                    "family": "Functions",
+                    "given": "Aggregation"
+                }
+            ],
+            "title": "Encyclopedia of Mathematics and its Applications",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heckman",
+                    "given": "J."
+                }
+            ],
+            "title": "Skill formation and the economics of investing in disadvantaged children",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Koles\u00e1rov\u00e1",
+                    "given": "A."
+                }
+            ],
+            "title": "Sequential aggregation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Fifth International Summer School on Aggregation Operators, AGOP, Universitat de les Illes Balears, Palma de Mallorca"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lazarsfeld",
+                    "given": "P.F."
+                }
+            ],
+            "title": "Qualitative Methods",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1972"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Linver",
+                    "given": "M."
+                },
+                {
+                    "family": "Brooks",
+                    "given": "G."
+                },
+                {
+                    "family": "Cabrera",
+                    "given": "M."
+                }
+            ],
+            "title": "The home observation for measurement of the environment (HOME) inventory: the derivation of conceptually designed subscales, Parenting: Sci",
+            "type": "article-journal",
+            "container_title": [
+                "Pract"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "L\u00f3pez",
+                    "given": "V."
+                },
+                {
+                    "family": "Garmendia",
+                    "given": "L."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                },
+                {
+                    "family": "Resconi",
+                    "given": "G."
+                }
+            ],
+            "title": "Specification and computing states in fuzzy algorithms",
+            "type": "article-journal",
+            "container_title": [
+                "Int. Uncertainty Fuzziness Knowl.-Based Syst"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "L\u00f3pez",
+                    "given": "V."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                }
+            ],
+            "title": "Software engineering specification under fuzziness",
+            "type": "article-journal",
+            "container_title": [
+                "Multiple-Valued Logic Soft Comput"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "L\u00f3pez",
+                    "given": "V."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                },
+                {
+                    "family": "Rodriguez",
+                    "given": "J.T."
+                }
+            ],
+            "title": "Formal Specification and implementation of computational aggregation functions",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 9th International FLINS Conference on Computational Intelligence, Foundations and Applications"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Luce",
+                    "given": "R.D."
+                }
+            ],
+            "title": "The Mathematics Used in Mathematical Psychology",
+            "type": "article-journal",
+            "container_title": [
+                "Am. Math. Mon"
+            ],
+            "doi": "",
+            "published_date": "1964"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MacKenzie",
+                    "given": "S."
+                },
+                {
+                    "family": "Podsakoff",
+                    "given": "P."
+                },
+                {
+                    "family": "Podsakoff",
+                    "given": "N."
+                }
+            ],
+            "title": "Construct measurement and validation procedures in MIS and behavioral research: integrating new and existing techniques",
+            "type": "article-journal",
+            "container_title": [
+                "MIS Quart"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Montero",
+                    "given": "J."
+                }
+            ],
+            "title": "A note on Fung-Fu's theorem",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "1985"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Montero",
+                    "given": "J."
+                },
+                {
+                    "family": "G\u00f3mez",
+                    "given": "D."
+                },
+                {
+                    "family": "Bustince",
+                    "given": "H."
+                }
+            ],
+            "title": "On the relevance of some families of fuzzy sets",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Montero",
+                    "given": "J."
+                },
+                {
+                    "family": "L\u00f3pez",
+                    "given": "V."
+                },
+                {
+                    "family": "G\u00f3mez",
+                    "given": "D."
+                }
+            ],
+            "title": "The role of fuzziness in decision making, Stud",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzziness Soft Comput"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ramey",
+                    "given": "S.L."
+                },
+                {
+                    "family": "Ramey",
+                    "given": "C.T."
+                }
+            ],
+            "title": "Early childhood experiences and developmental competence",
+            "type": "chapter",
+            "container_title": [
+                "Securing the Future: Investing in Children from Birth Until College"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rojas",
+                    "given": "K."
+                },
+                {
+                    "family": "G\u00f3mez",
+                    "given": "D."
+                },
+                {
+                    "family": "Rodr\u00edguez",
+                    "given": "J.T."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                }
+            ],
+            "title": "Some properties of consistency in the families of aggregation functions",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Intelligent and Soft Computing"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rojas",
+                    "given": "K."
+                },
+                {
+                    "family": "G\u00f3mez",
+                    "given": "D."
+                },
+                {
+                    "family": "Rodr\u00edguez",
+                    "given": "J.T."
+                },
+                {
+                    "family": "Montero",
+                    "given": "J."
+                }
+            ],
+            "title": "Strict stability in aggregation operators, Fuzzy Sets and Systems",
+            "type": null,
+            "container_title": "",
+            "doi": "10.1016/j.fss.2012.12.010.",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Slocumb",
+                    "given": "E."
+                },
+                {
+                    "family": "Cole",
+                    "given": "F."
+                }
+            ],
+            "title": "A practical approach to content validation",
+            "type": "article-journal",
+            "container_title": [
+                "Appl. Nurs. Res"
+            ],
+            "doi": "",
+            "published_date": "1991"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Totsika",
+                    "given": "V."
+                },
+                {
+                    "family": "Sylva",
+                    "given": "K."
+                }
+            ],
+            "title": "The Home Observation for Measurement of the Environment revisited, Child Adolesc",
+            "type": "article-journal",
+            "container_title": [
+                "Ment. Health"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Verkuilen",
+                    "given": "J."
+                }
+            ],
+            "title": "Assigning membership in a fuzzy set analysis, Sociol",
+            "type": "article-journal",
+            "container_title": [
+                "Methods Res"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yager",
+                    "given": "R.R."
+                }
+            ],
+            "title": "On ordered weighted averaging aggregation operators in multi-criteria decision making",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Syst. Man Cybern"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yager",
+                    "given": "R.R."
+                },
+                {
+                    "family": "Rybalov",
+                    "given": "A."
+                }
+            ],
+            "title": "Noncommutative self-identity aggregation",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yager",
+                    "given": "R.R."
+                }
+            ],
+            "title": "Prioritized aggregation operators",
+            "type": "article-journal",
+            "container_title": [
+                "Int. J. Approximate Reasoning"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        }
+    ]
+}

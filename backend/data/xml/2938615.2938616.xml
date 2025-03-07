@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_vzDbAmr" coord="1,90.90,72.35,427.92,16.84;1,316.81,224.48,239.23,7.89;1,316.81,234.95,239.11,7.89;1,316.81,245.41,239.10,7.89;1,316.81,255.87,112.33,7.89">Extreme-scaling applications en route to exascale</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2016-04-26">2016-04-26</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,122.32,118.05,72.57,11.06"><forename type="first">Dirk</forename><surname>Brömmel</surname></persName>
+							<email>d.broemmel@fz-juelich.de</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Jülich Supercomputing Centre Forschungszentrum Jülich 52425 Jülich, Germany</note>
+								<orgName type="department">Jülich Supercomputing Centre</orgName>
+								<orgName type="institution">Forschungszentrum Jülich</orgName>
+								<address>
+									<postCode>52425</postCode>
+									<settlement>Jülich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,261.70,118.05,86.32,11.06"><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+							<email>w.frings@fz-juelich.de</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Jülich Supercomputing Centre Forschungszentrum Jülich 52425 Jülich, Germany</note>
+								<orgName type="department">Jülich Supercomputing Centre</orgName>
+								<orgName type="institution">Forschungszentrum Jülich</orgName>
+								<address>
+									<postCode>52425</postCode>
+									<settlement>Jülich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,408.47,118.05,85.26,11.06"><forename type="first">Brian</forename><forename type="middle">J N</forename><surname>Wylie</surname></persName>
+							<email>b.wylie@fz-juelich.de</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Jülich Supercomputing Centre Forschungszentrum Jülich 52425 Jülich, Germany</note>
+								<orgName type="department">Jülich Supercomputing Centre</orgName>
+								<orgName type="institution">Forschungszentrum Jülich</orgName>
+								<address>
+									<postCode>52425</postCode>
+									<settlement>Jülich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_AMXcRpj" coord="1,90.90,72.35,427.92,16.84;1,316.81,224.48,239.23,7.89;1,316.81,234.95,239.11,7.89;1,316.81,245.41,239.10,7.89;1,316.81,255.87,112.33,7.89">Extreme-scaling applications en route to exascale</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_aqtQCad">Proceedings of the Exascale Applications and Software Conference 2016</title>
+						<meeting>the Exascale Applications and Software Conference 2016						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2016-04-26" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">AD1C9F2ED01F8E5A736A26C78C850433</idno>
+					<idno type="DOI">10.1145/2938615.2938616</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-17T21:03+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_vsVKr3h">HPC application scalability</term>
+					<term xml:id="_EnCVSpk">performance analysis</term>
+					<term xml:id="_XtDBZAm">in-situ visualisation</term>
+					<term xml:id="_g9FHXGz">JUQUEEN</term>
+					<term xml:id="_XJefzuv">IBM Blue Gene/Q</term>
+					<term xml:id="_PJbtHTe">High-Q Club</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_Z5f4vbs"><p xml:id="_VGYjnvg"><s xml:id="_yZm5Vbr" coords="1,53.80,224.51,239.11,7.86;1,53.80,234.97,239.11,7.86;1,53.80,245.43,239.11,7.86;1,53.80,255.89,239.11,7.86;1,53.80,266.35,37.59,7.86">Feedback from the previous year's very successful workshop motivated the organisation of a three-day workshop from 1 to 3 February 2016, during which the 28-rack JUQUEEN Blue Gene/Q system with 458 752 cores was reserved for over 50 hours.</s><s xml:id="_5stK7Zz" coords="1,97.61,266.35,195.30,7.86;1,53.80,276.81,239.11,7.86;1,53.80,287.28,239.12,7.86;1,53.80,297.74,164.55,7.86">Eight international code teams were selected to use this opportunity to investigate and improve their application scalability, assisted by staff from JSC Simulation Laboratories and Cross-Sectional Teams.</s></p><p xml:id="_K7Cg6CZ"><s xml:id="_rnEM3m4" coords="1,62.77,308.20,230.14,7.86;1,53.80,318.66,94.89,7.86">Ultimately seven teams had codes successfully run on the full JUQUEEN system.</s><s xml:id="_4YD84WT" coords="1,152.72,318.66,140.19,7.86;1,53.80,329.02,240.91,7.96;1,53.80,339.58,239.11,7.86;1,53.80,350.04,239.11,7.86;1,53.80,360.50,32.03,7.86">Strong scalability demonstrated by Code Saturne and Seven-League Hydro, both using 4 OpenMP threads for 16 MPI processes on each compute node for a total of 1 835 008 threads, qualify them for High-Q Club membership.</s><s xml:id="_QB4b6FX" coords="1,93.48,360.40,199.43,7.96;1,53.80,370.96,239.11,7.86;1,53.80,381.42,35.79,7.86">Existing members CIAO and iFETI were able to show that they had additional solvers which also scaled acceptably.</s><s xml:id="_PhPp34B" coords="1,95.97,381.42,196.94,7.86;1,53.80,391.79,239.11,7.96;1,53.80,402.34,239.11,7.86;1,53.80,412.80,59.02,7.86">Furthermore, large-scale in-situ interactive visualisation was demonstrated with a CIAO simulation using 458 752 MPI processes running on 28 racks coupled via JU-SITU to VisIt.</s><s xml:id="_Mw5escQ" coords="1,117.17,412.80,175.74,7.86;1,53.80,423.17,239.11,7.96;1,53.80,433.73,239.11,7.86;1,53.80,444.19,147.00,7.86">The two adaptive mesh refinement utilities, ICI and p4est, showed that they could respectively scale to run with 458 752 and 971 504 MPI ranks, but both encountered problems loading large meshes.</s><s xml:id="_PdcugN6" coords="1,204.76,444.19,88.15,7.86;1,53.80,454.55,215.36,7.96">Parallel file I/O issues also hindered large-scale executions of PFLOTRAN.</s><s xml:id="_Mzxytda" coords="1,273.83,454.65,19.07,7.86;1,53.80,465.01,239.11,7.96;1,53.80,475.57,239.11,7.86;1,53.80,486.03,239.11,7.86;1,53.80,496.49,239.11,7.86;1,53.80,506.95,239.11,7.86;1,53.80,517.41,106.52,7.86">Poor performance of a NEST-import module which loaded and connected 1.9 TiB of neuron and synapse data was tracked down to an internal data-structure mismatch with the HDF5 file objects that prevented use of MPI collective file reading, which when rectified is expected to enable large-scale neuronal network simulations.</s></p><p xml:id="_HmYPgKR"><s xml:id="_G2Wvt49" coords="1,62.77,527.87,230.14,7.86;1,53.80,538.33,239.11,7.86;1,53.80,548.79,177.36,7.86">Comparative analysis is provided to the 25 codes in the High-Q Club at the start of 2016, which includes five codes that qualified from the previous workshop.</s><s xml:id="_4UHekrr" coords="1,238.62,548.79,54.28,7.86;1,53.80,559.26,239.11,7.86;1,53.80,569.72,239.10,7.86;1,53.80,580.18,141.56,7.86">Despite more mixed results, we learnt more about application file I/O limitations and inefficiencies which continue to be the primary inhibitor to large-scale simulations.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_e6fDxks">INTRODUCTION</head><p xml:id="_mv6N9zf"><s xml:id="_abv3UeH" coords="1,325.78,345.06,230.14,7.86;1,316.81,355.52,239.11,7.86;1,316.81,365.98,152.04,7.86">Exascale computer systems are expected to require one or two orders of magnitude more parallelism than the current leadership computer systems <ref type="bibr" coords="1,456.59,365.98,9.20,7.86" target="#b1">[1]</ref>.</s><s xml:id="_MvpU8Af" coords="1,474.39,365.98,81.54,7.86;1,316.81,376.44,239.11,7.86;1,316.81,386.90,239.11,7.86;1,316.81,397.36,239.10,7.86;1,316.81,407.82,32.29,7.86">The current top ten computer systems each have more than 256k physical cores, and when exploiting hardware threading capabilities most of these can run over one million concurrent processes or threads.</s><s xml:id="_aKtwZKz" coords="1,355.91,407.82,200.01,7.86;1,316.81,418.28,239.11,7.86;1,316.81,428.74,239.10,7.86;1,316.81,439.21,239.12,7.86;1,316.81,449.67,69.26,7.86">Jülich Supercomputing Centre (JSC) has almost a decade of experience with the range of IBM Blue Gene systems and in scaling HPC applications to use their considerable capabilities effectively in preparation for expected exascale systems.</s></p><p xml:id="_GuB87CP"><s xml:id="_kkvXPdg" coords="1,325.78,460.13,230.14,7.86;1,316.81,470.59,239.10,7.86;1,316.81,481.05,117.34,7.86">From 1 to 3 February 2016, Jülich Supercomputing Centre organised the latest edition of its series of IBM Blue Gene Extreme Scaling Workshops.</s><s xml:id="_pM6bp2V" coords="1,441.22,481.05,114.70,7.86;1,316.81,491.51,239.10,7.86;1,316.81,501.97,239.11,7.86;1,316.81,512.43,239.11,7.86;1,316.81,522.89,239.10,7.86;1,316.81,533.35,82.22,7.86">This series started with the 2006 "Blue Gene/L Scaling Workshop" <ref type="bibr" coords="1,476.64,491.51,9.72,7.86" target="#b2">[2]</ref> using the 8-rack (16 384 cores) JUBL, and then moved to JUGENE for the 2008 "Blue Gene/P Porting, Tuning &amp; Scaling Workshop" <ref type="bibr" coords="1,546.20,512.43,9.72,7.86" target="#b3">[3]</ref> and dedicated "Extreme Scaling Workshops" in 2009 <ref type="bibr" coords="1,543.65,522.89,9.20,7.86">[4]</ref>, 2010 <ref type="bibr" coords="1,337.37,533.35,9.71,7.86" target="#b5">[5]</ref> and 2011 <ref type="bibr" coords="1,386.77,533.35,9.20,7.86" target="#b6">[6]</ref>.</s><s xml:id="_YMz2Ems" coords="1,402.82,533.35,153.10,7.86;1,316.81,543.81,239.11,7.86;1,316.81,554.27,239.11,7.86;1,316.81,564.74,115.78,7.86">These latter three workshops attracted 28 teams selected from around the world to investigate scalability on the most massively-parallel supercomputer at the time with its 294 912 cores.</s><s xml:id="_Ne8a9Ud" coords="1,441.36,564.74,114.56,7.86;1,316.81,575.20,239.11,7.86;1,316.81,585.66,239.11,7.86;1,316.81,596.12,237.99,7.86">26 of their codes were successfully executed at that scale, three became ACM Gordon Bell prize finalists, and one participant was awarded an ACM/IEEE-CS George Michael Memorial HPC fellowship.</s></p><p xml:id="_CWB84fC"><s xml:id="_ut8RV7J" coords="1,325.78,606.58,230.14,7.86;1,316.81,617.04,239.11,7.86;1,316.81,627.50,239.11,7.86;1,316.81,637.96,239.11,7.86;1,316.81,648.42,46.74,7.86">Last year's workshop <ref type="bibr" coords="1,411.03,606.58,9.72,7.86" target="#b7">[7,</ref><ref type="bibr" coords="1,423.13,606.58,7.16,7.86" target="#b8">8]</ref> was the first for the JUQUEEN Blue Gene/Q <ref type="bibr" coords="1,373.60,617.04,9.72,7.86" target="#b9">[9,</ref><ref type="bibr" coords="1,388.40,617.04,10.74,7.86" target="#b10">10]</ref>, and all seven participating application teams had within 24 hours successfully ran on all 28 racks (458 752 cores capable of running 1 835 008 processes or threads).</s><s xml:id="_3V3gwsA" coords="1,367.51,648.42,188.41,7.86;1,316.81,658.88,239.11,7.86;1,316.81,669.34,104.43,7.86">With their results, five of the codes later joined the list of High-Q Club <ref type="bibr" coords="1,413.06,658.88,14.32,7.86" target="#b11">[11]</ref> codes and one existing member improved their scalability.</s></p><p xml:id="_3RDtDX8"><s xml:id="_U7vteZe" coords="1,325.78,679.80,230.14,7.86;1,316.81,690.26,239.10,7.86;1,316.81,700.73,109.89,7.86">The High-Q Club is a collection of the highest scaling codes on JUQUEEN (Appendix A) and as such requires the codes to run on all 28 racks.</s><s xml:id="_7fPVH6m" coords="1,430.56,700.73,125.35,7.86;1,316.81,711.19,239.12,7.86;2,53.80,57.64,239.11,7.86;2,53.80,68.10,239.11,7.86;2,53.80,78.56,215.44,7.86">Codes also have to demonstrate that they profit from each additional rack of JUQUEEN in reduced time to solution (speed-up) when strong scaling a fixed problem size or a tolerable increase in runtime when weak scaling progressively larger problems (size-up).</s><s xml:id="_RC2vKbs" coords="2,275.87,78.56,17.03,7.86;2,53.80,89.02,239.11,7.86;2,53.80,99.48,239.11,7.86;2,53.80,109.94,239.11,7.86;2,53.80,120.40,42.98,7.86">Furthermore the application configurations should be beyond toy examples and we encourage use of all available hardware threads which is often best achieved via mixed-mode programming.</s><s xml:id="_s8xzfyg" coords="2,102.00,120.40,190.92,7.86;2,53.80,130.86,239.11,7.86;2,53.80,141.32,38.38,7.86">Each code is then individually evaluated based on its weak or strong scaling results with no strict limit on efficiency.</s><s xml:id="_3Nv6bqp" coords="2,98.51,141.32,194.40,7.86;2,53.80,151.78,239.11,7.86;2,53.80,162.24,239.11,7.86;2,53.80,172.70,239.11,7.86;2,53.80,183.17,167.24,7.86">Extreme-scaling workshops thus provide an opportunity for additional candidates to prove their scalability and qualify for membership, or -as was the case for some of the codes this and last year -improve on the scaling and efficiency that they had already achieved.</s></p><p xml:id="_un52FQw"><s xml:id="_83TTMxx" coords="2,62.77,193.63,230.15,7.86;2,53.80,204.09,239.10,7.86;2,53.80,214.55,239.11,7.86;2,53.80,225.01,239.11,7.86;2,53.80,235.47,239.11,7.86;2,53.80,245.93,239.11,7.86;2,53.80,256.39,42.87,7.86">The MAXI mini-symposium <ref type="bibr" coords="2,182.41,193.63,14.32,7.86" target="#b12">[12]</ref> at the ParCo2015 conference enabled five High-Q Club members (including three of that year's workshop participants) to present and discuss their experience scaling their applications on a variety of the largest computing systems including Hermit, K computer, Mira, Piz Daint, Sequoia, Stampede, SuperMUC, Tianhe-2 and Titan.</s><s xml:id="_dHh7me5" coords="2,100.73,256.39,192.19,7.86;2,53.80,266.85,239.11,7.86;2,53.80,277.31,239.10,7.86;2,53.80,287.77,102.69,7.86">Exchange of application extreme-scaling experience from these and other leadership HPC computer systems was also the focus of the full-day aXXLs workshop at the ISC-HPC conference <ref type="bibr" coords="2,139.61,287.77,13.50,7.86" target="#b13">[13]</ref>.</s></p><p xml:id="_9qkg9uH"><s xml:id="_SkfCzVs" coords="2,62.77,298.23,230.13,7.86;2,53.80,308.70,239.10,7.86;2,53.80,319.16,239.11,7.86">Eight international application teams were selected for this year's three day workshop, and given dedicated use of the entire JUQUEEN system for a period of over 50 hours.</s><s xml:id="_cVjdWEq" coords="2,53.80,329.62,239.10,7.86;2,53.80,340.08,96.35,7.86;2,152.69,338.31,3.65,5.24;2,159.40,340.08,133.51,7.86;2,53.80,350.54,239.11,7.86;2,53.80,361.00,205.73,7.86">Many of the teams' codes had thematic overlap with JSC Simulation Laboratories 1 or were part of an ongoing collaboration with one of the SimLabs for Fluids &amp; Solids Engineering, Neuroscience, and Terrestrial Systems.</s><s xml:id="_DUtJtxR" coords="2,269.11,361.00,23.79,7.86;2,53.80,371.46,239.10,7.86;2,53.80,381.92,239.11,7.86;2,53.80,392.38,239.11,7.86;2,53.80,402.84,239.11,7.86;2,53.80,413.30,239.11,7.86;2,53.80,423.76,135.34,7.86">While most of the application teams were experienced users of JUQUEEN (and other Blue Gene/Q systems), and had successfully scaled their application codes previously, additional time was scheduled and support from JSC Cross-Sectional Teams was available to do performance analyses and investigate optimisation opportunities.</s></p><p xml:id="_5JaDD6J"><s xml:id="_5gtfDSj" coords="2,62.77,434.22,165.02,7.86">The eight participating code teams were:</s></p><p xml:id="_pxMQMC5"><s xml:id="_Sb4aw94" coords="2,67.12,451.28,225.79,7.96;2,76.21,461.83,185.34,7.86;2,339.23,155.50,71.91,7.86">• CIAO multiphysics, multiscale Navier-Stokes solver for turbulent reacting flows in complex geometries Heidelberger Inst.</s><s xml:id="_6tdjqWe" coords="2,414.17,155.50,141.75,7.86;2,325.78,174.91,230.14,7.86;2,316.81,185.37,239.11,7.86;2,316.81,195.83,156.89,7.86">für Theoretische Studien, Germany A summary of workshop results follows, looking at the employed programming models and languages, code scalability, tools at scale, and parallel I/O.</s><s xml:id="_7VG5tHb" coords="2,477.49,195.83,78.43,7.86;2,316.81,206.29,239.10,7.86;2,316.81,216.75,100.32,7.86">Detailed results for each code are found in the reports provided by each of the participating teams <ref type="bibr" coords="2,400.26,216.75,13.49,7.86" target="#b22">[22]</ref>.</s><s xml:id="_RKeTk2X" coords="2,424.35,216.75,131.57,7.86;2,316.81,227.21,239.11,7.86;2,316.81,237.67,157.86,7.86">These present and discuss more execution configurations and scaling results achieved by the application codes during the workshop.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_Fw6Z9Kc">SUMMARY OF RESULTS</head><p xml:id="_Ythk2XG"><s xml:id="_RH2KqX4" coords="2,325.78,274.45,233.88,7.86;2,316.81,284.91,239.12,7.86;2,316.81,295.37,92.90,7.86">Characteristics of the eight workshop codes are summarised in Table <ref type="table" coords="2,353.09,284.91,4.61,7.86" target="#tab_1">1</ref> and discussed first, then followed by comparison of scaling performance.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_zD3p7G2">Parallel characteristics</head><p xml:id="_N5JA8uF"><s xml:id="_UspXh7T" coords="2,316.81,337.47,111.04,9.44">Programming languages.</s></p><p xml:id="_A6sT5SP"><s xml:id="_x68STv2" coords="2,325.78,349.12,232.10,7.86;2,316.81,359.58,239.11,7.86;2,316.81,370.04,239.11,7.86;2,316.81,380.51,76.88,7.86">Since Blue Gene/Q offers lower-level function calls for some hardware-specific features that are sometimes not available for all programming languages, a starting point is looking at the languages used.</s><s xml:id="_xGvfabG" coords="2,397.52,380.51,158.39,7.86;2,316.81,390.97,239.11,7.86;2,316.81,401.43,47.13,7.86">The left of Figure <ref type="figure" coords="2,469.16,380.51,4.61,7.86">1</ref> shows a Venn set diagram of the programming language(s) used by the High-Q Club codes.</s><s xml:id="_rvvMFYp" coords="2,368.91,401.43,187.02,7.86;2,316.81,411.89,239.10,7.86;2,316.81,422.35,24.28,7.86">It indicates that all three major programming languages are equally popular (without considering lines of code).</s><s xml:id="_czaW8Qd" coords="2,345.53,422.35,210.39,7.86;2,316.81,432.81,239.10,7.86;2,316.81,443.27,160.10,7.86">Of the 8 workshop codes, three are exclusively written in Fortran, two only in C++, one is C, and the other two combine C with C++ or Fortran.</s><s xml:id="_zRdMpYG" coords="2,484.87,443.27,71.05,7.86;2,316.81,453.73,239.11,7.86;2,316.81,464.19,88.41,7.86">Portability is apparently important, as hardware-specific coding extensions are generally avoided.</s><s xml:id="_8dWDTM9" coords="2,410.66,464.19,145.26,7.86;2,316.81,474.65,239.11,7.86;2,316.81,485.11,239.11,7.86;2,316.81,495.57,198.98,7.86">The workshop codes all used IBM's XL compiler suite, whereas various High-Q Club application codes have preferred GCC or Clang compilers which offer support for more recent language standards.</s><s xml:id="_3dNVtf9" coords="2,519.87,495.57,36.06,7.86;2,316.81,506.03,239.11,7.86;2,316.81,516.50,239.11,7.86;2,316.81,526.96,131.10,7.86">Most optimisations employed by the codes are therefore not specific to Blue Gene (or BG/Q) systems, but can also be exploited on other highly-parallel systems.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_pBtAE2e">Parallelisation modes.</head><p xml:id="_mEc6E5Z"><s xml:id="_KJcUJnU" coords="2,325.78,559.83,230.14,7.86;2,316.81,570.29,239.10,7.86;2,316.81,580.75,239.11,7.86;2,316.81,591.21,42.98,7.86">The four hardware threads per core of the Blue Gene/Q chip in conjunction with the limited amount of compute node memory suggest to make use of multi-threaded programming.</s><s xml:id="_BvhwBU8" coords="2,364.76,591.21,191.16,7.86;2,316.81,601.68,239.11,7.86;2,316.81,612.14,116.31,7.86">It is therefore interesting to see whether this is indeed the preferred programming model and whether the available memory is an issue.</s><s xml:id="_GD3bh9t" coords="2,437.15,612.14,118.77,7.86;2,316.81,622.60,239.11,7.86;2,316.81,633.06,239.11,7.86;2,316.81,643.52,111.56,7.86">The middle of Figure <ref type="figure" coords="2,525.05,612.14,4.61,7.86">1</ref> shows a Venn set diagram of the programming models used by High-Q Club codes, revealing that mixed-mode programming does indeed dominate.</s><s xml:id="_cY2Tk4m" coords="2,432.31,643.52,123.61,7.86;2,316.81,653.98,239.10,7.86;2,316.81,664.44,197.06,7.86">Looking at the workshop codes in particular, all eight used MPI, which is almost ubiquitous for portable distributed-memory parallelisation.</s><s xml:id="_TXDzhtP" coords="2,522.82,664.34,33.09,7.96;2,316.81,674.90,239.11,7.86;3,53.80,630.07,192.77,7.86">dynQCD is the only High-Q Club application employing lower-level  machine-specific SPI for maximum performance.</s><s xml:id="_ywZQBKY" coords="3,250.46,630.07,42.44,7.86;3,53.80,640.53,239.10,7.86;3,53.80,650.99,239.11,7.86;3,53.80,661.45,141.61,7.86">Five of the workshop codes exclusively used MPI for their scaling runs, both between and within compute nodes, accommodating to the restricted per-process memory.</s><s xml:id="_57yU83F" coords="3,201.70,661.35,91.21,7.96;3,53.80,671.91,239.10,7.86;3,53.80,682.37,239.11,7.86;3,53.80,692.83,114.89,7.86">p4est has started testing the use of MPI-3 shared memory functionality, which is expected to save memory when running multiple MPI processes on each compute node.</s><s xml:id="_FP4NBUx" coords="3,172.45,692.83,120.46,7.86;3,53.80,703.29,239.10,7.86;3,316.81,630.07,239.10,7.86;3,316.81,640.53,153.75,7.86">The remaining three workshop codes employ OpenMP multi-threading to exploit compute node shared memory in conjunction with MPI, as do the majority of High-Q Club applications.</s><s xml:id="_CTdcJzQ" coords="3,474.67,640.53,81.25,7.86;3,316.81,650.99,239.11,7.86;3,316.81,661.45,103.31,7.86">Instead of OpenMP, three of the High-Q Club applications prefer POSIX threading for additional control.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_MAHEVPt">File I/O.</head><p xml:id="_4zFYpMW"><s xml:id="_tjNr8nE" coords="3,325.78,694.32,230.14,7.86;3,316.81,704.79,239.11,7.86;4,53.80,57.64,239.11,7.86;4,53.80,68.10,239.11,7.86;4,53.80,78.56,129.76,7.86">The right of Figure <ref type="figure" coords="3,406.17,694.32,4.61,7.86">1</ref> shows a pie-chart breakdown of the I/O libraries used by High-Q Club codes, although in most cases writing output and in some cases reading input files was disabled for their large-scale executions and synthesised or replicated data used instead.</s><s xml:id="_ABy7FsX" coords="4,189.76,78.56,103.15,7.86;4,53.80,89.02,239.11,7.86;4,53.80,99.48,239.11,7.86;4,53.80,109.94,147.42,7.86">Unfortunately, I/O usage by over 40% of High-Q Club was not provided with their submissions for membership indicating that file I/O has not yet received the required attention.</s><s xml:id="_rSZfBbh" coords="4,209.56,109.94,83.34,7.86;4,53.80,120.40,239.10,7.86;4,53.80,130.86,162.32,7.86">Whereas half of the codes in the workshop can use MPI-I/O directly, only 10% of club members stated that they can do so.</s><s xml:id="_CyvTK7V" coords="4,219.95,130.86,72.96,7.86;4,53.80,141.32,239.11,7.86;4,53.80,151.78,239.11,7.86;4,53.80,162.24,57.47,7.86">One quarter of the High-Q Club codes can use either (p)HDF5 or (p)NetCDF, despite their often disappointing performance as seen during the workshop.</s><s xml:id="_tMAtb95" coords="4,118.77,162.24,174.14,7.86;4,53.80,172.70,239.11,7.86;4,53.80,183.17,174.87,7.86">20% of High-Q Club codes have migrated to using SIONlib <ref type="bibr" coords="4,126.66,172.70,14.32,7.86" target="#b29">[28]</ref> for effective parallel I/O, but only a couple of workshop codes have started this.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_TDUqWHZ">Concurrency.</head><p xml:id="_FjU5hzn"><s xml:id="_8SbucDv" coords="4,62.77,216.04,230.14,7.86;4,53.80,226.50,239.11,7.86;4,53.80,236.96,239.11,7.86;4,53.80,247.42,24.34,7.86">Figure <ref type="figure" coords="4,92.24,216.04,4.61,7.86" target="#fig_0">2</ref> shows the relation between the number of MPI ranks and threads per compute node where this information was available for High-Q Club (left) and workshop (right) codes.</s><s xml:id="_6v57DZM" coords="4,82.20,247.42,210.70,7.86;4,53.80,257.89,239.11,7.86;4,53.80,268.35,239.10,7.86;4,53.80,278.81,217.21,7.86">On either side of each diagram are the two extremes of exclusively using a distributed or shared memory approach within a node, so at most all 64 hardware threads on each CPU with either 64 processes or 64 threads.</s><s xml:id="_dn3vC8H" coords="4,277.04,278.81,15.87,7.86;4,53.80,289.27,239.11,7.86;4,53.80,299.73,239.11,7.86;4,53.80,310.19,187.48,7.86">The charts show the number of processes on each compute node with downward bars while the associated number of threads is indicated with the bars extending upwards.</s><s xml:id="_wnPyAE7" coords="4,247.09,310.19,45.82,7.86;4,53.80,320.65,239.11,7.86;4,53.80,331.11,181.71,7.86">Included in red hatching is the resulting number of hardware threads used by the code, i.e., the node concurrency.</s><s xml:id="_A9ua4BB" coords="4,240.65,331.11,52.26,7.86;4,53.80,341.57,239.10,7.86;4,53.80,352.03,239.11,7.86;4,53.80,362.49,55.23,7.86">High-Q Club member codes often seem to benefit from using more hardware threads than physical cores and therefore favour this configuration.</s><s xml:id="_yWMCDT9" coords="4,112.84,362.40,180.06,7.96;4,53.80,372.95,239.11,7.86;4,53.80,383.41,239.11,7.86;4,53.80,393.88,140.30,7.86">For others, such as NEST (and NEST-import), making full use of the available compute node memory for simulations is more important than full exploitation of processor cores and hardware threads.</s><s xml:id="_wPg4Frf" coords="4,198.26,393.88,94.65,7.86;4,53.80,404.34,239.11,7.86;4,53.80,414.80,239.11,7.86;4,53.80,425.16,239.11,7.96;4,53.80,435.72,172.88,7.86">Using lower precision is occassionally exploited to reduce memory requirements and improve time to solution of large-scale simulations, however, larger PFLOTRAN simulations were prevented by its use of 32-bit (rather than 64-bit) integer indices.</s><s xml:id="_y9vtTJM" coords="4,232.74,435.72,60.17,7.86;4,53.80,446.08,239.11,7.96;4,53.80,456.64,239.11,7.86;4,53.80,467.10,239.11,7.86;4,53.80,477.56,138.01,7.86">The two workshop codes Code Saturne and SLH which qualified to join the High-Q Club similarly exploit all hardware threads by combining MPI+OpenMP, whereas none of the codes using purely MPI managed to this time.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_EJgEwNU">Weak and strong scaling and performance</head><p xml:id="_7ZeXbwN"><s xml:id="_dSuHVQB" coords="4,62.77,512.43,230.15,7.86;4,53.80,522.89,85.30,7.86">Here we show an overview of the scaling results achieved during the workshop.</s><s xml:id="_WRUuUXn" coords="4,143.16,522.89,149.74,7.86;4,53.80,533.35,239.11,7.86;4,53.80,543.81,239.10,7.86;4,53.80,554.27,105.88,7.86">We compare strong (fixed total problem size) and weak (fixed problem size per process or thread) scaling, put in context of the scalability results from other codes in the High-Q Club.</s></p><p xml:id="_mqvPD4b"><s xml:id="_4N4h2Ft" coords="4,62.77,564.73,230.14,7.86;4,53.80,575.20,239.11,7.86;4,53.80,585.66,91.07,7.86">Figures <ref type="figure" coords="4,95.98,564.73,4.61,7.86">3</ref> and<ref type="figure" coords="4,122.62,564.73,4.61,7.86" target="#fig_1">4</ref> show strong and weak scaling results of the workshop codes, including in grey results from a selection of High-Q Club codes.</s><s xml:id="_EdSgz4W" coords="4,150.23,585.66,142.68,7.86;4,53.80,596.12,239.11,7.86">This indicates the spread in execution results and diverse scaling characteristics of the codes.</s><s xml:id="_FMSsbyZ" coords="4,53.80,606.58,239.11,7.86;4,53.80,617.04,239.11,7.86;4,53.80,627.50,42.24,7.86">The graphs show six of the workshop codes managing to run on the full JUQUEEN system, and most achieved good scalability.</s><s xml:id="_SMgSdqZ" coords="4,100.11,627.40,192.80,7.96;4,53.80,637.96,157.19,7.86">p4est scalability is not included as it had execution times of only a couple of seconds.</s><s xml:id="_NtPQtWJ" coords="4,216.54,637.96,76.36,7.86;4,53.80,648.42,239.11,7.86;4,53.80,658.88,239.10,7.86;4,53.80,669.34,239.11,7.86;4,53.80,679.80,239.11,7.86;4,53.80,690.26,239.10,7.86;4,53.80,700.72,239.11,7.86;4,53.80,711.19,114.66,7.86">Note that in many cases the graphs do not have a common baseline of a single rack since datasets sometimes did not fit available memory or no measurement was provided for 1024 compute nodes: for strong scaling an execution with a minimum of seven racks (one quarter of JUQUEEN ) is therefore accepted for a baseline measurement, with perfect scaling assumed from a single rack to the baseline.</s><s xml:id="_M6JdmbR" coords="4,325.78,470.59,230.15,7.86;4,316.81,480.95,239.11,7.96;4,316.81,491.41,239.11,7.96;4,316.81,501.97,111.35,7.86">In Figure <ref type="figure" coords="4,365.22,470.59,4.61,7.86">3</ref> almost ideal strong-scaling speed-up of 27× on 28 racks is achieved by CIAO (in both configurations tested, like its previous High-Q Club entry), whereas Code Saturne only shows a 19× speed-up.</s><s xml:id="_AGpwbDs" coords="4,433.00,501.87,122.92,7.96;4,316.81,512.43,239.10,7.86;4,316.81,522.89,40.49,7.86">SLH speed-up is somewhere in between for the two problem sizes and run configurations measured.</s><s xml:id="_B2U3J8M" coords="4,365.39,522.79,190.53,7.96;4,316.81,533.35,239.10,7.86;4,316.81,543.72,239.11,7.96;4,316.81,554.27,115.92,7.86">dynQCD stands-out with superlinear speed-up of 52×, due to its exceptional ability to exploit caches as problem size per thread decreases, whereas ICON achieved only a modest 12× speed-up.</s></p><p xml:id="_XcEd7BF"><s xml:id="_XvMX6fG" coords="4,325.78,564.64,230.14,7.96;4,316.81,575.20,239.10,7.86;4,316.81,585.66,182.47,7.86">PFLOTRAN managed to run on up to 8 racks before file I/O became prohibitive, but showed reasonable scalability of the solver for sufficiently large problem sizes.</s><s xml:id="_grAkGRH" coords="4,504.06,585.56,51.85,7.96;4,316.81,596.12,239.11,7.86;4,316.81,606.58,239.11,7.86;4,316.81,617.04,203.09,7.86">NEST-import ran successfully on all 28 racks, but only reached a scalability of 7× (probably largely due to its increasingly inefficient noncollective file reading and all-to-all redistribution).</s></p><p xml:id="_pAgQEgX"><s xml:id="_cmCW4ug" coords="4,325.78,627.40,230.15,7.96;4,316.81,637.96,239.11,7.86;4,316.81,648.42,239.11,7.86;4,316.81,658.78,239.11,7.96;4,316.81,669.24,239.10,7.96;4,316.81,679.80,70.34,7.86">In Figure <ref type="figure" coords="4,368.91,627.50,3.58,7.86" target="#fig_1">4</ref>, the weak scaling efficiency of IciMesh is a respectable 87% with 28 racks (though the largest measurement comes from a somewhat different problem configuration), whereas the new iFETI solver at only 69% scales considerably less well than their current High-Q Club FE2TI solver with 99%.</s><s xml:id="_bCpjkCe" coords="4,396.89,679.71,159.03,7.96;4,316.81,690.26,239.10,7.86;4,316.81,700.63,239.11,7.96;4,316.81,711.19,122.32,7.86">muPhi was able to achieve 102% efficiency on 28 racks compared with a single rack, whereas JURASSIC only managed 68% efficiency due to excessive I/O for the reduced-size test case.</s><s xml:id="_8BSY5kW" coords="4,446.02,711.19,109.91,7.86;5,53.80,325.64,502.13,8.14;5,53.80,336.03,502.12,7.96">Various codes show erratic Figure <ref type="figure" coords="5,86.86,325.64,4.12,7.89">5</ref>: Scalasca analysis report explorer views of import_synapses extract of a Score-P measurement profile from NEST-import execution on all 28 racks of JUQUEEN (28 672 MPI ranks each with 16 OpenMP threads).</s><s xml:id="_zweMmXR" coords="5,53.80,346.57,502.12,8.14;5,53.80,357.03,167.83,7.89">The upper-left view shows 21% of time is in MPI_File_read_at, when loading 1.9 TiB of HDF5 neuron and synapse data in six parts (174 calls).</s><s xml:id="_KsQy23d" coords="5,226.23,357.03,329.68,7.89;5,53.80,367.49,502.11,8.14;5,53.80,377.95,332.02,7.89">Reading time by rank varies from 1.07 to 86.06 seconds, resulting in up to 85 seconds of waiting within the subsequent synchronising collective MPI_Alltoall (upper-right), as part of the 120 seconds each rank takes to load and redistribute the data.</s><s xml:id="_kxj5CpM" coords="5,393.54,377.95,162.38,7.89;5,53.80,388.41,502.12,8.14;5,53.80,398.87,242.69,7.89">The lower views show time in the subsequent connect step ranging from 4.14 to 52.62 seconds, where some threads wait up to 48 seconds in the implicit barrier closing the OpenMP parallel region.</s></p><p xml:id="_Y6P45Gs"><s xml:id="_ZbVsS8q" coords="5,53.80,428.53,239.11,7.86;5,53.80,438.99,13.81,7.86">scaling performance, most likely due to topological effects, e.g.</s><s xml:id="_hpPaf2g" coords="5,70.61,438.89,222.30,7.96;5,53.80,449.45,239.11,7.86;5,53.80,459.91,35.09,7.86">SHOCK is characterised by particularly poor configurations with an odd number of racks in one dimension (i.e. 3, 5 and 7).</s><s xml:id="_ZgqN5By" coords="5,92.77,459.81,200.13,7.96;5,53.80,470.37,176.65,7.86">Similarly, OpenTBL shows marked efficiency drops for non-square numbers of racks (8 and 28).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3" xml:id="_S6mQShm">Tools at scale</head><p xml:id="_2H9q2ek"><s xml:id="_dAqcpP3" coords="5,62.77,501.97,230.15,7.86;5,53.80,512.43,239.10,7.86;5,53.80,522.79,132.84,7.96">The community-developed Score-P instrumentation and measurement infrastructure <ref type="bibr" coords="5,169.17,512.43,14.32,7.86" target="#b25">[25]</ref> employed by Scalasca <ref type="bibr" coords="5,278.59,512.43,14.31,7.86" target="#b27">[26]</ref> was used to profile NEST-import.</s><s xml:id="_RCvBd3Q" coords="5,190.97,522.89,101.93,7.86;5,53.80,533.35,239.11,7.86;5,53.80,543.81,239.11,7.86;5,53.80,554.27,239.11,7.86;5,53.80,564.73,209.01,7.86">Since automatic compiler instrumentation of all routines in C++ applications typically results in prohibitive measurement overheads, instead manual annotation of the relevant code regions was used to augment the instrumentation of OpenMP and MPI.</s><s xml:id="_Xv2PADy" coords="5,265.83,564.73,27.08,7.86;5,53.80,575.20,239.11,7.86;5,53.80,585.66,240.17,7.86;5,53.80,596.12,239.11,7.86;5,53.80,606.58,239.11,7.86;5,53.80,617.04,46.39,7.86">An example profile from an execution on all 28-racks of JUQUEEN (28 672 MPI ranks each with 16 OpenMP threads, for 458 752 in total) is shown in Figure <ref type="figure" coords="5,168.09,596.12,3.58,7.86">5</ref>. Substantial time and imbalance in MPI file I/O and the main OpenMP parallel region are evident.</s><s xml:id="_UZMVKET" coords="5,104.03,617.04,188.87,7.86;5,53.80,627.50,239.10,7.86;5,53.80,637.96,239.10,7.86;5,53.80,648.42,53.56,7.86">The former was subsequently identified as originating from a mismatch between the module's data structure and the HDF5 file objects which resulted in use of individual MPI file I/O.</s></p><p xml:id="_Wk6EcJw"><s xml:id="_x2KagqF" coords="5,62.77,658.88,230.13,7.86;5,53.80,669.34,239.11,7.86;5,53.80,679.80,160.99,7.86">While Score-P does not yet support POSIX file I/O or provide measurements of the number of bytes read or written, Darshan <ref type="bibr" coords="5,109.47,679.80,14.32,7.86" target="#b28">[27]</ref> was available for this.</s><s xml:id="_pTaxaGB" coords="5,219.53,679.80,73.38,7.86;5,53.80,690.26,239.11,7.86;5,53.80,700.63,239.11,7.96;5,53.80,711.09,239.11,7.96;5,316.81,428.43,178.71,7.96">Darshan problems with Fortran codes using MPI on JUQUEEN required a linking workaround, which worked for CIAO but not for PFLO-TRAN, and the C++ codes ICI and iFETI also reported is-sues (whereas NEST-import was successful).</s><s xml:id="_bfBW58Q" coords="5,502.01,428.53,53.91,7.86;5,316.81,438.99,239.10,7.86;5,316.81,449.45,142.39,7.86">A revised set of Darshan linking wrappers have been developed which are expected to resolve these problems.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4" xml:id="_85j3sDM">Parallel I/O</head><p xml:id="_WVyM482"><s xml:id="_3CrHHfd" coords="5,325.78,481.05,230.14,7.86;5,316.81,491.51,239.11,7.86;5,316.81,501.97,218.35,7.86">File I/O performance is a critical scalability constraint for many large-scale parallel applications which need to read and write huge datasets or open a large number of files.</s><s xml:id="_fxxvfxx" coords="5,539.04,501.97,16.88,7.86;5,316.81,512.43,239.10,7.86;5,316.81,522.89,44.69,7.86">Half of the workshop codes used MPI file I/O directly, whereas others (e.g.</s><s xml:id="_wY5etN5" coords="5,364.18,522.79,165.03,7.96">NEST-import) use it indirectly via HDF5.</s><s xml:id="_zbeaA4M" coords="5,533.16,522.89,22.75,7.86;5,316.81,533.25,239.10,7.96;5,316.81,543.81,85.49,7.86">Additionally, p4est can use MPI file I/O but did not for the runs during the workshop.</s></p><p xml:id="_6grTsmD"><s xml:id="_JAapwkX" coords="5,325.78,554.18,230.15,7.96;5,316.81,564.73,239.11,7.86;5,316.81,575.20,239.11,7.86;5,316.81,585.66,20.47,7.86">Code Saturne used MPI collective file I/O effectively to read 618 GiB of mesh input data, however, writing of simulation output was disabled as this was a known bottleneck.</s><s xml:id="_TWWAXTT" coords="5,341.42,585.56,214.50,7.96;5,316.81,596.12,239.10,7.86;5,316.81,606.58,117.57,7.86">The NEST-import module read 1.9 TiB of HDF5 neuron and synapse data but only attained a fraction of the GPFS filesystem bandwidth.</s><s xml:id="_m8k4Dyg" coords="5,441.62,606.58,114.30,7.86;5,316.81,617.04,239.11,7.86;5,316.81,627.50,239.10,7.86;5,316.81,637.96,239.12,7.86;5,316.81,648.42,239.11,7.86;5,316.81,658.88,72.28,7.86">Internal data structures are currently being adapted to be able to exploit MPI collective file reading, which is expected to significantly out-perform the current MPI individual/independent file reading and should enable large-scale data-driven neuronal network simulations in future.</s><s xml:id="_YAz288n" coords="5,393.15,658.78,162.77,7.96;5,316.81,669.34,239.10,7.86;5,316.81,679.80,212.60,7.86">SLH compared writing 264 GiB of astrophysical simulation output using MPI-IO to a single file or using C stdio to separate files for each MPI process.</s><s xml:id="_GdPQJ3h" coords="5,534.41,679.80,21.51,7.86;5,316.81,690.26,239.11,7.86;5,316.81,700.72,239.11,7.86;5,316.81,711.19,239.11,7.86;6,53.80,57.64,230.86,7.86">Writing many process-local files is impractical as it requires all of the files to be created on disk in advance, to avoid filesystem meta-data issues, and an expensive post-processing to aggregate the output into a single file for subsequent use.</s></p><p xml:id="_hnPhfke"><s xml:id="_Px2fNfy" coords="6,62.77,68.00,230.14,7.96;6,53.80,78.56,239.11,7.86;6,53.80,88.92,239.11,7.96;6,53.80,99.48,239.11,7.86;6,53.80,109.94,239.12,7.86;6,53.80,120.40,96.15,7.86">While IciMesh was able to generate an adapted mesh with over 100 billion elements using 458 752 MPI ranks on all 28 racks of JUQUEEN, the associated solver IciSolve was limited to 65 536 MPI ranks due to problems uncovered with their use of MPI individual/independent file I/O to read their 1.7 TiB mesh files.</s><s xml:id="_sPkStKu" coords="6,154.55,120.40,138.36,7.86;6,53.80,130.76,239.11,7.96;6,53.80,141.32,239.10,7.86;6,53.80,151.78,239.11,7.86;6,53.80,162.24,72.28,7.86">The parallel adaptive mesh refinement code p4est demonstrated generation, refinement and partitioning, managing in-core meshes with up to 940 billion elements in 21 seconds using 917 504 MPI ranks on 28 JUQUEEN racks.</s><s xml:id="_zfxJ575" coords="6,130.34,162.24,162.57,7.86;6,53.80,172.70,239.11,7.86;6,53.80,183.17,119.85,7.86">In a test case with a larger coarse mesh, memory was the limiting factor for broadcasting data from a single MPI rank to the others.</s><s xml:id="_KEpkSbd" coords="6,177.57,183.17,115.33,7.86;6,53.80,193.53,239.11,7.96;6,53.80,204.09,239.11,7.86;6,53.80,214.55,100.31,7.86">HDF5 file I/O also presented an insurmountable scalability impediment for PFLOTRAN, particularly for larger problem sizes and with more than ten thousand MPI processes.</s></p><p xml:id="_JrXSsFh"><s xml:id="_te9rjWy" coords="6,62.77,225.01,230.15,7.86;6,53.80,235.47,239.11,7.86;6,53.80,245.93,145.38,7.86">All of the above is evidence that file I/O is critical and needs the appropriate attention by the programmer and the right methods to perform I/O.</s><s xml:id="_5rb2Mda" coords="6,203.53,245.93,89.38,7.86;6,53.80,256.39,239.11,7.86;6,53.80,266.85,22.03,7.86">At JSC, SIONlib <ref type="bibr" coords="6,278.60,245.93,14.31,7.86" target="#b29">[28]</ref> has been developed to address file I/O scalability limitations.</s><s xml:id="_4P26wQw" coords="6,82.72,266.85,210.18,7.86;6,53.80,277.21,239.11,7.96;6,53.80,287.68,239.11,7.96">It has been used effectively by three High-Q codes (KKRnano, MP2C and muPhi) and several other applications are currently migrating to adopt it (e.g., NEST and SLH).</s><s xml:id="_G6scGmz" coords="6,53.80,298.23,239.12,7.86;6,53.80,308.70,129.36,7.86">SIONlib is highly optimized for task-local I/O patterns on massively parallel architectures.</s><s xml:id="_6X62mvV" coords="6,189.16,308.70,103.75,7.86;6,53.80,319.16,239.10,7.86;6,53.80,329.62,239.11,7.86;6,53.80,340.08,239.11,7.86;6,53.80,350.54,33.50,7.86">For example, with SIONlib on JUQUEEN applications are able to achieve an I/O bandwidth of more than 100 GiB/s using a virtual shared file container and techniques for accessing the container efficiently.</s><s xml:id="_6cU6bK8" coords="6,91.35,350.54,201.56,7.86;6,53.80,361.00,239.11,7.86;6,53.80,371.46,213.58,7.86">The latter involve file system block alignment and the separation of I/O-streams by creating one physical file per I/O-bridge node of the Blue Gene/Q system <ref type="bibr" coords="6,250.51,371.46,13.49,7.86" target="#b30">[29]</ref>.</s></p><p xml:id="_wUCYQjj"><s xml:id="_aWUswm3" coords="6,62.77,381.92,230.14,7.86;6,53.80,392.38,239.11,7.86;6,53.80,402.84,22.03,7.86">Apart from specifying a GPFS filesystem type, additional hints for MPI-IO were not investigated by these applications.</s><s xml:id="_EXsjEyK" coords="6,81.72,402.74,211.18,7.96;6,53.80,413.30,239.11,7.86;6,53.80,423.76,116.98,7.86">CIAO experimented with various MPI-IO (ROMIO) hints, but did not observe any benefit when writing single 9 TiB files with MPI file I/O.</s><s xml:id="_hMHBXPC" coords="6,173.64,423.76,119.26,7.86;6,53.80,434.22,239.10,7.86;6,53.80,444.69,239.11,7.86;6,53.80,455.15,239.10,7.86;6,53.80,465.61,87.80,7.86">Whether the parameters have no effect due to the MPI implementation on JUQUEEN is still under investigation, but it is well known that reading and writing single shared files fails to exploit the available filesystem bandwidth.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5" xml:id="_ca9tBkT">In-situ visualisation</head><p xml:id="_PVs5Wss"><s xml:id="_HT5AC48" coords="6,62.77,500.43,230.15,7.86;6,53.80,510.89,239.11,7.86;6,53.80,521.35,100.71,7.86;6,158.39,519.58,7.31,5.24;6,170.08,521.35,122.83,7.86;6,53.80,531.81,239.11,7.86;6,53.80,542.27,95.73,7.86">Large amounts of application file I/O can be avoided via methods for in-situ visualization of large simulations developed within JARA-HPC 10 to allow easy and fast control of large simulations and reduce the amount of data which needs to be stored <ref type="bibr" coords="6,132.66,542.27,13.49,7.86" target="#b23">[23]</ref>.</s><s xml:id="_wCgHjBG" coords="6,155.33,542.27,137.56,7.86;6,53.80,552.73,33.63,7.86;6,90.16,550.97,7.31,5.24;6,100.69,552.64,192.22,7.96;6,53.80,563.19,41.65,7.86">More precisely, the coupling layer JUSITU 11 has been implemented and coupled to CIAO and VisIt <ref type="bibr" coords="6,78.58,563.19,13.49,7.86" target="#b24">[24]</ref>.</s><s xml:id="_K4pDvYx" coords="6,104.72,563.19,188.18,7.86;6,53.80,573.66,239.11,7.86;6,53.80,584.12,239.10,7.86;6,53.80,594.58,57.05,7.86">A compressible, turbulent channel (Reynolds number 13 760) containing small droplets (described by an Eulerian indicator function) was the chosen test case for the workshop.</s><s xml:id="_gKV2XKY" coords="6,117.07,594.58,175.84,7.86;6,53.80,605.04,84.65,7.86">Figure <ref type="figure" coords="6,146.82,594.58,4.61,7.86">6</ref> shows a screenshot of the full 28rack JUQUEEN run.</s><s xml:id="_Mm5HGtW" coords="6,142.40,605.04,150.51,7.86;6,53.80,615.50,163.14,7.86">It visualizes the simulation state after running for 9 units of simulation time.</s><s xml:id="_NhqnYhk" coords="6,225.19,615.50,67.72,7.86;6,53.80,625.96,239.11,7.86;6,53.80,636.42,239.11,7.86;6,53.80,646.88,239.11,7.86;6,53.80,657.34,239.11,7.86;6,53.80,667.80,239.11,7.86;6,53.80,678.26,103.93,7.86">Beside the VisIt overview window (on the left), Window 1 showing a histogram of the pressure, Window 2 visualizing the turbulent kinetic energy within the channel, the Compute engines window giving information about the simulation on JUQUEEN, and the Simulation window allowing to give instructions to the simulation are visible.</s></p><p xml:id="_Y9PHf25"><s xml:id="_V9Ubtaf" coords="6,50.60,699.09,7.31,5.24;6,58.40,700.86,176.31,7.86;6,50.60,709.42,7.31,5.24">10 http://www.jara.org/en/research/jara-hpc/ 11</s><s xml:id="_XacWvm2" coords="6,58.40,711.19,180.19,7.86">https://gitlab.version.fz-juelich.de/vis/jusitu</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6" xml:id="_CMgJAYr">Miscellany</head><p xml:id="_7JjUcQ3"><s xml:id="_Wd3cCeW" coords="6,325.78,70.59,230.14,7.86;6,316.81,81.05,239.10,7.86;6,316.81,91.51,194.64,7.86">The workshop participants were all associated with active projects on JUQUEEN, which allowed them to prepare their codes and datasets in advance of the workshop.</s><s xml:id="_TTtfmn4" coords="6,517.01,91.51,38.91,7.86;6,316.81,101.97,239.11,7.86;6,316.81,112.43,239.11,7.86;6,316.81,122.89,239.10,7.86;6,316.81,133.35,51.90,7.86">The most successful teams were very familiar with their codes, able to build and run them in different configurations, and had also prepared performance profiles and analysis reports for examination.</s></p><p xml:id="_E8FpkTU"><s xml:id="_QvDwn92" coords="6,325.78,143.81,230.14,7.86;6,316.81,154.27,143.70,7.86">Many of the workshop participants' codes used popular libraries such as HDF5 and PETSc.</s><s xml:id="_6vwdMXV" coords="6,464.58,154.27,91.34,7.86;6,316.81,164.73,239.11,7.86;6,316.81,175.20,239.11,7.86;6,316.81,185.66,239.11,7.86;6,316.81,196.12,37.97,7.86">This facilitated discussion and exchange of experience, despite apparent favouring of different library versions and configurations (which were often customised rather than relying on the system installed versions).</s></p><p xml:id="_Bds6mDx"><s xml:id="_UuBvzSJ" coords="6,325.78,206.58,230.14,7.86;6,316.81,217.04,239.11,7.86;6,316.81,227.50,55.92,7.86">All of the workshop accounts were part of the training group sharing the provided compute-time allocation and filesystem quota.</s><s xml:id="_nWzZUa4" coords="6,377.06,227.50,178.87,7.86;6,316.81,237.96,239.10,7.86;6,316.81,248.42,239.11,7.86;6,316.81,258.88,142.05,7.86">When one team exceeded the 200 TiB group quota, by forgetting to remove test files at the end of their jobs, this temporarily resulted in compilation and execution failures for the other participants.</s><s xml:id="_H4WWkXW" coords="6,467.13,258.88,88.78,7.86;6,316.81,269.34,239.11,7.86;6,316.81,279.80,239.10,7.86;6,316.81,290.26,239.11,7.86">Over the 50 hours of the workshop, 3 500 TiB was read and 124 TiB was written in total between applications and the I/O nodes, with the largest jobs reading 330 TiB and writing 15 TiB respectively.</s><s xml:id="_znaBqa3" coords="6,316.81,300.72,239.10,7.86;6,316.81,311.19,205.10,7.86">Maximum bandwidths recorded over one minute intervals was 700 GiB/s for reading and 18 GiB/s for writing.</s><s xml:id="_ymAeTPQ" coords="6,525.81,311.19,30.11,7.86;6,316.81,321.65,239.11,7.86;6,316.81,332.11,239.10,7.86;6,316.81,342.57,198.16,7.86">Despite the considerable load on the GPFS file-system from largescale parallel jobs doing file I/O during the workshop, the only issue encountered was variable performance.</s></p><p xml:id="_XUrr2eW"><s xml:id="_kZu82vw" coords="6,325.78,353.03,230.13,7.86;6,316.81,363.49,239.11,7.86;6,316.81,373.95,239.11,7.86;6,316.81,384.41,239.11,7.86;6,316.81,394.87,134.20,7.86">LLview was invaluable for monitoring the current use of JUQUEEN (Figure <ref type="figure" coords="6,397.31,363.49,3.58,7.86">7</ref>), additionally showing job energy consumption and file I/O performance, while real-time accounting of jobs during the workshop facilitated tracking of resource usage by each participant.</s><s xml:id="_YVFSm7m" coords="6,455.55,394.87,100.36,7.86;6,316.81,405.33,239.11,7.86;6,316.81,415.79,239.11,7.86;6,316.81,426.25,67.62,7.86">LoadLeveler job scheduling quirks were avoided by deft intervention from sysadmins closely monitoring JUQUEEN during the workshop (day and night).</s><s xml:id="_zNDEbSD" coords="6,391.41,426.25,164.52,7.86;6,316.81,436.72,239.10,7.86;6,316.81,447.18,179.84,7.86">43 jobs were run on all 28 racks, 15 on 24 racks, 13 on 20 racks, as well as 90 jobs with 16 racks, consuming a total of 15.4 million core-hours.</s></p><p xml:id="_JRHedUt"><s xml:id="_ztkU7GN" coords="6,325.78,457.64,230.14,7.86;6,316.81,468.10,239.11,7.86;6,316.81,478.56,239.11,7.86;6,316.81,489.02,63.43,7.86">At the start of the workshop, two defective nodeboards limited initial scaling tests to 24 racks for the first 24 hours, but after their replacement 28-rack jobs were quickly tested by most teams.</s><s xml:id="_r8tPaK2" coords="6,387.25,489.02,168.67,7.86;6,316.81,499.48,127.70,7.86">No additional hardware failures were encountered during the workshop.</s></p><p xml:id="_m2DtfvN"><s xml:id="_Yywwj82" coords="6,325.78,509.94,230.14,7.86;6,316.81,520.40,239.10,7.86;6,316.81,530.86,239.11,7.86;6,316.81,541.32,71.64,7.86">Given the demanding nature of the workshop, considerable flexibility is essential, both from participants and their test cases and regarding scheduling of breaks, sessions and system partitions.</s><s xml:id="_SZn9wG3" coords="6,392.41,541.32,163.51,7.86;6,316.81,551.78,239.11,7.86;6,316.81,562.24,162.11,7.86">Physical presence of at least one member of each code team in the classroom for the workshop is therefore necessary for rapid communication.</s><s xml:id="_KnWE5pR" coords="6,484.02,562.24,71.90,7.86;6,316.81,572.71,239.10,7.86;6,316.81,583.17,239.10,7.86;6,316.81,593.63,239.11,7.86;6,316.81,604.09,22.03,7.86">This proved especially the case given the mix of proven highly-scaling codes (often needing the entire compute resource) and the need for smaller-scale tests to investigate problems and verify solutions.</s><s xml:id="_b4kk33e" coords="6,343.90,604.09,212.02,7.86;6,316.81,614.55,239.11,7.86;6,316.81,625.01,65.26,7.86">The physical configuration of JUQUEEN makes the workshop particularly unsuited to small-scale tests with long execution times.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_4R8PgEu">CONCLUSIONS</head><p xml:id="_BY9c5As"><s xml:id="_QjW5gdU" coords="6,325.78,669.34,230.15,7.86;6,316.81,679.80,239.11,7.86;6,316.81,690.26,239.11,7.86;6,316.81,700.73,239.10,7.86;6,316.81,711.19,239.10,7.86;8,53.80,57.64,239.11,7.86;8,53.80,68.10,239.11,7.86;8,53.80,78.56,127.31,7.86">The variety of codes and participants, from different but often related subject areas as well as different institutions and countries, combined with similarly diverse support staff, contributes to the intense yet highly productive nature of JSC Extreme Scaling Workshops which have the goal of proving and improving the ability of applications to exploit current and forthcoming extremely large and complex highperformance computer systems.</s></p><p xml:id="_kwZ8HRH"><s xml:id="_sSvrTGE" coords="8,62.77,89.02,230.14,7.86;8,53.80,99.48,239.11,7.86;8,53.80,109.94,239.11,7.86;8,53.80,120.40,128.13,7.86">The High-Q Club documents codes from a wide range of HPC application fields demonstrating effective extremescale execution on the JUQUEEN Blue Gene/Q, generally with only modest tuning effort.</s><s xml:id="_JXQvUZm" coords="8,187.53,120.40,105.38,7.86;8,53.80,130.86,239.11,7.86;8,53.80,141.22,239.11,7.96;8,53.80,151.78,141.20,7.86">This year's Extreme Scaling Workshop identified two additional codes which qualify for membership, Code Saturne and Seven-League Hydro, both scaling to 1.8 million threads.</s><s xml:id="_5Z2jas8" coords="8,199.23,151.78,93.68,7.86;8,53.80,162.24,239.11,7.86;8,53.80,172.70,239.11,7.86;8,53.80,183.17,239.10,7.86;8,53.80,193.63,239.10,7.86;8,53.80,204.09,239.11,7.86">Standard programming languages and MPI combined with multi-threading are sufficient, and provide a straightforward migration path for application developers which has also delivered performance and scalability benefits on diverse HPC computer systems (including K computer, Cray systems and other clusters).</s><s xml:id="_zY2wF4S" coords="8,53.80,214.55,239.11,7.86;8,53.80,225.01,239.12,7.86;8,53.80,235.47,239.11,7.86;8,53.80,245.93,239.11,7.86;8,53.80,256.39,73.70,7.86">Similar ease-of-use and reliability of well-established homogeneous Blue Gene/Q systems probably cannot be expected to be representative of the current and future generations of heterogeneous HPC systems, however, we believe it is a worthwhile target.</s></p><p xml:id="_9Cy9dgm"><s xml:id="_mvY4A7V" coords="8,62.77,266.85,230.14,7.86;8,53.80,277.31,239.11,7.86;8,53.80,287.77,69.03,7.86">The High-Q Club reflects how users of JUQUEEN manage to achieve their goals, irrespective of other approaches which may be available.</s><s xml:id="_6kcA5bX" coords="8,126.78,287.77,166.12,7.86;8,53.80,298.23,239.11,7.86;8,53.80,308.70,239.11,7.86;8,53.80,319.16,239.11,7.86;8,53.80,329.62,239.11,7.86;8,53.80,340.08,166.15,7.86">Several alternatives to MPI and OpenMP are actively researched at JSC and also promoted or available on JUQUEEN, however, the High-Q Club can only document what has been used successfully without knowing reasons for possible failures, readiness of alternatives, or any work in progress on the respective codes.</s><s xml:id="_Fs83yP2" coords="8,224.63,340.08,68.27,7.86;8,53.80,350.54,239.10,7.86;8,53.80,361.00,239.11,7.86;8,53.80,371.46,35.32,7.86">Similarly, it does not allow to identify particularly efficient codes in terms of peak performance or a better time to solution for a given problem.</s><s xml:id="_R66RGDF" coords="8,93.21,371.46,199.69,7.86;8,53.80,381.92,239.11,7.86;8,53.80,392.38,239.11,7.86;8,53.80,402.84,239.11,7.86">Only simple comparative metrics like speed-up or efficiency on JUQUEEN can be assessed for several reasons: we rely on measurements that users provide, and they solve very different problems from many different scientific fields.</s></p><p xml:id="_8C98jUG"><s xml:id="_Uhnhj6a" coords="8,62.77,413.30,230.82,7.86;8,53.80,423.76,239.11,7.86;8,53.80,434.22,239.11,7.86;8,53.80,444.69,239.10,7.86;8,53.80,455.15,239.10,7.86">Whereas previously application codes have tended to avoid doing file I/O in their scaling runs, disabling outputs and using replicated or synthesised input data, this year's workshop participants were encouraged to thoroughly analyse their applications' I/O requirements and address limitations.</s><s xml:id="_FmWSb9X" coords="8,53.80,465.51,239.11,7.96;8,53.80,476.07,239.11,7.86;8,53.80,486.53,239.11,7.86;8,53.80,496.99,239.10,7.86;8,53.80,507.45,199.15,7.86">Performance analysis of the NEST-import module for the neuronal network simulator identified individual MPI file reads resulting from an internal data-structure definition mismatch with the HDF5 file objects that prevented use of much more efficient MPI collective file reads.</s><s xml:id="_v3XTPtt" coords="8,260.32,507.45,32.58,7.86;8,53.80,517.81,239.11,7.96;8,53.80,528.37,239.11,7.86;8,53.80,538.83,239.11,7.86;8,53.80,549.29,239.11,7.86;8,53.80,559.75,107.62,7.86">Also insitu interactive visualisation of a CIAO CFD simulation with 458 752 MPI processes running on 28 racks demonstrated a viable alternative to file I/O that is expected to be an essential capability for the coming generation of simulations and expected exascale systems.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,53.80,579.48,502.12,7.89;3,53.80,589.94,502.12,7.89;3,53.80,600.40,289.71,7.89"><head>Figure 2 :</head><label>2</label><figDesc><div><p xml:id="_xnkKdHz"><s xml:id="_YNF7qhz" coords="3,53.80,579.48,502.12,7.89;3,53.80,589.94,381.95,7.89">Figure 2: Chart showing the relation between the number of MPI ranks per node and threads per rank used by codes in the High-Q Club (left) and taking part in the workshop (right).</s><s xml:id="_YYVRgcm" coords="3,441.57,589.94,114.35,7.89;3,53.80,600.40,289.71,7.89">The number of resulting hardware threads used on each compute node is shown in red.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,316.81,418.99,239.11,7.89;4,316.81,429.45,239.11,7.89;4,316.81,439.91,92.72,7.89"><head>Figure 4 :</head><label>4</label><figDesc><div><p xml:id="_FvvFwRv"><s xml:id="_qEnqP79" coords="4,316.81,418.99,239.11,7.89;4,316.81,429.45,239.11,7.89;4,316.81,439.91,92.72,7.89">Figure 4: Weak scaling results of the workshop codes with results from existing High-Q Club members included in light grey.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="7,53.80,338.50,502.13,7.96;7,53.80,349.03,379.21,7.89"><head>Figure 6 :Figure 7 :</head><label>67</label><figDesc><div><p xml:id="_UqPCbAt"><s xml:id="_6psDCsA" coords="7,53.80,338.50,502.13,7.96;7,53.80,349.03,201.57,7.89">Figure 6: VisIt interactive visualization client coupled via JUSITU to CIAO fluid dynamics simulation running on JUQUEEN with 458 752 MPI processes.</s><s xml:id="_Zb9mAN2" coords="7,260.06,349.03,172.95,7.89">(Image credit: Jens Henrik Göbbert)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="3,53.80,63.80,502.13,498.68"><head>Table 1 :</head><label>1</label><figDesc><div><p xml:id="_Gh3crXK"><s xml:id="_mj5ZyPD" coords="3,96.42,63.80,249.35,7.89">2016 Extreme Scaling Workshop code characteristics.</s><s xml:id="_Mdd6v2E" coords="3,351.28,63.80,204.65,7.89;3,53.80,74.26,502.12,7.89;3,53.80,84.72,390.17,7.89">Compiler and main programming languages (excluding external libraries), parallelisation including maximal process/thread concurrency (per compute node and overall) and strong and/or weak scaling type, and file I/O implementation.</s><s xml:id="_ZrzNUrG" coords="3,448.53,84.72,107.39,7.89;3,53.80,95.18,252.02,7.89">(Supported capabilities unused for scaling runs on JUQUEEN in parenthesis.)</s></p></div></figDesc><table coords="3,87.98,108.60,439.14,453.88"><row><cell></cell><cell></cell><cell></cell><cell cols="2">Programming</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">Parallelisation</cell><cell></cell><cell></cell></row><row><cell>Code</cell><cell></cell><cell></cell><cell cols="6">Compiler / Languages Tasking</cell><cell></cell><cell cols="3">Threading</cell><cell cols="4">Concurrency Scaling File I/O</cell></row><row><cell>CIAO</cell><cell></cell><cell></cell><cell>XL:</cell><cell>Ftn</cell><cell></cell><cell cols="3">MPI 16</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">16: 458 752 S</cell><cell>MPI-IO, HDF5</cell></row><row><cell cols="4">Code Saturne XL: C</cell><cell>Ftn</cell><cell></cell><cell cols="11">MPI 16 OpenMP 4 64: 1 835 008 S</cell><cell>MPI-IO</cell></row><row><cell>ICI</cell><cell></cell><cell></cell><cell>XL:</cell><cell>C++</cell><cell></cell><cell cols="3">MPI 16</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">16: 458 752</cell><cell>W MPI-IO</cell></row><row><cell>iFETI</cell><cell></cell><cell></cell><cell cols="2">XL: C C++</cell><cell></cell><cell cols="3">MPI 32</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">32: 917 504</cell><cell>W N/A</cell></row><row><cell cols="4">NEST-import XL:</cell><cell>C++</cell><cell></cell><cell cols="11">MPI 1 OpenMP 16 16: 458 752 S W HDF5 (MPI-IO)</cell></row><row><cell>p4est</cell><cell></cell><cell></cell><cell>XL: C</cell><cell></cell><cell></cell><cell cols="3">MPI 32</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">32: 917 504</cell><cell>N/A</cell><cell>(MPI-IO)</cell></row><row><cell cols="3">PFLOTRAN</cell><cell>XL:</cell><cell>F03</cell><cell></cell><cell cols="3">MPI 16</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">16: 131 072 S</cell><cell>HDF5 (SCORPIO)</cell></row><row><cell>SLH</cell><cell></cell><cell></cell><cell>XL:</cell><cell>F95</cell><cell></cell><cell cols="11">MPI 16 OpenMP 4 64: 1 835 008 S</cell><cell>MPI-IO</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>SIONlib</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>HDF5</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">C++</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>MPI-IO</cell></row><row><cell></cell><cell cols="2">Fortran</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">OpenMP</cell><cell></cell><cell cols="2">pthreads</cell><cell></cell><cell>netCDF</cell></row><row><cell></cell><cell></cell><cell></cell><cell>C</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>SPI</cell><cell></cell><cell></cell><cell>not applicable</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>not specified</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">MPI</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">threads per MPI rank</cell></row><row><cell></cell><cell cols="3">hardware threads</cell><cell></cell><cell></cell><cell></cell><cell cols="7">threads per MPI rank</cell><cell></cell><cell cols="2">hardware threads</cell></row><row><cell>64</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>64</cell><cell>64</cell><cell></cell><cell>64</cell></row><row><cell>32</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>32</cell><cell>32</cell><cell></cell><cell>32</cell></row><row><cell>16</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>16</cell><cell>16</cell><cell></cell><cell>16</cell></row><row><cell>4</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>4</cell><cell>4</cell><cell></cell><cell>4</cell></row><row><cell>16</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>16</cell><cell></cell></row><row><cell>32</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>32</cell><cell></cell></row><row><cell>64</cell><cell>IMD</cell><cell>FEMPAR</cell><cell cols="2">muPhi MPI ranks per node MP2C SHOCK CIAO ZFS JURASSIC psOpen</cell><cell>FE2TI</cell><cell>NEST</cell><cell>LAMMPS(DCM)</cell><cell>KKRnano</cell><cell>JuSPIC</cell><cell>ICON</cell><cell>PEPC</cell><cell>dynQCD</cell><cell>CoreNeuron</cell><cell>64</cell><cell cols="2">iFETI MPI ranks per node p4est CIAO ICI PFLOTRAN Code Saturne SLH</cell><cell>NEST-import</cell></row></table><note coords="3,53.80,381.14,502.12,7.89;3,53.80,391.60,349.77,7.89"><p xml:id="_Jnym7Vz"><s xml:id="_AnpEYS4" coords="3,53.80,381.14,502.12,7.89;3,53.80,391.60,349.77,7.89">Figure 1: Venn set diagrams of programming languages (left) and parallel programming models (middle), plus a pie-chart showing file I/O (right) used by codes in the High-Q Club.</s></p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7" xml:id="foot_0" coords="2,321.42,690.52,92.38,7.86"><p xml:id="_5BjCJEz"><s xml:id="_pQb8wap" coords="2,321.42,690.52,92.38,7.86">http://www.p4est.org/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8" xml:id="foot_1" coords="2,321.42,700.86,103.07,7.86"><p xml:id="_4U4kUt9"><s xml:id="_kDtxpaJ" coords="2,321.42,700.86,103.07,7.86">http://www.pflotran.org/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9" xml:id="foot_2" coords="2,321.42,711.19,104.38,7.86"><p xml:id="_jPyWH3P"><s xml:id="_N5gmwFJ" coords="2,321.42,711.19,104.38,7.86">http://www.slh-code.org/</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_zeAcnpQ">Acknowledgments</head><p xml:id="_9XWfDdS">We would like to thank the workshop participants from the eight code-teams for openly sharing their knowledge and experience: <rs type="person">Mathis Bode</rs>, <rs type="person">Guido Deissmann</rs>, <rs type="person">Fabien Delalondre</rs>, <rs type="person">Abhishek Deshmukh</rs>, <rs type="person">Hugues Digonnet</rs>, <rs type="person">Hedieh Ebrahimi</rs>, <rs type="person">Philip Edelmann</rs>, <rs type="person">Johannes Holke</rs>, <rs type="person">Alex Klawonn</rs>, <rs type="person">Martin Lanser</rs>, <rs type="person">Charles Moulinec</rs>, <rs type="person">Oliver Rheinbach</rs>, and <rs type="person">Till Schumann</rs>.We also recognise the invaluable assistance provided by <rs type="institution">JSC</rs> staff: <rs type="person">Jutta Doctor</rs>, <rs type="person">Jens Henrik Göbbert</rs>, <rs type="person">Klaus Görgen</rs>, <rs type="person">Inge Gutheil</rs>, <rs type="person">Andreas Lintermann</rs>, <rs type="person">Sebastian Lührs</rs>, <rs type="person">Alex Peyser</rs>, <rs type="person">Wendy Sharples</rs>, <rs type="person">Michael Stephan</rs>, <rs type="person">Kay Thust</rs>, and <rs type="person">Ilya Zhukov</rs>.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_DTyHdUy">APPENDIX A. HIGH-Q CLUB CODES</head><p xml:id="_tcmETpW"><s xml:id="_Xjhq2cm" coords="9,325.78,448.04,230.14,7.86;9,316.81,458.50,244.45,7.86;9,316.81,468.96,16.87,7.86">The full description of the High-Q Club codes along with developer and contact information can be found on the WWW <ref type="bibr" coords="9,316.81,468.96,13.49,7.86" target="#b11">[11]</ref>.</s><s xml:id="_QgRk2BZ" coords="9,337.80,468.96,218.12,7.86;9,316.81,479.43,30.47,7.86">Before this year's workshop at the start of 2016, there were <ref type="bibr" coords="9,338.08,479.43,9.21,7.86" target="#b25">25</ref></s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,321.30,55.51,96.81,10.75" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_93mXeZY">Current References</title>
+		<author>
+			<persName coords=""><surname>References</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/9780470547038.ch2</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_aYRFX4C">Voltage References</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">REFERENCES</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,71.58,170.81,7.86;8,335.61,82.05,191.48,7.86;8,335.61,92.51,217.26,7.86;8,335.61,102.97,197.93,7.86;8,335.61,113.43,198.24,7.86;8,335.61,123.89,212.79,7.86" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="8,335.61,82.05,191.48,7.86;8,335.61,92.51,41.64,7.86" xml:id="_FXR8Yd3">Requirements for supercomputing in energy research: The transition to massively parallel computing</title>
+		<author>
+			<persName coords=""><forename type="first">Rich</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andrew</forename><surname>White</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/10150339</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_fq42ssj" coord="8,384.93,92.51,167.93,7.86;8,335.61,102.97,179.19,7.86">Advanced Scientific Computing Research: Scientific Grand Challenges Workshop Series</title>
+		<imprint>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<date type="published" when="2009-12">Dec. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rich Stevens, Andrew White, et al., (eds). Architectures and Technology for Extreme Scale Computing, Advanced Scientific Computing Research: Scientific Grand Challenges Workshop Series. US Department of Energy Office of Science, Office of Advanced Scientific Computing Research, Dec. 2009.</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,135.35,218.33,7.86;8,335.61,145.81,191.76,7.86;8,335.61,156.27,212.80,7.86;8,335.61,166.73,130.79,7.86;8,335.61,177.19,156.32,7.86" xml:id="b2">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc-André</forename><surname>Hermanns</surname></persName>
+		</author>
+		<idno>FZJ-ZAM-IB-2007-02</idno>
+		<ptr target="http://juser.fz-juelich.de/record/55967" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Au3qbb7" coord="8,417.95,145.81,109.41,7.86;8,335.61,156.27,39.86,7.86">Jülich Blue Gene/L Scaling Workshop</title>
+		<editor>
+			<persName><forename type="first">Bernd</forename><surname>Mohr</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Boris</forename><surname>Orth</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2006">2006. 2007</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech. Report</note>
+	<note type="raw_reference">Wolfgang Frings, Marc-André Hermanns, Bernd Mohr &amp; Boris Orth (eds), Jülich Blue Gene/L Scaling Workshop 2006, Tech. Report FZJ-ZAM-IB-2007-02, Forschungszentrum Jülich, 2007. http://juser.fz-juelich.de/record/55967</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,188.65,211.98,7.86;8,335.61,199.11,174.03,7.86;8,335.61,209.57,211.93,7.86;8,335.61,220.03,42.94,7.86" xml:id="b3">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">Bernd</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jülich</forename><surname>Blue Gene</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">/P</forename><surname>Porting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_yfrgZMN" coord="8,371.80,199.11,113.20,7.86">Tuning &amp; Scaling Workshop</title>
+		<imprint>
+			<date type="published" when="2008">2008. 2008</date>
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernd Mohr &amp; Wolfgang Frings, Jülich Blue Gene/P Porting, Tuning &amp; Scaling Workshop 2008, Innovatives Supercomputing in Deutschland, inSiDE 6(2), 2008.</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,231.48,180.50,7.86;8,335.61,241.95,186.75,7.86;8,335.61,252.41,157.13,7.86;8,335.61,262.87,150.87,7.86;8,335.61,273.33,151.72,7.86" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="8,492.24,231.48,23.86,7.86;8,335.61,241.95,162.11,7.86" xml:id="_XaNXnpV">Hans Peter Peters (Hrsg.) (2009): Medienorientierung biomedizinischer Forscher im internationalen Vergleich. Die Schnittstelle von Wissenschaft &amp; Journalismus und ihre politische Relevanz. Jülich: Forschungszentrum Jülich</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schmidt</surname></persName>
+		</author>
+		<idno type="DOI">10.5771/1615-634x-2010--278</idno>
+		<idno>FZJ-JSC-IB-2010-02</idno>
+		<ptr target="http://juser.fz-juelich.de/record/8924" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nQ6bUmD" coord="8,335.61,262.87,102.99,7.86">M&amp;K</title>
+		<title level="j" type="abbrev">M&amp;K Medien &amp; Kommunikationswissenschaft</title>
+		<editor>
+			<persName><forename type="first">Bernd</forename><surname>Mohr</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+		</editor>
+		<idno type="ISSN">1615-634X</idno>
+		<imprint>
+			<biblScope unit="page" from="278" to="280" />
+			<date type="published" when="2009-02">2009. Feb. 2010</date>
+			<publisher>Nomos Verlag</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Bernd Mohr &amp; Wolfgang Frings (eds), Jülich Blue Gene/P Extreme Scaling Workshop 2009, Technical Report FZJ-JSC-IB-2010-02, Forschungszentrum Jülich, Feb. 2010. http://juser.fz-juelich.de/record/8924</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,284.78,180.50,7.86;8,335.61,295.25,186.75,7.86;8,335.61,305.71,157.13,7.86;8,335.61,316.17,151.51,7.86;8,335.61,326.63,151.72,7.86" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="8,492.24,284.78,23.86,7.86;8,335.61,295.25,182.48,7.86" xml:id="_VJRytAT">JARA-BRAIN: Forschungsallianz zwischen der RWTH Aachen und dem Forschungszentrum Jülich</title>
+		<author>
+			<persName><forename type="first">Volker</forename><surname>Backes</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/nf-2010-0308</idno>
+		<idno>FZJ-JSC-IB-2010-03</idno>
+		<ptr target="http://juser.fz-juelich.de/record/9600" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NTb9GSB" coord="8,335.61,316.17,102.99,7.86">e-Neuroforum</title>
+		<editor>
+			<persName><forename type="first">Bernd</forename><surname>Mohr</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+		</editor>
+		<idno type="ISSNe">1868-856X</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="238" to="240" />
+			<date type="published" when="2010-05">May 2010</date>
+			<publisher>Walter de Gruyter GmbH</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Bernd Mohr &amp; Wolfgang Frings (eds), Jülich Blue Gene/P Extreme Scaling Workshop 2010, Technical Report FZJ-JSC-IB-2010-03, Forschungszentrum Jülich, May 2010. http://juser.fz-juelich.de/record/9600</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,338.09,180.50,7.86;8,335.61,348.55,186.75,7.86;8,335.61,359.01,157.13,7.86;8,335.61,369.47,152.04,7.86;8,335.61,379.93,156.32,7.86" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="8,492.24,338.09,23.86,7.86;8,335.61,348.55,162.11,7.86" xml:id="_KPW2gvw">Empirical results for pedestrian dynamics and their implications for modeling</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Schadschneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Armin</forename><surname>Seyfried</surname></persName>
+		</author>
+		<idno type="DOI">10.3934/nhm.2011.6.545</idno>
+		<idno>FZJ-JSC-IB-2011-02</idno>
+		<ptr target="http://juser.fz-juelich.de/record/15866" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kPVGzns" coord="8,335.61,369.47,102.99,7.86">Networks &amp; Heterogeneous Media</title>
+		<editor>
+			<persName><forename type="first">Bernd</forename><surname>Mohr</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+		</editor>
+		<idno type="ISSN">1556-181X</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="545" to="560" />
+			<date type="published" when="2011-04">2011. Apr. 2011</date>
+			<publisher>American Institute of Mathematical Sciences (AIMS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Bernd Mohr &amp; Wolfgang Frings (eds), Jülich Blue Gene/P Extreme Scaling Workshop 2011, Technical Report FZJ-JSC-IB-2011-02, Forschungszentrum Jülich, Apr. 2011. http://juser.fz-juelich.de/record/15866</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,391.39,212.52,7.86;8,335.61,401.85,205.98,7.86;8,335.61,412.31,157.13,7.86;8,335.61,422.77,150.87,7.86;8,335.61,433.23,160.92,7.86" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_tE9hkM5">SURFO Technical Report No. 15-01</title>
+		<idno type="DOI">10.23860/surfo-15-01</idno>
+		<idno>FZJ-JSC-IB-2015-01</idno>
+		<ptr target="http://juser.fz-juelich.de/record/188191" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_B8XcVMe" coord="8,361.22,401.85,155.72,7.86">JUQUEEN Extreme Scaling Workshop</title>
+		<editor>
+			<persName><forename type="first">Dirk</forename><surname>Brömmel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Wolfgang</forename><surname>Frings &amp; Brian</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Wylie</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>University of Rhode Island</publisher>
+			<date type="published" when="2015-02">2015. Feb. 2015</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Dirk Brömmel, Wolfgang Frings &amp; Brian J. N. Wylie (eds), JUQUEEN Extreme Scaling Workshop 2015, Technical Report FZJ-JSC-IB-2015-01, Forschungszentrum Jülich, Feb. 2015. http://juser.fz-juelich.de/record/188191</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,444.69,215.07,7.86;8,335.61,455.15,196.93,7.86;8,335.61,465.61,180.95,7.86;8,335.61,476.07,212.53,7.86;8,335.61,486.53,204.92,7.86;8,335.61,496.99,208.46,7.86" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="8,335.61,455.15,196.93,7.86;8,335.61,465.61,49.61,7.86" xml:id="_fY6fsNv">Extreme-scaling applications 24/7 on JUQUEEN Blue Gene/Q</title>
+		<author>
+			<persName coords=""><forename type="first">Dirk</forename><surname>Brömmel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wolfgang</forename><surname>Frings &amp; Brian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">N</forename><surname>Wylie</surname></persName>
+		</author>
+		<ptr target="http://juser.fz-juelich.de/record/809001" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_YKtCksX" coord="8,404.03,465.61,112.53,7.86;8,335.61,476.07,45.00,7.86;8,510.24,476.07,37.90,7.86;8,335.61,486.53,89.38,7.86">Proc. Int&apos;l Conf. on Parallel Computing</title>
+		<meeting>Int&apos;l Conf. on Parallel Computing<address><addrLine>ParCo, Edinburgh, Scotland</addrLine></address></meeting>
+		<imprint>
+			<publisher>IOS Press</publisher>
+			<date type="published" when="2015-09">Sept. 2015</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="817" to="826" />
+		</imprint>
+	</monogr>
+	<note>Advances in Parallel Computing</note>
+	<note type="raw_reference">Dirk Brömmel, Wolfgang Frings &amp; Brian J. N. Wylie, Extreme-scaling applications 24/7 on JUQUEEN Blue Gene/Q, in Proc. Int&apos;l Conf. on Parallel Computing (ParCo, Edinburgh, Scotland), Advances in Parallel Computing vol. 27, 817-826, IOS Press, Sept. 2015. http://juser.fz-juelich.de/record/809001</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,508.45,207.55,7.86;8,335.61,518.91,196.25,7.86;8,335.61,529.37,188.51,7.86;8,335.61,539.80,128.40,7.89;8,335.61,550.29,149.34,7.86" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="8,524.89,508.45,18.26,7.86;8,335.61,518.91,196.25,7.86;8,335.61,529.37,91.23,7.86" xml:id="_mzMrmyf">JUQUEEN: IBM Blue Gene/Q&lt;sup&gt;&amp;reg;&lt;/sup&gt; Supercomputer System at the Jülich Supercomputing Centre</title>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Stephan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jutta</forename><surname>Docter</surname></persName>
+		</author>
+		<idno type="DOI">10.17815/jlsrf-1-18</idno>
+		<ptr target="http://dx.doi.org/10.17815/jlsrf-1-18" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Zd4zXBh" coord="8,434.07,529.37,90.05,7.86;8,335.61,539.83,74.28,7.86">Journal of large-scale research facilities JLSRF</title>
+		<title level="j" type="abbrev">JLSRF</title>
+		<idno type="ISSNe">2364-091X</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2015-06-03">2015</date>
+			<publisher>Forschungszentrum Julich, Zentralbibliothek</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Michael Stephan &amp; Jutta Doctor, JUQUEEN: IBM Blue Gene/Q supercomputer system at the Jülich Supercomputing Centre, Journal of Large-Scale Research Facilities 1 A1 (2015). http://dx.doi.org/10.17815/jlsrf-1-18</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,561.75,132.41,7.86;8,335.61,572.21,166.04,7.86" xml:id="b10">
+	<monogr>
+		<title level="m" type="main" coord="8,386.37,561.75,66.71,7.86" xml:id="_yJ6kVwc">Jülich Blue Gene</title>
+		<author>
+			<persName coords=""><surname>Juqueen</surname></persName>
+		</author>
+		<ptr target="http://www.fz-juelich.de/ias/jsc/juqueen" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">JUQUEEN: Jülich Blue Gene/Q. http://www.fz-juelich.de/ias/jsc/juqueen</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,583.66,104.19,7.86;8,335.61,594.13,181.07,7.86" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_uvcXTbN">Measurement of hydrogen diffusivity in zirconium with the use of radioluminography method</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Anikin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Bukin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ya.</forename><forename type="middle">V</forename><surname>Sergeecheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Lesina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Saburov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu.</forename><forename type="middle">N</forename><surname>Devyatko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Khomyakov</surname></persName>
+		</author>
+		<idno type="DOI">10.30791/0015-3214-2018-2-81-91</idno>
+		<ptr target="http://www.fz-juelich.de/ias/jsc/high-q-club" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9qvdYKu">Physics and Chemistry of Materials Treatment</title>
+		<title level="j" type="abbrev">PCMT</title>
+		<idno type="ISSN">0015-3214</idno>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="81" to="91" />
+			<date type="published" when="2018" />
+			<publisher>Intercontact Science</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">The High-Q Club at JSC. http://www.fz-juelich.de/ias/jsc/high-q-club</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,605.58,215.07,7.86;8,335.61,616.04,203.42,7.86;8,335.61,626.50,216.83,7.86;8,335.61,636.96,202.58,7.86;8,335.61,647.43,194.19,7.86;8,335.61,657.89,207.94,7.86" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="8,335.61,616.04,203.42,7.86;8,335.61,626.50,166.05,7.86" xml:id="_Cjcxmc5">MAXI -Multi-system Application Extreme-scaling Imperative, Mini-symposium at Int&apos;l Conf</title>
+		<author>
+			<persName coords=""><forename type="first">Dirk</forename><surname>Brömmel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wolfgang</forename><surname>Frings &amp; Brian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">N</forename><surname>Wylie</surname></persName>
+		</author>
+		<ptr target="http://www.fz-juelich.de/ias/jsc/MAXI" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nM4pBbY" coord="8,509.07,626.50,43.37,7.86;8,335.61,636.96,45.00,7.86;8,489.56,636.96,48.63,7.86;8,335.61,647.43,78.65,7.86">Advances in Parallel Computing</title>
+		<meeting><address><addrLine>ParCo, Edinburgh, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>IOS Press</publisher>
+			<date type="published" when="2015-09">Sept. 2015</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="763" to="846" />
+		</imprint>
+	</monogr>
+	<note>on Parallel Computing</note>
+	<note type="raw_reference">Dirk Brömmel, Wolfgang Frings &amp; Brian J. N. Wylie, MAXI -Multi-system Application Extreme-scaling Imperative, Mini-symposium at Int&apos;l Conf. on Parallel Computing (ParCo, Edinburgh, UK), Advances in Parallel Computing vol. 27, 763-846, IOS Press, Sept. 2015. http://www.fz-juelich.de/ias/jsc/MAXI</note>
+</biblStruct>
+
+<biblStruct coords="8,335.60,669.34,215.07,7.86;8,335.61,679.80,203.02,7.86;8,335.61,690.26,219.38,7.86;8,335.61,700.73,184.55,7.86;8,335.61,711.19,206.97,7.86" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="8,335.61,679.80,203.02,7.86;8,335.61,690.26,215.03,7.86" xml:id="_4CtFVUj">Application Extreme-scaling Experience of Leading Supercomputing Centres, Workshop at 30th Int&apos;l Conf</title>
+		<author>
+			<persName coords=""><forename type="first">Dirk</forename><surname>Brömmel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wolfgang</forename><surname>Frings &amp; Brian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">N</forename><surname>Wylie</surname></persName>
+		</author>
+		<ptr target="http://www.fz-juelich.de/ias/jsc/aXXLs" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_JG3HTzY" coord="8,335.61,700.73,90.70,7.86">ISC High Performance</title>
+		<meeting><address><addrLine>Frankfurt, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-07">July 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dirk Brömmel, Wolfgang Frings &amp; Brian J. N. Wylie, Application Extreme-scaling Experience of Leading Supercomputing Centres, Workshop at 30th Int&apos;l Conf. ISC High Performance (Frankfurt, Germany), July 2015. http://www.fz-juelich.de/ias/jsc/aXXLs</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,57.64,200.57,7.86;9,72.59,68.10,190.58,7.86;9,72.59,78.56,179.76,7.86;9,72.59,89.02,203.07,7.86;9,72.59,99.48,160.92,7.86" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coord="9,72.59,68.10,190.58,7.86;9,72.59,78.56,179.76,7.86;9,72.59,89.02,155.19,7.86" xml:id="_s5XUYgU">High-fidelity multiphase simulations and in-situ visualization using CIAO, Poster at 8th NIC Symposium, Forschungszentrum Jülich</title>
+		<author>
+			<persName coords=""><forename type="first">Jens</forename><forename type="middle">Henrik</forename><surname>Mathis Bode</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Heinz</forename><surname>Göbbert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Pitsch</surname></persName>
+		</author>
+		<ptr target="http://juser.fz-juelich.de/record/809475" />
+		<imprint>
+			<date type="published" when="2016-02">Feb. 2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mathis Bode, Jens Henrik Göbbert, Heinz Pitsch, High-fidelity multiphase simulations and in-situ visualization using CIAO, Poster at 8th NIC Symposium, Forschungszentrum Jülich, Feb. 2016. http://juser.fz-juelich.de/record/809475</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,110.94,203.76,7.86;9,72.59,121.40,200.36,7.86;9,72.59,131.86,195.77,7.86;9,72.59,142.29,197.03,7.89;9,72.59,152.78,41.04,7.86;9,72.59,163.24,182.48,7.86" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="9,160.94,121.40,112.01,7.86;9,72.59,131.86,195.77,7.86;9,72.59,142.32,88.14,7.86" xml:id="_YjRtkCz">A finite volume code for the computation of turbulent incompressible flows -Industrial applications</title>
+		<author>
+			<persName coords=""><forename type="first">Frédéric</forename><surname>Archambeau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Namane</forename><surname>Méchitoua</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Sakiz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Code</forename><surname>Saturne</surname></persName>
+		</author>
+		<ptr target="https://hal.archives-ouvertes.fr/hal-01115371" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xyzU7WR" coord="9,167.62,142.32,91.07,7.86">Int&apos;l J. Finite Volumes</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2004-02">Feb. 2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frédéric Archambeau, Namane Méchitoua &amp; Marc Sakiz, Code Saturne: A finite volume code for the computation of turbulent incompressible flows - Industrial applications, Int&apos;l J. Finite Volumes 1, Feb. 2004. https://hal.archives-ouvertes.fr/hal-01115371</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,174.70,198.04,7.86;9,72.59,185.16,201.40,7.86;9,72.59,195.62,219.00,7.86;9,72.59,206.08,188.86,7.86;9,72.59,216.54,192.95,7.86;9,72.59,227.00,208.78,7.86;9,72.59,237.46,62.52,7.86" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="9,72.59,185.16,201.40,7.86;9,72.59,195.62,143.18,7.86" xml:id="_5pEFzVq">Using Full Tier0 Supercomputers for Finite Element Computations with Adaptive Meshing</title>
+		<author>
+			<persName coords=""><forename type="first">Hugues</forename><surname>Digonnet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Luisa</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Thierry</forename><surname>Coupez</surname></persName>
+		</author>
+		<idno type="DOI">10.4203/ccp.107.13</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_NsQmCJp" coord="9,233.94,195.62,57.65,7.86;9,72.59,206.08,188.86,7.86;9,72.59,216.54,108.22,7.86">Proceedings of the Fourth International Conference on Parallel, Distributed, Grid and Cloud Computing for Engineering</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Iványi</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">H V</forename><surname>Topping</surname></persName>
+		</editor>
+		<meeting>the Fourth International Conference on Parallel, Distributed, Grid and Cloud Computing for Engineering<address><addrLine>Stirlingshire, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Civil-Comp Press</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">13</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hugues Digonnet, Luisa Silva &amp; Thierry Coupez, Using full Tier0 supercomputers for finite element computations with adaptive meshing, in Proc. 4th Int&apos;l Conf. on Parallel, Distributed, Grid and Cloud Computing for Engineering, P. Iványi &amp; B.H.V. Topping (eds), Civil-Comp Press, Stirlingshire, UK, Paper 13, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,248.92,205.71,7.86;9,72.59,259.38,177.81,7.86;9,72.59,269.84,211.60,7.86;9,72.59,280.28,192.15,7.89;9,72.59,290.76,86.28,7.86;9,72.59,301.22,149.78,7.86" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="9,72.59,259.38,177.81,7.86;9,72.59,269.84,211.60,7.86;9,72.59,280.30,35.72,7.86" xml:id="_s5AHT94">Toward Extremely Scalable Nonlinear Domain Decomposition Methods for Elliptic Partial Differential Equations</title>
+		<author>
+			<persName coords=""><forename type="first">Axel</forename><surname>Klawonn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martin</forename><surname>Lanser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Oliver</forename><surname>Rheinbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1137/140997907</idno>
+		<ptr target="http://dx.doi.org/10.1137/140997907" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MAJvFgD" coord="9,115.34,280.30,121.30,7.86">SIAM Journal on Scientific Computing</title>
+		<title level="j" type="abbrev">SIAM J. Sci. Comput.</title>
+		<idno type="ISSN">1064-8275</idno>
+		<idno type="ISSNe">1095-7197</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="C667" to="C696" />
+			<date type="published" when="2015-12">Dec. 2015</date>
+			<publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Axel Klawonn, Martin Lanser &amp; Oliver Rheinbach, Toward extremely scalable nonlinear domain decomposition methods for elliptic partial differential equations, SIAM J. Scientific Computing 37(6), C667-696, Dec. 2015. http://dx.doi.org/10.1137/140997907</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,312.68,173.84,7.86;9,72.59,323.14,216.99,7.86;9,72.59,333.60,199.68,7.86;9,72.59,344.06,217.64,7.86;9,72.59,354.52,199.83,7.86" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="9,246.66,323.14,42.92,7.86;9,72.59,333.60,92.04,7.86" xml:id="_v2SNX2n">NEST: the Neural Simulation Tool</title>
+		<author>
+			<persName coords=""><forename type="first">Markus</forename><surname>Hans Ekkehard Plesser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc-Oliver</forename><surname>Diesmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Abigail</forename><surname>Gewaltig</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Morrison</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4614-6675-8_258</idno>
+		<ptr target="http://dx.doi.org/10.1007/978-1-4614-6675-8258" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_6CDxUBH" coord="9,171.64,333.60,100.64,7.86;9,72.59,344.06,113.74,7.86">Springer Encyclopedia of Computational Neuroscience</title>
+		<imprint>
+			<date type="published" when="2015-03">March 2015</date>
+			<biblScope unit="page" from="1849" to="1852" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hans Ekkehard Plesser, Markus Diesmann, Marc-Oliver Gewaltig &amp; Abigail Morrison, NEST: the Neural Simulation Tool, Springer Encyclopedia of Computational Neuroscience, 1849-1852, March 2015. http://dx.doi.org/10.1007/978-1-4614-6675-8 258</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,365.98,183.57,7.86;9,72.59,376.44,188.67,7.86;9,72.59,386.90,214.48,7.86;9,72.59,397.34,190.54,7.89;9,72.59,407.82,149.78,7.86" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="9,138.02,376.44,123.24,7.86;9,72.59,386.90,183.99,7.86" xml:id="_crrDtSN">&lt;tt&gt;p4est&lt;/tt&gt;: Scalable Algorithms for Parallel Adaptive Mesh Refinement on Forests of Octrees</title>
+		<author>
+			<persName coords=""><forename type="first">Carsten</forename><surname>Burstedde</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lucas</forename><forename type="middle">C</forename><surname>Wilcox</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Omar</forename><surname>Ghattas</surname></persName>
+		</author>
+		<idno type="DOI">10.1137/100791634</idno>
+		<ptr target="http://dx.doi.org/10.1137/100791634" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2nkakFY" coord="9,263.30,386.90,23.78,7.86;9,72.59,397.36,94.47,7.86">SIAM Journal on Scientific Computing</title>
+		<title level="j" type="abbrev">SIAM J. Sci. Comput.</title>
+		<idno type="ISSN">1064-8275</idno>
+		<idno type="ISSNe">1095-7197</idno>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1103" to="1133" />
+			<date type="published" when="2011-01">2011</date>
+			<publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carsten Burstedde, Lucas C. Wilcox &amp; Omar Ghattas, p4est: Scalable algorithms for parallel adaptive mesh refinement on forests of octrees, SIAM J. Scientific Computing 33(3):1103-1133, 2011. http://dx.doi.org/10.1137/100791634</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,419.28,213.66,7.86;9,72.59,429.74,178.35,7.86;9,72.59,440.20,205.26,7.86;9,72.59,450.64,204.01,7.89;9,72.59,461.12,170.64,7.86" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="9,97.95,429.74,152.99,7.86;9,72.59,440.20,205.26,7.86;9,72.59,450.66,48.52,7.86" xml:id="_fTC8Tt5">Evaluating the performance of parallel subsurface simulators: An illustrative example with PFLOTRAN</title>
+		<author>
+			<persName coords=""><forename type="first">Glenn</forename><forename type="middle">E</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><forename type="middle">C</forename><surname>Lichtner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><forename type="middle">T</forename><surname>Mills</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2012wr013483</idno>
+		<ptr target="http://dx.doi.org/10.1002/2012WR013483" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hkTZka4" coord="9,130.23,450.66,106.13,7.86">Water Resources Research</title>
+		<title level="j" type="abbrev">Water Resour. Res.</title>
+		<idno type="ISSN">0043-1397</idno>
+		<idno type="ISSNe">1944-7973</idno>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="208" to="228" />
+			<date type="published" when="2014-01">2014</date>
+			<publisher>American Geophysical Union (AGU)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glenn E. Hammond, Peter C. Lichtner &amp; Richard T. Mills, Evaluating the performance of parallel subsurface simulators: An illustrative example with PFLOTRAN, Water Resources Research 50, 2014. http://dx.doi.org/10.1002/2012WR013483</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,472.58,202.42,7.86;9,72.59,483.04,213.71,7.86;9,72.59,493.48,220.32,7.89;9,72.59,503.96,41.04,7.86;9,72.59,514.42,194.75,7.86" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="9,118.74,483.04,167.56,7.86;9,72.59,493.50,56.46,7.86" xml:id="_3NvpeGE">New numerical solver for flows at various Mach numbers</title>
+		<author>
+			<persName coords=""><forename type="first">Fabian</forename><surname>Miczek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Friedrich</forename><forename type="middle">K</forename><surname>Röpke</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">V F</forename><surname>Edelmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201425059</idno>
+		<ptr target="http://dx.doi.org/10.1051/0004-6361/201425059" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_phJvNvu" coord="9,136.55,493.50,116.23,7.86">Astronomy &amp; Astrophysics</title>
+		<title level="j" type="abbrev">A&amp;A</title>
+		<idno type="ISSN">0004-6361</idno>
+		<idno type="ISSNe">1432-0746</idno>
+		<imprint>
+			<biblScope unit="volume">576</biblScope>
+			<biblScope unit="page">A50</biblScope>
+			<date type="published" when="2015-02">Feb. 2015</date>
+			<publisher>EDP Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fabian Miczek, Friedrich K. Röpke &amp; Philip V. F. Edelmann, New numerical solver for flows at various Mach numbers, Astronomy and Astrophysics 576:A50, Feb. 2015. http://dx.doi.org/10.1051/0004-6361/201425059</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,525.88,212.52,7.86;9,72.59,536.34,205.98,7.86;9,72.59,546.80,140.78,7.86;9,72.59,557.26,150.87,7.86;9,72.59,567.72,160.92,7.86" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" xml:id="_uszueDj">Extreme-scaling applications en route to exascale</title>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>Brömmel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">J N</forename><surname>Wylie</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2938615.2938616</idno>
+		<idno>FZJ-JSC-IB-2016-01</idno>
+		<ptr target="http://juser.fz-juelich.de/record/283461" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ADVTRjq" coord="9,98.21,536.34,155.72,7.86">Proceedings of the Exascale Applications and Software Conference 2016</title>
+		<editor>
+			<persName><forename type="first">Dirk</forename><surname>Brömmel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Wolfgang</forename><surname>Frings &amp; Brian</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Wylie</surname></persName>
+		</editor>
+		<meeting>the Exascale Applications and Software Conference 2016</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016-02">2016. Feb. 2016</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech. Report</note>
+	<note type="raw_reference">Dirk Brömmel, Wolfgang Frings &amp; Brian J. N. Wylie (eds), JUQUEEN Extreme Scaling Workshop 2016, Tech. Report FZJ-JSC-IB-2016-01, Forschungszentrum Jülich, Feb. 2016. http://juser.fz-juelich.de/record/283461</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,579.18,198.63,7.86;9,72.59,589.64,216.34,7.86;9,72.59,600.10,195.93,7.86;9,72.59,610.56,218.24,7.86;9,72.59,621.02,202.33,7.86;9,72.59,631.48,85.19,7.86" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="9,101.75,589.64,187.18,7.86;9,72.59,600.10,154.83,7.86" xml:id="_5ztHPhd">Extreme-scale in-situ visualization of turbulent flows on IBM Blue Gene/Q JUQUEEN</title>
+		<author>
+			<persName coords=""><forename type="first">Jens</forename><surname>Henrik</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Göbbert</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mathis</forename><surname>Bode</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">&amp;</forename><surname>Brian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">N</forename><surname>Wylie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_beFn7MJ" coord="9,247.15,600.10,21.37,7.86;9,72.59,610.56,218.24,7.86;9,72.59,621.02,135.19,7.86">Proc. ISC-HPC&apos;16 Workshop on Exascale Multi/Many-Core Computing Systems (E-MuCoCoS</title>
+		<meeting>ISC-HPC&apos;16 Workshop on Exascale Multi/Many-Core Computing Systems (E-MuCoCoS</meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016-06">June 2016</date>
+			<biblScope unit="volume">23</biblScope>
+		</imprint>
+	</monogr>
+	<note>to appear</note>
+	<note type="raw_reference">Jens Henrik Göbbert, Mathis Bode &amp; Brian J. N. Wylie, Extreme-scale in-situ visualization of turbulent flows on IBM Blue Gene/Q JUQUEEN, in Proc. ISC-HPC&apos;16 Workshop on Exascale Multi/Many-Core Computing Systems (E-MuCoCoS, 23 June 2016), Springer (to appear).</note>
+</biblStruct>
+
+<biblStruct coords="9,72.59,642.94,207.28,7.86;9,72.59,653.40,197.48,7.86;9,72.59,663.86,199.40,7.86;9,72.59,674.32,178.51,7.86;9,72.59,684.78,206.25,7.86;9,72.59,695.25,213.11,7.86;9,72.59,705.71,213.45,7.86;9,335.61,57.64,206.87,7.86;9,335.61,68.10,197.49,7.86;9,335.61,78.56,201.56,7.86" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="9,132.57,705.71,153.47,7.86;9,335.61,57.64,116.59,7.86" xml:id="_vSdQgcc">VisIt: An End-User Tool for Visualizing and Analyzing Very</title>
+		<author>
+			<persName coords=""><forename type="first">Hank</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><surname>Brugger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brad</forename><surname>Whitlock</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sean</forename><surname>Ahern</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Pugmire</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kathleen</forename><surname>Biagas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cyrus</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gunther</forename><forename type="middle">H</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hari</forename><surname>Krishnan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Thomas</forename><surname>Fogal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Allen</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christoph</forename><surname>Garth</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">Wes</forename><surname>Bethel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Camp</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Oliver</forename><surname>Rübel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Durant</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jean</forename><forename type="middle">M</forename><surname>Favre</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Navrátil</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/b12985-29</idno>
+		<ptr target="https://visit.llnl.gov/" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wvCz8C7" coord="9,469.93,57.64,72.55,7.86;9,335.61,68.10,197.49,7.86;9,335.61,78.56,26.43,7.86">High Performance Visualization</title>
+		<imprint>
+			<publisher>Chapman and Hall/CRC</publisher>
+			<date type="published" when="2012-10-25">Oct. 2012</date>
+			<biblScope unit="page" from="395" to="410" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hank Childs, Eric Brugger, Brad Whitlock, Jeremy Meredith, Sean Ahern, David Pugmire, Kathleen Biagas, Mark Miller, Cyrus Harrison, Gunther H. Weber, Hari Krishnan, Thomas Fogal, Allen Sanderson, Christoph Garth, E. Wes Bethel, David Camp, Oliver Rübel, Marc Durant, Jean M. Favre &amp; Paul Navrátil, VisIt: An end-user tool for visualizing and analyzing very large data, in High Performance Visualization -Enabling Extreme-scale Scientific Insight, 357-372, Oct. 2012. https://visit.llnl.gov/</note>
+</biblStruct>
+
+<biblStruct coords="9,335.60,90.02,206.15,7.86;9,335.61,100.48,209.60,7.86;9,335.61,110.94,219.93,7.86;9,335.61,121.40,209.35,7.86;9,335.61,131.86,214.18,7.86;9,335.61,142.32,193.19,7.86;9,335.61,152.78,212.39,7.86;9,335.61,163.24,206.80,7.86;9,335.61,173.70,200.53,7.86;9,335.61,184.16,197.30,7.86" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="9,424.82,152.78,123.18,7.86;9,335.61,163.24,206.80,7.86;9,335.61,173.70,109.98,7.86" xml:id="_J8KXYGP">Score-P: A Joint Performance Measurement Run-Time Infrastructure for Periscope, Scalasca, TAU, and Vampir</title>
+		<author>
+			<persName coords=""><forename type="first">Andreas</forename><surname>Knüpfer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christian</forename><surname>Rössel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dieter</forename><forename type="middle">An</forename><surname>Mey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><surname>Biersdorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kai</forename><surname>Diethelm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominic</forename><surname>Eschweiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Geimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Gerndt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allen</forename><surname>Malony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><forename type="middle">E</forename><surname>Nagel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yury</forename><surname>Oleynik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Philippen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Saviankou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dirk</forename><surname>Schmidl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sameer</forename><surname>Shende</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronny</forename><surname>Tschüter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Wesarg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Felix</forename><surname>Wolf</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-31476-6_7</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_dr42E5E" coord="9,464.75,173.70,71.38,7.86;9,335.61,184.16,64.82,7.86">Tools for High Performance Computing 2011</title>
+		<editor>
+			<persName><forename type="first">Pavel</forename><surname>Peter Philippen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Dirk</forename><surname>Saviankou</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Schmidl</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Sameer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Ronny</forename><surname>Shende</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Michael</forename><surname>Tschüter</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Bert</forename><surname>Wagner</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Felix</forename><surname>Wesarg</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Wolf</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Dresden, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="79" to="91" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andreas Knüpfer, Christian Rössel, Dieter an Mey, Scott Biersdorff, Kai Diethelm, Dominic Eschweiler, Markus Geimer, Michael Gerndt, Daniel Lorenz, Allen D. Malony, Wolfgang E. Nagel, Yury Oleynik, Peter Philippen, Pavel Saviankou, Dirk Schmidl, Sameer S. Shende, Ronny Tschüter, Michael Wagner, Bert Wesarg &amp; Felix Wolf, Score-P -A joint performance measurement run-time infrastructure for Periscope, Scalasca, TAU, and Vampir, In Proc. 5th Parallel Tools Workshop (Dresden, Germany), pp. 79-91.</note>
+</biblStruct>
+
+<biblStruct coords="9,335.61,194.62,187.01,7.86" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" xml:id="_xsFb3ax">Novel score predicts postoperative intubation risk</title>
+		<author>
+			<persName coords=""><forename type="first">Sept</forename><surname>Springer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40014-012-0555-8</idno>
+		<ptr target="http://www.score-p.org/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DChwYRq">Springer Healthcare News</title>
+		<title level="j" type="abbrev">SH News</title>
+		<idno type="ISSNe">2193-0961</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2012-06-27">2012</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Springer, Sept. 2012. http://www.score-p.org/</note>
+</biblStruct>
+
+<biblStruct coords="9,335.60,206.08,212.22,7.86;9,336.76,215.59,218.12,10.13;9,335.61,228.32,202.06,7.86;9,335.61,238.78,160.35,7.86;9,335.61,249.21,211.15,7.89" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="9,502.80,217.86,52.09,7.86;9,335.61,228.32,126.40,7.86" xml:id="_42kpZCt">The Scalasca performance toolset architecture</title>
+		<author>
+			<persName coords=""><forename type="first">Markus</forename><surname>Geimer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Felix</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brian</forename><forename type="middle">J N</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erika</forename><surname>Ábrahám</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bernd</forename><surname>Mohr</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cpe.1556</idno>
+		<ptr target="http://www.scalasca.org/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YXvmssa" coord="9,468.84,228.32,68.83,7.86;9,335.61,238.78,156.10,7.86">Concurrency and Computation: Practice and Experience</title>
+		<title level="j" type="abbrev">Concurrency and Computation</title>
+		<idno type="ISSN">1532-0626</idno>
+		<idno type="ISSNe">1532-0634</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="702" to="719" />
+			<date type="published" when="2010-04">Apr. 2010</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Markus Geimer, Felix Wolf, Brian J. N. Wylie, Erika Ábrahám, Daniel Becker &amp; Bernd Mohr, The Scalasca performance toolset architecture, Concurrency and Computation: Practice and Experience, 22(6):702-719, Apr. 2010. http://www.scalasca.org/</note>
+</biblStruct>
+
+<biblStruct coords="9,335.60,260.70,215.90,7.86;9,335.61,271.16,216.18,7.86;9,335.61,281.62,210.11,7.86;9,335.61,292.08,204.65,7.86;9,335.61,302.54,212.83,7.86;9,335.61,313.00,212.77,7.86" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="9,335.61,281.62,210.11,7.86;9,335.61,292.08,200.73,7.86" xml:id="_FYnMrF2">Understanding and Improving Computational Science Storage Access through Continuous Characterization</title>
+		<author>
+			<persName coords=""><forename type="first">Philip</forename><surname>Carns</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kevin</forename><surname>Harms</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">William</forename><surname>Allcock</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Charles</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Samuel</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><surname>Latham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><surname>Ross</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2027066.2027068</idno>
+		<ptr target="http://www.mcs.anl.gov/research/projects/darshan/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5bSJz8s" coord="9,335.61,302.54,120.30,7.86">ACM Transactions on Storage</title>
+		<title level="j" type="abbrev">ACM Trans. Storage</title>
+		<idno type="ISSN">1553-3077</idno>
+		<idno type="ISSNe">1553-3093</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="2011-10">Oct. 2011</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Philip Carns, Kevin Harms, William Allcock, Charles Bacon, Samuel Lang, Robert Latham &amp; Robert Ross, Understanding and improving computational science storage access through continuous characterization. ACM Transactions on Storage, 7:8:1-8:26, Oct. 2011. http://www.mcs.anl.gov/research/projects/darshan/</note>
+</biblStruct>
+
+<biblStruct coords="9,335.60,324.46,197.54,7.86;9,335.61,334.92,206.90,7.86;9,335.61,345.38,208.21,7.86;9,335.61,355.84,219.44,7.86" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="9,335.61,334.92,192.39,7.86" xml:id="_UM7V6sz">Scalable massively parallel I/O to task-local files</title>
+		<author>
+			<persName coords=""><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Felix</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ventsislav</forename><surname>Petkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1654059.1654077</idno>
+		<ptr target="http://www.fz-juelich.de/jsc/sionlib" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uyvEtZt" coord="9,335.61,345.38,144.26,7.86">Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis</title>
+		<meeting>the Conference on High Performance Computing Networking, Storage and Analysis<address><addrLine>Portland, OR, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2009-11-14">Nov. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wolfgang Frings, Felix Wolf &amp; Vestsislav Petkov, Scalable massively parallel I/O to task-local files. In Proc. ACM/IEEE SC09 Conference (Portland, OR, USA), Nov. 2009. http://www.fz-juelich.de/jsc/sionlib</note>
+</biblStruct>
+
+<biblStruct coords="9,335.60,367.30,215.40,7.86;9,335.61,377.76,217.24,7.86;9,335.61,388.22,206.08,7.86" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="9,406.63,367.30,144.37,7.86;9,335.61,377.76,134.66,7.86" xml:id="_zZYKJWT">Scalable massively parallel I/O to task-local files</title>
+		<author>
+			<persName coords=""><forename type="first">Wolfgang</forename><surname>Frings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Felix</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ventsislav</forename><surname>Petkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1654059.1654077</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_jFbz8ua">Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis</title>
+		<title level="s" xml:id="_5UMgtNa" coord="9,387.80,388.22,40.39,7.86">IAS Series</title>
+		<meeting>the Conference on High Performance Computing Networking, Storage and Analysis<address><addrLine>Forschungszentrum Jülich</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2009-11-14" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Ph.D. thesis</note>
+	<note type="raw_reference">Wolfgang Frings, Efficient Task-Local I/O Operations of Massively Parallel Applications. Ph.D. thesis, to be published in IAS Series, Forschungszentrum Jülich.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

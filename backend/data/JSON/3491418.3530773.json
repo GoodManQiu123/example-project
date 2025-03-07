@@ -1,0 +1,413 @@
+{
+    "metadata": {
+        "title": "High Performance MPI over the Slingshot Interconnect: Early Experiences",
+        "doi": "10.1145/3491418.3530773",
+        "publisher": "ACM",
+        "journal": null,
+        "published_date": "2022-07-08"
+    },
+    "content": {
+        "abstract": "The Slingshot interconnect designed by HPE/Cray is becoming more relevant in High-Performance Computing with its deployment on the upcoming exascale systems. In particular, it is the interconnect empowering the first exascale and highest-ranked supercomputer in the world, Frontier. It offers various features such as adaptive routing, congestion control, and isolated workloads. The deployment of newer interconnects raises questions about performance, scalability, and any potential bottlenecks as they are a critical element contributing to the scalability across nodes on these systems. In this paper, we will delve into the challenges the slingshot interconnect poses with current state-of-the-art MPI libraries. In particular, we look at the scalability performance when using slingshot across nodes. We present a comprehensive evaluation using various MPI and communication libraries including Cray MPICH, OpenMPI + UCX, RCCL, and MVAPICH2-GDR on GPUs on the Spock system, an early access cluster deployed with Slingshot and AMD MI100 GPUs, to emulate the Frontier system.",
+        "keywords": [
+            "high",
+            "early",
+            "technology",
+            "interconnect",
+            "system",
+            "slingshot",
+            "mpi",
+            "scalability",
+            "amd",
+            "experience",
+            "gpus"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kawthar Shafie Khorassani",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Chen Chun Chen",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Bharath Ramesh",
+            "affiliation": "The Ohio State University Columbus",
+            "email": "ramesh.113@osu.edu"
+        },
+        {
+            "name": "Aamir Shafi",
+            "affiliation": "The Ohio State University Columbus",
+            "email": null
+        },
+        {
+            "name": "Hari Subramoni",
+            "affiliation": "The Ohio State University Columbus",
+            "email": "subramon@cse.ohio-state.edu"
+        },
+        {
+            "name": "Dhabaleswar K Panda",
+            "affiliation": "The Ohio State University Columbus",
+            "email": "panda@cse.ohio-state.edu"
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "Highly Efficient FFT for Exascale (HeFFTe) library",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [],
+            "title": "Radeon Open Compute (ROCm",
+            "type": "article-journal",
+            "container_title": [
+                "Platform. https://rocmdocs.amd.com. Accessed"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [],
+            "title": "ROCm Communication Collectives Library (RCCL",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [],
+            "title": "TOP 500 Supercomputer Sites",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [],
+            "title": "Frontier: ORNL's exascale supercomputer designed to deliver world-leading performance in 2021",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bureddy",
+                    "given": "D."
+                },
+                {
+                    "family": "Wang",
+                    "given": "H."
+                },
+                {
+                    "family": "Venkatesh",
+                    "given": "A."
+                },
+                {
+                    "family": "Potluri",
+                    "given": "S."
+                },
+                {
+                    "family": "Panda",
+                    "given": "D.K."
+                }
+            ],
+            "title": "OMB-GPU: A Micro-benchmark Suite for Evaluating MPI Libraries on GPU Clusters",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 19th European Conference on Recent Advances in the Message Passing Interface"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sensi",
+                    "given": "Daniele",
+                    "particle": "De"
+                },
+                {
+                    "family": "Girolamo",
+                    "given": "Salvatore",
+                    "particle": "Di"
+                },
+                {
+                    "family": "McMahon",
+                    "given": "Kim H."
+                },
+                {
+                    "family": "Roweth",
+                    "given": "Duncan"
+                },
+                {
+                    "family": "Hoefler",
+                    "given": "Torsten"
+                }
+            ],
+            "title": "An In-Depth Analysis of the Slingshot Interconnect",
+            "type": "paper-conference",
+            "container_title": [
+                "SC20: International Conference for High Performance Computing, Networking, Storage and Analysis"
+            ],
+            "doi": "10.1109/SC41405.2020.00039",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gabriel",
+                    "given": "Edgar"
+                },
+                {
+                    "family": "Fagg",
+                    "given": "Graham E."
+                },
+                {
+                    "family": "Bosilca",
+                    "given": "George"
+                },
+                {
+                    "family": "Angskun",
+                    "given": "Thara"
+                },
+                {
+                    "family": "Dongarra",
+                    "given": "Jack J."
+                },
+                {
+                    "family": "Squyres",
+                    "given": "Jeffrey M."
+                },
+                {
+                    "family": "Sahay",
+                    "given": "Vishal"
+                },
+                {
+                    "family": "Kambadur",
+                    "given": "Prabhanjan"
+                },
+                {
+                    "family": "Barrett",
+                    "given": "Brian"
+                },
+                {
+                    "family": "Lumsdaine",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Castain",
+                    "given": "Ralph H."
+                },
+                {
+                    "family": "Daniel",
+                    "given": "David J."
+                },
+                {
+                    "family": "Graham",
+                    "given": "Richard L."
+                },
+                {
+                    "family": "Woodall",
+                    "given": "Timothy S."
+                }
+            ],
+            "title": "Open MPI: Goals, Concept, and Design of a Next Generation MPI Implementation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings, 11th European PVM/MPI Users' Group Meeting"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "given": "H.P.E."
+                }
+            ],
+            "title": "HPE SLINGSHOT INTERCONNECT",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "John"
+                },
+                {
+                    "family": "Dally",
+                    "given": "Wiliam J."
+                },
+                {
+                    "family": "Scott",
+                    "given": "Steve"
+                },
+                {
+                    "family": "Abts",
+                    "given": "Dennis"
+                }
+            ],
+            "title": "Technology-Driven, Highly-Scalable Dragonfly Topology",
+            "type": "paper-conference",
+            "container_title": [
+                "2008 International Symposium on Computer Architecture"
+            ],
+            "doi": "10.1109/ISCA.2008.19",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vergara",
+                    "given": "Veronica Melesse"
+                },
+                {
+                    "family": "Budiardja",
+                    "given": "Reuben"
+                },
+                {
+                    "family": "Joubert",
+                    "given": "Wayne"
+                }
+            ],
+            "title": "Early Experiences Evaluating the HPE/Cray Ecosystem for AMD GPUs",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "given": "O.L.C.F."
+                }
+            ],
+            "title": "HPE CRAY MPI -SPOCK WORKSHOP",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "given": "O.L.C.F."
+                }
+            ],
+            "title": "Oakridge National Laboratory: Leadership Computing Facility",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "given": "O.L.C.F."
+                }
+            ],
+            "title": "Spock Quick-Start Guide",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Panda",
+                    "given": "Dhabaleswar Kumar"
+                },
+                {
+                    "family": "Subramoni",
+                    "given": "Hari"
+                },
+                {
+                    "family": "Chu",
+                    "given": "Ching-Hsiang"
+                },
+                {
+                    "family": "Bayatpour",
+                    "given": "Moham-madreza"
+                }
+            ],
+            "title": "The MVAPICH project: Transforming research into high-performance MPI library for HPC community",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Computational Science"
+            ],
+            "doi": "10.1016/j.jocs.2020.101208",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Khorassani",
+                    "given": "Kawthar Shafie"
+                },
+                {
+                    "family": "Hashmi",
+                    "given": "Jahanzeb"
+                },
+                {
+                    "family": "Chu",
+                    "given": "Ching-Hsiang"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Chen-Chun"
+                },
+                {
+                    "family": "Subramoni",
+                    "given": "Hari"
+                },
+                {
+                    "family": "Panda",
+                    "given": "Dhabaleswar K."
+                }
+            ],
+            "title": "Designing a ROCm-Aware MPI Library for AMD GPUs: Early Experiences",
+            "type": "chapter",
+            "container_title": [
+                "High Performance Computing"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Thakur",
+                    "given": "Rajeev"
+                },
+                {
+                    "family": "Rabenseifner",
+                    "given": "Rolf"
+                },
+                {
+                    "family": "Gropp",
+                    "given": "William"
+                }
+            ],
+            "title": "Optimization of Collective Communication Operations in MPICH",
+            "type": "article-journal",
+            "container_title": [
+                "The International Journal of High Performance Computing Applications"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        }
+    ]
+}

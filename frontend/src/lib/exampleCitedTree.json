@@ -1,0 +1,244 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "connections": [
+      {
+        "fromPaper": 1,
+        "toPaper": [2, 3, 4, 5]
+      },
+      {
+        "fromPaper": 2,
+        "toPaper": [6, 7, 8]
+      },
+      {
+        "fromPaper": 4,
+        "toPaper": [9, 10]
+      },
+      {
+        "fromPaper": 5,
+        "toPaper": [11, 12, 13, 14]
+      },
+      {
+        "fromPaper": 6,
+        "toPaper": [15, 16]
+      },
+      {
+        "fromPaper": 8,
+        "toPaper": [17]
+      }
+    ],
+    "papers": [
+      {
+        "articleId": 1,
+        "title": "title 1",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "test@test.test",
+            "affiliation": "affiliation 1"
+          },
+          {
+            "id": 2,
+            "name": "author 2",
+            "email": "test@test.test",
+            "affiliation": "affiliation 2"
+          },
+          {
+            "id": 3,
+            "name": "author 3",
+            "email": "test@test.test"
+          },
+          {
+            "id": 4,
+            "name": "author 4",
+            "email": "test@test.test",
+            "affiliation": "affiliation 3"
+          },
+          {
+            "id": 5,
+            "name": "author 5",
+            "email": "test@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 2,
+        "title": "title 2",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 3,
+        "title": "title 3",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 4,
+        "title": "title 4",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 5,
+        "title": "title 5",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 6,
+        "title": "title 6",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 7,
+        "title": "title 7",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 8,
+        "title": "title 8",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 9,
+        "title": "title 9",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 10,
+        "title": "title 10",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 11,
+        "title": "title 11",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 12,
+        "title": "title 12",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 13,
+        "title": "title 13",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 14,
+        "title": "title 14",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 15,
+        "title": "title 15",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 16,
+        "title": "title 16",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      },
+      {
+        "articleId": 17,
+        "title": "title 17",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test"
+          }
+        ]
+      }
+    ]
+  }
+}

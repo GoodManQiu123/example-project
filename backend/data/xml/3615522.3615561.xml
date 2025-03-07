@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_d4Wjutr" coord="1,84.89,84.78,441.63,15.44;1,269.23,104.70,73.54,15.44">Visual Exploration of Color Usage in Vincent van Gogh&apos;s Paintings</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,115.12,132.11,54.07,10.59"><forename type="first">Xinyi</forename><surname>Ding</surname></persName>
+							<email>xinyiding81615@163.com</email>
+						</author>
+						<author>
+							<persName coords="1,280.14,132.11,52.38,10.59"><forename type="first">Yejuan</forename><surname>Xie</surname></persName>
+							<email>xieyejuan1029@163.com</email>
+						</author>
+						<author>
+							<persName coords="1,446.63,132.11,47.84,10.59"><forename type="first">Jielin</forename><surname>Jing</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,207.88,190.61,32.10,10.59"><forename type="first">Fei</forename><surname>Du</surname></persName>
+							<email>fei.du21@student.xjtlu.edu.cn</email>
+						</author>
+						<author>
+							<persName coords="1,357.11,190.61,57.30,10.59;1,414.41,187.88,1.38,7.53"><forename type="first">Chengtao</forename><surname>Ji</surname></persName>
+							<email>chengtao.ji@xjtlu.edu.cn</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Xi&apos;an Jiaotong Liverpool University China</note>
+								<orgName type="institution">Xi&apos;an Jiaotong Liverpool University</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Xi&apos;an Jiaotong Liverpool University</note>
+								<orgName type="institution">Xi&apos;an Jiaotong Liverpool University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Xi&apos;an Jiaotong Liverpool University</note>
+								<orgName type="institution">Xi&apos;an Jiaotong Liverpool University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Xi&apos;an Jiaotong Liverpool University</note>
+								<orgName type="institution">Xi&apos;an Jiaotong Liverpool University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">Xi&apos;an Jiaotong Liverpool University</note>
+								<orgName type="institution">Xi&apos;an Jiaotong Liverpool University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_hRevVKV" coord="1,84.89,84.78,441.63,15.44;1,269.23,104.70,73.54,15.44">Visual Exploration of Color Usage in Vincent van Gogh&apos;s Paintings</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A0869FD5F8D85E204A01FD341F365E1B</idno>
+					<idno type="DOI">10.1145/3615522.3615561</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_FmbY7gQ">Vincent van Gogh</term>
+					<term xml:id="_t9VRRGr">color extraction</term>
+					<term xml:id="_RMxk9Ky">color theory</term>
+					<term xml:id="_R8nvYwT">color harmony</term>
+					<term xml:id="_vPdYnrg">data visualization</term>
+					<term xml:id="_TH4EnV3">timeline</term>
+					<term xml:id="_444tPWU">digital museum</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_je6DwS7"><p xml:id="_Y9Jfbgm"><s xml:id="_FQKkmaS" coords="1,53.53,262.11,240.52,7.94;1,53.50,273.07,240.55,7.94;1,53.80,284.03,240.24,7.94;1,53.80,294.99,125.55,7.94">This paper aims to explore the use of color and color harmony in Vincent van Gogh's paintings and present the results in the form of a web-based digital museum to provide an intuitive and immersive experience to the public audience.</s><s xml:id="_DkfSMuS" coords="1,181.59,294.99,112.46,7.94;1,53.80,305.89,241.14,8.02;1,53.80,316.85,240.25,8.02;1,53.80,327.87,164.87,7.94">To achieve this goal, we tested four different color extraction algorithms and determined the extcolors library to be the most effective method for extracting theme colors after interviewing ten random viewers.</s><s xml:id="_D4RYECc" coords="1,220.93,327.87,74.63,7.94;1,53.80,338.83,240.25,7.94;1,53.80,349.78,241.23,7.94;1,53.80,360.74,90.14,7.94">This study then conducted a visual analysis of the extracted colors, revealing that the predominant colors of van Gogh's paintings were yellow and green, followed by blue and red.</s><s xml:id="_dUufKup" coords="1,145.97,360.74,148.24,7.94;1,53.80,371.70,241.76,7.94;1,53.80,382.66,131.84,7.94">We also identified the main types of color harmony used in van Gogh's paintings as monochromatic, analogous, and complementary harmony.</s><s xml:id="_kmKMtD8" coords="1,187.89,382.66,106.15,7.94;1,53.80,393.62,240.24,7.94;1,53.57,404.58,240.47,7.94;1,53.80,415.54,241.62,7.94">The ultimate outcome of this research is a digital gallery that showcases the different periods of van Gogh's work via a timeline representation, highlighting the distinctive color schemes that were employed during each period.</s><s xml:id="_M2sEZUe" coords="1,53.53,426.50,240.51,7.94;1,53.80,437.46,165.90,7.94">This presentation gives the exhibits a clear context and provides the viewer with a clear and vivid experience.</s><s xml:id="_394teUV" coords="1,221.95,437.46,72.09,7.94;1,53.80,448.41,240.25,7.94;1,53.80,459.37,240.25,7.94;1,53.80,470.33,240.24,7.94;1,53.80,481.29,203.97,7.94">Overall, the study's findings reveal insightful information about how color is employed in van Gogh's artwork and suggest a useful application which is in the form of a timeline representation that can be used to improve the audience's exposure to the art and cultural heritage.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_rB6GEan">CCS CONCEPTS</head><p xml:id="_sYJnh6M"><s xml:id="_cEvMcCB" coords="1,53.80,519.96,249.03,8.43;1,53.80,530.92,116.64,8.44">• Applied computing → Arts and humanities; • Human-centered computing → Visual analytics.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1" xml:id="_xYEdTf3">INTRODUCTION</head><p xml:id="_kz5rUpc"><s xml:id="_e65PXq2" coords="1,317.69,350.81,240.52,7.94;1,317.96,361.77,240.25,7.94;1,317.96,372.72,240.47,7.94;1,317.96,383.68,44.24,7.94">The study of color is a vast and fascinating field that can influence people's emotions, behaviors, and attitudes, as well as reflect the emotional, psychological, and mental states of color users, especially art creators.</s><s xml:id="_YsgZeDf" coords="1,364.42,383.68,193.78,7.94;1,317.96,394.64,240.25,7.94;1,317.96,405.60,90.39,7.94">The practical significance of color is undeniable, and Morris <ref type="bibr" coords="1,346.22,394.64,14.85,7.94" target="#b9">[10]</ref> even offers cases in industrial design to emphasize the importance of color.</s><s xml:id="_UA9AN5w" coords="1,411.04,405.60,147.16,7.94;1,317.96,416.56,240.25,7.94;1,317.96,427.52,154.78,7.94">Color harmony, a more specific area of color usage, involves understanding how to use different colors to create a pleasing and balanced appearance.</s><s xml:id="_5JtNNjz" coords="1,474.98,427.52,83.40,7.94;1,317.96,438.48,240.25,7.94;1,317.96,449.44,240.25,7.94;1,317.96,460.40,27.57,7.94">In art and design, color harmony can be used to create a sense of unity and harmony, while in marketing it can be used to create memorable and effective brand images.</s></p><p xml:id="_YJmxgr4"><s xml:id="_BV4DGmJ" coords="1,327.92,471.35,231.80,7.94;1,317.96,482.31,201.78,7.94">Digital museums, on the other hand, represent a new and exciting frontier in the world of art and cultural heritage.</s><s xml:id="_aA3FSbV" coords="1,521.97,482.31,36.56,7.94;1,317.96,493.27,240.25,7.94;1,317.96,504.23,240.25,7.94;1,317.96,515.19,62.60,7.94">With new technologies, museums are no longer confined to physical spaces and can now be accessed from anywhere in the world through digital platforms.</s><s xml:id="_yh72fQk" coords="1,382.78,515.19,175.41,7.94;1,317.96,526.15,241.76,7.94;1,317.96,537.11,240.25,7.94;1,317.96,548.07,205.13,7.94">Digitized collections and digital museum design offer visitors a different visual experience, which opens up new possibilities for the dissemination and preservation of art and cultural heritage, as well as new ways to engage with audiences.</s></p><p xml:id="_6Vmrawv"><s xml:id="_pWtY48G" coords="1,327.92,559.03,231.80,7.94;1,317.96,569.99,240.25,7.94;1,317.96,580.94,241.76,7.94;1,317.96,591.90,240.25,7.94;1,317.96,602.86,69.36,7.94">However, some digital museums focus only on displaying digitized collections and related textual information, or on flashy visual effects, such as 3D effects, without effectively showing the characteristics of exhibits, the connections between exhibits, and the context of the era.</s><s xml:id="_XK4pN2a" coords="1,390.18,602.86,168.03,7.94;1,317.96,613.82,240.25,7.94;1,317.96,624.78,177.14,7.94">To solve this problem, this paper proposes a timeline-based representation to effectively reflect the relationship between exhibits and the context of the exhibits.</s><s xml:id="_CCmqmR2" coords="1,497.34,624.78,60.87,7.94;1,317.96,635.74,241.76,7.94;1,317.96,646.70,240.24,7.94;1,317.96,657.66,241.76,7.94;1,317.96,668.62,165.02,7.94">Collections from the same period can be displayed together to highlight commonalities, and items from different periods can be compared by adding the feature of double-selected time points to the timeline to illustrate the difference between the two periods.</s><s xml:id="_9tnTU88" coords="1,485.20,668.62,73.00,7.94;1,317.96,679.57,240.25,7.94;1,317.96,690.53,240.25,7.94;1,317.96,701.49,192.81,7.94">Attention must also be paid to the characteristics of the exhibits themselves, such as a painting's use of color, imagery, and emotional expression, to provide a more immersive experience for the viewer.</s></p><p xml:id="_Dy5DRYC"><s xml:id="_6enH3ZQ" coords="2,63.76,87.79,230.28,7.94;2,53.80,98.75,240.25,7.94;2,53.80,109.71,100.02,7.94">Vincent Willem van Gogh, one of the most influential artists in the history of modern art, is known for the vividness and emotional embodiment of color usage.</s><s xml:id="_SPvMSRR" coords="2,156.06,109.71,137.99,7.94;2,53.80,120.67,241.76,7.94;2,53.80,131.63,241.23,7.94;2,53.80,142.59,240.25,7.94;2,53.80,153.55,60.90,7.94">His paintings have been the subject of numerous academic activities, art exhibitions, and museum collections, with the van Gogh Museum in Amsterdam, the Netherlands, being one of the most famous and extensive collections of van Gogh's artwork.</s><s xml:id="_J3HtFQm" coords="2,117.29,153.55,178.27,7.94;2,53.80,164.51,240.25,7.94;2,53.80,175.46,240.25,7.94;2,53.80,186.42,240.48,7.94;2,53.80,197.38,240.25,7.94;2,53.57,208.34,76.38,7.94">The museum has also created a rich official online museum that contains a collection of van Gogh's works and also devotes a small amount of space to the story of van Gogh's paintings and variations in the use of color but it is still not very intuitive in terms of providing the user with a complete timeline van Gogh's painting.</s></p><p xml:id="_eMYnR9M"><s xml:id="_sMm9RqE" coords="2,63.76,219.30,231.80,7.94;2,53.80,230.26,240.25,7.94;2,53.80,241.22,203.35,7.94">This paper tries to propose a solution to break through the limitations of existing online museums in terms of presenting the characteristics of exhibits and their temporal context.</s><s xml:id="_uYfWWPp" coords="2,260.12,241.22,33.93,7.94;2,53.80,252.18,241.23,7.94;2,53.47,263.14,240.58,7.94;2,53.47,274.09,241.56,7.94;2,53.80,285.05,241.76,7.94;2,53.80,296.01,183.49,7.94">Here, we focus on a comprehensive analysis of all of van Gogh's paintings, with a particular interest in the colors used in the paintings, and works to create a virtual museum that exhibits in a timeline mode, allowing it to contextualize the exhibits and provide a more immersive and engaging experience for the viewer.</s><s xml:id="_sGCDajk" coords="2,239.98,296.01,54.23,7.94;2,53.80,306.97,100.13,7.94">Therefore, our contribution are as follows:</s></p><p xml:id="_hHudTvU"><s xml:id="_QQDEpXY" coords="2,69.77,321.92,224.28,8.43;2,78.21,333.37,215.84,7.94;2,78.21,344.33,132.39,7.94">• Comparison of four color extraction methods to find the one that can accurately extract theme colors from a painting that best matches the human perception.</s><s xml:id="_gM3DHyr" coords="2,69.77,354.80,224.28,8.43;2,78.21,366.24,216.83,7.94;2,78.21,377.20,92.62,7.94">• Analysis of the use of colors in van Gogh's painting and revealing that the most used colors are yellow and green, followed by blue and red.</s><s xml:id="_kTZ9x6V" coords="2,69.77,387.68,224.28,8.43;2,78.21,399.12,217.35,7.94;2,78.21,410.08,215.84,7.94;2,78.21,421.04,217.22,7.94">• Analysis of the use of color harmony in van Gogh's painting and found that monochromatic, analogous, and complementary color harmony are frequently employed by van Gogh as his preferred method of achieving harmonious compositions.</s><s xml:id="_7UaKYTx" coords="2,69.77,431.51,224.28,8.43;2,78.21,442.96,215.84,7.94;2,78.21,453.91,211.97,7.94">• A digital art gallery presents a selection of van Gogh's works in chronological order, showing viewers the transformation of van Gogh's use of color throughout his painting career.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_YheJsAq">LITERATURE REVIEW</head><p xml:id="_WG96nzT"><s xml:id="_qNXtshb" coords="2,53.53,491.44,242.03,7.94;2,53.80,502.40,240.41,7.94;2,53.80,513.36,35.76,7.94">The exploration of color in paintings is closely related to two subjects: Color Theme Extraction from digitized paintings and Color Harmony.</s><s xml:id="_ECa3vse" coords="2,91.73,513.36,202.31,7.94;2,53.80,524.32,70.82,7.94">This section, therefore, summarizes the relevant work in both of these areas.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_UenMhjA">Theme Color Extraction</head><p xml:id="_WJ4k4hj"><s xml:id="_XW9hNG7" coords="2,53.80,561.85,240.25,7.94;2,53.80,572.81,240.25,7.94;2,53.80,583.76,120.53,7.94">Color extraction plays a crucial role in artwork analysis, and the precise extraction of the principal hues in a painting serves as the foundation for color exploration.</s><s xml:id="_5vfUbMB" coords="2,317.96,87.79,85.08,7.94">to a defined value of K.</s><s xml:id="_7VtfC2a" coords="2,405.27,87.79,154.44,7.94;2,317.96,98.75,240.25,7.94;2,317.96,109.71,240.25,7.94;2,317.96,120.67,77.91,7.94">However, it cannot identify the spatial arrangement of colors in an image, which results in important colors being erased and can differ significantly from the extracted colors by human perception.</s><s xml:id="_ahNhutG" coords="2,397.71,120.67,160.50,7.94;2,317.96,131.63,240.24,7.94;2,317.96,142.59,131.14,7.94">Parvaneh's RoyGBiv color extraction module <ref type="bibr" coords="2,317.96,131.63,14.85,7.94" target="#b11">[12]</ref> also relies on K-Means, which Vane <ref type="bibr" coords="2,471.16,131.63,14.85,7.94" target="#b13">[14]</ref> used to extract the colors of Cooper Hewitt's collection.</s><s xml:id="_dKzt3PP" coords="2,451.22,142.59,107.97,7.94;2,317.96,153.55,240.25,7.94;2,317.96,164.51,240.25,7.94;2,317.96,175.46,24.24,7.94">The overall results were good, except that the colors of the background and the light and shadows on the objects would cause misleading in the resulting extracted colors.</s><s xml:id="_3suj5h3" coords="2,344.43,175.46,213.77,7.94;2,317.96,186.42,240.25,7.94;2,317.96,197.38,241.63,7.94">C-Means is extremely similar to K-Means and it optimizes the iterative process of K-Means and reduces the effect of outliers on the results, but still fails to overcome the drawbacks of K-Means.</s><s xml:id="_F3SMKke" coords="2,395.62,362.93,102.46,7.94">, and commercial services.</s><s xml:id="_rEKS8eE" coords="2,501.35,362.93,56.86,7.94;2,317.96,373.89,240.25,7.94;2,317.96,384.85,240.25,7.94;2,317.96,395.80,241.76,7.94;2,317.96,406.76,240.25,7.94;2,317.62,417.72,16.99,7.94">The evaluation modeled the perceptual differences between colors by using the Euclidean distance metric in the CIE-Lab color space and concluded that regression models trained on user-defined color themes performed best, while unsupervised clustering algorithms performed well.</s><s xml:id="_8GmgWDU" coords="2,336.87,417.72,80.10,7.94">Lin and Hanrahan <ref type="bibr" coords="2,404.61,417.72,9.27,7.94" target="#b7">[8]</ref>.</s><s xml:id="_Jz6mRU8" coords="2,419.22,417.72,139.97,7.94;2,317.96,428.68,240.25,7.94;2,317.96,439.64,116.70,7.94">also used the LASSO regression model, a data-driven approach, which successfully simulated how humans extracted picture themes colors.</s></p><p xml:id="_EVqECmM"><s xml:id="_88nxNVV" coords="2,317.96,462.66,15.57,8.04">2.1.3</s><s xml:id="_P9BwN3m" coords="2,342.49,462.66,25.19,8.04">Others.</s><s xml:id="_kQn7xKg" coords="2,371.17,462.72,187.03,7.94;2,317.96,473.68,241.76,7.94;2,317.96,484.64,98.56,7.94">In addition to the general color extraction algorithms mentioned above, there are also studies focusing on color theme extraction for color emotions.</s><s xml:id="_CdkvEUP" coords="2,418.77,484.64,139.43,7.94;2,317.96,495.60,241.63,7.94">For example, Liu and Luo <ref type="bibr" coords="2,512.42,484.64,10.43,7.94" target="#b8">[9]</ref> proposed extracting emotional theme colors with a hierarchical structure.</s><s xml:id="_srVZtfq" coords="2,317.96,506.56,240.42,7.94;2,317.96,517.52,241.76,7.94;2,317.96,528.47,80.98,7.94">However, this scheme currently only performs simple theme color extraction for van Gogh's paintings without considering the emotions of the paintings.</s><s xml:id="_Rgtfw27" coords="2,401.18,528.47,157.02,7.94;2,317.96,539.43,240.25,7.94;2,317.96,550.39,240.25,7.94;2,317.96,561.35,50.96,7.94">Due to the lack of human-extracted theme colors as sample data, the scheme of using the regression model is discarded, and the specific color extraction scheme will be specified in Section 4.2.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_Yz9Dw5D">Color Harmony</head><p xml:id="_tVVQCH3"><s xml:id="_gPmQrs3" coords="2,317.96,602.86,240.42,7.94;2,317.96,613.82,153.38,7.94">In practice, it usually requires the discernment of classifying color harmony for the extracted theme colors.</s><s xml:id="_4z7JyU8" coords="2,474.21,613.82,83.99,7.94;2,317.96,624.78,240.25,7.94;2,317.96,635.74,209.31,7.94">Therefore, throughout history, various scholars and experts have proposed their own classifications of color arrangements and color harmonies.</s><s xml:id="_UQKVMyB" coords="2,529.50,635.74,28.87,7.94;2,317.96,646.70,240.48,7.94;2,317.96,657.66,240.25,7.94;2,317.62,668.62,59.27,7.94">In order to choose the most suitable color harmony theory, four frequently used color schemes with three dominating color harmony theories will be analyzed.</s><s xml:id="_TnfddtH" coords="2,378.69,668.62,179.51,7.94;2,317.96,679.57,241.63,7.94">The assessment will pay particular attention to the categorization of color harmony using the extracted theme colors.</s><s xml:id="_q57QJDY" coords="2,317.96,690.53,240.41,7.94;2,317.96,701.49,240.25,7.94;3,53.80,87.79,240.25,7.94;3,53.80,98.75,48.36,7.94">By synthesizing and evaluating the various perspectives of color theory, this study aims to contribute to the current understanding of color harmony and its practical application in design, art, and related areas.</s></p><p xml:id="_XNpmDmp"><s xml:id="_w57MZS9" coords="3,53.80,112.73,74.81,8.04">2.2.1 Color Wheels.</s><s xml:id="_bR6VD98" coords="3,132.09,112.80,163.47,7.94;3,53.80,123.75,240.25,7.94;3,53.80,134.71,241.23,7.94;3,53.80,145.67,241.76,7.94;3,53.80,156.63,241.63,7.94">Isaac Newton (1643-1727) made a key contribution to the early color theory by arranging the seven different spectral colors he identified into an incomplete circle, the hue wheel, also known as the geometric color model, which became the foundation for many of the subsequent color harmony theories <ref type="bibr" coords="3,270.34,156.63,9.34,7.94" target="#b0">[1,</ref><ref type="bibr" coords="3,281.92,156.63,10.13,7.94" target="#b16">17]</ref>.</s></p><p xml:id="_SJKFy5A"><s xml:id="_gqVf5UX" coords="3,53.80,167.59,240.25,7.94;3,53.80,178.55,240.41,7.94;3,53.47,189.51,241.57,7.94;3,53.80,200.47,113.48,7.94">In contrast to Newton, Wolfgang Goethe (1749-1832) proposed that the opposing colors are arranged in a symmetrical way on the color wheel <ref type="bibr" coords="3,77.73,189.51,9.40,7.94" target="#b0">[1]</ref>, for example, yellow is opposed to purple, and similarly, red to green and blue to orange.</s><s xml:id="_Q6C6ttj" coords="3,169.29,200.47,124.76,7.94;3,53.80,211.43,240.25,7.94;3,53.80,222.38,240.25,7.94;3,53.80,233.34,240.48,7.94;3,53.80,244.30,240.41,7.94;3,53.47,255.26,166.54,7.94">Analogous to Goethe's idea, Albert Munsell's (1858-1918) and Johannes Itten's (1888-1967) color wheels both show complementary colors, while at the same time blending the secondary colors formed by mixing two of the three primary colors, and the tertiary colors produced by mixing a secondary color with a primary color, on a single color wheel.</s><s xml:id="_dRVfRxN" coords="3,222.24,255.26,71.81,7.94;3,53.80,266.22,240.42,7.94;3,53.80,277.18,240.25,7.94;3,53.80,288.14,240.25,7.94;3,53.80,299.10,240.42,7.94;3,53.47,310.06,240.58,7.94;3,53.80,321.01,199.92,7.94">In comparison with Newton's incomplete color wheel, and considering the small color gamut (only 6 colors) displayed by Goethe's color wheel, most of the color harmony models (further detail will be discussed in Section 2.2.4) are actually constructed based on Munsell's and Itten's color wheels, which are also used as a reference for the construction of the color wheel in the intermediate stage of this paper.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2" xml:id="_6GpW56R">Munsell's Perceptual Harmonies.</head><p xml:id="_Pyu6XDF"><s xml:id="_2gCUp34" coords="3,202.28,335.06,91.77,7.94;3,53.80,346.02,240.41,7.94;3,53.80,356.98,241.24,7.94;3,53.80,367.93,95.11,7.94">Munsell first proposed a color notation system in 1905, which is known as the Munsell Color System, and the system consists of three components: value (V), hue (H), and chroma (C).</s><s xml:id="_rBgEFK5" coords="3,151.88,367.93,142.17,7.94;3,53.80,378.89,240.25,7.94;3,53.80,389.85,240.25,7.94;3,53.80,400.81,240.25,7.94;3,53.80,411.77,240.25,7.94;3,53.80,422.73,170.57,7.94">Based on this system, he proposed to express the color intensity as the product of the Munsell value, and the Chroma value and concluded that the balance of a color area needs to be such that the area of that area is inversely proportional to the color intensity, which means that the color area with high color intensity should be small, and vice versa.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3" xml:id="_9vbC2BR">Itten's Harmony.</head><p xml:id="_MBn7AuV"><s xml:id="_7P4HPkK" coords="3,139.44,436.77,154.61,7.94;3,53.80,447.73,241.76,7.94;3,53.80,458.69,240.41,7.94;3,53.80,469.65,240.25,7.94;3,53.80,480.61,156.91,7.94">According to Itten, all complementary pairs of colors, three-color combinations in which the colors form equilateral or isosceles triangles in a color wheel, and all four-color combinations that form squares or rectangles are harmonious in a color wheel, can be seen as color harmony.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.4" xml:id="_vGE5Z72">Three Prevalent</head><p xml:id="_HkmqWcY"><s xml:id="_P2sHDbv" coords="3,136.19,494.59,96.81,8.04">Harmony Schemes <ref type="bibr" coords="3,204.42,494.59,13.17,8.04" target="#b13">[14,</ref><ref type="bibr" coords="3,219.83,494.59,9.88,8.04" target="#b16">17]</ref>.</s></p><p xml:id="_ghq45pP"><s xml:id="_TkqF7cS" coords="3,69.77,509.92,225.79,8.43;3,78.21,521.36,215.84,7.94;3,78.21,532.32,207.11,7.94">• Monochromatic Color Scheme: This scheme involves selecting colors that have the same or similar hue, resulting in a harmonious color palette with a single dominant color.</s><s xml:id="_H6wCGd3" coords="3,69.77,542.79,224.28,8.43;3,78.21,554.24,217.22,7.94">• Complementary Color Scheme: This scheme refers to the use of colors that are opposite to each other on a color wheel.</s><s xml:id="_kdNFefh" coords="3,77.94,565.19,216.28,7.94;3,78.21,576.15,29.14,7.94">This creates a high contrast and dynamic effect in the color scheme.</s><s xml:id="_NTRpFEq" coords="3,69.77,586.63,224.28,8.43;3,78.21,598.07,216.83,7.94;3,78.21,609.03,215.84,7.94;3,78.21,619.99,107.18,7.94">• Analogous Color Scheme: This scheme involves selecting colors that are adjacent to each other on the color wheel, creating a color palette with a harmonious and cohesive feel due to their similarity in hue.</s></p><p xml:id="_WwEqJF3"><s xml:id="_5y4ZUjd" coords="3,53.80,635.74,201.91,7.94">Figure <ref type="figure" coords="3,79.90,635.74,4.25,7.94" target="#fig_0">1</ref> illustrates the five schemes mentioned above.</s><s xml:id="_j9n9huN" coords="3,258.06,635.74,35.99,7.94;3,53.80,646.70,241.76,7.94;3,53.80,657.66,240.24,7.94;3,53.80,668.62,240.48,7.94;3,53.80,679.57,241.76,7.94;3,53.80,690.53,240.25,7.94;3,53.80,701.49,26.68,7.94">Munsell's harmony theory is too abstract to intuitively understand the harmonious relationship between colors, therefore, instead of choosing Munsell's harmony theory in this paper, Itten's ideas and commonly used harmony types were synthesized and used as a reference standard in order to visually derive the color harmony types from the palette.</s><s xml:id="_8eq3ujY" coords="3,317.69,222.72,242.03,7.94;3,317.73,233.68,241.99,7.94;3,317.96,244.64,17.64,7.94">The data for this study was sourced from Wikiart <ref type="bibr" coords="3,497.94,222.72,15.09,7.94" target="#b17">[18]</ref>, which provided 1931 high-resolution images along with their associated metadata.</s><s xml:id="_ywGsRgg" coords="3,337.84,244.64,221.35,7.94;3,317.96,255.60,94.33,7.94">The metadata includes details such as the name, year, genre, and type of each painting.</s><s xml:id="_NxAvua9" coords="3,414.53,255.60,145.19,7.94;3,317.96,266.56,240.41,7.94;3,317.96,277.52,241.63,7.94">To facilitate the subsequent color analysis, the paintings were manually categorized into two groups: color paintings (878 in total) and black-and-white paintings (1053 in total).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_TCZTwSn">Tasks</head><p xml:id="_f5UKg9n"><s xml:id="_WeGv4W7" coords="3,317.69,313.46,240.51,7.94;3,317.96,324.42,155.22,7.94;3,327.92,335.61,232.97,7.70;3,317.96,346.34,241.76,7.94;3,317.96,357.30,240.25,7.94;3,317.96,368.26,191.77,7.94">To effectively explore the color and color harmony in van Gogh's painting, we compiled the following tasks: T1: Exploring Dominant Color Themes in van Gogh's Paintings: This task aims to create visualizations that showcase the dominant color themes used in Vincent van Gogh's artworks, illustrating his color preferences and how they evolved over time.</s><s xml:id="_Mq2Rgbe" coords="3,511.67,368.26,46.54,7.94;3,317.96,379.22,240.25,7.94;3,317.96,390.18,167.34,7.94">By analyzing his paintings, the visualization provides insights into his artistic style and emotional expression through color.</s></p><p xml:id="_CgcZWqJ"><s xml:id="_UKcnJQT" coords="3,327.92,401.14,231.80,7.94;3,317.96,412.09,240.25,7.94;3,317.96,423.05,159.34,7.94">T2: Exploring Color Harmony in Artworks: This task focuses on creating visualizations that highlight the application of different types of color harmony in artworks.</s><s xml:id="_Ud4Avz8" coords="3,479.01,423.05,79.36,7.94;3,317.96,434.01,240.58,7.94;3,317.96,444.97,241.76,7.94;3,317.96,455.93,240.25,7.94;3,317.96,466.89,39.05,7.94">By analyzing the color relationships within the artworks, the visualization showcases how complementary, monochromatic, analogous, triad, and tetrad harmonies are employed, contributing to aesthetic appeal and visual coherence.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_gue7wxX">SYSTEM WORKFLOW</head><p xml:id="_kAFQCDZ"><s xml:id="_sbrUGJp" coords="3,317.69,499.05,242.03,7.94;3,317.96,510.01,240.25,7.94;3,317.96,520.97,36.08,7.94">The focus of this study is a comprehensive analysis of the characteristics and changes over time in the use of color in van Gogh's paintings.</s><s xml:id="_KGwj2aM" coords="3,356.28,520.97,201.92,7.94;3,317.96,531.92,240.25,7.94;3,317.96,542.88,217.08,7.94">In order to accomplish these tasks, the dataset was first processed, e.g., image sampling, extracted palette color for each image and matched the corresponding color harmony type.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_uHDHbWC">Data Sampling</head><p xml:id="_a93FDKz"><s xml:id="_hscjXJt" coords="3,317.69,575.04,240.51,7.94;3,317.96,586.00,241.76,7.94;3,317.96,596.96,74.34,7.94">To achieve a more accurate approximation of the subject colors chosen by humans, it is essential to test and compare color extraction algorithms.</s><s xml:id="_KZAE9yv" coords="3,395.03,596.96,163.18,7.94;3,317.96,607.92,240.25,7.94;3,317.96,618.88,240.25,7.94;3,317.96,629.84,64.83,7.94">Considering the computational demands of extracting five colors for each of the 876 paintings and repeating this process four times, we narrowed our analysis to a subset of the colored paintings.</s><s xml:id="_2ZVZyQu" coords="3,385.01,629.84,173.19,7.94;3,317.96,640.80,240.25,7.94;3,317.96,651.75,214.83,7.94">To ensure a balanced and representative sample that encompasses van Gogh's entire artistic career, we employed a stratified sampling method based on the year of the painting.</s><s xml:id="_y4daGSF" coords="3,534.52,651.75,25.19,7.94;3,317.96,662.71,240.25,7.94;3,317.96,673.67,240.25,7.94;3,317.96,684.63,38.37,7.94">Consequently, 100 paintings were randomly selected for color extraction and the specific number of paintings for each year can be found in Table <ref type="table" coords="3,350.07,684.63,3.13,7.94" target="#tab_2">1</ref>.</s><s xml:id="_3nUNbyq" coords="3,358.58,684.63,199.63,7.94;3,317.96,695.59,240.25,7.94;3,317.96,706.55,63.98,7.94">By adopting this approach, we significantly improved the validity, generalizability, and scientific rigor of the algorithm selection process.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_K6NHRTb">Theme Color Generation</head><p xml:id="_BqE4hKa"><s xml:id="_5Tj644p" coords="4,53.53,202.11,240.51,7.94;4,53.47,213.07,240.57,7.94;4,53.80,224.03,61.58,7.94">To generate theme color data for each selected picture, the trials will be carried out by putting some of the methods to the test and optimizing them.</s><s xml:id="_P4qYupa" coords="4,117.60,224.03,176.44,7.94;4,53.57,234.99,182.25,7.94">The major algorithms examined and the relevant variables are described in the sections that follow.</s></p><p xml:id="_NmMHX46"><s xml:id="_3PaV6rH" coords="4,63.76,252.21,230.28,8.02;4,53.80,263.24,198.85,7.94">Median-Cut: The Cyrain-provided <ref type="bibr" coords="4,188.45,252.28,10.42,7.94" target="#b2">[3]</ref> source code for extracting theme colors using the median-cut was put to the test.</s><s xml:id="_uf8Jm8z" coords="4,254.89,263.24,39.15,7.94;4,53.80,274.19,240.24,7.94;4,53.80,285.15,47.88,7.94">The theme colors can be obtained by inputting the image and the number of target colors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_J5qshXy">K-Means:</head><p xml:id="_s3PwA36"><s xml:id="_u5hcRJQ" coords="4,99.99,302.44,203.97,7.94;4,53.80,313.34,241.76,8.02;4,53.80,324.36,79.32,7.94">The first implementation of K-Means, again, uses Cyrain's <ref type="bibr" coords="4,53.80,313.40,10.43,7.94" target="#b4">[5]</ref> source code of using k-means from Python package sklearn to extract the theme colors.</s><s xml:id="_kDUkEXb" coords="4,134.93,324.36,159.12,7.94;4,53.80,335.32,240.25,7.94;4,53.80,346.27,64.17,7.94">The second implementation of K-Means uses k-means from the OpenCV library to extract colors with reference to Alberto's code.</s></p><p xml:id="_tkREgZM"><s xml:id="_kUfuB4G" coords="4,63.76,363.50,230.29,8.02;4,53.80,374.46,216.78,8.02">Python extcolors library: The last approach to test is to use a ready-made Python extcolors library for extracting colors.</s><s xml:id="_HaSVD7s" coords="4,273.17,374.52,20.87,7.94;4,53.80,385.48,240.24,7.94;4,53.80,396.44,240.48,7.94;4,53.80,407.39,215.24,7.94">It has the advantage of being able to adjust the tolerance to zoom in on colors that stand out in small color blocks and are not picked up by the clustering algorithm but are obvious to the human eye.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.1" xml:id="_5qGdhRx">Yearly Theme Color.</head><p xml:id="_tZBDdtq"><s xml:id="_jh2SA7A" coords="4,156.47,424.68,137.58,7.94;4,53.80,435.64,218.20,7.94">To extract the Theme colors for each year, we first extract the five theme colors for each painting.</s><s xml:id="_xA9anPt" coords="4,274.24,435.64,20.79,7.94;4,53.80,446.60,240.25,7.94;4,53.80,457.56,187.93,7.94">Then, to evenly calculate the theme color for each year, we calculate the average theme colors for each order over the year.</s><s xml:id="_KbNZafM" coords="4,244.09,457.56,49.95,7.94;4,53.80,468.52,240.25,7.94;4,53.80,479.47,241.63,7.94">This way can avoid color cross-diminishing which was caused by the various size of paintings and the use of background colors in different paintings.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_tq6WMSh">Color Standardization and Color Harmony</head><p xml:id="_k5pSrcF"><s xml:id="_y4Bfand" coords="4,53.80,515.19,240.42,7.94;4,53.80,526.15,240.25,7.94;4,53.80,537.11,76.28,7.94">Color information is esoteric and challenging to comprehend; for instance, it is difficult for humans to distinguish a color from its RGB or HEX values.</s><s xml:id="_Mr9QBcp" coords="4,132.68,537.11,161.37,7.94;4,53.80,548.07,180.62,7.94">Instead, people are more used to either the color itself or the terminology used to describe it.</s></p><p xml:id="_e9VdZZm"><s xml:id="_wxAwTUQ" coords="4,63.76,559.03,230.28,7.94;4,53.80,569.99,241.77,7.94;4,53.80,580.94,192.86,7.94">Therefore, it is crucial to have a consistent color standard before any color analysis is performed, as there are approximately 10 million hues that can be distinguished by the human eye.</s><s xml:id="_4Mscwav" coords="4,248.81,580.94,46.22,7.94;4,53.80,591.90,240.24,7.94;4,53.80,602.86,240.41,7.94;4,53.47,613.82,141.91,7.94">In this study, the extracted colors will be compared with 986 specified standard colors, and the extracted color will be assigned to the standard color which is closest to the extracted color.</s><s xml:id="_Y6uMU7M" coords="4,197.63,613.82,96.42,7.94;4,53.80,624.78,241.63,7.94">These 986 standard colors refer to a comprehensive list available on the Color-Hex website <ref type="bibr" coords="4,281.02,624.78,10.81,7.94" target="#b3">[4]</ref>.</s><s xml:id="_9qupDU7" coords="4,53.48,635.74,240.57,7.94;4,53.80,646.70,240.25,7.94;4,53.80,657.66,240.25,7.94;4,53.80,668.62,27.88,7.94">Additionally, the extracted color will be visualized by word cloud since the word cloud is a widely used data visualization technique that can effectively display the frequency of words or themes in a dataset.</s></p><p xml:id="_Xa43bVC"><s xml:id="_P7MCSQR" coords="4,63.76,679.57,230.28,7.94;4,53.80,690.53,240.24,7.94;4,53.80,701.49,20.47,7.94">In addition to an overall analysis of all the colors, this study also conducted a visual analysis of the harmony of colors used for each piece.</s><s xml:id="_j9QkuUU" coords="4,76.28,701.49,217.76,7.94;4,317.96,87.79,240.25,7.94;4,317.96,98.75,240.25,7.94;4,317.96,109.71,40.28,7.94">To be specific, the color palette is used for this purpose and it is divided into twelve equal parts, and the extracted colors are then placed in the corresponding color positions of the palette according to the hue.</s><s xml:id="_RNAQYNc" coords="4,360.78,109.71,197.43,7.94;4,317.96,120.67,240.25,7.94;4,317.96,131.63,240.25,7.94;4,317.96,142.59,28.47,7.94">If there exists some of the extracted colors belong to the same hue, they will be distributed in the order of saturation from the lowest to the highest in the sector from the inside to the outside.</s></p><p xml:id="_BTVTC55"><s xml:id="_cFeE5gE" coords="4,327.92,153.55,230.28,7.94;4,317.96,164.51,240.25,7.94;4,317.96,175.46,182.94,7.94">Afterward, to effectively document all color harmony types present in the work, a simple algorithm was devised to calculate these types based on the resulting color palette.</s><s xml:id="_4XyS2hY" coords="4,503.97,175.46,54.23,7.94;4,317.96,186.42,240.25,7.94;4,317.96,197.38,177.05,7.94">The algorithm primarily focuses on determining the relationships between colors by comparing their positions within the palette.</s><s xml:id="_ngeb7TF" coords="4,497.24,197.38,60.96,7.94;4,317.96,208.34,241.24,7.94;4,317.96,219.30,240.24,7.94;4,317.96,230.26,139.68,7.94">These positional comparisons classify the colors as relative, adjacent, or identical, corresponding to complementary harmony, similar harmony, and monochromatic harmony, respectively.</s><s xml:id="_pfsqcPd" coords="4,459.85,230.26,98.35,7.94;4,317.96,241.22,240.25,7.94;4,317.96,252.18,240.25,7.94;4,317.96,263.14,226.42,7.94">Furthermore, the algorithm identifies more complex three-color harmony based on specific triangular positions, while four-color harmony require two sets of colors to be positioned opposite each other within the palette.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4" xml:id="_3kBkfS9">Timeline representation</head><p xml:id="_A2BQTKX"><s xml:id="_7v7em5r" coords="4,317.64,297.97,240.56,7.94;4,317.96,308.93,183.25,7.94">A web-based exploration system was developed to meet the two tasks presented in Section 3.2 in an interactive way.</s><s xml:id="_XM23pjR" coords="4,503.19,308.93,55.02,7.94;4,317.96,319.89,240.25,7.94;4,317.96,330.85,188.24,7.94">The main focus of this system is to present the results of the color study, as well as an overview of van Gogh's entire painting oeuvre.</s><s xml:id="_XKuhuQS" coords="4,508.55,330.85,49.65,7.94;4,317.96,341.81,240.25,7.94;4,317.96,352.76,46.85,7.94">The interface of this system is shown in Figure <ref type="figure" coords="4,447.07,341.81,3.13,7.94" target="#fig_1">2</ref>, and divided into four main components:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.1" xml:id="_jGdsMz6">Interactivity.</head><p xml:id="_n3sVJQ2"><s xml:id="_zmst6bW" coords="4,328.87,679.57,229.51,7.94;4,342.36,690.53,217.22,7.94">(1) Hovering over a painting: When the mouse hovers over any painting, a colorful infographic of the work is displayed.</s><s xml:id="_dsPx78s" coords="4,342.10,701.49,216.11,7.94;5,78.21,87.79,216.01,7.94;5,78.21,98.75,39.57,7.94">The infobox includes the name of the work, the year it was created, and the type of harmony used, shown in the lower left corner.</s><s xml:id="_qt6Ez7C" coords="5,64.71,109.71,229.34,7.94;5,78.21,120.67,215.84,7.94;5,78.21,131.63,216.00,7.94;5,78.21,142.59,80.17,7.94">(2) Clicking over a time period: Clicking on any time interval at the bottom of the timeline representation, all paintings in that period will display in a new window, allowing for a closer examination.</s><s xml:id="_xrunKmS" coords="5,161.14,142.59,132.91,7.94;5,78.21,153.55,215.84,7.94;5,78.21,164.51,34.07,7.94">Clicking on the back button on the top left from the new window, it will return to the main interface.</s></p><p xml:id="_UMxfccz"><s xml:id="_Jb6xp9X" coords="5,64.71,175.46,230.85,7.94;5,78.21,186.42,215.84,7.94;5,78.21,197.38,153.44,7.94">(3) Color Harmony Filtering: Users can make single or multiple selections to filter the paintings based on the desired color harmony types they want to view.</s><s xml:id="_xTJpShK" coords="5,234.68,197.38,60.88,7.94;5,78.21,208.34,215.84,7.94;5,78.21,219.30,141.97,7.94">This feature enables users to focus on specific color schemes and explore artworks that exhibit those harmonies.</s><s xml:id="_zS2nUXS" coords="5,63.76,419.22,231.80,7.94;5,53.80,430.18,145.32,7.94">Figure <ref type="figure" coords="5,89.46,419.22,4.20,7.94" target="#fig_2">3</ref> demonstrates the filter function by selecting the Complementary and Tetrad harmony types.</s><s xml:id="_F8Z7xXC" coords="5,201.36,430.18,92.68,7.94;5,53.80,441.14,240.25,7.94;5,53.80,452.10,191.07,7.94">It is noticeable that there are fewer paintings displayed compared to the main window shown in Figure <ref type="figure" coords="5,89.34,452.10,3.12,7.94" target="#fig_1">2</ref>, where all harmony types were selected.</s><s xml:id="_qmnHnYy" coords="5,247.10,452.10,47.93,7.94;5,53.80,463.06,240.25,7.94;5,53.80,474.02,241.24,7.94;5,53.80,484.97,240.25,7.94;5,53.80,495.93,27.51,7.94">Additionally, Figure <ref type="figure" coords="5,79.82,463.06,4.25,7.94" target="#fig_2">3</ref> showcases the hovering effect, where hovering over the painting of the bridge triggers the display of a color infographic, and the painting information is shown at the bottom left of the system.</s><s xml:id="_cQu5uyZ" coords="5,63.76,635.74,214.48,7.94">Figure <ref type="figure" coords="5,88.49,635.74,4.09,7.94" target="#fig_3">4</ref> demonstrates the selection of a specific time period.</s><s xml:id="_73UqvRt" coords="5,280.14,635.74,13.90,7.94;5,53.80,646.70,240.25,7.94;5,53.80,657.66,192.54,7.94">The chosen time period, 1881-1885, is extended to encompass the entire timeframe and provide a clearer view of each picture.</s><s xml:id="_4wKjD5y" coords="5,248.59,657.66,46.45,7.94;5,53.80,668.62,240.25,7.94;5,53.80,679.57,240.25,7.94;5,53.80,690.53,240.24,7.94;5,53.80,701.49,59.65,7.94">Additionally, it is obvious that each painting is composed of circles of varying sizes, which corresponds to the number of color harmony types that the painting utilized; the more harmony types employed, the greater size it is.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_7XrHGpt">RESULTS AND DISCUSSION 5.1 Comparison of Theme Color Extraction Algorithms</head><p xml:id="_PChWgRg"><s xml:id="_weCHTjS" coords="5,317.69,126.55,242.03,7.94;5,317.96,137.51,68.40,7.94">This subsection focuses on presenting the results of the experimental test algorithms.</s></p><p xml:id="_BYF6A3B"><s xml:id="_5psf3HV" coords="5,327.92,148.47,230.28,7.94;5,317.96,159.42,241.26,7.94;5,317.96,170.38,194.04,7.94">The illustration chosen to exhibit the algorithm's effectiveness is van Gogh's "Blossoming Almond Branch in a Glass with a Book, " and Figure <ref type="figure" coords="5,357.68,170.38,4.09,7.94" target="#fig_4">5</ref> displays the visualization of theme colors.</s><s xml:id="_KFZUYQU" coords="5,513.83,170.38,44.37,7.94;5,317.96,181.34,240.25,7.94;5,317.96,192.30,240.25,7.94;5,317.96,203.26,188.68,7.94">The name of the method used to extract the color from the painting is shown in the text above each palette, and the numbers "5" or "10" at the end of the text indicate how many colors were extracted.</s><s xml:id="_sMYcq9C" coords="5,508.85,203.26,49.36,7.94;5,317.96,214.22,240.25,7.94;5,316.94,225.18,241.26,7.94;5,317.96,236.14,209.19,7.94">It's important to note that the tolerance of similar colors is represented by the "tol" at the end of the text of the color palette titled "extcolors", and its value may be changed to produce various effects here.</s></p><p xml:id="_yVRhD6b"><s xml:id="_TAEzfwy" coords="5,327.92,247.10,230.29,7.94;5,317.96,258.05,240.41,7.94;5,317.96,269.01,212.25,7.94">It might be noticed that the color palette of "_5, tol=40" has only four colors, which is actually because there is another color that is white, so it is not obvious on the color wheel.</s><s xml:id="_mdg3YdB" coords="5,327.92,421.37,230.28,8.02;5,317.96,432.40,240.24,7.94;5,317.96,443.35,96.96,7.94">It can be seen that the five colors extracted using the extcolors library are the most effective reflect the painting's color and best match human perception.</s><s xml:id="_TdYJHMp" coords="5,417.81,443.35,140.40,7.94;5,317.96,454.31,240.25,7.94;5,317.96,465.27,132.81,7.94">While the colors recovered using the median cut approach were darker, the findings of the other two K-Means methods were comparable.</s></p><p xml:id="_hwqataU"><s xml:id="_YnPMhBQ" coords="5,327.92,476.23,230.28,7.94;5,317.96,487.19,240.25,7.94;5,317.96,498.15,114.92,7.94">To evaluate the effectiveness of the extraction algorithms, ten individuals were randomly interviewed to gather their perceptions on the results of these methods.</s><s xml:id="_JTbnRDs" coords="5,435.12,498.15,123.08,7.94;5,317.96,509.11,241.76,7.94;5,317.96,520.07,240.48,7.94;5,317.96,531.03,129.25,7.94">The interviewees consisted of five males and five females, including eight undergraduate college students and two employee one of which is working in the battery field while the other is a bank clerk.</s><s xml:id="_fTHVSkg" coords="5,449.44,531.03,110.27,7.94;5,317.96,541.98,149.78,7.94">The average age of the participants was 25.1 years, and all are Chinese.</s><s xml:id="_eV4Phvz" coords="5,469.97,541.98,89.21,7.94;5,317.96,552.88,240.48,8.02;5,317.96,563.90,241.63,7.94">Among the respondents, 80% expressed that the colors extracted from the extcolors library provided the most accurate representation of the painting subjects.</s><s xml:id="_2ge53UK" coords="5,317.96,574.86,240.48,7.94;5,317.96,585.82,131.03,7.94">However, two individuals preferred the median-cut method, as they believed it produced better results.</s><s xml:id="_HKvCupn" coords="5,451.79,585.82,106.41,7.94;5,317.96,596.72,240.24,8.02;5,317.96,607.74,24.05,7.94">Based on these findings, the extcolors library was ultimately chosen for the extraction of theme colors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2" xml:id="_KqgE2wm">Theme Color Extraction and Analysis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.1" xml:id="_SAeZtdV">General Results</head><p xml:id="_sN3NcgB"><s xml:id="_YmgaHNn" coords="5,399.25,635.68,158.96,8.04;5,317.96,646.64,240.25,8.02;5,317.96,657.66,159.96,7.94">. We extract five primary colors for each artwork by the extcolors library and the information for each of the five extracted colors is presented in Table <ref type="table" coords="5,471.77,657.66,3.07,7.94" target="#tab_3">2</ref>.</s></p><p xml:id="_TBxXzp8"><s xml:id="_TQasR9p" coords="5,327.92,668.62,231.80,7.94;5,317.96,679.57,240.25,7.94;5,317.96,690.53,240.25,7.94;5,317.96,701.49,159.43,7.94">On the basis of all the colors extracted, a general statistical analysis was conducted by eliminating some of the dominant black and dark colors, and a word cloud was generated to visualize the overall color usage of all of van Gogh's artworks.</s><s xml:id="_qSgEZQR" coords="5,480.21,701.49,78.16,7.94;6,53.80,170.67,240.25,7.94;6,53.80,181.63,107.29,7.94">The colors and color names of the text in the word cloud are the 986 standard colors summarized by Color-Hex <ref type="bibr" coords="6,145.67,181.63,11.56,7.94" target="#b3">[4]</ref>.</s><s xml:id="_sq2ZFmF" coords="6,163.33,181.63,130.72,7.94;6,53.80,192.59,241.76,7.94;6,53.80,203.55,240.58,7.94;6,53.80,214.51,92.26,7.94">By looking at this word cloud, it can be seen that the most frequently used colors in van Gogh's paintings are yellow and green, including some brown colors and a few blue-violet and red colors.</s><s xml:id="_mkZNdKD" coords="6,147.87,214.51,146.17,7.94;6,53.80,225.47,240.25,7.94;6,53.80,236.43,240.24,7.94;6,53.80,247.39,56.47,7.94">To make the word cloud more interesting and to fit the theme of this study, the van Gogh sunflower with the background removed was used as a mask for the word cloud (see Figure <ref type="figure" coords="6,79.33,247.39,3.07,7.94" target="#fig_5">6</ref>, right).</s><s xml:id="_rpJ3qeH" coords="6,63.76,391.86,230.28,7.94;6,53.80,402.82,240.25,7.94;6,53.80,413.78,240.25,7.94;6,53.80,424.74,28.14,7.94">A visualization of the color wheel and the percentage of each major color in a painting was generated as an image, which means that a total of 878 color information maps were generated for this project.</s><s xml:id="_WGQ4tGN" coords="6,84.26,424.74,209.95,7.94;6,53.80,435.70,154.54,7.94">This color infographic can give an overview of the color information and relationships of a painting.</s><s xml:id="_Kyka93B" coords="6,210.13,435.70,84.08,7.94;6,53.47,446.65,241.57,7.94;6,53.80,457.61,112.42,7.94">To be explicit, in a color wheel information image, the original painting, the color wheel, and the scale bar are included.</s><s xml:id="_uMaetVB" coords="6,168.45,457.61,125.59,7.94;6,53.53,468.57,232.75,7.94;6,63.76,646.64,146.09,8.02">For the example painting given in Table <ref type="table" coords="6,75.58,468.57,3.07,7.94" target="#tab_3">2</ref>, its color wheel information image is shown in Figure <ref type="figure" coords="6,280.14,468.57,3.07,7.94" target="#fig_6">7</ref>. Case One: Theme color with 0 proportion.</s><s xml:id="_kS3QV9X" coords="6,213.33,646.70,80.95,7.94;6,53.80,657.66,240.24,7.94;6,53.80,668.62,241.24,7.94;6,53.47,679.57,240.74,7.94;6,53.80,690.47,241.23,8.02;6,53.80,701.49,240.25,7.94;6,317.96,87.79,194.07,7.94">As a matter of fact, by looking through the entire color data file, it is easy to notice that several of the theme colors are not very relevant to the artwork, with "Proportion" values being near 0 or exactly 0. The reason for this is that by using the extcolors library to extract theme colors, the parameter of "tolerance" must be set, which has a significant impact on the proportion of the final extracted color.</s><s xml:id="_m4hwETc" coords="6,514.28,87.79,43.93,7.94;6,317.62,98.75,240.58,7.94;6,317.96,109.71,74.66,7.94">More colors will be assigned to the same cluster center color when the value of "tolerance" is higher.</s><s xml:id="_YPNzHzP" coords="6,394.87,109.71,163.34,7.94;6,317.96,120.67,240.25,7.94;6,317.96,131.63,240.25,7.94;6,317.96,142.59,15.03,7.94">Consequently, a high tolerance may decrease the amount of colors that may be extracted, to be specific, if the tolerance is too high, only 3 or 4 colors may be extracted, or even less.</s><s xml:id="_68EfP5c" coords="6,335.18,142.59,223.03,7.94;6,317.96,153.55,240.48,7.94;6,317.96,164.51,129.40,7.94">In our experience, the "tolerance" value was set at 30, which is a reasonable amount that enables most paintings to be effectively extracted their five primary colors.</s><s xml:id="_5fc845g" coords="6,449.59,164.51,108.61,7.94;6,317.96,175.46,240.25,7.94;6,317.96,186.42,209.47,7.94">For a few paintings, less than 5 topic colors can be retrieved with a tolerance of 30, hence in this situation, the tolerance value needs to be decreased.</s><s xml:id="_2f2WUDg" coords="6,529.66,186.42,28.54,7.94;6,317.96,197.38,240.48,7.94;6,317.96,208.34,241.63,7.94">For this case, the tolerance value is iteratively subtracted by 10, followed by another round of extraction, and so on until 5 colors are obtained.</s><s xml:id="_PvTQQTf" coords="6,317.53,219.30,240.68,7.94;6,317.96,230.26,240.25,7.94;6,317.96,241.22,240.25,7.94;6,317.96,252.18,209.47,7.94">With this optimization, all of the paintings are able to extract the five main colors; however, some of the colors are only extracted to a percentage of 0.01% or lower, which can be roughly equivalent to 0 when the percentage is retained with two decimal places.</s><s xml:id="_CkC9Cg9" coords="6,529.35,252.18,28.85,7.94;6,317.96,263.14,202.67,7.94">Figure <ref type="figure" coords="6,554.12,252.18,4.09,7.94">8</ref> depicts a typical case with the aforementioned situation.</s><s xml:id="_JAVdq3Q" coords="6,522.88,263.14,35.49,7.94;6,317.96,274.09,240.25,7.94;6,317.96,285.05,240.56,7.94;6,317.96,296.01,240.24,7.94;6,317.96,306.97,124.62,7.94">The sheer similarity of the colors employed in the painting may be the cause of this phenomenon, as seen in Figure <ref type="figure" coords="6,465.68,285.05,3.13,7.94">8</ref>, where the painting "A Field of Yellow Flowers" appears to be made up mostly of yellows of various lightnesses or chromas.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_vd2JKFs">Figure 8: A Field of Yellow Flowers</head><p xml:id="_PbartYV"><s xml:id="_VQG5MSQ" coords="6,327.92,440.67,172.05,8.02">Case Two: Non-Extracted Distinguishable Colors.</s><s xml:id="_zT6f97R" coords="6,503.46,440.73,54.74,7.94;6,317.96,451.69,240.25,7.94;6,317.96,462.65,179.96,7.94">Although most of the colors are well-extracted, there are a few paintings with discernible colors that have not been extracted.</s><s xml:id="_zwAgFK8" coords="6,500.85,462.65,58.34,7.94;6,317.96,473.61,224.17,7.94">In other words, the extracted colors may not fully satisfy human perception.</s><s xml:id="_KyTthqd" coords="6,544.35,473.61,13.85,7.94;6,317.96,484.57,218.17,7.94">It is easy to recognize that pink is the primary hue in Figure <ref type="figure" coords="6,529.86,484.57,3.13,7.94">9</ref>.</s><s xml:id="_qtnvRT6" coords="6,538.57,484.57,21.14,7.94;6,317.96,495.53,240.25,7.94;6,317.96,506.49,102.52,7.94">However, as the result shown in Figure <ref type="figure" coords="6,451.31,495.53,3.13,7.94">9</ref>, no pink hue is recognized by the extraction algorithm.</s><s xml:id="_jBqYkqj" coords="6,422.71,506.49,135.49,7.94;6,317.96,517.44,208.61,7.94">This issue is difficult to resolve given that the algorithm works well for most paintings indeed.</s><s xml:id="_d5mtSDe" coords="6,528.81,517.44,29.39,7.94;6,317.96,528.40,240.25,7.94;6,317.96,539.36,129.40,7.94">To get a more suitable outcome, a possible solution is to manually adjust the tolerance values multiple times.</s><s xml:id="_gXQVr5m" coords="6,449.59,539.36,108.61,7.94;6,317.96,550.32,116.74,7.94">Nevertheless, this approach is time-consuming and repetitive.</s><s xml:id="_WFEMhRa" coords="6,436.95,550.32,121.42,7.94;6,317.96,561.28,240.25,7.94;6,317.96,572.24,31.44,7.94">Thus, we do not perform further processes since they do not have a significant impact on the overall analysis.</s></p><p xml:id="_s6dxJrY"><s xml:id="_R7dxVYf" coords="6,327.92,589.75,219.23,8.02">Case Three: The main colors extracted is not easily noticeable.</s><s xml:id="_Er3TxKf" coords="6,550.63,589.81,7.57,7.94;6,317.96,600.77,240.25,7.94;6,317.96,611.73,240.25,7.94;6,317.96,622.68,38.55,7.94">In contrast to the second case, other case is that colors that are not easily perceived and noticed by human beings are extracted by the algorithm.</s><s xml:id="_AYxT8jR" coords="6,358.74,622.68,199.46,7.94;6,317.96,633.64,240.25,7.94;6,317.96,644.60,204.22,7.94">However, after a closer inspection of the painting, the color can be found to be present, which means that its extraction is reasonable, even if it is incomprehensible at first glance.</s><s xml:id="_XQ3zdAv" coords="6,524.42,644.60,33.78,7.94;6,317.96,655.56,240.42,7.94;6,317.62,666.52,181.51,7.94">Figure <ref type="figure" coords="6,549.89,644.60,8.31,7.94" target="#fig_0">10</ref> is an exemplary example of this phenomenon, showing the color wheel of the painting "Blooming Acacia Branches".</s><s xml:id="_vNCRbE5" coords="6,501.16,666.52,57.27,7.94;6,317.96,677.48,240.25,7.94;6,317.96,688.44,83.77,7.94">It is noteworthy that the orange-brown color with a scale of 0% is one of the thematic colors of this painting.</s><s xml:id="_q898TzA" coords="6,403.97,688.44,155.75,7.94;6,317.96,699.40,240.25,7.94;6,317.96,710.36,82.36,7.94">However, the real presence of the orangebrown color may only be noticed when focusing on the upper right and lower left corners.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3" xml:id="_wfpfRFR">Color Harmony Analysis</head><p xml:id="_cZBVgdk"><s xml:id="_gVTBhJp" coords="7,53.53,397.50,240.51,7.94;7,53.80,408.45,137.36,7.94">The created color wheel generated in section 5.2 can be used to determine the type of color harmony.</s><s xml:id="_cyxCTyF" coords="7,193.41,408.45,100.63,7.94;7,53.80,419.41,108.20,7.94">The harmony types of each painting are shown in Table <ref type="table" coords="7,155.98,419.41,3.01,7.94" target="#tab_4">3</ref>.</s><s xml:id="_HF5feFc" coords="7,164.13,419.41,129.92,7.94;7,53.80,430.37,240.42,7.94;7,53.80,441.33,56.07,7.94">Each painting typically includes one or more harmony types, but there are some paintings has no color harmony types.</s><s xml:id="_v4XFCVy" coords="7,112.05,441.33,182.00,7.94;7,53.80,452.29,240.25,7.94;7,53.80,463.25,223.54,7.94">The last line of this table indicates that van Gogh's paintings predominantly exhibit analogous and monochromatic color harmonies, with 743 and 702 occurrences respectively.</s><s xml:id="_D7jqFZG" coords="7,279.58,463.25,14.47,7.94;7,53.80,474.21,240.25,7.94;7,53.80,485.17,34.43,7.94">The tetradic color harmony is the least utilized, with only 20 instances observed.</s><s xml:id="_sdXsjGx" coords="7,90.47,485.17,205.09,7.94;7,53.80,496.13,240.25,7.94;7,53.80,507.08,222.28,7.94">However, despite their relative infrequency, complementary and triadic color harmonies still appear frequently in van Gogh's paintings, with 226 and 181 occurrences respectively.</s><s xml:id="_8qCrHvu" coords="7,63.76,624.78,185.83,7.94">Figure <ref type="figure" coords="7,89.31,624.78,8.35,7.94" target="#fig_8">11</ref> is an example diagram of color harmony.</s><s xml:id="_QmKmRFw" coords="7,251.83,624.78,43.20,7.94;7,53.80,635.74,240.25,7.94;7,53.80,646.70,240.42,7.94;7,53.80,657.66,240.88,7.94;7,53.80,668.62,240.25,7.94;7,53.80,679.57,240.25,7.94;7,53.80,690.53,240.24,7.94;7,53.80,701.49,240.88,7.94;7,317.96,87.79,240.25,7.94;7,317.96,98.75,35.24,7.94">Specifically, the upper left disc represents similar colors, meaning they have close values of hues, and the red sector area and the green sector area represent two parts of the analogous harmony, respectively; the lower left figure shows the complementary color harmony, from the color disc, the two color blocks that are on the diagonal form a contrasting harmony, and the red area and the yellow area in the figure are two parts of the contrasting color harmony, respectively; the upper right figure shows the four color harmonies that form a rectangle.</s><s xml:id="_Q82Rdjw" coords="7,355.43,98.75,202.78,7.94;7,317.96,109.71,240.25,7.94;7,317.96,120.67,240.58,7.94;7,317.96,131.63,232.19,7.94">In general, two groups of contrasting harmony then can form a four-color harmony; the lower right figure represents the formation of a triangle of three-color harmony, that is, three yellow sectors circled by three colors, can form a three-color harmony.</s><s xml:id="_FVuAFJJ" coords="7,327.92,275.38,231.27,7.94;7,317.96,286.34,240.25,7.94;7,317.96,297.29,240.24,7.94;7,317.96,308.25,119.15,7.94">In contrast to one painting that has multiple color harmony, Figure <ref type="figure" coords="7,344.21,286.34,8.51,7.94" target="#fig_9">12</ref> shows a painting with all its theme colors in the same sector of the color palette, that is, it has only one harmony type: " Monochromatic color harmony".</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6" xml:id="_5Bc5Peq">CONCLUSION</head><p xml:id="_rHrAYth"><s xml:id="_5Bqc9gD" coords="7,317.69,471.35,240.51,7.94;7,317.96,482.31,147.12,7.94">The significance of color and color harmony in art, design, and marketing has long been acknowledged.</s><s xml:id="_X25nWC7" coords="7,467.32,482.31,90.88,7.94;7,317.96,493.27,241.76,7.94;7,317.96,504.23,153.71,7.94">The emergence of digital technology has brought about a heightened complexity and relevance of color in contemporary society.</s><s xml:id="_YE8NjEV" coords="7,474.36,504.23,83.85,7.94;7,317.96,515.19,241.76,7.94;7,317.96,526.15,241.63,7.94">Digital museums have revolutionized the way people engage with art and culture, presenting an unprecedented opportunity for research related to color.</s><s xml:id="_ysF4Npx" coords="7,317.96,537.11,240.25,7.94;7,317.96,548.07,65.98,7.94">Computer techniques of color extraction have emerged as valuable tools in this area.</s><s xml:id="_qud3d6R" coords="7,386.85,548.07,171.52,7.94;7,317.96,559.03,240.25,7.94;7,317.96,569.99,240.25,7.94;7,317.96,580.94,74.33,7.94">Furthermore, the enduring relevance of color theories and insights from prominent figures such as Munsell and Itten provides a strong theoretical foundation for color analysis across various fields.</s><s xml:id="_z5JDkbq" coords="7,394.52,580.94,165.20,7.94;7,317.96,591.90,240.41,7.94;7,317.96,602.86,240.25,7.94;7,317.62,613.82,24.66,7.94">This study focuses on van Gogh's color paintings throughout his lifetime, delving into his use of color and color harmony to construct a digital museum based on a timeline of his works.</s><s xml:id="_kKpkmQA" coords="7,344.52,613.82,213.68,7.94;7,317.96,624.78,241.76,7.94;7,317.96,635.74,141.39,7.94">This approach highlights the correlation between changes in color usage over time, providing viewers with an intuitive experience and perception of the paintings.</s></p><p xml:id="_Zy2dgaW"><s xml:id="_tWEznVa" coords="7,327.92,646.70,230.28,7.94;7,317.96,657.66,241.76,7.94;7,317.96,668.62,17.59,7.94">This study initially assessed four color extraction algorithms to determine which one can accurately depict subject colors in paintings.</s><s xml:id="_7N6R3kk" coords="7,337.95,668.55,220.48,8.02;7,317.96,679.57,240.25,7.94;7,317.96,690.53,40.61,7.94">The extcolors library yielded results that were more closely aligned with human perception compared to the other evaluated algorithms.</s><s xml:id="_Ta8WCwp" coords="7,360.38,690.53,197.82,7.94;7,317.96,701.49,240.24,7.94;8,53.80,87.79,70.12,7.94">These alternative algorithms failed to adequately reflect the theme colors of the paintings and often resulted in darker, less satisfactory colors.</s><s xml:id="_KxsFMK8" coords="8,126.16,87.73,167.89,8.02;8,53.80,98.75,207.66,7.94">Overall, the extcolors library proved to be the most reliable algorithm for color extraction in this study.</s></p><p xml:id="_BNdc2jK"><s xml:id="_dXcHnCE" coords="8,63.76,109.71,230.52,7.94;8,53.80,120.67,190.82,7.94">The present study delved into van Gogh's artistic oeuvre by investigating his color usage over his entire career.</s><s xml:id="_wjXmHaG" coords="8,247.07,120.67,46.98,7.94;8,53.80,131.63,240.25,7.94;8,53.80,142.59,240.25,7.94;8,53.80,153.55,95.97,7.94">The analysis involved examining the extracted colors as a whole, visualizing the color wheel independently, and quantifying the frequency of each color harmony type.</s><s xml:id="_rtRkMDU" coords="8,152.26,153.55,141.79,7.94;8,53.80,164.51,240.25,7.94;8,53.80,175.46,154.29,7.94">The findings indicate that van Gogh's paintings predominantly feature shades of yellow and green, with blue and red being the other major colors.</s><s xml:id="_UzjbA4B" coords="8,210.32,175.46,83.96,7.94;8,53.80,186.42,240.24,7.94;8,53.80,197.38,240.48,7.94;8,53.80,208.34,240.25,7.94;8,53.80,219.30,123.20,7.94">Additionally, the study reveals that monochromatic and analogous color harmonies were the most frequently employed in van Gogh's works, followed by complementary and triadic harmonies, whereas tetrachromatic harmonies were the least utilized.</s></p><p xml:id="_5BB5qrE"><s xml:id="_utc9QuJ" coords="8,63.76,230.26,231.80,7.94;8,53.80,241.22,180.83,7.94">Additionally, a digital art gallery was erected to showcase selected van Gogh's paintings in chronological order.</s><s xml:id="_vcw76NT" coords="8,236.45,241.22,57.60,7.94;8,53.80,252.18,240.24,7.94;8,53.47,263.14,240.58,7.94;8,53.80,274.09,240.41,7.94;8,53.47,285.05,71.93,7.94">Regrettably, due to time constraints, both the timeline and digital museum design were kept rudimentary, featuring only 200 paintings with limited functionality; interactive capabilities were restricted solely to color wheel infographics.</s></p><p xml:id="_FkUrqqM"><s xml:id="_k6QDxdN" coords="8,63.76,296.01,231.80,7.94;8,53.80,306.97,241.76,7.94;8,53.80,317.87,240.24,8.02;8,53.80,328.89,48.06,7.94">In conclusion, this study assessed four color extraction algorithms to determine the most accurate representation of the subject's colors in a painting, with the extcolors library proving to be the most reliable.</s><s xml:id="_AJh6pKg" coords="8,104.08,328.89,189.97,7.94;8,53.80,339.85,240.25,7.94;8,53.80,350.81,161.45,7.94">Furthermore, van Gogh's use of color throughout his career was examined and revealed a preference for yellow and green hues, while blue and red were also prominent.</s><s xml:id="_MDFD9aX" coords="8,216.88,350.81,78.68,7.94;8,53.80,361.77,240.25,7.94;8,53.80,372.72,241.76,7.94;8,53.80,383.68,35.98,7.94">Monochromatic, analogous, and complementary color palettes were frequently employed by van Gogh as his preferred method of achieving harmonious compositions.</s><s xml:id="_keNtsuW" coords="8,92.69,383.68,201.35,7.94;8,53.80,394.64,240.25,7.94;8,53.57,405.60,240.47,7.94;8,53.80,416.56,165.61,7.94">A digital art gallery based on these findings presents a selection of van Gogh's works in chronological order, showing viewers the transformation of van Gogh's use of color throughout his painting career in the simplest of designs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7" xml:id="_6vSXVNQ">FUTURE WORK</head><p xml:id="_AX5DKPP"><s xml:id="_Ryw6hg6" coords="8,53.80,460.40,241.76,7.94;8,53.80,471.35,120.36,7.94">Despite achieving satisfactory results, this study has some limitations that must be acknowledged.</s><s xml:id="_gDQM74h" coords="8,176.32,471.35,117.73,7.94;8,53.80,482.31,240.25,7.94;8,53.80,493.27,241.76,7.94;8,53.80,504.23,108.35,7.94">One of the primary limitations is the narrow focus on analyzing the paintings themselves without consideration of the social, cultural, and historical context surrounding van Gogh's works.</s><s xml:id="_qkC2hdJ" coords="8,165.10,504.23,128.95,7.94;8,53.80,515.19,241.76,7.94;8,53.80,526.15,46.16,7.94">As a result, conclusions regarding the changes in color usage over time may lack the necessary factual support.</s><s xml:id="_MDA6cgB" coords="8,102.21,526.15,191.84,7.94;8,53.80,537.11,240.25,7.94;8,53.80,548.07,241.77,7.94;8,53.80,559.03,197.88,7.94">Therefore, future studies on painting-based artworks should consider incorporating an analysis of color changes within their socio-cultural and historical contexts to provide a more comprehensive understanding of the artist's color choices.</s></p><p xml:id="_R6vT46R"><s xml:id="_ygbph7X" coords="8,63.76,569.99,230.28,7.94;8,53.80,580.94,240.24,7.94;8,53.80,591.90,110.07,7.94">In addition, several elements such as classification and search capabilities that were intended for the development of the digital museum were not completed.</s><s xml:id="_zxmjgXf" coords="8,166.15,591.90,129.40,7.94;8,53.80,602.86,240.25,7.94;8,53.47,613.82,25.03,7.94">The lack of these functions significantly hampers the user's interactive experience with the exhibited works.</s><s xml:id="_Q32ykWz" coords="8,81.08,613.82,212.97,7.94;8,53.80,624.78,35.07,7.94">To overcome this limitation, future work can solve these problems.</s><s xml:id="_RfBWmuP" coords="8,90.41,624.78,203.63,7.94;8,53.80,635.74,240.24,7.94;8,53.80,646.70,183.44,7.94">Additionally, researchers can also explore new techniques and technologies that may offer more effective and efficient ways to analyze and present color usage in the artwork.</s></p><p xml:id="_sYd6tC8"><s xml:id="_swWTuhc" coords="8,63.76,657.66,230.46,7.94;8,53.80,668.62,240.25,7.94;8,53.80,679.57,240.25,7.94;8,53.80,690.53,240.25,7.94;8,53.80,701.49,63.79,7.94">For the future, the project will focus on analyzing the use of color in the broader context of van Gogh's life, including the influence of Impressionism and Post-Impressionism during his time in Paris, his fascination with Japanese art elements, and the impact of his living situation in Arles.</s><s xml:id="_bVJtZ2r" coords="8,119.62,701.49,174.42,7.94;8,317.96,87.79,240.25,7.94;8,317.96,98.75,126.63,7.94">This analysis will provide a more comprehensive understanding of van Gogh's color choices and how they reflect his artistic development over time.</s></p><p xml:id="_pdr6cMZ"><s xml:id="_EBDdnFd" coords="8,327.92,109.71,230.28,7.94;8,317.96,120.67,241.77,7.94;8,317.96,131.63,240.24,7.94;8,317.96,142.59,39.12,7.94">The research conducted by Hochman and Manovich in 2013 <ref type="bibr" coords="8,317.96,120.67,9.52,7.94" target="#b6">[7]</ref>, which analyzed the visual characteristics of images, particularly focusing on tone and color, aligns with the central theme of this paper.</s><s xml:id="_bj7WZ6C" coords="8,359.62,142.59,200.09,7.94;8,317.96,153.55,240.25,7.94;8,317.96,164.51,241.76,7.94;8,317.96,175.46,186.82,7.94">Thereafter, in 2015, Tifentale and Manovich <ref type="bibr" coords="8,526.53,142.59,14.85,7.94" target="#b12">[13]</ref> proposed a study exploring the connection between photographs and their predecessors in various historical contexts, emphasizing differences in composition, content, and other aspects.</s><s xml:id="_DDDmYb5" coords="8,507.01,175.46,51.19,7.94;8,317.96,186.42,240.25,7.94;8,317.96,197.38,184.60,7.94">This notion of investigating the relationship between images and their historical predecessors serves as a valuable reference point.</s><s xml:id="_47f7Evq" coords="8,504.88,197.38,53.33,7.94;8,317.96,208.34,240.25,7.94;8,317.96,219.30,241.63,7.94">Building upon this idea, future studies on van Gogh's paintings will aim to explore the interplay between content, color usage, and historical context.</s><s xml:id="_jPgua44" coords="8,317.69,230.26,240.51,7.94;8,317.96,241.22,88.11,7.94">This approach will further enrich the analysis and understanding of van Gogh's artworks.</s></p><p xml:id="_XKMafSN"><s xml:id="_GeT7DpP" coords="8,327.92,252.18,231.80,7.94;8,317.96,263.14,157.77,7.94">In addition, the digital art gallery will keep developing, and several additional features will be implemented.</s><s xml:id="_Utw74Es" coords="8,477.48,263.14,81.70,7.94;8,317.96,274.09,240.25,7.94;8,317.96,285.05,240.25,7.94;8,317.96,296.01,36.12,7.94">These include filtering, searching, and information display functions that will enhance the user's experience by providing more in-depth knowledge of the paintings.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,317.96,140.10,241.85,7.70;3,317.96,151.06,60.00,7.70"><head>Figure 1 :</head><label>1</label><figDesc><div><p xml:id="_NC6s6ju"><s xml:id="_VZHnjgv" coords="3,317.96,140.10,241.85,7.70;3,317.96,151.06,60.00,7.70">Figure 1: Color wheels corresponding to five common harmony schemes</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,326.30,486.29,223.56,7.70;4,333.92,507.34,225.79,8.43;4,342.36,518.79,215.83,7.94;4,342.36,529.75,103.97,7.94;4,333.92,540.22,224.28,8.43;4,342.36,551.66,215.84,7.94;4,342.36,562.62,76.18,7.94;4,333.92,573.10,224.45,8.43;4,342.36,584.54,216.00,7.94;4,342.36,595.50,215.84,7.94;4,342.36,606.46,215.84,7.94;4,342.36,617.42,19.86,7.94;4,333.92,627.89,225.80,8.43;4,342.36,639.34,217.35,7.94;4,342.36,650.29,34.63,7.94"><head>Figure 2 :</head><label>2</label><figDesc><div><p xml:id="_ZEBGWxj"><s xml:id="_uYd2Rzs" coords="4,326.30,486.29,223.56,7.70">Figure 2: Main interface of the timeline representation.</s><s xml:id="_H9d9ewj" coords="4,333.92,507.34,225.79,8.43;4,342.36,518.79,215.83,7.94;4,342.36,529.75,103.97,7.94">• Paintings over four time periods: The main window displays a selection of paintings for the four periods depicted in the timeline (Figure 2(A)).</s><s xml:id="_s7QTgjK" coords="4,333.92,540.22,224.28,8.43;4,342.36,551.66,215.84,7.94;4,342.36,562.62,76.18,7.94">• Yearly Theme color: The yearly theme colors extracted by the Python extcolors library are depicted at the middle bottom (Figure 2(B)).</s><s xml:id="_aKakanN" coords="4,333.92,573.10,224.45,8.43;4,342.36,584.54,216.00,7.94;4,342.36,595.50,34.08,7.94">• Color Harmony Filtering: A list of checkboxes to filter the paintings displayed in the main window by their color harmony.</s><s xml:id="_d2VZrnS" coords="4,378.68,595.50,179.52,7.94;4,342.36,606.46,215.84,7.94;4,342.36,617.42,19.86,7.94">Each color harmony type is shown along with the number of times it was used in a total of 200 works (Figure 2(C)).</s><s xml:id="_fwcDxSv" coords="4,333.92,627.89,225.80,8.43;4,342.36,639.34,217.35,7.94;4,342.36,650.29,34.63,7.94">• Painting Information: The painting information is displayed when the mouse hovers over a piece of artwork (Figure 2(D)).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,53.80,361.39,240.43,7.70;5,53.80,372.35,240.25,7.70;5,53.80,383.31,240.94,7.70;5,53.52,394.27,201.79,7.70"><head>Figure 3 :</head><label>3</label><figDesc><div><p xml:id="_zyKNyer"><s xml:id="_5UJq8Xk" coords="5,53.80,361.39,240.43,7.70;5,53.80,372.35,240.25,7.70;5,53.80,383.31,240.94,7.70;5,53.52,394.27,201.79,7.70">Figure 3: Hovering over a specific painting: (A) Selected color harmony types; (B) Selected painting; (C) Enlarged version of the selected painting with the color wheel and theme colors ; (D) Meta-information about the selected painting.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,96.10,612.75,155.65,7.70"><head>Figure 4 :</head><label>4</label><figDesc><div><p xml:id="_f4vTCV4"><s xml:id="_SwRwknE" coords="5,96.10,612.75,155.65,7.70">Figure 4: Timeline extension function.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="5,317.96,395.50,241.85,7.70;5,317.96,406.46,130.27,7.70"><head>Figure 5 :</head><label>5</label><figDesc><div><p xml:id="_q8qyBqE"><s xml:id="_k9TsyWs" coords="5,317.96,395.50,241.85,7.70;5,317.96,406.46,130.27,7.70">Figure 5: Example of a picture with the theme colors extracted using different methods.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="6,53.80,370.26,240.25,7.70;6,53.80,381.22,77.33,7.70;6,63.76,391.86,230.28,7.94;6,53.80,402.82,240.25,7.94;6,53.80,413.78,240.25,7.94;6,53.80,424.74,240.41,7.94;6,53.80,435.70,240.41,7.94;6,53.47,446.65,241.57,7.94;6,53.80,457.61,240.24,7.94;6,53.53,468.57,232.75,7.94"><head>Figure 6 :</head><label>6</label><figDesc><div><p xml:id="_ff65r5q"><s xml:id="_MnYE7uF" coords="6,53.80,370.26,240.25,7.70;6,53.80,381.22,77.33,7.70;6,63.76,391.86,230.28,7.94;6,53.80,402.82,240.25,7.94;6,53.80,413.78,240.25,7.94;6,53.80,424.74,28.14,7.94">Figure 6: Word Cloud of Color Usage (left) Sunflower without Background (right)A visualization of the color wheel and the percentage of each major color in a painting was generated as an image, which means that a total of 878 color information maps were generated for this project.</s><s xml:id="_ZnGffd8" coords="6,84.26,424.74,209.95,7.94;6,53.80,435.70,154.54,7.94">This color infographic can give an overview of the color information and relationships of a painting.</s><s xml:id="_WbtUpbB" coords="6,210.13,435.70,84.08,7.94;6,53.47,446.65,241.57,7.94;6,53.80,457.61,112.42,7.94">To be explicit, in a color wheel information image, the original painting, the color wheel, and the scale bar are included.</s><s xml:id="_eCBwQGe" coords="6,168.45,457.61,125.59,7.94;6,53.53,468.57,232.75,7.94">For the example painting given in Table2, its color wheel information image is shown in Figure7.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="6,89.83,614.21,168.18,7.70;6,53.80,630.23,74.91,8.04"><head>Figure 7 :</head><label>7</label><figDesc><div><p xml:id="_u4fmeYP"><s xml:id="_AzPVVRd" coords="6,89.83,614.21,168.18,7.70;6,53.80,630.23,74.91,8.04">Figure 7: Color infographic for a painting 5.2.2 Special Cases.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="7,95.74,222.78,156.36,7.70"><head>Figure 9 :Figure 10 :</head><label>910</label><figDesc><div><p xml:id="_V8c8Vzr"><s xml:id="_vvBh5uF" coords="7,95.74,222.78,156.36,7.70">Figure 9: The Almond Tree in Blossom</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="7,327.82,262.77,220.51,7.70;7,327.92,275.38,231.27,7.94;7,317.96,286.34,240.25,7.94;7,317.96,297.29,240.24,7.94;7,317.96,308.25,119.15,7.94"><head>Figure 11 :</head><label>11</label><figDesc><div><p xml:id="_NE7Vnf2"><s xml:id="_2FbQHCX" coords="7,327.82,262.77,220.51,7.70;7,327.92,275.38,231.27,7.94;7,317.96,286.34,240.25,7.94;7,317.96,297.29,240.24,7.94;7,317.96,308.25,119.15,7.94">Figure 11: Different Harmony Type of Painting 205883In contrast to one painting that has multiple color harmony, Figure12shows a painting with all its theme colors in the same sector of the color palette, that is, it has only one harmony type: " Monochromatic color harmony".</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="7,384.78,434.43,106.59,7.70"><head>Figure 12 :</head><label>12</label><figDesc><div><p xml:id="_SqNXAfN"><s xml:id="_QUwGSzF" coords="7,384.78,434.43,106.59,7.70">Figure 12: Painting 206198</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="4,57.21,82.18,233.42,82.26"><head>Table 1 :</head><label>1</label><figDesc><div><p xml:id="_uMNmsKW"><s xml:id="_Nn9823Z" coords="4,151.50,82.18,78.04,7.70">Stratified Sampling</s></p></div></figDesc><table coords="4,57.21,96.81,233.42,67.63"><row><cell cols="6">Year/Total Color Works Sample Size Year/Total Color Works Sample Size</cell></row><row><cell>1881</cell><cell>20</cell><cell>2</cell><cell>1886</cell><cell>85</cell><cell>10</cell></row><row><cell>1882</cell><cell>47</cell><cell>5</cell><cell>1887</cell><cell>133</cell><cell>15</cell></row><row><cell>1883</cell><cell>26</cell><cell>3</cell><cell>1888</cell><cell>170</cell><cell>19</cell></row><row><cell>1884</cell><cell>41</cell><cell>5</cell><cell>1889</cell><cell>143</cell><cell>16</cell></row><row><cell>1885</cell><cell>97</cell><cell>11</cell><cell>1890</cell><cell>114</cell><cell>13</cell></row><row><cell>Total</cell><cell>876</cell><cell>100</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="6,56.82,82.18,234.19,67.28"><head>Table 2 :</head><label>2</label><figDesc><div><p xml:id="_9pbtxSG"><s xml:id="_sCzXTfM" coords="6,97.65,82.18,185.74,7.70">Information of extracted colors for a painting</s></p></div></figDesc><table coords="6,56.82,98.92,234.19,50.54"><row><cell>Painting ID Color</cell><cell>RGB</cell><cell>Proportion Hex</cell><cell cols="3">Hue Saturation Lightness</cell></row><row><cell cols="4">206994 color1 (237, 215, 54) 55.147% #E4D00A 54.5</cell><cell>-0.92</cell><cell>119</cell></row><row><cell>206994 color2</cell><cell>(8, 8, 8)</cell><cell>16.805% #080808</cell><cell>0</cell><cell>0</cell><cell>8</cell></row><row><cell cols="5">206994 color3 (71, 141, 78) 15.478% #4D8C57 129.52 -0.29</cell><cell>108.5</cell></row><row><cell cols="2">206994 color4 (32, 68, 126)</cell><cell cols="2">5.876% #104E8B 209.76</cell><cell>-0.8</cell><cell>77.5</cell></row><row><cell cols="4">206994 color5 (176, 178, 157) 4.282% #A9BA9D 95.17</cell><cell>-0.09</cell><cell>171.5</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="7,64.16,524.54,219.23,83.22"><head>Table 3 :</head><label>3</label><figDesc><div><p xml:id="_DHDhDr4"><s xml:id="_uDUdknT" coords="7,97.65,524.54,185.74,7.70">Information of extracted colors for a painting</s></p></div></figDesc><table coords="7,65.71,541.27,215.92,66.48"><row><cell cols="5">Painting ID Monochromatic Complementary Analogous Triad</cell><cell>Tetrad</cell></row><row><cell>205883</cell><cell>FALSE</cell><cell>TRUE</cell><cell>TRUE</cell><cell>TRUE</cell><cell>TRUE</cell></row><row><cell>206198</cell><cell>TRUE</cell><cell>FALSE</cell><cell>FALSE</cell><cell cols="2">FALSE FALSE</cell></row><row><cell>206953</cell><cell>TRUE</cell><cell>FALSE</cell><cell>TRUE</cell><cell cols="2">FALSE FALSE</cell></row><row><cell>206981</cell><cell>FALSE</cell><cell>FALSE</cell><cell>TRUE</cell><cell cols="2">FALSE FALSE</cell></row><row><cell>205662</cell><cell>TRUE</cell><cell>FALSE</cell><cell>TRUE</cell><cell cols="2">FALSE FALSE</cell></row><row><cell>. . .</cell><cell>. . .</cell><cell>. . .</cell><cell>. . .</cell><cell>. . .</cell><cell>. . .</cell></row><row><cell cols="2">Sum of True 702 (37.5%)</cell><cell cols="4">226 (12.1%) 743 (39.7%) 181 (9.7%) 20 (1.0%)</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,333.39,329.15,225.51,6.23;8,333.39,337.12,127.37,6.23" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="8,405.18,329.15,153.71,6.23;8,333.39,337.12,7.80,6.23" xml:id="_ANUvpV8">Color harmony: experimental and computational modeling</title>
+		<author>
+			<persName coords=""><forename type="first">Christel</forename><surname>Chamaret</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rU3jwsH" coord="8,346.30,337.17,107.94,6.18">Ph. D. Dissertation. Université Rennes</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christel Chamaret. 2016. Color harmony: experimental and computational model- ing. Ph. D. Dissertation. Université Rennes 1.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,345.14,224.81,6.18;8,333.39,353.06,224.81,6.23;8,333.39,361.03,225.57,6.23;8,333.39,369.00,92.48,6.23" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="8,527.33,345.14,30.87,6.18;8,333.39,353.11,151.24,6.18" xml:id="_sM3H7qB">Evaluation of automatic image color theme extraction methods</title>
+		<author>
+			<persName coords=""><forename type="first">Gianluigi</forename><surname>Ciocca</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paolo</forename><surname>Napoletano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Raimondo</forename><surname>Schettini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_4adcUCt" coord="8,498.44,353.06,59.76,6.23;8,333.39,361.03,98.10,6.23">Computational Color Imaging: 7th International Workshop</title>
+		<meeting><address><addrLine>Chiba, Japan</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2019-03-27">2019. 2019. March 27-29, 2019</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="165" to="179" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gianluigi Ciocca, Paolo Napoletano, and Raimondo Schettini. 2019. Evaluation of automatic image color theme extraction methods. In Computational Color Imaging: 7th International Workshop, CCIW 2019, Chiba, Japan, March 27-29, 2019, Proceedings 7. Springer, 165-179.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,377.02,225.88,6.18;8,333.39,384.94,197.30,6.23" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="8,350.41,384.99,57.91,6.18" xml:id="_xUA2E4C">Color harmonization</title>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Cohen-Or</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Olga</forename><surname>Sorkine</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ran</forename><surname>Gal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tommer</forename><surname>Leyvand</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ying-Qing</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_hmhhsE2" coord="8,421.52,384.94,79.82,6.23">ACM SIGGRAPH 2006 Papers</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="624" to="630" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Daniel Cohen-Or, Olga Sorkine, Ran Gal, Tommer Leyvand, and Ying-Qing Xu. 2006. Color harmonization. In ACM SIGGRAPH 2006 Papers. 624-630.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,392.91,225.49,6.23;8,333.39,400.93,76.49,6.18" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" coord="8,381.81,392.91,33.21,6.23" xml:id="_yjnkkvM">Color Names</title>
+		<author>
+			<persName coords=""><surname>Color-Hex</surname></persName>
+		</author>
+		<ptr target="https://www.color-hex.com/color-names.html" />
+		<imprint>
+			<date type="published" when="2010-05-28">2010. May 28. 2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Color-hex. 2010. Color Names. Retrieved May 28, 2023 from https://www.color- hex.com/color-names.html</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,408.85,224.81,6.23;8,333.39,416.87,133.64,6.18" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coord="8,376.50,408.85,93.40,6.23" xml:id="_URaCfeD">Extract Color Themes from Images</title>
+		<author>
+			<persName coords=""><surname>Cybrain</surname></persName>
+		</author>
+		<ptr target="https://github.com/rainyear/ImageColorTheme" />
+		<imprint>
+			<date type="published" when="2015-05-28">2015. May 28. 2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cybrain. 2015. Extract Color Themes from Images. Retrieved May 28, 2023 from https://github.com/rainyear/ImageColorTheme</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,424.84,225.99,6.18;8,333.39,432.76,225.58,6.23;8,333.16,440.78,55.37,6.18" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="8,548.66,424.84,10.72,6.18;8,333.39,432.81,58.12,6.18" xml:id="_WRbHsJv">Automatic color palette</title>
+		<author>
+			<persName coords=""><forename type="first">Julie</forename><surname>Delon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Agnes</forename><surname>Desolneux</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jose</forename><surname>Luis Lisani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ana</forename><forename type="middle">Belen</forename><surname>Petro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_R2jy5VR" coord="8,403.51,432.76,152.64,6.23">IEEE international conference on image processing 2005</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">706</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Julie Delon, Agnes Desolneux, Jose Luis Lisani, and Ana Belen Petro. 2005. Au- tomatic color palette. In IEEE international conference on image processing 2005, Vol. 2. IEEE, II-706.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,448.75,225.63,6.18;8,333.39,456.67,180.30,6.23" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="8,461.74,448.75,97.29,6.18;8,333.39,456.72,109.11,6.18" xml:id="_T7cNRD8">Zooming into an Instagram City: Reading the local through social media</title>
+		<author>
+			<persName coords=""><forename type="first">Nadav</forename><surname>Hochman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lev</forename><surname>Manovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_e5XgTH6" coord="8,448.15,456.67,36.59,6.23">First Monday</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nadav Hochman and Lev Manovich. 2013. Zooming into an Instagram City: Reading the local through social media. First Monday 18 (2013).</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,464.69,224.81,6.18;8,333.39,472.61,225.51,6.23;8,333.39,480.58,76.36,6.23" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="8,437.55,464.69,120.65,6.18;8,333.39,472.66,33.65,6.18" xml:id="_x4QRcjv">Modeling how people extract color themes from images</title>
+		<author>
+			<persName coords=""><forename type="first">Sharon</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pat</forename><surname>Hanrahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qVMQhjx" coord="8,379.37,472.61,179.52,6.23;8,333.39,480.58,40.38,6.23">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="3101" to="3110" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sharon Lin and Pat Hanrahan. 2013. Modeling how people extract color themes from images. In Proceedings of the SIGCHI Conference on Human Factors in Com- puting Systems. 3101-3110.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,488.60,224.81,6.18;8,333.39,496.52,175.52,6.23" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="8,452.69,488.60,105.51,6.18;8,333.39,496.57,27.62,6.18" xml:id="_bUnJc43">Hierarchical emotional color theme extraction</title>
+		<author>
+			<persName coords=""><forename type="first">Shiguang</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Huarong</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Q9qQYQB" coord="8,366.28,496.52,80.90,6.23">Color Research &amp; Application</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="513" to="522" />
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shiguang Liu and Huarong Luo. 2016. Hierarchical emotional color theme extraction. Color Research &amp; Application 41, 5 (2016), 513-522.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,504.54,225.63,6.18;8,333.39,512.46,225.57,6.23;8,333.39,520.43,224.81,6.23;8,333.39,528.40,224.13,6.23" xml:id="b9">
+	<monogr>
+		<title level="m" type="main" coord="8,400.22,504.54,158.80,6.18;8,333.39,512.51,175.19,6.18" xml:id="_GGSywzv">The Purpose and Power of Color in Industrial Design: Encouraging the Meaningful Use of Color in Design Education</title>
+		<author>
+			<persName coords=""><forename type="first">Jason</forename><forename type="middle">A</forename><surname>Morris</surname></persName>
+		</author>
+		<ptr target="http://www.idsa.org/sites/default/files/nec06_morris_jason.pdf" />
+		<imprint>
+			<date type="published" when="2006">2006. 2006</date>
+			<publisher>Western Washington University and Industrial Designers Society of America</publisher>
+			<pubPlace>Washington DC, Estados Unidos</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jason A Morris. 2006. The Purpose and Power of Color in Industrial Design: Encouraging the Meaningful Use of Color in Design Education. Washington DC, Estados Unidos: Western Washington University and Industrial Designers Society of America (2006). http://www.idsa.org/sites/default/files/nec06_morris_jason.pdf</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,536.42,224.81,6.18;8,333.39,544.34,225.89,6.23;8,333.39,552.36,38.30,6.18" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="8,430.29,536.42,70.24,6.18;8,522.18,536.42,36.02,6.18;8,333.39,544.39,38.47,6.18" xml:id="_WWgPd5J">Image-based color schemes</title>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Bryan S Morse</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Thornton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_4RavGPp" coord="8,384.37,544.34,153.04,6.23">2007 IEEE International Conference on Image Processing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+	<note>Qing Xia, and John Uibel. III-497</note>
+	<note type="raw_reference">Bryan S Morse, Daniel Thornton, Qing Xia, and John Uibel. 2007. Image-based color schemes. In 2007 IEEE International Conference on Image Processing, Vol. 3. IEEE, III-497.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,560.28,225.27,6.23;8,333.39,568.30,40.17,6.18" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="8,392.07,560.28,22.36,6.23" xml:id="_dDJrr2a">RoyGBiv</title>
+		<author>
+			<persName coords=""><forename type="first">Giv</forename><surname>Parvaneh</surname></persName>
+		</author>
+		<ptr target="https://github.com/givp/RoyGBiv" />
+		<imprint>
+			<date type="published" when="2018-05-28">2018. May 28</date>
+			<biblScope unit="page">2023</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giv Parvaneh. 2018. RoyGBiv. Retrieved May 28, 2023 from https://github.com/ givp/RoyGBiv</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,576.27,224.81,6.18;8,333.39,584.19,224.81,6.23;8,333.39,592.16,72.95,6.23" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="8,449.77,576.27,108.43,6.18;8,333.39,584.24,87.43,6.18" xml:id="_h9aj6UF">Selfiecity: Exploring photography and self-fashioning in social media</title>
+		<author>
+			<persName coords=""><forename type="first">Alise</forename><surname>Tifentale</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lev</forename><surname>Manovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_emTSpnQ" coord="8,435.34,584.19,122.86,6.23;8,333.39,592.16,16.34,6.23">Postdigital aesthetics: Art, computation and design</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="109" to="122" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alise Tifentale and Lev Manovich. 2015. Selfiecity: Exploring photography and self-fashioning in social media. In Postdigital aesthetics: Art, computation and design. Springer, 109-122.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,600.13,224.81,6.23;8,333.39,608.15,94.82,6.18" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" coord="8,388.04,600.13,170.16,6.23;8,333.39,608.15,40.23,6.18" xml:id="_Bmb9QTd">Timeline design for visualising cultural heritage data. Royal College of Art</title>
+		<author>
+			<persName coords=""><forename type="first">Olivia</forename><surname>Vane</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>United Kingdom</note>
+	<note type="raw_reference">Olivia Vane. 2020. Timeline design for visualising cultural heritage data. Royal College of Art (United Kingdom).</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,616.07,224.81,6.23;8,333.39,624.04,224.81,6.23;8,333.39,632.01,149.36,6.23" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coord="8,428.96,616.07,129.25,6.23;8,333.39,624.04,122.17,6.23" xml:id="_GaQk5BQ">Mastering OpenCV 4 with Python: a practical guide covering topics from image processing</title>
+		<author>
+			<persName coords=""><forename type="first">Alberto</forename><surname>Fernández</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Villán</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Packt Publishing Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note>augmented reality to deep learning with OpenCV 4 and Python 3.7.</note>
+	<note type="raw_reference">Alberto Fernández Villán. 2019. Mastering OpenCV 4 with Python: a practical guide covering topics from image processing, augmented reality to deep learning with OpenCV 4 and Python 3.7. Packt Publishing Ltd.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,640.03,224.94,6.18;8,333.39,647.95,225.89,6.23;8,333.39,655.97,41.20,6.18" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="8,461.18,640.03,97.16,6.18;8,333.39,648.00,96.86,6.18" xml:id="_6JhWK3z">Color segmentation in the hsi color space using the k-means algorithm</title>
+		<author>
+			<persName coords=""><forename type="first">Arthur</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><surname>Weeks</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Eric</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hague</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_SygDsWD" coord="8,442.42,647.95,86.05,6.23">Nonlinear image processing VIII</title>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<biblScope unit="volume">3026</biblScope>
+			<biblScope unit="page" from="143" to="154" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arthur Robert Weeks and G Eric Hague. 1997. Color segmentation in the hsi color space using the k-means algorithm. In Nonlinear image processing VIII, Vol. 3026. SPIE, 143-154.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,663.94,225.88,6.18;8,333.39,671.86,193.86,6.23" xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Stephen</forename><surname>Westland</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kevin</forename><surname>Laycock</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vien</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Phil</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Forough</forename><surname>Mahyar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4a9KDkb" coord="8,350.41,671.86,127.78,6.23">Colour harmony. Colour: Design &amp; Creativity</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2007">2007. 2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stephen Westland, Kevin Laycock, Vien Cheung, Phil Henry, and Forough Mahyar. 2007. Colour harmony. Colour: Design &amp; Creativity 1, 1 (2007), 1-15.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,679.83,224.81,6.23;8,333.39,687.85,186.48,6.18" xml:id="b17">
+	<monogr>
+		<title level="m" type="main" coord="8,378.60,679.83,88.52,6.23" xml:id="_Xad8sjB">Vincent van Gogh: List of works</title>
+		<author>
+			<persName coords=""><surname>Wikiart</surname></persName>
+		</author>
+		<ptr target="https://www.wikiart.org/en/vincent-van-gogh/all-works/text-list" />
+		<imprint>
+			<date type="published" when="2021-05-28">2021. May 28. 2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">WikiArt. 2021. Vincent van Gogh: List of works. Retrieved May 28, 2023 from https://www.wikiart.org/en/vincent-van-gogh/all-works/text-list</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,317 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "connections": [
+      {
+        "author": 1,
+        "papers": [1, 2, 3, 4, 5, 11, 16]
+      },
+      {
+        "author": 2,
+        "papers": [1, 3, 4, 6, 7, 8, 9, 13, 15]
+      },
+      {
+        "author": 3,
+        "papers": [1, 8, 10, 11, 12, 13, 14, 15]
+      },
+      {
+        "author": 4,
+        "papers": [1, 3, 7, 13, 16, 17, 18]
+      },
+      {
+        "author": 5,
+        "papers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+      },
+      {
+        "author": 6,
+        "papers": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+      },
+      {
+        "author": 7,
+        "papers": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+      },
+      {
+        "author": 8,
+        "papers": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      }
+    ],
+    "authors": [
+      {
+        "id": 1,
+        "name": "author 1"
+      },
+      {
+        "id": 2,
+        "name": "author 2"
+      },
+      {
+        "id": 3,
+        "name": "author 3"
+      },
+      {
+        "id": 4,
+        "name": "author 4"
+      },
+      {
+        "id": 5,
+        "name": "author 5"
+      },
+      {
+        "id": 6,
+        "name": "author 6"
+      },
+      {
+        "id": 7,
+        "name": "author 7"
+      },
+      {
+        "id": 8,
+        "name": "author 8"
+      }
+    ],
+    "papers": [
+      {
+        "articleId": 1,
+        "title": "title 1",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "test@test.test",
+            "affiliation": "affiliation 1"
+          },
+          {
+            "id": 2,
+            "name": "author 2",
+            "email": "test@test.test",
+            "affiliation": "affiliation 2"
+          },
+          {
+            "id": 3,
+            "name": "author 3",
+            "email": "test@test.test",
+            "affiliation": null
+          },
+          {
+            "id": 4,
+            "name": "author 4",
+            "email": "test@test.test",
+            "affiliation": "affiliation 3"
+          },
+          {
+            "id": 5,
+            "name": "author 5",
+            "email": "test@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 2,
+        "title": "title 2",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ],
+        "original": true
+      },
+      {
+        "articleId": 3,
+        "title": "title 3",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 4,
+        "title": "title 4",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 5,
+        "title": "title 5",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 6,
+        "title": "title 6",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 7,
+        "title": "title 7",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 8,
+        "title": "title 8",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 9,
+        "title": "title 9",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 10,
+        "title": "title 10",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 11,
+        "title": "title 11",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 12,
+        "title": "title 12",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 13,
+        "title": "title 13",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 14,
+        "title": "title 14",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 15,
+        "title": "title 15",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 16,
+        "title": "title 16",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 17,
+        "title": "title 17",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      },
+      {
+        "articleId": 18,
+        "title": "title 18",
+        "authors": [
+          {
+            "id": 1,
+            "name": "author 1",
+            "email": "author1@test.test",
+            "affiliation": null
+          }
+        ]
+      }
+    ]
+  }
+}

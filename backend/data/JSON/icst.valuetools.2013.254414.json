@@ -1,0 +1,806 @@
+{
+    "metadata": {
+        "title": "On Celebrity, Epidemiology and the Internet",
+        "doi": null,
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "The proliferation of the internet has created new opportunities to study the mechanisms behind the emergence and dynamic behaviour of online popularity and celebrity. In this paper we examine how common epidemic models, specifically SIR and SEIR models, can be applied to model the evolution of outbreaks of celebrity interest on the internet. A major challenge when using such models is to parameterise them to fit data as an outbreak unfolds over time, without knowing the initial number of susceptibles in the target population. We present a methodology capable of fitting the model's parameters from a single trace, while the outbreak unfolds, and of forecasting the epidemic's progression in the coming days. We present results on three kinds of data: simulated epidemic data, data from a real Influenza virus outbreak and data from music artists BitTorrent download and YouTube video views activity.",
+        "keywords": [
+            "outbreak",
+            "data",
+            "modelling",
+            "model",
+            "mathematical",
+            "epidemiology",
+            "epidemic",
+            "celebrity",
+            "internet"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Marily Nika",
+            "affiliation": "Department of Computing Imperial College London",
+            "email": "marily@imperial.ac.uk"
+        },
+        {
+            "name": "Gergana Ivanova",
+            "affiliation": "Department of Computing Imperial College London",
+            "email": null
+        },
+        {
+            "name": "William J Knottenbelt",
+            "affiliation": "Department of Computing Imperial College London",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Altshuler",
+                    "given": "Y."
+                },
+                {
+                    "family": "Pan",
+                    "given": "W."
+                },
+                {
+                    "family": "Pentland",
+                    "given": "A."
+                }
+            ],
+            "title": "Trends prediction using social diffusion models",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "abs/1111.4650, 2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cha",
+                    "given": "M."
+                },
+                {
+                    "family": "Kwak",
+                    "given": "H."
+                },
+                {
+                    "family": "Rodriguez",
+                    "given": "P."
+                },
+                {
+                    "family": "Ahn",
+                    "given": "Y.-Y."
+                },
+                {
+                    "family": "Moon",
+                    "given": "S."
+                }
+            ],
+            "title": "I tube, you tube, everybody tubes: analyzing the world's largest user generated content video system",
+            "type": "paper-conference",
+            "container_title": [
+                "IMC '07: Proceedings of the 7th ACM SIGCOMM conference on Internet measurement"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Daley",
+                    "given": "D.J."
+                },
+                {
+                    "family": "Kendall",
+                    "given": "D.G."
+                }
+            ],
+            "title": "Epidemics and rumours",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "1964"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Marshall",
+                    "given": "David"
+                }
+            ],
+            "title": "Celebrity and Power: Fame in Contemporary Culture",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dugas",
+                    "given": "A."
+                },
+                {
+                    "family": "Jalalpour",
+                    "given": "M."
+                },
+                {
+                    "family": "Gel",
+                    "given": "Y."
+                },
+                {
+                    "family": "Levin",
+                    "given": "S."
+                },
+                {
+                    "family": "Torcaso",
+                    "given": "F."
+                },
+                {
+                    "family": "Igusa",
+                    "given": "T."
+                },
+                {
+                    "family": "Rothman",
+                    "given": "R."
+                }
+            ],
+            "title": "Influenza forecasting with Google flu trends",
+            "type": "article-journal",
+            "container_title": [
+                "Online Journal of Public Health Informatics"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ferris",
+                    "given": "K.O."
+                }
+            ],
+            "title": "The Sociology of Celebrity",
+            "type": "article-journal",
+            "container_title": [
+                "Sociology Compass"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gao",
+                    "given": "D."
+                },
+                {
+                    "family": "Li",
+                    "given": "W."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "R."
+                }
+            ],
+            "title": "Sequential summarization: A new application for timely updated twitter trending topics",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers"
+            ],
+            "doi": "",
+            "published_date": "2013-08"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ginsberg",
+                    "given": "J."
+                },
+                {
+                    "family": "Mohebbi",
+                    "given": "M.H."
+                },
+                {
+                    "family": "Patel",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Brammer",
+                    "given": "L."
+                },
+                {
+                    "family": "Smolinski",
+                    "given": "M.S."
+                },
+                {
+                    "family": "Brilliant",
+                    "given": "L."
+                }
+            ],
+            "title": "Detecting influenza epidemics using search engine query data",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "2008-11"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gross",
+                    "given": "R."
+                },
+                {
+                    "family": "Acquisti",
+                    "given": "A."
+                }
+            ],
+            "title": "Information revelation and privacy in online social networks (the Facebook case",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2005 ACM workshop on Privacy in the electronic society"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hartmann",
+                    "given": "W."
+                },
+                {
+                    "family": "Manchanda",
+                    "given": "P."
+                },
+                {
+                    "family": "Nair",
+                    "given": "H."
+                },
+                {
+                    "family": "Bothner",
+                    "given": "M."
+                },
+                {
+                    "family": "Dodds",
+                    "given": "P."
+                },
+                {
+                    "family": "Godes",
+                    "given": "D."
+                },
+                {
+                    "family": "Hosanagar",
+                    "given": "K."
+                },
+                {
+                    "family": "Tucker",
+                    "given": "C."
+                }
+            ],
+            "title": "Modeling social interactions: Identification, empirical methods and policy implications",
+            "type": "article-journal",
+            "container_title": [
+                "Marketing Letters"
+            ],
+            "doi": "",
+            "published_date": "2008-12"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hu",
+                    "given": "H.-W."
+                },
+                {
+                    "family": "Lee",
+                    "given": "S.-Y."
+                }
+            ],
+            "title": "Study on influence diffusion in social network",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Computer Science and Electronics Engineering (IJCSEE"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [],
+            "title": "Influenza Division, Kansas Department of Health and Environment",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013-09"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karnik",
+                    "given": "A."
+                },
+                {
+                    "family": "Saroop",
+                    "given": "A."
+                },
+                {
+                    "family": "Borkar",
+                    "given": "V."
+                }
+            ],
+            "title": "On the diffusion of messages in on-line social networks",
+            "type": "article-journal",
+            "container_title": [
+                "Performance Evaluation"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kermack",
+                    "given": "W.O."
+                },
+                {
+                    "family": "McKendrick",
+                    "given": "A.G."
+                }
+            ],
+            "title": "Contributions to the mathematical theory of epidemics-i",
+            "type": "article-journal",
+            "container_title": [
+                "Bull Math Biol"
+            ],
+            "doi": "",
+            "published_date": "1927"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ferris",
+                    "given": "Kerry O."
+                },
+                {
+                    "family": "Harris",
+                    "given": "Scott R."
+                }
+            ],
+            "title": "Stargazing: Celebrity, Fame, Social Interaction. Contemporary Sociological Perspectives",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lagarias",
+                    "given": "J.C."
+                },
+                {
+                    "family": "Reeds",
+                    "given": "J.A."
+                },
+                {
+                    "family": "Wright",
+                    "given": "M.H."
+                },
+                {
+                    "family": "Wright",
+                    "given": "P.E."
+                }
+            ],
+            "title": "Convergence properties of the nelder-mead simplex method in low dimensions",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM Journal of Optimization"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leonardi",
+                    "given": "S."
+                },
+                {
+                    "family": "Panconesi",
+                    "given": "A."
+                },
+                {
+                    "family": "Ferragina",
+                    "given": "P."
+                },
+                {
+                    "given": "A."
+                }
+            ],
+            "title": "Gionis",
+            "type": "paper-conference",
+            "container_title": [
+                "Sixth ACM International Conference on Web Search and Data Mining, WSDM 2013"
+            ],
+            "doi": "",
+            "published_date": "February 4-8, 2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "H."
+                },
+                {
+                    "family": "Wang",
+                    "given": "H."
+                },
+                {
+                    "family": "Liu",
+                    "given": "J."
+                },
+                {
+                    "family": "Xu",
+                    "given": "K."
+                }
+            ],
+            "title": "Video sharing in online social networks: measurement and analysis",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 22nd international workshop on Network and Operating System Support for Digital Audio and Video, NOSSDAV '12"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Marathe",
+                    "given": "M."
+                },
+                {
+                    "family": "Vullikanti",
+                    "given": "A.K.S."
+                }
+            ],
+            "title": "Computational epidemiology",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "",
+            "published_date": "2013-07"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Marwick",
+                    "given": "A."
+                },
+                {
+                    "family": "Boyd",
+                    "given": "D."
+                }
+            ],
+            "title": "To See and Be Seen: Celebrity Practice on Twitter",
+            "type": "article-journal",
+            "container_title": [
+                "Convergence: The International Journal of Research into New Media Technologies"
+            ],
+            "doi": "",
+            "published_date": "2011-05"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Myers",
+                    "given": "S."
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "J."
+                }
+            ],
+            "title": "Clash of the Contagions: Cooperation and Competition in Information Diffusion",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of ICDM"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Netrapalli",
+                    "given": "P."
+                },
+                {
+                    "family": "Sanghavi",
+                    "given": "S."
+                }
+            ],
+            "title": "Learning the graph of epidemic cascades",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 12th ACM SIGMETRICS/PERFORMANCE joint international conference on Measurement and Modeling of Computer Systems, SIGMETRICS '12"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Nielsen"
+                }
+            ],
+            "title": "State of the media: The social media report",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ottar",
+                    "given": "B."
+                },
+                {
+                    "family": "Barbel",
+                    "given": "F."
+                },
+                {
+                    "family": "Bryan",
+                    "given": "G."
+                }
+            ],
+            "title": "Dynamics of measles epidemics: estimating scaling of transmission rates using a time series SIR model",
+            "type": "article-journal",
+            "container_title": [
+                "Ecological Monographs"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pastor-Satorras",
+                    "given": "R."
+                },
+                {
+                    "family": "Vespignani",
+                    "given": "A."
+                }
+            ],
+            "title": "Epidemic dynamics and endemic states in complex networks",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev. E"
+            ],
+            "doi": "",
+            "published_date": "2001-05"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pastor-Satorras",
+                    "given": "R."
+                },
+                {
+                    "family": "Vespignani",
+                    "given": "A."
+                }
+            ],
+            "title": "Epidemic spreading in scale-free networks",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev. Lett"
+            ],
+            "doi": "",
+            "published_date": "2001-04"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pineda-Krch",
+                    "given": "M."
+                }
+            ],
+            "title": "GillespieSSA: Implementing the Gillespie Stochastic Simulation Algorithm in R",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Statistical Software"
+            ],
+            "doi": "",
+            "published_date": "2008-02"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ratkiewicz",
+                    "given": "J."
+                },
+                {
+                    "family": "Menczer",
+                    "given": "F."
+                },
+                {
+                    "family": "Fortunato",
+                    "given": "S."
+                },
+                {
+                    "family": "Flammini",
+                    "given": "A."
+                },
+                {
+                    "family": "Vespignani",
+                    "given": "A."
+                }
+            ],
+            "title": "Characterizing and modeling the dynamics of online popularity",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "abs/1005.2704, 2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Burr",
+                    "given": "T.L."
+                },
+                {
+                    "family": "Chowell",
+                    "given": "G."
+                }
+            ],
+            "title": "Observation and model error effects on parameter estimates in susceptible-infected-recovered epidemic model",
+            "type": "article-journal",
+            "container_title": [
+                "Far East Journal of Theoretical Statistics"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Turner",
+                    "given": "G."
+                }
+            ],
+            "title": "Approaching Celebrity Studies",
+            "type": "article-journal",
+            "container_title": [
+                "Celebrity Studies"
+            ],
+            "doi": "",
+            "published_date": "2010-03"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Turner",
+                    "given": "J."
+                },
+                {
+                    "family": "Begon",
+                    "given": "M."
+                },
+                {
+                    "family": "Bowers",
+                    "given": "R.G."
+                }
+            ],
+            "title": "Modelling pathogen transmission: the interrelationship between local and global approaches",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the Royal Society of London. Series B: Biological Sciences"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tweedle",
+                    "given": "V."
+                },
+                {
+                    "family": "Smith",
+                    "given": "R.J."
+                }
+            ],
+            "title": "A mathematical model of Bieber Fever: The most infectious disease of our time",
+            "type": "article-journal",
+            "container_title": [
+                "Understanding the dynamics"
+            ],
+            "doi": "",
+            "published_date": "2012-03"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vynnycky",
+                    "given": "E."
+                },
+                {
+                    "family": "White",
+                    "given": "R."
+                }
+            ],
+            "title": "An Introduction to Infectious Disease Modelling",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Wikipedia"
+                }
+            ],
+            "title": "15 minutes of fame",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "D.D.Y."
+                },
+                {
+                    "family": "Burnkant",
+                    "given": "R."
+                }
+            ],
+            "title": "Provide consumers with what they want on word of mouth forums",
+            "type": "article-journal",
+            "container_title": [
+                "iBusiness"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zanette",
+                    "given": "D."
+                },
+                {
+                    "family": "Risau-Gusm\u00e1n",
+                    "given": "S."
+                }
+            ],
+            "title": "Infection spreading in a population with evolving contacts",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Biological Physics"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        }
+    ]
+}

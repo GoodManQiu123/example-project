@@ -1,0 +1,828 @@
+{
+    "metadata": {
+        "title": "Epidemiology as a Framework for Large-Scale Mobile Application Accessibility Assessment",
+        "doi": "10.1145/3132525.3132547",
+        "publisher": "ACM",
+        "journal": null,
+        "published_date": "2017-10-19"
+    },
+    "content": {
+        "abstract": "Mobile accessibility is often a property considered at the level of a single mobile application (app), but rarely on a larger scale of the entire app \"ecosystem,\" such as all apps in an app store, their companies, developers, and user influences. We present a novel conceptual framework for the accessibility of mobile apps inspired by epidemiology. It considers apps within their ecosystems, over time, and at a population level. Under this metaphor, \"inaccessibility\" is a set of diseases that can be viewed through an epidemiological lens. Accordingly, our framework puts forth notions like risk and protective factors, prevalence, and health indicators found within a population of apps. This new framing offers terminology, motivation, and techniques to reframe how we approach and measure app accessibility. It establishes how app accessibility can benefit from multi-factor, longitudinal, and population-based analyses. Our epidemiology-inspired conceptual framework is the main contribution of this work, intended to provoke thought and inspire new work enhancing app accessibility at a systemic level. In a preliminary exercising of our framework, we perform an analysis of the prevalence of common determinants or accessibility barriers. We assess the health of a stratified sample of 100 popular Android apps using Google's Accessibility Scanner. We find that 100% of apps have at least one of nine accessibility errors and examine which errors are most common. A preliminary analysis of the frequency of co-occurrences of multiple errors in a single app is also presented. We find 72% of apps have five or six errors, suggesting an interaction among different errors or an underlying influence.",
+        "keywords": [
+            "accessibility",
+            "app",
+            "apps",
+            "largescale",
+            "error",
+            "paradigm",
+            "computingaccessibilityaccessibility",
+            "framework",
+            "cc",
+            "assessment"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Anne Spencer Ross",
+            "affiliation": "Computer Science & Engineering",
+            "email": "ansross@cs.washington.edu"
+        },
+        {
+            "name": "Xiaoyi Zhang",
+            "affiliation": "Computer Science & Engineering",
+            "email": "xiaoyiz@cs.washington.edu"
+        },
+        {
+            "name": "James Fogarty",
+            "affiliation": "Computer Science & Engineering",
+            "email": "jfogarty@cs.washington.edu"
+        },
+        {
+            "name": "Jacob O Wobbrock",
+            "affiliation": "The Information School DUB Group",
+            "email": "wobbrock@uw.edu"
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "Android Accessibility Developer Guidelines",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Studio",
+                    "given": "Android"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "given": "Androzoo"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [],
+            "title": "Apple Accessibility Developer Guidelines",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "given": "AppleVis"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bellotti",
+                    "given": "Victoria"
+                },
+                {
+                    "family": "Maribeth Back",
+                    "given": "W.Keith Edwards"
+                },
+                {
+                    "family": "Grinter",
+                    "given": "Rebecca E."
+                },
+                {
+                    "family": "Henderson",
+                    "given": "Austin"
+                },
+                {
+                    "family": "Lopes",
+                    "given": "Cristina"
+                }
+            ],
+            "title": "Making Sense of Sensing Systems: Five Questions for Designers and Researchers",
+            "type": "article-journal",
+            "container_title": [
+                "Proc CHI"
+            ],
+            "doi": "10.1145/503376.503450",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bigham",
+                    "given": "Jeffrey P."
+                },
+                {
+                    "family": "Cavender",
+                    "given": "Anna C."
+                },
+                {
+                    "family": "Brudvik",
+                    "given": "Jeremy T."
+                },
+                {
+                    "family": "Wobbrock",
+                    "given": "Jacob O."
+                },
+                {
+                    "family": "Lander",
+                    "given": "Richard E."
+                }
+            ],
+            "title": "WebinSitu: a Comparative Analysis of Blind and Sighted Browsing Behavior",
+            "type": "article-journal",
+            "container_title": [
+                "Proc. Assets"
+            ],
+            "doi": "10.1145/1296843.1296854",
+            "published_date": "2007"
+        },
+        {
+            "authors": [],
+            "title": "Session: Interaction Techniques and Frameworks ASSETS'17",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "Oct"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bishop",
+                    "given": "Matt"
+                }
+            ],
+            "title": "What is Computer Security?",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Security & Privacy Magazine"
+            ],
+            "doi": "10.1109/MSECP.2003.1176998",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "B\u00f6hmer",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Hecht",
+                    "given": "Brent"
+                },
+                {
+                    "family": "Sch\u00f6ning",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Kr\u00fcger",
+                    "given": "Antonio"
+                },
+                {
+                    "family": "Bauer",
+                    "given": "Gernot"
+                }
+            ],
+            "title": "Falling Asleep with Angry Birds, Facebook and Kindle -A Large Scale Study on Mobile Application Usage",
+            "type": "article-journal",
+            "container_title": [
+                "Proc. MobileHCI"
+            ],
+            "doi": "10.1145/2037373.2037383",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bronfenbrenner",
+                    "given": "Urie"
+                }
+            ],
+            "title": "The Ecology of Human Development: Experiments by Nature and Design",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1979"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chilana",
+                    "given": "Parmit K."
+                },
+                {
+                    "family": "Ko",
+                    "given": "Andrew J."
+                },
+                {
+                    "family": "Wobbrock",
+                    "given": "Jacob O."
+                },
+                {
+                    "family": "Grossman",
+                    "given": "Tovi"
+                },
+                {
+                    "family": "Fitzmaurice",
+                    "given": "George"
+                }
+            ],
+            "title": "Post-Deployment Usability: a Survey of Current Practices",
+            "type": "article-journal",
+            "container_title": [
+                "Proc. CHI"
+            ],
+            "doi": "10.1145/1978942.1979270",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Clegg-Vinell",
+                    "given": "Raphael"
+                },
+                {
+                    "family": "Bailey",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Gkatzidou",
+                    "given": "Voula"
+                }
+            ],
+            "title": "Investigating the Appropriateness and Relevance of Mobile Web Accessibility Guidelines",
+            "type": "article-journal",
+            "container_title": [
+                "Proc. W4A"
+            ],
+            "doi": "10.1145/2596695.2596717",
+            "published_date": "2014"
+        },
+        {
+            "authors": [],
+            "title": "Association for Professionals in Infection ControlBreak the Chain of Infection",
+            "type": "chapter",
+            "container_title": [
+                "Infection Protection and You"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cooper",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Korn",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Snow-Weaver",
+                    "given": "Andi"
+                },
+                {
+                    "family": "Vanderheiden",
+                    "given": "Gregg"
+                },
+                {
+                    "family": "Normand",
+                    "given": "Lo\u00efc Mart\u00ednez"
+                },
+                {
+                    "family": "Pluke",
+                    "given": "Mike"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Deka",
+                    "given": "Biplab"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Zifeng"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Ranjitha"
+                }
+            ],
+            "title": "ERICA: Interaction Mining Mobile Apps",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. UIST 2016"
+            ],
+            "doi": "10.1145/2984511.2984581",
+            "published_date": "2016"
+        },
+        {
+            "authors": [],
+            "title": "Floating Action Button Usage Guidelines",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gil",
+                    "given": "Santiago"
+                },
+                {
+                    "family": "Kott",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Barab\u00e1si",
+                    "given": "Albert-L\u00e1szl\u00f3"
+                }
+            ],
+            "title": "A Genetic Epidemiology Approach to Cyber-Security",
+            "type": "article-journal",
+            "container_title": [
+                "Scientific Reports"
+            ],
+            "doi": "10.1038/srep05659",
+            "published_date": "2014"
+        },
+        {
+            "authors": [],
+            "title": "Google Accessibility Scanner",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gordis",
+                    "given": "Leon"
+                }
+            ],
+            "title": "Epidemiology",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hanson",
+                    "given": "Vicki L."
+                },
+                {
+                    "family": "Richards",
+                    "given": "John T."
+                }
+            ],
+            "title": "Progress on Website Accessibility?",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Transactions on the Web"
+            ],
+            "doi": "10.1145/2435215.2435217",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leipper",
+                    "given": "Dale F."
+                }
+            ],
+            "title": "Oceanography-A Definition for Academic Use",
+            "type": "article-journal",
+            "container_title": [
+                "Transactions, American Geophysical Union"
+            ],
+            "doi": "10.1029/TR042i004p00429",
+            "published_date": "1961"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mankoff",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Fait",
+                    "given": "Holly"
+                },
+                {
+                    "family": "Tran",
+                    "given": "Tu"
+                }
+            ],
+            "title": "Is Your Web Page Accessible?: a Comparative Study of Methods for Assessing Web Page Accessibility for the Blind",
+            "type": "article-journal",
+            "container_title": [
+                "Proc. CHI"
+            ],
+            "doi": "10.1145/1054972.1054979",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Design",
+                    "given": "Material"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Milne",
+                    "given": "Lauren R."
+                },
+                {
+                    "family": "Bennett",
+                    "given": "Cynthia L."
+                },
+                {
+                    "family": "Ladner",
+                    "given": "Richard E."
+                }
+            ],
+            "title": "The Accessibility of Mobile Health Sensors for Blind Users",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Milne",
+                    "given": "S."
+                },
+                {
+                    "family": "Dickinson",
+                    "given": "A."
+                },
+                {
+                    "family": "Carmichael",
+                    "given": "A."
+                },
+                {
+                    "family": "Sloan",
+                    "given": "D."
+                },
+                {
+                    "family": "Eisma",
+                    "given": "R."
+                },
+                {
+                    "family": "Gregor",
+                    "given": "P."
+                }
+            ],
+            "title": "Are Guidelines Enough? An Introduction to Designing Web Sites Accessible to Older People",
+            "type": "article-journal",
+            "container_title": [
+                "IBM Systems Journal"
+            ],
+            "doi": "10.1147/sj.443.0557",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Minh",
+                    "given": "Trinh"
+                },
+                {
+                    "family": "Do",
+                    "given": "Tri"
+                },
+                {
+                    "family": "Blom",
+                    "given": "Jan"
+                },
+                {
+                    "family": "Gatica-perez",
+                    "given": "Daniel"
+                }
+            ],
+            "title": "Smartphone Usage in the Wild : a Large-Scale Analysis of Applications and Context",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. ICMI"
+            ],
+            "doi": "10.1145/2070481.2070550",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mojica",
+                    "given": "Israel J."
+                },
+                {
+                    "family": "Adams",
+                    "given": "Bram"
+                },
+                {
+                    "family": "Nagappan",
+                    "given": "Meiyappan"
+                },
+                {
+                    "family": "Dienst",
+                    "given": "Steffen"
+                },
+                {
+                    "family": "Berger",
+                    "given": "Thorsten"
+                },
+                {
+                    "family": "Hassan",
+                    "given": "Ahmed E."
+                }
+            ],
+            "title": "A Large-Scale Empirical Study on Software Reuse in Mobile Apps",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Software"
+            ],
+            "doi": "10.1109/MS.2013.142",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oliver",
+                    "given": "Mike"
+                }
+            ],
+            "title": "The Individual and Social Models of Disability",
+            "type": "chapter",
+            "container_title": [
+                "Joint Workshop of the Living Options Group and the Research Unit of the Royal College of Physicians"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Richards",
+                    "given": "John T."
+                },
+                {
+                    "family": "Montague",
+                    "given": "Kyle"
+                },
+                {
+                    "family": "Hanson",
+                    "given": "Vicki L."
+                }
+            ],
+            "title": "Web Accessibility as a Side Effect",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. ASSETS 2012"
+            ],
+            "doi": "10.1145/2384916.2384931",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shirazi",
+                    "given": "Alireza Sahami"
+                },
+                {
+                    "family": "Henze",
+                    "given": "Niels"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Albrecht"
+                },
+                {
+                    "family": "Goldberg",
+                    "given": "Robin"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Schmauder",
+                    "given": "Hansj\u00f6rg"
+                }
+            ],
+            "title": "Insights Into Layout Patterns of Mobile User Interfaces by an Automatic Analysis of Android Apps",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. EICS 2013"
+            ],
+            "doi": "10.1145/2494603.2480308",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tansley",
+                    "given": "Arthur"
+                }
+            ],
+            "title": "What is Ecology?",
+            "type": "article-journal",
+            "container_title": [
+                "Biological Journal of the Linnean Society"
+            ],
+            "doi": "10.1111/j.1095-8312.1987.tb00406.x",
+            "published_date": "1987"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Warnecke",
+                    "given": "Richard B."
+                },
+                {
+                    "family": "Oh",
+                    "given": "April"
+                },
+                {
+                    "family": "Breen",
+                    "given": "Nancy"
+                },
+                {
+                    "family": "Gehlert",
+                    "given": "Sarah"
+                },
+                {
+                    "family": "Paskett",
+                    "given": "Electra"
+                },
+                {
+                    "family": "Tucker",
+                    "given": "Katherine L."
+                },
+                {
+                    "family": "Lurie",
+                    "given": "Nicole"
+                },
+                {
+                    "family": "Rebbeck",
+                    "given": "Timothy"
+                },
+                {
+                    "family": "Goodwin",
+                    "given": "James"
+                },
+                {
+                    "family": "Flack",
+                    "given": "John"
+                },
+                {
+                    "family": "Srinivasan",
+                    "given": "Shobha"
+                },
+                {
+                    "family": "Kerner",
+                    "given": "Jon"
+                },
+                {
+                    "family": "Heurtin-Roberts",
+                    "given": "Suzanne"
+                },
+                {
+                    "family": "Abeles",
+                    "given": "Ronald"
+                },
+                {
+                    "family": "Tyson",
+                    "given": "Frederick L."
+                },
+                {
+                    "family": "Patmios",
+                    "given": "Georgeanne"
+                },
+                {
+                    "family": "Hiatt",
+                    "given": "Robert A."
+                }
+            ],
+            "title": "Approaching Health Disparities From a Population Perspective: the National Institutes of Health Centers for Population Health and Health Disparities",
+            "type": "article-journal",
+            "container_title": [
+                "American Journal of Public Health"
+            ],
+            "doi": "10.2105/AJPH.2006.102525",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Organization",
+                    "given": "World Health"
+                }
+            ],
+            "title": "",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yu",
+                    "given": "Daihua X."
+                },
+                {
+                    "family": "Parmanto",
+                    "given": "Bambang"
+                },
+                {
+                    "family": "Dicianno",
+                    "given": "Brad E."
+                },
+                {
+                    "family": "Pramana",
+                    "given": "Gede"
+                }
+            ],
+            "title": "Accessibility of mHealth Self-Care Apps for Individuals with Spina Bifida",
+            "type": "article-journal",
+            "container_title": [
+                "Perspectives in Health Information Managemen, American Health Information Management Association"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "Xiaoyi"
+                },
+                {
+                    "family": "Ross",
+                    "given": "Anne Spencer"
+                },
+                {
+                    "family": "Caspi",
+                    "given": "Anat"
+                },
+                {
+                    "family": "Fogarty",
+                    "given": "James"
+                },
+                {
+                    "family": "Wobbrock",
+                    "given": "Jacob O."
+                }
+            ],
+            "title": "Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility",
+            "type": "article-journal",
+            "container_title": [
+                "Proc. CHI 2017"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        }
+    ]
+}

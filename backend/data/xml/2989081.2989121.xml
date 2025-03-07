@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_2FZz4xt" coord="1,67.76,72.35,474.20,16.84;1,210.73,92.27,188.26,16.84">Checkpointing Exascale Memory Systems with Existing Memory Technologies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2016-10-03">2016-10-03</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,162.07,137.97,90.73,11.06"><forename type="first">Nilmini</forename><surname>Abeyratne</surname></persName>
+							<email>sabeyrat@umich.edu</email>
+						</author>
+						<author>
+							<persName coords="1,261.84,137.97,81.49,11.06"><forename type="first">Hsing-Min</forename><surname>Chen</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>*</label> Arizona State University, Tempe, Arizona 85281</note>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<postCode>85281</postCode>
+									<settlement>Tempe</settlement>
+									<region>Arizona</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,358.84,137.97,82.39,11.06"><forename type="first">Byoungchan</forename><surname>Oh</surname></persName>
+							<email>bcoh@umich.edu</email>
+						</author>
+						<author>
+							<persName coords="1,148.93,150.42,91.31,11.06"><forename type="first">Ronald</forename><surname>Dreslinski</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,248.58,150.42,102.51,11.06"><forename type="first">Chaitali</forename><surname>Chakrabarti</surname></persName>
+							<email>chaitali@asu.edu</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>*</label> Arizona State University, Tempe, Arizona 85281</note>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<postCode>85281</postCode>
+									<settlement>Tempe</settlement>
+									<region>Arizona</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,388.47,150.42,72.32,11.06"><forename type="first">Trevor</forename><surname>Mudge</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">University of Michigan, Ann Arbor, Michigan 48109</note>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<postCode>48109</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_8GAmEdT" coord="1,67.76,72.35,474.20,16.84;1,210.73,92.27,188.26,16.84">Checkpointing Exascale Memory Systems with Existing Memory Technologies</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_D8mFGWp">Proceedings of the Second International Symposium on Memory Systems</title>
+						<meeting>the Second International Symposium on Memory Systems						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2016-10-03" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">198B2339F5EAD30A6AB2A4FDA3DFB5DC</idno>
+					<idno type="DOI">10.1145/2989081.2989121</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-17T20:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_mppE7PW">Fault tolerance</term>
+					<term xml:id="_3rvKgGc">Dynamic memory</term>
+					<term xml:id="_Sq5n8GX">Nonvolatile memory</term>
+					<term xml:id="_bMYTNwb">•Software and its engineering → Checkpoint / restart</term>
+					<term xml:id="_4e7Vuzz">fault tolerance</term>
+					<term xml:id="_AZbsQgF">checkpoint/restart</term>
+					<term xml:id="_4ZtaWek">ECC</term>
+					<term xml:id="_wERYbwX">exascale</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_5NnGwfC"><p xml:id="_9xghdee"><s xml:id="_UKJm9Vw" coords="1,53.80,226.87,239.11,7.86;1,53.80,237.23,239.11,7.86;1,53.80,247.59,66.58,7.86">Building exascale supercomputers requires resilience to failing components such as processor, memory, storage, and network devices.</s><s xml:id="_4jnzTZK" coords="1,126.01,247.59,166.90,7.86;1,53.80,257.94,239.11,7.86;1,53.80,268.30,239.11,7.86;1,53.80,278.65,239.11,7.86;1,53.80,289.01,113.06,7.86">Checkpoint/restart is a key ingredient in attaining resilience, but providing fast and reliable checkpointing is becoming more challenging as the amount of data to checkpoint and the number of components that can fail increase in exascale systems.</s><s xml:id="_E7tdAga" coords="1,170.74,289.01,122.17,7.86;1,53.80,299.37,239.11,7.86;1,53.80,309.72,194.53,7.86">To improve the speed of checkpointing, emerging non-volatile memory (phase change, magnetic, resistive RAM) have been proposed.</s><s xml:id="_Z7UAQ56" coords="1,256.29,309.72,36.62,7.86;1,53.80,320.08,239.11,7.86;1,53.80,330.43,223.27,7.86">However, using unproven memories to create checkpoints will only increase the design risk for exascale memory systems.</s><s xml:id="_Uv85QDc" coords="1,284.47,330.43,8.44,7.86;1,53.80,340.79,239.11,7.86;1,53.80,351.15,239.11,7.86;1,53.80,361.50,239.11,7.86;1,53.80,371.86,231.68,7.86">In this paper, we show that exascale systems with hundreds of petabytes of memory can be constructed with commodity DRAM and SSD flash memory and that newer non-volatile memory are unnecessary, at least for the next generation.</s></p><p xml:id="_Np6Sa3T"><s xml:id="_UdAUGp8" coords="1,62.77,382.22,230.14,7.86;1,53.80,392.57,239.11,7.86;1,53.80,402.93,19.00,7.86">The challenge when using commodity parts is providing fast and reliable checkpointing to protect against system failures.</s><s xml:id="_8g4YyPe" coords="1,79.56,402.93,213.34,7.86;1,53.80,413.28,239.11,7.86;1,53.80,423.64,134.94,7.86">A straightforward solution of checkpointing to local flash-based SSD devices will not work because they are endurance and performance limited.</s><s xml:id="_Pcw2A64" coords="1,192.69,423.64,100.22,7.86;1,53.80,434.00,239.11,7.86;1,53.80,444.35,31.00,7.86">We present a checkpointing solution that employs a combination of DRAM and SSD devices.</s><s xml:id="_Q67Nte4" coords="1,88.87,444.35,204.03,7.86;1,53.80,454.71,239.11,7.86;1,53.80,465.07,239.10,7.86;1,53.80,475.42,198.59,7.86">A Checkpoint Location Controller (CLC) is implemented to monitor the endurance of the SSD and the performance loss of the application and to decide dynamically whether to checkpoint to the DRAM or the SSD.</s></p><p xml:id="_6WfadRa"><s xml:id="_M26xjxE" coords="1,62.77,485.78,230.15,7.86;1,53.80,496.13,239.11,7.86;1,53.80,506.49,60.43,7.86">The CLC improves both SSD endurance and application slowdown; but the checkpoints in DRAM are exposed to device failures.</s><s xml:id="_DTV6Kjk" coords="1,121.39,506.49,171.52,7.86;1,53.80,516.85,239.11,7.86;1,53.80,527.20,239.11,7.86;1,53.80,537.56,239.11,7.86;1,53.80,547.92,239.11,7.86;1,53.80,558.27,116.84,7.86">To design a reliable exascale memory, we protect the data with a low latency ECC that can correct all errors due to bit/pin/column/word faults and also detect errors due to chip failures, and we protect the checkpoint with a Chipkill-Correct level ECC that allows reliable checkpointing to the DRAM.</s></p><p xml:id="_nCAf7F6"><s xml:id="_vZpxKku" coords="1,62.77,568.63,230.14,7.86;1,53.80,578.98,85.79,7.86">Using our system, the SSD lifetime increases by 2×-from 3 years to 6.3 years.</s><s xml:id="_EytUzzx" coords="1,147.70,578.98,145.21,7.86;1,53.80,589.34,239.11,7.86;1,53.80,599.70,239.11,7.86;1,53.80,610.05,101.89,7.86">Furthermore, the CLC reduces the average checkpointing overhead by nearly 10× (47% from a 420% slowdown), compared to when the application always checkpointed to the SSD.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_jwJYP99">INTRODUCTION</head><p xml:id="_A7fCqPR"><s xml:id="_GxpWShK" coords="1,325.78,324.14,230.15,7.86;1,316.81,334.60,180.94,7.86">Aggregate failure rates of millions of components result in frequent failures in exascale supercomputers.</s><s xml:id="_YXMdnTy" coords="1,502.30,334.60,53.62,7.86;1,316.81,345.06,239.11,7.86;1,316.81,355.52,239.10,7.86;1,316.81,365.98,184.50,7.86">In particular, exascale systems are projected to have memory systems as large as 100 petabytes-that is 100× larger than the supercomputer Titan's 1 petabyte memory system.</s><s xml:id="_u5Jg44Y" coords="1,505.66,365.98,50.26,7.86;1,316.81,376.44,239.11,7.86;1,316.81,386.90,133.56,7.86">The millions of memory devices that make up these memory systems contribute significantly to failures <ref type="bibr" coords="1,438.10,386.90,9.20,7.86" target="#b0">[1]</ref>.</s><s xml:id="_xqs4YQM" coords="1,454.13,386.90,101.79,7.86;1,316.81,397.36,231.99,7.86">Overcoming these failures requires a fast and reliable checkpoint/restart framework.</s></p><p xml:id="_kRvKdUy"><s xml:id="_EKVUDmk" coords="1,325.78,407.82,230.14,7.86;1,316.81,418.28,239.11,7.86;1,316.81,428.74,239.11,7.86;1,316.81,439.21,77.23,7.86">Checkpointing-periodically saving a snapshot of memory to stable storage-is a useful practice to rollback the application to a point before failure, without restarting from the very beginning.</s><s xml:id="_vXAHBJR" coords="1,398.04,439.21,157.88,7.86;1,316.81,449.67,239.11,7.86;1,316.81,460.13,239.11,7.86;1,316.81,470.59,91.19,7.86">Exascale systems rely heavily on checkpoints to recover from many types of failures including hardware failures, software failures, environmental problems, and even human errors <ref type="bibr" coords="1,395.73,470.59,9.20,7.86" target="#b1">[2]</ref>.</s><s xml:id="_ZUjp6BH" coords="1,413.40,470.59,142.53,7.86;1,316.81,481.05,239.11,7.86;1,316.81,491.51,239.11,7.86;1,316.81,501.97,239.11,7.86;1,316.81,512.43,144.34,7.86">Usually, checkpoints are made to a non-volatile storage such as a hard disk, but increasingly, solid-state drives (SSDs) are replacing hard disks because they provide higher read/write bandwidth, lower power consumption, and better durability <ref type="bibr" coords="1,448.88,512.43,9.20,7.86" target="#b2">[3]</ref>.</s><s xml:id="_jdya4hK" coords="1,466.19,512.43,89.72,7.86;1,316.81,522.89,239.11,7.86;1,316.81,533.35,189.39,7.86">The question becomes whether SSDs are sufficient for storing checkpoints or if we should wait for emerging memory technologies.</s></p><p xml:id="_9g782VU"><s xml:id="_BtUfbeY" coords="1,325.78,543.81,230.14,7.86;1,316.81,554.27,156.75,7.86;1,473.55,552.51,3.65,5.24;1,477.70,554.27,12.27,7.86;1,489.97,552.51,3.65,5.24;1,497.49,554.27,58.42,7.86;1,316.81,564.74,25.88,7.86">The biggest disadvantage of NAND-flash SSDs is its lower endurance, which is on the order of 10 4 -10 5 program/erase cycles.</s><s xml:id="_BxXBCZ9" coords="1,350.45,564.74,205.47,7.86;1,316.81,575.20,239.11,7.86;1,316.81,585.66,32.49,7.86">SSD manufacturers employ various tricks such as DRAM buffers and sophisticated wear-leveling to extend lifetime.</s><s xml:id="_XPaxBWZ" coords="1,358.35,585.66,197.58,7.86;1,316.81,596.12,239.10,7.86;1,316.81,606.58,142.96,7.86">Currently, SSDs on the market are guaranteed a lifetime of 3-5 years with a cap on the total number of terabytes that can be written <ref type="bibr" coords="1,447.50,606.58,9.20,7.86" target="#b3">[4]</ref>.</s><s xml:id="_yyVj9Kn" coords="1,469.33,606.58,86.59,7.86;1,316.81,617.04,239.10,7.86;1,316.81,627.50,129.94,7.86">Nevertheless, writing gigabyte-sized checkpoints several times a day to the SSD can take a toll on its endurance.</s></p><p xml:id="_N4rw9Eg"><s xml:id="_PyyYYrF" coords="1,325.78,637.96,230.14,7.86;1,316.81,648.42,239.10,7.86;1,316.81,658.88,239.11,7.86;1,316.81,669.34,239.11,7.86">Many have suggested using emerging non-volatile memory technologies such as phase change memory, memristors, and STT-RAM for checkpointing, often touting their superior read and write speeds and higher endurance <ref type="bibr" coords="1,521.60,669.34,9.72,7.86" target="#b4">[5,</ref><ref type="bibr" coords="1,535.18,669.34,7.17,7.86" target="#b5">6,</ref><ref type="bibr" coords="1,546.20,669.34,6.48,7.86" target="#b6">7]</ref>.</s><s xml:id="_yY4GV2s" coords="1,316.81,679.80,239.11,7.86;1,316.81,690.26,239.11,7.86;1,316.81,700.73,182.23,7.86">While we do not disagree with these studies, emerging technologies must overcome many undeveloped steps between a successful prototype and volume production.</s><s xml:id="_ztg8Pne" coords="1,504.86,700.73,51.06,7.86;1,316.81,711.19,239.11,7.86;2,53.80,57.64,183.31,7.86">It is difficult to guess when, or if ever, emerging technologies will be ready for the first round of exascale supercomputers.</s><s xml:id="_bDnhs66" coords="2,240.97,57.64,51.94,7.86;2,53.80,68.10,239.11,7.86;2,53.80,78.56,204.57,7.86">The U.S. Department of Energy's Exascale Computing Initiative plans to deploy exascale computing platforms by 2023 <ref type="bibr" coords="2,246.10,78.56,9.20,7.86" target="#b7">[8]</ref>.</s><s xml:id="_U287EqQ" coords="2,262.24,78.56,30.67,7.86;2,53.80,89.02,239.11,7.86;2,53.80,99.48,239.11,7.86;2,53.80,109.94,175.59,7.86">Designs for 2023 systems will have to be finalized 3-4 years prior, similar to plans for Summit (2018) and Aurora (2018-2019) supercomputers that were completed by 2015.</s><s xml:id="_Vpbm7F7" coords="2,233.41,109.94,59.49,7.86;2,53.80,120.40,239.11,7.86;2,53.80,130.86,239.11,7.86">At some point, system designers will have to reason about reliable, off-theshelf components that will be available in the next 3 years.</s><s xml:id="_xK525Zc" coords="2,53.80,141.32,239.10,7.86;2,53.80,151.78,239.11,7.86;2,53.80,162.24,168.93,7.86">We show that existing non-volatile storage options that are proven less risky due their maturity and low cost are sufficient for the near future, if used correctly.</s></p><p xml:id="_XEeHC6g"><s xml:id="_7ZNC2c3" coords="2,62.77,172.70,230.14,7.86;2,53.80,183.17,239.11,7.86;2,53.80,193.63,128.81,7.86">When using SSD flash memory for checkpointing, reducing the checkpoint size or frequency remain the most effective ways to stretch its lifetime.</s><s xml:id="_MJwyHtu" coords="2,187.62,193.63,105.29,7.86;2,53.80,204.09,239.11,7.86;2,53.80,214.55,239.11,7.86;2,53.80,225.01,89.30,7.86">To this end, we propose a system that selectively checkpoints to a DRAM in order to reduce the number of writes to the SSD thereby lengthening its useful lifetime.</s><s xml:id="_TDgsa7y" coords="2,149.45,225.01,143.46,7.86;2,53.80,235.47,239.11,7.86;2,53.80,245.93,239.10,7.86;2,53.80,256.39,159.72,7.86">To accomplish this task, we implement a Checkpoint Location Controller (CLC) that i) estimates SSD lifetime, ii) estimates application's performance loss, and iii) monitors checkpoint size.</s><s xml:id="_S3ZgHa5" coords="2,221.24,256.39,71.66,7.86;2,53.80,266.85,239.11,7.86;2,53.80,277.31,239.11,7.86;2,53.80,287.77,239.11,7.86;2,53.80,298.23,47.37,7.86">The CLC detects checkpointing frequencies that lead to SSD lifetime falling under the typical manufacturer's guarantee of 5 years, and reduces these frequencies by redirecting some checkpoints to the DRAM.</s><s xml:id="_a9RDXQu" coords="2,104.02,298.23,188.88,7.86;2,53.80,308.70,239.10,7.86;2,53.80,319.16,204.10,7.86">We believe this is the first work to consider the lifetime of the SSD while writing checkpoints to it; previous work <ref type="bibr" coords="2,76.33,319.16,9.72,7.86" target="#b8">[9]</ref> that also used SSD ignored its endurance.</s></p><p xml:id="_pUNTKAT"><s xml:id="_ufqZYFG" coords="2,62.77,329.62,230.15,7.86;2,53.80,340.08,183.63,7.86">DRAM is prone to transient errors and checkpoints corrupted by them cannot be used for recovery.</s><s xml:id="_jZHjkcV" coords="2,243.55,340.08,49.36,7.86;2,53.80,350.54,239.10,7.86;2,53.80,361.00,239.11,7.86;2,53.80,371.46,173.00,7.86">Then, a key feature to enable our technique to write fewer checkpoints to the SSD is to have a strong error correcting code (ECC) that can protect the checkpoints in DRAM.</s><s xml:id="_7Kfmddn" coords="2,229.33,371.46,63.58,7.86;2,53.80,381.92,239.11,7.86;2,53.80,392.38,239.11,7.86;2,53.80,402.84,194.87,7.86">For that reason, we propose a dual mode ECC memory system that protects regular application data with a normal ECC algorithm and checkpoint data with a strong ECC algorithm.</s><s xml:id="_KhbsVMR" coords="2,256.38,402.84,36.53,7.86;2,53.80,413.30,239.11,7.86;2,53.80,423.76,239.11,7.86;2,53.80,434.22,97.61,7.86">The normal ECC, which is on the critical path of memory accesses, is an RS(36,32) code that has small decoding latency to correct or detect errors.</s><s xml:id="_6XyERyr" coords="2,157.78,434.22,135.13,7.86;2,53.80,444.69,239.12,7.86;2,53.80,455.15,47.57,7.86">It can correct all errors due to a bit/pin/column/word failure and detect all errors due to a chip failure.</s><s xml:id="_6Ek4nAx" coords="2,105.44,455.15,187.46,7.86;2,53.80,465.61,239.11,7.86;2,53.80,476.07,131.70,7.86">The strong ECC is a two-layer RS <ref type="bibr" coords="2,240.59,455.15,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="2,258.37,455.15,13.33,7.86" target="#b15">16)</ref> code that provides Chipkill-Correct level reliability without modifications to the DRAM devices.</s><s xml:id="_wyjrJdY" coords="2,191.45,476.07,101.45,7.86;2,53.80,486.53,239.11,7.86;2,53.80,496.99,164.30,7.86">If an unrecoverable error corrupts the DRAM checkpoint, then the application will restart from the checkpoint in the SSD.</s><s xml:id="_N8mvf7U" coords="2,221.95,496.99,70.96,7.86;2,53.80,507.45,239.10,7.86;2,53.80,517.91,212.80,7.86">The resultant capability to write reliable checkpoints to memory relieves the burden on the SSD, in turn lengthening its lifetime.</s><s xml:id="_3pAjdg9" coords="2,272.16,517.91,20.74,7.86;2,53.80,528.37,239.11,7.86;2,53.80,538.83,239.11,7.86;2,53.80,549.29,239.11,7.86">More importantly, the combined DRAM-SSD checkpointing solution makes it possible to design an exascale memory system without relying on unproven emerging memory technologies.</s></p><p xml:id="_4G2wZFW"><s xml:id="_FypXWfH" coords="2,62.77,559.75,201.38,7.86">In summary, we make the following contributions:</s></p><p xml:id="_rh4ZkRb"><s xml:id="_sbBCH5m" coords="2,67.12,578.24,185.76,7.89">• A low-risk exascale memory system.</s><s xml:id="_SFesynN" coords="2,262.39,578.26,30.52,7.86;2,76.21,588.73,216.69,7.86;2,76.21,599.19,216.69,7.86;2,76.21,609.65,216.69,7.86;2,76.21,620.11,202.94,7.86">We use mature technology in commodity DRAMs and SSDs to create a low design-risk checkpointing solution and prove that system designers do not have to wait until newer non-volatile memory technologies are ready.</s></p><p xml:id="_WGSsBeg"><s xml:id="_tEbZRwU" coords="2,67.12,639.47,176.87,7.89">• Hybrid DRAM-SSD checkpointing.</s><s xml:id="_TT7vcfx" coords="2,253.50,639.49,39.41,7.86;2,76.21,649.96,216.69,7.86;2,76.21,660.42,216.70,7.86;2,76.21,670.88,105.85,7.86">Our local checkpointing solution is a hybrid mechanism that uses both DRAM and SSD flash memory to achieve speed and reliability (Section 3).</s></p><p xml:id="_7Kb99CA"><s xml:id="_RF4ZTcd" coords="2,67.12,690.24,204.60,7.89">• SSD-lifetime-aware checkpoint controller.</s><s xml:id="_EUxPxEX" coords="2,280.10,690.26,12.81,7.86;2,76.21,700.73,216.69,7.86;2,76.21,711.19,216.69,7.86;2,339.23,57.64,216.69,7.86;2,339.23,68.10,104.31,7.86">We design an intelligent Checkpoint Location Controller (CLC) that decides when to checkpoint to the SSD considering its endurance decay and performance degradation (Section 3.3).</s></p><p xml:id="_uDsN976"><s xml:id="_k6m2Dg3" coords="2,330.14,89.93,100.22,7.89">• Dual-ECC memory.</s><s xml:id="_FAhr9y5" coords="2,434.38,89.96,121.55,7.86;2,339.23,100.42,216.69,7.86;2,339.23,110.88,216.70,7.86;2,339.23,121.34,96.46,7.86">We propose a dual mode ECC memory that has a normal ECC mode to protect regular application data and a strong ECC mode to protect the DRAM checkpoint.</s><s xml:id="_vg4cQaG" coords="2,444.46,121.34,111.46,7.86;2,339.23,131.80,196.50,7.86">ECC-protected checkpoints ensure error-free restarts at recovery (Section 4).</s></p><p xml:id="_6PANpaV"><s xml:id="_W3JUJhT" coords="2,325.78,151.55,230.14,7.86;2,316.81,162.01,239.10,7.86;2,316.81,172.47,239.11,7.86;2,316.81,182.93,218.16,7.86">Our results from microbenchmark simulations averaged across various checkpoint sizes indicate that the CLC is able to increase SSD lifetime by 2×-from 3 years to 6.3 years-exceeding the guaranteed lifetime of 5 years <ref type="bibr" coords="2,522.70,182.93,9.20,7.86" target="#b3">[4]</ref>.</s><s xml:id="_f6nFcea" coords="2,538.89,182.93,17.03,7.86;2,316.81,193.39,239.11,7.86;2,316.81,203.85,239.10,7.86;2,316.81,214.31,239.11,7.86;2,316.81,224.77,239.10,7.86;2,316.81,235.24,194.82,7.86">Furthermore, the performance estimation feature in the CLC that monitors application slowdown is able to reduce the checkpoint overhead to a 47% (on average) slowdown, compared to a 420% slowdown when the application always checkpointed to the SSD-nearly a 10× savings.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_Nz9YRaY">MOTIVATION</head><p xml:id="_2E2BBEK"><s xml:id="_CPsumHH" coords="2,325.78,276.32,230.14,7.86;2,316.81,286.79,239.11,7.86;2,316.81,297.25,239.11,7.86;2,316.81,307.71,171.30,7.86">Local checkpoints to local storage (DRAM or SSD) have stemmed from a need to avoid the slowdown resulting from transferring checkpoints to the remote parallel file system (PFS) over limited-capacity I/O channels.</s><s xml:id="_7ay7RcH" coords="2,493.49,307.71,62.43,7.86;2,316.81,318.17,239.11,7.86;2,316.81,328.63,114.71,7.86">It is difficult to decide on the best local storage because each has their advantages and disadvantages.</s><s xml:id="_ynhPNBJ" coords="2,437.95,328.63,117.97,7.86;2,316.81,339.09,201.69,7.86">On one hand, DRAM is fast (50ns <ref type="bibr" coords="2,341.15,339.09,14.31,7.86" target="#b9">[10]</ref>) but loses the checkpoint after a reboot.</s><s xml:id="_tkh6VkQ" coords="2,522.50,339.09,33.42,7.86;2,316.81,349.55,239.10,7.86;2,316.81,360.01,239.11,7.86;2,316.81,370.47,172.46,7.86">Furthermore, limited DRAM capacity not only limits the size of the largest checkpoint that can be made but also limits the amount of usable memory for applications.</s></p><p xml:id="_6yyTzja"><s xml:id="_yhpkYM7" coords="2,325.78,380.93,230.15,7.86;2,316.81,391.39,138.62,7.86;2,455.42,389.63,3.65,5.24;2,463.80,391.39,92.11,7.86">On the other hand, SSDs are reliable and capacious but slow and have low endurance (10 5 program/erase cycles).</s><s xml:id="_RKKuHV8" coords="2,316.81,401.85,239.11,7.86;2,316.81,412.31,239.11,7.86;2,316.81,422.78,239.11,7.86;2,316.81,433.24,239.10,7.86;2,316.81,443.70,239.11,7.86;2,316.81,454.16,201.56,7.86">To illustrate the speed difference between ramdisk -a virtual disk created in DRAM to write checkpoint files-and the SSD, we measured the total runtime of a microbenchmark (details provided in Section 5.1) under three naïve implementations i) no checkpointing, ii) checkpointing to ramdisk only, and iii) checkpointing to SSD only.</s><s xml:id="_65PdPFy" coords="2,524.00,454.16,31.91,7.86;2,316.81,464.62,239.11,7.86;2,316.81,475.08,119.65,7.86">For this simulation, we assumed that both ramdisk and the SSD had unlimited checkpoint storage.</s><s xml:id="_fFtTdWC" coords="2,442.37,475.08,113.55,7.86;2,316.81,485.54,239.10,7.86;2,316.81,496.00,239.10,7.86;2,316.81,506.46,223.78,7.86">As can be seen in Figure <ref type="figure" coords="2,548.76,475.08,3.58,7.86" target="#fig_0">1</ref>, writing the checkpoint to ramdisk incurs a small 14% slowdown, but checkpointing to the SSD incurs a considerable 4.6× slowdown averaged across all the checkpoint sizes.</s><s xml:id="_fJJccXw" coords="3,62.77,57.64,230.15,7.86;3,53.80,68.10,239.11,7.86;3,53.80,78.56,239.10,7.86;3,53.80,89.02,47.58,7.86">The key insight gained from our experiment is that even when checkpointing only to the SSD, files still occupy memory space because they are first allocated in the memory's page cache.</s><s xml:id="_jNqT4UW" coords="3,110.90,89.02,182.01,7.86;3,53.80,99.48,239.10,7.86;3,53.80,109.94,207.34,7.86">Files in the page cache are not necessarily flushed to the storage device when the file is closed because the OS delays the write process to hide I/O latency.</s><s xml:id="_CMXEwtn" coords="3,265.11,109.94,27.79,7.86;3,53.80,120.40,239.11,7.86;3,53.80,130.86,239.11,7.86;3,53.80,141.32,97.91,7.86">On the other hand, explicitly flushing the page cache every time incurs overhead because the slow write delay to flash becomes fully transparent.</s><s xml:id="_Rwu3Xds" coords="3,157.08,141.32,135.83,7.86;3,53.80,151.78,239.12,7.86;3,53.80,162.24,239.10,7.86;3,53.80,172.70,209.74,7.86">If we try to use the OS's method of hiding latency (implicitly writing to the memory), then the checkpoint is sitting vulnerable in the memory and there is no guarantee when it will be persisted to the SSD.</s><s xml:id="_urRjmcR" coords="3,266.27,172.70,26.63,7.86;3,53.80,183.17,239.11,7.86;3,53.80,193.63,239.11,7.86;3,53.80,204.09,239.10,7.86;3,53.80,214.55,201.63,7.86">Therefore, a simpler and better approach is to explicitly write to both-to write a select few checkpoints to the SSD and always flush them and balance out the performance loss by writing the remaining checkpoints to the ramdisk.</s></p><p xml:id="_VYtrJaM"><s xml:id="_G8A22mU" coords="3,62.77,225.01,230.15,7.86;3,53.80,235.47,154.97,7.86">The hybrid solution merges the benefits of both DRAM and SSD: namely, speed and reliability.</s><s xml:id="_Uy8GEsY" coords="3,212.64,235.47,80.26,7.86;3,53.80,245.93,217.88,7.86">Furthermore, checkpointing to the DRAM helps to reduce SSD wearout.</s><s xml:id="_K3YArWw" coords="3,277.04,245.93,15.87,7.86;3,53.80,256.39,239.11,7.86;3,53.80,266.85,239.10,7.86;3,53.80,277.31,15.35,7.86">The shortcomings of our solution is that it limits the available memory for applications and increases the memory pressure (i.e.</s><s xml:id="_QdCkwsD" coords="3,73.02,277.31,219.89,7.86;3,53.80,287.77,77.90,7.86">ratio of active memory pages) due to active checkpoints residing in memory.</s><s xml:id="_REC5esN" coords="3,135.54,287.77,157.37,7.86;3,53.80,298.23,107.98,7.86">The pros and cons of the proposed technique are listed in Table <ref type="table" coords="3,154.62,298.23,3.58,7.86" target="#tab_0">1</ref>.</s></p><p xml:id="_fFEGCu8"><s xml:id="_EqyD3mR" coords="3,62.77,308.70,230.14,7.86;3,53.80,319.16,239.11,7.86;3,53.80,329.62,239.11,7.86;3,53.80,340.08,29.14,7.86">The checkpoints in ramdisk are exposed to DRAM failures, but ECC algorithms exists that are capable of protecting against most memory failures-except for a power outage.</s><s xml:id="_ysRYS3N" coords="3,89.33,340.08,203.57,7.86;3,53.80,350.54,115.57,7.86">The stronger the ECC, the more time and power that it takes to decode data.</s><s xml:id="_UDEzuDw" coords="3,173.91,350.54,118.99,7.86;3,53.80,361.00,239.11,7.86;3,53.80,371.46,239.10,7.86;3,53.80,381.92,151.35,7.86">A second key insight into our idea is that it is possible to use stronger ECC algorithms for checkpoints because decoding them is not on the critical path of normal application execution.</s><s xml:id="_aZ9KwfB" coords="3,62.77,596.12,230.14,7.86;3,53.80,606.58,239.11,7.86;3,53.80,617.04,239.11,7.86;3,53.80,627.50,105.91,7.86">Alternative memory technologies such as phase-change, magnetic, resistive RAM, and 3D XPoint holds promise because they are almost as fast as DRAM (10-300ns <ref type="bibr" coords="3,257.19,617.04,13.63,7.86" target="#b9">[10]</ref>), yet also as reliable as storage.</s><s xml:id="_PbNPJqm" coords="3,164.80,627.50,128.10,7.86;3,53.80,637.96,167.93,7.86">However, these technologies are not yet as dense or cost-efficient as flash.</s><s xml:id="_CMyZq36" coords="3,227.21,637.96,65.70,7.86;3,53.80,648.42,239.11,7.86;3,53.80,658.88,239.11,7.86;3,53.80,669.34,93.38,7.86">Although Intel's 3D XPoint is expected to cost half of DRAM <ref type="bibr" coords="3,235.50,648.42,13.49,7.86" target="#b10">[11]</ref>, recent innovations in 3D NAND-flash such as stacking 48 layers <ref type="bibr" coords="3,278.59,658.88,14.32,7.86" target="#b11">[12]</ref> will only cheapen flash.</s><s xml:id="_Cycn854" coords="3,151.21,669.34,141.69,7.86;3,53.80,679.80,239.10,7.86;3,53.80,690.26,183.92,7.86">Furthermore, unlike emerging technologies, flash devices have well understood failure patterns and strong ECC codes to protect them <ref type="bibr" coords="3,220.85,690.26,13.49,7.86" target="#b12">[13]</ref>.</s><s xml:id="_bSpd6qS" coords="3,244.80,690.26,48.11,7.86;3,53.80,700.72,239.11,7.86;3,53.80,711.19,239.10,7.86;3,316.81,57.64,68.35,7.86">Commercial availability and maturity of both DRAM and NAND-flash prove them a low-risk option for at least the first round of exascale systems.</s><s xml:id="_AhMqa4d" coords="3,388.94,57.64,166.98,7.86;3,316.81,68.10,239.11,7.86;3,316.81,78.56,180.98,7.86">Should emerging technologies become better than flash, they can easily be integrated into our hybrid system and achieve even better performance.</s></p><p xml:id="_jZ8W6yF"><s xml:id="_mtk6YKP" coords="3,325.78,89.02,230.14,7.86;3,316.81,99.48,239.11,7.86;3,316.81,109.94,239.11,7.86;3,316.81,120.40,239.11,7.86;3,316.81,130.86,95.42,7.86">In the remainder of the paper, we address two questions: 1) how to decide when to checkpoint to the DRAM or the SSD? and 2) how to design a strong ECC algorithm to protect the checkpoints without interference to non-checkpointdata memory accesses?</s><s xml:id="_EK3p8Kx" coords="3,420.32,130.86,135.59,7.86;3,316.81,141.32,239.11,7.86;3,316.81,151.78,239.10,7.86;3,316.81,162.24,124.26,7.86">To answer the first question, we implement the CLC in Section 3.3 that is aware of the endurance limits of the local SSD device and the performance degradation from writing to it.</s><s xml:id="_jVxGJUS" coords="3,445.31,162.24,110.61,7.86;3,316.81,172.71,239.11,7.86;3,316.81,183.17,239.11,7.86;3,316.81,193.63,239.11,7.86;3,316.81,204.09,145.97,7.86">To answer the second question, we introduce a dual-mode ECC design in Section 4 that can be dynamically encode data in either normal ECC or strong ECC depending on whether the data is normal application data or checkpoint data.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_PPZsgPv">HYBRID DRAM-SSD CHECKPOINTING</head><p xml:id="_2EekY45"><s xml:id="_XdSTcuf" coords="3,325.78,258.71,230.14,7.86;3,316.81,269.17,239.11,7.86;3,316.81,279.63,239.11,7.86;3,316.81,290.09,62.81,7.86">An overview of the hybrid solution is presented in Figure 2. In our system, all compute nodes contain main memory consisting of x4 ECC-DRAM devices and one SSD flash memory device.</s><s xml:id="_SeZbAxr" coords="3,383.67,290.09,172.26,7.86;3,316.81,300.55,239.10,7.86;3,316.81,311.02,189.66,7.86">In comparison to existing local checkpointing solutions which write to only the ramdisk or only the SSD <ref type="bibr" coords="3,337.06,311.02,14.32,7.86" target="#b13">[14,</ref><ref type="bibr" coords="3,354.35,311.02,10.74,7.86" target="#b14">15]</ref>, the hybrid system writes to both.</s><s xml:id="_ycJabPW" coords="3,510.53,311.02,45.39,7.86;3,316.81,321.48,239.11,7.86;3,316.81,331.94,153.76,7.86">It can exist within a hierarchical framework where global checkpoints are still written to the remote PFS.</s><s xml:id="_SE9Y9Bd" coords="3,475.38,331.94,80.54,7.86;3,316.81,342.40,239.10,7.86;3,316.81,352.86,240.24,7.86;3,316.81,363.32,25.36,7.86">Note that this system differs from double checkpointing in other work <ref type="bibr" coords="3,526.86,342.40,14.31,7.86" target="#b13">[14,</ref><ref type="bibr" coords="3,544.16,342.40,11.76,7.86" target="#b15">16]</ref> that write identical checkpoints to two platforms in "buddy" nodes.</s><s xml:id="_CKxCRnX" coords="3,346.19,363.32,177.53,7.86">Double checkpointing wastes memory space.</s><s xml:id="_q2feHwE" coords="3,527.74,363.32,28.17,7.86;3,316.81,373.78,239.10,7.86;3,316.81,384.24,239.11,7.86;3,316.81,394.70,23.42,7.86">In contrast, the hybrid system writes only one checkpoint to one platform in a given checkpoint interval as illustrated in Figure <ref type="figure" coords="3,333.07,394.70,3.58,7.86">3</ref>.</s><s xml:id="_bnzK5Ma" coords="3,345.44,394.70,210.48,7.86;3,316.81,405.16,239.11,7.86;3,316.81,415.62,239.11,7.86;3,316.81,426.08,213.44,7.86">Although not implemented in this paper, a possible optimization is to implement the hybrid system on top of a buddy system, where either the ramdisk or SSD checkpoint is saved in the buddy's ramdisk or SSD, respectively.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_28hVeNY">Checkpointing to the Ramdisk</head><p xml:id="_3EpJa7j"><s xml:id="_hm2arwz" coords="4,62.77,70.59,230.14,7.86;4,53.80,81.05,239.11,7.86;4,53.80,91.51,102.70,7.86">Checkpoints to memory are written outside of the application's address space to ensure its persistence after the application crashes or ends.</s><s xml:id="_J8v4B6b" coords="4,161.85,91.51,131.07,7.86;4,53.80,101.97,109.67,7.86">This can be achieved by writing checkpoints to the ramdisk.</s><s xml:id="_zm4QAUD" coords="4,167.50,101.97,125.41,7.86;4,53.80,112.43,120.11,7.86">There are two types of ramdisk file systems: ramfs and tmpfs.</s><s xml:id="_AdfHAe2" coords="4,177.92,112.43,114.99,7.86;4,53.80,122.89,239.10,7.86;4,53.80,133.35,239.10,7.86;4,53.80,143.81,239.11,7.86;4,53.80,154.27,49.49,7.86">The main difference between them is that ramfs cannot be limited in size-i.e. it will keep growing until the system runs out of memory-whereas tmpfs will start swapping to disk once the specified size limit is full.</s><s xml:id="_NxXkhsq" coords="4,111.34,154.27,181.57,7.86;4,53.80,164.73,239.11,7.86;4,53.80,175.20,78.32,7.86">We use tmpfs and enforce a size limit that ensures checkpoint memory does not encroach upon the application's memory.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1" xml:id="_v3W5DeB">Memory Requirement</head><p xml:id="_ejzjVZy"><s xml:id="_EzccuWz" coords="4,62.77,207.20,230.14,7.86;4,53.80,217.66,144.36,7.86">In-memory checkpointing to DRAM requires prudent management of memory resources.</s><s xml:id="_xcnmhPW" coords="4,207.56,217.66,85.35,7.86;4,53.80,228.12,239.11,7.86;4,53.80,238.58,239.10,7.86;4,53.80,249.04,24.09,7.86">Out of the available memory on each server node, a certain quantity is set aside for checkpointing by mounting a ramdisk into the memory space.</s><s xml:id="_HVbrAQE" coords="4,84.60,249.04,208.31,7.86;4,53.80,259.50,181.05,7.86">The user should consider the memory requirement for both the application and the checkpoint.</s><s xml:id="_y8rB9D4" coords="4,240.36,259.50,52.55,7.86;4,53.80,269.97,239.10,7.86;4,53.80,280.43,161.43,7.86">For example, 4GB out of a 24GB system can be set aside for checkpoints, leaving only 20GB for the application.</s><s xml:id="_kF7e5ws" coords="4,223.55,280.43,69.35,7.86;4,53.80,290.89,239.10,7.86;4,53.80,301.35,239.11,7.86;4,53.80,311.81,239.10,7.86;4,53.80,322.27,21.73,7.86">The high performance application running on the node can be adjusted for the smaller memory size by setting a smaller problem size per MPI process, or by running fewer MPI processes on the node.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_KhBFZBK">Checkpointing to the SSD</head><p xml:id="_QqA5M4h"><s xml:id="_rrEYrhq" coords="4,62.77,354.27,230.14,7.86;4,53.80,364.73,162.36,7.86">Writing checkpoints to SSDs have a history in "burst buffers" <ref type="bibr" coords="4,87.04,364.73,9.71,7.86" target="#b8">[9]</ref> and diskless checkpoints <ref type="bibr" coords="4,199.29,364.73,13.49,7.86" target="#b16">[17]</ref>.</s><s xml:id="_AzmYfxm" coords="4,220.17,364.73,72.74,7.86;4,53.80,375.20,239.11,7.86;4,53.80,385.66,239.11,7.86;4,53.80,396.12,199.80,7.86">Several supercomputers that will be built between 2016-2019 such as Cori, Summit, and Aurora, all plan to include persistent memory in each compute node in the form of an SSD <ref type="bibr" coords="4,236.73,396.12,13.49,7.86" target="#b17">[18]</ref>.</s></p><p xml:id="_MbYXJHA"><s xml:id="_cbkKYgK" coords="4,62.77,406.55,230.14,7.89;4,53.80,417.04,239.12,7.86;4,53.80,427.50,239.11,7.86;4,53.80,437.96,39.55,7.86">Our system uses application-level checkpointing in which the programmer carefully selects the data to be saved such that the program can be successfully restarted with that data.</s><s xml:id="_4BnB8Up" coords="4,97.16,437.96,195.75,7.86;4,53.80,448.42,239.11,7.86;4,53.80,458.88,35.60,7.86">The data is written out in the format of a file, and storing and retrieving the file is handled by the file system on the SSD.</s><s xml:id="_fVnHSSw" coords="4,92.38,458.88,200.52,7.86;4,53.80,469.34,239.11,7.86;4,53.80,479.80,77.56,7.86">Usually, when writing a file to any storage device, it is first temporarily allocated in the memory then flushed to the device later.</s><s xml:id="_49Zuzxb" coords="4,137.05,479.80,155.86,7.86;4,53.80,490.26,239.11,7.86;4,53.80,500.73,45.26,7.86">To ensure the file has persisted to the SSD, the Linux fsync() operation must be called after each checkpoint.</s><s xml:id="_Zdva93f" coords="4,103.09,500.73,189.81,7.86;4,53.80,511.19,147.95,7.86">Otherwise, there can be no guarantee the file is recoverable after a crash and reboot.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3" xml:id="_krwgXQR">Checkpoint Location Controller (CLC)</head><p xml:id="_rJxdukn"><s xml:id="_pZVwa6x" coords="4,62.77,543.19,230.14,7.86;4,53.80,553.65,239.11,7.86;4,53.80,564.11,19.82,7.86">The CLC writes checkpoints to the ramdisk or to the SSD by setting the file path to point to either the ramdisk or the SSD.</s><s xml:id="_ebeybFD" coords="4,76.33,564.11,216.58,7.86;4,53.80,574.57,99.15,7.86">The decision is made just before the application starts writing each checkpoint.</s><s xml:id="_Qpt9CY3" coords="4,159.22,574.57,133.69,7.86;4,53.80,585.03,131.45,7.86">The CLC can maximize the lifetime of the SSD (Section 3.3.1),</s><s xml:id="_gsPMajW" coords="4,189.06,585.03,103.85,7.86;4,53.80,595.49,192.36,7.86">and/or minimize the performance loss of the application (Section 3.3.2).</s><s xml:id="_7xfMXjr" coords="4,250.51,595.49,42.40,7.86;4,53.80,605.96,239.11,7.86">It can also take into account the size of the checkpoint (Section 3.3.3).</s><s xml:id="_ZbKvGk4" coords="4,53.80,616.42,159.95,7.86">An overview is in Figure <ref type="figure" coords="4,152.31,616.42,3.58,7.86" target="#fig_2">4</ref>. Section 3.3.4</s><s xml:id="_69vnTtk" coords="4,216.11,616.42,76.79,7.86;4,53.80,626.88,237.58,7.86">shows how all three metrics are combined into one algorithm used by the CLC.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1" xml:id="_dG2Js62">Lifetime Estimation</head><p xml:id="_uSPwhcR"><s xml:id="_KF8KZbm" coords="4,62.77,658.88,230.15,7.86;4,53.80,669.34,17.39,7.86">The endurance of an SSD is described by bytes written (e.g.</s><s xml:id="_q4k5B89" coords="4,76.56,669.34,216.35,7.86;4,53.80,679.80,239.11,7.86;4,53.80,690.26,84.13,7.86">TBW-terabytes written or PBW-petabytes written), which is the total amount of writes that it can withstand without wearing out.</s><s xml:id="_FxzXtTg" coords="4,142.02,690.26,150.88,7.86;4,53.80,700.73,239.11,7.86;4,53.80,711.19,67.67,7.86">To obtain an example for the lifetime of a real device, we chose the Intel DC S3700 SSD in 800 GB as a reference <ref type="bibr" coords="4,109.20,711.19,9.20,7.86" target="#b3">[4]</ref>.</s><s xml:id="_wUjZkqw" coords="4,125.31,711.19,167.59,7.86;4,316.81,257.24,239.10,7.86;4,316.81,267.70,44.99,7.86">Intel's "DC" data-center SSD's are some of their highest endurance SSDs suitable for high performance computing.</s><s xml:id="_x2PKDdQ" coords="4,365.73,267.70,190.20,7.86;4,316.81,278.16,37.59,7.86">The S3700 reported an endurance rating of 14.6 PBW <ref type="bibr" coords="4,342.13,278.16,9.21,7.86" target="#b3">[4]</ref>.</s></p><p xml:id="_VrM6xkn"><s xml:id="_YEdMCFX" coords="4,325.78,288.62,230.15,7.86;4,316.81,299.08,239.11,8.35;4,316.81,309.54,49.79,8.35">To measure endurance decay, the CLC calculates an 'expected lifetime' (L expected ) and an 'estimated lifetime' (L estimated ).</s><s xml:id="_m5zsmGu" coords="4,372.15,309.54,183.78,7.86;4,316.81,320.00,239.11,7.86">The 'expected lifetime' is a static calculation based on how many petabytes have already been written.</s><s xml:id="_AU4NJse" coords="4,316.81,330.46,239.11,7.86;4,316.81,340.93,239.11,7.86">For example, a brand new SSD is expected to last 5 years, but as it accumulates writes, the lifetime linearly shortens.</s><s xml:id="_6tAExV8" coords="4,316.81,351.39,239.11,7.86;4,316.81,361.85,239.11,7.86;4,316.81,372.31,45.49,7.86">The 'estimated lifetime' is a dynamic calculation of how long the SSD might last given the current application's write bandwidth.</s><s xml:id="_peyzZvr" coords="4,369.12,372.31,186.79,7.86;4,316.81,382.77,239.12,7.86;4,316.81,393.23,160.22,7.86">If the 'estimated lifetime' is smaller than the 'expected lifetime', then that is interpreted as a sign of high usage and accelerated endurance decay.</s><s xml:id="_YQ9dCzy" coords="4,482.12,393.23,73.80,7.86;4,316.81,403.69,101.40,7.86">Below are the two equations for this metric.</s></p><p xml:id="_krjjVj6"><s xml:id="_BmmwBkH" coords="4,325.65,432.70,159.80,8.35;4,496.20,426.90,30.40,7.86;4,488.69,438.78,44.72,7.86">L expected = (P BWrating -P BW used ) × 5 years P BWrating</s></p><p xml:id="_8dh2bxx"><s xml:id="_YYHnn2X" coords="4,544.16,432.70,11.76,7.86">(1)</s></p><formula xml:id="formula_0" coords="4,361.11,460.02,194.81,19.74">L estimated = P BWrating -P BW used BSSD<label>(2)</label></formula><p xml:id="_Rwx296H"><s xml:id="_qBhj3D3" coords="4,325.78,486.09,230.14,7.86;4,316.81,496.55,72.99,7.86">where PBW = petabytes written and BSSD = write bandwidth to the SSD.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2" xml:id="_ZbmndGK">Performance Loss Estimation</head><p xml:id="_25KDJ3f"><s xml:id="_ykxqQfq" coords="4,325.78,528.55,230.14,7.86;4,316.81,539.01,239.10,7.86;4,316.81,549.47,103.37,7.86">Additionally, the CLC can be configured to monitor the dynamic performance loss of the application as a result of checkpointing to the SSD.</s><s xml:id="_xJQXHnf" coords="4,422.72,549.47,133.20,7.86;4,316.81,559.93,239.10,7.86;4,316.81,570.40,239.11,7.86;4,316.81,580.86,14.83,7.86">If this option is enabled, the CLC monitors the amount of time elapsed since the launch of the program and the fraction of that time spent on checkpointing.</s><s xml:id="_HfHszV5" coords="4,335.95,580.86,219.97,7.86;4,316.81,591.32,18.40,7.86">We employ a stop-and-copy style checkpointing operation.</s><s xml:id="_9ppfeuW" coords="4,340.01,591.32,215.90,7.86;4,316.81,601.78,239.11,7.86;4,316.81,612.24,81.70,7.86">Just before the next checkpoint, the CLC determines whether the time already lost to checkpointing exceeds the specified bound (e.g.</s><s xml:id="_mxBX3N8" coords="4,402.40,612.24,153.52,7.86;4,316.81,622.70,84.23,7.86">10%), and if so, directs the next checkpoint to the ramdisk.</s><s xml:id="_yTSyGrt" coords="4,404.96,622.70,150.96,7.86;4,316.81,633.16,58.30,7.86">Each MPI process makes this decision independently.</s></p><formula xml:id="formula_1" coords="4,378.30,656.72,177.62,20.23">T slowdown = T chk Tcompute + T chk<label>(3)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.3" xml:id="_Je8FkGx">Checkpoint Size</head><p xml:id="_XWbdrCj"><s xml:id="_5hv3TSs" coords="4,325.78,700.72,230.15,7.86;4,316.81,711.19,213.72,7.86">Finally, the CLC considers the size of the checkpoint to determine if there is enough ramdisk space available.</s><s xml:id="_YsJtq5E" coords="4,534.96,711.19,20.96,7.86;5,53.80,57.64,239.11,7.86;5,53.80,68.10,121.62,7.86">Since ramdisk shares the main memory, its size must be limited to avoid swapping from the disk.</s><s xml:id="_EW7WZMm" coords="5,180.11,68.10,112.80,7.86;5,53.80,78.56,76.79,7.86">CLC directs all large checkpoints to the SSD.</s><s xml:id="_hemguxH" coords="5,134.40,78.56,158.51,7.86;5,53.80,89.02,239.11,7.86;5,53.80,99.48,239.10,7.86;5,53.80,109.94,149.58,7.86">However, if this decision conflicts with the prior 'lifetime' and 'performance loss' decisions, then the checkpoint is skipped altogether and the application moves on until the next checkpoint interval.</s></p><p xml:id="_HRKAcnG"><s xml:id="_FneW4Xz" coords="5,62.77,120.40,230.14,7.86;5,53.80,130.86,239.11,7.86;5,53.80,141.32,87.50,7.86">The downside to this approach is that it reduces the number of checkpoints and increases the average rollback distance during recovery.</s><s xml:id="_NpnXq83" coords="5,145.16,141.32,147.75,7.86;5,53.80,151.78,239.11,7.86;5,53.80,162.24,239.11,7.86;5,53.80,172.70,239.10,7.86;5,53.80,183.17,10.73,7.86">A more severe outcome is unintended uncoordinated checkpointing which can cause the application to restart from the beginning if all the MPI processes cannot agree on single synchronized checkpoint to roll back to.</s><s xml:id="_m6XqRMh" coords="5,68.60,183.17,224.31,7.86;5,53.80,193.63,102.60,7.86">To avoid such issues, the CLC can potentially be forced to particular checkpoints.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.4" xml:id="_FDc8HDK">CLC Library</head><p xml:id="_bK6KEgn"><s xml:id="_BqR6Nhd" coords="5,62.77,224.37,230.14,7.86;5,53.80,234.83,177.17,7.86">Currently, the controller is written as a library that is added to the application's source code.</s><s xml:id="_8rnGWZB" coords="5,240.61,234.83,52.30,7.86;5,53.80,245.29,239.10,7.86;5,53.80,255.75,239.11,7.86;5,53.80,266.21,46.73,7.86">It can interface with existing application-level checkpointing mechanisms and frameworks such as Scalable Checkpoint/Restart (SCR) <ref type="bibr" coords="5,83.66,266.21,13.49,7.86" target="#b18">[19]</ref>.</s><s xml:id="_jacnRna" coords="5,107.89,266.21,185.02,7.86;5,53.80,276.67,50.40,7.86">The algorithm used by the controller is provided below.</s><s xml:id="_eKq2Wrr" coords="5,108.37,276.67,184.53,7.86;5,53.80,287.13,239.11,7.86;5,53.80,297.59,115.64,7.86">Lines 2-3 call the lifetime estimation and performance loss estimation features and lines 4-11 make a decision based on their results.</s><s xml:id="_QJBXyhX" coords="5,174.19,297.59,118.72,7.86;5,53.80,308.05,239.11,7.86">Lines 12-15 checks the checkpoint size and skips writing large checkpoints to the ramdisk.</s><s xml:id="_udpWand" coords="5,53.80,318.51,239.10,7.86;5,53.80,328.97,139.99,7.86">Lines 16-17 actually writes the checkpoint and updates the checkpoint overhead measurement.</s></p><formula xml:id="formula_2" coords="5,53.80,349.79,239.11,43.92">Algorithm 1 Checkpoint Location Controller (CLC) 1: function CLC(D, r, i) Where D -data, r -MPI rank, i -chkpnt number 2:</formula><p xml:id="_uwHFbh5"><s xml:id="_T3kPvqM" coords="5,83.27,385.84,181.25,8.35;5,57.69,396.30,7.16,7.86">L estimated , L expected = lif etimeEstimation() 3:</s></p><p xml:id="_FNqxJ5S"><s xml:id="_4MsVgUu" coords="5,83.27,396.30,203.43,8.35;5,57.69,406.76,7.16,7.86">T slowdown = perf ormanceEstimation(T chk , T total ) 4:</s></p><p xml:id="_Q7VVBqy"><s xml:id="_U5vR452" coords="5,83.27,406.74,6.18,7.89">if</s></p><formula xml:id="formula_3" coords="5,93.52,406.76,6.27,7.86">L</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4" xml:id="_Tz6DkxZ">Recovery by Checkpoint Procedure</head><p xml:id="_yWyFgD5"><s xml:id="_6gZd2wt" coords="5,62.77,596.12,230.14,7.86;5,53.80,606.58,188.70,7.86">During restart, the application first searches for a checkpoint file that has been saved by a previous run.</s><s xml:id="_yuQMG6y" coords="5,246.33,606.58,46.58,7.86;5,53.80,617.04,239.11,7.86">An attempt is always made to recover from the checkpoint in ramdisk.</s><s xml:id="_VD593nY" coords="5,53.80,627.50,239.10,7.86;5,53.80,637.96,93.65,7.86">If it finds the latest checkpoint in ramdisk, it begins reading in that checkpoint.</s><s xml:id="_B2KcGgJ" coords="5,153.93,637.96,138.97,7.86;5,53.80,648.42,239.11,7.86;5,53.80,658.88,146.75,7.86">However, if the ECC logic signals a detectable, but uncorrectable memory error, then the entire ramdisk checkpoint is discarded.</s><s xml:id="_Ajtzf5p" coords="5,204.57,658.88,88.33,7.86;5,53.80,669.34,239.11,7.86;5,53.80,679.80,219.26,7.86">Information regarding uncorrectable memory errors can be located by 'edac' ('error detection and correction') kernel modules in Linux.</s><s xml:id="_ymwSvNT" coords="5,277.04,679.80,15.87,7.86;5,53.80,690.26,239.12,7.86;5,53.80,700.72,86.24,7.86">The backup checkpoint file in the SSD is read in if the one in memory was corrupt.</s><s xml:id="_J4ZXWX9" coords="5,145.18,700.72,147.72,7.86;5,53.80,711.19,239.11,7.86">The checkpoint in the SSD could be older, leading to a longer rollback distance during recovery.</s></p><p xml:id="_gHnvuHA"><s xml:id="_vb4RySX" coords="5,316.81,57.64,239.11,7.86;5,316.81,68.10,198.10,7.86">We assume that the SSD has strong ECC built-in that protects its checkpoint and that it is always reliable.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_uQsJRuH">ECC DESIGN</head><p xml:id="_dBb5MMZ"><s xml:id="_cKYUvwt" coords="5,325.78,102.99,230.14,7.86;5,316.81,113.45,239.11,7.86;5,316.81,123.91,116.17,7.86">The proposed dual-ECC mode memory system has normal ECC for regular data, and strong ECC, that is Chipkill-Correct, for checkpoint data.</s><s xml:id="_Dg6esB6" coords="5,437.10,123.91,118.82,7.86;5,316.81,134.37,239.11,7.86;5,316.81,144.83,239.11,7.86;5,316.81,155.30,32.05,7.86">A typical memory access to a DDR3 x4 memory module containing 18 chips (16 for data and 2 for ECC) reads out a data block of size 512 bits over 8 beats.</s><s xml:id="_YfteyZm" coords="5,354.63,155.30,201.29,7.86;5,316.81,165.76,239.11,7.86;5,316.81,176.22,31.53,7.86">A Chipkill-Correct scheme can correct errors due to a single chip failure and detect errors due to two chip failures.</s><s xml:id="_xW9ehM4" coords="5,352.67,176.22,203.25,7.86;5,316.81,186.68,239.11,7.86;5,316.81,197.14,239.11,7.86;5,316.81,207.60,119.85,7.86">For x4 DRAM systems, such a scheme is based on a 4-bit symbol code with 32 symbols for data and 4 symbols for ECC parity and provides single symbol correction and double symbol detection.</s><s xml:id="_PQvJwDv" coords="5,442.19,207.60,113.73,7.86;5,316.81,218.06,239.11,7.86;5,316.81,228.52,226.93,7.86">It has to activate two ranks with 18 chips per rank per memory access resulting in high power consumption and poor timing performance <ref type="bibr" coords="5,513.06,228.52,14.32,7.86" target="#b19">[20,</ref><ref type="bibr" coords="5,529.43,228.52,10.74,7.86" target="#b20">21]</ref>.</s><s xml:id="_Jf56sR7" coords="5,547.49,228.52,8.44,7.86;5,316.81,238.98,239.11,7.86;5,316.81,249.44,239.11,7.86;5,316.81,259.90,239.11,7.86;5,316.81,270.36,155.56,7.86">In contrast, the proposed ECC schemes for regular and checkpoint data only activate a single x4 DRAM rank and have strong reliability due to the use of symbol-based codes that have been tailored for this application.</s><s xml:id="_Fbs2nMs" coords="5,476.44,270.36,79.48,7.86;5,316.81,280.82,239.11,7.86;5,316.81,291.29,137.04,7.86">Reed-Solomon (RS) codes are symbol based codes that provide strong correction and detection capability <ref type="bibr" coords="5,436.98,291.29,13.49,7.86" target="#b21">[22]</ref>.</s><s xml:id="_xjRmKXn" coords="5,458.74,291.29,97.18,7.86;5,316.81,301.75,118.81,7.86;5,435.62,299.98,3.65,5.24;5,439.78,301.75,116.15,7.86;5,316.81,312.21,50.57,7.86">Here, we propose to use RS codes over Galois Field (2 8 ) for both normal and strong ECC modes.</s></p><p xml:id="_kjfw4gJ"><s xml:id="_JTXHhnN" coords="5,325.78,322.64,60.59,7.89">Fault Model.</s><s xml:id="_dm8ANAx" coords="5,392.75,322.67,163.16,7.86;5,316.81,333.13,239.11,7.86;5,316.81,343.59,184.57,7.86">When selecting the ECC algorithms for normal and strong ECC, the type of failures and how they manifest in the accessed data are considered.</s><s xml:id="_eB25zWw" coords="5,507.24,343.59,48.69,7.86;5,316.81,354.05,222.66,7.86">The DRAM error characteristics are well analyzed in <ref type="bibr" coords="5,490.34,354.05,14.31,7.86" target="#b22">[23,</ref><ref type="bibr" coords="5,509.03,354.05,11.76,7.86" target="#b23">24,</ref><ref type="bibr" coords="5,525.16,354.05,10.73,7.86" target="#b24">25]</ref>.</s><s xml:id="_aSvmcre" coords="5,547.49,354.05,8.44,7.86;5,316.81,364.51,239.11,7.86;5,316.81,374.97,159.53,7.86">In this work, we assumed errors are introduced by 5 different faults (bit/column/pin/word/chip) <ref type="bibr" coords="5,459.47,374.97,13.49,7.86" target="#b25">[26]</ref>.</s><s xml:id="_6xtsHHM" coords="5,480.29,374.97,75.63,7.86;5,316.81,385.43,128.78,7.86">A bit fault leads to a single bit error in a data block.</s><s xml:id="_jE99xaB" coords="5,449.47,385.43,106.45,7.86;5,316.81,395.89,150.29,7.86">A column failure also leads to a single bit error in a data block.</s><s xml:id="_3cBFmav" coords="5,473.33,395.89,82.58,7.86;5,316.81,406.35,239.10,7.86;5,316.81,416.82,73.76,7.86">A pin failure results in 8 bit errors and these errors are all located in the same data pin positions.</s><s xml:id="_RKWmSRS" coords="5,394.46,416.82,161.46,7.86;5,316.81,427.28,91.18,7.86">A word failure corrupts 4 consecutive bit errors in a single beat.</s><s xml:id="_SKdpQht" coords="5,412.64,427.28,143.28,7.86;5,316.81,437.74,228.47,7.86">A whole chip failure leads to 32 bit errors (8 beats with 4 bits/beat) in a 512 bit data block.</s></p><p xml:id="_mqUcuHe"><s xml:id="_8tUGnxd" coords="5,325.78,448.20,230.14,7.86;5,316.81,458.66,239.10,7.86">Faults can also be classified into small granularity faults (bit/column/pin/word) and large granularity faults (chip).</s><s xml:id="_PH8s6fP" coords="5,316.81,469.12,239.11,7.86;5,316.81,479.58,239.11,7.86;5,316.81,490.04,239.10,7.86;5,316.81,500.50,14.32,7.86">Several studies have shown that small granularity faults occur more frequently than large granularity faults and account for more than 70% among all DRAM faults <ref type="bibr" coords="5,526.17,490.04,14.31,7.86" target="#b22">[23,</ref><ref type="bibr" coords="5,544.16,490.04,11.76,7.86" target="#b23">24,</ref><ref type="bibr" coords="5,316.81,500.50,10.74,7.86" target="#b24">25]</ref>.</s><s xml:id="_f8DPHqt" coords="5,335.35,500.50,220.56,7.86;5,316.81,510.96,187.90,7.86">Hence, errors due to small granularity faults should be corrected with low latency in any ECC design.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_weHV8PC">Normal ECC</head><p xml:id="_wTyg8mn"><s xml:id="_Gnz9Hmk" coords="6,62.77,70.59,230.14,7.86;6,53.80,81.05,228.22,7.86">Normal ECC provides error correction coverage for regular data accesses, similar to typical ECC DIMMs for servers.</s><s xml:id="_9SUGPPj" coords="6,286.00,81.05,6.90,7.86;6,53.80,91.51,189.44,7.86">It is designed to meet the following requirements:</s></p><p xml:id="_rBaga8A"><s xml:id="_Unf34vS" coords="6,64.58,101.97,228.33,7.86;6,76.21,112.43,212.70,7.86">1. To correct frequent errors due to single-bit/pin/word failures without triggering restart from a checkpoint.</s><s xml:id="_RHCbVeu" coords="6,64.58,124.00,228.33,7.86;6,76.21,134.46,211.41,7.86">2. To have small decoding latency of syndrome calculation since it is in the critical path of memory access.</s><s xml:id="_Cq9gxcH" coords="6,64.58,146.02,228.33,7.86;6,76.21,156.48,205.18,7.86">3. To activate one rank per memory access and to have better timing/power/energy than Chipkill-Correct.</s><s xml:id="_M4fCExp" coords="6,53.80,166.94,231.38,7.86;6,285.17,165.18,3.65,5.24;6,289.32,166.94,3.58,7.86;6,53.80,177.41,67.58,7.86">To satisfy these requirements, we use RS(36,32) over GF (2 8 ) for normal ECC.</s><s xml:id="_RCRXswk" coords="6,124.51,177.41,168.40,7.86;6,53.80,187.87,177.09,7.86">It has a storage overhead of 12.5%, which is the golden standard for ECC design <ref type="bibr" coords="6,214.02,187.87,13.49,7.86" target="#b25">[26]</ref>.</s><s xml:id="_rdntjp9" coords="6,236.12,187.87,56.79,7.86;6,53.80,198.33,239.11,7.86;6,53.80,208.79,239.11,7.86;6,53.80,219.25,213.01,7.86">RS(36,32) has a minimum distance of 5 and supports the following setups: (i) double error correction, (ii) four error detection, and (iii) single error correction and triple error detection <ref type="bibr" coords="6,249.94,219.25,13.49,7.86" target="#b21">[22]</ref>.</s><s xml:id="_UBUuRvJ" coords="6,270.91,219.25,21.99,7.86;6,53.80,229.71,239.11,7.86;6,53.80,240.17,133.98,7.86">If the decoder is designed for setup (i), then 2 symbol errors due to 1 chip failure can be corrected.</s><s xml:id="_uhd7Z7s" coords="6,191.76,240.17,101.14,7.86;6,53.80,250.63,239.11,7.86;6,53.80,261.09,107.60,7.86">However, 4 symbol errors due to 2 chip failures cannot be corrected and will lead to silent data corruption <ref type="bibr" coords="6,144.53,261.09,13.49,7.86" target="#b25">[26]</ref>.</s><s xml:id="_5zdSDvu" coords="6,165.90,261.09,127.01,7.86;6,53.80,271.55,239.10,7.86;6,53.80,282.01,184.70,7.86">If designed for setup (ii), errors due to 2 chip failures can be detected but small errors due to bit/pin/word failures cannot be corrected.</s><s xml:id="_4C6gwnN" coords="6,244.57,282.01,48.34,7.86;6,53.80,292.47,239.11,7.86;6,53.80,302.93,239.11,7.86;6,53.80,313.40,156.31,7.86">These small granularity faults are reported to occur frequently in memory systems and they must be corrected in order to avoid unnecessary restarts from checkpoints.</s><s xml:id="_n5jF2uB" coords="6,215.46,313.40,77.45,7.86;6,53.80,323.86,239.11,7.86;6,53.80,334.32,239.11,7.86;6,53.80,344.78,203.90,7.86">Setup (iii) can correct all errors due to small granularity (single bit/pin/word) faults in a single chip, detect errors due to 1 chip failure, and has strong detection capability for 2 chip failures.</s><s xml:id="_P2eM4qw" coords="6,263.51,344.78,29.40,7.86;6,53.80,355.24,239.11,7.86;6,53.80,365.70,239.11,7.86;6,53.80,376.16,181.41,7.86">Specifically, for double chip failures, setup (iii) can correctly detect several combinations of two small granularity faults and provide very strong detection for the other cases.</s><s xml:id="_4Kc6Xqf" coords="6,239.14,376.16,53.76,7.86;6,53.80,386.62,239.11,7.86;6,53.80,397.08,51.66,7.86">Based on this reasoning, RS(36,32) with setup (iii) is chosen to protect normal data.</s></p><p xml:id="_wKxRWD8"><s xml:id="_3PHxbPa" coords="6,62.77,407.54,230.15,7.86;6,53.80,418.00,239.11,7.86;6,53.80,428.46,181.80,7.86">Results will later show that the normal ECC scheme has a very low silent data corruption rate of 0.003% and a small latency of 0.48ns for the syndrome calculation.</s><s xml:id="_WvNB7zK" coords="6,240.02,428.46,52.89,7.86;6,53.80,438.92,239.11,7.86;6,53.80,449.39,239.11,7.86;6,53.80,459.85,145.58,7.86">Furthermore, since only 1 rank is activated in each memory access, it has better timing/power/energy performance than the traditional x4 Chipkill-Correct scheme.</s></p><p xml:id="_VNGa9Bf"><s xml:id="_9szJV9x" coords="6,62.77,470.28,230.14,7.89;6,53.80,480.77,239.11,7.86;6,53.80,491.23,152.32,7.86">Memory access pattern: As illustrated in Figure <ref type="figure" coords="6,285.74,470.31,3.58,7.86" target="#fig_3">5</ref>, upon a memory read, one rank with 18 chips are activated and 512 bits are read out over 8 beats.</s><s xml:id="_vrzJJfN" coords="6,210.05,491.23,82.86,7.86;6,53.80,501.69,239.11,7.86;6,53.80,512.15,139.90,7.86">Each beat contains 4 bits from a single chip, thus two beats can be paired to form an 8-bit symbol in an RS codeword.</s><s xml:id="_KGU3umn" coords="6,197.49,512.15,95.41,7.86;6,53.80,522.61,239.11,7.86;6,53.80,533.07,239.11,7.86;6,53.80,543.53,32.23,7.86">The 18×2 = 36 symbols from the first 4 beats are sent to one RS(36,32) decoding unit followed by the second set of 36 symbols from the next 4 beats.</s><s xml:id="_b4wbCrT" coords="6,92.31,543.53,200.61,7.86;6,53.80,553.99,158.47,7.86">If a codeword has 1 symbol error, it is corrected and sent to the last level cache (LLC).</s><s xml:id="_fdBzaJf" coords="6,215.78,553.99,77.12,7.86;6,53.80,564.45,37.86,7.86">If an uncorrectable error (i.e.</s><s xml:id="_BF99cUx" coords="6,95.72,564.45,197.19,7.86;6,53.80,574.91,23.28,7.86">&gt;1 erroneous symbol) is encountered, then a flag is set.</s><s xml:id="_H6wyfuA" coords="6,81.64,574.91,211.26,7.86;6,53.80,585.38,239.11,7.86;6,53.80,595.84,45.26,7.86">In such a case, the OS would see the flag, terminate the application, and trigger rollback and restart from the checkpoint.</s><s xml:id="_AB4c96h" coords="6,103.29,595.84,189.61,7.86;6,53.80,606.30,239.11,7.86;6,53.80,616.76,119.53,7.86">Upon a memory write, the ECC encoder forms two RS(36,32) codewords and stores them in a DRAM rank as in a normal memory write.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_wPuRwvD">Strong ECC</head><p xml:id="_kG2u5NK"><s xml:id="_TXwf6RH" coords="6,62.77,648.42,230.14,7.86;6,53.80,658.88,239.10,7.86;6,53.80,669.34,129.38,7.86">Checkpoints that are stored in DRAM memory have to be protected by a strong ECC mechanism to preserve the integrity of the checkpoint data.</s><s xml:id="_jq345sj" coords="6,187.24,669.34,105.67,7.86;6,53.80,679.80,152.11,7.86">The proposed strong ECC is designed to meet two requirements:</s></p><p xml:id="_rv4qVbY"><s xml:id="_JMRVjP6" coords="6,64.58,690.26,228.33,7.86;6,76.21,700.73,216.69,7.86;6,76.21,711.19,163.49,7.86">1. To provide Chipkill-Correct level reliability, which can correct all errors due to a single chip failure and detect all errors due to two chip failures.</s><s xml:id="_3tEr9dx" coords="6,247.59,711.19,45.32,7.86;6,339.23,57.64,216.69,7.86;6,339.23,68.10,186.01,7.86">The strong error correction capability reduces the probability of accessing the SSD's checkpoint during restart.</s><s xml:id="_zaNcqGu" coords="6,327.59,80.91,228.33,7.86;6,339.23,91.37,216.69,7.86">2. To require minimal differences in hardware so as to be able to switch easily from and to normal ECC.</s><s xml:id="_YmbGTmn" coords="6,339.23,101.83,216.69,7.86;6,339.23,112.29,216.69,7.86;6,339.23,122.75,216.69,7.86;6,339.23,133.21,146.85,7.86">Since ramdisk pages can be mapped anywhere in physical memory, the DRAM modules should be flexible in holding normal or checkpoint data without special modifications to the DRAM devices.</s><s xml:id="_mz8sMPT" coords="6,316.81,143.67,161.77,7.86;6,478.59,141.91,3.65,5.24;6,482.74,143.67,73.18,7.86">We propose using RS <ref type="bibr" coords="6,401.85,143.67,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="6,419.63,143.67,13.33,7.86" target="#b15">16)</ref> over GF (2 8 ) for strong ECC.</s><s xml:id="_ypc9mp3" coords="6,316.81,154.13,239.10,7.86;6,316.81,164.59,239.11,7.86;6,316.81,175.05,239.11,7.86;6,316.81,185.52,49.48,7.86">It works by a hierarchical two-layer scheme where 18 out of the 19 symbols are stored in one rank and the 19th symbol (the third parity symbol) is stored in another rank, as in V-ECC <ref type="bibr" coords="6,349.43,185.52,13.49,7.86" target="#b26">[27]</ref>.</s></p><p xml:id="_Ae7bFpF"><s xml:id="_prG8sMR" coords="6,325.78,195.98,230.14,7.86;6,316.81,206.44,127.23,7.86">The two-layer scheme works because of the embedded structure of the RS code <ref type="bibr" coords="6,427.17,206.44,13.49,7.86" target="#b21">[22]</ref>.</s><s xml:id="_HEZh7fR" coords="6,453.15,206.44,102.78,7.86;6,316.81,216.90,239.11,7.86;6,316.81,227.36,239.11,7.86;6,316.81,237.82,64.61,7.86">The parity check matrix of RS <ref type="bibr" coords="6,338.07,216.90,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="6,355.85,216.90,13.34,7.86" target="#b15">16)</ref> is embedded in the parity check matrix of RS <ref type="bibr" coords="6,325.70,227.36,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="6,343.48,227.36,13.34,7.86" target="#b15">16)</ref> and thus these two codes can share the same decoding circuitry.</s><s xml:id="_ZetzvZE" coords="6,385.31,237.82,170.61,7.86;6,316.81,248.28,239.11,7.86;6,316.81,258.74,109.72,7.86">The two symbols in the syndrome vector of RS <ref type="bibr" coords="6,325.70,248.28,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="6,343.48,248.28,13.34,7.86" target="#b15">16)</ref> are identical to the first two symbols in the syndrome vector of RS <ref type="bibr" coords="6,392.49,258.74,17.02,7.86" target="#b18">(19,</ref><ref type="bibr" coords="6,409.51,258.74,12.77,7.86" target="#b15">16)</ref>.</s><s xml:id="_XzepwBP" coords="6,431.50,258.74,124.42,7.86;6,316.81,269.20,239.12,7.86;6,316.81,279.66,239.10,7.86;6,316.81,290.12,211.22,7.86">Once RS <ref type="bibr" coords="6,464.21,258.74,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="6,481.99,258.74,13.33,7.86" target="#b15">16)</ref> detects errors, the third ECC symbol can be used to generate the third symbol of the syndrome vector of RS <ref type="bibr" coords="6,467.87,279.66,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="6,485.65,279.66,13.34,7.86" target="#b15">16)</ref> and then the RS <ref type="bibr" coords="6,325.70,290.12,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="6,343.48,290.12,13.34,7.86" target="#b15">16)</ref> decoder can perform error correction <ref type="bibr" coords="6,511.16,290.12,13.49,7.86" target="#b21">[22]</ref>.</s></p><p xml:id="_uzMW72u"><s xml:id="_rZWtRzm" coords="6,325.78,300.58,230.15,7.86;6,316.81,311.05,239.11,7.86;6,316.81,321.51,149.41,7.86">A direct implementation of this scheme would result in two memory accesses thereby degrading performance and incurring higher power consumption.</s><s xml:id="_RnDzGqC" coords="6,471.54,321.51,84.37,7.86;6,316.81,331.97,239.11,7.86;6,316.81,342.43,239.11,7.86">Thus, an ECC cache is employed to store the third parity symbol and hide the latency due to the extra read and write accesses as in <ref type="bibr" coords="6,539.05,342.43,13.49,7.86" target="#b26">[27]</ref>.</s><s xml:id="_DSUCBD5" coords="6,316.81,352.89,239.11,7.86;6,316.81,363.35,239.10,7.86;6,316.81,373.81,67.81,7.86">Additionally, activating just one rank per memory access has better timing/power/energy compared to conventional Chipkill-Correct.</s><s xml:id="_4R53RsZ" coords="6,325.78,700.70,230.15,7.89;6,316.81,711.19,239.11,7.86;7,53.80,57.64,239.11,7.86">Memory access pattern: As illustrated in Figure <ref type="figure" coords="6,544.16,700.72,7.84,7.86" target="#fig_5">6a</ref>, upon a memory read, only one rank is activated and 18 sym-bols (16 data + 2 ECC) are sent to the RS <ref type="bibr" coords="7,225.15,57.64,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="7,242.93,57.64,13.34,7.86" target="#b15">16)</ref> decoder.</s><s xml:id="_4eGSsnU" coords="7,53.80,68.10,219.26,7.86">Every two beats of data form one RS <ref type="bibr" coords="7,198.78,68.10,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="7,216.56,68.10,13.33,7.86" target="#b15">16)</ref> codeword.</s><s xml:id="_W9A9QYU" coords="7,277.04,68.10,15.86,7.86;7,53.80,78.56,239.10,7.86">The RS <ref type="bibr" coords="7,62.69,78.56,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="7,80.47,78.56,13.34,7.86" target="#b15">16)</ref> decoder is designed to perform detection only.</s><s xml:id="_jjq8nUk" coords="7,53.80,89.02,239.11,7.86;7,53.80,99.48,54.76,7.86">Note that RS <ref type="bibr" coords="7,107.12,89.02,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="7,124.91,89.02,13.34,7.86" target="#b15">16)</ref> can detect up to 2 symbol errors (2 chip failures).</s><s xml:id="_gywvcdC" coords="7,112.64,99.48,180.27,7.86;7,53.80,109.94,239.12,7.86;7,53.80,120.40,124.77,7.86">If it detects errors, the decoder is halted and the third parity symbol is fetched from the ECC cache and sent to the RS <ref type="bibr" coords="7,110.41,120.40,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="7,128.19,120.40,13.34,7.86" target="#b15">16)</ref> decoder.</s><s xml:id="_WyBWKpK" coords="7,184.05,120.40,108.86,7.86;7,53.80,130.86,239.11,7.86;7,53.80,141.32,159.48,7.86">If the ECC cache does not have the parity symbol, then a second memory access is used to get it from another rank (Figure <ref type="figure" coords="7,197.42,141.32,7.93,7.86" target="#fig_5">6b</ref>).</s><s xml:id="_UezCJrJ" coords="7,217.28,141.32,75.63,7.86;7,53.80,151.78,239.11,7.86;7,53.80,162.24,239.11,7.86;7,53.80,172.70,30.17,7.86">RS <ref type="bibr" coords="7,226.17,141.32,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="7,243.95,141.32,13.33,7.86" target="#b15">16)</ref> can perform single symbol correction and double symbol detection (SSC-DSD) and can thus provide Chipkill-Correct level protection.</s><s xml:id="_weegKDp" coords="7,89.53,172.70,203.37,7.86;7,53.80,183.17,239.11,7.86;7,53.80,193.63,239.10,7.86;7,53.80,204.09,19.82,7.86">If the RS <ref type="bibr" coords="7,124.46,172.70,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="7,142.24,172.70,13.33,7.86" target="#b15">16)</ref> decoder detects an uncorrectable error, then the entire DRAM checkpoint is discarded and the application retrieves a potentially older checkpoint from the SSD.</s><s xml:id="_kSHqMK8" coords="7,76.68,204.09,208.78,7.86">The recovery procedure was outlined in Section 3.4.</s></p><p xml:id="_b3hYU3t"><s xml:id="_sAfrCVT" coords="7,62.77,214.55,230.14,7.86;7,53.80,225.01,44.05,7.86">Upon a memory write, 512 data bits are encoded into 4 codewords.</s><s xml:id="_KUaymNW" coords="7,101.81,225.01,191.09,7.86;7,53.80,235.47,239.10,7.86;7,53.80,245.93,99.95,7.86">Two of the parity symbols in each codeword are stored in the two ECC chips in the same rank by a regular memory write operation.</s><s xml:id="_bXRAwPz" coords="7,158.07,245.93,134.85,7.86;7,53.80,256.39,182.75,7.86">The third parity symbol is stored in the ECC cache or in another DRAM rank.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_dFDyMfu">Modification to the Memory Controller</head><p xml:id="_hdwm9CU"><s xml:id="_V8bNhfe" coords="7,62.77,287.43,230.14,7.86;7,53.80,297.89,239.11,7.86;7,53.80,308.35,239.11,7.86;7,53.80,318.81,21.80,7.86">The strong ECC mode exists simultaneously with normal ECC that protects regular memory data; and only requires modification to the memory controller, not the DRAM devices.</s><s xml:id="_8yj7Kv2" coords="7,84.28,318.81,208.62,7.86;7,53.80,329.27,239.11,7.86;7,53.80,339.74,60.53,7.86">In order to identify ramdisk/checkpoint data, the page table can be marked with a special flag to indicate ramdisk pages.</s><s xml:id="_5damKY6" coords="7,120.89,339.74,172.02,7.86;7,53.80,350.20,239.11,7.86;7,53.80,360.66,172.01,7.86">As illustrated in Figure <ref type="figure" coords="7,221.61,339.74,3.58,7.86" target="#fig_7">7</ref>, regular data is routed via the normal encoder/decoder and ramdisk data is routed via the strong encoder/decoder.</s><s xml:id="_KGKwGC6" coords="7,233.13,360.66,59.78,7.86;7,53.80,371.12,239.10,7.86;7,53.80,381.58,239.11,7.86">We rely on an ECC address translation unit to determine the location of the second memory access for strong ECC as in V-ECC <ref type="bibr" coords="7,276.04,381.58,13.49,7.86" target="#b27">[28]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_SEMJgMw">EVALUATION SETUP 5.1 Microbenchmark</head><p xml:id="_bJQKD2f"><s xml:id="_S8TvNMM" coords="7,62.77,617.04,230.14,7.86;7,53.80,627.50,239.11,7.86;7,53.80,637.96,56.75,7.86">A microbenchmark was written to evaluate the performance of writing a wide variety of checkpoint sizes to different platforms.</s><s xml:id="_r58Qgkg" coords="7,115.89,637.96,177.02,7.86;7,53.80,648.42,228.16,7.86">It was written as an MPI program in C++ to simulate typical parallel supercomputing applications.</s><s xml:id="_eMZ3mcN" coords="7,286.01,648.42,6.90,7.86;7,53.80,658.88,239.11,7.86">It mainly consists of two phases: compute and checkpoint.</s><s xml:id="_BPKN4q4" coords="7,53.80,669.34,239.11,7.86;7,53.80,679.80,239.11,7.86;7,53.80,690.26,219.07,7.86">The compute phase runs an algorithm which takes roughly 5 seconds to finish, and the checkpoint phase writes a file of a specified size to either the ramdisk or the SSD.</s><s xml:id="_M8KRJmN" coords="7,277.04,690.26,15.86,7.86;7,53.80,700.72,239.11,7.86;7,53.80,711.19,28.74,7.86">The microbenchmark consists of 100 total iterations of the two phases.</s></p><p xml:id="_xBE6w9V"><s xml:id="_vJZsp3Q" coords="7,325.78,57.64,230.14,7.86;7,316.81,68.10,106.72,7.86">The microbenchmark can be launched with any desired number of MPI processes.</s><s xml:id="_pcEUvYZ" coords="7,429.95,68.10,125.97,7.86;7,316.81,78.56,239.11,7.86;7,316.81,89.02,25.36,7.86">To take our measurements, we ran the microbenchmark with 64 MPI processes across 8 nodes.</s><s xml:id="_Q8MtuFy" coords="7,348.97,89.02,206.96,7.86;7,316.81,99.48,239.11,7.86;7,316.81,109.94,110.83,7.86">The desired checkpoint size is passed into the microbenchmark as an input, and the same size of checkpoint is made in all 100 iterations.</s><s xml:id="_zXzkkfu" coords="7,431.47,109.94,124.45,7.86;7,316.81,120.40,239.11,7.86;7,316.81,130.86,239.10,7.86;7,316.81,141.32,239.10,7.86;7,316.81,151.78,82.59,7.86">Although there are some supercomputing applications whose checkpoint sizes vary during runtime, most applications save a particular data structure such as the &lt;x,y,z&gt; position vectors of particles or a vector of temperatures.</s><s xml:id="_DE2Rfnh" coords="7,405.97,151.78,149.94,7.86;7,316.81,162.24,101.81,7.86">Thus, having a fixed checkpoint size throughout is acceptable.</s></p><p xml:id="_hgDhCFC"><s xml:id="_zUGgsAX" coords="7,325.78,172.71,230.14,7.86;7,316.81,183.17,239.11,7.86;7,316.81,193.63,239.10,7.86;7,316.81,204.09,18.92,7.86">We measured the total runtime of the microbenchmark under three naïve implementations i) no checkpointing, ii) checkpointing to ramdisk only, and iii) checkpointing to SSD only.</s><s xml:id="_neCPqMZ" coords="7,340.36,204.09,215.56,7.86;7,316.81,214.55,239.10,7.86;7,316.81,225.01,239.11,7.86;7,316.81,235.47,70.63,7.86">The results, which were already shown in Figure <ref type="figure" coords="7,540.40,204.09,4.61,7.86" target="#fig_0">1</ref> in Section 2, indicated that writing the checkpoint to ramdisk incurs only a small slowdown of 14%, whereas the SSD incurs a 4.6× slowdown.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.1" xml:id="_S2rzqYS">Typical Checkpoint Sizes</head><p xml:id="_Xb7eu5E"><s xml:id="_WVgH8ws" coords="7,325.78,267.49,230.14,7.86;7,316.81,277.95,133.22,7.86">Checkpoint sizes can be reported for an MPI process, for a node, or for an entire application.</s><s xml:id="_paDqYgC" coords="7,453.95,277.95,101.97,7.86;7,316.81,288.41,239.11,7.86;7,316.81,298.87,118.92,7.86">It is difficult to determine real checkpoint sizes unless real HPC applications are run at scale on a supercomputer.</s><s xml:id="_DxBD7MY" coords="7,442.06,298.87,113.86,7.86;7,316.81,309.33,239.11,7.86;7,316.81,319.79,239.11,7.86;7,316.81,330.25,239.10,7.86;7,316.81,340.71,73.54,7.86">Even though mini-apps and proxy-apps are representative of the algorithms of the HPC applications, one of their shortcomings is that they are not representative of the runtime or the memory size of large HPC applications.</s></p><p xml:id="_MPU6JjV"><s xml:id="_HNyxNsr" coords="7,325.78,351.17,230.14,7.86;7,316.81,361.63,100.37,7.86">We conducted a survey of past literature to determine typical checkpoint sizes.</s><s xml:id="_qtEqeQw" coords="7,427.08,361.63,128.84,7.86;7,316.81,372.09,239.11,7.86;7,316.81,382.56,35.22,7.86">An older version of NAS Parallel Benchmark suite checkpointed 3.2MB-54MB per process <ref type="bibr" coords="7,335.16,382.56,13.49,7.86" target="#b28">[29]</ref>.</s><s xml:id="_aaDxYBr" coords="7,356.07,382.56,199.86,7.86;7,316.81,393.02,239.11,7.86;7,316.81,403.48,162.30,7.86">MCRENGINE, a checkpoint data aggregation engine, was evaluated on applications having checkpoint sizes between 0.2MB-154MB per process <ref type="bibr" coords="7,462.25,403.48,13.49,7.86" target="#b29">[30]</ref>.</s><s xml:id="_wPk5nPr" coords="7,483.24,403.48,72.68,7.86;7,316.81,413.94,239.11,7.86;7,316.81,424.40,122.10,7.86">An experiment on Sierra and Zin clusters at LLNL wrote 50MB and 128MB per process, respectively <ref type="bibr" coords="7,422.04,424.40,13.49,7.86" target="#b30">[31]</ref>.</s><s xml:id="_SGbTSwD" coords="7,446.93,424.40,109.00,7.86;7,316.81,434.86,239.11,7.86;7,316.81,445.32,196.55,7.86">A PFS-level checkpointing evaluation on two large clusters HERMIT and LiMa wrote 294MB and 340MB per process, respectively <ref type="bibr" coords="7,496.50,445.32,13.49,7.86" target="#b31">[32]</ref>.</s><s xml:id="_Nq2PEK6" coords="7,517.29,445.32,38.63,7.86;7,316.81,455.78,239.11,7.86;7,316.81,466.24,41.68,7.86">Note that often times more than one MPI process runs on a multicore node.</s><s xml:id="_2yRE6UH" coords="7,364.07,466.24,191.86,7.86;7,316.81,476.70,129.43,7.86">Node level checkpoint sizes have been reported between 460MB-4GB/node <ref type="bibr" coords="7,429.38,476.70,13.49,7.86" target="#b15">[16]</ref>.</s></p><p xml:id="_gWuyQmB"><s xml:id="_HdGEdTJ" coords="7,325.78,487.16,230.14,7.86;7,316.81,497.62,239.11,7.86;7,316.81,508.08,239.10,7.86;7,316.81,518.55,21.73,7.86">To illustrate the wide variety of existing checkpoint sizes, our microbenchmark experiments use between 100MB-1000MB per MPI process; and we run 8 MPI processes per node.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2" xml:id="_GuFHRaG">Proxy-apps</head><p xml:id="_BFW7CyX"><s xml:id="_hAMtQyb" coords="7,325.78,550.56,230.14,7.86;7,316.81,561.02,239.11,7.86">The proposed Checkpoint Location Controller was validated against two real benchmarks: miniFE and Lulesh.</s><s xml:id="_5y8jf2A" coords="7,316.81,571.48,239.11,7.86;7,316.81,581.94,239.11,7.86;7,316.81,592.41,25.08,7.86">miniFE is a proxy-app whose main computation is solving a sparse linear system using a conjugate-gradient (CG) algorithm.</s><s xml:id="_RNMBeMK" coords="7,346.53,592.41,209.39,7.86;7,316.81,602.87,30.77,7.86">In a checkpoint, miniFE saves solution and residual vectors.</s><s xml:id="_pTRE3AY" coords="7,352.11,602.87,203.81,7.86;7,316.81,613.33,30.22,7.86">Lulesh is a proxy-app that models shock hydrodynamics.</s><s xml:id="_aFWpC3B" coords="7,351.03,613.33,204.88,7.86;7,316.81,623.79,43.34,7.86">It solves a Sedov blast problem while iterating over time steps.</s><s xml:id="_EH6eUbC" coords="7,364.15,623.79,191.78,7.86;7,316.81,634.25,239.11,7.86;7,316.81,644.71,82.75,7.86">In a checkpoint, Lulesh saves the vectors for energy, pressure, viscosity, volume, speed, nodal coordinates, and nodal velocities.</s><s xml:id="_tZeUPkR" coords="7,404.23,644.71,151.69,7.86;7,316.81,655.17,219.21,7.86">The simulation setup and the parameters used to run the benchmarks are given in Table <ref type="table" coords="7,528.86,655.17,3.58,7.86" target="#tab_3">2</ref>.</s><s xml:id="_zCH7vXy" coords="7,540.05,655.17,15.87,7.86;7,316.81,665.63,239.10,7.86;7,316.81,676.09,239.10,7.86;7,316.81,686.55,239.11,7.86;7,316.81,697.01,56.95,7.86">The parameters were decided upon using instructions that came with each application on how to scale up the problem size given the available memory in each node, which was 24GB in our servers.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3" xml:id="_YpzySsA">SSD Device Reference</head><p xml:id="_qm5bhfn"><s xml:id="_hxXrD6G" coords="8,62.77,233.08,230.14,7.86;8,53.80,243.54,210.45,7.86">We chose the Intel DC S3700 SSD in 800 GB using a SATA 3 6Gbps connection for our experiments <ref type="bibr" coords="8,251.98,243.54,9.20,7.86" target="#b3">[4]</ref>.</s><s xml:id="_VuYR4kf" coords="8,271.21,243.54,21.69,7.86;8,53.80,254.00,239.11,7.86;8,53.80,264.46,141.42,7.86">It reported an endurance rating of 14.6 PBW and a maximum sequential write speed of 460 MB/s.</s><s xml:id="_tMsQ3Ex" coords="8,199.07,264.46,93.84,7.86;8,53.80,274.92,239.11,7.86;8,53.80,285.38,42.02,7.86">We were able to achieve write speeds of only 250 MB/s during our checkpoint experiments.</s><s xml:id="_UJqfrWx" coords="8,102.13,285.38,190.78,7.86;8,53.80,295.84,239.11,7.86;8,53.80,306.30,130.88,7.86">The write bandwidth to the SSD is important because faster writes lead to less application slowdown and less overall power consumption.</s><s xml:id="_vsrNBjR" coords="8,192.61,306.30,100.30,7.86;8,53.80,316.76,239.10,7.86;8,53.80,327.22,98.78,7.86">There is a PCIe version of the same SSD available with higher bandwidth; however PCIe is more expensive.</s><s xml:id="_g8S6QQF" coords="8,158.77,327.22,134.14,7.86;8,53.80,337.68,239.11,7.86;8,53.80,348.14,130.63,7.86">On CDW-G, a popular IT products website, Intel's PCIe-based SSDs for data centers retail at upwards of 92¢ per gigabyte.</s><s xml:id="_7kHpfAw" coords="8,190.43,348.14,102.48,7.86;8,53.80,358.60,183.66,7.86">On the other hand, their SATA SSDs retail as low as 71¢ per gigabyte.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_5CzMqHt">RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1" xml:id="_uBpXmnE">Controller Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.1" xml:id="_HJC3mhN">Lifetime Estimation Results</head><p xml:id="_EcnwncG"><s xml:id="_Z7G5ph7" coords="8,62.77,439.21,230.14,7.86;8,53.80,449.64,126.16,7.89">The first set of results are with only the lifetime estimation (abbreviated LE) feature.</s><s xml:id="_Af5GCCt" coords="8,186.89,449.67,106.02,7.86;8,53.80,460.13,130.25,7.86">Again, the controller uses Eq. 1 and Eq. 2 (Section 3.3.1)</s><s xml:id="_rvhRrj4" coords="8,187.98,460.13,104.93,7.86;8,53.80,470.59,239.11,7.86;8,53.80,481.05,172.61,7.86">before each checkpoint to determine if the current rate of checkpointing by the application will prematurely wear out the SSD.</s><s xml:id="_fSDJAFw" coords="8,229.78,481.05,63.14,7.86;8,53.80,491.51,239.11,7.86;8,53.80,501.97,117.03,7.86">We assumed an endurance rating of 14.6 PBW (on a brand new SSD) that leads to 5 years of useful life.</s></p><p xml:id="_Uvs4J2w"><s xml:id="_2urG9HF" coords="8,62.77,512.43,230.14,7.86;8,53.80,522.89,239.10,7.86;8,53.80,533.35,239.11,7.86;8,53.80,543.81,38.58,7.86">Each node has a local SSD and the controller takes into account the endurance of the local SSD and the cumulative bandwidth of 8 MPI processes in the node writing checkpoint files to it.</s><s xml:id="_NKuD3ht" coords="8,96.73,543.81,196.17,7.86;8,53.80,554.27,239.11,7.86;8,53.80,564.73,170.15,7.86">As can be seen in Figure <ref type="figure" coords="8,200.04,543.81,7.84,7.86" target="#fig_9">8a</ref>, once the endurance is taken into account, fewer checkpoints are written to the SSD, especially at larger checkpoint sizes.</s><s xml:id="_nbBTcmV" coords="8,229.28,564.73,63.62,7.86;8,53.80,575.20,221.80,7.86">At 1000MB per process, only 12% of checkpoints are written to the SSD.</s><s xml:id="_T6BmmHR" coords="8,277.82,575.20,15.09,7.86;8,53.80,585.66,239.10,7.86;8,53.80,596.12,239.11,7.86;8,53.80,606.58,239.11,7.86;8,53.80,617.04,239.11,7.86;8,53.80,627.50,35.67,7.86">Advantageously, this leads to a performance improvement; the slowdown of the benchmark is considerably lessened to an average of only 1.9× (Figure <ref type="figure" coords="8,171.83,606.58,10.24,7.86" target="#fig_9">8b</ref>)-as opposed to the nearly 8× slowdown (4.6× on average) if always checkpointing to the SSD.</s></p><p xml:id="_ttN7gTg"><s xml:id="_rNffCjp" coords="8,62.77,637.96,230.15,7.86;8,53.80,648.42,239.11,7.86;8,53.80,658.88,239.11,7.86">The shaded region above each bar for the CLC's results in Figure <ref type="figure" coords="8,82.45,648.42,9.72,7.86" target="#fig_9">8b</ref> indicates the overhead due to encoding the checkpoint data with strong ECC before writing to the DRAM.</s><s xml:id="_ywzmftM" coords="8,53.80,669.34,239.10,7.86;8,53.80,679.80,213.41,7.86">In experiments, the overhead of a second memory access was simulated by writing the checkpoint twice to DRAM.</s><s xml:id="_NWS2WMh" coords="8,270.10,679.80,22.81,7.86;8,53.80,690.26,239.11,7.86;8,53.80,700.73,239.11,7.86;8,53.80,711.19,21.48,7.86">Using this method to measure ECC overhead predicted about 20% additional slowdown, making the average slowdown about 2.1×.</s><s xml:id="_jTRPjBH" coords="8,79.33,711.19,213.58,7.86;8,316.81,57.64,239.11,7.86;8,316.81,68.10,221.44,7.86;8,325.78,301.74,230.14,7.86;8,316.81,312.20,172.92,7.86">This is a worst case estimation of the ECC overhead; in practice, the second memory access can be optimized by using an ECC cache for parity symbols of strong ECC.  Figure <ref type="figure" coords="8,355.10,301.74,4.61,7.86" target="#fig_10">9</ref> shows the improvement in endurance gained by the endurance-aware checkpoint controller.</s><s xml:id="_DP2atkF" coords="8,494.29,312.20,61.62,7.86;8,316.81,322.66,239.11,7.86;8,316.81,333.12,239.11,7.86">This result was obtained after the application completed, and was based on its runtime and how many checkpoints it wrote to the SSD.</s><s xml:id="_DVJyG3n" coords="8,316.81,343.58,239.11,7.86;8,316.81,354.04,239.11,7.86;8,316.81,364.50,95.06,7.86">If checkpoints were only written to the SSD as in Figure <ref type="figure" coords="8,544.16,343.58,7.84,7.86" target="#fig_10">9a</ref>, then the SSD is estimated to last an average of 3 years across all the checkpoint sizes.</s><s xml:id="_gGA7Jyq" coords="8,416.05,364.50,139.87,7.86;8,316.81,374.96,239.11,7.86;8,316.81,385.42,239.11,7.86;8,316.81,395.88,167.76,7.86">On the other hand, the LE feature of the controller extended the SSD lifetime to an average of 6.3 years (Figure <ref type="figure" coords="8,403.69,385.42,7.93,7.86" target="#fig_10">9b</ref>), ensuring that users can get the guaranteed 5 years of life from their SSD.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.2" xml:id="_6YxT5pM">Performance Estimation Results</head><p xml:id="_N9AprsD"><s xml:id="_Xz7EJew" coords="8,325.78,606.58,230.15,7.86;8,316.81,617.04,239.11,7.86;8,316.81,627.50,135.27,7.86">Although, the controller was able to successfully prolong SSD endurance, the application still experienced 2.1× slowdown, as was shown in Figure <ref type="figure" coords="8,439.81,627.50,8.18,7.86" target="#fig_9">8b</ref>.</s><s xml:id="_jStx5vZ" coords="8,456.14,627.50,99.78,7.86;8,316.81,637.96,239.11,7.86;8,316.81,648.39,239.11,7.89;8,316.81,658.88,30.46,7.86">To further minimize performance loss, with the LE feature still enabled, we also enabled the performance loss estimation (abbreviated PLE) feature.</s><s xml:id="_nB4X5XF" coords="8,355.76,658.88,200.17,7.86;8,316.81,669.34,65.87,7.86">The performance loss bound was set to 10% in this experiment.</s><s xml:id="_Ckh8bUj" coords="8,388.50,669.34,167.43,7.86;8,316.81,679.80,239.11,7.86;8,316.81,690.26,186.16,7.86">Note that the 10% bound was optimistic because even the 'always-ramdisk' checkpoint experienced 3%-25% slowdown across the checkpoint sizes.</s></p><p xml:id="_BJJv8fu"><s xml:id="_PHpstc6" coords="8,325.78,700.72,230.14,7.86;8,316.81,711.19,239.11,7.86;9,53.80,57.64,196.12,7.86">As Figure <ref type="figure" coords="8,372.53,700.72,13.81,7.86" target="#fig_12">10a</ref> shows, the controller wrote even fewer checkpoints to SSD when the PLE feature was enabled; al-most 99% of checkpoints were written to ramdisk.</s><s xml:id="_dyWhGDU" coords="9,253.73,57.64,39.17,7.86;9,53.80,68.10,239.10,7.86;9,53.80,78.56,239.11,7.86">Nevertheless, it was successful in decreasing slowdown even further to only 36% on average (47% with strong ECC overhead).</s><s xml:id="_EvGGvbx" coords="9,53.80,89.02,239.11,7.86;9,53.80,99.48,239.11,7.86;9,53.80,109.94,239.11,7.86">More importantly, the controller's achieved performance is more closer to the 'always-ramdisk' approach which achieved 14% slowdown on average (42% with strong ECC overhead).</s></p><p xml:id="_D2nDCrc"><s xml:id="_BXZ35uZ" coords="9,62.77,120.40,230.14,7.86;9,53.80,130.86,239.11,7.86;9,53.80,141.32,183.04,7.86">For the sake of comparison, we also implemented a naïve scheme where every 10th checkpoint is written to the SSD, labeled as "9:1 Ramdisk:SSD" in Figure <ref type="figure" coords="9,219.97,141.32,12.65,7.86" target="#fig_12">10b</ref>.</s><s xml:id="_eDESKhF" coords="9,242.81,141.32,50.10,7.86;9,53.80,151.78,239.11,7.86;9,53.80,162.24,239.11,7.86;9,53.80,172.70,239.11,7.86;9,53.80,183.17,239.11,7.86;9,53.80,193.63,99.10,7.86">This scheme performed better than CLC's smarter scheme for checkpoint sizes of 100 MB and 200 MB per process, indicating that a fixed scheme might be sufficient for applications with small checkpoint sizes that want to achieve a balance between performance and reliability.</s><s xml:id="_knshM3v" coords="9,159.07,193.63,133.84,7.86;9,53.80,204.09,239.11,7.86;9,53.80,214.55,219.23,7.86">However, across all checkpointed sizes, it's average slowdown was 58% (72% with strong ECC overhead), that is 22% worse than CLC's PLE feature.</s><s xml:id="_6fAWUZu" coords="9,277.04,214.55,15.86,7.86;9,53.80,225.01,239.11,7.86;9,53.80,235.47,239.11,7.86;9,53.80,245.93,110.72,7.86">The ratio 9:1 was arbitrarily picked; a larger ratio can be chosen for even smaller performance loss if the DRAM checkpoint has strong ECC protection.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.3" xml:id="_qxHr3Jh">Size Results</head><p xml:id="_CpuPYf6"><s xml:id="_AdjMCuH" coords="9,62.77,502.07,230.15,7.86;9,53.80,512.53,239.11,7.86;9,53.80,522.99,239.11,7.86;9,53.80,533.46,34.59,7.86">CLC's size checking feature is configured to direct checkpoints bigger than a particular size (e.g 0.5GB) to the SSD, that is, these large checkpoints are never written to the ramdisk.</s><s xml:id="_SZ3H96f" coords="9,97.53,533.46,195.37,7.86;9,53.80,543.92,239.11,7.86;9,53.80,554.38,21.07,7.86">In this configuration, some checkpoints maybe skipped if the LE and PLE features indicate unfavorable results.</s><s xml:id="_J3Pax8C" coords="9,78.71,554.38,214.20,7.86;9,53.80,564.84,239.10,7.86;9,53.80,575.30,75.38,7.86">Figure <ref type="figure" coords="9,107.05,554.38,13.81,7.86" target="#fig_13">11a</ref> shows that for checkpoint sizes 600MB and bigger, the CLC wrote less than 10% of the intended number of checkpoints.</s><s xml:id="_Vt7t3SB" coords="9,133.24,575.30,159.66,7.86;9,53.80,585.76,239.11,7.86;9,53.80,596.22,227.18,7.86">It also increased the average checkpoint interval of this microbenchmark (ideally a 5-second interval) from less than 10 seconds to 1-2.5 minutes (Figure <ref type="figure" coords="9,260.53,596.22,12.27,7.86" target="#fig_13">11b</ref>).</s></p><p xml:id="_WCGPNTX"><s xml:id="_2dxdyjj" coords="9,62.77,606.68,230.14,7.86;9,53.80,617.14,239.11,7.86;9,53.80,627.60,96.93,7.86">Skipping checkpoints leads to longer rollback distances and, more severely, to unintended uncoordinated checkpointing (Section 3.3.3).</s><s xml:id="_wKt6A3C" coords="9,154.78,627.60,138.13,7.86;9,53.80,638.06,203.14,7.86">To avoid such issues, the CLC can be changed forcefully write particular checkpoints.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.4" xml:id="_FxRheSx">Energy Results</head><p xml:id="_GkNMkfc"><s xml:id="_nYwrReg" coords="9,62.77,669.34,230.14,7.86;9,53.80,679.80,199.92,7.86">Energy saved from writing checkpoints to the DRAM is an additional benefit of our proposed hybrid method.</s><s xml:id="_mRktWfy" coords="9,257.69,679.80,35.21,7.86;9,53.80,690.26,239.11,7.86;9,53.80,700.72,152.86,7.86">First, we measured the power consumed during a checkpoint operation to both the ramdisk and the SSD.</s><s xml:id="_M3ys5ut" coords="9,209.21,700.72,83.69,7.86;9,53.80,711.19,239.11,7.86;9,316.81,254.34,102.28,7.86">Power measurements were obtained via the "watts up?" meter and its smallest sampling rate is 1 second.</s><s xml:id="_xSwUxRr" coords="9,423.04,254.34,132.88,7.86;9,316.81,264.80,239.11,7.86;9,316.81,275.26,182.91,7.86">It measures the load of one entire server node; thus, the measured power includes everything from CPU, DRAM, I/O bus, SSD, and more.</s><s xml:id="_RNZkJHe" coords="9,325.78,285.73,230.14,7.86;9,316.81,296.19,132.95,7.86">Figure <ref type="figure" coords="9,356.46,285.73,13.81,7.86" target="#fig_15">12a</ref> shows the node's power consumption while continuously writing a 10GB file.</s><s xml:id="_ct8mcFs" coords="9,453.82,296.19,102.10,7.86;9,316.81,306.65,239.11,7.86;9,316.81,317.11,239.11,7.86;9,316.81,327.57,200.99,7.86">We chose a very large file size to obtain a measurable power sample because writing small files to the DRAM is very fast (under 1 second) and does not get picked up by the "watts up?" meter.</s><s xml:id="_3NDsmS2" coords="9,522.48,327.57,33.44,7.86;9,316.81,338.03,239.11,7.86;9,316.81,348.49,131.25,7.86">The idle power of the server was 37W and checkpointing to the SSD saw a jump to 50W on average.</s><s xml:id="_8YQtzdR" coords="9,454.05,348.49,101.88,7.86;9,316.81,358.95,239.11,7.86;9,316.81,369.41,66.83,7.86">Interestingly, checkpointing to DRAM registers much higher power consumption at 79W on average.</s><s xml:id="_J4tASK9" coords="9,387.69,369.41,168.23,7.86;9,316.81,379.87,204.41,7.86">However, writing to the DRAM took only 3 seconds compared to the 42 seconds for the SSD.</s><s xml:id="_PPZcgfJ" coords="9,524.17,379.87,31.75,7.86;9,316.81,390.33,223.86,7.86">Overall, DRAM uses less energy because of its speed advantage.</s></p><p xml:id="_dCEWVac"><s xml:id="_T5B4TZ6" coords="9,325.78,400.79,230.14,7.86;9,316.81,411.25,239.11,7.86;9,316.81,421.72,239.11,7.86;9,316.81,432.18,72.54,7.86">Second, the power numbers obtained from the power profile and the ratio of checkpoints sent to the ramdisk vs. SSD were used to calculate the total energy consumption during checkpointing.</s><s xml:id="_fuYMXq6" coords="9,393.34,432.18,162.58,7.86;9,316.81,442.64,239.10,7.86;9,316.81,453.10,180.77,7.86">Figure <ref type="figure" coords="9,422.06,432.18,14.32,7.86" target="#fig_15">12b</ref> shows that between 10×-12× energy savings were gained from the checkpoints that were written to the ramdisk instead of the SSD.</s><s xml:id="_Uh2cND4" coords="9,501.85,453.10,54.07,7.86;9,316.81,463.56,239.10,7.86;9,316.81,474.02,57.96,7.86">These results demonstrate the energy savings with only the LE feature from Figure <ref type="figure" coords="9,367.61,474.02,3.58,7.86" target="#fig_9">8</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.5" xml:id="_UXXj2kU">Real Application Results</head><p xml:id="_AkGH3HX"><s xml:id="_fAPHNyY" coords="9,325.78,700.72,230.14,7.86;9,316.81,711.19,81.80,7.86">Finally, we evaluated the CLC with real benchmarks miniFE and Lulesh.</s><s xml:id="_MPkkEqy" coords="9,404.09,711.19,151.83,7.86;10,53.80,57.64,239.11,7.86;10,53.80,68.10,58.77,7.86">miniFE wrote 50MB checkpoints per MPI process with only 1 second of computation in a checkpoint interval.</s><s xml:id="_YUzmWN6" coords="10,122.65,68.10,170.25,7.86;10,53.80,78.56,154.74,7.86">At a node level, 8 MPI processes write 400MB of checkpoints each iteration.</s><s xml:id="_Y2n8DcE" coords="10,216.74,78.56,76.16,7.86;10,53.80,89.02,239.10,7.86;10,53.80,99.48,216.56,7.86">As can be seen in Figure <ref type="figure" coords="10,82.66,89.02,12.27,7.86" target="#fig_17">13a</ref>, the 'always-SSD' approach caused nearly a 19× slowdown, as did the CLC with LE feature enabled.</s><s xml:id="_WPxVKFa" coords="10,277.04,99.48,15.86,7.86;10,53.80,109.94,239.11,7.86;10,53.80,120.40,107.21,7.86">The slowdown is a consequence of the frequent checkpoint behavior of this application.</s><s xml:id="_VwX7Mcf" coords="10,168.71,120.40,124.19,7.86;10,53.80,130.86,239.11,7.86;10,53.80,141.32,239.10,7.86;10,53.80,151.78,19.82,7.86">However the checkpoints were small enough not to cause premature wearing out of the SSD; hence, the CLC directed almost all checkpoints to the SSD.</s><s xml:id="_jZubRnW" coords="10,77.38,151.78,215.52,7.86;10,53.80,162.24,239.11,7.86;10,53.80,172.70,188.34,7.86">Enabling the PLE feature with a bound of 10% was able to decrease the slowdown to 1.2×, but then the CLC directed almost all checkpoints to the ramdisk.</s><s xml:id="_kUtZBCW" coords="10,246.20,172.70,46.71,7.86;10,53.80,183.17,239.10,7.86;10,53.80,193.63,239.11,7.86;10,53.80,204.09,88.33,7.86">In comparison the "9:1" scheme that sent 1 out of 10 checkpoints to the SSD saw a 2.9× slowdown and 'always-ramdisk' approach saw a 1.1× slowdown.</s></p><p xml:id="_QC9bVjp"><s xml:id="_jnvusE8" coords="10,62.77,214.55,230.14,7.86;10,53.80,225.01,239.11,7.86;10,53.80,235.47,116.36,7.86">Figure <ref type="figure" coords="10,91.53,214.55,14.32,7.86" target="#fig_17">13b</ref> shows the results for Lulesh, which wrote very small 8MB checkpoints per MPI process at a sufficiently large interval of 11 seconds.</s><s xml:id="_3mSQfgf" coords="10,177.99,235.47,114.92,7.86;10,53.80,245.93,239.11,7.86;10,53.80,256.39,160.30,7.86">Since the bandwidth to the SSD is low enough so as not to cause accelerated endurance decay, the CLC always chose the SSD.</s><s xml:id="_xwahAK9" coords="10,218.03,256.39,74.87,7.86;10,53.80,266.85,239.11,7.86;10,53.80,277.31,213.99,7.86">Enabling the PLE feature reduced the performance loss from 17% down to 13% by redirecting 17% of all checkpoints to the ramdisk.</s><s xml:id="_rTXXNW9" coords="10,272.19,277.31,20.72,7.86;10,53.80,287.77,239.11,7.86;10,53.80,298.23,239.11,7.86;10,53.80,308.70,186.47,7.86">With only 2% slowdown, Lulesh is an example of an application that might be better suited for a static "9:1" scheme that balances out both reliability and performance.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2" xml:id="_uEATueR">ECC Overhead &amp; Error Coverage</head><p xml:id="_RJAqxgU"><s xml:id="_Cpan9tM" coords="10,62.77,512.35,230.14,7.86;10,53.80,522.81,187.47,7.86">The performance overhead of ECC on application runtime were already included in results in Figures <ref type="figure" coords="10,221.84,522.81,3.89,7.86" target="#fig_9">8</ref><ref type="figure" coords="10,225.73,522.81,3.89,7.86" target="#fig_10">9</ref><ref type="figure" coords="10,225.73,522.81,3.89,7.86" target="#fig_12">10</ref><ref type="figure" coords="10,225.73,522.81,3.89,7.86" target="#fig_13">11</ref><ref type="figure" coords="10,225.73,522.81,3.89,7.86" target="#fig_15">12</ref><ref type="figure" coords="10,229.61,522.81,7.77,7.86" target="#fig_17">13</ref>.</s><s xml:id="_DxkPAKM" coords="10,245.07,522.81,47.84,7.86;10,53.80,533.27,226.15,7.86">This section focuses on synthesis and error coverage results for ECC.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.1" xml:id="_2D6NWUH">Synthesis Results</head><p xml:id="_jWcr8kj"><s xml:id="_cW4xFe4" coords="10,62.77,564.73,230.14,7.86;10,53.80,575.20,178.75,7.86;10,232.55,573.43,3.65,5.24;10,236.70,575.20,56.21,7.86;10,53.80,585.66,66.85,7.86">We synthesized the decoding units of RS(36,32), RS <ref type="bibr" coords="10,62.69,575.20,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="10,80.47,575.20,13.34,7.86" target="#b15">16)</ref> and RS <ref type="bibr" coords="10,127.14,575.20,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="10,144.92,575.20,13.34,7.86" target="#b15">16)</ref> codes over GF(2 8 ) using 28nm industry library.</s><s xml:id="_qRUP9SU" coords="10,129.35,585.66,163.57,7.86;10,53.80,596.12,239.10,7.86;10,53.80,606.58,23.53,7.86">The syndrome calculation is performed for every read and so we optimize it for very low latency.</s><s xml:id="_9N7FfW9" coords="10,87.10,606.58,205.80,7.86;10,53.80,617.04,239.11,7.86;10,53.80,627.50,67.63,7.86">The decoding latency of syndrome calculation is 0.48ns for RS(36,32) code and 0.41ns for RS <ref type="bibr" coords="10,242.09,617.04,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="10,259.87,617.04,13.34,7.86" target="#b15">16)</ref> and RS <ref type="bibr" coords="10,62.69,627.50,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="10,80.47,627.50,13.34,7.86" target="#b15">16)</ref> codes.</s><s xml:id="_pcz7dJY" coords="10,126.19,627.50,166.71,7.86;10,53.80,637.96,141.53,7.86">Thus the syndrome calculation latency is less than one memory cycle (1.25ns</s><s xml:id="_8B3DVx2" coords="10,198.23,637.96,94.68,7.86;10,53.80,648.42,48.62,7.86">if the DRAM frequency is 800MHz).</s></p><p xml:id="_tAJpszp"><s xml:id="_FmTUyYx" coords="10,62.77,658.88,230.14,7.86;10,53.80,669.34,239.11,7.86;10,53.80,679.80,71.61,7.86">For normal ECC, if syndrome vector is not a zero vector, RS(36,32) performs single symbol correction and triple symbol detection.</s><s xml:id="_Cdaq2b9" coords="10,131.68,679.80,161.22,7.86;10,53.80,690.26,239.10,7.86">It takes an additional 0.47ns to correct a single symbol error or declare that there are more errors.</s><s xml:id="_R62fxAx" coords="10,53.80,700.72,239.10,7.86;10,53.80,711.19,39.38,7.86">For strong ECC, RS <ref type="bibr" coords="10,136.03,700.72,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="10,153.82,700.72,13.34,7.86" target="#b15">16)</ref> is configured to only perform detection.</s><s xml:id="_GMYUeX3" coords="10,98.60,711.19,194.30,7.86;10,316.81,57.64,239.11,7.86;10,316.81,68.10,80.21,7.86">If the syndrome vector is not a zero vector, the memory controller reads the third ECC symbol and forms the RS <ref type="bibr" coords="10,341.85,68.10,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="10,359.63,68.10,13.33,7.86" target="#b15">16)</ref> code.</s><s xml:id="_ZvkNMHn" coords="10,401.99,68.10,153.93,7.86;10,316.81,78.56,239.11,7.86;10,316.81,89.02,239.11,7.86;10,316.81,99.48,178.94,7.86">After calculating the syndrome vector for RS <ref type="bibr" coords="10,340.25,78.56,17.02,7.86" target="#b18">(19,</ref><ref type="bibr" coords="10,357.28,78.56,12.77,7.86" target="#b15">16)</ref>, the decoder spends an additional 0.47ns to correct a single symbol error and if it cannot correct the error, it declares that there are more errors.</s><s xml:id="_nhZFUAz" coords="10,500.74,99.48,55.18,7.86;10,316.81,109.94,115.77,7.86">The synthesis results are shown in Table <ref type="table" coords="10,425.42,109.94,3.58,7.86" target="#tab_5">3</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.2" xml:id="_FxtMfcX">Error Coverage</head><p xml:id="_TAJsvvc"><s xml:id="_g9zrdM9" coords="10,325.78,585.66,230.14,7.86;10,316.81,596.12,239.11,7.86;10,316.81,606.58,161.27,7.86">The reliability of four ECC schemes, namely, RS(36,32) for normal ECC, RS <ref type="bibr" coords="10,396.27,596.12,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="10,414.05,596.12,13.33,7.86" target="#b15">16)</ref> and RS <ref type="bibr" coords="10,457.26,596.12,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="10,475.04,596.12,13.33,7.86" target="#b15">16)</ref> for strong ECC, and x4 Chipkill-Correct was evaluated.</s><s xml:id="_23rBksu" coords="10,485.31,606.58,70.61,7.86;10,316.81,617.04,239.11,7.86;10,316.81,627.50,94.51,7.86">10 million Monte Carlo simulations for single bit, pin, word, and chip failure events were conducted.</s><s xml:id="_hPDb5zt" coords="10,418.17,627.50,137.75,7.86;10,316.81,637.96,110.51,7.86">Each fault type was injected into a single chip or two chips.</s><s xml:id="_FbYHcRn" coords="10,435.05,637.96,120.87,7.86;10,316.81,648.42,239.11,7.86;10,316.81,658.88,239.11,7.86;10,316.81,669.34,239.11,7.86;10,316.81,679.80,239.11,7.86;10,316.81,690.26,66.18,7.86">For each type of error event, the corresponding detectable and correctable error (DCE) rate, detectable but uncorrectable error (DUE) rate and silent data corruption (SDC) rate <ref type="bibr" coords="10,457.85,669.34,14.31,7.86" target="#b25">[26]</ref> were calculated; Table 4 gives the corresponding simulation results for these four ECC codes.</s></p><p xml:id="_nZdfE6C"><s xml:id="_UszwMMt" coords="10,325.78,700.72,230.15,7.86;10,316.81,711.19,239.11,7.86;11,53.80,57.64,75.68,7.86">RS(36,32) for normal ECC can correct all errors due to small granularity faults and can detect all errors due to a single chip failure.</s><s xml:id="_gNyWds3" coords="11,137.30,57.64,155.61,7.86;11,53.80,68.10,239.11,7.86;11,53.80,78.56,239.11,7.86;11,53.80,89.02,214.09,7.86">For faults across 2 chips, it can fully detect errors due to a single bit fault in each chip, a single bit fault in one chip and a single pin fault in another chip, and several other error events as shown in Table <ref type="table" coords="11,260.73,89.02,3.58,7.86" target="#tab_6">4</ref>.</s><s xml:id="_N5tXxSM" coords="11,274.95,89.02,17.95,7.86;11,53.80,99.48,239.11,7.86;11,53.80,109.94,239.11,7.86;11,53.80,120.40,98.74,7.86">This code has good detection capability for errors due to a pin fault in each chip, 1 pin fault in one chip and 1 chip failure and double chip failures.</s></p><p xml:id="_UQySm68"><s xml:id="_WcP3yTE" coords="11,62.77,130.86,230.15,7.86;11,53.80,141.32,209.85,7.86">The combination of RS <ref type="bibr" coords="11,152.41,130.86,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="11,170.18,130.86,13.33,7.86" target="#b15">16)</ref> and RS <ref type="bibr" coords="11,212.65,130.86,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="11,230.43,130.86,13.33,7.86" target="#b15">16)</ref> that is used for strong ECC achieves Chipkill-Correct reliability.</s><s xml:id="_JC38s27" coords="11,268.23,141.32,24.68,7.86;11,53.80,151.78,239.11,7.86">Recall that RS <ref type="bibr" coords="11,82.44,151.78,17.78,7.86" target="#b17">(18,</ref><ref type="bibr" coords="11,100.22,151.78,13.33,7.86" target="#b15">16)</ref> is activated every time to provide detection.</s><s xml:id="_uzFGeFF" coords="11,53.80,162.24,239.11,7.86;11,53.80,172.70,209.37,7.86">It can detect all errors due to double chip failures, and once errors are detected, RS <ref type="bibr" coords="11,145.18,172.70,17.78,7.86" target="#b18">(19,</ref><ref type="bibr" coords="11,162.96,172.70,13.34,7.86" target="#b15">16)</ref> decoder is activated.</s><s xml:id="_9ymyWR8" coords="11,268.67,172.70,24.24,7.86;11,53.80,183.17,239.11,7.86;11,53.80,193.63,239.11,7.86;11,53.80,204.09,94.44,7.86">It can correct all errors due to a single chip failure and detect errors due to double chip failures and thus it achieves Chipkill-Correct level reliability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7." xml:id="_XBqGfKu">RELATED WORK</head><p xml:id="_Ma59zmF"><s xml:id="_E5qdmeP" coords="11,62.77,247.20,39.06,7.86">Zheng et.</s><s xml:id="_cyJtzNh" coords="11,109.57,247.20,183.34,7.86;11,53.80,257.66,239.11,7.86;11,53.80,268.12,239.11,7.86;11,53.80,278.58,15.86,7.86">al <ref type="bibr" coords="11,121.00,247.20,14.32,7.86" target="#b13">[14]</ref> proposed to pair two processors in a buddy system where each process makes two identical checkpoints to its own local storage and to the buddy's local storage.</s><s xml:id="_tqGNTvP" coords="11,73.53,278.58,219.38,7.86;11,53.80,289.04,239.10,7.86;11,53.80,299.50,239.11,7.86">The default local storage is the local memory, known as double in-memory checkpointing; if a local disk is available then double in-disk checkpointing can be carried out instead.</s><s xml:id="_9EEeeaK" coords="11,53.80,309.96,239.11,7.86;11,53.80,320.42,45.26,7.86">At recovery, one of the two buddies provides the restoration checkpoint.</s><s xml:id="_rSnda5d" coords="11,104.90,320.42,188.01,7.86;11,53.80,330.89,239.11,7.86;11,53.80,341.35,136.85,7.86">Similar to our results, their in-memory checkpoint was faster, but the disk was more practical for applications with big memory footprints.</s><s xml:id="_JF2QWQu" coords="11,195.26,341.35,97.66,7.86;11,53.80,351.81,239.11,7.86;11,53.80,362.27,239.11,7.86;11,53.80,372.73,239.10,7.86;11,53.80,383.19,239.10,7.86;11,53.80,393.65,21.73,7.86">We believe that our two methods can be combined to form a better hybrid-buddy checkpointing method where instead of wasting memory by storing double checkpoints to attain resilience, either our ramdisk or SSD checkpoint can be stored at the buddy's node.</s></p><p xml:id="_UW72dkk"><s xml:id="_PvZA5DD" coords="11,62.77,404.11,85.37,7.86">Rajachandrasekar et.</s><s xml:id="_WHC4cGU" coords="11,153.74,404.11,139.16,7.86;11,53.80,414.55,239.10,7.89;11,53.80,425.01,239.11,7.89;11,53.80,435.49,154.80,7.86">al <ref type="bibr" coords="11,164.48,404.11,14.31,7.86" target="#b32">[33]</ref> proposed a new in-memory file system called CRUISE (Checkpoint Restart in User SpacE) in which large checkpoints to main memory can transparently spill over to SSD storage.</s><s xml:id="_QBc2WGV" coords="11,212.41,435.49,80.50,7.86;11,53.80,445.95,91.26,7.86">CRUISE is mounted similarly to a ramdisk.</s><s xml:id="_g2F2X6C" coords="11,149.24,445.95,143.66,7.86;11,53.80,456.41,239.11,7.86;11,53.80,466.88,48.89,7.86">Our work can augment CRUISE by providing the necessary strong ECC protection for memory checkpoints.</s><s xml:id="_pkWwwjN" coords="11,106.73,466.88,186.18,7.86;11,53.80,477.34,239.11,7.86">Similarly, CRUISE's spill feature can augment our CLC for checkpoints that are too large to fit in memory.</s><s xml:id="_HaZ634H" coords="11,53.80,487.80,239.11,7.86;11,53.80,498.26,239.11,7.86;11,53.80,508.72,27.37,7.86">CLC's lifetime estimation feature can provide CRUISE with important information about the endurance of the SSD/spill device.</s></p><p xml:id="_7ufWfwg"><s xml:id="_FXrc3Sy" coords="11,62.77,519.18,230.15,7.86;11,53.80,529.64,239.11,7.86;11,53.80,540.10,79.52,7.86">Saito et al. <ref type="bibr" coords="11,111.28,519.18,14.32,7.86" target="#b14">[15]</ref> investigated improving energy consumption during checkpoint write operations to a PCIe-attached NAND-flash device.</s><s xml:id="_uw236Jx" coords="11,137.33,540.10,155.58,7.86;11,53.80,550.56,239.10,7.86;11,53.80,561.02,53.27,7.86">They suggest that there exists an optimal number of I/O processes that can simultaneously write to the device.</s><s xml:id="_u7BSJtD" coords="11,110.96,561.02,181.95,7.86;11,53.80,571.48,239.10,7.86;11,53.80,581.94,194.34,7.86">They minimize energy consumption by applying DVFS and keeping an I/O profile that helps to quickly determine the optimal number of I/O processes.</s><s xml:id="_pBS3aVD" coords="11,252.37,581.94,40.53,7.86;11,53.80,592.40,239.11,7.86;11,53.80,602.87,239.11,7.86;11,53.80,613.33,195.19,7.86">This work could possibly be added to our CLC as a new "energy estimation" feature and help predict energy consumption for an energy-limited system that checkpoints to SSDs.</s></p><p xml:id="_7XCtqGJ"><s xml:id="_usDrAV6" coords="11,62.77,623.79,230.15,7.86;11,53.80,634.25,239.11,7.86;11,53.80,644.71,161.88,7.86">Yoon and Erez <ref type="bibr" coords="11,128.64,623.79,14.31,7.86" target="#b27">[28]</ref> proposed Virtual ECC (V-ECC) to protect memory systems with strong ECC mechanisms without modifying existing DRAM packages.</s><s xml:id="_WSbJY3y" coords="11,219.65,644.71,73.26,7.86;11,53.80,655.17,239.11,7.86;11,53.80,665.63,119.08,7.86">This idea makes it possible to provide large parity even for systems that have no dedicated parity hardware.</s><s xml:id="_BAMezjY" coords="11,176.75,665.63,116.16,7.86;11,53.80,676.09,239.11,7.86;11,53.80,686.55,239.11,7.86">We borrow their technique to provide strong ECC protection for our checkpoints, where the extra parity symbols for strong ECC is stored like data.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8." xml:id="_pNrVZaa">CONCLUSION</head><p xml:id="_fhtKpSA"><s xml:id="_gkPrsS4" coords="11,325.78,70.59,230.14,7.86;11,316.81,81.05,51.57,7.86">Exascale supercomputers have millions of components that can fail.</s><s xml:id="_DZXYk7g" coords="11,372.42,81.05,183.50,7.86;11,316.81,91.51,239.10,7.86;11,316.81,101.97,239.11,7.86;11,316.81,112.43,220.86,7.86">A 100 petabyte memory system-100× larger than ORNL Titan supercomputer's 1 petabyte memory system-alone consists of millions of DDR4 DRAM devices backed by hundreds of thousands of SSD flash devices.</s><s xml:id="_6QtK3AX" coords="11,541.97,112.43,13.95,7.86;11,316.81,122.89,239.11,7.86;11,316.81,133.35,197.36,7.86">Resilience to failing components must be achieved by creating a fast and reliable checkpoint/restart framework.</s></p><p xml:id="_G6VqnZV"><s xml:id="_GbHk9fs" coords="11,325.78,143.81,230.14,7.86;11,316.81,154.27,239.11,7.86;11,316.81,164.74,239.10,7.86;11,316.81,175.20,23.46,7.86">In this paper, we proposed a hybrid DRAM-SSD checkpointing solution to achieve speed and reliability for local checkpointing while also reducing the endurance decay of SSDs.</s><s xml:id="_nQJsTeC" coords="11,345.14,175.20,210.79,7.86;11,316.81,185.66,239.11,7.86;11,316.81,196.12,239.11,7.86;11,316.81,206.58,102.01,7.86">The Checkpoint Location Controller (CLC) that we implemented monitors SSD endurance, performance degradation, and checkpoint size to dynamically determine the best checkpoint location.</s><s xml:id="_qUsu5e5" coords="11,425.94,206.58,129.99,7.86;11,316.81,217.04,239.11,7.86;11,316.81,227.50,38.52,7.86">CLC running on a microbenchmark showed an SSD lifetime improvement from 3 years to 6.3 years.</s><s xml:id="_UVMTd8x" coords="11,361.21,227.50,194.71,7.86;11,316.81,237.96,239.11,7.86;11,316.81,248.42,199.30,7.86">Application results on miniFE and Lulesh validated that the online controller can make appropriate decisions to limit the slowdown due to checkpointing.</s><s xml:id="_RacZY9z" coords="11,325.78,258.88,230.14,7.86;11,316.81,269.34,239.11,7.86;11,316.81,279.80,239.11,7.86;11,316.81,290.26,189.36,7.86">Furthermore, our normal ECC provides low-latency correction for errors due to bit/pin/column/word faults and our strong ECC provides Chipkill-Correct capability to DRAM checkpoints to reduce the overheads of rollback.</s><s xml:id="_VqU4f6w" coords="11,510.07,290.26,45.85,7.86;11,316.81,300.73,239.11,7.86;11,316.81,311.19,239.11,7.86;11,316.81,321.65,239.11,7.86;11,316.81,332.11,169.14,7.86">The system presented in this paper demonstrates that it is in fact possible to build an exascale memory system using commodity DRAM and SSD and gain both speed and reliability without relying on emerging memory technologies.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,316.81,676.67,239.11,7.86;2,316.81,687.13,239.11,7.86;2,316.81,697.59,239.11,7.86;2,316.81,708.05,34.07,7.86"><head>Figure 1 :</head><label>1</label><figDesc><div><p xml:id="_9uy7H5V"><s xml:id="_K7dJb4u" coords="2,316.81,676.67,239.11,7.86;2,316.81,687.13,239.11,7.86;2,316.81,697.59,143.61,7.86">Figure 1: Microbenchmark runtime results with various checkpoint sizes demonstrate that always checkpointing to the SSD incurs significant overhead.</s><s xml:id="_8Ku6Fyk" coords="2,464.38,697.59,91.55,7.86;2,316.81,708.05,34.07,7.86">Baseline runtime = 8.3 minutes.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="3,316.81,563.38,239.10,7.86;3,316.81,573.84,181.22,7.86"><head>Figure 2 :Figure 3 :</head><label>23</label><figDesc><div><p xml:id="_hV8UTd7"><s xml:id="_uFuRDfC" coords="3,316.81,563.38,239.10,7.86;3,316.81,573.84,181.22,7.86">Figure 2: The proposed idea utilizes both commodity DRAM and commodity SSD for checkpoints.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="4,316.81,204.67,239.11,7.86;4,316.81,215.13,239.11,7.86;4,316.81,225.59,222.98,7.86"><head>Figure 4 :</head><label>4</label><figDesc><div><p xml:id="_GHerpmh"><s xml:id="_x45gs9k" coords="4,316.81,204.67,239.11,7.86;4,316.81,215.13,239.11,7.86;4,316.81,225.59,222.98,7.86">Figure 4: This state machine representing application execution shows how in the checkpoint phase the CLC dynamically decides the checkpoint location on each iteration.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,316.81,657.19,239.11,7.89;5,316.81,667.67,239.11,7.86;5,316.81,678.13,239.11,7.86;5,316.81,688.59,239.11,7.86;5,316.81,699.06,40.90,7.86"><head>Figure 5 :</head><label>5</label><figDesc><div><p xml:id="_y5wjBxW"><s xml:id="_B6gG5Wp" coords="5,316.81,657.19,239.11,7.89;5,316.81,667.67,215.87,7.86">Figure 5: The depicted normal ECC access reads 512 bits from eighteen x4 chips, two of which are ECC chips.</s><s xml:id="_uZfb3AM" coords="5,538.26,667.67,17.67,7.86;5,316.81,678.13,218.42,7.86">Two beats are paired up to create 1 8-bit symbol per chip.</s><s xml:id="_reEqrVG" coords="5,540.05,678.13,15.87,7.86;5,316.81,688.59,239.11,7.86;5,316.81,699.06,40.90,7.86">The first 4 and last 4 beats form two RS(36,32) codewords (green and blue).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="6,316.81,645.00,239.11,7.86;6,316.81,655.46,239.11,7.86;6,316.81,665.92,239.11,7.86;6,316.81,676.38,228.24,7.86"><head>Figure 6 :</head><label>6</label><figDesc><div><p xml:id="_r5JMF4R"><s xml:id="_kNhvxHG" coords="6,316.81,645.00,239.11,7.86;6,316.81,655.46,239.11,7.86;6,316.81,665.92,239.11,7.86;6,316.81,676.38,228.24,7.86">Figure 6: (a) Strong ECC creates four RS(18,16) codewords (green, blue, purple, and pink); each codeword is based on 2 beats of data; (b) If errors are detected, four additional ECC symbols are retrieved to form four RS(19,16) codewords.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="7,53.80,538.65,239.11,7.86;7,53.80,549.11,113.51,7.86"><head>Figure 7 :</head><label>7</label><figDesc><div><p xml:id="_5tQfjH5"><s xml:id="_V3qryRq" coords="7,53.80,538.65,239.11,7.86;7,53.80,549.11,113.51,7.86">Figure 7: Modified Memory Controller with two decoders for normal and strong ECC.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="8,316.81,227.66,239.11,7.86;8,316.81,238.12,239.11,7.86;8,316.81,248.58,239.11,7.86;8,316.81,259.04,239.11,7.86;8,316.81,269.51,239.11,7.86;8,316.81,279.97,62.28,7.86"><head>Figure 8 :</head><label>8</label><figDesc><div><p xml:id="_wwX7VDr"><s xml:id="_y7GMz79" coords="8,316.81,227.66,239.11,7.86;8,316.81,238.12,132.12,7.86">Figure 8: Microbenchmark results with the CLC's lifetime estimation (LE) feature enabled.</s><s xml:id="_kNfQTdE" coords="8,453.63,238.12,102.30,7.86;8,316.81,248.58,204.08,7.86">(a) For bigger checkpoint sizes, more checkpoints are written to the ramdisk.</s><s xml:id="_Y2zNThM" coords="8,524.92,248.58,31.00,7.86;8,316.81,259.04,168.94,7.86">(b) The CLC significantly reduced the slowdown.</s><s xml:id="_KCNtZK9" coords="8,493.23,259.04,62.69,7.86;8,316.81,269.51,239.11,7.86;8,316.81,279.97,62.28,7.86">The shaded region above each bar is the overhead for strong ECC's second memory access.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10" coords="8,316.81,553.95,239.11,7.86;8,316.81,564.41,94.27,7.86"><head>Figure 9 :</head><label>9</label><figDesc><div><p xml:id="_yqsztPJ"><s xml:id="_48FpzZS" coords="8,316.81,553.95,239.11,7.86;8,316.81,564.41,94.27,7.86">Figure 9: Expected lifetime of the SSD is improved with the LE feature in the CLC.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12" coords="9,53.80,406.34,239.11,7.86;9,53.80,416.80,239.12,7.86;9,53.80,427.26,239.11,7.86;9,53.80,437.72,239.11,7.86;9,53.80,448.18,239.11,7.86;9,53.80,458.64,136.29,7.86"><head>Figure 10 :</head><label>10</label><figDesc><div><p xml:id="_NSHm39b"><s xml:id="_ekPb9Rc" coords="9,53.80,406.34,239.11,7.86;9,53.80,416.80,239.12,7.86;9,53.80,427.26,45.22,7.86">Figure 10: (a) Performance loss estimation (PLE) feature attempts to contain the performance loss within a specified bound (e.g.</s><s xml:id="_EgDuRTK" coords="9,102.93,427.26,189.97,7.86;9,53.80,437.72,19.82,7.86">10%) and leads to even fewer checkpoints to the SSD.</s><s xml:id="_SMaa6rd" coords="9,77.28,437.72,215.63,7.86">(b) PLE's improved slowdown is closer to ramdisk's.</s><s xml:id="_ZARKWBZ" coords="9,53.80,448.18,239.11,7.86;9,53.80,458.64,136.29,7.86">Shaded regions above each bar represent worst-case overheads from strong ECC encoding.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13" coords="9,316.81,182.14,239.11,7.86;9,316.81,192.60,239.11,7.86;9,316.81,203.06,239.10,7.86;9,316.81,213.52,239.11,7.86;9,316.81,223.98,127.40,7.86"><head>Figure 11 :</head><label>11</label><figDesc><div><p xml:id="_ZDbcGHH"><s xml:id="_bHMWJ4R" coords="9,316.81,182.14,239.11,7.86;9,316.81,192.60,149.87,7.86">Figure 11: (a) With CLC's size checking feature, big checkpoints are always written to the SSD.</s><s xml:id="_GxK65Kx" coords="9,469.45,192.60,86.47,7.86;9,316.81,203.06,239.10,7.86;9,316.81,213.52,83.98,7.86">But this leads to only a small fraction of checkpoints actually being written, while the rest are skipped.</s><s xml:id="_My9HTQE" coords="9,406.38,213.52,149.54,7.86;9,316.81,223.98,127.40,7.86">(b) This feature drastically increases the average checkpoint interval.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15" coords="9,316.81,626.11,239.11,7.86;9,316.81,636.57,239.11,7.86;9,316.81,647.03,239.11,7.86;9,316.81,657.49,235.46,7.86"><head>Figure 12 :</head><label>12</label><figDesc><div><p xml:id="_vZWNcdH"><s xml:id="_fB7zrtb" coords="9,316.81,626.11,239.11,7.86;9,316.81,636.57,182.67,7.86">Figure 12: (a) The SSD consumes 50W during a write operation, whereas the DRAM consumes 79W.</s><s xml:id="_w7p8Epw" coords="9,503.25,636.57,52.67,7.86;9,316.81,647.03,239.11,7.86;9,316.81,657.49,235.46,7.86">(b) However, due to DRAM's faster write bandwidth, re-directing some checkpoints to the DRAM saves overall checkpoint energy.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17" coords="10,53.80,426.60,239.11,7.86;10,53.80,437.06,239.10,7.86;10,53.80,447.52,239.11,7.86;10,53.80,457.98,239.11,7.86;10,53.80,468.44,180.66,7.86"><head>Figure 13 :</head><label>13</label><figDesc><div><p xml:id="_ymjmBzz"><s xml:id="_aXAV3aq" coords="10,53.80,426.60,239.11,7.86;10,53.80,437.06,239.10,7.86;10,53.80,447.52,182.52,7.86">Figure 13: Neither miniFE nor Lulesh checkpoints with high enough bandwidth to wear down the SSD; thus CLC's LE feature allows most checkpoints to the SSD.</s><s xml:id="_VgpfHZ6" coords="10,240.26,447.52,52.64,7.86;10,53.80,457.98,239.11,7.86;10,53.80,468.44,180.66,7.86">Enabling the PLE feature, on the other hand, makes the CLC re-direct most of miniFE's checkpoints to the DRAM.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,53.80,404.45,239.12,159.78"><head>Table 1 :</head><label>1</label><figDesc><div><p xml:id="_gmjJkzX"><s xml:id="_cDZgQC5" coords="3,90.18,404.45,202.73,7.86;3,53.80,414.92,194.62,7.86">The pros and cons of the proposed technique compared to DRAM-only or SSD-only checkpointing.</s><s xml:id="_5UFEQ8Y" coords="3,252.25,414.92,40.66,7.86;3,53.80,425.38,239.12,7.86;3,53.80,435.84,214.81,7.86">The memory occupancy is marked as "Med" because the CLC can detect and send large checkpoints always to the SSD.</s></p></div></figDesc><table coords="3,83.46,450.20,177.67,114.04"><row><cell></cell><cell>DRAM only</cell><cell>SSD only</cell><cell>Proposed</cell><cell>DRAM+SSD</cell></row><row><cell>Checkpoint Speed</cell><cell cols="2">Hi Lo</cell><cell cols="2">Hi</cell></row><row><cell>Recovery Speed</cell><cell cols="2">Hi Lo</cell><cell cols="2">Hi</cell></row><row><cell>Transient error protection</cell><cell cols="2">Lo Hi</cell><cell cols="2">Hi</cell></row><row><cell>Available memory for apps.</cell><cell cols="4">Lo Hi Med</cell></row><row><cell>Memory pressure</cell><cell cols="4">Hi Lo Med</cell></row><row><cell>Non-volatile; persists reboots</cell><cell>N</cell><cell>Y</cell><cell cols="2">Y</cell></row><row><cell>Good SSD endurance</cell><cell>-</cell><cell>N</cell><cell cols="2">Y</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="8,59.73,55.00,226.54,140.98"><head>Table 2 :</head><label>2</label><figDesc><div><p xml:id="_m6SgjdB"><s xml:id="_4D689MS" coords="8,96.30,55.00,189.97,7.86">Simulations parameters for miniFE and Lulesh</s></p></div></figDesc><table coords="8,64.80,70.56,214.04,125.42"><row><cell></cell><cell>miniFE</cell><cell>Lulesh</cell></row><row><cell>Parameters</cell><cell>528×512×768</cell><cell>45×45×45</cell></row><row><cell>Setup</cell><cell cols="2">64 MPI processes, 8 nodes</cell></row><row><cell></cell><cell cols="2">24GB/node</cell></row><row><cell>Checkpoint sizes:</cell><cell></cell><cell></cell></row><row><cell>1 MPI proc:</cell><cell>50 MB</cell><cell>8 MB</cell></row><row><cell>1 node:</cell><cell>400 MB</cell><cell>64 MB</cell></row><row><cell>App. Total:</cell><cell>3.1 GB</cell><cell>512 MB</cell></row><row><cell>Baseline runtime:</cell><cell>236 sec.</cell><cell>74,470 sec.</cell></row><row><cell>Checkpoint</cell><cell cols="2">once/iteration, once/iteration,</cell></row><row><cell>behavior:</cell><cell>∼1 sec/iter,</cell><cell>∼11 sec/iter,</cell></row><row><cell></cell><cell cols="2">200 iterations, 6,499 iterations</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="10,332.17,128.58,205.32,69.23"><head>Table 3 :</head><label>3</label><figDesc><div><p xml:id="_2RFxSWn"><s xml:id="_jAXBf6u" coords="10,374.76,128.58,159.78,7.86">Synthesis results for proposed RS codes</s></p></div></figDesc><table coords="10,332.17,143.72,205.32,54.09"><row><cell></cell><cell cols="3">RS(36,32) RS(18,16) RS(19,16)</cell></row><row><cell>Syndrome</cell><cell cols="3">0.48ns (σ) 0.41ns (ρ) 0.41ns (ρ)</cell></row><row><cell>Calculation</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Single Symbol Correction &amp;</cell><cell>N/A</cell><cell>N/A</cell><cell>ρ + 0.47ns</cell></row><row><cell>Double Symbol Detection</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Single Symbol Correction &amp; σ + 0.47ns</cell><cell>N/A</cell><cell>N/A</cell></row><row><cell>Triple Symbol Detection</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="10,326.97,223.06,218.80,324.44"><head>Table 4 :</head><label>4</label><figDesc><div><p xml:id="_4pwWcCu"><s xml:id="_S3ExqZG" coords="10,392.22,223.06,124.85,7.86">The error protection capability</s></p></div></figDesc><table coords="10,326.97,238.03,218.80,309.47"><row><cell>Failure Mode</cell><cell>RS(36,32)</cell><cell>RS(18,16)</cell><cell>RS(19,16)</cell><cell>Chipkill-Correct</cell></row><row><cell></cell><cell cols="2">Single Chip Failures</cell><cell></cell><cell></cell></row><row><cell>1 bit</cell><cell>DCE: 100%</cell><cell>DCE: 0%</cell><cell cols="2">DCE: 100% DCE: 100%</cell></row><row><cell></cell><cell>DUE: 0%</cell><cell cols="2">DUE: 100% DUE: 0%</cell><cell>DUE: 0%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 pin</cell><cell>DCE: 100%</cell><cell>DCE: 0%</cell><cell cols="2">DCE: 100% DCE: 100%</cell></row><row><cell></cell><cell>DUE: 0%</cell><cell cols="2">DUE: 100% DUE: 0%</cell><cell>DUE: 0%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 word</cell><cell>DCE: 100%</cell><cell>DCE: 0%</cell><cell cols="2">DCE: 100% DCE: 100%</cell></row><row><cell></cell><cell>DUE: 0%</cell><cell cols="2">DUE: 100% DUE: 0%</cell><cell>DUE: 0%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 chip</cell><cell>DCE: 100%</cell><cell>DCE: 0%</cell><cell cols="2">DCE: 100% DCE: 100%</cell></row><row><cell></cell><cell>DUE: 0%</cell><cell cols="2">DUE: 100% DUE: 0%</cell><cell>DUE: 0%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell></cell><cell cols="2">Double Chip Failures</cell><cell></cell><cell></cell></row><row><cell>1 bit + 1 bit</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell>DUE: 100%</cell><cell cols="3">DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 bit + 1 pin</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell>DUE: 100%</cell><cell cols="3">DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 bit + 1 word</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell>DUE: 100%</cell><cell cols="3">DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 bit + 1 chip</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell>DUE: 100%</cell><cell cols="3">DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 pin + 1 word</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell>DUE: 100%</cell><cell cols="3">DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 pin + 1 pin</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell cols="4">DUE: 99.9999% DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0.0001%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 pin + 1 chip</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell cols="4">DUE: 99.9969% DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0.0031%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell cols="2">1 word + 1 word DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell>DUE: 100%</cell><cell cols="3">DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell cols="2">1 word + 1 chip DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell>DUE: 100%</cell><cell cols="3">DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row><row><cell>1 chip + 1 chip</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell><cell>DCE: 0%</cell></row><row><cell></cell><cell cols="4">DUE: 99.9969% DUE: 100% DUE: 100% DUE: 100%</cell></row><row><cell></cell><cell>SDC: 0.0031%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell><cell>SDC: 0%</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head n="9." xml:id="_AfCRWea">ACKNOWLEDGMENTS</head><p xml:id="_RYKBdRh">We thank the anonymous reviewers for their time and input.We also thank the generous support of our industrial sponsor, ARM Ltd.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="11,334.46,427.93,221.45,6.99;11,334.46,436.90,221.46,6.99;11,334.46,445.86,221.46,6.99;11,334.46,454.83,51.25,6.99" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="11,353.14,436.90,186.89,6.99" xml:id="_PQp25mZ">DRAM errors in the wild</title>
+		<author>
+			<persName coords=""><forename type="first">Bianca</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eduardo</forename><surname>Pinheiro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wolf-Dietrich</forename><surname>Weber</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2492101.1555372</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Gstwq99" coord="11,548.16,436.90,7.75,6.99;11,334.46,445.86,200.33,6.99">ACM SIGMETRICS Performance Evaluation Review</title>
+		<title level="j" type="abbrev">SIGMETRICS Perform. Eval. Rev.</title>
+		<idno type="ISSN">0163-5999</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="193" to="204" />
+			<date type="published" when="2009-06-15">2009</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bianca Schroeder, Eduardo Pinheiro, and Wolf-Dietrich We- ber. DRAM errors in the wild: a large-scale field study. In ACM SIGMETRICS Performance Evaluation Review, vol- ume 37, 2009.</note>
+</biblStruct>
+
+<biblStruct coords="11,334.46,466.79,221.46,6.99;11,334.46,475.75,221.45,6.99;11,334.46,484.72,108.85,6.99" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="11,484.39,466.79,71.53,6.99;11,334.46,475.75,99.95,6.99" xml:id="_47xf2t5">Understanding failures in petascale computers</title>
+		<author>
+			<persName coords=""><forename type="first">Bianca</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Garth</forename><forename type="middle">A</forename><surname>Gibson</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/78/1/012022</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PHjgdvG" coord="11,441.79,475.75,114.12,6.99;11,334.46,484.72,40.42,6.99">Journal of Physics: Conference Series</title>
+		<title level="j" type="abbrev">J. Phys.: Conf. Ser.</title>
+		<idno type="ISSN">1742-6588</idno>
+		<idno type="ISSNe">1742-6596</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page">012022</biblScope>
+			<date type="published" when="2007-07-01">2007</date>
+			<publisher>IOP Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bianca Schroeder and Garth A Gibson. Understanding fail- ures in petascale computers. In Journal of Physics: Confer- ence Series, volume 78, 2007.</note>
+</biblStruct>
+
+<biblStruct coords="11,334.46,496.67,221.45,6.99;11,334.46,505.64,221.46,6.99;11,334.46,514.61,19.28,6.99" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="11,525.24,496.67,30.68,6.99;11,334.46,505.64,188.32,6.99" xml:id="_yHrG6z2">Enhancing checkpoint performance with staging io and ssd</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Xiangyong Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">K</forename><surname>Marcarelli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Panda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GHtAWyy" coord="11,529.74,505.64,26.18,6.99">SNAPI</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiangyong Ouyang, S. Marcarelli, and D.K. Panda. Enhanc- ing checkpoint performance with staging io and ssd. SNAPI 2010.</note>
+</biblStruct>
+
+<biblStruct coords="11,334.46,526.56,221.46,6.99;11,334.46,535.53,79.70,6.99" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="11,405.41,526.56,150.50,6.99;11,334.46,535.53,21.37,6.99" xml:id="_6WsAtw4">Intel MCS-4 micro computer set [Reprint]</title>
+		<author>
+			<persName><surname>Intel</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Intel Cooperation</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1109/mssc.2009.931982</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TCtqCVg">IEEE Solid-State Circuits Magazine</title>
+		<title level="j" type="abbrev">IEEE Solid-State Circuits Mag.</title>
+		<idno type="ISSN">1943-0582</idno>
+		<idno type="ISSNe">1943-0590</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="68" />
+			<date type="published" when="2012-10">October 2012</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Intel Cooperation. Intel Solid-State Drive DC S3700 specifi- cation, October 2012.</note>
+</biblStruct>
+
+<biblStruct coords="11,334.46,547.48,221.46,6.99;11,334.46,556.45,221.46,6.99;11,334.46,565.42,221.45,6.99;11,334.46,574.38,93.47,6.99" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="11,467.33,556.45,88.60,6.99;11,334.46,565.42,221.45,6.99;11,334.46,574.38,52.77,6.99" xml:id="_mMhgEyT">Leveraging 3D PCRAM technologies to reduce checkpoint overhead for future exascale systems</title>
+		<author>
+			<persName coords=""><forename type="first">Xiangyu</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Naveen</forename><surname>Muralimanohar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Norm</forename><surname>Jouppi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yuan</forename><surname>Xie</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1654059.1654117</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wrNzYjE">Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis</title>
+		<meeting>the Conference on High Performance Computing Networking, Storage and Analysis<address><addrLine>SC</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2009-11-14">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiangyu Dong, Naveen Muralimanohar, Norm Jouppi, Richard Kaufmann, and Yuan Xie. Leveraging 3D PCRAM Technologies to Reduce Checkpoint Overhead for Future Ex- ascale Systems. SC 2009.</note>
+</biblStruct>
+
+<biblStruct coords="11,334.46,586.34,221.46,6.99;11,334.46,595.30,221.45,6.99;11,334.46,604.27,163.60,6.99" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="11,352.90,595.30,203.02,6.99;11,334.46,604.27,105.71,6.99" xml:id="_ebkqKh7">Using multi-level cell STT-RAM for fast and energy-efficient local checkpointing</title>
+		<author>
+			<persName coords=""><forename type="first">Ping</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cong</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tao</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiangyu</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yuan</forename><surname>Xie</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/iccad.2014.7001367</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_P69KYkb">2014 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014-11">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ping Chi, Cong Xu, Tao Zhang, Xiangyu Dong, and Yuan Xie. Using Multi-level Cell STT-RAM for Fast and Energy- efficient Local Checkpointing. ICCAD 2014.</note>
+</biblStruct>
+
+<biblStruct coords="11,334.46,616.23,221.46,6.99;11,334.46,625.19,221.46,6.99;11,334.46,634.16,47.82,6.99" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="11,334.46,625.19,216.85,6.99" xml:id="_yKyP4ve">Optimizing Checkpoints Using NVM as Virtual Memory</title>
+		<author>
+			<persName><forename type="first">Sudarsun</forename><surname>Kannan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ada</forename><surname>Gavrilovska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karsten</forename><surname>Schwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dejan</forename><surname>Milojicic</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ipdps.2013.69</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_36s9UCh">2013 IEEE 27th International Symposium on Parallel and Distributed Processing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2013-05">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Kannan, A. Gavrilovska, K. Schwan, and D. Milojicic. Optimizing Checkpoints Using NVM as Virtual Memory. IPDPS 2013.</note>
+</biblStruct>
+
+<biblStruct coords="11,334.46,646.11,221.46,6.99;11,334.46,655.08,221.45,6.99;11,334.46,664.05,221.46,6.99;11,334.46,673.01,19.28,6.99" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" xml:id="_RUGAfxx">Annual Transportation Report for Radioactive Waste Shipments to and from the Nevada Test Site</title>
+		<idno type="DOI">10.2172/946803</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_GBgASba" coord="11,466.52,655.08,89.40,6.99;11,334.46,664.05,175.36,6.99">Preliminary Conceptual Design for an Exascale Computing Initiative</title>
+		<imprint>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<date type="published" when="2014-11">November 2014</date>
+		</imprint>
+		<respStmt>
+			<orgName>U.S Department of Energy Office of Science and National Nuclear Security Administration</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">U.S Department of Energy Office of Science and National Nuclear Security Administration. Preliminary Conceptual Design for an Exascale Computing Initiative, November 2014.</note>
+</biblStruct>
+
+<biblStruct coords="11,334.46,684.97,221.45,6.99;11,334.46,693.93,221.45,6.99;11,334.46,702.90,221.46,6.99;11,334.46,711.87,109.27,6.99" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="11,378.25,702.90,177.67,6.99;11,334.46,711.87,56.29,6.99" xml:id="_kfJmczg">On the role of burst buffers in leadership-class storage systems</title>
+		<author>
+			<persName coords=""><forename type="first">Ning</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jason</forename><surname>Cope</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Philip</forename><surname>Carns</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christopher</forename><surname>Carothers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gary</forename><surname>Grider</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Crume</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Carlos</forename><surname>Maltzahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/msst.2012.6232369</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZZmtxsY">012 IEEE 28th Symposium on Mass Storage Systems and Technologies (MSST)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2012-04">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ning Liu, Jason Cope, Philip Carns, Christopher Carothers, Robert Ross, Gary Grider, Adam Crume, and Carlos Maltzahn. On the role of burst buffers in leadership-class storage systems. MSST 2012.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,58.32,221.45,6.99;12,71.45,67.28,221.46,6.99;12,71.45,76.25,164.94,6.99" xml:id="b9">
+	<monogr>
+		<title level="m" type="main" coord="12,71.45,67.28,221.46,6.99;12,71.45,76.25,106.24,6.99" xml:id="_y82eZKd">Blackcomb: Hardware-Software Co-design for Non-Volatile Memory in Exascale Systems</title>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><surname>Vetter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rob</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Trevor</forename><surname>Mudge</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yuan</forename><surname>Xie</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015-01">January 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeffrey Vetter, Rob Schreiber, Trevor Mudge, and Yuan Xie. Blackcomb: Hardware-Software Co-design for Non-Volatile Memory in Exascale Systems, January 2015.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,88.21,221.45,6.99;12,71.45,97.17,125.89,6.99" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_b69CQq4">Evaluation of intel 3D-xpoint NVDIMM technology for memory-intensive genomic workloads</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Waddington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Kunitomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clem</forename><surname>Dickey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Samyukta</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amir</forename><surname>Abboud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jantz</forename><surname>Tran</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3357526.3357528</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WDke5jK" coord="12,147.98,88.21,144.93,6.99;12,71.45,97.17,57.23,6.99">Proceedings of the International Symposium on Memory Systems</title>
+		<meeting>the International Symposium on Memory Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2015-09">September 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Objective Analysis. A Close Look At The Micron/Intel 3D XPoint Memory, September 2015.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,109.13,221.45,6.99;12,71.45,118.09,221.45,6.99;12,71.45,127.06,221.45,6.99;12,71.45,136.03,221.45,6.99;12,71.45,144.99,221.45,6.99;12,71.45,153.96,221.45,6.99;12,71.45,162.93,203.62,6.99" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" xml:id="_d35N8tr">7.1 256Gb 3b/cell V-NAND flash memory with 48 stacked WL layers</title>
+		<author>
+			<persName><forename type="first">Dongku</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woopyo</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chulbum</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Doo-Hyun</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yong</forename><forename type="middle">Sung</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kyung-Tae</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jinho</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kyung-Min</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sungyeon</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wandong</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hanjun</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jaedoeg</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nayoung</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dong-Su</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeong-Don</forename><surname>Ihm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Doogon</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Young-Sun</forename><surname>Min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moo-Sung</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">An-Soo</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jae-Ick</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">In-Mo</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pansuk</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bong-Kil</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Doo-Sub</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyunggon</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyang-Ja</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dae-Seok</forename><surname>Byeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ki-Tae</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kye-Hyun</forename><surname>Kyung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeong-Hyuk</forename><surname>Choi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/isscc.2016.7417941</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_fu84DFE">2016 IEEE International Solid-State Circuits Conference (ISSCC)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-01" />
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+	<note>1 256Gb 3b/cell V-NAND flash memory with 48 stacked WL layers. ISSCC 2016</note>
+	<note type="raw_reference">D. Kang, W. Jeong, C. Kim, D. H. Kim, Y. S. Cho, K. T. Kang, J. Ryu, K. M. Kang, S. Lee, W. Kim, H. Lee, J. Yu, N. Choi, D. S. Jang, J. D. Ihm, D. Kim, Y. S. Min, M. S. Kim, A. S. Park, J. I. Son, I. M. Kim, P. Kwak, B. K. Jung, D. S. Lee, H. Kim, H. J. Yang, D. S. Byeon, K. T. Park, K. H. Kyung, and J. H. Choi. 7.1 256Gb 3b/cell V-NAND flash memory with 48 stacked WL layers. ISSCC 2016.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,174.88,221.45,6.99;12,71.45,183.85,221.45,6.99;12,71.45,192.81,221.46,6.99;12,71.45,201.78,158.35,6.99" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="12,205.45,174.88,87.45,6.99;12,71.45,183.85,221.45,6.99;12,71.45,192.81,28.64,6.99" xml:id="_jD636cv">On the use of strong bch codes for improving multilevel nand flash memory storage capacity</title>
+		<author>
+			<persName coords=""><forename type="first">Fei</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ken</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tong</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_n9xtF49" coord="12,118.76,192.81,174.15,6.99;12,71.45,201.78,132.20,6.99">IEEE Workshop on Signal Processing Systems (SiPS): Design and Implementation</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fei Sun, Ken Rose, and Tong Zhang. On the use of strong bch codes for improving multilevel nand flash memory storage capacity. In IEEE Workshop on Signal Processing Systems (SiPS): Design and Implementation, 2006.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,213.73,221.45,6.99;12,71.45,222.70,221.45,6.99;12,71.45,231.67,187.81,6.99" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" coord="12,272.33,213.73,20.57,6.99;12,71.45,222.70,221.45,6.99;12,71.45,231.67,116.71,6.99" xml:id="_6avPbfT">FTC-Charm++: an in-memory checkpoint-based fault tolerant runtime for Charm++ and MPI</title>
+		<author>
+			<persName coords=""><forename type="first">Gengbin</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lixia</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Laxmikant</forename><forename type="middle">V</forename><surname>Kalé</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gengbin Zheng, Lixia Shi, and Laxmikant V Kalé. FTC- Charm++: an in-memory checkpoint-based fault tolerant runtime for Charm++ and MPI. CLUSTER 2004.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,243.62,221.45,6.99;12,71.45,252.59,221.46,6.99;12,71.45,261.56,195.92,6.99" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="12,101.84,252.59,191.07,6.99;12,71.45,261.56,143.44,6.99" xml:id="_hZrvNPA">Energy-aware I/O optimization for checkpoint and restart on a NAND flash memory system</title>
+		<author>
+			<persName coords=""><forename type="first">Takafumi</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kento</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hitoshi</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Satoshi</forename><surname>Matsuoka</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2465813.2465822</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qpXQEhX">Proceedings of the 3rd Workshop on Fault-tolerance for HPC at extreme scale</title>
+		<meeting>the 3rd Workshop on Fault-tolerance for HPC at extreme scale</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2013-06-18">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Takafumi Saito, Kento Sato, Hitoshi Sato, and Satoshi Mat- suoka. Energy-aware i/o optimization for checkpoint and restart on a nand flash memory system. FTXS 2013.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,273.51,221.45,6.99;12,71.45,282.48,221.46,6.99;12,71.45,291.44,138.09,6.99" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="12,276.69,273.51,16.21,6.99;12,71.45,282.48,221.46,6.99;12,71.45,291.44,67.90,6.99" xml:id="_Qu39wHt">Hiding Checkpoint Overhead in HPC Applications with a Semi-Blocking Algorithm</title>
+		<author>
+			<persName coords=""><forename type="first">Xiang</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Esteban</forename><surname>Meneses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laxmikant</forename><forename type="middle">V</forename><surname>Kale</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cluster.2012.82</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_7Jnhg8W">2012 IEEE International Conference on Cluster Computing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2012-09">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiang Ni, Esteban Meneses, and Laxmikant V Kalé. Hid- ing checkpoint overhead in HPC applications with a semi- blocking algorithm. CLUSTER 2012.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,303.40,221.46,6.99;12,71.45,312.36,221.45,6.99;12,71.45,321.33,221.46,6.99;12,71.45,330.30,221.46,6.99;12,71.45,339.26,221.45,6.99;12,71.45,348.23,50.31,6.99" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="12,215.49,312.36,77.41,6.99;12,71.45,321.33,130.02,6.99" xml:id="_qKa8Wyy">Distributed Diskless Checkpoint for large scale systems</title>
+		<author>
+			<persName coords=""><forename type="first">Leonardo</forename><surname>Arturo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bautista</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Naoya</forename><surname>Maruyama</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Franck</forename><surname>Cappello</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Satoshi</forename><surname>Matsuoka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_NtDp2bt" coord="12,224.01,321.33,68.89,6.99;12,71.45,330.30,221.46,6.99;12,71.45,339.26,101.98,6.99">Proceedings of the 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing</title>
+		<meeting>the 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing</meeting>
+		<imprint>
+			<publisher>IEEE Computer Society</publisher>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="63" to="72" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leonardo Arturo Bautista Gomez, Naoya Maruyama, Franck Cappello, and Satoshi Matsuoka. Distributed Diskless Checkpoint for large scale systems. In Proceedings of the 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing, pages 63-72. IEEE Computer Society, 2010.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,360.19,221.45,6.99;12,71.45,369.15,185.94,6.99" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_BRcb3Fv">DOE Advanced Scientific Computing Advisory Committee (ASCAC) Report: Exascale Computing Initiative Review</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Berzins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Pennington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vivek</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valerie</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/1222712</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uW9QTyh" coord="12,71.45,360.19,221.45,6.99;12,71.45,369.15,42.12,6.99">Advanced Scientific Computing Advisory Committee. Meeting Minutes</title>
+		<meeting><address><addrLine>Crystal City, Virginia</addrLine></address></meeting>
+		<imprint>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<date type="published" when="2015-07-27">July 27, 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Advanced Scientific Computing Advisory Committee. Meet- ing Minutes, Crystal City, Virginia, July 27, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,381.11,221.45,6.99;12,71.45,390.07,221.45,6.99;12,71.45,399.04,197.05,6.99" xml:id="b18">
+	<monogr>
+		<title level="m" type="main" coord="12,147.70,390.07,145.20,6.99;12,71.45,399.04,156.24,6.99" xml:id="_3pau3J9">Detailed Modeling, Design, and Evaluation of a Scalable Multi-level Checkpointing System</title>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>Bronevetsky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kathryn</forename><surname>Mohror</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bronis</forename><forename type="middle">R</forename><surname>De Supinski</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/984082</idno>
+		<imprint>
+			<date type="published" when="2010-04-09">2010</date>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<pubPlace>SC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adam Moody, Greg Bronevetsky, Kathryn Mohror, and Bro- nis R. de Supinski. Design, Modeling, and Evaluation of a Scalable Multi-level Checkpointing System. SC 2010.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,410.99,221.45,6.99;12,71.45,419.96,221.46,6.99;12,71.45,428.93,221.46,6.99;12,71.45,437.89,111.73,6.99" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="12,251.77,419.96,41.13,6.99;12,71.45,428.93,221.46,6.99;12,71.45,437.89,61.64,6.99" xml:id="_EsuXPQf">LOT-ECC: Localized and Tiered Reliability Mechanisms for Commodity Memory Systems</title>
+		<author>
+			<persName coords=""><forename type="first">Naveen</forename><surname>Aniruddha N Udipi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rajeev</forename><surname>Muralimanohar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Al</forename><surname>Balasubramonian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Norman</forename><forename type="middle">P</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Jouppi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DfCG7w6" coord="12,140.88,437.89,20.20,6.99">ISCA</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aniruddha N Udipi, Naveen Muralimanohar, Rajeev Bala- subramonian, Al Davis, and Norman P Jouppi. LOT-ECC: Localized and Tiered Reliability Mechanisms for Commodity Memory Systems. ISCA 2012.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.45,449.85,221.46,6.99;12,334.46,58.32,221.45,6.99;12,334.46,67.28,140.03,6.99" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="12,354.77,58.32,201.15,6.99;12,334.46,67.28,99.59,6.99" xml:id="_gPsxqWv">Low-power, low-storage-overhead chipkill correct via multi-line error correction</title>
+		<author>
+			<persName><forename type="first">Xun</forename><surname>Jian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henry</forename><surname>Duwe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Sartori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vilas</forename><surname>Sridharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rakesh</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2503210.2503243</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_dAZzbyb">Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis</title>
+		<meeting>the International Conference on High Performance Computing, Networking, Storage and Analysis<address><addrLine>SC</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2013-11-17">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Jian, H. Duwe, J. Sartori, V. Sridharan, and R. Ku- mar. Low-power, Low-storage-overhead Chipkill Correct via Multi-line Error Correction. SC 2013.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,79.24,221.45,6.99;12,334.46,88.21,66.30,6.99" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" xml:id="_DFNzCc7">Error Control Coding (Shu Lin and Costello, D.J.; 2004) [book review]</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Costello</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tit.2005.844056</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_H38mBh2">IEEE Transactions on Information Theory</title>
+		<title level="j" type="abbrev">IEEE Trans. Inform. Theory</title>
+		<idno type="ISSN">0018-9448</idno>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1616" to="1617" />
+			<date type="published" when="2004">2004</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Lin and D. J. Costello. Error Control Coding. Pearson, 2nd edition, 2004.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,100.16,221.46,6.99;12,334.46,109.13,221.46,6.99;12,334.46,118.09,221.46,6.99;12,334.46,127.06,61.76,6.99" xml:id="b22">
+	<monogr>
+		<title level="m" type="main" coord="12,482.81,109.13,73.11,6.99;12,334.46,118.09,221.46,6.99;12,334.46,127.06,21.51,6.99" xml:id="_8Mw6uyH">Feng Shui of Supercomputer Memory: Positional Effects in DRAM and SRAM Faults</title>
+		<author>
+			<persName coords=""><forename type="first">Jon</forename><surname>Vilas Sridharan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nathan</forename><surname>Stearley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sean</forename><surname>Debardeleben</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sudhanva</forename><surname>Blanchard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Gurumurthi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<pubPlace>SC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vilas Sridharan, Jon Stearley, Nathan DeBardeleben, Sean Blanchard, and Sudhanva Gurumurthi. Feng Shui of Super- computer Memory: Positional Effects in DRAM and SRAM Faults. SC 2013.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,139.01,221.45,6.99;12,334.46,147.98,100.09,6.99" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="12,466.14,139.01,89.78,6.99;12,334.46,147.98,59.91,6.99" xml:id="_P8Jf9X2">A study of DRAM failures in the field</title>
+		<author>
+			<persName coords=""><forename type="first">Vilas</forename><surname>Sridharan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dean</forename><surname>Liberty</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/sc.2012.13</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5cQkh4P">2012 International Conference for High Performance Computing, Networking, Storage and Analysis</title>
+		<meeting><address><addrLine>SC</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2012-11">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vilas Sridharan and Dean Liberty. A Study of DRAM Fail- ures in the Field. SC 2012.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,159.94,221.45,6.99;12,334.46,168.90,221.46,6.99;12,334.46,177.87,221.46,6.99;12,334.46,186.84,150.31,6.99" xml:id="b24">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Nathan</forename><surname>Vilas Sridharan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sean</forename><surname>Debardeleben</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kurt</forename><forename type="middle">B</forename><surname>Blanchard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jon</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Stearley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sudhanva</forename><surname>Shalf</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Gurumurthi</surname></persName>
+		</author>
+		<title level="m" xml:id="_Ewe2bFq" coord="12,383.70,177.87,172.22,6.99;12,334.46,186.84,128.20,6.99">Memory Errors in Modern Systems: The Good, The Bad, and The Ugly. ASPLOS</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vilas Sridharan, Nathan DeBardeleben, Sean Blanchard, Kurt B. Ferreira, Jon Stearley, John Shalf, and Sudhanva Gurumurthi. Memory Errors in Modern Systems: The Good, The Bad, and The Ugly. ASPLOS 2015.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,198.79,221.45,6.99;12,334.46,207.76,221.46,6.99;12,334.46,216.72,82.61,6.99" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="12,525.23,198.79,30.68,6.99;12,334.46,207.76,221.46,6.99;12,334.46,216.72,27.62,6.99" xml:id="_hUpHAzq">Bamboo ECC: Strong, safe, and flexible codes for reliable computer memory</title>
+		<author>
+			<persName coords=""><forename type="first">Jungrae</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mattan</forename><surname>Erez</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/hpca.2015.7056025</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_8QF8XkU">2015 IEEE 21st International Symposium on High Performance Computer Architecture (HPCA)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015-02">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jungrae Kim, Michael Sullivan, and Mattan Erez. Bamboo ECC: Strong, safe, and flexible codes for reliable computer memory. HPCA 2015.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,228.68,221.45,6.99;12,334.46,237.64,147.71,6.99" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="12,466.25,228.68,89.67,6.99;12,334.46,237.64,83.80,6.99" xml:id="_JpGwHNc">Virtualized and Flexible ECC for Main Memory</title>
+		<author>
+			<persName coords=""><forename type="first">Hyun</forename><surname>Doe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mattan</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Erez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_E8r7MkG" coord="12,426.72,237.64,33.36,6.99">ASPLOS</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doe Hyun Yoon and Mattan Erez. Virtualized and Flexible ECC for Main Memory. ASPLOS 2010.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,249.60,221.45,6.99;12,334.46,258.57,221.46,6.99;12,334.46,267.53,221.45,6.99;12,334.46,276.50,221.46,6.99;12,334.46,285.47,174.63,6.99" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="12,400.47,267.53,155.44,6.99;12,334.46,276.50,141.60,6.99" xml:id="_GqufR9f">Rethinking DRAM design and organization for energy-constrained multi-cores</title>
+		<author>
+			<persName coords=""><forename type="first">Naveen</forename><surname>Aniruddha N Udipi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Niladrish</forename><surname>Muralimanohar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rajeev</forename><surname>Chatterjee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Al</forename><surname>Balasubramonian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Norman</forename><forename type="middle">P</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Jouppi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_57H3dmZ" coord="12,483.15,276.50,72.77,6.99;12,334.46,285.47,105.38,6.99">In ACM SIGARCH Computer Architecture News</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aniruddha N Udipi, Naveen Muralimanohar, Niladrish Chatterjee, Rajeev Balasubramonian, Al Davis, and Nor- man P Jouppi. Rethinking DRAM design and organiza- tion for energy-constrained multi-cores. In ACM SIGARCH Computer Architecture News, volume 38, 2010.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,297.42,221.46,6.99;12,334.46,306.39,221.45,6.99;12,334.46,313.81,132.69,6.99" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="12,402.41,297.42,153.51,6.99;12,334.46,306.39,197.14,6.99" xml:id="_pdBJcKZ">The Design and Implementation of Checkpoint/Restart Process Fault Tolerance for Open MPI</title>
+		<author>
+			<persName coords=""><forename type="first">Joshua</forename><surname>Hursey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Squyres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">I</forename><surname>Mattox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Lumsdaine</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ipdps.2007.370605</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_CkWCsjJ">2007 IEEE International Parallel and Distributed Processing Symposium</title>
+		<meeting><address><addrLine>Indianapolis, IN, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+	<note type="raw_reference">Joshua Hursey. Coordinated Checkpoint/Restart Process Fault Tolerance for Mpi Applications on Hpc Systems. PhD thesis, Indianapolis, IN, USA, 2010.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,325.76,221.45,6.99;12,334.46,334.73,221.46,6.99;12,334.46,343.70,221.45,6.99;12,334.46,352.66,169.87,6.99" xml:id="b29">
+	<monogr>
+		<title level="m" type="main" coord="12,334.46,343.70,221.45,6.99;12,334.46,352.66,129.27,6.99" xml:id="_pFYkrRp">MCRENGINE: a scalable checkpointing system using dataaware aggregation and compression</title>
+		<author>
+			<persName coords=""><forename type="first">Kathryn</forename><surname>Tanzima Zerin Islam</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Saurabh</forename><surname>Mohror</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Bagchi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Bronis R De</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rudi</forename><surname>Supinski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Eigenmann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<pubPlace>SC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tanzima Zerin Islam, Kathryn Mohror, Saurabh Bagchi, Adam Moody, Bronis R De Supinski, and Rudi Eigenmann. MCRENGINE: a scalable checkpointing system using data- aware aggregation and compression. SC 2012.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,364.62,221.45,6.99;12,334.46,373.58,221.45,6.99;12,334.46,382.55,193.19,6.99" xml:id="b30">
+	<monogr>
+		<title level="m" type="main" coord="12,476.48,373.58,79.43,6.99;12,334.46,382.55,139.17,6.99" xml:id="_hEmvYyQ">A 1 PB/s file system to checkpoint three million MPI tasks</title>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Raghunath Rajachandrasekar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kathryn</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dhabaleswar</forename><forename type="middle">K</forename><surname>Mohror</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Panda</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raghunath Rajachandrasekar, Adam Moody, Kathryn Mohror, and Dhabaleswar K Panda. A 1 PB/s file system to checkpoint three million MPI tasks. HPDC 2013.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,394.50,221.45,6.99;12,334.46,403.47,221.46,6.99;12,334.46,412.44,184.99,6.99" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="12,444.63,403.47,111.29,6.99;12,334.46,412.44,121.02,6.99" xml:id="_CuzXkNm">An Evaluation of Different I/O Techniques for Checkpoint/Restart</title>
+		<author>
+			<persName coords=""><forename type="first">Faisal</forename><surname>Shahzad</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Markus</forename><surname>Wittmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Thomas</forename><surname>Zeiser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Georg</forename><surname>Hager</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gerhard</forename><surname>Wellein</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ipdpsw.2013.145</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qJwNCe5">2013 IEEE International Symposium on Parallel &amp; Distributed Processing, Workshops and Phd Forum</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2013-05">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faisal Shahzad, Markus Wittmann, Thomas Zeiser, Georg Hager, and Gerhard Wellein. An evaluation of different I/O techniques for checkpoint/restart. IPDPSW 2013.</note>
+</biblStruct>
+
+<biblStruct coords="12,334.46,424.39,221.45,6.99;12,334.46,433.36,221.45,6.99;12,334.46,442.33,221.45,6.99;12,334.46,451.29,218.49,6.99" xml:id="b32">
+	<monogr>
+		<title level="m" type="main" coord="12,476.75,433.36,79.16,6.99;12,334.46,442.33,221.45,6.99;12,334.46,451.29,16.89,6.99" xml:id="_NpcR2uS">Thinking Beyond the RAM Disk for In-Memory Checkpointing of HPC Applications</title>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Raghunath Rajachandrasekar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kathryn</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dhabaleswar</forename><forename type="middle">K</forename><surname>Mohror</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Panda</surname></persName>
+		</author>
+		<idno>CISRC-1/13-TR02</idno>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+		<respStmt>
+			<orgName>OSU Tech ; OSU-</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Report</note>
+	<note type="raw_reference">Raghunath Rajachandrasekar, Adam Moody, Kathryn Mohror, and Dhabaleswar K. Panda. Thinking Beyond the RAM Disk for In-Memory Checkpointing of HPC Applica- tions. OSU Tech. Report (OSU-CISRC-1/13-TR02), 2013.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

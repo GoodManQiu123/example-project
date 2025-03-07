@@ -1,0 +1,17 @@
+{
+    "title": "Exascale Computing: The challenges and opportunities in the next decade",
+    "doi": null,
+    "publisher": null,
+    "journal": null,
+    "publish date": null,
+    "abstract": "Supercomputing systems have made great strides in recent years as the extensive computing needs of cutting-edge engineering work and scientific discovery have driven the development of more powerful systems. In 2008, the first petaflop machine was released, and historic trends indicate that in ten years, we should be at the exascale level. Indeed, various agencies are targeting a computer system capable of 1 Exaop (10**18 ops) of computation within the next decade. We believe that applications in many industries will be materially transformed by exascale computers. Meeting the exascale challenge will require significant innovation in technology, architecture and programmability. Power is a fundamental problem at all levels; traditional memory cost and performance are not keeping pace with compute potential; the storage hierarchy will have to be re- architected; networks will be a much bigger part of the system cost; reliability at exascale levels will require a holistic approach to architecture design, and programmability and ease-of-use will be an essential component to extract the promised performance at the exascale level. In this talk, I will discuss the importance of exascale computing and address the major challenges, touching on the areas of technology, architecture, reliability and usability.",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Tilak Agerwala",
+            "affiliation": "IBM Research",
+            "email": "tilak@us.ibm.com"
+        }
+    ],
+    "Reference": null
+}

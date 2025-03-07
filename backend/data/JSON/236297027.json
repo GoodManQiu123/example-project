@@ -1,0 +1,1004 @@
+{
+    "metadata": {
+        "title": "THE IMPACT OF DEGRADED SPEECH AND STIMULUS FAMILIARITY IN A DICHOTIC LISTENING TASK by",
+        "doi": null,
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "It has been previously established that when engaged in a difficult attention intensive task, which involves repeating information while blocking out other information (the dichotic listening task), participants are often able to report hearing their own names in an unattended audio channel  (Moray, 1959) . This phenomenon, called the cocktail party effect is a result of words that are important to oneself having a lower threshold, resulting in less attention being necessary to process them  (Treisman, 1960) . The current studies examined the ability of a person who was engaged in an attention demanding task to hear and recall low-threshold words from a fictional story. These low-threshold words included a traditional alert word, -fire\u2016 and fictional character names from a popular franchise-Harry Potter. Further, the role of stimulus degradation was examined by including synthetic and accented speech in the task to determine how it would impact attention and performance. In Study 1 participants repeated passages from a novel that was largely unfamiliar to them, The Secret Garden while blocking out a passage from a much more familiar source, Harry Potter and the Deathly Hallows. Each unattended Harry Potter passage was edited so that it would include 4 names from the series, and the word -fire\u2016 twice. The type of speech present in the attended and unattended ears (Natural or Synthetic) was varied to examine the impact that processing a degraded speech would have on performance. The speech that the participant shadowed did not impact unattended recall, however it did impact shadowing accuracy. The speech type that was present in the unattended ear did impact the ability to recall low-threshold, Harry Potter information. When the unattended speech type was synthetic, significantly less Harry Potter information was recalled. Interestingly, while Harry Potter information was",
+        "keywords": [
+            "harry",
+            "familiarity",
+            "potter",
+            "information",
+            "impact",
+            "listening",
+            "word",
+            "dichotic",
+            "stimulus",
+            "speech"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Anne Marie Sinatra",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Valerie K Sims",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "For the following questions, please answer if you know anyone with the indicated name, and if so, how you know that person",
+            "type": "article-journal",
+            "container_title": [
+                "Examples"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [],
+            "title": "Do you know anyone named Harry? If so, how do you know him? 2) Do you know anyone named Ron? If so, how do you know him? 3) Do you know anyone named Hermione? If so, how do you know her? 4) Do you know anyone named Voldemort? If so, how do you know him? 5) Do you know anyone named Dumbledore? If so, how do you know him? 6) Do you know anyone named Mary? If so, how do you know her? 7",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Andersson",
+                    "given": "M."
+                },
+                {
+                    "family": "Llera",
+                    "given": "J.E."
+                },
+                {
+                    "family": "Rimol",
+                    "given": "L.M."
+                },
+                {
+                    "family": "Hugdahl",
+                    "given": "K."
+                }
+            ],
+            "title": "Using dichotic listening to study bottom-up and top-down processing in children and adults",
+            "type": "article-journal",
+            "container_title": [
+                "AT&T natural voices text-to-speech to be the new voice of the NOAA/NWS weather & warning services",
+                "Child Neuropsychology",
+                "Wall Street Journal Online"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Baddeley",
+                    "given": "A.D."
+                },
+                {
+                    "family": "Hitch",
+                    "given": "G."
+                }
+            ],
+            "title": "Working memory",
+            "type": "chapter",
+            "container_title": [
+                "The psychology of learning and motivation"
+            ],
+            "doi": "",
+            "published_date": "1974"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bartlett",
+                    "given": "F.C."
+                }
+            ],
+            "title": "Remembering; a study in experimental and social psychology",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1932"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Becker",
+                    "given": "L.A."
+                }
+            ],
+            "title": "Effect size calculator",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Broadbent",
+                    "given": "D.E."
+                }
+            ],
+            "title": "A mechanical model for human attention and immediate memory",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Review"
+            ],
+            "doi": "",
+            "published_date": "1957"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brungart",
+                    "given": "D.S."
+                },
+                {
+                    "family": "Simpson",
+                    "given": "B.D."
+                },
+                {
+                    "family": "Darwin",
+                    "given": "C.J."
+                },
+                {
+                    "family": "Arbogast",
+                    "given": "T.L."
+                },
+                {
+                    "family": "Kidd",
+                    "given": "G.",
+                    "suffix": "Jr."
+                }
+            ],
+            "title": "Across-ear interference from parametrically degraded synthetic speech signals in a dichotic cocktail party listening task",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of the Acoustic Society of America"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Burnett",
+                    "given": "F.H."
+                }
+            ],
+            "title": "The Secret Garden",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1911"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cherry",
+                    "given": "E.C."
+                }
+            ],
+            "title": "Some experiments on the recognition of speech, with one and two ears",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of the Acoustical Society of America"
+            ],
+            "doi": "",
+            "published_date": "1953"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Conway",
+                    "given": "A.R.A."
+                },
+                {
+                    "family": "Cowan",
+                    "given": "N."
+                },
+                {
+                    "family": "M.F",
+                    "given": "Bunting"
+                }
+            ],
+            "title": "The cocktail party phenomenon revisited: The importance of working memory capacity",
+            "type": "article-journal",
+            "container_title": [
+                "Psychonomic Bulletin & Review"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Daneman",
+                    "given": "M."
+                },
+                {
+                    "family": "Carpenter",
+                    "given": "P.A."
+                }
+            ],
+            "title": "Individual differences in working memory and reading",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Verbal Learning and Verbal Behavior"
+            ],
+            "doi": "",
+            "published_date": "1980"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Deutsch",
+                    "given": "J.A."
+                },
+                {
+                    "family": "Deutsch",
+                    "given": "D."
+                }
+            ],
+            "title": "Attention: Some theoretical considerations",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Review"
+            ],
+            "doi": "",
+            "published_date": "1963"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dos Santos Sequeira",
+                    "given": "S."
+                },
+                {
+                    "family": "Specht",
+                    "given": "K."
+                },
+                {
+                    "family": "Moosmann",
+                    "given": "M."
+                },
+                {
+                    "family": "Westerhausen",
+                    "given": "R."
+                },
+                {
+                    "family": "Hugdahl",
+                    "given": "K."
+                }
+            ],
+            "title": "The effects of background noise on dichotic listening to consonant-vowel syllables: An fMRI study",
+            "type": "article-journal",
+            "container_title": [
+                "Laterality"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Duffy",
+                    "given": "S.A."
+                },
+                {
+                    "family": "Pisoni",
+                    "given": "D.B."
+                }
+            ],
+            "title": "Comprehension of synthetic speech produced by rule: A review and theoretical interpretation",
+            "type": "article-journal",
+            "container_title": [
+                "Language and Speech"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Faul",
+                    "given": "F."
+                },
+                {
+                    "family": "Erdfelder",
+                    "given": "E."
+                },
+                {
+                    "family": "Lang",
+                    "given": "A.-G."
+                },
+                {
+                    "family": "Buchner",
+                    "given": "A."
+                }
+            ],
+            "title": "G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences",
+            "type": "article-journal",
+            "container_title": [
+                "Behavior Research Methods"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Foster",
+                    "given": "L.M."
+                },
+                {
+                    "family": "Hynd",
+                    "given": "G.W."
+                },
+                {
+                    "family": "Morgan",
+                    "given": "A.E."
+                },
+                {
+                    "family": "Hugdahl",
+                    "given": "K."
+                }
+            ],
+            "title": "Planum temporal asymmetry and ear advantage in dichotic listening in developmental dyslexia and attention-deficit/hyperactivity disorder (ADHD",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of the International Neuropsychological Society"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gabriel",
+                    "given": "S."
+                },
+                {
+                    "family": "Young",
+                    "given": "A.F."
+                }
+            ],
+            "title": "Becoming a vampire without being bitten: The narrative collective-assimilation hypothesis",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Science"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Henderson",
+                    "given": "H.A."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Self-referenced memory, social cognition, and symptom presentation in autism",
+            "type": "article-journal",
+            "container_title": [
+                "The Journal of Children Psychology and Psychiatry"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Howarth",
+                    "given": "C.I."
+                },
+                {
+                    "family": "Ellis",
+                    "given": "K."
+                }
+            ],
+            "title": "The relative intelligibility threshold for one's own name compared with other names",
+            "type": "article-journal",
+            "container_title": [
+                "Quarterly Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "1961"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hugdahl",
+                    "given": "K."
+                },
+                {
+                    "family": "Carlsson",
+                    "given": "G."
+                },
+                {
+                    "family": "Eichele",
+                    "given": "T."
+                }
+            ],
+            "title": "Age effects in dichotic listening to consonant-vowel syllables: Interactions with attention",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Neuropsychology"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Janssen Lok",
+                    "given": "J."
+                }
+            ],
+            "title": "Audio alert: Danish F-16 tests indicate that 3D audio boosts survivability and reduces workload",
+            "type": "article-journal",
+            "container_title": [
+                "Aviation Week and Space Technology"
+            ],
+            "doi": "",
+            "published_date": "2008-09-18"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lancaster",
+                    "given": "J.A."
+                },
+                {
+                    "family": "Robinson",
+                    "given": "G.A."
+                },
+                {
+                    "family": "Casali",
+                    "given": "J.G."
+                }
+            ],
+            "title": "Comparison of two voice synthesis systems as to speech intelligibility in aircraft cockpit engine noise",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Human Factors and Ergonomics Society 48th Annual Meeting"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lewis",
+                    "given": "J.L."
+                }
+            ],
+            "title": "Semantic processing of unattended messages using dichotic listening",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "1970"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lombardo",
+                    "given": "M.V."
+                },
+                {
+                    "family": "Barnes",
+                    "given": "J.L."
+                },
+                {
+                    "family": "Wheelwright",
+                    "given": "S.J."
+                },
+                {
+                    "family": "Baron-Cohen",
+                    "given": "S."
+                }
+            ],
+            "title": "Self-referential cognition and empathy in autism",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS ONE"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MacKay",
+                    "given": "D.G."
+                }
+            ],
+            "title": "Aspects of the theory of comprehension, memory and attention",
+            "type": "article-journal",
+            "container_title": [
+                "Quarterly Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "1973"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Martin",
+                    "given": "J."
+                },
+                {
+                    "family": "Jerger",
+                    "given": "J."
+                },
+                {
+                    "family": "Mehta",
+                    "given": "J."
+                }
+            ],
+            "title": "Divided-attention and directed-attention listening modes in children with dichotic deficits: An event-related potential study",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of American Academy of Audiology"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Moncrieff",
+                    "given": "D.W."
+                },
+                {
+                    "family": "McColl",
+                    "given": "R.W."
+                },
+                {
+                    "family": "Black",
+                    "given": "J.R."
+                }
+            ],
+            "title": "Hemodynamic differences in children with dichotic listening deficits: preliminary results from an fMRI study during a cued listening task",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of the American Academy of Audiology"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Moray",
+                    "given": "N."
+                }
+            ],
+            "title": "Attention in dichotic listening: Affective cues and the influence of instructions",
+            "type": "article-journal",
+            "container_title": [
+                "Quarterly Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "1959"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Norman",
+                    "given": "D.A."
+                }
+            ],
+            "title": "Memory while shadowing",
+            "type": "article-journal",
+            "container_title": [
+                "Quarterly Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "1969"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Paris",
+                    "given": "C.R."
+                },
+                {
+                    "family": "Gilson",
+                    "given": "R.D."
+                },
+                {
+                    "family": "Thomas",
+                    "given": "M.H."
+                },
+                {
+                    "family": "Silver",
+                    "given": "N.C."
+                }
+            ],
+            "title": "Effect of synthetic voice intelligibility on speech comprehension",
+            "type": "article-journal",
+            "container_title": [
+                "Human Factors"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Paris",
+                    "given": "C.R."
+                },
+                {
+                    "family": "Thomas",
+                    "given": "M.H."
+                },
+                {
+                    "family": "Gilson",
+                    "given": "R.D."
+                },
+                {
+                    "family": "Kincaid",
+                    "given": "J.P."
+                }
+            ],
+            "title": "Linguistic cues and memory for synthetic and natural speech",
+            "type": "article-journal",
+            "container_title": [
+                "Human Factors"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pullman",
+                    "given": "P."
+                }
+            ],
+            "title": "The Golden Compass",
+            "type": "article-journal",
+            "container_title": [
+                "Yearling. Readability index calculator"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Repp",
+                    "given": "B."
+                }
+            ],
+            "title": "Measuring laterality effects in dichotic listening",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Acoustic Society of America"
+            ],
+            "doi": "",
+            "published_date": "1977"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rogers",
+                    "given": "C.L."
+                },
+                {
+                    "family": "Dalby",
+                    "given": "J."
+                },
+                {
+                    "family": "Nishi",
+                    "given": "K."
+                }
+            ],
+            "title": "Effects of noise and proficiency on intelligibility of Chinese-accented english",
+            "type": "article-journal",
+            "container_title": [
+                "Language and Speech"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roring",
+                    "given": "R.W."
+                },
+                {
+                    "family": "Hines",
+                    "given": "F.G."
+                },
+                {
+                    "family": "Charness",
+                    "given": "N."
+                }
+            ],
+            "title": "Age differences in identifying words in synthetic speech",
+            "type": "article-journal",
+            "container_title": [
+                "Human Factors"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rowling",
+                    "given": "J.K."
+                }
+            ],
+            "title": "Harry Potter and the Deathly Hallows",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rowling",
+                    "given": "J.K."
+                }
+            ],
+            "title": "Harry Potter and the Deathly Hallows Unabridged Audiobook",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schmid",
+                    "given": "P.M."
+                },
+                {
+                    "family": "Yeni-Komshian",
+                    "given": "G.H."
+                }
+            ],
+            "title": "The effects of speaker accent and target predictability on perception of mispronunciations",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Speech, Language, and Hearing Research"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schwab",
+                    "given": "E.C."
+                },
+                {
+                    "family": "Nusbaum",
+                    "given": "H.C."
+                },
+                {
+                    "family": "Pisoni",
+                    "given": "D.B."
+                }
+            ],
+            "title": "Some effects of training on perception of synthetic speech",
+            "type": "article-journal",
+            "container_title": [
+                "Human Factors"
+            ],
+            "doi": "",
+            "published_date": "1985"
+        },
+        {
+            "authors": [],
+            "title": "Self assessment for hearing loss",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Symons",
+                    "given": "C.S."
+                },
+                {
+                    "family": "Johnson",
+                    "given": "B.T."
+                }
+            ],
+            "title": "The self-reference effect in memory: A meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Bulletin"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Techentin",
+                    "given": "C."
+                },
+                {
+                    "family": "Voyer",
+                    "given": "D."
+                }
+            ],
+            "title": "Material type and attention control in dichotic listening",
+            "type": "article-journal",
+            "container_title": [
+                "Laterality"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tiewtrakul",
+                    "given": "T."
+                },
+                {
+                    "family": "Fletcher",
+                    "given": "S.R."
+                }
+            ],
+            "title": "The lexile framework for readingThe challenge of regional accents for aviation English language proficiency standards: A study of difficulties in understanding in air traffic control-pilot communications",
+            "type": "article-journal",
+            "container_title": [
+                "Ergonomics"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Treisman",
+                    "given": "A.M."
+                }
+            ],
+            "title": "Contextual cues in selective listening",
+            "type": "article-journal",
+            "container_title": [
+                "The Quarterly Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "1960"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Treisman",
+                    "given": "A.M."
+                }
+            ],
+            "title": "Verbal cues, language, and meaning in selective attention",
+            "type": "article-journal",
+            "container_title": [
+                "The American Journal of Psychology"
+            ],
+            "doi": "",
+            "published_date": "1964"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wickens",
+                    "given": "C.D."
+                }
+            ],
+            "title": "Multiple resources and mental workload",
+            "type": "article-journal",
+            "container_title": [
+                "Human Factors"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wiens",
+                    "given": "S."
+                },
+                {
+                    "family": "Emmerich",
+                    "given": "D.S."
+                }
+            ],
+            "title": "Synthetic stimuli attenuate the effect of attention on the dichotic right-ear advantage",
+            "type": "article-journal",
+            "container_title": [
+                "Acta Psychologica"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wood",
+                    "given": "N."
+                },
+                {
+                    "family": "Cowan",
+                    "given": "N."
+                }
+            ],
+            "title": "The cocktail party phenomenon revisited: Attention and memory in the classic selective listening procedure of cherry (1953",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology: General"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wood",
+                    "given": "N."
+                },
+                {
+                    "family": "Cowan",
+                    "given": "N."
+                }
+            ],
+            "title": "The cocktail party phenomenon revisited: How frequent are attention shifts to one's name in an irrelevant auditory channel?",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yan",
+                    "given": "Q."
+                },
+                {
+                    "family": "Vaseghi",
+                    "given": "S."
+                }
+            ],
+            "title": "A comparative analysis of UK and US english accents in recognition and synthesis",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing. Orlando"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        }
+    ]
+}

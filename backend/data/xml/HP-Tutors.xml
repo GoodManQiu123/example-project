@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_BArd42B" coord="1,42.40,94.39,506.41,23.14;1,42.40,120.39,223.63,23.14;1,362.24,169.37,77.89,7.71">Money as Health: A Study of Health Status Disparities among African Americans of Flint, Michigan</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MedCrave Group, LLC</publisher>
+				<availability status="unknown"><p>Copyright MedCrave Group, LLC</p>
+				</availability>
+				<date type="published" when="2017-11-20">November 20, 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,362.24,188.40,82.18,9.64"><forename type="first">Fernanda</forename><forename type="middle">G</forename><surname>Moreira</surname></persName>
+						</author>
+						<author>
+							<persName coords="2,489.38,55.76,43.73,6.75"><forename type="first">©2017</forename><surname>Moreira</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Psychiatry and Psychotherapy, Federal University of Sao Paulo, Brazil</note>
+								<orgName type="department">Department of Psychiatry and Psychotherapy</orgName>
+								<orgName type="institution">Federal University of Sao Paulo</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Department of Psychiatry and Psychotherapy, Federal University of Sao Paulo, Brazil, Email</note>
+								<orgName type="department">Department of Psychiatry and Psychotherapy</orgName>
+								<orgName type="institution">Federal University of Sao Paulo</orgName>
+								<address>
+									<settlement>Brazil</settlement>
+									<region>Email</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_ppkKTdg" coord="1,42.40,94.39,506.41,23.14;1,42.40,120.39,223.63,23.14;1,362.24,169.37,77.89,7.71">Money as Health: A Study of Health Status Disparities among African Americans of Flint, Michigan</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main" xml:id="_furEVU8">Journal of Psychology &amp; Clinical Psychiatry</title>
+						<title level="j" type="abbrev">JPCPY</title>
+						<idno type="eISSN">2373-6445</idno>
+						<imprint>
+							<publisher>MedCrave Group, LLC</publisher>
+							<biblScope unit="volume">8</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<date type="published" when="2017-11-20">November 20, 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">024D08A44C9DD4B008B33D12D2887325</idno>
+					<idno type="DOI">10.15406/jpcpy.2017.08.00485</idno>
+					<note type="submission">Received: November 10, 2017 |</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_FprkWAT">adolescence</term>
+					<term xml:id="_D3rYWBW">hero</term>
+					<term xml:id="_4qrpd3B">anima/animus</term>
+					<term xml:id="_adRK6GK">literature</term>
+					<term xml:id="_c3uFMp6">narcissism</term>
+					<term xml:id="_27D4Ng9">trauma</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_RWZ5JDp"><p xml:id="_6VCa6ev"><s xml:id="_HZTsUmW" coords="1,54.00,324.28,237.65,8.72;1,42.00,335.08,118.73,8.72;1,160.73,334.57,7.87,5.08;1,170.40,335.08,121.25,8.72;1,42.00,345.88,249.64,8.72;1,42.00,356.68,177.07,8.72">The objective of the current study is to symbolically expand the young adult work of Rowling JK, <ref type="bibr" coords="1,160.73,334.57,2.62,5.08" target="#b0">[1]</ref><ref type="bibr" coords="1,163.35,334.57,2.62,5.08" target="#b1">[2]</ref><ref type="bibr" coords="1,163.35,334.57,2.62,5.08" target="#b2">[3]</ref><ref type="bibr" coords="1,163.35,334.57,2.62,5.08" target="#b3">[4]</ref><ref type="bibr" coords="1,163.35,334.57,2.62,5.08" target="#b4">[5]</ref><ref type="bibr" coords="1,163.35,334.57,2.62,5.08" target="#b5">[6]</ref><ref type="bibr" coords="1,165.97,334.57,2.62,5.08" target="#b6">[7]</ref> to understand the role of the tutors of resilience in the school community with the development of an adolescent whose been narcissistically wounded.</s><s xml:id="_dcTJpZ7" coords="1,221.50,356.68,70.16,8.72;1,42.00,367.48,249.66,8.72;1,42.00,378.28,103.17,8.72">The main character of Rowling's stories, Harry Potter, is a student at Hogwarts: School of Witchcraft and Wizardry.</s><s xml:id="_y5EfJvT" coords="1,148.38,378.28,143.27,8.72;1,42.00,389.08,249.64,8.72">His adventures gained great popularity and were adapted for the screen resulting in an even larger audience.</s><s xml:id="_mvhssKh" coords="1,42.00,399.88,249.65,8.72;1,42.00,410.68,249.65,8.72;1,42.00,421.48,249.64,8.72;1,42.00,432.28,41.69,8.72">Gwilym and colleagues measured the impact of these works on the child and young adult population by following emergency room visits for musculoskeletal injuries in the U.K. during the final weeks of summer.</s><s xml:id="_bQmA4Wk" coords="1,87.12,432.28,204.53,8.72;1,42.00,443.08,232.63,8.72">Surprisingly, it was found that there was a decrease in emergency room visits during the weeks of the books' release.</s><s xml:id="_YZTNc7C" coords="1,277.66,443.08,14.00,8.72;1,42.00,453.88,249.64,8.72;1,42.00,464.68,249.67,8.72;1,42.00,475.48,158.51,8.72;1,200.50,474.97,2.62,5.08;1,205.26,475.48,86.38,8.72;1,42.00,486.28,249.64,8.72;1,42.00,497.08,137.82,8.72">The author began the article with this provocation: "about the children of this millennium, we can be sure of two things: they will hurt themselves, and they (probably) will read Harry Potter". <ref type="bibr" coords="1,200.50,474.97,2.62,5.08" target="#b7">8</ref> The popularity of Harry Potter's story invites investigation, and much has been studied, discussed and written about the works.</s><s xml:id="_vDzdPJW" coords="1,181.74,497.08,109.90,8.72;1,42.00,507.88,249.64,8.72;1,42.00,518.68,249.65,8.72;1,42.00,529.48,39.74,8.72">On Medline, a trusted database for scientific articles on health, a search conducted in April 2013 with the keyword "Harry Potter" returned 39 articles of various medical specialties.</s><s xml:id="_E2tcPCx" coords="1,85.67,529.48,205.98,8.72;1,42.00,540.28,85.86,8.72">On the same day, the same search on Google Scholar returned 35,400 results.</s><s xml:id="_vSmg4uG" coords="1,130.05,540.28,161.59,8.72;1,42.00,551.08,249.64,8.72;1,42.00,561.88,249.64,8.72">Academic theses have been written not only in the areas of Liberal Arts, Communications, and Education, but also in Psychology, including Psychoanalysis and Analytical Psychology.</s><s xml:id="_6YtBW7K" coords="1,118.42,582.97,5.25,5.08;1,126.88,583.48,164.76,8.72;1,42.00,594.28,249.64,8.72;1,42.00,605.08,86.32,8.72">0]<ref type="bibr" coords="1,115.80,582.97,2.62,5.08" target="#b10">[11]</ref><ref type="bibr" coords="1,115.80,582.97,2.62,5.08" target="#b11">[12]</ref><ref type="bibr" coords="1,115.80,582.97,2.62,5.08" target="#b12">[13]</ref><ref type="bibr" coords="1,115.80,582.97,2.62,5.08" target="#b13">[14]</ref><ref type="bibr" coords="1,115.80,582.97,2.62,5.08" target="#b14">[15]</ref><ref type="bibr" coords="1,118.42,582.97,5.25,5.08" target="#b15">[16]</ref> Facing this huge cultural production and the associated scientific production, we do not assume to explore all of the aspects of this saga.</s><s xml:id="_YVmDuHh" coords="1,130.80,605.08,160.84,8.72;1,42.00,615.88,249.65,8.72;1,42.00,626.68,128.02,8.72">The films were considered together with the books, because their images are inevitably present throughout the works, inseparable from the books.</s><s xml:id="_mPf7wz4" coords="1,172.65,626.68,119.00,8.72;1,42.00,637.48,249.65,8.72;1,42.00,648.28,61.46,8.72">Using the reference of analytical psychology, a symbolic analysis was done of both the literary and cinematic works.</s><s xml:id="_kACJTvr" coords="1,105.54,648.28,186.10,8.72;1,42.00,659.08,152.64,8.72">The study was delimited by the following traumatic axis: Resilience and Tutors of Resilience.</s><s xml:id="_emjE67C" coords="1,197.46,659.08,94.17,8.72;1,42.00,669.88,41.10,8.72;1,83.10,669.37,2.62,5.08;1,89.33,669.88,202.32,8.72;1,42.00,680.68,249.63,8.72;1,42.00,691.48,48.74,8.72">We propose that the "boy who lived" 4 may symbolize the hurt child and the adolescent who meets tutors of resilience who allow for a progressive and healthy development.</s><s xml:id="_k3czGva" coords="1,94.65,691.48,196.99,8.72;1,42.00,702.28,233.62,8.72">The works describe seven consecutive years of this hero's life, and begins with the invitation to attend such a school.</s><s xml:id="_8bMuTjc" coords="1,277.65,702.28,14.00,8.72;1,42.00,713.08,249.64,8.72;1,42.00,723.88,204.56,8.72">The epilogue of the saga describes our protagonist's healthy family, which suggests that Harry's development had a good outcome.</s><s xml:id="_dRtJAq8" coords="1,249.26,723.88,42.38,8.72;1,42.00,734.68,249.65,8.72;1,42.00,745.48,215.36,8.72">So we have a story of a mistreated orphan, who throughout his adolescence, even when facing adversity, is able to recapture his development.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_T64YXCQ">The evolution of the concept of resilience</head><p xml:id="_snBmRK4"><s xml:id="_7e9CAKh" coords="1,315.64,322.90,30.50,8.72;1,346.14,322.38,5.25,5.08;1,353.63,322.90,199.63,8.72;1,303.64,333.70,186.58,8.72">Pinheiro 17 highlights that resilience does not mean invulnerability, but rather the flexibility and the capacity to overcome.</s><s xml:id="_p8b42Wq" coords="1,491.38,333.70,25.49,8.72;1,516.86,333.18,5.25,5.08;1,523.28,333.70,30.00,8.72;1,303.64,344.50,249.66,8.72;1,303.64,355.30,249.64,8.72;1,303.64,366.10,95.46,8.72">Infante 18 explains that postulating resilience without reducing it to invulnerability implies the assumption that the individual is affected by adversity, but is capable of overcoming.</s><s xml:id="_jaU95ej" coords="1,402.17,366.10,50.49,8.72;1,452.65,365.58,5.25,5.08;1,460.97,366.10,92.31,8.72;1,303.64,376.90,249.65,8.72;1,303.64,387.70,249.65,8.72;1,303.64,398.50,223.39,8.72">Ralha-Simões 19 questions if it is possible to discuss resilience as the physical and psychological survival of a person against risk factors, or the individual who not only overcomes adversities but also feels happy and at peace with his existence.</s><s xml:id="_Tw7vR7N" coords="1,528.79,398.50,24.50,8.72;1,303.64,409.30,249.64,8.72;1,303.64,420.10,249.66,8.72;1,303.64,430.90,102.31,8.72">Facing adversities include, necessarily, being affected by them (the opposite care) or they would not be considered true adversities, or the situation of repression in the shadow.</s><s xml:id="_Q2upCRY" coords="1,408.61,430.90,144.69,8.72;1,303.64,441.70,249.65,8.72;1,303.64,452.50,244.39,8.72;1,548.03,451.98,5.25,5.08">Resilience lives in the capacity to, once impacted by adversity, suffer transformations, which, during the process of individualization, result in growth rather than deformity. <ref type="bibr" coords="1,548.03,451.98,5.25,5.08" target="#b19">20</ref></s><s xml:id="_z8ZgFCV" coords="1,303.64,463.30,249.64,8.72;1,303.64,474.10,249.65,8.72;1,303.64,484.90,63.25,8.72">raci Galiás, at a post-graduate class given at PUC in 2009, asserted that resilience should be considered a potential in the process of individualization.</s><s xml:id="_fD2fP8B" coords="1,370.87,484.90,182.41,8.72;1,303.64,495.70,249.66,8.72;1,303.64,506.50,249.63,8.72;1,303.64,517.30,249.63,8.72;1,303.64,528.10,48.92,8.72">Ceres Araújo explains that, according to Galiás, following the Jungian approach, it is understood that the potential remedy of the self may be achieved by the constellation of the archetype of the Hero and by the constellation of the archetype of the Divine Child.</s><s xml:id="_N7eMP7u" coords="1,354.72,528.10,198.56,8.72;1,303.64,538.90,249.66,8.72;1,303.64,549.70,249.65,8.72;1,303.64,560.50,65.62,8.72;1,369.25,559.98,5.25,5.08">Or, in the dynamics of resilience, the strength of heroes acting to cope, activated by overcoming as well as the bond with life and the search for something new, are necessary, which are carried by the Eternal Child. 21</s><s xml:id="_nPTQaXU" coords="1,377.69,560.50,175.59,8.72;1,303.64,571.30,102.21,8.72">Some heroic images do not accurately conform to the concept of resiliency.</s><s xml:id="_pqncvt2" coords="1,408.88,571.30,53.11,8.72;1,461.98,570.78,5.25,5.08;1,470.25,571.30,83.03,8.72;1,303.64,582.10,249.65,8.72;1,303.64,592.90,42.16,8.72">Liliana Wahba 22 proposes three profiles of heroes: the hero of reason, the hero of the mission, and the hero of complexity.</s><s xml:id="_3frs97r" coords="1,347.69,592.90,135.55,8.72">The hero of reason is the hero of duty.</s><s xml:id="_DffxkQy" coords="1,485.13,592.90,68.14,8.72;1,303.64,603.70,140.38,8.72">The second type of hero is the missionary, sacrificial hero.</s><s xml:id="_mzVvFgs" coords="1,446.45,603.70,106.83,8.72;1,303.64,614.50,249.64,8.72;1,303.64,625.30,37.23,8.72">While in the first type, evil is external, in the second type, through sacrifice, evil is incorporated and redeemed.</s><s xml:id="_T9PTAm5" coords="1,343.68,625.30,159.33,8.72">Thus, he is equally immutable in his goals.</s><s xml:id="_mrXenke" coords="1,505.82,625.30,47.45,8.72;1,303.64,636.10,249.64,8.72;1,303.64,646.90,161.49,8.72">The first two models face adversity without letting it affect them, and consequently, transform them, not representing resilience.</s><s xml:id="_babqZR5" coords="1,468.51,646.90,84.77,8.72;1,303.64,657.70,205.84,8.72">In the third model, the hero of complexity, he suffers and is affected by adversity.</s><s xml:id="_VrNFG9z" coords="1,511.33,657.70,41.95,8.72;1,303.64,668.50,160.44,8.72">In this case, there exists a transformative tragic element.</s><s xml:id="_NBqp5S8" coords="1,466.76,668.50,86.53,8.72;1,303.64,679.30,249.64,8.72;1,303.64,690.10,178.20,8.72">The hero of complexity is also gifted with special attributes, but is wounded, suffers adversity, and faces risk; this has a transformative effect.</s><s xml:id="_f5xDMkM" coords="1,485.70,690.10,25.49,8.72;1,511.18,689.58,5.25,5.08;1,520.30,690.10,32.99,8.72;1,303.64,700.90,157.09,8.72">Infante 18 separates the study of resilience in two moments.</s><s xml:id="_D4t9t9W" coords="1,465.37,700.90,87.91,8.72;1,303.64,711.70,249.64,8.72;1,303.64,722.50,205.89,8.72">The first generation of researchers of resilience investigated personal characteristics and after, familiars and environments of resilient individuals.</s><s xml:id="_vXCTYkR" coords="1,511.83,722.50,41.45,8.72;1,303.64,733.30,249.63,8.72">The second generation attempts to understand resilience as a dynamic process.</s><s xml:id="_Bx7AXKe" coords="1,303.64,744.10,34.58,8.72;1,338.21,743.58,5.25,5.08;1,347.73,744.10,205.56,8.72">Grotberg, 23 pioneer of the dynamic notion of resilience, proposes</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_xV8Ju2A"><p xml:id="_pczHTwk"><s xml:id="_JJM7HuU" coords="2,42.00,84.28,249.64,8.72;2,42.00,95.08,249.64,8.72;2,42.00,105.88,124.17,8.72">that the interaction of resilient factors arises on three different levels: social support (i.e., I have someone to count on), skills (I can), and internal strength (I am) is required.</s><s xml:id="_4dpZ3RH" coords="2,167.89,105.88,123.74,8.72;2,42.00,116.68,249.65,8.72;2,42.00,127.48,143.31,8.72">The author organizes the factors of resilience in this triad model and incorporates as an essential element the dynamic interaction of these factors.</s><s xml:id="_Myw6jj2" coords="2,187.33,127.48,48.04,8.72;2,235.36,126.97,5.25,5.08;2,242.63,127.48,49.01,8.72;2,42.00,138.28,172.56,8.72">Melillo et al., <ref type="bibr" coords="2,235.36,126.97,5.25,5.08" target="#b23">24</ref> stress another element: the individual's interaction with others.</s><s xml:id="_UE3X9AY" coords="2,216.42,138.28,75.23,8.72;2,42.00,149.08,249.64,8.72;2,42.00,159.88,120.28,8.72">Resilience would not be an innate, absolute attribute, but the result of the interaction of the individual with his environment.</s><s xml:id="_DeherwR" coords="2,165.29,159.88,126.35,8.72;2,42.00,170.68,249.65,8.72;2,42.00,181.48,249.65,8.72;2,42.00,192.28,95.13,8.72">The authors also detach two other crucial factors: that resilience is a function of social and interpsyche processes, and that it depends on certain qualities of interactions of the individual with others.</s><s xml:id="_quE2y6F" coords="2,139.43,192.28,152.22,8.72;2,42.00,203.08,249.65,8.72;2,42.00,213.88,249.65,8.72;2,42.00,224.68,144.46,8.72">The evolution of the main character along Rowling's saga seems to follow the path of the construction of the concept of resilience presented to this point, from the initial idea of invulnerability to the dynamic concept.</s><s xml:id="_mV9JWYY" coords="2,189.35,224.68,102.28,8.72;2,42.00,235.48,133.68,8.72;2,175.67,234.97,2.62,5.08;2,180.86,235.48,110.78,8.72;2,42.00,246.28,249.63,8.72">The first chapter of the first book is titled "The Boy who Lived", <ref type="bibr" coords="2,175.67,234.97,2.62,5.08" target="#b0">1</ref> In this way, the first emphasis, personal and non-transferable, is given to Harry's capacity to survive.</s><s xml:id="_Kjvyf78" coords="2,42.00,257.08,249.65,8.72;2,42.00,267.88,249.66,8.72;2,42.00,278.68,75.17,8.72">Still in the beginning of this book, alongside the description of abuse, a series of characteristics of resilience and analogies of this archetypal image are presented.</s><s xml:id="_BGqQ8ZH" coords="2,119.89,278.68,171.77,8.72;2,42.00,289.48,249.66,8.72;2,42.00,300.28,184.82,8.72">One example is the way Harry's hair insists on staying the same way and length independent of what is done to it, without Harry having any conscious control over it.</s><s xml:id="_XTnUBfQ" coords="2,228.91,300.28,62.75,8.72;2,42.00,311.08,249.64,8.72;2,42.00,321.88,194.54,8.72">Harry has gifts of magic, similar to divine attributes of a hero, beyond his control a way to defend himself, creating unexplainable situations.</s><s xml:id="_pA52KZN" coords="2,239.89,321.88,51.75,8.72;2,42.00,332.68,249.66,8.72;2,42.00,343.48,112.94,8.72">The Dursleys, the family who raised Harry, have a true detestation of unexplainable facts or any allusion to magic.</s><s xml:id="_rfanKV2" coords="2,158.07,343.48,133.57,8.72;2,42.00,354.28,180.16,8.72">Our hero learned to avoid the topic, however without denying his gifts internally.</s><s xml:id="_YExvTqN" coords="2,228.17,354.28,63.48,8.72;2,42.00,365.08,249.65,8.72;2,42.00,375.88,249.64,8.72;2,42.00,386.68,41.25,8.72">He developed a persona of an obedient and submissive boy, while keeping alive his imaginative capacity and fighting for survival far from the eyes of his tormentors.</s><s xml:id="_zxvRS5d" coords="2,86.71,386.68,204.94,8.72;2,42.00,397.48,249.66,8.72;2,42.00,408.28,50.26,8.72">In spite of the adverse conditions of this development, Harry maintained the capacity for empathy, along with indignation and rebellion.</s><s xml:id="_MD3qqVp" coords="2,95.28,408.28,196.36,8.72;2,42.00,419.08,249.63,8.72;2,42.00,429.88,133.99,8.72">Sometimes, this internal turmoil breaks Harry's wellbehaved persona, as shown in the passage of the trip to the zoo on Harry's cousin's Dudley's birthday.</s><s xml:id="_pG9w5AQ" coords="2,179.94,429.88,111.70,8.72;2,42.00,440.68,249.65,8.72;2,42.00,451.48,71.13,8.72">After one day of threats and provocations, Harry consoles himself with empathic contact with an anaconda in a tank.</s><s xml:id="_Wtv2RK9" coords="2,115.77,451.48,175.87,8.72;2,42.00,462.28,25.75,8.72">This moment is broken by another attack by his cousin.</s><s xml:id="_EyX7rJe" coords="2,70.11,462.28,221.52,8.72;2,42.00,473.08,91.76,8.72">Harry, without knowing how, magically lets the snake go and traps Dudley in the tank.</s><s xml:id="_fu5CHqc" coords="2,136.61,473.08,155.02,8.72;2,42.00,483.88,249.64,8.72;2,42.00,494.68,26.66,8.72">This is a passage showing Harry's lack of control, after all the capacity to control impulses is also a resilient quality.</s><s xml:id="_TBEV4bn" coords="2,70.93,494.68,220.74,8.72;2,42.00,505.48,136.60,8.72">However, our hero's impulsivity does not deny his resilience, since resilience is not invulnerability.</s><s xml:id="_ztFH6RZ" coords="2,180.97,505.48,110.67,8.72;2,42.00,516.28,118.31,8.72">And the little wizard is only a pre-teen at the time of the scene.</s><s xml:id="_EgkteT5" coords="2,162.74,516.28,128.90,8.72;2,42.00,527.08,130.70,8.72">If his development is successful, he will learn to control his impulsivity.</s><s xml:id="_VZwZzBb" coords="2,174.82,527.08,116.83,8.72;2,42.00,537.88,249.65,8.72;2,42.00,548.68,249.64,8.72;2,42.00,559.48,33.25,8.72">According to Araujo (2011), the evaluation of resilience is the degree to which an individual's personal resources equal or exceed his reaction to internal and external stressors.</s><s xml:id="_86S72sr" coords="2,77.05,559.48,214.59,8.72;2,42.00,570.28,228.94,8.72">The variation on the levels of resilience reflects the dynamic nature of the concept, and can be observed throughout the saga.</s></p><p xml:id="_xexhNNt"><s xml:id="_fCbJjcr" coords="2,54.00,587.08,237.64,8.72;2,42.00,597.88,249.64,8.72;2,42.00,608.68,102.02,8.72">A feature in itself is neutral, and will only connote resilience or a mismatch depending on how an individual deals with this feature in relation to his environment.</s><s xml:id="_nqJbEfV" coords="2,147.10,608.68,144.55,8.72;2,42.00,619.48,95.41,8.72">One example in Rowling's work is our hero's Parseltongue skills.</s><s xml:id="_gxXb99s" coords="2,140.09,619.48,151.56,8.72;2,42.00,630.28,249.64,8.72;2,42.00,641.08,249.65,8.72;2,42.00,651.88,249.64,8.72;2,42.00,662.68,249.65,8.72;2,42.00,673.48,249.65,8.72;2,42.00,684.28,249.64,8.72;2,42.00,695.08,249.65,8.72;2,42.00,705.88,120.74,8.72">Throughout the saga, Harry's exceptional skill of speaking to snakes is explained in different ways: heredity, arising from his paternal noble magic ancestry, a characteristic acquired during Voldemort's first attack (which gave him the scar, when Voldemort accidentally transferred some of his powers), a characteristic belonging to a part of Voldemort's soul (which fractured during the first confrontation and lodged itself to Harry, becoming a Horcrux -a black magic artifact that contains a part of Voldemort, guaranteeing him immortality).</s><s xml:id="_9vZrjbe" coords="2,168.98,705.88,122.66,8.72;2,42.00,716.68,249.64,8.72;2,42.00,727.48,249.64,8.72;2,42.00,738.28,249.65,8.72">Similarly, throughout the saga, this skill acquires different connotations, light and shadow: since an element of defense may be voluntary or involuntary, it may be a suspicious sign of Harry approaching, similarly, the dark wizards.</s><s xml:id="_6Qb9TUy" coords="2,42.00,749.08,249.65,8.72;2,303.64,84.28,208.90,8.72">Harry's talent, innate or acquired, can lead to pathology if, during interactions with his environment, results in a mismatch.</s><s xml:id="_Ssgv5gf" coords="2,515.53,84.28,37.74,8.72;2,303.64,95.08,249.67,8.72;2,303.64,105.88,239.45,8.72">But, when well worked, this skill can be a gift, the gold that, at the coming of pathology, hides itself in the shadow, as in the following passage.</s><s xml:id="_NPdXCkM" coords="2,545.78,105.88,7.50,8.72;2,303.64,116.68,249.64,8.72;2,303.64,127.48,107.96,8.72">In the second book, some students begin to antagonize the half-bloods and children of non-wizards.</s><s xml:id="_BHyEYeG" coords="2,415.34,127.48,137.96,8.72;2,303.64,138.28,71.90,8.72">Mysterious attacks on some students increase the tension.</s><s xml:id="_njFHS7M" coords="2,377.12,138.28,176.16,8.72;2,303.64,149.08,25.25,8.72">Harry succumbs to the pressure and begins to hear voices.</s><s xml:id="_UucADRd" coords="2,331.98,149.08,221.28,8.72;2,303.64,159.88,249.66,8.72;2,303.64,170.68,69.63,8.72">The partnership of his companions Hermione and Ron, and Hagrid's reception, the groundskeeper, are essential to the restitution of Harry's balance.</s><s xml:id="_Sp6jx3N" coords="2,375.47,170.68,177.80,8.72;2,303.64,181.48,249.65,8.72;2,303.64,192.28,108.24,8.72">At the climax of suspense and adventure, Ginny, then only the younger sister of Ron, Harry's best friend, falls prey to the villain and runs great risk.</s><s xml:id="_9NPRkmR" coords="2,414.28,192.28,139.00,8.72;2,303.64,203.08,199.02,8.72">It is the friendship and companionship of Ron that moves Harry to his second heroic journey.</s><s xml:id="_x7SNCcA" coords="2,505.36,203.08,47.92,8.72;2,303.64,213.88,249.64,8.72;2,303.64,224.68,222.14,8.72">His ability to speak Parseltongue allows him to enter the Chamber of Secrets, the descent to hell, and consequently confronts the shadow/villain.</s><s xml:id="_YeFYA4b" coords="2,527.44,224.68,25.84,8.72;2,303.64,235.48,249.64,8.72;2,303.64,246.28,249.64,8.72;2,303.64,257.08,249.64,8.72;2,303.64,267.88,249.64,8.72;2,303.64,278.68,11.25,8.72">It is the reaffirmation of faith and loyalty to Professor Dumbledore that brings definite help, the phoenix Fawkes carrying the sword of Gryffindor inside the Sorting Hat, combining the "I am" smart, fearless, and loyal, and the "I can" fly and duel well, and the "I have" someone to count on.</s><s xml:id="_g8QN7Z2" coords="2,317.25,278.68,236.02,8.72;2,303.64,289.48,249.62,8.72;2,303.64,300.28,249.64,8.72">So, Harry has success in his confrontation -he is able to question himself about his similarities to the villain when he was a student -and rescue the girl who received the villain's spirit throughout the saga.</s><s xml:id="_VpTEgfY" coords="2,303.64,311.08,32.00,8.72;2,335.64,310.57,5.25,5.08;2,343.73,311.08,209.55,8.72;2,303.64,321.88,162.17,8.72">Cyrulnik <ref type="bibr" coords="2,335.64,310.57,5.25,5.08" target="#b24">25</ref> highlights the importance of cautious people, of affective guardians, in the resumption of development.</s><s xml:id="_gvGkEth" coords="2,467.34,321.88,85.94,8.72;2,303.64,332.68,249.64,8.72;2,303.64,343.48,189.77,8.72">And so, with the help of these guardians, that Harry understands and accepts his Parseltongue ability, which passes from mental symptom to gift.</s><s xml:id="_2PzG3pm" coords="2,496.51,343.48,56.76,8.72;2,303.64,354.28,249.62,8.72;2,303.64,365.08,249.66,8.72;2,303.64,375.88,249.65,8.72;2,303.64,386.68,220.41,8.72">Throughout the book, Harry understands that the voice he heard, and that no one else heard, came from the Basilisk, a monster snake hidden in the basement of the castle and who, freed by the villain, slithered through the walls through the pipes to commit the mysterious attacks.</s><s xml:id="_4Gj2Gsy" coords="2,526.28,386.68,26.99,8.72;2,303.64,397.48,249.64,8.72;2,303.64,408.28,153.19,8.72">Harry's sensibility to sense danger, arising from his injury as a child, at first is unadapted and generate mental symptoms.</s><s xml:id="_kuDuq7r" coords="2,459.07,408.28,94.21,8.72;2,303.64,419.08,249.65,8.72;2,303.64,429.88,249.64,8.72;2,303.64,440.68,180.57,8.72">In a second moment, once stronger, this sense becomes the weapon with which Harry can enter in the Chamber of Secrets, in the basement of the castle, and rescues the youth from the villain's grasp, saving her life.</s><s xml:id="_gYBJ3ev" coords="2,486.62,440.68,66.64,8.72;2,303.64,451.48,134.50,8.72">This rescue would not be possible without external help.</s><s xml:id="_sR2e48Z" coords="2,440.12,451.48,113.14,8.72;2,303.64,462.28,204.55,8.72">The phoenix, a bird that has the symbol of rebirth belongs to Headmaster Dumbledore.</s><s xml:id="_CAm4JeA" coords="2,511.74,462.28,41.53,8.72;2,303.64,473.08,249.64,8.72;2,303.64,483.88,206.14,8.72">He appears to help exactly when Harry, moved by the bond with his headmaster, rises up against the villain when he slanders Dumbledore.</s><s xml:id="_hGqKGxc" coords="2,511.66,483.88,41.60,8.72;2,303.64,494.68,249.65,8.72;2,303.64,505.48,73.16,8.72">The trust of the bond with the cautious figure brings the sword, the discrimination, limiting the shadow.</s></p><p xml:id="_9MVA2zQ"><s xml:id="_YDAKqAR" coords="2,315.64,522.28,237.64,8.72;2,303.64,533.08,249.64,8.72;2,303.64,543.88,249.66,8.72;2,303.64,554.68,22.74,8.72">In the story of Star Wars, the confidence of the bond and the support of friends at critical moments are exactly what Anakin Skywalker lacks, leading him to the dark side and to become Darth Vader.</s><s xml:id="_5TvXWDW" coords="2,330.32,554.68,222.96,8.72;2,303.64,565.48,249.66,8.72;2,303.64,576.28,48.08,8.72">Anakin is an especially talented youth, "the chosen one", like Harry, but has a solitary journey, without friends, aside from a few teachers.</s><s xml:id="_g4TQndw" coords="2,354.09,576.28,199.19,8.72;2,303.64,587.08,249.65,8.72;2,303.64,597.88,48.25,8.72">As loving as they can be, as is the case with Obi Wan Kenobi, they are vertical relationships, and do not substitute fraternal relationships.</s><s xml:id="_tnDxTgT" coords="2,354.63,597.88,198.65,8.72;2,303.64,608.68,249.64,8.72;2,303.64,619.48,249.65,8.72;2,303.64,630.28,173.81,8.72">When Anakin is activated by the anima and meets his beloved, the meeting is prohibited, which increases his isolation and separates him from his teachers, leading him to receive the guidance from that which would lead him to the dark side.</s><s xml:id="_q5e7dXk" coords="2,479.51,630.28,73.77,8.72;2,303.64,641.08,249.64,8.72;2,303.64,651.88,249.65,8.72;2,303.64,662.68,77.84,8.72">Harry, since arriving at Hogwarts, is surrounded by friends and affective relationships alternating in support, never being truly alone, not even in his moments of nigredo.</s><s xml:id="_MkWSyvX" coords="2,385.28,662.68,168.00,8.72;2,303.64,673.48,176.38,8.72">His teachers remain close, with an empathic welcome, even when his darkest aspects befall.</s><s xml:id="_KUjJcyn" coords="2,483.17,673.48,70.11,8.72;2,303.64,684.28,249.65,8.72;2,303.64,695.08,85.00,8.72;2,388.62,694.57,5.25,5.08;2,396.12,695.08,31.99,8.72">Whether friends or professors, there is no shortage of fraternal relationships or affective guardians that Cyrulnik <ref type="bibr" coords="2,388.62,694.57,5.25,5.08" target="#b24">25</ref> refers to.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_aCRUGKs">Tutors of resilience</head><p xml:id="_JTTxaCN"><s xml:id="_mYSaCYz" coords="2,315.64,731.88,50.99,8.72;2,366.62,731.37,5.25,5.08;2,375.35,731.88,177.92,8.72;2,303.64,742.68,249.65,8.72;3,42.00,89.28,249.64,8.72;3,42.00,100.08,100.14,8.72">Melillo et al., <ref type="bibr" coords="2,366.62,731.37,5.25,5.08" target="#b23">24</ref> observed that in the history of all subjects who showed resilience, there was at least one person (familiar or not) that accepted them unconditionally, independent of his temperament, physicality or intelligence.</s><s xml:id="_S9VsPbP" coords="3,146.42,100.08,145.23,8.72;3,42.00,110.88,249.64,8.72;3,42.00,121.68,160.09,8.72">These individuals needed to count on someone, and at the same time, feel that their efforts, competency, and self-esteem were recognized and promoted.</s><s xml:id="_TAhxXFA" coords="3,205.19,121.68,32.00,8.72;3,237.19,121.17,5.25,5.08;3,245.55,121.68,46.10,8.72;3,42.00,132.48,249.65,8.72;3,42.00,143.28,20.25,8.72">Cyrulnik <ref type="bibr" coords="3,237.19,121.17,5.25,5.08" target="#b24">25</ref> proposes the term "tutor of resilience" for individuals who establish this positive bond.</s><s xml:id="_zz687zp" coords="3,64.74,143.28,226.90,8.72;3,42.00,154.08,249.67,8.72;3,42.00,164.88,220.94,8.72">Throughout the saga, there are diverse examples of significant and protective relationships between Harry and tutors of resilience, especially at Hogwarts: School of Witchcraft and Wizardry.</s><s xml:id="_JJyWHWh" coords="3,266.14,164.88,25.50,8.72;3,42.00,175.68,249.65,8.72;3,42.00,186.48,47.86,8.72">During Dumbledore's tenure as Headmaster, power is democratically divided at the school.</s><s xml:id="_EgtbVxx" coords="3,92.00,186.48,199.64,8.72;3,42.00,197.28,205.58,8.72">The responsibility of disciplining student falls upon the heads of the houses, into which the students are sorted.</s><s xml:id="_ZBqm4BY" coords="3,250.54,197.28,41.12,8.72;3,42.00,208.08,249.64,8.72;3,42.00,218.88,37.66,8.72">This works similarly to fraternities at American universities and count on great autonomy.</s><s xml:id="_PDGxHVG" coords="3,83.96,218.88,207.68,8.72;3,42.00,229.68,249.65,8.72;3,42.00,240.48,70.92,8.72">There the students meet their housemates, those who, according to Headmaster Dumbledore, will be like family while living at the castle.</s><s xml:id="_mkDW2RH" coords="3,115.98,240.48,175.67,8.72;3,42.00,251.28,249.65,8.72;3,42.00,262.08,47.75,8.72">The rules at Hogwarts are very strict, however, each head of house, based on each case's circumstances, decides punishments.</s><s xml:id="_79XUqmp" coords="3,92.91,262.08,198.74,8.72;3,42.00,272.88,249.64,8.72;3,42.00,283.68,249.64,8.72;3,42.00,294.48,249.65,8.72;3,42.00,305.28,249.64,8.72;3,42.00,316.08,19.75,8.72">Despite the tough appearance, Professor McGonagall, head of Gryffindor house, the house were Harry lives, bends the rules of the school during the protagonists' first week of classes when, instead of punishing Harry for an infraction, she notices his special talent to fly on broomstick and nominates him to join the house team.</s><s xml:id="_8hh9hV9" coords="3,64.61,316.08,227.04,8.72;3,42.00,326.88,74.79,8.72">Thus, she bends the rules for first year students to participant in Quidditch games.</s><s xml:id="_Ak6WDdV" coords="3,119.90,326.88,171.75,8.72;3,42.00,337.68,249.64,8.72;3,42.00,348.48,249.64,8.72;3,42.00,359.28,208.78,8.72">With this act, the professor values and creates the opportunity for development of Harry's talent, and establishes an affective bond that becomes very important for the boy who had a premature and traumatic break of primary relationships.</s><s xml:id="_hmVt7qw" coords="3,254.13,359.28,37.52,8.72;3,42.00,370.08,249.65,8.72;3,42.00,380.88,249.65,8.72;3,42.00,391.68,249.65,8.72;3,42.00,402.48,117.03,8.72">This bond does not impede her to give a very severe punishment to Harry and his friends when she realizes that they began to put themselves above the rules of the school, demonstrating the recognition and disapproval of the students' inflated egos.</s><s xml:id="_ptq6rBq" coords="3,164.27,402.48,127.37,8.72;3,42.00,413.28,199.82,8.72">McGonagall doesn't undergo the confusion of roles brought on by this growing bond.</s><s xml:id="_mFmRmhC" coords="3,245.42,413.28,46.24,8.72;3,42.00,424.08,249.62,8.72;3,42.00,434.88,249.66,8.72;3,42.00,445.68,178.28,8.72">When Harry asks her to sign an authorization in place of his uncle and aunt, as if they even went through the trouble to read it, she reminds him that only his parents or guardians can sign the form.</s><s xml:id="_gqg2pww" coords="3,223.41,445.68,68.26,8.72;3,42.00,456.48,249.65,8.72;3,42.00,467.28,69.21,8.72">Both the professor and the student feel the weight of the situation, but these limits preserve the bond.</s><s xml:id="_KzVanMV" coords="3,114.95,467.28,176.69,8.72;3,42.00,478.08,249.65,8.72;3,42.00,488.88,36.75,8.72">So, McGonagall maintains emotional and firm, expressing the equilibrium between the patriarchal and matriarchal dynamics.</s><s xml:id="_MXFh8QJ" coords="3,81.43,488.88,210.21,8.72;3,42.00,499.68,249.65,8.72;3,42.00,510.48,114.14,8.72">The emotion and the balance between the patriarchal and matriarchal dynamic of the professor help Harry and his friends in the development of otherness.</s><s xml:id="_h2XB8QP" coords="3,159.95,510.48,131.70,8.72;3,42.00,521.28,249.65,8.72;3,42.00,532.08,53.97,8.72">Another significant example is the meeting between Harry and Professor Lupin, who teaches him the Patronus spell.</s><s xml:id="_67T4chj" coords="3,99.03,532.08,192.61,8.72;3,42.00,542.88,249.66,8.72;3,42.00,553.68,142.64,8.72">To conjure the Expecto Patronum, the wizard needs to concentrate on his happiest memory; the strength of this memory will give him the strength of protection.</s><s xml:id="_UzBFZ9k" coords="3,186.78,553.68,104.87,8.72;3,42.00,564.48,249.64,8.72;3,42.00,575.28,249.63,8.72;3,42.00,586.08,86.32,8.72">Such a spell has a special use to banish dementors, beings that have the ability to excise all present joy, and whose presence intensely cools the environment -what an analogy for depression!</s><s xml:id="_jjpGHkK" coords="3,131.08,586.08,160.58,8.72;3,42.00,596.88,118.18,8.72">These creatures bring the saddest memories to light for those being affected.</s><s xml:id="_B9vWSRH" coords="3,162.91,596.88,128.73,8.72;3,42.00,607.68,249.66,8.72;3,42.00,618.48,249.67,8.72;3,42.00,629.28,249.64,8.72">The visual effect of a Patronus is a translucent, ethereal animal, which aside from banishing dementors, can also be used in moments of great need to carry messages or even objects instantaneously, as is observed in the final books of the saga.</s><s xml:id="_HnmaDz7" coords="3,42.00,640.08,249.64,8.72;3,42.00,650.88,249.64,8.72;3,42.00,661.68,249.64,8.72;3,42.00,672.48,19.25,8.72">Every wizard who is able to conjure this spell conjures a specific animal, which can change, depending on emotional circumstances, emphasizing the personal, subjective and emotional character of the spell.</s><s xml:id="_5uyTy6h" coords="3,64.72,672.48,183.57,8.72">Learning the Patronus is especially controversial.</s><s xml:id="_jsWnsAB" coords="3,251.26,672.48,40.38,8.72;3,42.00,683.28,222.09,8.72">Altogether, it cannot be assumed that students are capable of learning it.</s><s xml:id="_Yzp7n32" coords="3,266.87,683.28,24.79,8.72;3,42.00,694.08,249.63,8.72;3,42.00,704.88,249.65,8.72;3,42.00,715.68,112.53,8.72">Due to his exceptional susceptibility to the dementors, Harry seeks Professor Lupin who seems readily available to teach him the protective spell in a series of private lessons.</s><s xml:id="_PxZPm5A" coords="3,158.43,715.68,133.21,8.72;3,42.00,726.48,249.65,8.72;3,42.00,737.28,113.42,8.72">Thanks to the positive transference relationships, our hero becomes the youngest wizard to learn to conjure the Expecto Patronum.</s><s xml:id="_ryq4knF" coords="3,158.32,737.28,133.33,8.72;3,42.00,748.08,249.65,8.72;3,303.64,89.28,249.64,8.72;3,303.64,100.08,249.65,8.72;3,303.64,110.88,173.30,8.72">During this process, Harry identifies what made him so vulnerable to the dementors (the depression): their presence evoked flashes of remote memories of the death of his mother, which, besides painful, made the wizard feel close to her, delivering himself to the will of the monsters.</s><s xml:id="_7DrX5ex" coords="3,480.28,110.88,73.01,8.72;3,303.64,121.68,249.65,8.72;3,303.64,132.48,249.64,8.72;3,303.64,143.28,168.90,8.72">The happy memory that allows Harry to conjure the protective spell is precisely his parents' loving look that Harry saw in the Mirror of Erised, the mirror of wishes, during his first year at Hogwarts.</s><s xml:id="_BAsmEzE" coords="3,476.46,143.28,76.83,8.72;3,303.64,154.08,249.65,8.72;3,303.64,164.88,249.64,8.72;3,303.64,175.68,249.65,8.72;3,303.64,186.48,249.66,8.72;3,303.64,197.28,56.75,8.72">During the meetings with the professor, Harry strengthens within himself the memory of primordial love reflected in his mother's eyes, the first mirror in which a child sees his reflection, easing the pain of orphanhood, protecting him from melancholia by the awareness of his mother's love and the feelings of loss.</s></p><p xml:id="_Kk23m5A"><s xml:id="_h3aQKKa" coords="3,315.64,214.08,237.64,8.72;3,303.64,224.88,195.36,8.72">However, the institutions are also dynamic, and Hogwarts does not always present itself as a health promoting school.</s><s xml:id="_Gx5GvKP" coords="3,501.26,224.88,52.02,8.72;3,303.64,235.68,249.64,8.72;3,303.64,246.48,249.65,8.72;3,303.64,257.28,221.34,8.72;3,524.97,256.77,5.25,5.08">Under the rule of Dumbledore, the predominance of human relationships guided by emotion and respect for diversity, composing a healthy school environment, contributes to the psychic stability of the wizard. <ref type="bibr" coords="3,524.97,256.77,5.25,5.08" target="#b25">26</ref></s><s xml:id="_vPxPyMz" coords="3,531.79,257.28,21.49,8.72;3,303.64,268.08,249.65,8.72;3,303.64,278.88,249.65,8.72">When the situation changes, the fragile balance of our hero vanishes, with plenty of elements coming to the environment and to his own history.</s><s xml:id="_PazEzzk" coords="3,303.64,289.68,249.64,8.72;3,303.64,300.48,249.65,8.72;3,303.64,311.28,131.89,8.72">He is better organized emotionally, not hearing voices anymore, but succumbing to the depressive and anxious symptoms, including agitated sleep and vivid nightmares.</s><s xml:id="_s97Ggvs" coords="3,438.15,311.28,115.14,8.72;3,303.64,322.08,249.66,8.72;3,303.64,332.88,194.53,8.72">The intervention of other tutors of resilience, the members of the Order of the Phoenix, found outside of school, but through it, help him save his sanity.</s><s xml:id="_2qNPAD8" coords="3,501.60,332.88,51.68,8.72;3,303.64,343.68,249.65,8.72;3,303.64,354.48,31.73,8.72">Among these, Harry's relationship with his godfather Sirius Black deserves to be featured.</s><s xml:id="_AGcAKBa" coords="3,336.87,354.48,216.41,8.72;3,303.64,365.28,36.46,8.72">An especially emblematic dialogue occurs in the fifth film of the series.</s><s xml:id="_k9Hf9xE" coords="3,342.65,365.28,210.64,8.72;3,303.64,376.08,249.65,8.72;3,303.64,386.88,249.65,8.72;3,303.64,397.68,73.65,8.72">This story recounts the growth of the shadow of power at Hogwarts: School of Witchcraft and Wizardry under the intervention of the Ministry of Magic, which dismissed Dumbledore and imposed a dictatorial regime.</s><s xml:id="_Pf3vcpy" coords="3,380.25,397.68,29.49,8.72;3,409.74,397.17,5.25,5.08;3,417.95,397.68,135.33,8.72;3,303.64,408.48,249.65,8.72;3,303.64,419.28,108.76,8.72">Gerhold <ref type="bibr" coords="3,409.74,397.17,5.25,5.08" target="#b26">27</ref> explains that everything that brought Harry that feeling of being home at Hogwarts was taken away, without the prospect of return.</s><s xml:id="_efbXqVd" coords="3,414.03,419.28,139.25,8.72;3,303.64,430.08,249.64,8.72;3,303.64,440.88,115.32,8.72">At Christmas, the recently restructured Order of the Phoenix, the resistance group against Voldemort, is reunited at Sirius Black's home.</s><s xml:id="_cjXz6sf" coords="3,421.22,440.88,132.06,8.72;3,303.64,451.68,249.67,8.72;3,303.64,462.48,193.27,8.72">In a private conversation, Harry tells Sirius that he is afraid of becoming a bad person, because he feels an incommensurate amount of anger growing within him.</s><s xml:id="_jjKwknv" coords="3,498.58,462.48,54.67,8.72;3,303.64,473.28,249.65,8.72;3,303.64,484.08,36.74,8.72">Sirius responds lovingly that Harry is a good person, to whom very bad things have happened.</s><s xml:id="_JMV5a7H" coords="3,344.70,484.08,208.56,8.72">The increasing consciousness of shadow scares Harry.</s><s xml:id="_xKyAx4z" coords="3,303.64,494.88,249.64,8.72;3,303.64,505.68,116.42,8.72">His godfather's welcome in relation to these aspects appeases Harry, helping him to become stronger.</s><s xml:id="_pJVKvnx" coords="3,422.35,505.68,130.93,8.72;3,303.64,516.48,193.94,8.72">Our hero presents an early reflective conscious and recognizes the presence of the shadow.</s><s xml:id="_uMm422K" coords="3,499.98,516.48,53.30,8.72;3,303.64,527.28,249.65,8.72;3,303.64,538.08,249.64,8.72;3,303.64,548.88,69.23,8.72">In this passage we see an important characteristic in the dynamic of resilience: the capacity to confront dark aspects, here welcomed lovingly by a tutor of resilience.</s><s xml:id="_QYaRQhb" coords="3,376.69,548.88,176.60,8.72;3,303.64,559.68,249.63,8.72;3,303.64,570.48,249.65,8.72">This capacity, essential in the journey towards individualization, would also serve as a proactive factor in regards to the shadow within the healthy development in adverse situations.</s><s xml:id="_G2JEVNW" coords="3,303.64,581.28,249.63,8.72;3,303.64,592.08,143.36,8.72">However, without the due reception, this same characteristic would serve to deepen depressive symptoms.</s><s xml:id="_ucgJKxM" coords="3,450.49,592.08,102.79,8.72;3,303.64,602.88,249.64,8.72">This was not the only time where Harry depended on the precious support of his godfather.</s><s xml:id="_jqNmNxA" coords="3,303.64,613.68,249.65,8.72;3,303.64,624.48,164.42,8.72">They met at the end of the third book when, after undoing messes, Sirius asserts the symbolic adoption of Harry.</s><s xml:id="_36tpvAC" coords="3,470.35,624.48,82.92,8.72;3,303.64,635.28,249.63,8.72;3,303.64,646.08,190.02,8.72">For the next two years, until the death of Black, Harry corresponds with his godfather with the intensity that the underground situation permits.</s><s xml:id="_BnNVssM" coords="3,496.56,646.08,56.72,8.72;3,303.64,656.88,249.65,8.72;3,303.64,667.68,216.92,8.72">It is Black who Harry calls on when he feels frightened by premonitory nightmares of Voldemort, or on occasion of the Tri-Wizard Tournament.</s><s xml:id="_cvUte2a" coords="3,522.79,667.68,30.49,8.72;3,303.64,678.48,249.66,8.72;3,303.64,689.28,36.11,8.72">It is also Sirius who Harry reports to when he discovers the dark aspects of his father.</s><s xml:id="_jTQ6CBT" coords="3,342.62,689.28,210.67,8.72;3,303.64,700.08,65.57,8.72">His godfather is always welcoming, however he does not gloss over reality.</s><s xml:id="_ujEKE37" coords="3,372.42,700.08,180.86,8.72;3,303.64,710.88,249.65,8.72;3,303.64,721.68,249.64,8.72;3,303.64,732.48,44.54,8.72">Harry suffers tremendously with the death of his godfather, this time welcomed by Headmaster Dumbledore, director of Hogwarts, who remains tolerant and loving with Harry's intense anger in his office.</s><s xml:id="_rzbesP7" coords="3,350.01,732.48,203.27,8.72;3,303.64,743.28,249.64,8.72;4,42.00,88.45,249.64,8.72;4,42.00,99.25,249.64,8.72;4,42.00,110.05,249.64,8.72;4,42.00,120.85,49.25,8.72">After a true battle between the Order of the Phoenix and the Death Eaters in the rooms of the Ministry of Magic, with Harry and his friends fighting alongside, and when Sirius Black is killed, Dumbledore takes Harry to his office, being careful to lock the door, the containment also giving them privacy and the restriction of the surroundings.</s><s xml:id="_SBb2E9T" coords="4,94.38,120.85,197.27,8.72;4,42.00,131.65,249.64,8.72;4,42.00,142.45,105.01,8.72">Harry, against the revived pain of orphanhood, reacts with increasing aggression, breaking his professor's things, with his professor watching passively.</s><s xml:id="_GXUNyN4" coords="4,148.53,142.45,143.12,8.72;4,42.00,153.25,249.64,8.72;4,42.00,164.05,58.71,8.72">This tolerance, criticized by the portraits of stupefied ex-headmasters, allowed Harry to become aware of his own aggression.</s><s xml:id="_BNSFcaN" coords="4,103.01,164.05,188.64,8.72;4,42.00,174.85,81.05,8.72">The wizard has his feeling of impotence reflected in his professor's stance.</s><s xml:id="_GxMc5Xq" coords="4,125.87,174.85,165.77,8.72;4,42.00,185.65,249.63,8.72;4,42.00,196.45,249.66,8.72;4,42.00,207.25,249.64,8.72;4,42.00,218.05,188.49,8.72">With perfect patience, the headmaster slowly initiates a conversation and lists the facts that led to the Sirius' death, situating the boy in the dynamic of the forces of a war larger than him, accepting part of the blame for what happened and reminding him of Black's decision to participate in the battle.</s><s xml:id="_mmtN5RV" coords="4,233.58,218.05,58.08,8.72;4,42.00,228.85,106.10,8.72">Harry gradually moves from rage to sadness.</s><s xml:id="_CPsWBE6" coords="4,151.33,228.85,140.32,8.72;4,42.00,239.65,249.63,8.72;4,42.00,250.45,147.49,8.72">In the end, Dumbledore apologizes to Harry, explaining his separation from the boy in the last months and promising him to be closer from now on.</s></p><p xml:id="_GHFJG3S"><s xml:id="_EVvSeuR" coords="4,54.00,267.25,237.63,8.72;4,42.00,278.05,65.88,8.72">Dumbledore's reception did not impede a new period of intense sadness for Harry.</s><s xml:id="_wKn82Ck" coords="4,110.50,278.05,181.16,8.72;4,42.00,288.85,249.64,8.72;4,42.00,299.65,134.74,8.72">But, it prevented that the boy lived a pathological fight, this time excessive rage, the feeling of blame and the desire for death were substituted with sadness.</s><s xml:id="_xGTjkva" coords="4,179.83,299.65,111.81,8.72;4,42.00,310.45,249.65,8.72;4,42.00,321.25,249.63,8.72;4,42.00,332.05,249.64,8.72;4,42.00,342.85,112.53,8.72">The emergence of the shadow of our hero, immediately after Sirius' death -the appearance of Voldemort at the Ministry, culminating with the invasion of Harry's body, challenging Dumbledore to kill him -was properly contoured with the help of his professor.</s><s xml:id="_Nw2hydY" coords="4,157.72,342.85,133.91,8.72;4,42.00,353.65,249.65,8.72;4,42.00,364.45,249.65,8.72;4,42.00,375.25,48.12,8.72">While someone can triumph against adversity, this same triumph can mark a resilient individual's personality, which is fixed on the identification with the capacity to overcome.</s><s xml:id="_TtQgHMu" coords="4,93.49,375.25,198.16,8.72;4,42.00,386.05,214.02,8.72">From this, Harry runs the risk of being overtaken by the archetype of the hero, becoming the eternal survivor.</s><s xml:id="_pJQ3kwY" coords="4,259.43,386.05,32.21,8.72;4,42.00,396.85,249.64,8.72;4,42.00,407.65,188.44,8.72">With the resulting inflation of the ego, an incessant search for adverse situations can occur, confirming a fantasy of invulnerability.</s><s xml:id="_5BSQt87" coords="4,233.68,407.65,57.97,8.72;4,42.00,418.45,249.64,8.72;4,42.00,429.25,22.74,8.72">A very didactic example of this configuration can be observed in the sixth film of the series.</s><s xml:id="_dPDFr7A" coords="4,67.92,429.25,223.72,8.72;4,42.00,440.05,249.63,8.72;4,42.00,450.85,149.70,8.72">In this episode, during a return trip to Hogsmeade, a wizard town close to Hogwarts, a jinxed magic artifact destined for Professor Dumbledore accidentally curses a student.</s><s xml:id="_MztZtax" coords="4,193.16,450.85,98.48,8.72;4,42.00,461.65,249.65,8.72;4,42.00,472.45,66.63,8.72">The trio of protagonists was close by and, with Hagrid, the giant groundskeeper, help take the girl back to the castle.</s><s xml:id="_vsYTUZe" coords="4,111.59,472.45,7.50,8.72;4,54.00,560.05,237.64,8.72;4,42.00,570.85,249.64,8.72;4,42.00,581.65,249.64,8.72;4,42.00,592.45,110.90,8.72">In  The fixation of the identity of the ego with the archetype of the hero can be the root of the increase of a shadow of desire for power, for recognition, for proof, and to have recognized an invulnerability that would translate to immortality.</s><s xml:id="_r43dnF6" coords="4,154.65,592.45,136.99,8.72;4,42.00,603.25,167.00,8.72">A shadow that will fit Harry confronts him in the epic, in the form of Lord Voldemort.</s><s xml:id="_fPrXqaR" coords="4,210.92,603.25,80.71,8.72;4,42.00,614.05,249.64,8.72;4,42.00,624.85,109.89,8.72">However, as described above, several are tutors of resilience that help the wizard in his heroic journey that ends successfully.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_WkRrcKJ">Descending to overcome</head><p xml:id="_zVsjTAA"><s xml:id="_GXBdx2Y" coords="4,54.00,661.65,237.66,8.72;4,42.00,672.45,204.19,8.72">By occasion of Dumbledore's death, Harry, along with his friends Ron and Hermione, is at his most structured personality.</s><s xml:id="_63xfBAv" coords="4,248.67,672.45,42.97,8.72;4,42.00,683.25,184.54,8.72">His wounds were sufficiently elaborated to reach this stage.</s><s xml:id="_mpJ3ZVR" coords="4,230.91,683.25,60.74,8.72;4,42.00,694.05,249.66,8.72;4,42.00,704.85,46.67,8.72">As is explained previously, his elaboration is thanks to the help of his friends and tutors of resilience.</s><s xml:id="_KnxagU3" coords="4,91.09,704.85,200.56,8.72;4,42.00,715.65,249.61,8.72;4,42.00,726.45,215.77,8.72">But there is still much more to overcome, including the grief of his professor, for which our hero has the strength to confront the collective shadow, providing the emergence of the new.</s><s xml:id="_v7W6TS9" coords="4,260.20,726.45,31.45,8.72;4,42.00,737.25,249.64,8.72;4,42.00,748.05,249.64,8.72;4,303.64,88.45,240.60,8.72">To make possible the death of the villain, the trio of protagonists -Harry, Ron, and Hermione -abandon school and go in search of the Horcruxes: artifacts that contain parts of Voldemort's soul, holding him to Earth.</s><s xml:id="_NAzFTwn" coords="4,545.78,88.45,7.50,8.72;4,303.64,99.25,249.63,8.72;4,303.64,110.05,249.64,8.72;4,303.64,120.85,249.65,8.72;4,303.64,131.65,208.45,8.72">In this search, marked by the trio's isolation, the shadow of Headmaster Dumbledore's power reveals itself: due to the violence suffered at the hands of three Muggle boys, his younger sister goes crazy irreversibly, ending with the accidental assassination of their mother.</s><s xml:id="_BRcKMyB" coords="4,515.11,131.65,38.16,8.72;4,303.64,142.45,249.64,8.72;4,303.64,153.25,66.99,8.72">The father of the professor withers at Azkaban prison after revenge against the young aggressors.</s><s xml:id="_f8Hbdpe" coords="4,374.39,153.25,178.89,8.72;4,303.64,164.05,249.65,8.72;4,303.64,174.85,30.16,8.72">Against this tragedy, Dumbledore was seduced by the dream of wizard supremacy over all creatures, as a protective strategy.</s><s xml:id="_E7nSrpW" coords="4,336.47,174.85,216.80,8.72;4,303.64,185.65,249.65,8.72;4,303.64,196.45,232.54,8.72">With the accidental death of his sister, he became aware of his own shadow, changing position and dueling with that which was once his ally and which would make him a great dark wizard.</s><s xml:id="_hAfGdtw" coords="4,539.27,196.45,14.00,8.72;4,303.64,207.25,249.64,8.72;4,303.64,218.05,249.65,8.72;4,303.64,228.85,110.16,8.72">The emergence of the master's past reveals the shadow of the community as a whole: the experience of exclusion and the projection of the solution in inbred hegemony.</s><s xml:id="_qdBvMZK" coords="4,417.80,228.85,135.49,8.72;4,303.64,239.65,249.66,8.72;4,303.64,250.45,249.64,8.72">It also brings the knowledge of the Deathly Hallows, three artifacts that when united bring invincibility: the Invisibility Cloak, the Elder Wand, and the Resurrection Stone.</s><s xml:id="_fxSZFyy" coords="4,303.64,261.25,249.64,8.72;4,303.64,272.05,81.36,8.72">The Invisibility Cloak makes possible unlimited travel without the individual being seen.</s><s xml:id="_uvPXvnf" coords="4,388.15,272.05,165.14,8.72;4,303.64,282.85,135.68,8.72">The Elder Wand promises the predominance over arising spells of any other wand.</s><s xml:id="_WbTfMPe" coords="4,441.65,282.85,111.63,8.72;4,303.64,293.65,176.20,8.72">Finally, the Resurrection Stone promises to rescue your loved ones from death.</s><s xml:id="_7AUQmXu" coords="4,482.75,293.65,70.51,8.72;4,303.64,304.45,249.65,8.72;4,303.64,315.25,117.65,8.72">Two possible paths arise: destroy the source of immortality of Voldemort or search for invincibility, the absolute power.</s></p><p xml:id="_frdFBuC"><s xml:id="_M7wwHgz" coords="4,315.64,332.05,237.65,8.72;4,303.64,342.85,249.65,8.72;4,303.64,353.65,111.10,8.72">Unconsciously identifying with his professor, Harry succumbs to doubt, paralyzing and destabilizing the trio, whose shadow of mutual jealousy and distrust emerge.</s><s xml:id="_4ar555Y" coords="4,418.92,353.65,134.36,8.72;4,303.64,364.45,249.64,8.72">The conflicts culminate with Ron's separation, the representing of the emotional function of the group.</s><s xml:id="_vNraa5k" coords="4,303.64,375.25,249.64,8.72;4,303.64,386.05,167.29,8.72">After his return, regardless of the stabilization, the trio is trapped, thanks to a moment of inflated ego of Harry.</s><s xml:id="_7qzVyNB" coords="4,474.13,386.05,79.15,8.72;4,303.64,396.85,249.65,8.72">Hermione is tortured, reinforcing the image of intolerance associated with the tides of evil.</s><s xml:id="_4gpYrCy" coords="4,303.64,407.65,249.61,8.72;4,303.64,418.45,121.54,8.72">Dolby, a house elf freed by Harry in the second book, helps the trio escape, at the cost of his own life.</s><s xml:id="_5spnXH9" coords="4,426.91,418.45,126.37,8.72;4,303.64,429.25,249.65,8.72;4,303.64,440.05,249.65,8.72;4,303.64,450.85,162.89,8.72">Although elves constitute a species of magical beings highly subjugated by wizards, only they have the power to escape from the fortress where the protagonists were trapped, a fact that does not go unnoticed by our hero.</s><s xml:id="_9T4dGyC" coords="4,468.60,450.85,84.70,8.72;4,303.64,461.65,249.66,8.72;4,303.64,472.45,131.93,8.72">The wizard changes his attitude, and makes sure to dig by hand a grave for Dobby, giving up his magical powers for the task.</s><s xml:id="_4ZkbTgc" coords="4,438.86,472.45,114.42,8.72;4,303.64,483.25,249.65,8.72;4,303.64,494.05,67.82,8.72">His friend is buried in clothes: possessing clothes is what distinguishing free elves from house elves, giving him dignity.</s><s xml:id="_9JHHZgD" coords="4,373.13,494.05,180.15,8.72;4,303.64,504.85,249.64,8.72;4,303.64,515.65,249.65,8.72;4,303.64,526.45,197.34,8.72">The suffering over the death of the elf for whom he had unlimited affection, elaborated by his manual labor, frees Harry's mind from Voldemort's invasions (shadow's invasions), which allows him to think with clarity and decide the path to take.</s><s xml:id="_A2D4Zn3" coords="4,504.13,526.45,49.14,8.72;4,303.64,537.25,249.65,8.72;4,303.64,548.05,191.59,8.72">Harry returns to intuit what and where the Horcruxes are and the trio returns to Hogwarts, where the final confrontation takes place.</s><s xml:id="_MCfjfvG" coords="4,498.07,548.05,55.20,8.72;4,303.64,558.85,249.65,8.72;4,303.64,569.65,249.65,8.72;4,303.64,580.45,189.59,8.72">On the journey in search of the means to take down the villain, the isolation and the fear, accentuated by the deglamorizing of his professor, a defensive shadow of the power of the group was fostered.</s><s xml:id="_adsQkvu" coords="4,497.77,580.45,55.51,8.72;4,303.64,591.25,153.13,8.72">Each character projects his insecurity on one another.</s><s xml:id="_7KTmwTC" coords="4,462.34,591.25,90.94,8.72;4,303.64,602.05,249.65,8.72;4,303.64,612.85,249.64,8.72;4,303.64,623.65,45.75,8.72">Harry, having difficulty exercising his leadership role, begins to secretly yearn for absolute power, sharing fewer of his thoughts, accentuating the distrust of his companions.</s><s xml:id="_2PrZu9C" coords="4,351.85,623.65,201.43,8.72;4,303.64,634.45,249.64,8.72;4,303.64,645.25,249.64,8.72;4,303.64,656.05,249.64,8.72;4,303.64,666.85,159.52,8.72">The prison created by his indiscretion, the image of his friend being tortured, the death of the elf who sacrificed himself to save him, the self-imposed exercise to abdicate his magical powers and submit himself to manual labor, everything together helped Harry to begin to understand the question of power.</s><s xml:id="_uEcVFFv" coords="4,464.99,666.85,88.30,8.72;4,303.64,677.65,249.65,8.72;4,303.64,688.45,249.64,8.72;4,303.64,699.25,244.21,8.72">He returns to his original plan, which his friends never thought was questioned, while intuiting that in the interim, Voldemort finally found the Elder Wand: the desire for absolute power will return to strengthen the darkness (Figure <ref type="figure" coords="4,538.10,699.25,3.25,8.72">1</ref>).</s><s xml:id="_R36HQR7" coords="4,315.64,716.05,237.65,8.72;4,303.64,726.85,16.75,8.72">The Deathly Hallows is three, which brings the question of three and four.</s><s xml:id="_8xXead2" coords="4,322.41,726.85,230.88,8.72;4,303.64,737.65,42.25,8.72">The group of artifacts composes a triangular mandala, therefore, incomplete.</s><s xml:id="_XpweDqG" coords="4,347.61,737.65,190.10,8.72">On this mandala, the circle is inscribed in the triangle.</s><s xml:id="_QSan898" coords="4,539.28,737.65,14.00,8.72;4,303.64,748.45,249.65,8.72">The straight line surpasses the circle, which is the smallest of the elements.</s></p><p xml:id="_vbHwj28"><s xml:id="_W3cZXne" coords="5,42.00,86.45,249.66,8.72;5,42.00,97.25,188.24,8.72">The phallic symbols not only contain but also surpass the symbol of totality, showing the unbalance of the mandala.</s><s xml:id="_rpFtjGS" coords="5,233.71,97.25,57.94,8.72;5,42.00,108.05,249.64,8.72;5,42.00,118.85,206.27,8.72">But what is the meaning of the opposition between threeness and fourness, or rather, what does threeness mean as compared with wholeness?</s><s xml:id="_Bn5SbTt" coords="5,250.96,118.85,40.68,8.72;5,42.00,129.65,172.08,8.72;5,217.36,129.14,3.94,5.08">In alchemy this problem is known as the axiom of Maria.</s><s xml:id="_VSnrD6z" coords="5,224.59,129.65,67.06,8.72;5,42.00,140.45,249.65,8.72;5,42.00,151.25,233.31,8.72">... Between the three and the four there exists the primary opposition of male and female, but whereas fourness is a symbol of wholeness, threeness is not.</s><s xml:id="_ZQttBPq" coords="5,277.63,151.25,14.00,8.72;5,42.00,162.05,249.62,8.72;5,42.00,172.85,249.62,8.72;5,42.00,183.65,36.84,8.72;5,81.91,183.14,3.94,5.08">The later, according to alchemy, denotes polarity, since one triad always presupposes another, just as high presupposes low, lightness darkness, good evil.</s><s xml:id="_4cZ6jSR" coords="5,88.93,183.65,202.71,8.72;5,42.00,194.45,249.65,8.72;5,42.00,205.25,70.24,8.72">... If one imagines the quaternity as a square divided into two halves by a diagonal, one gets two triangles whose apices point in opposite directions.</s><s xml:id="_6WVaBj2" coords="5,114.23,205.25,177.41,8.72;5,42.00,216.05,249.65,8.72;5,42.00,226.85,116.79,8.72;5,158.80,226.34,5.25,5.08">One could therefore say metaphorically that if the wholeness symbolized by the quaternity is divided into equal halves, it produces two opposing triads. <ref type="bibr" coords="5,158.80,226.34,5.25,5.08" target="#b27">28</ref></s><s xml:id="_Kf5nuFN" coords="5,166.52,226.85,125.12,8.72;5,42.00,237.65,249.65,8.72;5,42.00,248.45,249.64,8.72;5,42.00,259.25,82.56,8.72">Through the suffering of his loved ones, Harry is able to control the shadow's possession, giving up the mandala of power and glimpsing the search for transcendence from the narcissistic wound.</s><s xml:id="_E2febG5" coords="5,126.80,259.25,164.85,8.72;5,42.00,270.05,249.65,8.72;5,42.00,280.85,111.26,8.72">The way would be the restitution of mortality to the shattered soul of the villain, the destruction of what trapped the fragments of his soul to Earth.</s><s xml:id="_HreZNyY" coords="5,155.80,280.85,135.84,8.72;5,42.00,291.65,249.65,8.72;5,42.00,302.45,186.16,8.72">With reinvigorated harmony, the trio, recognizing mutually each other's talents, resumes the search initiated by their professor in the beginning of the sixth book.</s><s xml:id="_6ZWva3E" coords="5,230.04,302.45,18.50,8.72;5,248.52,301.94,5.25,5.08;5,255.65,302.45,35.99,8.72;5,42.00,313.25,249.65,8.72;5,42.00,324.05,249.66,8.72;5,42.00,334.85,71.33,8.72">Dash <ref type="bibr" coords="5,248.52,301.94,5.25,5.08" target="#b28">29</ref> associates the fact that the principal villain parted his soul in seven pieces forming the Horcruxes to the problem of the fragmented development of the modern man.</s><s xml:id="_tUkH4cS" coords="5,115.69,334.85,175.97,8.72;5,42.00,345.65,249.64,8.72">Voldemort would never understand the power of a unified soul, which he gave up during his search to overcome death.</s><s xml:id="_AfZHJhk" coords="5,42.00,356.45,249.65,8.72;5,42.00,367.25,249.64,8.72;5,42.00,378.05,249.63,8.72">He searched for immortality while perpetrating violence against others and against himself, without ever realizing the importance of the connection with totality, and of the disconnection that violence brings.</s><s xml:id="_fpjRGUW" coords="5,42.00,388.85,249.65,8.72;5,42.00,399.65,249.65,8.72;5,42.00,410.45,249.64,8.72;5,42.00,421.25,249.64,8.72;5,42.00,432.05,249.65,8.72;5,42.00,442.85,100.65,8.72">Like the villain/shadow, Harry has the potential for aggression, which at the beginning of the saga appears dissociated from his conscious, like an autonomous complex, for example, when Dobby the elf throw Tia Petunia's cake on the floor in the middle of a dinner at Harry's family's home while Harry, even though it was his birthday, had to remain locked in his room.</s><s xml:id="_XQ944BX" coords="5,145.72,442.85,145.93,8.72;5,42.00,453.65,249.65,8.72;5,42.00,464.45,249.63,8.72;5,42.00,475.25,249.64,8.72;5,42.00,486.05,231.74,8.72">The destructive force emerges when he has to defend himself against his cousin, sometimes counter-attacking frighteningly, to the point of leaving his cousin in a state of emotional shock in the beginning of the fifth book, or when he inflates his aunt like a balloon, or still when he breaks his professor's belongings.</s><s xml:id="_5cra3B8" coords="5,275.62,486.05,16.00,8.72;5,42.00,496.85,249.64,8.72;5,42.00,507.65,249.65,8.72;5,42.00,518.45,153.19,8.72">This aggression continues to gradually transform and become integrated into his conscience through the welcoming of his tutors of resilience and the fraternal welcome of his friends.</s><s xml:id="_QvmaFMW" coords="5,198.68,518.45,92.97,8.72;5,42.00,529.25,249.65,8.72;5,42.00,540.05,232.41,8.72">He directs and structures his physical identity through sports and competitive games, and begins taking shape thanks to the creative limits of Hogwarts.</s><s xml:id="_uNxUU9e" coords="5,225.34,561.14,5.25,5.08;5,233.86,561.65,57.78,8.72;5,42.00,572.45,249.64,8.72;5,42.00,583.25,249.66,8.72;5,42.00,594.05,105.40,8.72">9]<ref type="bibr" coords="5,225.34,561.14,5.25,5.08" target="#b29">[30]</ref> If the latter can paralyze or deform development, the former permits the direction of aggressive energy in a creative way, promoting the rupture of the old for the emergence of the new.</s><s xml:id="_ExGv4q2" coords="5,149.23,594.05,142.38,8.72;5,42.00,604.85,249.64,8.72;5,42.00,615.65,249.64,8.72;5,42.00,626.45,33.39,8.72">The search for the Horcruxes is a revisit to the history of the villain/shadow, still called Tom Riddle, since his time at the orphanage, his time at Hogwarts, and until the height of his fame.</s><s xml:id="_KwW96bQ" coords="5,77.87,626.45,213.78,8.72;5,42.00,637.25,249.63,8.72;5,42.00,648.05,249.63,8.72;5,42.00,658.85,249.63,8.72;5,42.00,669.65,249.63,8.72;5,42.00,680.45,249.64,8.72;5,42.00,691.25,34.25,8.72">Two of the artifacts mark the beginning of this history: his wizard grandfather's ring, an alliance with his noble wizard ancestry, over his father's Muggle ancestry; and his diary as a student, a record of his time at Hogwarts, which like the protagonists, would also signify a place of belonging, excluding when his request to join the faculty was denied by Dumbledore, who realized his excessive ambition.</s><s xml:id="_rZ4dctD" coords="5,79.97,691.25,211.66,8.72;5,42.00,702.05,249.66,8.72;5,42.00,712.85,249.64,8.72;5,42.00,723.65,249.65,8.72;5,42.00,734.45,249.64,8.72;5,42.00,745.25,249.65,8.72;5,303.64,86.45,249.66,8.72;5,303.64,97.25,249.65,8.72;5,303.64,108.05,249.64,8.72;5,303.64,118.85,85.98,8.72">Three artifacts belonged to three founders of Hogwarts: the locket of Salazar Slytherin, another homage to his noble wizard ancestry; the cup of Helga Hufflepuff, an object of the founder of the house of unlimited emotion and welcoming that, similar to the Holy Grail for those who sought it, lost its original significance of otherness and in turn mistakenly symbolized patriarchal power; and the diadem of Rowena Ravenclaw, a female adornment which brought wisdom to whomever wore it, which had an equally distorted patriarchal significance, understood as an ostentatious object, distancing itself from chthonic wisdom.</s><s xml:id="_kGC2n4J" coords="5,392.82,118.85,160.47,8.72;5,303.64,129.65,249.66,8.72;5,303.64,140.45,249.64,8.72;5,303.64,151.25,93.88,8.72">The sixth Horcrux is Voldemort's endeared snake, which remits Parseltongue, an innate talent that the villain divides with Harry and carries a distinguished mark, much like the proximity to dark forces.</s><s xml:id="_2C2G6R5" coords="5,400.74,151.25,152.54,8.72;5,303.64,162.05,194.15,8.72">A snake is Slytherin house's animal, the house that carries the most valuable wizard heredity.</s><s xml:id="_ERQW5Um" coords="5,500.80,162.05,52.49,8.72;5,303.64,172.85,249.63,8.72;5,303.64,183.65,249.64,8.72;5,303.64,194.45,116.62,8.72">Serpents carry the symbol of endogamy, of symbolic incest, of uroborus, which can bring death to subjectivity and make impossible the emergence of the new, of the divine child.</s><s xml:id="_qhZPB8C" coords="5,423.46,194.45,129.82,8.72;5,303.64,205.25,249.65,8.72;5,303.64,216.05,39.87,8.72">The last and unplanned Horcrux is Harry himself, descendent of the fourth founder of Hogwarts, Godric Gryffindor.</s><s xml:id="_chRYHPe" coords="5,347.20,216.05,206.08,8.72;5,303.64,226.85,249.64,8.72;5,303.64,237.65,107.48,8.72">The wizard as a Horcrux would symbolize the risk of fixation on shadow, of the ego's identification with the hero archetype, and of the inflation for power.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_JRhF3Zw">Figure 1</head><p xml:id="_Vc85BkB"><s xml:id="_9VUvat3" coords="5,315.64,454.85,237.66,8.72;5,303.64,465.65,249.63,8.72;5,303.64,476.45,249.65,8.72;5,303.64,487.25,130.93,8.72">The shadow of power is anchored not only in the history of the villain's abandonment, whose mother died through wanes, abandoned by her family for being impregnated by a Muggle and by her lover when he realized she was a witch.</s><s xml:id="_4T8Yf23" coords="5,437.77,487.25,115.50,8.72;5,303.64,498.05,249.65,8.72;5,303.64,508.85,163.58,8.72">All of the houses of Hogwarts contributed with something to the immortality of the defensive shadow of the desire for hegemonic power.</s><s xml:id="_ZcQywjB" coords="5,470.86,508.85,82.42,8.72;5,303.64,519.65,249.64,8.72;5,303.64,530.45,104.53,8.72">Harry's shadow is the shadow of all the excluded, all who show special characteristics not recognized by the status quo.</s><s xml:id="_QNgCqwY" coords="5,410.37,530.45,142.91,8.72;5,303.64,541.25,249.64,8.72;5,303.64,552.05,249.64,8.72;5,303.64,562.85,204.60,8.72">It is the shadow of a society that forgets the importance of the connection with totality and values extreme specialization, dividing the soul into parts to be outsourced, or what leads to a polarized and lame development of individuals.</s><s xml:id="_wrMVRtu" coords="5,509.93,562.85,43.35,8.72;5,303.64,573.65,249.63,8.72;5,303.64,584.45,249.64,8.72;5,303.64,595.25,249.65,8.72;5,303.64,606.05,30.75,8.72">The shadow of recognition of only one part of human ancestry, making immortal the alliance with classic, noble, intellectual ancestry and forgetting the tribal origin, matriarchal and emotional, brings the chthonic wisdom.</s><s xml:id="_RjsDJnN" coords="5,337.49,606.05,215.79,8.72;5,303.64,616.85,249.65,8.72;5,303.64,627.65,249.65,8.72">The shadow of academia is diaries and scientific journals, which maintain the records of success, excluding official publications of negative results, or the imperfection of the method, or the doubt.</s><s xml:id="_JbFCECa" coords="5,303.64,638.45,249.64,8.72;5,303.64,649.25,249.65,8.72;5,303.64,660.05,249.66,8.72">The shadow of the West who made the Christian message of otherness patriarchal and who does not recognize the knowledge of womanly, caricatured by the incessant search for beauty and recognition.</s><s xml:id="_XNb4Btk" coords="5,303.64,670.85,249.65,8.72;5,303.64,681.65,86.18,8.72">At last, of a society who still have not learned to live in diversity, excluding the different.</s><s xml:id="_WtNK437" coords="5,393.32,681.65,159.95,8.72;5,303.64,692.45,224.71,8.72">But we all are different; we all have some eccentric, rejected in one way or another, in some instance.</s><s xml:id="_UqdHjg5" coords="5,531.78,692.45,21.49,8.72;5,303.64,703.25,249.65,8.72;5,303.64,714.05,249.65,8.72;5,303.64,724.85,249.64,8.72;5,303.64,735.65,95.52,8.72">When returning to Hogwarts, Harry partitions the search for the Horcruxes with Dumbledore's army, who showed to be dedicated to the body and soul of the cause, and who actively contribute to the destruction of artifacts of dark magic.</s><s xml:id="_vHzFr6w" coords="5,401.98,735.65,151.31,8.72;5,303.64,746.45,221.98,8.72">During the search, all of the Order of the Phoenix arrive at the castle that would become a plaza of war.</s><s xml:id="_w948RsW" coords="5,527.79,746.45,25.50,8.72;6,54.00,590.56,237.65,8.72;6,42.00,601.36,249.64,8.72;6,42.00,612.16,249.64,8.72;6,42.00,622.96,17.25,8.72">During Through the process of internal dialogue, a rich example of an active imagination, Harry elaborates on his dilemmas, conflicts and traumas, and differentiates himself from the villain with the shattered soul.</s><s xml:id="_FMWGu8H" coords="6,61.34,622.96,230.32,8.72;6,42.00,633.76,249.66,8.72;6,42.00,644.56,249.65,8.72;6,42.00,655.36,29.24,8.72">Becoming the lord of death does not restrict him from collecting the Deathly Hallows and wishing for an eternal life, but to understand that death is inherent to life; life and death are members of the same process.</s><s xml:id="_qnqyvVx" coords="6,74.62,655.36,199.48,8.72">The desire of invulnerability would lose its meaning.</s><s xml:id="_bkABRdT" coords="6,277.64,655.36,14.00,8.72;6,42.00,666.16,249.62,8.72;6,42.00,676.96,176.18,8.72">Our hero would glimpse the connection with totality, undoing his ego's identification with the archetype of the hero.</s><s xml:id="_5j5SxXu" coords="6,223.18,676.96,68.46,8.72;6,42.00,687.76,249.65,8.72;6,42.00,698.56,249.65,8.72;6,42.00,709.36,133.77,8.72">Harry entered the Forbidden Forest without wanting to be seen, escorted by only the memory of those who loved him, and presented himself to the Lord of Darkness without defending himself.</s><s xml:id="_ZyFEy9g" coords="6,178.11,709.36,113.53,8.72;6,42.00,720.16,249.67,8.72;6,42.00,730.96,162.94,8.72">The memory of his parents and of his tutors of resilience helps him to confront his shadow, activating the internal curator and avoiding fixation.</s><s xml:id="_yPuqsT3" coords="6,209.88,730.96,81.76,8.72;6,42.00,741.76,249.65,8.72;6,42.00,752.56,249.64,8.72;6,303.64,80.56,249.64,8.72;6,303.64,91.36,249.65,8.72;6,303.64,102.16,249.65,8.72">Our hero acts in the opposite of Rick Blaine, the character portrayed by Humphrey Bogart in Casablanca, who gives up his beloved woman to patriarchically win fame for "doing the right thing", or Achilles, who gives up future generations of descendants to "immortalize the name for generations", or Getúlio Vargas, who "left life to enter into the history of Brazil."</s><s xml:id="_NyzF454" coords="6,303.64,112.96,249.63,8.72;6,303.64,123.76,76.05,8.72">Harry delivers himself to the confrontation with the villain, devoid of narcissistic defenses.</s><s xml:id="_4nr3gYg" coords="6,382.52,123.76,170.77,8.72;6,303.64,134.56,73.85,8.72">He acts anonymously, without saying goodbye to avoid commotion.</s><s xml:id="_kEXsuNj" coords="6,379.12,134.56,174.16,8.72;6,303.64,145.36,237.79,8.72">The identity that he had denied for so many years is reintegrated, and Harry returns from the confrontation matured.</s><s xml:id="_E8Upamk" coords="6,543.78,145.36,9.50,8.72;6,303.64,156.16,249.65,8.72;6,303.64,166.96,249.64,8.72;6,303.64,177.76,249.64,8.72;6,303.64,188.56,159.51,8.72">Of the three Deathly Hallows, Harry leaves the Resurrection Stone on the ground of the Forbidden Forest, buries the Elder Wand in Dumbledore's tomb, and keeps for himself the Invisibility Cloak, the only of the three with the exclusive purpose of defense.</s><s xml:id="_2RbX9zk" coords="6,465.45,188.56,87.83,8.72;6,303.64,199.36,249.63,8.72;6,303.64,210.16,20.66,8.72">The great defense of the cloak is to disappear from sight of others, the opposite of the fame of glory.</s><s xml:id="_BgKA2v7" coords="6,326.84,210.16,226.44,8.72;6,303.64,220.96,249.66,8.72;6,303.64,231.76,81.76,8.72">Thanks to the cloak, Ignoto Peverell was the only of the three brothers, creators and carriers of the Deathly Hallows, to have a long life and natural death.</s><s xml:id="_ukZAn6y" coords="6,388.73,231.76,164.55,8.72;6,303.64,242.56,249.65,8.72;6,303.64,253.36,125.52,8.72">He lived his whole life anonymously, in the village of Godric's Hollow, which materializes the utopia of wizards and Muggles living harmoniously.</s><s xml:id="_ZbjJxDr" coords="6,432.11,253.36,121.17,8.72;6,303.64,264.16,249.64,8.72;6,303.64,274.96,76.47,8.72">It is not much more than a small unimportant and unknown village in England, where Harry was born and his parents lived.</s><s xml:id="_XfBZNvc" coords="6,382.35,274.96,170.93,8.72;6,303.64,285.76,249.63,8.72;6,303.64,296.56,192.78,8.72">It is the antithesis of ego inflation, strengthened further socially in the environment, and that Harry overcomes when leaving adolescence and integrating his adult identity.</s><s xml:id="_e2HUeMn" coords="6,498.61,296.56,54.68,8.72;6,303.64,307.36,249.64,8.72;6,303.64,318.16,112.42,8.72">Before burying the Elder Wand, the wizard reconstructs his own wand, which chose him when he was 11years old.</s><s xml:id="_q3pFuFj" coords="6,419.07,318.16,113.75,8.72">He feels better with this wand.</s><s xml:id="_CNjPZDR" coords="6,535.66,318.16,17.64,8.72;6,303.64,328.96,249.64,8.72">With the origin reintegrated, he can finally reunite romantically with Ginny.</s><s xml:id="_PukmVtJ" coords="6,303.64,339.76,249.64,8.72;6,303.64,350.56,249.66,8.72;6,303.64,361.36,60.27,8.72">With the entrance of feminine power of the specialist in boogeymen, the expert in seeing fear as ridiculous, the trio of protagonists becomes a group of four.</s><s xml:id="_FRYp79v" coords="6,367.58,361.36,185.70,8.72;6,303.64,372.16,249.65,8.72;6,303.64,382.96,249.64,8.72;6,303.64,393.76,249.64,8.72;6,303.64,404.56,31.75,8.72">Harry Potter, the boy who lived, son of Lily and James Potter who died to lovingly save Harry's life, marries Ginny, member of a traditional wizard family who dared to deny the solution of endogamy as a defense, and whose greatest power is humor and emotion.</s><s xml:id="_BN2YQmz" coords="6,338.14,404.56,215.14,8.72;6,303.64,415.36,249.64,8.72;6,303.64,426.16,127.23,8.72">Nineteen years later, the couple makes an indication of the possibility of the conscious union of two opposites by giving their son the name Albus Severus Potter.</s><s xml:id="_jz485Ms" coords="6,433.00,426.16,120.27,8.72;6,303.64,436.96,249.65,8.72;6,303.64,447.76,137.97,8.72">This union of the names of Albus Dumbledore and Severus Snape are the greatest representations of Gryffindor and Slytherin, respectively.</s><s xml:id="_GY32trB" coords="6,443.60,447.76,109.68,8.72;6,303.64,458.56,249.65,8.72;6,303.64,469.36,232.87,8.72">These houses, which represent the polarity between inclusive diversity and exclusive homogeneity throughout the saga, are united and revealed by our hero's son.</s><s xml:id="_FNyAxGT" coords="6,539.29,469.36,14.00,8.72;6,303.64,480.16,249.66,8.72;6,303.64,490.96,249.65,8.72;6,303.64,501.76,140.23,8.72">The symbol of the divine child brings a new forthcoming that point to the possibility of integration of these polarities and the hope the war for power will end in the next generations.</s></p></div>		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_VTRyp8k">Acknowledgements</head><p xml:id="_bVtbzhU"><rs type="person">Liliana Liviano Wahba</rs>, for the orientation of the monographs that originate this paper.</p></div>
+			</div>
+			<div type="funding">
+<div><head xml:id="_WkW9MF5">Funding</head><p xml:id="_U8Vbvkp">None.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_k5X4sGb"><p xml:id="_pAKBP3A"><s xml:id="_tdDaZBm" coords="6,504.02,47.36,29.80,6.75;6,489.38,55.76,43.73,6.75;6,40.00,779.57,74.53,8.01">Copyright: ©2017 Moreira Citation: Moreira FG.</s><s xml:id="_rJwvMFD" coords="6,115.96,779.57,247.32,7.71">Harry potter and the tutors of resilience: an analytic view of j. k. rolling tales.</s><s xml:id="_VHXqbJm" coords="6,364.71,779.57,72.35,7.70">J Psychol Clin Psychiatry.</s><s xml:id="_Kg5xeYP" coords="6,438.48,779.57,54.51,7.71">2017;8(3):11-12.</s><s xml:id="_DnJVwPy" coords="6,40.00,789.17,114.86,7.71;6,42.00,80.56,249.64,8.72;6,42.00,91.36,249.65,8.72;6,42.00,102.16,52.39,8.72">DOI: 10.15406/jpcpy.2017.08.00485 the war, Harry deglamorizes his opposition; first Draco Malfoy, saving his life, and lastly, Severus Snape, posthumously peering into his memories.</s><s xml:id="_w22jsS2" coords="6,98.36,102.16,193.29,8.72;6,42.00,112.96,249.66,8.72;6,42.00,123.76,249.66,8.72;6,42.00,134.56,80.30,8.72">There remains his confrontation with his greatness shadow: the omnipotent guilt he feels for his survival among his loved ones, which brings him to the desire, equally omnipotent, to surpass his own death.</s><s xml:id="_yGrpB8T" coords="6,124.32,134.56,167.31,8.72;6,42.00,145.36,249.64,8.72;6,42.00,156.16,249.64,8.72;6,42.00,166.96,32.25,8.72">Harry enters the Forbidden Forest, wearing the Invisibility Cloak, a relic passed down by his father, carrying a present from Dumbledore: the Resurrection Stone, the last of the Deathly Hallows.</s><s xml:id="_Vvej5Yk" coords="6,76.68,166.96,214.98,8.72;6,42.00,177.76,249.66,8.72;6,42.00,188.56,249.64,8.72;6,42.00,199.36,45.94,8.72">Feeling his courage fade, Harry uses the stone to meet with all those who, in his mind, died for him: his parents, Sirius Black his godfather, and Remus Lupin, the professor who recently died fighting in the castle.</s><s xml:id="_XND6kUq" coords="6,90.04,199.36,201.60,8.72;6,42.00,210.16,154.52,8.72">At this meeting, he is greeted by everyone's smiles and by the gaze and admiration of his parents.</s><s xml:id="_7sBAQeG" coords="6,199.18,210.16,92.46,8.72;6,42.00,220.96,249.65,8.72;6,42.00,231.76,98.30,8.72">The wizard apologizes to them, and as a response they assert the reasoning behind their deaths: the fight for a better world.</s><s xml:id="_eWMB2Tu" coords="6,142.32,231.76,149.32,8.72;6,42.00,242.56,151.30,8.72">At last, he realizes that they all are a part of him, and that he would never be alone.</s><s xml:id="_unRyZr9" coords="6,195.61,242.56,96.03,8.72;6,42.00,253.36,249.64,8.72;6,42.00,264.16,82.37,8.72">With the integration of the loving memories, the internalization of the tutors, Harry finally begins to formulate his grief.</s><s xml:id="_qsr7Sww" coords="6,127.92,264.16,163.73,8.72;6,42.00,274.96,212.90,8.72">Recognize the resource that Jung called the active imagination as in the diverse moments of the saga.</s><s xml:id="_kqYWAkj" coords="6,257.76,274.96,33.90,8.72;6,42.00,285.76,249.66,8.72;6,42.00,296.56,227.96,8.72">The four, his parents, his godfather and his professor, accompany him until he is standing across from Voldemort, surrounding by Death Eaters.</s><s xml:id="_btDsuY8" coords="6,272.65,296.56,18.99,8.72;6,42.00,307.36,249.62,8.72;6,42.00,318.16,79.06,8.72">Once targeted by the Lord of Darkness, hero and villain fall unconscious, each one on one side.</s><s xml:id="_MwMDxUY" coords="6,123.60,318.16,168.05,8.72;6,42.00,328.96,249.63,8.72;6,42.00,339.76,249.64,8.72;6,42.00,350.56,23.73,8.72">Voldemort quickly wakes up and rises weakly and believes he has killed our hero, who is carried back to the castle by a sobbing Hagrid, surrounding by Death Eaters who follow their leader.</s><s xml:id="_4c2BT84" coords="6,67.82,350.56,219.56,8.72">Voldemort ignores that he has now returned to a mortal state.</s></p><p xml:id="_TfVhg88"><s xml:id="_AJ6YKcA" coords="6,54.00,367.36,237.64,8.72;6,42.00,378.16,249.64,8.72;6,42.00,388.96,26.25,8.72">During this, Harry has a conversation with his headmaster, at a very clean and bright place, that the wizard identifies as King's Cross station.</s><s xml:id="_u9dBcHq" coords="6,71.17,388.96,220.48,8.72;6,42.00,399.76,249.62,8.72">At this station, or a hazy clear and bright place, Harry has his last meeting with Dumbledore who is very proud of his student.</s><s xml:id="_jUQskUT" coords="6,42.00,410.56,249.64,8.72;6,42.00,421.36,137.51,8.72">They discuss the Deathly Hallows and about Dumbledore's life, and who in tears, admits his wrongdoings.</s><s xml:id="_DA4S9tt" coords="6,181.75,421.36,109.88,8.72;6,42.00,432.16,249.64,8.72;6,42.00,442.96,249.65,8.72;6,42.00,453.76,158.51,8.72;6,54.00,562.96,237.66,8.72;6,42.00,573.76,74.82,8.72;6,116.81,573.25,2.62,5.08">The professor, an image of his internal curator, enlightens that Harry has the option to move forward into death or to return to life, saying that his return to life and not his death could save many lives, as Harry  -Of course this is happening in your mind Harry, but why does that mean this isn't real?. 7</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_dyXWyKj">Conflict of interest</head><p xml:id="_hp68NUk"><s xml:id="_dbTKc6k" coords="6,315.64,586.16,175.46,8.72">Author declares there are no conflicts of interest.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,315.64,659.22,237.62,7.75;6,323.64,668.82,135.34,7.75" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" coord="6,373.40,659.22,176.61,7.75" xml:id="_XaUbnfS">Harry Potter and the Sorcerer&apos;s Stone. (1st edn)</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Rowling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>Bloomsbury Publishing, UK</publisher>
+			<biblScope unit="page">352</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowling JK. Harry Potter and the Sorcerer&apos;s Stone. (1st edn), Bloomsbury Publishing, UK. 1997. p.352.</note>
+</biblStruct>
+
+<biblStruct coords="6,315.64,684.42,237.64,7.75;6,323.64,694.02,137.34,7.75" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" coord="6,371.60,684.42,178.44,7.75" xml:id="_Dn6KECK">Harry Potter and the Chamber of Secrets.(1st edn)</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Rowling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Bloomsbury Publishing. UK</publisher>
+			<biblScope unit="page">384</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowling JK. Harry Potter and the Chamber of Secrets.(1st edn), Bloomsbury Publishing. UK. 2002. p. 384.</note>
+</biblStruct>
+
+<biblStruct coords="6,315.64,709.62,237.64,7.75;6,323.64,719.22,135.34,7.75" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_tmKC2a4">Harry Potter and the Prisoner of Azkaban</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Rowling</surname></persName>
+		</author>
+		<idno type="DOI">10.7560/323120</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_G7euXPq" coord="6,370.20,709.62,179.83,7.75">Harry Potter and the Prisoner of Azkaban. (1st edn)</title>
+		<imprint>
+			<publisher>University of Texas Press</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page">480</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowling JK. Harry Potter and the Prisoner of Azkaban. (1st edn), Bloomsbury Publishing, UK. 1999. p.480.</note>
+</biblStruct>
+
+<biblStruct coords="6,315.64,734.82,237.64,7.75;6,323.64,744.42,57.55,7.75;7,504.02,46.35,29.80,6.75;7,489.38,54.75,43.73,6.75;7,40.00,779.57,452.99,8.01;7,40.00,789.17,114.86,7.71" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="6,365.75,734.82,187.53,7.75;6,323.64,744.42,29.95,7.75;7,504.02,46.35,29.80,6.75;7,489.38,54.75,43.73,6.75;7,40.00,779.57,320.53,8.01" xml:id="_Ecv277t">Copyright: ©2017 Moreira Citation: Moreira FG. Harry potter and the tutors of resilience: an analytic view of j. k. rolling tales</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Rowling</surname></persName>
+		</author>
+		<idno type="DOI">10.15406/jpcpy.2017.07.00485</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_b2U8Wx2" coord="7,364.71,779.57,69.52,7.70">J Psychol Clin Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="11" to="12" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>Harry Potter and the Goblet of Fire. Bloonbury Publishing, UK. 2000</note>
+	<note type="raw_reference">Rowling JK. Harry Potter and the Goblet of Fire. Bloonbury Publishing, UK. 2000. p. 640. Copyright: ©2017 Moreira Citation: Moreira FG. Harry potter and the tutors of resilience: an analytic view of j. k. rolling tales. J Psychol Clin Psychiatry. 2017;8(3):11-12. DOI: 10.15406/jpcpy.2017.08.00485</note>
+</biblStruct>
+
+<biblStruct coords="7,54.00,84.53,237.65,7.75;7,62.00,94.13,139.34,7.75" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coord="7,107.82,84.53,180.58,7.75" xml:id="_Q9NHyxu">Harry Potter and the Order of the Phoenix. (1st edn)</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Rowling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>Bloomsbury Publishing, UK</publisher>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">68</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowling JK. Harry Potter and the Order of the Phoenix. (1st edn), Bloomsbury Publishing, UK. 2003. p. 7 68.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.00,109.73,237.65,7.75;7,62.00,119.33,93.34,7.75" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" coord="7,108.98,109.73,182.67,7.75;7,62.00,119.33,67.74,7.75" xml:id="_85RFHzj">Harry Potter and the Half-Blood Prince. Bloomsbery publishing, UK. 2005</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Rowling</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">608</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowling JK. Harry Potter and the Half-Blood Prince. Bloomsbery publishing, UK. 2005. p.608.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.00,134.93,237.64,7.75;7,62.00,144.53,137.34,7.75" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="7,111.54,134.93,176.86,7.75" xml:id="_PzPk4sP">Harry Potter and the Deathly Hallows: Part 1 and Harry Potter and the Deathly Hallows: Part 2</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Rowling</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9781474407694-037</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_fDcwuCu">Deleuze&apos;s Cinema Books</title>
+		<imprint>
+			<publisher>Edinburgh University Press</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="205" to="208" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowling JK. Harry Potter and the Deathly Hallows. (1st edn), Bloomsbury Publishing, UK. 2007. p. 608.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.00,160.13,237.64,7.75;7,62.00,169.73,91.78,7.75" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="7,120.02,160.13,146.90,7.75" xml:id="_MzM3FQ5">Harry Potter casts a spell on accident prone children</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Gwilym</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominic</forename><forename type="middle">P J</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nev</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><surname>Willett</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.331.7531.1505</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tVKwduz" coord="7,272.30,160.13,15.10,7.75">BMJ</title>
+		<title level="j" type="abbrev">BMJ</title>
+		<idno type="ISSN">0959-8138</idno>
+		<idno type="ISSNe">1468-5833</idno>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="issue">7531</biblScope>
+			<biblScope unit="page" from="1505" to="1506" />
+			<date type="published" when="2005-12-22">2005</date>
+			<publisher>BMJ</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gwilym S. Harry Potter casts a spell on accident prone children. BMJ . 2005;331(7531):1505-1506.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.00,185.33,237.64,7.75;7,62.00,194.93,140.54,7.75" xml:id="b8">
+	<monogr>
+		<title level="m" type="main" coord="7,84.80,185.33,117.72,7.75" xml:id="_mzdkqUQ">Potter and the Philosopher&apos;s Stone</title>
+		<author>
+			<persName coords=""><surname>Harry</surname></persName>
+		</author>
+		<editor>Christopher Columbus. Warner Bros, USA &amp; UK.</editor>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harry Potter and the Philosopher&apos;s Stone. Directed by Christopher Columbus. Warner Bros, USA &amp; UK. 2001.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.67,210.53,236.98,7.75;7,62.00,220.13,140.54,7.75" xml:id="b9">
+	<monogr>
+		<title level="m" type="main" coord="7,84.67,210.53,118.47,7.75" xml:id="_99chHsZ">Harry Potter and the Philosopher’s Stone/Harry Potter and the Chamber of Secrets</title>
+		<author>
+			<persName coords=""><surname>Harry</surname></persName>
+		</author>
+		<idno type="DOI">10.5040/9798216183709.38</idno>
+		<editor>Christopher Columbus. Warner Bros, USA &amp; UK.</editor>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Greenwood Press</publisher>
+			<biblScope unit="page" from="185" to="189" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harry Potter and the Chamber of Secrets. Directed by Christopher Columbus. Warner Bros, USA &amp; UK. 2002.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.47,235.73,237.17,7.75;7,62.00,245.33,103.79,7.75" xml:id="b10">
+	<monogr>
+		<title level="m" type="main" xml:id="_Y2URPFk">Harry Potter and the Prisoner of Azkaban</title>
+		<author>
+			<persName coords=""><forename type="first">Harry</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Prisoner Of Azkaban</surname></persName>
+		</author>
+		<idno type="DOI">10.7560/323120</idno>
+		<editor>Alfonso Cuarón. Warner Bros, USA &amp; UK.</editor>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>University of Texas Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harry Potter and the Prisoner of Azkaban. Directed by Alfonso Cuarón. Warner Bros, USA &amp; UK. 2004.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.67,260.93,236.98,7.75;7,62.00,270.53,78.45,7.75" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="7,83.06,260.93,92.83,7.75" xml:id="_hzYsUyp">Potter and the Globet of Fire</title>
+		<author>
+			<persName coords=""><surname>Harry</surname></persName>
+		</author>
+		<editor>Mike Newell. Warner Bros, USA &amp; UK.</editor>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harry Potter and the Globet of Fire. Directed by Mike Newell. Warner Bros, USA &amp; UK. 2005.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.67,286.13,236.97,7.75;7,62.00,295.73,103.79,7.75" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="7,83.66,286.13,118.23,7.75" xml:id="_KNTJCXP">The Order of the Phoenix</title>
+		<author>
+			<persName coords=""><surname>Harry</surname></persName>
+		</author>
+		<idno type="DOI">10.1057/9781137016546.0010</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_d2RR59p">The Politics of Harry Potter</title>
+		<editor>
+			<persName><forename type="first">David</forename><forename type="middle">Warner</forename><surname>Yates</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Usa</forename><surname>Bros</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">U</forename><forename type="middle">K</forename></persName>
+		</editor>
+		<imprint>
+			<publisher>Palgrave Macmillan</publisher>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harry Potter and the Order of the Phoenix. Directed by David Yates. Warner Bros, USA &amp; UK. 2007.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.67,311.33,236.97,7.75;7,62.00,320.93,103.79,7.75" xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Harry</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Half-Blood</forename><surname>Prince</surname></persName>
+		</author>
+		<editor>David Yates. Warner Bros, USA &amp; UK.</editor>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harry Potter and the Half-Blood Prince. Directed by David Yates. Warner Bros, USA &amp; UK. 2009.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.67,336.53,236.99,7.75;7,62.00,346.13,103.79,7.75" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="7,83.24,336.53,120.46,7.75" xml:id="_muxVKnf">Harry Potter and the Deathly Hallows: Part 1 and Harry Potter and the Deathly Hallows: Part 2</title>
+		<author>
+			<persName coords=""><surname>Harry</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9781474407694-037</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_reyw7q8">Deleuze&apos;s Cinema Books</title>
+		<editor>
+			<persName><forename type="first">David</forename><forename type="middle">Warner</forename><surname>Yates</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Usa</forename><surname>Bros</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">U</forename><forename type="middle">K</forename></persName>
+		</editor>
+		<imprint>
+			<publisher>Edinburgh University Press</publisher>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="205" to="208" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harry Potter and the Deathly Hallows-part1. Directed by David Yates. Warner Bros, USA &amp; UK. 2010.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.67,361.73,236.97,7.75;7,62.00,371.33,103.50,7.75" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="7,83.24,361.73,120.45,7.75" xml:id="_QH5Ek6V">Harry Potter and the Deathly Hallows: Part 1 and Harry Potter and the Deathly Hallows: Part 2</title>
+		<author>
+			<persName coords=""><surname>Harry</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9781474407694-037</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_hbp7Qn5">Deleuze&apos;s Cinema Books</title>
+		<editor>
+			<persName><forename type="first">David</forename><forename type="middle">Warner</forename><surname>Yates</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Usa</forename><surname>Bros</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">U</forename><forename type="middle">K</forename></persName>
+		</editor>
+		<imprint>
+			<publisher>Edinburgh University Press</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="205" to="208" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harry Potter and the Deathly Hallows-part2. Directed by David Yates. Warner Bros, USA &amp; UK. 2011.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.67,386.93,236.41,7.75" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_fYwJX4N">A resiliência em discussão</title>
+		<author>
+			<persName coords=""><forename type="first">Débora</forename><forename type="middle">A</forename><surname>Pinheiro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Resiliência</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Discussão</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/s1413-73722004000100009</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QH5dqnY" coord="7,192.42,386.93,37.74,7.75">Psicologia em Estudo</title>
+		<title level="j" type="abbrev">Psicol. estud.</title>
+		<idno type="ISSN">1413-7372</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="67" to="75" />
+			<date type="published" when="2004-04">2004</date>
+			<publisher>FapUNIFESP (SciELO)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pinheiro DA. Resiliência em Discussão. Psicol estud. 2004;9(1):67-75.</note>
+</biblStruct>
+
+<biblStruct coords="7,54.67,402.53,236.98,7.75;7,62.00,412.13,183.10,7.75" xml:id="b17">
+	<monogr>
+		<title level="m" type="main" coord="7,104.02,402.53,187.62,7.75;7,62.00,412.13,24.30,7.75" xml:id="_WSAREbR">Resiliência como Processo: Uma Revisão da Literatura Recente</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">A</forename><surname>Infante</surname></persName>
+		</author>
+		<editor>Aldo Melillo, et al. Resiliência</editor>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="23" to="38" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Infante FA. Resiliência como Processo: Uma Revisão da Literatura Recente. In: Aldo Melillo, et al. Resiliência. 2005;23-38.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,84.53,236.98,7.75;7,323.64,94.13,203.59,7.75" xml:id="b18">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Ralha-Simões</surname></persName>
+		</author>
+		<title level="m" xml:id="_tTYWZr4" coord="7,381.94,84.53,171.34,7.75;7,323.64,94.13,94.96,7.75">Resiliência e desenvolvimento pessoal. Em: Tavares (Org.), Resiliência e educação</title>
+		<meeting><address><addrLine>Cortez, São Paulo, Brazil</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ralha-Simões H. Resiliência e desenvolvimento pessoal. Em: Tavares (Org.), Resiliência e educação. Cortez, São Paulo, Brazil. 2001.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,109.73,236.98,7.75;7,323.64,119.33,93.25,7.75" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="7,364.28,109.73,185.63,7.75" xml:id="_93CKCUk">Resiliência no Brejo da Cruz: Sobrevivência e Individuação</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">G</forename><surname>Moreira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ww3NFuZ" coord="7,323.64,119.33,32.20,7.75">Junguiana</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moreira FG. Resiliência no Brejo da Cruz: Sobrevivência e Individuação. Junguiana. 2011;29(1):1-12.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,134.93,236.97,7.75;7,323.64,144.53,229.64,7.75;7,323.64,154.13,175.24,7.75" xml:id="b20">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">A</forename><surname>Araujo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Introdução</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">A</forename><surname>Araujo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Mello</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Amg</forename><surname>Rios</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Resiliência</surname></persName>
+		</author>
+		<title level="m" xml:id="_hJcbFjN" coord="7,402.70,134.93,107.06,7.75;7,455.76,144.53,97.52,7.75;7,323.64,154.13,43.07,7.75">Teorias e Práticas de Pesquisa em Psicologia</title>
+		<meeting><address><addrLine>São Paulo, Brazil</addrLine></address></meeting>
+		<imprint>
+			<publisher>Ithaka Books</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Resiliência ontem, hoje e amanhã</note>
+	<note type="raw_reference">Araujo CA. Introdução: Resiliência ontem, hoje e amanhã. Em: Araujo CA, Mello MA, Rios AMG Resiliência: Teorias e Práticas de Pesquisa em Psicologia.: Ithaka Books, São Paulo, Brazil. 2011.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,169.73,236.97,7.75;7,323.64,179.33,229.64,7.75;7,323.64,188.93,222.97,7.75" xml:id="b21">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">L</forename><surname>Wahba</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Herói</forename><surname>Nosso</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Atual</surname></persName>
+		</author>
+		<title level="m" xml:id="_GKrhmt8" coord="7,428.59,169.73,124.69,7.75;7,323.64,179.33,229.64,7.75;7,323.64,188.93,113.43,7.75">Um Herói da Complexidade. Desafios da prática: o paciente e o continente:Anais do II Congresso Latino-Americano de Psicologia Junguiana</title>
+		<meeting><address><addrLine>Lector, Brazil</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="217" to="223" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wahba LL. Nosso Herói Atual: Um Herói da Complexidade. Desafios da prática: o paciente e o continente:Anais do II Congresso Latino- Americano de Psicologia Junguiana. Lector, Brazil. 2003. p.217-223.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,204.53,236.98,7.75;7,323.64,214.13,229.64,7.75;7,323.64,223.73,149.30,7.75" xml:id="b22">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">H</forename><surname>Grotberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Introdução</surname></persName>
+		</author>
+		<title level="m" xml:id="_7ghrNVB" coord="7,409.87,204.53,143.41,7.75;7,323.64,214.13,229.64,7.75;7,323.64,223.73,30.09,7.75">Novas Tendências em Resiliência. Em: Em: Melillo A, Néstor E, OJEDA S. Resiliência: descobrindo as próprias fortalezas</title>
+		<meeting><address><addrLine>Artmed, Porto Alegre, Brazil</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grotberg EH. Introdução: Novas Tendências em Resiliência. Em: Em: Melillo A, Néstor E, OJEDA S. Resiliência: descobrindo as próprias fortalezas. Artmed, Porto Alegre, Brazil. 2005.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,239.33,236.97,7.75;7,323.64,248.93,203.53,7.75" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="7,441.36,239.33,111.91,7.75;7,323.64,248.93,84.86,7.75" xml:id="_5CPyFVJ">Alguns Fundamentos Psicológicos do Conceito de Resiliência</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Melillo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Estamatti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Cuestas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wErBHPh" coord="7,424.06,248.93,79.98,7.75">Aldo Melillo. Resiliência</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Melillo A, Estamatti M, Cuestas A. Alguns Fundamentos Psicológicos do Conceito de Resiliência. In: Aldo Melillo. Resiliência. 2005.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,264.53,236.97,7.75;7,323.64,274.13,70.44,7.75" xml:id="b24">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">O</forename><surname>Cyrulnik</surname></persName>
+		</author>
+		<title level="m" xml:id="_q8X5TAh" coord="7,369.22,264.53,78.61,7.75">Murmúrio dos fantasmas</title>
+		<meeting><address><addrLine>Martins Fontes -selo Martins, Brazil</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>1st edn</note>
+	<note type="raw_reference">Cyrulnik BO. Murmúrio dos fantasmas. (1st edn), Martins Fontes -selo Martins, Brazil. 2005.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,289.73,236.98,7.75;7,323.64,299.33,162.43,7.75" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="7,402.25,289.73,151.03,7.75;7,323.64,299.33,63.29,7.75" xml:id="_vRTwysZ">Transformar cada escola em uma escola promotora de saúde: Padrões e indicadores globais</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">G</forename><surname>Moreira</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Oliveira</surname></persName>
+		</author>
+		<idno type="DOI">10.37774/9789275725122</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vv7uqkE" coord="7,392.51,299.33,32.20,7.75">Junguiana</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2012">2012</date>
+			<publisher>Pan American Health Organization</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moreira FG, Oliveira L. O Elogio à Diversidade: Hogwarts, uma Escola Promotora de Saúde. Junguiana. 2012;30(2):1-13.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,314.93,236.97,7.75;7,323.64,324.53,229.64,7.75;7,323.64,334.13,151.03,7.75" xml:id="b26">
+	<monogr>
+		<title level="m" type="main" coord="7,366.37,314.93,186.91,7.75;7,323.64,324.53,229.64,7.75;7,323.64,334.13,76.84,7.75" xml:id="_pGmzb7U">The Hero&apos;s Journey Through Adolescence: A Jungian Archetypal Analysis of Harry Potter. PhD diss., The Chicago School of Professional Psychology</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Gerhold</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<pubPlace>Chicago, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gerhold C. The Hero&apos;s Journey Through Adolescence: A Jungian Archetypal Analysis of Harry Potter. PhD diss., The Chicago School of Professional Psychology. Chicago, USA. 2010.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,349.73,236.97,7.75;7,323.64,359.33,155.91,7.75" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" xml:id="_SXMwfxT">The Phenomenology of the Spirit in Fairytales</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">G</forename><surname>Jung</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9781400850969.207</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ERj5Nvq" coord="7,354.69,349.73,198.59,7.75;7,323.64,359.33,99.92,7.75">Collected Works of C.G. Jung, Volume 9 (Part 1): Archetypes and the Collective Unconscious</title>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1942">1942</date>
+			<biblScope unit="page" from="207" to="254" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jung CG. The Phenomenology of the Spirit in Fairytales. The Archetypes and the Collective Unconscious, CW. 1942; 9-1.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,374.93,236.98,7.75;7,323.64,384.53,169.53,7.75" xml:id="b28">
+	<monogr>
+		<title level="m" type="main" coord="7,359.27,374.93,194.01,7.75;7,323.64,384.53,94.68,7.75" xml:id="_qhNJ8Y9">Chasing the Shadow: is the Harry Potter Series a Political Discourse? Language in India</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">K</forename><surname>Dash</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="458" to="467" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dash RK. Chasing the Shadow: is the Harry Potter Series a Political Discourse? Language in India. 2012; 12(3):458-467.</note>
+</biblStruct>
+
+<biblStruct coords="7,316.30,400.13,192.30,7.75" xml:id="b29">
+	<monogr>
+		<title level="m" type="main" coord="7,355.86,400.13,111.52,7.75" xml:id="_2qDyHEp">Símbolos da Transformação, CW 5</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">G</forename><surname>Jung</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1913">1913/1973</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jung CG. Símbolos da Transformação, CW 5. 1913/1973.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

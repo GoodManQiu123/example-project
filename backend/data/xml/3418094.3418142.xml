@@ -1,0 +1,1479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_qBa3hEn" coord="1,56.40,57.88,499.18,16.65;1,204.98,78.58,202.03,16.65">Summarize the Etiology and Epidemiology Characteristics of the New Coronavirus</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2020-08-14">2020-08-14</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,269.24,100.88,73.57,11.10"><forename type="first">Sicheng</forename><surname>Shen</surname></persName>
+							<email>seanshen4@gmail.com</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Ravenscroft School Student 7909 hardwick drive</note>
+								<orgName type="department">Ravenscroft School Student</orgName>
+								<address>
+									<addrLine>7909 hardwick drive</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_McrkT2z" coord="1,56.40,57.88,499.18,16.65;1,204.98,78.58,202.03,16.65">Summarize the Etiology and Epidemiology Characteristics of the New Coronavirus</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_q4CEUgh">Proceedings of the 4th International Conference on Medical and Health Informatics</title>
+						<meeting>the 4th International Conference on Medical and Health Informatics						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2020-08-14" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">6BCDE5559004908797D5612BC0572FFC</idno>
+					<idno type="DOI">10.1145/3418094.3418142</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T20:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_Reqbqwe">Sars-CoV2</term>
+					<term xml:id="_z3vjYT5">etiology</term>
+					<term xml:id="_7xGbnSy">epidemiology</term>
+					<term xml:id="_dGNCDPz">disease</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_w36FzCh"><p xml:id="_VwPbPgn"><s xml:id="_2kg9mMZ" coords="1,54.00,206.93,240.02,8.10;1,54.00,217.25,240.09,8.10;1,54.00,227.63,86.26,8.10">Until May 16th, there are more than four million people who have been confirmed of the Covid-19 virus in the whole world and 311,739 of total deaths.</s><s xml:id="_YcsYBC2" coords="1,142.97,227.63,151.14,8.10;1,54.00,237.95,240.05,8.10;1,54.00,248.33,240.08,8.10;1,54.00,258.65,240.04,8.10;1,54.00,269.03,100.05,8.10">The virus caused disastrous effects in the economy around the whole world, destroying small businesses and the stock market, ruining international transportation, devastating the morale of the people and prohibiting people from interacting and socializing.</s><s xml:id="_9dUypeC" coords="1,157.78,269.03,136.20,8.10;1,54.00,279.35,240.02,8.10;1,54.00,289.73,240.06,8.10;1,54.00,300.05,146.89,8.10">Considering these huge impacts that the virus made, on March, 12, 2020, the World Health Organization (WHO) characterized the Covid-19 caused by the Sars-CoV-2 virus as a global pandemic.</s><s xml:id="_wqNZdcP" coords="1,203.88,300.05,90.10,8.10;1,54.00,310.43,200.30,8.10">There is not an effective vaccination or specific medicine to cure the disease.</s><s xml:id="_RC8Fbb8" coords="1,258.41,310.43,35.57,8.10;1,54.00,320.75,240.08,8.10;1,54.00,331.13,239.91,8.10;1,54.00,341.45,30.28,8.10">The most effective way to slow down the transmission is early detection, isolation of new carriers and operating proper treatment to patients.</s><s xml:id="_Xt98P52" coords="1,86.86,341.45,207.22,8.10;1,54.00,351.83,227.84,8.10">Thus, the research on the physical properties and clinical characteristics of the Covid-19 become significantly important.</s><s xml:id="_rWDydFq" coords="1,284.12,351.83,10.00,8.10;1,54.00,362.15,240.05,8.10;1,54.00,372.44,240.02,8.18;1,54.00,382.85,239.93,8.10;1,54.00,393.23,239.99,8.10;1,54.00,403.55,240.15,8.10;1,54.00,413.93,240.17,8.10;1,54.00,424.27,37.27,8.10">To prepare for the future prevention, this paper summarizes the overall treatment of the virus, mainly through the virus's origin, etiology, epidemiology, and clinical symptoms to inform readers more about the Covid-19, eliminate misunderstanding and bias to the virus, invoke the sense of self-protection and finally use scientific and logical methods to overcome this world-wide pandemic.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_VdgkzUu">INTRODUCTION</head><p xml:id="_2vjR5NA"><s xml:id="_DMKx5CR" coords="1,54.00,525.43,240.02,8.10;1,54.00,535.75,240.09,8.10;1,54.00,546.13,86.26,8.10">Until May 16th, there are more than four million people who have been confirmed of the Covid-19 virus in the whole world and 311,739 of total deaths.</s><s xml:id="_tGtukPe" coords="1,142.97,546.13,150.97,8.10;1,54.00,556.45,240.05,8.10;1,54.00,566.83,240.09,8.10;1,54.00,577.15,240.04,8.10;1,54.00,587.53,100.05,8.10">The virus caused disastrous effects in the economy around the whole world, destroying small businesses and the stock market, ruining international transportation, devastating the morale of the people and prohibiting people from interacting and socializing.</s><s xml:id="_PBbTVAw" coords="1,157.78,587.53,136.20,8.10;1,317.92,193.13,240.02,8.10;1,317.92,203.45,240.06,8.10;1,317.92,213.83,159.71,8.10">Considering these huge impacts that the virus made, on March, 11, 2020, the World Health Organization (WHO) characterized the Covid-19 caused by the Sars-CoV-2 virus as a global pandemic <ref type="bibr" coords="1,464.92,213.83,9.53,8.10" target="#b1">[1]</ref>.</s><s xml:id="_NZZnuRQ" coords="1,480.48,213.83,77.45,8.10;1,317.92,224.15,239.97,8.10">Till now, there is not an effective vaccination or specific medicine to cure the disease.</s><s xml:id="_ubaQcYG" coords="1,317.92,234.53,239.90,8.10;1,317.92,244.85,239.99,8.10;1,317.92,255.23,54.15,8.10">The most effective way to slow down the transmission is early detection, isolation of new carriers and operating proper treatment to patients <ref type="bibr" coords="1,359.38,255.23,9.52,8.10" target="#b2">[2]</ref>.</s><s xml:id="_2FPfJ7d" coords="1,375.26,255.23,182.57,8.10;1,317.92,265.55,240.01,8.10;1,317.92,275.93,37.28,8.10">Thus, the research on the physical properties and clinical characteristics of the Covid-19 become significantly important.</s><s xml:id="_Rc4tCYm" coords="1,361.35,275.93,196.61,8.10;1,317.92,286.25,240.00,8.10;1,317.92,296.54,239.95,8.18;1,317.92,306.95,240.07,8.10;1,317.92,317.33,240.14,8.10;1,317.92,327.65,240.06,8.10;1,317.92,338.03,125.91,8.10">To prepare for the future prevention, this paper summarizes the overall treatment of the virus, mainly through the virus's origin, etiology, epidemiology, and clinical symptoms to inform readers more about the Covid-19, eliminate misunderstanding and bias to the virus, invoke the sense of selfprotection and finally use scientific and logical methods to analyze this world-wide pandemic.</s></p><p xml:id="_DmNKrVZ"><s xml:id="_pgw3E7b" coords="1,317.92,354.35,240.08,8.10;1,317.92,364.73,239.98,8.10;1,317.92,375.05,155.47,8.10">The new coronavirus lung disease (named Covid-19 by the World Health Organization on February, 11, 2020), has spread rapidly across the whole world since December.</s><s xml:id="_E6qC6e8" coords="1,477.69,375.05,80.34,8.10;1,317.92,385.43,240.08,8.10;1,317.92,395.75,239.95,8.10;1,317.92,406.13,43.15,8.10">First exploded in the Huanan Seafood Wholesale market in Wuhan, Covid-19, till May 18th, has spread throughout China causing 84063 total cases in the country.</s><s xml:id="_s8agkCt" coords="1,363.38,406.13,194.56,8.10;1,317.92,416.47,239.96,8.10;1,317.92,426.79,77.13,8.10">The Chinese government closed down the city, public transportation and required citizens to stay at home and keep social distancing <ref type="bibr" coords="1,382.36,426.79,9.52,8.10" target="#b3">[3]</ref>.</s><s xml:id="_8GbN4PW" coords="1,398.30,426.79,159.70,8.10;1,317.92,437.17,125.25,8.10">Not only China suffers from Covid-19, the virus spread all around the world.</s><s xml:id="_m7RMNg4" coords="1,446.31,437.17,111.60,8.10;1,317.92,447.49,242.19,8.10">The United States, Russia and Brazil are the top three countries that have the most cases recently.</s><s xml:id="_p8abg9p" coords="1,317.92,457.87,240.06,8.10;1,317.92,468.19,181.56,8.10">There were 1,556,749 in the United States, and 4,858,850 cases in the whole world (John Hopkins, Data till 8PM.</s><s xml:id="_6UPCQse" coords="1,503.50,468.19,44.56,8.10;1,548.16,466.22,4.62,5.40;1,552.78,468.19,5.25,8.10;1,317.92,478.57,240.03,8.10;1,317.92,488.80,53.95,8.18">On May 18 th ), causing millions of people suffering from lung disease and the risk of death.</s><s xml:id="_mdbk4zy" coords="1,377.46,488.80,180.42,8.18;1,317.92,499.27,33.73,8.10">The strongly contagious virus draws people's attention.</s><s xml:id="_fXmbZm8" coords="1,358.24,499.27,199.72,8.10;1,317.92,509.59,240.02,8.10;1,317.92,519.97,168.22,8.10">It is necessary to find out the epidemiology of coronavirus and discover the solution to prevent the spread of the new pandemic destroying the world right now.</s></p><p xml:id="_HabKVmd"><s xml:id="_9DtRp3y" coords="1,317.92,536.29,239.97,8.10;1,317.92,546.67,239.99,8.10;1,317.92,556.99,218.99,8.10">Coronavirus, named after the crown shape of its structure, appears as a common type of virus among the environment, usually carried by wild animals such as bats and pangolins <ref type="bibr" coords="1,524.22,556.99,9.52,8.10" target="#b4">[4]</ref>.</s><s xml:id="_RBYKEV5" coords="1,541.60,556.99,16.44,8.10;1,317.92,567.37,239.96,8.10;1,317.92,577.69,239.92,8.10;1,317.92,588.07,81.81,8.10">First separated from mice, the coronavirus only spread through domestic animals, mainly causing damage in agricultural and animal husbandry <ref type="bibr" coords="1,387.04,588.07,9.52,8.10">[5]</ref>.</s><s xml:id="_UcRYXrQ" coords="1,403.28,588.07,154.70,8.10;1,317.92,598.39,240.05,8.10;1,317.92,608.77,240.15,8.10;1,317.92,619.09,12.69,8.10">However, as the coronavirus mutates and evolves, it can achieve Cross-species transmission that causes the appearance of coronavirus in humans, like HCoV-229E and OC43 <ref type="bibr" coords="1,317.92,619.09,9.52,8.10" target="#b6">[6]</ref>.</s><s xml:id="_Q6pG8gK" coords="1,333.20,619.09,224.70,8.10;1,317.92,629.47,239.88,8.10;1,317.92,639.79,50.85,8.10">Such human coronavirus only slightly infected the respiratory system, so that people did not take many precautions to prevent spreading <ref type="bibr" coords="1,356.08,639.79,9.52,8.10" target="#b7">[7]</ref>.</s><s xml:id="_xFQqKay" coords="1,371.90,639.79,186.08,8.10;1,317.92,650.17,186.09,8.10">However, as the coronavirus started to evolve, the coronavirus became very infectious and deadly.</s><s xml:id="_hnJcwXq" coords="1,509.08,650.17,48.84,8.10;1,317.92,660.49,239.97,8.10;1,317.92,670.87,200.95,8.10">In 2003, the severe acute respiratory syndrome (SARS) caused more than 8000 cases in twenty countries with a ten percent death rate.</s><s xml:id="_kvsUXFX" coords="1,521.70,670.87,36.32,8.10;1,317.92,681.19,240.08,8.10;1,317.92,691.57,239.99,8.10;1,317.92,701.91,36.15,8.10">Covid-19, as the relative of SARS, shows its extremely high transmission rate, already causing close to five million cases around the whole world <ref type="bibr" coords="1,341.38,701.91,9.52,8.10" target="#b8">[8]</ref>.</s><s xml:id="_qEFeCXv" coords="1,356.48,701.91,201.41,8.10;2,54.00,56.01,239.91,8.10;2,54.00,66.33,122.00,8.10">The new coronavirus, due to its high infectiousness and severe symptoms, becomes one of the most difficult viruses to deal with during the 21th century.</s><s xml:id="_tyVKuct" coords="2,54.00,631.63,240.07,8.10;2,54.00,642.01,223.44,8.10">The virus is an enveloped, multi-shaped or round shaped single RNA virus with a radius usually ranging from 150 to 160nm.</s><s xml:id="_mNVeEf4" coords="2,279.99,642.01,14.00,8.10;2,54.00,652.33,240.14,8.10;2,54.00,662.71,188.21,8.10">The virus contains positive-sense single-stranded RNA, unsegmented capsid, matrix, Nucleoproteins, and S proteins <ref type="bibr" coords="2,225.02,662.71,13.75,8.10" target="#b11">[11]</ref>.</s><s xml:id="_zET5cYn" coords="2,244.86,662.71,49.21,8.10;2,54.00,673.03,240.07,8.10;2,54.00,683.41,240.22,8.10;2,54.00,693.73,50.82,8.10;2,317.92,586.81,239.92,8.10;2,317.92,597.13,81.21,8.10">By tracing its ancestry and relatives, scientists discovered that Sars-CoV2 belongs to cluster three of the sabecovirus subgenus as figure <ref type="figure" coords="2,289.72,683.41,4.50,8.10">2</ref> describes <ref type="bibr" coords="2,89.82,693.73,15.00,8.10" target="#b12">[12]</ref> Inside of the Virus is the helix shaped nucleoproteins formed by RNA and N-proteins.</s><s xml:id="_gKes3dU" coords="2,403.34,597.13,154.72,8.10;2,317.92,607.42,240.04,8.19;2,317.92,617.74,130.49,8.18">The RNA of the protein contains 29891 nucleotides with the order of 5', Spikes protein, envelope, Glycoprotein, nucleocapsid and 3'.</s><s xml:id="_eRyjDMH" coords="2,452.15,617.74,105.67,8.18;2,317.92,628.21,240.10,8.10;2,317.92,638.53,40.72,8.10">The combination of gene of the Covid-19 is much different from its relatives: Sars-CoV and Mers-CoV.</s><s xml:id="_VWKhR4N" coords="2,361.89,638.53,195.98,8.10;2,317.92,648.91,200.75,8.10">However, it has a 85 percent homology compared to the coronavirus found on bats(bat-SL-CoVZC45) <ref type="bibr" coords="2,499.02,648.91,15.00,8.10" target="#b14">[14]</ref> .</s><s xml:id="_ngxkVFh" coords="2,521.15,648.91,36.87,8.10;2,317.92,659.23,240.05,8.10">The Spike protein of the Covid-19 contains two protein domains, S1 and S2.</s><s xml:id="_7pqVSgn" coords="2,317.92,669.61,239.86,8.10;2,317.92,679.93,239.96,8.10;2,317.92,690.31,182.42,8.10">Subunits of S1 mainly control the virus ability to identify the receptor binding domain RBD, which is the zone for the combination of the viruses and the receptor cells.</s><s xml:id="_ANSwTHZ" coords="2,503.41,690.31,54.60,8.10;2,317.92,700.65,240.00,8.10;2,317.92,711.03,240.03,8.10;3,54.00,56.01,204.71,8.10">Subunits of S2 contain all of the materials needed for the membrane fusion of the virus and the cell, and S2 subunits have 99 percent homology with the subunits of the Sars-CoV in the 2004 pandemic <ref type="bibr" coords="3,241.52,56.01,13.75,8.10" target="#b15">[15]</ref>.</s><s xml:id="_6XPzVuK" coords="3,261.14,56.01,35.20,8.10;3,54.00,66.33,240.11,8.10;3,54.00,76.71,239.93,8.10;3,54.00,86.94,152.09,8.19">However, compared to Sars-CoV, Covid-19 contains longer spike proteins made by S1 and S2 which are essential for the virus to confirm the host's target and transmission ability <ref type="bibr" coords="3,188.90,87.03,13.75,8.10" target="#b16">[16]</ref>.</s><s xml:id="_AdcQURw" coords="3,208.38,87.03,85.70,8.10;3,54.00,97.41,240.18,8.10;3,54.00,107.73,65.16,8.10">Thus the complex spike proteins can help Covid-19 to find the best host that can transmit the virus quickly.</s><s xml:id="_d9KdMXx" coords="3,122.61,107.73,171.46,8.10;3,54.00,118.11,67.63,8.10">Covid-19 viruses are fragile to ultraviolet and high temperatures.</s><s xml:id="_4MEw86K" coords="3,124.64,118.11,169.35,8.10;3,54.00,128.43,97.24,8.10">It can be destroyed by exposure of 56 Celsius degrees for thirty minutes.</s><s xml:id="_hA3SA6q" coords="3,154.23,128.43,139.68,8.10;3,54.00,138.83,240.12,8.10;3,54.00,149.15,131.63,8.10">Also some solutions such as ether, 75 percent ethanol, disinfectant containing Chlorine, peracetic acid can all kill the virus effectively <ref type="bibr" coords="3,168.51,149.15,13.70,8.10" target="#b17">[17]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_xKAeraC">Etiology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_qt3FqqA">Epidemiological Characteristics 3.1 Introduce to R0</head><p xml:id="_6JqdD2q"><s xml:id="_NP57VVT" coords="3,54.00,193.13,239.92,8.10;3,54.00,203.45,240.02,8.10;3,54.00,213.83,208.34,8.10">R0, the basic reproduction number, usually recognized by the scientists to measure the transmission ability of a certain disease by measuring a variable using a well-designed equation.</s><s xml:id="_gSMrbR8" coords="3,265.47,213.83,28.66,8.10;3,54.00,224.15,239.94,8.10">If R0 is smaller than 1, which means the disease would disappear slowly.</s></p><p xml:id="_fTXYE2y"><s xml:id="_XBJkZkF" coords="3,54.00,234.53,239.95,8.10;3,54.00,244.85,140.59,8.10">If R0 equals to 1, the disease would become a regional pandemic that does not transmit to other places.</s><s xml:id="_h5eFnxZ" coords="3,197.86,244.85,96.10,8.10;3,54.00,255.23,240.07,8.10;3,54.00,265.55,56.15,8.10">If R0 is larger than 1, the disease would transmit exponentially and become a global pandemic <ref type="bibr" coords="3,92.94,265.55,13.77,8.10" target="#b18">[18]</ref>.</s><s xml:id="_qrrYXUP" coords="3,114.06,265.55,179.96,8.10;3,54.00,275.93,239.93,8.10;3,54.00,286.25,93.83,8.10">The R0 of the Covid-19 is between 2.2 to 3.8, which exceeds the 1 line of R0 by 1.2 to 2.8 proving its high transmission ability <ref type="bibr" coords="3,130.64,286.25,13.75,8.10" target="#b19">[19]</ref>.</s><s xml:id="_auTW2dt" coords="3,151.86,286.25,142.13,8.10;3,54.00,296.63,240.08,8.10;3,54.00,306.95,198.48,8.10">However, the coronavirus is not very contagious compared to the measles and diphtheria, which have Ro numbers between 12-18, and 6-7 <ref type="bibr" coords="3,211.82,306.95,13.75,8.10" target="#b20">[20]</ref>, <ref type="bibr" coords="3,235.28,306.95,13.76,8.10" target="#b21">[21]</ref>.</s><s xml:id="_NYsQkR6" coords="3,258.85,306.95,35.24,8.10;3,54.00,317.33,239.94,8.10;3,54.00,327.65,240.03,8.10;3,54.00,338.03,183.82,8.10">However, scientists have already developed effective medicine and vaccines to cure such diseases and the government have made several regulations to control the spread of such diseases.</s><s xml:id="_MrV55T4" coords="3,240.86,338.03,53.24,8.10;3,54.00,348.35,239.94,8.10;3,54.00,358.73,159.35,8.10">The Covid-19, on the other hand, does not have an effective way to control its spread due to its complicated transportation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_8rWqzq5">Difficulties to Detect the Virus</head><p xml:id="_NyfajDP"><s xml:id="_XDNjTwf" coords="3,54.00,388.85,240.12,8.10;3,54.00,399.23,240.01,8.10;3,54.00,409.55,44.80,8.10">One of the difficulties to control the spread of the Covid-19 is its trick ability to infect others when the patients cannot completely recognize it.</s><s xml:id="_G59BJKu" coords="3,101.32,409.55,192.76,8.10;3,54.00,419.95,240.16,8.10;3,54.00,430.27,80.39,8.10">The incubation period of the Covid-19 is usually one to fourteen days, and sometimes three to seven days applying to different people <ref type="bibr" coords="3,117.20,430.27,13.75,8.10" target="#b22">[22]</ref>.</s><s xml:id="_SSEw9YS" coords="3,138.49,430.18,155.49,8.18;3,54.00,440.59,204.83,8.10">During the virus's incubation period, the patients cannot feel any symptoms caused by the virus.</s><s xml:id="_P6EBtXF" coords="3,261.92,440.59,32.00,8.10;3,54.00,450.97,239.95,8.10;3,54.00,461.29,74.69,8.10">Thus the doctors cannot find the patients as fast as possible to limit the spread of the virus.</s><s xml:id="_C2KXeSF" coords="3,132.90,461.29,161.09,8.10;3,54.00,471.67,240.00,8.10;3,54.00,481.99,239.94,8.10">The incubation period of the virus is also relatively long, causing the patients exponentially infecting people surrounded by them when they go to work or join parties.</s><s xml:id="_eTrtGVK" coords="3,54.00,492.37,239.94,8.10;3,54.00,502.69,239.99,8.10;3,54.00,513.07,239.99,8.10;3,54.00,523.39,240.09,8.10;3,54.00,533.77,239.95,8.10;3,54.00,544.09,239.91,8.10;3,54.00,554.38,63.17,8.19">Asymptomatic infection may also become a source of transmission of the virus, which means that some patients, due to their special body traits, do not show obvious clinical symptoms due to their weak immune system stress response or their own physical characteristics, but they carry the virus and can infect others and cause other people having the symptoms that they don't have <ref type="bibr" coords="3,99.98,554.47,13.75,8.10" target="#b23">[23]</ref>.</s><s xml:id="_SMSN2cR" coords="3,122.16,554.47,171.77,8.10;3,54.00,564.70,240.01,8.19;3,54.00,575.17,54.19,8.10">Asymptomatic infection is not easy to find, because they don't show any traits that can warn them to do a diagnosed test.</s><s xml:id="_vR8tvjz" coords="3,111.14,575.17,139.46,8.10">The patients themselves do not know.</s><s xml:id="_N6Zu69H" coords="3,253.61,575.17,40.37,8.10;3,54.00,585.49,240.16,8.10;3,54.00,595.87,240.16,8.10;3,54.00,606.19,202.67,8.10">Because of this, it is difficult to control and isolate in time, causing largescale transmission, which also brings up the importance of socialdistancing, section prevention and control work <ref type="bibr" coords="3,239.48,606.19,13.75,8.10" target="#b24">[24]</ref>.</s><s xml:id="_SsEsdDF" coords="3,260.88,606.19,33.19,8.10;3,54.00,616.57,239.94,8.10;3,54.00,626.89,239.94,8.10;3,54.00,637.27,77.05,8.10">Thus the government has to implement coronavirus testing for everybody to diagnose those asymptomatic patients to erase the risks of further transmission.</s><s xml:id="_Y82sPYC" coords="3,140.78,637.27,153.15,8.10;3,54.00,647.59,240.02,8.10;3,54.00,657.97,168.18,8.10">Also, some studies have suggested that patients in the recovery period carry pathogens, but they have not been widely confirmed and need further study.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3" xml:id="_pWqAUwe">Transmission of the virus</head><p xml:id="_KXRAN5Q"><s xml:id="_k8GwGue" coords="3,54.00,688.09,240.03,8.10;3,54.00,698.49,33.55,8.10">Covid-19 entered the body through the ACE2 enzyme located on the lung.</s><s xml:id="_utc3ZRP" coords="3,91.88,698.49,202.11,8.10;3,54.00,708.81,240.15,8.10;3,317.92,56.01,239.90,8.10;3,317.92,66.33,179.99,8.10">ACE2 is a new found Metalloproteinase maintaining located on the alveoli cell, belonging to the I Transmembrane protein playing a significant role in regulating respiratory system, kidney function and blood pressure control <ref type="bibr" coords="3,480.72,66.33,13.75,8.10" target="#b25">[25]</ref>.</s><s xml:id="_ht9apJn" coords="3,501.16,66.33,56.92,8.10;3,317.92,76.71,239.97,8.10;3,317.92,87.03,222.89,8.10">When the virus attaches to the ACE2 in the alveoli cell, the immune system reacts to the contagious cell which causes lung inflammation <ref type="bibr" coords="3,523.62,87.03,13.75,8.10" target="#b26">[26]</ref>.</s><s xml:id="_T6XTmjV" coords="3,544.06,87.03,13.96,8.10;3,317.92,97.41,239.94,8.10;3,317.92,107.73,102.37,8.10">The main route of transmission of the virus is through respiratory droplets and close contact.</s><s xml:id="_ZADNDNQ" coords="3,424.85,107.73,133.07,8.10;3,317.92,118.11,240.05,8.10;3,317.92,128.43,240.10,8.10;3,317.92,138.83,17.19,8.10">Sometimes Under the condition of long-term exposure to high concentration aerosols in a relatively closed environment, it is possible to propagate through aerosols <ref type="bibr" coords="3,317.92,138.83,13.75,8.10" target="#b27">[27]</ref>.</s><s xml:id="_d5X6RKV" coords="3,338.48,138.83,219.38,8.10;3,317.92,149.15,66.46,8.10">Thus the possibility of aerosol propagation increases under certain conditions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_up8nmUV">Figure 3. [28] animated graph showing the infection of the Sars-CoV2 attaching to ACE2 proteins</head><p xml:id="_zDBzh5a"><s xml:id="_3ACrvGW" coords="3,317.92,389.57,239.99,8.10;3,317.92,399.89,239.98,8.10;3,317.92,410.27,138.62,8.10">Recently, a novel coronavirus was detected in the feces of many patients during an experiment that tried to figure out the transmission order of the coronavirus.</s><s xml:id="_M9ysSHR" coords="3,459.31,410.27,98.61,8.10;3,317.92,420.61,240.05,8.10">The experiment shows that there is a possibility of one mouth fecal transmission <ref type="bibr" coords="3,540.78,420.61,13.75,8.10">[28]</ref>.</s></p><p xml:id="_CtvzW8t"><s xml:id="_BHcn8RD" coords="3,317.92,430.99,240.08,8.10;3,317.92,441.31,239.91,8.10;3,317.92,451.69,239.94,8.10;3,317.92,462.01,239.99,8.10;3,317.92,472.39,37.43,8.10">Although in the study of other kinds of coronaviruses, such as horse coronavirus and swine flu, they can be transmitted through fecal oral route, but common human coronaviruses, such as SARS and mers related coronavirus, have no clear case report of fecal oral route.</s><s xml:id="_XHjvGFt" coords="3,358.09,472.39,199.97,8.10;3,317.92,482.71,242.33,8.10">Up to now, there is no conclusive evidence that covid-19 can cause disease by ingesting contaminated food or water <ref type="bibr" coords="3,543.06,482.71,13.75,8.10" target="#b30">[29]</ref>.</s><s xml:id="_8NGH4Z4" coords="3,317.92,493.09,240.05,8.10;3,317.92,503.41,240.02,8.10;3,317.92,513.79,85.46,8.10">Scientists still cannot rule out the possibility that covid-19 can spread in the form of aerosol or contact under certain conditions after excretion of feces.</s><s xml:id="_Y9Dyg8t" coords="3,405.86,513.79,152.03,8.10;3,317.92,524.11,240.02,8.10;3,317.92,534.49,239.92,8.10;3,317.92,544.81,240.02,8.10;3,317.92,555.19,124.94,8.10">Recent studies have shown that there may be mother to child vertical transmission of the new coronavirus, but preliminary evidence shows that infection in late pregnancy will not cause vertical transmission, which other studies have found that the urinary system <ref type="bibr" coords="3,425.73,555.19,13.70,8.10" target="#b31">[30]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4" xml:id="_gBuS3We">Susceptible Population</head><p xml:id="_GRcSRgK"><s xml:id="_VtpUcfW" coords="3,317.92,585.31,239.99,8.10;3,317.92,595.69,239.93,8.10;3,317.92,606.01,240.10,8.10;3,317.92,616.39,39.28,8.10">During recent experiments, scientists believed that people are generally susceptible, due to the emergence of a new virus, in which people generally have no resistance and cannot produce antibodies.</s><s xml:id="_yWfryqW" coords="3,360.99,616.39,196.92,8.10;3,317.92,626.71,239.96,8.10;3,317.92,637.09,239.90,8.10;3,317.92,647.41,120.39,8.10">According to the sample taken in Hunan China, the data showing the percentage of male infection and women infection 1.09:1, 0.8:1, which does not show a statistically significance for this data <ref type="bibr" coords="3,421.12,647.41,13.75,8.10" target="#b32">[31]</ref>.</s><s xml:id="_D89mStD" coords="3,443.61,647.41,114.44,8.10;3,317.92,657.79,239.89,8.10;3,317.92,668.11,240.00,8.10">In terms of age, there is no difference in the ability to resist the virus among all age groups, and they are susceptible to the virus under suitable conditions.</s><s xml:id="_3bHHfhg" coords="3,317.92,678.49,239.91,8.10;3,317.92,688.81,240.12,8.10">However, the infection rate of the elderly and those with basic diseases increases compared to the infection rate of the adults.</s><s xml:id="_zZ4vfhp" coords="3,317.92,699.21,219.56,8.10">Most of the elderly have relatively weak immune function.</s><s xml:id="_FTAfyy5" coords="3,540.75,699.21,17.19,8.10;3,317.92,709.53,240.00,8.10;4,54.00,56.01,223.21,8.10">As a result, they are more dangerous exposed under the virus and are more susceptible and high-risk groups of infectious diseases.</s><s xml:id="_E3FMWeQ" coords="4,280.04,56.01,14.00,8.10;4,54.00,66.33,240.19,8.10;4,54.00,76.71,201.20,8.10">The majority of the population that are critically infected in this pandemic usually have high ages such as sixty or older.</s><s xml:id="_DUEP27g" coords="4,257.57,76.71,36.37,8.10;4,54.00,87.03,240.07,8.10;4,54.00,97.41,239.96,8.10;4,54.00,107.73,140.21,8.10">The novel coronavirus is susceptible to pneumonia in children and pregnant women as well, since they also have relatively weak immunity ability compared to a health adult <ref type="bibr" coords="4,177.02,107.73,13.75,8.10" target="#b33">[32]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_dpZuP9Q">Conclusion and Concern</head><p xml:id="_T2bq4gJ"><s xml:id="_8yVknYp" coords="4,54.00,137.93,239.95,8.10;4,54.00,148.25,240.08,8.10;4,54.00,158.63,85.34,8.10">The World has already exposed three major pandemics involved in coronavirus: the Sars-CoV in 2002, Mers-CoV in 2012 and the SARs-CoV-2 in 2020.</s><s xml:id="_XRKpeGs" coords="4,144.14,158.63,149.85,8.10;4,54.00,168.95,240.24,8.10;4,54.00,179.33,239.91,8.10;4,54.00,189.65,186.99,8.10">Even though the new Coronavirus has seventy five percent similarity with the SARs-CoV, the new virus actually contains a lot of new traits that scientists still cannot solve, like its epidemiological and etiology traits.</s><s xml:id="_yH9bE6u" coords="4,244.89,189.65,48.97,8.10;4,54.00,200.03,240.02,8.10;4,54.00,210.35,35.24,8.10">Recently, the implementation of herd immunity became popular among some countries.</s><s xml:id="_QRkW5bm" coords="4,92.39,210.35,201.75,8.10;4,54.00,220.73,239.94,8.10;4,54.00,231.05,239.90,8.10;4,54.00,241.43,239.95,8.10">As a high school student, I am very disappointed with the idea of herd immunity following the old trend of social Darwinism, the indifference of the government in the herds and I hope people can find a way altogether solving the pandemic issue.</s><s xml:id="_v4AeeqK" coords="4,54.00,251.75,240.06,8.10;4,54.00,262.13,240.01,8.10;4,54.00,272.45,78.70,8.10">Scientists already experienced the previous two pandemics and accumulated a lot of relative information about the control and cure of the pandemic.</s><s xml:id="_Mnn8vCr" coords="4,135.25,272.45,158.75,8.10;4,54.00,282.83,240.00,8.10;4,54.00,293.15,220.24,8.10">Based on the successful clinical trial for the Sars-CoV diseases, scientists have already made significant progress for developing treatments for the new coronavirus.</s><s xml:id="_aGCcstP" coords="4,277.18,293.15,17.01,8.10;4,54.00,303.53,239.92,8.10;4,54.00,313.85,239.89,8.10;4,54.00,324.23,111.66,8.10">As a result, I hope that the research on the virus can effectively limit the outbreak of the pandemic and we can finally overcome the virus and embrace our success.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,172.16,269.03,267.73,8.10;2,203.78,285.35,204.50,8.10"><head>Figure 1 (</head><label>1</label><figDesc><div><p xml:id="_MsURxUd"><s xml:id="_WNhCZQH" coords="2,172.16,269.03,45.00,8.10">Figure 1(a).</s><s xml:id="_c9HwasT" coords="2,219.44,269.03,220.45,8.10;2,203.78,285.35,204.50,8.10">The structure of the Sars-CoV2 under electron microscope 9]Figure1 (b) animated inner structure of Sars-CoV2<ref type="bibr" coords="2,393.28,285.35,15.00,8.10" target="#b10">[10]</ref></s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="2,68.40,547.93,475.02,8.10;2,286.66,558.25,38.75,8.10"><head>Figure 2 . [ 13 ]</head><label>213</label><figDesc><div><p xml:id="_A3Sg636"><s xml:id="_apAyp9E" coords="2,68.40,547.93,475.02,8.10;2,286.66,558.25,38.75,8.10">Figure 2. [13] Lineage of coronavirus graph, which the letters marked as red represent the cluster that the new Coronavirus belongs to</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="2,54.00,600.52,240.10,8.19;2,54.00,610.93,239.95,8.10;2,54.00,621.22,239.98,8.18;2,54.00,631.63,240.07,8.10;2,54.00,642.01,239.99,8.10;2,54.00,652.33,240.14,8.10;2,54.00,662.71,240.07,8.10;2,54.00,673.03,240.07,8.10;2,54.00,683.41,240.22,8.10;2,54.00,693.73,50.82,8.10"><head>Figure 1 (</head><label>1</label><figDesc><div><p xml:id="_GzHTXt4"><s xml:id="_KkTN5x2" coords="2,54.00,600.52,240.10,8.19;2,54.00,610.93,45.24,8.10">Figure 1 (a) shows Covid-19's structure under the electronic macroscope.</s><s xml:id="_fgEP65w" coords="2,102.38,610.93,191.57,8.10;2,54.00,621.22,22.76,8.18">Under the scope, the virus is in a relatively circular shape.</s><s xml:id="_6VG7rhD" coords="2,79.89,621.22,214.08,8.18;2,54.00,631.63,240.07,8.10;2,54.00,642.01,223.44,8.10">Figure 1(b) shows a diagram of the virus' inner structure.The virus is an enveloped, multi-shaped or round shaped single RNA virus with a radius usually ranging from 150 to 160nm.</s><s xml:id="_2xUNPYG" coords="2,279.99,642.01,14.00,8.10;2,54.00,652.33,240.14,8.10;2,54.00,662.71,188.21,8.10">The virus contains positive-sense single-stranded RNA, unsegmented capsid, matrix, Nucleoproteins, and S proteins<ref type="bibr" coords="2,225.02,662.71,13.75,8.10" target="#b11">[11]</ref>.</s><s xml:id="_y9hK23P" coords="2,244.86,662.71,49.21,8.10;2,54.00,673.03,240.07,8.10;2,54.00,683.41,240.22,8.10;2,54.00,693.73,50.82,8.10">By tracing its ancestry and relatives, scientists discovered that Sars-CoV2 belongs to cluster three of the sabecovirus subgenus as figure2describes<ref type="bibr" coords="2,89.82,693.73,15.00,8.10" target="#b12">[12]</ref></s></p></div></figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="4,58.50,341.50,92.38,10.80" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_6ybBtWp">Voltage References</title>
+		<author>
+			<persName coords=""><surname>References</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/9780470547038.ch3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_rGJRwEC">Voltage References</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">REFERENCES</note>
+</biblStruct>
+
+<biblStruct coords="4,75.00,354.35,221.31,8.10;4,75.00,364.73,206.90,8.10;4,75.00,375.05,204.18,8.10;4,75.00,385.43,205.49,8.10;4,75.00,395.75,200.36,8.10" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="4,75.00,364.73,206.90,8.10;4,75.00,375.05,204.18,8.10;4,75.00,385.43,100.31,8.10" xml:id="_TK56bdH">Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges</title>
+		<author>
+			<persName><forename type="first">Chih-Cheng</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tzu-Ping</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wen-Chien</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hung-Jen</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Po-Ren</forename><surname>Hsueh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijantimicag.2020.105924</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9fg5HMx" coord="4,181.28,385.43,85.68,8.10">International Journal of Antimicrobial Agents</title>
+		<title level="j" type="abbrev">International Journal of Antimicrobial Agents</title>
+		<idno type="ISSN">0924-8579</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">105924</biblScope>
+			<date type="published" when="2020-03">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lai, C. C., Shih, T. P., Ko, W. C., Tang, H. J. &amp; Hsueh, P. R. Severe acute respiratory syndrome coronavirus 2 (SARS- CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges. Int J Antimicrob Agents 55, 105924, doi:10.1016/j.ijantimicag.2020.105924 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,75.00,406.13,173.73,8.10;4,75.00,416.47,188.67,8.10;4,75.00,426.79,213.20,8.10;4,75.00,437.17,26.26,8.10" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="4,173.28,406.13,75.45,8.10;4,75.00,416.47,150.31,8.10" xml:id="_vp7jGF3">COVID-19: Disease, management, treatment, and social impact</title>
+		<author>
+			<persName><forename type="first">Imran</forename><surname>Ali</surname></persName>
+			<idno type="ORCID">0000-0001-6511-8374</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Omar</forename><forename type="middle">M L</forename><surname>Alharbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scitotenv.2020.138861</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_b5SBVFF" coord="4,231.50,416.47,32.17,8.10;4,75.00,426.79,29.03,8.10">Science of The Total Environment</title>
+		<title level="j" type="abbrev">Science of The Total Environment</title>
+		<idno type="ISSN">0048-9697</idno>
+		<imprint>
+			<biblScope unit="volume">728</biblScope>
+			<biblScope unit="page">138861</biblScope>
+			<date type="published" when="2020-08">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ali, I. &amp; Alharbi, O. M. L. COVID-19: Disease, management, treatment, and social impact. Sci Total Environ 728, 138861, doi:10.1016/j.scitotenv.2020.138861 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,75.00,447.49,195.87,8.10;4,75.00,457.87,213.59,8.10;4,75.00,468.19,179.50,8.10;4,75.00,478.57,126.16,8.10" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="4,127.28,447.49,143.59,8.10;4,75.00,457.87,213.59,8.10;4,75.00,468.19,29.05,8.10" xml:id="_Mv6SucP">Experiences and Practices in the Current Prevention and Control of the Novel Coronavirus Pneumonia in China</title>
+		<author>
+			<persName><forename type="first">Shen</forename><surname>Shao</surname></persName>
+			<idno type="ORCID">0000-0003-4363-8883</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Zichen</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yue</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shuyu</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lu</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shike</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bin</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chunxia</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haojun</forename><surname>Fan</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/dmp.2020.173</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_6zNrjD8" coord="4,110.30,468.19,119.26,8.10">Disaster Medicine and Public Health Preparedness</title>
+		<title level="j" type="abbrev">Disaster med. public health prep.</title>
+		<idno type="ISSN">1935-7893</idno>
+		<idno type="ISSNe">1938-744X</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="e7" to="e16" />
+			<date type="published" when="2020-05-29">2020</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shao, S. et al. Experiences and practices in the current prevention and control of the novel coronavirus pneumonia in China. Disaster Med Public Health Prep, 1-19, doi:10.1017/dmp.2020.173 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,75.00,488.89,215.84,8.10;4,75.00,499.27,198.81,8.10;4,75.00,509.59,167.99,8.10;4,75.00,519.97,121.44,8.10" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="4,210.19,488.89,80.65,8.10;4,75.00,499.27,198.81,8.10;4,75.00,509.59,75.29,8.10" xml:id="_hP2gXzJ">A MURINE VIRUS (JHM) CAUSING DISSEMINATED ENCEPHALOMYELITIS WITH EXTENSIVE DESTRUCTION OF MYELIN</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">Sargent</forename><surname>Cheever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joan</forename><forename type="middle">B</forename><surname>Daniels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alwin</forename><forename type="middle">M</forename><surname>Pappenheimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Orville</forename><forename type="middle">T</forename><surname>Bailey</surname></persName>
+		</author>
+		<idno type="DOI">10.1084/jem.90.3.181</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xBKWEYQ" coord="4,156.50,509.59,38.48,8.10">Journal of Experimental Medicine</title>
+		<idno type="ISSN">0022-1007</idno>
+		<idno type="ISSNe">1540-9538</idno>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="181" to="194" />
+			<date type="published" when="1949-09-01">1949</date>
+			<publisher>Rockefeller University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheever, F. S., Daniels, J. B. &amp; et al. A murine virus (JHM) causing disseminated encephalomyelitis with extensive destruction of myelin. J Exp Med 90, 181-210, doi:10.1084/jem.90.3.181 (1949).</note>
+</biblStruct>
+
+<biblStruct coords="4,75.00,530.29,193.34,8.10;4,75.00,540.67,214.14,8.10;4,75.00,550.99,221.22,8.10;4,75.00,561.37,127.48,8.10;4,75.00,571.69,121.38,8.10" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="4,125.52,540.67,163.62,8.10;4,75.00,550.99,218.65,8.10" xml:id="_nbBVugH">A MURINE VIRUS (JHM) CAUSING DISSEMINATED ENCEPHALOMYELITIS WITH EXTENSIVE DESTRUCTION OF MYELIN</title>
+		<author>
+			<persName><forename type="first">Orville</forename><forename type="middle">T</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alwin</forename><forename type="middle">M</forename><surname>Pappenheimer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">Sargent</forename><surname>Cheever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joan</forename><forename type="middle">B</forename><surname>Daniels</surname></persName>
+		</author>
+		<idno type="DOI">10.1084/jem.90.3.195</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_smPJru3" coord="4,75.00,561.37,79.54,8.10">Journal of Experimental Medicine</title>
+		<idno type="ISSN">0022-1007</idno>
+		<idno type="ISSNe">1540-9538</idno>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="195" to="212" />
+			<date type="published" when="1949-09-01">1949</date>
+			<publisher>Rockefeller University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bailey, O. T., Pappenheimer, A. M., Cheever, F. S. &amp; Daniels, J. B. A Murine Virus (Jhm) Causing Disseminated Encephalomyelitis with Extensive Destruction of Myelin : Ii. Pathology. J Exp Med 90, 195-212, doi:10.1084/jem.90.3.195 (1949).</note>
+</biblStruct>
+
+<biblStruct coords="4,75.00,582.07,213.29,8.10;4,75.00,592.39,209.78,8.10;4,75.00,602.77,170.31,8.10" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="4,181.22,582.07,107.07,8.10;4,75.00,592.39,83.13,8.10" xml:id="_h2ZPTjB">A New Virus Isolated from the Human Respiratory Tract.</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Hamre</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Procknow</surname></persName>
+		</author>
+		<idno type="DOI">10.3181/00379727-121-30734</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gE3Y6Es" coord="4,163.52,592.39,84.39,8.10">Experimental Biology and Medicine</title>
+		<title level="j" type="abbrev">Experimental Biology and Medicine</title>
+		<idno type="ISSN">1535-3702</idno>
+		<idno type="ISSNe">1535-3699</idno>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="190" to="193" />
+			<date type="published" when="1966-01-01">1966</date>
+			<publisher>Frontiers Media SA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hamre, D. &amp; Procknow, J. J. A new virus isolated from the human respiratory tract. Proc Soc Exp Biol Med 121, 190- 193, doi:10.3181/00379727-121-30734 (1966).</note>
+</biblStruct>
+
+<biblStruct coords="4,75.00,613.09,216.41,8.10;4,75.00,623.47,209.94,8.10;4,75.00,633.79,129.70,8.10;4,75.00,644.17,161.10,8.10" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="4,190.66,613.09,100.75,8.10;4,75.00,623.47,209.94,8.10;4,75.00,633.79,55.54,8.10" xml:id="_bjpNpK8">Origins and pathogenesis of Middle East respiratory syndrome-associated coronavirus: recent advances</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">A</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><forename type="middle">R</forename><surname>Weiss</surname></persName>
+			<idno type="ORCID">0000-0002-8155-4528</idno>
+		</author>
+		<idno type="DOI">10.12688/f1000research.11827.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_58X563e" coord="4,136.76,633.79,36.50,8.10">F1000Research</title>
+		<title level="j" type="abbrev">F1000Res</title>
+		<idno type="ISSNe">2046-1402</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1628</biblScope>
+			<date type="published" when="2017-09-01">2017</date>
+			<publisher>F1000 Research Ltd</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goldstein, S. A. &amp; Weiss, S. R. Origins and pathogenesis of Middle East respiratory syndrome-associated coronavirus: recent advances. F1000Res 6, 1628, doi:10.12688/f1000research.11827.1 (2017).</note>
+</biblStruct>
+
+<biblStruct coords="4,75.00,654.49,205.72,8.10;4,75.00,664.87,203.81,8.10;4,75.00,675.19,212.77,8.10;4,75.00,685.57,150.96,8.10" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="4,143.36,654.49,137.37,8.10;4,75.00,664.87,203.81,8.10;4,75.00,675.19,160.29,8.10" xml:id="_gkmVXkS">Non‐parametric estimation of the case fatality ratio with competing risks data: an application to Severe Acute Respiratory Syndrome (SARS)</title>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">P</forename><surname>Jewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiudong</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Azra</forename><forename type="middle">C</forename><surname>Ghani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christl</forename><forename type="middle">A</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gabriel</forename><forename type="middle">M</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lai‐ming</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benjamin</forename><forename type="middle">J</forename><surname>Cowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Hedley</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/sim.2691</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cGcWCU9" coord="4,242.00,675.19,32.27,8.10">Statistics in Medicine</title>
+		<title level="j" type="abbrev">Statistics in Medicine</title>
+		<idno type="ISSN">0277-6715</idno>
+		<idno type="ISSNe">1097-0258</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1982" to="1998" />
+			<date type="published" when="1982">1982-1998. 2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jewell, N. P. et al. Non-parametric estimation of the case fatality ratio with competing risks data: an application to Severe Acute Respiratory Syndrome (SARS). Stat Med 26, 1982-1998, doi:10.1002/sim.2691 (2007).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,56.01,196.39,8.10;4,338.92,66.33,202.72,8.10;4,338.92,76.71,137.70,8.10" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="4,389.19,56.01,146.12,8.10;4,338.92,66.33,71.82,8.10" xml:id="_qajc8xK">A Novel Coronavirus from Patients with Pneumonia in China, 2019</title>
+		<author>
+			<persName><forename type="first">Na</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dingyu</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenling</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xingwang</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bo</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jingdong</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiang</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Baoying</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weifeng</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roujian</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peihua</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Faxian</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xuejun</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dayan</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenbo</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guizhen</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenjie</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/nejmoa2001017</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GhGG9nt" coord="4,439.48,66.33,49.71,8.10">New England Journal of Medicine</title>
+		<title level="j" type="abbrev">N Engl J Med</title>
+		<idno type="ISSN">0028-4793</idno>
+		<idno type="ISSNe">1533-4406</idno>
+		<imprint>
+			<biblScope unit="volume">382</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="727" to="733" />
+			<date type="published" when="2019">2019. 2020</date>
+			<publisher>Massachusetts Medical Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu, N. et al. A Novel Coronavirus from Patients with Pneumonia in China, 2019. N Engl J Med 382, 727-733, doi:10.1056/NEJMoa2001017 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,87.03,212.15,8.10;4,338.92,97.41,198.93,8.10;4,338.92,107.73,199.88,8.10" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="4,461.10,87.03,89.96,8.10;4,338.92,97.41,150.68,8.10" xml:id="_7bRURGS">Genotype and phenotype of COVID-19: Their roles in pathogenesis</title>
+		<author>
+			<persName><forename type="first">Leila</forename><surname>Mousavizadeh</surname></persName>
+			<idno type="ORCID">0000-0002-7943-085X</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sorayya</forename><surname>Ghasemi</surname></persName>
+			<idno type="ORCID">0000-0001-8504-7112</idno>
+		</author>
+		<idno type="DOI">10.1016/j.jmii.2020.03.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hKqepQE" coord="4,495.66,97.41,42.19,8.10;4,338.92,107.73,53.77,8.10">Journal of Microbiology, Immunology and Infection</title>
+		<title level="j" type="abbrev">Journal of Microbiology, Immunology and Infection</title>
+		<idno type="ISSN">1684-1182</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="159" to="163" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mousavizadeh, L. &amp; Ghasemi, S. Genotype and phenotype of COVID-19: Their roles in pathogenesis. J Microbiol Immunol Infect, doi:10.1016/j.jmii.2020.03.022 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,118.11,188.56,8.10;4,338.92,128.43,207.32,8.10;4,338.92,138.83,212.15,8.10;4,338.92,149.15,26.26,8.10" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="4,434.11,118.11,93.37,8.10;4,338.92,128.43,189.23,8.10" xml:id="_T9RkC5b">Novel human coronavirus (SARS-CoV-2): A lesson from animal coronaviruses</title>
+		<author>
+			<persName><forename type="first">Nicola</forename><surname>Decaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessio</forename><surname>Lorusso</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.vetmic.2020.108693</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yrbfQGC" coord="4,534.24,128.43,12.00,8.10;4,338.92,138.83,36.04,8.10">Veterinary Microbiology</title>
+		<title level="j" type="abbrev">Veterinary Microbiology</title>
+		<idno type="ISSN">0378-1135</idno>
+		<imprint>
+			<biblScope unit="volume">244</biblScope>
+			<biblScope unit="page">108693</biblScope>
+			<date type="published" when="2020-05">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Decaro, N. &amp; Lorusso, A. Novel human coronavirus (SARS-CoV-2): A lesson from animal coronaviruses. Vet Microbiol 244, 108693, doi:10.1016/j.vetmic.2020.108693 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,159.53,215.44,8.10;4,338.92,169.85,218.01,8.10;4,338.92,180.23,209.84,8.10;4,338.92,190.55,181.24,8.10" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="4,400.18,159.53,154.18,8.10;4,338.92,169.85,218.01,8.10;4,338.92,180.23,142.91,8.10" xml:id="_MrtUMey">A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster</title>
+		<author>
+			<persName><forename type="first">Jasper Fuk-Woo</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shuofeng</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kin-Hang</forename><surname>Kok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kelvin Kai-Wang</forename><surname>To</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hin</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fanfan</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jieling</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cyril Chik-Yan</forename><surname>Yip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rosana Wing-Shan</forename><surname>Poon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hoi-Wah</forename><surname>Tsoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon Kam-Fai</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kwok-Hung</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent Kwok-Man</forename><surname>Poon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wan-Mui</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><forename type="middle">Daniel</forename><surname>Ip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jian-Piao</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent Chi-Chung</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Honglin</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher Kim-Ming</forename><surname>Hui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kwok-Yung</forename><surname>Yuen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0140-6736(20)30154-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MsygChr" coord="4,487.50,180.23,24.44,8.10">The Lancet</title>
+		<title level="j" type="abbrev">The Lancet</title>
+		<idno type="ISSN">0140-6736</idno>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="issue">10223</biblScope>
+			<biblScope unit="page" from="514" to="523" />
+			<date type="published" when="2020-02">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chan, J. F. et al. A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster. Lancet 395, 514- 523, doi:10.1016/S0140-6736(20)30154-9 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,200.93,216.65,8.10;4,338.92,211.25,204.94,8.10;4,338.92,221.63,145.22,8.10" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="4,392.19,200.93,163.38,8.10;4,338.92,211.25,121.75,8.10" xml:id="_YumrDX8">A pneumonia outbreak associated with a new coronavirus of probable bat origin</title>
+		<author>
+			<persName><forename type="first">Peng</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xing-Lou</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xian-Guang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lei</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hao-Rui</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bei</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chao-Lin</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hui-Dong</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jing</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yun</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hua</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ren-Di</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mei-Qin</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ying</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xu-Rui</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xi</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiao-Shuang</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kai</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Quan-Jiao</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fei</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lin-Lin</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bing</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fa-Xian</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan-Yi</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geng-Fu</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zheng-Li</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-020-2012-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ew4sKE2" coord="4,466.42,211.25,25.00,8.10">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">579</biblScope>
+			<biblScope unit="issue">7798</biblScope>
+			<biblScope unit="page" from="270" to="273" />
+			<date type="published" when="2020-02-03">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou, P. et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 579, 270-273, doi:10.1038/s41586-020-2012-7 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,231.95,209.86,8.10;4,338.92,242.33,191.74,8.10;4,338.92,252.65,202.76,8.10;4,338.92,263.03,26.26,8.10" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="4,385.72,231.95,163.06,8.10;4,338.92,242.33,162.16,8.10" xml:id="_UpRTWKN">Genomic characterization and infectivity of a novel SARS-like coronavirus in Chinese bats</title>
+		<author>
+			<persName><forename type="first">Dan</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Changqiang</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lele</forename><surname>Ai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ting</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fuqiang</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lu</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chenxi</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xuhui</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruicheng</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bachar</forename><surname>Hassan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Youjun</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weilong</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Changjun</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41426-018-0155-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CQGjeDY" coord="4,506.70,242.33,23.96,8.10;4,338.92,252.65,56.74,8.10">Emerging Microbes &amp; Infections</title>
+		<title level="j" type="abbrev">Emerging Microbes &amp; Infections</title>
+		<idno type="ISSNe">2222-1751</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2018-09-12">2018</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu, D. et al. Genomic characterization and infectivity of a novel SARS-like coronavirus in Chinese bats. Emerg Microbes Infect 7, 154, doi:10.1038/s41426-018-0155-5 (2018).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,273.35,214.07,8.10;4,338.92,283.73,209.69,8.10;4,338.92,294.05,214.76,8.10;4,338.92,304.43,91.51,8.10" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="4,384.22,273.35,168.77,8.10;4,338.92,283.73,209.69,8.10;4,338.92,294.05,57.72,8.10" xml:id="_yqfYARD">Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0140-6736</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KRpywUG" coord="4,402.70,294.05,24.46,8.10">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="page" from="30251" to="30258" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lu, R. et al. Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet 395, 565-574, doi:10.1016/S0140- 6736(20)30251-8 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,314.75,189.62,8.10;4,338.92,325.13,213.83,8.10;4,338.92,335.45,213.79,8.10;4,338.92,345.83,26.26,8.10" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="4,394.24,314.75,134.31,8.10;4,338.92,325.13,213.83,8.10;4,338.92,335.45,71.61,8.10" xml:id="_tpcm5rS">Structure-Guided Mutagenesis Alters Deubiquitinating Activity and Attenuates Pathogenesis of a Murine Coronavirus</title>
+		<author>
+			<persName><forename type="first">Xufang</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yafang</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anna</forename><forename type="middle">M</forename><surname>Mielech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Hackbart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kristina</forename><forename type="middle">R</forename><surname>Kesely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Mettelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amornrat</forename><surname>O’brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mackenzie</forename><forename type="middle">E</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">D</forename><surname>Mesecar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><forename type="middle">C</forename><surname>Baker</surname></persName>
+			<idno type="ORCID">0000-0001-6485-8143</idno>
+		</author>
+		<idno type="DOI">10.1128/jvi.01734-19</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qkRQnuX" coord="4,416.74,335.45,24.70,8.10">Journal of Virology</title>
+		<title level="j" type="abbrev">J Virol</title>
+		<idno type="ISSN">0022-538X</idno>
+		<idno type="ISSNe">1098-5514</idno>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2020-05-18">2020</date>
+			<publisher>American Society for Microbiology</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deng, X. et al. Structure-Guided Mutagenesis Alters Deubiquitinating Activity and Attenuates Pathogenesis of a Murine Coronavirus. J Virol 94, doi:10.1128/JVI.01734-19 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,356.15,207.02,8.10;4,338.92,366.53,214.39,8.10;4,338.92,376.85,113.53,8.10" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="4,396.63,356.15,149.30,8.10;4,338.92,366.53,130.77,8.10" xml:id="_EKMD9PS">Diagnosis and treatment recommendation for pediatric coronavirus disease-19]</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UY2FbyJ" coord="4,475.62,366.53,77.69,8.10;4,338.92,376.85,57.26,8.10">Zhejiang Da Xue Xue Bao Yi Xue Ban</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, Z. et al. [Diagnosis and treatment recommendation for pediatric coronavirus disease-19]. Zhejiang Da Xue Xue Bao Yi Xue Ban 49, 1-8 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,387.23,209.56,8.10;4,338.92,397.55,197.89,8.10;4,338.92,407.93,144.29,8.10;4,338.92,418.27,132.47,8.10" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="4,397.89,397.55,138.92,8.10;4,338.92,407.93,46.71,8.10" xml:id="_k67kjFa">Complexity of the Basic Reproduction Number (R&lt;sub&gt;0&lt;/sub&gt;)</title>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">L</forename><surname>Delamater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erica</forename><forename type="middle">J</forename><surname>Street</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">F</forename><surname>Leslie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">Tony</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathryn</forename><forename type="middle">H</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<idno type="DOI">10.3201/eid2501.171901</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CBDFYCC" coord="4,391.72,407.93,61.51,8.10">Emerging Infectious Diseases</title>
+		<title level="j" type="abbrev">Emerg. Infect. Dis.</title>
+		<idno type="ISSN">1080-6040</idno>
+		<idno type="ISSNe">1080-6059</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2019-01">2019</date>
+			<publisher>Centers for Disease Control and Prevention (CDC)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delamater, P. L., Street, E. J., Leslie, T. F., Yang, Y. T. &amp; Jacobsen, K. H. Complexity of the Basic Reproduction Number (R0). Emerg Infect Dis 25, 1-4, doi:10.3201/eid2501.171901 (2019).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,428.59,218.59,8.10;4,338.92,438.97,179.89,8.10;4,338.92,449.29,202.61,8.10;4,338.92,459.67,208.04,8.10;4,338.92,469.99,195.26,8.10;4,338.92,480.37,93.69,8.10" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="4,338.92,428.59,218.59,8.10;4,338.92,438.97,179.89,8.10;4,338.92,449.29,202.61,8.10;4,338.92,459.67,112.66,8.10" xml:id="_vHgCdHs">Epidemiology Working Group for Ncip Epidemic Response, C. C. f. D. C. &amp; Prevention. [The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) in China]</title>
+		<idno type="DOI">10.3760/cma.j.issn.0254-6450.2020.02.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7rFWqqg" coord="4,457.72,459.67,89.24,8.10;4,338.92,469.99,40.06,8.10">Zhonghua Liu Xing Bing Xue Za Zhi</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="145" to="151" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Epidemiology Working Group for Ncip Epidemic Response, C. C. f. D. C. &amp; Prevention. [The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) in China]. Zhonghua Liu Xing Bing Xue Za Zhi 41, 145-151, doi:10.3760/cma.j.issn.0254- 6450.2020.02.003 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,490.69,215.13,8.10;4,338.92,501.07,218.36,8.10;4,338.92,511.39,143.42,8.10;4,338.92,521.77,107.98,8.10" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="4,385.72,490.69,168.34,8.10;4,338.92,501.07,188.12,8.10" xml:id="_MsFmBfk">The epidemiological characteristics of measles and difficulties of measles elimination in Hang Zhou, China</title>
+		<author>
+			<persName><forename type="first">Shijun</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erping</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xioaping</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jian</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xinren</forename><surname>Che</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenwen</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="DOI">10.4161/hv.24032</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sjU7Vgh" coord="4,338.92,511.39,90.92,8.10">Human Vaccines &amp; Immunotherapeutics</title>
+		<title level="j" type="abbrev">Human Vaccines &amp; Immunotherapeutics</title>
+		<idno type="ISSN">2164-5515</idno>
+		<idno type="ISSNe">2164-554X</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1296" to="1302" />
+			<date type="published" when="2013-06-12">2013</date>
+			<publisher>Informa UK Limited</publisher>
+			<pubPlace>China</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, S. et al. The epidemiological characteristics of measles and difficulties of measles elimination in Hang Zhou, China. Hum Vaccin Immunother 9, 1296-1302, doi:10.4161/hv.24032 (2013).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,532.09,203.59,8.10;4,338.92,542.47,202.80,8.10;4,338.92,552.79,217.71,8.10;4,338.92,563.17,187.16,8.10" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="4,399.04,542.47,142.68,8.10;4,338.92,552.79,153.11,8.10" xml:id="_a3e9ZT6">Diphtheria: epidemiological update and review of prevention and control strategies</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Prospero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Raffo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Bagnoli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Appignanesi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>D'errico</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1007305205763</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_eRwbejr" coord="4,497.64,552.79,59.00,8.10">European Journal of Epidemiology</title>
+		<idno type="ISSN">0393-2990</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="527" to="534" />
+			<date type="published" when="1997">1997</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Prospero, E., Raffo, M., Bagnoli, M., Appignanesi, R. &amp; D&apos;Errico, M. M. Diphtheria: epidemiological update and review of prevention and control strategies. Eur J Epidemiol 13, 527-534, doi:10.1023/a:1007305205763 (1997).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,573.49,203.23,8.10;4,338.92,583.87,186.12,8.10;4,338.92,594.19,209.30,8.10;4,338.92,604.57,182.97,8.10" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="4,405.16,573.49,136.99,8.10;4,338.92,583.87,186.12,8.10;4,338.92,594.19,164.49,8.10" xml:id="_Em6dD8M">The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">A</forename><surname>Lauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kyra</forename><forename type="middle">H</forename><surname>Grantz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qifang</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Forrest</forename><forename type="middle">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qulu</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hannah</forename><forename type="middle">R</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">S</forename><surname>Azman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">G</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Justin</forename><surname>Lessler</surname></persName>
+		</author>
+		<idno type="DOI">10.7326/m20-0504</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PUUy2AG" coord="4,509.46,594.19,38.76,8.10;4,338.92,604.57,16.01,8.10">Annals of Internal Medicine</title>
+		<title level="j" type="abbrev">Annals of Internal Medicine</title>
+		<idno type="ISSN">0003-4819</idno>
+		<idno type="ISSNe">1539-3704</idno>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="577" to="582" />
+			<date type="published" when="2020-05-05">2020</date>
+			<publisher>American College of Physicians</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lauer, S. A. et al. The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application. Ann Intern Med 172, 577-582, doi:10.7326/M20-0504 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,614.89,195.89,8.10;4,338.92,625.27,207.04,8.10;4,338.92,635.59,221.27,8.10" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="4,400.37,614.89,134.44,8.10;4,338.92,625.27,158.51,8.10" xml:id="_JtT9bht">Asymptomatic coronavirus infection: MERS-CoV and SARS-CoV-2 (COVID-19)</title>
+		<author>
+			<persName coords=""><forename type="first">Jaffar</forename><forename type="middle">A</forename><surname>Al-Tawfiq</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tmaid.2020.101608</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uBTMsUH" coord="4,504.18,625.27,41.78,8.10;4,338.92,635.59,34.14,8.10">Travel Medicine and Infectious Disease</title>
+		<title level="j" type="abbrev">Travel Medicine and Infectious Disease</title>
+		<idno type="ISSN">1477-8939</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">101608</biblScope>
+			<date type="published" when="2020-05">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Al-Tawfiq, J. A. Asymptomatic coronavirus infection: MERS-CoV and SARS-CoV-2 (COVID-19). Travel Med Infect Dis, 101608, doi:10.1016/j.tmaid.2020.101608 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,645.97,213.41,8.10;4,338.92,656.29,213.52,8.10;4,338.92,666.67,201.02,8.10;4,338.92,676.99,218.40,8.10;4,338.92,687.37,221.31,8.10" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="4,370.92,656.29,181.52,8.10;4,338.92,666.67,201.02,8.10;4,338.92,676.99,214.83,8.10" xml:id="_gKmVbPr">COVID-19 Pandemic: International Variation of Personal Protective Equipment and Infection Prevention and Control Guidelines</title>
+		<author>
+			<persName><forename type="first">Vivian</forename><forename type="middle">H Y</forename><surname>Ip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rakesh</forename><forename type="middle">V</forename><surname>Sondekoppam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timur</forename><forename type="middle">J P</forename><surname>Özelsel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ban</forename><forename type="middle">C H</forename><surname>Tsui</surname></persName>
+		</author>
+		<idno type="DOI">10.1213/ane.0000000000004941</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dXMqXan" coord="4,338.92,687.37,47.12,8.10">Anesthesia &amp; Analgesia</title>
+		<idno type="ISSN">0003-2999</idno>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="e113" to="e114" />
+			<date type="published" when="2020-05-01">2020</date>
+			<publisher>Ovid Technologies (Wolters Kluwer Health)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ip, V. H. Y., Sondekoppam, R. V., Ozelsel, T. J. P. &amp; Tsui, B. C. H. Coronavirus disease 2019 (COVID-19) pandemic: International variation of personal protective equipment (PPE) and infection prevention and control (IPC) guidelines. Anesth Analg, doi:10.1213/ANE.0000000000004941 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="4,338.92,697.71,213.77,8.10;4,338.92,708.09,216.62,8.10;5,75.00,56.01,200.69,8.10;5,75.00,66.33,215.71,8.10;5,75.00,76.71,155.22,8.10" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="4,524.20,697.71,28.49,8.10;4,338.92,708.09,216.62,8.10;5,75.00,56.01,200.69,8.10;5,75.00,66.33,146.53,8.10" xml:id="_JSPGB87">Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment</title>
+		<author>
+			<persName><forename type="first">Zhenwei</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaorong</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yunfei</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feifei</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.5582/bst.2020.01030</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mWkgR8h" coord="5,227.48,66.33,49.67,8.10">BioScience Trends</title>
+		<title level="j" type="abbrev">BST</title>
+		<idno type="ISSN">1881-7815</idno>
+		<idno type="ISSNe">1881-7823</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="64" to="68" />
+			<date type="published" when="2020-02-29">2020</date>
+			<publisher>International Research and Cooperation Association for Bio &amp; Socio-Sciences Advancement (IRCA-BSSA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, Z., Chen, X., Lu, Y., Chen, F. &amp; Zhang, W. Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment. Biosci Trends 14, 64-68, doi:10.5582/bst.2020.01030 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="5,75.00,87.03,178.39,8.10;5,75.00,97.41,216.74,8.10;5,75.00,107.73,159.53,8.10;5,75.00,118.11,145.24,8.10" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="5,132.74,87.03,120.65,8.10;5,75.00,97.41,216.74,8.10;5,75.00,107.73,40.62,8.10" xml:id="_4jTG4Dw">Clinical trials for the treatment of Coronavirus disease 2019 (COVID-19): A rapid response to urgent need</title>
+		<author>
+			<persName><forename type="first">Tengyue</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yudi</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenshuai</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aiping</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yanli</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kai-Feng</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11427-020-1660-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ad9Wxtv" coord="5,121.82,107.73,64.71,8.10">Science China Life Sciences</title>
+		<title level="j" type="abbrev">Sci. China Life Sci.</title>
+		<idno type="ISSN">1674-7305</idno>
+		<idno type="ISSNe">1869-1889</idno>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="774" to="776" />
+			<date type="published" when="2020-02-29">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, T. et al. Clinical trials for the treatment of Coronavirus disease 2019 (COVID-19): A rapid response to urgent need. Sci China Life Sci 63, 774-776, doi:10.1007/s11427-020-1660-2 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="5,75.00,128.43,207.90,8.10;5,75.00,138.83,208.94,8.10;5,75.00,149.15,219.01,8.10;5,75.00,159.53,164.18,8.10" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="5,75.00,138.83,208.94,8.10;5,75.00,149.15,118.59,8.10" xml:id="_9ZDN4n9">The coronavirus pandemic and aerosols: Does COVID-19 transmit via expiratory particles?</title>
+		<author>
+			<persName><forename type="first">Sima</forename><surname>Asadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicole</forename><surname>Bouvier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><forename type="middle">S</forename><surname>Wexler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">D</forename><surname>Ristenpart</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02786826.2020.1749229</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TU36hFG" coord="5,195.98,149.15,72.42,8.10">Aerosol Science and Technology</title>
+		<title level="j" type="abbrev">Aerosol Science and Technology</title>
+		<idno type="ISSN">0278-6826</idno>
+		<idno type="ISSNe">1521-7388</idno>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="635" to="638" />
+			<date type="published" when="2020-04-03">2020</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Asadi, S., Bouvier, N., Wexler, A. S. &amp; Ristenpart, W. D. The coronavirus pandemic and aerosols: Does COVID-19 transmit via expiratory particles? Aerosol Sci Technol 0, 1-4, doi:10.1080/02786826.2020.1749229 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="5,90.00,169.85,193.23,8.10;5,75.00,180.23,210.38,8.10;5,75.00,190.55,98.81,8.10;5,75.00,200.93,148.12,8.10" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="5,142.82,169.85,140.42,8.10;5,75.00,180.23,210.38,8.10;5,75.00,190.55,27.32,8.10" xml:id="_HK7SHRD">The Time Sequences of Respiratory and Rectal Viral Shedding in Patients With Coronavirus Disease 2019</title>
+		<author>
+			<persName><forename type="first">Fang</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhaoqin</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Liang</forename><surname>Li</surname></persName>
+			<idno type="ORCID">0000-0003-1001-7837</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Lei</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yingxia</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1053/j.gastro.2020.05.035</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Dgjwb3c" coord="5,108.08,190.55,61.86,8.10">Gastroenterology</title>
+		<title level="j" type="abbrev">Gastroenterology</title>
+		<idno type="ISSN">0016-5085</idno>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1158" to="1160.e2" />
+			<date type="published" when="2020-09">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao, F. et al. The Time Sequences of Oral and Fecal Viral Shedding of Coronavirus Disease 2019 (COVID-19) Patients. Gastroenterology, doi:10.1053/j.gastro.2020.05.035 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="5,75.00,211.25,185.74,8.10;5,75.00,221.63,196.15,8.10;5,75.00,231.95,212.44,8.10;5,75.00,242.33,181.22,8.10;5,75.00,252.65,149.79,8.10" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="5,150.80,211.25,109.94,8.10;5,75.00,221.63,196.15,8.10;5,75.00,231.95,212.44,8.10;5,75.00,242.33,87.13,8.10" xml:id="_FPEyG9F">Epidemiology, causes, clinical manifestation and diagnosis, prevention and control of coronavirus disease (COVID-19) during the early outbreak period: a scoping review</title>
+		<author>
+			<persName><forename type="first">Sasmita</forename><forename type="middle">Poudel</forename><surname>Adhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sha</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu-Ju</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu-Ping</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rui-Xue</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qing-Zhi</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chang</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sean</forename><surname>Sylvia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><surname>Rozelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hein</forename><surname>Raat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huan</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40249-020-00646-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_N85yCvr" coord="5,168.32,242.33,65.43,8.10">Infectious Diseases of Poverty</title>
+		<title level="j" type="abbrev">Infect Dis Poverty</title>
+		<idno type="ISSNe">2049-9957</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2020-03-17">2020</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adhikari, S. P. et al. Epidemiology, causes, clinical manifestation and diagnosis, prevention and control of coronavirus disease (COVID-19) during the early outbreak period: a scoping review. Infect Dis Poverty 9, 29, doi:10.1186/s40249-020-00646-x (2020).</note>
+</biblStruct>
+
+<biblStruct coords="5,75.00,263.03,178.65,8.10;5,75.00,273.35,186.14,8.10;5,75.00,283.73,202.98,8.10;5,75.00,294.05,209.90,8.10;5,75.00,304.43,26.26,8.10" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="5,164.30,263.03,89.35,8.10;5,75.00,273.35,186.14,8.10;5,75.00,283.73,148.18,8.10" xml:id="_83YJHZk">Vertical Transmission of Coronavirus Disease 19 (COVID-19) from Infected Pregnant Mothers to Neonates: A Review</title>
+		<author>
+			<persName><forename type="first">Mojgan</forename><surname>Karimi-Zarchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hossein</forename><surname>Neamatzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seyed</forename><forename type="middle">Alireza</forename><surname>Dastgheib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hajar</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seyed</forename><forename type="middle">Reza</forename><surname>Mirjalili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Athena</forename><surname>Behforouz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Farzad</forename><surname>Ferdosian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reza</forename><surname>Bahrami</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15513815.2020.1747120</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qkAT23J" coord="5,229.76,283.73,48.22,8.10;5,75.00,294.05,24.03,8.10">Fetal and Pediatric Pathology</title>
+		<title level="j" type="abbrev">Fetal and Pediatric Pathology</title>
+		<idno type="ISSN">1551-3815</idno>
+		<idno type="ISSNe">1551-3823</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="246" to="250" />
+			<date type="published" when="2020-04-02">2020</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karimi-Zarchi, M. et al. Vertical Transmission of Coronavirus Disease 19 (COVID-19) from Infected Pregnant Mothers to Neonates: A Review. Fetal Pediatr Pathol 39, 246-250, doi:10.1080/15513815.2020.1747120 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="5,75.00,314.75,211.89,8.10;5,75.00,325.13,218.82,8.10;5,75.00,335.45,175.25,8.10;5,75.00,345.83,163.29,8.10" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="5,129.79,314.75,157.10,8.10;5,75.00,325.13,218.82,8.10;5,75.00,335.45,92.33,8.10" xml:id="_Bm8HNFb">Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study</title>
+		<author>
+			<persName><forename type="first">Nanshan</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Min</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xuan</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jieming</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fengyun</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jingli</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ying</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuan</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jia'an</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ting</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xinxin</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Li</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0140-6736(20)30211-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7qD8cS3" coord="5,173.30,335.45,24.40,8.10">The Lancet</title>
+		<title level="j" type="abbrev">The Lancet</title>
+		<idno type="ISSN">0140-6736</idno>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="issue">10223</biblScope>
+			<biblScope unit="page" from="507" to="513" />
+			<date type="published" when="2020-02">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, N. et al. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet 395, 507-513, doi:10.1016/S0140-6736(20)30211-7 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="5,75.00,356.15,168.65,8.10;5,75.00,366.53,209.40,8.10;5,75.00,376.85,197.92,8.10;5,75.00,387.23,200.67,8.10" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="5,131.24,356.15,112.41,8.10;5,75.00,366.53,209.40,8.10;5,75.00,376.85,176.71,8.10" xml:id="_BZtU6Wa">The proportion of patients with thrombocytopenia in three human‐susceptible coronavirus infections: a systematic review and meta‐analysis</title>
+		<author>
+			<persName><forename type="first">Meng</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiaqian</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xueqian</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ziyan</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yifang</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Depei</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yue</forename><surname>Han</surname></persName>
+			<idno type="ORCID">0000-0002-7560-7195</idno>
+		</author>
+		<idno type="DOI">10.1111/bjh.16655</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rnmKeXh" coord="5,257.72,376.85,15.20,8.10;5,75.00,387.23,35.50,8.10">British Journal of Haematology</title>
+		<title level="j" type="abbrev">Br J Haematol</title>
+		<idno type="ISSN">0007-1048</idno>
+		<idno type="ISSNe">1365-2141</idno>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="438" to="441" />
+			<date type="published" when="2020-04-13">2020</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou, M. et al. The proportion of patients with thrombocytopenia in three human-susceptible coronavirus infections: a systematic review and meta-analysis. Br J Haematol 189, 438-441, doi:10.1111/bjh.16655 (2020).</note>
+</biblStruct>
+
+<biblStruct coords="5,75.00,397.55,193.02,8.10;5,75.00,407.93,190.03,8.10;5,75.00,418.27,221.29,8.10" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coord="5,123.32,397.55,144.70,8.10;5,75.00,407.93,151.14,8.10" xml:id="_uRtddJU">Why are pregnant women susceptible to COVID-19? An immunological viewpoint</title>
+		<author>
+			<persName><forename type="first">Hong</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Li-Ling</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Si-Jia</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joanne</forename><surname>Kwak-Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gil</forename><surname>Mor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ai-Hua</forename><surname>Liao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jri.2020.103122</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_s6YXwj8" coord="5,232.28,407.93,32.75,8.10;5,75.00,418.27,31.96,8.10">Journal of Reproductive Immunology</title>
+		<title level="j" type="abbrev">Journal of Reproductive Immunology</title>
+		<idno type="ISSN">0165-0378</idno>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page">103122</biblScope>
+			<date type="published" when="2020-06">2020</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liu, H. et al. Why are pregnant women susceptible to COVID-19? An immunological viewpoint. J Reprod Immunol 139, 103122, doi:10.1016/j.jri.2020.103122 (2020).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

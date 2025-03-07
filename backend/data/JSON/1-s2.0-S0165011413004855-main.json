@@ -1,0 +1,623 @@
+{
+    "metadata": {
+        "title": "A method for deriving order compatible fuzzy relations from convex fuzzy partitions",
+        "doi": "10.1016/j.fss.2013.11.011",
+        "publisher": null,
+        "journal": null,
+        "published_date": "7 December 2013"
+    },
+    "content": {
+        "abstract": "We address a special kind of fuzzy relations capable of modeling that two elements in the universe of discourse are similar to the extent that they are close to each other with respect to a given total order. These order compatible fuzzy relations are reflexive and symmetric but not necessarily T-transitive. We address the requirements to construct such relations from a large class of fuzzy partitions that obey some requirements from the fuzzy sets in the partition, such as convexity, that are useful but not severely constraining. We also propose a new method to obtain those fuzzy relations from these partitions.",
+        "keywords": [
+            "partition",
+            "operator",
+            "fuzzy",
+            "relation",
+            "method",
+            "order",
+            "convex",
+            "total",
+            "address"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sandra Sandri",
+            "affiliation": "Brazilian National Institute for Space Research (INPE)",
+            "email": "sandra.sandri@inpe.br"
+        },
+        {
+            "name": "Fl\u00e1via Toledo Martins-Bed\u00ea",
+            "affiliation": "Brazilian National Institute for Space Research (INPE)",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Armengol",
+                    "given": "E."
+                },
+                {
+                    "family": "Esteva",
+                    "given": "F."
+                },
+                {
+                    "family": "Godo",
+                    "given": "L."
+                },
+                {
+                    "family": "Torra",
+                    "given": "V."
+                }
+            ],
+            "title": "On learning similarity relations in fuzzy case-based reasoning",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bezdek",
+                    "given": "J.C."
+                }
+            ],
+            "title": "Pattern Recognition with Fuzzy Objective Function Algorithms",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1981"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Das",
+                    "given": "M."
+                },
+                {
+                    "family": "Chakraborty",
+                    "given": "M.K."
+                },
+                {
+                    "family": "Ghoshal",
+                    "given": "T.K."
+                }
+            ],
+            "title": "Fuzzy tolerance relation, fuzzy tolerance space and basis",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Baets",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Mesiar",
+                    "given": "R."
+                },
+                {
+                    "given": "T.-partitions"
+                }
+            ],
+            "title": "",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cock",
+                    "given": "M.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Kerre",
+                    "given": "E."
+                }
+            ],
+            "title": "On (un)suitable fuzzy relations to model approximate equality",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dobrakovov\u00e1",
+                    "given": "J."
+                }
+            ],
+            "title": "Pseudometrics and fuzzy relations",
+            "type": "article-journal",
+            "container_title": [
+                "J. Appl. Math"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Drummond",
+                    "given": "I."
+                },
+                {
+                    "family": "Godo",
+                    "given": "L."
+                },
+                {
+                    "family": "Sandri",
+                    "given": "S."
+                }
+            ],
+            "title": "Restoring consistency in systems of fuzzy gradual rules using similarity relations",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of SBIA'02"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dubois",
+                    "given": "D."
+                },
+                {
+                    "family": "Hadjali",
+                    "given": "A."
+                },
+                {
+                    "family": "Prade",
+                    "given": "H."
+                }
+            ],
+            "title": "Making fuzzy absolute and fuzzy relative orders of magnitude consistent",
+            "type": "article-journal",
+            "container_title": [
+                "Lecture Notes in Computer Science,vol"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Drummond",
+                    "given": "I."
+                },
+                {
+                    "family": "Godo",
+                    "given": "L."
+                },
+                {
+                    "family": "Sandri",
+                    "given": "S."
+                }
+            ],
+            "title": "Learning fuzzy systems with similarity relations",
+            "type": "chapter",
+            "container_title": [
+                "IFSA'03"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fanoiki",
+                    "given": "T."
+                },
+                {
+                    "family": "Drummond",
+                    "given": "I."
+                },
+                {
+                    "family": "Sandri",
+                    "given": "S."
+                }
+            ],
+            "title": "Case-based reasoning retrieval and reuse using case resemblance hypergraphs",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Godo",
+                    "given": "L."
+                },
+                {
+                    "family": "Sandri",
+                    "given": "S."
+                }
+            ],
+            "title": "A similarity-based approach to deal with inconsistency in systems of fuzzy gradual rules",
+            "type": "article-journal",
+            "container_title": [
+                "in"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Janis",
+                    "given": "V."
+                }
+            ],
+            "title": "Resemblance is a nearness, Fuzzy Sets Syst",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jayaram",
+                    "given": "B."
+                },
+                {
+                    "family": "Mesiar",
+                    "given": "R."
+                }
+            ],
+            "title": "I-fuzzy relations and I-fuzzy partitions, Inf",
+            "type": "article-journal",
+            "container_title": [
+                "Sci"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jones",
+                    "given": "H."
+                },
+                {
+                    "family": "Charnomordic",
+                    "given": "B."
+                },
+                {
+                    "family": "Dubois",
+                    "given": "D."
+                },
+                {
+                    "family": "Guillaume",
+                    "given": "S."
+                }
+            ],
+            "title": "Practical inference with systems of gradual implicative rules",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Fuzzy Syst"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mantaras",
+                    "given": "R.Lopez",
+                    "particle": "de"
+                },
+                {
+                    "family": "Valverde",
+                    "given": "L."
+                }
+            ],
+            "title": "New results in fuzzy clustering based on the concept of indistinguishability relations",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Pattern Anal. Mach. Intell"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Luce",
+                    "given": "R.D."
+                }
+            ],
+            "title": "Semi-orders and a theory of utility discrimination",
+            "type": "article-journal",
+            "container_title": [
+                "Econometrica"
+            ],
+            "doi": "",
+            "published_date": "1956"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Martins-Bed\u00ea",
+                    "given": "F.T."
+                },
+                {
+                    "family": "Godo",
+                    "given": "L."
+                },
+                {
+                    "family": "Sandri",
+                    "given": "S."
+                },
+                {
+                    "family": "Dutra",
+                    "given": "L.V."
+                },
+                {
+                    "family": "Freitas",
+                    "given": "C."
+                },
+                {
+                    "family": "Carvalho",
+                    "given": "O.S."
+                },
+                {
+                    "family": "Guimares",
+                    "given": "R.J.P.S."
+                },
+                {
+                    "family": "Amaral",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Classification of schistosomiasis prevalence using fuzzy case-based reasoning",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of IWANN'09"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rademaker",
+                    "given": "M."
+                },
+                {
+                    "family": "Baets",
+                    "given": "B.",
+                    "particle": "De"
+                }
+            ],
+            "title": "Aggregation of monotone reciprocal relations with application to group decision making",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Recasens",
+                    "given": "J."
+                }
+            ],
+            "title": "Indistinguishability Operators, Modelling Fuzzy Equalities and Fuzzy Equivalence Relations",
+            "type": "chapter",
+            "container_title": [
+                "Studies in Fuzziness and Soft Computing"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ruspini",
+                    "given": "R."
+                }
+            ],
+            "title": "A new approach to clustering, Inf",
+            "type": "article-journal",
+            "container_title": [
+                "Control"
+            ],
+            "doi": "",
+            "published_date": "1969"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sandri",
+                    "given": "S."
+                },
+                {
+                    "family": "Martins-Bed\u00ea",
+                    "given": "F.T."
+                }
+            ],
+            "title": "Order compatible fuzzy relations and their elicitation from general fuzzy partitions",
+            "type": "paper-conference",
+            "container_title": [
+                "Symbolic and Quantitative Approaches to Reasoning with Uncertainty, Lecture Notes in Artificial Intelligence",
+                "Proceedings of ECSQARU'2011"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Slowinski",
+                    "given": "R."
+                },
+                {
+                    "family": "Vanderpooten",
+                    "given": "D."
+                }
+            ],
+            "title": "A generalized definition of rough approximations based on similarity",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Knowl. Data Eng"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Soldano",
+                    "given": "H."
+                },
+                {
+                    "family": "Viari",
+                    "given": "A."
+                },
+                {
+                    "family": "Champesme",
+                    "given": "M."
+                }
+            ],
+            "title": "Searching for flexible repeated patterns using a non-transitive similarity relation",
+            "type": "article-journal",
+            "container_title": [
+                "Pattern Recognit. Lett"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Soto",
+                    "given": "A."
+                },
+                {
+                    "family": "Recasens",
+                    "given": "J."
+                }
+            ],
+            "title": "Modelling a linguistic variable as a hierarchical family of partitions induced by an indistinguishability operator",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Thiele",
+                    "given": "H."
+                }
+            ],
+            "title": "A characterization of arbitrary Ruspini partitions by fuzzy similarity relations",
+            "type": "paper-conference",
+            "container_title": [
+                "Sixth IEEE International Conference on Fuzzy Systems"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Torra",
+                    "given": "V."
+                }
+            ],
+            "title": "On the learning of weights in some aggregation operators: the weighted mean and owa operators",
+            "type": "article-journal",
+            "container_title": [
+                "Math. Soft Comput"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Torra",
+                    "given": "V."
+                }
+            ],
+            "title": "Learning weights for the quasi-weighted means",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Fuzzy Syst"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tversky",
+                    "given": "A."
+                }
+            ],
+            "title": "Features of similarity",
+            "type": "article-journal",
+            "container_title": [
+                "Psychol. Rev"
+            ],
+            "doi": "",
+            "published_date": "1977"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Valverde",
+                    "given": "L."
+                }
+            ],
+            "title": "On the structure of F-indistinguishability operators",
+            "type": "article-journal",
+            "container_title": [
+                "Fuzzy Sets Syst"
+            ],
+            "doi": "",
+            "published_date": "1985"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zadeh",
+                    "given": "L."
+                }
+            ],
+            "title": "Similarity relations and fuzzy orderings, Inf",
+            "type": "article-journal",
+            "container_title": [
+                "Sci"
+            ],
+            "doi": "",
+            "published_date": "1971"
+        }
+    ]
+}

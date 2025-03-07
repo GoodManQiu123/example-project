@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_6VNYjJS" coord="1,36.00,116.88,424.86,16.82;1,35.30,135.71,173.32,16.82">Board Games in Improving Pupils&apos; Speaking Skills: A Systematic Review</title>
+				<funder ref="#_UYGMxtZ">
+					<orgName type="full">Universiti Kebangsaan Malaysia</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-08-05">5 August 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,36.00,171.66,65.02,9.34"><forename type="first">Catherine</forename><surname>Hui</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Faculty of Education, Universiti Kebangsaan Malaysia, Bandar Baru Bangi 43600, Selangor, Malaysia;</note>
+								<orgName type="department">Faculty of Education</orgName>
+								<orgName type="institution">Universiti Kebangsaan Malaysia</orgName>
+								<address>
+									<addrLine>Bandar Baru Bangi 43600</addrLine>
+									<settlement>Selangor</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,103.51,171.66,53.24,9.34"><forename type="first">Tiing</forename><surname>Wong</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Faculty of Education, Universiti Kebangsaan Malaysia, Bandar Baru Bangi 43600, Selangor, Malaysia;</note>
+								<orgName type="department">Faculty of Education</orgName>
+								<orgName type="institution">Universiti Kebangsaan Malaysia</orgName>
+								<address>
+									<addrLine>Bandar Baru Bangi 43600</addrLine>
+									<settlement>Selangor</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,190.45,171.66,46.22,9.34"><forename type="first">Melor</forename><surname>Md</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Faculty of Education, Universiti Kebangsaan Malaysia, Bandar Baru Bangi 43600, Selangor, Malaysia;</note>
+								<orgName type="department">Faculty of Education</orgName>
+								<orgName type="institution">Universiti Kebangsaan Malaysia</orgName>
+								<address>
+									<addrLine>Bandar Baru Bangi 43600</addrLine>
+									<settlement>Selangor</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,35.73,499.55,40.57,6.71"><forename type="first">Abella</forename><surname>García</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Faculty of Education, Universiti Kebangsaan Malaysia, Bandar Baru Bangi 43600, Selangor, Malaysia;</note>
+								<orgName type="department">Faculty of Education</orgName>
+								<orgName type="institution">Universiti Kebangsaan Malaysia</orgName>
+								<address>
+									<addrLine>Bandar Baru Bangi 43600</addrLine>
+									<settlement>Selangor</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,81.15,499.55,41.80,6.71"><forename type="first">Roberto</forename><surname>Baelo</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Faculty of Education, Universiti Kebangsaan Malaysia, Bandar Baru Bangi 43600, Selangor, Malaysia;</note>
+								<orgName type="department">Faculty of Education</orgName>
+								<orgName type="institution">Universiti Kebangsaan Malaysia</orgName>
+								<address>
+									<addrLine>Bandar Baru Bangi 43600</addrLine>
+									<settlement>Selangor</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,36.00,511.47,63.87,6.71"><forename type="first">Sheila</forename><surname>García-Martín</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Faculty of Education, Universiti Kebangsaan Malaysia, Bandar Baru Bangi 43600, Selangor, Malaysia;</note>
+								<orgName type="department">Faculty of Education</orgName>
+								<orgName type="institution">Universiti Kebangsaan Malaysia</orgName>
+								<address>
+									<addrLine>Bandar Baru Bangi 43600</addrLine>
+									<settlement>Selangor</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,36.00,523.40,74.41,6.71"><forename type="first">Mario</forename><surname>Grande-De-Prado</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Faculty of Education, Universiti Kebangsaan Malaysia, Bandar Baru Bangi 43600, Selangor, Malaysia;</note>
+								<orgName type="department">Faculty of Education</orgName>
+								<orgName type="institution">Universiti Kebangsaan Malaysia</orgName>
+								<address>
+									<addrLine>Bandar Baru Bangi 43600</addrLine>
+									<settlement>Selangor</settlement>
+									<country key="MY">Malaysia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_h6Wpnvn" coord="1,36.00,116.88,424.86,16.82;1,35.30,135.71,173.32,16.82">Board Games in Improving Pupils&apos; Speaking Skills: A Systematic Review</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-08-05">5 August 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6D97B36A6490A404B1093C710BE29971</idno>
+					<idno type="DOI">10.3390/su13168772</idno>
+					<note type="submission">Received: 29 June 2021 Accepted: 30 July 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_Ms5xBTq">board games</term>
+					<term xml:id="_zRrWUhA">speaking</term>
+					<term xml:id="_hBS6Wn7">education</term>
+					<term xml:id="_uUpjQDd">English</term>
+					<term xml:id="_V4emsHD">pupils&apos; perceptions</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_NEXYMf8"><p xml:id="_vBSwEeV"><s xml:id="_ph36zm7" coords="1,207.35,249.19,276.85,8.63">English is a fundamental language to learn as it is used worldwide.</s><s xml:id="_KAKc4Ue" coords="1,488.56,249.19,70.71,8.63;1,167.27,262.16,393.49,8.63;1,167.27,275.13,47.46,8.63">The teaching and learning of English has been emphasized in Malaysia as English plays a major role in global communication.</s><s xml:id="_UN3AvRv" coords="1,217.50,275.13,342.06,8.63;1,167.27,288.10,44.89,8.63">However, speaking performance was recorded as poor and weak among pupils in ESL classrooms.</s><s xml:id="_VKaXsug" coords="1,214.88,288.10,344.39,8.63;1,167.27,301.07,56.27,8.63">Previous researchers explored a myriad of communicative language activities to improve speaking skill.</s><s xml:id="_asNQQuM" coords="1,226.31,301.07,332.97,8.63;1,167.27,314.05,58.67,8.63">Board games are employed as one of the most useful tools to improve speaking skills among pupils.</s><s xml:id="_BFXqVpB" coords="1,229.88,314.05,329.40,8.63;1,167.27,327.02,392.01,8.63;1,167.27,339.99,79.01,8.63">This systematic review was conducted to examine pupils' perceptions on the use of board games in learning and speaking, as well as the usefulness of board games in improving their speaking skill.</s><s xml:id="_p3KXX7t" coords="1,249.07,339.99,310.21,8.63;1,167.27,352.96,204.20,8.63">A total of 35 articles, from the period 2017-2021, were accessed through three databases: Google Scholar, ERIC and SAGE Journals.</s><s xml:id="_bUc4tsC" coords="1,374.15,352.96,185.13,8.63;1,167.27,365.93,392.01,8.63;1,167.27,378.90,81.51,8.63">The review was conducted systematically based on the guidelines from the PRISMA statement (Preferred Reporting Items for Systematic Reviews and Meta-Analyses).</s><s xml:id="_WPKswEg" coords="1,251.58,378.90,307.70,8.63;1,167.27,391.87,392.01,8.63;1,167.27,404.85,393.58,8.63">Based on the articles gathered, the results showed that the qualitative research design was mostly used to collect pupils' opinions on the use of board games, while quantitative research design was mostly used to evaluate the usefulness of board games in improving speaking.</s><s xml:id="_fcDFfhx" coords="1,167.27,417.82,393.76,8.63;1,167.27,430.79,392.01,8.63;1,167.27,443.76,213.10,8.63">Overall, the systematic review revealed that board games had several positive impacts in pupils' speaking performances such as improving speaking competency, enhancing motivation in speaking and increasing interpersonal interaction among pupils.</s><s xml:id="_7MfwsDZ" coords="1,383.13,443.76,176.15,8.63;1,167.27,456.73,347.99,8.63">It is suggested that future studies could focus on investigating teachers' opinions on the use of board games in teaching and speaking.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_WSMyGHR">Introduction</head><p xml:id="_ZgnKtCa"><s xml:id="_pPqu6YB" coords="1,188.52,546.62,371.99,9.58;1,167.27,559.18,233.97,9.58">In the era of globalization, English takes its stance as the predominant language, spoken by around 400 million people across the globe.</s><s xml:id="_TyzqWqe" coords="1,404.30,559.18,154.97,9.58;1,167.27,571.73,392.01,9.58;1,167.27,584.28,35.04,9.58">English is used as a means of verbal and written communication worldwide to bridge the gaps in economic, political and social aspects.</s><s xml:id="_q6Uv2Tf" coords="1,207.30,584.28,351.98,9.58;1,166.97,596.83,288.05,9.58">Since English is known as an international language, development of English proficiency and speaking competency should be emphasized <ref type="bibr" coords="1,440.78,596.83,10.67,9.58" target="#b0">[1]</ref>.</s><s xml:id="_dDhNJpZ" coords="1,458.10,596.83,101.37,9.58;1,167.27,609.39,392.01,9.58;1,167.27,621.94,310.40,9.58">It is essential to master English to increase one's chances of being admitted to a prestigious university and to obtain more employment opportunities in the international marketplace <ref type="bibr" coords="1,463.37,621.94,10.72,9.58" target="#b1">[2]</ref>.</s><s xml:id="_2grTbct" coords="1,481.17,621.94,78.10,9.58;1,167.27,634.49,392.01,9.58;1,167.27,647.05,143.81,9.58">Speaking English broadens one's world as it enables connections to be forged between people of different countries, cultures and lifestyles.</s><s xml:id="_VrxGZjh" coords="1,314.17,647.05,245.11,9.58;1,167.27,659.60,189.39,9.58">Hence, being able to speak and communicate in English has become the main concern in education.</s></p><p xml:id="_PdhFqkX"><s xml:id="_5xnweEG" coords="1,188.52,672.15,370.75,9.58;1,167.27,684.71,392.01,9.58;1,167.27,697.26,71.98,9.58">Speaking is an interactive process that comprises producing, receiving and processing information in the presence of both the speaker and listener to convey feelings, thoughts and opinions <ref type="bibr" coords="1,225.32,697.26,10.45,9.58" target="#b2">[3]</ref>.</s><s xml:id="_DfE7krr" coords="1,242.14,697.26,317.14,9.58;1,167.27,709.81,392.01,9.58;1,167.27,722.36,106.73,9.58">One of the aims of teaching English is to facilitate pupils to speak the target language fluently and accurately in their daily communication, group discussions and classroom presentations.</s><s xml:id="_qv6gUNr" coords="1,277.10,722.36,282.17,9.58;1,167.27,734.92,83.65,9.58">In Malaysia, deficiency in speaking skill has been a main concern in ESL classrooms.</s><s xml:id="_SHh6ZNe" coords="1,254.20,734.92,305.08,9.58;1,167.27,747.47,392.01,9.58;1,167.27,760.02,330.37,9.58">Before the implementation of the Common European Framework of Reference (CEFR), the exam-oriented curriculum caused English lessons to focus solely on tested items such as reading comprehension, grammar and essay writing.</s><s xml:id="_Dv9nAPE" coords="1,501.07,760.02,58.21,9.58;2,167.27,96.90,392.01,9.58;2,167.27,109.45,95.92,9.58">Limited time allocation for listening and speaking leads to the negligence of oral language development in the ESL classroom.</s><s xml:id="_6ZmP82n" coords="2,266.38,109.45,294.14,9.58;2,166.97,122.00,392.31,9.58;2,167.27,134.56,220.95,9.58">According to the results of the Cambridge Baseline Study in 2013, pupils' English performance was below the expected level of proficiency and speaking skill was the weakest among the four skills <ref type="bibr" coords="2,373.93,134.56,10.72,9.58" target="#b3">[4]</ref>.</s><s xml:id="_p65y4sm" coords="2,395.78,134.56,163.49,9.58;2,166.99,147.11,274.88,9.58">Some pupils excel in grammar and vocabulary, but they face hindrances when learning English.</s><s xml:id="_QRQd4bm" coords="2,446.75,147.11,112.52,9.58;2,167.27,159.66,295.89,9.58">This is due to the lack of exposure and the cultural background they are brought up with <ref type="bibr" coords="2,449.11,159.66,10.53,9.58" target="#b4">[5]</ref>.</s><s xml:id="_2pfJduq" coords="2,466.27,159.66,93.00,9.58;2,167.27,172.21,237.32,9.58">English is considered as the second language in most families and schools.</s><s xml:id="_WVpqqb7" coords="2,408.38,172.21,151.10,9.58;2,167.27,184.77,392.01,9.58;2,167.27,197.32,308.87,9.58">Pupils tend to speak their mother tongue at home and at school; they seldom have chance to speak English as people in their environment communicate with them using their mother tongue.</s><s xml:id="_AZqVxZ3" coords="2,479.22,197.32,80.06,9.58;2,167.27,209.87,274.42,9.58">Most of the pupils are only exposed to English during English lessons in school.</s><s xml:id="_bM5CVb2" coords="2,445.12,209.87,115.40,9.58;2,167.27,222.43,392.01,9.58;2,167.27,234.98,116.70,9.58">In addition to this reason, teacher-centered speaking lessons and pupils' passive learning attitudes also contribute to low speaking competency.</s><s xml:id="_JxAZ7wK" coords="2,287.04,234.98,272.24,9.58;2,167.27,247.53,392.01,9.58;2,167.27,260.09,68.13,9.58">In the teacher-centered classroom, pupils passively accept the linguistic knowledge imparted by their teacher without having opportunities to practice their speech <ref type="bibr" coords="2,221.47,260.09,10.45,9.58" target="#b5">[6]</ref>.</s><s xml:id="_Y76NTax" coords="2,238.42,260.09,320.85,9.58;2,167.27,272.64,312.68,9.58">Teachers should alter their traditional teaching methods and conduct more communicative activities that offer chances for pupils to speak English.</s></p><p xml:id="_tJCtTSF"><s xml:id="_UJTUCcH" coords="2,188.52,285.19,370.75,9.58;2,167.27,297.74,392.01,9.58;2,167.27,310.30,33.28,9.58">The success of speaking English is measured in terms of the pupils' ability to carry out a conversation in English with correct pronunciation, grammar, good use of vocabulary and fluency.</s><s xml:id="_8sNFkjm" coords="2,203.53,310.30,355.75,9.58;2,166.85,322.85,343.50,9.58">The primary obstacles that deter pupils from speaking are the lack of vocabulary as well as some psychological factors, such as anxiety and fear of making errors <ref type="bibr" coords="2,496.43,322.85,10.44,9.58" target="#b6">[7]</ref>.</s><s xml:id="_WEn53r4" coords="2,513.32,322.85,45.96,9.58;2,167.27,335.40,392.01,9.58;2,167.27,347.96,52.86,9.58">To address the issue of low speaking proficiency among primary pupils, educators have revised the curriculum.</s><s xml:id="_SrzT9Jj" coords="2,226.00,347.96,333.28,9.58;2,167.27,360.51,177.44,9.58">The curriculum focuses on communicative-based language activities and upholds fun learning in ESL classrooms.</s><s xml:id="_VChJbPd" coords="2,347.79,360.51,211.49,9.58;2,167.27,373.06,393.75,9.58">It is essential for teachers to develop captivating and interactive speaking activities to motivate pupils to engage in spoken interaction.</s><s xml:id="_U4GASFV" coords="2,167.27,385.62,393.95,9.58;2,167.27,398.17,237.26,9.58">Student-centered activities with authentic contexts should be planned to gain pupils' interests and motivation to speak in the lessons <ref type="bibr" coords="2,390.24,398.17,10.72,9.58" target="#b7">[8]</ref>.</s><s xml:id="_DnqqSs7" coords="2,410.90,398.17,148.37,9.58;2,166.97,410.72,342.24,9.58">Pupils show their willingness to participate when the topics and materials are related to their own lives <ref type="bibr" coords="2,494.91,410.72,10.72,9.58" target="#b8">[9]</ref>.</s><s xml:id="_q8ZZBZk" coords="2,514.64,410.72,45.88,9.58;2,167.27,423.27,392.01,9.58;2,167.27,435.83,392.01,9.58;2,167.27,448.38,45.15,9.58">Therefore, teachers should select appropriate learning strategies that cater for pupils' needs and learning preferences so that they feel encouraged to speak without any fear of making flaws <ref type="bibr" coords="2,193.33,448.38,15.27,9.58" target="#b9">[10]</ref>.</s></p><p xml:id="_AYXhBMm"><s xml:id="_kNVvUTw" coords="2,188.52,460.93,372.49,9.58">One of the ways to get pupils immersed in a speaking lesson is through games.</s><s xml:id="_pFckRTY" coords="2,167.27,473.49,392.01,9.58;2,167.27,486.04,52.68,9.58">Using games in teaching and learning transforms the traditional method of transmitting knowledge.</s><s xml:id="_HW8nKJy" coords="2,225.27,486.04,334.01,9.58;2,167.27,498.59,332.83,9.58">The incorporation of games in learning triggers pupils to be autonomous learners and enhances their learning in various fields of knowledge <ref type="bibr" coords="2,480.83,498.59,15.41,9.58" target="#b10">[11]</ref>.</s><s xml:id="_7f9H9bn" coords="2,506.01,498.59,54.51,9.58;2,167.27,511.14,392.01,9.58;2,166.85,523.70,313.05,9.58">Undeniably, games help to lower pupils' anxieties and create contexts in which pupils can collaborate with peers in teams to use language meaningfully and in a relaxed way.</s><s xml:id="_FyxHyBp" coords="2,482.98,523.70,76.29,9.58;2,167.27,536.25,392.00,9.58;2,166.97,548.80,126.26,9.58">This is supported by <ref type="bibr" coords="2,181.61,536.25,15.42,9.58" target="#b11">[12]</ref>, who proclaimed that pupils interact with other players and follow the context presented during the games.</s><s xml:id="_SGVVxdT" coords="2,296.32,548.80,262.95,9.58;2,167.27,561.36,239.42,9.58">There are a wide array of communicative games that can be used to teach speaking, and one of them is board games.</s><s xml:id="_zzFqdY7" coords="2,409.63,561.36,149.64,9.58;2,167.27,573.91,306.14,9.58">Through board games, pupils have to take turns to express their ideas according to the instructions given.</s><s xml:id="_ZKK2HDk" coords="2,476.51,573.91,82.77,9.58;2,167.27,586.46,392.01,9.58;2,167.27,599.02,103.28,9.58">Some board games imitate real-life circumstances which subconsciously help pupils to develop social skills and increase their flexibility.</s><s xml:id="_2gRVuQ4" coords="2,273.63,599.02,285.64,9.58;2,167.27,611.57,392.01,9.58;2,167.27,624.12,21.24,9.58">Several studies were done in the past to examine the effectiveness of the integration of board games into classroom teaching and learning to improve speaking skill.</s><s xml:id="_V3SSgfn" coords="2,191.60,624.12,367.68,9.58;2,167.27,636.67,39.27,9.58">Gaming literature also displays data on the usefulness of board games in language learning.</s><s xml:id="_PkyQj9s" coords="2,209.62,636.67,349.66,9.58;2,167.27,649.23,158.25,9.58">However, there is no systematic literature review that specifies the use of board games to improve English speaking.</s><s xml:id="_vTzdXGd" coords="2,328.63,649.23,230.65,9.58;2,167.27,661.78,392.01,9.58;2,167.27,674.33,392.01,9.58;2,167.27,686.89,122.21,9.58">With this backdrop, this review attempts to present a comprehensive analysis of research studies to synthesize the findings of past studies related to users' perceptions towards the use of board games in speaking, as well as their usefulness in informing future studies.</s><s xml:id="_DPxkpxW" coords="2,292.56,686.89,266.91,9.58;2,166.97,699.44,281.41,9.58">It is vital to look from users' perspectives to investigate their perception towards the use of board games in learning speaking.</s><s xml:id="_GrvZ8G7" coords="2,451.49,699.44,107.79,9.58;2,167.27,711.99,393.76,9.58">By understanding this, it helps researchers to evaluate the success of implementing board games in speaking lessons.</s></p><p xml:id="_9CKpMxV"><s xml:id="_BPdMWhJ" coords="2,188.52,724.55,370.76,9.58;2,166.97,737.10,200.28,9.58">Firstly, researchers generally defined board games as tabletop games that involve pieces moved or placed on a board or cards.</s><s xml:id="_v44HQg8" coords="2,371.54,737.10,187.73,9.58;2,167.27,749.65,326.92,9.58">Board games often include elements such as cards, roles playing and miniature games, according to a set of rules.</s><s xml:id="_EGu4TnZ" coords="2,499.27,749.65,60.01,9.58;2,167.27,762.20,392.01,9.58;3,167.27,98.68,392.01,9.58;3,167.27,111.23,240.67,9.58">To determine the appropriateness of the past research studies, which will be reviewed, the researchers have outlined two research questions: a) What are the pupils' perceptions towards the use of board games to improve their speaking skills?</s><s xml:id="_n4rxwQb" coords="3,412.98,111.23,146.30,9.58;3,167.27,123.78,223.91,9.58">and b) To what extent are board games useful to improve pupils' speaking skills?</s><s xml:id="_MXXt65u" coords="3,397.19,123.78,162.09,9.58;3,167.27,136.34,364.18,9.58">These questions serve as yardsticks for researchers to select suitable studies to be included in this systematic review.</s><s xml:id="_DvWbssF" coords="3,535.99,136.34,23.48,9.58;3,167.27,148.89,330.44,9.58">After reviewing the studies, results will be synthesised to answer both questions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_gVMzzEV">Literature Review</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_5nS8Jbu">Speaking Skill</head><p xml:id="_MNFYpvS"><s xml:id="_2xZmsvF" coords="3,188.52,200.30,372.49,9.58">Speaking skill is one of the eminent skills to master in the process of learning English.</s><s xml:id="_XqeFvYU" coords="3,167.27,212.85,392.01,9.58;3,167.27,225.40,392.01,9.58;3,167.27,237.96,78.16,9.58">It is a two-way interactive process which involves producing, receiving and processing information in the presence of both a speaker and a listener to convey feelings, thoughts and opinions <ref type="bibr" coords="3,231.13,237.96,10.72,9.58" target="#b2">[3]</ref>.</s><s xml:id="_SfHBC9h" coords="3,252.16,237.96,307.12,9.58;3,167.27,250.51,180.60,9.58">According to <ref type="bibr" coords="3,315.48,237.96,15.42,9.58" target="#b12">[13]</ref>, speaking is the ability in pronouncing words to express ideas in conversation or dialogue.</s><s xml:id="_BmgcKrf" coords="3,350.95,250.51,208.32,9.58;3,167.27,263.06,348.88,9.58">A fluent speaker is able to pronounce phonemes accurately with the appropriate stresses and intonation in connected speech <ref type="bibr" coords="3,497.23,263.06,15.14,9.58" target="#b13">[14]</ref>.</s><s xml:id="_B2nqK9d" coords="3,519.27,263.06,40.01,9.58;3,167.27,275.62,392.01,9.58;3,167.27,288.17,114.80,9.58">Speaking does not only emphasize the articulation of sounds in expressing thoughts, it also looks into fluency and grammar.</s><s xml:id="_asapWzz" coords="3,285.15,288.17,274.13,9.58;3,167.27,300.72,223.04,9.58">According to <ref type="bibr" coords="3,343.81,288.17,15.12,9.58" target="#b14">[15]</ref>, pronunciation refers to the ability to produce speech using correct stress, rhythm, and intonation.</s><s xml:id="_Drss6z6" coords="3,393.40,300.72,165.88,9.58;3,167.27,313.27,268.20,9.58">Fluency is the ability to deliver speech in a natural colloquial flow without pauses and hesitation.</s><s xml:id="_3w7JvKu" coords="3,441.15,313.27,118.13,9.58;3,167.27,325.83,392.01,9.58;3,167.27,338.38,173.93,9.58">It does not emphasize the flaws that speakers make in terms of grammar, pronunciation and lexicals, as long as the audience comprehends the content <ref type="bibr" coords="3,322.18,338.38,15.21,9.58" target="#b15">[16]</ref>.</s><s xml:id="_Thpb3SQ" coords="3,344.28,338.38,215.00,9.58;3,167.27,350.93,264.84,9.58">Grammar is described as the correct use of tenses and combination of linguistic units in producing speech <ref type="bibr" coords="3,413.12,350.93,15.19,9.58">[17]</ref>.</s><s xml:id="_zdqE67f" coords="3,435.19,350.93,124.08,9.58;3,167.27,363.49,278.64,9.58">By mastering these elements of speaking, learners are able to convey their ideas successfully.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_aBCKETS">Board Games</head><p xml:id="_8nMGCAY"><s xml:id="_KQZhjbB" coords="3,188.43,401.44,370.84,9.58;3,167.27,414.00,213.93,9.58">Board games are games that require players to move counters or pieces in particular ways on a pre-marked board, according to a set of rules.</s><s xml:id="_9jbuqFA" coords="3,384.07,414.00,175.21,9.58;3,167.27,426.55,311.91,9.58">Board games can be classified into classic games, family games, strategy games, thematic games and war games.</s><s xml:id="_mGhcFMb" coords="3,484.27,426.55,75.00,9.58;3,167.27,439.10,316.45,9.58">There are several famous board games such as chess, Monopoly, Snakes and Ladders, etc.</s><s xml:id="_R9KuSfd" coords="3,488.35,439.10,70.92,9.58;3,167.27,451.66,392.21,9.58;3,167.27,464.21,161.42,9.58">As well as these traditional board games, there are some strategy board games that involve role playing, for instance, Werewolf, Avalon and Mafia.</s><s xml:id="_7mtRAvQ" coords="3,331.57,464.21,227.69,9.58;3,167.27,476.76,90.88,9.58">Players have to use strategy in order to achieve certain goals in these games.</s><s xml:id="_fWDFSjq" coords="3,261.00,476.76,300.02,9.58">Board games are bound by a set of rules and relate to certain contexts.</s><s xml:id="_2vYunsw" coords="3,166.96,489.31,392.32,9.58;3,167.27,501.87,335.18,9.58">The context relatedness in games is beneficial for children in learning a language as they can share better experiences as they interact with other players during the game.</s><s xml:id="_RFZq6ys" coords="3,506.89,501.87,52.38,9.58;3,167.27,514.42,392.00,9.58;3,167.27,526.97,118.23,9.58">As stated in the theory of social constructivism by <ref type="bibr" coords="3,331.82,514.42,16.16,9.58" target="#b17">[18]</ref> in 1978, playing board games helped to enhance children's development <ref type="bibr" coords="3,267.34,526.97,14.52,9.58" target="#b18">[19]</ref>.</s><s xml:id="_4w3rgBZ" coords="3,288.27,526.97,270.99,9.58;3,167.27,539.53,337.87,9.58">Therefore, board games are recognized as ideal language learning tools as they equip children with new knowledge whilst also entertaining them.</s></p><p xml:id="_DEVfXbU"><s xml:id="_yDhHEhM" coords="3,188.52,552.08,370.75,9.58;3,167.27,564.63,291.87,9.58">A well-developed board game that matches with specific learning objectives contains high educational value and is highly practicable in a classroom.</s><s xml:id="_nnusmYw" coords="3,464.75,564.63,94.53,9.58;3,167.27,577.19,392.01,9.58;3,167.27,589.74,103.49,9.58">As most pupils have an interest in games, they will be driven to follow the game rules and speak the target language of the games.</s><s xml:id="_PG9e5p4" coords="3,274.09,589.74,285.19,9.58;3,167.27,602.29,221.08,9.58">They will acquire the language subconsciously as they generate larger vocabularies of language through the games.</s><s xml:id="_BJm9zTz" coords="3,391.39,602.29,167.88,9.58;3,167.27,614.84,392.01,9.58;3,167.27,627.40,393.25,9.58;3,167.27,639.95,287.89,9.58">In foreign countries, board games have been widely used as a technique in teaching speaking skills as board games incorporate elements of turn-taking and cooperative learning which require every player to speak, enabling communication to occur naturally among pupils <ref type="bibr" coords="3,423.61,639.95,15.77,9.58" target="#b19">[20,</ref><ref type="bibr" coords="3,439.38,639.95,11.83,9.58" target="#b20">21]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3." xml:id="_CkvRNWN">Board Games in Teaching Speaking</head><p xml:id="_dwerw27"><s xml:id="_eGsEqWb" coords="3,188.52,677.91,370.75,9.58;3,166.97,690.46,197.05,9.58">Several studies indicated that adopting board games in speaking lessons influences pupils in their cognitive and affective domain.</s><s xml:id="_W47FX9n" coords="3,366.97,690.46,193.96,9.58;3,167.27,703.01,392.40,9.58;3,167.27,715.57,75.56,9.58">Through board games, pupils show improvement in the five aspects of speaking skills: grammar, pronunciation, fluency, vocabulary and content <ref type="bibr" coords="3,223.56,715.57,15.41,9.58">[22]</ref>.</s><s xml:id="_jNS39Mm" coords="3,247.00,715.57,312.27,9.58;3,167.27,728.12,362.48,9.58">For example, the modified Monopoly and Snakes and Ladders board games act as catalysts that assist pupils to speak in the context of descriptive texts.</s><s xml:id="_rRJgWCY" coords="3,532.84,728.12,26.43,9.58;3,167.27,740.67,346.37,9.58">Board and dice games are also proven to improve pupils' grammar in their speech <ref type="bibr" coords="3,494.73,740.67,15.13,9.58" target="#b22">[23]</ref>.</s><s xml:id="_vEkH9wC" coords="3,516.68,740.67,42.60,9.58;3,167.27,753.23,392.01,9.58;3,167.27,765.78,202.56,9.58">The LOSS board game also helps pupils to improve their pronunciation, as they are able to pronounce different words with the same ending sounds.</s></p><p xml:id="_ReuFvAE"><s xml:id="_gWSBzm4" coords="4,188.52,98.68,372.70,9.58;4,166.97,111.23,392.31,9.58;4,167.27,123.78,66.48,9.58">Moreover, the findings from past studies also reveal that board games engage pupils' participation and improve the speaking ability of low-proficiency pupils in speaking lessons <ref type="bibr" coords="4,201.98,123.78,15.88,9.58" target="#b23">[24,</ref><ref type="bibr" coords="4,217.86,123.78,11.91,9.58" target="#b24">25]</ref>.</s><s xml:id="_eUVbjAP" coords="4,236.85,123.78,324.17,9.58">Sometimes pupils cannot express their ideas as they lack the vocabulary.</s><s xml:id="_pJMA8WQ" coords="4,166.96,136.34,394.06,9.58">Through board games, pupils are exposed to ideas and opinions given by their peers <ref type="bibr" coords="4,529.71,136.34,15.65,9.58" target="#b25">[26,</ref><ref type="bibr" coords="4,545.37,136.34,11.74,9.58" target="#b26">27]</ref>.</s><s xml:id="_j2BgDzB" coords="4,166.96,148.89,393.97,9.58;4,167.27,161.44,310.51,9.58">They listen and learn from their group members' points of view, which helps them to monitor their speaking progress and improve their speaking competence.</s><s xml:id="_59hWBdv" coords="4,481.55,161.44,77.73,9.58;4,167.27,174.00,392.01,9.58;4,167.27,186.55,63.41,9.58">Advanced pupils acquainted with the games' mechanics can support and assist weak pupils during the games <ref type="bibr" coords="4,198.90,186.55,15.89,9.58" target="#b27">[28,</ref><ref type="bibr" coords="4,214.79,186.55,11.92,9.58" target="#b28">29]</ref>.</s><s xml:id="_uWdQxd4" coords="4,234.57,186.55,326.65,9.58;4,167.27,199.10,393.67,9.58;4,167.27,211.65,216.54,9.58">Board games also create a fun and relaxing ambience that lowers pupils' anxieties and motivates them, as they are related to what pupils find interesting and different from regular classroom speaking activities.</s><s xml:id="_qyFhDhE" coords="4,386.90,211.65,172.38,9.58;4,167.27,224.21,393.75,9.58">It is vital to create a cordial and relaxed atmosphere to lower pupils' affective filters and amplify their learning performance <ref type="bibr" coords="4,541.84,224.21,15.34,9.58" target="#b29">[30]</ref>.</s><s xml:id="_j7cSHwb" coords="4,166.88,236.76,394.06,9.58;4,167.27,249.31,369.57,9.58">Additionally, some board games connect to real life circumstances which provide opportunities for pupils to share their thoughts and ideas in the target language freely <ref type="bibr" coords="4,517.59,249.31,15.40,9.58" target="#b30">[31]</ref>.</s><s xml:id="_zFQBRsb" coords="4,539.93,249.31,19.35,9.58;4,167.27,261.87,353.42,9.58">This assists pupils to be more flexible in the real world and develop their social skills.</s></p><p xml:id="_Tjd7A9V"><s xml:id="_P9aNsKT" coords="4,188.52,274.42,370.75,9.58;4,167.27,286.97,280.01,9.58">Numerous studies have been done by past researchers to explore the usefulness of communicative language activities to improve speaking skills.</s><s xml:id="_r9A5ZSg" coords="4,450.94,286.97,108.72,9.58;4,167.27,299.53,392.01,9.58;4,167.27,312.08,392.01,9.58;4,167.27,324.63,82.99,9.58">However, there are very limited resources that focus on pupils' perceptions towards the use of board games in improving their speaking skill and the usefulness of board games to improve speaking skill among pupils.</s><s xml:id="_s6bW9hw" coords="4,253.38,324.63,306.10,9.58;4,167.27,337.18,106.02,9.58">To address this problem, a systematic review was conducted to answer the following questions:</s></p><p xml:id="_wYB2ka3"><s xml:id="_dtaS9sz" coords="4,188.52,349.74,370.75,9.58;4,167.27,362.29,92.48,9.58">RQ1: What are the pupils' perceptions towards the use of board games to improve their speaking skills?</s></p><p xml:id="_thse2EE"><s xml:id="_69rECuG" coords="4,188.52,374.84,360.28,9.58">RQ2: To what extent are board games useful in improving pupils' speaking skills?</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_Pq2yjHJ">Methodology</head><p xml:id="_REzr7bP"><s xml:id="_yvm7g7T" coords="4,188.52,412.80,370.75,9.58;4,167.27,425.35,177.86,9.58">In this study, the review and analysis were conducted systematically based on articles and journals from the period, 2017-2021.</s><s xml:id="_FspvS4D" coords="4,348.24,425.35,212.28,9.58;4,167.27,437.91,180.15,9.58">The articles were retrieved from three databases: Google Scholar, ERIC and SAGE Journals.</s><s xml:id="_p2bZR3m" coords="4,350.44,437.91,208.83,9.58;4,166.94,450.46,392.34,9.58;4,167.27,463.01,393.75,9.58">The review conformed to the PRISMA statement (Preferred Reporting Items for Systematic Reviews and Meta-Analyses), a recognized evidence-based standard which comprises a 27-item checklist and a 4-phase flow diagram.</s><s xml:id="_jqRZVng" coords="4,166.96,475.57,392.32,9.58;4,167.27,488.12,392.01,9.58;4,167.27,500.67,122.44,9.58">The PRISMA statement guides the researcher to identify inclusion and exclusion criteria in searching related articles and studies as well as to examine large databases of literature reviews in a distinct period.</s></p><p xml:id="_FEK83vd"><s xml:id="_GqSMf2X" coords="4,188.52,513.22,370.75,9.58;4,167.27,525.78,392.01,9.58;4,167.27,538.33,256.57,9.58">This review began with the process of collecting findings on the effectiveness of board games in speaking and pupils' perceptions towards the use of board games through the search engines: Google Scholar, ERIC and SAGE Journals.</s><s xml:id="_sM7qjst" coords="4,426.92,538.33,132.36,9.58;4,167.27,550.88,386.97,9.58">The data collected underwent four phases: identification phase, screening phase, eligibility phase and inclusion phase.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1." xml:id="_422BAbG">Phase 1: Identification</head><p xml:id="_Y28NnxG"><s xml:id="_fGCxkzr" coords="4,188.52,588.84,371.99,9.58;4,167.27,601.39,183.53,9.58">The data collected for this systematic literature review are from three main sources: Google Scholar, ERIC and SAGE Journals.</s><s xml:id="_VSSSHsJ" coords="4,353.89,601.39,205.38,9.58;4,167.27,613.95,392.01,9.58;4,167.27,626.50,392.01,9.58;4,167.10,639.05,372.71,9.58">Google Scholar is a web search engine released in November 2004 that enables users to access freely the full texts or reviews of online academic journals, conference papers, reports, theses and other scholarly literature. in January 2018, Google Scholar was recognized as the largest academic search engine.</s><s xml:id="_VFmR7K4" coords="4,542.89,639.05,16.38,9.58;4,167.27,651.61,393.75,9.58">It is used worldwide and it is estimated to consist of approximately 389 million documents.</s><s xml:id="_KYBZzku" coords="4,167.27,664.16,393.00,9.58;4,167.27,676.71,392.01,9.58;4,167.27,689.27,238.50,9.58">Meanwhile, ERIC is an online library supported by the Institute of Education Sciences (IES) of the U.S. Department of Education which provides varieties of approved journal and article sources that conform to its standard of selection.</s><s xml:id="_yvkfVFc" coords="4,408.86,689.27,150.41,9.58;4,167.27,701.82,392.01,9.58;4,167.27,714.37,392.47,9.58">SAGE Publishing, founded in 1965 by Sara Miller McCune, is a site that publishes online journals, books and reference works covering fields of humanities, social sciences, science, technology, business and medicine.</s></p><p xml:id="_c2ZmUjn"><s xml:id="_Xw2Uj6z" coords="4,188.52,726.92,371.99,9.58;4,165.77,739.48,210.89,9.58">The keywords used for the literature search included "board games", "speaking", "ESL classroom" and "students' perceptions".</s><s xml:id="_WAePta3" coords="4,383.13,739.48,176.15,9.58;4,167.27,752.03,316.50,9.58">The search identified 128 studies from Google Scholar, 42 studies from ERIC and 55 studies from SAGE Journals.</s><s xml:id="_h3yQa99" coords="4,486.78,752.03,72.49,9.58;4,166.85,764.58,392.43,9.58;5,167.27,98.68,80.67,9.58">These key words were typed together to narrow the scope and to prevent information that was irrelevant to the research topic.</s><s xml:id="_6vz63KJ" coords="5,251.02,98.68,309.50,9.58;5,167.27,111.23,169.85,9.58">The studies were then screened according to their year of publication, language, and literature type (Table <ref type="table" coords="5,326.33,111.23,3.60,9.58" target="#tab_0">1</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2." xml:id="_cYsUGyQ">Phase 2: Screening</head><p xml:id="_35AsJxt"><s xml:id="_4KUthV7" coords="5,188.52,231.47,370.75,9.58;5,167.27,244.03,392.01,9.58;5,167.27,256.58,30.41,9.58">Cautious screening was done to filter duplicate articles and research papers from the three research engines and the remainders were examined according to the criteria set earlier.</s><s xml:id="_TSDZgUD" coords="5,200.76,256.58,344.27,9.58">Some articles were removed as they did not grant full access for the reviewer.</s><s xml:id="_Q3URrJW" coords="5,548.11,256.58,11.16,9.58;5,167.27,269.13,278.02,9.58">At last, a complete reference list of selected articles was processed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3." xml:id="_MUGN6QH">Phase 3: Eligibility</head><p xml:id="_vsNNRE2"><s xml:id="_Pncrcx8" coords="5,188.52,307.09,370.75,9.58;5,167.27,319.64,33.20,9.58">Several conditions of eligibility and exclusion have been listed to identify qualified articles.</s><s xml:id="_mm2Cg6a" coords="5,203.53,319.64,356.74,9.58;5,167.27,332.20,392.01,9.58;5,167.27,344.75,45.22,9.58">Firstly, the articles chosen were published within a period of five years (2017-2021) to ensure the information is relevant and relates to the use of board games in modern education.</s><s xml:id="_qZUDYwF" coords="5,215.49,344.75,343.79,9.58;5,166.97,357.30,189.74,9.58">Next, articles published in other languages were excluded to prevent translation problems and hindrances in understanding.</s><s xml:id="_TeVXAwD" coords="5,359.78,357.30,199.49,9.58;5,167.27,369.86,267.89,9.58">Literature types were taken into consideration and book chapters, abstracts and non-journals are omitted.</s><s xml:id="_jRSzNMD" coords="5,440.26,369.86,119.02,9.58;5,167.27,382.41,393.25,9.58;5,167.27,394.96,164.21,9.58">As the review emphasizes the field of education, articles that related to other areas such as engineering, business, medicine and science were taken out.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4." xml:id="_5VE984v">Phase 4: Inclusion</head><p xml:id="_f3DVFcS"><s xml:id="_fNbKE8T" coords="5,188.52,432.92,370.76,9.58;5,167.27,445.47,65.68,9.58">At the final stage, only 35 articles that achieved the requirements were enclosed for the review.</s><s xml:id="_xGRhMEY" coords="5,237.97,445.47,322.55,9.58;5,167.27,458.03,392.01,9.58;5,167.27,470.58,63.28,9.58">The articles selected include quantitative research, qualitative research, mixed method research, action research and experimental research published between 2017 and 2021.</s><s xml:id="_wtGJTcP" coords="5,233.63,470.58,325.64,9.58;5,167.27,483.13,31.62,9.58">These criteria were taken into account to produce a high-quality systematic review.</s><s xml:id="_8ZQC5JC" coords="5,202.00,483.13,357.28,9.58;5,167.27,495.68,49.66,9.58">The details of the data collection process using the PRISMA flow are summarized in Figure <ref type="figure" coords="5,209.46,495.68,3.74,9.58" target="#fig_0">1</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_7Au2kW7">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1." xml:id="_AxRdn77">Pupils' Perceptions to the Use of Board Games</head><p xml:id="_tJbBhyB"><s xml:id="_ATCK9S9" coords="6,188.52,127.67,370.75,9.58;6,167.27,140.22,103.03,9.58">The aggregated results of past studies related to pupils' perceptions of board games are reviewed in this section.</s><s xml:id="_QS3znyX" coords="6,273.21,140.22,286.07,9.58;6,167.27,152.78,393.76,9.58">Pupils' perceptions to the use of board games were presented in the scope of their learning attitude, learning competence and learning community development.</s><s xml:id="_uuhFpJk" coords="6,166.96,165.33,392.32,9.58;6,167.27,177.88,94.14,9.58">The studies were classified into three categories: quantitative study, qualitative study and mixed-method study.</s><s xml:id="_THkmfCx" coords="6,264.49,177.88,271.26,9.58">The summary of the list of review studies is shown in Table <ref type="table" coords="6,528.28,177.88,3.74,9.58" target="#tab_1">2</ref>.</s><s xml:id="_zHunVDG" coords="6,188.52,461.96,370.75,9.58;6,167.27,474.52,125.73,9.58">A collection of 17 articles and journals focused on pupils' perceptions of the use of board games were reviewed.</s><s xml:id="_HkYScrM" coords="6,296.12,474.52,263.15,9.58;6,167.27,487.07,184.40,9.58">Among them were five quantitative studies, nine qualitative studies and three mixed-method studies.</s><s xml:id="_89j73eu" coords="6,355.69,487.07,205.24,9.58;6,167.27,499.62,392.40,9.58;6,167.27,512.17,61.91,9.58">This systematic review explained pupils' perceptions in terms of their learning attitude, learning competence and learning community development.</s><s xml:id="_7kAR2cw" coords="6,233.83,512.17,325.45,9.58;6,167.27,524.73,35.04,9.58">Pupils' learning attitude was recorded as the highest among these three aspects.</s><s xml:id="_55WAqMj" coords="6,207.41,524.73,352.06,9.58;6,167.27,537.28,231.37,9.58">Thirteen papers reported that pupils agreed that board games increased their motivation in speaking lessons <ref type="bibr" coords="6,302.87,537.28,16.66,9.58" target="#b20">[21,</ref><ref type="bibr" coords="6,319.52,537.28,12.49,9.58" target="#b22">23,</ref><ref type="bibr" coords="6,332.01,537.28,12.49,9.58" target="#b27">28,</ref><ref type="bibr" coords="6,344.51,537.28,12.49,9.58" target="#b32">33,</ref><ref type="bibr" coords="6,357.00,537.28,12.49,9.58" target="#b33">34,</ref><ref type="bibr" coords="6,369.49,537.28,8.33,9.58" target="#b35">[36]</ref><ref type="bibr" coords="6,377.82,537.28,4.16,9.58" target="#b36">[37]</ref><ref type="bibr" coords="6,377.82,537.28,4.16,9.58">[38]</ref><ref type="bibr" coords="6,377.82,537.28,4.16,9.58" target="#b38">[39]</ref><ref type="bibr" coords="6,377.82,537.28,4.16,9.58" target="#b39">[40]</ref><ref type="bibr" coords="6,377.82,537.28,4.16,9.58" target="#b40">[41]</ref><ref type="bibr" coords="6,381.98,537.28,12.49,9.58" target="#b41">[42]</ref>.</s><s xml:id="_nGaHswD" coords="6,401.71,537.28,157.56,9.58;6,167.27,549.83,392.01,9.58;6,167.27,562.39,393.66,9.58;6,167.27,574.94,62.99,9.58">In eight studies, pupils revealed that their speaking competence improved <ref type="bibr" coords="6,330.46,549.83,16.27,9.58" target="#b22">[23,</ref><ref type="bibr" coords="6,346.73,549.83,12.20,9.58" target="#b25">26,</ref><ref type="bibr" coords="6,358.93,549.83,12.20,9.58" target="#b31">32,</ref><ref type="bibr" coords="6,371.14,549.83,12.20,9.58" target="#b33">34,</ref><ref type="bibr" coords="6,383.34,549.83,12.20,9.58" target="#b34">35,</ref><ref type="bibr" coords="6,395.54,549.83,12.20,9.58" target="#b36">37,</ref><ref type="bibr" coords="6,407.74,549.83,12.20,9.58" target="#b40">41,</ref><ref type="bibr" coords="6,419.95,549.83,12.20,9.58" target="#b41">42]</ref>. Lastly, six studies identified that pupils proclaimed that board games enhanced their learning community development <ref type="bibr" coords="6,192.37,574.94,16.84,9.58" target="#b20">[21,</ref><ref type="bibr" coords="6,209.21,574.94,8.42,9.58" target="#b25">[26]</ref><ref type="bibr" coords="6,217.63,574.94,4.21,9.58" target="#b26">[27]</ref><ref type="bibr" coords="6,217.63,574.94,4.21,9.58" target="#b27">[28]</ref><ref type="bibr" coords="6,221.84,574.94,12.63,9.58" target="#b28">[29]</ref><ref type="bibr" coords="6,234.47,574.94,12.63,9.58" target="#b38">39]</ref>.</s></p><p xml:id="_mGtqeRE"><s xml:id="_JdX9BPw" coords="6,188.52,587.49,370.75,9.58;6,167.27,600.04,295.99,9.58">Fithriani <ref type="bibr" coords="6,230.15,587.49,16.73,9.58" target="#b22">[23]</ref> identified that pupils themselves reported that board games assisted them in gaining confidence in using English during speaking lessons.</s><s xml:id="_fMXzDsw" coords="6,466.21,600.04,93.06,9.58;6,167.27,612.60,392.01,9.58;6,167.27,625.15,196.83,9.58">Board games lowered their speaking anxiety and provided a game-like atmosphere which enabled them to express their ideas freely within the context provided.</s><s xml:id="_WqqpwH2" coords="6,367.13,625.15,192.14,9.58;6,167.27,637.70,261.83,9.58">Similar findings were depicted in the studies of Łodzikowski &amp; Jekiel <ref type="bibr" coords="6,275.91,637.70,16.63,9.58" target="#b36">[37]</ref> and Gonzalo-Iglesia et al. <ref type="bibr" coords="6,409.96,637.70,15.31,9.58" target="#b27">[28]</ref>.</s><s xml:id="_WU5RxKT" coords="6,432.22,637.70,127.06,9.58;6,167.27,650.26,392.01,9.58;6,167.27,662.81,392.01,9.58;6,167.27,675.36,64.55,9.58">The former delineated board games as alternatives that promoted active participation in a speaking lessons, while the latter portrayed board games as activating catalysts that motivated pupils to speak in the classroom.</s><s xml:id="_pBpzpHY" coords="6,235.94,675.36,323.34,9.58;6,167.27,687.92,392.01,9.58;6,167.27,700.47,392.01,9.58;6,167.27,713.02,60.41,9.58">For instance, pupils proclaimed that the use of board game, Snakes and Ladders, reduced the boredom of a speaking lesson as it was an engaging and fun game that motivated them to speak confidently in front of the class; they enjoyed many aspects of the game <ref type="bibr" coords="6,208.77,713.02,15.12,9.58">[38]</ref>.</s><s xml:id="_7xWungg" coords="6,230.66,713.02,328.62,9.58;6,167.27,725.57,393.75,9.58">From pupils' perspectives, board games made speaking lessons fun, reduced their shyness in speaking and lessened their fear of making flaws while speaking <ref type="bibr" coords="6,529.35,725.57,15.83,9.58" target="#b33">[34,</ref><ref type="bibr" coords="6,545.18,725.57,11.88,9.58" target="#b41">42]</ref>.</s><s xml:id="_TtGXNK3" coords="6,167.27,738.13,392.01,9.58;6,167.27,750.68,53.16,9.58">Pupils were encouraged to speak as board games replaced drilling practices in speaking lessons <ref type="bibr" coords="6,201.34,750.68,15.27,9.58" target="#b39">[40]</ref>.</s></p><p xml:id="_jDPPxRa"><s xml:id="_aVJ2PPk" coords="6,188.52,763.23,372.41,9.58;6,166.97,775.79,361.85,9.58">Apart from the change in learning attitude, there was a shift in pupils' speaking competence in terms of grammar, pronunciation and fluency <ref type="bibr" coords="6,410.68,775.79,16.29,9.58" target="#b22">[23,</ref><ref type="bibr" coords="6,426.97,775.79,12.22,9.58" target="#b25">26,</ref><ref type="bibr" coords="6,439.19,775.79,12.22,9.58" target="#b26">27,</ref><ref type="bibr" coords="6,451.42,775.79,12.22,9.58" target="#b31">32,</ref><ref type="bibr" coords="6,463.64,775.79,12.22,9.58" target="#b33">34,</ref><ref type="bibr" coords="6,475.86,775.79,12.22,9.58" target="#b34">35,</ref><ref type="bibr" coords="6,488.08,775.79,12.22,9.58" target="#b36">37,</ref><ref type="bibr" coords="6,500.30,775.79,12.22,9.58" target="#b40">41,</ref><ref type="bibr" coords="6,512.52,775.79,12.22,9.58" target="#b41">42]</ref>.</s><s xml:id="_YTQdMpF" coords="6,531.80,775.79,27.47,9.58;7,167.27,98.68,392.01,9.58;7,167.27,111.23,197.69,9.58">Pupils claimed that board and dice games enabled them to learn how to use tenses, passive voice and conditional sentences in their speech <ref type="bibr" coords="7,346.04,111.23,15.13,9.58" target="#b22">[23]</ref>.</s><s xml:id="_v68uEp5" coords="7,367.99,111.23,191.28,9.58;7,167.27,123.78,392.01,9.58;7,167.27,136.34,193.98,9.58">Pupils admitted that they actively converted the sentences in the board games to their past tense forms and spoke the sentences while they played the game with their peers <ref type="bibr" coords="7,341.97,136.34,15.42,9.58" target="#b41">[42]</ref>.</s><s xml:id="_pb5eg7a" coords="7,365.24,136.34,194.04,9.58;7,167.27,148.89,393.75,9.58">Pupils acquired the grammar in the speech subconsciously and improved their speech accuracy gradually through board games <ref type="bibr" coords="7,541.91,148.89,15.29,9.58" target="#b40">[41]</ref>.</s><s xml:id="_7hvvjQZ" coords="7,167.27,161.44,393.26,9.58;7,167.27,174.00,392.01,9.58;7,167.27,186.55,200.46,9.58">Pupils also perceived board games as a great tool that improved their vocabulary, fluency, grammar and pronunciation in their speech as their scores in the speaking post-test were higher when compared to the pre-test <ref type="bibr" coords="7,336.15,186.55,15.79,9.58" target="#b25">[26,</ref><ref type="bibr" coords="7,351.94,186.55,11.84,9.58" target="#b31">32]</ref>.</s><s xml:id="_yhAGZDY" coords="7,370.81,186.55,188.47,9.58;7,167.27,199.10,358.93,9.58">Pupils also viewed board games as helpful in improving their English pronunciation in terms of stress and intonation <ref type="bibr" coords="7,506.92,199.10,15.42,9.58" target="#b36">[37]</ref>.</s><s xml:id="_nRSut6Q" coords="7,530.68,199.10,28.60,9.58;7,167.27,211.65,392.01,9.58;7,167.27,224.21,311.86,9.58">Pupils expressed that board games improved their fluency in speaking as they enjoyed playing the games and forget their fear of making errors in their speech <ref type="bibr" coords="7,447.58,224.21,15.77,9.58" target="#b33">[34,</ref><ref type="bibr" coords="7,463.35,224.21,11.83,9.58" target="#b34">35]</ref>.</s></p><p xml:id="_vzKn4nf"><s xml:id="_FSm24Me" coords="7,188.52,236.76,370.75,9.58;7,167.27,249.31,259.85,9.58">Through board games, pupils' learning community development was enhanced in terms of their social ability and communication <ref type="bibr" coords="7,384.74,249.31,16.95,9.58" target="#b20">[21,</ref><ref type="bibr" coords="7,401.69,249.31,8.47,9.58" target="#b25">[26]</ref><ref type="bibr" coords="7,410.16,249.31,4.24,9.58" target="#b26">[27]</ref><ref type="bibr" coords="7,410.16,249.31,4.24,9.58" target="#b27">[28]</ref><ref type="bibr" coords="7,414.40,249.31,12.71,9.58" target="#b28">[29]</ref><ref type="bibr" coords="7,427.11,249.31,12.71,9.58" target="#b38">39]</ref>. Pupils' social skills were improved through board games as they learnt to tolerate losing the games, listened to others' opinions and shared their points of view <ref type="bibr" coords="7,384.26,274.42,15.39,9.58" target="#b26">[27]</ref>.</s><s xml:id="_nhqauVG" coords="7,427.11,249.31,16.95,9.58">Pupils expressed their preferences for board games because they promoted collaborative learning and pupils could socially interact as well as develop teamwork skills with peers <ref type="bibr" coords="7,403.25,299.53,15.13,9.58" target="#b27">[28]</ref>.</s><s xml:id="_J72GX2X" coords="7,448.49,249.31,31.42,9.58">Karasimos' study <ref type="bibr" coords="7,503.37,299.53,16.48,9.58" target="#b28">[29]</ref> revealed that pupils showed an active participation in board games as they loved to work with peers in groups.</s></p><p xml:id="_ss7Xpt4"><s xml:id="_BKs2XwJ" coords="7,188.52,337.18,370.75,9.58;7,167.27,349.74,393.67,9.58;7,167.27,362.29,42.67,9.58">Based on the above findings, board games are proven to increase motivation in speaking, improve speaking competence and enhance social interaction from pupils' perspectives.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2." xml:id="_8KGYXhH">Usefulness of Board Games in Improving Pupils' Speaking Skill</head><p xml:id="_FWz7sCT"><s xml:id="_syjYbqZ" coords="7,188.52,400.25,370.75,9.58;7,166.97,412.80,100.88,9.58">The selected studies have reported the usefulness of board games in improving pupils' speaking skills.</s><s xml:id="_dTG9xja" coords="7,270.96,412.80,289.55,9.58;7,166.99,425.35,190.39,9.58">The studies are classified into three categories: quantitative study, qualitative study and mixed-method study.</s><s xml:id="_FxHfJbU" coords="7,360.48,425.35,198.79,9.58;7,167.27,437.91,119.05,9.58">Table <ref type="table" coords="7,386.28,425.35,4.97,9.58">3</ref> displays a list of studies related to the usefulness of board games.</s></p><p xml:id="_jFW2QcU"><s xml:id="_ZUnTwaR" coords="7,92.39,462.32,410.19,8.63">Table <ref type="table" coords="7,117.05,462.40,3.36,8.41">3</ref>. List of reviewed studies on the usefulness of board games in improving pupils' speaking skills.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_MVe5pEd">Methods</head><p xml:id="_CgfX6rc"><s xml:id="_NCxsK6p" coords="8,167.27,98.68,51.54,9.58">five criteria.</s><s xml:id="_MWdpAXn" coords="8,221.90,98.68,339.03,9.58;8,166.97,111.23,291.68,9.58">It was reported in 11 studies that pupils' pronunciation improved after the implementation of board games in speaking lessons <ref type="bibr" coords="8,379.65,111.23,16.63,9.58" target="#b14">[15,</ref><ref type="bibr" coords="8,396.28,111.23,12.47,9.58" target="#b30">31,</ref><ref type="bibr" coords="8,408.75,111.23,12.47,9.58" target="#b42">43,</ref><ref type="bibr" coords="8,421.23,111.23,12.47,9.58" target="#b43">44,</ref><ref type="bibr" coords="8,433.70,111.23,8.32,9.58" target="#b46">[47]</ref><ref type="bibr" coords="8,442.01,111.23,4.16,9.58" target="#b47">[48]</ref><ref type="bibr" coords="8,442.01,111.23,4.16,9.58" target="#b48">[49]</ref><ref type="bibr" coords="8,446.17,111.23,12.47,9.58" target="#b49">[50]</ref><ref type="bibr" coords="8,458.64,111.23,12.47,9.58" target="#b51">52,</ref><ref type="bibr" coords="8,471.12,111.23,12.47,9.58" target="#b53">54,</ref><ref type="bibr" coords="8,483.59,111.23,12.47,9.58" target="#b54">55]</ref>.</s><s xml:id="_S2h4ytd" coords="8,458.64,111.23,24.95,9.58">Furthermore, through board games, pupils were able to speak fluently <ref type="bibr" coords="8,419.22,123.78,17.08,9.58" target="#b14">[15,</ref><ref type="bibr" coords="8,436.29,123.78,12.81,9.58">17,</ref><ref type="bibr" coords="8,449.10,123.78,12.81,9.58" target="#b30">31,</ref><ref type="bibr" coords="8,461.91,123.78,12.81,9.58" target="#b42">43,</ref><ref type="bibr" coords="8,474.72,123.78,8.54,9.58" target="#b45">[46]</ref><ref type="bibr" coords="8,483.26,123.78,4.27,9.58" target="#b46">[47]</ref><ref type="bibr" coords="8,487.53,123.78,12.81,9.58" target="#b47">[48]</ref><ref type="bibr" coords="8,500.34,123.78,12.81,9.58" target="#b51">52]</ref> and make less grammatical errors in their speech <ref type="bibr" coords="8,347.53,136.34,16.80,9.58" target="#b14">[15,</ref><ref type="bibr" coords="8,364.33,136.34,12.60,9.58">17,</ref><ref type="bibr" coords="8,376.93,136.34,12.60,9.58" target="#b42">43,</ref><ref type="bibr" coords="8,389.54,136.34,12.60,9.58" target="#b43">44,</ref><ref type="bibr" coords="8,402.14,136.34,8.40,9.58" target="#b46">[47]</ref><ref type="bibr" coords="8,410.54,136.34,4.20,9.58" target="#b47">[48]</ref><ref type="bibr" coords="8,414.74,136.34,12.60,9.58" target="#b48">[49]</ref><ref type="bibr" coords="8,427.35,136.34,12.60,9.58" target="#b51">52,</ref><ref type="bibr" coords="8,439.95,136.34,12.60,9.58" target="#b53">54,</ref><ref type="bibr" coords="8,452.55,136.34,12.60,9.58" target="#b55">56]</ref>.</s><s xml:id="_AHChUS2" coords="8,483.59,111.23,16.63,9.58">In addition to this, board games exposed pupils to a myriad of speaking opportunities in different speaking contexts <ref type="bibr" coords="8,206.05,161.44,12.31,9.58" target="#b6">[7,</ref><ref type="bibr" coords="8,218.36,161.44,12.31,9.58" target="#b44">45,</ref><ref type="bibr" coords="8,230.68,161.44,12.31,9.58" target="#b45">46,</ref><ref type="bibr" coords="8,242.99,161.44,12.31,9.58" target="#b50">51,</ref><ref type="bibr" coords="8,255.30,161.44,12.31,9.58" target="#b52">53,</ref><ref type="bibr" coords="8,267.62,161.44,12.31,9.58" target="#b53">54]</ref> and motivated pupils to speak <ref type="bibr" coords="8,419.04,161.44,12.15,9.58" target="#b6">[7,</ref><ref type="bibr" coords="8,431.19,161.44,12.15,9.58">17,</ref><ref type="bibr" coords="8,443.35,161.44,12.15,9.58" target="#b45">46,</ref><ref type="bibr" coords="8,455.50,161.44,12.15,9.58" target="#b47">48,</ref><ref type="bibr" coords="8,467.65,161.44,12.15,9.58" target="#b49">50,</ref><ref type="bibr" coords="8,479.81,161.44,12.15,9.58" target="#b50">51,</ref><ref type="bibr" coords="8,491.96,161.44,12.15,9.58" target="#b52">53,</ref><ref type="bibr" coords="8,504.11,161.44,12.15,9.58" target="#b55">56]</ref>.</s></p><p xml:id="_6gftmC6"><s xml:id="_5pqyb6c" coords="8,188.52,174.00,370.75,9.58;8,167.27,186.55,175.05,9.58">Board games were proven to be efficacious in improving pronunciation in terms of clarity <ref type="bibr" coords="8,198.34,186.55,16.71,9.58" target="#b14">[15,</ref><ref type="bibr" coords="8,215.05,186.55,12.53,9.58" target="#b30">31]</ref> and intelligibility <ref type="bibr" coords="8,310.55,186.55,15.88,9.58" target="#b42">[43,</ref><ref type="bibr" coords="8,326.43,186.55,11.91,9.58" target="#b46">47]</ref>.</s><s xml:id="_PZnHUm5" coords="8,345.71,186.55,213.56,9.58;8,167.27,199.10,392.01,9.58;8,167.27,211.65,173.74,9.58">Pupils were able to identify, blend and segment individual sounds <ref type="bibr" coords="8,247.96,199.10,15.12,9.58" target="#b47">[48]</ref>, know the differences between phonemes and pronounce the ending sounds /s/, /z/ and /iz/ clearly <ref type="bibr" coords="8,321.74,211.65,15.42,9.58" target="#b54">[55]</ref>.</s><s xml:id="_kvp9PeK" coords="8,345.51,211.65,213.76,9.58;8,166.85,224.21,392.43,9.58;8,167.27,236.76,127.08,9.58">Pupils were able to articulate the speech sound with the right pitch <ref type="bibr" coords="8,254.15,224.21,15.22,9.58" target="#b53">[54]</ref>, stress <ref type="bibr" coords="8,302.44,224.21,16.56,9.58" target="#b49">[50]</ref> and intonation <ref type="bibr" coords="8,388.48,224.21,16.55,9.58" target="#b42">[43]</ref> with reference to some standard of correctness and acceptability.</s><s xml:id="_8TwYRkd" coords="8,297.46,236.76,261.81,9.58;8,167.27,249.31,310.41,9.58">Repetition of words mentioned by peers in the board games facilitated pupils' memory retention of the words' pronunciations <ref type="bibr" coords="8,458.59,249.31,15.27,9.58" target="#b48">[49]</ref>.</s></p><p xml:id="_gHRDwhg"><s xml:id="_vxG82aK" coords="8,188.52,261.87,271.38,9.58">Board games also caused a significant improvement in fluency.</s><s xml:id="_WjvbDsB" coords="8,462.98,261.87,96.68,9.58;8,167.27,274.42,393.25,9.58;8,167.27,286.97,392.01,9.58;8,167.27,299.53,55.00,9.58">Pupils' speech fluency showed a huge progression as their speed of speech production was maximized <ref type="bibr" coords="8,541.25,274.42,15.41,9.58" target="#b51">[52]</ref>, grammatical accuracy was increased <ref type="bibr" coords="8,330.64,286.97,16.60,9.58" target="#b45">[46]</ref> and they could further elaborate on their points of view <ref type="bibr" coords="8,203.05,299.53,15.38,9.58">[17]</ref>.</s><s xml:id="_TUPEgfb" coords="8,225.38,299.53,333.89,9.58;8,167.27,312.08,364.70,9.58">Pupils could understand the conversation and respond to their peers using comprehensible speech <ref type="bibr" coords="8,269.23,312.08,16.47,9.58" target="#b46">[47]</ref> as well as express their opinions without hindrances <ref type="bibr" coords="8,513.06,312.08,15.12,9.58" target="#b47">[48]</ref>.</s><s xml:id="_c6ScGn4" coords="8,534.91,312.08,25.61,9.58;8,167.27,324.63,392.01,9.58;8,166.85,337.18,320.49,9.58">Halts, repetitions, fillers and sentence fragments were reduced in the speech and communication was not impeded by minor grammatical errors and language limitations.</s></p><p xml:id="_bnskSXd"><s xml:id="_gn8avCz" coords="8,188.52,349.74,370.75,9.58;8,167.27,362.29,392.01,9.58;8,167.27,374.84,73.68,9.58">Apart from the improvement in speech fluency, board games assisted pupils in using grammatical forms such as verb tenses, linking words and conjunctions in their speech correctly <ref type="bibr" coords="8,209.17,374.84,15.89,9.58" target="#b48">[49,</ref><ref type="bibr" coords="8,225.06,374.84,11.91,9.58" target="#b51">52]</ref>.</s><s xml:id="_Atq3WmY" coords="8,244.65,374.84,314.62,9.58;8,167.27,387.40,147.49,9.58">Pupils began to use complex and compound sentences in their speech instead of simple sentences <ref type="bibr" coords="8,295.48,387.40,15.42,9.58" target="#b43">[44]</ref>.</s><s xml:id="_mmpkGsx" coords="8,320.56,387.40,238.71,9.58;8,167.27,399.95,366.89,9.58">Pupils were aware of the units and patterns used in the speech <ref type="bibr" coords="8,216.44,399.95,16.66,9.58" target="#b47">[48]</ref> and developed a relatively high degree of grammatical control <ref type="bibr" coords="8,514.98,399.95,15.34,9.58">[17]</ref>.</s><s xml:id="_VdyJfeH" coords="8,537.25,399.95,22.42,9.58;8,166.85,412.50,392.43,9.58;8,167.27,425.06,30.80,9.58">They would select the right tenses and word class while conversing with their peers in board games.</s></p><p xml:id="_4rv9Sj7"><s xml:id="_x3XmBSj" coords="8,188.52,437.61,370.75,9.58;8,167.27,450.16,173.87,9.58">Board games were regarded as tools that exposed pupils to various chances to practice speaking the target language naturally.</s><s xml:id="_7cKVzCk" coords="8,344.22,450.16,215.06,9.58;8,166.97,462.71,393.96,9.58;8,167.27,475.27,332.43,9.58">Pupils were connected to real-life situations that provided meaningful learning opportunities through board games <ref type="bibr" coords="8,473.54,462.71,15.89,9.58" target="#b44">[45,</ref><ref type="bibr" coords="8,489.43,462.71,11.92,9.58" target="#b52">53]</ref>, thus stimulating them to develop their creativity and thinking into a wider area <ref type="bibr" coords="8,480.42,475.27,15.42,9.58" target="#b45">[46]</ref>.</s><s xml:id="_5aSBthK" coords="8,503.34,475.27,55.94,9.58;8,166.85,487.82,392.63,9.58;8,167.27,500.37,392.40,9.58;8,167.27,512.93,85.55,9.58">Pictures and words provided on the cards in board games enabled pupils to develop ideas for their speech content and pupils gained experience using the language naturally for their daily communication <ref type="bibr" coords="8,238.71,512.93,10.58,9.58" target="#b6">[7]</ref>.</s></p><p xml:id="_NzGnDTh"><s xml:id="_BxTbBqs" coords="8,188.52,525.48,370.75,9.58;8,167.27,538.03,114.44,9.58">It was notable that pupils were keen on speaking after board games were implemented in their speaking lessons.</s><s xml:id="_7qM3ssU" coords="8,286.53,538.03,272.74,9.58;8,167.27,550.58,393.67,9.58;8,167.27,563.14,243.34,9.58">A few studies indicated that board games created a positive learning environment with a comfortable atmosphere that reduced apprehension in communication <ref type="bibr" coords="8,220.59,563.14,16.67,9.58" target="#b52">[53]</ref> and boosted confidence in speech <ref type="bibr" coords="8,391.42,563.14,15.35,9.58" target="#b55">[56]</ref>.</s><s xml:id="_DyUqUk4" coords="8,413.69,563.14,145.58,9.58;8,166.97,575.69,392.51,9.58;8,167.27,588.24,80.78,9.58">Moreover, board games required pupils to gather in small groups to play <ref type="bibr" coords="8,351.79,575.69,10.72,9.58" target="#b6">[7]</ref>, so pupils were able to learn through their friends' speaking.</s><s xml:id="_Ugpj36m" coords="8,253.33,588.24,305.95,9.58;8,167.27,600.80,238.31,9.58">The stress-free ambience offered by board games allowed pupils to forget their shyness and express ideas naturally <ref type="bibr" coords="8,386.30,600.80,15.42,9.58" target="#b45">[46]</ref>.</s><s xml:id="_mgFc2kC" coords="8,410.13,600.80,149.15,9.58;8,167.27,613.35,392.01,9.58;8,167.27,625.90,392.00,9.58;8,167.27,638.46,386.56,9.58">As pupils were familiarised with the concepts, rules and regulations of the board games such as Monopoly and Snakes and Ladders, their anxiety and phobia in speaking was minimized <ref type="bibr" coords="8,454.85,625.90,16.73,9.58" target="#b50">[51]</ref> and they felt more encouraged and confident in conveying their opinions to their friends in the games [17].</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_hZ73n7C">Conclusions</head><p xml:id="_wXc27X2"><s xml:id="_NBqjAdu" coords="8,188.52,676.41,370.75,9.58;8,167.27,688.97,393.76,9.58">To summarize, this systematic literature review analyzed pupils' perceptions on the use of board games and the usefulness of board games in improving pupils' speaking skills.</s><s xml:id="_WSeVpxB" coords="8,167.27,701.52,392.01,9.58;8,167.27,714.07,177.93,9.58">Pupils' perceptions were analyzed in terms of their learning attitude, learning competence and learning community development.</s><s xml:id="_vRpGSqx" coords="8,350.31,714.07,208.97,9.58;8,167.27,726.63,392.01,9.58;8,166.85,739.18,236.96,9.58">The results showed that pupils enjoyed board games as the fun and relaxing gaming atmosphere encouraged them to speak English without feeling inferior or the fear of making mistakes.</s><s xml:id="_PnQYqvg" coords="8,406.89,739.18,152.39,9.58;8,167.27,751.73,392.01,9.58;8,167.27,764.28,364.58,9.58">The nature of board games enabled fun learning and motivated pupils to speak, as they differed from other speaking activities that constrained pupils to learn English according to norms and mundane routines.</s><s xml:id="_E8Hg7x5" coords="8,534.95,764.28,25.99,9.58;9,167.27,98.68,392.01,9.58;9,167.27,111.23,392.40,9.58;9,167.27,123.78,126.65,9.58">Addi-tionally, pupils agreed that board games enhanced their learning community development as they had more social interactions with their peers and learned the viewpoints shared by their peers during the games.</s><s xml:id="_yFcvXM6" coords="9,296.99,123.78,262.28,9.58;9,167.27,136.34,392.01,9.58;9,167.27,148.89,208.00,9.58">The studies highlighted in the systematic review also proved that board games were impressive tools that improved pupils' speaking competence in terms of pronunciation, fluency and grammar.</s><s xml:id="_RnKm7gE" coords="9,378.83,148.89,180.44,9.58;9,166.99,161.44,239.60,9.58">The main speaking obstacles like lack of vocabulary and difficulties in pronunciation decreased.</s><s xml:id="_cTH5ngH" coords="9,409.68,161.44,149.60,9.58;9,167.27,174.00,392.40,9.58;9,166.97,186.55,110.55,9.58">It was discovered that pupils were able to speak with correct pronunciation using correct grammatical forms without many pauses during the games.</s><s xml:id="_nuuukn9" coords="9,280.59,186.55,278.69,9.58;9,167.27,199.10,393.95,9.58;9,166.97,211.65,392.31,9.58;9,167.27,224.21,170.59,9.58">Out of the 18 studies reviewed on the usefulness of board games in improving pupils' speaking skills, 11 mentioned that board games improved pupils' pronunciation, 8 mentioned that pupils' fluency developed and 10 mentioned pupils were aware of the grammar in their speech.</s><s xml:id="_RQaTq4G" coords="9,341.15,224.21,218.12,9.58;9,167.27,236.76,392.01,9.58;9,167.27,249.31,293.94,9.58">The articles gathered in this systematic literature review answered both research questions in the current study and evidently showed that board games were effective in improving pupils' speaking skills.</s><s xml:id="_EFTKxuE" coords="9,466.15,249.31,93.13,9.58;9,167.27,261.87,393.66,9.58;9,167.27,274.42,392.01,9.58;9,167.27,286.97,25.18,9.58">Therefore, educators should integrate board games into teaching methods to arouse and cultivate pupils' interests to speak English in their daily communication and help pupils to master their speaking skills.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_abAVb73">Limitations and Recommendations</head><p xml:id="_czstj3h"><s xml:id="_3Tadxs4" coords="9,188.52,324.93,370.75,9.58;9,167.27,337.48,214.11,9.58">This systematic review offers information to educators in Malaysia on the use of board games in improving pupils' speaking skill.</s><s xml:id="_aK57fuf" coords="9,384.46,337.48,174.82,9.58;9,166.97,350.04,280.85,9.58">Most articles portrayed that pupils gave positive feedback on the use of board games to learn speaking.</s><s xml:id="_ZEjFu6S" coords="9,450.97,350.04,108.31,9.58;9,167.27,362.59,341.42,9.58">The findings could shed light on the implementation of board games to teach speaking in the classroom.</s><s xml:id="_DwpNrGR" coords="9,511.74,362.59,47.54,9.58;9,167.27,375.14,392.01,9.58;9,167.27,387.70,57.86,9.58">There are a few limitations worth discussing in this review that can be further explored by researchers in the future.</s><s xml:id="_Zj5DvHv" coords="9,228.21,387.70,331.07,9.58;9,167.27,400.25,126.87,9.58">Firstly, this review only managed to analyze 35 articles from ERIC, Google Scholar and SAGE journals.</s><s xml:id="_udMwGgC" coords="9,300.00,400.25,259.28,9.58;9,167.27,412.80,209.61,9.58">Secondly, the review revolves around articles that report students' perceptions on the use of board games.</s><s xml:id="_8fBZdqW" coords="9,379.91,412.80,179.36,9.58;9,167.27,425.35,392.01,9.58;9,167.27,437.91,26.44,9.58">It is recommended that future researchers explore more databases to obtain findings from different sources to enrich and expand the study.</s><s xml:id="_WpR5dEM" coords="9,196.79,437.91,362.48,9.58;9,167.27,450.46,392.01,9.58;9,167.27,463.01,144.63,9.58">Hopefully, future studies can look into both teachers' and students' perceptions on the usefulness of board games in teaching and speaking so that other educators can learn opinions from both perspectives.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,167.27,778.59,237.97,8.63"><head>Figure 1 .</head><label>1</label><figDesc><div><p xml:id="_GUkcmuQ"><s xml:id="_3aD5DSE" coords="5,167.27,778.67,35.37,8.41">Figure 1.</s><s xml:id="_NqPv7sK" coords="5,205.42,778.59,199.82,8.63">Flow chart of the research article selection process.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="5,166.97,136.13,372.96,61.57"><head>Table 1 .</head><label>1</label><figDesc><div><p xml:id="_y8FTC8J"><s xml:id="_NtFfNCq" coords="5,201.13,136.13,144.63,8.63">The eligibility and exclusion criteria.</s></p></div></figDesc><table coords="5,183.21,156.90,356.72,40.80"><row><cell>Criterion</cell><cell>Eligibility</cell><cell>Exclusion</cell></row><row><cell>Years of publication</cell><cell>Between 2017 and 2021</cell><cell>&lt;2017</cell></row><row><cell>Language</cell><cell>English</cell><cell>Non-English</cell></row><row><cell>Literature type</cell><cell>Journal, research, articles</cell><cell>Non-journals, book chapters, abstracts</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,166.97,201.44,381.00,241.37"><head>Table 2 .</head><label>2</label><figDesc><div><p xml:id="_ZtfMrDX"><s xml:id="_4bGmY6h" coords="6,201.13,201.44,289.12,8.63">List of reviewed studies of pupils' perceptions to the use of board games.</s></p></div></figDesc><table coords="6,176.68,222.59,371.29,220.22"><row><cell>Methods</cell><cell>Author (Year)</cell><cell>Attitude</cell><cell>Competence</cell><cell>Community Development</cell></row><row><cell></cell><cell>[32]</cell><cell></cell><cell>/</cell><cell></cell></row><row><cell>Quantitative study, n = 5</cell><cell>[33] [23] [34]</cell><cell>/ / /</cell><cell>/ /</cell><cell></cell></row><row><cell></cell><cell>[35]</cell><cell></cell><cell>/</cell><cell></cell></row><row><cell></cell><cell>[36]</cell><cell>/</cell><cell></cell><cell></cell></row><row><cell></cell><cell>[27]</cell><cell></cell><cell></cell><cell>/</cell></row><row><cell></cell><cell>[29]</cell><cell></cell><cell></cell><cell>/</cell></row><row><cell>Qualitative study, n = 9</cell><cell>[37] [38] [39]</cell><cell>/ / /</cell><cell>/</cell><cell>/</cell></row><row><cell></cell><cell>[26]</cell><cell></cell><cell>/</cell><cell>/</cell></row><row><cell></cell><cell>[21]</cell><cell>/</cell><cell></cell><cell>/</cell></row><row><cell></cell><cell>[40]</cell><cell>/</cell><cell></cell><cell></cell></row><row><cell>Mixed method, n = 3</cell><cell>[28] [41] [42]</cell><cell>/ / /</cell><cell>/ /</cell><cell>/</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div xml:id="_vMvSuDe"><p xml:id="_B3qTdGz">Funding: This research was funded by <rs type="funder">Universiti Kebangsaan Malaysia</rs> under research grant number <rs type="grantNumber">GG-2019-006</rs> and the APC was funded by <rs type="funder">Universiti Kebangsaan Malaysia</rs>.</p></div>
+<div><head xml:id="_VT8aMDX">Institutional Review Board Statement: Not applicable.</head><p xml:id="_e9ZkKFd">Informed Consent Statement: Informed consent was obtained from all subjects involved in this study.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_UYGMxtZ">
+					<idno type="grant-number">GG-2019-006</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_ABHK2qj"><p xml:id="_B2gJNEr"><s xml:id="_cUhRJDX" coords="9,167.27,628.43,179.50,8.63">Data Availability Statement: Not applicable.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_fXVFhfg">Conflicts of Interest:</head><p xml:id="_hjGYMeb"><s xml:id="_N27YAUN" coords="9,252.96,646.13,165.99,8.63">The authors declare no conflict of interest.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_E9tHpCu"><p xml:id="_Sb4n72J"><s xml:id="_QdzRDTC" coords="7,188.52,710.71,341.59,9.58">Eighteen studies emphasising the usefulness of board games were reviewed.</s><s xml:id="_QphSsAw" coords="7,533.19,710.71,26.08,9.58;7,167.27,723.26,392.01,9.58;7,167.27,735.82,393.66,9.58;7,166.99,748.37,85.84,9.58">These studies includes three action researches, three experimental researches, four quantitative studies, three qualitative studies, three mixed-method studies and two research and development studies.</s><s xml:id="_tNvg9bx" coords="7,257.20,748.37,302.07,9.58;7,167.27,760.92,392.01,9.58;7,167.27,773.48,42.03,9.58">This systematic review examined the usefulness of board games in improving pupils' speaking in terms of exposure, motivation, pronunciation, fluency and grammar.</s><s xml:id="_XJTSweP" coords="7,212.40,773.48,346.88,9.58">Pupils' improvement in pronunciation was recorded as the highest among these</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,39.36,682.92,521.03,8.74;9,57.24,694.43,141.85,8.74" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="9,142.40,683.04,389.98,8.63" xml:id="_5q2vq2F">Pen pals are now in your fingertips-A global collaboration online project to develop writing skills</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Lie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Yunus</surname></persName>
+		</author>
+		<idno type="DOI">10.4236/ce.2018.915188</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DcQG9tA" coord="9,538.42,682.92,21.98,8.55;9,57.24,694.43,16.67,8.55">Creat. Educ</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2491" to="2504" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lie, W.; Yunus, M.M. Pen pals are now in your fingertips-A global collaboration online project to develop writing skills. Creat. Educ. 2018, 9, 2491-2504. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="9,39.36,706.05,519.91,8.63;9,57.52,717.56,443.11,8.63" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" coord="9,140.37,706.05,418.91,8.63;9,57.52,717.56,159.72,8.63" xml:id="_x2Mqpzq">Improving Students&apos; Speaking Ability Using the Snakes and Ladders Board Game at 11th Grade of Saint Pius X Vocational High School Magelang</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">A P</forename><surname>Bayuningsih</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<pubPlace>Yogyakarta, Indonesia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Sanata Dharma University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. Thesis</note>
+	<note type="raw_reference">Bayuningsih, A.A.P. Improving Students&apos; Speaking Ability Using the Snakes and Ladders Board Game at 11th Grade of Saint Pius X Vocational High School Magelang. Ph.D. Thesis, Sanata Dharma University, Yogyakarta, Indonesia, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="9,39.36,728.95,520.24,8.74;9,57.26,740.46,121.97,8.74" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="9,112.22,729.07,405.37,8.63" xml:id="_5Xvx23n">Action research on improving students&apos; speaking proficiency in using cooperative storytelling strategy</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">R</forename><surname>Sharma</surname></persName>
+		</author>
+		<idno type="DOI">10.3126/jns.v5i0.19495</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bmJ46bn" coord="9,524.07,728.95,35.53,8.55;9,57.26,740.46,28.40,8.55">J. NELTA Surkhet</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sharma, D.R. Action research on improving students&apos; speaking proficiency in using cooperative storytelling strategy. J. NELTA Surkhet 2018, 5, 1-9. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="9,39.36,751.96,521.03,8.74;9,57.07,763.47,100.30,8.74" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="9,162.14,752.08,324.45,8.63" xml:id="_dADk9Nr">Non-linguistic challenges faced by Malaysian students in enhancing speaking skills</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">K</forename><surname>Nadesan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">M</forename><surname>Shah</surname></persName>
+		</author>
+		<idno type="DOI">10.4236/ce.2020.1110145</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qAykKN8" coord="9,492.54,751.96,44.93,8.55">Creat. Educ</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="1988">2020. 1988-2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nadesan, N.K.; Shah, P.M. Non-linguistic challenges faced by Malaysian students in enhancing speaking skills. Creat. Educ. 2020, 11, 1988-2001. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,39.36,99.36,519.91,8.63;10,57.52,110.86,502.88,8.63;10,57.25,122.37,39.92,8.63" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="10,216.85,99.36,247.10,8.63" xml:id="_Pfupq96">Insta-iBubbly: A fun way to develop English speaking skills</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">A</forename><surname>Azlan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Zakaria</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Yunus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Q9Bbd83" coord="10,483.39,99.36,75.89,8.63;10,57.52,110.86,281.55,8.63">Proceedings of the International Conference of Early Childhood Education (ICECE 2019)</title>
+		<meeting>the International Conference of Early Childhood Education (ICECE 2019)<address><addrLine>Padang, Indonesia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-10-25">24-25 October 2019</date>
+			<biblScope unit="volume">449</biblScope>
+			<biblScope unit="page" from="92" to="96" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Azlan, N.A.; Zakaria, S.; Yunus, M.M. Insta-iBubbly: A fun way to develop English speaking skills. In Proceedings of the International Conference of Early Childhood Education (ICECE 2019), Padang, Indonesia, 24-25 October 2019; Volume 449, pp. 92-96.</note>
+</biblStruct>
+
+<biblStruct coords="10,39.36,133.76,521.03,8.74;10,57.26,145.27,125.41,8.74" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="10,219.88,133.88,235.29,8.63" xml:id="_pc3WwAn">Hear me out! Digital storytelling to enhance speaking skills</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">R A P</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">L</forename><surname>Yong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Yunus</surname></persName>
+		</author>
+		<idno type="DOI">10.6007/IJARBSS/v9-i2/5533</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qBH5zFs" coord="10,461.20,133.76,99.20,8.55;10,57.26,145.27,13.37,8.55">Int. J. Acad. Res. Bus. Soc. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="190" to="202" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">James, P.R.A.P.; Yong, K.L.; Yunus, M.M. Hear me out! Digital storytelling to enhance speaking skills. Int. J. Acad. Res. Bus. Soc. Sci. 2019, 9, 190-202. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,39.36,156.77,519.91,8.74;10,57.52,168.28,51.56,8.74" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="10,238.36,156.89,287.37,8.63" xml:id="_x3NTSW6">Speak it up&quot; board game in speaking skill for undergraduate EFL students</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Hayuningtyas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">H</forename><surname>Farizah</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Developing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ug7c9gC" coord="10,532.43,156.77,26.84,8.55">PESAT</title>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hayuningtyas, N.; Farizah, N.H. Developing &quot;Speak it up&quot; board game in speaking skill for undergraduate EFL students. PESAT 2020, 6, 1-14.</note>
+</biblStruct>
+
+<biblStruct coords="10,39.36,179.90,519.91,8.63;10,57.52,191.29,478.90,8.74" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="10,436.79,179.90,122.49,8.63;10,57.52,191.41,252.87,8.63" xml:id="_gvqnH9U">The use of think pair share of cooperative learning to improve weak students&apos; speaking ability</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">S S</forename><surname>Charanjit</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Ramachandran</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M S</forename><surname>Tarsame</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">T</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Yunus</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Mulyadi</surname></persName>
+		</author>
+		<idno type="DOI">10.37200/ijr/v2415/pr201923</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Cxq9mWK" coord="10,316.46,191.29,94.46,8.55">Int. J. Psychosoc. Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="2243" to="2251" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charanjit, K.S.S.; Ramachandran, A.; Tarsame, S.M.S.; Ong, E.T.; Yunus, M.M.; Mulyadi, D. The use of think pair share of cooperative learning to improve weak students&apos; speaking ability. Int. J. Psychosoc. Rehabil. 2020, 24, 2243-2251. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,39.36,202.92,519.91,8.63;10,57.52,214.31,312.06,8.74" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="10,271.66,202.92,287.61,8.63;10,57.52,214.42,93.70,8.63" xml:id="_nFFtPnJ">Factors influencing classroom participation: A case study of Malaysian undergraduate students</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Mustapha</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">S N</forename><surname>Abd Rahman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Yunus</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sbspro.2010.12.289</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xxtK9ZZ" coord="10,158.00,214.31,90.57,8.55">Procedia Soc. Behav. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1079" to="1084" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mustapha, S.M.; Abd Rahman, N.S.N.; Yunus, M.M. Factors influencing classroom participation: A case study of Malaysian undergraduate students. Procedia Soc. Behav. Sci. 2010, 9, 1079-1084. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,225.93,517.37,8.63;10,57.22,237.32,171.11,8.74" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="10,202.41,225.93,355.13,8.63" xml:id="_pF4AH7n">A review of affective strategy and social strategy in developing students&apos; speaking skills</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Zakaria</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Hashim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Yunus</surname></persName>
+		</author>
+		<idno type="DOI">10.4236/ce.2019.1012232</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2Gx6H7s" coord="10,57.22,237.32,41.45,8.55">Creat. Educ</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="3082" to="3090" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zakaria, N.; Hashim, H.; Yunus, M. A review of affective strategy and social strategy in developing students&apos; speaking skills. Creat. Educ. 2019, 10, 3082-3090. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,248.94,515.80,8.63;10,57.52,260.34,300.42,8.74" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="10,268.57,248.94,290.70,8.63;10,57.52,260.45,93.70,8.63" xml:id="_NRSxtcp">Benefits and challenges of using game-based formative assessment among undergraduate students</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">K M</forename><surname>Arif</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">Z</forename><surname>Zubir</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Mohamad</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Yunus</surname></persName>
+		</author>
+		<idno type="DOI">10.18510/hssr.2019.7426</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NhvxuCG" coord="10,158.00,260.34,87.89,8.55">Humanit. Soc. Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="203" to="213" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arif, F.K.M.; Zubir, N.Z.; Mohamad, M.; Yunus, M.M. Benefits and challenges of using game-based formative assessment among undergraduate students. Humanit. Soc. Sci. Rev. 2019, 7, 203-213. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,271.84,515.80,8.74;10,57.52,283.47,226.38,8.63" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="10,105.99,271.84,453.29,8.74;10,57.52,283.47,40.74,8.63" xml:id="_u3AU8wp">The Gamification of Learning and Instruction: Case-Based Methods and Strategies for Training and Education; Pfieffer, An Imprint of</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">M</forename><surname>Kapp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kapp, K.M. The Gamification of Learning and Instruction: Case-Based Methods and Strategies for Training and Education; Pfieffer, An Imprint of John Wiley &amp; Sons: New York, NY, USA, 2012.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,294.97,516.92,8.63;10,57.52,306.48,47.06,8.63" xml:id="b12">
+	<monogr>
+		<title level="m" type="main" coord="10,126.24,294.97,233.62,8.63" xml:id="_bFH38EY">The Importance of Teaching Listening and Speaking Skills</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">R</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Faculted of Education</publisher>
+			<pubPlace>Madrid, Spain</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Master&apos;s Thesis</note>
+	<note type="raw_reference">Rodríguez, M.R. The Importance of Teaching Listening and Speaking Skills. Master&apos;s Thesis, Faculted of Education, Madrid, Spain, 2012.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,317.99,515.80,8.63;10,57.24,329.38,503.16,8.74;10,57.52,341.00,63.68,8.63" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" coord="10,121.08,317.99,438.19,8.63;10,57.24,329.49,163.65,8.63" xml:id="_TznS3N5">The Effectiveness of Using Board Games towards Students&apos; Speaking Skill. A Quasi Experimental Study at the Tenth Grade Students of SMAN 1 Parung</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">A</forename><surname>Azzahroh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+		<respStmt>
+			<orgName>Skripsi Jurusan Pendidikan Bahasa Inggris; University Syarif Hidayatullah: Jakarta, Indonesia</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Azzahroh, R.A. The Effectiveness of Using Board Games towards Students&apos; Speaking Skill. A Quasi Experimental Study at the Tenth Grade Students of SMAN 1 Parung. In Skripsi Jurusan Pendidikan Bahasa Inggris; University Syarif Hidayatullah: Jakarta, Indonesia, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,352.51,515.81,8.63;10,57.52,364.01,485.18,8.63" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coord="10,101.75,352.51,457.52,8.63;10,57.52,364.01,76.87,8.63" xml:id="_pCeWyvH">The Use of Board Game to Improve Students Speaking Skills (A Classroom Action Research for the Eighth Student of MTs Yajri Payaman)</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Anggit</surname></persName>
+		</author>
+		<ptr target="http://e-repository.perpus.iainsalatiga.ac.id/7955/" />
+		<imprint>
+			<date type="published" when="2019-05">2019. May 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anggit, W. The Use of Board Game to Improve Students Speaking Skills (A Classroom Action Research for the Eighth Student of MTs Yajri Payaman). 2019. Available online: http://e-repository.perpus.iainsalatiga.ac.id/7955/ (accessed on 5 May 2021).</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,375.40,517.37,8.74" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="10,105.85,375.52,307.62,8.63" xml:id="_xqd6Cjz">Developing accuracy and fluency in spoken English of Chinese EFL learners</title>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3UNEath" coord="10,420.64,375.40,70.59,8.55">Engl. Lang. Teach</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="110" to="118" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, Z.Q. Developing accuracy and fluency in spoken English of Chinese EFL learners. Engl. Lang. Teach. 2014, 7, 110-118.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,398.42,516.92,8.74;10,57.52,409.93,95.81,8.74" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="10,99.61,398.53,301.21,8.63" xml:id="_5DpQCgE">The effect of Pelajar Go! as a board game to improve student&apos;s speaking skill</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Pratiwi</surname></persName>
+		</author>
+		<idno type="DOI">10.2991/iccie-18.2019.37</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2hr9PkM" coord="10,406.73,398.42,126.93,8.55">Adv. Soc. Sci. Educ. Humanit. Res</title>
+		<imprint>
+			<biblScope unit="volume">326</biblScope>
+			<biblScope unit="page" from="211" to="215" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pratiwi, F. The effect of Pelajar Go! as a board game to improve student&apos;s speaking skill. Adv. Soc. Sci. Educ. Humanit. Res. 2018, 326, 211-215. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,421.43,516.93,8.74;10,57.52,433.05,43.32,8.63" xml:id="b17">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">S</forename><surname>Vygotsky</surname></persName>
+		</author>
+		<title level="m" xml:id="_r8UBng2" coord="10,117.22,421.43,258.07,8.55">Mind in Society: The Development of Higher Psychological Processes</title>
+		<meeting><address><addrLine>Cambridge, MA, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Harvard University Press</publisher>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vygotsky, L.S. Mind in Society: The Development of Higher Psychological Processes; Harvard University Press: Cambridge, MA, USA, 1978.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,444.56,515.80,8.63;10,57.52,455.95,502.88,8.74;10,57.52,467.58,42.59,8.63" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="10,252.34,444.56,306.94,8.63;10,57.52,456.07,362.26,8.63" xml:id="_4HQTCzP">Designing playful learning by using educational board game for children in the age range of 7-12: A case study: Recycling and waste separation education board game</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Mostowfi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">K</forename><surname>Mamaghani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Khorramar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_twqrbpV" coord="10,427.41,455.95,92.16,8.55">Int. J. Environ. Sci. Educ</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="5454" to="5476" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mostowfi, S.; Mamaghani, N.K.; Khorramar, M. Designing playful learning by using educational board game for children in the age range of 7-12: A case study: Recycling and waste separation education board game. Int. J. Environ. Sci. Educ. 2016, 11, 5454-5476.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,479.08,517.37,8.63;10,57.24,490.47,207.10,8.74" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="10,221.55,479.08,335.22,8.63" xml:id="_hntZSq4">Taking attention on environmental issues by an attractive educational game: Enviropoly</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">O</forename><surname>Arslan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Moseley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cigdemoglu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sbspro.2011.11.146</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Cz5xtnK" coord="10,57.24,490.47,90.57,8.55">Procedia Soc. Behav. Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="801" to="806" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arslan, H.O.; Moseley, C.; Cigdemoglu, C. Taking attention on environmental issues by an attractive educational game: Enviropoly. Procedia Soc. Behav. Sci. 2011, 28, 801-806. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,501.98,517.38,8.74" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="10,113.00,502.10,250.64,8.63" xml:id="_cSXJvKb">The use of board game in teaching speaking to young learners</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Syakur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Vm2e263" coord="10,370.77,501.98,120.53,8.55">Engl. Educ. J. Engl. Teach. Res</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="149" to="155" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Syakur, M.A. The use of board game in teaching speaking to young learners. Engl. Educ. J. Engl. Teach. Res. 2020, 5, 149-155.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,525.11,515.80,8.63;10,57.52,536.62,403.34,8.63" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="10,111.65,525.11,357.72,8.63" xml:id="_3vk4ayG">Developing communicative board game in speaking descriptive text to EFL young learners</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Rohdiana</surname></persName>
+		</author>
+		<idno type="DOI">10.24176/03.3201.07</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_YGS8pFb" coord="10,486.39,525.11,72.89,8.63;10,57.52,536.62,149.13,8.63">Proceedings of the 2nd TEYLIN International Conference</title>
+		<meeting>the 2nd TEYLIN International Conference<address><addrLine>Indramayu, Indonesia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-04">April 2017</date>
+			<biblScope unit="page" from="49" to="58" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rohdiana, A. Developing communicative board game in speaking descriptive text to EFL young learners. In Proceedings of the 2nd TEYLIN International Conference, Indramayu, Indonesia, 25-26 April 2017; pp. 49-58. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,548.01,516.93,8.74;10,57.24,559.51,213.72,8.74" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="10,106.30,548.12,416.14,8.63" xml:id="_py4Qt8Q">Communicative game-based learning in EFL grammar class: Suggested activities and students&apos; perception</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Fithriani</surname></persName>
+		</author>
+		<idno type="DOI">10.30762/jeels.v5i2.509</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xrfkr69" coord="10,529.25,548.01,31.15,8.55;10,57.24,559.51,97.74,8.55">JEELS J. Engl. Educ. Linguist. Stud</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="171" to="188" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fithriani, R. Communicative game-based learning in EFL grammar class: Suggested activities and students&apos; perception. JEELS J. Engl. Educ. Linguist. Stud. 2018, 5, 171-188. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,571.02,510.96,8.74" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="10,101.16,571.14,280.43,8.63" xml:id="_RZYXVtb">The possibility of applying modern board games on children&apos;s learning</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZXP8uqJ" coord="10,388.28,571.02,102.85,8.55">New Knowl. Mandat. Educ</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="40" to="45" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, C.Y. The possibility of applying modern board games on children&apos;s learning. New Knowl. Mandat. Educ. 2010, 57, 40-45.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,582.53,516.92,8.74;10,57.52,594.04,109.26,8.74" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="10,143.86,582.64,291.32,8.63" xml:id="_vdvbMPn">Effects of board game on speaking ability of low-proficiency ESL learners</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">M</forename><surname>Fung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">L</forename><surname>Min</surname></persName>
+		</author>
+		<idno type="DOI">10.7575/aiac.ijalel.v.5n.3p.261</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_x263AcX" coord="10,441.78,582.53,115.40,8.55">Int. J. Appl. Linguist. Engl. Lit</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="261" to="271" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fung, Y.M.; Min, Y.L. Effects of board game on speaking ability of low-proficiency ESL learners. Int. J. Appl. Linguist. Engl. Lit. 2016, 5, 261-271. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,605.54,516.92,8.74;10,57.52,617.17,68.92,8.63" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="10,167.44,605.66,277.25,8.63" xml:id="_hrZ3fyr">The impact of the implementation of CLT on students&apos; speaking skills</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Surajwaran</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">A</forename><surname>Aziz</surname></persName>
+		</author>
+		<idno type="DOI">10.29322/IJSRP.9.04.2019.p8814</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8jHqfwq" coord="10,450.75,605.54,73.73,8.55">Int. J. Sci. Res. Publ</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="75" to="82" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Surajwaran, M.; Aziz, A.A. The impact of the implementation of CLT on students&apos; speaking skills. Int. J. Sci. Res. Publ. 2019, 9, 75-82. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,628.67,515.81,8.63;10,57.25,640.06,429.58,8.74" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="10,407.58,628.67,151.70,8.63;10,57.25,640.18,224.87,8.63" xml:id="_3txMBjJ">An empirical examination of effective practices for teaching board game play to young children</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">E</forename><surname>Barton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">A</forename><surname>Pokorski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">M</forename><surname>Sweeney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Velez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Gossett</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Domingo</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1098300717753833</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zPg26yZ" coord="10,288.78,640.06,78.07,8.55">J. Posit. Behav. Interv</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="138" to="148" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barton, E.E.; Pokorski, E.A.; Sweeney, E.M.; Velez, M.; Gossett, S.; Qiu, J.; Domingo, M. An empirical examination of effective practices for teaching board game play to young children. J. Posit. Behav. Interv. 2018, 20, 138-148. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,651.69,515.80,8.63;10,57.52,663.08,466.16,8.74" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="10,299.38,651.69,259.90,8.63;10,57.52,663.19,241.34,8.63" xml:id="_2kWhf88">Non educational board games in university education. Perceptions of students experiencing game-based learning methodologies</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">L</forename><surname>Gonzalo-Iglesia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Lozano-Monterrubio</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Prades-Tena</surname></persName>
+		</author>
+		<idno type="DOI">10.24140/issn.1645-7250.rle41.03</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_VzKCFqD" coord="10,306.00,663.08,110.65,8.55">Revista LUsófona de Educação</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="45" to="62" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gonzalo-Iglesia, J.L.; Lozano-Monterrubio, N.; Prades-Tena, J. Non educational board games in university education. Perceptions of students experiencing game-based learning methodologies. Revista LUsófona de Educação 2018, 41, 45-62. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,674.58,482.76,8.74" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="10,183.81,674.70,159.16,8.63" xml:id="_BVZnFYf">Using board games for EFL preschoolers</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">#</forename><surname>Karasimos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Letmeepletalk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kdAHjZR" coord="10,349.78,674.58,108.67,8.55">Res. Pap. Lang. Teach. Learn</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="93" to="103" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karasimos, A. #LetMeepleTalk: Using board games for EFL preschoolers. Res. Pap. Lang. Teach. Learn. 2021, 11, 93-103.</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,686.21,517.37,8.63;10,57.24,697.60,202.61,8.74" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="10,259.21,686.21,293.16,8.63" xml:id="_g24yMWY">The utilization of ICT in the teaching and learning of English: &apos;Tell Me More</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">M</forename><surname>Yunus</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Hashim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Embi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Lubis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sbspro.2010.12.218</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NJY7xBk" coord="10,57.24,697.60,90.57,8.55">Procedia Soc. Behav. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="685" to="691" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yunus, M.M.; Hashim, H.; Embi, M.A.; Lubis, M.A. The utilization of ICT in the teaching and learning of English: &apos;Tell Me More&apos;. Procedia Soc. Behav. Sci. 2010, 9, 685-691. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,709.10,515.80,8.74;10,57.19,720.61,141.40,8.74" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="10,159.59,709.22,340.91,8.63" xml:id="_qEH3Y5f">Comic strips and board game as a media in learning oral language skills for students</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">S M</forename><surname>Annisa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">D</forename><surname>Nst</surname></persName>
+		</author>
+		<idno type="DOI">10.46930/ojsuda.v28i2.653</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZZsvKG6" coord="10,507.65,709.10,51.62,8.55;10,57.19,720.61,25.41,8.55">Jurnal Darma Agung</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="313" to="327" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Annisa, P.S.M.; Nst, R.D. Comic strips and board game as a media in learning oral language skills for students. Jurnal Darma Agung 2020, 28, 313-327. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,732.12,496.69,8.74" xml:id="b31">
+	<monogr>
+		<title level="m" type="main" coord="10,97.03,732.12,329.02,8.74" xml:id="_gRdVYVt">The use of dart board games as strategy to improve students&apos; speaking skill. SELL J</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Asiah</surname></persName>
+		</author>
+		<idno type="DOI">10.31597/sl.v5i2.423</idno>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="131" to="136" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Asiah, N. The use of dart board games as strategy to improve students&apos; speaking skill. SELL J. 2020, 5, 131-136. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,743.62,515.80,8.74;10,57.52,755.13,412.26,8.74" xml:id="b32">
+	<monogr>
+		<title level="m" type="main" coord="10,105.33,743.62,453.95,8.74;10,57.52,755.13,62.64,8.55" xml:id="_nrcptqS">The Effect Of Using Board Games in Reducing Language Anxiety and Improving Oral Performance. Electronic Theses and Dissertations</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<ptr target="https://egrove.olemiss.edu/etd/899" />
+		<imprint>
+			<date type="published" when="2018-05">2018. May 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng, Y.C. The Effect Of Using Board Games in Reducing Language Anxiety and Improving Oral Performance. Electronic Theses and Dissertations. 2018. Available online: https://egrove.olemiss.edu/etd/899 (accessed on 5 May 2021).</note>
+</biblStruct>
+
+<biblStruct coords="10,43.47,766.64,499.60,8.74" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coord="10,194.79,766.75,195.11,8.63" xml:id="_d9us2d2">The use of guessing games to teach speaking skill</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Maqfirah</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Fitriani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Chairina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rUNUMVb" coord="10,395.83,766.64,88.96,8.55">Res. Engl. Educ. READ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="91" to="99" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maqfirah, Y.; Fitriani, S.; Chairina. The use of guessing games to teach speaking skill. Res. Engl. Educ. READ 2018, 3, 91-99.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,99.24,515.80,8.74;11,57.17,110.75,134.24,8.74" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coord="11,227.62,99.24,317.08,8.74" xml:id="_7XUvmzZ">The influence of What Am I? game toward students&apos; speaking achievement. U</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Suhardiyati</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Sukirlan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Nurweni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9QaMA5R" coord="11,544.70,99.24,14.57,8.55;11,57.17,110.75,71.70,8.55">JET Unila J. Engl. Teach</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="54" to="62" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suhardiyati, Y.; Sukirlan, M.; Nurweni, A. The influence of What Am I? game toward students&apos; speaking achievement. U-JET Unila J. Engl. Teach. 2018, 7, 54-62.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,122.37,516.93,8.63;11,57.17,133.88,503.68,8.63" xml:id="b35">
+	<monogr>
+		<title level="m" type="main" coord="11,150.17,122.37,410.22,8.63;11,57.17,133.88,83.59,8.63" xml:id="_pZjjzb3">The Use of Board and Card Games for Entertainment to Adults for the Purpose of English Communication: An Exploratory Study</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">K</forename><surname>Arzaga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Dante</surname></persName>
+		</author>
+		<ptr target="https://www.researchgate.net/publication/332468197" />
+		<imprint>
+			<date type="published" when="2019-05">2019. May 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arzaga, A.K.; Dante, A. The Use of Board and Card Games for Entertainment to Adults for the Purpose of English Communication: An Exploratory Study. 2019. Available online: https://www.researchgate.net/publication/332468197 (accessed on 15 May 2021).</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,145.27,517.37,8.74" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="11,171.75,145.38,281.22,8.63" xml:id="_zZb2xWq">Board games for teaching English prosody to advanced EFL learners</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Łodzikowski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Jekiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_rkvQJzu" coord="11,461.76,145.27,21.22,8.55">ELT J</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="275" to="285" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Łodzikowski, K.; Jekiel, M. Board games for teaching English prosody to advanced EFL learners. ELT J. 2019, 73, 275-285.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,168.40,515.81,8.63;11,57.52,179.79,269.25,8.74" xml:id="b37">
+	<monogr>
+		<title level="m" type="main" coord="11,219.68,168.40,339.60,8.63;11,57.52,179.79,156.56,8.74" xml:id="_NJYuBaJ">Using a board game &quot;Snake and Ladder&quot; to teach speaking descriptive text at the eight grade students of SMPN 2 Wungu. Engl</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">T</forename><surname>Ratih</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">A</forename><surname>Ningsih</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kurniawan</surname></persName>
+		</author>
+		<idno type="DOI">10.25273/etj.v5i1.4726</idno>
+		<imprint/>
+	</monogr>
+	<note>Teach. J. 2017, 5. [CrossRef</note>
+	<note type="raw_reference">Ratih, F.T.; Ningsih, N.A.; Kurniawan, A. Using a board game &quot;Snake and Ladder&quot; to teach speaking descriptive text at the eight grade students of SMPN 2 Wungu. Engl. Teach. J. 2017, 5. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,191.29,516.92,8.74;11,57.52,202.92,77.88,8.63" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coord="11,108.83,191.41,351.27,8.63" xml:id="_snBMMNp">Examining board gameplay and learning: A multidisciplinary review of recent research</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">Y</forename><surname>Bayeck</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1046878119901286</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ksmnx4H" coord="11,466.86,191.29,57.42,8.55">Simul. Gaming</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="411" to="431" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bayeck, R.Y. Examining board gameplay and learning: A multidisciplinary review of recent research. Simul. Gaming 2020, 51, 411-431. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,214.31,515.81,8.74;11,57.22,225.81,164.31,8.74" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coord="11,221.05,214.42,301.17,8.63" xml:id="_rm89mEN">Gamification in education: A board game approach to knowledge acquisition</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Taspinar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Schuhbauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procs.2016.09.104</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xXe8w7Y" coord="11,528.77,214.31,30.51,8.55;11,57.22,225.81,47.78,8.55">Procedia Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="101" to="116" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taspinar, B.; Schmidt, W.; Schuhbauer, H. Gamification in education: A board game approach to knowledge acquisition. Procedia Comput. Sci. 2017, 99, 101-116. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,237.44,515.80,8.63;11,57.52,248.94,501.76,8.63;11,57.22,260.45,101.78,8.63" xml:id="b40">
+	<monogr>
+		<title level="m" type="main" coord="11,109.24,237.44,450.04,8.63;11,57.52,248.94,198.35,8.63" xml:id="_9aPE5dy">Enhancing Speaking through Board and Table Games in an EFL Classroom. Board and Table Games: A Fun Way to Learn English. Universidad Externado de Colombia</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">E</forename><surname>Linares</surname></persName>
+		</author>
+		<ptr target="https://bdigital.uexternado.edu.co/handle/001/855" />
+		<imprint>
+			<date type="published" when="2018-05">2018. May 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Linares, C.E. Enhancing Speaking through Board and Table Games in an EFL Classroom. Board and Table Games: A Fun Way to Learn English. Universidad Externado de Colombia. 2018. Available online: https://bdigital.uexternado.edu.co/handle/001/855 (accessed on 5 May 2021).</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,271.84,516.92,8.74;11,57.52,283.47,24.66,8.63" xml:id="b41">
+	<monogr>
+		<title level="m" type="main" coord="11,185.07,271.84,343.72,8.74" xml:id="_R2q9kFZ">The implementation of board game to improve students&apos; speaking achievement. U-JET</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Putri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Setiyadi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Nabila</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="51" to="59" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Putri, N.; Setiyadi, B.; Nabila, S. The implementation of board game to improve students&apos; speaking achievement. U-JET 2018, 7, 51-59.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,294.97,515.80,8.63;11,57.52,306.36,261.34,8.74" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coord="11,202.90,294.97,356.37,8.63;11,57.52,306.48,129.07,8.63" xml:id="_dtG2mtH">Improving the students&apos; speaking skills through board games to the tenth grade students of SMA Negeri 2 Padangsidimpuan</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Simbolon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Siregar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">R</forename><surname>Sibuea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vxDBReX" coord="11,194.06,306.36,66.51,8.55">Jurnal ESTUPRO</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="12" to="21" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simbolon, A.; Siregar, P.; Sibuea, E.R. Improving the students&apos; speaking skills through board games to the tenth grade students of SMA Negeri 2 Padangsidimpuan. Jurnal ESTUPRO 2018, 3, 12-21.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,317.99,515.81,8.63;11,57.52,329.38,213.30,8.74" xml:id="b43">
+	<monogr>
+		<title level="m" type="main" coord="11,222.84,317.99,336.44,8.63;11,57.52,329.49,123.40,8.63" xml:id="_QUvx7UQ">Improving students&apos; speaking performance through language board game at the eight grade of SMPIT Permata Bunda</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Hariyanto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Sutarsyah</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Sukirlan</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">2020</biblScope>
+			<biblScope unit="page" from="85" to="94" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hariyanto, H.; Sutarsyah, C.; Sukirlan, M. Improving students&apos; speaking performance through language board game at the eight grade of SMPIT Permata Bunda. U-JET 2020, 9, 85-94.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,340.88,515.80,8.74;11,57.22,352.39,254.37,8.74" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coord="11,166.32,341.00,334.81,8.63" xml:id="_wQQuVKe">Reducing student&apos;s English dialogue anxiety in online learning through board game</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Nuzulia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Kepirianto</surname></persName>
+		</author>
+		<idno type="DOI">10.26714/lensa.10.2.2020.263-279</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_PKy53hk" coord="11,508.76,340.88,50.51,8.55;11,57.22,352.39,156.77,8.60">Lensa: Kajian Kebahasaan Kesusastraan dan Budaya 2020</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="263" to="280" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nuzulia, R.; Kepirianto, C. Reducing student&apos;s English dialogue anxiety in online learning through board game. Lensa: Kajian Kebahasaan Kesusastraan dan Budaya 2020, 10, 263-280. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,363.90,516.93,8.74;11,57.26,375.40,149.67,8.74" xml:id="b45">
+	<analytic>
+		<title level="a" type="main" coord="11,245.09,364.01,265.16,8.63" xml:id="_hckZYa6">The effects of using games on EFL students&apos; speaking performances</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">V P</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">M</forename><surname>Thien</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">T M</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">N H</forename><surname>Vy</surname></persName>
+		</author>
+		<idno type="DOI">10.5539/ijel.v10n1p183</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tpUeAm7" coord="11,517.39,363.90,43.01,8.55;11,57.26,375.40,33.14,8.55">Int. J. Engl. Linguist</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="183" to="193" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ho, P.V.P.; Thien, N.M.; An, N.T.M.; Vy, N.N.H. The effects of using games on EFL students&apos; speaking performances. Int. J. Engl. Linguist. 2020, 10, 183-193. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,386.91,516.92,8.74;11,57.29,398.42,77.88,8.74" xml:id="b46">
+	<analytic>
+		<title level="a" type="main" coord="11,143.64,387.03,297.70,8.63" xml:id="_wBctq5B">Teaching speaking using a &quot;Snake and Ladder&quot; board game: A teacher story</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Arfani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Sulistia</surname></persName>
+		</author>
+		<idno type="DOI">10.33603/rill.v2i1.1642</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zAMfGEy" coord="11,447.65,386.91,85.99,8.55">Res. Innov. Lang. Learn</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="65" to="72" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arfani, S.; Sulistia, A. Teaching speaking using a &quot;Snake and Ladder&quot; board game: A teacher story. Res. Innov. Lang. Learn. 2019, 2, 65-72. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,410.04,515.80,8.63;11,57.52,421.55,308.18,8.63" xml:id="b47">
+	<monogr>
+		<title level="m" type="main" coord="11,197.28,410.04,296.21,8.63" xml:id="_m9Deq7W">The Implementation of Board Games in Improving Students&apos; Speaking Skill</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">A</forename><surname>Putri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Sinaga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Sukirlan</surname></persName>
+		</author>
+		<ptr target="http://digilib.unila.ac.id/id/eprint/30285" />
+		<imprint>
+			<date type="published" when="2017-05-24">2017. 24 May 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Putri, A.A.; Sinaga, T.; Sukirlan, M. The Implementation of Board Games in Improving Students&apos; Speaking Skill. 2017. Available online: http://digilib.unila.ac.id/id/eprint/30285 (accessed on 24 May 2021).</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,433.05,515.80,8.63;11,57.52,444.56,499.81,8.63" xml:id="b48">
+	<monogr>
+		<title level="m" type="main" coord="11,145.49,433.05,413.78,8.63;11,57.52,444.56,12.44,8.63" xml:id="_p7rgJMp">Improving the Eighth Grade Students&apos; Speaking Ability by Using Board Game at Smpn 2 Banyuglugur in the</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Rayhana Maulidya</surname></persName>
+		</author>
+		<ptr target="http://repository.unmuhjember.ac.id/6756/" />
+		<imprint>
+			<date type="published" when="2018">2018. 2019 Academic Year. 2019. May 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rayhana Maulidya, F. Improving the Eighth Grade Students&apos; Speaking Ability by Using Board Game at Smpn 2 Banyuglugur in the 2018/2019 Academic Year. 2019. Available online: http://repository.unmuhjember.ac.id/6756/ (accessed on 12 May 2021).</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,455.95,517.29,8.74;11,57.52,467.46,271.37,8.74" xml:id="b49">
+	<monogr>
+		<title level="m" type="main" coord="11,182.56,455.95,378.21,8.74;11,57.52,467.46,182.73,8.60" xml:id="_y5ZNERh">The effect of board game to increase English vocabulary mastery: Systematic review. Konstruktivisme: Jurnal Pendidikan dan Pembelajaran 2021</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">K</forename><surname>Al-Jawwadah</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Saputri</surname></persName>
+		</author>
+		<idno type="DOI">10.35457/konstruk.v13i1.1082</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Al-Jawwadah, R.K.; Saputri, T. The effect of board game to increase English vocabulary mastery: Systematic review. Konstruk- tivisme: Jurnal Pendidikan dan Pembelajaran 2021, 13, 13-24. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,478.97,516.92,8.74;11,57.26,490.47,138.02,8.74" xml:id="b50">
+	<analytic>
+		<title level="a" type="main" coord="11,104.22,479.08,377.44,8.63" xml:id="_8fKb78S">The implementation of board games in teaching speaking for tenth graders in senior high school</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">A</forename><surname>Dewi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8Wf8sQW" coord="11,488.36,478.97,72.03,8.55;11,57.26,490.47,79.20,8.55">RETAIN Res. Engl. Lang. Teach. Indones</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<biblScope unit="page" from="45" to="52" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dewi, H.A. The implementation of board games in teaching speaking for tenth graders in senior high school. RETAIN Res. Engl. Lang. Teach. Indones. 2021, 9, 45-52.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,502.10,517.38,8.63;11,57.52,513.60,501.76,8.63;11,57.22,525.11,325.27,8.63" xml:id="b51">
+	<analytic>
+		<title level="a" type="main" coord="11,224.55,502.10,331.44,8.63" xml:id="_e59Cyxc">Improving students&apos; speaking ability by using something old something new game</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Kumalasari</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Risnawati Lismayanti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_2yZHJpA" coord="11,68.16,513.60,491.12,8.63;11,57.22,525.11,30.03,8.63">Proceedings of the 9th UNNES Virtual International Conference on English Language Teaching, Literature, and Transltion (ELTLT)</title>
+		<meeting>the 9th UNNES Virtual International Conference on English Language Teaching, Literature, and Transltion (ELTLT)<address><addrLine>Semarang City, Indonesia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2020-11-15">14-15 November 2020</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="148" to="156" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumalasari, E.; Risnawati Lismayanti, D. Improving students&apos; speaking ability by using something old something new game. In Proceedings of the 9th UNNES Virtual International Conference on English Language Teaching, Literature, and Transltion (ELTLT), Semarang City, Indonesia, 14-15 November 2020; Volume 1, pp. 148-156.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,536.62,515.81,8.63;11,57.52,548.01,254.27,8.74" xml:id="b52">
+	<analytic>
+		<title level="a" type="main" coord="11,142.36,536.62,416.92,8.63;11,57.52,548.12,71.98,8.63" xml:id="_gjS2uG4">The effects of integrating board games into ice-breaking activities in a fifth-grade English class to reduce students&apos; anxieties</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">H</forename><surname>Fan</surname></persName>
+		</author>
+		<idno type="DOI">10.5539/elt.v13n9p40</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_B4aEpug" coord="11,135.98,548.01,68.24,8.55">Engl. Lang. Teach</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="40" to="49" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chao, C.Y.; Fan, S.H. The effects of integrating board games into ice-breaking activities in a fifth-grade English class to reduce students&apos; anxieties. Engl. Lang. Teach. 2020, 13, 40-49. [CrossRef]</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,559.63,515.80,8.63;11,57.52,571.14,430.66,8.63" xml:id="b53">
+	<monogr>
+		<title level="m" type="main" coord="11,116.58,559.63,442.70,8.63;11,57.52,571.14,48.39,8.63" xml:id="_g2C4hCk">The Use of Board Game for Improving Students&apos; English Speaking Ability. The State Institute for Islamic Studies Of Bengkulu</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">A</forename><surname>Maulana</surname></persName>
+		</author>
+		<ptr target="http://repository.iainbengkulu.ac.id/2699/" />
+		<imprint>
+			<date type="published" when="2019-05">2019. May 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maulana, R.A. The Use of Board Game for Improving Students&apos; English Speaking Ability. The State Institute for Islamic Studies Of Bengkulu. 2019. Available online: http://repository.iainbengkulu.ac.id/2699/ (accessed on 21 May 2021).</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,582.53,516.93,8.74;11,57.24,594.04,142.55,8.74" xml:id="b54">
+	<analytic>
+		<title level="a" type="main" coord="11,248.41,582.64,267.08,8.63" xml:id="_EqPXVfV">The Loss board game: A game to improve students&apos; pronunciation</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">D</forename><surname>Rachmadany</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">N</forename><surname>Wulyani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">U</forename><forename type="middle">P</forename><surname>Astuti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sjg4VXv" coord="11,522.77,582.53,37.63,8.55;11,57.24,594.04,83.73,8.55">J-ELLiT J. Engl. Lang. Lit. Teach</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="15" to="26" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rachmadany, C.D.; Wulyani, A.N.; Astuti, U.P. The Loss board game: A game to improve students&apos; pronunciation. J-ELLiT J. Engl. Lang. Lit. Teach. 2020, 4, 15-26.</note>
+</biblStruct>
+
+<biblStruct coords="11,43.47,605.66,515.81,8.63;11,57.52,617.05,173.92,8.74" xml:id="b55">
+	<analytic>
+		<title level="a" type="main" coord="11,152.80,605.66,406.48,8.63;11,57.52,617.17,23.69,8.63" xml:id="_pBxfHNp">Developing the &quot;Speak and Go&quot; board game to teach speaking for grade VIII students of junior high school</title>
+		<author>
+			<persName coords=""><forename type="first">I</forename><forename type="middle">P</forename><surname>Sari</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Wulandari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_D5Ae9Sd" coord="11,87.94,617.05,76.25,8.55">Engl. Lang. Teach. J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="165" to="170" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sari, I.P.; Wulandari, E. Developing the &quot;Speak and Go&quot; board game to teach speaking for grade VIII students of junior high school. Engl. Lang. Teach. J. 2018, 7, 165-170.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1155 @@
+{
+    "metadata": {
+        "title": "LegoNet: Efficient Convolutional Neural Networks with Lego Filters",
+        "doi": null,
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "This paper aims to build efficient convolutional neural networks using a set of Lego filters. Many successful building blocks, e.g. inception and residual modules, have been designed to refresh state-of-the-art records of CNNs on visual recognition tasks. Beyond these high-level modules, we suggest that an ordinary filter in the neural network can be upgraded to a sophisticated module as well. Filter modules are established by assembling a shared set of Lego filters that are often of much lower dimensions. Weights in Lego filters and binary masks to stack Lego filters for these filter modules can be simultaneously optimized in an end-to-end manner as usual. Inspired by network engineering, we develop a split-transformmerge strategy for an efficient convolution by exploiting intermediate Lego feature maps. The compression and acceleration achieved by Lego Networks using the proposed Lego filters have been theoretically discussed. Experimental results on benchmark datasets and deep models demonstrate the advantages of the proposed Lego filters and their potential real-world applications on mobile devices.",
+        "keywords": [
+            "legonet",
+            "module",
+            "efficient",
+            "convolutional",
+            "lego",
+            "neural",
+            "network",
+            "filter"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Zhaohui Yang",
+            "affiliation": "Key Laboratory of Machine Perception (Ministry of Education)",
+            "email": "<zhaohuiyang@pku.edu.cn>"
+        },
+        {
+            "name": "Yunhe Wang",
+            "affiliation": "Huawei Noah's Ark Lab",
+            "email": "<wangyunhe@pku.edu.cn>"
+        },
+        {
+            "name": "Hanting Chen",
+            "affiliation": "Key Laboratory of Machine Perception (Ministry of Education)",
+            "email": null
+        },
+        {
+            "name": "Chuanjian Liu",
+            "affiliation": "Huawei Noah's Ark Lab",
+            "email": null
+        },
+        {
+            "name": "Boxin Shi",
+            "affiliation": "National Engineering Laboratory for Video Technology",
+            "email": null
+        },
+        {
+            "name": "Chao Xu",
+            "affiliation": "Key Laboratory of Machine Perception (Ministry of Education)",
+            "email": null
+        },
+        {
+            "name": "Chunjing Xu",
+            "affiliation": "Huawei Noah's Ark Lab",
+            "email": null
+        },
+        {
+            "name": "Chang Xu",
+            "affiliation": "School of Com-puter Science",
+            "email": "changxu<c.xu@sydney.edu.au>."
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Bucilu\u01ce",
+                    "given": "C."
+                },
+                {
+                    "family": "Caruana",
+                    "given": "R."
+                },
+                {
+                    "family": "Niculescu-Mizil",
+                    "given": "A."
+                }
+            ],
+            "title": "Model compres-sion",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cheng",
+                    "given": "Y."
+                },
+                {
+                    "family": "Yu",
+                    "given": "F.X."
+                },
+                {
+                    "family": "Feris",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Kumar",
+                    "given": "S."
+                },
+                {
+                    "family": "Choudhary",
+                    "given": "A."
+                },
+                {
+                    "family": "Chang",
+                    "given": "S.-F."
+                }
+            ],
+            "title": "An exploration of parameter redundancy in deep net-works with circulant projections",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE In-ternational Conference on Computer Vision"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chollet",
+                    "given": "F."
+                }
+            ],
+            "title": "Xception: Deep learning with depthwise separable convolutions",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Courbariaux",
+                    "given": "M."
+                },
+                {
+                    "family": "Bengio",
+                    "given": "Y."
+                },
+                {
+                    "family": "David",
+                    "given": "J.-P."
+                }
+            ],
+            "title": "Binaryconnect: Train-ing deep neural networks with binary weights during propaga-tions",
+            "type": "chapter",
+            "container_title": [
+                "Advances in neural information processing systems"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Everingham",
+                    "given": "M."
+                },
+                {
+                    "family": "Gool",
+                    "given": "L.",
+                    "particle": "Van"
+                },
+                {
+                    "family": "Williams",
+                    "given": "C.K."
+                },
+                {
+                    "family": "Winn",
+                    "given": "J."
+                },
+                {
+                    "family": "Zis-serman",
+                    "given": "A."
+                }
+            ],
+            "title": "The pascal visual object classes (voc) challenge",
+            "type": "article-journal",
+            "container_title": [
+                "Inter-national journal of computer vision"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gao",
+                    "given": "X."
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Y."
+                },
+                {
+                    "family": "Dudziak",
+                    "given": "L."
+                },
+                {
+                    "family": "Mullins",
+                    "given": "R.D."
+                },
+                {
+                    "family": "Xu",
+                    "given": "C."
+                }
+            ],
+            "title": "Dynamic channel pruning: Feature boosting and suppression",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Han",
+                    "given": "S."
+                },
+                {
+                    "family": "Mao",
+                    "given": "H."
+                },
+                {
+                    "family": "Dally",
+                    "given": "W.J."
+                }
+            ],
+            "title": "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "He",
+                    "given": "K."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "X."
+                },
+                {
+                    "family": "Ren",
+                    "given": "S."
+                },
+                {
+                    "family": "Sun",
+                    "given": "J."
+                }
+            ],
+            "title": "Deep residual learning for image recognition",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE conference on computer vision and pattern recognition"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "He",
+                    "given": "K."
+                },
+                {
+                    "family": "Gkioxari",
+                    "given": "G."
+                },
+                {
+                    "family": "Doll\u00e1r",
+                    "given": "P."
+                },
+                {
+                    "family": "Girshick",
+                    "given": "R."
+                }
+            ],
+            "title": "Mask r-cnn",
+            "type": "paper-conference",
+            "container_title": [
+                "Computer Vision (ICCV), 2017 IEEE International Conference on"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "He",
+                    "given": "Y."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "X."
+                },
+                {
+                    "family": "Sun",
+                    "given": "J."
+                }
+            ],
+            "title": "Channel pruning for accelerating very deep neural networks",
+            "type": "paper-conference",
+            "container_title": [
+                "international conference on computer vision"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hinton",
+                    "given": "G."
+                },
+                {
+                    "family": "Vinyals",
+                    "given": "O."
+                },
+                {
+                    "family": "Dean",
+                    "given": "J."
+                }
+            ],
+            "title": "Distilling the knowledge in a neural network",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Howard",
+                    "given": "A.G."
+                },
+                {
+                    "family": "Zhu",
+                    "given": "M."
+                },
+                {
+                    "family": "Chen",
+                    "given": "B."
+                },
+                {
+                    "family": "Kalenichenko",
+                    "given": "D."
+                },
+                {
+                    "family": "Wang",
+                    "given": "W."
+                },
+                {
+                    "family": "Weyand",
+                    "given": "T."
+                },
+                {
+                    "family": "Andreetto",
+                    "given": "M."
+                },
+                {
+                    "family": "Adam",
+                    "given": "H."
+                }
+            ],
+            "title": "Mobilenets: Efficient convolutional neural networks for mobile vision applications",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huang",
+                    "given": "G."
+                },
+                {
+                    "family": "Liu",
+                    "given": "Z."
+                },
+                {
+                    "family": "Maaten",
+                    "given": "L.",
+                    "particle": "Van Der"
+                },
+                {
+                    "family": "Weinberger",
+                    "given": "K.Q."
+                }
+            ],
+            "title": "Densely connected convolutional networks",
+            "type": "chapter",
+            "container_title": [
+                "CVPR"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hubara",
+                    "given": "I."
+                },
+                {
+                    "family": "Courbariaux",
+                    "given": "M."
+                },
+                {
+                    "family": "Soudry",
+                    "given": "D."
+                },
+                {
+                    "family": "El-Yaniv",
+                    "given": "R."
+                },
+                {
+                    "family": "Bengio",
+                    "given": "Y."
+                }
+            ],
+            "title": "Binarized neural networks",
+            "type": "chapter",
+            "container_title": [
+                "Advances in neural information processing systems"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jaderberg",
+                    "given": "M."
+                },
+                {
+                    "family": "Vedaldi",
+                    "given": "A."
+                },
+                {
+                    "family": "Zisserman",
+                    "given": "A."
+                }
+            ],
+            "title": "Speeding up con-volutional neural networks with low rank expansions",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Juefei-Xu",
+                    "given": "F."
+                },
+                {
+                    "family": "Boddeti",
+                    "given": "V.Naresh"
+                },
+                {
+                    "family": "Savvides",
+                    "given": "M."
+                }
+            ],
+            "title": "Local binary convolutional neural networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "Y.-D."
+                },
+                {
+                    "family": "Park",
+                    "given": "E."
+                },
+                {
+                    "family": "Yoo",
+                    "given": "S."
+                },
+                {
+                    "family": "Choi",
+                    "given": "T."
+                },
+                {
+                    "family": "Yang",
+                    "given": "L."
+                },
+                {
+                    "family": "Shin",
+                    "given": "D."
+                }
+            ],
+            "title": "Com-pression of deep convolutional neural networks for fast and low power mobile applications",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Krizhevsky",
+                    "given": "A."
+                },
+                {
+                    "family": "Hinton",
+                    "given": "G."
+                }
+            ],
+            "title": "Convolutional deep belief networks on cifar-10",
+            "type": "article-journal",
+            "container_title": [
+                "Unpublished manuscript"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "H."
+                },
+                {
+                    "family": "Kadav",
+                    "given": "A."
+                },
+                {
+                    "family": "Durdanovic",
+                    "given": "I."
+                },
+                {
+                    "family": "Samet",
+                    "given": "H."
+                },
+                {
+                    "family": "Graf",
+                    "given": "H.P."
+                }
+            ],
+            "title": "Pruning filters for efficient convnets",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "W."
+                },
+                {
+                    "family": "Anguelov",
+                    "given": "D."
+                },
+                {
+                    "family": "Erhan",
+                    "given": "D."
+                },
+                {
+                    "family": "Szegedy",
+                    "given": "C."
+                },
+                {
+                    "family": "Reed",
+                    "given": "S."
+                },
+                {
+                    "family": "Fu",
+                    "given": "C.-Y."
+                },
+                {
+                    "family": "Berg",
+                    "given": "A.C."
+                }
+            ],
+            "title": "Ssd: Single shot multibox detector",
+            "type": "paper-conference",
+            "container_title": [
+                "European conference on computer vision"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Luo",
+                    "given": "J.-H."
+                },
+                {
+                    "family": "Wu",
+                    "given": "J."
+                },
+                {
+                    "family": "Lin",
+                    "given": "W."
+                }
+            ],
+            "title": "Thinet: A filter level pruning method for deep neural network compression",
+            "type": "paper-conference",
+            "container_title": [
+                "2017 IEEE International Conference on Computer Vision (ICCV"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Luo",
+                    "given": "W."
+                },
+                {
+                    "family": "Sun",
+                    "given": "P."
+                },
+                {
+                    "family": "Zhong",
+                    "given": "F."
+                },
+                {
+                    "family": "Liu",
+                    "given": "W."
+                },
+                {
+                    "family": "Wang",
+                    "given": "Y."
+                }
+            ],
+            "title": "End-to-end active object tracking via reinforcement learning",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Molchanov",
+                    "given": "P."
+                },
+                {
+                    "family": "Tyree",
+                    "given": "S."
+                },
+                {
+                    "family": "Karras",
+                    "given": "T."
+                },
+                {
+                    "family": "Aila",
+                    "given": "T."
+                },
+                {
+                    "family": "Kautz",
+                    "given": "J."
+                }
+            ],
+            "title": "Pruning convolutional neural networks for resource efficient transfer learning",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "abs/1611.06440, 2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Polino",
+                    "given": "A."
+                },
+                {
+                    "family": "Pascanu",
+                    "given": "R."
+                },
+                {
+                    "family": "Alistarh",
+                    "given": "D."
+                }
+            ],
+            "title": "Model compression via distillation and quantization",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rastegari",
+                    "given": "M."
+                },
+                {
+                    "family": "Ordonez",
+                    "given": "V."
+                },
+                {
+                    "family": "Redmon",
+                    "given": "J."
+                },
+                {
+                    "family": "Farhadi",
+                    "given": "A."
+                }
+            ],
+            "title": "Xnor-net: Imagenet classification using binary convolutional neural networks",
+            "type": "paper-conference",
+            "container_title": [
+                "European Conference on Computer Vision"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ren",
+                    "given": "S."
+                },
+                {
+                    "family": "He",
+                    "given": "K."
+                },
+                {
+                    "family": "Girshick",
+                    "given": "R."
+                },
+                {
+                    "family": "Sun",
+                    "given": "J."
+                }
+            ],
+            "title": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+            "type": "chapter",
+            "container_title": [
+                "Advances in neural information processing systems"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Romero",
+                    "given": "A."
+                },
+                {
+                    "family": "Ballas",
+                    "given": "N."
+                },
+                {
+                    "family": "Kahou",
+                    "given": "S.E."
+                },
+                {
+                    "family": "Chassang",
+                    "given": "A."
+                },
+                {
+                    "family": "Gatta",
+                    "given": "C."
+                },
+                {
+                    "family": "Bengio",
+                    "given": "Y."
+                }
+            ],
+            "title": "Fitnets: Hints for thin deep nets",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Simonyan",
+                    "given": "K."
+                },
+                {
+                    "family": "Zisserman",
+                    "given": "A."
+                }
+            ],
+            "title": "Very deep convolutional net-works for large-scale image recognition",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Szegedy",
+                    "given": "C."
+                },
+                {
+                    "family": "Liu",
+                    "given": "W."
+                },
+                {
+                    "family": "Jia",
+                    "given": "Y."
+                },
+                {
+                    "family": "Sermanet",
+                    "given": "P."
+                },
+                {
+                    "family": "Reed",
+                    "given": "S."
+                },
+                {
+                    "family": "Anguelov",
+                    "given": "D."
+                },
+                {
+                    "family": "Erhan",
+                    "given": "D."
+                },
+                {
+                    "family": "Vanhoucke",
+                    "given": "V."
+                },
+                {
+                    "family": "Rabinovich",
+                    "given": "A."
+                }
+            ],
+            "title": "Going deeper with convolutions",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE conference on computer vision and pattern recognition"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "P."
+                },
+                {
+                    "family": "Cheng",
+                    "given": "J."
+                }
+            ],
+            "title": "Fixed-point factorized networks",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Y."
+                },
+                {
+                    "family": "Xu",
+                    "given": "C."
+                },
+                {
+                    "family": "Xu",
+                    "given": "C."
+                },
+                {
+                    "family": "Tao",
+                    "given": "D."
+                }
+            ],
+            "title": "Beyond filters: Compact feature map for portable deep model",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 34th International Conference on Machine Learning-Volume 70"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Y."
+                },
+                {
+                    "family": "Xu",
+                    "given": "C."
+                },
+                {
+                    "family": "Chunjing",
+                    "given": "X."
+                },
+                {
+                    "family": "Xu",
+                    "given": "C."
+                },
+                {
+                    "family": "Tao",
+                    "given": "D."
+                }
+            ],
+            "title": "Learning versatile filters for efficient convolutional neural networks",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Neural Information Processing Systems"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Y."
+                },
+                {
+                    "family": "Xu",
+                    "given": "C."
+                },
+                {
+                    "family": "Xu",
+                    "given": "C."
+                },
+                {
+                    "family": "Tao",
+                    "given": "D."
+                }
+            ],
+            "title": "Packing convolutional neural networks in the frequency domain",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE transactions on pattern analysis and machine intelligence"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "B."
+                },
+                {
+                    "family": "Wan",
+                    "given": "A."
+                },
+                {
+                    "family": "Yue",
+                    "given": "X."
+                },
+                {
+                    "family": "Jin",
+                    "given": "P."
+                },
+                {
+                    "family": "Zhao",
+                    "given": "S."
+                },
+                {
+                    "family": "Golmant",
+                    "given": "N."
+                },
+                {
+                    "family": "Gho-laminejad",
+                    "given": "A."
+                },
+                {
+                    "family": "Gonzalez",
+                    "given": "J."
+                },
+                {
+                    "family": "Keutzer",
+                    "given": "K."
+                }
+            ],
+            "title": "Shift: A zero flop, zero parameter alternative to spatial convolutions",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceed-ings of the IEEE Conference on Computer Vision and Pattern Recognition"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "J."
+                },
+                {
+                    "family": "Leng",
+                    "given": "C."
+                },
+                {
+                    "family": "Wang",
+                    "given": "Y."
+                },
+                {
+                    "family": "Hu",
+                    "given": "Q."
+                },
+                {
+                    "family": "Cheng",
+                    "given": "J."
+                }
+            ],
+            "title": "Quantized convolu-tional neural networks for mobile devices",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xie",
+                    "given": "G."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "T."
+                },
+                {
+                    "family": "Yang",
+                    "given": "K."
+                },
+                {
+                    "family": "Lai",
+                    "given": "J."
+                },
+                {
+                    "family": "Wang",
+                    "given": "J."
+                }
+            ],
+            "title": "Decoupled convolutions for cnns",
+            "type": "paper-conference",
+            "container_title": [
+                "Thirty-Second AAAI Conference on Artificial Intelligence"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xie",
+                    "given": "S."
+                },
+                {
+                    "family": "Girshick",
+                    "given": "R."
+                },
+                {
+                    "family": "Doll\u00e1r",
+                    "given": "P."
+                },
+                {
+                    "family": "Tu",
+                    "given": "Z."
+                },
+                {
+                    "family": "He",
+                    "given": "K."
+                }
+            ],
+            "title": "Aggregated residual transformations for deep neural networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Computer Vision and Pattern Recognition (CVPR), 2017 IEEE Conference on"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "X."
+                },
+                {
+                    "family": "Zou",
+                    "given": "J."
+                },
+                {
+                    "family": "He",
+                    "given": "K."
+                },
+                {
+                    "family": "Sun",
+                    "given": "J."
+                }
+            ],
+            "title": "Accelerating very deep convolutional networks for classification and detection",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE transactions on pattern analysis and machine intelligence"
+            ],
+            "doi": "",
+            "published_date": "1943"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "X."
+                },
+                {
+                    "family": "Zhou",
+                    "given": "X."
+                },
+                {
+                    "family": "Lin",
+                    "given": "M."
+                },
+                {
+                    "family": "Sun",
+                    "given": "J."
+                }
+            ],
+            "title": "Shufflenet: An ex-tremely efficient convolutional neural network for mobile de-vices",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "abs/1707.01083, 2017"
+        }
+    ]
+}

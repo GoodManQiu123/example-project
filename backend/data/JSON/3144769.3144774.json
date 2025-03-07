@@ -1,0 +1,842 @@
+{
+    "metadata": {
+        "title": "In Situ Workflows at Exascale",
+        "doi": "10.1145/3144769.3144774",
+        "publisher": "ACM",
+        "journal": null,
+        "published_date": "2017-11-12"
+    },
+    "content": {
+        "abstract": "Implementing an in situ workflow involves several challenges related to data placement, task scheduling, efficient communications, scalability, and reliability. Most of the current implementations provide reasonably performant solutions to these issues by focusing on high-performance communications and low-overhead execution models at the cost of reliability and flexibility. One of the key design choices in such infrastructures is between providing a single-program, integrated environment or a multipleprogram, connected environment, both solutions having their own strengths and weaknesses. While these approaches might be appropriate for current production systems, the expected characteristics of exascale machines will shift current priorities. After a survey of the trade-offs and challenges of integrated and connected in situ workflow solutions available today, we discuss in this paper how exascale systems will impact those designs. In particular, we identify missing features of current system-level software required for the evolution of in situ workflows toward exascale and how system software innovations from the Argo Exascale Computing Project can help address those challenges.",
+        "keywords": [
+            "argo",
+            "current",
+            "situ",
+            "workflow",
+            "system",
+            "challenge",
+            "mpi",
+            "exascale"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Matthieu Dreher",
+            "affiliation": null,
+            "email": "mdreher@anl.gov"
+        },
+        {
+            "name": "Swann Perarnau",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Tom Peterka",
+            "affiliation": null,
+            "email": "tpeterka@mcs.anl.gov"
+        },
+        {
+            "name": "Kamil Iskra",
+            "affiliation": null,
+            "email": "iskra@mcs.anl.gov"
+        },
+        {
+            "name": "Pete Beckman",
+            "affiliation": null,
+            "email": "beckman@mcs.anl.gov"
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "The In Situ Terminology Project",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ahern",
+                    "given": "Sean"
+                },
+                {
+                    "family": "Brugger",
+                    "given": "Eric"
+                },
+                {
+                    "family": "Whitlock",
+                    "given": "Brad"
+                },
+                {
+                    "family": "Meredith",
+                    "given": "Jeremy S."
+                },
+                {
+                    "family": "Biagas",
+                    "given": "Kathleen"
+                },
+                {
+                    "family": "Miller",
+                    "given": "Mark C."
+                },
+                {
+                    "family": "Childs",
+                    "given": "Hank"
+                }
+            ],
+            "title": "VisIt: Experiences with Sustainable Software",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ahrens",
+                    "given": "James"
+                },
+                {
+                    "family": "Geveci",
+                    "given": "Berk"
+                },
+                {
+                    "family": "Law",
+                    "given": "Charles"
+                }
+            ],
+            "title": "ParaView: An End-User Tool for Large-Data Visualization",
+            "type": "article-journal",
+            "container_title": [
+                "The Visualization Handbook"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Atchley",
+                    "given": "Scott"
+                },
+                {
+                    "family": "Dillow",
+                    "given": "David"
+                },
+                {
+                    "family": "Shipman",
+                    "given": "Galen"
+                },
+                {
+                    "family": "Geoffray",
+                    "given": "Patrick"
+                },
+                {
+                    "family": "Squyres",
+                    "given": "Jeffrey M."
+                },
+                {
+                    "family": "Bosilca",
+                    "given": "George"
+                },
+                {
+                    "family": "Minnich",
+                    "given": "Ronald"
+                }
+            ],
+            "title": "The common communication interface (CCI",
+            "type": "paper-conference",
+            "container_title": [
+                "2011 IEEE 19th Annual Symposium on High Performance Interconnects (HOTI"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Boyuka",
+                    "given": "D.A."
+                },
+                {
+                    "family": "Lakshminarasimham",
+                    "given": "S."
+                },
+                {
+                    "family": "Zou",
+                    "given": "Xiaocheng"
+                },
+                {
+                    "family": "Zhenhuan Gong",
+                    "given": "J.Jenkins"
+                },
+                {
+                    "family": "Schendel",
+                    "given": "E.R."
+                },
+                {
+                    "family": "Podhorszki",
+                    "given": "N."
+                },
+                {
+                    "family": "Qing Liu",
+                    "given": "S.Klasky"
+                },
+                {
+                    "family": "Samatova",
+                    "given": "N.F."
+                }
+            ],
+            "title": "",
+            "type": "paper-conference",
+            "container_title": [
+                "Transparent In Situ Data Transformations in ADIOS. In 2014 14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing"
+            ],
+            "doi": "10.1109/CCGrid.2014.73",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dayal",
+                    "given": "J."
+                },
+                {
+                    "family": "Bratcher",
+                    "given": "D."
+                },
+                {
+                    "family": "Eisenhauer",
+                    "given": "G."
+                },
+                {
+                    "family": "Schwan",
+                    "given": "K."
+                },
+                {
+                    "family": "Wolf",
+                    "given": "M."
+                },
+                {
+                    "family": "Xuechen Zhang",
+                    "given": "H.Abbasi"
+                },
+                {
+                    "family": "Klasky",
+                    "given": "S."
+                },
+                {
+                    "family": "Podhorszki",
+                    "given": "N."
+                }
+            ],
+            "title": "Flexpath: Type-Based Pub-lish/Subscribe System for Large-Scale Science Analytics",
+            "type": "paper-conference",
+            "container_title": [
+                "2014 14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing"
+            ],
+            "doi": "10.1109/CCGrid.2014.104",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Docan",
+                    "given": "Ciprian"
+                },
+                {
+                    "family": "Parashar",
+                    "given": "Manish"
+                },
+                {
+                    "family": "Klasky",
+                    "given": "Scott"
+                }
+            ],
+            "title": "DataSpaces: an In-teraction and Coordination Framework for Coupled Simulation Workflows",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 19th ACM International Symposium on High Performance Distributed Computing (HPDC '10). ACM"
+            ],
+            "doi": "10.1145/1851476.1851481",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Docan",
+                    "given": "Ciprian"
+                },
+                {
+                    "family": "Parashar",
+                    "given": "Manish"
+                },
+                {
+                    "family": "Klasky",
+                    "given": "Scott"
+                }
+            ],
+            "title": "Enabling High-Speed Asynchronous Data Extraction and Transfer using DART",
+            "type": "article-journal",
+            "container_title": [
+                "Concurrency and Computation: Practice and Experience"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dongarra",
+                    "given": "Jack"
+                },
+                {
+                    "family": "Beckman",
+                    "given": "Pete"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "The International Exascale Software Project Roadmap",
+            "type": "article-journal",
+            "container_title": [
+                "Int. J. High Perform. Comput. Appl"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dorier",
+                    "given": "Matthieu"
+                },
+                {
+                    "family": "Antoniu",
+                    "given": "Gabriel"
+                },
+                {
+                    "family": "Cappello",
+                    "given": "Franck"
+                },
+                {
+                    "family": "Snir",
+                    "given": "Marc"
+                },
+                {
+                    "family": "Orf",
+                    "given": "Leigh"
+                }
+            ],
+            "title": "Damaris: How to Efficiently Leverage Multicore Parallelism to Achieve Scalable, Jitter-free I/O",
+            "type": "paper-conference",
+            "container_title": [
+                "CLUSTER -IEEE International Conference on Cluster Computing"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dorier",
+                    "given": "Matthieu"
+                },
+                {
+                    "family": "Dreher",
+                    "given": "Matthieu"
+                },
+                {
+                    "family": "Peterka",
+                    "given": "Tom"
+                },
+                {
+                    "family": "Wozniak",
+                    "given": "Justin M."
+                },
+                {
+                    "family": "Antoniu",
+                    "given": "Gabriel"
+                },
+                {
+                    "family": "Raffin",
+                    "given": "Bruno"
+                }
+            ],
+            "title": "Lessons Learned from Building in Situ Coupling Frameworks",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the First Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization. ACM"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dreher",
+                    "given": "M."
+                },
+                {
+                    "family": "Peterka",
+                    "given": "T."
+                }
+            ],
+            "title": "Decaf: Decoupled Dataflows for In Situ High-Performance Workflows",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dreher",
+                    "given": "Matthieu"
+                },
+                {
+                    "family": "Raffin",
+                    "given": "Bruno"
+                }
+            ],
+            "title": "A Flexible Framework for Asynchronous In Situ and In Transit Analytics for Scientific Simulations",
+            "type": "paper-conference",
+            "container_title": [
+                "14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Eisenhauer",
+                    "given": "Greg"
+                },
+                {
+                    "family": "Wolf",
+                    "given": "Matthew"
+                },
+                {
+                    "family": "Abbasi",
+                    "given": "Hasan"
+                },
+                {
+                    "family": "Schwan",
+                    "given": "Karsten"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [],
+            "title": "Event-based Systems: Opportunities and Challenges at Exascale",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Third ACM International Conference on Distributed Event-Based Systems (DEBS '09"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ellsworth",
+                    "given": "Dan"
+                },
+                {
+                    "family": "Patki",
+                    "given": "Tapasya"
+                },
+                {
+                    "family": "Perarnau",
+                    "given": "Swann"
+                },
+                {
+                    "family": "Seo",
+                    "given": "Sangmin"
+                },
+                {
+                    "family": "Amer",
+                    "given": "Abdelhalim"
+                },
+                {
+                    "family": "Zounmevo",
+                    "given": "Judicael"
+                },
+                {
+                    "family": "Gupta",
+                    "given": "Rinku"
+                },
+                {
+                    "family": "Yoshii",
+                    "given": "Kazutomo"
+                },
+                {
+                    "family": "Hoffman",
+                    "given": "Henry"
+                },
+                {
+                    "family": "Mal-ony",
+                    "given": "Allen"
+                },
+                {
+                    "family": "Schulz",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Beckman",
+                    "given": "Pete"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fabian",
+                    "given": "N."
+                },
+                {
+                    "family": "Moreland",
+                    "given": "K."
+                },
+                {
+                    "family": "Thompson",
+                    "given": "D."
+                },
+                {
+                    "family": "Bauer",
+                    "given": "A.C."
+                },
+                {
+                    "family": "Marion",
+                    "given": "P."
+                },
+                {
+                    "family": "Geveci",
+                    "given": "B."
+                },
+                {
+                    "family": "Rasquin",
+                    "given": "M."
+                },
+                {
+                    "family": "Jansen",
+                    "given": "K.E."
+                }
+            ],
+            "title": "The ParaView Coprocessing Library: A Scalable",
+            "type": "paper-conference",
+            "container_title": [
+                "General Purpose In Situ Visualization Library. In 2011 IEEE Symposium on Large Data Analysis and Visualization"
+            ],
+            "doi": "10.1109/LDAV.",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Qing"
+                },
+                {
+                    "family": "Logan",
+                    "given": "Jeremy"
+                },
+                {
+                    "family": "Tian",
+                    "given": "Yuan"
+                },
+                {
+                    "family": "Abbasi",
+                    "given": "Hasan"
+                },
+                {
+                    "family": "Podhorszki",
+                    "given": "Norbert"
+                },
+                {
+                    "family": "Choi",
+                    "given": "Jong Youl"
+                },
+                {
+                    "family": "Klasky",
+                    "given": "Scott"
+                },
+                {
+                    "family": "Tchoua",
+                    "given": "Roselyne"
+                },
+                {
+                    "family": "Lofstead",
+                    "given": "Jay"
+                },
+                {
+                    "family": "Oldfield",
+                    "given": "Ron"
+                },
+                {
+                    "family": "Parashar",
+                    "given": "Manish"
+                },
+                {
+                    "family": "Samatova",
+                    "given": "Nagiza"
+                },
+                {
+                    "family": "Schwan",
+                    "given": "Karsten"
+                },
+                {
+                    "family": "Shoshani",
+                    "given": "Arie"
+                },
+                {
+                    "family": "Wolf",
+                    "given": "Matthew"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Kesheng"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Weikuan"
+                }
+            ],
+            "title": "Hello ADIOS: The Challenges and Lessons of Developing Leadership Class I/O Frameworks",
+            "type": "article-journal",
+            "container_title": [
+                "Concurrency and Computation: Practice and Experience"
+            ],
+            "doi": "10.1002/cpe.3125",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oldfield",
+                    "given": "R.A."
+                },
+                {
+                    "family": "Widener",
+                    "given": "P."
+                },
+                {
+                    "family": "Maccabe",
+                    "given": "A.B."
+                },
+                {
+                    "family": "Ward",
+                    "given": "L."
+                },
+                {
+                    "family": "Kordenbrock",
+                    "given": "T."
+                }
+            ],
+            "title": "Ef-ficient Data-Movement for Lightweight I/O",
+            "type": "paper-conference",
+            "container_title": [
+                "2006 IEEE International Conference on Cluster Computing"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Perarnau",
+                    "given": "Swann"
+                },
+                {
+                    "family": "Gupta",
+                    "given": "Rinku"
+                },
+                {
+                    "family": "Beckman",
+                    "given": "Pete"
+                }
+            ],
+            "title": "Argo: An Exascale Oper-ating System and Runtime",
+            "type": "paper-conference",
+            "container_title": [
+                "The International Conference for High Performance Computing, Networking, Storage and Analysis, SC15"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Perarnau",
+                    "given": "Swann"
+                },
+                {
+                    "family": "Thakur",
+                    "given": "Rajeev"
+                },
+                {
+                    "family": "Iskra",
+                    "given": "Kamil"
+                },
+                {
+                    "family": "Raffenetti",
+                    "given": "Ken"
+                },
+                {
+                    "family": "Cappello",
+                    "given": "Franck"
+                },
+                {
+                    "family": "Gupta",
+                    "given": "Rinku"
+                },
+                {
+                    "family": "Beckman",
+                    "given": "Pete"
+                },
+                {
+                    "family": "Snir",
+                    "given": "Marc"
+                },
+                {
+                    "family": "Hoffmann",
+                    "given": "Henry"
+                },
+                {
+                    "family": "Schulz",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Rountree",
+                    "given": "Barry"
+                }
+            ],
+            "title": "Distributed Monitoring and Management of Exascale Systems in the Argo Project",
+            "type": "paper-conference",
+            "container_title": [
+                "IFIP International Conference on Distributed Ap-plications and Interoperable Systems (DAIS), Short Paper"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Perarnau",
+                    "given": "S."
+                },
+                {
+                    "family": "Zounmevo",
+                    "given": "J.A."
+                },
+                {
+                    "family": "Dreher",
+                    "given": "M."
+                },
+                {
+                    "family": "Essen",
+                    "given": "B.C.V."
+                },
+                {
+                    "family": "Gioiosa",
+                    "given": "R."
+                },
+                {
+                    "family": "Iskra",
+                    "given": "K."
+                },
+                {
+                    "family": "Gokhale",
+                    "given": "M.B."
+                },
+                {
+                    "family": "Yoshii",
+                    "given": "K."
+                },
+                {
+                    "family": "Beckman",
+                    "given": "P."
+                }
+            ],
+            "title": "Argo NodeOS: Toward Unified Resource Management for Exascale",
+            "type": "paper-conference",
+            "container_title": [
+                "2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS"
+            ],
+            "doi": "10.1109/IPDPS.2017.25",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Whitlock",
+                    "given": "Brad"
+                },
+                {
+                    "family": "Favre",
+                    "given": "Jean M."
+                },
+                {
+                    "family": "Meredith",
+                    "given": "Jeremy S."
+                }
+            ],
+            "title": "Parallel In Situ Coupling of Simulation with a Fully Featured Visualization System",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 11th Eurographics Conference on Parallel Graphics and Visualization (EGPGV '11). Eurographics Association"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wilde",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Hategan",
+                    "given": "Mihael"
+                },
+                {
+                    "family": "Wozniak",
+                    "given": "Justin M."
+                },
+                {
+                    "family": "Clifford",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Katz",
+                    "given": "Daniel S."
+                },
+                {
+                    "family": "Foster",
+                    "given": "Ian"
+                }
+            ],
+            "title": "Swift: A Language for Distributed Parallel Scripting",
+            "type": "article-journal",
+            "container_title": [
+                "Parallel Comput"
+            ],
+            "doi": "10.1016/j.parco.2011.05.005",
+            "published_date": "2011"
+        }
+    ]
+}

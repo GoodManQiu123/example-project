@@ -1,0 +1,2703 @@
+{
+    "metadata": {
+        "title": "Survey of Graph Database Models",
+        "doi": "10.1145/1322432.1322433",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Graph database models can be defined as those in which data structures for the schema and instances are modeled as graphs or generalizations of them, and data manipulation is expressed by graph-oriented operations and type constructors. These models took off in the eighties and early nineties alongside objectoriented models. Their influence gradually died out with the emergence of other database models, in particular geographical, spatial, semistructured, and XML. Recently, the need to manage information with graph-like nature has reestablished the relevance of this area. The main objective of this survey is to present the work that has been conducted in the area of graph database modeling, concentrating on data structures, query languages, and integrity constraints.",
+        "keywords": [
+            "schema",
+            "data",
+            "survey",
+            "management",
+            "model",
+            "graph",
+            "area",
+            "database",
+            "language"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Renzo Angles",
+            "affiliation": null,
+            "email": "rangles@dcc.uchile.cl."
+        },
+        {
+            "name": "Claudio Gutierrez",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "ABITEBOUL",
+                    "given": "S."
+                }
+            ],
+            "title": "Querying semi-structured data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 6th International Conference on Database Theory (ICDT). LNCS"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ABITEBOUL",
+                    "given": "S."
+                },
+                {
+                    "family": "HULL",
+                    "given": "R."
+                }
+            ],
+            "title": "IFO: A formal semantic database model",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3th Sym-posium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "1984"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ABITEBOUL",
+                    "given": "S."
+                },
+                {
+                    "family": "QUASS",
+                    "given": "D."
+                },
+                {
+                    "family": "MCHUGH",
+                    "given": "J."
+                },
+                {
+                    "family": "WIDOM",
+                    "given": "J."
+                },
+                {
+                    "family": "WIENER",
+                    "given": "J.L."
+                }
+            ],
+            "title": "The Lorel query language for semistructured data",
+            "type": "article-journal",
+            "container_title": [
+                "Int. J. Dig. Libr"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ABITEBOUL",
+                    "given": "S."
+                },
+                {
+                    "family": "VIANU",
+                    "given": "V."
+                }
+            ],
+            "title": "Queries and computation on the Web",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 6th Interna-tional Conference on Database Theory (ICDT). LNCS"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "AGRAWAL",
+                    "given": "R."
+                },
+                {
+                    "family": "JAGADISH",
+                    "given": "H.V."
+                }
+            ],
+            "title": "Efficient search in very large databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 14th International Conference on Very Large Data Bases (VLDB"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "AGRAWAL",
+                    "given": "R."
+                },
+                {
+                    "family": "JAGADISH",
+                    "given": "H.V."
+                },
+                {
+                    "family": "AGRAWAL",
+                    "given": "R."
+                },
+                {
+                    "family": "JAGADISH",
+                    "given": "H.V."
+                }
+            ],
+            "title": "Materialization and incremental update of path informationAlgorithms for searching massive graphs",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the 5th International Conference on Data Engineering (ICDE",
+                "IEEE Trans. Knowl. Data Eng"
+            ],
+            "doi": "",
+            "published_date": "1989"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ALBERT",
+                    "given": "R."
+                },
+                {
+                    "family": "BARAB\u00c1SI",
+                    "given": "A.-L."
+                }
+            ],
+            "title": "Statistical mechanics of complex networks",
+            "type": "article-journal",
+            "container_title": [
+                "Rev. Mod. Phy"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ALECHINA",
+                    "given": "N."
+                },
+                {
+                    "family": "DEMRI",
+                    "given": "S."
+                },
+                {
+                    "family": "RIJKE",
+                    "given": "D.E."
+                },
+                {
+                    "given": "M."
+                }
+            ],
+            "title": "A modal perspective on path constraints",
+            "type": "article-journal",
+            "container_title": [
+                "J. Logic Compu-tation"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "AMANN",
+                    "given": "B."
+                },
+                {
+                    "family": "SCHOLL",
+                    "given": "M."
+                }
+            ],
+            "title": "Gram: A Graph Data Model and Query Language",
+            "type": "paper-conference",
+            "container_title": [
+                "European Conference on Hypertext Technology (ECHT). ACM"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ANDRIES",
+                    "given": "M."
+                },
+                {
+                    "family": "ENGELS",
+                    "given": "G."
+                }
+            ],
+            "title": "A hybrid query language for an extended entity-relationship model",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ANDRIES",
+                    "given": "M."
+                },
+                {
+                    "family": "GEMIS",
+                    "given": "M."
+                },
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                },
+                {
+                    "family": "THYSSENS",
+                    "given": "I."
+                },
+                {
+                    "family": "BUSSCHE",
+                    "given": "D.E.N."
+                },
+                {
+                    "family": "V",
+                    "given": "J."
+                }
+            ],
+            "title": "Concepts for graph-oriented object manipulation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3rd International Conference on Extending Database Technol-ogy (EDBT). LNCS"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ANGLES",
+                    "given": "R."
+                },
+                {
+                    "family": "GUTIERREZ",
+                    "given": "C."
+                }
+            ],
+            "title": "Querying RDF data from a graph database perspective",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2nd European Semantic Web Conference (ESWC"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "AUFAURE-PORTIER",
+                    "given": "M.-A."
+                },
+                {
+                    "family": "TR\u00c9PIED",
+                    "given": "C."
+                }
+            ],
+            "title": "A survey of query languages for geographic information systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3rd International Workshop on Interfaces to Databases"
+            ],
+            "doi": "",
+            "published_date": "1976"
+        },
+        {
+            "authors": [
+                {
+                    "family": "AZMOODEH",
+                    "given": "M."
+                },
+                {
+                    "family": "DU",
+                    "given": "H."
+                }
+            ],
+            "title": "GQL, A graphical query language for semantic databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 4th International Conference on Scientific and Statistical Database Management (SSDBM). LNCS"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "BEERI",
+                    "given": "C."
+                }
+            ],
+            "title": "Data models and languages for databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2nd International Confer-ence on Database Theory (ICDT). LNCS"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "BENK",
+                    "given": "\u00d6."
+                },
+                {
+                    "family": "G.",
+                    "given": "F.L.A.M.M."
+                },
+                {
+                    "family": "C."
+                },
+                {
+                    "family": "STADLER",
+                    "given": "P.F."
+                }
+            ],
+            "title": "A graph-based toy model of chemistry",
+            "type": "article-journal",
+            "container_title": [
+                "J. Chem. Inform"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "BERGE",
+                    "given": "C."
+                },
+                {
+                    "family": "North-Holland",
+                    "given": "Amsterdam B.R.A.N.D.E.S."
+                },
+                {
+                    "given": "U."
+                }
+            ],
+            "title": "Graphs and HypergraphsNetwork Analysis. Number 3418 in LNCS",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1973"
+        },
+        {
+            "authors": [
+                {
+                    "family": "BRAY",
+                    "given": "T."
+                },
+                {
+                    "family": "PAOLI",
+                    "given": "J."
+                },
+                {
+                    "family": "SPERBERG-MCQUEEN",
+                    "given": "C.M."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "BRODER",
+                    "given": "A."
+                },
+                {
+                    "family": "KUMAR",
+                    "given": "R."
+                },
+                {
+                    "family": "MAGHOUL",
+                    "given": "F."
+                },
+                {
+                    "family": "RAGHAVAN",
+                    "given": "P."
+                },
+                {
+                    "family": "RAJAGOPALAN",
+                    "given": "S."
+                },
+                {
+                    "family": "STATA",
+                    "given": "R."
+                },
+                {
+                    "family": "TOMKINS",
+                    "given": "A."
+                },
+                {
+                    "family": "WIENER",
+                    "given": "J."
+                }
+            ],
+            "title": "Graph structure in the Web",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 9th International World Wide Web conference on Computer Networks: The International Journal of Computer and Telecommunications Networking"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "BUNEMAN",
+                    "given": "P."
+                }
+            ],
+            "title": "Semistructured data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 16th Symposium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "BUNEMAN",
+                    "given": "P."
+                },
+                {
+                    "family": "DAVIDSON",
+                    "given": "S."
+                },
+                {
+                    "family": "HILLEBRAND",
+                    "given": "G."
+                },
+                {
+                    "family": "SUCIU",
+                    "given": "D."
+                }
+            ],
+            "title": "A query language and optimization tech-niques for unstructured data",
+            "type": "article-journal",
+            "container_title": [
+                "SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "BUNEMAN",
+                    "given": "P."
+                },
+                {
+                    "family": "FAN",
+                    "given": "W."
+                },
+                {
+                    "family": "WEINSTEIN",
+                    "given": "S."
+                }
+            ],
+            "title": "Path constraints in semistructured and structured databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 17th Symposium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CARDELLI",
+                    "given": "L."
+                },
+                {
+                    "family": "GARDNER",
+                    "given": "P."
+                },
+                {
+                    "family": "GHELLI",
+                    "given": "G."
+                }
+            ],
+            "title": "A spatial logic for querying graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 29th International Colloquium on Automata, Languages, and Programming (ICALP"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CHANDRA",
+                    "given": "A.K."
+                }
+            ],
+            "title": "Theory of database queries",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 7th Symposium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CHEN",
+                    "given": "P.P.-S."
+                }
+            ],
+            "title": "The entity-relationship model-toward a unified view of data",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Database Syst"
+            ],
+            "doi": "",
+            "published_date": "1976"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CHOMICKI",
+                    "given": "J."
+                }
+            ],
+            "title": "Temporal query languages: a survey",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the First International Confer-ence on Temporal Logic (ICTL"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CODD",
+                    "given": "E.F."
+                }
+            ],
+            "title": "A relational model of data for large shared data banks",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "",
+            "published_date": "1970"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CODD",
+                    "given": "E.F."
+                }
+            ],
+            "title": "Data models in database management",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1980 Workshop on Data abstraction, Databases, and Conceptual Modeling"
+            ],
+            "doi": "",
+            "published_date": "1980"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CODD",
+                    "given": "E.F."
+                }
+            ],
+            "title": "A relational model of data for large shared data banks",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "",
+            "published_date": "1983"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CONKLIN",
+                    "given": "J."
+                }
+            ],
+            "title": "Hypertext: An introduction and survey",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Comput"
+            ],
+            "doi": "",
+            "published_date": "1987"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CONSENS",
+                    "given": "M."
+                },
+                {
+                    "family": "MENDELZON",
+                    "given": "A."
+                }
+            ],
+            "title": "Hy+: A hygraph-based query and visualization system",
+            "type": "article-journal",
+            "container_title": [
+                "SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CONSENS",
+                    "given": "M.P."
+                },
+                {
+                    "family": "MENDELZON",
+                    "given": "A.O."
+                }
+            ],
+            "title": "Expressing structural hypertext queries in graphlog",
+            "type": "paper-conference",
+            "container_title": [
+                "Pro-ceedings of the 2th Conference on Hypertext"
+            ],
+            "doi": "",
+            "published_date": "1989"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CRUZ",
+                    "given": "I.F."
+                },
+                {
+                    "family": "MENDELZON",
+                    "given": "A.O."
+                },
+                {
+                    "family": "WOOD",
+                    "given": "P.T."
+                }
+            ],
+            "title": "A graphical query language supporting recursion",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Association for Computing Machinery Special Interest Group on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "1987"
+        },
+        {
+            "authors": [
+                {
+                    "family": "CRUZ",
+                    "given": "I.F."
+                },
+                {
+                    "family": "MENDELZON",
+                    "given": "A.O."
+                },
+                {
+                    "family": "WOOD",
+                    "given": "P.T."
+                },
+                {
+                    "family": "DATE",
+                    "given": "C.J."
+                }
+            ],
+            "title": "G+: recursive queries without recursionReferential integrity",
+            "type": "paper-conference",
+            "container_title": [
+                "Pro-ceedings of the 2th International Conference on Expert Database Systems (EDS",
+                "Proceedings of the 7th International Conference on Very Large Data Bases (VLDB"
+            ],
+            "doi": "",
+            "published_date": "1989"
+        },
+        {
+            "authors": [
+                {
+                    "family": "PRICE",
+                    "given": "D.E.S."
+                },
+                {
+                    "family": "J",
+                    "given": "D."
+                }
+            ],
+            "title": "Networks of scientific papers",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "1965"
+        },
+        {
+            "authors": [
+                {
+                    "family": "DENG",
+                    "given": "Y."
+                },
+                {
+                    "family": "CHANG",
+                    "given": "S.-K."
+                }
+            ],
+            "title": "A G-Net model for knowledge representation and reasoning",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Knowl. Data Eng"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "DEVILLE",
+                    "given": "Y."
+                },
+                {
+                    "family": "GILBERT",
+                    "given": "D."
+                },
+                {
+                    "family": "HELDEN",
+                    "given": "V.A.N."
+                },
+                {
+                    "family": "J."
+                },
+                {
+                    "family": "WODAK",
+                    "given": "S.J."
+                }
+            ],
+            "title": "An overview of data models for the analysis of biochemical pathways",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the First International Workshop on Computational Methods in Systems Biology"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "DOROGOVTSEV",
+                    "given": "S.N."
+                },
+                {
+                    "family": "MENDES",
+                    "given": "J.F.F."
+                }
+            ],
+            "title": "Evolution of Networks-From Biological Nets to the Internet and WWW",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "FERN\u00c1NDEZ",
+                    "given": "M."
+                },
+                {
+                    "family": "FLORESCU",
+                    "given": "D."
+                },
+                {
+                    "family": "KANG",
+                    "given": "J."
+                },
+                {
+                    "family": "LEVY",
+                    "given": "A."
+                },
+                {
+                    "family": "SUCIU",
+                    "given": "D."
+                }
+            ],
+            "title": "Catching the boat with strudel: expe-riences with a Web-site management system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1998 ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "FLESCA",
+                    "given": "S."
+                },
+                {
+                    "family": "GRECO",
+                    "given": "S."
+                }
+            ],
+            "title": "Partially ordered regular languages for graph queries",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 26th International Colloquium on Automata, Languages and Programming (ICALP). LNCS"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "FLESCA",
+                    "given": "S."
+                },
+                {
+                    "family": "GRECO",
+                    "given": "S."
+                }
+            ],
+            "title": "Querying graph databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 7th International Confer-ence on Extending Database Technology-Advances in Database Technology (EDBT). LNCS"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "FLORESCU",
+                    "given": "D."
+                },
+                {
+                    "family": "LEVY",
+                    "given": "A."
+                },
+                {
+                    "family": "AND.MENDELZON",
+                    "given": "A.O."
+                }
+            ],
+            "title": "Database techniques for the World-Wide Web: A survey",
+            "type": "article-journal",
+            "container_title": [
+                "SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "FRY",
+                    "given": "J.P."
+                },
+                {
+                    "family": "SIBLEY",
+                    "given": "E.H."
+                }
+            ],
+            "title": "Evolution of data-base management systems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Comput. Surv"
+            ],
+            "doi": "",
+            "published_date": "1976"
+        },
+        {
+            "authors": [
+                {
+                    "family": "FURCHE",
+                    "given": "T."
+                },
+                {
+                    "family": "LINSE",
+                    "given": "B."
+                },
+                {
+                    "family": "BRY",
+                    "given": "F."
+                },
+                {
+                    "family": "PLEXOUSAKIS",
+                    "given": "D."
+                },
+                {
+                    "family": "GOTTLOB",
+                    "given": "G."
+                }
+            ],
+            "title": "RDF querying: language constructs and evaluation methods compared",
+            "type": "chapter",
+            "container_title": [
+                "Reasoning Web. Number 4126 in LNCS"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GEMIS",
+                    "given": "M."
+                },
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                }
+            ],
+            "title": "An object-oriented pattern matching language",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the First JSSST International Symposium on Object Technologies for Advanced Software"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GEMIS",
+                    "given": "M."
+                },
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                },
+                {
+                    "family": "THYSSENS",
+                    "given": "I."
+                },
+                {
+                    "family": "BUSSCHE",
+                    "given": "D.E.N."
+                },
+                {
+                    "family": "V",
+                    "given": "J."
+                }
+            ],
+            "title": "GOOD: A graph-oriented object database system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1993 ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GIUGNO",
+                    "given": "R."
+                },
+                {
+                    "family": "SHASHA",
+                    "given": "D."
+                }
+            ],
+            "title": "GraphGrep: A fast and universal method for querying graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceed-ings of the IEEE International Conference in Pattern recognition (ICPR"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GRAVES",
+                    "given": "M."
+                }
+            ],
+            "title": "Graph data models for genomics",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "GRAVES",
+                    "given": "M."
+                }
+            ],
+            "title": "Theories and tools for designing application-specific knowledge base data models",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GRAVES",
+                    "given": "M."
+                },
+                {
+                    "family": "BERGEMAN",
+                    "given": "E.R."
+                },
+                {
+                    "family": "LAWRENCE",
+                    "given": "C.B."
+                }
+            ],
+            "title": "Querying a genome database using graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3th International Conference on Bioinformatics and Genome Research"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GRAVES",
+                    "given": "M."
+                },
+                {
+                    "family": "BERGEMAN",
+                    "given": "E.R."
+                },
+                {
+                    "family": "LAWRENCE",
+                    "given": "C.B."
+                }
+            ],
+            "title": "A graph-theoretic data model for genome mapping databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 28th Hawaii International Conference on System Sciences (HICSS"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GRAVES",
+                    "given": "M."
+                },
+                {
+                    "family": "BERGEMAN",
+                    "given": "E.R."
+                },
+                {
+                    "family": "LAWRENCE",
+                    "given": "C.B."
+                }
+            ],
+            "title": "Graph database systems for genomics",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Eng. Medicine Biol. Special issue on Managing Data for the Human Genome Project"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GRIFFITH",
+                    "given": "R.L."
+                }
+            ],
+            "title": "Three principles of representation for semantic networks",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Database Syst"
+            ],
+            "doi": "",
+            "published_date": "1982"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GUHA",
+                    "given": "R.V."
+                },
+                {
+                    "family": "LASSILA",
+                    "given": "O."
+                },
+                {
+                    "family": "MILLER",
+                    "given": "E."
+                },
+                {
+                    "family": "BRICKLEY",
+                    "given": "D."
+                }
+            ],
+            "title": "Enabling inferencing",
+            "type": "chapter",
+            "container_title": [
+                "The Query Languages Workshop (QL"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GUTI\u00c9RREZ",
+                    "given": "A."
+                },
+                {
+                    "family": "PUCHERAL",
+                    "given": "P."
+                },
+                {
+                    "family": "STEFFEN",
+                    "given": "H."
+                },
+                {
+                    "family": "TH\u00c9VENIN",
+                    "given": "J.-M."
+                }
+            ],
+            "title": "Database graph views: A practical model to manage persistent graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 20th International Conference on Very Large Data Bases (VLDB"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "\u00dcTING",
+                    "given": "G."
+                },
+                {
+                    "family": "H",
+                    "given": "R."
+                },
+                {
+                    "family": "GYSSENS",
+                    "given": "M."
+                },
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                },
+                {
+                    "family": "BUSSCHE",
+                    "given": "D.E.N."
+                },
+                {
+                    "family": "V.",
+                    "given": "J."
+                },
+                {
+                    "family": "GUCHT",
+                    "given": "D.V."
+                }
+            ],
+            "title": "GraphDB: modeling and querying graphs in databasesA graph-oriented object database model",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the 20th International Conference on Very Large Data Bases (VLDB",
+                "Proceedings of the 9th Symposium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GYSSENS",
+                    "given": "M."
+                },
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                },
+                {
+                    "family": "BUSSCHE",
+                    "given": "D.E.N."
+                },
+                {
+                    "family": "V.",
+                    "given": "J."
+                },
+                {
+                    "family": "GUCHT",
+                    "given": "D.V."
+                }
+            ],
+            "title": "A graph-oriented object database model",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1991"
+        },
+        {
+            "authors": [
+                {
+                    "family": "GYSSENS",
+                    "given": "M."
+                },
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                },
+                {
+                    "family": "GUCHT",
+                    "given": "D.V."
+                }
+            ],
+            "title": "A graph-oriented object model for database end-user interfaces",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1990 ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HAMMER",
+                    "given": "J."
+                },
+                {
+                    "family": "SCHNEIDER",
+                    "given": "M."
+                }
+            ],
+            "title": "The GenAlg project: developing a new integrating data model, lan-guage, and tool for managing and querying genomic information",
+            "type": "article-journal",
+            "container_title": [
+                "SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HAMMER",
+                    "given": "M."
+                },
+                {
+                    "family": "MCLEOD",
+                    "given": "D."
+                }
+            ],
+            "title": "The semantic data model: a modelling mechanism for data base ap-plications",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1978 ACM SIGMOD International Conference on Management of Data. ACM"
+            ],
+            "doi": "",
+            "published_date": "1978"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HANNEMAN",
+                    "given": "R.A."
+                }
+            ],
+            "title": "Introduction to social network methods",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HAYES",
+                    "given": "J."
+                },
+                {
+                    "family": "GUTIERREZ",
+                    "given": "C."
+                }
+            ],
+            "title": "Bipartite graphs as intermediate model for RDF",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3th International Semantic Web Conference (ISWC). Number 3298 in LNCS"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HEUER",
+                    "given": "A."
+                },
+                {
+                    "family": "SCHOLL",
+                    "given": "M.H."
+                }
+            ],
+            "title": "Principles of object-oriented query languages",
+            "type": "chapter",
+            "container_title": [
+                "Datenbanksysteme in B \u00fcro, Technik und Wissenschaft (BTW). Informatik-Fachberichte"
+            ],
+            "doi": "",
+            "published_date": "1991"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HIDDERS",
+                    "given": "J."
+                }
+            ],
+            "title": "A graph-based update language for object-oriented data models",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HIDDERS",
+                    "given": "J."
+                }
+            ],
+            "title": "Typing graph-manipulation operations",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 9th International Confer-ence on Database Theory (ICDT"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HIDDERS",
+                    "given": "J."
+                },
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                }
+            ],
+            "title": "GOAL, A graph-based object and association language",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Database Systems: Implementations and Applications, CISM"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "HULL",
+                    "given": "R."
+                },
+                {
+                    "family": "KING",
+                    "given": "R."
+                }
+            ],
+            "title": "Semantic database modeling: Survey, applications, and research issues",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Comput. Surv"
+            ],
+            "doi": "",
+            "published_date": "1987"
+        },
+        {
+            "authors": [
+                {
+                    "given": "I.S.O."
+                }
+            ],
+            "title": "International Standard ISO/IEC 13250 Topic Maps",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "JAGADISH",
+                    "given": "H.V."
+                },
+                {
+                    "family": "OLKEN",
+                    "given": "F."
+                }
+            ],
+            "title": "Data management for the biosciences: report of the NLM Workshop on Data Management for Molecular and Cell Biology",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KERSCHBERG",
+                    "given": "L."
+                },
+                {
+                    "family": "KLUG",
+                    "given": "A.C."
+                },
+                {
+                    "family": "TSICHRITZIS",
+                    "given": "D."
+                }
+            ],
+            "title": "A taxonomy of data models",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of Systems for Large Data Bases (VLDB). North Holland and IFIP"
+            ],
+            "doi": "",
+            "published_date": "1976"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KIESEL",
+                    "given": "N."
+                },
+                {
+                    "family": "SCHURR",
+                    "given": "A."
+                },
+                {
+                    "family": "WESTFECHTEL",
+                    "given": "B."
+                }
+            ],
+            "title": "GRAS: A graph-oriented software engineering database system",
+            "type": "chapter",
+            "container_title": [
+                "IPSEN Book"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KIFER",
+                    "given": "M."
+                },
+                {
+                    "family": "KIM",
+                    "given": "W."
+                },
+                {
+                    "family": "SAGIV",
+                    "given": "Y."
+                }
+            ],
+            "title": "Querying object-oriented databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1992 ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KIM",
+                    "given": "W."
+                }
+            ],
+            "title": "Object-oriented databases: definition and research directions",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Knowl. Data Eng"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KLYNE",
+                    "given": "G."
+                },
+                {
+                    "family": "CARROLL",
+                    "given": "J."
+                }
+            ],
+            "title": "Resource description framework (RDF) concepts and abstract syntax",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KUMAR",
+                    "given": "R."
+                },
+                {
+                    "family": "RAGHAVAN",
+                    "given": "P."
+                },
+                {
+                    "family": "RAJAGOPALAN",
+                    "given": "S."
+                },
+                {
+                    "family": "SIVAKUMAR",
+                    "given": "D."
+                },
+                {
+                    "family": "TOMKINS",
+                    "given": "A."
+                },
+                {
+                    "family": "UPFAL",
+                    "given": "E."
+                }
+            ],
+            "title": "The Web as a graph",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 19th Symposium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KUNII",
+                    "given": "H.S."
+                }
+            ],
+            "title": "DBMS with graph data model for knowledge handling",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1987 Fall Joint Computer Conference on Exploring technology: Today and Tomorrow"
+            ],
+            "doi": "",
+            "published_date": "1987"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KUPER",
+                    "given": "G.M."
+                },
+                {
+                    "family": "VARDI",
+                    "given": "M.Y."
+                }
+            ],
+            "title": "A new approach to database logic",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3th Symposium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "1984"
+        },
+        {
+            "authors": [
+                {
+                    "family": "KUPER",
+                    "given": "G.M."
+                },
+                {
+                    "family": "VARDI",
+                    "given": "M.Y."
+                }
+            ],
+            "title": "The Logical Data Model",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Database Syst"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "LANGOU",
+                    "given": "B."
+                },
+                {
+                    "family": "MAINGUENAUD",
+                    "given": "M."
+                }
+            ],
+            "title": "Graph data model operations for network facilities in a geographical information system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 6th International Symposium on Spatial Data Handling"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "L\u00c9CLUSE",
+                    "given": "C."
+                },
+                {
+                    "family": "RICHARD",
+                    "given": "P."
+                },
+                {
+                    "family": "V\u00c9LEZ",
+                    "given": "F."
+                }
+            ],
+            "title": "O2, an object-oriented data model",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "LEVENE",
+                    "given": "M."
+                },
+                {
+                    "family": "LOIZOU",
+                    "given": "G."
+                }
+            ],
+            "title": "A graph-based data model and its ramifications",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Knowl. Data Eng"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "LEVENE",
+                    "given": "M."
+                },
+                {
+                    "family": "POULOVASSILIS",
+                    "given": "A."
+                }
+            ],
+            "title": "The Hypernode model and its associated query language",
+            "type": "paper-conference",
+            "container_title": [
+                "Pro-ceedings of the 5th Jerusalem Conference on Information technology"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "LEVENE",
+                    "given": "M."
+                },
+                {
+                    "family": "POULOVASSILIS",
+                    "given": "A."
+                }
+            ],
+            "title": "An object-oriented data model formalised through hypergraphs",
+            "type": "article-journal",
+            "container_title": [
+                "Data Knowl. Eng"
+            ],
+            "doi": "",
+            "published_date": "1991"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MAINGUENAUD",
+                    "given": "M."
+                }
+            ],
+            "title": "Simatic XT: A data model to deal with multi-scaled networks",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Environ. Urban Syst"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MAINGUENAUD",
+                    "given": "M."
+                }
+            ],
+            "title": "Modelling the network component of geographical information systems",
+            "type": "article-journal",
+            "container_title": [
+                "Int. J. Geog. Inform. Syst"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MANNINO",
+                    "given": "M.V."
+                },
+                {
+                    "family": "SHAPIRO",
+                    "given": "L.D."
+                }
+            ],
+            "title": "Extensions to query languages for graph traversal problems",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Knowl. Data Eng"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MCGEE",
+                    "given": "W.C."
+                }
+            ],
+            "title": "On user criteria for data model evaluation",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Database Syst"
+            ],
+            "doi": "",
+            "published_date": "1976"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MCGUINNESS",
+                    "given": "D.L."
+                },
+                {
+                    "family": "HARMELEN",
+                    "given": "V.A.N."
+                },
+                {
+                    "given": "F."
+                }
+            ],
+            "title": "OWL Web ontology language overview",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MEDEIROS",
+                    "given": "C.B."
+                },
+                {
+                    "family": "PIRES",
+                    "given": "F."
+                }
+            ],
+            "title": "Databases for GIS",
+            "type": "article-journal",
+            "container_title": [
+                "SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MENDELZON",
+                    "given": "A.O."
+                },
+                {
+                    "family": "WOOD",
+                    "given": "P.T."
+                }
+            ],
+            "title": "Finding regular simple paths in graph databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 15th International Conference on Very Large Data Bases (VLDB"
+            ],
+            "doi": "",
+            "published_date": "1989"
+        },
+        {
+            "authors": [
+                {
+                    "family": "NAVATHE",
+                    "given": "S.B."
+                }
+            ],
+            "title": "Evolution of data modeling for databases",
+            "type": "article-journal",
+            "container_title": [
+                "Communications of the ACM"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "NEJDL",
+                    "given": "W."
+                },
+                {
+                    "family": "SIBERSKI",
+                    "given": "W."
+                },
+                {
+                    "family": "SINTEK",
+                    "given": "M."
+                }
+            ],
+            "title": "Design issues and challenges for RDF-and schema-based peer-to-peer systems",
+            "type": "article-journal",
+            "container_title": [
+                "SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "NEWMAN",
+                    "given": "M.E.J."
+                }
+            ],
+            "title": "The structure and function of complex networks",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM Rev"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "OLKEN",
+                    "given": "F."
+                }
+            ],
+            "title": "Tutorial on graph data management for biology",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "PAPAKONSTANTINOU",
+                    "given": "Y."
+                },
+                {
+                    "family": "GARCIA-MOLINA",
+                    "given": "H."
+                },
+                {
+                    "family": "WIDOM",
+                    "given": "J."
+                }
+            ],
+            "title": "Object exchange across heterogeneous infor-mation sources",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 11th International Conference on Data Engineering (ICDE"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                },
+                {
+                    "family": "KUIJPERS",
+                    "given": "B."
+                }
+            ],
+            "title": "Data models and query languages for spatial databases",
+            "type": "article-journal",
+            "container_title": [
+                "Data & Knowledge Engineering (DKE"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "PAREDAENS",
+                    "given": "J."
+                },
+                {
+                    "family": "PEELMAN",
+                    "given": "P."
+                },
+                {
+                    "family": "TANCA",
+                    "given": "L."
+                }
+            ],
+            "title": "G-Log: A graph-based query language",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Knowl. Data Eng"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "PECKHAM",
+                    "given": "J."
+                },
+                {
+                    "family": "MARYANSKI",
+                    "given": "F.J."
+                }
+            ],
+            "title": "Semantic data models",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Comput. Surv"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "PEPPER",
+                    "given": "S."
+                },
+                {
+                    "family": "MOORE",
+                    "given": "G."
+                }
+            ],
+            "title": "XML topic maps (XTM) 1.0-TopicMaps.Org Specification",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "POULOVASSILIS",
+                    "given": "A."
+                },
+                {
+                    "family": "HILD",
+                    "given": "S.G."
+                }
+            ],
+            "title": "Hyperlog: A graph-based system for database browsing, querying, and update",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Knowl. Data Eng"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "POULOVASSILIS",
+                    "given": "A."
+                },
+                {
+                    "family": "LEVENE",
+                    "given": "M."
+                }
+            ],
+            "title": "A nested-graph model for the representation and manipulation of complex objects",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Inform. Syst"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "PRUD'HOMMEAUX",
+                    "given": "E."
+                },
+                {
+                    "family": "SEABORNE",
+                    "given": "A."
+                }
+            ],
+            "title": "SPARQL Query Language for RDF",
+            "type": "article-journal",
+            "container_title": [
+                "W3C Working Draft"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "RAMAKRISHNAN",
+                    "given": "R."
+                },
+                {
+                    "family": "ULLMAN",
+                    "given": "J.D."
+                }
+            ],
+            "title": "A survey of research on deductive database systems",
+            "type": "article-journal",
+            "container_title": [
+                "J. Logic Prog"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ROUSSOPOULOS",
+                    "given": "N."
+                },
+                {
+                    "family": "MYLOPOULOS",
+                    "given": "J."
+                }
+            ],
+            "title": "Using semantic networks for database management",
+            "type": "paper-conference",
+            "container_title": [
+                "Pro-ceedings of the International Conference on Very Large Data Bases (VLDB). ACM"
+            ],
+            "doi": "",
+            "published_date": "1975"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SAMET",
+                    "given": "H."
+                },
+                {
+                    "family": "AREF",
+                    "given": "W.G."
+                }
+            ],
+            "title": "Spatial data models and query processing",
+            "type": "chapter",
+            "container_title": [
+                "Modern Database Systems"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SCHEWE",
+                    "given": "K.-D."
+                },
+                {
+                    "family": "THALHEIM",
+                    "given": "B."
+                },
+                {
+                    "family": "SCHMIDT",
+                    "given": "J.W."
+                },
+                {
+                    "family": "WETZEL",
+                    "given": "I."
+                }
+            ],
+            "title": "Integrity enforcement in object-oriented databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 4th International Workshop on Foundations of Models and Languages for Data and Objects"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SHASHA",
+                    "given": "D."
+                },
+                {
+                    "family": "WANG",
+                    "given": "J.T.L."
+                },
+                {
+                    "family": "GIUGNO",
+                    "given": "R."
+                }
+            ],
+            "title": "Algorithmics and applications of tree and graph searching",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 21th Symposium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SHEKHAR",
+                    "given": "S."
+                },
+                {
+                    "family": "COYLE",
+                    "given": "M."
+                },
+                {
+                    "family": "GOYAL",
+                    "given": "B."
+                },
+                {
+                    "family": "LIU",
+                    "given": "D.-R."
+                },
+                {
+                    "family": "SARKAR",
+                    "given": "S."
+                }
+            ],
+            "title": "Data models in geographic information systems",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SHENG",
+                    "given": "L."
+                },
+                {
+                    "family": "OZSOYOGLU",
+                    "given": "Z.M."
+                },
+                {
+                    "family": "OZSOYOGLU",
+                    "given": "G."
+                },
+                {
+                    "family": "SHETH",
+                    "given": "A."
+                },
+                {
+                    "family": "ALEMAN-MEZA",
+                    "given": "B."
+                },
+                {
+                    "family": "ARPINAR",
+                    "given": "I.B."
+                },
+                {
+                    "family": "HALASCHEK-WIENER",
+                    "given": "C."
+                },
+                {
+                    "family": "RAMAKRISHNAN",
+                    "given": "C."
+                },
+                {
+                    "family": "BERTRAM",
+                    "given": "C."
+                },
+                {
+                    "family": "WARKE",
+                    "given": "Y."
+                },
+                {
+                    "family": "AVANT",
+                    "given": "D."
+                },
+                {
+                    "family": "ARPINAR",
+                    "given": "F.S."
+                },
+                {
+                    "family": "ANYANWU",
+                    "given": "K."
+                },
+                {
+                    "family": "KOCHUT",
+                    "given": "K."
+                }
+            ],
+            "title": "A graph query language and its query processingSemantic association identification and knowledge discovery for national security applications",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the 15th International Conference on Data Engineering (ICDE). IEEE Computer Society",
+                "J. Database Manag"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SHIPMAN",
+                    "given": "D.W."
+                }
+            ],
+            "title": "The functional data model and the data language DAPLEX",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Database Syst"
+            ],
+            "doi": "",
+            "published_date": "1981"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SILBERSCHATZ",
+                    "given": "A."
+                },
+                {
+                    "family": "KORTH",
+                    "given": "H.F."
+                },
+                {
+                    "family": "SUDARSHAN",
+                    "given": "S."
+                }
+            ],
+            "title": "Data models",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Comput. Surv"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SOWA",
+                    "given": "J.F."
+                }
+            ],
+            "title": "Conceptual graphs for a database interface",
+            "type": "article-journal",
+            "container_title": [
+                "IBM J. Res. Devel"
+            ],
+            "doi": "",
+            "published_date": "1976"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SOWA",
+                    "given": "J.F."
+                }
+            ],
+            "title": "Conceptual Structures: Information Processing in Mind and Machine",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1984"
+        },
+        {
+            "authors": [
+                {
+                    "family": "SOWA",
+                    "given": "J.F."
+                }
+            ],
+            "title": "Principles of Semantic Networks: Explorations in the Representation of Knowledge",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1991"
+        },
+        {
+            "authors": [
+                {
+                    "family": "STEIN",
+                    "given": "L.D."
+                },
+                {
+                    "family": "TIERRY-MIEG",
+                    "given": "J."
+                }
+            ],
+            "title": "AceDB: A genome database management system",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Sci. Eng"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [],
+            "title": "Temporal Databases: Theory, Design, and Implementation",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "TAYLOR",
+                    "given": "R.W."
+                },
+                {
+                    "family": "FRANK",
+                    "given": "R.L."
+                }
+            ],
+            "title": "CODASYL data-base management systems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Comput. Surv"
+            ],
+            "doi": "",
+            "published_date": "1976"
+        },
+        {
+            "authors": [
+                {
+                    "family": "THALHEIM",
+                    "given": "B."
+                }
+            ],
+            "title": "Dependencies in Relational Databases",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1991"
+        },
+        {
+            "authors": [
+                {
+                    "family": "THALHEIM",
+                    "given": "B."
+                }
+            ],
+            "title": "An overview on semantical constraints for database models",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 6th International Conference Intellectual Systems and Computer Science"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "TOMPA",
+                    "given": "F.W."
+                }
+            ],
+            "title": "A data model for flexible hypertext database systems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Inform. Syst"
+            ],
+            "doi": "",
+            "published_date": "1989"
+        },
+        {
+            "authors": [
+                {
+                    "family": "TSICHRITZIS",
+                    "given": "D.C."
+                },
+                {
+                    "family": "LOCHOVSKY",
+                    "given": "F.H."
+                }
+            ],
+            "title": "Hierarchical data-base management: A survey",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Comput. Surv"
+            ],
+            "doi": "",
+            "published_date": "1976"
+        },
+        {
+            "authors": [
+                {
+                    "family": "TSVETOVAT",
+                    "given": "M."
+                },
+                {
+                    "family": "DIESNER",
+                    "given": "J."
+                },
+                {
+                    "family": "CARLEY",
+                    "given": "K."
+                }
+            ],
+            "title": "NetIntel: A database for manipulation of rich social network data",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "TUV",
+                    "given": "E."
+                },
+                {
+                    "family": "POULOVASSILIS",
+                    "given": "A."
+                },
+                {
+                    "family": "LEVENE",
+                    "given": "M."
+                }
+            ],
+            "title": "A storage manager for the hypernode model",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 10th British National Conference on Databases. Number 618 in LNCS"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "VARDI",
+                    "given": "M.Y."
+                }
+            ],
+            "title": "The complexity of relational query languages (extended abstract",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 14th ACM Symposium on Theory of Computing (STOC"
+            ],
+            "doi": "",
+            "published_date": "1982"
+        },
+        {
+            "authors": [
+                {
+                    "family": "VASSILIADIS",
+                    "given": "P."
+                },
+                {
+                    "family": "SELLIS",
+                    "given": "T."
+                }
+            ],
+            "title": "A survey of logical models for OLAP Databases",
+            "type": "article-journal",
+            "container_title": [
+                "SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "VIANU",
+                    "given": "V."
+                }
+            ],
+            "title": "A Web odyssey: From Codd to XML",
+            "type": "article-journal",
+            "container_title": [
+                "SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "WATTERS",
+                    "given": "C."
+                },
+                {
+                    "family": "SHEPHERD",
+                    "given": "M.A."
+                }
+            ],
+            "title": "A transient hypergraph-based model for data access",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Inform. Syst"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "WEDDELL",
+                    "given": "G.E."
+                }
+            ],
+            "title": "Reasoning about functional dependencies generalized for semantic data models",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Database Syst"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "WELLMAN",
+                    "given": "B."
+                },
+                {
+                    "family": "SALAFF",
+                    "given": "J."
+                },
+                {
+                    "family": "DIMITROVA",
+                    "given": "D."
+                },
+                {
+                    "family": "GARTON",
+                    "given": "L."
+                },
+                {
+                    "family": "GULIA",
+                    "given": "M."
+                },
+                {
+                    "family": "HAYTHORNTHWAITE",
+                    "given": "C."
+                }
+            ],
+            "title": "Computer networks as social networks: collaborative work,telework, and virtual community",
+            "type": "article-journal",
+            "container_title": [
+                "Ann. Rev. Sociol"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "YANNAKAKIS",
+                    "given": "M."
+                }
+            ],
+            "title": "Graph-theoretic methods in database theory",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 9th Symposium on Principles of Database Systems (PODS"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "ZICARI",
+                    "given": "R."
+                }
+            ],
+            "title": "A framework for schema updates in an object-oriented database system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 7th International Conference on Data Engineering (ICDE"
+            ],
+            "doi": "",
+            "published_date": "1991"
+        }
+    ]
+}

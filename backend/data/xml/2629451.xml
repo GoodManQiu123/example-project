@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_sJnkSG2" coord="1,43.45,75.83,381.89,11.06;1,43.45,87.80,97.01,11.06">A Lightweight Data Location Service for Nondeterministic Exascale Storage Systems</title>
+				<funder>
+					<orgName type="full">Sandia National Laboratories</orgName>
+				</funder>
+				<funder ref="#_VQKpg6b #_NtAenDq">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_qBNKeqj">
+					<orgName type="full">United States Department of Energy</orgName>
+				</funder>
+				<funder ref="#_bcNbrq2">
+					<orgName type="full">U.S. Department of Energy&apos;s National Nuclear Security Administration</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,43.45,112.14,58.66,9.22"><forename type="first">Zhiwei</forename><surname>Sun</surname></persName>
+							<email>zhwsun@uab.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">The University of Alabama at Birmingham LEE WARD and MATTHEW L. CURRY, Sandia National Laboratories</note>
+								<orgName type="department">Sandia National Laboratories</orgName>
+								<orgName type="institution" key="instit1">The University of Alabama at Birmingham LEE WARD</orgName>
+								<orgName type="institution" key="instit2">MATTHEW L. CURRY</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Department of Computer and Information Sciences, The Uni-versity of Alabama at Birmingham; L. Ward and M. L. Curry, Sandia National Laboratories.</note>
+								<orgName type="department" key="dep1">Department of Computer and Information Sciences</orgName>
+								<orgName type="department" key="dep2">Sandia National Laboratories</orgName>
+								<orgName type="laboratory">The Uni-versity of Alabama at Birmingham; L. Ward and M. L. Curry</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,124.27,112.14,99.20,9.22"><forename type="first">Anthony</forename><surname>Skjellum</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">The University of Alabama at Birmingham LEE WARD and MATTHEW L. CURRY, Sandia National Laboratories</note>
+								<orgName type="department">Sandia National Laboratories</orgName>
+								<orgName type="institution" key="instit1">The University of Alabama at Birmingham LEE WARD</orgName>
+								<orgName type="institution" key="instit2">MATTHEW L. CURRY</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Department of Computer and Information Sciences, The Uni-versity of Alabama at Birmingham; L. Ward and M. L. Curry, Sandia National Laboratories.</note>
+								<orgName type="department" key="dep1">Department of Computer and Information Sciences</orgName>
+								<orgName type="department" key="dep2">Sandia National Laboratories</orgName>
+								<orgName type="laboratory">The Uni-versity of Alabama at Birmingham; L. Ward and M. L. Curry</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_p5vwSx8" coord="1,43.45,75.83,381.89,11.06;1,43.45,87.80,97.01,11.06">A Lightweight Data Location Service for Nondeterministic Exascale Storage Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">141C81316301A88A9976E7AB5B91022C</idno>
+					<idno type="DOI">10.1145/2629451</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-19T00:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_FYRR6Ah">C.2.2 [Computer-Communication Networks]: Network Protocols Design</term>
+					<term xml:id="_jRTCEH2">Algorithms</term>
+					<term xml:id="_pDm3dGq">Performance Efficient search</term>
+					<term xml:id="_jBMUdKH">Exascale</term>
+					<term xml:id="_KZs4KtX">nondeterministic</term>
+					<term xml:id="_jBk75mb">scalability</term>
+					<term xml:id="_wKYHcsx">storage</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_XWFSkQK"><p xml:id="_5Rxazm7"><s xml:id="_TAmB9V6" coords="1,43.45,160.75,394.54,7.39;1,43.45,169.26,394.55,8.84;1,43.45,180.68,121.13,7.39">In this article, we present LWDLS, a lightweight data location service designed for Exascale storage systems (storage systems with order of 10 18 bytes) and geo-distributed storage systems (large storage systems with physically distributed locations).</s><s xml:id="_Jb6EgKY" coords="1,167.37,180.68,270.59,7.39;1,43.45,190.64,167.28,7.39">LWDLS provides a search-based data location solution, and enables free data placement, movement, and replication.</s><s xml:id="_DDXcxUC" coords="1,214.30,190.64,223.69,7.39;1,43.45,200.60,394.54,7.39;1,43.45,210.57,394.55,7.39;1,43.45,220.53,104.26,7.39">In LWDLS, probe and prune protocols are introduced that reduce topology mismatch, and a heuristic flooding search algorithm (HFS) is presented that achieves higher search efficiency than pure flooding search while having comparable search speed and coverage to the pure flooding search.</s><s xml:id="_fwd3Ekf" coords="1,150.96,220.53,287.00,7.39;1,43.45,230.49,270.17,7.39">LWDLS is lightweight and scalable in terms of incorporating low overhead, high search efficiency, no global state, and avoiding periodic messages.</s><s xml:id="_zjmaqEC" coords="1,317.12,230.49,120.87,7.39;1,43.45,240.45,394.52,7.39;1,43.45,250.42,89.56,7.39">LWDLS is fully distributed and can be used in nondeterministic storage systems and in deterministic storage systems to deal with cases where search is needed.</s><s xml:id="_PMEZeTx" coords="1,135.89,250.42,302.11,7.39;1,43.45,260.38,255.29,7.39">Extensive simulations modeling large-scale High Performance Computing (HPC) storage environments provide representative performance outcomes.</s><s xml:id="_rScPQKd" coords="1,301.56,260.38,136.40,7.39;1,43.45,270.34,267.32,7.39">Performance is evaluated by metrics including search scope, search efficiency, and average neighbor distance.</s><s xml:id="_kgGsmvN" coords="1,313.24,270.34,124.72,7.39;1,43.45,280.30,359.91,7.39">Results show that LWDLS is able to locate data efficiently with low cost of state maintenance in arbitrary network environments.</s><s xml:id="_9nDNMF4" coords="1,406.27,280.30,31.73,7.39;1,43.45,290.27,358.26,7.39">Through these simulations, we demonstrate the effectiveness of protocols and search algorithm of LWDLS.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="486.0" lry="720.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_gtDgnZm">INTRODUCTION</head><p xml:id="_BZsccbw"><s xml:id="_RbdSyaT" coords="1,43.45,412.61,394.53,9.24;1,43.45,423.57,394.53,9.24;1,43.45,434.53,203.80,9.24">According to predicted hardware characteristics and input-output (I/O) throughput of Exascale systems by 2018, Exascale storage systems will need to support I/O at the level of more than 60TB/s <ref type="bibr" coords="1,167.67,434.53,70.17,9.24" target="#b9">[Dongarra 2010</ref>].</s><s xml:id="_RERtY86" coords="1,251.21,434.53,186.76,9.24;1,43.45,445.49,394.55,9.24;1,43.45,456.45,168.08,9.24">To meet the storage demands including speed, capacity, and cost, both flash storage devices and traditional disks will be used to meet the required I/O throughput.</s></p><p xml:id="_HUU24t2"><s xml:id="_Z5ahg99" coords="1,53.42,467.41,384.59,9.24;1,43.45,478.36,394.54,9.24;1,43.45,489.32,394.54,9.24;1,43.45,500.29,212.15,9.24">As storage systems scale to Exascale, storage environments will become more heterogeneous and dynamic than today's High Performance Computing (HPC) storage systems because of system scale, the use of various storage components, and the level of parallelism required by Exascale computing.</s><s xml:id="_rNdZ9JJ" coords="1,257.55,500.29,180.38,9.24;2,43.38,81.61,247.14,9.24">Reducing limitations on data placement and replication will possibly improve I/O throughput.</s><s xml:id="_89gkSF7" coords="2,293.92,81.61,143.99,9.24;2,43.38,92.56,394.54,9.24;2,43.38,103.52,135.51,9.24">Some nondeterministic storage systems <ref type="bibr" coords="2,83.05,92.56,117.00,9.24" target="#b25">[Nowoczynski et al. 2008;</ref><ref type="bibr" coords="2,202.84,92.56,76.49,9.24" target="#b6">Curry et al. 2012</ref>] have already been designed with the goal of facilitating writes.</s><s xml:id="_Ud84hUP" coords="2,181.75,103.52,256.15,9.24;2,43.38,114.48,92.65,9.24">However, locating data in nondeterministic storage systems is challenging.</s><s xml:id="_3qG6dH2" coords="2,139.48,114.48,298.42,9.24;2,43.38,125.44,375.60,9.24">The traditional centralized approach has limited scalability and has difficulty supporting at the level of parallelism required by Exascale systems.</s><s xml:id="_dChzPqG" coords="2,421.83,125.44,16.05,9.24;2,43.38,136.40,394.53,9.24;2,43.38,147.36,272.79,9.24">Deterministic strategies for both data placement and data location have been used in some HPC file systems <ref type="bibr" coords="2,149.57,147.36,80.33,9.24" target="#b41">[Yang et al. 2004;</ref><ref type="bibr" coords="2,232.85,147.36,73.67,9.24">Weil et al. 2006b</ref>].</s><s xml:id="_WteJBrE" coords="2,319.12,147.36,118.82,9.24;2,43.38,158.31,394.53,9.24;2,43.38,169.28,33.78,9.24">Furthermore, global state is commonly used for achieving high performance <ref type="bibr" coords="2,281.90,158.31,103.45,9.24" target="#b37">[Tang and Yang 2003;</ref><ref type="bibr" coords="2,389.31,158.31,48.60,9.24;2,43.38,169.28,24.13,9.24">Weil et al. 2006a</ref>].</s><s xml:id="_jqcNKQB" coords="2,79.94,169.28,246.34,9.24">These methods are efficient but limit data placement.</s></p><p xml:id="_YncHgPq"><s xml:id="_n8dDHEQ" coords="2,53.34,180.24,384.55,9.24;2,43.38,191.19,235.66,9.24;2,279.04,189.73,7.76,6.46;2,291.04,191.19,146.85,9.24;2,43.38,202.15,345.67,9.24">In this article, we present a lightweight data location service (LWDLS) for Exascale storage systems (storage systems with order of 10 18 bytes) and geo-distributed storage systems (large storage systems with physically distributed locations).</s><s xml:id="_rmdzCPQ" coords="2,392.82,202.15,45.11,9.24;2,43.38,213.11,186.47,9.24">The main contributions of this work are as follows.</s></p><p xml:id="_hfGjBzs"><s xml:id="_39CVwVx" coords="2,43.38,238.02,394.51,9.24">(1) We present a new approach for locating data in Exascale storage systems.</s></p><p xml:id="_5T2a8hU"><s xml:id="_6q5aMrB" coords="2,60.53,248.98,377.37,9.24;2,60.53,259.94,50.36,9.24">LWDLS provides a search-based data location method and enables arbitrary data placement.</s></p><p xml:id="_kczfqnV"><s xml:id="_HZqr8X3" coords="2,43.38,270.89,394.50,9.24;2,60.53,281.86,377.37,9.24;2,60.53,292.82,377.35,9.24;2,60.53,303.77,142.65,9.24">(2) LWDLS is directly applicable to nondeterministic storage systems <ref type="bibr" coords="2,374.43,270.90,63.45,9.24;2,60.53,281.86,53.49,9.24" target="#b25">[Nowoczynski et al. 2008;</ref><ref type="bibr" coords="2,118.18,281.86,80.55,9.24" target="#b6">Curry et al. 2012</ref>] designed for Exascale computing and other storage systems for finding data, and thereby can enable reads in systems like Zest <ref type="bibr" coords="2,82.86,303.77,110.90,9.24" target="#b25">[Nowoczynski et al. 2008</ref>].</s></p><p xml:id="_NtDEuVX"><s xml:id="_ZHDASNq" coords="2,43.38,314.73,394.50,9.24;2,60.53,325.69,275.62,9.24">(3) LWDLS addresses two problems together: topology mismatch and inefficient search performance of the pure flooding search <ref type="bibr" coords="2,248.79,325.69,82.65,9.24" target="#b14">[Jiang et al. 2008]</ref>.</s><s xml:id="_Dnzdpcn" coords="2,339.45,325.69,98.44,9.24;2,60.53,336.65,377.36,9.24;2,60.53,347.61,377.36,9.24;2,60.53,358.56,377.37,9.24;2,60.53,369.53,75.36,9.24">In LWDLS, probe and prune protocols are designed to reduce topology mismatch, and a new heuristic flooding search algorithm provides higher search efficiency than the pure flooding search algorithm <ref type="bibr" coords="2,143.95,358.56,81.70,9.24" target="#b14">[Jiang et al. 2008</ref>] while having comparable search speed and search coverage.</s><s xml:id="_xY2nwVF" coords="2,43.38,380.49,394.51,9.24;2,60.53,391.44,219.99,9.24">(4) LWDLS is lightweight and scalable in terms of low overhead, high search efficiency, no global state, and avoiding periodic messages.</s><s xml:id="_MmSFVqZ" coords="2,43.38,402.40,394.52,9.24;2,60.54,413.36,129.58,9.24">(5) LWDLS can be applied in geo-distributed systems to improve I/O throughput by taking advantage of locality.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_QH7VaNU">THE PROBLEM</head><p xml:id="_NuGx9Fd"><s xml:id="_axnvnZw" coords="2,43.38,454.71,394.52,9.24;2,43.38,465.67,138.97,9.24">Locating data in Exascale storage systems (and other large-scale storage systems) is fundamental but challenging.</s><s xml:id="_EkBpX35" coords="2,186.62,465.67,251.29,9.24;2,43.38,476.63,251.57,9.24">It affects many aspects of Exascale systems, such as performance, scalability, reliability, and management.</s><s xml:id="_RJdzmm4" coords="2,298.76,476.63,139.11,9.24;2,43.38,487.59,394.54,9.24;2,43.38,498.55,394.53,9.24;2,43.38,509.50,118.88,9.24">To meet the storage demands of Exascale computing by the end of this decade, some nondeterministic storage systems <ref type="bibr" coords="2,68.25,498.55,116.34,9.24" target="#b25">[Nowoczynski et al. 2008;</ref><ref type="bibr" coords="2,187.16,498.55,75.82,9.24" target="#b6">Curry et al. 2012</ref>] have already been designed with the goal of facilitating writes.</s><s xml:id="_spPanSk" coords="2,165.51,509.50,272.38,9.24;2,43.38,520.46,394.52,9.24;2,43.38,531.42,394.50,9.24;2,43.38,542.38,260.78,9.24">Nondeterministic storage systems can provide certain useful capabilities that are difficult to implement in today's parallel file systems, such as high-performance writes, dynamic load-balancing, enriched flexibility for moving data and creating replicas, and potentially other advantages.</s><s xml:id="_wrMVgvS" coords="2,307.61,542.38,130.30,9.24;2,43.38,553.34,394.49,9.24;2,43.38,564.29,332.85,9.24">However, reading data from nondeterministic storage systems proves challenging, because of problems such as how to find data, how to deal with the consistency among replicas, and others.</s><s xml:id="_ahJEsfD" coords="2,378.67,564.29,59.25,9.24;2,43.38,575.26,394.55,9.24;2,43.38,586.22,394.55,9.24;2,43.38,597.17,135.90,9.24">For instance, in Zest <ref type="bibr" coords="2,78.65,575.26,117.05,9.24" target="#b25">[Nowoczynski et al. 2008]</ref>, nondeterministic data placement has been used to facilitate peak media speeds for application checkpoints, but Zest <ref type="bibr" coords="2,348.14,586.22,89.79,9.24;2,43.38,597.17,25.47,9.24" target="#b25">[Nowoczynski et al. 2008]</ref> does not support reads.</s><s xml:id="_kTmgFpV" coords="2,182.29,597.17,255.64,9.24;2,43.38,608.13,394.51,9.24;2,43.38,619.09,93.76,9.24">The data segments residing in Zest <ref type="bibr" coords="2,348.18,597.17,89.75,9.24;2,43.38,608.13,25.47,9.24" target="#b25">[Nowoczynski et al. 2008]</ref> need to be copied into the parallel file system <ref type="bibr" coords="2,290.20,608.13,76.97,9.24" target="#b0">[Bent et al. 2009</ref>] before clients can read them back.</s><s xml:id="_AFXwup3" coords="2,140.20,619.09,297.68,9.24;2,43.38,630.05,394.50,9.24;2,43.38,641.01,343.56,9.24">Solutions that enable reads in nondeterministic storage systems without the need for reorganizing data, or that at least allow clients to find the data before the process of relocating data is finished (like in Zest) will be useful.</s></p><p xml:id="_QzncpaU"><s xml:id="_jreEh7p" coords="3,43.45,57.84,331.44,8.29;3,420.52,57.84,17.45,8.29">A Lightweight Data Location Service for Nondeterministic Exascale Storage System 12:3</s></p><p xml:id="_yUSmcvz"><s xml:id="_cY3wbYA" coords="3,53.42,82.02,384.57,9.24;3,43.45,92.98,181.04,9.24">In Peer-to-Peer (P2P) systems, most search-based algorithms are insufficient for nondeterministic HPC storage systems.</s><s xml:id="_gbtVkWJ" coords="3,227.67,92.98,210.32,9.24;3,43.45,103.94,134.05,9.24">A search-based solution needs to address two problems effectively together.</s><s xml:id="_DcV2a8f" coords="3,179.83,103.94,258.18,9.24;3,43.45,114.90,224.61,9.24">The first problem is topology mismatch between physical network topology and overlay network topology.</s><s xml:id="_BBCV8D2" coords="3,271.93,114.90,166.07,9.24;3,43.45,125.86,394.53,9.24;3,43.45,136.81,394.52,9.24;3,43.45,147.77,182.59,9.24">Since the overlay network does not necessarily reflect the physical network underneath, communication efficiency can be reduced by long-distance communications and by sending the same message on a single physical network path multiple times.</s><s xml:id="_63Qgnsb" coords="3,230.65,147.77,207.28,9.24">The second problem is search performance.</s><s xml:id="_waqa7F6" coords="3,43.45,158.74,394.52,9.24;3,43.45,169.69,394.49,9.24;3,43.45,180.65,163.35,9.24">Pure flooding search <ref type="bibr" coords="3,146.00,158.74,83.69,9.24" target="#b14">[Jiang et al. 2008</ref>] is a simple, reliable, and fast method for finding data, but it is inefficient and unscalable because of its high cost of redundant messages generated during search.</s><s xml:id="_FNhXJtA" coords="3,210.27,180.65,227.68,9.24;3,43.45,191.61,394.54,9.24;3,43.45,202.57,394.53,9.24;3,43.45,213.53,394.56,9.24;3,43.45,224.49,206.90,9.24">Other search methods that are based on random graph theory, such as random walks <ref type="bibr" coords="3,215.00,191.61,68.39,9.24" target="#b27">[Pearson 1905;</ref><ref type="bibr" coords="3,286.66,191.61,65.59,9.24" target="#b22">Lv et al. 2002]</ref>, and probabilistic flooding search methods <ref type="bibr" coords="3,162.63,202.57,113.89,9.24" target="#b5">[Crisóstomo et al. 2012;</ref><ref type="bibr" coords="3,281.12,202.57,114.01,9.24" target="#b10">Gaeta and Sereno 2011]</ref>, require maintaining the statistical properties of overlay network graph always in order to find data with the given search success rate.</s><s xml:id="_Tc3cYWz" coords="3,253.57,224.49,184.40,9.24;3,43.45,235.44,394.52,9.24;3,43.45,246.41,327.64,9.24">In LWDLS, we work to avoid this strong requirement on Exascale storage systems, and also retain the ability of optimizing the overlay network based on the network latency or others factors.</s><s xml:id="_8rpfVkT" coords="3,375.62,246.41,62.33,9.24;3,43.45,257.37,394.53,9.24;3,43.45,268.32,330.56,9.24">Furthermore, these probabilistic methods trade response time against search efficiency, but HPC applications have a strong requirement for response time minimization.</s></p><p xml:id="_xVrfjjT"><s xml:id="_RjsYFEe" coords="3,53.41,279.28,384.55,9.24;3,43.45,290.25,96.79,9.24">In this article, we present LWDLS, a new approach for locating data in large-scale HPC storage systems.</s><s xml:id="_CgdkJBF" coords="3,142.08,290.25,295.89,9.24;3,43.45,301.20,394.49,9.24;3,43.45,312.16,394.53,9.24;3,43.45,323.12,152.16,9.24">Features of LWDLS include providing a search-based data location service, enabling arbitrary data placement, avoiding global state or periodic messages, being able to reduce topology mismatch, low-cost of state maintenance, fast search speed, and high search efficiency.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_GkXUTQh">RELATED WORK</head><p xml:id="_dNJtn4N"><s xml:id="_vSSDacc" coords="3,43.45,356.04,394.53,9.24;3,43.45,367.00,183.67,9.24">We discuss several areas of research that are closely related to this work, including file systems and peer-to-peer (P2P) systems.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1." xml:id="_qdHtYx3">File Systems</head><p xml:id="_T9zb7w7"><s xml:id="_VRdwVeY" coords="3,43.45,399.92,394.52,9.24;3,43.45,410.87,394.54,9.24;3,43.45,421.83,394.51,9.24;3,43.45,432.80,370.42,9.24">In many existing HPC storage systems, the location of data is explicitly stored and managed by centralized servers in the form of a metadata directory, such as in GPFS <ref type="bibr" coords="3,71.08,421.83,128.79,9.24" target="#b32">[Schmuck and Haskin 2002]</ref>, Lustre <ref type="bibr" coords="3,241.29,421.83,61.09,9.24" target="#b33">[Schwan 2003</ref>], zFS <ref type="bibr" coords="3,335.59,421.83,102.37,9.24;3,43.45,432.80,23.52,9.24" target="#b30">[Rodeh and Teperman 2003]</ref>, PVFS <ref type="bibr" coords="3,103.03,432.80,85.87,9.24" target="#b3">[Carns et al. 2000]</ref>, GoogleFS <ref type="bibr" coords="3,244.97,432.80,103.42,9.24" target="#b11">[Ghemawat et al. 2003</ref>], and others.</s><s xml:id="_BnqQKWN" coords="3,417.51,432.80,20.48,9.24;3,43.45,443.75,394.53,9.24;3,43.45,454.71,116.35,9.24">This approach requires the involvement of centralized servers in cases of data placement, movement, or replication.</s><s xml:id="_XvJmTMV" coords="3,161.81,454.71,276.18,9.24;3,43.45,465.67,138.69,9.24">Therefore, it is difficult to support the billion-way parallelism required by Exascale systems.</s></p><p xml:id="_3U3pMVD"><s xml:id="_as8X9MS" coords="3,53.42,476.63,384.57,9.24;3,43.45,487.59,394.51,9.24;3,43.45,498.55,374.25,9.24">In some other file systems, including Sorrento <ref type="bibr" coords="3,263.22,476.63,78.57,9.24" target="#b41">[Yang et al. 2004]</ref> and Ceph <ref type="bibr" coords="3,389.62,476.63,48.37,9.24;3,43.45,487.59,28.95,9.24">[Weil et al. 2006b]</ref>, deterministic mapping algorithms <ref type="bibr" coords="3,236.91,487.59,97.67,9.24" target="#b37">[Tang and Yang 2003;</ref><ref type="bibr" coords="3,336.61,487.59,72.59,9.24">Weil et al. 2006a</ref>] from data object IDs to storage server IDs are designed for data placement and location.</s><s xml:id="_ZBbxqFx" coords="3,420.26,498.55,17.71,9.24;3,43.45,509.50,394.53,9.24;3,43.45,520.46,394.53,9.24;3,43.45,531.42,130.19,9.24">The Sorrento file system <ref type="bibr" coords="3,143.33,509.50,80.34,9.24" target="#b41">[Yang et al. 2004</ref>] enables freely moving data and replicas in the system by using a deterministic method to locate the metadata that contains the location information of data.</s><s xml:id="_TaxgfCK" coords="3,176.27,531.42,261.72,9.24;3,43.45,542.38,260.41,9.24">In the event of relocating data, the residence information can be found and updated by any server in the system.</s><s xml:id="_8KxeSQv" coords="3,307.54,542.38,130.44,9.24;3,43.45,553.34,394.52,9.24;3,43.45,564.29,62.17,9.24">In our design of LWDLS, we want a fully nondeterministic solution with less state and lower overhead of state maintenance.</s><s xml:id="_USqnH62" coords="3,108.79,564.29,329.21,9.24;3,43.45,575.26,394.50,9.24;3,43.45,586.22,184.44,9.24">In Ceph <ref type="bibr" coords="3,149.17,564.29,77.57,9.24">[Weil et al. 2006b</ref>], the CRUSH <ref type="bibr" coords="3,294.11,564.30,84.45,9.24">[Weil et al. 2006a]</ref> algorithm is used to find data in a deterministic manner, and to distribute data uniformly among servers in the system for load balance.</s><s xml:id="_QajFQ7X" coords="3,232.02,586.22,205.97,9.24;3,43.45,597.17,394.52,9.24;3,43.45,608.13,333.09,9.24">Generally, these deterministic data location methods provide better scalability than the centralized methods, and are able to find data directly and efficiently without the need for an explicit layout lookup.</s><s xml:id="_CZvPwcS" coords="3,378.54,608.13,59.48,9.24;3,43.45,619.10,394.49,9.24;3,43.45,630.05,394.53,9.24;3,43.45,641.01,157.13,9.24">However, the deterministic data placement mechanism does not provide the ability to load balance dynamically or to use preferentially the storage that is "close" to applications as in nondeterministic storage systems.</s></p><p xml:id="_pKtPtgD"><s xml:id="_PMUtDUT" coords="4,43.38,57.76,17.45,8.29;4,389.56,57.76,7.97,8.29">12:4 Z.</s><s xml:id="_WqgYUyX" coords="4,400.01,57.76,37.88,8.29">Sun et al.</s></p><p xml:id="_TK3K8W4"><s xml:id="_syb79qA" coords="4,53.34,81.61,384.57,9.24;4,43.38,92.56,394.52,9.24;4,43.38,103.52,394.52,9.24;4,43.38,114.48,251.00,9.24">Some nondeterministic storage systems, such as Zest <ref type="bibr" coords="4,300.24,81.61,117.55,9.24" target="#b25">[Nowoczynski et al. 2008]</ref> and <ref type="bibr" coords="4,43.38,92.56,113.94,9.24">Sirocco [Curry et al. 2012</ref>] have been designed to support Exascale computing with the goal of allowing computing nodes to write their buffers into storage systems as fast as possible by eliminating limitations on data placement.</s><s xml:id="_NPjFvqV" coords="4,297.34,114.48,140.55,9.24;4,43.38,125.44,379.92,9.24">Zest <ref type="bibr" coords="4,319.83,114.48,118.05,9.24" target="#b25">[Nowoczynski et al. 2008]</ref> has been used to facilitate application checkpoints, but it does not support reads.</s><s xml:id="_Yxjbq8C" coords="4,426.82,125.44,11.07,9.24;4,43.38,136.40,394.52,9.24;4,43.38,147.36,394.50,9.24;4,43.38,158.31,309.85,9.24">To read data back, Zest <ref type="bibr" coords="4,143.28,136.40,120.41,9.24" target="#b25">[Nowoczynski et al. 2008]</ref> requires copying its data into a fullfeatured parallel file system <ref type="bibr" coords="4,176.58,147.36,75.28,9.24" target="#b0">[Bent et al. 2009</ref>] so that data can be found by using the data location method of the parallel file system <ref type="bibr" coords="4,268.56,158.31,75.27,9.24" target="#b0">[Bent et al. 2009</ref>].</s><s xml:id="_BbrT2yH" coords="4,356.81,158.31,81.10,9.24;4,43.38,169.27,326.14,9.24">In the meantime, clients cannot read the data residing in Zest <ref type="bibr" coords="4,249.21,169.27,115.60,9.24" target="#b25">[Nowoczynski et al. 2008]</ref>.</s></p><p xml:id="_Y4eY6ad"><s xml:id="_yCwD5f2" coords="4,53.34,180.24,384.55,9.24;4,43.38,191.19,394.51,9.24;4,43.38,202.15,394.53,9.24">LWDLS provides a direct, lightweight solution to enable nondeterministic storage systems such as Zest <ref type="bibr" coords="4,142.90,191.19,118.07,9.24" target="#b25">[Nowoczynski et al. 2008]</ref> and <ref type="bibr" coords="4,284.24,191.19,121.01,9.24">Sirocco [Curry et al. 2012]</ref> to find data without relocating data or waiting for completion of data relocation to new places.</s><s xml:id="_e4BgY6S" coords="4,43.38,213.11,394.54,9.24;4,43.38,224.07,52.40,9.24">Furthermore, LWDLS imposes zero-cost of state maintenance when the location service is not used.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2." xml:id="_vbD3TwH">Peer-to-Peer Systems</head><p xml:id="_BQ5yDKN"><s xml:id="_h2nZfVk" coords="4,43.38,257.45,394.51,9.24;4,43.38,268.41,85.71,9.24">Peer-to-Peer (P2P) systems are built on overlay networks that are imposed on top of physical networks.</s><s xml:id="_2J2h9Bf" coords="4,131.70,268.41,306.15,9.24;4,43.38,279.36,319.69,9.24">According to the types of overlay networks, they can be categorized into unstructured, structured, and hybrid P2P systems <ref type="bibr" coords="4,297.02,279.36,56.64,9.24" target="#b2">[Buford 2013</ref>].</s></p><p xml:id="_kVZY7EY"><s xml:id="_KJwQaQJ" coords="4,53.34,290.33,384.54,9.24;4,43.38,301.29,134.05,9.24">In unstructured P2P systems, search methods mainly include flooding search and random walks <ref type="bibr" coords="4,111.37,301.29,56.65,9.24" target="#b2">[Buford 2013</ref>].</s><s xml:id="_YGqvmHN" coords="4,180.24,301.29,257.67,9.24;4,43.38,312.24,394.52,9.24;4,43.38,323.20,118.94,9.24">Pure flooding search <ref type="bibr" coords="4,277.13,301.29,78.04,9.24" target="#b14">[Jiang et al. 2008</ref>] is a simple, fast, and reliable method, but is not scalable because of the cost of redundant messages generated during search.</s><s xml:id="_4snApXd" coords="4,167.07,323.20,270.79,9.24;4,43.38,334.16,394.51,9.24;4,43.38,345.12,196.04,9.24">To reduce redundant messages, different flooding search schemes <ref type="bibr" coords="4,85.89,334.16,86.30,9.24" target="#b14">[Jiang et al. 2008;</ref><ref type="bibr" coords="4,176.25,334.16,107.69,9.24" target="#b12">Gkantsidis et al. 2005;</ref><ref type="bibr" coords="4,288.00,334.16,69.33,9.24" target="#b22">Lv et al. 2002;</ref><ref type="bibr" coords="4,361.37,334.16,71.81,9.24" target="#b17">Lin et al. 2009]</ref>, are designed to reduce the cost of search.</s><s xml:id="_sM5fZFS" coords="4,243.32,345.12,194.57,9.24;4,43.38,356.08,394.48,9.24;4,43.38,367.04,60.30,9.24">In some methods <ref type="bibr" coords="4,327.63,345.12,100.85,9.24" target="#b4">[Chawathe et al. 2003</ref>], replication and the properties of network topologies are utilized to improve search performance.</s><s xml:id="_YWbmkbA" coords="4,106.48,367.04,331.42,9.24">However, these methods do not address the topology mismatch problem.</s><s xml:id="_92Emuk3" coords="4,43.38,377.99,394.54,9.24;4,43.38,388.96,296.77,9.24">LightFlooding <ref type="bibr" coords="4,112.34,377.99,81.12,9.24" target="#b14">[Jiang et al. 2008</ref>] requires maintaining additional information, such as 2-hop neighborhoods and tree-like structures on every node.</s><s xml:id="_Dg6cyb3" coords="4,343.90,388.96,94.00,9.24;4,43.38,399.92,278.40,9.24">LWDLS avoids these strong requirements and the overhead of state maintenance.</s></p><p xml:id="_8VFZUKD"><s xml:id="_ZwxhqEA" coords="4,53.34,410.87,384.55,9.24;4,43.38,421.83,394.50,9.24;4,43.38,432.80,394.49,9.24;4,43.38,443.75,184.36,9.24">Probabilistic flooding search algorithms <ref type="bibr" coords="4,241.07,410.87,110.12,9.24" target="#b5">[Crisóstomo et al. 2012;</ref><ref type="bibr" coords="4,354.51,410.87,83.38,9.24;4,43.38,421.83,24.91,9.24" target="#b10">Gaeta and Sereno 2011;</ref><ref type="bibr" coords="4,71.30,421.83,102.39,9.24" target="#b26">Oikonomou et al. 2010</ref>] reduce the number of messages needed by only sending messages to a subset of neighbors on each step that are selected based on probabilistic functions <ref type="bibr" coords="4,90.29,443.75,132.75,9.24" target="#b35">[Stauffer and Barbosa 2004]</ref>.</s><s xml:id="_Ha42KHa" coords="4,232.07,443.75,205.81,9.24;4,43.38,454.71,183.89,9.24">Probabilistic flooding searches trade search response time against search efficiency.</s><s xml:id="_NDX94qT" coords="4,230.84,454.71,207.06,9.24;4,43.38,465.67,394.51,9.24;4,43.38,476.62,394.47,9.24;4,43.38,487.59,357.98,9.24">Furthermore, these algorithms are based on random graph models where the lengths of edges are assumed to be equal, and they require the networks satisfy particular statistical properties <ref type="bibr" coords="4,334.74,476.62,103.11,9.24" target="#b24">[Newman et al. 2001;</ref><ref type="bibr" coords="4,43.38,487.59,126.90,9.24" target="#b35">Stauffer and Barbosa 2004]</ref> in order to achieve the desired rate of search hits.</s><s xml:id="_KuC3wDn" coords="4,404.17,487.59,33.71,9.24;4,43.38,498.55,394.54,9.24;4,43.38,509.50,156.57,9.24">By way of contrast, LWDLS is designed to retain the helpful properties of flooding search while providing higher search efficiency.</s><s xml:id="_DKk3Md2" coords="4,202.74,509.50,223.27,9.24">LWDLS is also able to reduce topology mismatch.</s></p><p xml:id="_rZGJSPg"><s xml:id="_rjcy6uR" coords="4,53.34,520.46,384.57,9.24;4,43.38,531.42,165.98,9.24">Random Walk <ref type="bibr" coords="4,120.15,520.46,67.55,9.24" target="#b27">[Pearson 1905;</ref><ref type="bibr" coords="4,190.11,520.46,64.98,9.24" target="#b22">Lv et al. 2002]</ref> chooses one neighbor to send a message at each hop along the search path.</s><s xml:id="_pCcqyqS" coords="4,213.49,531.42,224.40,9.24;4,43.38,542.38,140.27,9.24">In K-random walks <ref type="bibr" coords="4,309.47,531.42,71.54,9.24" target="#b22">[Lv et al. 2002]</ref>, K walkers are used to search in parallel.</s><s xml:id="_2Bz2Was" coords="4,187.17,542.38,250.71,9.24;4,43.38,553.34,394.51,9.24;4,43.38,564.29,155.20,9.24">Like probabilistic flooding search, the search speed of random walks is much slower than pure flooding search <ref type="bibr" coords="4,306.53,553.34,77.63,9.24" target="#b14">[Jiang et al. 2008</ref>], although they have better search efficiency.</s></p><p xml:id="_7QhGXPk"><s xml:id="_43evJ7P" coords="4,53.34,575.26,384.54,9.24;4,43.38,586.22,394.50,9.24;4,43.38,597.17,314.85,9.24">For the topology mismatch problem, LTM <ref type="bibr" coords="4,247.69,575.26,74.97,9.24" target="#b19">[Liu et al. 2005]</ref> and THANKS <ref type="bibr" coords="4,389.90,575.26,42.89,9.24" target="#b18">[Liu 2008</ref>] provided simple and efficient probe and cut mechanisms that are similar to the probe and prune protocols of LWDLS, but there are important differences.</s><s xml:id="_k7Qdgxx" coords="4,361.75,597.17,76.17,9.24;4,43.38,608.13,394.51,9.24;4,43.38,619.10,394.53,9.24;4,43.38,630.05,119.34,9.24">One distinct difference is that LTM <ref type="bibr" coords="4,135.63,608.13,74.08,9.24" target="#b19">[Liu et al. 2005]</ref> and THANKS <ref type="bibr" coords="4,276.06,608.13,42.60,9.24" target="#b18">[Liu 2008</ref>] try to break all of cycles formed within the two-hop neighborhood by removing the largest edge of a triangle to improve search efficiency.</s><s xml:id="_URYJF62" coords="4,166.55,630.05,271.35,9.24;4,43.38,641.01,373.00,9.24">However, LWDLS tries to remove redundant long-distance communications while allowing the physically closer servers to form neighbors.</s><s xml:id="_D6Jbjh7" coords="4,420.21,641.01,17.71,9.24;5,43.45,81.61,394.52,9.24;5,43.45,92.56,193.86,9.24">The triangles formed by the physically close servers are kept and used to improve both search response time and search efficiency.</s><s xml:id="_95a4v7T" coords="5,239.53,92.56,198.44,9.24;5,43.45,103.52,394.54,9.24;5,43.45,114.48,289.78,9.24">Furthermore, LTM <ref type="bibr" coords="5,326.04,92.56,71.55,9.24" target="#b19">[Liu et al. 2005]</ref> requires the clocks of servers be accurately synchronized, and requires periodically sending messages among the 2-hop neighbors by each server in the system.</s><s xml:id="_SZP9djF" coords="5,336.05,114.48,101.92,9.24;5,43.45,125.44,67.57,9.24">However, LWDLS tries to avoid these.</s><s xml:id="_EGSEGPh" coords="5,114.50,125.44,323.47,9.24;5,43.45,136.40,351.39,9.24">THANKS <ref type="bibr" coords="5,157.83,125.44,43.04,9.24" target="#b18">[Liu 2008</ref>] is similar to LTM <ref type="bibr" coords="5,292.55,125.44,73.44,9.24" target="#b19">[Liu et al. 2005]</ref>, except it kept the distances of 2-hop neighbors updated by piggybacking neighbor distances.</s><s xml:id="_USSaE4m" coords="5,396.94,136.40,41.04,9.24;5,43.45,147.36,394.53,9.24;5,43.45,158.31,394.50,9.24;5,43.45,169.28,77.20,9.24">LTM <ref type="bibr" coords="5,418.79,136.40,19.19,9.24;5,43.45,147.36,50.23,9.24" target="#b19">[Liu et al. 2005]</ref> and THANKS <ref type="bibr" coords="5,157.58,147.36,41.78,9.24" target="#b18">[Liu 2008</ref>] used pure flooding search <ref type="bibr" coords="5,324.58,147.36,74.79,9.24" target="#b14">[Jiang et al. 2008</ref>], but in LWDLS, a heuristic flooding search algorithm is designed for running on the optimized overlay network.</s></p><p xml:id="_yQHa2zG"><s xml:id="_WDTRDPq" coords="5,53.41,180.24,384.57,9.24;5,43.45,191.19,304.06,9.24">In structured P2P systems, Distributed Hash Tables (DHTs) are designed to improve search performance by using structured overlay networks.</s><s xml:id="_YC3Zf6k" coords="5,351.44,191.19,86.55,9.24;5,43.45,202.15,394.56,9.24;5,43.45,213.11,394.51,9.24;5,43.45,224.07,394.50,9.24;5,43.45,235.03,394.53,9.24;5,43.45,245.99,234.48,9.24">Examples of DHTs are Chord <ref type="bibr" coords="5,98.11,202.15,92.31,9.24" target="#b36">[Stoica et al. 2001]</ref>, Pastry <ref type="bibr" coords="5,236.51,202.15,146.48,9.24" target="#b31">[Rowstron and Druschel 2001]</ref>, Kademlia <ref type="bibr" coords="5,43.45,213.11,163.55,9.24" target="#b23">[Maymounkov and Mazières 2002]</ref>, CAN <ref type="bibr" coords="5,241.84,213.12,114.78,9.24" target="#b28">[Ratnasamy et al. 2001]</ref>, Tapestry <ref type="bibr" coords="5,411.95,213.12,26.01,9.24;5,43.45,224.07,57.94,9.24" target="#b43">[Zhao et al. 2001]</ref>, Cycloid <ref type="bibr" coords="5,154.10,224.07,87.04,9.24" target="#b34">[Shen et al. 2006</ref>], Ketama [Ketama 2013], Memcached [Memcached 2013], Dynamo <ref type="bibr" coords="5,175.71,235.03,100.87,9.24" target="#b7">[DeCandia et al. 2007]</ref>, Cassandra <ref type="bibr" coords="5,335.74,235.03,102.25,9.24;5,43.45,245.99,23.52,9.24" target="#b16">[Lakshman and Malik 2010]</ref>, ZHT <ref type="bibr" coords="5,98.19,245.99,118.64,9.24" target="#b1">[Brandstatter et al. 2013]</ref>, and others.</s><s xml:id="_knQs9qk" coords="5,281.73,245.99,156.23,9.24;5,43.45,256.94,144.17,9.24">Generally, DHTs provide bounded worst-case search performance.</s><s xml:id="_n5RnxTC" coords="5,190.34,256.94,247.63,9.24;5,43.45,267.91,394.51,9.24;5,43.45,278.86,68.79,9.24">Most DHTs are multi-hop DHTs, such as Chord <ref type="bibr" coords="5,406.43,256.95,31.54,9.24;5,43.45,267.91,52.66,9.24" target="#b36">[Stoica et al. 2001]</ref>, Pastry <ref type="bibr" coords="5,139.72,267.91,142.77,9.24" target="#b31">[Rowstron and Druschel 2001]</ref>, which take more than one-hop to locate data.</s><s xml:id="_SvUZnDC" coords="5,117.04,278.86,320.97,9.24;5,43.45,289.82,394.53,9.24;5,43.45,300.78,297.13,9.24"><ref type="bibr" coords="5,117.04,278.86,150.79,9.24">Dynamo [DeCandia et al. 2007]</ref>, Cassandra <ref type="bibr" coords="5,331.38,278.86,106.63,9.24;5,43.45,289.82,23.52,9.24" target="#b16">[Lakshman and Malik 2010]</ref>, One hop DHT <ref type="bibr" coords="5,145.36,289.82,89.33,9.24" target="#b13">[Gupta et al. 2003]</ref>, Memcached [Memcached 2013], and ZHT <ref type="bibr" coords="5,43.45,300.78,114.28,9.24" target="#b1">[Brandstatter et al. 2013]</ref>, are 1-hop or also called zero-hop DHTs.</s><s xml:id="_QsC2ZJ2" coords="5,342.90,300.78,95.05,9.24;5,43.45,311.74,394.56,9.24;5,43.45,322.70,110.03,9.24">By taking advantage of global state, given a request, each server in the system is able to determine the location of data directly.</s></p><p xml:id="_ZHbja5j"><s xml:id="_Vb7DfPu" coords="5,53.42,333.66,369.99,9.24">DHTs require maintaining structured overlay networks using periodic messages.</s><s xml:id="_MHxeKCH" coords="5,426.15,333.66,11.80,9.24;5,43.45,344.61,394.51,9.24;5,43.45,355.58,394.51,9.24;5,43.45,366.54,140.14,9.24">As discussed previously, Sorrento <ref type="bibr" coords="5,185.32,344.61,80.72,9.24" target="#b41">[Yang et al. 2004]</ref> has provided an example of enabling nondeterministic data placement by using the DHT technique to find the residency information of data efficiently.</s><s xml:id="_wWBDPma" coords="5,186.89,366.54,251.10,9.24;5,43.45,377.49,394.51,9.24;5,43.45,388.45,394.50,9.24">However, we are more interested in a completely nondeterministic solution, so that both the need for maintaining the structured overlay network and the need for updating the residency information of data can be eliminated.</s></p><p xml:id="_ZHUN8t6"><s xml:id="_TTzGnXY" coords="5,53.42,399.41,384.58,9.24;5,43.45,410.37,394.53,9.24;5,43.45,421.33,45.13,9.24">In hybrid P2P systems <ref type="bibr" coords="5,160.05,399.42,100.87,9.24" target="#b42">[Yang and Yang 2010;</ref><ref type="bibr" coords="5,264.03,399.42,65.03,9.24" target="#b20">Loo et al. 2004</ref>], some functionality is still centralized, although such systems require fewer state than structured overlay networks.</s><s xml:id="_SskGX3n" coords="5,91.38,421.33,316.17,9.24">Generally, we want a fully distributed solution for system scalability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_3yFNf2S">APPROACH</head><p xml:id="_aRFhHr8"><s xml:id="_9RAP2pc" coords="5,43.45,454.71,293.75,9.24">LWDLS is a fully distributed, P2P-technology-inspired solution.</s><s xml:id="_dFNxFBR" coords="5,340.97,454.71,97.00,9.24;5,43.45,465.67,394.51,9.24;5,43.45,476.63,76.94,9.24">It provides a searchbased service for locating data in large-scale HPC storage systems such as Exascale storage systems.</s><s xml:id="_YYMAAJy" coords="5,124.14,476.63,313.80,9.24;5,43.45,487.59,394.52,9.24;5,43.45,498.55,99.90,9.24">In a target system, given the membership information each server possesses, an overlay network can be constructed upon which the location service of LWDLS is performed.</s><s xml:id="_cjDhrVG" coords="5,148.02,498.55,289.97,9.24;5,43.45,509.50,44.76,9.24">However, searching overlay networks reveals two immediate problems.</s><s xml:id="_YJzgFKp" coords="5,91.63,509.50,346.33,9.24;5,43.45,520.46,287.09,9.24">The first problem is topology mismatch between the physical network and the overlay network, which reduces communication efficiency.</s><s xml:id="_vf3zXeF" coords="5,333.94,520.46,104.06,9.24;5,43.45,531.42,394.51,9.24;5,43.45,542.38,200.12,9.24">The second problem is the overall search performance including search speed, efficiency, and scalability, must meet the requirements of HPC applications.</s></p><p xml:id="_DHTarYm"><s xml:id="_dwhnHBU" coords="5,53.42,553.34,384.53,9.24;5,43.45,564.29,394.56,9.24;5,43.45,575.26,394.50,9.24;5,43.45,586.22,394.54,9.24;5,43.45,597.17,134.33,9.24">To address these two problems, in LWDLS, we designed probe and prune protocols that reduce topology mismatch with the support of network distance measurements; in addition, we designed a heuristic flooding search (HFS) algorithm that has comparable search speed and coverage to the pure flooding search algorithm <ref type="bibr" coords="5,351.80,586.22,86.19,9.24" target="#b14">[Jiang et al. 2008]</ref> but is more efficient overall.</s><s xml:id="_kECFQmf" coords="5,181.96,597.17,256.01,9.24;5,43.45,608.13,394.53,9.24;5,43.45,619.10,295.32,9.24">Furthermore, HFS can be used independently without adapting or altering the overlay network, or can be combined with probe and prune protocols to optimize the overlay network during search process.</s></p><p xml:id="_eTsnHGV"><s xml:id="_U8zK4GH" coords="5,53.42,630.05,384.55,9.24;5,43.45,641.01,394.53,9.24;6,43.38,188.14,140.46,9.24">In this article, we primarily describe the functional properties of LWDLS and performance implications, but we do not cover operational aspects such as recovery from  hardware and network faults.</s><s xml:id="_rX4DW6p" coords="6,187.75,188.14,250.19,9.24;6,43.38,199.10,394.53,9.24;6,43.38,210.06,394.53,9.24;6,43.38,221.02,394.52,9.24;6,43.38,231.98,394.53,9.24;6,43.38,242.94,394.54,9.24;6,43.38,253.89,394.54,9.24;6,43.38,264.86,286.73,9.24">The remainder of this article is organized as follows: Section 4.1 describes the assumptions and terminology used; Section 4.2 offers the definition of lookup messages used by the protocols and the LWDLS algorithm to implement its services; Section 4.3 introduces the types of server lists used for building virtual overlay networks needed for search; Section 4.4 describes the probe and prune protocols; Section 4.5 describes a heuristic flooding search algorithm; Section 5 presents the experiments and results; finally, Section 6 summarizes this work and suggests additional future work that builds on our results presented here.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1." xml:id="_ufhwXP9">Assumptions and Definition of Terminology</head><p xml:id="_W3XkqSq"><s xml:id="_DZsgkdj" coords="6,43.38,298.62,394.52,9.24;6,43.38,309.58,394.50,9.24;6,43.38,320.54,52.52,9.24">Before introducing the protocols and search algorithm of LWDLS, we describe the assumptions we made in our designs and the terminology that has been used throughout this article.</s></p><p xml:id="_f7KG4uz"><s xml:id="_8RQMqfr" coords="6,53.34,338.48,22.43,8.48">4.1.1.</s><s xml:id="_hFd7wxc" coords="6,79.36,338.48,87.48,8.48">The Overlay Network.</s><s xml:id="_7MSh7Te" coords="6,170.33,337.86,238.81,9.24">Following are the assumptions made in our design.</s><s xml:id="_paWag8F" coords="6,412.53,337.86,25.36,9.24;6,43.38,348.83,394.48,9.24;6,43.38,359.78,394.53,9.24;6,43.38,370.74,59.00,9.24">First, in the target systems, we assume that each server has some membership information, but the membership information may not be updated or be globally consistent (i.e., not global state).</s><s xml:id="_6aWMFVa" coords="6,104.71,370.74,333.17,9.24;6,43.38,381.70,188.51,9.24">Second, the overlay network graph constructed based on the membership information must be a connected graph.</s><s xml:id="_JGJg7P2" coords="6,235.75,381.70,202.15,9.24;6,43.38,392.66,394.52,9.24;6,43.38,403.62,343.77,9.24">LWDLS does not control the forming or the connectivity of the initial overlay network, while it does maintain the connectivity of the overlay network during search process in a fault-free environment.</s><s xml:id="_QrFaQYr" coords="6,390.67,403.62,47.22,9.24;6,43.38,414.58,394.50,9.24;6,43.38,425.53,394.48,9.24;6,43.38,436.49,394.52,9.24;6,43.38,447.46,39.89,9.24">Third, the overlay network graph may not necessarily have certain structure <ref type="bibr" coords="6,352.12,414.58,85.75,9.24" target="#b36">[Stoica et al. 2001;</ref><ref type="bibr" coords="6,43.38,425.53,77.67,9.24" target="#b14">Jiang et al. 2008]</ref>, have particular statistical properties <ref type="bibr" coords="6,300.17,425.53,98.06,9.24" target="#b24">[Newman et al. 2001;</ref><ref type="bibr" coords="6,400.98,425.53,36.89,9.24;6,43.38,436.49,20.37,9.24" target="#b27">Pearson 1905</ref>] such as on random graphs, or perfectly match the underlying physical network topology.</s></p><p xml:id="_FsQEdhK"><s xml:id="_Me83jwM" coords="6,53.34,458.41,384.56,9.24;6,43.38,469.37,394.48,9.24">In P2P systems, the servers that are connected on an overlay network are called "neighbors," and the number of neighbors each server has is usually called the "degree."</s><s xml:id="_GysYCxv" coords="6,43.38,480.33,199.33,9.24">We use these terms throughout this article.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.2." xml:id="_JAXXNAv">Nondeterministic Storage.</head><p xml:id="_gW4hhfF"><s xml:id="_TmUfDRd" coords="6,187.06,497.66,250.82,9.24;6,43.38,508.61,303.00,9.24">In a nondeterministic storage system, given a lookup request, the target data can be stored anywhere in the system.</s><s xml:id="_bMHethw" coords="6,350.62,508.61,87.28,9.24;6,43.38,519.57,371.38,9.24">Furthermore, data can be placed on or be moved to any server in the system with few limitations.</s><s xml:id="_uadFsgy" coords="6,418.32,519.57,19.55,9.24;6,43.38,530.54,394.49,9.24;6,43.38,541.49,129.46,9.24">Zest <ref type="bibr" coords="6,43.38,530.54,118.75,9.24" target="#b25">[Nowoczynski et al. 2008]</ref> and <ref type="bibr" coords="6,185.85,530.54,121.92,9.24">Sirocco [Curry et al. 2012]</ref> are two examples of nondeterministic storage systems.</s><s xml:id="_kRgzZn4" coords="6,175.71,541.49,262.17,9.24;6,43.38,552.45,92.68,9.24">In both these systems, search is useful but might only be needed occasionally.</s><s xml:id="_GNFRq3A" coords="6,139.41,552.45,298.48,9.24;6,43.38,563.41,109.47,9.24">To be applicable to these systems, LWDLS was designed to be as lightweight as possible.</s><s xml:id="_keSABkV" coords="6,156.47,563.41,281.43,9.24;6,43.38,574.37,103.42,9.24">It only uses lookup messages to search for data and to optimize overlay network.</s><s xml:id="_Mb3qN9Q" coords="6,150.43,574.37,287.48,9.24;6,43.38,585.33,62.16,9.24">When search is not called, LWDLS imposes zero-cost for state maintenance.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2." xml:id="_GpCCk2C">Definition of Lookup Messages in LWDLS</head><p xml:id="_HZfPBck"><s xml:id="_VWjpzM4" coords="6,43.38,619.10,236.92,9.24">Figure <ref type="figure" coords="6,78.58,619.10,5.54,9.24" target="#fig_1">1</ref> shows the content of a lookup message.</s><s xml:id="_yMNrqsP" coords="6,284.98,619.10,152.91,9.24;6,43.38,630.05,394.51,9.24;6,43.38,641.01,154.90,9.24">Three server IDs, IDs of the requesting server (nid), sender (snid), and the previous sender of sender <ref type="bibr" coords="6,384.98,630.05,29.52,9.24">(ssnid)</ref>, are encoded in every lookup message.</s><s xml:id="_PzwHmqz" coords="6,201.13,641.01,168.85,9.24">Server IDs are unique in the system.</s><s xml:id="_YMQmXu4" coords="6,372.83,641.01,65.06,9.24;7,43.45,275.31,394.50,9.24;7,43.45,286.27,64.84,9.24">In the current implementation, the server IDs are convertible to the IP addresses and port numbers of the servers.</s><s xml:id="_PZTzxZ9" coords="7,111.16,286.27,326.82,9.24;7,43.45,297.23,394.53,9.24;7,43.45,308.19,241.57,9.24">This simple implementation allows us to differentiate servers uniquely in our experiments, and enables the receiver of a lookup message to communicate with the servers whose IDs are attached on the message.</s><s xml:id="_bXybbpp" coords="7,288.42,308.19,149.54,9.24;7,43.45,319.14,394.49,9.24;7,43.45,330.11,278.24,9.24">Other methods that can provide the same functionality and can provide improved adaptability to different network environments, such as in NAT, are also applicable to LWDLS.</s></p><p xml:id="_aN8BWPF"><s xml:id="_yhBa9wh" coords="7,53.42,341.07,384.56,9.24;7,43.45,352.02,181.92,9.24">The field of a lookup request of a lookup message shown in Figure <ref type="figure" coords="7,350.54,341.07,5.54,9.24" target="#fig_1">1</ref> includes a unique lookup ID (lk id) and a query condition.</s><s xml:id="_7aZeVJQ" coords="7,228.31,352.02,209.69,9.24;7,43.45,362.98,178.63,9.24">The receiver of a lookup message searches its local storage and responds accordingly.</s></p><p xml:id="_DRaMbtK"><s xml:id="_S4qQ69Z" coords="7,53.41,373.94,317.78,9.24">A set of bit flags is defined to express operations of protocols of LWDLS.</s><s xml:id="_ZYtV3Y2" coords="7,373.36,373.95,64.61,9.24;7,43.45,384.90,305.38,9.24">The IS NEIGH bit indicates if the receiver is one of the neighbors of the sender.</s><s xml:id="_UPRDHvn" coords="7,352.62,384.90,85.36,9.24;7,43.45,395.86,320.50,9.24">The ACK FLAG bit indicates if the receiver needs to send an ACK message to the sender.</s><s xml:id="_JJbkZPK" coords="7,367.09,395.86,70.90,9.24;7,43.45,406.82,394.54,9.24;7,43.45,417.77,88.12,9.24">The KEEP FWD bit indicates if the receiver needs to keep forwarding the lookup request even a local search hit is found.</s></p><p xml:id="_FMNWEPG"><s xml:id="_W5eQ5a2" coords="7,53.41,428.74,384.58,9.24;7,43.45,439.70,54.66,9.24">In addition to searching, lookup messages are also used to convey operation requests of protocols.</s><s xml:id="_d3PUYXc" coords="7,100.85,439.70,337.13,9.24;7,43.45,450.65,394.51,9.24;7,43.45,461.33,394.52,9.96;7,43.45,472.57,85.88,9.24">For instance, a pruning operation request, Prune <ref type="bibr" coords="7,322.10,439.70,55.85,9.24">[rnid, pnid]</ref> , where rnid is the ID of the server requesting this pruning operation and pnid is the ID of the server under pruning, is attached on a message in the form of type = PRUNE, rnid, pnid , as shown in Figure <ref type="figure" coords="7,121.03,472.57,4.15,9.24" target="#fig_1">1</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3." xml:id="_WT3KfqG">Types of Server Lists</head><p xml:id="_kAfJ6dk"><s xml:id="_xrH6rET" coords="7,43.45,509.50,394.52,9.24;7,43.45,520.46,394.53,9.24;7,43.45,531.42,324.24,9.24">In LWDLS, different types of server lists are used to construct the overlay network and to support the operations of reducing topology mismatch, which include initial server list, neighbor list, will prune list, will probe list, blacklist, and triangle list.</s><s xml:id="_DdjQp2x" coords="7,369.84,531.42,68.13,9.24;7,43.45,542.38,271.51,9.24">The state transitions for servers among these lists are shown in Figure <ref type="figure" coords="7,306.66,542.38,4.15,9.24" target="#fig_2">2</ref>.</s></p><p xml:id="_ZE6pBQH"><s xml:id="_cURhRDW" coords="7,53.42,553.34,384.56,9.24;7,43.45,564.29,20.48,9.24">The initial server list is given to each server when the server is added into the system.</s><s xml:id="_H2X2uTB" coords="7,68.08,564.29,296.66,9.24">It contains a list of servers, all or some of which should exist.</s><s xml:id="_nyvEAc2" coords="7,368.90,564.29,69.08,9.24;7,43.45,575.26,394.52,9.24;7,43.45,586.22,105.27,9.24">The use of the initial server list helps ensure the connectivity of the overlay network formed by servers in the system.</s><s xml:id="_PVdsMAK" coords="7,152.94,586.22,285.02,9.24;7,43.45,597.17,266.79,9.24">Other methods for adding new servers that ensure the connectivity of overlay network are also applicable to LWDLS.</s></p><p xml:id="_eK5kNTH"><s xml:id="_Zrv9HzM" coords="7,53.42,608.13,384.58,9.24;7,43.45,619.10,52.79,9.24">The neighbor list is used to record the servers that are physically close to this particular server.</s><s xml:id="_D7vHHsK" coords="7,99.33,619.10,338.66,9.24;7,43.45,630.05,381.54,9.24">Furthermore, this list allows the servers that send messages with the bit of IS NEIGH=1 to be added into the list directly without measuring their distances.</s><s xml:id="_Yuzrf3n" coords="7,427.87,630.05,10.15,9.24;7,43.45,641.01,394.53,9.51;8,43.38,197.41,124.84,9.24">In LWDLS, when a server sends a message to servers in its neighbor list, it is required to  set the IS NEIGH bit to one.</s><s xml:id="_54cMaxV" coords="8,170.62,197.41,267.29,9.24;8,43.38,208.37,365.22,9.24">By doing so, the use of the IS NEIGH bit not only facilitates adding new servers, but also makes the network graph undirected for simplicity.</s><s xml:id="_uBbxDWd" coords="8,410.97,208.37,26.92,9.24;8,43.38,219.33,394.51,9.51;8,43.38,230.29,107.85,9.51">When a server is joining the system, servers in the initial server list are directly added into the neighbor list.</s></p><p xml:id="_WQWseNM"><s xml:id="_y3pxPPX" coords="8,53.34,241.25,384.54,9.24;8,43.38,252.20,47.95,9.24">The will probe list lists the servers whose distances are unknown and need to be measured.</s><s xml:id="_PSAEAHV" coords="8,93.91,252.20,343.99,9.51;8,43.38,263.16,394.51,9.51;8,43.38,274.13,51.28,9.24">For every lookup message, the receiver checks whether it needs to add snid and ssnid attached on the message into its will probe list based on if their distances are known.</s></p><p xml:id="_rZ3GVYN"><s xml:id="_FP8kKg5" coords="8,53.34,285.08,384.55,9.51;8,43.38,296.04,394.50,9.24;8,43.38,307.00,82.30,9.24">The will prune list records the servers that will be removed from the neighbor list, because of their longer distances than others and the existence of at least one alternative path to them.</s></p><p xml:id="_dEFfxeH"><s xml:id="_WpPDJ38" coords="8,53.34,317.96,384.57,9.24;8,43.38,328.92,394.52,9.24;8,43.38,339.88,76.32,9.24">The blacklist is used to exclude the servers in it from measuring their distances for a given period of time, because their distances are not close enough according to the previous results.</s></p><p xml:id="_a55fZSh"><s xml:id="_FPrrEEW" coords="8,53.34,350.83,384.53,9.24">The triangle list records the triangles formed by three servers on an overlay network.</s><s xml:id="_yeWrD24" coords="8,43.38,361.79,394.52,9.24;8,43.38,372.76,394.52,9.51;8,43.38,383.71,113.60,9.51">When receiving a message, the receiver (with server ID my nid) detects if itself has formed a triangle with server snid and server ssnid by checking if both snid and ssnid are in its neighbor list.</s><s xml:id="_Q2b3pew" coords="8,159.82,383.71,278.09,9.24;8,43.38,394.67,86.75,9.51">If so, a triangle defined as my nid, snid, ssnid is added into the triangle list.</s><s xml:id="_49JYtjE" coords="8,132.64,394.67,305.26,9.50;8,43.38,405.63,275.22,9.51">If a server is removed from the neighbor list, all related triangles should also be removed from the triangle list accordingly.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4." xml:id="_qBeF3aC">Probe and Prune Protocols</head><p xml:id="_PfPJVjx"><s xml:id="_Yv6uGEd" coords="8,43.38,446.85,394.52,9.24;8,43.38,457.82,394.54,9.24;8,43.38,468.78,118.29,9.24">In order to reduce topology mismatch, we designed probe and prune protocols that enable a server to explore other physically close servers and to reduce redundant longdistance communications.</s><s xml:id="_FbgefMu" coords="8,164.03,468.78,273.86,9.24;8,43.38,479.73,281.67,9.24">Requests of probing and pruning operations are only carried by lookup messages with ACK FLAG=1, as shown in Figure <ref type="figure" coords="8,316.74,479.73,4.15,9.24" target="#fig_1">1</ref>.</s></p><p xml:id="_nQKxJPa"><s xml:id="_wqyzWhV" coords="8,53.34,490.69,384.57,9.24;8,43.38,501.65,394.53,9.24;8,43.38,512.61,394.53,9.24;8,43.38,523.57,253.27,9.24">With the reasonable (weak) assumption that the clocks on the servers in the system will not be accurately synchronized, in probe and prune protocols the network distance between two servers is approximated using the half of Round Trip Time (RTT), although this is not completely accurate in real systems.</s><s xml:id="_gBJjSqS" coords="8,299.77,523.57,138.12,9.24;8,43.38,534.53,333.79,9.24">Other more accurate methods are also compatible with LWDLS, but are beyond the scope of this article.</s><s xml:id="_mWGjzVJ" coords="8,53.34,553.95,22.44,8.48">4.4.1.</s><s xml:id="_tt2tmRb" coords="8,79.36,553.95,77.13,8.48">Probing Operation.</s><s xml:id="_T7nf5Hs" coords="8,159.97,553.34,277.91,9.51;8,43.38,564.29,394.52,9.24;8,43.38,575.26,59.83,9.24">By encoding snid and ssnid on lookup messages, the receiver of a lookup message is able to probe its 2-hop neighbors on a dynamic overlay network.</s><s xml:id="_pCqZR5f" coords="8,108.36,575.26,329.54,9.50;8,43.38,586.22,317.06,9.51">As introduced in Section 4.3, snid and/or ssnid are added into the will probe list, if their distances to the receiver are unknown.</s><s xml:id="_j366cQw" coords="8,366.17,586.22,71.74,9.24;8,43.38,597.17,394.50,9.51;8,47.04,608.13,390.86,9.50;8,43.38,619.10,394.49,9.24">The servers in the will probe list are probed by sending lookup messages with information of TTL=0,ACK FLAG=1,IS NEIGH=0 , as shown in Figure <ref type="figure" coords="8,293.10,608.13,4.10,9.24" target="#fig_4">3</ref>(b), so that the servers being probed will send ACK messages back to the server that initiates the probing operation.</s><s xml:id="_rSq7rJ2" coords="8,43.38,630.05,394.52,9.24;8,43.38,641.01,30.53,9.24">After receiving an ACK message, a server is able to compute the distance to the probed server.</s><s xml:id="_9BvYkFr" coords="8,77.10,641.01,360.83,9.24;9,43.45,207.80,394.53,9.50">If their distance is smaller than a threshold (the average neighbor distance is used), the probed server is moved from the will probe list into the neighbor list.</s><s xml:id="_FAy3PkR" coords="9,43.45,218.76,266.97,9.51">Otherwise, the probed server is moved into the blacklist.</s><s xml:id="_sTgXkDr" coords="9,313.08,218.76,124.89,9.24;9,43.45,229.71,111.57,9.24">Figure <ref type="figure" coords="9,346.26,218.76,5.54,9.24" target="#fig_4">3</ref> shows an example of the probing operation.</s><s xml:id="_3uhAhTs" coords="9,157.25,229.71,217.28,9.51">Initially, server C and B are not direct neighbors.</s><s xml:id="_TRjck7n" coords="9,376.76,229.71,61.21,9.24;9,43.45,240.67,394.52,9.50;9,43.45,251.63,92.75,9.24">Over communications, B and C learn each other from messages among them, since they are within 2-hop neighborhood.</s><s xml:id="_hf6Rnfp" coords="9,138.26,251.63,115.38,9.50">Let C start probing B first.</s><s xml:id="_hYCbJbf" coords="9,255.66,251.63,182.32,9.50;9,43.45,262.59,87.71,9.24">C sends message to B and measures their distance from RTT.</s><s xml:id="_K3f38bt" coords="9,134.42,262.31,303.54,9.96;9,43.45,273.55,322.05,9.51">If the distance |BC| is smaller than the average neighbor distance of C, then B is moved from C's will probe list into C's neighbor list.</s><s xml:id="_GwUzG45" coords="9,368.61,273.55,69.38,9.50;9,43.45,284.51,140.14,9.51;9,53.42,301.90,22.44,8.48">Otherwise, B is moved into the blacklist of C. 4.4.2.</s><s xml:id="_aTaJQRC" coords="9,79.44,301.90,75.72,8.48">Pruning Operation.</s><s xml:id="_FC7PTCF" coords="9,158.64,301.29,279.34,9.24;9,43.45,312.24,353.17,9.51">Pruning operations remove redundant long-distance overlay links among servers, which are detected from triangles in the triangle list.</s><s xml:id="_BfW8jdK" coords="9,399.28,312.24,38.71,9.24;9,43.45,323.20,180.26,9.24">Figure <ref type="figure" coords="9,432.45,312.24,5.54,9.24">4</ref> shows an example of pruning operation.</s><s xml:id="_Xz5VVy6" coords="9,225.81,323.20,212.18,9.51;9,43.45,333.89,381.58,9.96">In Figure <ref type="figure" coords="9,270.62,323.20,4.10,9.24">4</ref>(a), A, B, and C form a triangle on the overlay network, and there are two paths to reach B from A (A → B and A → C → B).</s><s xml:id="_23QWTsE" coords="9,427.84,334.16,10.15,9.24;9,43.45,345.12,394.49,9.50;9,43.45,356.08,242.68,9.50">In Figure <ref type="figure" coords="9,76.41,345.12,4.10,9.24">4</ref>(a), if A initiates a flooding search, two of the four messages that are generated in the search process are redundant (on the edge BC).</s><s xml:id="_absGSFZ" coords="9,288.84,355.80,149.13,9.96;9,43.45,366.76,394.51,9.96;9,43.45,377.99,394.52,9.24;9,43.45,388.96,321.38,9.50">Furthermore, if the distance |AC| is much shorter than |AB|, after removing the edge AB, only two messages are needed to achieve the same search coverage without redundant messages, but with certain acceptable delay introduced between A and B, as shown in Figure <ref type="figure" coords="9,344.36,388.96,16.38,9.24">4(b)</ref>.</s></p><p xml:id="_u8zsJ7k"><s xml:id="_j2TZBWG" coords="9,53.42,399.64,384.56,9.96;9,43.45,410.59,394.50,9.96;9,43.45,421.83,201.07,9.24">A ratio of the lengths of two adjacent edges of a triangle, such as the ratio of |AC| over |AB| in Figure <ref type="figure" coords="9,129.02,410.87,4.10,9.24">4</ref>(a), is used to determine if one of the two edges should be removed, although some delay is possibly introduced.</s><s xml:id="_8AyX9aM" coords="9,247.51,421.83,190.49,9.24;9,43.45,432.79,97.18,9.24">This is a trade-off between response time and search efficiency.</s><s xml:id="_PTNhmt2" coords="9,143.41,432.79,294.54,9.24;9,43.45,443.75,268.78,9.24">Figure <ref type="figure" coords="9,176.71,432.79,4.15,9.24">4</ref>(c) shows an ideal case where both redundant messages and topology mismatch are reduced by pruning operations.</s><s xml:id="_avrTnzJ" coords="9,314.81,443.75,123.13,9.24;9,43.45,454.71,394.51,9.24;9,43.45,465.67,394.56,9.24;9,43.45,476.62,394.55,9.24;9,43.45,487.59,394.51,9.24;9,43.45,498.55,394.55,9.24;9,43.45,509.50,164.67,9.24">The advantages of pruning based on the ratio of the lengths of two adjacent edges of a triangle are as follows: first, it is simple and lightweight, particularly in distributed environments, this is because each server in the system is able to initiate a pruning operation only based on its local information, and thereby avoids the distributed consistency problem; second, this mechanism enables a server to differentiate the servers that are physically closer than others to reduce topology mismatch.</s><s xml:id="_Sdut2vc" coords="9,210.57,509.50,227.43,9.24;9,43.45,520.46,120.92,9.24">As a result, the triangles formed by the physically close servers are reserved.</s></p><p xml:id="_vnCKTqQ"><s xml:id="_GHJSsft" coords="9,53.42,531.42,384.54,9.24;9,43.45,542.38,331.72,9.24">Without the global knowledge of a network graph, removing edges of a network graph in distributed environments has the risk of partitioning the network.</s><s xml:id="_YjKHbSD" coords="9,379.56,542.38,58.42,9.24;9,43.45,553.34,394.56,9.24;9,43.45,564.29,30.53,9.24">To overcome this problem, a pruning operation requires the agreement from all neighbors of a server.</s><s xml:id="_gMtjtA6" coords="9,77.07,564.29,360.89,9.24;9,43.45,575.25,394.53,9.24;9,43.45,586.22,394.53,9.51;9,43.45,597.17,394.51,9.24;9,43.45,608.13,394.53,9.50;9,43.45,619.10,194.94,9.24">Furthermore, to reduce the cost of sending messages to ask for the agreement explicitly, a pruning operation is performed only when a server has an opportunity to broadcast lookup messages with information of ACK FLAG=1 and Prune[rnid, pnid] to its neighbors, as introduced in Section 4.2. Figure <ref type="figure" coords="9,277.28,597.17,5.54,9.24" target="#fig_7">5</ref> shows a diagram of broadcasting lookup messages with pruning requests and asking for ACK messages on which the decisions from the neighbors are attached.</s></p><p xml:id="_TSkmutm"><s xml:id="_kFyXPXC" coords="9,53.42,630.05,384.55,9.24;9,43.45,641.01,394.57,9.24;10,43.38,329.64,22.65,7.37">In order to ensure the connectivity of the network graph, after receiving a pruning request, generally, the receiver checks if there is at least one alternative path to  Fig. <ref type="figure" coords="10,59.38,329.64,3.32,7.37">6</ref>.</s><s xml:id="_BdREGp5" coords="10,73.30,329.61,364.59,7.60;10,43.38,338.58,96.32,7.39">Examples of pruning operations, where server A tries to prune server C from its neighbor list in distributed environments.</s><s xml:id="_eAc74U3" coords="10,142.35,338.58,295.54,7.60;10,43.38,347.55,327.25,7.60">In cases (a) and (b), server C will disagree with A's pruning request, since there is no alternative path to A; in case (d), server C will agree on server A's pruning request.</s><s xml:id="_Z7tX7vD" coords="10,373.23,347.55,64.67,7.39;10,43.38,356.51,394.51,7.60;10,43.38,365.47,37.19,7.39">In case (c), one of server A's neighbors, say server B, will disagree on pruning C by A. And in case (e), B will agree on A's pruning operation.</s></p><p xml:id="_tuhE9RP"><s xml:id="_jfa7pMV" coords="10,43.38,388.96,394.51,9.50;10,43.38,399.92,327.40,9.50">server rnid and pnid separately after the pruning, based on its neighbor list and triangle list without conflict with its undergoing pruning operations.</s><s xml:id="_KTsVkHj" coords="10,373.61,399.92,64.29,9.24;10,43.38,410.87,80.22,9.24">There are two cases to consider.</s><s xml:id="_ETvkCab" coords="10,127.16,410.87,310.78,9.24;10,43.38,421.83,394.52,9.51;10,43.38,432.80,262.78,9.24">First, if the receiver is the one under pruning, it checks if there is alternative path (2-hop indirect paths) found from its triangle list to server rnid without conflict with its undergoing pruning operations.</s><s xml:id="_aB9N6JZ" coords="10,309.76,432.80,128.15,9.24;10,43.38,443.75,76.76,9.51">Its decision is sent through the ACK message.</s><s xml:id="_5QegQ3g" coords="10,122.46,443.75,315.43,9.51;10,43.38,454.71,394.52,9.50;10,43.38,465.67,39.39,9.24">In Figures <ref type="figure" coords="10,172.36,443.75,13.28,9.24">6(a</ref>) and 6(b), server C is the one under pruning by serverA, and C disagrees with A's pruning request because of the lack of other path to A after pruning.</s><s xml:id="_dFsv3tw" coords="10,85.40,465.67,352.50,9.50;10,43.38,476.35,177.85,9.96">In Figure <ref type="figure" coords="10,131.25,465.67,4.13,9.24">6</ref>(d), server C agrees with A's pruning request, since there are other paths (C → B → A and C → E → A) to A.</s></p><p xml:id="_NqKFEq2"><s xml:id="_8pBXdrS" coords="10,53.35,487.59,281.32,9.24">In the second case, the receiver is not the one under pruning.</s><s xml:id="_WXmVZUM" coords="10,337.52,487.59,100.39,9.24;10,43.39,498.55,79.79,9.24">There are two further cases to consider.</s><s xml:id="_VfZNt4j" coords="10,126.52,498.55,311.35,9.51;10,43.38,509.50,264.64,9.24">First, if the server pnid is not in the neighbor list of the receiver, the receiver will agrees with the pruning request directly.</s><s xml:id="_8fJCQgB" coords="10,310.80,509.50,127.13,9.24;10,43.38,520.46,394.51,9.51;10,43.38,531.42,94.89,9.24">This is because the receiver does not need to have a path to server pnid in order to maintain the connectivity of the overlay network.</s><s xml:id="_U7nHYwn" coords="10,141.04,531.42,296.86,9.51;10,43.38,542.38,394.52,9.24;10,43.38,553.34,394.53,9.50;10,43.38,564.29,57.74,9.24">Second, if server pnid is in the neighbor list of the receiver, the receiver needs to check if there are alternative paths (both direct and 2-hop indirect) to server rnid and to pnid respectively without conflict with its undergoing pruning operation(s).</s><s xml:id="_2bsb3gf" coords="10,103.91,564.29,194.48,9.50">The decision is sent with the ACK message.</s></p><p xml:id="_rcAKGV3"><s xml:id="_3t2njn3" coords="10,53.34,575.26,384.57,9.50;10,43.38,586.22,124.36,9.50;10,53.34,619.09,361.18,9.24">In Figure <ref type="figure" coords="10,98.30,575.26,3.87,9.24">6</ref>(c), server B disagrees with A's pruning request because of the conflict with B's pruning operation on C. In summary, a pruning request succeeds only when all receivers agreed on it.</s><s xml:id="_pnmTAsb" coords="10,417.82,619.09,20.10,9.24;10,43.38,630.05,394.52,9.24;10,43.38,641.01,150.10,9.51">Furthermore, once a server agrees with a pruning request, all the related triangles are removed from its triangle list.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5." xml:id="_75aYSbK">Heuristic Flooding Search</head><p xml:id="_hvFxXa8"><s xml:id="_CGA3McM" coords="11,43.45,246.49,394.52,9.24;11,43.45,257.45,394.54,9.24;11,43.45,268.41,351.35,9.24">In this section, we introduce a new heuristic flooding search (HFS), which can be ran independently without the probe or prune protocols, or be combined with the probe and prune protocols to optimize the overlay network during the search process.</s><s xml:id="_GEadAYQ" coords="11,398.41,268.41,39.58,9.24;11,43.45,279.36,394.51,9.24;11,43.45,290.33,394.51,9.51;11,43.45,301.29,245.39,9.24">HFS is a type of pure flooding search, but HFS is able to take advantage of a cache of the most recent lookup histories and the triangle list that each server possesses to broadcast lookup messages while reducing redundant messages.</s><s xml:id="_8n7BxYW" coords="11,291.08,301.29,146.92,9.24;11,43.45,312.24,394.53,9.24;11,43.45,323.20,394.52,9.24;11,43.45,334.16,215.08,9.51">Generally, on each hop along the search path, each server will broadcast lookup messages to all its neighbors unless it knows a neighbor should have seen this lookup request before according to the server's cache of lookup history and the triangle list.</s><s xml:id="_ap4gTnS" coords="11,261.30,334.17,176.66,9.24;11,43.45,345.12,394.53,9.24;11,43.45,356.08,394.49,9.24;11,43.45,367.04,33.85,9.24">HFS is heuristic in the sense that each server is able to make local decisions on forwarding lookup messages independently, by observing the events of sending and receiving messages and using its lookup history cached.</s></p><p xml:id="_YAZdVbb"><s xml:id="_Y677vns" coords="11,53.42,377.99,384.56,9.24;11,43.45,388.96,394.52,9.24;11,43.45,399.92,350.58,9.24">With probing and pruning operations, the servers that are physically close are more likely to be neighbors of each other, and the triangles formed by them cannot be broken by pruning operations because of the criteria defined and discussed above.</s><s xml:id="_4mtEpJB" coords="11,397.79,399.92,40.19,9.24;11,43.45,410.87,394.51,9.24;11,43.45,421.83,394.51,9.24;11,43.45,432.79,376.24,9.24">For each triangle detected during the search process, three bits, denoted here as "knowledge bits," are used to represent which of the three servers on the triangle of the overlay network graph have known the existence of this triangle, as shown in Figure <ref type="figure" coords="11,399.22,432.79,4.09,9.24" target="#fig_9">7</ref>(a).</s><s xml:id="_B7nHAvV" coords="11,422.47,432.79,15.49,9.24;11,43.45,443.75,394.53,9.50;11,43.45,454.71,394.53,9.50">For example, in Figure <ref type="figure" coords="11,131.85,443.75,3.87,9.24" target="#fig_9">7</ref>(c), after server A received the same lookup messages from B and C respectively, A detected the triangle (A,B,C) and updated its knowledge bits to (1,0,0).</s><s xml:id="_Z9TCSDW" coords="11,43.45,465.67,394.53,9.50;11,43.45,476.62,177.93,9.24">Furthermore, since server A has forwarded the same lookup message to server C, C should have also detected this triangle.</s><s xml:id="_5tF7GKA" coords="11,223.76,476.62,214.22,9.50;11,43.45,487.59,43.19,9.24">Therefore, server A updated the knowledge bits to (1,0,1).</s></p><p xml:id="_v9mncEZ"><s xml:id="_kgaSWrb" coords="11,53.42,498.55,384.57,9.51;11,43.45,509.50,27.61,9.24">The triangle list with knowledge bits are used by HFS to reduce redundant messages.</s><s xml:id="_ByMCUMq" coords="11,73.56,509.50,192.48,9.24">HFS is a type of flooding search algorithm.</s><s xml:id="_ygZEAN3" coords="11,268.53,509.50,169.45,9.24;11,43.45,520.46,394.53,9.24;11,43.45,531.42,28.23,9.24">At the beginning, when there are few triangles that have been detected, it works like the pure flooding search <ref type="bibr" coords="11,382.20,520.46,55.79,9.24;11,43.45,531.42,23.53,9.24" target="#b14">[Jiang et al. 2008]</ref>.</s><s xml:id="_pMpb6Ux" coords="11,74.21,531.42,363.77,9.24;11,43.45,542.38,211.95,9.24">However, as more triangles with knowledge bits are formed, HFS is able to start saving cost by avoiding redundant messages.</s><s xml:id="_Cs4u9h3" coords="11,259.30,542.38,178.68,9.24;11,43.45,553.34,394.54,9.50;11,43.45,564.29,394.53,9.50;11,43.45,575.26,394.51,9.50;11,43.45,586.22,387.07,9.50">This is based on the fact that when a server on a triangle of the overlay network, say server A, broadcasts messages to the other servers on the triangle, say server B and C; if B or C knows they have formed a triangle with server A, then B or C does not need to send the received message to others on this triangle, because they should have received the same message from server A.</s></p><p xml:id="_ScSZDXk"><s xml:id="_PXpNpPg" coords="11,53.42,597.17,384.57,9.24;11,43.45,608.13,99.31,9.24">Figure <ref type="figure" coords="11,86.29,597.17,5.54,9.24" target="#fig_11">8</ref> shows the mechanism for accumulating states, and then use them to reduce redundant messages.</s><s xml:id="_hBhDC5a" coords="11,147.48,608.13,290.51,9.24;11,43.45,619.09,55.72,9.24">In Phase-I, redundant messages are generated on the edges of triangles.</s><s xml:id="_sXjkqjk" coords="11,102.95,619.09,335.03,9.24;11,43.45,630.05,222.17,9.24">However, over a series of communications, more triangles are detected, and servers keep updating the knowledge bits.</s><s xml:id="_DgmaBvu" coords="11,269.76,630.05,168.20,9.24;11,43.45,641.01,394.56,9.24;12,43.38,323.20,30.01,9.24">Some redundant messages are sent purposely by a server to help its neighbors with detecting triangles and to update their  states.</s><s xml:id="_egdzpjY" coords="12,75.86,323.20,362.04,9.24;12,43.38,334.16,350.43,9.24">For instance, on receiving a redundant message, a server checks if the sender is on a triangle on which the corresponding knowledge bit for the sender is zero.</s><s xml:id="_drarNC7" coords="12,396.10,334.16,41.80,9.24;12,43.38,345.12,278.91,9.24">If so, this implies that the sender might have not detected this triangle.</s><s xml:id="_xaXevE5" coords="12,324.60,345.12,113.26,9.24;12,43.38,356.08,352.51,9.50">In this case, a redundant message is sent to the sender with appropriate snid and ssnid information.</s><s xml:id="_79khmcT" coords="12,399.10,356.08,38.80,9.24;12,43.38,367.04,394.52,9.24;12,43.38,377.99,245.93,9.24">The cost of sending redundant messages to help update states of neighbors can be amortized by future communications, as long as the triangle exists.</s><s xml:id="_4SfFbYU" coords="12,292.04,377.99,145.84,9.24;12,43.38,388.96,394.51,9.50;12,43.38,399.92,360.84,9.50">Figure <ref type="figure" coords="12,325.30,377.99,4.43,9.24" target="#fig_11">8</ref>(b) shows, after serverB received redundant message from A, B sent an extra message to A with snid=B and ssnid=C, so that server A detected the triangle and updated its knowledge bits.</s></p><p xml:id="_zKnPnym"><s xml:id="_dsWpNSW" coords="12,53.34,410.87,384.53,9.24;12,43.38,421.83,394.51,9.24;12,43.38,432.80,300.88,9.24">In Phase-II, the accumulated states are used by HFS to save on the cost of redundant messages, as shown in Figures <ref type="figure" coords="12,193.44,421.83,11.62,9.24" target="#fig_11">8(c</ref>), 8(d), and 8(e), two redundant messages can be saved with the help of triangles and knowledge bits on a triangle.</s></p><p xml:id="_TBKcPNY"><s xml:id="_Gp7Acfj" coords="12,53.34,443.75,384.53,9.24;12,43.38,454.71,394.51,9.51;12,43.38,465.67,147.39,9.24">In HFS, when a server receives a lookup request it first updates its cache of lookup history by recording the lookup message ID (lk id) and sending and receiving information for this lookup request.</s><s xml:id="_r9JTTxn" coords="12,194.89,465.67,243.02,9.24;12,43.38,476.63,394.51,10.12;12,43.38,487.59,394.52,10.12">Second, it searches the cached lookup history, adds the servers from which this lookup request was received into a set called In neigh , and add the servers that were forwarded this lookup request into a set called Out neigh .</s><s xml:id="_2gKkvzR" coords="12,43.38,498.55,394.52,9.51;12,43.38,509.50,233.34,10.12">Third, it searches its triangle list, and adds its neighbors that form triangles with the servers in In neigh into a set called Skip trg neigh .</s><s xml:id="_4knKAzd" coords="12,280.36,509.50,157.54,10.12;12,43.38,520.46,394.50,10.12">The servers in Skip trg neigh should have received this lookup request from the servers in In neigh , since they form triangles.</s><s xml:id="_uDfdnNy" coords="12,43.38,531.42,394.50,9.51;12,43.38,542.38,394.51,10.12;12,43.38,553.34,394.49,10.12;12,43.38,564.29,76.01,10.12">Furthermore, it searches the triangle list to find the neighbors that form triangles with the servers in Skip trg neigh and have larger server ID than this server, and add them into Skip trg neigh , until there are no more servers that can be found and added into Skip trg neigh .</s><s xml:id="_EAjEexR" coords="12,122.53,564.30,315.37,9.24;12,43.38,575.26,394.53,9.24;12,43.38,586.22,126.58,9.24">One rule in use is that when two servers of a triangle have received the same lookup request, only the one with larger ID should send this message to the third server on the triangle.</s><s xml:id="_ppv3CDg" coords="12,172.33,586.22,265.55,9.24;12,43.38,597.17,394.52,9.51;12,43.38,608.13,140.89,10.12">After finishing the calculation as described above, a server forwards lookup messages to its neighbors in neighbor list except ones in the sets of In neigh , Out neigh , or Skip trg neigh .</s></p><p xml:id="_cceUKRn"><s xml:id="_BTs64b3" coords="12,53.34,619.10,384.52,9.24;12,43.38,630.05,139.78,9.24">Figure <ref type="figure" coords="12,88.46,619.10,5.54,9.24">9</ref> shows examples of forwarding lookup messages based on the triangles and accumulated information.</s><s xml:id="_S2bFYSP" coords="12,186.45,630.05,251.47,9.24;12,43.38,641.01,91.74,9.24">Figure <ref type="figure" coords="12,220.26,630.05,4.43,9.24">9</ref>(a) shows the simplest case in which only one triangle is involved.</s><s xml:id="_cE8x4uS" coords="13,43.45,461.57,294.86,9.24">messages based on the result of the comparison of server IDs.</s><s xml:id="_3vytPJW" coords="13,342.42,461.57,95.55,9.24;13,43.45,472.53,394.51,9.51;13,43.45,483.49,394.52,9.24">In Figure <ref type="figure" coords="13,391.27,461.57,3.87,9.24">9</ref>(c), more triangles are involved, and server C makes forwarding decisions based on the triangles it has and the observed events of sending and receiving messages among its neighbors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_9yUSWM3">EXPERIMENTS AND ANALYSIS</head><p xml:id="_WWSJxmQ"><s xml:id="_sHN2JVX" coords="13,43.45,518.41,394.53,9.24;13,43.45,529.37,394.49,9.24;13,43.45,540.34,168.74,9.24">In order to test LWDLS in HPC environment with a large number of storage servers, we developed a simulator using an open-source network simulation framework <ref type="bibr" coords="13,407.44,529.37,30.51,9.24;13,43.45,540.34,79.18,9.24">[Varga and Hornig 2008;</ref><ref type="bibr" coords="13,124.96,540.34,77.82,9.24" target="#b8">Denzel et al. 2008</ref>].</s><s xml:id="_MfRFCy3" coords="13,214.52,540.34,223.49,9.24">We present our simulation results in this section.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1." xml:id="_BuAWp4Y">Simulator and Configurations</head><p xml:id="_ASZtTV4"><s xml:id="_SyrWFdF" coords="13,43.45,575.26,394.54,9.24;13,43.45,586.22,394.50,9.24;13,43.45,597.17,139.71,9.24">The simulated HPC storage system, as shown in Figure <ref type="figure" coords="13,315.10,575.26,21.68,9.24" target="#fig_13">10(a)</ref>, is organized with a three-level fat-tree network topology <ref type="bibr" coords="13,217.77,586.22,84.96,9.24" target="#b8">[Denzel et al. 2008</ref>], which connects with all of storage servers in the system.</s><s xml:id="_Q4m5z47" coords="13,186.49,597.17,251.50,9.24;13,43.45,608.13,394.50,9.24;13,43.45,619.10,106.05,9.24">The latency and bandwidth of each physical link used are 5μs and 10Gbps respectively, in order to emulate a common 10 gigabit Ethernet network <ref type="bibr" coords="13,85.87,619.10,54.22,9.24" target="#b38">[Tolley 2011</ref>].</s><s xml:id="_xVY35vJ" coords="13,153.91,619.10,284.09,9.24;13,43.45,630.05,241.80,9.24">In the simulator, a storage server is represented by a compound module containing a set of discrete modules.</s><s xml:id="_QgRM9Rg" coords="13,289.04,630.05,148.93,9.24;13,43.45,641.01,134.69,9.24">Figure <ref type="figure" coords="13,323.34,630.05,23.24,9.24" target="#fig_13">10(b)</ref> shows the detailed architecture of our simulator.</s><s xml:id="_cNBGjyy" coords="13,180.92,641.01,202.80,9.24">The configuration files are shown in Table <ref type="table" coords="13,376.89,641.01,3.41,9.24" target="#tab_0">I</ref>.</s></p><p xml:id="_UKb3TV8"><s xml:id="_nUn6Zhe" coords="14,43.38,57.76,22.44,8.29;14,389.56,57.76,7.97,8.29">12:14 Z.</s><s xml:id="_WRCZvRT" coords="14,400.01,57.76,37.88,8.29;14,53.34,349.48,22.43,8.48">Sun et al.  5.1.1.</s><s xml:id="_FffEegM" coords="14,79.36,349.48,155.53,8.48">Generation of Overlay Network Graphs.</s><s xml:id="_j5TjKw9" coords="14,238.39,348.87,199.52,9.24;14,43.38,359.83,394.50,9.24;14,43.38,370.79,394.53,9.24;14,43.38,381.75,100.29,9.24">We evaluated the search performance of the HFS algorithm and effectiveness of probing and pruning operations on two overlay network graphs, each incorporating different degree distributions of servers and levels of topology mismatch.</s></p><p xml:id="_JxcXjzm"><s xml:id="_Jpv4utH" coords="14,53.34,392.71,384.56,9.24;14,43.38,403.67,31.00,9.24">These overlay network graphs were generated at random using the following mechanism.</s><s xml:id="_TsAnF4f" coords="14,77.23,403.67,258.59,9.24">At the beginning, there is only one server in the system.</s><s xml:id="_V6nG8zr" coords="14,338.68,403.67,99.25,9.24;14,43.38,414.62,352.14,9.24">When a new server is added, it randomly selects M existing servers in the system as its neighbors.</s><s xml:id="_8AfKWBM" coords="14,398.43,414.62,39.46,9.24;14,43.38,425.59,394.51,9.24;14,43.38,436.55,138.69,9.24">Furthermore, if a server is selected by other servers that are added later, it also adds them subsequently as its neighbors.</s></p><p xml:id="_j4hJr4D"><s xml:id="_wp2CBdJ" coords="14,53.34,447.50,384.55,9.24;14,43.38,458.46,48.68,9.24">Based on this mechanism, two overlay network graphs both with 1,024 servers were generated.</s><s xml:id="_9AH26mm" coords="14,95.73,458.18,227.01,9.96">The graphs have M = 5 and M = 80, respectively.</s><s xml:id="_6T4hp3j" coords="14,326.41,458.46,111.50,9.24;14,43.38,469.42,164.40,9.24">Their initial degree distributions are shown in Figure <ref type="figure" coords="14,193.94,469.42,9.23,9.24" target="#fig_14">11</ref>.</s><s xml:id="_jDDv4KW" coords="14,211.92,469.42,225.99,9.24;14,43.38,480.10,394.51,9.96;14,43.38,491.06,284.47,9.96">These two overlay network graphs enable us to test LWDLS on both low-degree (the graph with M = 5, average degree = 9.88) and high-degree (the graph with M = 80, average degree = 138.08)</s><s xml:id="_Z7UXZcf" coords="14,330.76,491.34,107.14,9.24;14,43.38,502.29,330.88,9.24">network graphs, and to complete a number of simulations within a manageable amount of time.</s></p><p xml:id="_KgHZ3A8"><s xml:id="_fh9WzBD" coords="14,53.34,513.26,384.54,9.51;14,43.38,524.22,394.51,9.24;14,43.38,535.17,103.51,9.24">Before running a simulation, each server has an initial server list, as introduced in section 4.3, which contains its neighbors on the overlay network graph to be used during the simulation.</s><s xml:id="_EPxqxS3" coords="14,53.34,553.95,22.43,8.48">5.1.2.</s><s xml:id="_PKeAn9T" coords="14,79.36,553.95,129.94,8.48">Generation of Lookup Requests.</s><s xml:id="_JMk9FZ7" coords="14,212.79,553.34,225.11,9.24;14,43.38,564.29,394.56,9.24;14,43.38,575.26,148.24,9.50">Given a lookup request, search performance was evaluated by letting every server in the system process this request separately, with TTL values ranging from 1 to 7.</s><s xml:id="_Z8yB8pG" coords="14,195.39,575.26,242.49,9.50;14,43.38,586.22,394.55,9.24;14,43.38,597.17,74.81,9.24">This range of TTL values is large enough to achieve search coverage close to 100% <ref type="bibr" coords="14,183.70,586.22,94.55,9.24" target="#b29">[Ripeanu et al. 2002]</ref>, and this coverage is confirmed in our simulations.</s><s xml:id="_pKYJRsG" coords="14,120.94,597.17,316.99,9.24;14,43.38,608.13,154.81,9.50">Search performance is computed from the average performance of all servers using the same TTL value.</s></p><p xml:id="_BbAMTbN"><s xml:id="_RmSfVSa" coords="14,53.34,619.10,384.54,9.24;14,43.38,630.05,103.18,9.24">Each server has a list of lookup requests that are processed at a given time and are randomly selected.</s><s xml:id="_n2Nraq2" coords="14,148.90,630.05,288.98,9.24;14,43.38,641.01,394.53,9.24">The start time of processing a lookup request has no correlation with the search performance of LWDLS, if probing and pruning operations are disabled.</s><s xml:id="_f9ubXm8" coords="15,43.45,81.61,394.47,9.24;15,43.45,92.56,116.53,9.24">After a simulation, all of the histories of sending and receiving messages are recorded for performance analysis.</s><s xml:id="_XYdxBMU" coords="15,162.75,92.56,227.09,9.50">We analyze our results as a function of TTL value.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.3." xml:id="_hX6ejtX">Data Indices in the Local Object-based Storage Device.</head><p xml:id="_HjGYyAQ"><s xml:id="_grJBSfd" coords="15,307.13,110.99,130.83,9.24;15,43.45,121.95,394.52,9.24;15,43.45,132.92,394.54,9.24;15,43.45,143.87,283.35,9.24">To demonstrate the applicability and to test the search performance of LWDLS, we made the following restriction in our experiments: for each lookup request there is only one copy of the target data object existing and it is randomly distributed in the system.</s><s xml:id="_b3G29ue" coords="15,330.53,143.87,107.44,9.24;15,43.45,154.83,394.52,9.24;15,43.45,165.79,231.15,9.24">Note that the choice of using different replication mechanisms is an orthogonal concern to using LWDLS and is not specifically addressed further in this article.</s></p><p xml:id="_9mFEmNX"><s xml:id="_fawrMDF" coords="15,53.42,176.75,384.57,9.24;15,43.45,187.71,274.80,9.24">Object-based storage devices (OSDs) have recently been used in parallel file systems <ref type="bibr" coords="15,69.85,187.71,68.22,9.24" target="#b33">[Schwan 2003;</ref><ref type="bibr" coords="15,142.16,187.71,85.29,9.24" target="#b3">Carns et al. 2000;</ref><ref type="bibr" coords="15,231.54,187.71,77.07,9.24">Weil et al. 2006b</ref>].</s><s xml:id="_57Uqb9z" coords="15,322.34,187.71,115.62,9.24;15,43.45,198.67,394.52,9.24;15,43.45,209.62,127.12,9.24">In our simulations, local OSDs are only used to store data indices, rather than simulating the input-output (I/O) behavior of storage devices.</s><s xml:id="_nnCtC7r" coords="15,173.72,209.62,264.27,9.24;15,43.45,220.59,268.09,9.24">On receiving a lookup request, a server searches its local OSD; a lookup hit message is sent if there is a local match.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2." xml:id="_Dsc6Ga9">Performance Metrics</head><p xml:id="_sefHYEA"><s xml:id="_vb4NNam" coords="15,43.45,255.45,394.53,9.24;15,43.45,266.41,380.22,9.24">Search scope is defined as the ratio of the number of servers that queries have reached in a given search process divided by the total number of servers in the system.</s><s xml:id="_7J94PSQ" coords="15,427.87,266.41,10.14,9.24;15,43.45,277.37,394.53,9.50;15,43.45,288.33,394.53,9.50;15,43.45,299.29,27.67,9.24">In (pure) flooding searches, search scope is only determined by the TTL values chosen, and thereby achieving 100% search scope is guaranteed by choosing a sufficiently large TTL value.</s><s xml:id="_Ks6S7E8" coords="15,73.72,299.29,364.25,9.50;15,43.45,310.25,235.07,9.24">However, TTL values have to be tuned for the size of the network being searched to reduce the cost of sending redundant messages.</s><s xml:id="_edyUNfa" coords="15,281.95,310.25,156.01,9.24;15,43.45,321.20,357.92,9.50">In probabilistic flooding searches, using large TTL values still cannot guarantee achieving 100% search scope.</s><s xml:id="_PDUCYq9" coords="15,405.57,321.20,32.42,9.24;15,43.45,332.17,394.50,9.24;15,43.45,343.13,42.10,9.24">This is an important difference between (pure) flooding searches and probabilistic flooding searches.</s><s xml:id="_CJ5gFMX" coords="15,88.44,343.13,349.54,9.51;15,43.45,354.08,146.03,9.24">In HFS of LWDLS, achieving 100% search scope is also guaranteed if the TTL values chosen are large enough.</s><s xml:id="_95bYGBk" coords="15,192.13,354.08,245.86,9.24;15,43.45,365.04,359.23,9.51">By caching the lookup histories on every server in the system, one can choose large TTL values safely with reduced network traffic.</s><s xml:id="_uxtB9MB" coords="15,406.40,365.04,31.57,9.24;15,43.45,376.01,394.51,9.24;15,43.45,386.96,174.37,9.24">In this study, with fixed traffic cost, we aim to maximize search scope, while, with fixed search scope, we aim to minimize traffic cost.</s></p><p xml:id="_EvW6fCN"><s xml:id="_Wy7DstW" coords="15,53.42,397.92,384.58,9.24;15,43.45,408.88,251.64,9.24">Search efficiency is defined as the ratio of the number of servers searched over the total number of messages sent during a search process.</s><s xml:id="_fpEQURw" coords="15,297.64,408.88,140.31,9.24;15,43.45,419.84,231.51,9.24">This metric is used to evaluate the cost of processing a lookup request on average.</s><s xml:id="_ZyAu3zM" coords="15,277.68,419.84,160.31,9.24;15,43.45,430.80,249.41,9.24">It is combined with search scope in order to evaluate the scalability of a search algorithm.</s></p><p xml:id="_HKCEnvX"><s xml:id="_CE6FTea" coords="15,53.42,441.76,384.56,9.24;15,43.45,452.71,48.07,9.24">Average neighbor distance is used to evaluate the effectiveness of reducing topology mismatch.</s><s xml:id="_TpcvSCY" coords="15,96.24,452.71,341.74,9.24;15,43.45,463.67,135.22,9.24">Minimizing average neighbor distance implies a better match with the underlying physical network.</s><s xml:id="_DktRa7t" coords="15,181.72,463.67,256.23,9.24;15,43.45,474.64,148.64,9.24">This quantity is measured both before and after calling probing and pruning operations.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3." xml:id="_njEyXRy">Effectiveness of the HFS Search Algorithm</head><p xml:id="_zadKFhY"><s xml:id="_RHFRMaC" coords="15,43.45,509.50,394.56,9.24;15,43.45,520.46,260.15,9.24">First, we compare the performance of probabilistic flooding search algorithms with the pure flooding search algorithm <ref type="bibr" coords="15,213.07,520.46,81.13,9.24" target="#b14">[Jiang et al. 2008</ref>].</s><s xml:id="_6nchNpu" coords="15,307.96,520.46,130.01,9.24;15,43.45,531.42,394.54,9.24;15,43.45,542.38,273.01,9.24">In the pure flooding search algorithm, upon receiving a lookup request, the receiver forwards lookup messages to all its neighbors, except for the sender of this request.</s><s xml:id="_9ZK6adg" coords="15,320.66,542.38,117.35,9.24;15,43.45,553.34,394.52,9.24;15,43.45,564.29,394.52,9.24;15,43.45,575.26,104.13,9.24">However, in probabilistic flooding search algorithms, a server only forwards lookup messages to a subset of its neighbors, which are selected based on a probabilistic value (called P) on each hop along the search path.</s><s xml:id="_ymwERNf" coords="15,150.96,574.98,287.00,9.96;15,43.45,586.22,332.48,9.24">We used P = 0.1, 0.5, and 0.9 values respectively for choosing neighbors to demonstrate the basic mechanism of probabilistic searches.</s></p><p xml:id="_Wj82PJ5"><s xml:id="_6Ytc4z4" coords="15,53.41,597.17,384.53,9.24;15,43.45,608.13,235.14,9.24">In Figures <ref type="figure" coords="15,103.99,597.17,11.08,9.24" target="#fig_17">12</ref> and<ref type="figure" coords="15,137.70,597.17,9.23,9.24" target="#fig_4">13</ref>, we showed the results of running probabilistic flooding search algorithms on the two example overlay networks.</s><s xml:id="_HxGqWWW" coords="15,282.81,608.13,155.15,9.24;15,43.45,619.10,394.51,9.24;15,43.45,630.05,394.51,9.50;15,43.45,641.01,248.90,9.24">This was shown although probabilistic flooding algorithms are less interesting to us for reasons including the lack of 100% search coverage even assuming large TTL values, and slower search speed than the pure flooding search algorithm <ref type="bibr" coords="15,206.03,641.01,81.61,9.24" target="#b14">[Jiang et al. 2008]</ref>.</s><s xml:id="_zmWuqm8" coords="15,295.29,641.01,142.71,9.24;16,43.38,388.96,394.50,9.50;16,43.38,399.92,321.60,9.24">The results show that with the  same TTL value, the probabilistic flooding search algorithms have smaller search scope than pure flooding search, but they achieved higher search efficiency.</s><s xml:id="_q6Duy46" coords="16,368.26,399.92,69.59,9.24;16,43.38,410.87,394.53,9.24;16,43.38,421.83,39.42,9.24">Smaller search scope implies slower search speed, and thus these algorithms are less suitable for HPC systems.</s></p><p xml:id="_uTwNpr4"><s xml:id="_zneUU8C" coords="16,53.34,432.80,384.55,9.24">Second, we compare HFS of LWDLS with pure flooding search <ref type="bibr" coords="16,348.47,432.80,80.01,9.24" target="#b14">[Jiang et al. 2008</ref>].</s><s xml:id="_7x2FaeP" coords="16,43.38,443.75,394.50,9.24;16,43.38,454.71,394.53,9.24;16,43.38,465.67,394.51,9.24;16,43.38,476.63,394.51,9.24;16,43.38,487.59,87.82,9.24">The HFS algorithm was tested on the two overlay network graphs, and is primarily compared with the pure flooding search algorithm <ref type="bibr" coords="16,284.28,454.71,84.59,9.24" target="#b14">[Jiang et al. 2008]</ref>, because they are more comparable than other methods (such as the probabilistic flooding search) in terms of having similar search speed, search scope, and few/minimal requirements for state maintenance.</s></p><p xml:id="_tfcvUku"><s xml:id="_RYJhjA9" coords="16,53.34,498.55,384.53,9.24;16,43.38,509.50,310.23,9.24">We ran HFS under four different modes including HFS with pruning, with probing, without probing or pruning, and with both probing and pruning.</s><s xml:id="_pnEANZU" coords="16,358.05,509.50,79.84,9.24;16,43.38,520.19,357.37,9.96">The results from simulations using the network graph with M = 5 are shown in Figure <ref type="figure" coords="16,386.91,520.46,9.23,9.24" target="#fig_17">12</ref>.</s><s xml:id="_3kA5bx5" coords="16,405.41,520.46,32.50,9.24;16,43.38,531.42,333.75,9.24">In this section, we analyzed the performance of HFS without probing or pruning.</s><s xml:id="_eYMYQxN" coords="16,379.66,531.42,58.23,9.24;16,43.38,542.38,353.26,9.24">The analysis of running HFS with probing and/or pruning is described later in Section 5.4.</s></p><p xml:id="_D8HGfNg"><s xml:id="_AdAmX7b" coords="16,53.34,553.34,384.56,9.51;16,43.38,564.30,394.52,9.24;16,43.38,575.26,394.50,9.24;16,43.38,586.22,394.51,9.51">Figure <ref type="figure" coords="16,88.03,553.34,9.30,9.24" target="#fig_17">12</ref>(a) shows that, given a lookup request with certain TTL value, the HFS algorithm without probing or pruning had similar search scope on average to pure flooding search <ref type="bibr" coords="16,118.98,575.26,81.97,9.24" target="#b14">[Jiang et al. 2008</ref>], but the HFS algorithm achieved higher search efficiency than pure flooding search on every TTL value used, as shown in Figure <ref type="figure" coords="16,411.88,586.22,21.68,9.24" target="#fig_17">12(b)</ref>.</s><s xml:id="_fNsjyQf" coords="16,43.38,597.17,394.52,9.50;16,43.38,608.13,394.51,9.24;16,43.38,619.10,319.84,9.50">The savings are more distinct compared to pure flooding search when using TTL values ranging from 2 to 4. As the search coverage nears 100%, the search efficiency of the HFS algorithm drops quickly, especially for TTL values of 5, 6, and 7.</s><s xml:id="_qJrpkhg" coords="16,366.65,619.10,71.24,9.24;16,43.38,630.05,394.52,9.24;16,43.38,641.01,380.68,9.24">This is because on the low-degree network graph HFS has fewer opportunities for taking advantage of states accumulated on the triangles formed by servers in the local neighborhood.</s><s xml:id="_Nkhtpv3" coords="16,427.78,641.01,10.14,9.24;17,43.45,365.58,394.54,9.24;17,43.45,376.25,390.90,9.96">In addition, some research <ref type="bibr" coords="17,156.49,365.58,97.07,9.24" target="#b29">[Ripeanu et al. 2002]</ref> has shown that 95% of any two servers are less than 7 hops away; in such situations, messages with TTL = 7 are rarely used.</s></p><p xml:id="_tPhPbuH"><s xml:id="_FcZkQ6d" coords="17,53.41,387.49,384.55,9.24;17,43.45,398.17,218.10,9.96">Figure <ref type="figure" coords="17,86.90,387.49,11.08,9.24" target="#fig_4">13</ref> shows the results of running the HFS algorithm and pure flooding search algorithm on the network graph with M = 80.</s><s xml:id="_TF4jhPn" coords="17,265.79,398.45,172.18,9.24;17,43.45,409.40,394.54,9.24;17,43.45,420.37,173.39,9.24">Running the HFS algorithm without probing or pruning had similar search scope to pure flooding search algorithm, but it had much higher search efficiency.</s><s xml:id="_sRBrtmE" coords="17,220.71,420.37,217.26,9.24;17,43.45,431.05,168.23,9.96">In Figure <ref type="figure" coords="17,269.10,420.37,8.67,9.24" target="#fig_4">13</ref>(b), the efficiency of pure flooding search dropped quickly from TTL = 2.</s><s xml:id="_S89CTzq" coords="17,214.03,431.33,223.93,9.24;17,43.45,442.28,394.54,9.24;17,43.45,453.24,200.83,9.24">This shows the high cost of running pure flooding search on high-degree network graphs, and indicates the saving of search cost by the HFS algorithm is significant by comparison.</s></p><p xml:id="_AFVzX8m"><s xml:id="_tb7KXqC" coords="17,53.42,464.21,384.54,9.24;17,43.45,475.16,394.52,9.24;17,43.45,486.12,394.51,9.24">In summary, from the results of using the low-degree and high-degree network graphs, we find that the search coverage that can be achieved depends on the system scale, the degree of the connectivity of overlay networks, and TTL values chosen.</s><s xml:id="_zyRDYe4" coords="17,43.45,497.07,394.50,9.24;17,43.45,508.04,344.62,9.24">In HFS, the only parameter needed is the TTL value, which is simpler to characterize (tune) than the parameters required for probabilistic search methods.</s><s xml:id="_RYZbGv5" coords="17,391.84,508.04,46.14,9.24;17,43.45,519.00,394.53,9.24;17,43.45,529.95,83.43,9.24">As HFS is a (pure) flooding search algorithm, for sufficiently large TTLs, HFS always finds the data in a network.</s><s xml:id="_7kFXmpD" coords="17,129.32,529.95,308.63,9.24">However, practically smaller TTLs are suitable for typical networks.</s><s xml:id="_wZ8zAfC" coords="17,43.45,540.91,394.54,9.24;17,43.45,551.88,232.59,9.24">In particular, limiting TTLs is necessary to control network overhead because the TTL value controls the number of messages generated.</s><s xml:id="_rkZgnKw" coords="17,279.32,551.88,158.66,9.24;17,43.45,562.83,394.50,9.24;17,43.45,573.79,176.77,9.24">If a piece of data should not be located with the given TTL, policies for trying larger TTLs on retry are possible, although beyond the scope of the current study.</s><s xml:id="_YVPwr2K" coords="17,223.51,573.79,214.48,9.24;17,43.45,584.75,394.52,9.24">Such adaptive TTL policies on retry could also provide further evidence for ways to adapt the overlay network to manage connectivity.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4." xml:id="_tAvcEnc">Effectiveness of Probe and Prune Protocols</head><p xml:id="_xk8sztn"><s xml:id="_JGDEQA7" coords="17,43.45,619.10,394.50,9.24;17,43.45,630.05,75.66,9.24">We studied the effectiveness of probe and prune protocols on the two example overlay network graphs.</s><s xml:id="_Th6u8ny" coords="17,122.55,630.05,315.43,9.24;17,43.45,640.73,394.49,9.96;18,43.38,279.36,97.72,9.24">We ran simulations where every server was scheduled with a set of TTL = 2 lookup requests, and then we evaluated the changes of overlay network graphs  after the simulations.</s><s xml:id="_YT6QaWV" coords="18,143.12,279.36,157.19,9.24">The ratio for pruning used was 0.5.</s><s xml:id="_s24qY3c" coords="18,302.35,279.36,135.54,9.24;18,43.38,290.33,394.50,9.24;18,43.38,301.29,394.52,9.24;18,43.38,312.24,226.35,9.24">This ratio was chosen because we tried to make the servers connected with the same switch to become neighbors, and once a communication ran across more than one switch, the latency is modeled as doubled, which is reasonable for certain networks.</s><s xml:id="_VmRYPuq" coords="18,271.76,312.24,166.14,9.24;18,43.38,323.20,394.51,9.24;18,43.38,334.16,167.81,9.51">In general, the ratio and the shortest neighbor distance together determine the size of the region from which a server adds other servers into its neighbor list.</s></p><p xml:id="_AqjT6ag"><s xml:id="_WeYXq8P" coords="18,53.34,345.12,384.55,9.24;18,43.38,356.08,228.94,9.24">Figure <ref type="figure" coords="18,88.46,345.12,11.08,9.24" target="#fig_20">14</ref> shows the changes of server degree distributions on the two example network graphs by pruning operations of LWDLS.</s><s xml:id="_sZdFqbs" coords="18,275.53,356.08,162.36,9.24;18,43.38,367.04,305.99,9.24">Results showed that the degrees of servers that had high-degree were reduced by pruning operations.</s><s xml:id="_kX9aJwK" coords="18,352.43,367.04,85.49,9.24;18,43.38,377.72,320.04,9.96">This effect is more distinct on the network graph with M = 80 as shown in Figure <ref type="figure" coords="18,337.41,377.99,21.68,9.24" target="#fig_20">14(b)</ref>.</s><s xml:id="_66rsS7G" coords="18,366.79,377.99,71.10,9.24;18,43.38,388.96,394.53,9.24;18,43.38,399.92,394.50,9.24;18,43.38,410.87,145.56,9.24">This is because high-degree servers have more redundant long-distance overlay links because of the mechanism of randomly selecting neighbors when the network was generated (which introduced topology mismatch).</s><s xml:id="_tnr8FWh" coords="18,192.12,410.87,245.77,9.24;18,43.38,421.83,394.53,9.24;18,43.38,432.80,89.90,9.24">Furthermore, high-degree servers had more opportunities to handle pruning operations than others (whether initiated by themselves or by their neighbors).</s><s xml:id="_z9SU93u" coords="18,135.92,432.80,301.96,9.24;18,43.38,443.75,373.28,9.24">The effect of reducing server degrees indicates the effectiveness of pruning operations, and implies the concomitant reduction of topology mismatch.</s></p><p xml:id="_FYNhyyz"><s xml:id="_Vt8Smq8" coords="18,53.34,454.71,384.53,9.24;18,43.38,465.67,50.84,9.24">Figure <ref type="figure" coords="18,88.34,454.71,11.08,9.24" target="#fig_21">15</ref> shows the changes of distribution of neighbor distances after pruning operations.</s><s xml:id="_7Q5j4FZ" coords="18,98.13,465.67,278.17,9.24">These results are from the same simulations shown above.</s><s xml:id="_9VpDNur" coords="18,380.21,465.67,57.65,9.24;18,43.38,476.62,394.49,9.24;18,43.38,487.59,108.98,9.24">The average neighbor distance was reduced on the two example network graphs by pruning operations during search.</s><s xml:id="_69vTHzQ" coords="18,156.27,487.59,281.64,9.24;18,43.38,498.55,107.46,9.24">In Figure <ref type="figure" coords="18,204.71,487.59,21.68,9.24" target="#fig_21">15(a)</ref>, the effect of reducing the average neighbor distance is not distinct.</s><s xml:id="_e2KZQHt" coords="18,153.75,498.55,284.15,9.24;18,43.38,509.50,371.12,9.24">This is because the initial overlay network graph is relatively sparse, and there are a limited number of triangles that can be used by pruning.</s><s xml:id="_j2kYw7w" coords="18,417.42,509.50,20.48,9.24;18,43.38,520.46,394.56,9.24;18,43.38,531.42,35.89,9.24">This implies more time and lookup requests are needed for exploring the physically close servers.</s><s xml:id="_penAD2n" coords="18,81.63,531.14,356.27,9.96;18,43.38,542.38,341.38,9.24">However, on the high-degree network graph with M = 80, the reduction of average neighbor distance is more pronounced than on the low-degree network.</s><s xml:id="_YMC6GrR" coords="18,387.19,542.38,50.72,9.24;18,43.38,553.34,394.55,9.24;18,43.38,564.29,394.53,9.24;18,43.38,575.25,50.84,9.24">In addition to the effect of reducing server degree as shown in Figure <ref type="figure" coords="18,310.29,553.34,8.67,9.24" target="#fig_20">14</ref>(b), these results indicate that reduction of topology mismatch, and thus indicate the effectiveness of the pruning operations.</s></p><p xml:id="_f43UTNn"><s xml:id="_Y4tfWbn" coords="18,53.34,586.22,384.54,9.24;18,43.38,597.17,124.05,9.24">In Figures <ref type="figure" coords="18,102.42,586.22,11.08,9.24" target="#fig_17">12</ref> and<ref type="figure" coords="18,134.64,586.22,9.23,9.24" target="#fig_4">13</ref>, we have also shown the search performance of HFS with probing and/or pruning operations.</s><s xml:id="_JYgkCKd" coords="18,170.85,597.17,267.04,9.24;18,43.38,608.13,394.49,9.51;18,43.38,619.10,394.51,9.24;18,43.38,630.05,54.06,9.24">In Figure <ref type="figure" coords="18,218.32,597.17,8.67,9.24" target="#fig_17">12</ref>(a), HFS with probing achieved larger search scope than pure flooding search using TTL values of 2 and 3 on the low-degree network graph, while having higher search efficiency than pure flooding search algorithm <ref type="bibr" coords="18,408.93,619.10,28.97,9.24;18,43.38,630.05,49.36,9.24" target="#b14">[Jiang et al. 2008]</ref>.</s><s xml:id="_xy3rVYD" coords="18,100.23,630.05,337.66,9.24;18,43.38,641.01,394.48,9.24;19,43.45,297.89,175.89,9.24">Although the efficiency is lower than running HFS without either probing or pruning operations, the extra cost incurred by probing and pruning was compensated by the reduction of topology mismatch.</s><s xml:id="_2AFXhtK" coords="19,221.66,297.89,216.30,9.24;19,43.45,308.56,394.52,9.96;19,43.45,319.80,121.05,9.24">In Figure <ref type="figure" coords="19,266.97,297.89,9.23,9.24" target="#fig_4">13</ref>, on the high-degree network graph with M = 80, HFS running under different modes achieved higher search efficiency than pure flooding search.</s><s xml:id="_zqdrm6p" coords="19,167.57,319.80,270.42,9.24;19,43.45,330.76,394.53,9.51;19,43.45,341.72,87.97,9.24">However, in Figure <ref type="figure" coords="19,259.01,319.80,8.67,9.24" target="#fig_4">13</ref>(b), running HFS with probing using TTL values ranging from 3 to 7 had much higher search efficiency than running HFS under other modes.</s><s xml:id="_9mZRTcM" coords="19,133.77,341.72,116.54,9.24">This is so for two reasons.</s><s xml:id="_NgbUTJB" coords="19,252.65,341.72,185.31,9.24;19,43.45,352.68,342.23,9.24">First, on the high-degree network graph, finding physically close servers is easier than on the low-degree network.</s><s xml:id="_VMJdY66" coords="19,389.14,352.68,48.84,9.24;19,43.45,363.64,394.48,9.24;19,43.45,374.59,241.83,9.24">Second, as more servers that are physically close are grouped as neighbors by probing operations, more triangles are formed in the local neighborhood.</s><s xml:id="_eUyJhsc" coords="19,288.14,374.59,149.85,9.24;19,43.45,385.55,394.51,9.24;19,43.45,396.52,130.73,9.24">Therefore, HFS is able to use the states accumulated from larger number of triangles with updated knowledge bits to reduce redundant messages.</s></p><p xml:id="_xydC26w"><s xml:id="_msXAPVc" coords="19,53.42,407.47,384.54,9.24;19,43.45,418.43,304.06,9.24">In summary, HFS has comparable search scope to pure flooding search algorithm <ref type="bibr" coords="19,74.33,418.43,86.30,9.24" target="#b14">[Jiang et al. 2008]</ref>, but HFS has higher search efficiency.</s><s xml:id="_zVzhkp4" coords="19,352.02,418.43,85.96,9.24;19,43.45,429.39,394.51,9.24;19,43.45,440.35,160.82,9.24">Furthermore, HFS can be used independently without either probing or pruning for cases where reducing topology mismatch is not required.</s><s xml:id="_raFnq9g" coords="19,207.40,440.35,230.57,9.24;19,43.45,451.31,394.53,9.24;19,43.45,462.27,197.40,9.24">As shown in Figure <ref type="figure" coords="19,300.87,440.35,8.67,9.24" target="#fig_4">13</ref>(b), on the high-degree network graph, HFS with probing achieved better search performance than pure flooding search or HFS running under other modes.</s><s xml:id="_7etNsYT" coords="19,243.91,462.27,194.08,9.24;19,43.45,473.22,264.70,9.24">The results clearly show that probing and pruning operations are able to reduce topology mismatch.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_NVeAqXu">CONCLUSIONS AND FUTURE WORK</head><p xml:id="_Je7xaFc"><s xml:id="_TE3efyH" coords="19,43.45,520.47,394.52,9.24;19,43.45,531.42,245.77,9.24">In this article, we presented LWDLS, a lightweight data location service for Exascale storage systems and geo-distributed storage systems.</s><s xml:id="_QrvrSEn" coords="19,292.19,531.42,145.76,9.24;19,43.45,542.38,394.54,9.24">LWDLS provides a search-based solution for locating data; it enables free data placement, movement, and replication.</s><s xml:id="_JH2uef9" coords="19,43.45,553.34,394.52,9.24;19,43.45,564.29,394.52,9.24;19,43.45,575.26,205.86,9.24">With the probe and prune protocols and the HFS algorithm, LWDLS is able to address the problems of topology mismatch and inefficient search performance of the pure flooding search algorithm <ref type="bibr" coords="19,163.50,575.26,81.11,9.24" target="#b14">[Jiang et al. 2008]</ref>.</s></p><p xml:id="_PdXTsJt"><s xml:id="_q7KbEJm" coords="19,53.42,586.22,384.56,9.24;19,43.45,597.17,394.53,9.24;19,43.45,608.13,214.98,9.24">Compared with existing search methods, LWDLS is comparatively more lightweight and scalable in terms of low overhead, high search efficiency, and for its ability to avoid global state as well as periodic messages.</s><s xml:id="_3gvD2xq" coords="19,260.99,608.13,176.98,9.24;19,43.45,619.10,394.53,9.24;19,43.45,630.05,394.49,9.24;19,43.45,641.01,273.71,9.24">For example, LWDLS can be used as an independent data location method in nondeterministic storage systems <ref type="bibr" coords="19,374.53,619.10,63.45,9.24;19,43.45,630.05,50.96,9.24" target="#b25">[Nowoczynski et al. 2008;</ref><ref type="bibr" coords="19,97.30,630.05,81.86,9.24" target="#b6">Curry et al. 2012]</ref> and in deterministic storage systems <ref type="bibr" coords="19,354.84,630.05,83.10,9.24">[Weil et al. 2006b;</ref><ref type="bibr" coords="19,43.45,641.01,77.07,9.24" target="#b41">Yang et al. 2004]</ref> to deal with cases where search is needed.</s></p><p xml:id="_HjvtN67"><s xml:id="_7wRACwq" coords="20,43.38,57.76,22.44,8.29;20,389.56,57.76,7.97,8.29">12:20 Z.</s><s xml:id="_pAvD8VZ" coords="20,400.01,57.76,37.88,8.29">Sun et al.</s></p><p xml:id="_tKNdfUW"><s xml:id="_6Jvm35K" coords="20,53.34,81.61,384.56,9.24;20,43.38,92.56,178.51,9.24">The effectiveness of LWDLS has been tested through extensive simulations modeling large-scale HPC storage environments.</s><s xml:id="_7Qy4kZC" coords="20,225.05,92.56,212.84,9.24;20,43.38,103.52,289.83,9.24">The results show that LWDLS is able to locate data quickly and efficiently with low cost of state maintenance.</s></p><p xml:id="_6pHHvk7"><s xml:id="_G2R9nWq" coords="20,53.34,114.48,384.55,9.24;20,43.38,125.44,394.49,9.24;20,43.38,136.40,56.71,9.24">In this article, we focused mainly on the search algorithm, protocols, and performance, without covering operational aspects such as recovery from hardware or network faults.</s><s xml:id="_5Ac4aN8" coords="20,104.63,136.40,333.24,9.24;20,43.38,147.36,110.62,9.24">In the future, we will extend LWDLS with features such as improved fault-tolerance capacity.</s><s xml:id="_kts6fQX" coords="20,157.42,147.36,280.49,9.24;20,43.38,158.31,208.39,9.24">Furthermore, in this study we focused mainly on the search problem in nondeterministic storage systems.</s><s xml:id="_GS7wzJa" coords="20,254.26,158.31,183.64,9.24;20,43.38,169.28,394.52,9.24;20,43.38,180.24,338.07,9.24">Finding data is a prerequisite to dealing with other related problems of building nondeterministic Exascale storage systems, such as read and write policies, replication mechanisms, and versioning.</s><s xml:id="_JjkEWDJ" coords="20,384.90,180.24,52.98,9.24;20,43.38,191.19,394.52,9.24;20,43.38,202.15,360.81,9.24">In the near future, we will test LWDLS at larger scale with different replication strategies, and test it under other physical network topologies and various network environments.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_ZNSyz65">ELECTRONIC APPENDIX</head><p xml:id="_gZMcNYQ"><s xml:id="_9udJkg6" coords="20,43.38,238.19,382.66,9.24">The electronic appendix for this article can be accessed in the ACM Digital Library.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="6,146.95,168.82,187.39,7.40"><head>Fig. 1 .</head><label>1</label><figDesc><div><p xml:id="_v5QXKF4"><s xml:id="_rm5cVY9" coords="6,146.95,168.85,22.14,7.37">Fig. 1.</s><s xml:id="_3EQjtPk" coords="6,176.37,168.82,157.97,7.39">Definition of a lookup message in LWDLS.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="7,63.49,252.81,354.48,7.40"><head>Fig. 2 .</head><label>2</label><figDesc><div><p xml:id="_Apg3Z8J"><s xml:id="_JWSAhVd" coords="7,63.49,252.81,354.48,7.40">Fig. 2. Diagram of state transitions for servers among the types of server lists used in LWDLS.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="8,43.38,149.82,394.51,7.60;8,43.38,158.78,394.52,7.60;8,43.38,167.75,394.50,7.60;8,43.38,176.72,224.01,7.60"><head>Fig. 3 .</head><label>3</label><figDesc><div><p xml:id="_Pfkhpxf"><s xml:id="_3WhjDH8" coords="8,43.38,149.82,137.76,7.40">Fig. 3. Example of probing operation.</s><s xml:id="_6UTqACZ" coords="8,182.63,149.82,125.78,7.60">(a) B and C are not direct neighbors.</s><s xml:id="_92dr7cy" coords="8,309.88,149.82,128.01,7.60;8,43.38,158.78,394.52,7.60;8,43.38,167.75,60.60,7.39">(b) C starts to probing B, and B sends ACK message back to C. (c) After probing, C may or may not add B into its neighbor list according to their network latency.</s><s xml:id="_kGsfV6k" coords="8,106.26,167.75,331.62,7.60;8,43.38,176.72,224.01,7.60">(d) If C added B into its neighbor list, eventually B will also add C into its neighbor list, because C will send to B messages with the bit of IS NEIGH=1.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="9,43.45,161.81,394.52,7.40;9,43.45,170.79,394.52,7.60;9,43.45,179.75,394.52,7.60;9,43.45,188.71,362.99,7.60"><head>A 9 Fig. 4 .</head><label>94</label><figDesc><div><p xml:id="_cNzfcHr"><s xml:id="_Q7mMGMT" coords="9,43.45,161.81,357.53,7.40">Fig. 4. Pruning operation based on the ratio of the lengths of two adjacent edges of a triangle.</s><s xml:id="_WagzuVE" coords="9,403.83,161.81,34.14,7.39;9,43.45,170.79,326.84,7.60">(a) When A initiates the flooding search, two redundant messages are generated on the edge BC.</s><s xml:id="_FzxVZV2" coords="9,373.43,170.79,64.54,7.39;9,43.45,179.75,199.71,7.60">(b) After pruning the edge AB, two redundant messages are eliminated.</s><s xml:id="_XHXf85a" coords="9,245.97,179.75,192.01,7.60;9,43.45,188.71,362.99,7.60">(c) One example of an ideal case where A and C are physically closer than with B, and topology mismatch is reduced by pruning operations of LWDLS.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="10,43.38,196.81,394.52,7.60;10,43.38,205.79,202.56,7.60"><head>Fig. 5 .</head><label>5</label><figDesc><div><p xml:id="_T5DHtu3"><s xml:id="_dxMwcu2" coords="10,43.38,196.81,151.85,7.40">Fig. 5. Diagram of a pruning operation.</s><s xml:id="_RrnJpke" coords="10,198.12,196.81,239.77,7.60">(a) Server A broadcasts lookup messages with pruning requests.</s><s xml:id="_EYCqUZJ" coords="10,43.38,205.79,202.56,7.60">(b) After pruning, C is removed from A's neighbor list.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="10,171.00,586.22,266.89,9.50;10,43.38,596.89,394.52,9.96;10,43.38,608.13,82.00,9.24"><head></head><label></label><figDesc><div><p xml:id="_x7apkE5"><s xml:id="_wgFhJpZ" coords="10,171.00,586.22,266.89,9.50;10,43.38,596.89,394.52,9.96;10,43.38,608.13,82.00,9.24">Figure 6(d) shows a case where B agrees with A's pruning request, since B is able to reach A (through B → A) and reach C (through B → F → C) after the pruning.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="11,43.45,188.81,394.52,7.60;11,43.45,197.79,394.53,7.60;11,43.45,206.75,364.48,7.60"><head>Fig. 7 .</head><label>7</label><figDesc><div><p xml:id="_A9FsHeH"><s xml:id="_7wyrYxe" coords="11,43.45,188.81,297.76,7.40">Fig. 7. Example of triangles with knowledge bits updated over communications.</s><s xml:id="_Wq7JgQH" coords="11,343.55,188.81,94.43,7.60;11,43.45,197.79,166.52,7.39">(a) Initially, A, B, and C do not know the triangle that they have formed.</s><s xml:id="_6zvu4kK" coords="11,212.31,197.79,225.67,7.60;11,43.45,206.75,83.80,7.39">(b) B broadcast lookup messages to its neighbors, and A and C will forward messages.</s><s xml:id="_e7NK7Hg" coords="11,129.46,206.75,278.47,7.60">(c) A and C received redundant messages, and updated their knowledge bits.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11" coords="12,43.38,251.81,394.52,7.40;12,43.38,260.79,394.52,7.60;12,43.38,269.75,394.52,7.60;12,43.38,278.71,394.53,7.60;12,43.38,287.68,394.53,7.39;12,43.38,296.65,65.71,7.39"><head>Fig. 8 .</head><label>8</label><figDesc><div><p xml:id="_quE2X2A"><s xml:id="_QrmZ4bJ" coords="12,43.38,251.85,22.75,7.37">Fig.8.</s><s xml:id="_SXg4zga" coords="12,73.41,251.81,364.49,7.39;12,43.38,260.79,87.73,7.39">Accumulating states for reducing redundant messages with the support of triangles detected and knowledge bits encoded.</s><s xml:id="_r7hqUCU" coords="12,132.71,260.79,305.19,7.60;12,43.38,269.75,186.52,7.39">(a) After B and C received redundant messages from each other, both of them detected the triangle ABC, and updated the knowledge bits.</s><s xml:id="_hVsjxcy" coords="12,232.09,269.75,205.81,7.60;12,43.38,278.71,394.53,7.60">(b) When B received a redundant message from A, B sent a duplicated message with to A on purpose, so that A detected this triangle and updated the knowledge bits.</s><s xml:id="_NqZfAUf" coords="12,43.38,287.68,394.53,7.39;12,43.38,296.65,65.71,7.39">In (c), (d), and (e), only two messages are needed between the three servers without sending redundant message by HFS.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12" coords="13,43.45,193.82,394.53,7.60;13,43.45,202.78,394.53,7.60;13,43.45,211.75,297.21,7.60"><head>13 Fig. 9 .</head><label>139</label><figDesc><div><p xml:id="_UeghDnK"><s xml:id="_W7nQyGV" coords="13,43.45,193.82,229.62,7.40">Fig. 9. Examples of selectively forwarding messages by HFS.</s><s xml:id="_tnQtVZh" coords="13,275.67,193.82,122.09,7.39">(a) Only one triangle is involved.</s><s xml:id="_daBZmwt" coords="13,400.36,193.82,37.63,7.60;13,43.45,202.78,167.05,7.60">C does not need to send message to B, since A has sent.</s><s xml:id="_ZFvkrhv" coords="13,213.51,202.78,115.35,7.39">(b) Two triangles are involved.</s><s xml:id="_VAVXmY5" coords="13,331.86,202.78,106.12,7.60;13,43.45,211.75,297.21,7.60">For D, the one having larger server ID among B and C should send to D. (c) A number of triangles are involved.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13" coords="13,43.45,433.33,394.55,7.40;13,43.45,442.30,88.49,7.39"><head>Fig. 10 .</head><label>10</label><figDesc><div><p xml:id="_kjagDqM"><s xml:id="_ETkmx3e" coords="13,43.45,433.37,26.34,7.37">Fig. 10.</s><s xml:id="_w8HVUzm" coords="13,77.07,433.33,38.47,7.39">Simulator.</s><s xml:id="_ecR9GKu" coords="13,117.52,433.33,283.98,7.39">(a) Simulated HPC storage system with three-level fat-tree network topology.</s><s xml:id="_CNEmMvY" coords="13,403.47,433.33,34.53,7.39;13,43.45,442.30,88.49,7.39">(b) Architecture of the simulator.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14" coords="14,43.38,319.85,394.53,7.40;14,43.38,328.60,315.75,7.97"><head>Fig. 11 .</head><label>11</label><figDesc><div><p xml:id="_EtKmg6M"><s xml:id="_q9eW4nr" coords="14,43.38,319.89,27.19,7.37">Fig. 11.</s><s xml:id="_A7GQXUz" coords="14,77.85,319.85,205.03,7.39">Two overlay network graphs used for testing LWDLS.</s><s xml:id="_UPEkRbt" coords="14,285.72,319.85,152.19,7.39;14,43.38,328.60,64.34,7.97">(a) Initial degree distribution of network graph with M = 5.</s><s xml:id="_t4VzrzT" coords="14,109.93,328.60,249.20,7.97">(b) Initial degree distribution of overlay network graph with M = 80.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15" coords="15,43.45,57.84,331.44,8.29;15,415.53,57.84,22.43,8.29"><head>A</head><label></label><figDesc><div><p xml:id="_JEhupFU"><s xml:id="_upUmVwb" coords="15,51.93,57.84,322.96,8.29;15,415.53,57.84,22.43,8.29">Lightweight Data Location Service for Nondeterministic Exascale Storage System 12:15</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17" coords="16,43.38,347.59,394.52,7.97;16,43.38,356.78,153.19,7.39"><head>Fig. 12 .</head><label>12</label><figDesc><div><p xml:id="_ZsrQRT2"><s xml:id="_wtpYfGs" coords="16,43.38,347.85,27.15,7.37">Fig. 12.</s><s xml:id="_RZZDGyc" coords="16,77.80,347.59,264.12,7.97">Comparison of search performance on the overlay network with M = 5.</s><s xml:id="_T3e2svk" coords="16,344.72,347.82,93.18,7.39;16,43.38,356.78,21.85,7.39">(a) Comparison of search scope.</s><s xml:id="_JsJ4VsW" coords="16,67.44,356.78,129.13,7.39">(b) Comparison of search efficiency.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18" coords="17,43.45,336.60,394.53,7.97;17,43.45,345.78,153.19,7.39"><head>A</head><label></label><figDesc><div><p xml:id="_bvJgD5g"><s xml:id="_dAyspDV" coords="17,43.45,336.85,27.20,7.37">Fig. 13.</s><s xml:id="_ajC62pu" coords="17,77.93,336.60,263.88,7.97">Comparison of search performance on the network graph with M = 80.</s><s xml:id="_Z6SMUjf" coords="17,344.65,336.82,93.33,7.39;17,43.45,345.78,21.85,7.39">(a) Comparison of search scope.</s><s xml:id="_YA5NaSX" coords="17,67.52,345.78,129.13,7.39">(b) Comparison of search efficiency.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20" coords="18,43.38,234.81,394.50,7.40;18,43.38,243.56,394.52,7.97;18,43.38,252.53,247.87,7.97"><head>Fig. 14 .</head><label>14</label><figDesc><div><p xml:id="_MSCvFrJ"><s xml:id="_SQgvWSx" coords="18,43.38,234.84,26.15,7.37">Fig. 14.</s><s xml:id="_GGwYj88" coords="18,76.81,234.81,361.08,7.39;18,43.38,243.79,71.19,7.39">Effects of probing and pruning operations on the node degree distribution, tested on the two overlay network topologies.</s><s xml:id="_VMH4DD2" coords="18,116.72,243.56,270.12,7.97">(a) Change of node degree distribution on the overlay network with M = 5.</s><s xml:id="_5xgyRqv" coords="18,389.01,243.79,48.89,7.39;18,43.38,252.53,247.87,7.97">(b) Change of node degree distribution on the overlay network graph with M = 80.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21" coords="19,43.45,239.82,394.51,7.40;19,43.45,248.78,394.50,7.39;19,43.45,257.53,394.52,7.97;19,43.45,266.49,44.85,7.97"><head>Fig. 15 .</head><label>15</label><figDesc><div><p xml:id="_G3veaad"><s xml:id="_wZuCKuZ" coords="19,43.45,239.85,27.88,7.37">Fig. 15.</s><s xml:id="_yvndwka" coords="19,78.61,239.82,359.35,7.39;19,43.45,248.78,72.48,7.39">Effects of pruning operations on the neighbor distance distribution, tested on the two overlay network topologies.</s><s xml:id="_3EPw4E9" coords="19,119.38,248.78,318.57,7.39;19,43.45,257.53,63.49,7.97">(a) Distribution of neighbor distance after pruning with the initial overlay network graph with M = 5.</s><s xml:id="_MPB3RZd" coords="19,108.88,257.75,329.09,7.39;19,43.45,266.49,44.85,7.97">(b) Distribution of neighbor distances after pruning with the initial overlay network graph with M = 80.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="14,55.90,81.74,369.49,65.41"><head>Table I .</head><label>I</label><figDesc><div><p xml:id="_fX7TzDj"><s xml:id="_U45aBdF" coords="14,221.30,81.74,66.36,7.37">Configuration Files</s></p></div></figDesc><table coords="14,55.90,95.72,369.49,51.42"><row><cell>File Name</cell><cell>Module</cell><cell>Function</cell></row><row><cell>Routing tables</cell><cell>Switch</cell><cell>Routing messages on the network</cell></row><row><cell>Initial server list</cell><cell>Search</cell><cell>Forming initial overlay network</cell></row><row><cell>List of scheduled lookup requests</cell><cell>Search</cell><cell>Test search performance</cell></row><row><cell>Indices of data objects</cell><cell>Local object storage</cell><cell>Record data objects stored in each server</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="2,165.42,671.07,272.49,6.46"><p xml:id="_xyYNevy"><s xml:id="_7PhmjZk" coords="2,165.42,671.07,272.49,6.46">ACM Transactions on Storage, Vol. 10, No. 3, Article 12, Publication date: July 2014.</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_vsp2Fzu">ACKNOWLEDGMENTS</head><p xml:id="_u3D8F2k">We wish to thank staff in the <rs type="institution">High Performance Computing Laboratory (HPCL) of Computer and Information Sciences (CIS)</rs> at the <rs type="institution">University of Alabama at Birmingham</rs>, including <rs type="person">Amin Hassani</rs>, <rs type="person">Seok Bae Yun</rs>, <rs type="person">Shane Farmer</rs>, <rs type="person">Alex Filby</rs>, and <rs type="person">Zekai Demirezen</rs>, for helping review the draft of this article and providing their valuable feedback and comments.We also wish to thank the <rs type="institution">UAB CIS IT</rs> staff for maintaining the Linux clusters used and for providing timely support.We would like to thank the reviewers for their suggestions and comments that helped improve the quality of this article.</p></div>
+			</div>
+			<div type="funding">
+<div xml:id="_e9MDmzG"><p xml:id="_P2MQt7j">This work was supported in part by the <rs type="funder">United States Department of Energy</rs> under Contract <rs type="grantNumber">DE-AC04-94AL85000</rs> and by the <rs type="funder">National Science Foundation</rs> under grant <rs type="grantNumber">OCI-1064247</rs> and grant <rs type="grantNumber">CCF-1239962</rs>.<rs type="funder">Sandia National Laboratories</rs> is a multiprogram laboratory managed and operated by <rs type="institution">Sandia Corporation</rs>, a wholly owned subsidiary of <rs type="affiliation">Lockheed Martin Corporation</rs>, for the <rs type="funder">U.S. Department of Energy's National Nuclear Security Administration</rs> under contract <rs type="grantNumber">DE-AC04-94AL85000</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_qBNKeqj">
+					<idno type="grant-number">DE-AC04-94AL85000</idno>
+				</org>
+				<org type="funding" xml:id="_VQKpg6b">
+					<idno type="grant-number">OCI-1064247</idno>
+				</org>
+				<org type="funding" xml:id="_NtAenDq">
+					<idno type="grant-number">CCF-1239962</idno>
+				</org>
+				<org type="funding" xml:id="_bcNbrq2">
+					<idno type="grant-number">DE-AC04-94AL85000</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="20,43.38,366.48,394.50,7.39;20,59.32,375.46,378.59,7.39;20,59.32,384.42,378.57,7.60;20,59.32,393.38,133.57,7.39" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="20,166.07,375.46,202.35,7.39" xml:id="_bwYPebE">PLFS: A checkpoint filesystem for parallel applications</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Bent</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Garth</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gary</forename><surname>Grider</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ben</forename><surname>Mcclelland</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Nowoczynski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Nunez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Milo</forename><surname>Polte</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Meghan</forename><surname>Wingate</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1654059.1654081</idno>
+		<ptr target="http://dx.doi.org/10.1145/1654059.1654081" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_EJPEJp8" coord="20,385.12,375.46,52.79,7.39;20,59.32,384.42,307.13,7.39">Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis</title>
+		<meeting>the Conference on High Performance Computing Networking, Storage and Analysis</meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="1" to="12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John Bent, Garth Gibson, Gary Grider, Ben McClelland, Paul Nowoczynski, James Nunez, Milo Polte, and Meghan Wingate. 2009. PLFS: A checkpoint filesystem for parallel applications. In Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis. 1-12. DOI: http:// dx.doi.org/10.1145/1654059.1654081</note>
+</biblStruct>
+
+<biblStruct coords="20,43.38,404.35,394.54,7.39;20,59.32,413.31,378.54,7.39;20,59.32,422.27,378.55,7.39;20,59.32,431.24,43.41,7.39" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="20,154.54,413.31,283.32,7.39;20,59.32,422.27,38.52,7.39" xml:id="_bbBXCc7">ZHT: A light-weight reliable persistent dynamic scalable zero-hop distributed hash table</title>
+		<author>
+			<persName coords=""><forename type="first">Kevin</forename><surname>Brandstatter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dongfang</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ke</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anupam</forename><surname>Rajendran</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Zhao</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ioan</forename><surname>Raicu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tonglin</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiaobing</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Mqpvw8T" coord="20,116.28,422.27,321.59,7.39;20,59.32,431.24,39.46,7.39">Proceedings of the IEEE International Parallel &amp; Distributed Processing Symposium (IPDPS&apos;13)</title>
+		<meeting>the IEEE International Parallel &amp; Distributed Processing Symposium (IPDPS&apos;13)</meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kevin Brandstatter, Dongfang Zhao, Ke Wang, Anupam Rajendran, Zhao Zhang, Ioan Raicu, Tonglin Li, and Xiaobing Zhou. 2013. ZHT: A light-weight reliable persistent dynamic scalable zero-hop distributed hash table. In Proceedings of the IEEE International Parallel &amp; Distributed Processing Symposium (IPDPS&apos;13).</note>
+</biblStruct>
+
+<biblStruct coords="20,43.38,442.20,391.61,7.39;20,59.32,451.16,380.18,7.39;20,59.32,460.14,187.61,7.39" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" coord="20,129.42,442.20,305.57,7.39;20,59.32,451.16,152.21,7.39" xml:id="_3R7R3JN">Microsoft PowerPoint -JBuford-IETF-P2PSIP-Overlay-Systems-v3.ppt-IETF64 P2PSIP AdHoc P2P Overview Buford.pdf</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Buford</surname></persName>
+		</author>
+		<ptr target="http://www.softarmor.com/sipping/meets/ietf64/slides/IETF64P2PSIPAdHocP2POverviewBuford.pdf" />
+		<imprint>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John Buford. 2013. Microsoft PowerPoint -JBuford-IETF-P2PSIP-Overlay-Systems-v3.ppt-IETF64 P2PSIP AdHoc P2P Overview Buford.pdf. (2013). http://www.softarmor.com/sipping/meets/ietf64/slides/ IETF64 P2PSIP AdHoc P2P Overview Buford.pdf.</note>
+</biblStruct>
+
+<biblStruct coords="20,43.38,471.09,394.52,7.39;20,59.32,480.06,309.68,7.39" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="20,334.88,471.09,103.01,7.39;20,59.32,480.06,61.28,7.39" xml:id="_AKQhPpF">PVFS: A parallel file system for linux clusters</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Philip</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Carns</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Ligon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><forename type="middle">B</forename><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rajeev</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Thakur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HajM2m7" coord="20,136.59,480.06,228.59,7.39">Proceedings of the 4th Annual Linux Showcase and Conference</title>
+		<meeting>the 4th Annual Linux Showcase and Conference</meeting>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Philip H. Carns, Walter B. Ligon, III, Robert B. Ross, and Rajeev Thakur. 2000. PVFS: A parallel file system for linux clusters. In Proceedings of the 4th Annual Linux Showcase and Conference.</note>
+</biblStruct>
+
+<biblStruct coords="20,43.38,491.02,394.52,7.39;20,59.32,499.99,378.57,7.39;20,59.32,508.95,378.57,7.60;20,59.32,517.92,124.74,7.39" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="20,374.37,491.02,63.53,7.39;20,59.32,499.99,92.49,7.39" xml:id="_rVpMyxV">Making gnutellalike P2P systems scalable</title>
+		<author>
+			<persName coords=""><forename type="first">Yatin</forename><surname>Chawathe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sylvia</forename><surname>Ratnasamy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lee</forename><surname>Breslau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nick</forename><surname>Lanham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Shenker</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/863955.864000</idno>
+		<ptr target="http://dx.doi.org/10.1145/863955.864000" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nzcVmW8" coord="20,167.53,499.99,270.36,7.39;20,59.32,508.95,226.33,7.39">Proceedings of the Conference on Applications, Technologies, Architectures, and Protocols for Computer Communications (SIGCOMM&apos;03)</title>
+		<meeting>the Conference on Applications, Technologies, Architectures, and Protocols for Computer Communications (SIGCOMM&apos;03)<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="407" to="418" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yatin Chawathe, Sylvia Ratnasamy, Lee Breslau, Nick Lanham, and Scott Shenker. 2003. Making gnutella- like P2P systems scalable. In Proceedings of the Conference on Applications, Technologies, Architectures, and Protocols for Computer Communications (SIGCOMM&apos;03). ACM, New York, 407-418. DOI: http:// dx.doi.org/10.1145/863955.864000</note>
+</biblStruct>
+
+<biblStruct coords="20,43.38,528.76,394.53,7.51;20,59.32,537.84,378.57,7.60;20,59.32,546.81,147.00,7.39" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="20,348.68,528.88,89.22,7.39;20,59.32,537.84,219.04,7.39" xml:id="_EWqYUq2">Probabilistic flooding in stochastic networks: Analysis of global information outreach</title>
+		<author>
+			<persName coords=""><forename type="first">Sérgio</forename><surname>Crisóstomo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Udo</forename><surname>Schilcher</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christian</forename><surname>Bettstetter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jo</forename><surname>Ão</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Barros</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.comnet.2011.08.014</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.comnet.2011.08.014" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_m2pgXvE" coord="20,284.14,537.84,53.89,7.39">Comput. Netw</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="142" to="156" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sérgio Crisóstomo, Udo Schilcher, Christian Bettstetter, and Jo ão Barros. 2012. Probabilistic flooding in stochastic networks: Analysis of global information outreach. Comput. Netw. 56, 1, 142-156. DOI: http:// dx.doi.org/10.1016/j.comnet.2011.08.014</note>
+</biblStruct>
+
+<biblStruct coords="20,43.38,557.77,394.52,7.39;20,59.32,566.73,378.32,7.39;20,59.32,575.70,157.70,7.39" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" coord="20,257.38,557.77,180.52,7.39;20,59.32,566.73,41.51,7.39" xml:id="_RbCMQz5">Using the Sirocco file system for high-bandwidth checkpoints</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Matthew</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ruth</forename><surname>Curry</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">Lee</forename><surname>Klundt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Ward</surname></persName>
+		</author>
+		<idno>SAND2012-1087</idno>
+		<ptr target="http://prod.sandia.gov/techlib/access-control.cgi/2012/121087.pdf" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<pubPlace>Sandia National Laboratories</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Matthew L. Curry, Ruth Klundt, and H. Lee Ward. 2012. Using the Sirocco file system for high-bandwidth checkpoints. Sandia National Laboratories, Technical Report SAND2012-1087. http://prod.sandia.gov/ techlib/access-control.cgi/2012/121087.pdf .</note>
+</biblStruct>
+
+<biblStruct coords="20,43.38,586.66,394.50,7.39;20,59.32,595.62,378.57,7.39;20,59.32,604.60,378.28,7.60;20,59.32,613.56,64.21,7.39" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="20,367.42,595.62,70.47,7.39;20,59.32,604.60,117.25,7.39" xml:id="_MwtQNQQ">Dynamo: Amazon&apos;s highly available key-value store</title>
+		<author>
+			<persName coords=""><forename type="first">Giuseppe</forename><surname>Decandia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Deniz</forename><surname>Hastorun</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Madan</forename><surname>Jampani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gunavardhan</forename><surname>Kakulapati</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Avinash</forename><surname>Lakshman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alex</forename><surname>Pilchin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Swaminathan</forename><surname>Sivasubramanian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><surname>Vosshall</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Werner</forename><surname>Vogels</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1323293.1294281</idno>
+		<ptr target="http://dx.doi.org/10.1145/1323293.1294281" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bnzpXY6" coord="20,182.56,604.60,91.41,7.39">SIGOPS Oper. Syst. Rev</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="205" to="220" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati, Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall, and Werner Vogels. 2007. Dynamo: Amazon&apos;s highly available key-value store. SIGOPS Oper. Syst. Rev. 41, 205-220. DOI: http://dx.doi.org/10.1145/ 1323293.1294281</note>
+</biblStruct>
+
+<biblStruct coords="20,43.38,624.52,394.51,7.39;20,59.32,633.49,378.59,7.39;20,59.32,642.45,378.57,7.39;21,415.53,57.84,22.43,8.29;21,59.40,82.06,378.56,7.39;21,59.40,91.02,188.78,7.39" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="20,283.21,624.52,154.67,7.39;20,59.32,633.49,136.01,7.39" xml:id="_WyXdXPZ">A framework for end-to-end simulation of high-performance computing systems</title>
+		<author>
+			<persName coords=""><forename type="first">Wolfgang</forename><forename type="middle">E</forename><surname>Denzel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jian</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yuho</forename><surname>Jin</surname></persName>
+		</author>
+		<ptr target="http://dl.acm.org/citation.cfm?id=1416222.1416248" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_JXJHhJx" coord="20,211.63,633.49,226.27,7.39;20,59.32,642.45,352.71,7.39">Proceedings of the 1st International Conference on Simulation Tools and Techniques for Communications, Networks and Systems &amp; Workshops (Simutools&apos;08)</title>
+		<meeting>the 1st International Conference on Simulation Tools and Techniques for Communications, Networks and Systems &amp; Workshops (Simutools&apos;08)</meeting>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">21</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Wolfgang E. Denzel, Jian Li, Peter Walker, and Yuho Jin. 2008. A framework for end-to-end simulation of high-performance computing systems. In Proceedings of the 1st International Conference on Simulation Tools and Techniques for Communications, Networks and Systems &amp; Workshops (Simutools&apos;08). ICST 12:21 (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering), Article 21, http://dl.acm.org/citation.cfm?id=1416222.1416248.</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,101.97,394.53,7.39;21,59.40,110.95,378.58,7.39;21,59.40,119.91,57.39,7.39" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="21,123.66,101.97,314.32,7.39;21,59.40,110.95,14.06,7.39" xml:id="_Zf2UQGR">Impact of architecture and technology for extreme scale on software and algorithm design</title>
+		<author>
+			<persName coords=""><forename type="first">Jack</forename><surname>Dongarra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_KkreUA6" coord="21,88.53,110.95,247.11,7.39">Proceedings of the Department of Energy Workshop on Cross-Cutting</title>
+		<meeting>the Department of Energy Workshop on Cross-Cutting</meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Technologies for Computing at the Exascale</note>
+	<note type="raw_reference">Jack Dongarra. 2010. Impact of architecture and technology for extreme scale on software and algorithm de- sign. In Proceedings of the Department of Energy Workshop on Cross-Cutting Technologies for Computing at the Exascale.</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,130.87,394.53,7.39;21,59.40,139.84,378.53,7.60;21,59.40,148.80,52.56,7.39" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="21,211.41,130.87,226.57,7.39;21,59.40,139.84,51.35,7.39" xml:id="_EQ7eMJh">Generalized probabilistic flooding in unstructured peer-topeer networks</title>
+		<author>
+			<persName coords=""><forename type="first">Rossano</forename><surname>Gaeta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matteo</forename><surname>Sereno</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPDS.2011.82</idno>
+		<ptr target="http://dx.doi.org/10.1109/TPDS.2011.82" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RWTD4GM" coord="21,117.96,139.84,131.21,7.39">IEEE Trans. Parallel Distrib. Syst</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2055" to="2062" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rossano Gaeta and Matteo Sereno. 2011. Generalized probabilistic flooding in unstructured peer-to- peer networks. IEEE Trans. Parallel Distrib. Syst. 22, 12, 2055-2062. DOI: http://dx.doi.org/10.1109/ TPDS.2011.82</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,159.76,394.53,7.39;21,59.40,168.73,378.28,7.39;21,59.40,177.69,139.57,7.39" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="21,285.41,159.76,82.30,7.39" xml:id="_A2Ye7QB">The Google file system</title>
+		<author>
+			<persName coords=""><forename type="first">Sanjay</forename><surname>Ghemawat</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Howard</forename><surname>Gobioff</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shun-Tak</forename><surname>Leung</surname></persName>
+		</author>
+		<ptr target="http://www.cs.rochester.edu/sosp2003/papers/p125-ghemawat.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_f9ppbCF" coord="21,385.06,159.76,52.92,7.39;21,59.40,168.73,237.14,7.39">Proceedings of the 19th ACM Symposium on Operating Systems Principles. ACM</title>
+		<meeting>the 19th ACM Symposium on Operating Systems Principles. ACM</meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="96" to="108" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanjay Ghemawat, Howard Gobioff, and Shun-Tak Leung. 2003. The Google file system. In Proceedings of the 19th ACM Symposium on Operating Systems Principles. ACM, 96-108. http://www.cs.rochester.edu/ sosp2003/papers/p125-ghemawat.pdf .</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,188.65,394.52,7.39;21,59.40,197.62,378.56,7.39;21,59.40,206.59,378.50,7.60;21,59.40,215.55,31.00,7.39" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="21,268.31,188.65,169.66,7.39;21,59.40,197.62,60.31,7.39" xml:id="_vRY7EE5">Hybrid search schemes for unstructured peerto-peer networks</title>
+		<author>
+			<persName coords=""><forename type="first">Christos</forename><surname>Gkantsidis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Milena</forename><surname>Mihail</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Amin</forename><surname>Saberi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/INFCOM.2005.1498436</idno>
+		<ptr target="http://dx.doi.org/10.1109/INFCOM.2005.1498436" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_JA7UhPC" coord="21,136.65,197.62,301.31,7.39;21,59.40,206.59,133.58,7.39">Proceedings of the 24th Annual Joint Conference of the IEEE Computer and Communications Societies (INFOCom&apos;05)</title>
+		<meeting>the 24th Annual Joint Conference of the IEEE Computer and Communications Societies (INFOCom&apos;05)</meeting>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1526" to="1537" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christos Gkantsidis, Milena Mihail, and Amin Saberi. 2005. Hybrid search schemes for unstructured peer- to-peer networks. In Proceedings of the 24th Annual Joint Conference of the IEEE Computer and Com- munications Societies (INFOCom&apos;05). Vol. 3, 1526-1537. DOI: http://dx.doi.org/10.1109/INFCOM.2005. 1498436</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,226.51,394.55,7.39;21,59.40,235.48,378.57,7.39;21,59.40,244.44,304.98,7.39" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="21,270.76,226.51,152.97,7.39" xml:id="_3aQTg6p">One hop lookups for peer-to-peer overlays</title>
+		<author>
+			<persName coords=""><forename type="first">Anjali</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Barbara</forename><surname>Liskov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rodrigo</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<ptr target="http://dl.acm.org/citation.cfm?id=1251054.1251056" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wg4KwGF" coord="21,59.40,235.48,311.63,7.39">Proceedings of the 9th Conference on Hot Topics in Operating Systems (HOTOS&apos;03)</title>
+		<meeting>the 9th Conference on Hot Topics in Operating Systems (HOTOS&apos;03)<address><addrLine>Berkeley, CA, 2-2</addrLine></address></meeting>
+		<imprint>
+			<publisher>USENIX Association</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">9</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anjali Gupta, Barbara Liskov, and Rodrigo Rodrigues. 2003. One hop lookups for peer-to-peer overlays. In Proceedings of the 9th Conference on Hot Topics in Operating Systems (HOTOS&apos;03). Vol. 9, USENIX Association, Berkeley, CA, 2-2. http://dl.acm.org/citation.cfm?id=1251054.1251056.</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,255.40,394.54,7.39;21,59.40,264.37,378.55,7.39;21,59.40,273.33,177.40,7.60" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="21,288.80,255.40,149.19,7.39;21,59.40,264.37,185.45,7.39" xml:id="_gH6Pv5F">LightFlood: Minimizing redundant messages and maximizing scope of peer-to-peer search</title>
+		<author>
+			<persName coords=""><forename type="first">Song</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lei</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiaodong</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Haodong</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPDS.2007.70772</idno>
+		<ptr target="http://dx.doi.org/10.1109/TPDS.2007.70772" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_AKnbY7h" coord="21,251.09,264.37,128.45,7.39">IEEE Trans. Parallel Distrib. Syst</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="601" to="614" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Song Jiang, Lei Guo, Xiaodong Zhang, and Haodong Wang. 2008. LightFlood: Minimizing redundant mes- sages and maximizing scope of peer-to-peer search. IEEE Trans. Parallel Distrib. Syst. 19, 5, 601-614. DOI: http://dx.doi.org/10.1109/TPDS.2007.70772</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,284.29,296.92,7.60" xml:id="b15">
+	<monogr>
+		<ptr target="http://www.audioscrobbler.net/development/ketama/" />
+		<title level="m" xml:id="_RvZbNnJ" coord="21,97.15,284.29,27.02,7.39">Ketama</title>
+		<imprint>
+			<publisher>Ketama</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ketama 2013. Ketama. http://www.audioscrobbler.net/development/ketama/.</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,295.25,394.56,7.39;21,59.40,304.22,317.08,7.60" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="21,228.07,295.25,205.93,7.39" xml:id="_7QeRTsQ">Cassandra: A decentralized structured storage system</title>
+		<author>
+			<persName coords=""><forename type="first">Avinash</forename><surname>Lakshman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Prashant</forename><surname>Malik</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1773912.1773922</idno>
+		<ptr target="http://dx.doi.org/10.1145/1773912.1773922" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9XwGHjV" coord="21,59.40,304.22,90.37,7.39">SIGOPS Oper. Syst. Rev</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="35" to="40" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Avinash Lakshman and Prashant Malik. 2010. Cassandra: A decentralized structured storage system. SIGOPS Oper. Syst. Rev. 44, 2, 35-40. DOI: http://dx.doi.org/10.1145/1773912.1773922</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,315.17,394.51,7.39;21,59.40,324.15,378.56,7.60;21,59.40,333.11,126.36,7.39" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="21,327.09,315.17,110.87,7.39;21,59.40,324.15,131.82,7.39" xml:id="_HSfuV7h">Dynamic search algorithm in unstructured peer-to-peer networks</title>
+		<author>
+			<persName coords=""><forename type="first">Tsungnan</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pochiang</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hsinping</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Chiahung</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPDS.2008.134</idno>
+		<ptr target="http://dx.doi.org/10.1109/TPDS.2008.134" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FsD4uPt" coord="21,198.70,324.15,128.33,7.39">IEEE Trans. Parall. Distrib. Syst</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="654" to="666" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsungnan Lin, Pochiang Lin, Hsinping Wang, and Chiahung Chen. 2009. Dynamic search algorithm in unstructured peer-to-peer networks. IEEE Trans. Parall. Distrib. Syst. 20, 5, 654-666. DOI: http:// dx.doi.org/10.1109/TPDS.2008.134</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,344.07,394.52,7.39;21,59.40,353.04,221.71,7.60" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="21,114.06,344.07,178.38,7.39" xml:id="_g86utjb">A two-hop solution to solving topology mismatch</title>
+		<author>
+			<persName coords=""><forename type="first">Yunhao</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPDS.2008.24</idno>
+		<ptr target="http://dx.doi.org/10.1109/TPDS.2008.24" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CKuuXpE" coord="21,299.35,344.07,124.94,7.39">IEEE Trans. Parall. Distrib. Syst</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1591" to="1600" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yunhao Liu. 2008. A two-hop solution to solving topology mismatch. IEEE Trans. Parall. Distrib. Syst. 19, 11, 1591-1600. DOI: http://dx.doi.org/10.1109/TPDS.2008.24</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,363.99,394.52,7.39;21,59.40,372.96,378.27,7.60;21,59.40,381.93,52.56,7.39" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="21,305.38,363.99,132.59,7.39;21,59.40,372.96,74.39,7.39" xml:id="_bcG6EdH">Location awareness in unstructured peer-to-peer systems</title>
+		<author>
+			<persName coords=""><forename type="first">Yunhao</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Li</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiaomei</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">M</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiaodong</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPDS.2005.21</idno>
+		<ptr target="http://dx.doi.org/10.1109/TPDS.2005.21" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Ntj5VRZ" coord="21,140.27,372.96,124.66,7.39">IEEE Trans. Parall. Distrib. Syst</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="163" to="174" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yunhao Liu, Li Xiao, Xiaomei Liu, L.M. Ni, and Xiaodong Zhang. 2005. Location awareness in unstructured peer-to-peer systems. IEEE Trans. Parall. Distrib. Syst. 16, 2, 163-174. DOI: http://dx.doi.org/10.1109/ TPDS.2005.21</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,392.89,394.51,7.39;21,59.40,401.85,378.59,7.39" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="21,321.12,392.89,116.84,7.39;21,59.40,401.85,50.67,7.39" xml:id="_9BUkeZw">The case for a hybrid p2p search infrastructure</title>
+		<author>
+			<persName coords=""><forename type="first">Thau</forename><surname>Boon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ryan</forename><surname>Loo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ion</forename><surname>Huebsch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Joseph</forename><forename type="middle">M</forename><surname>Stoica</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Hellerstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_7QcXVyz" coord="21,127.13,401.85,306.98,7.39">Proceedings of the 3rd International Conference on Peer-to-Peer Systems (IPTPS&apos;04)</title>
+		<meeting>the 3rd International Conference on Peer-to-Peer Systems (IPTPS&apos;04)</meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boon Thau Loo, Ryan Huebsch, Ion Stoica, and Joseph M. Hellerstein. 2004. The case for a hybrid p2p search infrastructure. In Proceedings of the 3rd International Conference on Peer-to-Peer Systems (IPTPS&apos;04).</note>
+</biblStruct>
+
+<biblStruct coords="21,59.40,410.82,367.95,7.60" xml:id="b21">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1007/978-3-540-30183-7\14</idno>
+		<ptr target="http://dx.doi.org/10.1007/978-3-540-30183-7\14" />
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<biblScope unit="page" from="141" to="150" />
+			<pubPlace>Berlin, Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Springer-Verlag, Berlin, Heidelberg, 141-150. DOI: http://dx.doi.org/10.1007/978-3-540-30183-7\ 14</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,421.78,394.52,7.39;21,59.40,430.74,378.57,7.39;21,59.40,439.71,257.34,7.60" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="21,290.53,421.78,147.45,7.39;21,59.40,430.74,78.32,7.39" xml:id="_SJnphV3">Search and replication in unstructured peer-to-peer networks</title>
+		<author>
+			<persName coords=""><forename type="first">Qin</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pei</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Edith</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kai</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Shenker</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/514191.514206</idno>
+		<ptr target="http://dx.doi.org/10.1145/514191.514206" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_3jR66Kz" coord="21,153.77,430.74,280.61,7.39">Proceedings of the 16th International Conference on Supercomputing (ICS&apos;02)</title>
+		<meeting>the 16th International Conference on Supercomputing (ICS&apos;02)<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="84" to="95" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qin Lv, Pei Cao, Edith Cohen, Kai Li, and Scott Shenker. 2002. Search and replication in unstructured peer-to-peer networks. In Proceedings of the 16th International Conference on Supercomputing (ICS&apos;02). ACM, New York, 84-95. DOI: http://dx.doi.org/10.1145/514191.514206</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,450.67,394.52,7.39;21,59.40,459.63,378.59,7.39;21,59.40,468.61,269.30,7.39;21,43.45,479.56,223.72,7.60" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="21,220.53,450.67,217.44,7.39;21,59.40,459.63,41.73,7.39" xml:id="_pA479Ep">Kademlia: A peer-to-peer information system based on the XOR metric</title>
+		<author>
+			<persName coords=""><forename type="first">Petar</forename><surname>Maymounkov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Mazières</surname></persName>
+		</author>
+		<ptr target="http://www.memcached.org/" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_kAhRm7Q" coord="21,117.04,459.63,317.07,7.39">Revised Papers from the 1st International Workshop on Peer-to-Peer Systems (IPTPS&apos;01)</title>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="2002">2002. 2013</date>
+			<biblScope unit="page" from="53" to="65" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petar Maymounkov and David Mazières. 2002. Kademlia: A peer-to-peer information system based on the XOR metric. In Revised Papers from the 1st International Workshop on Peer-to-Peer Systems (IPTPS&apos;01). Springer-Verlag, 53-65. http://dl.acm.org/citation.cfm?id=646334.687801. Memcached 2013. Memcached. http://www.memcached.org/.</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,490.52,394.50,7.39;21,59.40,499.48,378.51,7.60;21,59.40,508.45,26.57,7.39" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="21,272.19,490.52,165.76,7.39;21,59.40,499.48,109.26,7.39" xml:id="_WFzgyzX">Random graphs with arbitrary degree distributions and their applications</title>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Steven</forename><surname>Strogatz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Duncan</forename><forename type="middle">J</forename><surname>Watts</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevE.64.026118</idno>
+		<ptr target="http://dx.doi.org/10.1103/PhysRevE.64.026118" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qsNrPq8" coord="21,174.52,499.48,45.00,7.39">Phys. Rev. E</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page">26118</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mark Newman, Steven Strogatz, and Duncan J. Watts. 2001. Random graphs with arbitrary degree distri- butions and their applications. Phys. Rev. E 64, 2, 026118. DOI: http://dx.doi.org/10.1103/PhysRevE.64. 026118</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,519.41,394.50,7.39;21,59.40,528.37,378.56,7.60;21,59.40,537.35,145.88,7.39" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="21,348.22,519.41,89.73,7.39;21,59.40,528.37,122.24,7.39" xml:id="_SqfmYwZ">Zest Checkpoint storage system for large supercomputers</title>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Nowoczynski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nathan</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jared</forename><surname>Yanovich</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jason</forename><surname>Sommerfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/PDSW.2008.4811883</idno>
+		<ptr target="http://dx.doi.org/10.1109/PDSW.2008.4811883" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_7r4gt6w" coord="21,200.87,528.37,163.38,7.39">Petascale Data Storage Workshop (PDSW&apos;08</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="1" to="5" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paul Nowoczynski, Nathan Stone, Jared Yanovich, and Jason Sommerfield. 2008. Zest Checkpoint storage system for large supercomputers. In Petascale Data Storage Workshop (PDSW&apos;08). 1-5. DOI: http:// dx.doi.org/10.1109/PDSW.2008.4811883</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,548.30,394.51,7.39;21,59.40,557.27,378.55,7.60;21,59.40,566.24,170.04,7.39" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="21,329.87,548.30,108.09,7.39;21,59.40,557.27,224.00,7.39" xml:id="_bHXArE3">Probabilistic flooding for efficient information dissemination in random graph topologies</title>
+		<author>
+			<persName coords=""><forename type="first">Konstantinos</forename><surname>Oikonomou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dimitrios</forename><surname>Kogias</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ioannis</forename><surname>Stavrakakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.comnet.2010.01.007</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.comnet.2010.01.007" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PjeSgC3" coord="21,289.88,557.27,54.94,7.39">Comput. Netw</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1615" to="1629" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Konstantinos Oikonomou, Dimitrios Kogias, and Ioannis Stavrakakis. 2010. Probabilistic flooding for effi- cient information dissemination in random graph topologies. Comput. Netw. 54, 10, 1615-1629. DOI: http://dx.doi.org/10.1016/j.comnet.2010.01.007</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,577.19,394.48,7.60;21,59.40,586.16,55.61,7.39" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="21,119.45,577.19,120.02,7.39" xml:id="_HtnXCV9">The problem of the random walk</title>
+		<author>
+			<persName coords=""><forename type="first">Karl</forename><surname>Pearson</surname></persName>
+		</author>
+		<idno>1038/072294b0</idno>
+		<ptr target="http://dx.doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bbArrdB" coord="21,246.00,577.19,25.82,7.39">Nature</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="294" to="294" />
+			<date type="published" when="1905">1905</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karl Pearson. 1905. The problem of the random walk. Nature 72, 1865, 294-294. DOI: http://dx.doi.org/10. 1038/072294b0</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,597.12,394.53,7.39;21,59.40,606.09,378.27,7.60;21,59.40,615.05,55.35,7.39" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="21,368.99,597.12,69.00,7.39;21,59.40,606.09,74.14,7.39" xml:id="_mDQCH2C">A scalable contentaddressable network</title>
+		<author>
+			<persName coords=""><forename type="first">Sylvia</forename><surname>Ratnasamy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><surname>Handley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><surname>Karp</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Shenker</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/964723.383072</idno>
+		<ptr target="http://dx.doi.org/10.1145/964723.383072" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_NvCFdtA" coord="21,139.39,606.09,70.34,7.39">SIGCOMM Comput</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="161" to="172" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sylvia Ratnasamy, Paul Francis, Mark Handley, Richard Karp, and Scott Shenker. 2001. A scalable content- addressable network. SIGCOMM Comput. Commun. Rev. 31, 4, 161-172. DOI: http://dx.doi.org/10.1145/ 964723.383072</note>
+</biblStruct>
+
+<biblStruct coords="21,43.45,626.02,394.52,7.39;21,59.40,634.98,235.85,7.60;22,43.38,57.76,22.44,8.29;22,389.56,57.76,48.34,8.29" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="21,264.23,626.02,113.49,7.39" xml:id="_aQM6aGS">Mapping the gnutella network</title>
+		<author>
+			<persName coords=""><forename type="first">Matei</forename><surname>Ripeanu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Adriana</forename><surname>Iamnitchi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ian</forename><surname>Foster</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/4236.978369</idno>
+		<ptr target="http://dx.doi.org/10.1109/4236.978369" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_v32xVSN" coord="21,385.03,626.02,52.94,7.39;21,59.40,634.98,31.29,7.39">IEEE Internet Comput</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matei Ripeanu, Adriana Iamnitchi, and Ian Foster. 2002. Mapping the gnutella network. IEEE Internet Comput. 6, 1, 50-57. DOI: http://dx.doi.org/10.1109/4236.978369 12:22 Z. Sun et al.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,82.06,394.52,7.39;22,59.32,91.02,378.56,7.39;22,59.32,99.98,286.96,7.60" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="22,189.57,82.06,215.43,7.39" xml:id="_CRJ2DVz">zFS -A scalable distributed file system using object disks</title>
+		<author>
+			<persName coords=""><forename type="first">Ohad</forename><surname>Rodeh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Avi</forename><surname>Teperman</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MASS.2003.1194858</idno>
+		<ptr target="http://dx.doi.org/10.1109/MASS.2003.1194858" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_pWPg9tP" coord="22,422.41,82.06,15.50,7.39;22,59.32,91.02,378.56,7.39;22,59.32,99.98,57.42,7.39">Proceedings of the 20th IEEE/11th NASA Goddard Conference on Mass Storage Systems and Technologies, 2003 (MSST&apos;03)</title>
+		<meeting>the 20th IEEE/11th NASA Goddard Conference on Mass Storage Systems and Technologies, 2003 (MSST&apos;03)</meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="207" to="218" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ohad Rodeh and Avi Teperman. 2003. zFS -A scalable distributed file system using object disks. In Pro- ceedings of the 20th IEEE/11th NASA Goddard Conference on Mass Storage Systems and Technologies, 2003 (MSST&apos;03). 207-218. DOI: http://dx.doi.org/10.1109/MASS.2003.1194858</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,110.95,394.52,7.39;22,59.32,119.91,378.59,7.39;22,59.32,128.87,271.45,7.39" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="22,216.04,110.95,221.87,7.39;22,59.32,119.91,129.10,7.39" xml:id="_DM4UZdK">Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems</title>
+		<author>
+			<persName coords=""><forename type="first">Antony</forename><surname>Rowstron</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><surname>Druschel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_mMDEJqc" coord="22,205.47,119.91,232.44,7.39;22,59.32,128.87,149.56,7.39">Proceedings of the IFIP/ACM International Conference on Distributed Systems Platforms (Middleware)</title>
+		<meeting>the IFIP/ACM International Conference on Distributed Systems Platforms (Middleware)<address><addrLine>Heidelberg, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="329" to="350" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Antony Rowstron and Peter Druschel. 2001. Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems. In Proceedings of the IFIP/ACM International Conference on Dis- tributed Systems Platforms (Middleware), Heidelberg, Germany, 329-350.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,139.84,394.52,7.39;22,59.32,148.80,293.80,7.39" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="22,162.85,139.84,216.97,7.39" xml:id="_c2QkKw9">GPFS: A shared-disk file system for large computing clusters</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Schmuck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Haskin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_7CzQS3g" coord="22,394.23,139.84,43.68,7.39;22,59.32,148.80,235.36,7.39">Proceedings of the 1st Conference on File and Storage Technologies (FAST&apos;02)</title>
+		<meeting>the 1st Conference on File and Storage Technologies (FAST&apos;02)<address><addrLine>Monterey, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Schmuck and R. Haskin. 2002. GPFS: A shared-disk file system for large computing clusters. In Proceedings of the 1st Conference on File and Storage Technologies (FAST&apos;02), Monterey, CA.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,159.76,394.53,7.39;22,59.32,168.73,54.17,7.39" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coord="22,126.31,159.76,200.59,7.39" xml:id="_s6U3gw6">Lustre: Building a file system for 1,000-node clusters</title>
+		<author>
+			<persName coords=""><forename type="first">Philip</forename><surname>Schwan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5NBQDB5" coord="22,344.94,159.76,92.97,7.39;22,59.32,168.73,40.78,7.39">Proceedings of the Linux Symposium</title>
+		<meeting>the Linux Symposium</meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Philip Schwan. 2003. Lustre: Building a file system for 1,000-node clusters. In Proceedings of the Linux Symposium. 9.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,179.69,394.49,7.39;22,59.32,188.65,373.90,7.60" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coord="22,261.27,179.69,176.60,7.39;22,59.32,188.65,74.96,7.39" xml:id="_HDmY8uV">Cycloid: A constant-degree and lookup-efficient P2P overlay network</title>
+		<author>
+			<persName coords=""><forename type="first">Haiying</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cheng-Zhong</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Guihai</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.peva.2005.01.004</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.peva.2005.01.004" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dGPtZe4" coord="22,140.58,188.65,52.90,7.39">Perform. Eval</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="195" to="216" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haiying Shen, Cheng-Zhong Xu, and Guihai Chen. 2006. Cycloid: A constant-degree and lookup-efficient P2P overlay network. Perform. Eval. 63, 3, 195-216. DOI: http://dx.doi.org/10.1016/j.peva.2005.01.004</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,199.61,394.53,7.39;22,59.32,208.58,126.10,7.39" xml:id="b35">
+	<monogr>
+		<title level="m" type="main" coord="22,239.13,199.61,198.78,7.39;22,59.32,208.58,41.69,7.39" xml:id="_pTjS6cZ">Probabilistic heuristics for disseminating information in networks</title>
+		<author>
+			<persName coords=""><forename type="first">Alexandre</forename><forename type="middle">O</forename><surname>Stauffer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Valmir</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Barbosa</surname></persName>
+		</author>
+		<idno>cs.NI/0409001</idno>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alexandre O. Stauffer and Valmir C. Barbosa. 2004. Probabilistic heuristics for disseminating information in networks. CoRR cs.NI/0409001.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,219.54,394.53,7.39;22,59.32,228.50,378.58,7.39;22,59.32,237.47,202.35,7.60" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="22,403.56,219.54,34.35,7.39;22,59.32,228.50,220.20,7.39" xml:id="_w5RFmMu">Chord: A scalable peer-to-peer lookup service for internet applications</title>
+		<author>
+			<persName coords=""><forename type="first">Ion</forename><surname>Stoica</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Karger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">Frans</forename><surname>Kaashoek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hari</forename><surname>Balakrishnan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/964723.383071</idno>
+		<ptr target="http://dx.doi.org/10.1145/964723.383071" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Bc8svZK" coord="22,285.27,228.50,70.74,7.39">SIGCOMM Comput</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="149" to="160" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ion Stoica, Robert Morris, David Karger, M. Frans Kaashoek, and Hari Balakrishnan. 2001. Chord: A scalable peer-to-peer lookup service for internet applications. SIGCOMM Comput. Commun. Rev. 31, 4, 149-160. DOI: http://dx.doi.org/10.1145/964723.383071</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,248.43,394.50,7.39;22,59.32,257.39,366.36,7.39" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="22,166.44,248.43,257.03,7.39" xml:id="_kcyQfqa">An efficient data location protocol for self-organizing storage clusters</title>
+		<author>
+			<persName coords=""><forename type="first">Hong</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tao</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_mgMhZeX" coord="22,59.32,257.39,362.07,7.39">Proceedings of the International Conference for High Performance Computing and Communications</title>
+		<meeting>the International Conference for High Performance Computing and Communications</meeting>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hong Tang and Tao Yang. 2003. An efficient data location protocol for self-organizing storage clusters. In Proceedings of the International Conference for High Performance Computing and Communications.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,268.36,394.50,7.39;22,59.32,277.32,327.98,7.39;22,43.38,288.16,394.52,7.51;22,59.32,297.25,378.58,7.39;22,59.32,306.21,378.58,7.39;22,59.32,315.17,378.54,7.39;22,59.32,324.15,66.42,7.39" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coord="22,43.38,288.16,124.04,7.51;22,197.96,288.28,205.65,7.39" xml:id="_wjgw87f">An overview of the OMNeT++ simulation environment</title>
+		<author>
+			<persName coords=""><forename type="first">Bruce</forename><surname>Tolley</surname></persName>
+		</author>
+		<ptr target="http://dl.acm.org/citation.cfm?id=1416222.1416290" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wxzYQen" coord="22,422.41,288.28,15.50,7.39;22,59.32,297.25,378.58,7.39;22,59.32,306.21,219.89,7.39">Proceedings of the 1st International Conference on Simulation Tools and Techniques for Communications, Networks and Systems &amp; Workshops (Simutools&apos;08)</title>
+		<title level="s" xml:id="_P3knCut" coord="22,115.80,268.36,293.84,7.39">Solarflare Fujitsu low latency test report -Solarflare low-latency TestReport.pdf</title>
+		<meeting>the 1st International Conference on Simulation Tools and Techniques for Communications, Networks and Systems &amp; Workshops (Simutools&apos;08)</meeting>
+		<imprint>
+			<publisher>ICST</publisher>
+			<date type="published" when="2008">2011. 2008</date>
+			<biblScope unit="volume">60</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering</orgName>
+		</respStmt>
+	</monogr>
+	<note>Andr ás Varga and Rudolf Hornig</note>
+	<note type="raw_reference">Bruce Tolley. 2011. Solarflare Fujitsu low latency test report -Solarflare low-latency TestReport.pdf. http:// www.fujitsu.com/downloads/COMP/ffna/ethernet/Solarflare Low-Latency TestReport.pdf. Andr ás Varga and Rudolf Hornig. 2008. An overview of the OMNeT++ simulation environment. In Pro- ceedings of the 1st International Conference on Simulation Tools and Techniques for Communica- tions, Networks and Systems &amp; Workshops (Simutools&apos;08). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering). Article 60, http://dl.acm.org/citation.cfm?id= 1416222.1416290.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,335.10,394.53,7.39;22,59.32,344.07,378.56,7.39;22,59.32,353.04,78.80,7.39" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coord="22,328.72,335.10,109.20,7.39;22,59.32,344.07,155.02,7.39" xml:id="_6jgpBKw">CRUSH: Controlled, scalable, decentralized placement of replicated data</title>
+		<author>
+			<persName coords=""><forename type="first">Sage</forename><forename type="middle">A</forename><surname>Weil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><forename type="middle">A</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ethan</forename><forename type="middle">L</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Carlos</forename><surname>Maltzahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5YRUugr" coord="22,230.81,344.07,207.08,7.39;22,59.32,353.04,51.72,7.39">Proceedings of the ACM/IEEE Conference on Supercomputing (SC&apos;06)</title>
+		<meeting>the ACM/IEEE Conference on Supercomputing (SC&apos;06)</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sage A. Weil, Scott A. Brandt, Ethan L. Miller, and Carlos Maltzahn. 2006a. CRUSH: Controlled, scalable, decentralized placement of replicated data. In Proceedings of the ACM/IEEE Conference on Supercom- puting (SC&apos;06). ACM.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,363.99,394.53,7.39;22,59.32,372.96,378.58,7.39;22,59.32,381.93,211.03,7.39" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coord="22,403.98,363.99,33.93,7.39;22,59.32,372.96,184.83,7.39" xml:id="_4Acf5qt">CEPH: A scalable, high-performance distributed file system</title>
+		<author>
+			<persName coords=""><forename type="first">Sage</forename><forename type="middle">A</forename><surname>Weil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><forename type="middle">A</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ethan</forename><forename type="middle">L</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Darrell</forename><forename type="middle">D E</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Carlos</forename><surname>Maltzahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_J7ahhBX" coord="22,262.05,372.96,175.84,7.39;22,59.32,381.93,171.56,7.39">Proceedings of the 7th USENIX Symposium on Operating Systems Design and Implementation</title>
+		<meeting>the 7th USENIX Symposium on Operating Systems Design and Implementation</meeting>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="307" to="320" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sage A. Weil, Scott A. Brandt, Ethan L. Miller, Darrell D. E. Long, and Carlos Maltzahn. 2006b. CEPH: A scalable, high-performance distributed file system. In Proceedings of the 7th USENIX Symposium on Operating Systems Design and Implementation. 307-320.</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,392.89,394.53,7.39;22,59.32,401.85,378.58,7.39;22,59.32,410.82,162.78,7.39" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coord="22,321.31,392.89,116.60,7.39;22,59.32,401.85,183.45,7.39" xml:id="_jUPzbfU">Sorrento: A self-organizing storage cluster for parallel data-intensive applications</title>
+		<author>
+			<persName coords=""><forename type="first">Tao</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hong</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Aziz</forename><surname>Gulbeden</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jingyu</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lingkun</forename><surname>Chu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_k7g58yG" coord="22,258.80,401.85,179.10,7.39;22,59.32,410.82,131.48,7.39">Proceedings of the High Performance Computing, Networking and Storage Conference</title>
+		<meeting>the High Performance Computing, Networking and Storage Conference</meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>SC&apos;04</note>
+	<note type="raw_reference">Tao Yang, Hong Tang, Aziz Gulbeden, Jingyu Zhou, and Lingkun Chu. 2004. Sorrento: A self-organizing stor- age cluster for parallel data-intensive applications. In Proceedings of the High Performance Computing, Networking and Storage Conference (SC&apos;04).</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,421.78,394.51,7.39;22,59.32,430.74,272.57,7.60" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coord="22,184.49,421.78,249.63,7.39" xml:id="_4cH5UFw">An efficient hybrid peer-to-peer system for distributed data sharing</title>
+		<author>
+			<persName coords=""><forename type="first">Min</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yuanyuan</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TC.2009.175</idno>
+		<ptr target="http://dx.doi.org/10.1109/TC.2009.175" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TuhBYzW" coord="22,59.32,430.74,46.12,7.39">IEEE Trans</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1158" to="1171" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Min Yang and Yuanyuan Yang. 2010. An efficient hybrid peer-to-peer system for distributed data sharing. IEEE Trans. 59, 9, 1158-1171. DOI: http://dx.doi.org/10.1109/TC.2009.175</note>
+</biblStruct>
+
+<biblStruct coords="22,43.38,441.70,394.54,7.39;22,59.32,450.67,378.59,7.39;22,59.32,459.63,312.26,7.39" xml:id="b43">
+	<monogr>
+		<title level="m" type="main" coord="22,296.78,441.70,141.14,7.39;22,59.32,450.67,144.97,7.39" xml:id="_h6pTaea">Tapestry: An infrastructure for faulttolerant wide-area location and routing</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Ben</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><forename type="middle">D</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anthony</forename><forename type="middle">D</forename><surname>Kubiatowicz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Joseph</surname></persName>
+		</author>
+		<idno>UCB/CSD-01-1141</idno>
+		<ptr target="http://www.eecs.berkeley.edu/Pubs/TechRpts/2001/5213.html" />
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+		<respStmt>
+			<orgName>EECS Department, University of California, Berkeley</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Tech. rep.</note>
+	<note type="raw_reference">Ben Y. Zhao, John D. Kubiatowicz, and Anthony D. Joseph. 2001. Tapestry: An infrastructure for fault- tolerant wide-area location and routing. Tech. rep. UCB/CSD-01-1141. EECS Department, University of California, Berkeley. http://www.eecs.berkeley.edu/Pubs/TechRpts/2001/5213.html.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

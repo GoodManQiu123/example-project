@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_DGr3dMq" coord="1,80.18,104.30,427.40,13.23;1,80.70,121.24,259.08,13.23">An evaluation of Graph Databases and Object-Graph Mappers in CIDOC CRM-compliant digital archives</title>
+				<funder ref="#_9H2RmTR">
+					<orgName type="full">National Funds through FCT -Foundation for Science and Technology I.P.</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,80.70,146.23,85.33,12.41"><forename type="first">Lázaro</forename><surname>Costa</surname></persName>
+							<email>lazaroosta@hotmail.com</email>
+						</author>
+						<author>
+							<persName coords="1,175.74,146.23,81.53,12.41"><forename type="first">Nuno</forename><surname>Freitas</surname></persName>
+							<email>nuno.freitas96@gmail.com</email>
+						</author>
+						<author>
+							<persName coords="1,287.25,146.78,71.03,11.86"><forename type="first">João</forename><surname>Rocha</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,361.31,146.78,44.98,11.86"><forename type="first">D</forename><forename type="middle">A</forename><surname>Silva</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">INESC TEC and Faculdade de Engenharia da Universidade do Porto, Portugal</note>
+								<orgName type="laboratory">INESC TEC and Faculdade de Engenharia da Universidade do Porto</orgName>
+								<address>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>1</label> https://www.inesctec.pt/en/projects/episa</note>
+								<orgName type="department">https://www.inesctec.pt/en/projects/episa</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">João Rocha da Silva,</note>
+								<orgName type="institution">João Rocha da Silva</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">INESC TEC and Faculdade de Engenharia da Universidade do Porto, Campus da Faculdade de Engenharia da Universidade do Porto, Porto, Porto, 4200-465, Portugal.</note>
+								<orgName type="laboratory">INESC TEC and Faculdade de Engenharia da Universidade do Porto</orgName>
+								<orgName type="institution">da Universidade do Porto</orgName>
+								<address>
+									<addrLine>Campus da Faculdade de Engenharia</addrLine>
+									<postCode>4200-465</postCode>
+									<settlement>Porto, Porto</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_GmRcEmf" coord="1,80.18,104.30,427.40,13.23;1,80.70,121.24,259.08,13.23">An evaluation of Graph Databases and Object-Graph Mappers in CIDOC CRM-compliant digital archives</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">02C71723E15D23A3E7286982C6C09967</idno>
+					<idno type="DOI">10.1145/3485847</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_kcPjJF5">CCS Concepts:</term>
+					<term xml:id="_nhBUN5Q">Information systems → Digital libraries and archives</term>
+					<term xml:id="_6FEmMxn">Network data models</term>
+					<term xml:id="_PkKNqdz">Database performance evaluation Object-Graph Mapping,Graph Databases,Digital Archives, CIDOC CRM,Comparison</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_ZdvrtNq"><p xml:id="_rDbtWPR"><s xml:id="_nS8swrA" coords="1,80.37,182.45,450.94,8.66;1,80.70,193.41,266.13,8.66">The Portuguese General Directorate for Book, Archives and Libraries (DGLAB) has selected CIDOC CRM as base for its next-generation digital archive management software.</s><s xml:id="_cj6Uf5Z" coords="1,349.90,193.41,182.72,8.66;1,80.70,204.37,450.78,8.66;1,80.70,215.33,72.91,8.66">Given the ontology foundations of the CRM, a graph database or a triple store were seen as the best candidates to represent a CRM-based data model for the new software.</s><s xml:id="_AGqtdGD" coords="1,157.26,215.33,375.33,8.66;1,80.70,226.28,450.90,8.66;1,80.37,237.24,194.09,8.66">We thus decided to compare several of these databases, based on their maturity, features, performance in standard tasks and, most importantly, the Object-Graph Mappers (OGM) available to interact with each database in an Object-Oriented way.</s><s xml:id="_cT6bkma" coords="1,277.71,237.24,253.93,8.66;1,80.70,248.20,210.49,8.66">Our conclusions are drawn not only from a systematic review of related works but from an experimental scenario.</s><s xml:id="_JPdy5Sv" coords="1,294.24,248.20,237.31,8.66;1,80.70,259.16,452.41,8.66;1,80.70,270.12,452.42,8.66">For our experiment, we designed a simple CRM-compliant graph designed to test the ability of each OGM/database combination to tackle the so-called "Diamond-problem" in Object-Oriented Programming (OOP), to ensure that property instances follow domain and range constraints.</s></p><p xml:id="_2zWEx4Q"><s xml:id="_g7FM4Z2" coords="1,90.66,281.08,440.85,8.66;1,80.70,292.04,450.68,8.66;1,80.70,303.00,450.66,8.66;1,80.70,313.96,450.89,8.66;1,80.70,324.91,46.64,8.66">Our results show that 1. ontological consistency enforcement in graph databases and triplestores is much harder to achieve than in a relational database, making them more suited to an analytical rather than a transactional role, 2. Object-Graph Mappers are still rather immature solutions and 3. neomodel, an OGM for the Neo4j graph database, is the most mature solution in the study as it satisfies all requirements, although it is also the least performing.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1" xml:id="_nk4rMsS">INTRODUCTION</head><p xml:id="_GHHsn6S"><s xml:id="_6VzS6Xc" coords="1,80.34,406.69,450.97,11.55;1,80.70,418.65,384.68,11.55">The CRM (Conceptual Reference Model) is a model developed by CIDOC (ICOM International Committee for Documentation), a documentation section of the International Council of Museums.</s><s xml:id="_nr5jkka" coords="1,468.70,418.65,62.65,11.55;1,80.34,430.60,450.97,11.55;1,80.70,442.56,30.89,11.55">In 2014, CRM was formalized as an ontology that includes OOP concepts such as class hierarchies, domains and ranges.</s><s xml:id="_mBJuynq" coords="1,114.91,442.56,416.41,11.55;1,80.70,454.51,92.02,11.55">This defines a modular model while allowing the implementer to control the specificity of each implementation <ref type="bibr" coords="1,154.28,454.51,14.75,11.55" target="#b27">[28]</ref>.</s><s xml:id="_qK5GVGe" coords="1,177.15,454.51,75.72,11.55;1,257.28,455.04,4.14,5.06;1,266.34,454.51,265.01,11.55;1,79.53,466.47,451.81,11.55;1,80.70,479.13,273.67,11.55">Recently, EPISA 1 projects were launched in Portugal involving INESC TEC (Institute for Systems and Computer Engineering, Technology and Science), DGLAB (General Directorate for Book, Archives and Libraries) and the University of Évora.</s></p><p xml:id="_TnS9vq7"><s xml:id="_KmMkmtE" coords="2,90.66,105.51,440.69,11.55;2,80.70,117.47,133.93,11.55">One of the goals of this project is to propose a data model for a new version of the digital archive management software Digitarq.</s><s xml:id="_32amrP4" coords="2,217.95,117.47,313.37,11.55;2,80.70,129.43,295.37,11.55">The data model proposal for the new system is a combination of CIDOC CRM and other ontologies <ref type="bibr" coords="2,199.37,129.43,15.50,11.55" target="#b24">[25]</ref> implemented over a graph database.</s></p><p xml:id="_jWd85dx"><s xml:id="_99yck7Y" coords="2,90.66,141.38,442.06,11.55;2,80.70,153.34,398.99,11.55">Currently, there are few implementations of the CRM as the core data model for software applications; it is more commonly used to format data as Linked Open Data <ref type="bibr" coords="2,360.48,153.34,15.49,11.55" target="#b20">[21,</ref><ref type="bibr" coords="2,379.30,153.34,12.73,11.55" target="#b37">38]</ref> for interoperability.</s><s xml:id="_22Grcya" coords="2,483.01,153.34,48.32,11.55;2,80.70,165.29,450.65,11.55;2,80.70,177.25,193.13,11.55">This is due to the fact that the CRM can be quite complex and represents its data in the form of a graph, for which relational databases are not the best option.</s></p><p xml:id="_BNr7Dpv"><s xml:id="_gsPnHEG" coords="2,90.66,189.20,440.66,11.55;2,80.70,201.16,450.61,11.55;2,80.70,213.11,207.55,11.55">It was decided to implement the digital archive using a graph database, as it is more adequate for representing resources of many types, and where one of the more relevant requirements is the exploration of the relationships between them.</s><s xml:id="_2aRajUK" coords="2,291.85,213.11,239.87,11.55;2,80.70,225.07,437.34,11.55">Graph databases offer greater freedom and scalability for the representation of data models where there are many types of resources and relationships.</s><s xml:id="_BzebR9K" coords="2,522.01,225.07,9.32,11.55;2,80.70,237.02,450.65,11.55;2,80.70,248.97,283.25,11.55">In relational databases, referential integrity, primary keys and other constraints are used to enforce the database schema, which ensures the validity of the data model.</s><s xml:id="_raxpXCw" coords="2,367.57,248.97,165.16,11.55;2,80.70,260.93,452.61,11.55">Graph databases, on the other hand, typically delegate the responsibility of ensuring the validity of the data model on the application layer.</s><s xml:id="_CKUG3VY" coords="2,80.70,272.89,450.64,11.55;2,80.70,284.84,109.50,11.55">Graph databases can be used to represent ontologies, and ontological consistency is often validated using engines called reasoners.</s><s xml:id="_DfBMEkU" coords="2,194.31,284.84,336.98,11.55;2,80.70,296.80,450.89,11.55;2,80.70,308.75,186.26,11.55">Reasoners are able to enforce the concepts defined in an ontology, such as Class hierarchies, Domains and Ranges, cardinalities of Properties, as well as Axioms, making sure that there are no contradictions in the ontology.</s><s xml:id="_g2FKGWh" coords="2,270.28,308.75,261.06,11.55;2,80.70,320.71,450.93,11.55;2,80.70,332.66,56.75,11.55">However, these validations require inference, which implies a heavy computational price, making such validations impractical when the ontology is under constant modification.</s></p><p xml:id="_2dVPNwk"><s xml:id="_QgWpept" coords="2,90.66,344.62,440.68,11.55;2,80.70,356.57,166.09,11.55">For simpler ontologies, basic constraints such as the Domain, Range and cardinality of Properties are enough to ensure a consistent ontology.</s><s xml:id="_cT2tCNZ" coords="2,249.71,356.57,198.75,11.55">This can be achieved through the use of OGM.</s><s xml:id="_u4gzswN" coords="2,451.37,356.57,79.98,11.55;2,80.70,368.53,160.50,11.55">OGM are mapping frameworks for graph databases <ref type="bibr" coords="2,222.92,368.53,14.62,11.55" target="#b10">[11]</ref>.</s><s xml:id="_mMeR9jx" coords="2,244.51,368.53,287.01,11.55;2,80.70,380.48,305.44,11.55">They are intended as an abstraction layer that makes it easier for programmers to manipulate the entities and properties of the graph.</s><s xml:id="_Hpp24ZC" coords="2,389.58,380.48,141.75,11.55;2,80.70,392.44,450.64,11.55;2,80.70,404.39,58.33,11.55">They map database concepts to classes and instances (in terms of OOP), that can be manipulated programmatically to interact with the database.</s><s xml:id="_truyMk8" coords="2,142.34,404.39,388.97,11.55;2,80.70,416.35,218.57,11.55">When compared to a reasoner, these frameworks can enforce simpler constraints, but are able to do so at a much lower computational price.</s><s xml:id="_eqgNHU7" coords="2,302.59,416.35,194.45,11.55">When the programming language allows (e.g.</s><s xml:id="_7ArpUuD" coords="2,500.35,416.35,31.20,11.55;2,80.70,428.30,450.65,11.55;2,80.70,440.26,52.68,11.55">Java or Python), OGM enable the definition of rules, directly in the source code, as properties, methods and class annotations.</s><s xml:id="_HqFWnXw" coords="2,136.32,440.26,396.94,11.55">This improves the detail of model specification while keeping the code clean and easy to read.</s><s xml:id="_KeBeHsT" coords="2,80.70,452.21,450.60,11.55;2,80.70,464.17,223.87,11.55">Boilerplate code necessary to perform simple CRUD (Create, Read, Update and Delete) operations on class and property instances is also greatly reduced.</s><s xml:id="_NCshsUD" coords="2,307.89,464.17,224.82,11.55;2,80.34,476.13,317.11,11.55">Despite the promise of functionality and clean code, we found that OGM maturity and feature completeness can vary greatly.</s><s xml:id="_Rn3xhZp" coords="2,400.78,476.13,130.54,11.55;2,80.70,488.08,450.63,11.55;2,80.70,500.04,315.56,11.55">There were also no systematic evaluations of these solutions as far as we know, so a prototype had to be developed to determine which solution was more suited to the needs of the ICON and EPISA projects.</s></p><p xml:id="_2MWTwG5"><s xml:id="_Fr6Wtbd" coords="2,90.66,511.99,441.04,11.55;2,80.34,523.95,451.03,11.55;2,80.70,535.90,223.84,11.55">A graph database can be used as an Online Transaction Processing (OLTP) system or loaded periodically with the result of an ETL (Extraction, Transformation and Loading) process from a relational database that in turn assumes the role of the OLTP system.</s><s xml:id="_pkYVZgx" coords="2,307.86,535.90,223.49,11.55;2,80.70,547.86,450.93,11.55;2,80.70,559.81,229.21,11.55">In the latter scenario, the validation of the graph's ontological consistency is performed during the ETL, a process that should run periodically without hurting the availability of the transactional system.</s><s xml:id="_wJPSAZB" coords="2,313.40,559.81,217.98,11.55;2,80.70,571.77,450.63,11.55;2,80.70,583.72,200.79,11.55">For a transactional system supported by a graph database, however, the OGM or the database need to perform validations whenever changes are made to the graph, while keeping the system available.</s></p><p xml:id="_D4uJqvJ"><s xml:id="_YRacsmr" coords="2,90.66,595.68,440.69,11.55;2,80.70,607.63,216.92,11.55">We present a comparison of OGM solutions to support graph databases and ontologies for the core data model of a transactional archival software system.</s><s xml:id="_sFQdZuj" coords="2,300.95,607.63,230.40,11.55;2,80.70,619.59,309.96,11.55">Our data model is based primarily on ArchOnto-an ontology being developed as the data model for the digital archive <ref type="bibr" coords="2,372.46,619.59,14.56,11.55" target="#b25">[26]</ref>.</s><s xml:id="_mNHXZ3G" coords="2,393.97,619.59,137.33,11.55;2,80.70,631.54,450.64,11.55;3,80.70,105.51,114.52,11.55">However, since graph databases are flexible, other ontologies can be used in combination with ArchOnto, as long as their concepts are modeled using the OGM.</s><s xml:id="_jPqaEJN" coords="3,199.29,105.51,332.06,11.55;3,80.70,117.47,362.56,11.55">This makes this comparison relevant for any organization considering the implementation of a CIDOC CRM based software solution for their digital archive.</s></p><p xml:id="_7DkY6Py"><s xml:id="_FyFhTg2" coords="3,90.66,129.43,250.32,11.55">This paper starts with two sections of literature review.</s><s xml:id="_YrFES4q" coords="3,344.66,129.43,186.92,11.55;3,80.70,141.38,452.30,11.55;3,80.70,153.34,279.69,11.55">Section 2 with a broader scope, is a short comparative analysis between relational and non-relational databases, necessary to justify our choice of nonrelational when implementing a CIDOC CRM-based data model.</s><s xml:id="_U3uNfxm" coords="3,363.73,153.34,167.59,11.55;3,80.70,165.29,452.58,11.55">Section 3 details the base requirements that we gathered for the new DGLAB digital archive and analyses previous works within their scope.</s><s xml:id="_kB9wB8U" coords="3,80.70,177.25,450.60,11.55;3,80.70,189.20,232.81,11.55">Section 4 describes how we designed an experiment to compare four OGM/Database technology stacks according to their compliance with our requirements.</s><s xml:id="_z6ac76C" coords="3,316.82,189.20,215.89,11.55;3,80.70,201.16,226.15,11.55">Section 5 presents the results of that experiment, and Section 6 presents conclusions and future work.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_FeBsNHw">RELATIONAL VS. NON-RELATIONAL DATABASES FOR A CIDOC CRM-BASED DATA MODEL</head><p xml:id="_unuqEtr"><s xml:id="_d3zfbKX" coords="3,80.70,251.13,450.67,11.55;3,80.70,263.09,452.52,11.55">Organizations that store large volumes of non-structured data are increasingly adopting non-relational databases, or NoSQL databases, mainly because of their better scalability in cloud contexts <ref type="bibr" coords="3,482.90,263.09,15.46,11.55" target="#b23">[24,</ref><ref type="bibr" coords="3,501.69,263.09,12.72,11.55" target="#b28">29,</ref><ref type="bibr" coords="3,517.73,263.09,11.61,11.55" target="#b33">34]</ref>.</s><s xml:id="_8YGnWBt" coords="3,90.66,275.04,440.67,11.55;3,80.70,287.00,450.67,11.55;3,80.70,298.95,452.54,11.55">Non-relational databases differ from relational ones in multiple aspects; their main focus is the analysis and processing of a large volume of data, offering scalability and storage and application computing requirements such as Big Data Analytics <ref type="bibr" coords="3,271.83,298.95,14.75,11.55" target="#b41">[42]</ref>, Business Intelligence <ref type="bibr" coords="3,391.63,298.95,15.62,11.55" target="#b42">[43]</ref> and social networking <ref type="bibr" coords="3,514.82,298.95,14.74,11.55" target="#b26">[27]</ref>.</s><s xml:id="_s2mXpp2" coords="3,80.70,310.91,450.64,11.55;3,80.70,322.86,364.78,11.55">Cassandra, BigTable, CouchDB, Project Voldemort, and Dynamo, all store large volumes of data and are all of them projects that use non-relational databases, that is, NoSQL projects <ref type="bibr" coords="3,427.20,322.86,14.62,11.55">[49]</ref>.</s></p><p xml:id="_vP34Azy"><s xml:id="_DBuPcW8" coords="3,90.66,334.82,440.70,11.55;3,80.70,346.77,450.65,11.55;3,80.70,358.73,321.56,11.55">The structuring of their data does not use tables to store information, they do not use SQL as a querying language and they do not always offer ACID (Atomicity, Consistency, Isolation, Durability) transaction properties, in exchange for higher scalability and raw performance <ref type="bibr" coords="3,359.11,358.73,10.37,11.55" target="#b0">[1,</ref><ref type="bibr" coords="3,371.83,358.73,12.68,11.55" target="#b22">23,</ref><ref type="bibr" coords="3,386.87,358.73,11.54,11.55">49]</ref>.</s><s xml:id="_uG7djKp" coords="3,404.62,358.73,126.69,11.55;3,80.70,370.68,178.85,11.55">Most non-relational databases are available as open source solutions <ref type="bibr" coords="3,241.45,370.68,14.48,11.55" target="#b22">[23]</ref>.</s><s xml:id="_99z4frd" coords="3,262.48,370.68,268.84,11.55;3,80.70,382.64,424.11,11.55">While this is positive in terms of freedom and reduced licensing costs, support and regular maintenance are both dependent on community contributions <ref type="bibr" coords="3,470.48,382.64,15.50,11.55" target="#b14">[15,</ref><ref type="bibr" coords="3,489.30,382.64,11.63,11.55" target="#b22">23]</ref>.</s></p><p xml:id="_3wYAcrt"><s xml:id="_vFffprK" coords="3,90.66,394.59,442.35,11.55;3,80.70,406.55,450.64,11.55;3,80.70,418.50,270.60,11.55;3,90.66,430.46,339.90,11.55">Beyond this, there is also the problem of non-relational databases being disk-based and thus implementing buffer pools and multi-threading, but in the moment when transactions occur it is necessary to block the buffer, which can lead to performance decreases <ref type="bibr" coords="3,335.80,418.50,15.50,11.55" target="#b22">[23]</ref> Non-relational databases may be classified according to their data organization.</s><s xml:id="_WkEdNzj" coords="3,433.69,430.46,97.63,11.55;3,80.70,442.41,229.14,11.55">We describe with more detail some of the elements of this classification <ref type="bibr" coords="3,291.56,442.41,14.62,11.55" target="#b22">[23]</ref>:</s></p><p xml:id="_4D9URkN"><s xml:id="_ePjUYbH" coords="3,96.14,461.26,4.98,6.91;3,105.11,456.63,426.23,11.55;3,105.11,468.59,426.26,11.55;3,105.11,480.54,43.05,11.55">• Document Store, also known as "Document Oriented Database", allows the encapsulation of flexible attribute groups, represented by a document, in the form of standard formats like XML, BSON and PDF.</s><s xml:id="_uut4NGu" coords="3,151.47,480.54,310.55,11.55">Each document is represented by a unique key in string (URI or path).</s></p><p xml:id="_zGQtfjT"><s xml:id="_F9HdZt5" coords="3,96.14,497.13,4.98,6.91;3,105.11,492.50,426.23,11.55;3,105.11,504.45,428.18,11.55">• Graph Databases, are databases that do not use data schemas to represent information, and instead use a graph structure of data, containing nodes, edges and properties to represent information.</s><s xml:id="_P4KyWny" coords="3,104.60,516.41,413.59,11.55">With this it is possible to explore the relationships between the various resources of the graph.</s></p><p xml:id="_fkNUjzw"><s xml:id="_9GvtC9u" coords="3,96.14,532.99,4.98,6.91;3,104.73,528.36,428.50,11.55">• XML Databases, are database management systems used to represent data in the XML format.</s><s xml:id="_mPFkYvj" coords="3,105.11,540.32,426.22,11.55;3,105.11,552.27,67.72,11.55">By using XSL stylesheets it is possible to transform an XML document from one structure into another <ref type="bibr" coords="3,142.81,552.27,10.62,11.55" target="#b1">[2,</ref><ref type="bibr" coords="3,157.21,552.27,11.71,11.55" target="#b22">23]</ref>.</s><s xml:id="_UgkHHrY" coords="3,176.61,552.27,354.72,11.55;3,105.11,564.23,427.44,11.55;3,105.11,576.18,247.36,11.55">This has been used in RiC-O, an open-source mapping tool that facilitates the batch conversion of XML documents containing ISAD (International Standard Archival Description) records into their RiC (Records In Context) counterparts.</s><s xml:id="_uRwhxFp" coords="3,355.68,576.18,175.66,11.55;3,105.11,588.14,117.80,11.55">RiC is an OWL-2 ontology for describing archival record resources<ref type="foot" coords="3,215.50,588.66,4.14,5.06" target="#foot_0">2</ref> .</s><s xml:id="_R8qvMnp" coords="3,90.66,602.36,440.66,11.55;3,80.70,614.31,450.64,11.55;3,80.70,626.27,448.03,11.55">Beyond the classification previously mentioned there are also other classifications to non-relational databases, namely: Key Value Stores, Column Oriented Databases, Object Oriented Databases, Grid and Cloud Databases, Multidimensional Databases, Multivalue Databases, and Multimodel Databases <ref type="bibr" coords="3,510.45,626.27,14.62,11.55" target="#b23">[24]</ref>.</s></p><p xml:id="_6WRvx2p"><s xml:id="_3VDjVgd" coords="4,90.66,105.51,440.68,11.55;4,80.70,117.47,451.79,11.55;4,80.70,129.43,407.07,11.55">Relational databases have been traditionally associated to the ACID properties, while non-relational models are typically associated with the BASE (Basically Available, Soft state, Eventual consistency) properties, which opt for eventual consistency instead of enforcing immediate consistency.</s><s xml:id="_uSHFuS3" coords="4,491.93,129.43,39.41,11.55;4,80.70,141.38,450.64,11.55;4,80.70,153.34,450.89,11.55;4,80.70,165.29,103.58,11.55">Eventual consistency does not guarantee, for example, that all reads after a write return the same value until the database state converges at some instant in the future.Non-relational databases focus on permanent availability instead <ref type="bibr" coords="4,166.01,165.29,14.62,11.55" target="#b35">[36]</ref>.</s></p><p xml:id="_Fqdvut7"><s xml:id="_KmerxCb" coords="4,90.66,177.25,440.65,11.55;4,80.70,189.20,75.78,11.55">As the number of classes in a data model increases, so does the number of tables in its corresponding relational model.</s><s xml:id="_JZjKPD5" coords="4,160.80,189.20,370.47,11.55;4,80.70,201.16,450.57,11.55;4,80.70,213.11,171.20,11.55">As more classes are added, so does the number of connecting tables necessary to represent edges between the instances of those classes ("many-to-many" associations), making such an approach impractical in the long term.</s><s xml:id="_DZbrnTJ" coords="4,255.21,213.11,276.14,11.55;4,80.70,225.07,256.16,11.55">On the other hand, graph databases are especially designed to handle the requirements of heavily connected data models.</s></p><p xml:id="_dEXFKsC"><s xml:id="_s6S4cdd" coords="4,90.66,237.02,442.32,11.55;4,80.70,248.98,402.38,11.55">The CIDOC CRM, initially developed to homogenize museum inventory databases, became an international standard for cultural heritage in 2006 and at the moment offers multiple extensions.</s><s xml:id="_VwccKbj" coords="4,486.40,248.98,44.95,11.55;4,80.70,260.93,450.65,11.55;4,80.70,272.89,136.35,11.55">The CRM and its compatible models are able to handle diverse and incomplete information, with a vast number of properties and classes modeled.</s><s xml:id="_3yvg3H6" coords="4,220.36,272.89,312.69,11.55">Most properties are also optional and have "many-to-many" cardinality.</s></p><p xml:id="_BerESN4"><s xml:id="_rhtBFtd" coords="4,90.66,284.84,440.64,11.55;4,80.70,296.80,452.01,11.55;4,80.70,308.75,282.54,11.55">Because the CRM is formalized as an ontology, it is easy to combine with other ontologies, such as to GEOSPARQ CRMgeo, an ontology that integrates space-time properties of CIDOC CRM items, introduced to separate real world classes from information classes.</s><s xml:id="_qQ5ZfDC" coords="4,366.46,308.75,164.85,11.55;4,80.70,320.71,425.20,11.55">This distinction between the real word and the world described by information is related only to the time and geometry dimensions [48].</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_Nzcy6fT">REQUIREMENTS IN GRAPH TRANSACTIONAL SYSTEMS</head><p xml:id="_dF6yywW"><s xml:id="_aEdnqUS" coords="4,80.34,358.88,451.36,11.55;4,80.70,370.83,391.26,11.55">The Semantic Web <ref type="bibr" coords="4,162.91,358.88,10.41,11.55" target="#b4">[5]</ref> offers the ability to infer new knowledge from existing facts, but such operations rely on maintaining the consistency of the knowledge base as information is added or removed.</s><s xml:id="_TXZWrXG" coords="4,475.27,370.83,57.47,11.55;4,80.70,382.79,418.92,11.55">In particular, information inferred from statements that are erased in the meantime must also be removed <ref type="bibr" coords="4,486.32,382.79,9.97,11.55" target="#b5">[6]</ref>.</s></p><p xml:id="_2MT7MQF"><s xml:id="_MPHSrD7" coords="4,90.66,394.74,440.70,11.55;4,80.70,406.70,450.81,11.55;4,80.70,418.65,434.50,11.55">The growth of the so-called Web of Data and the wider adoption of Linked Open Data (LOD) prompted the creation of applications based on Resource Description Framework (RDF)<ref type="foot" coords="4,413.83,407.22,4.14,5.06" target="#foot_1">3</ref> data models that consider data versioning, ontology versioning and synchronization of information from different systems <ref type="bibr" coords="4,496.92,418.65,14.62,11.55" target="#b40">[41]</ref>.</s></p><p xml:id="_2dQpzpq"><s xml:id="_2EhRXyQ" coords="4,90.66,430.61,440.67,11.55;4,80.70,442.56,58.50,11.55">Applications of ontologies in operational systems are still few when compared to their relational model counterparts.</s><s xml:id="_EQVMa7F" coords="4,142.51,442.56,388.77,11.55;4,80.70,454.52,135.37,11.55">However, attempts been made to use ontologies to tackle common requirements such as synchronization and versioning.</s><s xml:id="_6bmFXwS" coords="4,219.39,454.52,311.96,11.55;4,80.70,466.47,382.79,11.55">A study was carried out in order to create a triplestore storage based on servers and clients, and synchronize those changes between the various environments <ref type="bibr" coords="4,450.29,466.47,9.90,11.55" target="#b7">[8]</ref>.</s><s xml:id="_yyCQZKP" coords="4,466.82,466.47,64.51,11.55;4,80.70,478.43,450.66,11.55;4,80.70,490.38,269.34,11.55">In addition, an approach was proposed for distributed knowledge bases versioning based on the RDF data model with support for ontologies in constant evolution, i.e. versioned <ref type="bibr" coords="4,336.75,490.38,9.97,11.55" target="#b3">[4]</ref>.</s></p><p xml:id="_pu6BJ8D"><s xml:id="_u9Mky8J" coords="4,90.66,502.34,442.06,11.55;4,80.70,514.29,383.86,11.55">A new digital archive management system must handle frequent and concurrent updates to the database, as it is intended to support the day-to-day activities of the archivists from DGLAB.</s><s xml:id="_jj4G2AU" coords="4,468.69,514.29,64.31,11.55;4,80.70,526.25,452.55,11.55">However, nonfunctional system requirements include the use of the CIDOC CRM ontology in the transactional system.</s><s xml:id="_NPBnrzP" coords="4,80.32,538.20,451.42,11.55;4,80.70,550.16,168.42,11.55">A relational model was quickly ruled out due to the high complexity and high degree of connectivity between resources of the ontology <ref type="bibr" coords="4,230.85,550.16,14.62,11.55" target="#b32">[33]</ref>.</s></p><p xml:id="_XUWCZPa"><s xml:id="_pShbfzJ" coords="4,90.66,562.11,441.02,11.55;4,80.70,574.07,209.39,11.55">Throughout this section we will cover four requirements that we consider to be essential for the new CRM-based digital archive software of DGLAB.</s><s xml:id="_3pEcRCz" coords="4,293.40,574.07,237.94,11.55;4,80.70,586.02,450.63,11.55;4,80.34,597.98,451.05,11.55;4,80.70,609.93,450.84,11.55;4,80.70,621.89,93.68,11.55">Interoperability is required to make sure that the data can be queried and interpreted by external systems, ontological consistency of the graph must be enforced whenever modifications are performed, versioning should be available for audit purposes, and finally, the programming ecosystem should provide adequate mapping tools and connectors to ensure a modular software architecture.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_VMfFExj">Interoperability</head><p xml:id="_xnwWCeG"><s xml:id="_hZeDJWv" coords="5,80.70,120.46,277.65,11.55;5,361.66,120.98,4.14,5.06;5,369.63,120.46,161.69,11.55;5,80.70,132.41,213.96,11.55">RDF was designed by the World Wide Web Consortium (W3C) <ref type="foot" coords="5,361.66,120.98,4.14,5.06" target="#foot_2">4</ref> as the standard model for conceptual descriptions and data modeling in web resources.</s></p><p xml:id="_dh7ZpPt"><s xml:id="_NPZ5hhw" coords="5,90.66,144.37,440.69,11.55;5,80.70,156.32,75.16,11.55">A triplestore or RDF store aims at the representation of triples in order to allow their recovery through semantic queries.</s><s xml:id="_tsrg6fV" coords="5,159.19,156.32,372.14,11.55;5,80.70,168.28,67.30,11.55">A triple follows a Subject-Predicate-Object structure, that can represent all kinds of information <ref type="bibr" coords="5,134.70,168.28,9.97,11.55" target="#b6">[7]</ref>.</s></p><p xml:id="_GTcNznn"><s xml:id="_NuAD8Bc" coords="5,90.66,180.23,440.66,11.55;5,80.70,192.19,57.64,11.55">Graph databases offer good performance in applications where relationships between entities are essential <ref type="bibr" coords="5,120.11,192.19,14.58,11.55" target="#b30">[31]</ref>.</s><s xml:id="_5KjQqz4" coords="5,141.66,192.19,244.72,11.55">They provide ACID properties and disk persistence <ref type="bibr" coords="5,368.18,192.19,14.55,11.55" target="#b30">[31]</ref>.</s><s xml:id="_WNNxt6y" coords="5,389.70,192.19,141.60,11.55;5,80.70,204.15,450.65,11.55;5,80.70,216.10,86.40,11.55">Some graph databases also use a relational database as the underlying storage and engine processing that allows for the serialization of the graph data <ref type="bibr" coords="5,148.82,216.10,14.62,11.55" target="#b39">[40]</ref>.</s></p><p xml:id="_zpwAsb3"><s xml:id="_CRp5GNh" coords="5,90.66,228.06,440.66,11.55;5,80.70,240.01,98.03,11.55">Graph databases can offer better efficiency and allow for more freedom in the creation of data models than a triple store <ref type="bibr" coords="5,165.29,240.01,10.08,11.55" target="#b1">[2]</ref>.</s><s xml:id="_jgKsJfT" coords="5,182.21,240.01,349.10,11.55;5,80.70,251.97,450.63,11.55;5,80.70,263.92,146.82,11.55">Their main data model, the Labeled Property Graph (LPG) <ref type="bibr" coords="5,455.11,240.01,15.56,11.55" target="#b43">[44]</ref> allows model designers to add properties to the nodes and edges themselves, instead of having to add new triples for representing those properties.</s><s xml:id="_3D2zRVM" coords="5,230.92,263.92,300.43,11.55;5,80.70,275.88,174.77,11.55">LPG allows for a more compact and rich representation of qualified relationships as can be seen in Figure <ref type="figure" coords="5,247.72,275.88,3.88,11.55" target="#fig_0">1</ref>.</s><s xml:id="_7fqYRdN" coords="5,90.66,550.46,440.64,11.55;5,80.70,562.42,87.21,11.55">Conversely, a triple store is often the best candidate database system when implementing a data model based on ontologies.</s><s xml:id="_urvpc7v" coords="5,171.22,562.42,360.07,11.55;5,80.70,574.38,359.39,11.55">This is because they are designed to represent relationships between resources in a graph and can also be connected to an inference engine to uncover new knowledge.</s><s xml:id="_FG258XN" coords="5,443.41,574.38,87.91,11.55;5,80.70,586.33,450.67,11.55;5,80.70,598.29,276.59,11.55">They implement the SPARQL (SPARQL Query Language for RDF) language, a query standard recommended by the W3C and assume the adoption of defined concepts in ontologies <ref type="bibr" coords="5,338.97,598.29,14.65,11.55" target="#b19">[20]</ref>.</s><s xml:id="_VqWyGHb" coords="5,360.60,598.29,170.70,11.55;5,80.70,610.24,450.66,11.55;6,80.70,105.51,318.74,11.55;6,402.94,106.04,4.14,5.06;6,411.09,105.51,120.23,11.55;6,80.32,117.47,43.37,11.55">This way, they can be considered more interoperable than graph databases, which tend to implement manufacturer-specific query languages and add to support for more standard languages such as Gremlin<ref type="foot" coords="6,356.49,106.04,4.14,5.06" target="#foot_3">5</ref> or GQL <ref type="foot" coords="6,402.94,106.04,4.14,5.06" target="#foot_4">6</ref> as connectors or additional APIs <ref type="bibr" coords="6,105.42,117.47,14.62,11.55" target="#b30">[31]</ref>.</s></p><p xml:id="_Hrvwxa9"><s xml:id="_48jCXEa" coords="6,90.66,129.43,440.71,11.55;6,79.53,141.38,386.27,11.55">As a downside to this flexibility and interoperability, triple stores tend to be more adequate for WORM (Write-Once-Read-Many) applications instead of a viable alternative for OLTP systems.</s><s xml:id="_NuqYDTY" coords="6,469.12,141.38,62.59,11.55;6,80.70,153.34,425.88,11.55">This is mainly because of their locking model, which makes them too slow to support transactional systems <ref type="bibr" coords="6,488.31,153.34,14.62,11.55" target="#b34">[35]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_ZdXw4Np">Enforcement of ontological consistency</head><p xml:id="_hDYZa96"><s xml:id="_QVezQGg" coords="6,80.70,191.92,450.83,11.55;6,80.70,203.88,450.63,11.55;6,79.53,215.83,73.32,11.55">Updating data in a graph database or triple store can easily introduce semantic inconsistencies or eliminate links between resources of the graph, which leads to the separation of entire parts of the whole (subgraphs) <ref type="bibr" coords="6,134.58,215.83,14.62,11.55" target="#b29">[30]</ref>.</s><s xml:id="_kgbpjzy" coords="6,156.18,215.83,375.16,11.55;6,80.70,227.79,450.97,11.55;6,80.70,239.74,80.27,11.55">This contrasts with relational databases, where referential integrity, primary keys and other constraints can be used to efficiently enforce a database schema and thus maintain the consistency of the data model.</s></p><p xml:id="_QKh9ncG"><s xml:id="_TeaCNuW" coords="6,90.66,251.70,440.66,11.55;6,80.70,263.65,450.64,11.55;6,80.70,275.61,26.90,11.55">There are fewer applications reliant on ontologies for OLTP systems, as the price of enforcing the ontological consistency of the knowledge graph after every modification is very expensive in computational terms.</s><s xml:id="_pytDh6a" coords="6,110.92,275.61,420.43,11.55;6,80.70,287.57,39.09,11.55">Conversely, the adoption of a graph database in an OLAP (Online Analytical Processing) system is viable.</s><s xml:id="_xZKFevf" coords="6,123.10,287.57,408.62,11.55;6,80.70,299.52,450.63,11.55;6,80.34,311.48,140.40,11.55">While validating the consistency of the graph can take a long time, such operations are only performed periodically and in well-defined moments and the system can thus stop responding to requests while those updates are running.</s><s xml:id="_7BX3zqX" coords="6,224.06,311.48,307.30,11.55;6,80.70,323.43,450.63,11.55;6,80.70,335.39,240.33,11.55">Such graph consistency validations in an OLTP system are not a viable option, since they would block the system for a long time during the validation process <ref type="bibr" coords="6,456.00,323.43,9.82,11.55" target="#b7">[8]</ref>, and an OLTP system should respond within a matter of milliseconds.</s></p><p xml:id="_tMuP7xz"><s xml:id="_FA7rSma" coords="6,90.66,347.34,440.70,11.55;6,80.70,359.30,167.55,11.55">Some triple stores and graph databases provide support for plugging in an inference engine such as FaCT++ [46], Pellet <ref type="bibr" coords="6,178.06,359.30,15.60,11.55" target="#b44">[45]</ref> and others.</s><s xml:id="_KVuw8Kd" coords="6,252.36,359.30,278.96,11.55;6,80.44,371.25,197.53,11.55">OWL API <ref type="bibr" coords="6,303.18,359.30,15.59,11.55" target="#b18">[19]</ref> is one such solution, proposing an easy to use Java API for working with OWL and RDF.</s><s xml:id="_5AZRcw7" coords="6,281.81,371.25,249.78,11.55;6,80.70,383.21,177.27,11.55">The Apache Jena<ref type="foot" coords="6,364.01,371.77,4.14,5.06" target="#foot_5">7</ref> library also offers inference support and consistency checking interfaces <ref type="bibr" coords="6,239.55,383.21,14.74,11.55" target="#b31">[32]</ref>.</s><s xml:id="_VsTzWCx" coords="6,261.29,383.21,270.36,11.55;6,80.44,395.16,45.68,11.55">In alternative, some of these also offer rule-based consistency validation.</s></p><p xml:id="_6FPeHPr"><s xml:id="_vxsYkRZ" coords="6,90.66,407.12,440.66,11.55;6,80.70,419.07,226.40,11.55;6,309.57,419.60,4.14,5.06;6,314.20,419.07,2.71,11.55">OpenLink Virtuoso<ref type="foot" coords="6,175.83,407.64,4.14,5.06" target="#foot_6">8</ref> , a triple store, relies on a pre-determined set of queries to be ran whenever graphs are modified, taking advantage of some inference rules <ref type="foot" coords="6,309.57,419.60,4.14,5.06" target="#foot_7">9</ref> .</s><s xml:id="_3Xh5sEy" coords="6,319.41,419.07,211.91,11.55;6,80.70,431.03,35.84,11.55;6,119.85,431.55,8.28,5.06;6,128.63,431.03,2.75,11.55">It supports inference over some properties through rule sets <ref type="foot" coords="6,119.85,431.55,8.28,5.06" target="#foot_8">10</ref> .</s><s xml:id="_83BbqMB" coords="6,134.69,431.03,396.61,11.55;6,80.70,442.98,134.17,11.55">From version 5.00.3031, it correctly interprets rdfs:subClassOf and rdfs:subPropertyOf properties for triple inference.</s><s xml:id="_2YhB45t" coords="6,218.79,442.98,314.17,11.55;6,80.70,454.94,392.47,11.55">According to the database documentation, owl:sameAs is also considered for arbitrary subjects and objects if specially enabled by a pragma in the query.</s><s xml:id="_aYC6k6v" coords="6,477.56,457.79,55.13,8.49;6,80.70,466.89,450.81,11.55;6,80.70,478.85,95.31,11.55">owl:sameAs, owl:equivalentClass and owl:equivalentProperty are also considered when determining subclass or subproperty relations.</s><s xml:id="_XmmSNma" coords="6,179.31,478.85,351.98,11.55;6,80.70,490.80,258.32,11.55">If two classes are equivalent, they share all instances, subclasses and superclasses directly or indirectly stated in the data for either class <ref type="bibr" coords="6,320.83,490.80,14.56,11.55" target="#b16">[17]</ref>.</s><s xml:id="_rNKUrPn" coords="6,342.34,490.80,188.99,11.55;6,80.70,502.76,98.53,11.55;6,182.54,503.28,8.28,5.06;6,191.32,502.76,2.77,11.55">Other RDF Schema or OWL information is not taken into account <ref type="foot" coords="6,182.54,503.28,8.28,5.06" target="#foot_9">11</ref> .</s></p><p xml:id="_dspNtje"><s xml:id="_kNURgKA" coords="6,90.66,514.71,88.84,11.55;6,195.14,514.71,63.10,11.55;6,273.85,514.71,257.48,11.55;6,80.70,526.67,313.72,11.55">In the case of Neo4j<ref type="foot" coords="6,182.93,515.24,8.28,5.06" target="#foot_10">12</ref> and GraphDB<ref type="foot" coords="6,261.65,515.24,8.28,5.06" target="#foot_11">13</ref> (both graph databases) consistency validation can also be performed via rule sets that are ran against the graph upon modification.</s><s xml:id="_k2WFqMR" coords="6,397.58,526.67,133.75,11.55;6,80.70,538.62,324.32,11.55">These rule sets can be specified using SHACL (Shapes Constraint Language), a W3C recommendation <ref type="bibr" coords="6,391.72,538.62,9.97,11.55" target="#b8">[9]</ref>.</s></p><p xml:id="_Cpw8FR6"><s xml:id="_2nsy2ze" coords="7,90.66,105.51,440.70,11.55;7,80.70,117.47,450.64,11.55;7,80.70,129.43,105.44,11.55">Studies on the performance of graph databases in consistency validation tasks are harder to find than those designed around tasks such as graph traversal, node centrality or graph diameter, which are more readily available <ref type="bibr" coords="7,152.46,129.43,15.37,11.55" target="#b9">[10,</ref><ref type="bibr" coords="7,170.74,129.43,11.54,11.55" target="#b30">31]</ref>.</s><s xml:id="_YGrwxpU" coords="7,189.05,129.43,342.27,11.55;7,80.70,141.38,450.64,11.55;7,80.70,153.34,365.19,11.55">The lack of diversity in synthetic benchmarks targeting graph databases has also been identified in a recent overview <ref type="bibr" coords="7,234.46,141.38,14.48,11.55" target="#b12">[13]</ref>, indicating that perhaps consistency checks should be included in more of these benchmarks, given the importance of the task in real-world scenarios.</s></p><p xml:id="_xMdWV55"><s xml:id="_UwWcGM2" coords="7,90.66,165.29,440.68,11.55;7,80.70,177.25,211.22,11.55;7,295.22,177.77,8.28,5.06;7,304.00,177.25,2.82,11.55">This relative lack of benchmarks covering the validation of ontological consistency has been reported in the OWL API open-source project, for example <ref type="foot" coords="7,295.22,177.77,8.28,5.06" target="#foot_12">14</ref> .</s><s xml:id="_CkgAZNA" coords="7,310.13,177.25,221.09,11.55;7,80.70,189.20,268.50,11.55">The responses of the developers hinted at possibly linear time and space requirements for consistency validations.</s><s xml:id="_cvPcNTd" coords="7,352.52,189.20,178.81,11.55;7,80.70,201.16,450.62,11.55;7,80.70,213.11,165.99,11.55">In 2015, a study concluded on linear time complexity with the number of triples when performing a consistency validation <ref type="bibr" coords="7,431.12,201.16,14.53,11.55" target="#b31">[32]</ref>, thus matching the estimates of the OWL API developers.</s><s xml:id="_KRe4ZRx" coords="7,250.00,213.11,281.29,11.55;7,80.70,225.07,450.66,11.55;7,80.70,237.02,164.52,11.55">These authors also stated that, in their system, the time spent to run the consistency check is around 10s for a 5 million triple graph and reaches approximately 50s for a graph consisting of 27 million triples.</s><s xml:id="_yxuUv2E" coords="7,248.54,237.02,283.15,11.55;7,80.70,248.98,435.33,11.55">Given these numbers, if such checks were to be performed every time a user performs a modification to the graph (OLTP system) such a system would be unusable.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3" xml:id="_kMM2s96">Data Versioning</head><p xml:id="_S8Xe7Pb"><s xml:id="_2kq7b7z" coords="7,80.34,291.10,451.02,11.55;7,80.70,303.05,88.95,11.55">The ability to keep an audit trail of modifications is a relevant requirement when constructing an archive management system.</s><s xml:id="_aFCHCK8" coords="7,172.81,303.05,358.46,11.55;7,80.70,315.01,138.21,11.55">To achieve this, it is necessary to save records of modifications made to metadata of documents, collections or fonds.</s><s xml:id="_6DhJveY" coords="7,222.24,315.01,309.08,11.55;7,80.70,326.96,433.99,11.55">Eventual changes to the relationships between entities registered in the system also need to be versioned (for example, moving a document from one collection to another).</s></p><p xml:id="_XMZUPTK"><s xml:id="_bMJB6Ax" coords="7,90.66,338.92,440.71,11.55;7,80.70,350.87,362.47,11.55">In relational databases, audit trails can be kept using auxiliary tables that contain the past values of records in the original table, and so the granularity of the versioned registers is clear.</s><s xml:id="_JWST6tR" coords="7,446.28,350.87,85.08,11.55;7,80.70,362.83,450.62,11.55;7,80.70,374.78,267.61,11.55">In a graph database or triple store, however, it is more difficult to establish the granularity of the changes as it becomes necessary to save copies of subgraphs of different dimensions.</s><s xml:id="_GS4uC2p" coords="7,351.62,374.78,179.66,11.55;7,80.70,386.74,450.63,11.55;7,80.70,398.70,452.58,11.55">For example, it may be necessary to save the past values of a datatype property object (relatively simple) but it might also be necessary to save the history of changes of the relationships between two resources (requiring a copy of an entire subgraph).</s><s xml:id="_t5rd97Q" coords="7,80.34,410.65,451.05,11.55;7,80.70,422.61,99.83,11.55">This problem of varying change granularity is far from trivial, and data versioning needs to be designed in a case by case basis.</s></p><p xml:id="_TkkXAR8"><s xml:id="_Z2sqQ3m" coords="7,90.66,434.56,442.07,11.55;7,80.70,446.52,450.98,11.55;7,80.70,458.47,209.94,11.55">In the context of triple store versioning, it is first necessary to analyze the granularity of the alterations, as for a RDF statement to be changed it is necessary to perform a removal operation followed immediately by the addition of a new RDF statement <ref type="bibr" coords="7,261.37,458.47,10.47,11.55" target="#b7">[8,</ref><ref type="bibr" coords="7,275.16,458.47,11.61,11.55" target="#b36">37]</ref>.</s><s xml:id="_z3QebbQ" coords="7,293.95,458.47,237.64,11.55;7,80.44,470.43,450.91,11.55;7,80.44,482.38,51.06,11.55">Another work focused on keeping track of the different versions of the ontologies in other to enable ramification and fusion operations between the various versions <ref type="bibr" coords="7,118.21,482.38,9.97,11.55" target="#b3">[4]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4" xml:id="_MbyThqM">Programming ecosystem</head><p xml:id="_ygARGgy"><s xml:id="_hy3Kcs5" coords="7,80.34,524.50,450.98,11.55;7,80.70,536.46,178.86,11.55">The integration and interaction between the database and the business logic is crucial when selecting a technology stack for any software solution.</s><s xml:id="_fR4Rxtm" coords="7,262.20,536.46,269.14,11.55;7,80.70,548.41,452.59,11.55">The code should be expressive and modular, with a minimum of hand-written queries, since those make the solution brittle and hard to adapt to changes in the data model.</s><s xml:id="_2mWASyR" coords="7,80.70,560.37,450.70,11.55;7,80.70,572.32,275.69,11.55">Given the widespread adoption of OOP, it should adopt frameworks that enable the mapping of graph entities and properties into instances and classes (in OOP terms).</s><s xml:id="_zTxbTpZ" coords="7,359.01,572.32,172.30,11.55;7,80.70,584.28,450.61,11.55;7,80.70,596.23,254.99,11.55">This encourages code organization which improves ease of modification by external developers-an important aspect for open-source projects <ref type="bibr" coords="7,515.86,584.28,15.44,11.55" target="#b17">[18]</ref> such as the new version of this new digital archive system.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_swUBEMc">A HANDS-ON, EXPERIMENTAL COMPARISON BETWEEN OGM FRAMEWORKS</head><p xml:id="_U2NqgK7"><s xml:id="_Z7VbwKt" coords="8,80.70,120.46,450.62,11.55;8,80.70,132.41,47.83,11.55">Using ontologies it is possible to define domains and ranges of properties as well as their permissible cardinality.</s><s xml:id="_cVFE3jn" coords="8,131.86,132.41,399.82,11.55;8,80.70,144.37,181.92,11.55">The same does not always carry over when using OGM frameworks, even though some allow for the validation of domains and ranges.</s><s xml:id="_QcvUGqS" coords="8,265.93,144.37,265.83,11.55;8,80.44,156.32,80.56,11.55">Most OGM are still underdeveloped in regard to cardinality validation <ref type="bibr" coords="8,126.67,156.32,15.50,11.55" target="#b11">[12,</ref><ref type="bibr" coords="8,145.49,156.32,11.63,11.55">47]</ref>.</s></p><p xml:id="_Vp98vDK"><s xml:id="_DYEfKmD" coords="8,90.66,168.28,440.64,11.55;8,80.34,180.23,236.94,11.55">We selected several OGM and corresponding database management systems with the goal of determining which of them could consistently represent the CRM.</s><s xml:id="_wEhtk8X" coords="8,320.58,180.23,212.12,11.55;8,80.32,192.19,453.00,11.55">These are: GVerse, using the DGraph database, ArangoJS and OrangoJS for ArangoDB, and the Neo4j OGM and Neomodel for interacting with Neo4j.</s><s xml:id="_bvCCtkH" coords="8,80.34,204.15,452.35,11.55;8,80.70,216.10,451.07,11.55;8,80.70,228.06,213.73,11.55">The main goal of this experiment is to determine which of these are able to satisfy 3 basic requirements: handling the "Diamond Problem" in Object-Oriented programming (OOP) and enforcing property domains and ranges as well as their cardinalities.</s></p><p xml:id="_NwPTfn4"><s xml:id="_sGr78SX" coords="8,90.66,240.01,442.59,11.55">To achieve our goal, we designed a small CRM-compliant graph to test the alternatives under analysis.</s><s xml:id="_JEWtaCy" coords="8,80.70,251.97,452.60,11.55">Figure <ref type="figure" coords="8,111.57,251.97,4.88,11.55" target="#fig_1">2</ref> represents this graph, including all the nodes and property instances that should be allowed (i.e.</s><s xml:id="_CtAQpCA" coords="8,80.70,263.92,450.65,11.55;8,80.70,275.88,73.29,11.55">correct according to the CRM) and those that should be forbidden, as they would introduce inconsistencies as per the CRM.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_yuD6Y5d">Tackling the "Diamond Problem"</head><p xml:id="_7nTHqeZ"><s xml:id="_vbQ6CxV" coords="8,80.70,320.31,450.61,11.55;8,80.34,332.26,194.56,11.55">In OOP, the "Diamond Problem" arises whenever there is a set of classes that inherit from a parent class while also being superclasses of a third one.</s><s xml:id="_GP5VNdg" coords="8,278.32,332.26,253.02,11.55;8,80.70,344.22,450.65,11.55;8,80.70,356.17,55.70,11.55">This is a multiple inheritance pattern-in other words, a grandchild class should have properties and methods inherited from any of its parents, as well as from its grandparent.</s></p><p xml:id="_PCDtvZ7"><s xml:id="_hvd28Y8" coords="8,90.66,368.13,440.68,11.55;8,80.70,380.09,417.32,11.55">In order to compare the various OGM, we used a small subset of CRM entities and properties to build a graph representing the Eiffel Tower and the Tokyo Tower, which shares some of its features.</s><s xml:id="_QbsR8TM" coords="8,501.34,380.09,29.97,11.55;8,80.70,392.04,450.66,11.55;8,80.34,404.00,336.08,11.55">This is meant to test how each OGM handles the Diamond Problem raised by multiple inheritance in OOP, as well as the validation of the Domains, Ranges and cardinalities of properties.</s></p><p xml:id="_P9s2ccr"><s xml:id="_9YSrmkX" coords="8,90.66,415.95,336.52,11.55">As an example using the CRM, we present a class hierarchy in Figure <ref type="figure" coords="8,419.27,415.95,3.95,11.55">3</ref>.</s><s xml:id="_kr5axx4" coords="8,431.68,415.95,99.63,11.55;8,80.70,427.91,450.61,11.55;8,80.70,439.86,358.79,11.55">The Tokyo Tower (an E24 Physical Man Made Thing, subclass of E70 Thing) is connected to the Eiffel Tower through an instance of P130 shows features of, a property with E70 Thing as its domain.</s><s xml:id="_RbDfjYa" coords="8,442.84,439.86,88.46,11.55;8,80.70,451.82,450.60,11.55;8,80.70,463.77,287.57,11.55">Also, E24 Physical Man Made Thing is a subclass of both E71 Man Made Thing and E18 Physical Thing and E70 Thing is a superclass of them both (visible in the right side of Figure <ref type="figure" coords="8,356.64,463.77,3.88,11.55">3</ref>).</s></p><p xml:id="_QeRnqdj"><s xml:id="_GjN69jQ" coords="8,90.66,475.73,440.66,11.55;8,80.70,487.68,283.29,11.55">In order to pass our requirements, an instance of P130 is created correctly if the OGM or programming language it utilizes is capable of handling the Diamond Problem.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_McAW77t">Domain and range enforcement</head><p xml:id="_AEfJ9dv"><s xml:id="_RdYFtNU" coords="8,80.70,532.12,450.62,11.55;8,80.70,544.07,363.92,11.55">In order to test if the OGM correctly creates relationships with a correct domain and range, we created two entities, a E35 Title and a E53 Place, named Tokyo and Tokyo Tower respectively.</s><s xml:id="_VpxrMeB" coords="8,447.74,544.07,83.56,11.55;8,80.70,556.03,450.62,11.55;8,80.70,567.98,161.04,11.55">They are connected to the E24 Physical Human Made Thing Tokyo Tower, through an instance of P156 occupies and another instance of P102 has title.</s><s xml:id="_tZeFRJT" coords="8,244.78,567.98,286.54,11.55;8,80.70,579.94,450.64,11.55;8,80.70,591.89,419.75,11.55">The successful creation of these relationships in the graph database through the OGM validates the capability to create relationships successfully, and is a way to demonstrate how a specific entity would normally be connected to other concepts through the CIDOC CRM.</s></p><p xml:id="_DjJuz7V"><s xml:id="_tQh6XQ4" coords="8,90.66,603.85,440.85,11.55;8,80.70,615.80,189.41,11.55">To test if the OGM validates ranges and domains, we attempt to connect an instance of E24 to another of E1 through a P130 shows features of.</s><s xml:id="_RTFbVzs" coords="8,273.43,615.80,257.88,11.55;8,80.70,627.76,94.57,11.55">This is an illegal operation due to the range of P130, which in the CRM is not E1.</s><s xml:id="_YcsyqKk" coords="8,178.44,627.76,352.88,11.55;8,80.70,639.71,289.02,11.55">If the OGM creates it anyway, then we consider it to fail the experiment as it does not properly handle Domain and Range restrictions on properties.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_qnJVfnq">Cardinality enforcement</head><p xml:id="_nYR4bFt"><s xml:id="_w7MyhMw" coords="9,80.70,506.71,450.61,11.55;9,80.70,518.66,321.04,11.55">In order to test if the OGM and graph database are capable of enforcing cardinality restrictions, two E42 Identifier entities are created, one named ID1 and another is named ID2.</s><s xml:id="_P8C75NV" coords="9,404.59,518.66,127.07,11.55;9,80.70,530.62,450.67,11.55;9,80.70,542.57,157.43,11.55">These are meant to abstractly represent two differing identifiers that a system might give an entity (often found when identifying the same resource in different contexts).</s></p><p xml:id="_DrMuYdq"><s xml:id="_vHpq8rY" coords="9,90.66,554.53,441.01,11.55;9,79.53,566.48,274.74,11.55">They are both connected via an instance of P1 is identified by from the Tokyo Tower E24 entity (which is valid, because P1 has a "one to many" cardinality).</s><s xml:id="_7au8pEy" coords="9,357.85,566.48,173.47,11.55;9,80.70,578.44,450.60,11.55;9,80.70,590.39,291.01,11.55">The experiment scenario also attempts to create an instance of P48 has preferred identifier from and to the same entities as the previous property (which should fail, as P48 has a "one to one" cardinality).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_YJhDaMj">EXPERIMENT RESULTS</head><p xml:id="_Tfk4NaR"><s xml:id="_Ga8yT9x" coords="9,80.70,630.11,450.97,11.55;9,80.70,642.07,161.97,11.55">In this section we present the results of the implementation of the data model described in Section 4 using four different technology stacks.</s><s xml:id="_QJGvvge" coords="9,245.98,642.07,285.35,11.55;10,80.70,428.82,450.80,11.55;10,80.70,440.77,297.43,11.55">We compare each stack according to four dimensions: its ability to enforce ontological consistency, the expressiveness of the resulting code, the level of maintenance by their communities and the degree of adoption of the underlying database.</s></p><p xml:id="_RhKdZGz"><s xml:id="_EXEu4ep" coords="10,90.66,452.73,370.43,11.55">The analysed OGM and the versions used in this experiment can be seen in Table <ref type="table" coords="10,453.32,452.73,3.89,11.55" target="#tab_0">1</ref>.</s><s xml:id="_whMmPFy" coords="10,464.42,452.73,67.16,11.55;10,80.70,464.68,350.48,11.55">To complement the comparison between the OGM, we also present some source code excerpts.</s><s xml:id="_jw6c8ky" coords="10,434.66,464.68,96.61,11.55;10,80.70,476.64,268.82,11.55">For brevity's sake, we selected a subset of the target model, highlighted in Figure <ref type="figure" coords="10,341.76,476.64,3.88,11.55" target="#fig_2">4</ref>.</s></p><p xml:id="_wvAt4ZN"><s xml:id="_QZFv8gB" coords="10,90.66,488.59,440.64,11.55;10,80.70,500.55,193.73,11.55">This subset includes the modeling of the P130 shows features of property, which has E24 Physical Human Made Thing as its domain and range.</s><s xml:id="_t9gExQ6" coords="10,277.75,500.55,253.78,11.55;10,80.70,512.50,450.60,11.55;10,80.70,524.46,277.12,11.55">The instantiation of the Eiffel Tower and the Tokyo Tower nodes (both instances of E24) is also highlighted in every source code excerpt, as well as the creation of an instance of P130 to establish the relationship between them.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1" xml:id="_H6eTbuB">GVerse</head><p xml:id="_et8TDG7"><s xml:id="_faSaBaK" coords="10,80.70,562.28,30.63,11.55;10,114.65,562.80,8.28,5.06;10,126.74,562.28,404.62,11.55;10,80.70,574.23,44.33,11.55">GVerse <ref type="foot" coords="10,114.65,562.80,8.28,5.06" target="#foot_13">15</ref> is an open-source OGM library designed for DGraph, a "high-performance, open-source graph database".</s><s xml:id="_SB38EZP" coords="10,128.35,574.23,331.30,11.55">It is "written in Typescript and Typescript 3 and supports ECMAScript 6".</s></p><p xml:id="_J8UeJwM"><s xml:id="_gYNMSSF" coords="10,90.66,586.19,307.71,11.55">The positive points of this OGM start with the programming language.</s><s xml:id="_YT2h4Uk" coords="10,401.70,586.19,129.66,11.55;10,80.70,598.14,314.97,11.55">Typescript is a strongly-typed language that is transpiled into JavaScript by the Typescript compiler.</s><s xml:id="_EXNZZcD" coords="10,399.01,598.14,132.35,11.55;10,80.70,610.10,450.66,11.55;10,80.70,622.05,365.60,11.55">This makes it very flexible, as one can combine the vast collection of libraries written in JavaScript with strong typing that reduces bugs from type mismatches, which can frequently happen in JavaScript applications.</s><s xml:id="_kAyjq62" coords="10,449.62,622.05,81.74,11.55;11,80.70,557.12,450.63,11.55;11,80.70,569.07,145.93,11.55">Another advantage for programmers for TypeScript when compared with JavaScript is effective TypeScript auto-complete functionality in every major IDE.</s></p><p xml:id="_dYxCXE8"><s xml:id="_6x6xntJ" coords="11,90.66,581.03,440.69,11.55;11,80.70,592.98,255.20,11.55">To test GVerse 0.4.5 with DGraph, we deployed a Docker container with DGraph 1.2.2 and established a connection as described in the GVerse documentation.</s><s xml:id="_UaUamca" coords="11,340.02,592.98,191.30,11.55;11,80.70,604.94,450.61,11.55;11,80.70,616.89,366.83,11.55">While executing the code described in the tutorial and brief documentation published by the library creators, we encountered Unimplemented Exceptions-which indicates that some of the basic features were left unfinished.</s><s xml:id="_WftrqTe" coords="11,451.38,616.89,79.95,11.55;11,80.34,628.85,269.63,11.55">Running the tests would prove unfruitful, with 3 out of 5 integration tests failing.</s><s xml:id="_AuGeyDc" coords="11,353.17,628.85,178.41,11.55;11,80.70,640.80,39.59,11.55">An analysis of the few tests revealed poor coverage.</s></p><p xml:id="_uD8jQT4"><s xml:id="_JZhb6Ee" coords="12,90.66,105.51,424.57,11.55">Given these poor results we rejected this library, even though it seemed very promising at first.</s><s xml:id="_JTzW3ep" coords="12,518.62,105.51,12.70,11.55;12,80.70,117.47,450.88,11.55;12,80.70,129.43,260.50,11.55">No conclusions could be taken about its support for domain and range validations when editing edges, nor about its ability to enforce property cardinality constraints.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2" xml:id="_qmAW747">OrangoJS</head><p xml:id="_7NFdzCX"><s xml:id="_5NTwXZe" coords="12,80.70,169.10,198.38,11.55;12,283.26,169.62,8.28,5.06;12,296.22,169.10,236.48,11.55;12,80.70,181.06,399.94,11.55">OrangoJS <ref type="bibr" coords="12,128.53,169.10,15.60,11.55" target="#b38">[39]</ref> is another open-source OGM <ref type="foot" coords="12,283.26,169.62,8.28,5.06" target="#foot_14">16</ref> and ORM that allows the creation of data schemas, automate the creation of collections and indexes, as well as execute queries to the database.</s><s xml:id="_x83czFY" coords="12,483.96,181.06,47.34,11.55;12,80.70,193.01,157.36,11.55">This OGM connects to ArangoDB <ref type="bibr" coords="12,180.54,193.01,10.42,11.55" target="#b2">[3]</ref> databases.</s><s xml:id="_QB29N8d" coords="12,241.12,193.01,290.21,11.55;12,80.34,204.97,295.70,11.55">This OGM, has the advantage of being capable of defining a schema with the proper validation for a given collection in an intuitive way.</s></p><p xml:id="_KFZ2hbt"><s xml:id="_aV6vUHE" coords="12,90.66,216.92,440.65,11.55;12,80.70,228.88,144.79,11.55">OrangoJs allows for the creation of edges between collections as well as inserting validations for a given collection in an intuitive manner.</s></p><p xml:id="_SMrMjMP"><s xml:id="_rHwB3cG" coords="12,90.66,240.83,440.71,11.55;12,80.70,252.79,157.73,11.55">However, the OGM does not have any kind of validation regarding neither the cardinality of the edges nor the domain and range of these.</s><s xml:id="_BuDjXY3" coords="12,242.07,252.79,289.27,11.55;12,80.70,264.74,451.05,11.55;12,80.70,276.70,165.04,11.55">When an edge is created it is possible to add more than a single entity to the domain and range, but there is no type of information one can add to restrict the cardinality of the domain and range of the edges.</s></p><p xml:id="_YnhqHqJ"><s xml:id="_hmCCd97" coords="12,90.66,288.65,440.64,11.55;12,80.70,300.61,414.01,11.55;12,498.02,301.13,8.28,5.06;12,506.80,300.61,2.77,11.55">Beyond that it is impossible to extend the schemas of the collections, and this way it is necessary to create a schema for each collection even in the case of the majority of the attributes coinciding <ref type="foot" coords="12,498.02,301.13,8.28,5.06" target="#foot_15">17</ref> .</s></p><p xml:id="_abWayph"><s xml:id="_sSWhTfv" coords="12,90.66,312.56,440.70,11.55;12,80.70,324.52,450.64,11.55;12,80.70,336.47,102.06,11.55">Due to the lack of validation of domains and ranges, cardinality, as well as the fact that it is not possible to use the arangodb's graph features, means OrangoJs in general cannot fill the basic requirements to map the CIDOC CRM.</s><s xml:id="_8y5caXS" coords="12,186.09,336.47,345.29,11.55;12,79.53,348.43,79.76,11.55">In addition, OrangoJs has been discontinued and is no longer being maintained (see Appendix A).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3" xml:id="_FN6AxKw">ArangoJS</head><p xml:id="_9brQPM6"><s xml:id="_KujEzcm" coords="12,80.32,388.10,43.37,11.55;12,128.74,388.63,8.28,5.06;12,142.57,388.10,366.21,11.55">ArangoJS <ref type="foot" coords="12,128.74,388.63,8.28,5.06" target="#foot_16">18</ref> is an open-source JavaScript driver created for the graph database ArangoDB.</s><s xml:id="_eUqE6Gr" coords="12,513.85,388.10,17.50,11.55;12,80.32,400.06,451.00,11.55;12,80.70,412.02,317.32,11.55">The ArangoDB's database is a conjoined set of Documents, which are database objects identified by a Document Handle, and in a graph a baseline Document would is a node.</s></p><p xml:id="_CexWYUX"><s xml:id="_RGBJPub" coords="12,90.66,423.97,440.65,11.55;12,79.58,435.93,32.24,11.55">In ArangoDB graphs, relationships between nodes are expressed as a different type of Document named "Edge".</s><s xml:id="_utdswMj" coords="12,115.15,435.93,416.16,11.55;12,80.70,447.88,452.55,11.55">Edges differ from normal documents as they must always have two specific properties "_from" and "_to", which describe the nodes that the edge connects, the tail and head of the edge, respectively.</s></p><p xml:id="_Ded35WV"><s xml:id="_w3vC4Xm" coords="12,90.66,459.84,440.66,11.55;12,80.70,471.79,109.84,11.55">The organization of an ArangoDB database relies on Collections, which are sets of documents, identified by a collection identifier.</s><s xml:id="_xTU6wVp" coords="12,193.92,471.79,338.78,11.55;12,80.70,483.75,224.32,11.55">It is possible to create collections of the two types of ArangoDB documents, baseline document collections, and edge collections.</s></p><p xml:id="_zww6EmG"><s xml:id="_23aHXsJ" coords="12,90.66,495.70,440.69,11.55;12,80.70,507.66,450.86,11.55;12,80.70,519.61,450.61,11.55;12,80.70,531.57,316.64,11.55">When creating graphs, ArangoDB uses Edge Definitions in order to be able to define which Edge Collections may be used in a graph, and is the only way to properly designate a domain and a range for edges, as Edge Definitions may establish special "_from" and "_to" properties for the Edge Collections that define Document Collections as domains and ranges for the edges.</s><s xml:id="_9xh6vMa" coords="12,400.78,531.57,130.54,11.55;12,80.70,543.52,49.72,11.55">Without these, all graphs are undirected.</s><s xml:id="_mzyNCS6" coords="12,134.90,543.52,396.43,11.55;12,80.70,555.48,49.02,11.55">Due to the fact that CIDOC CRM graphs are directed, the use of Edge Definitions is imperative.</s><s xml:id="_PtZXfeV" coords="12,133.03,555.48,260.73,11.55">However, it is impossible to define cardinality for the edges.</s></p><p xml:id="_pFRwxZp"><s xml:id="_JETc5sk" coords="12,90.66,567.43,440.68,11.55;12,80.70,579.39,406.68,11.55">In order to construct the experiment with ArangoJS each node and edge type utilized was defined as a class mix-in methods were utilized to build the class hierarchy present in CIDOC CRM.</s><s xml:id="_XWh47hW" coords="12,490.71,579.39,40.81,11.55;12,80.70,591.34,450.97,11.55;13,80.70,105.51,176.19,11.55">From our experiment we were able to confirm that the use of mix-in methods can create the multiple hierarchy necessary to create the CIDOC model.</s><s xml:id="_usgfZxj" coords="13,261.15,105.51,270.18,11.55;13,80.70,117.47,321.90,11.55">Mix-in methods solve the Diamond Problem by prioritizing conflicting methods that are inherited by the last declared mixed-in class.</s></p><p xml:id="_SDz7KxX"><s xml:id="_Zq9xPBe" coords="13,90.66,129.43,440.70,11.55;13,80.70,141.38,450.64,11.55;13,80.70,153.34,164.13,11.55">Despite ArangoJS being capable of technically being able to define CIDOC CRM graphs, the ArangoJS driver is incapable of checking the restrictions on ranges and domains of the edge definitions (despite being able to create edge definitions).</s><s xml:id="_BKv38Vy" coords="13,248.17,153.34,283.15,11.55;13,80.70,165.29,450.65,11.55;13,80.70,177.25,347.31,11.55">Because of this, the driver can insert edges that are erroneous to the model; this coupled with the fact that ArangoDB has no way of controlling cardinality makes it less useful when attempting to build a CIDOC CRM data model (see Appendix B).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4" xml:id="_ymGea2w">Neo4j OGM</head><p xml:id="_ynDPxc9"><s xml:id="_wuMy9Fd" coords="13,80.34,215.43,72.43,11.55;13,156.10,215.95,8.28,5.06;13,168.22,215.43,363.13,11.55;13,80.70,227.38,179.97,11.55">The Neo4j OGM <ref type="foot" coords="13,156.10,215.95,8.28,5.06" target="#foot_17">19</ref> is an open-source Object Graph Mapper designed for Java, that maps graph entities from a Neo4j Database into Java objects.</s><s xml:id="_bfahU9X" coords="13,263.97,227.38,267.35,11.55;13,80.70,239.34,202.73,11.55">Neo4j itself is a graph database that organizes both its nodes and edges through the use of tags and indexes.</s><s xml:id="_SeuYUN6" coords="13,286.75,239.34,244.60,11.55;13,80.70,251.29,195.62,11.55">The tags allow they typing of nodes and edge, which are the main tool in the mapping of java objects.</s><s xml:id="_kGcphcp" coords="13,279.65,251.29,251.89,11.55;13,80.70,263.25,361.67,11.55">The Neo4j database is a directed graph database, however there is no way to be able to define domains and ranges for different types of edges.</s><s xml:id="_TBj9zBv" coords="13,445.70,263.25,85.64,11.55;13,80.70,275.20,376.70,11.55">As such, in order to be able to define the CIDOC model, all verifications need to be programmed manually.</s><s xml:id="_K3PpzXn" coords="13,460.72,275.20,70.61,11.55;13,80.70,287.16,381.14,11.55">In a similar vein cardinality is not something that can be defined nor verified in the graph itself <ref type="bibr" coords="13,427.51,287.16,15.50,11.55" target="#b11">[12,</ref><ref type="bibr" coords="13,446.33,287.16,11.63,11.55">47]</ref>.</s></p><p xml:id="_wTRxVav"><s xml:id="_sCxHxEF" coords="13,90.66,299.11,440.64,11.55;13,80.70,311.07,380.72,11.55">In order to test the Neo4j OGM and be able to model CIDOC CRM it was necessary to use Apache Groovy, a language built on the Java platform, that enables all of the OGM's features.</s><s xml:id="_fahxfVt" coords="13,464.75,311.07,66.61,11.55;13,80.44,323.02,415.08,11.55">This is because Java does not handle the Diamond Problem in a way that allows the creation of multiple classes.</s><s xml:id="_YpNwdGY" coords="13,498.77,323.02,33.95,11.55;13,80.70,334.98,436.02,11.55">Instead, the only way to handle this is the creation of interfaces and having them apply multiple inheritance.</s><s xml:id="_hPuCM84" coords="13,520.04,334.98,11.33,11.55;13,80.70,346.93,361.14,11.55">As interfaces are stateless, this would require unsustainable amounts of code repetition.</s><s xml:id="_yM8D48a" coords="13,445.16,346.93,86.53,11.55;13,80.70,358.89,450.61,11.55;13,80.70,370.84,450.64,11.55;13,80.70,382.80,335.23,11.55">The Apache Groovy solution to the Diamond Problem is preferable, as it utilizes objects named Traits, a special type of interface that is stateless and doesn't require the repetition and coding of every method mentioned in the interface, instead being able to be coded on the trait and inherited directly.</s><s xml:id="_QJwRYgQ" coords="13,419.25,382.80,112.11,11.55;13,80.70,394.76,450.68,11.55;13,80.70,406.71,56.23,11.55">The Diamond Problem is solved by prioritizing conflicting methods from the last (in order of writing) inherited trait in the class specification.</s></p><p xml:id="_RbXxCXz"><s xml:id="_nvFQeGr" coords="13,90.66,418.67,440.68,11.55;13,80.44,430.62,450.91,11.55;13,80.70,442.58,45.57,11.55">The main issues with the this OGM is there is no automatic way of defining domains and ranges, and verification of the integrity of the model still needs to be constructed and performed in every change of the graph.</s><s xml:id="_56runPZ" coords="13,129.59,442.58,239.26,11.55">The same situation applies for cardinality constraints.</s><s xml:id="_M8XQabG" coords="13,372.18,442.58,159.17,11.55;13,80.70,454.53,313.86,11.55">In addition, the use of traits creates a software bug where not all necessary tags are added to a Neo4j node.</s><s xml:id="_dZSjzB5" coords="13,397.88,454.53,133.40,11.55;13,80.70,466.49,450.66,11.55;13,80.70,478.44,148.19,11.55">Tags specify the classes that a Neo4j node is an instance of, according to the LPG model-a failure to properly record such tags would imply an inconsistent data model.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.5" xml:id="_2VwtzRH">Neomodel</head><p xml:id="_Pz7MVRX"><s xml:id="_hqgsqg8" coords="13,80.70,516.62,118.73,11.55;13,202.22,517.15,8.28,5.06;13,213.79,516.62,271.10,11.55">NoSQL Database Neomodel <ref type="foot" coords="13,202.22,517.15,8.28,5.06" target="#foot_18">20</ref> is an open-source OGM for Neo4j as well, developed for Python.</s><s xml:id="_2nFQDgW" coords="13,487.70,516.62,45.02,11.55;13,80.34,528.58,451.02,11.55;13,80.70,540.53,120.04,11.55;13,204.03,541.06,8.28,5.06;13,212.81,540.53,2.76,11.55">Neomodel, was developed as an independent project from the official neo4j OGM, however it is built on top of the official Neo4j Python driver <ref type="foot" coords="13,204.03,541.06,8.28,5.06" target="#foot_19">21</ref> .</s><s xml:id="_E2Av2wd" coords="13,218.89,540.53,312.48,11.55;13,80.70,552.49,29.41,11.55">Python has the capability of handling the Diamond Problem by its own design.</s><s xml:id="_VHMa8X8" coords="13,113.43,552.49,418.13,11.55;13,80.70,564.44,452.03,11.55;13,80.70,576.40,243.77,11.55">In order to avoid it and allow for the use of multiple inheritance of objects, it linearizes the order of inheritance by the order specified when the class is defined, with the first class called having priority, then the next one and only after the parent classes <ref type="bibr" coords="13,306.20,576.40,14.62,11.55" target="#b13">[14]</ref>.</s></p><p xml:id="_HWGUqGP"><s xml:id="_PMr7JDH" coords="13,90.66,588.35,442.04,11.55;13,80.70,600.31,450.64,11.55;14,80.70,105.51,120.25,11.55">Neomodel's features include the capability of setting domains and ranges for specific types of edges, and is capable of validating these when new edges are inserted or modified without need for creating other methods of validation.</s><s xml:id="_QXjJw86" coords="14,204.02,105.51,327.34,11.55;14,80.70,117.47,288.92,11.55">In a similar manner it is possible to define cardinality for each edge type and Neomodel validates this without outside functions being necessary.</s><s xml:id="_7qfcKUc" coords="14,372.94,117.47,158.37,11.55;14,80.70,129.43,450.62,11.55;14,80.44,141.38,209.23,11.55">Our tests using Neomodel determine that it is able to satisfy our consistency validation requirements and as such, we were able to model the vast majority of CIDOC CRM using this OGM.</s></p><p xml:id="_deHxCju"><s xml:id="_Xq5DYqV" coords="14,90.66,153.34,440.66,11.55;14,80.70,165.29,451.01,11.55;14,80.70,177.25,170.79,11.55">In addition to the features necessary for CIDOC CRM modelation Neomodel has in its repertoire multiple functions to perform more advanced queries to the database without being necessary to write any Cypher (the Neo4j querying language).</s><s xml:id="_C89QfZq" coords="14,254.82,177.25,276.79,11.55;14,80.70,189.20,39.56,11.55">These include node comparison, property analysis and complex look-ups.</s><s xml:id="_dqtBxsf" coords="14,123.58,189.20,407.77,11.55;14,80.70,201.16,189.61,11.55">In addition it is possible to perform operations supported by regex to perform other searches and analysis if necessary (see Appendix C).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.6" xml:id="_7TnXBCJ">Hardware and software configuration</head><p xml:id="_3W8hbpC"><s xml:id="_WM4uSwk" coords="14,80.32,246.79,430.97,11.55">An experiment was created in order to compare the efficacy of the 3 OGM when subject to overload.</s><s xml:id="_EA2f3Be" coords="14,514.50,246.79,16.81,11.55;14,80.70,258.74,450.87,11.55;14,80.70,270.70,72.94,11.55">The experiment consists in the creation of the graph of the Figure <ref type="figure" coords="14,346.47,258.74,4.88,11.55" target="#fig_1">2</ref> and erase it, and repeat this process 1000 and 10000 times.</s><s xml:id="_G5gVfEk" coords="14,156.97,270.70,374.33,11.55;14,80.70,282.65,112.19,11.55">This process was executed 5 times, and then the average of the experiment duration is calculated for each OGM.</s></p><p xml:id="_gtZrgQJ"><s xml:id="_FyHKvhQ" coords="14,90.66,294.61,357.93,11.55">The system utilized to execute the experiments was Ubuntu Linux, version 18.04.</s><s xml:id="_tWCqKay" coords="14,451.90,294.61,79.41,11.55;14,80.70,306.56,416.81,11.55">The machine used possesses a Intel Core i7-8750HQ with 6 cores and 12 threads at 2.20 GHz with 16GB of RAM.</s></p><p xml:id="_2N5v9Yy"><s xml:id="_9dCpz68" coords="14,90.66,318.52,440.67,11.55;14,80.34,330.47,90.51,11.55">At the moment of the experiment's execution, only the necessary programs for its active functioning were being executed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6" xml:id="_J5exw4v">CONCLUSIONS AND FUTURE WORK</head><p xml:id="_ysSGjah"><s xml:id="_75UA4Mf" coords="14,80.70,376.10,450.62,11.55;14,80.70,388.06,285.61,11.55">In this the project the process of technology selection for the construction of a new software for the management of digital Archives for the ANTT was documented.</s><s xml:id="_7G4UYmE" coords="14,369.63,388.06,161.70,11.55;14,80.70,400.01,450.92,11.55;14,80.70,411.97,215.73,11.55">Interoperability is a main concern of this project-thus, the adoption of CIDOC CRM is considered a non-functional requirement, since it enables compliance with the ISO 21127 standard.</s></p><p xml:id="_JMpjjXx"><s xml:id="_2fBYwDA" coords="14,90.66,423.92,440.69,11.55;14,80.70,435.88,287.80,11.55">It was concluded that a relational database would not be capable of dealing with all possible types of entities and relationships in the model, since it is a rich ontology.</s><s xml:id="_jp6Uk7Z" coords="14,371.82,435.88,159.79,11.55;14,80.70,447.83,330.70,11.55">As such, the objective of the project became the creation of a transactional system based on a graph database.</s><s xml:id="_ydeuWeR" coords="14,414.91,447.83,116.39,11.55;14,80.70,459.79,452.00,11.55;14,80.70,471.74,245.71,11.55">This choice was made due to the sophistication of the CIDOC CRM model, since it uses multiple inheritance, as well as domains, ranges and cardinalities in the properties that it defines.</s><s xml:id="_6rAd66W" coords="14,329.74,471.74,201.60,11.55;14,80.70,483.70,80.17,11.55">This creates challenges to the programming of software solutions.</s></p><p xml:id="_xnw6yjd"><s xml:id="_ZWrREXd" coords="14,90.66,495.65,440.69,11.55;14,80.70,507.61,450.63,11.55;14,80.70,519.56,81.57,11.55">Given the weight of the consistency validations in a graph model when compared with a relational model, it is more common to see graph databases and triple stores in OLAP/WORM applications instead of OLTP solutions.</s><s xml:id="_bBejJKC" coords="14,165.59,519.56,365.75,11.55;14,80.34,531.52,297.35,11.55">Thus, it is a challenge to ensure the availability that one expects of an OLTP system while at the same time ensuring compliance with the CIDOC CRM.</s></p><p xml:id="_qkyXUef"><s xml:id="_9Kvuctc" coords="14,90.66,543.47,440.65,11.55;14,80.70,555.43,229.41,11.55">In order to make it easier to program the system, we searched for a set of libraries that could be used to enforce the ontological consistency of the database.</s><s xml:id="_PKCPXVf" coords="14,313.17,555.43,218.14,11.55;14,80.70,567.38,450.66,11.55;14,80.70,579.34,170.03,11.55">Few articles cover the validation of consistency and it is a subject that has been only briefly explored as a graph database benchmark task, unlike synthetic benchmarking, which is more common.</s></p><p xml:id="_EWKBksQ"><s xml:id="_9VRkhDp" coords="14,90.66,591.29,440.67,11.55;14,80.70,603.25,452.00,11.55;14,80.70,615.20,450.62,11.55;14,80.70,627.16,83.75,11.55">To evaluate both the performance and the consistency validation capabilities offered by each abstraction layer considered, we created an experiment that attempted to represent a relatively simple graph, containing test scenarios for the requirements considered essential to the correct mapping of the CRM in a software solution.</s><s xml:id="_YZbcZUH" coords="14,167.75,627.16,363.58,11.55;14,80.44,639.11,249.85,11.55">These are multiple inheritance (which handles the Diamond Problem) as well as the validation of domain, range and cardinality of properties.</s><s xml:id="_9RMmYFa" coords="15,90.66,251.43,440.67,11.55;15,80.70,263.38,452.57,11.55">After implementing the model using each of the technology stacks, we concluded that the utilization of the neomodel OGM with a Neo4j database is the only solution that satisfies the proposed requirements.</s><s xml:id="_QPVev35" coords="15,80.70,275.34,452.00,11.55;15,80.70,287.29,312.85,11.55">However, a second benchmark test that consists in the creation and deletion of the model multiple times, concludes that this stack is the slowest among all analyzed alternatives.</s></p><p xml:id="_2XdHH9m"><s xml:id="_CB385Yv" coords="15,90.66,299.25,440.69,11.55;15,80.70,311.21,434.94,11.55">A common trait among all solutions is the lack of maturity, which lead us to adopt the solution more relatively mature and officially endorsed by the creators of the database, even if it is not the fastest.</s><s xml:id="_7ySUpPY" coords="15,518.96,311.21,12.37,11.55;15,80.70,323.16,450.61,11.55;15,80.70,335.12,79.94,11.55">No results were obtained for the GVerse + DGraph stack, as it was not possible to configure the GVerse OGM successfully.</s></p><p xml:id="_2qwqjZq"><s xml:id="_jgR7pC4" coords="15,90.66,347.07,316.88,11.55">The EPISA project will explore knowledge graph expansion in the future.</s><s xml:id="_rMwhSfT" coords="15,410.86,347.07,120.78,11.55;15,80.70,359.03,450.65,11.55;15,80.70,370.98,261.67,11.55">Thus, we plan to implement an ETL pipeline which will take data from the OLTP system and enrich it by linking related resources from existing knowledge bases such as dbpedia or wikidata.</s><s xml:id="_7nCn5cq" coords="15,345.67,370.98,185.68,11.55;15,80.70,382.94,450.63,11.55;15,80.70,394.89,68.20,11.55">In terms of programming, the OGM could make the ETL module easier to maintain, since it provides an Object-Oriented alternative to scripted Cypher queries.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,155.00,518.76,302.06,8.97"><head>Fig. 1 .</head><label>1</label><figDesc><div><p xml:id="_y5zsJbz"><s xml:id="_GqVvX73" coords="5,155.00,518.76,24.90,8.97">Fig.1.</s><s xml:id="_dpdrX9c" coords="5,184.50,518.76,189.06,8.97">Representing the same graph using LPG vs RDF.</s><s xml:id="_VUgJw3X" coords="5,376.63,518.76,80.43,8.97">Image by Neo4j<ref type="bibr" coords="5,439.91,518.76,13.72,8.97" target="#b34">[35]</ref>.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="9,230.39,454.46,151.24,8.97"><head>Fig. 2 .</head><label>2</label><figDesc><div><p xml:id="_3FGhF4u"><s xml:id="_75fRMs7" coords="9,230.39,454.46,151.24,8.97">Fig. 2. Data model for the experiment.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="11,211.60,509.71,188.83,8.97"><head>Fig. 4 .</head><label>4</label><figDesc><div><p xml:id="_MrwAdfG"><s xml:id="_hFATt3f" coords="11,211.60,509.71,188.83,8.97">Fig. 4. Subset modeled in source code examples.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="18,67.50,261.01,175.33,7.97;18,101.73,271.42,257.79,7.35;18,101.75,281.38,394.95,7.35;18,67.50,290.90,4.23,7.97;18,101.79,291.35,263.00,7.35;18,81.12,301.31,4.23,7.35;18,81.40,311.27,156.34,7.35;18,67.50,320.79,4.23,7.97;18,101.77,321.23,329.08,7.35;18,121.98,331.20,166.46,7.35;18,101.45,341.16,4.23,7.35;18,63.26,350.68,8.46,7.97;18,101.73,351.12,425.31,7.35;18,101.05,361.09,131.12,7.35;18,101.75,371.05,212.25,7.35;18,101.73,381.01,420.73,7.35;18,101.35,390.97,34.40,7.35;18,63.26,400.49,22.09,7.97;18,81.40,410.90,156.34,7.35;18,101.77,420.86,227.39,7.35;18,63.26,430.38,8.46,7.97;18,121.98,430.82,166.46,7.35;18,101.45,440.79,4.23,7.35;18,101.73,450.75,181.60,7.35;18,63.26,460.27,8.46,7.97;18,122.02,460.71,273.13,7.35;18,101.75,470.67,212.25,7.35;18,101.73,480.64,257.98,7.35;18,63.26,490.15,22.09,7.97;18,81.40,500.56,420.59,7.35;18,81.40,510.52,394.97,7.35;18,63.26,520.04,8.46,7.97;18,81.40,530.45,217.35,7.35;18,81.40,540.41,293.35,7.35;18,63.26,549.93,8.46,7.97;18,81.40,560.34,339.30,7.35;18,81.40,570.30,400.41,7.35;18,63.26,579.82,8.46,7.97;18,101.66,580.26,308.66,7.35;18,173.48,599.72,253.20,8.97;18,429.74,597.72,8.28,5.06"><head>1Listing 1 .</head><label>1</label><figDesc><div><p xml:id="_xbG5Gs5"><s xml:id="_JMbwW4k" coords="18,81.40,261.46,161.42,7.35;18,101.73,271.42,130.96,7.35">async function modeling_P130 () { const schema = new orango .</s><s xml:id="_DFWsP8y" coords="18,233.83,271.42,125.68,7.35;18,101.75,281.38,34.40,7.35">Schema ({ message : String }) schema .</s><s xml:id="_KXJVBR3" coords="18,137.25,281.38,359.45,7.35;18,67.50,290.90,4.23,7.97;18,101.79,291.35,69.92,7.35">type ( ' edge ' , { from : ' E 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g ' , to : [ ' E70_thing ' ]}) 4 return orango .</s><s xml:id="_HrRMzKg" coords="18,172.84,291.35,191.94,7.35;18,81.12,301.31,4.23,7.35;18,81.40,311.27,156.34,7.35;18,67.50,320.79,4.23,7.97;18,101.77,321.23,288.33,7.35">model ( ' P 1 3 0 _ s h o w s _ f e a t u r e _ o f ' , schema ) } async function modeling_E24 () { 7 class E 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g S c h e m a extends orango .</s><s xml:id="_btF9G8N" coords="18,391.25,321.23,39.61,7.35;18,121.98,331.20,136.13,7.35">Sc hema { get getName () { return this .</s><s xml:id="_rVXuYvh" coords="18,259.21,331.20,29.23,7.35;18,101.45,341.16,4.23,7.35;18,63.26,350.68,8.46,7.97;18,101.73,351.12,425.31,7.35;18,101.05,361.09,131.12,7.35;18,101.75,371.05,34.40,7.35">name ;} } 10 const schema = new E 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g S c h e m a ({ name : { type : String , required : true } ,} , { strict : true }) schema .</s><s xml:id="_g4Rn8Fz" coords="18,137.33,371.05,80.08,7.35">addIndex ( SCHEMA .</s><s xml:id="_4kVjXuq" coords="18,218.53,371.05,29.35,7.35">INDEX .</s><s xml:id="_EZ2mcSD" coords="18,248.87,371.05,65.13,7.35;18,101.73,381.01,227.42,7.35">HASH , ' name ') const E 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g = orango .</s><s xml:id="_sUu8VZQ" coords="18,330.27,381.01,192.19,7.35;18,101.35,390.97,34.40,7.35;18,63.26,400.49,22.09,7.97;18,81.40,410.90,156.34,7.35;18,101.77,420.86,186.75,7.35">model ( ' E 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g ' , schema ) 13 } async function modeling_E70 () { class E 70 _t hi n gS ch em a extends orango .</s><s xml:id="_jXzV5N2" coords="18,289.68,420.86,39.48,7.35;18,63.26,430.38,8.46,7.97;18,121.98,430.82,136.13,7.35">Schema { 16 get getName () { return this .</s><s xml:id="_9jHkf9w" coords="18,259.21,430.82,29.23,7.35;18,101.45,440.79,4.23,7.35;18,101.73,450.75,181.60,7.35;18,63.26,460.27,8.46,7.97;18,122.02,460.71,273.13,7.35;18,101.75,470.67,34.40,7.35">name ;} } const schema = new E 70 _t hi n gS ch em a ({ 19 name : { type : String , required : true } ,} , { strict : true }) schema .</s><s xml:id="_xJTJDgG" coords="18,137.33,470.67,80.08,7.35">addIndex ( SCHEMA .</s><s xml:id="_PqRHWfA" coords="18,218.53,470.67,29.35,7.35">INDEX .</s><s xml:id="_5enB8rb" coords="18,248.87,470.67,65.13,7.35;18,101.73,480.64,125.84,7.35">HASH , ' name ') const E70_thing = orango .</s><s xml:id="_JdrJUbJ" coords="18,228.70,480.64,131.01,7.35;18,63.26,490.15,22.09,7.97;18,81.40,500.56,227.42,7.35">model ( ' E70_thing ' , schema ) 22 } const E 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g = orango .</s><s xml:id="_GppXNuG" coords="18,309.95,500.56,192.05,7.35;18,81.40,510.52,181.70,7.35">model ( ' E 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g ') await E 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g .</s><s xml:id="_KWsnd4u" coords="18,264.38,510.52,211.99,7.35;18,63.26,520.04,8.46,7.97;18,81.40,530.45,125.84,7.35">import ([{ _key : '1 ' , name : ' Tokyo Tower ' }]) 25 const E70_thing = orango .</s><s xml:id="_pBNqQre" coords="18,208.37,530.45,90.38,7.35;18,81.40,540.41,80.13,7.35">model ( ' E70_thing ') await E70_thing .</s><s xml:id="_w5EseGQ" coords="18,162.76,540.41,211.99,7.35;18,63.26,549.93,8.46,7.97;18,81.40,560.34,186.79,7.35">import ([{ _key : '1 ' , name : ' Eiffel Tower ' }]) 28 const P 1 3 0 _ s h o w s _ f e a t u r e _ o f = orango .</s><s xml:id="_JuMUqx8" coords="18,269.32,560.34,151.38,7.35;18,81.40,570.30,141.07,7.35">model ( ' P 1 3 0 _ s h o w s _ f e a t u r e _ o f ') await P 1 3 0 _ s h o w s _ f e a t u r e _ o f .</s><s xml:id="_TQTSwAC" coords="18,223.73,570.30,258.08,7.35;18,63.26,579.82,8.46,7.97;18,101.66,580.26,308.66,7.35;18,213.97,599.72,212.71,8.97;18,429.74,597.72,8.28,5.06">import ([{ _from : ' e 2 4 _ p h y s i c a l _ h u m a n _ m a d e _ t h i n g s /1 ' , 31 _to : ' e70_things /1 ' , message : ' P 1 3 0 _ s h o w s _ f e a t u r e _ o f edge ' }]) Modeling the excerpt of the data model with OrangoJs 22</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="18,90.58,644.23,7.55,4.31;18,98.63,645.24,283.31,7.97"><head>22</head><label></label><figDesc><div><p xml:id="_4p67GYB"><s xml:id="_ejAJ6uJ" coords="18,98.63,645.24,283.31,7.97">https://github.com/feup-infolab/Comparison_OGMs/tree/master/orangoJs</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="10,118.79,119.95,374.45,287.70"><head>Table 1 .</head><label>1</label><figDesc><div><p xml:id="_JzJmAJw"><s xml:id="_bkZ9W2Y" coords="10,281.06,349.71,85.42,8.97">All tested Frameworks</s></p></div></figDesc><table coords="10,118.79,119.95,374.45,287.70"><row><cell></cell><cell></cell><cell cols="2">E70 Thing</cell><cell></cell></row><row><cell></cell><cell cols="2">E71 Human Made Thing</cell><cell cols="2">E18 Physical Thing</cell></row><row><cell></cell><cell></cell><cell cols="2">E24 Physical Man-Made Thing</cell><cell></cell></row><row><cell cols="6">Fig. 3. A depiction of the "Diamond Problem" using UML (Unified Modelling Language) syntax.</cell></row><row><cell cols="3">OGM/Dimension GVerse OrangoJS</cell><cell>ArangoJs</cell><cell cols="2">Neo4j OGM Neomodel</cell></row><row><cell cols="3">Graph Database DGraph ArangoDB</cell><cell cols="2">ArangoDB Neo4j</cell><cell>Neo4j</cell></row><row><cell>OGM Version</cell><cell>0.4.5</cell><cell cols="2">1.0.0.beta-1.1 6.14.1</cell><cell>3.2.17</cell><cell>4.0.1</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="15,85.68,105.55,443.32,119.70"><head>Table 2 .</head><label>2</label><figDesc><div><p xml:id="_saSdxzu"><s xml:id="_RUjMkKc" coords="15,264.39,105.55,118.78,8.97">Comparative overview of OGM</s></p></div></figDesc><table coords="15,85.68,129.34,443.32,95.92"><row><cell>OGM/Dimension</cell><cell>GVerse</cell><cell cols="2">OrangoJS ArangoJs</cell><cell>Neomodel</cell></row><row><cell>Graph Database</cell><cell>DGraph</cell><cell cols="3">ArangoDB ArangoDB Neo4j</cell></row><row><cell>Properties</cell><cell cols="4">ACID [22] ACID [16] ACID [16] ACID [16]</cell></row><row><cell>Programming Language</cell><cell cols="4">Typescript JavaScript JavaScript Python</cell></row><row><cell>Supports multiple inheritance</cell><cell>?</cell><cell>✖</cell><cell>✔</cell><cell>✔</cell></row><row><cell>Eiffel Tower model</cell><cell>?</cell><cell>✖</cell><cell>✖</cell><cell>✔</cell></row><row><cell cols="2">1000 insertions of the model duration average (s) NA</cell><cell>9.6</cell><cell>61.3</cell><cell>78.3</cell></row><row><cell cols="2">10000 insertions of the model duration average (s) NA</cell><cell>116.4</cell><cell>591.4</cell><cell>957.5</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="18,80.70,108.59,452.19,136.51"><head></head><label></label><figDesc><div><p xml:id="_PmKnJVW"><s xml:id="_NbJGdVK" coords="18,97.86,108.59,167.55,7.97">Software Engineering and the Semantic Web.</s><s xml:id="_EtQkyDG" coords="18,80.70,118.56,147.74,7.97">[46] Dmitry Tsarkov and Ian Horrocks.</s><s xml:id="_WVsnw4n" coords="18,231.28,118.56,19.67,7.97">2006.</s><s xml:id="_cMw35w9" coords="18,254.75,118.56,222.00,7.97">FaCT++ Description Logic Reasoner: System Description.</s><s xml:id="_XztUqRn" coords="18,479.59,118.56,51.50,7.97;18,97.39,128.52,216.02,7.97">In Automated Reasoning, Ulrich Furbach and Natarajan Shankar (Eds.).</s><s xml:id="_k5kFEVr" coords="18,316.24,128.52,208.12,7.97">Springer Berlin Heidelberg, Berlin, Heidelberg, 292Ű297.</s><s xml:id="_V8waVTf" coords="18,80.70,138.48,83.70,7.97">[47] Rik Van Bruggen.</s><s xml:id="_E97jCXf" coords="18,167.22,138.48,19.28,7.97">2014.</s><s xml:id="_fBGFzgV" coords="18,190.28,138.48,59.21,7.97">Learning Neo4j.</s><s xml:id="_VVhc3wB" coords="18,253.24,138.48,81.53,7.97">Packt Publishing Ltd.</s><s xml:id="_KgNmZqA" coords="18,80.70,148.44,226.06,7.97">[48] Muriel Van Ruymbeke, Pierre Hallot, and Roland Billen.</s><s xml:id="_UYxyVJ6" coords="18,309.59,148.44,19.07,7.97">2017.</s><s xml:id="_6JN79Qk" coords="18,332.45,148.44,198.73,7.97;18,97.86,158.41,138.05,7.97">Enhancing CIDOC-CRM and compatible models with the concept of multiple interpretation.</s><s xml:id="_HP4TgDK" coords="18,239.26,158.41,292.08,7.97;18,97.42,168.37,101.82,7.97">ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences 2 (2017), 287Ű294.</s><s xml:id="_wJz36Yz" coords="18,80.70,178.33,359.73,7.97">[49] Chad Vicknair, Michael Macias, Zhendong Zhao, Xiaofei Nan, Yixin Chen, and Dawn Wilkins.</s><s xml:id="_7yXVHmy" coords="18,443.02,178.33,18.89,7.97">2010.</s><s xml:id="_XXbvNc8" coords="18,465.28,178.33,65.88,7.97;18,97.86,188.29,268.33,7.97">A comparison of a graph database and a relational database: a data provenance perspective.</s><s xml:id="_9egDp6c" coords="18,369.02,188.29,162.30,7.97;18,97.39,198.26,435.49,7.97;18,97.86,208.22,47.90,7.97">In Proceedings of the 48th Annual Southeast Regional Conference, 2010, Oxford, MS, USA, April 15-17, 2010, H. Conrad Cunningham, Paul Ruth, and Nicholas A. Kraft (Eds.).</s><s xml:id="_JuyBSJy" coords="18,148.58,208.22,195.66,7.97">ACM, 42. https://doi.org/10.1145/1900008.1900067</s></p></div></figDesc><table coords="18,80.70,235.05,107.80,10.06"><row><cell>A ORANGOJS CODE</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_0" coords="3,98.63,646.49,169.51,7.97"><p xml:id="_zJhbMhR"><s xml:id="_64ZAkVS" coords="3,98.63,646.49,169.51,7.97">https://ica-egad.github.io/RiC-O/about.html</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_1" coords="4,98.63,645.92,101.74,7.97"><p xml:id="_UdS449W"><s xml:id="_vxYJaQJ" coords="4,98.63,645.92,101.74,7.97">https://www.w3.org/RDF/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_2" coords="5,98.63,645.11,79.29,7.97"><p xml:id="_xRgYvTX"><s xml:id="_kYnjKxT" coords="5,98.63,645.11,79.29,7.97">https://www.w3.org/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_3" coords="6,98.63,567.45,158.55,7.97"><p xml:id="_VwtfbMd"><s xml:id="_ehTx42W" coords="6,98.63,567.45,158.55,7.97">https://tinkerpop.apache.org/gremlin.html</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_4" coords="6,98.63,577.24,115.84,7.97"><p xml:id="_dGDySf7"><s xml:id="_ECz8xsY" coords="6,98.63,577.24,115.84,7.97">https://www.gqlstandards.org/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7" xml:id="foot_5" coords="6,98.63,587.02,91.05,7.97"><p xml:id="_PUeh6Y4"><s xml:id="_67Btk8w" coords="6,98.63,587.02,91.05,7.97">https://jena.apache.org/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8" xml:id="foot_6" coords="6,98.63,596.80,124.77,7.97"><p xml:id="_YKYrPN8"><s xml:id="_E8c9fUm" coords="6,98.63,596.80,124.77,7.97">https://virtuoso.openlinksw.com/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9" xml:id="foot_7" coords="6,98.63,606.58,305.80,7.97"><p xml:id="_wTANHWz"><s xml:id="_cqVhmuc" coords="6,98.63,606.58,305.80,7.97">https://community.openlinksw.com/t/validation-of-rdf-graphs-consistency/1942/4</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10" xml:id="foot_8" coords="6,98.63,616.37,266.59,7.97"><p xml:id="_bcp2gXs"><s xml:id="_apRMH6Z" coords="6,98.63,616.37,266.59,7.97">http://docs.openlinksw.com/virtuoso/rdfsparqlrulesubclassandsubprop/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11" xml:id="foot_9" coords="6,98.63,626.15,210.91,7.97"><p xml:id="_DvVXMtv"><s xml:id="_sXwqPhe" coords="6,98.63,626.15,210.91,7.97">http://docs.openlinksw.com/virtuoso/rdfsparqlruleintro/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12" xml:id="foot_10" coords="6,98.63,635.93,213.47,7.97"><p xml:id="_QtwMkAK"><s xml:id="_tHbQQ9S" coords="6,98.63,635.93,213.47,7.97">https://neo4j.com/docs/labs/nsmntx/current/validation/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="13" xml:id="foot_11" coords="6,98.63,645.71,368.09,7.97"><p xml:id="_259csHh"><s xml:id="_DZ469g4" coords="6,98.63,645.71,368.09,7.97">https://graphdb.ontotext.com/documentation/free/shacl-validation.html#supported-shacl-features</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="14" xml:id="foot_12" coords="7,98.63,643.95,164.82,7.97"><p xml:id="_anQcBsu"><s xml:id="_afafGnS" coords="7,98.63,643.95,164.82,7.97">https://github.com/owlcs/owlapi/issues/730</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="15" xml:id="foot_13" coords="10,98.63,646.10,124.78,7.97"><p xml:id="_SgyV7JW"><s xml:id="_QWE5yph" coords="10,98.63,646.10,124.78,7.97">https://github.com/gverse/gverse</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="16" xml:id="foot_14" coords="12,98.63,625.60,142.54,7.97"><p xml:id="_f7esSsC"><s xml:id="_vJWeMPr" coords="12,98.63,625.60,142.54,7.97">https://github.com/roboncode/orango</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="17" xml:id="foot_15" coords="12,98.63,635.39,272.31,7.97"><p xml:id="_P7PvHkR"><s xml:id="_UVKgs3Q" coords="12,98.63,635.39,272.31,7.97">https://orango.js.org/guide/working-with-models.html#deĄning-a-model</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="18" xml:id="foot_16" coords="12,98.63,645.17,145.17,7.97"><p xml:id="_jWPPjdF"><s xml:id="_5mQWsEB" coords="12,98.63,645.17,145.17,7.97">https://github.com/arangodb/arangojs</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19" xml:id="foot_17" coords="13,98.63,626.35,161.66,7.97"><p xml:id="_xYHXGaJ"><s xml:id="_7rHp9Nf" coords="13,98.63,626.35,161.66,7.97">https://github.com/neo4j/neo4j-java-driver</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="20" xml:id="foot_18" coords="13,98.63,636.13,163.49,7.97"><p xml:id="_WzYQnKB"><s xml:id="_AdF8vzE" coords="13,98.63,636.13,163.49,7.97">https://github.com/neo4j-contrib/neomodel</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="21" xml:id="foot_19" coords="13,98.63,645.92,124.48,7.97"><p xml:id="_RJvaxD5"><s xml:id="_uwY3TNg" coords="13,98.63,645.92,124.48,7.97">https://neomodel.readthedocs.io/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="23" xml:id="foot_20" coords="19,98.63,646.56,335.80,7.97"><p xml:id="_mBjJuy6"><s xml:id="_Fp4WDjt" coords="19,98.63,646.56,335.80,7.97">https://github.com/feup-infolab/Comparison_OGMs/tree/master/ArangoJS/arangojstest</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_n8QhMnz">ACKNOWLEDGMENTS</head><p xml:id="_SC3AEhh">This work is financed by <rs type="funder">National Funds through FCT -Foundation for Science and Technology I.P.</rs>, within the scope of the <rs type="projectName">EPISA</rs> project <rs type="grantNumber">-DSAIPA/DS/0023/2018</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_9H2RmTR">
+					<idno type="grant-number">-DSAIPA/DS/0023/2018</idno>
+					<orgName type="project" subtype="full">EPISA</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_qZSWZEt">B ARANGOJS CODE class E 2 4 _ P h y s i c a l _ H u m a n _ M a d e _ T h i n</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="15,97.86,486.07,433.34,7.97;15,97.86,496.03,360.44,7.97" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="15,304.96,486.07,226.24,7.97;15,97.86,496.03,34.37,7.97" xml:id="_ZzYfvCB">Type of NOSQL databases and its comparison with relational databases</title>
+		<author>
+			<persName coords=""><forename type="first">Nayak</forename><surname>Ameya</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Poriya</forename><surname>Anil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Poojary</forename><surname>Dikshay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mPx8msw" coord="15,139.81,496.03,201.53,7.97">International Journal of Applied Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="16" to="19" />
+			<date type="published" when="2013-01">2013. January 2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nayak Ameya, Poriya Anil, and Poojary Dikshay. 2013. Type of NOSQL databases and its comparison with relational databases. International Journal of Applied Information Systems 5, January 2013 (2013), 16Ű19.</note>
+</biblStruct>
+
+<biblStruct coords="15,97.86,505.99,433.24,7.97;15,96.84,515.96,435.24,7.97" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="15,175.79,505.99,175.04,7.97" xml:id="_QQvBd4e">A comparison of current graph database models</title>
+		<author>
+			<persName coords=""><forename type="first">Renzo</forename><surname>Angles</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICDEW.2012.31</idno>
+		<ptr target="https://doi.org/10.1109/ICDEW.2012.31" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_PrHw98t" coord="15,368.23,505.99,162.86,7.97;15,96.84,515.96,274.40,7.97">Proceedings -2012 IEEE 28th International Conference on Data Engineering Workshops, ICDEW 2012. IEEE, 171Ű177</title>
+		<meeting>-2012 IEEE 28th International Conference on Data Engineering Workshops, ICDEW 2012. IEEE, 171Ű177</meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Renzo Angles. 2012. A comparison of current graph database models. In Proceedings -2012 IEEE 28th International Conference on Data Engineering Workshops, ICDEW 2012. IEEE, 171Ű177. https://doi.org/10.1109/ICDEW.2012.31</note>
+</biblStruct>
+
+<biblStruct coords="15,97.85,525.92,268.10,7.97" xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><surname>Arangodb</surname></persName>
+		</author>
+		<ptr target="https://www.arangodb.com/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2MbRwpK" coord="15,165.58,525.92,87.00,7.97">ArangoDB. ArangoDB</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ArangoDB. 2020. ArangoDB. ArangoDB. https://www.arangodb.com/</note>
+</biblStruct>
+
+<biblStruct coords="15,97.86,535.88,433.46,7.97;15,97.17,545.85,435.21,7.97;15,97.86,555.81,23.51,7.97" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="15,234.65,535.88,236.59,7.97" xml:id="_hJvcB4v">A Versioning and Evolution Framework for RDF Knowledge Bases</title>
+		<author>
+			<persName coords=""><forename type="first">Sören</forename><surname>Auer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Heinrich</forename><surname>Herre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WdD6Jaz" coord="15,487.18,535.88,44.14,7.97;15,97.17,545.85,83.21,7.97">Perspectives of Systems Informatics</title>
+		<editor>
+			<persName><forename type="first">Irina</forename><surname>Virbitskaite</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Andrei</forename><surname>Voronkov</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin Heidelberg; Berlin, Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="55" to="69" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sören Auer and Heinrich Herre. 2007. A Versioning and Evolution Framework for RDF Knowledge Bases. In Perspectives of Systems Informatics, Irina Virbitskaite and Andrei Voronkov (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 55Ű69.</note>
+</biblStruct>
+
+<biblStruct coords="15,97.86,565.77,430.60,7.97" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="15,307.63,565.77,63.78,7.97" xml:id="_x9p49xa">The semantic web</title>
+		<author>
+			<persName coords=""><forename type="first">Tim</forename><surname>Berners-Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Hendler</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ora</forename><surname>Lassila</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_p9mvcms" coord="15,379.32,565.77,70.21,7.97">ScientiĄc american</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page" from="34" to="43" />
+			<date type="published" when="2001">2001. 2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tim Berners-Lee, James Hendler, and Ora Lassila. 2001. The semantic web. ScientiĄc american 284, 5 (2001), 34Ű43.</note>
+</biblStruct>
+
+<biblStruct coords="15,97.86,575.73,433.20,7.97;15,97.20,585.70,434.15,7.97;15,97.42,595.66,435.05,7.97;15,97.86,605.62,391.48,7.97" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="15,263.22,575.73,267.84,7.97;15,97.20,585.70,114.23,7.97" xml:id="_qdr6uhU">Inferencing and Truth Maintenance in RDF Schema. In PSSS1 -Practical and Scalable Semantic Systems</title>
+		<author>
+			<persName coords=""><forename type="first">Jeen</forename><surname>Broekstra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Arjohn</forename><surname>Kampman</surname></persName>
+		</author>
+		<ptr target="http://ceur-ws.org/Vol-89/broekstra-et-al.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_eaz2ny4" coord="15,218.52,585.70,312.83,7.97;15,97.42,595.66,28.88,7.97;15,254.45,605.62,52.38,7.97">Proceedings of the First International Workshop on Practical and Scalable Semantic Systems</title>
+		<title level="s" xml:id="_GttCgqS" coord="15,326.54,595.66,109.24,7.97">CEUR Workshop Proceedings</title>
+		<editor>
+			<persName><forename type="first">Raphael</forename><surname>Volz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Stefan</forename><surname>Decker</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Isabel</forename><forename type="middle">F</forename><surname>Cruz</surname></persName>
+		</editor>
+		<meeting>the First International Workshop on Practical and Scalable Semantic Systems<address><addrLine>Sanibel Island, Florida, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003-10-20">2003. October 20. 2003</date>
+			<biblScope unit="volume">89</biblScope>
+		</imprint>
+	</monogr>
+	<note>CEUR-WS.org</note>
+	<note type="raw_reference">Jeen Broekstra and Arjohn Kampman. 2003. Inferencing and Truth Maintenance in RDF Schema. In PSSS1 -Practical and Scalable Semantic Systems, Proceedings of the First International Workshop on Practical and Scalable Semantic Systems, Sanibel Island, Florida, USA, October 20, 2003 (CEUR Workshop Proceedings, Vol. 89), Raphael Volz, Stefan Decker, and Isabel F. Cruz (Eds.). CEUR-WS.org. http://ceur-ws.org/Vol-89/broekstra-et-al.pdf</note>
+</biblStruct>
+
+<biblStruct coords="15,97.86,615.58,433.28,7.97;15,97.86,625.55,201.24,7.97" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="15,368.04,615.58,163.10,7.97;15,97.86,625.55,100.28,7.97" xml:id="_VWTpJmx">Comparing relational and ontological triple stores in healthcare domain</title>
+		<author>
+			<persName coords=""><forename type="first">Emine</forename><surname>Ozgu Can</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Okan</forename><surname>Sezer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Murat</forename><surname>Bursa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Unalir</forename><surname>Osman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DYuGc2k" coord="15,206.16,625.55,29.52,7.97">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ozgu Can, Emine Sezer, Okan Bursa, and Murat Osman Unalir. 2017. Comparing relational and ontological triple stores in healthcare domain. Entropy 19, 1 (2017), 30.</note>
+</biblStruct>
+
+<biblStruct coords="15,97.86,635.51,433.22,7.97;15,96.84,645.47,342.24,7.97" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="15,260.12,635.51,135.72,7.97" xml:id="_3mgbssJ">Version control for RDF triple stores</title>
+		<author>
+			<persName coords=""><forename type="first">Steve</forename><surname>Cassidy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Ballantine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HWQcnRT" coord="15,403.06,635.51,128.02,7.97;15,96.84,645.47,174.55,7.97">ICSOFT 2007 -2nd International Conference on Software and Data Technologies</title>
+		<imprint>
+			<date type="published" when="2007">2007. 2007</date>
+			<biblScope unit="page" from="5" to="12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steve Cassidy and James Ballantine. 2007. Version control for RDF triple stores. ICSOFT 2007 -2nd International Conference on Software and Data Technologies, Proceedings ISDM, WSEHS/-(2007), 5Ű12.</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,108.59,434.58,7.97;16,97.01,118.56,97.04,7.97" xml:id="b8">
+	<monogr>
+		<author>
+			<orgName type="collaboration" coords="16,97.86,108.59,109.86,7.97">World Wide Web Consortium</orgName>
+		</author>
+		<ptr target="https://www.w3.org/TR/shacl/" />
+		<title level="m" xml:id="_77w4ume" coord="16,238.10,108.59,261.80,7.97">Shapes Constraint Language (SHACL). World Wide Web Consortium</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">World Wide Web Consortium. 2017. Shapes Constraint Language (SHACL). World Wide Web Consortium. https: //www.w3.org/TR/shacl/</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,128.52,434.63,7.97;16,97.86,138.48,65.32,7.97" xml:id="b9">
+	<monogr>
+		<author>
+			<orgName type="collaboration" coords="16,97.86,128.52,108.69,7.97">World Wide Web Consortium</orgName>
+		</author>
+		<ptr target="https://www.w3.org/wiki/LargeTripleStores" />
+		<title level="m" xml:id="_zdyUxDT" coord="16,236.61,128.52,186.17,7.97">Large Triple Stores. World Wide Web Consortium</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">World Wide Web Consortium. 2020. Large Triple Stores. World Wide Web Consortium. https://www.w3.org/wiki/ LargeTripleStores</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,148.44,434.96,7.97;16,97.54,158.41,433.52,7.97;16,97.42,168.37,433.96,7.97;16,97.42,178.33,244.88,7.97" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="16,97.54,158.41,309.58,7.97" xml:id="_W5sCaCK">An Open-Source Object-Graph-Mapping Framework for Neo4j and Scala: Renesca</title>
+		<author>
+			<persName coords=""><forename type="first">Felix</forename><surname>Dietze</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Johannes</forename><surname>Karof</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Calero</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martina</forename><surname>Valdez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christoph</forename><surname>Zieće</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ulrik</forename><surname>Greven</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Schroeder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_bYWD4SJ" coord="16,425.00,158.41,106.07,7.97;16,97.42,168.37,119.50,7.97">Availability, Reliability, and Security in Information Systems</title>
+		<editor>
+			<persName><forename type="first">Francesco</forename><surname>Buccafurri</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Andreas</forename><surname>Holzinger</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Peter</forename><surname>Kieseberg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Min</forename><surname>Tjoa</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Edgar</forename><surname>Weippl</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="204" to="218" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Felix Dietze, Johannes Karof, André Calero Valdez, Martina ZieĆe, Christoph Greven, and Ulrik Schroeder. 2016. An Open-Source Object-Graph-Mapping Framework for Neo4j and Scala: Renesca. In Availability, Reliability, and Security in Information Systems, Francesco Buccafurri, Andreas Holzinger, Peter Kieseberg, A Min Tjoa, and Edgar Weippl (Eds.). Springer International Publishing, Cham, 204Ű218.</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,188.29,434.96,7.97;16,97.54,198.26,433.52,7.97;16,97.42,208.22,435.12,7.97;16,97.20,218.18,434.19,7.97;16,97.24,228.14,434.02,7.97;16,97.86,238.11,434.22,7.97;16,97.64,248.07,67.31,7.97" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="16,97.54,198.26,309.58,7.97" xml:id="_VPH7Txh">An Open-Source Object-Graph-Mapping Framework for Neo4j and Scala: Renesca</title>
+		<author>
+			<persName coords=""><forename type="first">Felix</forename><surname>Dietze</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Johannes</forename><surname>Karof</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Calero</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martina</forename><surname>Valdez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christoph</forename><surname>Zieće</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ulrik</forename><surname>Greven</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Schroeder</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-45507-5_14</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-45507-5_14" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_cSx8Cmp" coord="16,425.00,198.26,106.07,7.97;16,97.42,208.22,435.12,7.97;16,97.20,218.18,282.73,7.97">Availability, Reliability, and Security in Information Systems -IFIP WG 8.4, 8.9, TC 5 International Cross-Domain Conference, CD-ARES 2016, and Workshop on Privacy Aware Machine Learning for Health Data Science</title>
+		<title level="s" xml:id="_ku9Wv2n" coord="16,238.29,228.14,129.92,7.97">Lecture Notes in Computer Science</title>
+		<editor>
+			<persName><forename type="first">Francesco</forename><surname>Buccafurri</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Andreas</forename><surname>Holzinger</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Peter</forename><surname>Kieseberg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Min</forename><surname>Tjoa</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Edgar</forename><forename type="middle">R</forename><surname>Weippl</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Salzburg, Austria</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016-08-31">2016. 2016. August 31 -September 2, 2016</date>
+			<biblScope unit="volume">9817</biblScope>
+			<biblScope unit="page" from="204" to="218" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Felix Dietze, Johannes Karof, André Calero Valdez, Martina ZieĆe, Christoph Greven, and Ulrik Schroeder. 2016. An Open-Source Object-Graph-Mapping Framework for Neo4j and Scala: Renesca. In Availability, Reliability, and Security in Information Systems -IFIP WG 8.4, 8.9, TC 5 International Cross-Domain Conference, CD-ARES 2016, and Workshop on Privacy Aware Machine Learning for Health Data Science, PAML 2016, Salzburg, Austria, August 31 -September 2, 2016, Proceedings (Lecture Notes in Computer Science, Vol. 9817), Francesco Buccafurri, Andreas Holzinger, Peter Kieseberg, A Min Tjoa, and Edgar R. Weippl (Eds.). Springer, 204Ű218. https://doi.org/10.1007/978- 3-319-45507-5_14</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,258.03,434.98,7.97;16,97.64,268.00,433.44,7.97;16,96.84,277.96,435.55,7.97;16,97.86,287.92,68.19,7.97" xml:id="b12">
+	<monogr>
+		<title level="m" type="main" coord="16,121.43,268.00,409.66,7.97;16,96.84,277.96,134.84,7.97" xml:id="_gCCUrQt">A Discussion on the Design of Graph Database Benchmarks. In Performance Evaluation, Measurement and Characterization of Complex Systems</title>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Dominguez-Sal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Norbert</forename><surname>Martinez-Bazan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Victor</forename><surname>Muntes-Mulero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pere</forename><surname>Baleta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Josep</forename><surname>Lluis Larriba-Pey</surname></persName>
+		</author>
+		<editor>Raghunath Nambiar and Meikel Poess</editor>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="25" to="40" />
+			<pubPlace>Berlin Heidelberg; Berlin, Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">David Dominguez-Sal, Norbert Martinez-Bazan, Victor Muntes-Mulero, Pere Baleta, and Josep Lluis Larriba-Pey. 2011. A Discussion on the Design of Graph Database Benchmarks. In Performance Evaluation, Measurement and Characterization of Complex Systems, Raghunath Nambiar and Meikel Poess (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 25Ű40.</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,297.88,433.31,7.97;16,97.38,307.85,134.31,7.97" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="16,262.93,297.88,180.61,7.97" xml:id="_gcDFRJj">Metamodeling semantics of multiple inheritance</title>
+		<author>
+			<persName coords=""><forename type="first">Roland</forename><surname>Ducournau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jean</forename><surname>Privat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zdGWTFX" coord="16,451.78,297.88,79.38,7.97;16,97.38,307.85,49.75,7.97">Science of Computer Programming</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="555" to="586" />
+			<date type="published" when="2011">2011. 2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roland Ducournau and Jean Privat. 2011. Metamodeling semantics of multiple inheritance. Science of Computer Programming 76, 7 (2011), 555Ű586.</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,317.81,434.50,7.97;16,97.86,327.77,434.70,7.97;16,97.37,337.73,435.49,7.97;16,97.86,347.70,159.22,7.97" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="16,268.18,317.81,264.18,7.97;16,97.86,327.77,76.02,7.97" xml:id="_G3TmAZ8">Graph Databases Comparison: AllegroGraph, ArangoDB, InĄniteGraph, Neo4J, and OrientDB</title>
+		<author>
+			<persName coords=""><forename type="first">Diogo</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jorge</forename><surname>Bernardino</surname></persName>
+		</author>
+		<idno type="DOI">10.5220/0006910203730380</idno>
+		<ptr target="https://doi.org/10.5220/0006910203730380" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_6jsQ8m2" coord="16,189.99,327.77,338.93,7.97">Proceedings of the 7th International Conference on Data Science, Technology and Applications</title>
+		<editor>
+			<persName><forename type="first">Jorge</forename><surname>Bernardino</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Christoph</forename><surname>Quix</surname></persName>
+		</editor>
+		<meeting>the 7th International Conference on Data Science, Technology and Applications<address><addrLine>Porto, Portugal</addrLine></address></meeting>
+		<imprint>
+			<publisher>SciTePress</publisher>
+			<date type="published" when="2018-07-26">2018. 2018. July 26-28, 2018</date>
+			<biblScope unit="page" from="373" to="380" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Diogo Fernandes and Jorge Bernardino. 2018. Graph Databases Comparison: AllegroGraph, ArangoDB, InĄniteGraph, Neo4J, and OrientDB. In Proceedings of the 7th International Conference on Data Science, Technology and Applications, DATA 2018, Porto, Portugal, July 26-28, 2018, Jorge Bernardino and Christoph Quix (Eds.). SciTePress, 373Ű380. https://doi.org/10.5220/0006910203730380</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,357.66,434.50,7.97;16,97.86,367.62,433.52,7.97;16,96.86,377.58,435.99,7.97;16,97.86,387.55,159.22,7.97" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="16,268.18,357.66,264.18,7.97;16,97.86,367.62,76.21,7.97" xml:id="_XN8H2cV">Graph Databases Comparison: AllegroGraph, ArangoDB, InĄniteGraph, Neo4J, and OrientDB</title>
+		<author>
+			<persName coords=""><forename type="first">Diogo</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jorge</forename><surname>Bernardino</surname></persName>
+		</author>
+		<idno type="DOI">10.5220/0006910203730380</idno>
+		<ptr target="https://doi.org/10.5220/0006910203730380" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_jrR3bfG" coord="16,190.38,367.62,341.00,7.97">Proceedings of the 7th International Conference on Data Science, Technology and Applications</title>
+		<meeting>the 7th International Conference on Data Science, Technology and Applications<address><addrLine>Porto, Portugal; Lda, Setubal, PRT</addrLine></address></meeting>
+		<imprint>
+			<publisher>SCITEPRESS -Science and Technology Publications</publisher>
+			<date type="published" when="2018">2018. 2018</date>
+			<biblScope unit="page" from="373" to="380" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Diogo Fernandes and Jorge Bernardino. 2018. Graph Databases Comparison: AllegroGraph, ArangoDB, InĄniteGraph, Neo4J, and OrientDB. In Proceedings of the 7th International Conference on Data Science, Technology and Applications (Porto, Portugal) (DATA 2018). SCITEPRESS -Science and Technology Publications, Lda, Setubal, PRT, 373Ű380. https://doi.org/10.5220/0006910203730380</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,397.51,433.54,7.97;16,96.27,407.47,165.58,7.97" xml:id="b16">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Georg</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexander</forename><surname>Lausen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Schätzle</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Schmidt</surname></persName>
+		</author>
+		<title level="m" xml:id="_8uecPXp" coord="16,407.10,397.51,124.30,7.97;16,96.27,407.47,102.09,7.97">CEUR Workshop Proceedings 1330</title>
+		<imprint>
+			<date type="published" when="2015">2015. 2015</date>
+			<biblScope unit="page" from="205" to="212" />
+		</imprint>
+	</monogr>
+	<note>RDF constraint checking</note>
+	<note type="raw_reference">Peter M. Fischer, Georg Lausen, Alexander Schätzle, and Michael Schmidt. 2015. RDF constraint checking. CEUR Workshop Proceedings 1330 (2015), 205Ű212.</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,417.43,433.32,7.97;16,97.86,427.40,434.72,7.97;16,96.88,437.36,276.95,7.97" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="16,371.34,417.43,159.84,7.97;16,97.86,427.40,34.98,7.97" xml:id="_A8cm9Gp">Call graph construction in object-oriented languages</title>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Grove</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>Defouw</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jefrey</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Craig</forename><surname>Chambers</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/263700.264352</idno>
+		<ptr target="https://doi.org/10.1145/263700.264352" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Nt8Ra8g" coord="16,140.46,427.40,388.33,7.97">Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications</title>
+		<meeting>the Conference on Object-Oriented Programming Systems, Languages, and Applications</meeting>
+		<imprint>
+			<date type="published" when="1997">1997. 1997</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="108" to="124" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">David Grove, Greg DeFouw, Jefrey Dean, and Craig Chambers. 1997. Call graph construction in object-oriented languages. Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications, OOPSLA 32, 10 (1997), 108Ű124. https://doi.org/10.1145/263700.264352</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,447.32,434.29,7.97;16,96.86,457.29,206.07,7.97" xml:id="b18">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">Matthew</forename><surname>Horridge</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sean</forename><surname>Bechhofer</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/SW-2011-0025</idno>
+		<ptr target="https://doi.org/10.3233/SW-2011-0025" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WEQCycS" coord="16,272.74,447.32,181.30,7.97">The OWL API: A Java API for OWL ontologies</title>
+		<imprint>
+			<date type="published" when="2011">2011. 2011</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="11" to="21" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthew Horridge and Sean Bechhofer. 2011. The OWL API: A Java API for OWL ontologies. Semantic Web 2, 1 (2011), 11Ű21. https://doi.org/10.3233/SW-2011-0025</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,467.25,433.21,7.97;16,97.39,477.21,306.32,7.97" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="16,293.91,467.25,183.22,7.97" xml:id="_hT2fPuF">Scalable SPARQL Querying of Large RDF Graphs</title>
+		<author>
+			<persName coords=""><forename type="first">Jiewen</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Abadi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kun</forename><surname>Ren</surname></persName>
+		</author>
+		<idno type="DOI">10.14778/3402707.3402747</idno>
+		<ptr target="https://doi.org/10.14778/3402707.3402747" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_mp6TEve" coord="16,485.11,467.25,45.96,7.97;16,97.39,477.21,23.05,7.97">Proc. VLDB Endow</title>
+		<meeting>VLDB Endow</meeting>
+		<imprint>
+			<date type="published" when="2011-08">2011. Aug. 2011</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1123" to="1134" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jiewen Huang, Daniel J. Abadi, and Kun Ren. 2011. Scalable SPARQL Querying of Large RDF Graphs. Proc. VLDB Endow. 4, 11 (Aug. 2011), 1123Ű1134. https://doi.org/10.14778/3402707.3402747</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,487.17,433.37,7.97;16,97.86,497.14,433.45,7.97;16,97.86,507.10,249.13,7.97" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="16,151.38,497.14,379.92,7.97;16,97.86,507.10,23.92,7.97" xml:id="_MtEFcyP">WarSampo data service and semantic portal for publishing linked open data about the second world war history</title>
+		<author>
+			<persName coords=""><forename type="first">Eero</forename><surname>Hyvönen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erkki</forename><surname>Heino</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Petri</forename><surname>Leskinen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Esko</forename><surname>Ikkala</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mikko</forename><surname>Koho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Minna</forename><surname>Tamper</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jouni</forename><surname>Tuominen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eetu</forename><surname>Mäkelä</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_aUnSpEC" coord="16,138.60,507.10,133.41,7.97">European Semantic Web Conference</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="758" to="773" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eero Hyvönen, Erkki Heino, Petri Leskinen, Esko Ikkala, Mikko Koho, Minna Tamper, Jouni Tuominen, and Eetu Mäkelä. 2016. WarSampo data service and semantic portal for publishing linked open data about the second world war history. In European Semantic Web Conference. Springer, 758Ű773.</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,517.06,433.31,7.97;16,97.86,527.02,66.22,7.97" xml:id="b21">
+	<monogr>
+		<title level="m" type="main" coord="16,248.91,517.06,282.26,7.97;16,97.86,527.02,32.54,7.97" xml:id="_kVzsnP7">Dgraph: Synchronously Replicated, Transactional and Distributed Graph Database</title>
+		<author>
+			<persName coords=""><forename type="first">Manish</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dgraph</forename><surname>Labs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Manish Jain and Dgraph Labs. 2020. Dgraph: Synchronously Replicated, Transactional and Distributed Graph Database. (2020).</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,536.99,433.33,7.97;16,97.86,546.95,430.61,7.97" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="16,425.90,536.99,105.28,7.97;16,97.86,546.95,137.03,7.97" xml:id="_EqdyaRm">A survey and comparison of relational and non-relational database</title>
+		<author>
+			<persName coords=""><forename type="first">Nishtha</forename><surname>Jatana</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sahil</forename><surname>Puri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mehak</forename><surname>Ahuja</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ishita</forename><surname>Kathuria</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dishant</forename><surname>Gosain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_w4dCgtU" coord="16,242.50,546.95,223.44,7.97">International Journal of Engineering Research &amp; Technology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nishtha Jatana, Sahil Puri, Mehak Ahuja, Ishita Kathuria, and Dishant Gosain. 2012. A survey and comparison of relational and non-relational database. International Journal of Engineering Research &amp; Technology 1, 6 (2012), 1Ű5.</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,556.91,433.21,7.97;16,96.84,566.87,435.72,7.97;16,96.27,576.84,436.57,7.97;16,97.64,586.80,31.98,7.97" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="16,286.51,556.91,176.34,7.97" xml:id="_zMfYXBY">An Empirical Comparison of Graph Databases</title>
+		<author>
+			<persName coords=""><forename type="first">Salim</forename><surname>Jouili</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Valentin</forename><surname>Vansteenberghe</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SocialCom.2013.106</idno>
+		<ptr target="https://doi.org/10.1109/SocialCom.2013.106" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ta3MZPF" coord="16,481.21,556.91,49.86,7.97;16,96.84,566.87,126.37,7.97">International Conference on Social Computing</title>
+		<meeting><address><addrLine>SocialCom; Washington, DC, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE Computer Society</publisher>
+			<date type="published" when="2013-08-14">2013. 2013. 2013. 8-14 September, 2013</date>
+			<biblScope unit="page" from="708" to="715" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salim Jouili and Valentin Vansteenberghe. 2013. An Empirical Comparison of Graph Databases. In International Conference on Social Computing, SocialCom 2013, SocialCom/PASSAT/BigData/EconCom/BioMedCom 2013, Washington, DC, USA, 8-14 September, 2013. IEEE Computer Society, 708Ű715. https://doi.org/10.1109/SocialCom. 2013.106</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,596.76,433.31,7.97;16,97.86,606.72,433.43,7.97;16,97.86,616.69,434.49,7.97;16,97.86,626.65,234.09,7.97" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="16,463.79,596.76,67.38,7.97;16,97.86,606.72,238.56,7.97" xml:id="_hNAh5gq">Knowledge Graph Implementation of Archival Descriptions Through CIDOC-CRM</title>
+		<author>
+			<persName coords=""><forename type="first">Inês</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nuno</forename><surname>Freitas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cristina</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Carla</forename><forename type="middle">Teixeira</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">João</forename><surname>Rocha Da Silva</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-30760-8_8</idno>
+		<ptr target="https://doi.org/10.1007/978-3-030-30760-8_8" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_H7Fb7DT" coord="16,355.41,606.72,139.33,7.97">Digital Libraries for Open Knowledge</title>
+		<editor>
+			<persName><forename type="first">Antoine</forename><surname>Doucet</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Antoine</forename><surname>Isaac</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Koraljka</forename><surname>Golub</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Trond</forename><surname>Aalberg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Adam</forename><surname>Jatowt</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="99" to="106" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Inês Koch, Nuno Freitas, Cristina Ribeiro, Carla Teixeira Lopes, and João Rocha da Silva. 2019. Knowledge Graph Implementation of Archival Descriptions Through CIDOC-CRM. In Digital Libraries for Open Knowledge, Antoine Doucet, Antoine Isaac, Koraljka Golub, Trond Aalberg, and Adam Jatowt (Eds.). Springer International Publishing, Cham, 99Ű106. https://doi.org/10.1007/978-3-030-30760-8_8</note>
+</biblStruct>
+
+<biblStruct coords="16,97.86,636.61,433.32,7.97;16,97.86,646.58,433.28,7.97;17,97.39,108.59,434.97,7.97;17,97.86,118.56,242.55,7.97" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="16,329.08,636.61,202.10,7.97;16,97.86,646.58,102.09,7.97" xml:id="_TAGXqkE">ArchOnto, a CIDOC-CRM-Based Linked Data Model for the Portuguese Archives</title>
+		<author>
+			<persName coords=""><forename type="first">Inês</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cristina</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Carla</forename><forename type="middle">Teixeira</forename><surname>Lopes</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-54956-5_10</idno>
+		<ptr target="https://doi.org/10.1007/978-3-030-54956-5_10" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_r8bWRHS" coord="16,217.23,646.58,313.91,7.97;17,97.39,108.59,31.86,7.97">Proceedings of the 24th International Conference on Theory and Practice of Digital Libraries</title>
+		<editor>
+			<persName><forename type="first">Mark</forename><surname>Hall</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Tanja</forename><surname>Merčun</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Thomas</forename><surname>Risse</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Fabien</forename><surname>Duchateau</surname></persName>
+		</editor>
+		<meeting>the 24th International Conference on Theory and Practice of Digital Libraries<address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="133" to="146" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Inês Koch, Cristina Ribeiro, and Carla Teixeira Lopes. 2020. ArchOnto, a CIDOC-CRM-Based Linked Data Model for the Portuguese Archives. In Proceedings of the 24th International Conference on Theory and Practice of Digital Libraries, Mark Hall, Tanja Merčun, Thomas Risse, and Fabien Duchateau (Eds.). Springer International Publishing, Cham, 133Ű146. https://doi.org/10.1007/978-3-030-54956-5_10</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,128.52,434.94,7.97;17,97.86,138.48,433.24,7.97;17,97.17,148.44,251.13,7.97" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="17,97.86,138.48,260.35,7.97" xml:id="_s4YWMg5">On the elasticity of NoSQL databases over cloud management platforms</title>
+		<author>
+			<persName coords=""><forename type="first">Ioannis</forename><surname>Konstantinou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Evangelos</forename><surname>Angelou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christina</forename><surname>Boumpouka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_jQnXjP5" coord="17,344.81,128.52,162.32,7.97;17,374.86,138.48,156.24,7.97;17,97.17,148.44,203.39,7.97">Proceedings of the 20th ACM international conference on Information and knowledge management</title>
+		<meeting>the 20th ACM international conference on Information and knowledge management</meeting>
+		<imprint>
+			<date type="published" when="2011">2011. 2385Ű2388</date>
+		</imprint>
+	</monogr>
+	<note>Dimitrios Tsoumakos, and Nectarios Koziris</note>
+	<note type="raw_reference">Ioannis Konstantinou, Evangelos Angelou, Christina Boumpouka, Dimitrios Tsoumakos, and Nectarios Koziris. 2011. On the elasticity of NoSQL databases over cloud management platforms. In Proceedings of the 20th ACM international conference on Information and knowledge management. 2385Ű2388.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,158.41,434.49,7.97;17,97.86,168.37,338.78,7.97" xml:id="b27">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Karl-Heinz</forename><surname>Lampe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sigfried</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martin</forename><surname>Doerr</surname></persName>
+		</author>
+		<ptr target="http://www.cidoc-crm.org/" />
+		<title level="m" xml:id="_gnNHyXf" coord="17,320.47,158.41,211.88,7.97;17,97.86,168.37,224.23,7.97">The CIDOC Conceptual Reference Model (CIDOC-CRM): PRIMER. CIDOC-CRM oicial web site 53 (2010), 333Ű338</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karl-Heinz Lampe, Sigfried Krause, and Martin Doerr. 2010. The CIDOC Conceptual Reference Model (CIDOC-CRM): PRIMER. CIDOC-CRM oicial web site 53 (2010), 333Ű338. http://www.cidoc-crm.org/</note>
+</biblStruct>
+
+<biblStruct coords="17,97.85,178.33,369.54,7.97" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="17,172.03,178.33,174.18,7.97" xml:id="_qze5fvd">Will NoSQL databases live up to their promise</title>
+		<author>
+			<persName coords=""><forename type="first">Neal</forename><surname>Leavitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qzUp3m9" coord="17,354.13,178.33,36.85,7.97">Computer</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="12" to="14" />
+			<date type="published" when="2010">2010. 2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neal Leavitt. 2010. Will NoSQL databases live up to their promise? Computer 43, 2 (2010), 12Ű14.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,188.29,433.61,7.97;17,97.86,198.26,433.24,7.97;17,97.39,208.22,435.04,7.97;17,97.86,218.18,379.96,7.97" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="17,409.74,188.29,121.72,7.97;17,97.86,198.26,164.89,7.97" xml:id="_ZkP5frn">Consistency Evaluation of RDF Data: How Data and Updates are Relevant</title>
+		<author>
+			<persName coords=""><forename type="first">Pierre</forename><surname>Maillot</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Thomas</forename><surname>Raimbault</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Genest</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stéphane</forename><surname>Loiseau</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SITIS.2014.39</idno>
+		<ptr target="https://doi.org/10.1109/SITIS.2014.39" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_htRHXqF" coord="17,281.49,198.26,249.61,7.97;17,97.39,208.22,132.22,7.97">Tenth International Conference on Signal-Image Technology and Internet-Based Systems, SITIS 2014</title>
+		<editor>
+			<persName><forename type="first">Kokou</forename><surname>Yétongnon</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Albert</forename><surname>Dipanda</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Richard</forename><surname>Chbeir</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Marrakech, Morocco</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE Computer Society</publisher>
+			<date type="published" when="2014-11-23">2014. November 23-27, 2014</date>
+			<biblScope unit="page" from="187" to="193" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pierre Maillot, Thomas Raimbault, David Genest, and Stéphane Loiseau. 2014. Consistency Evaluation of RDF Data: How Data and Updates are Relevant. In Tenth International Conference on Signal-Image Technology and Internet-Based Systems, SITIS 2014, Marrakech, Morocco, November 23-27, 2014, Kokou Yétongnon, Albert Dipanda, and Richard Chbeir (Eds.). IEEE Computer Society, 187Ű193. https://doi.org/10.1109/SITIS.2014.39</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,228.14,433.33,7.97;17,97.86,238.11,433.52,7.97;17,97.20,248.07,434.22,7.97;17,96.86,258.03,236.26,7.97" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="17,475.25,228.14,55.94,7.97;17,97.86,238.11,152.93,7.97" xml:id="_ajbjjrn">A performance evaluation of open source graph databases</title>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><surname>Campbell Mccoll</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Ediger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jason</forename><surname>Poovey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dan</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">A</forename><surname>Bader</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2567634.2567638</idno>
+		<ptr target="https://doi.org/10.1145/2567634.2567638" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_n5C9AUJ" coord="17,267.89,238.11,263.48,7.97;17,97.20,248.07,42.13,7.97">Proceedings of the Ąrst workshop on Parallel programming for analytics applications</title>
+		<editor>
+			<persName><forename type="first">Manoj</forename><surname>Kumar</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Joefon</forename><surname>Jann</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Priya</forename><surname>Nagpurkar</surname></persName>
+		</editor>
+		<meeting>the Ąrst workshop on Parallel programming for analytics applications<address><addrLine>Orlando, Florida, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014-02-16">2014. 2014. February 16. 2014</date>
+			<biblScope unit="page" from="11" to="18" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robert Campbell McColl, David Ediger, Jason Poovey, Dan Campbell, and David A. Bader. 2014. A performance evaluation of open source graph databases. In Proceedings of the Ąrst workshop on Parallel programming for analytics applications, PPAA 2014, Orlando, Florida, USA, February 16, 2014, Manoj Kumar, Joefon Jann, and Priya Nagpurkar (Eds.). ACM, 11Ű18. https://doi.org/10.1145/2567634.2567638</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,268.00,433.48,7.97;17,97.86,277.96,433.31,7.97;17,97.42,287.92,435.06,7.97;17,97.54,297.88,434.55,7.97;17,97.43,307.85,113.53,7.97" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="17,344.97,268.00,186.37,7.97;17,97.86,277.96,88.96,7.97" xml:id="_aV6QMhn">Ontology Consistency and Instance Checking for Real World Linked Data</title>
+		<author>
+			<persName coords=""><forename type="first">Gavin</forename><surname>Mendel-Gleason</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kevin</forename><surname>Feeney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rob</forename><surname>Brennan</surname></persName>
+		</author>
+		<ptr target="http://ceur-ws.org/Vol-1376/LDQ2015_paper_03.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_j8AKfdF" coord="17,204.33,277.96,326.84,7.97;17,97.42,287.92,148.26,7.97;17,381.60,287.92,104.04,7.97;17,384.48,297.88,51.33,7.97">Proceedings of the 2nd Workshop on Linked Data Quality co-located with 12th Extended Semantic Web Conference (ESWC 2015)</title>
+		<editor>
+			<persName><forename type="first">Anisa</forename><surname>Rula</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Amrapali</forename><surname>Zaveri</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Magnus</forename><surname>Knuth</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Dimitris</forename><surname>Kontokostas</surname></persName>
+		</editor>
+		<meeting>the 2nd Workshop on Linked Data Quality co-located with 12th Extended Semantic Web Conference (ESWC 2015)<address><addrLine>Portorož, Slovenia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-06-01">2015. June 1, 2015</date>
+			<biblScope unit="volume">1376</biblScope>
+		</imprint>
+	</monogr>
+	<note>CEUR-WS.org</note>
+	<note type="raw_reference">Gavin Mendel-Gleason, Kevin Feeney, and Rob Brennan. 2015. Ontology Consistency and Instance Checking for Real World Linked Data. In Proceedings of the 2nd Workshop on Linked Data Quality co-located with 12th Extended Semantic Web Conference (ESWC 2015), Portorož, Slovenia, June 1, 2015 (CEUR Workshop Proceedings, Vol. 1376), Anisa Rula, Amrapali Zaveri, Magnus Knuth, and Dimitris Kontokostas (Eds.). CEUR-WS.org. http://ceur-ws.org/Vol- 1376/LDQ2015_paper_03.pdf</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,317.81,433.49,7.97;17,97.86,327.77,252.16,7.97" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="17,177.56,317.81,192.68,7.97" xml:id="_GsM9dG9">Graph database applications and concepts with Neo4j</title>
+		<author>
+			<persName coords=""><forename type="first">Justin</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WUTGF8d" coord="17,386.67,317.81,144.68,7.97;17,97.86,327.77,134.11,7.97">Proceedings of the Southern Association for Information Systems Conference</title>
+		<meeting>the Southern Association for Information Systems Conference<address><addrLine>Atlanta, GA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">2324</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Justin J Miller. 2013. Graph database applications and concepts with Neo4j. In Proceedings of the Southern Association for Information Systems Conference, Atlanta, GA, USA, Vol. 2324.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,337.73,433.33,7.97;17,97.54,347.70,434.86,7.97;17,97.01,357.66,98.34,7.97" xml:id="b33">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">B M</forename><surname>Moniruzzaman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Syed</forename><surname>Akhter Hossain</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1307.0191</idno>
+		<ptr target="http://arxiv.org/abs/1307.0191" />
+		<title level="m" xml:id="_N9MNm8X" coord="17,323.39,337.73,207.80,7.97;17,97.54,347.70,221.86,7.97">NoSQL Database: New Era of Databases for Big data Analytics -ClassiĄcation, Characteristics and Comparison</title>
+		<imprint>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. B. M. Moniruzzaman and Syed Akhter Hossain. 2013. NoSQL Database: New Era of Databases for Big data Analytics -ClassiĄcation, Characteristics and Comparison. CoRR abs/1307.0191 (2013). arXiv:1307.0191 http: //arxiv.org/abs/1307.0191</note>
+</biblStruct>
+
+<biblStruct coords="17,97.85,367.62,434.32,7.97;17,97.86,377.58,183.72,7.97" xml:id="b34">
+	<monogr>
+		<title level="m" type="main" coord="17,147.22,367.62,69.57,7.97" xml:id="_2UMwfu6">Rdf triple stores vs</title>
+		<ptr target="https://neo4j.com/blog/rdf-triple-store-vs-labeled-property-graph-diference/" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>labeled property graphs: whatŠs the diference? Neo4j</note>
+	<note type="raw_reference">Neo4j. 2020. Rdf triple stores vs. labeled property graphs: whatŠs the diference? Neo4j. https://neo4j.com/blog/rdf- triple-store-vs-labeled-property-graph-diference/</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,387.55,434.99,7.97;17,97.39,397.51,331.48,7.97" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coord="17,366.96,387.55,162.03,7.97" xml:id="_ueDWv33">Relational vs . NoSQL Databases : A Survey</title>
+		<author>
+			<persName coords=""><forename type="first">Mohamed</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mohamed</forename><surname>Obay</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Altraą</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mohammed</forename><forename type="middle">O</forename><surname>Ismail</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gW9KtZy" coord="17,97.39,397.51,238.49,7.97">International Journal of Computer and Information Technology</title>
+		<imprint>
+			<biblScope unit="volume">03</biblScope>
+			<biblScope unit="page" from="2279" to="2764" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mohamed A Mohamed Obay, G AltraĄ, and Mohammed O Ismail. 2014. Relational vs . NoSQL Databases : A Survey. International Journal of Computer and Information Technology 03, 03 (2014), 2279Ű764.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,407.47,433.40,7.97;17,97.20,417.43,434.05,7.97;17,96.86,427.40,236.03,7.97" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="17,275.64,407.47,152.99,7.97" xml:id="_Sj2Jcgy">Tracking Changes in RDF(S) Repositories</title>
+		<author>
+			<persName coords=""><forename type="first">Damyan</forename><surname>Ognyanov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Atanas</forename><surname>Kiryakov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WenmCPp" coord="17,445.63,407.47,85.63,7.97;17,97.20,417.43,238.03,7.97">Knowledge Engineering and Knowledge Management: Ontologies and the Semantic Web</title>
+		<editor>
+			<persName><forename type="first">Asunción</forename><surname>Gómez-Pérez</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">V</forename><forename type="middle">Richard</forename><surname>Benjamins</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin Heidelberg; Berlin, Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="373" to="378" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Damyan Ognyanov and Atanas Kiryakov. 2002. Tracking Changes in RDF(S) Repositories. In Knowledge Engineering and Knowledge Management: Ontologies and the Semantic Web, Asunción Gómez-Pérez and V. Richard Benjamins (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 373Ű378.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,437.36,433.29,7.97;17,97.86,447.32,433.38,7.97;17,97.86,457.29,433.47,7.97;17,97.86,467.25,154.41,7.97" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="17,261.92,437.36,269.23,7.97;17,97.86,447.32,98.51,7.97" xml:id="_t8wky6s">Reshaping the Knowledge Graph by Connecting Researchers, Data and Practices in ResearchSpace</title>
+		<author>
+			<persName coords=""><forename type="first">Dominic</forename><surname>Oldman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Diana</forename><surname>Tanase</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_6MK4yEu" coord="17,213.81,447.32,122.48,7.97">The Semantic Web Ű ISWC 2018</title>
+		<editor>
+			<persName><forename type="first">Denny</forename><surname>Vrandečić</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Kalina</forename><surname>Bontcheva</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Mari</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Carmen</forename><surname>Suárez-Figueroa</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Valentina</forename><surname>Presutti</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Irene</forename><surname>Celino</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Marta</forename><surname>Sabou</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Lucie-Aimée</forename><surname>Kafee</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Elena</forename><surname>Simperl</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="325" to="340" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dominic Oldman and Diana Tanase. 2018. Reshaping the Knowledge Graph by Connecting Researchers, Data and Practices in ResearchSpace. In The Semantic Web Ű ISWC 2018, Denny Vrandečić, Kalina Bontcheva, Mari Carmen Suárez-Figueroa, Valentina Presutti, Irene Celino, Marta Sabou, Lucie-Aimée Kafee, and Elena Simperl (Eds.). Springer International Publishing, Cham, 325Ű340.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.85,477.21,206.51,7.97" xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><surname>Orango</surname></persName>
+		</author>
+		<ptr target="https://orango.js.org/" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Orango. Orango</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orango. 2018. Orango. Orango. https://orango.js.org/</note>
+</biblStruct>
+
+<biblStruct coords="17,97.85,487.17,348.11,7.97" xml:id="b39">
+	<monogr>
+		<title level="m" type="main" coord="17,292.41,487.17,59.37,7.97" xml:id="_fz3grfa">Graph databases</title>
+		<author>
+			<persName coords=""><forename type="first">Ian</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jim</forename><surname>Webber</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Emil</forename><surname>Eifrem</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>OŠReilly Media, Inc</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ian Robinson, Jim Webber, and Emil Eifrem. 2013. Graph databases. &quot; OŠReilly Media, Inc.&quot;.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,497.14,433.33,7.97;17,97.86,507.10,433.44,7.97;17,97.54,517.06,433.64,7.97;17,97.86,527.02,433.46,7.97;17,97.86,536.99,154.41,7.97" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coord="17,491.52,497.14,39.66,7.97;17,97.86,507.10,260.77,7.97" xml:id="_bJETEgV">A Flexible Framework for Understanding the Dynamics of Evolving RDF Datasets</title>
+		<author>
+			<persName coords=""><forename type="first">Yannis</forename><surname>Roussakis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ioannis</forename><surname>Chrysakis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kostas</forename><surname>Stefanidis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Giorgos</forename><surname>Flouris</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yannis</forename><surname>Stavrakas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_xKUhKZS" coord="17,375.76,507.10,119.81,7.97">The Semantic Web -ISWC 2015</title>
+		<editor>
+			<persName><forename type="first">Marcelo</forename><surname>Arenas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Oscar</forename><surname>Corcho</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Elena</forename><surname>Simperl</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Markus</forename><surname>Strohmaier</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Kavitha</forename><surname>Mathieu Dšaquin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Paul</forename><surname>Srinivas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Michel</forename><surname>Groth</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Jef</forename><surname>Dumontier</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Krishnaprasad</forename><surname>Hećin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Krishnaprasad</forename><surname>Thirunarayan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Stefen</forename><surname>Thirunarayan</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Staab</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="495" to="512" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yannis Roussakis, Ioannis Chrysakis, Kostas Stefanidis, Giorgos Flouris, and Yannis Stavrakas. 2015. A Flexible Framework for Understanding the Dynamics of Evolving RDF Datasets. In The Semantic Web -ISWC 2015, Marcelo Arenas, Oscar Corcho, Elena Simperl, Markus Strohmaier, Mathieu dŠAquin, Kavitha Srinivas, Paul Groth, Michel Dumontier, Jef HeĆin, Krishnaprasad Thirunarayan, Krishnaprasad Thirunarayan, and Stefen Staab (Eds.). Springer International Publishing, Cham, 495Ű512.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,546.95,433.40,7.97;17,97.54,556.91,434.92,7.97;17,97.64,566.87,163.35,7.97" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coord="17,182.29,546.95,348.97,7.97;17,97.54,556.91,32.81,7.97" xml:id="_Camtrjj">BIG DATA ANALYTICS -TDWI BEST PRACTICES REPORT Introduction to Big Data Analytics</title>
+		<author>
+			<persName coords=""><forename type="first">Philip</forename><surname>Russom</surname></persName>
+		</author>
+		<ptr target="https://vivomente.com/wp-content/uploads/2016/04/big-data-analytics-white-paper.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PmTtpfq" coord="17,137.14,556.91,154.68,7.97">TDWI best practices report, fourth quarter</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="34" />
+			<date type="published" when="2011">2011. 2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Philip Russom. 2011. BIG DATA ANALYTICS -TDWI BEST PRACTICES REPORT Introduction to Big Data Analytics. TDWI best practices report, fourth quarter 19, 4 (2011), 1Ű34. https://vivomente.com/wp-content/uploads/ 2016/04/big-data-analytics-white-paper.pdf</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,576.84,433.50,7.97;17,97.17,586.80,183.27,7.97" xml:id="b42">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Maribel</forename><surname>Yasmina</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Santos</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Isabel</forename><surname>Ramos</surname></persName>
+		</author>
+		<title level="m" xml:id="_X99NZ4z" coord="17,293.22,576.84,238.13,7.97;17,97.17,586.80,160.11,7.97">Business Intelligence: tecnologias da informação na gestão de conhecimento. FCA-Editora de Informática</title>
+		<imprint>
+			<publisher>Lda</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maribel Yasmina Santos and Isabel Ramos. 2006. Business Intelligence: tecnologias da informação na gestão de conhecimento. FCA-Editora de Informática, Lda.</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,596.76,433.30,7.97;17,97.86,606.72,433.45,7.97;17,97.37,616.69,433.89,7.97;17,97.86,626.65,310.64,7.97" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coord="17,255.49,596.76,275.67,7.97;17,97.86,606.72,151.36,7.97" xml:id="_kpumcpX">A Schema-First Formalism for Labeled Property Graph Databases: Enabling Structured Data Loading and Analytics</title>
+		<author>
+			<persName coords=""><forename type="first">Chandan</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Roopak</forename><surname>Sinha</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3365109.3368782</idno>
+		<ptr target="https://doi.org/10.1145/3365109.3368782" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_st6Y25V" coord="17,268.00,606.72,263.31,7.97;17,97.37,616.69,178.21,7.97;17,381.26,616.69,44.81,7.97">Proceedings of the 6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies</title>
+		<meeting>the 6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies<address><addrLine>Auckland, New Zealand; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="71" to="80" />
+		</imprint>
+	</monogr>
+	<note>BDCAT Š19)</note>
+	<note type="raw_reference">Chandan Sharma and Roopak Sinha. 2019. A Schema-First Formalism for Labeled Property Graph Databases: Enabling Structured Data Loading and Analytics. In Proceedings of the 6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (Auckland, New Zealand) (BDCAT Š19). Association for Computing Machinery, New York, NY, USA, 71Ű80. https://doi.org/10.1145/3365109.3368782</note>
+</biblStruct>
+
+<biblStruct coords="17,97.86,636.61,433.32,7.97;17,97.86,646.58,433.63,7.97" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coord="17,461.92,636.61,69.26,7.97;17,97.86,646.58,67.89,7.97" xml:id="_SxDwZHj">Pellet: A practical OWL-DL reasoner</title>
+		<author>
+			<persName coords=""><forename type="first">Evren</forename><surname>Sirin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bijan</forename><surname>Parsia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bernardo</forename><forename type="middle">Cuenca</forename><surname>Grau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Aditya</forename><surname>Kalyanpur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yarden</forename><surname>Katz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.websem.2007.03.004</idno>
+		<ptr target="https://doi.org/10.1016/j.websem.2007.03.004" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PQNRMkZ" coord="17,173.22,646.58,99.35,7.97">Journal of Web Semantics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="51" to="53" />
+			<date type="published" when="2007">2007. 2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Evren Sirin, Bijan Parsia, Bernardo Cuenca Grau, Aditya Kalyanpur, and Yarden Katz. 2007. Pellet: A practical OWL-DL reasoner. Journal of Web Semantics 5, 2 (2007), 51 Ű 53. https://doi.org/10.1016/j.websem.2007.03.004</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

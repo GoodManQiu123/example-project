@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_ZaNNaU3" coord="1,72.63,84.23,466.14,15.44;1,53.80,495.59,241.85,8.97;1,53.80,506.55,240.25,8.97;1,53.80,518.60,80.36,7.70">A Smoothed Particle Hydrodynamics Mini-App for Exascale</title>
+				<funder ref="#_3ZZH3N5">
+					<orgName type="full">Swiss National Supercomputing Centre (CSCS)</orgName>
+				</funder>
+				<funder ref="#_n3dUAN8">
+					<orgName type="full">Swiss Platform for Advanced Scientific Computing</orgName>
+					<orgName type="abbreviated">PASC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Performance Optimisation and Productivity</orgName>
+					<orgName type="abbreviated">POP</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,140.81,113.16,84.73,11.96"><forename type="first">Aurélien</forename><surname>Cavelan</surname></persName>
+							<email>aurelien.cavelan@unibas.ch</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">University of Basel</note>
+								<orgName type="institution">University of Basel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,383.69,113.16,91.84,11.96"><forename type="first">Rubén</forename><forename type="middle">M</forename><surname>Cabezón</surname></persName>
+							<email>ruben.cabezon@unibas.ch</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">University of Basel</note>
+								<orgName type="institution">University of Basel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,136.69,158.79,92.70,11.96"><forename type="first">Michal</forename><surname>Grabarczyk</surname></persName>
+							<email>michalprzemyslaw.grabarczyk@unibas.ch</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">University of Basel</note>
+								<orgName type="institution">University of Basel</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,386.02,158.79,86.18,11.96"><forename type="first">Florina</forename><forename type="middle">M</forename><surname>Ciorba</surname></persName>
+							<email>florina.ciorba@unibas.ch</email>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">University of Basel</note>
+								<orgName type="institution">University of Basel</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_X2E4xsU" coord="1,72.63,84.23,466.14,15.44;1,53.80,495.59,241.85,8.97;1,53.80,506.55,240.25,8.97;1,53.80,518.60,80.36,7.70">A Smoothed Particle Hydrodynamics Mini-App for Exascale</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7FF1AC6295049F4F389E7CBCF39D330F</idno>
+					<idno type="DOI">10.1145/3394277.3401855</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T01:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_nruMg2W">SPH</term>
+					<term xml:id="_PNUMNSw">mini-app</term>
+					<term xml:id="_yxeA8FE">parallelization</term>
+					<term xml:id="_v8Qq58Q">performance</term>
+					<term xml:id="_WgHK2QD">algorithms</term>
+					<term xml:id="_vhYQAck">Exascale</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_2wRPKaD"><p xml:id="_Wp6D6Pe"><s xml:id="_S7antez" coords="1,53.53,218.63,241.50,8.97;1,53.80,229.59,240.25,8.97;1,53.80,240.55,241.76,8.97;1,53.80,251.51,232.58,8.97">The Smoothed Particles Hydrodynamics (SPH) is a particle-based, meshfree, Lagrangian method used to simulate multidimensional fluids with arbitrary geometries, most commonly employed in astrophysics, cosmology, and computational fluid-dynamics (CFD).</s><s xml:id="_6mbDh4f" coords="1,288.65,251.51,5.40,8.97;1,53.80,262.47,241.76,8.97;1,53.80,273.42,240.25,8.97;1,53.80,282.40,214.33,10.95">It is expected that these computationally-demanding numerical simulations will significantly benefit from the up-and-coming Exascale computing infrastructures, that will perform 10 18 FLOP/s.</s><s xml:id="_hg2Rep6" coords="1,270.38,284.38,23.67,8.97;1,53.47,295.34,240.58,8.97;1,53.80,306.30,240.25,8.97;1,53.80,317.26,240.25,8.97;1,53.80,328.22,223.89,8.97">In this work, we review the status of a novel SPH-EXA mini-app, which is the result of an interdisciplinary co-design project between the fields of astrophysics, fluid dynamics and computer science, whose goal is to enable SPH simulations to run on Exascale systems.</s><s xml:id="_kqaGrDR" coords="1,279.95,328.22,14.10,8.97;1,53.80,339.18,241.77,8.97;1,53.80,350.14,240.78,8.97;1,53.47,361.10,242.09,8.97;1,53.80,372.05,75.04,8.97">The SPH-EXA mini-app merges the main characteristics of three stateof-the-art parent SPH codes (namely ChaNGa, SPH-flow, SPHYNX) with state-of-the-art (parallel) programming, optimization, and parallelization methods.</s><s xml:id="_HFQRZMH" coords="1,131.09,372.05,163.16,8.97;1,53.80,383.01,240.25,8.97;1,53.80,393.97,51.59,8.97">The proposed SPH-EXA mini-app is a C++14 lightweight and flexible header-only code with no external software dependencies.</s><s xml:id="_zjSgssB" coords="1,107.64,393.97,186.40,8.97;1,53.80,404.93,240.25,8.97;1,53.80,415.89,241.76,8.97;1,53.80,426.85,38.08,8.97">Parallelism is expressed via multiple programming models, which can be chosen at compilation time with or without accelerator support, for a hybrid process+thread+accelerator configuration.</s><s xml:id="_uaY8quu" coords="1,94.12,426.85,199.93,8.97;1,53.80,437.81,240.47,8.97;1,53.80,448.77,240.25,8.97;1,53.80,459.73,150.44,8.97">Strong-and weak-scaling experiments on a production supercomputer show that the SPH-EXA mini-app can be efficiently executed with up 267 million particles and up to 65 billion particles in total on 2,048 hybrid CPU-GPU nodes.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1" xml:id="_KMx2amt">INTRODUCTION</head><p xml:id="_6RhB4mK"><s xml:id="_J26gqES" coords="1,317.69,251.31,240.52,8.97;1,317.96,262.27,176.35,8.97">The Smoothed Particle Hydrodynamics is a commonly used method to simulate the mechanics of continuum media.</s><s xml:id="_FfwfxTZ" coords="1,496.53,262.27,61.67,8.97;1,317.96,273.23,240.25,8.97;1,317.96,284.18,241.76,8.97;1,317.96,295.14,241.62,8.97">This method is a pure Lagrangian technique, particle-based, meshfree, and adequate for simulating highly distorted geometries and very dynamical scenarios, while conserving momentum and energy by construction.</s><s xml:id="_yeahyXx" coords="1,317.64,306.10,242.08,8.97;1,317.96,317.06,240.41,8.97;1,317.96,328.02,138.38,8.97">As such, it has been used in many different fields, including computational fluid dynamics, solid mechanics, engineering, nuclear fusion, astrophysics, and cosmology.</s><s xml:id="_DG9Pfkb" coords="1,459.37,328.02,98.84,8.97;1,317.96,338.98,229.11,8.97">In this work we present a review of the status of an SPH mini-app designed for Exascale.</s></p><p xml:id="_yuxyHFR"><s xml:id="_KBucHGc" coords="1,327.92,349.94,231.80,8.97;1,317.96,360.90,176.70,8.97">In most cases, actual SPH code implementations initially target a specific simulation scenario (or a subset).</s><s xml:id="_EVZW2s7" coords="1,497.39,360.90,60.81,8.97;1,317.96,371.86,240.25,8.97;1,317.96,382.81,240.25,8.97;1,317.96,393.77,240.48,8.97;1,317.96,404.73,17.71,8.97">This means that in many cases these hydrodynamics codes are implemented with the physics needed to solve a specific problem in mind, while the parallelization, scaling, and resilience take a relevant role only later.</s><s xml:id="_XGUeTNc" coords="1,337.55,404.73,220.65,8.97;1,317.96,415.69,241.76,8.97;1,317.96,426.65,240.24,8.97;1,317.96,437.61,34.82,8.97">This importance shift (or rebalancing) becomes relevant when addressing much larger problems that require much more computational resources, or when the computing infrastructures change or evolve.</s><s xml:id="_3Bc9j2u" coords="1,354.93,437.61,204.78,8.97;1,317.96,448.57,93.97,8.97">The philosophy behind the design of our SPH-EXA miniapp reflects the opposite.</s><s xml:id="_UGxjZ7D" coords="1,414.52,448.57,143.68,8.97;1,317.96,459.53,241.77,8.97;1,317.96,470.49,82.27,8.97">Knowing that the SPH technique is so ubiquitous, we developed the mini-app targeting the emerging Exascale infrastructures.</s><s xml:id="_jfwxebt" coords="1,402.93,470.49,155.28,8.97;1,317.96,481.44,240.25,8.97;1,317.96,492.40,241.76,8.97;1,317.96,503.36,240.48,8.97;1,317.96,514.32,240.25,8.97;1,317.96,525.28,56.27,8.97">We took into account the state-of-the-art SPH methodology, learnt from current production SPH codes, and implemented it having in mind the design characteristics for performance that would be desirable in a code that could potentially reach sustained ExaFLOP/s, namely scalability, adaptability, and fault tolerance.</s><s xml:id="_55XXSP7" coords="1,376.85,525.28,181.35,8.97;1,317.96,536.24,240.25,8.97;1,317.96,547.20,241.76,8.97;1,317.96,558.16,66.43,8.97">To reach this goal, we employed state-of-the-art computer science methodologies, explored different parallelization paradigms and their combinations, and used solid software development practices.</s><s xml:id="_tQNcZk2" coords="1,387.12,558.16,172.60,8.97;1,317.96,569.12,241.23,8.97;1,317.96,580.08,174.28,8.97">All this within a close multi-directional interdisciplinary collaboration between scientists from fluid dynamics, astrophysics, cosmology, and computer science.</s></p><p xml:id="_nG7AEZP"><s xml:id="_ZW3nXUM" coords="1,327.92,591.03,230.28,8.97;1,317.96,601.99,181.78,8.97">Lighter than production codes, mini-apps are algorithm-oriented and allow easy modifications and experiments <ref type="bibr" coords="1,487.31,601.99,9.32,8.97" target="#b7">[8]</ref>.</s><s xml:id="_6HTNetF" coords="1,501.97,601.99,56.23,8.97;1,317.96,612.95,241.76,8.97;1,317.96,623.91,241.63,8.97">Indeed, a single function can be evaluated using different strategies leading to different performance results, even if the physical result is unchanged.</s><s xml:id="_AA3XYGY" coords="1,317.69,634.87,240.52,8.97;1,317.96,645.83,160.98,8.97">These evaluation strategies may rely on vectorization, node level multi-threading, or cross-node parallelism.</s><s xml:id="_ZPAT6Sw" coords="1,481.75,645.83,76.46,8.97;1,317.96,656.79,241.76,8.97;1,317.96,667.75,240.25,8.97;1,317.96,678.71,24.49,8.97">Their efficiency also depends on platform configuration: presence of accelerators, generation of CPU, interconnection network fabric and topology, and others.</s><s xml:id="_53d8trU" coords="1,344.32,678.71,213.89,8.97;1,317.96,689.66,241.23,8.97;1,317.96,700.62,46.05,8.97">Therefore, a mini-app is perfectly suitable as a portable code sandbox to optimize a numerical method, such as the SPH method, for Exascale.</s></p><p xml:id="_XUTTPk2"><s xml:id="_4p7GZEy" coords="2,63.76,86.92,230.28,8.97;2,53.80,97.88,240.25,8.97;2,53.47,108.84,179.55,8.97">The SPH-EXA mini-app is a C++14 lightweight and flexible header-only code with no external software dependencies, that works by default with double precision data types.</s><s xml:id="_TDV8JyY" coords="2,234.98,108.84,60.58,8.97;2,53.80,119.80,240.25,8.97;2,53.80,130.76,240.25,8.97;2,53.80,141.72,258.04,8.97;2,53.53,152.68,90.88,8.97">Parallelism is expressed via multiple programming models, which can be chosen at compilation time with or without accelerator support, for a hybrid node-core-accelerator configuration: MPI+OpenMP+OpenACC|OpenMP Target Offloading|CUDA.</s><s xml:id="_uVMb6g2" coords="2,146.67,152.68,147.38,8.97;2,53.47,163.64,242.09,8.97;2,53.80,174.60,241.63,8.97">The SPH-EXA mini-app can be compiled with the GCC, Clang, PGI, Intel, and Cray (as long as the given compiler supports the chosen programming model) C/C++ compilers.</s></p><p xml:id="_Wq2pNUx"><s xml:id="_SgWAxJU" coords="2,53.53,185.55,240.69,8.97;2,53.80,196.51,173.34,8.97">The code is open-source and is freely available on GitHub under the MIT license at: https://github.com/xxx/yyy.</s></p><p xml:id="_rTg2vck"><s xml:id="_YWJAPJm" coords="2,63.76,207.47,230.28,8.97;2,53.80,218.43,241.76,8.97;2,53.80,229.39,241.62,8.97">Weak-scaling experiments on a production supercomputer have shown that the SPH-EXA mini-app can execute with up to 65 billion particles<ref type="foot" coords="2,102.09,227.41,3.38,7.27" target="#foot_0">1</ref> on 2,048 hybrid CPU-GPU nodes at 67% efficiency.</s><s xml:id="_Fb6Z7gV" coords="2,53.53,240.35,240.52,8.97;2,53.80,251.31,240.25,8.97;2,53.80,262.27,132.27,8.97">These results are, therefore, very promising especially given that the efficiency of the code decreased very little when scaling from 512 to 2,048 nodes (see Section 5.2).</s><s xml:id="_azzdUmk" coords="2,188.40,262.27,105.64,8.97;2,53.80,273.23,229.31,8.97">Similar efficiency results are also reported in the strong-scaling results included in Figure <ref type="figure" coords="2,276.96,273.23,3.07,8.97" target="#fig_11">8</ref>.</s></p><p xml:id="_N2T9PPY"><s xml:id="_F66JDXD" coords="2,63.76,284.18,130.66,8.97">This paper is organized as follows.</s><s xml:id="_Xj2R2nx" coords="2,197.05,284.18,96.99,8.97;2,53.80,295.14,241.76,8.97;2,53.80,306.10,241.63,8.97">Section 2 presents a short overview of other representative mini-apps from scientific computing and describes the differences compared to skeleton applications.</s><s xml:id="_vtCXUHk" coords="2,53.80,317.06,241.63,8.97">Section 3 is concentrated on the co-design aspects of this work.</s><s xml:id="_DhxJc3V" coords="2,53.80,328.02,241.76,8.97;2,53.80,338.98,240.25,8.97;2,53.57,349.94,240.47,8.97;2,53.80,360.90,56.83,8.97">Section 4 includes all the details related to the present implementation of the SPH-EXA mini-app, including the implemented SPH version, the details on the employed parallel models and domain decomposition.</s><s xml:id="_sGpgxP7" coords="2,112.86,360.90,181.18,8.97;2,53.57,371.86,241.85,8.97">Section 5 presents the results obtained regarding validation and verification, and the scaling experiments conducted.</s><s xml:id="_BRrVqse" coords="2,53.80,382.81,240.25,8.97;2,53.59,393.77,98.14,8.97">Finally, Section 6 discusses the next steps for the project and Section 7 presents the conclusions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_r9cC7Y7">RELATED WORK</head><p xml:id="_Vqe3hYc"><s xml:id="_rxTwYfa" coords="2,53.80,430.26,240.25,8.97;2,53.80,441.22,158.79,8.97">Mini-apps or proxy-apps have received great attention in recent years, with several projects being developed.</s><s xml:id="_rWPNF4q" coords="2,214.49,441.22,79.56,8.97;2,53.80,452.18,241.76,8.97;2,53.80,463.14,197.51,8.97">The Mantevo Suite <ref type="bibr" coords="2,283.62,441.22,10.43,8.97" target="#b8">[9]</ref> devised at Sandia National Laboratory for high performance computing (HPC) is one of the first large mini-app sets.</s><s xml:id="_nSQUJep" coords="2,254.43,463.14,39.62,8.97;2,53.80,474.10,241.23,8.97;2,53.80,485.06,213.88,8.97">It includes mini-apps that represent the performance of finite-element codes, molecular dynamics, and contact detection, to name a few.</s></p><p xml:id="_3gYA7Xm"><s xml:id="_5FFEJB3" coords="2,63.76,496.02,231.80,8.97;2,53.80,506.98,240.25,8.97;2,53.80,517.94,210.10,8.97">Another example is CGPOP <ref type="bibr" coords="2,171.15,496.02,13.49,8.97" target="#b11">[12]</ref>, a mini-app from oceanography, that implements a conjugate gradient solver to represent the bottleneck of the full Parallel Ocean Program application.</s><s xml:id="_abGE3yk" coords="2,266.14,517.94,27.90,8.97;2,53.80,528.89,240.24,8.97;2,53.80,539.85,115.50,8.97">CGPOP is used for experimenting with new programming models and to ensure performance portability.</s></p><p xml:id="_ZAzQ95y"><s xml:id="_uJbKfUF" coords="2,63.76,550.81,231.80,8.97;2,53.80,561.77,205.83,8.97">At Los Alamos National Laboratory, MCMini <ref type="bibr" coords="2,237.72,550.81,14.85,8.97" target="#b12">[13]</ref> was developed as a co-design application for Exascale research.</s><s xml:id="_BfEkMSc" coords="2,262.88,561.77,31.17,8.97;2,53.80,572.73,240.25,8.97;2,53.80,583.69,155.76,8.97">MCMini implements Monte Carlo neutron transport in OpenCL and targets accelerators and coprocessor technologies.</s></p><p xml:id="_7u6E8Hs"><s xml:id="_JSPpcwC" coords="2,63.76,594.65,230.29,8.97;2,53.80,605.61,241.24,8.97;2,53.80,616.57,240.25,8.97;2,53.80,627.52,87.51,8.97">The CESAR Proxy-apps <ref type="bibr" coords="2,151.67,594.65,14.63,8.97" target="#b13">[14]</ref> represent a collection of mini-apps belonging to three main fields: thermal hydraulics for fluid codes, neutronics for neutronics codes, and coupling and data analytics for data-intensive tasks.</s></p><p xml:id="_pFHGRDy"><s xml:id="_437YweZ" coords="2,63.76,638.48,230.28,8.97;2,53.80,649.44,240.25,8.97;2,53.80,660.40,137.18,8.97">The European ESCAPE project <ref type="bibr" coords="2,175.83,638.48,14.60,8.97" target="#b14">[15]</ref> defines and encapsulates the fundamental building blocks ('Weather &amp; Climate Dwarfs') that underlie weather and climate services.</s><s xml:id="_4JSzsH9" coords="2,193.10,660.40,100.95,8.97;2,317.96,86.92,241.63,8.97">This serves as a prerequisite for any subsequent co-design, optimization, and adaptation efforts.</s><s xml:id="_9zVYfz4" coords="2,317.96,97.88,240.25,8.97;2,317.62,108.84,240.58,8.97;2,317.96,119.80,240.25,8.97;2,317.96,130.76,138.49,8.97">One of the ESCAPE outcomes is Atlas <ref type="bibr" coords="2,457.38,97.88,13.27,8.97" target="#b15">[16]</ref>, a library for numerical weather prediction and climate modeling, with the primary goal of exploiting the emerging hardware architectures forecasted to be available in the next few decades.</s><s xml:id="_AGvMswc" coords="2,459.17,130.76,99.04,8.97;2,317.73,141.72,240.71,8.97;2,317.96,152.68,240.25,8.97;2,317.96,163.64,197.21,8.97">Interoperability across the variegated solutions that the hardware landscape offers is a key factor for an efficient software and hardware co-design <ref type="bibr" coords="2,523.13,152.68,13.42,8.97" target="#b16">[17]</ref>, thus of great importance when targeting Exascale systems.</s></p><p xml:id="_rqngDXQ"><s xml:id="_PX9xqTJ" coords="2,327.92,174.60,230.28,8.97;2,317.96,185.55,241.76,8.97;2,317.96,196.51,240.25,8.97;2,317.96,207.47,240.78,8.97;2,317.96,218.43,241.76,8.97;2,317.96,229.39,240.48,8.97;2,317.69,240.35,51.14,8.97">In the context of parallel programming models, research has been focusing on the efficient use of intra-node parallelism, able to properly exploit the underlying communication system through a fine grain task-based approach, ranging from libraries (Intel TBB <ref type="bibr" coords="2,541.33,207.47,13.92,8.97" target="#b20">[22]</ref>) to language extensions (Intel Cilk Plus <ref type="bibr" coords="2,468.10,218.43,14.85,8.97" target="#b21">[23]</ref> or OpenMP), to experimental programming languages with focus on productivity (Chapel <ref type="bibr" coords="2,349.24,240.35,13.06,8.97" target="#b22">[24]</ref>).</s><s xml:id="_kUYMYPf" coords="2,371.43,240.35,187.77,8.97;2,317.96,251.31,241.23,8.97;2,317.96,262.27,128.27,8.97">Kokkos <ref type="bibr" coords="2,401.83,240.35,14.85,8.97" target="#b23">[25]</ref> offers a programming model, in C++, to write portable applications for complex manycore architectures, aiming for performance portability.</s><s xml:id="_7gf7aRS" coords="2,448.48,262.27,111.24,8.97;2,317.96,273.23,241.76,8.97;2,317.96,284.18,175.36,8.97">HPX <ref type="bibr" coords="2,467.88,262.27,14.66,8.97" target="#b24">[26]</ref> is a task-based asynchronous programming model that offers a solution for homogeneous execution of remote and local operations.</s></p><p xml:id="_QmjTz78"><s xml:id="_cP8Kdrt" coords="2,327.92,295.14,230.28,8.97;2,317.96,306.10,240.24,8.97;2,317.96,317.06,201.40,8.97">Similar to these works, the creation of a mini-app directly from existing codes rather than the development of a code that mimics a class of algorithms has been recently discussed <ref type="bibr" coords="2,502.50,317.06,13.49,8.97" target="#b17">[18]</ref>.</s><s xml:id="_dsVMw6h" coords="2,521.70,317.06,36.50,8.97;2,317.96,328.02,240.25,8.97;2,317.96,338.98,174.81,8.97">A scheme to follow was proposed therein that must be adapted according to the specific field the parent code originates in.</s><s xml:id="_82Juxfb" coords="2,495.44,338.98,62.77,8.97;2,317.96,349.94,240.24,8.97;2,317.96,360.90,240.25,8.97;2,317.96,371.86,54.70,8.97">To maximize the impact of a mini-app on the scientific community, it is important to keep the build and execution system simple, to not discourage potential users.</s><s xml:id="_jDBZkCG" coords="2,374.69,371.86,183.51,8.97;2,317.96,382.81,240.25,8.97;2,317.96,393.77,240.25,8.97;2,317.96,405.54,240.25,8.02;2,317.96,416.50,169.45,8.02">The building should be kept as simple as a Makefile and the preparation of an execution run to a handful of command line arguments: "if more than this level of complexity seems to be required, it is possible that the resulting MiniApp itself is too complex to be human-parseable, reducing its usefulness."</s><s xml:id="_eUztAqH" coords="2,489.64,415.69,16.70,8.97"><ref type="bibr" coords="2,489.64,415.69,13.36,8.97" target="#b17">[18]</ref>.</s></p><p xml:id="_2vNJb2r"><s xml:id="_SQZgreR" coords="2,327.92,426.65,230.29,8.97;2,317.96,437.61,240.25,8.97;2,317.96,448.57,240.25,8.97;2,317.96,459.53,43.47,8.97">The present work introduces the interdisciplinary co-design of an SPH-EXA mini-app with three parent SPH codes originating in the astrophysics academic community and the industrial CFD community.</s><s xml:id="_En3Xacc" coords="2,363.67,459.53,176.51,8.97">This represents a category not discussed in <ref type="bibr" coords="2,523.48,459.53,13.36,8.97" target="#b17">[18]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_3MuwHJ5">CO-DESIGN</head><p xml:id="_RS272vD"><s xml:id="_8JBDP8j" coords="2,317.96,503.36,240.25,8.97;2,317.96,514.32,240.25,8.97;2,317.96,525.28,240.24,8.97;2,317.96,536.24,240.25,8.97;2,317.96,547.20,42.59,8.97">Being optimization critical to achieve the scalability needed to exploit Exascale computers, the long-term goal of the SPH-EXA <ref type="bibr" coords="2,547.77,514.32,10.43,8.97" target="#b4">[5]</ref> is to provide a parallel, optimized, state-of-the-art implementation of basic SPH operands with classical test cases used by the SPH community.</s><s xml:id="_fynA3c9" coords="2,362.58,547.20,195.63,8.97;2,317.96,558.16,240.24,8.97;2,317.96,569.12,240.25,8.97;2,317.96,580.08,31.89,8.97">This can be implemented at different levels: employing state-of-the art programming languages, dynamic load balancing algorithms, fault-tolerance techniques, and optimized tools and libraries.</s></p><p xml:id="_R7RP6Zr"><s xml:id="_6cS4qvw" coords="2,327.92,591.03,231.80,8.97;2,317.96,601.99,240.25,8.97;2,317.96,612.95,240.25,8.97;2,317.96,623.91,211.51,8.97">Interdisciplinary co-design and co-development <ref type="bibr" coords="2,503.79,591.03,10.51,8.97" target="#b8">[9]</ref> allow to adequately involve the developers of the parent codes (in our case ChaNGa, SPH-flow, and SPHYNX), thus boosting and improving the design and the implementation of the SPH-EXA mini-app.</s><s xml:id="_2yjTnvt" coords="2,531.71,623.91,28.00,8.97;2,317.96,634.87,240.25,8.97;2,317.96,645.83,241.76,8.97;2,317.96,656.79,241.23,8.97;2,317.96,667.75,241.76,8.97;2,317.96,678.71,241.23,8.97;2,317.96,689.66,241.76,8.97;2,317.96,700.62,151.50,8.97">We employ an interdisciplinary co-design approach that goes beyond the classical hardware-software approach and holistically co-design between the SPH application, the algorithms it employs (SPH method, distributed tree, finding neighbors, load balancing, silent data corruption detection and recovery, optimal checkpointing intervals), and the HPC systems (via efficient parallelization with various classical and modern programming models).</s><s xml:id="_wGupMeu" coords="2,471.85,700.62,86.58,8.97;3,53.80,86.92,240.24,8.97;3,53.80,97.88,240.24,8.97;3,53.80,108.84,241.24,8.97;3,53.80,119.80,241.24,8.97;3,53.80,130.76,34.99,8.97">To gauge the efficiency of additional modern programming paradigms (e.g., asynchronous tasking) against the classical ones for SPH, we also parallelize the SPH mini-app using classical paradigms, such as MPI, OpenMP, CUDA, and the more recent OpenMP target offloading, OpenACC, and HPX.</s><s xml:id="_XURANVp" coords="3,91.03,130.76,204.53,8.97;3,53.80,141.72,240.25,8.97;3,53.80,152.68,49.53,8.97">This way, we cover all aspects that influence the performance and scalability of the SPH codes on modern and future HPC architectures.</s></p><p xml:id="_zJwHEaa"><s xml:id="_xfTeUPh" coords="3,63.76,163.64,230.28,8.97;3,53.80,174.60,240.25,8.97;3,53.80,185.55,241.77,8.97;3,53.80,196.51,20.72,8.97">In the first development stage, the focus has been on identifying and implementing the vanilla SPH solver (i.e. that with the original equations of <ref type="bibr" coords="3,101.00,185.55,12.88,8.97" target="#b19">[20]</ref>), the general workflow of which is shown in Figure <ref type="figure" coords="3,68.27,196.51,3.12,8.97">1</ref>.</s><s xml:id="_BrBsKwh" coords="3,76.76,196.51,217.28,8.97;3,53.80,207.47,42.28,8.97">The solver has been designed from scratch as a distributed application.</s><s xml:id="_Bc3JX8d" coords="3,98.31,207.47,197.25,8.97;3,53.80,218.43,240.25,8.97;3,53.80,229.39,240.25,8.97;3,53.80,240.35,60.12,8.97">To achieve maximum efficiency and scalability on current Petascale and upcoming Exascale systems, one of the main challenges is to minimize the inter-process communication and synchronization.</s><s xml:id="_M93Kpjf" coords="3,116.17,240.35,177.87,8.97;3,53.80,251.31,240.25,8.97;3,53.80,262.27,240.25,8.97;3,53.80,273.23,46.50,8.97">In particular, global synchronizations are avoided as much as possible as this would result in all processes having to communicate with all others, resulting in global idleness and loss of efficiency.</s><s xml:id="_CYd6ZBp" coords="3,102.54,273.23,193.02,8.97;3,53.57,284.18,241.45,8.97;3,53.80,295.14,241.76,8.97;3,53.80,306.10,73.37,8.97">Instead, we focused on developing a method that favors nearest neighbors communication between computing nodes, and only relies on collective communication for simple, yet necessary operations (e.g.</s><s xml:id="_d2BZTWn" coords="3,129.42,306.10,164.63,8.97;3,53.80,317.06,102.33,8.97">computing the new size of the computational domain or the total energy).</s><s xml:id="_2mJjER8" coords="3,158.38,317.06,137.18,8.97;3,53.80,328.02,240.25,8.97;3,53.80,338.98,240.25,8.97;3,53.80,349.94,52.70,8.97">Currently, the SPH-EXA mini-app includes a state-of-the-art implementation of the SPH equations (see Section. 4.1), which has been built progressively atop the optimal initial version.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_Xn2W7Kj">THE SPH-EXA MINI-APP</head><p xml:id="_3tjJwXn"><s xml:id="_MkkRkW7" coords="3,53.53,385.60,240.52,8.97;3,53.80,396.56,241.76,8.97;3,53.80,407.52,67.89,8.97">The SPH-EXA mini-app is described in the following, together with its latest developments, supported physics features, and parallel programming models.</s><s xml:id="_FY5Ee3K" coords="3,123.94,407.52,170.11,8.97;3,53.80,418.48,238.08,8.97">The code is open-source and is freely available on GitHub under the MIT license at: https://github.com/xxx/yyy.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_kYVfvN4">SPH</head><p xml:id="_zAMhBas"><s xml:id="_JnxyZgk" coords="3,53.53,454.14,240.52,8.97;3,53.80,465.10,148.90,8.97">The SPH method has been implemented in the SPH-EXA mini-app following the formalism described in <ref type="bibr" coords="3,190.21,465.10,9.37,8.97" target="#b0">[1]</ref>.</s><s xml:id="_sXXKeMm" coords="3,204.94,465.10,89.11,8.97;3,53.80,476.06,240.25,8.97;3,53.80,487.02,98.94,8.97">The main equations that express the calculation of the local density, and momentum and energy rates of change are:</s></p><formula xml:id="formula_0" coords="3,72.35,514.30,221.69,19.62">ρ a = b m b W ab (h a ) ,<label>(1)</label></formula><formula xml:id="formula_1" coords="3,58.75,540.80,236.52,33.66">dv i dt a = - b m b P a Ω a ρ 2 a A i,ab (h a ) + P b Ω b ρ 2 b A i,ab (h b ) + a AV i,a ,<label>(2)</label></formula><formula xml:id="formula_2" coords="3,61.95,581.01,232.10,52.28">du dt a = P a Ω a ρ a b i m b (v i,a -v i,b )A i,ab (h a )+ 1 2 b i (v i,a -v i,b ) a AV i,a ,<label>(3)</label></formula><formula xml:id="formula_3" coords="3,65.88,636.33,228.17,26.28">a AV i,a = 1 2 b m b Π ′ ab A i,ab (h a ) ρ a + A i,ab (h b ) ρ b ,<label>(4)</label></formula><p xml:id="_3vvyrx2"><s xml:id="_bxZnSNq" coords="3,53.47,667.75,240.58,8.97;3,53.80,678.71,159.42,8.97">where subindex a is the particle index, b runs for its neighbors indexes, and i is the spatial dimension index.</s><s xml:id="_fjrgs2a" coords="3,215.36,678.71,78.69,9.78;3,53.80,689.66,241.24,8.97;3,53.80,700.62,45.90,8.97">ρ, m, P, and v i are the density, mass, pressure, and velocity components of the particle, respectively.</s><s xml:id="_UjBzxFP" coords="3,101.14,700.62,192.91,10.40;3,317.96,609.69,135.03,7.70">W ab is the SPH interpolation kernel, which depends Figure <ref type="figure" coords="3,347.36,609.69,3.45,7.70">1</ref>: SPH general workflow.</s><s xml:id="_JtQBdYU" coords="3,456.44,609.69,101.76,7.70;3,317.96,620.65,240.43,7.70;3,317.96,631.61,98.08,7.70">Computational steps are performed for every particle in the simulation domain over a number of time-steps.</s><s xml:id="_arCnwVy" coords="3,418.87,631.61,140.93,7.70;3,317.96,642.57,240.25,7.70;3,317.96,653.53,84.56,7.70">Point-to-point and collective communications update the particles information after certain computational steps.</s><s xml:id="_uxyw42P" coords="3,404.96,653.53,153.24,7.70;3,317.96,664.31,240.25,7.91;3,317.96,675.45,241.85,7.70;3,317.96,686.22,135.59,7.91">The complexity of each step is shown in red, where n is the total number of particles and m is the number of neighboring particles of each particle and depends on the smoothing length h.</s></p><p xml:id="_WyTZGNu"><s xml:id="_JzrAzkp" coords="4,53.80,86.92,217.25,8.97">on the local spatial resolution h, named smoothing length.</s><s xml:id="_xpJqrqd" coords="4,273.62,86.92,20.42,8.97;4,53.80,97.88,240.25,8.97;4,53.80,108.84,67.93,8.97">Ω are the grad-h terms that take into account the changes in the local smoothing length.</s><s xml:id="_r84qhRw" coords="4,124.11,108.84,169.93,10.40;4,53.80,118.87,210.67,10.95;4,254.87,125.42,2.23,7.16;4,268.52,120.85,25.53,8.97;4,53.80,131.81,187.39,8.97">A i,ab (h a ) are the terms for integral approach to derivatives, IAD, (see <ref type="bibr" coords="4,144.01,120.85,9.39,8.97" target="#b0">[1,</ref><ref type="bibr" coords="4,155.64,120.85,11.57,8.97" target="#b26">28]</ref> for more details), and a AV i are the artificial viscosity acceleration components, where:</s></p><formula xml:id="formula_4" coords="4,98.64,150.70,195.40,25.84">Π ′ ab = -α 2 v siд ab w ab for x ab •v ab &lt; 0, 0 otherwise,<label>(5)</label></formula><p xml:id="_BYmxPFk"><s xml:id="_s9d3btd" coords="4,53.80,184.97,148.11,8.97">is the artificial viscosity disipation term.</s><s xml:id="_nYXS3e6" coords="4,203.56,185.89,4.84,7.91;4,208.93,181.36,10.15,7.16;4,208.66,190.21,7.94,7.16;4,222.44,184.97,71.61,10.40;4,53.80,196.26,240.24,8.97;4,53.80,207.22,95.33,8.97">v siд ab = c a + c b -3w ab is an estimate of the signal velocity between particles a, b, c is the local speed of sound, and</s></p><formula xml:id="formula_5" coords="4,53.80,205.57,240.25,24.75">w ab = v ab • x ab /|x ab |. Finally, ρ -1 ab = 2 (ρ a + ρ b ) -1 .</formula><p xml:id="_DXwTZ6B"><s xml:id="_Q9HCAaK" coords="4,63.76,230.89,230.28,8.97;4,53.47,240.40,239.35,10.95;4,53.80,253.34,117.64,8.97">Updates to the position and velocity of the particles are done with a 2 nd order Press method, while energy is updated via a 2 nd order Adams-Bashforth scheme.</s></p><p xml:id="_zzGeVjm"><s xml:id="_FAtDKud" coords="4,63.76,264.30,230.52,8.97;4,53.80,275.26,241.30,8.97">The SPH-EXA mini-app currently implements the Sinc-family of interpolating kernels, the benefits of which are described in <ref type="bibr" coords="4,278.43,275.26,13.34,8.97" target="#b25">[27]</ref>:</s></p><formula xml:id="formula_6" coords="4,95.08,294.53,195.80,25.61">W s n (v, h, n) = B n h d S n ( π 2 v) for 0 ≤ v ≤ 2, 0 for v &gt; 2, (<label>6</label></formula><formula xml:id="formula_7" coords="4,290.87,303.99,3.17,8.97">)</formula><p xml:id="_gPhBjZ4"><s xml:id="_xea4hSS" coords="4,56.04,325.51,82.42,9.78">where S n (.) = [sinc(.)]</s><s xml:id="_tMYuTEB" coords="4,138.35,323.53,155.70,11.76;4,53.80,336.47,137.32,8.97">n , n is a real exponent, B n a normalization constant, and d the spatial dimension.</s><s xml:id="_yFNmudE" coords="4,193.36,336.47,100.69,8.97;4,53.80,347.43,9.90,8.97">The function sinc is defined as:</s></p><formula xml:id="formula_8" coords="4,66.32,345.17,193.63,13.90">sinc( π 2 v) = sin( π 2 v)/ π 2 v, where v = |x a -x b |/h a ,</formula><p xml:id="_Zmrspat"><s xml:id="_ZQhpYvJ" coords="4,262.92,347.43,31.12,8.97;4,53.47,358.39,112.31,8.97">and it is widely used in spectral theory.</s></p><p xml:id="_SpYtHWc"><s xml:id="_67TfkGy" coords="4,63.76,369.35,230.28,8.97;4,53.53,380.31,240.52,8.97;4,53.80,391.27,240.24,8.97;4,53.47,402.23,97.41,8.97">Additional SPH kernels can be plugged in, upon implementation (in the above cases in only 6 LOC), proving how such a mini-app can be useful in allowing easy and quick modifications to experiment with alternative solutions.</s><s xml:id="_bNm2DvU" coords="4,153.12,402.23,140.93,8.97;4,53.80,413.19,240.25,8.97;4,53.80,424.14,240.42,8.97;4,53.80,435.10,240.25,8.97;4,53.80,446.06,161.34,8.97">While not all SPH existing techniques and algorithms need to be implemented, a number of them, such as the SPH interpolation kernels, artificial viscosity treatments, or generalized volume elements, for example, can be later developed as separate interchangeable code modules.</s><s xml:id="_sEVu8ug" coords="4,218.17,446.06,77.39,8.97;4,53.80,457.02,240.25,8.97;4,53.57,467.98,149.86,8.97">The SPH-EXA miniapp kernels have been optimized to enable excellent automatic vectorization via compiler optimizations.</s></p><p xml:id="_pw4mgWT"><s xml:id="_Y4TrQv9" coords="4,63.76,478.94,230.29,8.97;4,53.80,489.90,241.77,8.97;4,53.80,500.86,240.25,8.97;4,53.80,511.82,240.24,8.97;4,53.80,522.77,240.25,8.97;4,53.80,533.73,109.50,8.97">Finally, as astrophysical and cosmological scenarios are within the scope of the SPH-EXA mini-app, we also implemented a multipolar expansion algorithm to evaluate self-gravity using the same tree structure that we use to find neighboring particles and based on which we perform the domain decomposition (see Section 4.3 for more details on the latter).</s></p><p xml:id="_pFayEkr"><s xml:id="_uP8ucJ7" coords="4,63.76,544.69,230.28,8.97;4,53.80,555.65,240.25,8.97;4,53.80,566.61,146.29,8.97">These components are common to many production SPH codes and represent the basis over which we can optimize and extend the functionality of the SPH-EXA mini-app.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_bYJMqMz">Parallel Software Development</head><p xml:id="_SYwhn24"><s xml:id="_zJWaEZb" coords="4,53.53,601.99,240.52,8.97;4,53.80,612.95,240.25,8.97;4,53.80,623.91,240.25,8.97;4,53.80,634.87,240.25,8.97;4,53.80,645.83,151.06,8.97">The SPH workflow illustrated in Figure <ref type="figure" coords="4,195.79,601.99,4.09,8.97">1</ref> is implemented in code as shown in the sequence diagram included in Figure <ref type="figure" coords="4,233.18,612.95,3.01,8.97" target="#fig_0">2</ref>. To ensure code flexibility, extensibility, and readability we follow solid principles of the code design, use continuous integration to avoid regression, and name functions and classes appropriately.</s><s xml:id="_nWNXmfp" coords="4,207.10,645.83,86.95,8.97;4,53.80,656.79,240.48,8.97;4,53.80,667.75,128.98,8.97">Additionally we defined coding standard for the project which can be applied automatically by the use of the clang-format tool.</s></p><p xml:id="_dVHZ9kn"><s xml:id="_EEBGZ26" coords="4,63.76,678.71,230.52,8.97;4,53.80,689.66,240.25,8.97;4,53.80,700.62,240.25,8.97;4,317.96,86.92,50.05,8.97">Regarding core-level optimization, particles are kept in memory in an order that matches the octree, so that particles that are close to each other in the 3D space, are also close in memory to minimize cache misses.</s><s xml:id="_sx7ZkPR" coords="4,370.55,86.92,187.65,8.97;4,317.96,97.88,177.47,8.97">Additionally, widely used values are precomputed and stored either in memory or in lookup tables.</s></p><p xml:id="_5BuQusg"><s xml:id="_mSA3UGf" coords="4,327.92,108.84,231.80,8.97;4,317.96,119.80,224.10,8.97">The goal for developing SPH-EXA mini-app using parallel programming is to provide a reference implementation in MPI+X.</s><s xml:id="_85WGwcv" coords="4,544.30,119.80,13.90,8.97;4,317.96,130.76,240.25,8.97;4,317.96,141.72,240.25,8.97;4,317.96,152.68,115.55,8.97">The MPI standard is the de facto communication library for distributed applications in HPC, due to the lack of an outperforming alternative for inter-node communication.</s><s xml:id="_Kf8De27" coords="4,436.08,152.68,122.12,8.97;4,317.96,163.64,241.76,8.97;4,317.96,174.60,241.62,8.97">OpenMP is the de facto standard for parallel multithreaded programming on shared-memory architectures, widely used in academic, industry, and government labs.</s><s xml:id="_xPu8W3Q" coords="4,317.69,185.55,240.52,8.97;4,317.96,196.51,241.76,8.97;4,317.96,207.47,54.86,8.97">The hybrid MPI+OpenMP programming model represents a solid starting point for the parallel and distributed execution of the SPH-EXA mini-app.</s><s xml:id="_n22Vc9b" coords="4,375.07,207.47,183.37,8.97;4,317.96,218.43,241.76,8.97;4,317.96,229.39,240.25,8.97;4,317.96,240.35,179.15,8.97">However, the vanilla MPI+OpenMP does not fully exploit the heterogeneous parallelism in the newest hardware architectures, Therefore, since version 4.5, the OpenMP standard <ref type="bibr" coords="4,543.61,229.39,14.60,8.97">[21]</ref> supports offloading of work to target accelerators.</s><s xml:id="_zEDrk2T" coords="4,499.26,240.35,58.94,8.97;4,317.96,251.31,240.48,8.97;4,317.96,262.27,240.25,8.97;4,317.96,273.23,241.24,8.97;4,317.96,284.18,240.25,8.97;4,317.96,295.14,32.38,8.97">Other languages directly targeting accelerators have been proposed and accepted by the community, such as OpenACC (a directive-based programming model targeting a CPU+accelerator system, similar to OpenMP), CUDA (an explicit programming model for GPU accelerators) and OpenCL.</s></p><p xml:id="_uaBzjv5"><s xml:id="_vpWa6sb" coords="4,327.92,306.10,231.80,8.97;4,317.96,317.06,240.25,8.97;4,317.96,328.02,182.42,8.97">The SPH-EXA mini-app currently implements HPX as an experimental development branch to explore the efficiency of task-based models and potential on (pre-)Exascale machines.</s><s xml:id="_HBd42HY" coords="4,502.61,328.02,57.11,8.97;4,317.96,338.98,240.25,8.97;4,317.96,349.94,240.25,8.97;4,317.96,360.90,219.61,8.97">The aims of exploring such task-based asynchronous programming model are to overlap computations and communications, both intra-node and inter-node, and to remove all synchronizations and barriers.</s></p><p xml:id="_zfcFQat"><s xml:id="_vG5JAFf" coords="4,327.92,371.86,230.29,8.97;4,317.96,382.81,198.40,8.97">In terms of I/O from/to file system, the SPH-EXA mini-app has been designed from scratch to handle distributed data.</s><s xml:id="_eVvfHfq" coords="4,518.60,382.81,39.61,8.97;4,317.96,393.77,241.63,8.97">The idea is that each computing node generates or loads a subset of the data.</s><s xml:id="_PXBc3hg" coords="4,317.53,404.73,240.68,8.97;4,317.96,415.69,240.48,8.97;4,317.96,426.65,17.54,8.97">We currently support MPI I/O (in a branch) to perform parallel I/O operations at large scale by reading input and writing output binary data.</s><s xml:id="_smvM69Y" coords="4,337.73,426.65,168.53,8.97">We plan to move to HDF5 in the next months.</s></p><p xml:id="_sYc8NJ2"><s xml:id="_UPM3K9U" coords="4,327.92,437.61,230.28,8.97;4,317.96,448.57,240.24,8.97;4,317.96,459.53,240.25,8.97;4,317.96,470.49,128.16,8.97">In terms of precision, round-off errors in single precision can add up to levels that might render the calculation useless, even using code units, mostly due to lack of accuracy in the evaluation of the gravitational forces using the tree.</s><s xml:id="_d95bckN" coords="4,448.45,470.49,109.76,8.97;4,317.96,481.44,240.24,8.97;4,317.96,492.40,71.39,8.97">Nevertheless, this is based on the experience with the parent codes and we still have not studied this option in detail.</s><s xml:id="_tesAJ4b" coords="4,391.29,492.40,166.91,8.97;4,317.96,503.36,240.25,8.97;4,317.96,514.32,55.22,8.97">Thus, we continue to use double precision data types while planning an exploration of a mixed-precision approach in future work.</s></p><p xml:id="_zMpZvwb"><s xml:id="_9hgBwpk" coords="4,327.92,525.28,230.28,8.97;4,317.96,536.24,241.76,8.97;4,317.96,547.20,240.25,8.97;4,317.96,558.16,240.25,8.97;4,317.96,569.12,221.09,8.97">The parallel program flow of the SPH-EXA mini-app for a typical test case (Rotating Square Patch <ref type="bibr" coords="4,436.35,536.24,9.86,8.97" target="#b3">[4]</ref>) is shown in Figure <ref type="figure" coords="4,521.09,536.24,3.05,8.97" target="#fig_0">2</ref>. The diagram describes the main execution loop, which is used to compute a time-step, and the sub-loops, where OpenMP and GPU offloading is used to accelerate the computation within single time-steps.</s><s xml:id="_TMVwDDD" coords="4,540.93,569.12,17.28,8.97;4,317.96,580.08,240.78,8.97;4,317.96,591.03,121.36,8.97">Note that there are only three global synchronizations (MPI_AllReduce) across distributed-memory nodes.</s><s xml:id="_BfU3r6C" coords="4,441.35,591.03,116.85,8.97;4,317.96,601.99,241.76,8.97;4,317.96,612.95,240.25,8.97;4,317.96,623.91,240.25,8.97;4,317.69,634.87,242.03,8.97;4,317.96,645.83,240.25,8.97;4,317.96,656.79,164.06,8.97">The first synchronization is used to count the number of tree nodes when performing domain decomposition (described later in §4.3 and illustrated in Figure <ref type="figure" coords="4,535.94,612.95,2.88,8.97" target="#fig_1">3</ref>), the second synchronization is used to compute the minimum time-step (∆t) needed to advance the system in time, and the last synchronization is optional but useful for tracking total momentum and energy for verifying that they are conserved.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_vUUQecD">Domain Decomposition</head><p xml:id="_CFkQu6c"><s xml:id="_yAk9bn4" coords="6,53.53,100.62,240.52,8.97;6,53.80,111.58,99.44,8.97">The spatial 3D domain of particles is decomposed into cells using an oct-tree data structure.</s><s xml:id="_pNQmp7T" coords="6,156.48,111.58,137.57,8.97;6,53.80,122.54,240.25,8.97;6,53.80,133.50,99.86,8.97">The oct-tree is global -every node keeps an identical copy of it -and it is created only once at the beginning of the execution.</s><s xml:id="_vvD2UtG" coords="6,155.90,133.50,138.38,8.97;6,53.80,144.46,241.63,8.97">The tree is then simply updated every iteration: branches are added or removed from the tree as needed.</s><s xml:id="_n8HnygA" coords="6,53.53,155.42,240.51,8.97;6,53.80,166.38,240.24,8.97;6,53.80,177.34,58.19,8.97">This global tree only contains general information such as the number of particles per cell, and does need to be refined down to single particles.</s><s xml:id="_Mv4NA93" coords="6,114.42,177.34,179.63,8.97;6,53.80,188.29,198.18,8.97">Only the 'top' part of the tree is virtually shared and maintained identical by every computing node.</s><s xml:id="_d3fVn4s" coords="6,255.27,188.29,38.78,8.97;6,53.80,199.25,240.25,8.97;6,53.80,210.21,240.24,8.97;6,53.80,221.17,240.25,8.97;6,53.80,232.13,163.01,8.97">Compared to existing methods, this approach only requires two collective communications (MPI_AllReduce): one to compute the number of particles in every cell of the tree and one to compute the new size of the spatial domain after particles have moved.</s><s xml:id="_8S2Ej2x" coords="6,218.65,232.13,75.39,8.97;6,53.80,243.09,240.25,8.97;6,53.80,254.05,240.24,8.97;6,53.80,265.01,29.25,8.97">Nevertheless, we aim at also circumventing these two collective communications, whose final objective is to rebuild the global tree to maintain particle load balance.</s><s xml:id="_bUPrn36" coords="6,85.28,265.01,208.93,8.97;6,53.80,275.97,240.24,8.97;6,53.80,286.92,241.63,8.97">Because particles can only move within the range of their local smoothing length, the upper levels of the global tree change at a much longer timescale than that of the particles dynamics.</s><s xml:id="_Gp7kTvK" coords="6,53.53,297.88,240.52,8.97;6,53.80,308.84,120.63,8.97">Therefore, global communications can be done scarcely while still avoiding particle load imbalance.</s><s xml:id="_F3YyRrn" coords="6,63.76,319.80,231.80,8.97;6,53.80,330.76,241.76,8.97;6,53.80,341.72,19.82,8.97">Domain cells (tree branches) are assigned to MPI processes using the global tree to guarantee data locality, as shown in Figure <ref type="figure" coords="6,67.60,341.72,3.01,8.97" target="#fig_1">3</ref>.</s><s xml:id="_675D8Uf" coords="6,75.64,341.72,218.40,8.97;6,53.80,352.68,240.25,8.97;6,53.80,363.64,221.53,8.97">The assignment process goes down to nodes that do not have particles fewer than the value globalBucketSize (a user-defined control parameter) which is typically equal to 128 particles.</s><s xml:id="_pVAS2Y2" coords="6,277.62,363.64,16.43,8.97;6,53.47,374.60,240.58,8.97;6,53.80,385.55,240.25,8.97;6,53.47,396.51,240.58,8.97;6,53.80,407.47,69.08,8.97">This way, certain processes can be assigned an additional tree node compared to others, but the difference in particles per process will be no more than the value assigned to globalBucketSize (as mentioned above).</s><s xml:id="_wPxZ66r" coords="6,125.35,407.47,170.20,8.97;6,53.80,418.43,240.24,8.97;6,53.80,429.39,240.25,8.97;6,53.80,440.35,120.11,8.97">This causes imbalance equal to globalBucket-Size/noOfParticlesPerMpiRank * 100%, i.e., for 1 million particles per MPI rank and globalBucketSize of 128, the particle assignment imbalance will be equal to 0.01%.</s></p><p xml:id="_UkWXRe3"><s xml:id="_8YDXEzn" coords="6,63.76,451.31,230.28,8.97;6,53.80,462.27,240.25,8.97;6,53.80,473.23,240.25,8.97;6,53.80,484.18,129.22,8.97">In practice, the imbalance is higher because MPI ranks will have different numbers of halo particles, i.e. neighbors of an SPH particle located in the memory of another node need to be communicated and stored for the current iteration.</s><s xml:id="_QVh8D5h" coords="6,185.26,484.18,109.02,8.97;6,53.80,495.14,241.24,8.97;6,53.80,506.10,12.46,8.97">Note that the amount of work does not increase (the number of neighbors remains the same, e.g.</s><s xml:id="_SXF4TNb" coords="6,68.50,506.10,61.78,8.97">300 per particle).</s><s xml:id="_zCDmbk6" coords="6,132.53,506.10,161.52,8.97;6,53.80,517.06,85.90,8.97">However, more memory is required to store the additional particles.</s><s xml:id="_kpbDUd8" coords="6,141.95,517.06,152.10,8.97;6,53.80,528.02,240.25,8.97;6,53.80,538.98,240.25,8.97;6,53.80,549.94,18.86,8.97">For example, the amount of halo particles for 300 neighbors varies by as much as 100% for a few thousand particles per MPI rank to 1-5% for a few million particles per MPI rank.</s></p><p xml:id="_dxnUEKC"><s xml:id="_MqB6GjQ" coords="6,63.76,560.90,230.28,8.97;6,53.80,571.86,240.25,8.97;6,53.80,582.81,241.24,8.97;6,53.80,593.77,175.30,8.97">In addition, particle data is reordered in the local memory of every computing node to follow the depth-first-search ordering sequence of the oct-tree (similar to a Morton ordering sequence, or to using space filling curves, SFC, in general).</s><s xml:id="_PeKEt7w" coords="6,231.34,593.77,62.71,8.97;6,53.80,604.73,240.25,8.97;6,53.80,615.69,229.23,8.97">This ensures that particles that are close together in the spatial domain are also close together in memory, resulting in increased cache efficiency.</s><s xml:id="_kG6Xmk9" coords="6,286.37,615.69,7.67,8.97;6,53.80,626.65,240.24,8.97;6,53.59,637.61,240.62,8.97;6,53.80,648.57,30.03,8.97">In terms of memory consumption, 1,459B are needed per particle at 1.35 GB per 1 Million particles and assuming 300 neighbors per particle.</s><s xml:id="_kkyJhUu" coords="6,86.66,648.57,207.39,8.97;6,53.80,659.53,240.41,8.97;6,53.80,670.49,28.12,8.97">We use double precision floating point numbers for all physical properties and integers for storing particle's neighbor indices.</s><s xml:id="_5MBdeP8" coords="6,84.30,670.49,209.75,8.97;6,53.80,681.44,29.45,8.97">Currently we store the indices of the neighbors for each particle.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4" xml:id="_3MjPvs2">Communication</head><p xml:id="_guvYbTH"><s xml:id="_UDF2SA7" coords="6,317.96,325.17,241.76,8.97;6,317.96,336.13,241.63,8.97">Particles are exchanged between computing nodes in every simulation time-step when they move from one sub-domain to another.</s><s xml:id="_B9jfrsU" coords="6,317.96,347.09,186.07,8.97">Halo particles are exchanged thrice per-time-steps.</s><s xml:id="_eDwpnVM" coords="6,506.27,347.09,52.25,8.97;6,317.96,358.05,240.24,8.97;6,317.69,369.01,242.03,8.97;6,317.96,379.97,36.01,8.97">The SPH-EXA mini-app relies on asynchronous point-to-point communications (MPI_Isend/MPI_Irecv) between nodes to avoid global synchronizations.</s><s xml:id="_zKpwXf4" coords="6,356.29,379.97,203.42,8.97;6,317.96,390.93,212.65,8.97">Figure <ref type="figure" coords="6,382.39,379.97,4.25,8.97" target="#fig_2">4</ref> shows the communication matrix of the SPH-EXA mini-app for an execution using 240 MPI processes.</s><s xml:id="_sJz26m9" coords="6,532.95,390.93,26.76,8.97;6,317.96,401.89,240.25,8.97;6,317.96,412.84,240.25,8.97;6,317.96,423.80,241.76,8.97;6,317.96,434.76,215.54,8.97">This illustration shows that processes only communicate with their close neighbors, reducing latency and contention compared with naive collective-communication based implementations, while nodes remain synchronized with their neighbors in a loose fashion.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5" xml:id="_cWQ7HPA">Hybrid Computing</head><p xml:id="_nztW2GT"><s xml:id="_z5fWbDQ" coords="6,317.69,656.79,242.03,8.97;6,317.96,667.75,205.59,8.97">The SPH-EXA mini-app offloads the most compute-intensive kernels (density, IAD and momentum equations) to GPUs.</s><s xml:id="_MBMDxfP" coords="6,525.98,667.75,32.22,8.97;6,317.96,678.71,241.24,8.97;6,317.96,689.66,241.24,8.97;6,317.96,700.62,75.68,8.97">It can be compiled with or without support for multi-processing via MPI, multi-threading via OpenMP, and acceleration via OpenMP 4.5, OpenACC or CUDA.</s><s xml:id="_kbNsQsN" coords="6,395.87,700.62,144.40,8.97">It supports the following combinations:</s></p><p xml:id="_3WmjQhG"><s xml:id="_pu5RA3u" coords="7,69.77,86.92,65.15,8.97;7,69.77,97.88,182.19,8.97;7,69.77,108.84,150.94,8.97;7,69.77,119.80,98.54,8.97;7,63.76,135.69,230.28,8.97;7,53.80,146.65,240.25,8.97;7,53.59,157.61,240.45,8.97;7,53.80,168.57,240.78,8.97;7,53.80,179.52,189.14,8.97">• MPI + OpenMP • MPI + OpenMP + OpenMP 4.5 target offloading • MPI + OpenMP + OpenACC offloading • MPI + OpenMP + CUDA Figure <ref type="figure" coords="7,88.72,135.69,4.09,8.97" target="#fig_4">5</ref> shows the average execution time for a single time-step using 8 million particles on 4 hybrid CPU+GPU nodes comprising 12 cores (Intel Xeon E5-2695) and a single GPU card (NVIDIA Tesla P100), compiled using 5 different compilers and -O2 (or equivalent) optimization flag, for each available parallel model.</s><s xml:id="_bMvQCh2" coords="7,245.18,179.52,48.87,8.97;7,53.80,190.48,240.25,8.97;7,53.80,201.44,240.24,8.97;7,53.80,212.40,240.24,8.97;7,53.80,223.36,201.00,8.97">Some models are not available (denoted N/A) on all compilers, either because they are explicitly not supported (e.g., the Intel compiler does not support OpenACC offloading) or because the compilers were not configured to support offloading at the time of writing.</s><s xml:id="_Reztb7a" coords="7,63.76,503.36,230.28,8.97;7,53.53,514.32,240.52,8.97;7,53.80,525.28,86.97,8.97">Trigonometric functions are part of the SPH interpolation kernel (see Section 4.1), which is one the most commonly called function in every SPH iteration.</s><s xml:id="_VQyXTNd" coords="7,143.65,525.28,151.39,8.97;7,53.44,536.24,187.46,8.97">As a result, math routines such as cos(), sin() and pow() are heavily used in the the mini-app.</s><s xml:id="_VcPQHcH" coords="7,242.91,536.24,51.13,8.97;7,53.80,547.20,240.25,8.97;7,53.80,558.16,240.25,8.97;7,53.80,569.12,240.25,8.97;7,53.80,580.08,240.25,8.97;7,53.80,591.03,24.26,8.97">Cray and Intel provide highly optimized math libraries with their compiler (the CSML and the MKL, respectively), which overrides the standard math function implementations and leads to inconsistencies in terms of runtime between the different compilers for the MPI+OMP model.</s><s xml:id="_78JQtkx" coords="7,80.29,591.03,213.75,8.97;7,53.80,601.99,240.25,8.97;7,53.80,612.95,227.33,8.97">Note that this issue is not present with GPU offloading and CUDA, which both rely on Nvidia's CUDA implementation of these functions, hence the consistent runtimes for the other models.</s></p><p xml:id="_MNuAXsq"><s xml:id="_eKahVkB" coords="7,63.76,623.91,231.80,8.97;7,53.80,634.87,240.41,8.97;7,53.80,645.83,240.25,8.97;7,53.80,656.79,76.64,8.97">For this reason, we have implemented a lookup table which contains 20,000 precomputed kernel values and we perform a linear interpolation with with the relative distance between neighboring particles at runtime.</s><s xml:id="_sZvdZtY" coords="7,133.48,656.79,160.80,8.97;7,53.80,667.75,90.12,8.97">This avoids calls to complex and/or costly mathematical functions.</s><s xml:id="_cg8PTgP" coords="7,146.39,667.75,147.89,8.97;7,53.80,678.71,240.25,8.97;7,53.80,689.66,240.25,8.97;7,53.80,700.62,241.63,8.97">In addition, most calls to pow(x, n), rely on an integer 0 ≤ n ≤ 9 and so we can replace each call by the corresponding inline x * x * x * x... which significantly outperforms the standard implementation for the GCC, Clang and PGI compilers.</s></p><p xml:id="_3BrPSuZ"><s xml:id="_K9DyEaZ" coords="7,317.96,86.92,241.77,8.97;7,317.96,97.88,240.48,8.97;7,317.96,108.84,112.53,8.97">Overall, these optimizations lead to similar and consistent execution times for all compilers, comparable to using the Intel or Cray compiler (not shown Figure <ref type="figure" coords="7,421.67,108.84,2.94,8.97" target="#fig_4">5</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6" xml:id="_dRxKSX5">Verification and Validation</head><p xml:id="_yyHhrXa"><s xml:id="_pssTHwr" coords="7,317.69,145.11,240.52,8.97;7,317.96,156.07,241.76,8.97;7,317.96,167.02,241.76,8.97;7,317.73,177.98,200.86,8.97">The complexity of the scenarios simulated in CFD and Astrophysics usually prevent the possibility of performing simulations with continuously increased resolution and different codes, so that a convergence to zero differences on the results can be found.</s><s xml:id="_CsMsF55" coords="7,520.71,177.98,37.49,8.97;7,317.96,188.94,240.25,8.97;7,317.96,199.90,240.25,8.97;7,317.96,210.86,182.81,8.97">Often, it is neither possible nor reasonable to obtain sufficient computational resources to perform simulations that are "converged" throughout the computational domain in a mathematical sense.</s><s xml:id="_h4dYE6w" coords="7,502.68,210.86,55.53,8.97;7,317.96,221.82,241.76,8.97;7,317.96,232.78,144.39,8.97">It is much more important to limit the deviations in under-resolved regimes by enforcing fundamental conservation laws.</s><s xml:id="_WYq6Enj" coords="7,464.59,232.78,93.61,8.97;7,317.96,243.74,240.25,8.97;7,317.96,254.70,240.25,8.97;7,317.96,265.65,129.15,8.97">As a consequence, overall physics properties of the simulated scenarios remain robust, even if slightly different results are obtained when using different codes to solve the same set of equations.</s><s xml:id="_jF6kRyN" coords="7,449.64,265.65,108.56,8.97;7,317.96,276.61,240.25,8.97;7,317.96,287.57,240.25,8.97;7,317.96,298.53,240.41,8.97;7,317.96,309.49,118.18,8.97">Therefore, comparing results of different hydrodynamical codes to the same initial conditions has been proved to be highly beneficial to gain understanding in complex scenarios, in the behavior of the codes, and to discover their strengths and weaknesses.</s><s xml:id="_Y9Ujz9t" coords="7,438.39,309.49,119.81,8.97;7,317.96,320.45,139.79,8.97">These comparisons are common in CFD and Astrophysics <ref type="bibr" coords="7,411.73,320.45,9.33,8.97" target="#b5">[6,</ref><ref type="bibr" coords="7,423.30,320.45,6.14,8.97" target="#b6">7,</ref><ref type="bibr" coords="7,431.68,320.45,10.31,8.97" target="#b9">10,</ref><ref type="bibr" coords="7,444.24,320.45,10.13,8.97" target="#b10">11]</ref>.</s></p><p xml:id="_RJVafth"><s xml:id="_UwKQAtn" coords="7,327.92,331.41,230.28,8.97;7,317.96,342.37,240.25,8.97;7,317.96,353.33,86.53,8.97">The common test case chosen to validate the results obtained through the mini-app against the ones of the parent codes is the Rotating Square Patch.</s><s xml:id="_eMRGeum" coords="7,407.60,353.33,150.60,8.97;7,317.96,364.28,148.29,8.97">This test was first proposed by <ref type="bibr" coords="7,529.37,353.33,10.68,8.97" target="#b3">[4]</ref> as a demanding scenario for SPH simulations.</s><s xml:id="_cuAht8F" coords="7,468.48,364.28,89.73,8.97;7,317.96,375.24,240.25,8.97;7,317.96,386.20,182.52,8.97">The presence of negative pressure stimulates the emergence of tensile instabilities of numeric origin that induce unrealistic clumping of particles.</s><s xml:id="_a2eabX6" coords="7,502.43,386.20,55.77,8.97;7,317.96,397.16,240.25,8.97;7,317.96,408.12,61.67,8.97">This leads to an unphysical evolution of the fluid and ultimately to the interruption of the simulation.</s><s xml:id="_ZZszN2h" coords="7,381.15,408.12,177.05,8.97;7,317.96,419.08,241.63,8.97">Nevertheless, these can be suppressed either using a tensile stability control or increasing the order of the scheme <ref type="bibr" coords="7,547.16,419.08,9.32,8.97" target="#b2">[3]</ref>.</s><s xml:id="_Kug4mWU" coords="7,317.64,430.04,240.80,8.97;7,317.96,441.00,240.25,8.97;7,317.96,451.96,111.83,8.97">As a consequence, this is a commonly used test in CFD to verify hydrodynamical codes, and it is employed in this work as a common test for the three parent codes.</s></p><p xml:id="_zchTtXC"><s xml:id="_eQtKcXy" coords="7,327.92,462.91,190.66,8.97">The setup here is similar to that of <ref type="bibr" coords="7,464.72,462.91,9.52,8.97" target="#b3">[4]</ref>, but in 3D.</s><s xml:id="_mNdFH2P" coords="7,521.60,462.91,38.12,8.97;7,317.96,473.87,240.48,8.97;7,317.96,484.83,90.40,8.97">The original test was devised in 2D, but the SPH codes used in this work normally operate in 3D.</s><s xml:id="_xHk6nRH" coords="7,411.20,484.83,147.00,8.97;7,317.96,495.79,240.25,8.97;7,317.96,506.75,240.25,8.97;7,317.96,517.71,83.05,8.97">To use a test that better represents the regular operability of the target codes, the square patch was set to [100 × 100] particles in 2D and this layer was copied 100 times in the direction of the z-axis.</s><s xml:id="_j4Fpjk9" coords="7,403.24,515.72,155.95,10.95;7,317.62,528.67,240.58,8.97;7,317.96,539.63,240.25,8.97;7,317.96,550.59,114.93,8.97">This results in a cube of 10 6 particles that, when applying periodic boundary conditions in the z direction, is similar to solving the original 2D test 100 times<ref type="foot" coords="7,488.31,537.64,3.38,7.27" target="#foot_2">2</ref> , while conserving the 3D formulation of the codes.</s><s xml:id="_NyJq5aM" coords="7,434.88,550.59,123.33,8.97;7,317.96,561.55,241.63,8.97">The initial conditions are the same for all layers, hence they depend only on the x and y coordinates.</s><s xml:id="_jZfpMPh" coords="7,317.69,572.50,241.57,8.97">The initial velocity field is given such that the square rotates rigidly:</s></p><formula xml:id="formula_9" coords="7,373.13,589.98,185.07,9.78">v x (x, y) = ωy; v y (x, y) = -ωx,<label>(7)</label></formula><p xml:id="_H59QyF3"><s xml:id="_HyjzdFV" coords="7,317.62,607.46,240.58,9.78;7,317.69,618.42,136.15,8.97">where v x and v y are the x and y coordinates of the velocity, and ω = 5 rad/s is the angular velocity.</s><s xml:id="_8cPbRkG" coords="7,456.88,618.42,101.33,8.97;7,317.96,629.38,240.25,8.97;8,53.80,86.92,240.48,8.97;8,53.80,97.88,66.33,8.97">The initial pressure profile consistent with that velocity distribution can be calculated from an incompressible Poisson equation and expressed as a rapidly converging series:</s></p><formula xml:id="formula_10" coords="8,63.63,131.26,220.46,54.14">P 0 = ρ ∞ m=0 ∞ n=0 -32ω 2 mnπ 2 mπ L 2 + nπ L 2 × sin mπx L sin nπx L ,</formula><p xml:id="_bYVj8pR"><s xml:id="_gg6YP3F" coords="8,56.04,205.47,219.80,8.97">where ρ is the density and L is the side length of the square.</s><s xml:id="_2QyxYfE" coords="8,63.76,216.43,230.28,8.97;8,53.80,227.39,240.25,8.97;8,53.80,238.35,174.81,8.97">We also verified the results of the SPH-EXA mini-app against the outcome of simulating the same rotating square patch test, with the same initial conditions, in all three parent codes.</s><s xml:id="_bTGPbkA" coords="8,230.85,238.35,63.20,8.97;8,53.80,248.67,149.11,10.45;8,198.14,250.15,95.90,9.78;8,53.80,261.95,22.48,8.97">To that extent we compared the total angular momentum ì L t ot at t = 0.5 s among all codes.</s><s xml:id="_DRYM2mw" coords="8,78.52,260.47,80.37,10.45;8,154.13,259.96,139.91,11.76;8,53.80,272.91,117.49,8.97">The mini-app yields ì L t ot = 8.33 × 10 9 g•cm 2 , which differs from the parent codes by ∼ 0.2%.</s><s xml:id="_g4hgrSc" coords="8,173.32,272.91,120.73,8.97;8,53.80,283.87,130.61,8.97">This is well within the differences among the parent codes themselves.</s><s xml:id="_pjrcXUr" coords="8,186.65,283.87,107.40,8.97;8,53.80,294.82,240.24,8.97;8,53.80,305.78,22.32,8.97">This small discrepancy comes from the different implementation of relevant sections of the SPH codes.</s><s xml:id="_7553kBw" coords="8,78.36,305.78,216.67,8.97;8,53.80,316.74,241.63,8.97">Namely, the way of calculating gradients, volume elements, evaluate the new time-step, and integrate the movement equations.</s><s xml:id="_5ZCNBcs" coords="8,53.80,327.70,240.25,8.97;8,53.80,338.66,240.25,8.97;8,53.80,349.62,240.25,8.97;8,53.80,360.58,240.25,8.97;8,53.80,371.54,87.28,8.97">Nevertheless, despite these capital differences in implementation among the codes, the results converge well enough to ensure an adequate evolution of the system, pointing at the fact that the fundamentals of the SPH technique are correctly implemented in the SPH-EXA mini-app.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_aWpxkpv">EXPERIMENTS</head><p xml:id="_Rp8gX8k"><s xml:id="_5SakwmY" coords="8,53.80,415.69,241.76,8.97;8,53.80,426.65,241.63,8.97">In this section, we report the results of a weak-scaling and a strongscaling experiment conducted on a top production supercomputer.</s><s xml:id="_XB2abRe" coords="8,53.53,437.61,240.83,8.97;8,53.80,448.57,241.63,8.97">The immediate goal is to assess the performance of the SPH-EXA mini-app on a Petascale system comprising both CPUs and GPUs.</s><s xml:id="_sJnjzd6" coords="8,53.53,459.53,175.88,8.97">The long-term goal is to run on Exascale systems.</s><s xml:id="_P6Je5xy" coords="8,231.29,459.53,62.76,8.97;8,53.80,470.49,156.57,9.78">The weak-scaling efficiency is obtained as T seq /T par × 100%.</s><s xml:id="_sAWVYmW" coords="8,212.61,470.49,81.43,8.97;8,53.80,481.44,240.24,8.97;8,53.80,492.40,19.45,8.97">For strong-scaling, we plotted the average wall-clock time per iteration on a logarithmic scale.</s><s xml:id="_P43keZf" coords="8,75.48,492.40,218.56,8.97;8,53.80,503.36,241.63,8.97">The average time per iteration is obtained from 10 iterations due to the limited number of node hours available for this project.</s><s xml:id="_5aCXcjq" coords="8,53.80,514.32,240.25,8.97;8,53.80,525.28,240.41,8.97;8,53.59,536.24,145.60,8.97">However, a single run up to 8000 iterations used for validation has shown that the time per execution remains almost constant over 10 iterations with very small variations.</s></p><p xml:id="_2aZbgZW"><s xml:id="_b36TYH6" coords="8,63.76,547.20,231.80,8.97;8,53.80,558.16,240.25,8.97;8,53.80,569.12,202.28,8.97">We show that the proposed SPH-EXA mini-app shows promising results, executing simulations with 65 billion particles on 2,048 hybrid CPU+GPU nodes at 67% weak-scaling efficiency.</s><s xml:id="_q7tjYGM" coords="8,258.33,569.12,36.70,8.97;8,53.80,580.08,240.25,8.97;8,53.80,591.03,241.76,8.97;8,53.80,601.99,42.57,8.97">Moreover, the achieved weak-scaling efficiency decreased very little when scaling up from 512 to 2,048 nodes while keeping 32 million particles/node.</s><s xml:id="_GGMh3Xs" coords="8,98.62,601.99,196.93,8.97;8,53.80,612.95,240.25,8.97;8,53.80,623.91,82.28,8.97">For strong-scaling, the average time per iteration decreases almost linearly up to 1024 nodes for a fixed problem size of 644<ref type="foot" coords="8,66.22,621.93,3.38,7.27" target="#foot_4">3</ref> = 267M particles.</s><s xml:id="_63bU3Px" coords="8,138.32,623.91,155.89,8.97;8,53.80,634.87,141.87,8.97">Memory consumption equals to 1,459B per particle, 1.35GB per 1 million particles.</s></p><p xml:id="_Ax3FFJG"><s xml:id="_7T3XsPS" coords="8,63.76,645.83,230.59,8.97;8,53.80,656.79,240.24,8.97;8,53.80,667.75,223.96,8.97">In addition, an independent performance audit of the SPH-EXA mini-app has recently been performed by RWTH Aachen as part of the POP2 CoE service for European Scientific Applications.</s><s xml:id="_4pYw4un" coords="8,279.98,667.75,14.06,8.97;8,53.80,678.71,241.76,8.97;8,53.80,689.66,240.25,8.97;8,53.80,700.62,194.88,8.97">The report analyzed the efficiency and scalability of the SPH-EXA miniapp through a set of strong-scaling experiments with up to 960 MPI ranks (40 nodes) and showed that both are very high.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1" xml:id="_H2WGP2X">System Overview</head><p xml:id="_U7FhXF6"><s xml:id="_Wvg8U7z" coords="8,317.69,100.62,240.52,8.97;8,317.96,109.60,240.25,10.95;8,317.96,122.54,109.16,8.97">The experiments were performed on the hybrid partition of the Piz Daint 3 supercomputer using PrgEnv-Intel, Cray MPICH 7.7.2 and OpenMP 4.0 (version/201611).</s></p><p xml:id="_As2wSDD"><s xml:id="_hESjwd9" coords="8,327.92,133.50,231.66,8.97">We used the hybrid partition of more than 5,000 Cray XC50 nodes.</s><s xml:id="_MNBHZg4" coords="8,317.69,144.46,240.51,8.97;8,317.69,155.42,240.52,8.97;8,317.96,166.38,240.78,8.97;8,317.62,177.34,241.96,8.97">These hybrid nodes are equipped with an Intel E5-2690 v3 CPU (codename Haswell, each with 12 CPU cores) and a PCIe version of the NVIDIA Tesla P100 GPU (Pascal architecture, 3584 CUDA cores) with 16 GB second generation high bandwidth memory (HBM2).</s><s xml:id="_VXFWANa" coords="8,317.69,188.29,240.52,8.97;8,317.96,197.27,170.12,10.95">The nodes of both partitions are interconnected in one fabric based on Aries technology in a Dragonfly topology <ref type="foot" coords="8,482.22,197.27,3.38,7.27" target="#foot_5">4</ref> .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2" xml:id="_xdvwzSe">Weak-Scaling Experiments</head><p xml:id="_383Gpbj"><s xml:id="_pXxYCDf" coords="8,317.96,234.10,240.25,8.97;8,317.96,245.06,241.62,8.97">Figure <ref type="figure" coords="8,342.60,234.10,4.09,8.97" target="#fig_6">6</ref> and Figure <ref type="figure" coords="8,388.20,234.10,4.09,8.97" target="#fig_9">7</ref> show the results of a weak-scaling experiment conducted on the hybrid partition of the Piz Daint supercomputer.</s><s xml:id="_mSgRZwA" coords="8,317.96,256.02,240.25,8.97;8,317.96,266.98,223.31,8.97">Both figures show the efficiency of the execution with increasing number of nodes relative to using a single computing node.</s><s xml:id="_uWXNUrB" coords="8,543.74,266.98,14.47,8.97;8,317.96,277.94,240.25,8.97;8,317.96,288.90,240.24,8.97;8,317.96,299.86,167.39,8.97">The run performs the same 3D version of the CFD rotating square patch test described in §4.6, with 32 million particles per computing node for a total of 65 billion particles on 2,048 nodes.</s><s xml:id="_SrBdgZz" coords="8,487.29,299.86,72.42,8.97;8,317.96,310.82,240.25,8.97;8,317.96,321.77,72.74,8.97">The SPH-EXA miniapp shows very good parallel efficiency, namely 67% when running the largest test case.</s><s xml:id="_JYZTR8r" coords="8,392.93,321.77,165.55,8.97;8,317.96,332.73,240.25,8.97;8,317.96,343.69,240.25,8.97;8,317.96,354.65,80.51,8.97">Note that the mini-app only experienced a 3% decrease in parallel efficiency when moving from 512 nodes to 2,048 nodes, i.e., increasing the number of MPI ranks and the problem size, by a factor of 4×.</s><s xml:id="_KabtHzf" coords="8,354.71,611.35,188.40,8.97"><ref type="figure" coords="8,354.71,611.35,4.25,8.97" target="#fig_9">7</ref> shows the breakdown of efficiency by function.</s><s xml:id="_KWqsPYZ" coords="8,546.14,611.35,12.06,8.97;8,317.96,622.31,240.25,8.97;8,317.96,633.26,139.20,8.97">We observe that the decrease in efficiency is mostly due to the Domain Decomposition and Build Tree steps.</s><s xml:id="_GU9MKXg" coords="8,459.96,633.26,98.24,8.97;8,317.96,644.22,240.24,8.97;8,317.96,655.18,161.84,8.97">Domain Decomposition is the most complex part of the code, responsible for distributing the particle data and performing load balancing.</s><s xml:id="_4m6edb6" coords="8,482.03,655.18,76.17,8.97;8,317.96,666.14,240.25,8.97;8,317.96,677.10,241.24,8.97;9,53.80,325.15,240.25,8.97;9,53.80,336.11,203.38,8.97">While the number of particles per process remains constant, the global tree -the top part of the tree that is kept identical on all processes -becomes larger,  and this results in increased depth and an additional overhead as the number of nodes (and particles) increases globally.</s><s xml:id="_W8vhkEx" coords="9,259.58,336.11,35.46,8.97;9,53.80,347.07,240.25,8.97;9,53.80,358.03,74.06,8.97">However, the depth of the tree increases with loд(n), where n is the total number of particles.</s><s xml:id="_7Bnp2zH" coords="9,130.10,358.03,163.95,8.97;9,53.80,368.98,240.24,8.97;9,53.80,379.94,240.48,8.97;9,53.80,390.90,166.14,8.97">This is reflected in Figure <ref type="figure" coords="9,226.22,358.03,3.10,8.97" target="#fig_9">7</ref>, orange and blue lines, where the efficiency decreases rapidly when increasing the node count from 1 to 64, but then remains stable and decreases very little (note the logarithmic scale on the X-axis).</s><s xml:id="_Xv2hBfR" coords="9,221.79,390.90,72.26,8.97;9,53.80,401.86,101.43,8.97">All other computing steps scale almost perfectly.</s></p><p xml:id="_8hUydUd"><s xml:id="_znfM6EE" coords="9,63.76,412.82,231.80,8.97;9,53.80,423.78,186.07,8.97">These results are very encouraging and indicate that good scalability can be expected at much higher node counts.</s><s xml:id="_atRcPEe" coords="9,242.11,423.78,52.25,8.97;9,53.80,434.74,240.25,8.97;9,53.80,445.70,176.69,8.97">The SPH-EXA mini-app has not yet reached the tipping point where the code will not benefit from increased computing resources.</s><s xml:id="_BJhKx6D" coords="9,232.73,445.70,61.32,8.97;9,53.80,456.66,240.25,8.97;9,53.80,467.62,240.25,8.97;9,53.80,478.57,240.41,8.97;9,53.47,489.53,154.99,8.97">If we assume the current efficiency trend, we can expect the code to run in excess of a trillion particles on a system consisting of 31,250 computing nodes with 32 million particles per nodes, which will be on par with future Exascale systems node counts.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3" xml:id="_bMHFzZT">Strong Scaling Experiments</head><p xml:id="_zPBgtFx"><s xml:id="_Z5W4RMV" coords="9,53.80,525.28,241.76,8.97;9,53.80,536.24,240.25,8.97;9,53.80,547.20,240.25,8.97;9,53.80,558.16,45.42,8.97">Figure <ref type="figure" coords="9,80.89,525.28,4.25,8.97" target="#fig_11">8</ref> shows the results of a strong-scaling experiment conducted with the SPH-EXA mini-app on 267 million particles on the hybrid partition of the Piz Daint supercomputer using up to 2,048 nodes.</s><s xml:id="_eHFwhxH" coords="9,101.69,558.16,192.35,8.97;9,53.80,569.12,119.75,8.97">The results were obtained by running the mini-app blueusing MPI+OpenMP+CUDA.</s><s xml:id="_D9XWFeq" coords="9,175.79,569.12,118.26,8.97;9,53.80,580.08,162.48,8.97">Additional dotted lines show the execution time per function of the mini-app.</s></p><p xml:id="_8R8zDMK"><s xml:id="_YM2uvJf" coords="9,63.76,591.03,230.29,8.97;9,53.80,601.99,240.25,8.97;9,53.80,612.95,240.24,8.97;9,53.47,623.91,91.40,8.97">blueWhile the SPH-EXA mini-app has a sub-optimal speedup, it is clear that all functions benefit from the additional computational resources, and that the execution time continues to decrease even when using 2,048 nodes.</s><s xml:id="_2pFNqXQ" coords="9,147.28,623.91,146.76,8.97;9,53.80,634.87,240.25,8.97;9,53.80,645.83,240.25,8.97;9,53.80,656.79,240.42,8.97;9,53.80,667.75,33.22,8.97">In this strong-scaling scenario the total number of particles is fixed and nodes receive fewer particles as we increase the number of computing nodes, e.g., there are 4.1 million particles per node with 64 computing nodes, but only 130,000 per node (i.e.</s><s xml:id="_uGGhQvG" coords="9,89.26,667.75,204.78,8.97;9,53.80,678.71,23.15,8.97">just above 10,000 per core) when using 2,048 computing nodes.</s><s xml:id="_cPazZFs" coords="9,79.20,678.71,216.23,8.97">However, particles maintain the same number of neighbors.</s><s xml:id="_K2wCBD4" coords="9,53.53,689.66,240.51,8.97;9,53.80,700.62,75.03,8.97">This means the overlap between nodes increases and more halo particles are needed.</s><s xml:id="_BwjZMaA" coords="9,327.92,323.17,230.45,8.97;9,317.96,334.13,240.24,8.97;9,317.96,345.09,127.72,8.97">blueFigure 9 shows the mean and max ratio of halo particles per node, with respect to the number of particles initially assigned to a node, as described in Section 4.3.</s><s xml:id="_GZPa9px" coords="9,447.93,345.09,110.27,8.97;9,317.96,356.05,240.53,8.97;9,317.96,367.00,131.25,8.97">While only 30% of extra halos particles are needed on average using 64 nodes, more than 200% are needed when using 2,048 nodes.</s></p><p xml:id="_xBT7Bkd"><s xml:id="_8QetsaC" coords="9,327.92,377.96,231.80,8.97;9,317.96,388.92,240.25,8.97;9,317.96,399.88,240.41,8.97;9,317.96,410.84,59.56,8.97">blueThe impact of having more halo particles per node is twofold: (1) additional memory is required and (2) particles are more likely to be distant in memory space, which increases the number of cache-misses.</s><s xml:id="_FFBNVwk" coords="9,379.75,410.84,162.27,8.97">Both aspects adversely impact performance.</s><s xml:id="_tFB9wQU" coords="9,544.26,410.84,13.94,8.97;9,317.96,421.80,240.25,8.97;9,317.96,432.76,240.25,8.97;9,317.96,443.72,96.86,8.97">In a realistic setup, i.e., from 64 to 128 compute nodes in Figure <ref type="figure" coords="9,525.03,421.80,3.01,8.97" target="#fig_13">9</ref>, we aim at a few million particles per nodes and a few hundred thousand particles per core / thread.</s><s xml:id="_7m8vJJX" coords="9,417.07,443.72,141.13,8.97;9,317.96,454.68,125.86,8.97">Such configurations also minimize the number of halo particles per node.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4" xml:id="_A59VY3N">Current Limitations</head><p xml:id="_GMNubRU"><s xml:id="_pH8mA5E" coords="10,53.53,100.62,240.51,8.97;10,53.80,111.58,150.28,8.97">The weak-scaling experiment used 100% of the available memory on every computing node and on every GPU.</s><s xml:id="_zSqcwJy" coords="10,206.21,111.58,87.84,8.97;10,53.80,122.54,214.40,8.97">The execution time for a single time-step remained, on average, well under a minute.</s><s xml:id="_VtchcYn" coords="10,270.39,122.54,24.64,8.97;10,53.80,133.50,240.25,8.97;10,53.80,144.46,240.42,8.97;10,53.80,155.42,240.41,8.97;10,53.80,166.38,99.76,8.97">Hence, a high priority optimization is to reduce the memory footprint of the SPH-EXA mini-app, which will come at the expense of longer execution times but will allow us to address and execute larger problem sizes in the future.</s></p><p xml:id="_naf2Nmj"><s xml:id="_Va2XmvA" coords="10,63.76,177.34,230.28,8.97;10,53.80,188.29,176.57,8.97">Our current project allocation on Piz Daint did not allow us to run larger experiments at the time of writing.</s><s xml:id="_Uq4fCNr" coords="10,232.61,188.29,61.67,8.97;10,53.47,199.25,240.58,8.97;10,53.80,210.21,55.93,8.97">We are currently working on obtaining larger allocations to launch simulations using the full system.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6" xml:id="_Hq5EKEm">NEXT STEPS AND FUTURE WORK</head><p xml:id="_v535C3N"><s xml:id="_9KyG5K4" coords="10,53.53,251.31,240.51,8.97;10,53.80,262.27,240.25,8.97;10,53.80,273.23,34.00,8.97">The mini-app provides a modular tool that can be used by the community to plug-in additional physical processes or numerical methods.</s><s xml:id="_qBRVRhJ" coords="10,90.37,273.23,203.68,8.97;10,53.80,284.18,228.13,8.97">As there is a wide variety of very demanding physical scenarios that will be targeted by the SPH-EXA mini-app (e.g.</s><s xml:id="_N5pBRmD" coords="10,284.16,284.18,11.40,8.97;10,53.80,295.14,240.25,8.97;10,53.80,306.10,240.25,8.97;10,53.47,317.06,156.07,8.97">supernova explosions, galaxy formation), having a highly scalable and modular code will encourage others in the community to contribute with their own physics/numerics modules.</s></p><p xml:id="_JYPaRh7"><s xml:id="_dQQ4zdu" coords="10,63.76,328.02,231.80,8.97;10,53.80,338.98,241.76,8.97;10,53.80,349.94,240.25,8.97;10,53.80,360.90,240.25,8.97;10,53.57,371.86,241.85,8.97">Our short-term objectives include reducing the memory footprint of the SPH-EXA mini-app, which will help increasing the particle count per node beyond 32 million particles, adding additional features such as the possibility to select the desired generalized volume elements, and simulating increasingly complex scenarios.</s><s xml:id="_u2z7MrM" coords="10,53.80,382.81,240.24,8.97;10,53.80,393.77,241.76,8.97;10,53.80,404.73,240.25,8.97;10,53.80,415.69,240.25,8.97;10,53.80,426.65,34.67,8.97">Regarding fault tolerance, we plan to include our novel detection method for silent data corruption <ref type="bibr" coords="10,184.15,393.77,13.49,8.97" target="#b27">[29]</ref>, which is specifically designed for SPH applications, add automatic validation (through conserved quantities), and implement checkpointing at optimal intervals.</s><s xml:id="_qHE62dD" coords="10,91.04,426.65,204.52,8.97;10,53.80,437.61,240.25,8.97;10,53.80,448.57,18.57,8.97">Each new feature in the SPH-EXA mini-app will be iteratively tested, validated, and optimized for efficiency from the start.</s></p><p xml:id="_dKApCXv"><s xml:id="_AEVHwgY" coords="10,63.76,459.53,231.80,8.97;10,53.80,470.49,84.74,8.97">As mid-term targets we aim to overlap computations with internode communications.</s><s xml:id="_5yhNgTX" coords="10,141.06,470.49,153.30,8.97;10,53.80,481.44,209.51,8.97">Therefore, we will prepare the SPH-EXA mini-app to be Asynchronous Multi-Tasking (AMT) ready.</s><s xml:id="_6GXdRXa" coords="10,265.55,481.44,29.48,8.97;10,53.47,492.40,242.09,8.97;10,53.47,503.36,127.98,8.97">For this, we will enable the opportunity to compare different tasking frameworks such as OpenMP and HPX.</s><s xml:id="_5Fkdcas" coords="10,184.17,503.36,109.88,8.97;10,53.80,514.32,240.25,8.97;10,53.80,525.28,240.25,8.97;10,53.80,536.24,241.24,8.97;10,53.80,547.20,225.80,8.97">Moreover, this will also open the opportunity to delegate independent tasks to accelerators and CPUs at the same time, which, in terms of the increasing hardware heterogeneity foreseen in the pre-exascale and exascale systems, is crucial to achieve maximum load balance and performance.</s><s xml:id="_6gZWyK3" coords="10,281.85,547.20,13.71,8.97;10,53.80,558.16,240.79,8.97;10,53.80,569.12,241.76,8.97;10,53.80,580.08,61.79,8.97">Additionally, we will employ multilevel (batch, process, and thread) scheduling for dynamic load balancing in the mini-app as a configurable option.</s><s xml:id="_XzUc2mq" coords="10,117.94,580.08,176.11,8.97;10,53.80,591.03,240.25,8.97;10,53.80,601.99,151.42,8.97">This will allow us to systematically explore the interplay between load balancing at these levels to achieve the best possible load balancing during execution.</s></p><p xml:id="_GHbttfQ"><s xml:id="_VbMhKef" coords="10,63.76,612.95,230.28,8.97;10,53.80,623.91,241.76,8.97;10,53.80,634.87,128.68,8.97">In the end, the SPH-EXA <ref type="bibr" coords="10,156.54,612.95,10.51,8.97" target="#b4">[5]</ref> follows a long-term vision, having set out to have major impact in the scientific communities it gathers (and beyond in the longer run).</s><s xml:id="_QKAX3ZA" coords="10,184.72,634.87,109.32,8.97;10,53.80,645.83,240.25,8.97;10,53.80,656.79,240.46,8.97;10,53.80,667.75,241.24,8.97;10,53.80,678.71,240.24,8.97;10,53.80,689.66,240.25,8.97;10,53.80,700.62,240.25,8.97;10,317.96,86.92,81.56,8.97">The aim of SPH-EXA <ref type="bibr" coords="10,265.50,634.87,10.62,8.97" target="#b4">[5]</ref> is to reach the capabilities of present HPC systems and to push those of the future HPC infrastructures for simulating the most complex phenomena at the highest resolution and longest physical times, such as exploring the explosion mechanisms of Type Ia and Core Collapse Supernovae, including nuclear reaction treatments via efficient nuclear networks and neutrino interactions with detailed transport, respectively.</s><s xml:id="_KVNwrdz" coords="10,401.25,86.92,156.96,8.97;10,317.96,97.88,240.25,8.97;10,317.96,108.84,241.76,8.97;10,317.96,119.80,240.25,8.97;10,317.96,130.76,240.25,8.97;10,317.96,141.72,240.24,8.97;10,317.96,152.68,178.54,8.97">Another target for the SPH-EXA mini-app is modeling the small-scale fluid-dynamics processes involved in the assembly of the planetary building blocks while capturing simultaneously the large scale dynamics of the proto-planetary disks, and being able to simulate an entire population of galaxies from high to low redshift in a cosmological volume with enough resolution to model directly individual star forming regions.</s><s xml:id="_mUCCzCr" coords="10,498.74,152.68,59.47,8.97;10,317.96,163.64,240.25,8.97;10,317.96,174.60,241.24,8.97;10,317.96,185.55,111.51,8.97">Hence, a flexible and modular code that scales efficiently and robustly on a large number of nodes nodes, accessing a mix of CPUs, GPUs, FPGAs, etc, is our long-term objective.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7" xml:id="_3j9zYgx">CONCLUSION</head><p xml:id="_ymDSGmz"><s xml:id="_ypysTZc" coords="10,317.96,220.42,240.42,8.97;10,317.96,231.38,241.76,8.97;10,317.96,242.34,240.25,8.97;10,317.96,253.30,241.76,8.97;10,317.96,264.26,240.41,8.97;10,317.96,275.22,51.36,8.97">SPH-EXA <ref type="bibr" coords="10,356.99,220.42,10.68,8.97" target="#b4">[5]</ref> is an interdisciplinary project involving Computer Scientists, Astrophysicists, and Cosmologists, brings together stateof-the-art methods in both fields under a broad scope, and addresses important challenges at all levels of existing and emerging infrastructures by exploring novel programming paradigms and their combinations.</s></p><p xml:id="_AmPukdK"><s xml:id="_gYQ4ZTY" coords="10,327.92,286.18,230.28,8.97;10,317.96,297.14,240.25,8.97;10,317.96,308.09,240.25,8.97;10,317.96,319.05,22.69,8.97">In this work, we described the current status of a novel and scalable SPH-EXA mini-app for simulating the SPH method on large hybrid HPC systems efficiently utilizing both multi-core CPUs and GPUs.</s><s xml:id="_rqnUDRS" coords="10,342.88,319.05,215.32,8.97;10,317.96,330.01,52.30,8.97">The SPH-EXA mini-app is open source and has no external dependencies.</s><s xml:id="_jC29EAX" coords="10,372.54,330.01,185.67,8.97;10,317.96,340.97,241.23,8.97;10,317.96,351.93,41.21,8.97">With fewer than 3,000 modern C++ LOC (with no compromise for performance), it is easy to run, understand, modify, and extend.</s><s xml:id="_nqCFj6n" coords="10,361.13,351.93,197.07,8.97;10,317.96,362.89,241.63,8.97">The code is simple by design, making it easy to test and implement new SPH kernels or other performance optimizations.</s><s xml:id="_j8EYkED" coords="10,317.53,373.85,240.68,8.97;10,317.96,384.81,240.25,8.97;10,317.96,395.77,240.24,8.97;10,317.73,406.73,240.47,8.97;10,317.96,417.68,171.05,8.97">We performed an initial exploration of the efficiency of different combinations of hybrid CPU and GPU programing models, with different compilers, verified and validated the SPH-EXA mini-app via computationally-demanding simulations, and compared the results with those obtained by the parent codes.</s><s xml:id="_DRWdkZK" coords="10,491.14,417.68,67.06,8.97;10,317.96,428.64,240.54,8.97;10,317.96,439.60,240.41,8.97;10,317.62,450.56,240.58,8.97;10,317.96,461.52,23.46,8.97">We also conducted a weak-scaling experiment that shows excellent scaling, with 67% efficiency on 2,048 hybrid nodes of the Piz Daint supercomputer with a loss of just 3% in efficiency when going from 512 to 2,048 nodes.</s></p><p xml:id="_WvSv942"><s xml:id="_ZqkcTFC" coords="10,327.92,472.48,231.80,8.97;10,317.96,483.44,240.25,8.97;10,317.96,494.40,61.96,8.97">At this initial stage of the project we are already in a good position to explore the limits of what can be done on current top supercomputers.</s><s xml:id="_rfhqzag" coords="10,382.25,494.40,177.46,8.97;10,317.96,505.36,240.25,8.97;10,317.96,516.31,73.49,8.97">This opens the doors to great number of potential applications, not only of the SPH-EXA mini-app, but also of the learned lessons.</s><s xml:id="_gxxRjW3" coords="10,393.94,516.31,165.78,8.97;10,317.96,527.27,241.24,8.97;10,317.96,538.23,240.42,8.97;10,317.96,549.19,240.25,8.97;10,317.96,560.15,109.15,8.97">The SPH-EXA mini-app has driven substantial improvements to its three parent codes (SPHYNX, ChaNGa, and SPH-flow) and has set a multi-directional knowledge transfer between the Computer Science, Astrophysics, and Computational Fluid Dynamics communities.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="5,53.80,683.40,504.40,7.70;5,53.80,694.36,279.86,7.70"><head>Figure 2 :</head><label>2</label><figDesc><div><p xml:id="_x93MeFK"><s xml:id="_YZSVgf5" coords="5,53.80,683.40,504.40,7.70;5,53.80,694.36,279.86,7.70">Figure 2: Sequence diagram of the SPH-EXA mini-app illustrating its parallel program flow, the use of the various parallel programming models, its complexity, and its synchronization points.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="6,317.96,269.18,240.25,7.70;6,317.96,280.14,241.78,7.70;6,317.96,291.10,202.94,7.70"><head>Figure 3 :</head><label>3</label><figDesc><div><p xml:id="_W8E6X22"><s xml:id="_EwmM4uN" coords="6,317.96,269.18,240.25,7.70;6,317.96,280.14,241.78,7.70">Figure 3: Domain decomposition for the Square Patch test case at time iteration 8,000 for 1M particles on 20 processes.</s><s xml:id="_ZkBHshR" coords="6,317.96,291.10,202.94,7.70">Each color corresponds to a different MPI process.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="6,317.96,587.60,240.43,7.70;6,317.96,598.56,240.25,7.70;6,317.61,609.52,237.33,7.70"><head>Figure 4 :</head><label>4</label><figDesc><div><p xml:id="_sXDfgMF"><s xml:id="_buFPQU7" coords="6,317.96,587.60,240.43,7.70;6,317.96,598.56,240.25,7.70;6,317.61,609.52,237.33,7.70">Figure 4: Communication between individual processes for a 240 MPI processes execution of the SPH-EXA mini-app with sender ID on the Y-axis and receiver ID on the X-axis.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="7,92.04,262.30,25.67,19.90;7,102.72,250.61,45.90,32.30;7,140.64,254.65,38.91,27.80;7,167.84,252.49,42.64,29.76;7,81.20,300.16,16.23,6.98;7,84.46,331.09,12.98,6.98;7,88.17,362.02,9.27,6.98;7,86.04,392.95,11.40,6.98;7,84.26,423.87,13.16,6.98;7,107.92,299.54,47.39,6.98;7,173.66,299.54,10.61,6.98;7,202.61,299.54,14.56,6.98;7,109.82,330.47,14.56,6.98;7,140.74,330.47,14.56,6.98;7,173.66,330.47,10.61,6.98;7,202.61,330.47,14.56,6.98;7,107.92,361.40,18.37,6.98;7,142.74,361.40,10.61,6.98;7,171.68,361.40,14.56,6.98;7,202.59,361.40,14.56,6.98;7,107.92,392.32,18.37,6.98;7,142.74,392.32,10.61,6.98;7,173.66,392.32,10.61,6.98;7,202.61,392.32,14.56,6.98;7,109.82,423.25,14.56,6.98;7,142.74,423.25,10.61,6.98;7,173.66,423.25,10.61,6.98;7,202.61,423.25,14.56,6.98;7,250.48,439.34,3.82,6.98;7,250.48,419.72,3.82,6.98;7,250.48,400.10,3.82,6.98;7,250.48,380.47,3.82,6.98;7,250.48,360.85,3.82,6.98;7,250.48,341.23,7.63,6.98;7,250.48,321.61,7.63,6.98;7,250.48,301.99,7.63,6.98;7,260.34,310.08,6.98,24.97;7,260.34,336.98,6.98,29.62;7,260.34,368.52,6.98,14.87;7,260.34,385.30,6.98,35.18"><head></head><label></label><figDesc><div><p xml:id="_CjcJxF2"><s xml:id="_sWYgQPX" coords="7,92.04,262.30,25.67,19.90;7,102.72,250.61,45.90,32.30;7,140.64,254.65,38.91,27.80;7,167.84,252.49,39.46,27.86">m p i+ o m p m p i+ o m p + t a r g e t m p i+ o m p + a c c m p i+ o m p + c u d</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="7,53.80,458.99,241.85,7.70;7,53.80,469.95,240.25,7.70;7,53.80,480.91,96.49,7.70"><head>Figure 5 :</head><label>5</label><figDesc><div><p xml:id="_r5RHJzY"><s xml:id="_x4x46tv" coords="7,53.80,458.99,241.85,7.70;7,53.80,469.95,240.25,7.70;7,53.80,480.91,96.49,7.70">Figure 5: Average execution time per time-step for 5 compilers and for every parallel programming model available in the SPH-EXA mini-app.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="8,317.96,579.15,240.25,7.70;8,317.96,590.11,105.24,7.70"><head>Figure 6 :</head><label>6</label><figDesc><div><p xml:id="_Jn2Hxq6"><s xml:id="_Vru7UxP" coords="8,317.96,579.15,240.25,7.70;8,317.96,590.11,105.24,7.70">Figure 6: Weak scaling of the SPH-EXA mini-app with 32 million particles per node</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="8,327.92,611.35,230.28,8.97;8,317.96,622.31,240.25,8.97;8,317.96,633.26,240.25,8.97;8,317.96,644.22,240.24,8.97;8,317.96,655.18,240.25,8.97;8,317.96,666.14,240.25,8.97;8,317.96,677.10,241.24,8.97"><head>Figure</head><label></label><figDesc><div><p xml:id="_tPPwGh5"><s xml:id="_d8PTGWx" coords="8,327.92,611.35,215.19,8.97">Figure7shows the breakdown of efficiency by function.</s><s xml:id="_GwKxhPT" coords="8,546.14,611.35,12.06,8.97;8,317.96,622.31,240.25,8.97;8,317.96,633.26,139.20,8.97">We observe that the decrease in efficiency is mostly due to the Domain Decomposition and Build Tree steps.</s><s xml:id="_SPJVF7f" coords="8,459.96,633.26,98.24,8.97;8,317.96,644.22,240.24,8.97;8,317.96,655.18,161.84,8.97">Domain Decomposition is the most complex part of the code, responsible for distributing the particle data and performing load balancing.</s><s xml:id="_sAN6jtP" coords="8,482.03,655.18,76.17,8.97;8,317.96,666.14,240.25,8.97;8,317.96,677.10,241.24,8.97">While the number of particles per process remains constant, the global tree -the top part of the tree that is kept identical on all processes -becomes larger,</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="9,53.80,287.83,241.85,7.70;9,53.80,298.79,154.75,7.70"><head>Figure 7 :</head><label>7</label><figDesc><div><p xml:id="_kxuVYYU"><s xml:id="_aCN4JvB" coords="9,53.80,287.83,241.85,7.70;9,53.80,298.79,154.75,7.70">Figure 7: Weak scaling per function of the SPH-EXA miniapp with 32 million particles per node</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11" coords="9,317.96,287.83,240.48,7.70;9,317.96,298.79,67.32,7.70"><head>Figure 8 :</head><label>8</label><figDesc><div><p xml:id="_pnG9E5P"><s xml:id="_7HT4h4c" coords="9,317.96,287.83,240.48,7.70;9,317.96,298.79,67.32,7.70">Figure 8: Strong scaling of the SPH-EXA mini-app with 267 million particles</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13" coords="9,317.96,680.76,241.85,7.73;9,317.96,691.72,240.25,7.70;9,317.96,702.68,142.39,7.70"><head>Figure 9 :</head><label>9</label><figDesc><div><p xml:id="_myBSGVJ"><s xml:id="_nae6X4F" coords="9,317.96,680.76,241.85,7.73;9,317.96,691.72,57.95,7.70">Figure 9: Mean and max ratio of halo particles per computing node w.r.t.</s><s xml:id="_PCsUHf8" coords="9,378.61,691.72,179.59,7.70;9,317.96,702.68,142.39,7.70">initially assigned particles per node, for the test case with 267 million particles.</s></p></div></figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0" coords="2,56.72,685.93,237.32,6.97;2,53.80,693.90,39.82,6.97"><p xml:id="_Bd9SNcb"><s xml:id="_vMPMeBX" coords="2,56.72,685.93,237.32,6.97;2,53.80,693.90,39.82,6.97">The largest cosmological SPH simulation to date performed with the parent codes is of the order of</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="25" xml:id="foot_1" coords="2,103.19,693.90,190.86,6.97;2,53.80,702.12,191.34,6.97"><p xml:id="_6BNjUzT"><s xml:id="_PudXqGC" coords="2,103.19,693.90,54.33,6.97">billion particles<ref type="bibr" coords="2,147.91,693.90,7.21,6.97" target="#b1">[2]</ref>.</s><s xml:id="_9fP3THF" coords="2,159.13,693.90,134.92,6.97;2,53.80,702.12,191.34,6.97">Although, comparison is not fair due to different levels of physics included, it gives an order of magnitude reference.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_2" coords="7,321.00,653.61,47.97,6.97"><p xml:id="_zMTGVst"><s xml:id="_H7YERCd" coords="7,321.00,653.61,47.97,6.97">Note that in the</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3" coords="7,371.43,653.61,187.85,6.97;7,317.96,661.58,240.24,6.97;7,317.70,669.55,240.68,6.97;7,317.96,677.52,240.25,6.97;7,317.96,684.91,241.32,8.31;7,317.96,694.15,240.25,6.97;7,317.96,702.12,168.23,6.97"><p xml:id="_YeGnv88"><s xml:id="_YhtwMM9" coords="7,371.43,653.61,187.85,6.97">3D case it is expected that instabilities arise in the Z direction.</s><s xml:id="_c9sHpxa" coords="7,317.96,661.58,240.24,6.97;7,317.70,669.55,225.11,6.97">Nevertheless, in all our experiments, the velocity for all particles in the Z direction was, most of the time, 6 orders of magnitude lower than in the X or Y directions.</s><s xml:id="_ygT3z7a" coords="7,544.56,669.55,13.83,6.97;7,317.96,677.52,240.25,6.97;7,317.96,684.91,67.06,8.31">Only for few particles close to the origin of coordinates (where all velocities are small) this ratio increases to 10 -2 .</s><s xml:id="_xj58P7N" coords="7,387.06,686.18,172.21,6.97">That is the point at which we stopped the SPH simulation.</s><s xml:id="_SST2s7H" coords="7,317.96,694.15,240.25,6.97;7,317.96,702.12,168.23,6.97">Hence, we consider the 3D test stable for the duration of the simulation and the results comparable to those found in the literature for the 2D case.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_4" coords="8,321.00,693.71,119.92,6.97"><p xml:id="_X2VHjbv"><s xml:id="_P5x6PR4" coords="8,321.00,693.71,119.92,6.97">https://www.cscs.ch/computers/piz-daint/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_5" coords="8,320.88,702.12,201.31,6.97"><p xml:id="_53nYzY6"><s xml:id="_EVTFNWX" coords="8,320.88,702.12,201.31,6.97">http://www.cray.com/sites/default/files/resources/CrayXCNetwork.pdf</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_eSZAe6R">ACKNOWLEDGEMENTS</head><p xml:id="_TUbvNhZ">This work is supported in part by the <rs type="funder">Swiss Platform for Advanced Scientific Computing (PASC)</rs> project <rs type="grantNumber">SPH-EXA [5] (2017-2021</rs>).The authors acknowledge the support of the <rs type="funder">Swiss National Supercomputing Centre (CSCS)</rs> via allocation project <rs type="grantNumber">c16</rs>, where the calculations have been performed.Several performance results were provided by the <rs type="funder">Performance Optimisation and Productivity (POP)</rs> centre of excellence in HPC.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_n3dUAN8">
+					<idno type="grant-number">SPH-EXA [5] (2017-2021</idno>
+				</org>
+				<org type="funding" xml:id="_3ZZH3N5">
+					<idno type="grant-number">c16</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,330.15,694.15,228.06,6.97;10,330.15,702.12,191.49,6.97" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="10,460.60,694.77,97.60,6.23;10,330.15,702.74,115.33,6.23" xml:id="_Nr2E7cz">SPHYNX: An accurate density-based SPH method for astrophysical applications</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">M</forename><surname>Cabezón</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>García-Senz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Figueira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kkw5EKh" coord="10,449.90,702.12,12.11,6.97">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">606</biblScope>
+			<date type="published" when="2017-10">Oct. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Cabezón, D. García-Senz, and J. Figueira, SPHYNX: An accurate density-based SPH method for astrophysical applications, A&amp;A, 606:A78, Oct. 2017.</note>
+</biblStruct>
+
+<biblStruct coords="11,65.99,88.42,228.82,6.97;11,65.99,96.39,228.06,6.97;11,65.99,104.36,228.82,6.97;11,65.99,112.33,27.83,6.97" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="11,153.64,97.02,140.41,6.23;11,65.99,104.99,186.30,6.23" xml:id="_dkz5KAD">The Romulus cosmological simulations: a physical approach to the formation, dynamics and accretion models of SMBHs</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Tremmel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Karcher</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Governato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Volonteri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">R</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Pontzen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Bellovary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_euurKNq" coord="11,257.56,104.36,20.30,6.97">MNRAS</title>
+		<imprint>
+			<biblScope unit="volume">470</biblScope>
+			<date type="published" when="2017-09">Sep. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Tremmel, M. Karcher, F. Governato, M. Volonteri, T. R. Quinn, A. Pontzen, L. Anderson, and J. Bellovary, The Romulus cosmological simulations: a physical approach to the formation, dynamics and accretion models of SMBHs, MNRAS, 470, Sep. 2017.</note>
+</biblStruct>
+
+<biblStruct coords="11,65.99,120.30,229.13,6.97;11,65.99,128.27,228.05,6.97;11,65.99,136.24,204.31,6.97" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="11,93.07,128.90,200.97,6.23;11,65.99,136.87,32.87,6.23" xml:id="_W6XXpMS">On distributed memory MPI-based parallelization of SPH codes in massive HPC context</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Oger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Le Touzé</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Guibert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>De Leffe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Biddiscombe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Soumagne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J-G</forename><surname>Piccinali</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xnEqa7P" coord="11,103.27,136.24,100.64,6.97">Computer Physics Communications</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2016-03">March 2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Oger, D. Le Touzé, D. Guibert, M. de Leffe, J. Biddiscombe, J. Soumagne, J-G. Piccinali, On distributed memory MPI-based parallelization of SPH codes in massive HPC context, Computer Physics Communications, 200:1-14, March 2016.</note>
+</biblStruct>
+
+<biblStruct coords="11,65.99,144.21,228.06,6.97;11,65.99,152.18,163.41,6.97" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" coord="11,107.81,144.84,186.24,6.23;11,65.99,152.81,52.41,6.23" xml:id="_EyZWxba">A meshless Lagrangian method for free-surface and interface flows with fragmentation</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Colagrossi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+		<respStmt>
+			<orgName>Università di Roma</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+	<note type="raw_reference">A. Colagrossi, A meshless Lagrangian method for free-surface and interface flows with fragmentation, PhD thesis, Università di Roma, 2005.</note>
+</biblStruct>
+
+<biblStruct coords="11,65.99,160.15,228.51,6.97;11,65.99,168.12,228.73,6.97;11,65.99,176.09,102.47,6.97" xml:id="b4">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Florina</forename><forename type="middle">M</forename><surname>Ciorba</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lucio</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rubén</forename><forename type="middle">M</forename><surname>Cabezón</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Imbert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sph-Exa</forename></persName>
+		</author>
+		<ptr target="www.pasc-ch.org/projects/2017-2020/sph-exa/" />
+		<title level="m" xml:id="_qqkEGZp" coord="11,65.99,168.75,192.23,6.23">Optimizing Smoothed Particle Hydrodynamics for Exascale Computing</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Florina M. Ciorba, Lucio Mayer, Rubén M. Cabezón, and David Imbert, SPH-EXA: Optimizing Smoothed Particle Hydrodynamics for Exascale Computing, www.pasc- ch.org/projects/2017-2020/sph-exa/.</note>
+</biblStruct>
+
+<biblStruct coords="11,65.99,184.06,228.75,6.97;11,65.99,192.03,229.23,6.97;11,65.99,200.00,131.97,6.97" xml:id="b5">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Liebendörfer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Rampp</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H.-Th</forename><surname>Janka</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Mezzacappa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_NeTz2fQ" coord="11,246.87,184.69,47.88,6.23;11,65.99,192.66,193.38,6.23">Supernova Simulations with Boltzmann Neutrino Transport: A Comparison of Methods</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">620</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Liebendörfer, M. Rampp, H.-Th. Janka, and A. Mezzacappa, Supernova Simu- lations with Boltzmann Neutrino Transport: A Comparison of Methods, The Astro- physical Journal, Volume 620, Number 2, 2005.</note>
+</biblStruct>
+
+<biblStruct coords="11,65.99,207.97,229.13,6.97;11,65.99,215.94,228.82,6.97;11,65.88,223.91,228.16,6.97;11,65.99,231.88,228.82,6.97;11,65.99,239.85,140.97,6.97" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="11,227.50,224.54,66.55,6.23;11,65.99,232.51,81.14,6.23" xml:id="_qMWQD5t">Fundamental differences between SPH and grid methods</title>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Agertz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Stadel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Miniati</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Gawryszczak</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kravtsov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Nordlund</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Pearce</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Quilis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Springel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Tasker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Teyssier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Wadsley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Walder</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2966.2007.12183.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UnUZMf7" coord="11,151.62,231.88,140.52,6.97">Monthly Notices of the Royal Astronomical Society</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="page" from="963" to="978" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Agertz, B. Moore, J. Stadel, D. Potter, F. Miniati, J. Read, L. Mayer, A. Gawryszczak, A. Kravtsov, A. Nordlund, F. Pearce, V. Quilis, D. Rudd, V. Springel, J. Stone, E. Tasker, R. Teyssier, J. Wadsley, and R. Walder, Fundamental differences between SPH and grid methods. Monthly Notices of the Royal Astronomical Society, 380: 963-978. doi:10.1111/j.1365-2966.2007.12183.x</note>
+</biblStruct>
+
+<biblStruct coords="11,65.99,247.82,228.05,6.97;11,65.99,256.42,228.75,6.23;11,65.99,263.76,229.12,6.97;11,65.73,271.73,173.64,6.97" xml:id="b7">
+	<monogr>
+		<title level="m" type="main" coord="11,195.06,248.45,98.98,6.23;11,65.99,256.42,228.75,6.23;11,65.99,264.39,16.62,6.23" xml:id="_zmnZpxz">MiniGhost: A mini-app for exploring boundary exchange strategies using stencil computations in scientific parallel computing</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">F</forename><surname>Barret</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">T</forename><surname>Vaughan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Heroux</surname></persName>
+		</author>
+		<idno>No. SAND2012-2437</idno>
+		<ptr target="www.sandia.gov/~rfbarre/PAPERS/MG-SAND2012-2437.pdf" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>Sandia National Laboratories</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note type="raw_reference">R. F. Barret, C. T. Vaughan, and M. A. Heroux. MiniGhost: A mini-app for exploring boundary exchange strategies using stencil computations in scientific parallel com- puting. Technical report No. SAND2012-2437, Sandia National Laboratories, 2012. www.sandia.gov/~rfbarre/PAPERS/MG-SAND2012-2437.pdf.</note>
+</biblStruct>
+
+<biblStruct coords="11,65.99,279.70,229.13,6.97;11,65.66,287.67,228.39,6.97;11,65.99,295.64,228.05,6.97;11,65.99,303.61,184.90,6.97" xml:id="b8">
+	<monogr>
+		<title level="m" type="main" coord="11,265.68,288.30,28.37,6.23;11,65.99,296.27,94.39,6.23" xml:id="_RtdTBZY">Improving performance via mini-applications</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Heroux</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">W</forename><surname>Doerfler</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">S</forename><surname>Crozier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Willenbring</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">C</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Rajan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">R</forename><surname>Keiter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">K</forename><surname>Thornquist</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">W</forename><surname>Numrich</surname></persName>
+		</author>
+		<idno>No. SAND2009-5574</idno>
+		<ptr target="mantevo.org/MantevoOverview.pdf" />
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+		<respStmt>
+			<orgName>Sandia National Laboratories</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note type="raw_reference">M. A. Heroux, D. W. Doerfler, P. S. Crozier, J. M. Willenbring, H. C. Edwards, A. Williams, M. Rajan, E. R. Keiter, H. K. Thornquist, and R. W. Numrich. Improving performance via mini-applications. Technical report No. SAND2009-5574, Sandia National Laboratories, 2009. mantevo.org/MantevoOverview.pdf.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,311.58,225.88,6.97;11,65.99,319.55,228.05,6.97;11,65.99,327.52,228.88,6.97;11,65.83,335.49,134.34,6.97" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="11,136.94,320.18,157.10,6.23;11,65.99,328.15,57.82,6.23" xml:id="_wdyuD6C">A test suite for quantitative comparison of hydrodynamic codes in astrophysics</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">J</forename><surname>Tasker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Brunino</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Michielsen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Hopton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">R</forename><surname>Pearce</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">L</forename><surname>Bryan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Theuns</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2966.2008.13836.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Dwz99Gy" coord="11,128.68,327.52,149.69,6.97">Monthly Notices of the Royal Astronomical Society</title>
+		<imprint>
+			<biblScope unit="volume">390</biblScope>
+			<biblScope unit="page" from="1267" to="1281" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. J. Tasker, R. Brunino, N. L. Mitchell, D. Michielsen, S. Hopton, F. R. Pearce, G. L. Bryan, and T. Theuns, A test suite for quantitative comparison of hydrodynamic codes in astrophysics. Monthly Notices of the Royal Astronomical Society, 390: 1267-1281. doi:10.1111/j.1365-2966.2008.13836.x</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,343.46,225.57,6.97;11,65.99,351.43,228.05,6.97;11,65.99,359.40,221.26,6.97" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="11,159.01,352.06,135.03,6.23;11,65.99,360.03,116.81,6.23" xml:id="_tYQrBpb">Core-collapse supernovae in the hall of mirrors. A three-dimensional code-comparison project</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">M</forename><surname>Cabezón</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K-C</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Liebendörfer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ebinger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Heinimann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F-K</forename><surname>Thielemann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Perego</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sdem6rJ" coord="11,187.05,359.40,52.01,6.97">Astron.Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">619</biblScope>
+			<biblScope unit="page">118</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Cabezón, K-C. Pan, M. Liebendörfer, T. Kuroda, K. Ebinger, O. Heinimann, F-K. Thielemann, and A. Perego, Core-collapse supernovae in the hall of mirrors. A three-dimensional code-comparison project. Astron.Astrophys. 619 (2018) A118.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,367.37,224.81,6.97;11,65.99,375.34,143.99,6.97" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="11,176.91,368.00,86.57,6.23" xml:id="_VuD2Kf9">The CGPOP Miniapp, version 1.0</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Dennis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">Mills</forename><surname>Strout</surname></persName>
+		</author>
+		<idno>CS-11-103</idno>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+		<respStmt>
+			<orgName>Colorado State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">A. Stone, J. M. Dennis, M. Mills Strout. The CGPOP Miniapp, version 1.0. Technical Report CS-11-103, Colorado State University, 2011.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,383.31,225.58,6.97;11,65.99,391.28,110.30,6.97" xml:id="b12">
+	<monogr>
+		<title level="m" type="main" coord="11,100.97,383.94,89.70,6.23" xml:id="_QfFcrju">MCMini: Monte Carlo on GPGPU</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Marcus</surname></persName>
+		</author>
+		<idno>LA-UR-12-23206</idno>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>Los Alamos National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">R. Marcus. MCMini: Monte Carlo on GPGPU. Technical Report LA-UR-12-23206, Los Alamos National Laboratory, 2012.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,399.25,224.81,6.97;11,65.99,407.22,75.27,6.97" xml:id="b13">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">C</forename><surname>Team</surname></persName>
+		</author>
+		<title level="m" xml:id="_fbs8hZ3" coord="11,102.86,399.88,111.92,6.23">The CESAR codesign center: Early results</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+		<respStmt>
+			<orgName>Argonne National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note type="raw_reference">T. C. Team. The CESAR codesign center: Early results. Technical report, Argonne National Laboratory, 2012.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,415.19,224.81,6.97;11,65.99,423.16,146.50,6.97" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coord="11,172.78,415.82,121.26,6.23;11,65.99,423.79,92.14,6.23" xml:id="_wqkCzTF">ESCAPE: Energy-efficient scalable algorithms for weather prediction at Exascale</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Wedi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Deconinck</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>EU Horizon</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Bauer, N. Wedi, and W. Deconinck. ESCAPE: Energy-efficient scalable algorithms for weather prediction at Exascale. EU Horizon 2020.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,431.13,225.89,6.97;11,65.99,439.10,228.06,6.97;11,65.99,447.07,229.13,6.97;11,65.99,455.04,79.77,6.97" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="11,271.19,439.73,22.86,6.23;11,65.99,447.70,177.33,6.23" xml:id="_jZd5qX8">Atlas: A library for numerical weather prediction and climate modelling</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Deconinck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Diamantakis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Hamrud</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Kühnlein</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Maciel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Mengaldo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Quintino</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Raoult</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">K</forename><surname>Smolarkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">P</forename><surname>Wedi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Q2fdk8n" coord="11,248.14,447.07,46.98,6.97;11,65.99,455.04,18.42,6.97">Computer Phys. Comm</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page" from="188" to="204" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Deconinck, P. Bauer, M. Diamantakis, M. Hamrud, C. Kühnlein, P. Maciel, G. Mengaldo, T. Quintino, B. Raoult, P. K. Smolarkiewicz, and N. P. Wedi. Atlas: A library for numerical weather prediction and climate modelling. Computer Phys. Comm., 220:188 -204, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,463.01,225.88,6.97" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="11,116.26,463.64,60.69,6.23" xml:id="_wNwcTUv">Programming revisited</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">C</forename><surname>Schulthess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WntSaxN" coord="11,180.99,463.01,40.62,6.97">Nature Physics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="369" to="373" />
+			<date type="published" when="2015-05">may 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. C. Schulthess. Programming revisited. Nature Physics, 11(5):369-373, may 2015.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,470.98,225.88,6.97;11,65.99,478.95,228.06,6.97;11,65.99,486.92,213.10,6.97" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="11,65.99,479.58,217.57,6.23" xml:id="_aX6p7yN">Developing MiniApps on modern platforms using multiple programming models</title>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Messer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>D'azevedo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Joubert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Laosooksathit</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Tharrington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_P3qf2cA" coord="11,65.99,486.92,165.27,6.97">2015 IEEE International Conference on Cluster Computing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015-09">sep 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O. Messer, E. D&apos;Azevedo, J. Hill, W. Joubert, S. Laosooksathit, and A. Tharrington. Developing MiniApps on modern platforms using multiple programming models. In 2015 IEEE International Conference on Cluster Computing. IEEE, sep 2015.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,494.89,225.99,6.97;11,65.99,502.86,228.82,6.97;11,65.99,510.83,122.39,6.97" xml:id="b18">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Rosswog</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.newar.2009.08.007</idno>
+		<ptr target="https://doi.org/10.1016/j.newar.2009.08.007" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Rw8BWpY" coord="11,110.99,495.52,135.82,6.23">Astrophysical smooth particle hydrodynamics</title>
+		<imprint>
+			<date type="published" when="2009">Issues 4-6, 2009</date>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="78" to="104" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Rosswog, Astrophysical smooth particle hydrodynamics, New Astron- omy Reviews, Volume 53, Issues 4-6, 2009, Pages 78-104, ISSN 1387-6473, https://doi.org/10.1016/j.newar.2009.08.007.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,518.80,225.58,6.97;11,65.88,526.77,201.42,6.97" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="11,169.55,519.43,122.08,6.23" xml:id="_pmqxm8d">Shock Simulation by the Particle Method SPH</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">J</forename><surname>Monaghan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">A</forename><surname>Gringold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_m4cvPrC" coord="11,65.88,526.77,94.60,6.97">Journal of Computational Physics</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="374" to="389" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. J. Monaghan, and R. A. Gringold, Shock Simulation by the Particle Method SPH, Journal of Computational Physics, Volume 52, Issue 2, p. 374-389, 1983.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,542.71,224.81,6.97;11,65.99,550.68,156.03,6.97" xml:id="b20">
+	<monogr>
+		<title level="m" type="main" coord="11,102.29,543.34,191.76,6.23;11,65.99,550.68,75.08,6.97" xml:id="_ZU6qwBA">Intel Threading Building Block: Outfitting C++ for Multi-core Processor Parallelism. O&apos;Reilly Media</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Reinders</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Reinders. Intel Threading Building Block: Outfitting C++ for Multi-core Processor Parallelism. O&apos;Reilly Media, 2007. ISBN:9780596514808.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,558.65,224.81,6.97;11,65.99,566.63,187.13,6.97" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="11,112.40,559.28,136.79,6.23" xml:id="_dFrFQma">Composable Parallel Patterns with Intel Cilk Plus</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">D</forename><surname>Robison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Cd4mFhU" coord="11,253.63,558.65,40.42,6.97;11,65.99,566.63,63.02,6.97">Computing in Science &amp; Engineering</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="66" to="71" />
+			<date type="published" when="2013-04">March-April 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. D. Robison, Composable Parallel Patterns with Intel Cilk Plus. Computing in Science &amp; Engineering, vol. 15, no. 2, pp. 66-71, March-April 2013.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,574.60,224.81,6.97;11,65.99,582.57,228.82,6.97;11,65.75,590.54,66.59,6.97" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="11,138.53,575.22,139.69,6.23" xml:id="_AcySVV4">Parallel Programmability and the Chapel Language</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">L</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KbMeuSD" coord="11,283.11,574.60,10.93,6.97;11,65.99,582.57,187.89,6.97">The International Journal of High Performance Computing Applications</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="291" to="312" />
+			<date type="published" when="2007-08">Aug. 2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. L. Chamberlain et al., Parallel Programmability and the Chapel Language. The International Journal of High Performance Computing Applications, vol. 21, no. 3, Aug. 2007, pp. 291-312.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,598.51,224.81,6.97;11,65.99,606.48,182.38,6.97" xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">Carter</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">R</forename><surname>Trott</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Sunderland</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kokkos</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DMB4DNT" coord="11,231.84,598.51,62.20,6.97;11,65.99,606.48,64.34,6.97">Journal of Parallel and Distributed Computing</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3202" to="3216" />
+			<date type="published" when="2014-12">Dec. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Carter Edwards, C. R. Trott and D. Sunderland, Kokkos. Journal of Parallel and Distributed Computing, vol. 74, no. 12, Dec. 2014, pp. 3202-3216.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,614.45,224.81,6.97;11,65.99,622.42,228.06,6.97;11,65.99,630.39,228.05,6.97;11,65.99,638.36,148.93,6.97" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="11,256.95,615.07,37.10,6.23;11,65.99,623.04,149.84,6.23" xml:id="_CEm74uc">HPX: A Task Based Programming Model in a Global Address Space</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Heller</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Adelstein-Lelbach</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Serio</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Fey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_VD3CSsY" coord="11,228.55,622.42,65.50,6.97;11,65.99,630.39,228.05,6.97;11,65.99,638.36,52.54,6.97">Proceedings of the 8th International Conference on Partitioned Global Address Space Programming Models (PGAS &apos;14)</title>
+		<meeting>the 8th International Conference on Partitioned Global Address Space Programming Models (PGAS &apos;14)<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Kaiser, T. Heller, B. Adelstein-Lelbach, A. Serio and D. Fey. HPX: A Task Based Programming Model in a Global Address Space. In Proceedings of the 8th International Conference on Partitioned Global Address Space Programming Models (PGAS &apos;14). ACM, New York, NY, USA, 2014.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,646.33,224.81,6.97;11,65.99,654.30,229.23,6.97;11,65.99,662.27,30.75,6.97" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="11,185.89,646.95,108.15,6.23;11,65.99,654.92,146.74,6.23" xml:id="_mM3ahf9">A one-parameter family of interpolating kernels for Smoothed Particle Hydrodynamics studies</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">M</forename><surname>Cabezón</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Garcia-Senz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Relaño</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cbm4DSx" coord="11,217.06,654.30,46.53,6.97">J. Comput. Phys</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="page" from="8523" to="8540" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. M. Cabezón, D. Garcia-Senz, A. Relaño, A one-parameter family of interpolating kernels for Smoothed Particle Hydrodynamics studies, J. Comput. Phys., 227:8523- 8540, 2008.</note>
+</biblStruct>
+
+<biblStruct coords="11,69.23,670.24,224.81,6.97;11,65.99,678.21,228.82,6.97;11,65.99,686.18,41.96,6.97" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="11,213.40,670.86,80.65,6.23;11,65.99,678.83,183.39,6.23" xml:id="_FGteXKr">Improving smoothed particle hydrodynamics with an integral approach to calculating gradients</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>García-Senz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">M</forename><surname>Cabezón</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">A</forename><surname>Escartín</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_f6mNhnJ" coord="11,253.87,678.21,12.24,6.97">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">538</biblScope>
+			<date type="published" when="2012-02">February 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. García-Senz, R. M. Cabezón and J. A. Escartín, Improving smoothed particle hydrodynamics with an integral approach to calculating gradients, A&amp;A, 538, A9, February 2012.</note>
+</biblStruct>
+
+<biblStruct coords="11,333.39,88.42,224.81,6.97;11,330.15,96.39,229.24,6.97;11,330.15,104.36,228.82,6.97;11,330.15,112.33,71.49,6.97" xml:id="b27">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Aurélien</forename><surname>Cavelan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rubén</forename><forename type="middle">M</forename><surname>Cabezón</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Florina</forename><forename type="middle">M</forename><surname>Ciorba</surname></persName>
+		</author>
+		<title level="m" xml:id="_aqaUUW2" coord="11,507.79,89.05,50.41,6.23;11,330.15,96.39,229.24,6.97;11,330.15,104.36,158.34,6.97">Detection of Silent Data Corruptions in Smoothed Particle Hydrodynamics, 19th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing</title>
+		<meeting><address><addrLine>Larnaca, Cyprus</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-05-14">2019. May 14-17, 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aurélien Cavelan, Rubén M. Cabezón and Florina M. Ciorba, Detection of Silent Data Corruptions in Smoothed Particle Hydrodynamics, 19th IEEE/ACM Interna- tional Symposium on Cluster, Cloud and Grid Computing, CCGRID 2019, Larnaca, Cyprus, May 14-17, 2019.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,393 @@
+{
+    "metadata": {
+        "title": "Visual Exploration of Color Usage in Vincent van Gogh's Paintings",
+        "doi": "10.1145/3615522.3615561",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "This paper aims to explore the use of color and color harmony in Vincent van Gogh's paintings and present the results in the form of a web-based digital museum to provide an intuitive and immersive experience to the public audience. To achieve this goal, we tested four different color extraction algorithms and determined the extcolors library to be the most effective method for extracting theme colors after interviewing ten random viewers. This study then conducted a visual analysis of the extracted colors, revealing that the predominant colors of van Gogh's paintings were yellow and green, followed by blue and red. We also identified the main types of color harmony used in van Gogh's paintings as monochromatic, analogous, and complementary harmony. The ultimate outcome of this research is a digital gallery that showcases the different periods of van Gogh's work via a timeline representation, highlighting the distinctive color schemes that were employed during each period. This presentation gives the exhibits a clear context and provides the viewer with a clear and vivid experience. Overall, the study's findings reveal insightful information about how color is employed in van Gogh's artwork and suggest a useful application which is in the form of a timeline representation that can be used to improve the audience's exposure to the art and cultural heritage.",
+        "keywords": [
+            "usage",
+            "vincent",
+            "data",
+            "timeline",
+            "exploration",
+            "color",
+            "harmony",
+            "van",
+            "painting",
+            "gogh",
+            "visual",
+            "visualization",
+            "theory"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Xinyi Ding",
+            "affiliation": null,
+            "email": "xinyiding81615@163.com"
+        },
+        {
+            "name": "Yejuan Xie",
+            "affiliation": null,
+            "email": "xieyejuan1029@163.com"
+        },
+        {
+            "name": "Jielin Jing",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Fei Du",
+            "affiliation": null,
+            "email": "fei.du21@student.xjtlu.edu.cn"
+        },
+        {
+            "name": "Chengtao Ji",
+            "affiliation": null,
+            "email": "chengtao.ji@xjtlu.edu.cn"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Chamaret",
+                    "given": "Christel"
+                }
+            ],
+            "title": "Color harmony: experimental and computational model-ing",
+            "type": "article-journal",
+            "container_title": [
+                "Ph. D. Dissertation. Universit\u00e9 Rennes"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ciocca",
+                    "given": "Gianluigi"
+                },
+                {
+                    "family": "Napoletano",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Schettini",
+                    "given": "Raimondo"
+                }
+            ],
+            "title": "Evaluation of automatic image color theme extraction methods",
+            "type": "chapter",
+            "container_title": [
+                "Computational Color Imaging: 7th International Workshop, CCIW 2019"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cohen-Or",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Sorkine",
+                    "given": "Olga"
+                },
+                {
+                    "family": "Gal",
+                    "given": "Ran"
+                },
+                {
+                    "family": "Leyvand",
+                    "given": "Tommer"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Ying-Qing"
+                }
+            ],
+            "title": "Color harmonization",
+            "type": "chapter",
+            "container_title": [
+                "ACM SIGGRAPH 2006 Papers"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Color-hex"
+                }
+            ],
+            "title": "Color Names",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Cybrain"
+                }
+            ],
+            "title": "Extract Color Themes from Images",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Delon",
+                    "given": "Julie"
+                },
+                {
+                    "family": "Desolneux",
+                    "given": "Agnes"
+                },
+                {
+                    "family": "Lisani",
+                    "given": "Jose Luis"
+                },
+                {
+                    "family": "Petro",
+                    "given": "Ana Belen"
+                }
+            ],
+            "title": "Au-tomatic color palette",
+            "type": "paper-conference",
+            "container_title": [
+                "IEEE international conference on image processing 2005"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hochman",
+                    "given": "Nadav"
+                },
+                {
+                    "family": "Manovich",
+                    "given": "Lev"
+                }
+            ],
+            "title": "Zooming into an Instagram City: Reading the local through social media",
+            "type": "article-journal",
+            "container_title": [
+                "First Monday"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lin",
+                    "given": "Sharon"
+                },
+                {
+                    "family": "Hanrahan",
+                    "given": "Pat"
+                }
+            ],
+            "title": "Modeling how people extract color themes from images",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the SIGCHI Conference on Human Factors in Com-puting Systems"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Shiguang"
+                },
+                {
+                    "family": "Luo",
+                    "given": "Huarong"
+                }
+            ],
+            "title": "Hierarchical emotional color theme extraction",
+            "type": "article-journal",
+            "container_title": [
+                "Color Research & Application"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Morris",
+                    "given": "Jason A."
+                }
+            ],
+            "title": "The Purpose and Power of Color in Industrial Design: Encouraging the Meaningful Use of Color in Design Education",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Morse",
+                    "given": "Bryan S."
+                },
+                {
+                    "family": "Thornton",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Xia",
+                    "given": "Qing"
+                },
+                {
+                    "family": "Uibel",
+                    "given": "John"
+                }
+            ],
+            "title": "Image-based color schemes",
+            "type": "paper-conference",
+            "container_title": [
+                "2007 IEEE International Conference on Image Processing"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Parvaneh",
+                    "given": "Giv"
+                }
+            ],
+            "title": "RoyGBiv",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tifentale",
+                    "given": "Alise"
+                },
+                {
+                    "family": "Manovich",
+                    "given": "Lev"
+                }
+            ],
+            "title": "Selfiecity: Exploring photography and self-fashioning in social media",
+            "type": "chapter",
+            "container_title": [
+                "Postdigital aesthetics: Art, computation and design"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vane",
+                    "given": "Olivia"
+                }
+            ],
+            "title": "Timeline design for visualising cultural heritage data",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vill\u00e1n",
+                    "given": "Alberto Fern\u00e1ndez"
+                }
+            ],
+            "title": "Mastering OpenCV 4 with Python: a practical guide covering topics from image processing, augmented reality to deep learning with OpenCV 4 and Python 3.7",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Weeks",
+                    "given": "Arthur Robert"
+                },
+                {
+                    "family": "Hague",
+                    "given": "G.Eric"
+                }
+            ],
+            "title": "Color segmentation in the hsi color space using the k-means algorithm",
+            "type": "chapter",
+            "container_title": [
+                "Nonlinear image processing"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Westland",
+                    "given": "Stephen"
+                },
+                {
+                    "family": "Laycock",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Cheung",
+                    "given": "Vien"
+                },
+                {
+                    "family": "Henry",
+                    "given": "Phil"
+                },
+                {
+                    "family": "Mahyar",
+                    "given": "Forough"
+                }
+            ],
+            "title": "Colour harmony",
+            "type": "article-journal",
+            "container_title": [
+                "Colour: Design & Creativity"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "given": "WikiArt"
+                }
+            ],
+            "title": "Vincent van Gogh: List of works",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        }
+    ]
+}

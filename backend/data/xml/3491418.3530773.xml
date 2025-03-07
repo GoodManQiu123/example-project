@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_TTybkFB" coord="1,66.22,84.23,480.02,15.44;1,258.93,104.15,94.13,15.44;1,53.53,580.30,242.03,8.97;1,53.80,591.26,240.25,8.97;1,53.80,602.22,240.25,8.97">High Performance MPI over the Slingshot Interconnect: Early Experiences</title>
+				<funder ref="#_qXB8Q4Y #_zR9yesm #_zxEDhJP #_KpZ6ncK">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_gZQB2Gs">
+					<orgName type="full">Office of Science of the U.S. Department of Energy</orgName>
+				</funder>
+				<funder ref="#_BXUEXTM">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2022-07-08">2022-07-08</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kawthar</forename><surname>Shafie Khorassani</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chen</forename><forename type="middle">Chun</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,430.45,130.34,80.40,11.96"><forename type="first">Bharath</forename><surname>Ramesh</surname></persName>
+							<email>ramesh.113@osu.edu</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">The Ohio State University Columbus, USA</note>
+								<orgName type="institution">The Ohio State University Columbus</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,112.57,187.93,58.14,11.96"><forename type="first">Aamir</forename><surname>Shafi</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">The Ohio State University Columbus, USA</note>
+								<orgName type="institution">The Ohio State University Columbus</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,267.00,187.93,78.01,11.96"><forename type="first">Hari</forename><surname>Subramoni</surname></persName>
+							<email>subramon@cse.ohio-state.edu</email>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">The Ohio State University Columbus, USA</note>
+								<orgName type="institution">The Ohio State University Columbus</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,415.26,187.93,109.78,11.96"><forename type="first">Dhabaleswar</forename><forename type="middle">K</forename><surname>Panda</surname></persName>
+							<email>panda@cse.ohio-state.edu</email>
+							<affiliation key="aff5">
+								<note type="raw_affiliation">The Ohio State University Columbus, USA</note>
+								<orgName type="institution">The Ohio State University Columbus</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_8NBKaUF" coord="1,66.22,84.23,480.02,15.44;1,258.93,104.15,94.13,15.44;1,53.53,580.30,242.03,8.97;1,53.80,591.26,240.25,8.97;1,53.80,602.22,240.25,8.97">High Performance MPI over the Slingshot Interconnect: Early Experiences</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_eQ28XPF">Practice and Experience in Advanced Research Computing</title>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2022-07-08" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">5408FBCF366CDCF395DA1719FB5E328D</idno>
+					<idno type="DOI">10.1145/3491418.3530773</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T01:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_Uxqmg76">Slingshot</term>
+					<term xml:id="_Bem925W">AMD GPUs</term>
+					<term xml:id="_cWUG9pW">Interconnect Technology</term>
+					<term xml:id="_CkW4rk8">MPI</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_FYM8was"><p xml:id="_2NUW83V"><s xml:id="_SmR6Jkq" coords="1,53.53,259.72,240.51,8.97;1,53.80,270.68,241.76,8.97;1,53.80,281.64,155.92,8.97">The Slingshot interconnect designed by HPE/Cray is becoming more relevant in High-Performance Computing with its deployment on the upcoming exascale systems.</s><s xml:id="_esW9fWh" coords="1,212.80,281.64,81.25,8.97;1,53.80,292.60,240.25,8.97;1,53.80,303.56,133.54,8.97">In particular, it is the interconnect empowering the first exascale and highest-ranked supercomputer in the world, Frontier.</s><s xml:id="_ff5f9we" coords="1,189.21,303.56,104.84,8.97;1,53.80,314.51,241.63,8.97">It offers various features such as adaptive routing, congestion control, and isolated workloads.</s><s xml:id="_qbdMqW2" coords="1,53.53,325.47,242.03,8.97;1,53.80,336.43,240.25,8.97;1,53.80,347.39,240.25,8.97;1,53.80,358.35,52.87,8.97">The deployment of newer interconnects raises questions about performance, scalability, and any potential bottlenecks as they are a critical element contributing to the scalability across nodes on these systems.</s><s xml:id="_3kSsGdU" coords="1,108.91,358.35,185.13,8.97;1,53.80,369.31,241.76,8.97;1,53.80,380.27,26.96,8.97">In this paper, we will delve into the challenges the slingshot interconnect poses with current state-of-the-art MPI libraries.</s><s xml:id="_5kEm7Fg" coords="1,83.02,380.27,211.03,8.97;1,53.80,391.23,109.60,8.97">In particular, we look at the scalability performance when using slingshot across nodes.</s><s xml:id="_RbsmcGm" coords="1,166.10,391.23,129.46,8.97;1,53.80,402.19,240.24,8.97;1,53.80,413.14,240.25,8.97;1,53.80,424.10,240.25,8.97;1,53.80,435.06,238.68,8.97">We present a comprehensive evaluation using various MPI and communication libraries including Cray MPICH, OpenMPI + UCX, RCCL, and MVAPICH2-GDR on GPUs on the Spock system, an early access cluster deployed with Slingshot and AMD MI100 GPUs, to emulate the Frontier system.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_Xa6MxpZ"><p xml:id="_NzU5wdy"><s xml:id="_2Q5Mbs7" coords="1,317.96,246.02,241.76,8.97;1,317.96,256.98,65.88,8.97">first exascale supercomputer, is empowered by the HPE Cray Slingshot Interconnect.</s><s xml:id="_36XUXUE" coords="1,386.06,256.98,172.14,8.97;1,317.96,267.94,241.76,8.97;1,317.96,278.90,240.25,8.97;1,317.62,289.86,131.98,8.97">In preparation for the vast demands of exascale computing and moving to a slingshot-based networking environment, it is important to have an understanding of the interconnect with respect to MPI communication.</s><s xml:id="_MJpBRab" coords="1,451.83,289.86,107.88,8.97;1,317.96,300.82,240.25,8.97;1,317.96,311.77,118.85,8.97">MPI libraries have been heavily deployed and used on systems with an underlying InfiniBand interconnect connecting nodes.</s><s xml:id="_baF2Z9x" coords="1,440.00,311.77,118.20,8.97;1,317.96,322.73,149.63,8.97">They have been optimized and extensively researched in this ecosystem.</s><s xml:id="_E5Nv8DU" coords="1,469.82,322.73,89.90,8.97;1,317.96,333.69,240.25,8.97;1,317.96,344.65,240.25,8.97;1,317.96,355.61,240.25,8.97;1,317.96,366.57,241.60,8.97">Now, with upcoming exascale systems choosing to deploy the Slingshot interconnect as the underlying connection between nodes, it is crucial to have an understanding of the interconnect technology and how it impacts or improves the performance of communication at scale <ref type="bibr" coords="1,524.01,366.57,13.32,8.97" target="#b8">[11]</ref>, <ref type="bibr" coords="1,542.90,366.57,13.33,8.97" target="#b13">[16]</ref>.</s></p><p xml:id="_xmSdMPA"><s xml:id="_P4KweYD" coords="1,327.92,377.53,230.28,8.97;1,317.73,388.49,240.47,8.97;1,317.96,399.45,158.62,8.97">In this paper, we provide an analysis of the performance of various MPI libraries on a system with preliminary/experimental deployment of the Slingshot Interconnect.</s><s xml:id="_u2nvJHv" coords="1,479.27,399.45,78.94,8.97;1,317.96,410.41,240.24,8.97;1,317.96,421.36,240.25,8.97;1,317.96,432.32,240.25,8.97;1,317.96,443.28,240.25,8.97;1,317.96,454.24,53.22,8.97">As this is a new area that has seldom been researched and is going to become a critical component of future HPC deployment, it is important to have this kind of detailed information and analysis that could provide a better outlook on the needs for optimizations and enhancements on these systems.</s><s xml:id="_ZnkRD5X" coords="1,373.42,454.24,184.79,8.97;1,317.96,465.20,240.24,8.97;1,317.96,476.16,240.25,8.97;1,317.96,487.12,117.92,8.97">This drives future research and innovations while also providing scalable and competitive options in this ecosystem that compare or improve upon existing innovations in the current interconnect technology realms.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1" xml:id="_TkbPgKB">Motivation</head><p xml:id="_e9QEsNR"><s xml:id="_2A52HAe" coords="1,317.96,525.28,241.77,8.97;1,317.96,536.24,240.25,8.97;1,317.96,547.20,138.88,8.97">Many of the top supercomputers <ref type="bibr" coords="1,444.19,525.28,10.68,8.97" target="#b3">[5]</ref> utilize InfiniBand networking, with the deployment of the Mellanox InfiniBand Interconnect to connect nodes across the network.</s><s xml:id="_4huW55B" coords="1,459.15,547.20,99.29,8.97;1,317.96,558.16,240.24,8.97;1,317.96,569.12,240.25,8.97;1,317.96,580.08,121.17,8.97">This area has been heavily evaluated and analyzed over the years with various MPI libraries utilizing GPU-aware and CPU-based communication to scale out performance onto multiple nodes.</s><s xml:id="_MZZUeKE" coords="1,441.20,580.08,118.51,8.97;1,317.96,591.03,240.25,8.97;1,317.96,601.99,241.76,8.97;1,317.96,612.95,136.04,8.97">This understanding of the limitations and advantages of the interconnect technology drove future directions in research over the years related to communication optimization and performance analysis.</s><s xml:id="_3Ns2Tjv" coords="1,456.23,612.95,101.97,8.97;1,317.96,623.91,241.76,8.97;1,317.96,634.87,240.25,8.97;1,317.96,645.83,241.63,8.97">With the deployment of the Slingshot interconnect, it is just as important to develop an understanding of the advantages and features the interconnect introduces in order to motivate future approaches in the communication realm.</s></p><p xml:id="_JpHWfnC"><s xml:id="_eCukRRr" coords="1,327.92,656.79,230.29,8.97;1,317.96,667.75,241.24,8.97;1,317.96,678.71,163.59,8.97">The underlying interconnect technology is a critical component in achieving high performance, low latency and high throughput, at scale on next-generation exascale systems.</s><s xml:id="_DaEUrGJ" coords="1,483.80,678.71,75.91,8.97;1,317.73,689.66,240.47,8.97;1,317.96,700.62,240.25,8.97;2,53.80,86.92,241.76,8.97;2,53.80,97.88,64.30,8.97">This drives the motivation to have a detailed analysis and understanding of the existing MPI libraries and the performance they are able to demonstrate at certain scales, various configurations, and for different communication operations.</s><s xml:id="_8eVV7uu" coords="2,120.31,97.88,173.74,8.97;2,53.80,108.84,240.24,8.97;2,53.80,119.80,240.25,8.97;2,53.80,130.76,240.25,8.97;2,53.80,141.72,156.36,8.97">Through this work, we demonstrate a need for a thorough evaluation of communication over the newer Slingshot Interconnect and its ecosystem in preparation for exascale systems in order to achieve the scalability and efficiency that is promised by the next generation of supercomputing.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2" xml:id="_RJpkj9u">Key Insights and Contributions</head><p xml:id="_PrA6MmT"><s xml:id="_zPjxd3P" coords="2,53.53,191.49,240.51,8.97;2,53.80,202.45,240.25,8.97;2,53.80,213.41,174.54,8.97">The performance of GPU-aware approaches to communication provided by the state-of-the-art communication libraries on the Slingshot interconnect have yet to be explored.</s><s xml:id="_vVweCBC" coords="2,230.57,213.41,63.47,8.97;2,53.80,224.37,240.25,8.97;2,53.80,235.33,240.41,8.97;2,53.80,246.29,241.76,8.97;2,53.80,257.25,21.49,8.97">There is a lack of thorough evaluation and analysis of performance comparing the different communication operations and detailing the demands for MPI at the application layer on a system with Slingshot Interconnects.</s><s xml:id="_A8eFrrZ" coords="2,77.76,257.25,216.29,8.97;2,53.80,268.21,240.25,8.97;2,53.80,279.17,241.62,8.97">Additionally, the system used in this study includes AMD MI100 GPUs, which are also a snapshot of the type of system and ecosystem we can expect for the next-generation exascale systems.</s><s xml:id="_DNAKCsh" coords="2,53.53,290.12,210.64,8.97">Through this work, we make the following contributions:</s></p><p xml:id="_4tRNfPT"><s xml:id="_34a9JPq" coords="2,69.77,317.35,224.28,8.97;2,78.21,328.31,215.84,8.97;2,76.98,339.27,217.06,8.97;2,78.21,350.22,215.84,8.97;2,78.21,361.18,215.84,8.97;2,78.21,372.14,99.25,8.97">• Comprehensive evaluation of GPU-aware communication using various communication libraries, including OpenMPI + UCX, MVAPICH2-GDR, Cray MPICH, and RCCL on the Spock system with the Slingshot-10 interconnect, AMD MI100 GPUs, and AMD EPYC Rome CPUs for point-to-point and collective benchmarks.</s><s xml:id="_2mCMHxm" coords="2,69.77,383.10,225.80,8.97;2,78.21,394.06,215.83,8.97;2,78.21,405.02,148.73,8.97">• Application-level evaluation using state-of-the-art communication libraries for rocHPCG and for the heFFTe application using the rocfft backend for AMD GPUs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_rnmEhNp">BACKGROUND 2.1 State-of-the-art Interconnect Technologies</head><p xml:id="_GgzfDNy"><s xml:id="_hDyKdht" coords="2,53.48,536.24,242.08,8.97;2,53.80,547.20,240.25,8.97;2,53.80,558.16,85.29,8.97">Achieving high performance for complex HPC workloads that benefit from high levels of parallelism requires efficient and scalable network interconnects.</s><s xml:id="_SFTWRxf" coords="2,141.34,558.16,153.69,8.97;2,53.80,569.12,240.24,8.97;2,53.80,580.08,240.25,8.97;2,53.80,591.03,102.43,8.97">Modern interconnects such as InfiniBand, RoCE, Omni-Path, etc., were introduced into the market to address communication bottlenecks by achieving low latency and high throughput between nodes.</s><s xml:id="_SCcUbfr" coords="2,158.47,591.03,137.09,8.97;2,53.80,601.99,240.25,8.97;2,53.80,612.95,84.95,8.97">In recent years, InfiniBand and highspeed Ethernet represent the gold standard for high-performance network interconnects.</s><s xml:id="_tVzK4v9" coords="2,141.00,612.95,153.05,8.97;2,53.80,623.91,240.25,8.97;2,53.80,634.87,156.46,8.97">For instance, Summit@ORNL (ranked 4th on the June 2022 Top500 list <ref type="bibr" coords="2,165.49,623.91,9.25,8.97" target="#b3">[5]</ref>), uses Dual-rail Mellanox EDR InfiniBand as the underlying interconnect.</s><s xml:id="_cq3U4bW" coords="2,212.50,634.87,81.54,8.97;2,53.80,645.83,241.76,8.97;2,53.80,656.79,240.48,8.97;2,53.80,667.75,241.76,8.97;2,53.80,678.71,59.11,8.97">Approximately 35% of supercomputers in the Top500 utilize InfiniBand networking (including Sierra@LLNL, Selene@NVIDIA, etc.), and about 48% deploy Gigabit Ethernet networking (including Perlmutter@NERSC, Polaris@ANL, etc).</s><s xml:id="_9MFu2UD" coords="2,115.17,678.71,178.88,8.97;2,53.80,689.66,240.42,8.97;2,53.80,700.62,173.80,8.97">The adoption rates for interconnects in upcoming exascale systems are rapidly changing due to an increased number of choices and evolving interconnect standards.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_HH3jAdC">Slingshot Interconnect</head><p xml:id="_Es2nT2Q"><s xml:id="_vrspHx3" coords="2,317.96,100.62,240.48,8.97;2,317.96,111.58,241.76,8.97;2,317.96,122.54,21.04,8.97">HPE Slingshot <ref type="bibr" coords="2,375.19,100.62,14.85,8.97" target="#b8">[11]</ref> is a high-performance network designed by HPE Cray for upcoming exascale-era systems, and is based on Ethernet.</s><s xml:id="_7kqT6Rj" coords="2,341.23,122.54,216.97,8.97;2,317.96,133.50,94.13,8.97">It provides flexibility and capabilities to enable users to run a wide mix of workflows.</s><s xml:id="_xfCXr7U" coords="2,414.32,133.50,143.88,8.97;2,317.96,144.46,94.45,8.97">The switches support a high-radix and up to 12.8Tb/s bandwidth.</s><s xml:id="_czuG7r2" coords="2,414.64,144.46,143.56,8.97;2,317.96,155.42,241.76,8.97;2,317.96,166.38,240.25,8.97;2,317.96,177.34,98.45,8.97">While the latency of Ethernet networks is slightly worse when compared to InfiniBand systems in general, Ethernet networks claim the advantage of wider adoption across application domains.</s><s xml:id="_Av5F6Yk" coords="2,418.36,177.34,139.85,8.97;2,317.96,188.29,240.25,8.97;2,317.96,199.25,240.25,8.97;2,317.96,210.21,119.64,8.97">HPE Slingshot delivers low latency and high throughput for HPC workloads, and minimizes the number of switch hops in large networks (for instance, by employing the use of the Dragonfly <ref type="bibr" coords="2,382.47,210.21,14.85,8.97" target="#b9">[12]</ref> topology).</s><s xml:id="_y6jn6pT" coords="2,440.06,210.21,119.66,8.97;2,317.96,221.17,240.25,8.97;2,317.96,232.13,127.43,8.97">The interconnect features adaptive routing techniques to help maintain the balanced traffic flows through fine-grained optimization.</s><s xml:id="_FTEWpfj" coords="2,447.63,232.13,110.58,8.97;2,317.96,243.09,240.24,8.97;2,317.96,254.05,240.25,8.97;2,317.62,265.01,122.11,8.97">HPE Slingshot also introduces a fully automatic and hardware-implemented congestion control mechanism to minimize the impact of congestion when multiple workloads run at the same time.</s><s xml:id="_pfXR2kE" coords="2,442.43,265.01,115.78,8.97;2,317.96,275.97,241.23,8.97;2,317.96,286.92,240.25,8.97;2,317.96,297.88,127.25,8.97">It is currently empowering the first official exascale supercomputer in the world, Frontier@OLCF, and in the works to be deployed on future exascale supercomputers as well, such as El Capitan@LLNL.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3" xml:id="_YsEfvCR">State-of-the-art Communication Libraries</head><p xml:id="_HyE7ayr"><s xml:id="_r5brjHs" coords="2,317.69,334.87,242.03,8.97;2,317.96,345.83,240.25,8.97;2,317.96,356.79,50.52,8.97">The Message Passing Interface (MPI) is a multi-processing paradigm that enables communication among processes on parallel architectures.</s><s xml:id="_rAAZwz3" coords="2,370.91,356.79,187.30,8.97;2,317.96,367.75,200.50,8.97">The communication primitives can be categorized as one-sided, point-to-point, and collective operations.</s><s xml:id="_XfxT9qS" coords="2,520.71,367.75,37.49,8.97;2,317.96,378.71,240.25,8.97;2,317.96,389.66,241.63,8.97">One-sided communication indicates the use of only one process to move data to a remote process (without the remote process's involvement).</s><s xml:id="_NQGGK7y" coords="2,317.96,400.62,220.25,8.97">Hence, it's also referred to as remote memory access (RMA).</s><s xml:id="_82uqAVt" coords="2,540.44,400.62,19.28,8.97;2,317.96,411.58,205.82,8.97">It decouples the process synchronization during data transfer.</s><s xml:id="_PS39Tqv" coords="2,526.02,411.58,33.17,8.97;2,317.96,422.54,241.76,8.97;2,317.96,433.50,74.77,8.97">MPI_Put, MPI_Get, and MPI_Accumulate are well-known one-sided communication operations.</s><s xml:id="_pTy38bZ" coords="2,395.45,433.50,162.76,8.97;2,317.96,444.46,241.76,8.97;2,317.96,455.42,213.95,8.97">The MPI standard also supports expressing point-to-point communication operations using two-sided semantics using MPI_Send, MPI_Recv, MPI_Isend, and MPI_Irecv.</s><s xml:id="_V7gfzGa" coords="2,534.14,455.42,25.58,8.97;2,317.96,466.38,240.25,8.97;2,317.96,477.34,240.48,8.97;2,317.96,488.29,114.08,8.97">Collective communication operations defined by the MPI standard provide convenient abstractions for multiple processes/threads to efficiently communicate with one another.</s><s xml:id="_NrxWkhb" coords="2,434.28,488.29,125.43,8.97;2,317.96,499.25,240.25,8.97;2,317.96,510.21,240.25,8.97;2,317.96,521.17,203.13,8.97">These operations can involve computing operations (in reduction collectives such as MPI_Allreduce and MPI_Reduce) or just communication to represent common patterns such as a broadcast, scatter, gather, and others.</s><s xml:id="_UzgDYhj" coords="2,327.92,532.13,230.28,8.97;2,317.96,543.09,240.42,8.97;2,317.96,554.05,36.87,8.97">Aside from the MPI interface, there are other communication libraries that use and expose a different underlying API to transfer messages.</s><s xml:id="_vXXfm7R" coords="2,357.75,554.05,200.46,8.97;2,317.96,565.01,240.41,8.97;2,317.96,575.97,240.42,8.97;2,317.96,586.92,54.47,8.97">For example, the NVIDIA Collective Communication Library (NCCL), provides optimized communication primitives for GPU to GPU communication within as well as across the node for NVIDIA GPUs.</s><s xml:id="_9kmNvCw" coords="2,374.69,586.92,184.05,8.97;2,317.96,597.88,241.77,8.97;2,317.73,608.84,240.47,8.97;2,317.96,619.80,241.76,8.97;2,317.96,630.76,93.93,8.97">ROCm Communication Collectives Library (RCCL) is the communication library based on NCCL for AMD GPUs, providing primitives that enable GPU to GPU communication on AMD ROCm supported systems, similar to what NCCL achieves on systems with NVIDIA GPUs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4" xml:id="_b5MN6M3">Limitations of State-of-the-art Approaches</head><p xml:id="_k2qUSgS"><s xml:id="_FXc2bR3" coords="2,317.96,667.75,241.76,8.97;2,317.96,678.71,171.83,8.97">Existing MPI libraries provide support for various network features such as Omni-Path, RoCE, InfiniBand, etc.</s><s xml:id="_Qu3ywXe" coords="2,492.02,678.71,66.18,8.97;2,317.96,689.66,241.76,8.97;2,317.96,700.62,240.25,8.97;3,53.80,86.92,240.24,8.97;3,53.80,97.88,12.24,8.97">With the expected growth in deployment of the Slingshot Interconnect across upcoming systems, this will be added to the growing list of features that MPI libraries will need to add functionality and optimizations for.</s><s xml:id="_Mbz6HQP" coords="3,68.29,97.88,225.76,8.97;3,53.80,108.84,240.48,8.97;3,53.47,119.80,83.10,8.97">HPE designed the Slingshot Interconnect in such a way to be ethernet compatible in order to provide ease of interoperability with existing systems.</s><s xml:id="_G95PG5y" coords="3,139.02,119.80,155.03,8.97;3,53.80,130.76,241.77,8.97;3,53.57,141.72,38.10,8.97">This enables a direct connection between the switches for Slingshot and ethernet networks and storage devices <ref type="bibr" coords="3,74.81,141.72,13.49,8.97" target="#b8">[11]</ref>.</s><s xml:id="_rpAt23w" coords="3,94.33,141.72,199.72,8.97;3,53.80,152.68,198.92,8.97">It also provides support for features such as adaptive routing, congestion control, and isolated workloads.</s><s xml:id="_BueTNHH" coords="3,255.98,152.68,39.57,8.97;3,53.80,163.64,240.25,8.97;3,53.80,174.60,182.14,8.97">These features provide several challenges and possibilities to explore and enhance state-of-the-art communication libraries.</s><s xml:id="_8DCSjJX" coords="3,238.16,174.60,55.89,8.97;3,53.80,185.55,240.41,8.97;3,53.47,196.51,135.23,8.97">The limitations of current state-of-the-art approaches will be made more clear with the deployment of Slingshot-11.</s><s xml:id="_CnZz68g" coords="3,190.93,196.51,104.63,8.97;3,53.80,207.47,240.25,8.97;3,53.47,218.43,180.61,8.97">Current accessibility and deployment on early access Slingshot systems provide an ecosystem with Slingshot-10 interconnection amongst nodes.</s><s xml:id="_dfjT2R7" coords="3,236.32,218.43,59.24,8.97;3,53.80,229.39,240.25,8.97;3,53.80,240.35,240.24,8.97;3,53.80,251.31,240.25,8.97;3,53.80,262.27,28.68,8.97">The second generation of Slingshot, Slingshot-11, is deployed over a Slingshot fabric and adapter, while the current deployment of Slingshot-10 is running over a Slingshot Network with a Mellanox InfiniBand adapter.</s><s xml:id="_4WQSrVR" coords="3,84.71,262.27,209.33,8.97;3,53.80,273.23,240.48,8.97;3,53.80,284.18,146.74,8.97">This second-generation deployment introduces additional challenges for communication libraries to develop functionality over the underlying adapter and fabrics.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_GPNHcWv">EVALUATION AND ANALYSIS</head><p xml:id="_rpqrZDQ"><s xml:id="_5nCYFQ9" coords="3,53.80,318.97,240.79,8.97;3,53.80,329.93,241.76,8.97;3,53.80,340.89,87.23,8.97">In this section, we provide details of the Spock system (Figure <ref type="figure" coords="3,287.61,318.97,3.49,8.97" target="#fig_0">1</ref>) used for the experiments and evaluations and the software environment on this system.</s><s xml:id="_zqMAVFW" coords="3,143.27,340.89,150.78,8.97;3,53.80,351.84,226.47,8.97">We also provide additional details specific to the MPI and communication libraries used in the evaluation.</s><s xml:id="_cWCap4y" coords="3,282.48,351.84,11.56,8.97;3,53.80,362.80,240.25,8.97;3,53.57,373.76,227.83,8.97">We include a detailed analysis of communication performance using various MPI libraries at the benchmark and application layers.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_6QMNZVA">System and Software Details</head><p xml:id="_UZXkTm4"><s xml:id="_nr8kfnC" coords="3,53.53,408.55,240.52,8.97;3,53.80,419.51,221.55,8.97">The performance evaluation is done on the Spock system deployed at the Oakridge Leadership Computing Facility(OLCF) <ref type="bibr" coords="3,258.48,419.51,13.49,8.97" target="#b12">[15]</ref>.</s><s xml:id="_uNcrcMN" coords="3,277.62,419.51,16.43,8.97;3,53.80,430.46,240.24,8.97;3,53.80,441.42,74.45,8.97">This is an early access system provided in preparation for the exascale system, Frontier <ref type="bibr" coords="3,115.68,441.42,9.43,8.97" target="#b4">[7]</ref>.</s><s xml:id="_pcanze6" coords="3,130.49,441.42,165.07,8.97;3,53.80,452.38,240.25,8.97;3,53.80,463.34,240.25,8.97;3,53.80,474.30,241.76,8.97;3,53.80,485.26,240.25,8.97;3,53.47,496.22,204.25,8.97">This preparation for the deployment of exascale systems allows for experiments and evaluations to be done in order to develop an understanding of what to expect in terms of communication library performance on the upcoming exascale systems, and the challenges in relation to communication on a system with Slingshot Interconnects and the latest AMD GPUs.</s><s xml:id="_X6PHxQp" coords="3,63.76,667.75,230.28,8.97;3,53.80,678.71,223.58,8.97">The Spock cluster consists of 64-core AMD EPYC 7662 Rome CPUs, and 4 AMD MI100 GPUs with 32 GB HBM2 per node.</s><s xml:id="_AyyyKKq" coords="3,279.63,678.71,14.41,8.97;3,53.80,689.66,241.76,8.97;3,53.80,700.62,121.39,8.97">The GPUs are connected within a node via Infinity Fabric and connected to the CPU via PCIe Gen4.</s><s xml:id="_jnVFQBZ" coords="3,177.43,700.62,116.61,8.97;3,317.96,86.92,240.24,8.97;3,317.96,97.88,22.99,8.97">The nodes are connected via the Slingshot-10 interconnect, providing 12.5 GB/s bandwidth across nodes.</s><s xml:id="_xjk3ZSU" coords="3,342.64,97.88,215.56,8.97;3,317.96,108.84,18.48,8.97">The latest version of ROCm deployed on the system is ROCm 5.0.2.</s><s xml:id="_6PYN327" coords="3,338.68,108.84,221.04,8.97;3,317.96,119.80,65.79,8.97">This information is detailed in the Spock compute node presented in Figure <ref type="figure" coords="3,377.72,119.80,3.01,8.97" target="#fig_0">1</ref>.</s><s xml:id="_gk2tjg4" coords="3,385.91,119.80,172.30,8.97;3,317.96,130.76,240.25,8.97;3,317.96,141.72,72.37,8.97">More details of the communication libraries and software stack versions used on this system for this evaluation are provided in Table <ref type="table" coords="3,384.18,141.72,3.07,8.97" target="#tab_1">1</ref>.</s></p><p xml:id="_UeQUbUG"><s xml:id="_BhmbcCf" coords="3,317.96,158.87,16.21,8.04">3.1.1</s><s xml:id="_bFB3tTA" coords="3,343.12,158.87,61.24,8.04">MPI Libraries -.</s><s xml:id="_FUQnTy6" coords="3,407.85,158.07,150.35,8.97;3,317.96,169.03,223.97,8.97">Table <ref type="table" coords="3,430.77,158.07,4.25,8.97" target="#tab_2">2</ref> details the various MPI libraries used and configuration details specific to each of the libraries.</s><s xml:id="_rGWPnZj" coords="3,544.17,169.03,14.03,8.97;3,317.96,179.98,240.24,8.97;3,317.96,190.94,241.76,8.97;3,317.96,201.90,27.55,8.97">The MVAPICH2-GDR library v2.3.7 was used for the evaluations done on GPUs (MVAPICH2-GDR optimized for GPU-aware communication).</s><s xml:id="_r7WnAb6" coords="3,347.74,201.90,210.46,8.97;3,317.96,212.86,223.35,8.97">This library provides downloadable options from the site or through the user forum in order to execute on the system.</s><s xml:id="_UMpUxT8" coords="3,543.55,212.86,16.17,8.97;3,317.96,223.82,155.93,8.97">Specific configuration was not required here.</s><s xml:id="_BFyvf6X" coords="3,476.50,223.82,81.71,8.97;3,317.96,234.78,240.25,8.97;3,317.96,245.74,81.67,8.97">The MVAPICH2-GDR installation is linked to ROCm 5.0.2, the latest version of ROCm on the Spock system.</s><s xml:id="_RJNXF3Y" coords="3,402.85,245.74,86.39,8.97">OpenMPI version 4.1.4</s><s xml:id="_4b4Bumq" coords="3,492.45,245.74,65.76,8.97;3,317.75,256.70,240.45,8.97;3,317.96,267.66,41.15,8.97">and UCX version 1.12.1, the latest versions of the stack were used in the performance evaluation.</s><s xml:id="_e8S2CJG" coords="3,361.36,267.66,196.84,8.97;3,317.96,278.61,240.25,8.97;3,317.96,289.57,190.07,8.97">The configuration details of UCX to link with ROCm and enable optimizations and the details for linking OpenMPI to this UCX installation are demonstrated in the table.</s><s xml:id="_pDTY4Km" coords="3,510.26,289.57,47.95,8.97;3,317.96,300.53,241.63,8.97">Cray MPICH 8.1.14 is the MPI library deployed on the Spock system by default.</s><s xml:id="_Fa8NmjA" coords="3,317.96,311.49,240.25,8.97;3,317.96,322.45,241.62,8.97">It required a load of the existing module, adding ROCm into the path, and loading an additional module to detect the architecture.</s><s xml:id="_nyj4Hfu" coords="3,317.69,333.41,170.43,8.97">These modules are detailed in the table below.</s><s xml:id="_AGj2tVw" coords="3,490.35,333.41,67.85,8.97;3,317.96,344.37,240.25,8.97;3,317.96,355.33,154.07,8.97">Finally, the ROCm Collectives Communication Library (RCCL) was used as well in the evaluation of GPU-aware communication.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_2qTkgNB">OSU Micro-Benchmarks</head><p xml:id="_cmkBx8Y"><s xml:id="_qtBMqZh" coords="3,317.69,611.05,240.52,8.97;3,317.96,622.01,240.25,8.97;3,317.96,632.97,181.87,8.97">To compare the performance of various communication operations on the Spock cluster using different MPI libraries, we utilize the OSU Micro-Benchmarks (OMB) suite version 5.9.</s><s xml:id="_ynWmJ3s" coords="3,502.07,632.97,57.64,8.97;3,317.96,643.93,241.77,8.97;3,317.96,654.89,236.23,8.97">It reports intraand inter-node point-to-point latency and bandwidth, and the performance of MPI collective operations at different message sizes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3" xml:id="_7rj2WRA">Micro-Benchmark Evaluation on GPUs</head><p xml:id="_Beda7fu"><s xml:id="_eepS9EW" coords="3,317.96,689.66,240.25,8.97;3,317.96,700.62,175.76,8.97">In this section, we delve into the GPU-based evaluation utilizing GPU-aware MPI and communication libraries.</s><s xml:id="_RaqEu3Y" coords="3,496.84,700.62,61.37,8.97;4,53.37,534.15,240.68,8.97;4,53.80,545.10,240.41,8.97;4,53.80,556.06,22.63,8.97">We evaluate the  We also evaluate the performance of collective communication on the Spock system on up to 64 GPUs (16 Nodes with 4 GPUs per node).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1" xml:id="_QkWBPyn">Intra-Node</head><p xml:id="_gZrApMP"><s xml:id="_XEJmP34" coords="4,118.65,580.88,60.28,8.04">Point-to-Point -.</s><s xml:id="_P2zAGfN" coords="4,182.41,580.08,113.14,8.97;4,53.80,591.03,240.25,8.97;4,53.80,601.99,240.25,8.97;4,53.80,612.95,81.92,8.97">In Figure <ref type="figure" coords="4,217.15,580.08,3.02,8.97" target="#fig_1">2</ref>, we present an evaluation of intra-node point-to-point benchmark-level performance comparing MVAPICH2-GDR, OpenMPI + UCX, and Cray MPICH on AMD MI100 GPUs.</s><s xml:id="_U75dVyF" coords="4,137.97,612.95,156.08,8.97;4,53.47,623.91,240.58,8.97;4,53.80,634.87,137.99,8.97">The evaluation is done between two GPUs within one node for latency (osu_latency), bandwidth (osu_bw), and bi-directional bandwidth (osu_bibw).</s><s xml:id="_f3jtasH" coords="4,194.75,634.87,99.53,8.97;4,53.80,645.83,240.48,8.97;4,53.80,656.79,241.63,8.97">For small message latency shown in Figure <ref type="figure" coords="4,113.80,645.83,3.03,8.97" target="#fig_1">2</ref>(a), MVAPICH2-GDR, OpenMPI + UCX, and Cray MPICH achieve 2.01 us, 3.79 us, and 2.44 us latency, respectively.</s><s xml:id="_smafrZd" coords="4,53.53,667.75,240.52,8.97;4,53.80,678.71,199.00,8.97">This configuration involves two AMD MI100 GPUs within the same node, on the same socket, connected by Infinity Fabric.</s><s xml:id="_gu7sMCz" coords="4,255.03,678.71,39.01,8.97;4,53.80,689.66,240.25,8.97;4,53.80,700.62,240.25,8.97;4,317.96,501.27,240.41,8.97;4,317.96,512.23,241.23,8.97;4,317.96,523.19,167.79,8.97">The trends in performance for intra-node communication between GPUs here reflects on protocols typically used for this configuration within MPI libraries such as: a GPU memory copy that utilizes the LargeBar feature of AMD GPUs and the ROCm driver for small message sizes, and ROCm IPC for larger message sizes <ref type="bibr" coords="4,468.88,523.19,13.49,8.97" target="#b15">[18]</ref>.</s><s xml:id="_x6YYHrv" coords="4,488.16,523.19,70.05,8.97;4,317.96,534.15,189.04,8.97">The Infinity Fabric connection provides (46 + 46 GB/s) peak bandwidth.</s><s xml:id="_Dr8xbWw" coords="4,509.23,534.15,49.95,8.97;4,317.96,545.10,241.24,8.97;4,317.96,556.06,239.38,8.97">In Figure <ref type="figure" coords="4,544.19,534.15,3.00,8.97" target="#fig_1">2</ref>(c), MVAPICH2-GDR achieves a peak bandwidth at 1MB of 52 GB/s, OpenMPI + UCX achieving 30 GB/s, and Cray MPICH at 88 GB/s.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2" xml:id="_RSn3Dur">Inter-Node</head><p xml:id="_hfKPbfx"><s xml:id="_GPAqHjr" coords="4,382.99,591.84,60.93,8.04">Point-to-Point -.</s><s xml:id="_DjcJWXF" coords="4,447.40,591.03,112.31,8.97;4,317.96,601.99,240.25,8.97;4,317.96,612.95,240.24,8.97;4,317.96,623.91,81.92,8.97">In Figure <ref type="figure" coords="4,482.48,591.03,4.14,8.97">3</ref> we present an evaluation of inter-node point-to-point benchmark-level performance comparing MVAPICH2-GDR, OpenMPI + UCX, and Cray MPICH on AMD MI100 GPUs.</s><s xml:id="_xQT4hKM" coords="4,402.12,623.91,156.08,8.97;4,317.96,634.87,240.25,8.97;4,317.96,645.83,240.25,8.97;4,317.96,656.79,83.92,8.97">The evaluation is done between two GPUs on two different nodes connected by the Slingshot-10 interconnect for latency (osu_latency), bandwidth (osu_bw), and bi-directional bandwidth (osu_bibw).</s><s xml:id="_Fy6DqgS" coords="4,404.12,656.79,96.92,8.97;5,53.80,411.25,241.76,8.97;5,53.80,422.20,240.25,8.97;5,53.47,433.16,100.12,8.97">In Figure <ref type="figure" coords="4,439.93,656.79,3.43,8.97">3</ref>(a) and Figure <ref type="figure" coords="4,497.79,656.79,3.25,8.97">3</ref>    uni-directional bandwidth performance at 32KB with 11 GB/s performance, OpenMPI + UCX at 1MB with 9.8 GB/s and Cray MPICH with 9.2 GB/s performance.</s><s xml:id="_uUzJ4kF" coords="5,155.84,433.16,138.21,8.97;5,53.80,444.12,240.25,8.97;5,53.80,455.08,241.63,8.97">In particular, we see lower bandwidth and bi-directional bandwidth for Cray MPICH in the message range between 8KB and 512 KB as demonstrated in Figures <ref type="figure" coords="5,248.48,455.08,9.88,8.97">3(c</ref>) and 3(d).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.3" xml:id="_zgmcsVf">Collective Operations -.</head><p xml:id="_qcu5cgn"><s xml:id="_j92Z5df" coords="5,175.29,492.40,118.76,8.97;5,53.80,503.36,241.24,8.97;5,53.80,514.32,240.25,8.97;5,53.53,525.28,179.53,8.97">We evaluate various collective operations including MPI_Reduce, MPI_Allreduce (Figure <ref type="figure" coords="5,286.04,503.36,3.00,8.97" target="#fig_2">4</ref>), MPI_Gather, MPI_Allgather (Figure <ref type="figure" coords="5,181.83,514.32,2.88,8.97" target="#fig_3">5</ref>), MPI_Bcast, and MPI_Alltoall (Figure <ref type="figure" coords="5,81.02,525.28,3.35,8.97" target="#fig_4">6</ref>) using the OSU-Micro-benchmarks suite.</s><s xml:id="_G7ZnWpf" coords="5,235.11,525.28,58.94,8.97;5,53.80,536.24,159.23,8.97">Various tests are included here specific to each MPI operation.</s><s xml:id="_VxJDMSE" coords="5,214.84,536.24,80.72,8.97;5,53.80,547.20,241.76,8.97;5,53.80,558.16,241.23,8.97;5,53.80,569.12,231.04,8.97">The performance evaluation demonstrates a comparison between four different communication libraries (MVAPICH2-GDR, OpenMPI + UCX, Cray MPICH, and RCCL) on 64 AMD MI100 GPUs (16 nodes, 4 GPUs per node).</s><s xml:id="_Hc6vwgY" coords="5,286.67,569.12,7.37,8.97;5,53.80,580.08,241.76,8.97;5,53.80,591.03,240.25,8.97;5,53.59,601.99,241.83,8.97">In Figures <ref type="figure" coords="5,81.90,580.08,6.02,8.97" target="#fig_2">4,</ref><ref type="figure" coords="5,89.75,580.08,3.01,8.97" target="#fig_3">5</ref>, and 6, one particular trend we noticed is that RCCL performance is typically not optimal for smaller message sizes between 4B-4KB, but performs well for large message allgather, and alltoall.</s><s xml:id="_JXAVxzG" coords="5,53.80,612.95,240.25,8.97;5,53.80,623.91,240.25,8.97;5,53.80,634.87,189.75,8.97">For large message allreduce latency performance, MVAPICH2-GDR achieves 1.4 ms, OpenMPI + UCX achieves 160 ms, Cray MPICH demonstrates 1.8 ms, while RCCL performs at 1.5 ms.</s><s xml:id="_agmCfQ8" coords="5,245.58,634.87,49.45,8.97;5,53.47,645.83,240.58,8.97;5,53.80,656.79,240.25,8.97;5,53.59,667.75,240.66,8.97;5,53.80,678.71,22.20,8.97">In Figure <ref type="figure" coords="5,279.86,634.87,3.03,8.97" target="#fig_4">6</ref>(a), we demonstrate small message broadcast performance for each of the libraries with MVAPICH2-GDR at 8.1 us, OpenMPI + UCX at 12.39 us, Cray MPICH at 12.06 us, and RCCL with 174.7 us at 4 Bytes.</s></p><p xml:id="_eZefZ2R"><s xml:id="_w9h8uDm" coords="5,63.76,689.66,230.28,8.97;5,53.80,700.62,240.25,8.97;5,317.62,411.25,242.09,8.97;5,317.96,422.20,24.06,8.97">We demonstrate the importance of efficient Alltoall collective operation performance in Section 3.4 with the heFFTe application which is heavily reliant on MPI_Alltoall or MPI_Alltoallv communication.</s><s xml:id="_DnaeZb5" coords="5,343.93,422.20,214.27,8.97;5,317.96,433.16,241.23,8.97;5,317.96,444.12,240.48,8.97;5,317.96,455.08,78.35,8.97">In figure <ref type="figure" coords="5,376.24,422.20,2.97,8.97" target="#fig_4">6</ref>(c), we evaluate the performance of small message GPU-aware Alltoall performance for MVAPICH2-GDR at 27.09 us, OpenMPI + UCX at 182.42 us, Cray MPICH at 40.21 us, and RCCL at 909.4 us at 4 Bytes.</s></p><p xml:id="_D3GHPqP"><s xml:id="_uxWyY2K" coords="5,327.92,466.04,231.80,8.97;5,317.96,477.00,241.24,8.97;5,317.96,487.96,240.25,8.97;5,317.96,498.92,240.48,8.97;5,317.96,509.88,42.03,8.97">Overall, the performance discrepancies presented here for different libraries can be a result of various components including, but not limited to: protocol changes, lack of tuning specific to a system or architecture, or underutilization of interconnect/link bandwidth.</s><s xml:id="_5xpp84v" coords="5,362.64,509.88,195.56,8.97;5,317.96,520.83,241.76,8.97;5,317.96,531.79,72.93,8.97">Through this evaluation, we highlight various areas that need to be optimized or accounted for in terms of communication performance.</s><s xml:id="_rSsVFEG" coords="5,393.15,531.79,165.29,8.97;5,317.96,542.75,240.25,8.97;5,317.96,553.71,240.25,8.97;5,317.96,564.67,240.25,8.97;5,317.96,575.63,240.25,8.97;5,317.96,586.59,138.04,8.97">In particular, the difference between the peak achievable performance for MPI libraries compared to the available link bandwidth presented by Infinity Fabric between GPUs and the Slingshot-10 network between nodes demonstrates the importance of link utilization and taking advantage of the vast performance made possible by these interconnects.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4" xml:id="_ZaKsn7A">Application-Level Evaluation</head><p xml:id="_3ApCFPf"><s xml:id="_gAS4PJf" coords="5,317.96,634.87,241.76,8.97;5,317.96,645.83,54.56,8.97">In this section, we evaluate the various MPI libraries at the application level.</s><s xml:id="_588dRmB" coords="5,374.99,645.83,183.22,8.97;5,317.96,656.79,195.53,8.97">We use the heFFTE application detailed below to demonstrate GPU-aware MPI libraries' performance.</s><s xml:id="_vRV3avv" coords="5,515.73,656.79,43.46,8.97;5,317.96,667.75,240.25,8.97;5,317.96,678.71,211.74,8.97">In this case, the datatype required by heFFTe is not supported by RCCL and therefore RCCL is not included in the evaluation below.</s><s xml:id="_9fTjH6Z" coords="5,532.52,678.71,25.68,8.97;5,317.96,689.66,240.24,8.97;5,317.96,700.62,210.92,8.97">Due to compilation issues at the application layer with CrayMPICH and cmake, CrayMPICH is also emitted from this evaluation.</s><s xml:id="_83ER8an" coords="5,531.25,700.62,26.95,8.97;6,53.80,449.07,241.76,8.97;6,53.80,460.03,160.18,8.97">We use   Based on FFTMPI and SWFFT libraries, it presents so-called pencilto-pencil methodology to compute 3-D FFT.</s></p><p xml:id="_7E7FjmQ"><s xml:id="_enGFZMB" coords="6,63.76,470.99,230.28,8.97;6,53.80,481.95,180.84,8.97">We evaluate the performance of the heFFTe application as a measure of GFlops/s with different problem sizes.</s><s xml:id="_qvsapuQ" coords="6,236.89,481.95,57.16,8.97;6,53.80,492.91,241.63,8.97">The application can be run with either an alltoall-based or alltoallv-based problem.</s><s xml:id="_9nKRysK" coords="6,53.37,503.86,241.67,8.97;6,53.47,514.82,240.58,8.97;6,53.47,525.78,85.09,8.97">When running heFFTe on GPUs using GPU-aware MPI libraries, we utilize the rocFFT backend provided for the heFFTe benchmarks with support for ROCm.</s><s xml:id="_CfqHeuy" coords="6,140.10,525.78,153.95,8.97;6,53.80,536.74,240.25,8.97;6,53.80,547.70,240.24,8.97;6,53.80,558.66,39.66,8.97;6,93.45,557.02,4.76,6.22;6,98.71,558.66,195.33,8.97;6,53.80,569.62,240.25,8.97;6,53.80,580.58,48.18,8.97">We demonstrate the performance of heFFTe on GPUs in Figures <ref type="figure" coords="6,127.73,536.74,10.00,8.97" target="#fig_6">7(c</ref>) and 7(d) for alltoall with 65 GFlops/s and alltoallv with 187 GFlops/s using MVAPICH2-GDR for a problem size of 512 ∧ 3, in contrast to 3.17 GFlops/s and 3.28 GFlops with OpenMPI + UCX for altoall and alltoallv, respectively, for the same problem size.</s></p><p xml:id="_WjwBsrh"><s xml:id="_Eb7YbBA" coords="6,53.80,613.76,16.16,8.04">3.4.2</s><s xml:id="_2cURe3J" coords="6,78.92,612.95,215.36,8.97;6,53.80,623.91,241.76,8.97;6,53.80,634.87,95.65,8.97">rocHPCG -. rocHPCG [3] is a ROCm runtime benchmark based on the High-Performance Conjugate Gradients (HPCG) application for AMD GPUs.</s><s xml:id="_XVPF3ET" coords="6,152.26,634.87,141.79,8.97;6,53.80,645.83,240.25,8.97;6,53.80,656.79,241.76,8.97;6,53.80,667.75,240.24,8.97;6,53.80,678.71,127.09,8.97">HPCG benchmark is used as a metric for the Top500 systems since it simulates the computational and data-access patterns of a variety of scientific applications, and communication patterns, including MPI point-to-point and collective operations and OpenMP supports.</s><s xml:id="_EfEBrre" coords="6,183.13,678.71,110.91,8.97;6,53.80,689.66,240.41,8.97;6,53.80,700.62,241.24,8.97;6,317.96,350.94,133.29,8.97">rocHPCG consists of different sub-operation metrics, including global dot product (DDOT), vector update (WAXPBY), sparse matrix-vector multiplication (SpMV), multigrid preconditioner (MG), etc.</s><s xml:id="_CvBSRK7" coords="6,454.19,350.94,105.52,8.97;6,317.96,361.90,240.25,8.97;6,317.96,372.86,238.91,8.97">We demonstrate the performance of each phase separately in the evaluation done in Figure <ref type="figure" coords="6,554.05,361.90,4.15,8.97" target="#fig_7">8</ref> comparing MVAPICH2-GDR performance with OpenMPI + UCX.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_cp5UNbU">RELATED WORK</head><p xml:id="_YGy2vSx"><s xml:id="_g6sqWKe" coords="6,317.69,415.69,242.03,8.97;6,317.96,426.65,90.29,8.97">The HPE Cray Slingshot Interconnect will be deployed on the upcoming exascale systems.</s><s xml:id="_aWB3tgt" coords="6,410.03,426.65,41.08,8.97">De Sensi et.</s><s xml:id="_QA54hnw" coords="6,452.92,426.65,105.29,8.97;6,317.96,437.61,218.81,8.97">al <ref type="bibr" coords="6,461.04,426.65,10.43,8.97" target="#b6">[9]</ref> proposed early research investigating Slingshot for large-scale computing systems.</s><s xml:id="_2hgwcCM" coords="6,539.32,437.61,19.11,8.97;6,317.96,448.57,240.25,8.97;6,317.96,459.53,240.25,8.97;6,317.96,470.49,241.76,8.97;6,317.96,481.44,20.34,8.97">They described Slingshot as the next-generation large-scale system and summarized the key features as the following: high-radix Ethernet switches, adaptive routing, congestion control, and QoS management.</s><s xml:id="_jrtzm5Q" coords="6,340.22,481.44,217.98,8.97;6,317.96,492.40,240.25,8.97;6,317.96,503.36,52.08,8.97">They evaluated the system performance using Slingshot with both individual and concurrent workloads to close the real HPC system usage.</s><s xml:id="_JqD3mW3" coords="6,372.89,503.36,185.31,8.97;6,317.96,514.32,241.76,8.97;6,317.96,525.28,19.71,8.97">They found less congestion on Slingshot and the control algorithm is effective for most HPC and data center applications.</s><s xml:id="_VG3znZe" coords="6,339.76,525.28,218.44,8.97;6,317.62,536.24,51.05,8.97">Also, a lower impact on performance from allocation policies was reported.</s><s xml:id="_umsUMuH" coords="6,371.23,536.24,186.97,8.97;6,317.96,547.20,123.48,8.97">Furthermore, Slingshot guarantees the bandwidth for jobs in different traffic classes.</s></p><p xml:id="_gvKGncJ"><s xml:id="_2AfK6wM" coords="6,327.92,558.16,230.28,8.97;6,317.96,569.12,241.76,8.97;6,317.96,580.08,216.96,8.97">The details of HPE Cray MPI are described in <ref type="bibr" coords="6,492.10,558.16,13.22,8.97" target="#b11">[14]</ref>, including the latest implementation overview, HPE Cray MPI tuning and placement, GPU support, and its GPU-NIC asynchronous features.</s><s xml:id="_xFab4ZR" coords="6,536.77,580.08,21.43,8.97;6,317.96,591.03,241.23,8.97;6,317.96,601.99,173.29,8.97">It also delves into the current support status with AMD and NVIDIA GPUs, including intra-node IPC and inter-node RDMA.</s><s xml:id="_PQwA5uG" coords="6,493.43,601.99,66.28,8.97;6,317.96,612.95,240.25,8.97;6,317.96,623.91,240.25,8.97;6,317.96,634.87,93.81,8.97">Moreover, it introduced the GPU-NIC Async proposals, which decouples CPU-GPU control and data paths to reduce the CPU-GPU synchronization frequency and overheads.</s></p><p xml:id="_J2AHrcn"><s xml:id="_XCFpsxD" coords="6,327.92,645.83,73.55,8.97">Melesse Vergara et.</s><s xml:id="_5wPh5Ra" coords="6,404.48,645.83,153.72,8.97;6,317.96,656.79,241.76,8.97;6,317.96,667.75,241.62,8.97">al <ref type="bibr" coords="6,414.07,645.83,14.85,8.97" target="#b10">[13]</ref> elaborated on their experience of porting the current kernels of main applications to a novel platform with AMD GPUs and HPE/Cray programming environment.</s><s xml:id="_krfa476" coords="6,317.69,678.71,240.51,8.97;6,317.96,689.66,142.58,8.97">They ported GENASIS, Minisweep, and Sparkler to the HIP-based kernel and compared the performance.</s><s xml:id="_rF8GF9Q" coords="6,462.77,689.66,95.42,8.97;6,317.96,700.62,240.25,8.97;7,53.80,86.92,240.25,8.97;7,53.80,97.88,76.70,8.97">The experience of porting applications from CUDA-based to HIP-based kernel proved that the porting procedure is easy, but there could be limitations, such as OpenMP support.</s><s xml:id="_QJAYyse" coords="7,133.08,97.88,161.19,8.97;7,53.80,108.84,167.27,8.97">Plus, additional tuning is required for fully utilizing the computing power on AMD GPUs.</s><s xml:id="_EWEp6MV" coords="7,223.32,108.84,70.73,8.97;7,53.80,119.80,240.24,8.97;7,53.80,130.76,97.20,8.97">This work provided good examples for users to further port other kernel applications using HIP on AMD GPUs.</s><s xml:id="_ydRK2zq" coords="7,153.29,130.76,77.99,8.97">Shafie Khorassani et.</s><s xml:id="_cAWK5tB" coords="7,233.58,130.76,60.47,8.97;7,53.80,141.72,240.25,8.97;7,53.80,152.68,219.67,8.97">al <ref type="bibr" coords="7,242.46,130.76,14.85,8.97" target="#b15">[18]</ref> proposed an early research and designed a ROCm-aware MPI Library for the upcoming exascale systems, such as Frontier and El Capitan.</s><s xml:id="_SexNf7h" coords="7,275.71,152.68,18.57,8.97;7,53.80,163.64,240.24,8.97;7,53.48,174.60,45.44,8.97">They focused on Radeon Open Compute (ROCm) platform that adopts AMD GPUs.</s><s xml:id="_t6bKnJw" coords="7,101.17,174.60,193.86,8.97;7,53.80,185.55,241.76,8.97;7,53.80,196.51,40.28,8.97">They utilized the ROCm features such as PeerDirect, ROCm-IPC, and large-BAR mapped memory to design a ROCmaware MPI.</s><s xml:id="_68XVzDw" coords="7,95.98,196.51,198.07,8.97;7,53.80,207.47,184.27,8.97">An abstract communication layer with CUDA or ROCm backend allowed adaptability for the MPI runtime.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_3PUuwnJ">CONCLUSION</head><p xml:id="_y8BB2D6"><s xml:id="_R2CQnN9" coords="7,53.80,242.34,240.25,8.97;7,53.80,253.30,241.76,8.97;7,53.80,264.26,173.93,8.97">Next-generation exascale systems, and the first exascale and leading Supercomputer in the world, Frontier, are equipped with nodes connected by the HPE Cray Slingshot Interconnect.</s><s xml:id="_5y4gBSA" coords="7,229.97,264.26,64.07,8.97;7,53.80,275.22,241.76,8.97;7,53.80,286.18,230.42,8.97">This interconnect technology is relatively new in the High-Performance Computing realm and is seldom evaluated at the communication layer.</s><s xml:id="_t8bTyHX" coords="7,286.47,286.18,7.58,8.97;7,53.80,297.14,241.76,8.97;7,53.80,308.09,241.76,8.97;7,53.80,319.05,241.23,8.97;7,53.80,330.01,240.41,8.97;7,53.80,340.97,160.18,8.97">In this work, we delved into a comprehensive evaluation and analysis of various state-of-the-art MPI libraries including MVAPICH2-GDR, OpenMPI+UCX, Cray MPICH, and RCCL on a system, Spock, equipped with the Slingshot-10 Interconnect to connect nodes over the network and with AMD MI100 GPUs.</s><s xml:id="_cAPvRF4" coords="7,217.18,340.97,76.87,8.97;7,53.80,351.93,240.25,8.97;7,53.80,362.89,240.25,8.97;7,53.48,373.85,240.56,8.97;7,53.80,384.81,23.28,8.97">We demonstrate the performance of various point-to-point communication operations for latency and bandwidth and various collective operations on AMD Rome CPUs and GPU-aware communication on AMD MI100 GPUs.</s><s xml:id="_8TpUNCP" coords="7,79.33,384.81,216.22,8.97;7,53.80,395.77,240.25,8.97;7,53.80,406.73,241.76,8.97;7,53.80,417.68,240.24,8.97;7,53.80,428.64,241.76,8.97;7,53.59,439.60,103.60,8.97">Due to the limitations of access to systems with the Slingshot interconnect arising from its relatively new introduction, and limited accessibility of early access systems that emulate the expected ecosystem of upcoming exascale systems, our evaluation is based on our early experiences with the system and with Slingshot-10 interconnect technology.</s><s xml:id="_BuJrpyS" coords="7,159.56,439.60,134.48,8.97;7,53.80,450.56,240.41,8.97;7,53.80,461.52,240.25,8.97;7,53.80,472.48,240.25,8.97;7,53.80,483.44,240.25,8.97;7,53.80,494.40,240.25,8.97;7,53.80,505.36,236.53,8.97">In the future, we plan to extend this evaluation to cover additional applications with high demand for efficient communication performance, evaluate at a larger scale on a larger number of nodes based on system access, and ensure that state-of-the-art MPI and communication libraries provide the functionality, support, and efficiency that is to be expected with the growing demand and the rollout of Slingshot-11 networking.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,196.66,293.03,218.67,7.70"><head>Figure 1 :</head><label>1</label><figDesc><div><p xml:id="_E4eYnC8"><s xml:id="_tGFVnG4" coords="4,196.66,293.03,218.67,7.70">Figure 1: Spock Compute Node Details (Courtesy [16])</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="4,147.76,387.16,316.48,7.70"><head>Figure 2 :</head><label>2</label><figDesc><div><p xml:id="_75Fr3Zq"><s xml:id="_8jNJSNf" coords="4,147.76,387.16,316.48,7.70">Figure 2: Intra-Node Point-to-Point Performance on GPUs over Infinity Fabric</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,53.80,167.90,504.40,7.70"><head>Figure 4 :</head><label>4</label><figDesc><div><p xml:id="_bGpXxzY"><s xml:id="_d7z4ZeV" coords="5,53.80,167.90,504.40,7.70">Figure 4: Performance of MPI Collectives MPI_Reduce and MPI_Allreduce Operations on 64 GPUs (16 Nodes, 4 GPUs Per Node)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,53.80,274.91,504.40,7.70"><head>Figure 5 :</head><label>5</label><figDesc><div><p xml:id="_Pp6gThd"><s xml:id="_9M5gqdM" coords="5,53.80,274.91,504.40,7.70">Figure 5: Performance of MPI Collectives MPI_Gather and MPI_Allgather Operations on 64 GPUs (16 Nodes, 4 GPUs Per Node)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="5,57.21,382.23,497.59,7.70"><head>Figure 6 :</head><label>6</label><figDesc><div><p xml:id="_UWE3UTe"><s xml:id="_vPZRxMy" coords="5,57.21,382.23,497.59,7.70">Figure 6: Performance of MPI Collectives MPI_Bcast and MPI_Alltoall Operations on 64 GPUs (16 Nodes, 4 GPUs Per Node)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="6,59.52,150.21,86.26,6.97;6,184.49,150.21,90.02,6.97;6,317.82,150.21,86.02,6.97;6,442.72,150.21,89.91,6.97"><head></head><label></label><figDesc><div><p xml:id="_VsWcj7A"><s xml:id="_7GDTDvU" coords="6,59.52,150.21,86.26,6.97;6,184.49,150.21,90.02,6.97;6,317.82,150.21,86.02,6.97;6,442.72,150.21,89.91,6.97">(a) heFFTe -16 GPUs (alltoall) (b) heFFTe -16 GPUs (alltoallv) (c) heFFTe -32 GPUs (alltoall) (d) heFFTe -32 GPUs (alltoallv)</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="6,53.80,164.87,504.40,7.70;6,53.80,175.83,504.40,7.70;6,53.80,186.79,492.35,7.70"><head>Figure 7 :</head><label>7</label><figDesc><div><p xml:id="_r5JQajY"><s xml:id="_auXn9YT" coords="6,53.80,164.87,504.40,7.70;6,53.80,175.83,205.89,7.70">Figure 7: Performance of heFFTe Application using the rocfft backend for different problem sizes on 16 GPUs (4 nodes, 4 GPUs per node), and 32 GPUs (8 nodes, 4 GPUs per Node).</s><s xml:id="_5CUf3f6" coords="6,261.67,175.83,296.54,7.70;6,53.80,186.79,492.35,7.70">Two different communication methods are shown including MPI_Alltoall [-a2a] (7(c)) and MPI_Alltoallv [-a2av] (7(d)) using various MPI libraries including MVAPICH2-GDR, and OpenMPI + UCX.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="6,185.93,332.88,240.15,7.70;6,53.80,350.94,240.25,8.97;6,53.80,361.90,31.89,8.97"><head>Figure 8 :</head><label>8</label><figDesc><div><p xml:id="_bswPAYp"><s xml:id="_6PU38pu" coords="6,185.93,332.88,240.15,7.70;6,53.80,350.94,240.25,8.97;6,53.80,361.90,31.89,8.97">Figure 8: Performance of rocHPCG on 8 GPUs and 16 GPUs the rocHPCG application as well to compare the GPU-aware MPI libraries.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="3,59.96,517.34,227.92,136.60"><head>Table 1 :</head><label>1</label><figDesc><div><p xml:id="_4BVajCw"><s xml:id="_MX9GGam" coords="3,125.61,517.34,129.82,7.70">Spock System Details and Usage</s></p></div></figDesc><table coords="3,59.96,540.65,227.92,113.29"><row><cell></cell><cell>Software</cell><cell cols="2">Version Reference</cell></row><row><cell>MPI &amp; Communication Libraries</cell><cell>Open MPI UCX Cray MPICH RCCL MVAPICH2-GDR</cell><cell>4.1.4 1.12.1 8.1.14 5.0.2 2.3.7</cell><cell>[10] [6] [19] [4] [17]</cell></row><row><cell>Platform</cell><cell>ROCm</cell><cell>5.0.2</cell><cell>[2]</cell></row><row><cell>Benchmarks &amp;</cell><cell>OSU Micro-benchmarks</cell><cell>5.9</cell><cell>[8]</cell></row><row><cell>Applications</cell><cell>heFFTe</cell><cell>2.0</cell><cell>[1]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="3,317.66,374.34,242.15,197.16"><head>Table 2 :</head><label>2</label><figDesc><div><p xml:id="_tcAy33M"><s xml:id="_DDqEBYK" coords="3,354.09,374.34,205.72,7.70;3,317.96,385.30,17.38,7.70">MPI Libraries Configuration and Installation Details</s></p></div></figDesc><table coords="3,325.09,408.61,225.97,162.89"><row><cell>Communication</cell><cell>Configuration &amp; Installation</cell></row><row><cell>Libraries</cell><cell>Details</cell></row><row><cell>MVAPICH2-GDR 2.3.7</cell><cell>MVAPICH2-GDR 2.3.7 + ROCm 5.0.2 for GPUs Run: MV2_USE_ROCM=1</cell></row><row><cell></cell><cell>UCX: --with-rocm=&lt;path-to-rocm&gt;</cell></row><row><cell></cell><cell>--without-knem --without-cuda</cell></row><row><cell>OpenMPI 4.1.4</cell><cell>--enable-optimizations</cell></row><row><cell>+ UCX 1.12.1</cell><cell>OpenMPI: --with-ucx=&lt;path-to-ucx&gt;</cell></row><row><cell></cell><cell>--without-verbs</cell></row><row><cell></cell><cell>Run: -x UCX_RNDV_THRESH=128</cell></row><row><cell></cell><cell>module load craype-accel-amd-gfx908</cell></row><row><cell>Cray MPICH 8.1.14</cell><cell>module load cray-mpich/8.1.14</cell></row><row><cell></cell><cell>Run: MPICH_GPU_SUPPORT_ENABLED=1</cell></row><row><cell>RCCL 5.0.2</cell><cell>CXX=&lt;path-to-rocm&gt;/bin/hipcc</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_FkEQSZz">ACKNOWLEDGMENTS</head><p xml:id="_jgKP46w">We thank <rs type="person">Dr. Sameer Shende</rs> (<rs type="affiliation">University of Oregon</rs>) for providing access to the Spock system.This research is supported in part by <rs type="funder">NSF</rs> grants #<rs type="grantNumber">1818253</rs>, #<rs type="grantNumber">1854828</rs>, #<rs type="grantNumber">1931537</rs>, #<rs type="grantNumber">2007991</rs>, and XRAC grant #<rs type="grantNumber">NCR-130002</rs>.This research used resources of the <rs type="grantName">Oak Ridge Leadership Computing Facility</rs> at the <rs type="institution">Oak Ridge National Laboratory</rs>, which is supported by the <rs type="funder">Office of Science of the U.S. Department of Energy</rs> under Contract No. <rs type="grantNumber">DE-AC05-00OR22725</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_qXB8Q4Y">
+					<idno type="grant-number">1818253</idno>
+				</org>
+				<org type="funding" xml:id="_zR9yesm">
+					<idno type="grant-number">1854828</idno>
+				</org>
+				<org type="funding" xml:id="_zxEDhJP">
+					<idno type="grant-number">1931537</idno>
+				</org>
+				<org type="funding" xml:id="_KpZ6ncK">
+					<idno type="grant-number">2007991</idno>
+				</org>
+				<org type="funding" xml:id="_gZQB2Gs">
+					<idno type="grant-number">NCR-130002</idno>
+					<orgName type="grant-name">Oak Ridge Leadership Computing Facility</orgName>
+				</org>
+				<org type="funding" xml:id="_BXUEXTM">
+					<idno type="grant-number">DE-AC05-00OR22725</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,333.39,142.22,225.99,6.97;7,333.39,150.19,106.47,6.97" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="7,350.42,142.22,141.30,6.97" xml:id="_jwMgMEB">heFFTe: Highly Efficient FFT for Exascale</title>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Ayala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stanimire</forename><surname>Tomov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Azzam</forename><surname>Haidar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jack</forename><surname>Dongarra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-50371-0_19</idno>
+		<ptr target="https://github.com/af-ayala/heffte" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ASSRPc4">Lecture Notes in Computer Science</title>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2021-06-13">2021. June 13, 2022</date>
+			<biblScope unit="page" from="262" to="275" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">2021. Highly Efficient FFT for Exascale (HeFFTe) library. https://github.com/af- ayala/heffte. Accessed: June 13, 2022.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,158.16,225.88,6.97;7,333.15,166.13,68.23,6.97" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="7,352.63,158.16,120.81,6.97" xml:id="_7QQAduk">Evaluating Performance Tradeoffs on the Radeon Open Compute Platform</title>
+		<author>
+			<persName><forename type="first">Yifan</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saoni</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Trinayan</forename><surname>Baruah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shi</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julian</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prannoy</forename><surname>Mohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Kaeli</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ispass.2018.00034</idno>
+		<ptr target="https://rocmdocs.amd.com" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_GTC3x75">2018 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2021-06-13">2021. June 13, 2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">2021. Radeon Open Compute (ROCm) Platform. https://rocmdocs.amd.com. Accessed: June 13, 2022.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,190.04,14.80,6.97;7,378.84,190.04,180.43,6.97;7,333.39,198.01,209.61,6.97" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_zgE7uG5">Introduction to RCCL: A robot control &amp;amp;C&amp;amp; library</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Paul</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/robot.1984.1087224</idno>
+		<ptr target="https://github.com/ROCmSoftwarePlatform/rccl" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HRZfwa5" coord="7,378.84,190.04,177.15,6.97">Proceedings. 1984 IEEE International Conference on Robotics and Automation</title>
+		<meeting>1984 IEEE International Conference on Robotics and Automation</meeting>
+		<imprint>
+			<publisher>Institute of Electrical and Electronics Engineers</publisher>
+			<date type="published" when="2021-06-13">2021. June 13, 2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">2021. ROCm Communication Collectives Library (RCCL). https://github.com/ROCmSoftwarePlatform/rccl. Accessed: June 13, 2022.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,204.33,172.41,6.97" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_3WXmx8P">TOP500 Supercomputer sites 11/2000</title>
+		<author>
+			<persName><forename type="first">Hans</forename><forename type="middle">W</forename><surname>Meuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erich</forename><surname>Strohmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jack</forename><forename type="middle">J</forename><surname>Dongarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Horst</forename><forename type="middle">D</forename><surname>Simon</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/843058</idno>
+		<ptr target="http://www.top500.org" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Z9GZn27" coord="7,350.40,204.33,83.78,6.97">TOP 500 Supercomputer Sites</title>
+		<imprint>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">2021. TOP 500 Supercomputer Sites. http://www.top500.org.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,228.24,224.81,6.97;7,333.39,236.21,225.58,6.97;7,333.39,244.18,14.51,6.97" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coord="7,349.36,228.24,208.84,6.97;7,333.39,236.21,58.44,6.97" xml:id="_EdGCgMd">Frontier: ORNL&apos;s exascale supercomputer designed to deliver world-leading performance in 2021</title>
+		<idno type="DOI">10.46936/incite/60012471</idno>
+		<ptr target="https://www.olcf.ornl.gov/frontier/" />
+		<imprint>
+			<date type="published" when="2022-06-13">2022. June 13, 2022</date>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">2022. Frontier: ORNL&apos;s exascale supercomputer designed to deliver world-leading performance in 2021. https://www.olcf.ornl.gov/frontier/. Accessed: June 13, 2022.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,252.15,225.63,6.97;7,333.15,260.12,225.06,6.97;7,333.39,268.72,224.81,6.23;7,333.39,276.06,163.13,6.97" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="7,527.31,252.15,31.71,6.97;7,333.15,260.12,213.91,6.97" xml:id="_EswRw3k">OMB-GPU: A Micro-Benchmark Suite for Evaluating MPI Libraries on GPU Clusters</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Bureddy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Venkatesh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Potluri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">K</forename><surname>Panda</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-33518-1_16</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_tpmEZSS" coord="7,333.39,268.72,224.81,6.23;7,333.39,276.69,46.48,6.23">Recent Advances in the Message Passing Interface</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="110" to="120" />
+		</imprint>
+	</monogr>
+	<note>EuroMPI&apos;12</note>
+	<note type="raw_reference">D. Bureddy, H. Wang, A. Venkatesh, S. Potluri, and D. K. Panda. 2012. OMB-GPU: A Micro-benchmark Suite for Evaluating MPI Libraries on GPU Clusters. In Proceedings of the 19th European Conference on Recent Advances in the Message Passing Interface (Vienna, Austria) (EuroMPI&apos;12). 110-120.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,284.03,225.58,6.97;7,333.39,292.00,225.89,6.97;7,333.39,299.97,225.57,6.97;7,333.39,307.94,203.02,6.97" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="7,410.40,292.00,145.97,6.97" xml:id="_KQJBPBz">An In-Depth Analysis of the Slingshot Interconnect</title>
+		<author>
+			<persName coords=""><forename type="first">Daniele</forename><forename type="middle">De</forename><surname>Sensi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Salvatore</forename><forename type="middle">Di</forename><surname>Girolamo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kim</forename><forename type="middle">H</forename><surname>Mcmahon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Duncan</forename><surname>Roweth</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Torsten</forename><surname>Hoefler</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SC41405.2020.00039</idno>
+		<ptr target="https://doi.org/10.1109/SC41405.2020.00039" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_4Cb73kq" coord="7,341.05,300.60,217.91,6.23;7,333.39,308.57,56.59,6.23">SC20: International Conference for High Performance Computing, Networking, Storage and Analysis</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Daniele De Sensi, Salvatore Di Girolamo, Kim H. McMahon, Duncan Roweth, and Torsten Hoefler. 2020. An In-Depth Analysis of the Slingshot Interconnect. In SC20: International Conference for High Performance Computing, Networking, Storage and Analysis. 1-14. https://doi.org/10.1109/SC41405.2020.00039</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,315.91,225.58,6.97;7,333.28,323.88,225.18,6.97;7,333.39,331.85,225.88,6.97;7,333.06,339.82,225.14,6.97;7,333.39,347.79,225.88,6.97;7,333.39,355.76,79.48,6.97" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="7,376.12,339.82,182.08,6.97;7,333.39,347.79,44.45,6.97" xml:id="_KcFzh4J">Open MPI: Goals, Concept, and Design of a Next Generation MPI Implementation</title>
+		<author>
+			<persName coords=""><forename type="first">Edgar</forename><surname>Gabriel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Graham</forename><forename type="middle">E</forename><surname>Fagg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">George</forename><surname>Bosilca</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Thara</forename><surname>Angskun</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jack</forename><forename type="middle">J</forename><surname>Dongarra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Squyres</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vishal</forename><surname>Sahay</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Prabhanjan</forename><surname>Kambadur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brian</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andrew</forename><surname>Lumsdaine</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ralph</forename><forename type="middle">H</forename><surname>Castain</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">J</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><forename type="middle">L</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Timothy</forename><forename type="middle">S</forename><surname>Woodall</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-540-30218-6_19</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_YHjk3SS" coord="7,390.47,348.42,165.79,6.23">Recent Advances in Parallel Virtual Machine and Message Passing Interface</title>
+		<meeting><address><addrLine>Budapest, Hungary</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page" from="97" to="104" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edgar Gabriel, Graham E. Fagg, George Bosilca, Thara Angskun, Jack J. Dongarra, Jeffrey M. Squyres, Vishal Sahay, Prabhanjan Kambadur, Brian Barrett, Andrew Lumsdaine, Ralph H. Castain, David J. Daniel, Richard L. Graham, and Timothy S. Woodall. 2004. Open MPI: Goals, Concept, and Design of a Next Generation MPI Implementation. In Proceedings, 11th European PVM/MPI Users&apos; Group Meeting. Budapest, Hungary, 97-104.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,363.73,44.00,6.97;7,426.82,363.73,132.45,6.97;7,333.39,371.70,205.89,6.97;7,333.15,379.67,68.23,6.97" xml:id="b8">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Hpe</surname></persName>
+		</author>
+		<idno type="DOI">10.33910/2686-9527-2022-4-4</idno>
+		<ptr target="https://www.hpe.com/us/en/compute/hpc/slingshot-interconnect.html" />
+		<title level="m" xml:id="_hbj73dy" coord="7,426.82,363.73,128.36,6.97">HPE SLINGSHOT INTERCONNECT</title>
+		<imprint>
+			<publisher>Herzen State Pedagogical University of Russia</publisher>
+			<date type="published" when="2022-06-13">2022. June 13, 2022</date>
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HPE. 2022. HPE SLINGSHOT INTERCONNECT. https://www.hpe.com/us/en/compute/hpc/slingshot-interconnect.html. Accessed: June 13, 2022.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,387.64,225.99,6.97;7,333.39,395.61,224.81,6.97;7,333.39,403.58,200.66,6.97" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="7,522.95,387.64,36.43,6.97;7,333.39,395.61,126.92,6.97" xml:id="_3hYghQK">Technology-Driven, Highly-Scalable Dragonfly Topology</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wiliam</forename><forename type="middle">J</forename><surname>Dally</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Steve</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dennis</forename><surname>Abts</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/isca.2008.19</idno>
+		<ptr target="https://doi.org/10.1109/ISCA.2008.19" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FfdbwhD" coord="7,472.90,396.24,85.31,6.23;7,333.39,404.21,70.08,6.23">2008 International Symposium on Computer Architecture</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2008-06">2008</date>
+			<biblScope unit="page" from="77" to="88" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John Kim, Wiliam J. Dally, Steve Scott, and Dennis Abts. 2008. Technology- Driven, Highly-Scalable Dragonfly Topology. In 2008 International Symposium on Computer Architecture. 77-88. https://doi.org/10.1109/ISCA.2008.19</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,411.55,224.99,6.97;7,333.39,419.52,225.88,6.97;7,333.39,427.49,103.11,6.97" xml:id="b10">
+	<monogr>
+		<title level="m" type="main" coord="7,542.98,411.55,15.40,6.97;7,333.39,419.52,192.13,6.97" xml:id="_ZFMPd5Q">Early Experiences Evaluating the HPE/Cray Ecosystem for AMD GPUs</title>
+		<author>
+			<persName coords=""><forename type="first">Veronica Melesse</forename><surname>Vergara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Reuben</forename><surname>Budiardja</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wayne</forename><surname>Joubert</surname></persName>
+		</author>
+		<ptr target="https://www.osti.gov/biblio/1817474" />
+		<imprint>
+			<date type="published" when="2021-07">2021. 7 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Veronica Melesse Vergara, Reuben Budiardja, and Wayne Joubert. 2021. Early Experiences Evaluating the HPE/Cray Ecosystem for AMD GPUs. (7 2021). https://www.osti.gov/biblio/1817474</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,435.46,42.49,6.97;7,406.00,435.46,153.27,6.97;7,333.39,443.44,208.42,6.97;7,333.39,451.41,145.29,6.97" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="7,406.00,435.46,148.92,6.97" xml:id="_GqUmWk8">HPE CRAY MPI -SPOCK WORKSHOP</title>
+		<author>
+			<persName coords=""><surname>Olcf</surname></persName>
+		</author>
+		<ptr target="https://www.olcf.ornl.gov/wp-content/uploads/2021/04/HPE-Cray-MPI-Update-nfr-presented.pdf" />
+		<imprint>
+			<date type="published" when="2021-06-13">2021. June 13, 2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">OLCF. 2021. HPE CRAY MPI -SPOCK WORKSHOP. https://www.olcf.ornl.gov/wp-content/uploads/2021/04/HPE-Cray-MPI- Update-nfr-presented.pdf. Accessed: June 13, 2022.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,459.38,225.88,6.97;7,333.39,467.35,145.96,6.97" xml:id="b12">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Olcf</surname></persName>
+		</author>
+		<idno type="DOI">10.46936/incite/60012477</idno>
+		<ptr target="https://www.olcf.ornl.gov" />
+		<title level="m" xml:id="_9Dy88Vz" coord="7,466.83,459.38,89.89,6.97">Leadership Computing Facility</title>
+		<imprint>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<date type="published" when="2022-06-13">2022. June 13, 2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>Oakridge National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">OLCF. 2022. Oakridge National Laboratory: Leadership Computing Facility. https://www.olcf.ornl.gov. Accessed: June 13, 2022.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,475.32,18.36,6.97;7,370.80,475.32,14.80,6.97;7,451.11,475.32,17.51,6.97;7,487.67,475.32,33.63,6.97;7,540.35,475.32,18.92,6.97;7,333.39,483.29,225.63,6.97;7,333.28,491.26,38.86,6.97" xml:id="b13">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Olcf</surname></persName>
+		</author>
+		<ptr target="https://docs.olcf.ornl.gov/systems/spock_quick_start_guide.html" />
+		<title level="m" xml:id="_MBFZBxH" coord="7,451.11,475.32,17.51,6.97;7,487.67,475.32,33.63,6.97;7,540.35,475.32,15.77,6.97">Spock Quick-Start Guide</title>
+		<imprint>
+			<date type="published" when="2022-06-13">2022. June 13, 2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">OLCF. 2022. Spock Quick-Start Guide. https://docs.olcf.ornl.gov/systems/spock_quick_start_guide.html. Accessed: June 13, 2022.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,499.23,225.99,6.97;7,333.39,507.20,224.81,6.97;7,333.39,515.17,224.81,6.97;7,333.39,523.14,184.56,6.97" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="7,410.02,507.20,148.19,6.97;7,333.39,515.17,146.04,6.97" xml:id="_tfE29DJ">The MVAPICH project: Transforming research into high-performance MPI library for HPC community</title>
+		<author>
+			<persName coords=""><forename type="first">Dhabaleswar</forename><surname>Kumar Panda</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hari</forename><surname>Subramoni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ching-Hsiang</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mohammadreza</forename><surname>Bayatpour</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jocs.2020.101208</idno>
+		<ptr target="https://doi.org/10.1016/j.jocs.2020.101208" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XTXUVbH" coord="7,485.52,515.79,72.68,6.23;7,333.39,523.76,19.72,6.23">Journal of Computational Science</title>
+		<imprint>
+			<biblScope unit="page">101208</biblScope>
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dhabaleswar Kumar Panda, Hari Subramoni, Ching-Hsiang Chu, and Moham- madreza Bayatpour. 2020. The MVAPICH project: Transforming research into high-performance MPI library for HPC community. Journal of Computational Science (2020), 101208. https://doi.org/10.1016/j.jocs.2020.101208</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,531.11,224.81,6.97;7,333.39,539.08,225.99,6.97;7,332.89,547.05,225.31,6.97;7,333.39,555.02,224.81,6.97;7,333.39,562.99,205.95,6.97" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="7,501.07,539.08,58.31,6.97;7,332.89,547.05,160.18,6.97" xml:id="_rfKVeFm">Designing a ROCm-Aware MPI Library for AMD GPUs: Early Experiences</title>
+		<author>
+			<persName><forename type="first">Kawthar</forename><surname>Shafie Khorassani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jahanzeb</forename><surname>Hashmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ching-Hsiang</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chen-Chun</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hari</forename><surname>Subramoni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dhabaleswar</forename><forename type="middle">K</forename><surname>Panda</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-78713-4_7</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uN6yj9c" coord="7,506.79,547.67,51.41,6.23;7,333.39,555.64,28.98,6.23">Lecture Notes in Computer Science</title>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Bradford</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Ana-Lucia</forename><surname>Chamberlain</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Hatem</forename><surname>Varbanescu</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Piotr</forename><surname>Ltaief</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Luszczek</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="118" to="136" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kawthar Shafie Khorassani, Jahanzeb Hashmi, Ching-Hsiang Chu, Chen-Chun Chen, Hari Subramoni, and Dhabaleswar K. Panda. 2021. Designing a ROCm- Aware MPI Library for AMD GPUs: Early Experiences. In High Performance Computing, Bradford L. Chamberlain, Ana-Lucia Varbanescu, Hatem Ltaief, and Piotr Luszczek (Eds.). Springer International Publishing, Cham, 118-136.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,570.96,224.81,6.97;7,333.39,578.93,224.81,6.97;7,333.39,586.90,225.88,6.97;7,333.23,594.87,204.33,6.97" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="7,512.12,570.96,46.08,6.97;7,333.39,578.93,139.62,6.97" xml:id="_bv9ye4X">Optimization of Collective Communication Operations in MPICH</title>
+		<author>
+			<persName coords=""><forename type="first">Rajeev</forename><surname>Thakur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rolf</forename><surname>Rabenseifner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">William</forename><surname>Gropp</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1094342005051521</idno>
+		<ptr target="https://doi.org/10.1177/1094342005051521" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DCmXAka" coord="7,479.37,579.55,78.83,6.23;7,333.39,587.53,116.79,6.23">The International Journal of High Performance Computing Applications</title>
+		<title level="j" type="abbrev">The International Journal of High Performance Computing Applications</title>
+		<idno type="ISSN">1094-3420</idno>
+		<idno type="ISSNe">1741-2846</idno>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="66" />
+			<date type="published" when="2005-02">2005. 2005</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rajeev Thakur, Rolf Rabenseifner, and William Gropp. 2005. Optimization of Collective Communication Operations in MPICH. The International Journal of High Performance Computing Applications 19, 1 (2005), 49-66. https://doi.org/10. 1177/1094342005051521 arXiv:https://doi.org/10.1177/1094342005051521</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

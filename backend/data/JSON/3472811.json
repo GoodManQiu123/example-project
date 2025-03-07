@@ -1,0 +1,879 @@
+{
+    "metadata": {
+        "title": "Analyzing the Direct and Transitive Impact of Vulnerabilities onto Different Artifact Repositories",
+        "doi": "10.1145/3472811",
+        "publisher": "Association for Computing Machinery (ACM)",
+        "journal": "Digital Threats: Research and Practice",
+        "published_date": "2022-02-07"
+    },
+    "content": {
+        "abstract": "In modern-day software development, a vast amount of public software libraries enable the reuse of existing implementations for reoccurring tasks and common problems. While this practice does yield signiicant beneits in productivity, it also puts an increasing amount of responsibility on library maintainers. If a security law is contained in a library release, it may directly afect thousands of applications that are depending on it. Given the fact that libraries are often interconnected, meaning they are depending on other libraries for certain sub-tasks, the impact of a single vulnerability may be large, and is hard to quantify. Recent studies have shown that developers in fact struggle with upgrading vulnerable dependencies, despite ever-increasing support by automated tools, which are often publicly available. With our work, we aim to improve on this situation by providing an in-depth analysis on how developers handle vulnerability patches and dependency upgrades. In order to do so, we contribute a miner for artifact dependency graphs supporting diferent programming platforms, which annotates the graph with vulnerability information. We execute our application and generate a data set for the artifact repositories Maven Central, NuGet.org, and the NPM Registry, with the resulting graph being stored in a Neo4j graph database. Afterwards, we conduct an extensive analysis of our data, which is aimed at understanding the impact of vulnerabilities for the three diferent repositories. Finally, we summarize the resulting risks and derive possible mitigation strategies for library maintainers and software developers based on our indings. We found that NuGet.org, the smallest artifact repository in our sample, is subject to fewer security concerns than Maven Central or the NPM Registry. However, for all repositories, we found that vulnerabilities may inluence libraries via long transitive dependency chains and that a vulnerability in a single library may afect thousands of other libraries transitively. CCS Concepts: \u2022 Security and privacy   Vulnerability management.",
+        "keywords": [
+            "vulnerability",
+            "repository",
+            "impact",
+            "library",
+            "artifact",
+            "graph",
+            "dependency",
+            "different",
+            "transitive",
+            "patch",
+            "mining",
+            "detection",
+            "analysis",
+            "direct"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Johannes D\u00fcsing",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Ben Hermann",
+            "affiliation": null,
+            "email": "ben.hermann@cs.tu-dortmund.de."
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Abdalkareem",
+                    "given": "Rabe"
+                },
+                {
+                    "family": "Oda",
+                    "given": "Vinicius"
+                },
+                {
+                    "family": "Mujahid",
+                    "given": "Suhaib"
+                },
+                {
+                    "family": "Shihab",
+                    "given": "Emad"
+                }
+            ],
+            "title": "On the impact of using trivial packages: an empirical case study on npm and PyPI",
+            "type": "article-journal",
+            "container_title": [
+                "Empirical Software Engineering"
+            ],
+            "doi": "10.1007/s10664-019-09792-9",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Alqahtani",
+                    "given": "Sultan S."
+                },
+                {
+                    "family": "Eghan",
+                    "given": "Ellis E."
+                },
+                {
+                    "family": "Rilling",
+                    "given": "Juergen"
+                }
+            ],
+            "title": "Tracing known security vulnerabilities in software repositories \u00e2\u0102\u015e A Semantic Web enabled modeling approach",
+            "type": "article-journal",
+            "container_title": [
+                "Science of Computer Programming"
+            ],
+            "doi": "10.1016/j.scico.2016.",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bavota",
+                    "given": "Gabriele"
+                },
+                {
+                    "family": "Canfora",
+                    "given": "Gerardo"
+                },
+                {
+                    "family": "Penta",
+                    "given": "Massimiliano",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Oliveto",
+                    "given": "Rocco"
+                },
+                {
+                    "family": "Panichella",
+                    "given": "Sebastiano"
+                }
+            ],
+            "title": "How the Apache community upgrades dependencies: an evolutionary study",
+            "type": "article-journal",
+            "container_title": [
+                "Empirical Software Engineering"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Benelallam",
+                    "given": "Amine"
+                },
+                {
+                    "family": "Harrand",
+                    "given": "Nicolas"
+                },
+                {
+                    "family": "Soto-Valero",
+                    "given": "C\u00e9sar"
+                },
+                {
+                    "family": "Baudry",
+                    "given": "Benoit"
+                },
+                {
+                    "family": "Barais",
+                    "given": "Olivier"
+                }
+            ],
+            "title": "The Maven Dependency Graph: A Temporal Graph-Based Representation of Maven Central",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 16th International Conference on Mining Software Repositories"
+            ],
+            "doi": "10.1109/MSR.2019.00060",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Boehm",
+                    "given": "B."
+                }
+            ],
+            "title": "Managing software productivity and reuse",
+            "type": "article-journal",
+            "container_title": [
+                "Computer"
+            ],
+            "doi": "10.1109/2.789755",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Boldi",
+                    "given": "Paolo"
+                },
+                {
+                    "family": "Gousios",
+                    "given": "Georgios"
+                }
+            ],
+            "title": "Fine-Grained Network Analysis for Modern Software Ecosystems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Transactions on Internet Technology"
+            ],
+            "doi": "10.1145/3418209",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chinthanet",
+                    "given": "Bodin"
+                },
+                {
+                    "family": "Kula",
+                    "given": "Raula Gaikovina"
+                },
+                {
+                    "family": "McIntosh",
+                    "given": "Shane"
+                },
+                {
+                    "family": "Ishio",
+                    "given": "Takashi"
+                },
+                {
+                    "family": "Ihara",
+                    "given": "Akinori"
+                },
+                {
+                    "family": "Matsumoto",
+                    "given": "Kenichi"
+                }
+            ],
+            "title": "Lags in the release, adoption, and propagation of npm vulnerability ixes",
+            "type": "article-journal",
+            "container_title": [
+                "Empirical Software Engineering"
+            ],
+            "doi": "10.1007/s10664-021-09951-x",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Corporation",
+                    "given": "M.I.T.R.E."
+                }
+            ],
+            "title": "CVE and NVD Relationship",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Corporation",
+                    "given": "M.I.T.R.E."
+                }
+            ],
+            "title": "CVE List Home",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Decan",
+                    "given": "Alexandre"
+                },
+                {
+                    "family": "Mens",
+                    "given": "Tom"
+                },
+                {
+                    "family": "Constantinou",
+                    "given": "Eleni"
+                }
+            ],
+            "title": "On the Impact of Security Vulnerabilities in the npm Package Dependency Network",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 15th International Conference on Mining Software Repositories (Gothenburg"
+            ],
+            "doi": "10.1145/3196398.3196401",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Decan",
+                    "given": "Alexandre"
+                },
+                {
+                    "family": "Mens",
+                    "given": "Tom"
+                },
+                {
+                    "family": "Grosjean",
+                    "given": "Philippe"
+                }
+            ],
+            "title": "An empirical comparison of dependency network evolution in seven software packaging ecosystems",
+            "type": "article-journal",
+            "container_title": [
+                "Empirical Software Engineering"
+            ],
+            "doi": "10.1007/s10664-017-9589-y",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "D\u00c3ijsing",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Hermann",
+                    "given": "Ben"
+                }
+            ],
+            "title": "sse-labs/dependency-graph-miner: Full Release for Final Paper",
+            "type": null,
+            "container_title": "",
+            "doi": "10.5281/zenodo.5040439",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zapata",
+                    "given": "Rodrigo Elizalde"
+                },
+                {
+                    "family": "Kula",
+                    "given": "Raula Gaikovina"
+                },
+                {
+                    "family": "Chinthanet",
+                    "given": "Bodin"
+                },
+                {
+                    "family": "Ishio",
+                    "given": "Takashi"
+                },
+                {
+                    "family": "Matsumoto",
+                    "given": "Kenichi"
+                },
+                {
+                    "family": "Ihara",
+                    "given": "Akinori"
+                }
+            ],
+            "title": "Towards Smoother Library Migrations: A Look at Vulnerable Dependency Migrations at Function Level for npm JavaScript Packages",
+            "type": "paper-conference",
+            "container_title": [
+                "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME). 559\u015b563"
+            ],
+            "doi": "10.1109/ICSME.2018.00067",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Foundation",
+                    "given": "Apache Software"
+                }
+            ],
+            "title": "Maven -Introduction",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Frei",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Schatzmann",
+                    "given": "Dominik"
+                },
+                {
+                    "family": "Plattner",
+                    "given": "Bernhard"
+                },
+                {
+                    "family": "Trammell",
+                    "given": "Brian"
+                }
+            ],
+            "title": "Modeling the Security Ecosystem -The Dynamics of",
+            "type": null,
+            "container_title": "",
+            "doi": "10.1007/978-1-4419-6967-5_6",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gkortzis",
+                    "given": "Antonios"
+                },
+                {
+                    "family": "Feitosa",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Spinellis",
+                    "given": "Diomidis"
+                }
+            ],
+            "title": "A Double-Edged Sword? Software Reuse and Potential Security Vulnerabilities",
+            "type": "chapter",
+            "container_title": [
+                "Reuse in the Big Data Era"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Hackerone"
+                }
+            ],
+            "title": "Hack the Pentagon",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heinemann",
+                    "given": "Lars"
+                },
+                {
+                    "family": "Deissenboeck",
+                    "given": "Florian"
+                },
+                {
+                    "family": "Gleirscher",
+                    "given": "Mario"
+                },
+                {
+                    "family": "Hummel",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Irlbeck",
+                    "given": "Maximilian"
+                }
+            ],
+            "title": "On the Extent and Nature of Software Reuse in Open Source Java Projects",
+            "type": "article-journal",
+            "container_title": [
+                "Top Productivity through Software Reuse: 12th International Conference on Software Reuse",
+                "South Korea"
+            ],
+            "doi": "10.1007/978-3-642-21347-2_16",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Inc",
+                    "given": "N.P.M."
+                }
+            ],
+            "title": "About NPM",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kula",
+                    "given": "Raula Gaikovina"
+                },
+                {
+                    "family": "German",
+                    "given": "Daniel M."
+                },
+                {
+                    "family": "Ouni",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Ishio",
+                    "given": "Takashi"
+                },
+                {
+                    "family": "Inoue",
+                    "given": "Katsuro"
+                }
+            ],
+            "title": "Do developers update their library dependencies?",
+            "type": "article-journal",
+            "container_title": [
+                "Empirical Software Engineering"
+            ],
+            "doi": "10.1007/s10664-017-9521-5",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lawrence",
+                    "given": "Gabriel"
+                },
+                {
+                    "family": "Frohof",
+                    "given": "Chris"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "XXXX"
+        },
+        {
+            "authors": [],
+            "title": "Marshalling Pickles -How Deserializing Objects Can Ruin Your Day",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lim",
+                    "given": "W.C."
+                }
+            ],
+            "title": "Efects of reuse on quality, productivity, and economics",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Software"
+            ],
+            "doi": "10.1109/52.",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Limited",
+                    "given": "Snyk"
+                }
+            ],
+            "title": "Snyk -Disclosing vulnerabilities",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Limited",
+                    "given": "Snyk"
+                }
+            ],
+            "title": "Snyk Intel Vulnerability Database",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Microsoft"
+                }
+            ],
+            "title": "An introduction to NuGet",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Microsoft"
+                }
+            ],
+            "title": "Create .NET apps faster with NuGet",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Microsoft"
+                }
+            ],
+            "title": "Microsoft Online Services Bounty Program",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "MvnRepository"
+                }
+            ],
+            "title": "Central Repository",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "given": "MvnRepository"
+                }
+            ],
+            "title": "Jackson Databind. mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Oracle"
+                }
+            ],
+            "title": "Understanding Maven Version Numbers",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pashchenko",
+                    "given": "Ivan"
+                },
+                {
+                    "family": "Plate",
+                    "given": "Henrik"
+                },
+                {
+                    "family": "Ponta",
+                    "given": "Serena Elisa"
+                },
+                {
+                    "family": "Sabetta",
+                    "given": "Antonino"
+                },
+                {
+                    "family": "Massacci",
+                    "given": "Fabio"
+                }
+            ],
+            "title": "Vulnerable Open Source Dependencies: Counting Those That Matter",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the 12th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement",
+                "Article"
+            ],
+            "doi": "10.1145/3239235.3268920",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pashchenko",
+                    "given": "I."
+                },
+                {
+                    "family": "Plate",
+                    "given": "H."
+                },
+                {
+                    "family": "Ponta",
+                    "given": "S.E."
+                },
+                {
+                    "family": "Sabetta",
+                    "given": "A."
+                },
+                {
+                    "family": "Massacci",
+                    "given": "F."
+                }
+            ],
+            "title": "Vuln4Real: A Methodology for Counting Actually Vulnerable Dependencies",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Software Engineering"
+            ],
+            "doi": "10.1109/TSE.2020.3025443",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pashchenko",
+                    "given": "Ivan"
+                },
+                {
+                    "family": "Vu",
+                    "given": "Duc-Ly"
+                },
+                {
+                    "family": "Massacci",
+                    "given": "Fabio"
+                }
+            ],
+            "title": "A Qualitative Study of Dependency Management and Its Security Implications",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security (Virtual Event, USA) (CCS '20"
+            ],
+            "doi": "10.1145/3372297.3417232",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pittenger",
+                    "given": "Mike"
+                }
+            ],
+            "title": "The State of Open Source Security in Commercial Applications",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ponta",
+                    "given": "S.E."
+                },
+                {
+                    "family": "Plate",
+                    "given": "H."
+                },
+                {
+                    "family": "Sabetta",
+                    "given": "A."
+                }
+            ],
+            "title": "Beyond Metadata: Code-Centric and Usage-Based Analysis of Known Vulnerabilities in Open-Source Software",
+            "type": "paper-conference",
+            "container_title": [
+                "2018 IEEE International Conference on Software Maintenance and Evolution (ICSME). 449\u015b460"
+            ],
+            "doi": "10.1109/ICSME.2018.00054",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ponta",
+                    "given": "Serena Elisa"
+                },
+                {
+                    "family": "Plate",
+                    "given": "Henrik"
+                },
+                {
+                    "family": "Sabetta",
+                    "given": "Antonino"
+                }
+            ],
+            "title": "Detection, assessment and mitigation of vulnerabilities in open source dependencies",
+            "type": "article-journal",
+            "container_title": [
+                "Empirical Software Engineering"
+            ],
+            "doi": "10.1007/s10664-020-09830-x",
+            "published_date": "2020"
+        },
+        {
+            "authors": [],
+            "title": "Open Web Application Security ProjectDependency-Check Maven",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ruohonen",
+                    "given": "J."
+                }
+            ],
+            "title": "An Empirical Analysis of Vulnerabilities in Python Packages for Web Applications",
+            "type": "chapter",
+            "container_title": [
+                "2018 9th International Workshop on Empirical Software Engineering in Practice (IWESEP"
+            ],
+            "doi": "10.1109/IWESEP.2018.00013",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shahzad",
+                    "given": "M."
+                },
+                {
+                    "family": "Shaiq",
+                    "given": "M.Z."
+                },
+                {
+                    "family": "Liu",
+                    "given": "A.X."
+                }
+            ],
+            "title": "A large scale exploratory analysis of software vulnerability life cycles",
+            "type": "paper-conference",
+            "container_title": [
+                "2012 34th International Conference on Software Engineering (ICSE"
+            ],
+            "doi": "10.1109/ICSE.2012.6227141",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Soto-Valero",
+                    "given": "C\u00c3\u013esar"
+                },
+                {
+                    "family": "Harrand",
+                    "given": "Nicolas"
+                },
+                {
+                    "family": "Monperrus",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Baudry",
+                    "given": "Benoit"
+                }
+            ],
+            "title": "A comprehensive study of bloated dependencies in the Maven ecosystem",
+            "type": "article-journal",
+            "container_title": [
+                "Empirical Software Engineering"
+            ],
+            "doi": "10.1007/s10664-020-09914-8",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Synopsys",
+                    "given": "Inc"
+                }
+            ],
+            "title": "Open Source Security and Risk Analysis Report",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Team",
+                    "given": "N.P.M.Security"
+                }
+            ],
+            "title": "Security Holding Package",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        }
+    ]
+}

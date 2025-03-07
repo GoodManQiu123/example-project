@@ -1,0 +1,1086 @@
+{
+    "metadata": {
+        "title": "A Lightweight Data Location Service for Nondeterministic Exascale Storage Systems",
+        "doi": "10.1145/2629451",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "In this article, we present LWDLS, a lightweight data location service designed for Exascale storage systems (storage systems with order of 10 18 bytes) and geo-distributed storage systems (large storage systems with physically distributed locations). LWDLS provides a search-based data location solution, and enables free data placement, movement, and replication. In LWDLS, probe and prune protocols are introduced that reduce topology mismatch, and a heuristic flooding search algorithm (HFS) is presented that achieves higher search efficiency than pure flooding search while having comparable search speed and coverage to the pure flooding search. LWDLS is lightweight and scalable in terms of incorporating low overhead, high search efficiency, no global state, and avoiding periodic messages. LWDLS is fully distributed and can be used in nondeterministic storage systems and in deterministic storage systems to deal with cases where search is needed. Extensive simulations modeling large-scale High Performance Computing (HPC) storage environments provide representative performance outcomes. Performance is evaluated by metrics including search scope, search efficiency, and average neighbor distance. Results show that LWDLS is able to locate data efficiently with low cost of state maintenance in arbitrary network environments. Through these simulations, we demonstrate the effectiveness of protocols and search algorithm of LWDLS.",
+        "keywords": [
+            "network",
+            "service",
+            "data",
+            "location",
+            "system",
+            "search",
+            "lightweight",
+            "efficient",
+            "exascale",
+            "nondeterministic",
+            "lwdls",
+            "computercommunication",
+            "storage"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Zhiwei Sun",
+            "affiliation": "Sandia National Laboratories",
+            "email": "zhwsun@uab.edu"
+        },
+        {
+            "name": "Anthony Skjellum",
+            "affiliation": "Sandia National Laboratories",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Bent",
+                    "given": "John"
+                },
+                {
+                    "family": "Gibson",
+                    "given": "Garth"
+                },
+                {
+                    "family": "Grider",
+                    "given": "Gary"
+                },
+                {
+                    "family": "McClelland",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Nowoczynski",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Nunez",
+                    "given": "James"
+                },
+                {
+                    "family": "Polte",
+                    "given": "Milo"
+                },
+                {
+                    "family": "Wingate",
+                    "given": "Meghan"
+                }
+            ],
+            "title": "PLFS: A checkpoint filesystem for parallel applications",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis"
+            ],
+            "doi": "10.1145/1654059.1654081",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brandstatter",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Dongfang"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Ke"
+                },
+                {
+                    "family": "Rajendran",
+                    "given": "Anupam"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Zhao"
+                },
+                {
+                    "family": "Raicu",
+                    "given": "Ioan"
+                },
+                {
+                    "family": "Li",
+                    "given": "Tonglin"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Xiaobing"
+                }
+            ],
+            "title": "ZHT: A light-weight reliable persistent dynamic scalable zero-hop distributed hash table",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE International Parallel & Distributed Processing Symposium (IPDPS'13"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Buford",
+                    "given": "John"
+                }
+            ],
+            "title": "Microsoft PowerPoint -JBuford-IETF-P2PSIP-Overlay-Systems-v3.ppt-IETF64 P2PSIP AdHoc P2P Overview Buford.pdfIETF64 P2PSIP AdHoc P2P Overview Buford.pdf",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Carns",
+                    "given": "Philip H."
+                },
+                {
+                    "family": "Walter B. Ligon",
+                    "given": "Robert B.Ross",
+                    "suffix": "III"
+                },
+                {
+                    "family": "Thakur",
+                    "given": "Rajeev"
+                }
+            ],
+            "title": "PVFS: A parallel file system for linux clusters",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 4th Annual Linux Showcase and Conference"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chawathe",
+                    "given": "Yatin"
+                },
+                {
+                    "family": "Ratnasamy",
+                    "given": "Sylvia"
+                },
+                {
+                    "family": "Breslau",
+                    "given": "Lee"
+                },
+                {
+                    "family": "Lanham",
+                    "given": "Nick"
+                },
+                {
+                    "family": "Shenker",
+                    "given": "Scott"
+                }
+            ],
+            "title": "Making gnutella-like P2P systems scalable",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Conference on Applications, Technologies, Architectures, and Protocols for Computer Communications (SIGCOMM'03). ACM"
+            ],
+            "doi": "10.1145/863955.864000",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cris\u00f3stomo",
+                    "given": "S\u00e9rgio"
+                },
+                {
+                    "family": "Schilcher",
+                    "given": "Udo"
+                },
+                {
+                    "family": "Bettstetter",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Barros",
+                    "given": "Jo",
+                    "particle": "\u00e3o"
+                }
+            ],
+            "title": "Probabilistic flooding in stochastic networks: Analysis of global information outreach",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Netw"
+            ],
+            "doi": "10.1016/j.comnet.2011.08.014",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Curry",
+                    "given": "Matthew L."
+                },
+                {
+                    "family": "Klundt",
+                    "given": "Ruth"
+                },
+                {
+                    "family": "Ward",
+                    "given": "H.Lee"
+                }
+            ],
+            "title": "Using the Sirocco file system for high-bandwidth checkpoints",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "DeCandia",
+                    "given": "Giuseppe"
+                },
+                {
+                    "family": "Hastorun",
+                    "given": "Deniz"
+                },
+                {
+                    "family": "Jampani",
+                    "given": "Madan"
+                },
+                {
+                    "family": "Kakulapati",
+                    "given": "Gunavardhan"
+                },
+                {
+                    "family": "Lakshman",
+                    "given": "Avinash"
+                },
+                {
+                    "family": "Pilchin",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Sivasubramanian",
+                    "given": "Swaminathan"
+                },
+                {
+                    "family": "Vosshall",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Vogels",
+                    "given": "Werner"
+                }
+            ],
+            "title": "Dynamo: Amazon's highly available key-value store",
+            "type": "article-journal",
+            "container_title": [
+                "SIGOPS Oper. Syst. Rev"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Denzel",
+                    "given": "Wolfgang E."
+                },
+                {
+                    "family": "Li",
+                    "given": "Jian"
+                },
+                {
+                    "family": "Walker",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Yuho"
+                }
+            ],
+            "title": "A framework for end-to-end simulation of high-performance computing systems",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the 1st International Conference on Simulation Tools and Techniques for Communications, Networks and Systems & Workshops (Simutools'08). ICST"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dongarra",
+                    "given": "Jack"
+                }
+            ],
+            "title": "Impact of architecture and technology for extreme scale on software and algorithm de-sign",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Department of Energy Workshop on Cross-Cutting Technologies for Computing at the Exascale"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gaeta",
+                    "given": "Rossano"
+                },
+                {
+                    "family": "Sereno",
+                    "given": "Matteo"
+                }
+            ],
+            "title": "Generalized probabilistic flooding in unstructured peer-to-peer networks",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Parallel Distrib. Syst"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ghemawat",
+                    "given": "Sanjay"
+                },
+                {
+                    "family": "Gobioff",
+                    "given": "Howard"
+                },
+                {
+                    "family": "Leung",
+                    "given": "Shun-Tak"
+                }
+            ],
+            "title": "The Google file system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 19th ACM Symposium on Operating Systems Principles. ACM"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gkantsidis",
+                    "given": "Christos"
+                },
+                {
+                    "family": "Mihail",
+                    "given": "Milena"
+                },
+                {
+                    "family": "Saberi",
+                    "given": "Amin"
+                }
+            ],
+            "title": "Hybrid search schemes for unstructured peer-to-peer networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 24th Annual Joint Conference of the IEEE Computer and Com-munications Societies (INFOCom'05"
+            ],
+            "doi": "10.1109/INFCOM.2005.",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gupta",
+                    "given": "Anjali"
+                },
+                {
+                    "family": "Liskov",
+                    "given": "Barbara"
+                },
+                {
+                    "family": "Rodrigues",
+                    "given": "Rodrigo"
+                }
+            ],
+            "title": "One hop lookups for peer-to-peer overlays",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the 9th Conference on Hot Topics in Operating Systems"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jiang",
+                    "given": "Song"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Lei"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Xiaodong"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Haodong"
+                }
+            ],
+            "title": "LightFlood: Minimizing redundant mes-sages and maximizing scope of peer-to-peer search",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Parallel Distrib. Syst"
+            ],
+            "doi": "10.1109/TPDS.2007.70772",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Ketama"
+                }
+            ],
+            "title": "Ketama",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lakshman",
+                    "given": "Avinash"
+                },
+                {
+                    "family": "Malik",
+                    "given": "Prashant"
+                }
+            ],
+            "title": "Cassandra: A decentralized structured storage system",
+            "type": "article-journal",
+            "container_title": [
+                "SIGOPS Oper. Syst. Rev"
+            ],
+            "doi": "10.1145/1773912.1773922",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lin",
+                    "given": "Tsungnan"
+                },
+                {
+                    "family": "Lin",
+                    "given": "Pochiang"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Hsinping"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Chiahung"
+                }
+            ],
+            "title": "Dynamic search algorithm in unstructured peer-to-peer networks",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Parall. Distrib. Syst"
+            ],
+            "doi": "10.1109/TPDS.2008.134",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Yunhao"
+                }
+            ],
+            "title": "A two-hop solution to solving topology mismatch",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Parall. Distrib. Syst"
+            ],
+            "doi": "10.1109/TPDS.2008.24",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Yunhao"
+                },
+                {
+                    "family": "Xiao",
+                    "given": "Li"
+                },
+                {
+                    "family": "Xiaomei Liu",
+                    "given": "L.M.Ni"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Xiaodong"
+                }
+            ],
+            "title": "Location awareness in unstructured peer-to-peer systems",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Parall. Distrib. Syst"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Loo",
+                    "given": "Boon Thau"
+                },
+                {
+                    "family": "Huebsch",
+                    "given": "Ryan"
+                },
+                {
+                    "family": "Stoica",
+                    "given": "Ion"
+                },
+                {
+                    "family": "Hellerstein",
+                    "given": "Joseph M."
+                }
+            ],
+            "title": "The case for a hybrid p2p search infrastructure",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3rd International Conference on Peer-to-Peer Systems (IPTPS'04"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "10.1007/978-3-540-30183-7",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lv",
+                    "given": "Qin"
+                },
+                {
+                    "family": "Cao",
+                    "given": "Pei"
+                },
+                {
+                    "family": "Cohen",
+                    "given": "Edith"
+                },
+                {
+                    "family": "Li",
+                    "given": "Kai"
+                },
+                {
+                    "family": "Shenker",
+                    "given": "Scott"
+                }
+            ],
+            "title": "Search and replication in unstructured peer-to-peer networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 16th International Conference on Supercomputing (ICS'02). ACM"
+            ],
+            "doi": "10.1145/514191.514206",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Maymounkov",
+                    "given": "Petar"
+                },
+                {
+                    "family": "Mazi\u00e8res",
+                    "given": "David"
+                }
+            ],
+            "title": "Kademlia: A peer-to-peer information system based on the XOR metric",
+            "type": "chapter",
+            "container_title": [
+                "Revised Papers from the 1st International Workshop on Peer-to-Peer Systems (IPTPS'01"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Newman",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Strogatz",
+                    "given": "Steven"
+                },
+                {
+                    "family": "Watts",
+                    "given": "Duncan J."
+                }
+            ],
+            "title": "Random graphs with arbitrary degree distri-butions and their applications",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev. E"
+            ],
+            "doi": "10.1103/PhysRevE.64.",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nowoczynski",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Stone",
+                    "given": "Nathan"
+                },
+                {
+                    "family": "Yanovich",
+                    "given": "Jared"
+                },
+                {
+                    "family": "Sommerfield",
+                    "given": "Jason"
+                }
+            ],
+            "title": "Zest Checkpoint storage system for large supercomputers",
+            "type": "chapter",
+            "container_title": [
+                "Petascale Data Storage Workshop"
+            ],
+            "doi": "10.1109/PDSW.2008.4811883",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oikonomou",
+                    "given": "Konstantinos"
+                },
+                {
+                    "family": "Kogias",
+                    "given": "Dimitrios"
+                },
+                {
+                    "family": "Stavrakakis",
+                    "given": "Ioannis"
+                }
+            ],
+            "title": "Probabilistic flooding for effi-cient information dissemination in random graph topologies",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Netw"
+            ],
+            "doi": "10.1016/j.comnet.2010.01.007",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pearson",
+                    "given": "Karl"
+                }
+            ],
+            "title": "The problem of the random walk",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "1905"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ratnasamy",
+                    "given": "Sylvia"
+                },
+                {
+                    "family": "Francis",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Handley",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Karp",
+                    "given": "Richard"
+                },
+                {
+                    "family": "Shenker",
+                    "given": "Scott"
+                }
+            ],
+            "title": "A scalable content-addressable network",
+            "type": "article-journal",
+            "container_title": [
+                "SIGCOMM Comput. Commun. Rev"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ripeanu",
+                    "given": "Matei"
+                },
+                {
+                    "family": "Iamnitchi",
+                    "given": "Adriana"
+                },
+                {
+                    "family": "Foster",
+                    "given": "Ian"
+                }
+            ],
+            "title": "Mapping the gnutella network",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Internet Comput"
+            ],
+            "doi": "10.1109/4236.978369",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rodeh",
+                    "given": "Ohad"
+                },
+                {
+                    "family": "Teperman",
+                    "given": "Avi"
+                }
+            ],
+            "title": "zFS -A scalable distributed file system using object disks",
+            "type": "paper-conference",
+            "container_title": [
+                "Pro-ceedings of the 20th IEEE/11th NASA Goddard Conference on Mass Storage Systems and Technologies"
+            ],
+            "doi": "10.1109/MASS.2003.1194858",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rowstron",
+                    "given": "Antony"
+                },
+                {
+                    "family": "Druschel",
+                    "given": "Peter"
+                }
+            ],
+            "title": "Pastry: Scalable, decentralized object location and routing for large-scale peer-to-peer systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IFIP/ACM International Conference on Dis-tributed Systems Platforms (Middleware"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schmuck",
+                    "given": "F."
+                },
+                {
+                    "family": "Haskin",
+                    "given": "R."
+                }
+            ],
+            "title": "GPFS: A shared-disk file system for large computing clusters",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1st Conference on File and Storage Technologies (FAST'02"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schwan",
+                    "given": "Philip"
+                }
+            ],
+            "title": "Lustre: Building a file system for 1,000-node clusters",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Linux Symposium"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shen",
+                    "given": "Haiying"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Cheng-Zhong"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Guihai"
+                }
+            ],
+            "title": "Cycloid: A constant-degree and lookup-efficient P2P overlay network",
+            "type": "article-journal",
+            "container_title": [
+                "Perform. Eval"
+            ],
+            "doi": "10.1016/j.peva.2005.01.004",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Stauffer",
+                    "given": "Alexandre O."
+                },
+                {
+                    "family": "Barbosa",
+                    "given": "Valmir C."
+                }
+            ],
+            "title": "Probabilistic heuristics for disseminating information in networks",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Stoica",
+                    "given": "Ion"
+                },
+                {
+                    "family": "Morris",
+                    "given": "Robert"
+                },
+                {
+                    "family": "David Karger",
+                    "given": "M.Frans Kaashoek"
+                },
+                {
+                    "family": "Balakrishnan",
+                    "given": "Hari"
+                }
+            ],
+            "title": "Chord: A scalable peer-to-peer lookup service for internet applications",
+            "type": "article-journal",
+            "container_title": [
+                "SIGCOMM Comput. Commun. Rev"
+            ],
+            "doi": "10.1145/964723.383071",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tang",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Tao"
+                }
+            ],
+            "title": "An efficient data location protocol for self-organizing storage clusters",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the International Conference for High Performance Computing and Communications"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tolley",
+                    "given": "Bruce"
+                },
+                {
+                    "family": "Varga",
+                    "given": "Low-Latency TestReportpdf Andr",
+                    "particle": "\u00e1s"
+                },
+                {
+                    "family": "Hornig",
+                    "given": "Rudolf"
+                }
+            ],
+            "title": "Solarflare Fujitsu low latency test report -Solarflare low-latency TestReport.pdfAn overview of the OMNeT++ simulation environment",
+            "type": "paper-conference",
+            "container_title": [
+                "Pro-ceedings of the 1st International Conference on Simulation Tools and Techniques for Communica-tions, Networks and Systems & Workshops (Simutools'08). ICST (Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering). Article 60"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Weil",
+                    "given": "Sage A."
+                },
+                {
+                    "family": "Brandt",
+                    "given": "Scott A."
+                },
+                {
+                    "family": "Miller",
+                    "given": "Ethan L."
+                },
+                {
+                    "family": "Maltzahn",
+                    "given": "Carlos"
+                }
+            ],
+            "title": "CRUSH: Controlled, scalable, decentralized placement of replicated data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM/IEEE Conference on Supercom-puting (SC'06"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Weil",
+                    "given": "Sage A."
+                },
+                {
+                    "family": "Brandt",
+                    "given": "Scott A."
+                },
+                {
+                    "family": "Miller",
+                    "given": "Ethan L."
+                },
+                {
+                    "family": "Long",
+                    "given": "Darrell D.E."
+                },
+                {
+                    "family": "Maltzahn",
+                    "given": "Carlos"
+                }
+            ],
+            "title": "CEPH: A scalable, high-performance distributed file system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 7th USENIX Symposium on Operating Systems Design and Implementation"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Tao"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Gulbeden",
+                    "given": "Aziz"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Jingyu"
+                },
+                {
+                    "family": "Chu",
+                    "given": "Lingkun"
+                }
+            ],
+            "title": "Sorrento: A self-organizing stor-age cluster for parallel data-intensive applications",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the High Performance Computing, Networking and Storage Conference (SC'04"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Min"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Yuanyuan"
+                }
+            ],
+            "title": "An efficient hybrid peer-to-peer system for distributed data sharing",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans"
+            ],
+            "doi": "10.1109/TC.2009.175",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhao",
+                    "given": "Ben Y."
+                },
+                {
+                    "family": "Kubiatowicz",
+                    "given": "John D."
+                },
+                {
+                    "family": "Joseph",
+                    "given": "Anthony D."
+                }
+            ],
+            "title": "Tapestry: An infrastructure for fault-tolerant wide-area location and routing",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2001"
+        }
+    ]
+}

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_ZPC24XH" coord="1,94.82,72.01,420.08,17.22;1,140.94,91.93,327.83,17.22">EpiFast</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2009-06-08">2009-06-08</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,383.77,137.63,62.64,11.46"><forename type="first">Keith</forename><forename type="middle">R</forename><surname>Bisset</surname></persName>
+							<email>kbisset@vbi.vt.edu</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Network Dynamics and Simulation Science Laboratory, VBI, Virginia Tech, Blacksburg, VA 24061, USA</note>
+								<orgName type="laboratory">Network Dynamics and Simulation Science Laboratory</orgName>
+								<orgName type="institution">VBI</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>Virginia Tech, VA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiangzhuo</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xizhou</forename><surname>Feng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">V</forename><forename type="middle">S Anil</forename><surname>Kumar</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,460.54,137.63,102.47,11.46"><forename type="first">Madhav</forename><forename type="middle">V</forename><surname>Marathe</surname></persName>
+							<email>mmarathe@vbi.vt.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Department of Computer Science, Virginia Tech, Blacksburg, VA 24061, USA</note>
+								<orgName type="department">Department of Computer Science</orgName>
+								<orgName type="institution">Virginia Tech</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>VA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Network Dynamics and Simulation Science Laboratory, VBI, Virginia Tech, Blacksburg, VA 24061, USA</note>
+								<orgName type="laboratory">Network Dynamics and Simulation Science Laboratory</orgName>
+								<orgName type="institution">VBI</orgName>
+								<address>
+									<postCode>24061</postCode>
+									<settlement>Blacksburg</settlement>
+									<region>Virginia Tech, VA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_WuCUwQY" coord="1,94.82,72.01,420.08,17.22;1,140.94,91.93,327.83,17.22">EpiFast</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_xezQFmT">Proceedings of the 23rd international conference on Supercomputing</title>
+						<meeting>the 23rd international conference on Supercomputing						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2009-06-08" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">FEFF9A18224CF5D4FAB4676E98B26AB8</idno>
+					<idno type="DOI">10.1145/1542275.1542336</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T01:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_cB5dcvz">H.3.7 [Digital Libraries]: Systems issues Digital library</term>
+					<term xml:id="_bDtDpyu">Epidemiology</term>
+					<term xml:id="_xrZDWrB">Simulation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_qvhKXzQ"><p xml:id="_bDdC5Te"><s xml:id="_UPzjynZ" coords="1,53.80,235.53,239.07,8.97;1,53.80,245.99,239.09,8.97;1,53.80,256.45,43.08,8.97">Computational epidemiology employs computer models and informatics tools to reason about the spatio-temporal spread of diseases.</s><s xml:id="_spma3yx" coords="1,100.82,256.45,193.58,8.97;1,53.80,266.91,240.62,8.97;1,53.80,277.37,240.61,8.97;1,53.47,287.83,181.51,8.97">The diversity of models, data sources, data representations, and modalities that are collected, used, and modified motivate the development of a digital library (DL) framework to support computational epidemiology.</s><s xml:id="_yfFRHeK" coords="1,239.07,287.83,55.36,8.97;1,53.80,298.30,240.37,8.97;1,53.80,308.76,199.07,8.97">The heterogeneous content includes metadata, text, tables, spreadsheets, experimental descriptions, and large result files.</s><s xml:id="_bc4CgmV" coords="1,258.83,308.76,34.02,8.97;1,53.80,319.22,239.08,8.97;1,53.80,329.68,31.57,8.97">There is no accepted framework that allows unified access to such content.</s><s xml:id="_btFgWaw" coords="1,89.31,329.68,203.58,8.97;1,53.80,340.14,239.36,8.97;1,53.80,350.60,54.18,8.97">We propose a framework for a digital library system tailored to such datasets to support computational network epidemiology.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_5JcZnEU">INTRODUCTION</head><p xml:id="_YKNpafM"><s xml:id="_NmYbkTh" coords="1,62.76,472.19,231.63,8.97;1,53.80,482.65,239.42,8.97;1,53.80,493.11,239.09,8.97;1,53.80,503.57,146.55,8.97">Computer simulations play an important role in understanding the spatio-temporal properties of diseases, especially due to the fact that, unlike in the physical sciences, real world experiments are usually not possible.</s><s xml:id="_JHDGgYZ" coords="1,204.43,503.57,89.71,8.97;1,53.80,514.03,240.60,8.97;1,53.80,524.49,239.10,8.97;1,53.80,534.95,163.55,8.97">Studies are conducted, in general, through the use of a simulation and require information on the population structure, agent behavior, disease transmission, and a model of the disease.</s><s xml:id="_EYZ2eGT" coords="1,221.46,534.95,71.41,8.97;1,53.80,545.41,239.08,8.97;1,53.80,555.87,111.75,8.97">Table <ref type="table" coords="1,246.49,534.95,4.54,8.97" target="#tab_0">1</ref> shows the type, size, and format for some of the datasets present in networked epidemiology <ref type="bibr" coords="1,153.29,555.87,9.19,8.97" target="#b1">[1]</ref>.</s><s xml:id="_gUKe5hh" coords="1,169.67,555.87,123.53,8.97;1,53.80,566.34,240.61,8.97;1,53.80,576.80,157.13,8.97">Data access and digital library services in current setups are cumbersome due to heterogeneity and fragmentation across datasets.</s><s xml:id="_jPyjSYG" coords="1,215.53,576.80,77.34,8.97;1,53.80,587.26,240.58,8.97;1,53.80,597.72,129.04,8.97">We propose a data mapping framework for digital library systems for computational epidemiology datasets.</s><s xml:id="_EWhrdsv" coords="1,189.29,597.72,103.81,8.97;1,53.80,608.18,198.18,8.97">The proposed framework provides a unified view to access data (Figure <ref type="figure" coords="1,241.23,608.18,3.58,8.97">1</ref>).</s></p><p xml:id="_2UF7fFc"><s xml:id="_UYafJvV" coords="1,53.80,712.51,145.14,8.97">978-1-4799-5569-5/14/$31.00 c 2014 IEEE.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_VUymg3T">FRAMEWORK</head><p xml:id="_r5FkEXH"><s xml:id="_TNKskBy" coords="1,325.78,658.28,230.11,8.97;1,316.57,668.74,196.25,8.97">Data mapping provides us the flexibility to switch between various databases and execute queries on them.</s><s xml:id="_WQbMXWU" coords="1,517.71,668.74,39.67,8.97;1,316.81,679.20,239.12,8.97;1,316.81,689.66,59.13,8.97">We investigate two different query execution paradigms: bottom-up and top-down.</s><s xml:id="_VZ36Vt5" coords="1,380.03,689.66,177.41,8.97;1,316.81,700.12,136.95,8.97">The bottom-up approach converts the relational datasets to an RDF graph.</s><s xml:id="_anU6XYt" coords="1,457.92,700.12,98.01,8.97;1,316.81,710.59,239.07,8.97;2,53.80,57.04,239.12,8.97;2,53.80,67.50,197.82,8.97">The top-down approach translates the queries written in SPARQL to queries over the physical (native) representation of the datasets, written in SQL. Figure <ref type="figure" coords="2,106.48,67.50,4.60,8.97" target="#fig_0">2</ref> illustrates both of the approaches.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_Hww8Dn9">EXPERIMENTAL STUDY</head><p xml:id="_RxetYDA"><s xml:id="_Cyr5qzm" coords="2,62.76,424.48,230.10,8.97;2,53.80,434.94,239.07,8.97;2,53.80,445.40,51.38,8.97">Datasets: To evaluate our framework, we considered a real-time epidemiology simulation study conducted in the Seattle area.</s><s xml:id="_R7G4tbb" coords="2,110.17,445.40,182.69,8.97;2,53.80,455.86,240.63,8.97;2,53.80,466.32,18.09,8.97">The study assumed that influenza transmits in various regional populations through person-person contact.</s><s xml:id="_VtNKm7z" coords="2,76.01,466.32,217.17,8.97;2,53.80,476.78,240.58,8.97;2,53.80,487.24,106.11,8.97">Simulation is conducted by the EpiFast engine <ref type="bibr" coords="2,263.98,466.32,9.55,8.97" target="#b2">[2]</ref> that can perform large scale realistic epidemic simulations on distributed memory systems.</s><s xml:id="_zN5uE9S" coords="2,164.02,487.24,128.84,8.97;2,53.80,497.70,240.64,8.97;2,53.80,508.16,207.56,8.97">We collect 2.33 GB of synthetic population data (relational), 4.31 MB of experiment data (relational), and 44 MB of simulation output data (file).</s><s xml:id="_6XKwNPC" coords="2,265.28,508.16,27.65,8.97;2,53.80,518.62,239.08,8.97;2,53.80,529.08,239.34,8.97">We use the D2RQ Mapping Language to convert relational and file data to RDF graphs <ref type="bibr" coords="2,137.01,529.08,9.02,8.97" target="#b3">[3]</ref>, Virtuoso Open-Source Edition 6.1.6</s><s xml:id="_FBuqKaD" coords="2,53.80,539.54,236.29,8.97">as RDF data engine [4], and the SPARQL query language.</s><s xml:id="_sjvurDZ" coords="2,62.77,689.66,231.64,8.97;2,53.80,700.12,128.90,8.97">Experiment Result: The D2RQ tool produces the mapping files for each data source.</s><s xml:id="_rgNcgr7" coords="2,189.45,700.12,103.43,8.97;2,53.80,710.59,239.40,8.97;2,316.81,57.04,29.71,8.97">The tool then, using the mapping files, queries the data sources to generate the RDF graphs.</s><s xml:id="_YYTfZdX" coords="2,350.60,57.04,205.30,8.97;2,316.81,67.50,240.63,8.97;2,316.81,77.96,223.79,8.97">Table <ref type="table" coords="2,376.32,57.04,4.68,8.97" target="#tab_1">2</ref> shows that for large synthetic populations relational data creates a large number of RDF triples, taking considerable time to generate such an RDF graph.</s><s xml:id="_Pr87pm8" coords="2,545.18,77.96,10.71,8.97;2,316.81,88.42,239.07,8.97;2,316.81,98.88,191.51,8.97">To measure the strength of the framework we execute various queries collected from epidemiology scientists.</s><s xml:id="_p2XN9ZN" coords="2,514.87,98.88,41.16,8.97;2,316.81,109.34,191.41,8.97">All of our queries are written in the SPARQL language.</s><s xml:id="_NSh2nfa" coords="2,514.84,109.34,42.53,8.97;2,316.81,119.80,228.45,8.97">We implement the bottom-up approach through the Virtuoso tool.</s><s xml:id="_BctuYCf" coords="2,549.35,119.80,6.81,8.97;2,316.81,130.26,239.05,8.97;2,316.81,140.72,129.57,8.97">It enables us to execute SPARQL queries over the complete epidemiology workflow datasets.</s><s xml:id="_U9aQWQV" coords="2,450.46,140.72,105.43,8.97;2,316.81,151.18,175.47,8.97">The top-down approach is implemented with the D2RQ query facility.</s><s xml:id="_KTaYeF5" coords="2,496.37,151.18,59.50,8.97;2,316.81,161.64,239.41,8.97;2,316.81,172.10,109.84,8.97">That allows us to execute SPARQL queries against a relational database by using D2RQ mapping files.</s><s xml:id="_WWVAGUE" coords="2,430.73,172.10,125.19,8.97;2,316.81,182.57,239.09,8.97;2,316.81,193.03,131.04,8.97">We find that in the bottom-up approach we have large storage cost and it is problematic to execute queries on large graphs.</s><s xml:id="_zfuzwqE" coords="2,452.12,193.03,103.76,8.97;2,316.81,203.49,239.10,8.97;2,316.81,213.95,198.97,8.97">On the other hand in the top-down approach we don't have any RDF graph storage cost and it works properly even for large graphs.</s><s xml:id="_8w78yEu" coords="2,519.88,213.95,37.29,8.97;2,316.81,224.41,213.43,8.97">However, execution for top-down is not as efficient as bottom up.</s><s xml:id="_tkHWV6b" coords="2,534.11,224.41,21.79,8.97;2,316.58,234.87,197.12,8.97">Table <ref type="table" coords="2,316.58,234.87,4.60,8.97" target="#tab_2">3</ref> illustrates a comparison of the two approaches.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_ZKeM6FM">CONCLUSION</head><p xml:id="_RvS2Mv8"><s xml:id="_fzUYhcu" coords="2,325.78,467.57,230.38,8.97;2,316.81,478.03,220.78,8.97">In this paper we describe a data mapping framework that is developed as a part of epidemiology digital library.</s><s xml:id="_vZYJzFt" coords="2,542.77,478.03,13.07,8.97;2,316.81,488.49,240.89,8.97">We show that it facilitates large scale simulation data unification.</s><s xml:id="_B6MfAvD" coords="2,316.81,498.96,239.03,8.97;2,316.81,509.42,71.14,8.97">Our experiment results show the strengths and weaknesses of the framework.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,124.27,375.27,98.17,8.52"><head>Figure 2 :</head><label>2</label><figDesc><div><p xml:id="_QrTvUFS"><s xml:id="_ATwRYyp" coords="2,124.27,375.27,98.17,8.52">Figure 2: Framework</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="1,322.19,227.72,229.46,394.61"><head>Table 1</head><label>1</label><figDesc xml:id="_HyvPaeh"></figDesc><table coords="1,322.19,227.72,229.46,104.26"><row><cell></cell><cell cols="3">: Epidemiology Dataset</cell></row><row><cell>Category</cell><cell>Data</cell><cell>Size</cell><cell>Representation</cell></row><row><cell>Synthetic Population</cell><cell>Household, Activity Person</cell><cell>566 GB</cell><cell>Relational</cell></row><row><cell>Social Network and Output</cell><cell>Contact Output Network, Simulation</cell><cell>1.84 TB</cell><cell>File</cell></row><row><cell cols="3">Experiment Experiment 240 GB</cell><cell>Relational</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="2,59.18,569.95,233.22,104.25"><head>Table 2 :</head><label>2</label><figDesc><div><p xml:id="_GnpV6Rp"><s xml:id="_MRfTUwz" coords="2,137.02,569.95,114.49,8.52">RDF Graph Information</s></p></div></figDesc><table coords="2,59.18,580.51,233.22,93.70"><row><cell>Databases</cell><cell>RDF Graph Size (GB)</cell><cell>Number of Triples</cell><cell>RDF Graph Generation Time (Minutes)</cell></row><row><cell>Seattle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Synthetic</cell><cell>177</cell><cell>661,848,662</cell><cell>317</cell></row><row><cell>Population</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Output</cell><cell>3.10</cell><cell>12,979,996</cell><cell>6</cell></row><row><cell>Experiment</cell><cell>0.01</cell><cell>66,654</cell><cell>0.37</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="2,322.19,262.38,226.49,167.02"><head>Table 3 :</head><label>3</label><figDesc><div><p xml:id="_BxdMBp3"><s xml:id="_ny5gMZg" coords="2,421.07,262.38,72.42,8.52">Query Runtime</s></p></div></figDesc><table coords="2,322.19,272.94,226.49,156.46"><row><cell></cell><cell>Bottom-up</cell><cell>Top-down</cell></row><row><cell></cell><cell>Approach</cell><cell>Approach</cell></row><row><cell>Queries</cell><cell>(SPARQL Query</cell><cell>(SPARQL Query</cell></row><row><cell></cell><cell>Runtime in</cell><cell>Runtime in</cell></row><row><cell></cell><cell>Seconds)</cell><cell>Seconds)</cell></row><row><cell>How many people of a</cell><cell></cell><cell></cell></row><row><cell>particular demographic</cell><cell>0.04</cell><cell>7.18</cell></row><row><cell>are sick?</cell><cell></cell><cell></cell></row><row><cell>Find who infected whom</cell><cell></cell><cell></cell></row><row><cell>of a particular</cell><cell>0.38</cell><cell>9.18</cell></row><row><cell>demographic</cell><cell></cell><cell></cell></row><row><cell>How many people get</cell><cell></cell><cell></cell></row><row><cell>infected on a particular</cell><cell>0.03</cell><cell>5.76</cell></row><row><cell>simulation day?</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="2,321.30,529.99,96.81,10.74" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_TdNfZMP">Voltage References</title>
+		<author>
+			<persName coords=""><surname>References</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/9780470547038.ch3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ucTRtnX">Voltage References</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">REFERENCES</note>
+</biblStruct>
+
+<biblStruct coords="2,329.89,540.22,229.18,8.97;2,331.01,550.69,217.72,8.97" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="2,333.79,540.22,167.85,8.97" xml:id="_6sqjCqk">Steven Matthews. &lt;i&gt;Theology and Science in the Thought of Francis Bacon&lt;/i&gt;. ix + 150 pp., apps., bibl., index. Burlington, Vt.: Ashgate, 2008. £50 (cloth).</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Harrison</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">ISIS</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1086/649170</idno>
+		<ptr target="http://ndssl.vbi.vt.edu/apps/isis/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WhgW3ed">Isis</title>
+		<title level="j" type="abbrev">Isis</title>
+		<idno type="ISSN">0021-1753</idno>
+		<idno type="ISSNe">1545-6994</idno>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="660" to="661" />
+			<date type="published" when="2014">2014</date>
+			<publisher>University of Chicago Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">&quot;Interface to synthetic information systems (ISIS), 2014.&quot; [Online]. Available: http://ndssl.vbi.vt.edu/apps/isis/</note>
+</biblStruct>
+
+<biblStruct coords="2,331.01,562.14,226.66,8.97;2,331.01,572.60,203.48,8.97;2,331.01,583.06,213.43,8.97;2,331.01,593.52,198.61,8.97;2,330.35,603.99,226.82,8.97;2,331.01,614.45,226.19,8.97;2,331.01,624.91,181.74,8.97" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="2,373.50,572.60,160.99,8.97;2,331.01,583.06,213.43,8.97;2,331.01,593.52,29.74,8.97" xml:id="_FVRszf2">EpiFast</title>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">R</forename><surname>Bisset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiangzhuo</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xizhou</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><forename type="middle">S Anil</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Madhav</forename><forename type="middle">V</forename><surname>Marathe</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1542275.1542336</idno>
+		<ptr target="http://doi.acm.org/10.1145/1542275.1542336" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qmKRDE2" coord="2,381.94,593.93,147.68,8.16;2,330.35,603.99,172.22,8.97">Proceedings of the 23rd international conference on Supercomputing</title>
+		<meeting>the 23rd international conference on Supercomputing<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2009-06-08">2009</date>
+			<biblScope unit="page" from="430" to="439" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. R. Bisset, J. Chen, X. Feng, V. A. Kumar, and M. V. Marathe, &quot;Epifast: A fast algorithm for large scale realistic epidemic simulations on distributed memory systems,&quot; in Proceedings of the 23rd International Conference on Supercomputing, ser. ICS &apos;09. New York, NY, USA: ACM, 2009, pp. 430-439. [Online]. Available: http://doi.acm.org/10.1145/1542275.1542336</note>
+</biblStruct>
+
+<biblStruct coords="2,331.00,636.36,210.64,8.97;2,331.01,646.82,195.37,8.97;2,331.01,657.29,77.18,8.97;2,331.01,667.75,203.25,8.97;2,331.01,678.21,150.59,8.97" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="2,445.56,636.36,96.07,8.97;2,331.01,646.82,163.36,8.97" xml:id="_W9VXw7s">Quality-Driven Information Filtering Using the WIQA Policy Framework</title>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Bizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Cyganiak</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3199414</idno>
+		<ptr target="http://www4.wiwiss.fu-berlin.de/bizer/pub/Bizer-Cyganiak-D2R-Server-ISWC2006.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_vbGMG5e">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Bizer and R. Cyganiak, &quot;D2R Server -publishing relational databases on the semantic web,&quot; 2006. [Online]. Available: http://www4.wiwiss.fu-berlin.de/bizer/pub/Bizer- Cyganiak-D2R-Server-ISWC2006.pdf</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,3503 @@
+{
+    "metadata": {
+        "title": "Defining a Knowledge Graph Development Process Through a Systematic Review",
+        "doi": "10.1145/3522586",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Knowledge graphs are widely used in industry and studied within the academic community. However, the models applied in the development of knowledge graphs vary. Analysing and providing a synthesis of the commonly used approaches to knowledge graph development would provide researchers and practitioners a better understanding of the overall process and methods involved. Hence, this paper aims to deine the overall process of knowledge graph development and its key constituent steps. For this purpose, a systematic review and a conceptual analysis of the literature was conducted. The resulting process was compared to case studies to evaluate its applicability. The proposed process suggests a uniied approach and provides guidance for both researchers and practitioners when constructing and managing knowledge graphs.",
+        "keywords": [
+            "practitioner",
+            "review",
+            "information",
+            "process",
+            "graph",
+            "knowledge",
+            "systematic",
+            "network",
+            "semantic",
+            "development"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Gyt \u0116 Tama\u0161auskait",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Paul Groth",
+            "affiliation": null,
+            "email": "p.t.groth@uva.nl."
+        },
+        {
+            "name": "Gyt\u0117 Tama\u0161auskait\u0117",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "Introducing the Knowledge Graph: things, not strings",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Abu-Salih",
+                    "given": "Bilal"
+                }
+            ],
+            "title": "Domain-speciic knowledge graphs: A survey",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Network and Computer Applications"
+            ],
+            "doi": "10.1016/j.jnca.2021.103076",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ahmed",
+                    "given": "Tahir"
+                },
+                {
+                    "family": "Cox",
+                    "given": "Julian"
+                },
+                {
+                    "family": "Girvan",
+                    "given": "Lynda"
+                },
+                {
+                    "family": "Paul",
+                    "given": "Alan"
+                },
+                {
+                    "family": "Paul",
+                    "given": "Debra"
+                },
+                {
+                    "family": "Thompson",
+                    "given": "Pete"
+                }
+            ],
+            "title": "Developing information systems: Practical guidance for IT professionals",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Al-Zaidy",
+                    "given": "Rabah A."
+                },
+                {
+                    "family": "Giles",
+                    "given": "C.L.C."
+                }
+            ],
+            "title": "Automatic knowledge base construction from scholarly documents",
+            "type": "paper-conference",
+            "container_title": [
+                "DocEng 2017 -Proceedings of the 2017 ACM Symposium on Document Engineering"
+            ],
+            "doi": "10.1145/3103010.3121043",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "AlGhamdi",
+                    "given": "Kholoud"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Miaojing"
+                },
+                {
+                    "family": "Simperl",
+                    "given": "Elena"
+                }
+            ],
+            "title": "Learning to recommend items to wikidata editors",
+            "type": "paper-conference",
+            "container_title": [
+                "International Semantic Web Conference"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Aliyu",
+                    "given": "Ismail"
+                },
+                {
+                    "family": "D.",
+                    "given": "Kana A.F."
+                },
+                {
+                    "family": "Aliyu",
+                    "given": "Salisu"
+                }
+            ],
+            "title": "Development of Knowledge Graph for University Courses Management",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Education and Management Engineering"
+            ],
+            "doi": "10.5815/ijeme.2020.02.01",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Auer",
+                    "given": "S\u00f6ren"
+                },
+                {
+                    "family": "Bizer",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Kobilarov",
+                    "given": "Georgi"
+                },
+                {
+                    "family": "Lehmann",
+                    "given": "Jens"
+                },
+                {
+                    "family": "Cyganiak",
+                    "given": "Richard"
+                },
+                {
+                    "family": "Ives",
+                    "given": "Zachary"
+                }
+            ],
+            "title": "DBpedia: A Nucleus for a Web of Open Data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 6th International The Semantic Web and 2nd Asian Conference on Asian Semantic Web Conference"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Balog",
+                    "given": "Krisztian"
+                },
+                {
+                    "family": "Kenter",
+                    "given": "Tom"
+                }
+            ],
+            "title": "Personal Knowledge Graphs: A Research Agenda",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2019 ACM SIGIR International Conference on Theory of Information Retrieval"
+            ],
+            "doi": "10.1145/3341981.3344241",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bonatti",
+                    "given": "Piero Andrea"
+                },
+                {
+                    "family": "Decker",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Polleres",
+                    "given": "Axel"
+                },
+                {
+                    "family": "Presutti",
+                    "given": "Valentina"
+                }
+            ],
+            "title": "Knowledge Graphs: New Directions for Knowledge Representation on the Semantic Web (Dagstuhl Seminar 18371",
+            "type": "article-journal",
+            "container_title": [
+                "Dagstuhl Reports"
+            ],
+            "doi": "10.4230/DagRep.8.",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bravo",
+                    "given": "Maricela"
+                },
+                {
+                    "family": "Reyes",
+                    "given": "Luis Fernando Hoyos"
+                },
+                {
+                    "family": "Ortiz",
+                    "given": "Jos\u00e9 A.Reyes"
+                }
+            ],
+            "title": "Methodology for ontology design and construction",
+            "type": "article-journal",
+            "container_title": [
+                "Contaduria y Administracion"
+            ],
+            "doi": "10.22201/FCA.24488410E.2020.2368",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brickley",
+                    "given": "Dan"
+                },
+                {
+                    "family": "Miller",
+                    "given": "Libby"
+                }
+            ],
+            "title": "FOAF Vocabulary Speciication",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chen",
+                    "given": "Hainan"
+                },
+                {
+                    "family": "Luo",
+                    "given": "Xiaowei"
+                }
+            ],
+            "title": "An automatic literature knowledge graph and reasoning network modeling framework based on ontology and natural language processing",
+            "type": "article-journal",
+            "container_title": [
+                "Advanced Engineering Informatics"
+            ],
+            "doi": "10.1016/j.aei.2019.",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chen",
+                    "given": "Penghe"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Yu"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Vincent W."
+                },
+                {
+                    "family": "Chen",
+                    "given": "Xiyang"
+                },
+                {
+                    "family": "Li",
+                    "given": "Xiaoqing"
+                }
+            ],
+            "title": "An Automatic Knowledge Graph Construction System for K-12 Education",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 5th Annual ACM Conference on Learning at Scale, L at S 2018"
+            ],
+            "doi": "10.1145/3231644.3231698",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chen",
+                    "given": "Yuanzhe"
+                },
+                {
+                    "family": "Kuang",
+                    "given": "Jun"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Dawei"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Jianbin"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Ming"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Aoying"
+                }
+            ],
+            "title": "AgriKG: An Agricultural Knowledge Graph and Its Applications",
+            "type": "chapter",
+            "container_title": [
+                "Database Systems for Advanced Applications. DASFAA 2019"
+            ],
+            "doi": "10.1007/978-3-030-18590-9_81",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chenglin",
+                    "given": "Qi"
+                },
+                {
+                    "family": "Qing",
+                    "given": "Song"
+                },
+                {
+                    "family": "Pengzhou",
+                    "given": "Zhang"
+                },
+                {
+                    "family": "Hui",
+                    "given": "Yuan"
+                }
+            ],
+            "title": "Cn-MAKG: China Meteorology and Agriculture Knowledge Graph Construction Based on Semi-structured Data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings -17th IEEE/ACIS International Conference on Computer and Information Science, ICIS 2018"
+            ],
+            "doi": "10.1109/ICIS.2018.8466485",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chi",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Qin",
+                    "given": "Yue"
+                },
+                {
+                    "family": "Song",
+                    "given": "Rui"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Hao"
+                }
+            ],
+            "title": "Knowledge graph in smart education: A case study of entrepreneurship scientiic publication management",
+            "type": "article-journal",
+            "container_title": [
+                "Sustainability"
+            ],
+            "doi": "10.3390/su10040995",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Christophides",
+                    "given": "Vassilis"
+                },
+                {
+                    "family": "Efthymiou",
+                    "given": "Vasilis"
+                },
+                {
+                    "family": "Palpanas",
+                    "given": "Themis"
+                },
+                {
+                    "family": "Papadakis",
+                    "given": "George"
+                },
+                {
+                    "family": "Stefanidis",
+                    "given": "Kostas"
+                }
+            ],
+            "title": "An Overview of End-to-End Entity Resolution for Big Data",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Surveys"
+            ],
+            "doi": "10.1145/3418896",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dess\u00ec",
+                    "given": "Danilo"
+                },
+                {
+                    "family": "Osborne",
+                    "given": "Francesco"
+                },
+                {
+                    "family": "Recupero",
+                    "given": "Diego Reforgiato"
+                },
+                {
+                    "family": "Buscaldi",
+                    "given": "Davide"
+                },
+                {
+                    "family": "Motta",
+                    "given": "Enrico"
+                }
+            ],
+            "title": "Generating knowledge graphs by employing Natural Language Processing and Machine Learning techniques within the scholarly domain",
+            "type": "article-journal",
+            "container_title": [
+                "Future Generation Computer Systems"
+            ],
+            "doi": "10.1016/j.future.2020.10.026",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dess\u00ec",
+                    "given": "Danilo"
+                },
+                {
+                    "family": "Osborne",
+                    "given": "Francesco"
+                },
+                {
+                    "family": "Recupero",
+                    "given": "Diego Reforgiato"
+                },
+                {
+                    "family": "Buscaldi",
+                    "given": "Davide"
+                },
+                {
+                    "family": "Motta",
+                    "given": "Enrico"
+                },
+                {
+                    "family": "Sack",
+                    "given": "Harald"
+                }
+            ],
+            "title": "AI-KG: An Automatically Generated Knowledge Graph of Artiicial Intelligence",
+            "type": "chapter",
+            "container_title": [
+                "The Semantic Web \u015b ISWC 2020"
+            ],
+            "doi": "10.1007/978-3-030-62466-8_9",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dojchinovski",
+                    "given": "Milan"
+                },
+                {
+                    "family": "Forberg",
+                    "given": "Jan"
+                },
+                {
+                    "family": "Frey",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Hofer",
+                    "given": "Marvin"
+                },
+                {
+                    "family": "Streitmatter",
+                    "given": "Denis"
+                },
+                {
+                    "family": "Hellmann",
+                    "given": "Sebastian"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Elhammadi",
+                    "given": "Sarah"
+                },
+                {
+                    "family": "Lakshmanan",
+                    "given": "Laks V.S."
+                },
+                {
+                    "family": "Ng",
+                    "given": "Raymond"
+                },
+                {
+                    "family": "Simpson",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Huai",
+                    "given": "Baoxing"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Zhefeng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Lanjun"
+                }
+            ],
+            "title": "A High Precision Pipeline for Financial Knowledge Graph Construction",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 28th International Conference on Computational Linguistics. International Committee on Computational Linguistics"
+            ],
+            "doi": "10.18653/v1/2020.",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fang",
+                    "given": "Weili"
+                },
+                {
+                    "family": "Ma",
+                    "given": "Ling"
+                },
+                {
+                    "family": "Love",
+                    "given": "Peter E.D."
+                },
+                {
+                    "family": "Luo",
+                    "given": "Hanbin"
+                },
+                {
+                    "family": "Ding",
+                    "given": "Lieyun"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Ao"
+                }
+            ],
+            "title": "Knowledge graph for identifying hazards on construction sites: Integrating computer vision with ontology",
+            "type": "article-journal",
+            "container_title": [
+                "Automation in Construction"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fensel",
+                    "given": "Dieter"
+                },
+                {
+                    "family": "\u015eim\u015fek",
+                    "given": "Umutcan"
+                },
+                {
+                    "family": "Angele",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Huaman",
+                    "given": "Elwin"
+                },
+                {
+                    "family": "K\u00e4rle",
+                    "given": "Elias"
+                },
+                {
+                    "family": "Panasiuk",
+                    "given": "Oleksandra"
+                },
+                {
+                    "family": "Toma",
+                    "given": "Ioan"
+                },
+                {
+                    "family": "Umbrich",
+                    "given": "J\u00fcrgen"
+                },
+                {
+                    "family": "Wahler",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Fensel",
+                    "given": "Dieter"
+                },
+                {
+                    "family": "\u015eim\u015fek",
+                    "given": "Umutcan"
+                },
+                {
+                    "family": "Angele",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Huaman",
+                    "given": "Elwin"
+                },
+                {
+                    "family": "K\u00e4rle",
+                    "given": "Elias"
+                },
+                {
+                    "family": "Panasiuk",
+                    "given": "Oleksandra"
+                },
+                {
+                    "family": "Toma",
+                    "given": "Ioan"
+                },
+                {
+                    "family": "Umbrich",
+                    "given": "J\u00fcrgen"
+                },
+                {
+                    "family": "Wahler",
+                    "given": "Alexander"
+                }
+            ],
+            "title": "How to Build a Knowledge Graph",
+            "type": "chapter",
+            "container_title": [
+                "Knowledge Graphs: Methodology, Tools and Selected Use Cases"
+            ],
+            "doi": "10.1007/978-3-030-37439-6_2",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fitzgerald",
+                    "given": "Andy"
+                }
+            ],
+            "title": "Case study: A boutique knowledge graph",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fitzgerald",
+                    "given": "Andy"
+                }
+            ],
+            "title": "User Experience Practices Knowledge Graph",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "G\u00f3mez-P\u00e9rez",
+                    "given": "Asunci\u00f3n"
+                },
+                {
+                    "family": "Fern\u00e1ndez-L\u00f3pez",
+                    "given": "Mariano"
+                },
+                {
+                    "family": "Corcho",
+                    "given": "Oscar"
+                }
+            ],
+            "title": "Ontological Engineering: with examples from the areas of Knowledge Management, e-Commerce and the Semantic Web",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1007/1-85233-840-7_3",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gutierrez",
+                    "given": "Claudio"
+                },
+                {
+                    "family": "Sequeda",
+                    "given": "Juan F."
+                }
+            ],
+            "title": "Knowledge graphs",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "10.1145/3418294",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hertling",
+                    "given": "Sven"
+                },
+                {
+                    "family": "Paulheim",
+                    "given": "Heiko"
+                }
+            ],
+            "title": "DBkWik: extracting and integrating knowledge from thousands of Wikis",
+            "type": "article-journal",
+            "container_title": [
+                "Knowledge and Information Systems"
+            ],
+            "doi": "10.1007/s10115-019-01415-5",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hitzler",
+                    "given": "Pascal"
+                }
+            ],
+            "title": "A review of the semantic web ield",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "10.1145/3397512",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hofer",
+                    "given": "Marvin"
+                },
+                {
+                    "family": "Hellmann",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Dojchinovski",
+                    "given": "Milan"
+                },
+                {
+                    "family": "Frey",
+                    "given": "Johannes"
+                }
+            ],
+            "title": "The New DBpedia Release Cycle: Increasing Agility and Eiciency in Knowledge Extraction Worklows",
+            "type": "chapter",
+            "container_title": [
+                "Semantic Systems. In the Era of Knowledge Graphs"
+            ],
+            "doi": "10.1007/978-3-030-59833-4_1",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hogan",
+                    "given": "Aidan"
+                },
+                {
+                    "family": "Blomqvist",
+                    "given": "Eva"
+                },
+                {
+                    "family": "Cochez",
+                    "given": "Michael"
+                },
+                {
+                    "family": "d'Amato",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Melo",
+                    "given": "Gerard",
+                    "particle": "de"
+                },
+                {
+                    "family": "Gutierrez",
+                    "given": "Claudio"
+                },
+                {
+                    "family": "Kirrane",
+                    "given": "Sabrina"
+                },
+                {
+                    "family": "Gayo",
+                    "given": "Jos\u00e9 Emilio Labra"
+                },
+                {
+                    "family": "Navigli",
+                    "given": "Roberto"
+                },
+                {
+                    "family": "Neumaier",
+                    "given": "Sebastian"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Knowledge graphs",
+            "type": "article-journal",
+            "container_title": [
+                "Synthesis Lectures on Data, Semantics, and Knowledge"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hogan",
+                    "given": "Aidan"
+                },
+                {
+                    "family": "Blomqvist",
+                    "given": "Eva"
+                },
+                {
+                    "family": "Cochez",
+                    "given": "Michael"
+                },
+                {
+                    "family": "D'amato",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Melo",
+                    "given": "Gerard",
+                    "particle": "De"
+                },
+                {
+                    "family": "Gutierrez",
+                    "given": "Claudio"
+                },
+                {
+                    "family": "Kirrane",
+                    "given": "Sabrina"
+                },
+                {
+                    "family": "Gayo",
+                    "given": "Jos\u00e9 Emilio Labra"
+                },
+                {
+                    "family": "Navigli",
+                    "given": "Roberto"
+                },
+                {
+                    "family": "Neumaier",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Ngomo",
+                    "given": "Axel-Cyrille Ngonga"
+                },
+                {
+                    "family": "Polleres",
+                    "given": "Axel"
+                },
+                {
+                    "family": "Rashid",
+                    "given": "Sabbir M."
+                },
+                {
+                    "family": "Rula",
+                    "given": "Anisa"
+                },
+                {
+                    "family": "Schmelzeisen",
+                    "given": "Lukas"
+                },
+                {
+                    "family": "Sequeda",
+                    "given": "Juan"
+                },
+                {
+                    "family": "Staab",
+                    "given": "Stefen"
+                },
+                {
+                    "family": "Zimmermann",
+                    "given": "Antoine"
+                }
+            ],
+            "title": "Knowledge Graphs",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Comput. Surv"
+            ],
+            "doi": "10.1145/3447772",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hu",
+                    "given": "Huan"
+                },
+                {
+                    "family": "Yun",
+                    "given": "Hongyan"
+                },
+                {
+                    "family": "He",
+                    "given": "Ying"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Xiuhua"
+                },
+                {
+                    "family": "Yun",
+                    "given": "Yang"
+                }
+            ],
+            "title": "Research and application of semi-automatic construction of structured knowledge graph",
+            "type": "paper-conference",
+            "container_title": [
+                "ICBDT2019: Proceedings of the 2nd International Conference on Big Data Technologies"
+            ],
+            "doi": "10.1145/3358528.3358587",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huang",
+                    "given": "Lan"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Congcong"
+                },
+                {
+                    "family": "Chi",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Qi",
+                    "given": "Xiaohui"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Hao"
+                }
+            ],
+            "title": "Towards smart healthcare management based on knowledge graph technology",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2019 8th International Conference on Software and Computer Applications"
+            ],
+            "doi": "10.1145/3316615.3316678",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jabareen",
+                    "given": "Yosef"
+                }
+            ],
+            "title": "Building a Conceptual Framework: Philosophy, Deinitions, and Procedure",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Qualitative Methods"
+            ],
+            "doi": "10.1177/160940690900800406",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jain",
+                    "given": "Nitisha"
+                }
+            ],
+            "title": "Domain-Speciic Knowledge Graph Construction for Semantic Analysis",
+            "type": "paper-conference",
+            "container_title": [
+                "European Semantic Web Conference"
+            ],
+            "doi": "10.1007/978-3-030-62327-2_40",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ji",
+                    "given": "Shaoxiong"
+                },
+                {
+                    "family": "Pan",
+                    "given": "Shirui"
+                },
+                {
+                    "family": "Cambria",
+                    "given": "Erik"
+                },
+                {
+                    "family": "Marttinen",
+                    "given": "Pekka"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Philip S."
+                }
+            ],
+            "title": "A Survey on Knowledge Graphs: Representation, Acquisition, and Applications",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Neural Networks and Learning Systems"
+            ],
+            "doi": "10.1109/TNNLS.",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jin",
+                    "given": "Yong"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Qiao"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Xusheng"
+                }
+            ],
+            "title": "Knowledge Graph Construction of Personal Relationships",
+            "type": "chapter",
+            "container_title": [
+                "Artiicial Intelligence and Security. ICAIS 2020"
+            ],
+            "doi": "10.1007/978-3-030-57884-8",
+            "published_date": "2020"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "paper-conference",
+            "container_title": [
+                "2021. Proceedings of the 2nd Wikidata Workshop (Wikidata 2021) co-located with the 20th International Semantic Web Conference (ISWC 2021), Virtual Conference, October 24, 2021. CEUR Workshop Proceedings"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kejriwal",
+                    "given": "Mayank"
+                }
+            ],
+            "title": "Domain-Speciic Knowledge Graph Construction",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "Haklae"
+                }
+            ],
+            "title": "Developing a Product Knowledge Graph of Consumer Electronics to Manage Sustainable Product Information",
+            "type": "article-journal",
+            "container_title": [
+                "Sustainability"
+            ],
+            "doi": "10.3390/su13041722",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "Ji Eun"
+                },
+                {
+                    "family": "Henson",
+                    "given": "Cory"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Tran",
+                    "given": "Tuan A."
+                },
+                {
+                    "family": "Lin",
+                    "given": "Wan-Yi"
+                }
+            ],
+            "title": "Accelerating Road Sign Ground Truth Construction with Knowledge Graph and Machine Learning",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kitchenham",
+                    "given": "Barbara"
+                },
+                {
+                    "family": "Charters",
+                    "given": "Stuart"
+                }
+            ],
+            "title": "Guidelines for performing Systematic Literature Reviews in Software Engineering",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lehmann",
+                    "given": "Jens"
+                },
+                {
+                    "family": "Isele",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Jakob",
+                    "given": "Max"
+                },
+                {
+                    "family": "Jentzsch",
+                    "given": "Anja"
+                },
+                {
+                    "family": "Kontokostas",
+                    "given": "Dimitris"
+                },
+                {
+                    "family": "Mendes",
+                    "given": "Pablo N."
+                },
+                {
+                    "family": "Hellmann",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Morsey",
+                    "given": "Mohamed"
+                },
+                {
+                    "family": "Kleef",
+                    "given": "Patrick",
+                    "particle": "Van"
+                },
+                {
+                    "family": "Auer",
+                    "given": "S\u00f6ren"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Dbpedia\u015ba large-scale, multilingual knowledge base extracted from wikipedia",
+            "type": "article-journal",
+            "container_title": [
+                "Semantic web"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Fengru"
+                },
+                {
+                    "family": "Xie",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xiaowei"
+                },
+                {
+                    "family": "Fan",
+                    "given": "Zhe"
+                }
+            ],
+            "title": "Research on optimization of knowledge graph construction low chart",
+            "type": "paper-conference",
+            "container_title": [
+                "ITAIC 2020 -IEEE 9th Joint International Information Technology and Artiicial Intelligence Conference"
+            ],
+            "doi": "10.1109/ITAIC49862.2020.9338900",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Feng Lin"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Hehong"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Guohai"
+                },
+                {
+                    "family": "Qiu",
+                    "given": "Tian"
+                },
+                {
+                    "family": "Ji",
+                    "given": "Feng"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Ji"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Haiqing"
+                }
+            ],
+            "title": "AliMeKG: Domain Knowledge Graph Construction and Application in E-commerce",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Information and Knowledge Management, Proceedings"
+            ],
+            "doi": "10.1145/3340531.3412685",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Linfeng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Peng"
+                },
+                {
+                    "family": "Yan",
+                    "given": "Jun"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Yao"
+                },
+                {
+                    "family": "Li",
+                    "given": "Simin"
+                },
+                {
+                    "family": "Jiang",
+                    "given": "Jinpeng"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Zhe"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Buzhou"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Tsung Hui"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Shenghui"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Yuting"
+                }
+            ],
+            "title": "Real-world data medical knowledge graph: construction and applications",
+            "type": "article-journal",
+            "container_title": [
+                "Artiicial Intelligence in Medicine"
+            ],
+            "doi": "10.1016/j.artmed.2020.101817",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lian",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Qin",
+                    "given": "Zemin"
+                },
+                {
+                    "family": "He",
+                    "given": "Tieke"
+                },
+                {
+                    "family": "Luo",
+                    "given": "Bin"
+                }
+            ],
+            "title": "Knowledge graph construction based on judicial data with social media",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings -2017 14th Web Information Systems and Applications Conference, WISA 2017"
+            ],
+            "doi": "10.1109/WISA.2017.46",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lin",
+                    "given": "Ze Qi"
+                },
+                {
+                    "family": "Xie",
+                    "given": "Bing"
+                },
+                {
+                    "family": "Zou",
+                    "given": "Yan Zhen"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Jun Feng"
+                },
+                {
+                    "family": "Li",
+                    "given": "Xuan Dong"
+                },
+                {
+                    "family": "Wei",
+                    "given": "Jun"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Hai Long"
+                },
+                {
+                    "family": "Yin",
+                    "given": "Gang"
+                }
+            ],
+            "title": "Intelligent Development Environment and Software Knowledge Graph",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Computer Science and Technology"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Jintao"
+                },
+                {
+                    "family": "Schmid",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Li",
+                    "given": "Keping"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Wei"
+                }
+            ],
+            "title": "A knowledge graph-based approach for exploring railway operational accidents",
+            "type": "article-journal",
+            "container_title": [
+                "Reliability Engineering and System Safety"
+            ],
+            "doi": "10.1016/j.ress.2020.107352",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Shuang"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Hui"
+                },
+                {
+                    "family": "Li",
+                    "given": "Jiayi"
+                },
+                {
+                    "family": "Kolmani\u010d",
+                    "given": "Simon"
+                }
+            ],
+            "title": "Preliminary Study on the Knowledge Graph Construction of Chinese Ancient History and Culture",
+            "type": "article-journal",
+            "container_title": [
+                "Information"
+            ],
+            "doi": "10.3390/info11040186",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Malik",
+                    "given": "Khalid Mahmood"
+                },
+                {
+                    "family": "Krishnamurthy",
+                    "given": "Madan"
+                },
+                {
+                    "family": "Alobaidi",
+                    "given": "Mazen"
+                },
+                {
+                    "family": "Hussain",
+                    "given": "Maqbool"
+                },
+                {
+                    "family": "Alam",
+                    "given": "Fakhare"
+                },
+                {
+                    "family": "Malik",
+                    "given": "Ghaus"
+                }
+            ],
+            "title": "Automated domain-speciic healthcare knowledge graph curation framework: Subarachnoid hemorrhage as phenotype",
+            "type": "article-journal",
+            "container_title": [
+                "Expert Systems with Applications"
+            ],
+            "doi": "10.1016/j.eswa.2019.113120",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mao",
+                    "given": "Shuai"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Yunmeng"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Jinhe"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Bing"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Yang"
+                }
+            ],
+            "title": "Development of process safety knowledge graph: A Case study on delayed coking process",
+            "type": "article-journal",
+            "container_title": [
+                "Computers and Chemical Engineering"
+            ],
+            "doi": "10.1016/j.compchemeng.",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Martinez-Rodriguez",
+                    "given": "Jose L."
+                },
+                {
+                    "family": "Lopez-Arevalo",
+                    "given": "Ivan"
+                },
+                {
+                    "family": "Rios-Alvarado",
+                    "given": "Ana B."
+                }
+            ],
+            "title": "OpenIE-based approach for Knowledge Graph construction from text",
+            "type": "article-journal",
+            "container_title": [
+                "Expert Systems With Applications"
+            ],
+            "doi": "10.1016/j.eswa.2018.07.017",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mehta",
+                    "given": "Aman"
+                },
+                {
+                    "family": "Singhal",
+                    "given": "Aashay"
+                },
+                {
+                    "family": "Karlapalem",
+                    "given": "Kamalakar"
+                }
+            ],
+            "title": "Scalable Knowledge Graph Construction over Text Using Deep Learning Based Predicate Mapping",
+            "type": "paper-conference",
+            "container_title": [
+                "The Web Conference 2019 -Companion of the World Wide Web Conference, WWW 2019"
+            ],
+            "doi": "10.1145/3308560.3317708",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Muhammad",
+                    "given": "Iqra"
+                },
+                {
+                    "family": "Kearney",
+                    "given": "Anna"
+                },
+                {
+                    "family": "Gamble",
+                    "given": "Carrol"
+                },
+                {
+                    "family": "Coenen",
+                    "given": "Frans"
+                },
+                {
+                    "family": "Williamson",
+                    "given": "Paula"
+                }
+            ],
+            "title": "Open Information Extraction for Knowledge Graph Construction",
+            "type": "chapter",
+            "container_title": [
+                "Communications in Computer and Information Science"
+            ],
+            "doi": "10.1007/978-3-030-59028-4",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nickel",
+                    "given": "Maximilian"
+                },
+                {
+                    "family": "Murphy",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Tresp",
+                    "given": "Volker"
+                },
+                {
+                    "family": "Gabrilovich",
+                    "given": "Evgeniy"
+                }
+            ],
+            "title": "A review of relational machine learning for knowledge graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE"
+            ],
+            "doi": "10.1109/JPROC.",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Noy",
+                    "given": "Natasha"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Yuqing"
+                },
+                {
+                    "family": "Jain",
+                    "given": "Anshu"
+                },
+                {
+                    "family": "Narayanan",
+                    "given": "Anant"
+                },
+                {
+                    "family": "Patterson",
+                    "given": "Alan"
+                },
+                {
+                    "family": "Taylor",
+                    "given": "Jamie"
+                }
+            ],
+            "title": "Industry-scale knowledge graphs: Lessons and challenges",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "10.1145/3331166",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "O'Mara-Eves",
+                    "given": "Alison"
+                },
+                {
+                    "family": "Thomas",
+                    "given": "James"
+                },
+                {
+                    "family": "McNaught",
+                    "given": "John"
+                },
+                {
+                    "family": "Miwa",
+                    "given": "Makoto"
+                },
+                {
+                    "family": "Ananiadou",
+                    "given": "Sophia"
+                }
+            ],
+            "title": "Using text mining for study identiication in systematic reviews: a systematic review of current approaches",
+            "type": "article-journal",
+            "container_title": [
+                "Systematic Reviews"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Page",
+                    "given": "Matthew J."
+                },
+                {
+                    "family": "Moher",
+                    "given": "David"
+                },
+                {
+                    "family": "Bossuyt",
+                    "given": "Patrick M."
+                },
+                {
+                    "family": "Boutron",
+                    "given": "Isabelle"
+                },
+                {
+                    "family": "Hofmann",
+                    "given": "Tammy C."
+                },
+                {
+                    "family": "Mulrow",
+                    "given": "Cynthia D."
+                },
+                {
+                    "family": "Shamseer",
+                    "given": "Larissa"
+                },
+                {
+                    "family": "Tetzlaf",
+                    "given": "Jennifer M."
+                },
+                {
+                    "family": "Akl",
+                    "given": "Elie A."
+                },
+                {
+                    "family": "Brennan",
+                    "given": "Sue E."
+                },
+                {
+                    "family": "Chou",
+                    "given": "Roger"
+                },
+                {
+                    "family": "Glanville",
+                    "given": "Julie"
+                },
+                {
+                    "family": "Grimshaw",
+                    "given": "Jeremy M."
+                },
+                {
+                    "family": "Hr\u00f3bjartsson",
+                    "given": "Asbj\u00f9rn"
+                },
+                {
+                    "family": "ACM",
+                    "given": "Manoj M."
+                }
+            ],
+            "title": "Softw",
+            "type": "article-journal",
+            "container_title": [
+                "Eng. Methodol"
+            ],
+            "doi": "",
+            "published_date": "2022-04"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lalu",
+                    "given": "Tianjing Li"
+                },
+                {
+                    "family": "Loder",
+                    "given": "Elizabeth W."
+                },
+                {
+                    "family": "Mayo-Wilson",
+                    "given": "Evan"
+                },
+                {
+                    "family": "Mcdonald",
+                    "given": "Steve"
+                },
+                {
+                    "family": "Mcguinness",
+                    "given": "Luke A."
+                },
+                {
+                    "family": "Stewart",
+                    "given": "Lesley A."
+                },
+                {
+                    "family": "Thomas",
+                    "given": "James"
+                },
+                {
+                    "family": "Tricco",
+                    "given": "Andrea C."
+                },
+                {
+                    "family": "Welch",
+                    "given": "Vivian A."
+                },
+                {
+                    "family": "Whiting",
+                    "given": "Penny"
+                },
+                {
+                    "family": "Mckenzie",
+                    "given": "Joanne E."
+                }
+            ],
+            "title": "PRISMA 2020 explanation and elaboration: Updated guidance and exemplars for reporting systematic reviews",
+            "type": null,
+            "container_title": "",
+            "doi": "10.1136/bmj.n160",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Paulheim",
+                    "given": "Heiko"
+                }
+            ],
+            "title": "Knowledge graph reinement: A survey of approaches and evaluation methods",
+            "type": "article-journal",
+            "container_title": [
+                "Semantic Web"
+            ],
+            "doi": "10.3233/SW-160218",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Qiu",
+                    "given": "Lirong"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Huili"
+                }
+            ],
+            "title": "Review of development and construction of uyghur knowledge graph",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings -2017 IEEE International Conference on Computational Science and Engineering and IEEE/IFIP International Conference on Embedded and Ubiquitous Computing, CSE and EUC 2017"
+            ],
+            "doi": "10.1109/CSE-EUC.2017.181",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schrader",
+                    "given": "Bess"
+                }
+            ],
+            "title": "What's the Diference Between an Ontology and a Knowledge Graph? -Enterprise Knowledge",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schreiber",
+                    "given": "Guus"
+                }
+            ],
+            "title": "Knowledge engineering and management : the CommonKADS methodology",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sharafeldeen",
+                    "given": "Dina"
+                },
+                {
+                    "family": "Algergawy",
+                    "given": "Alsayed"
+                },
+                {
+                    "family": "Konig-Ries",
+                    "given": "Birgitta"
+                }
+            ],
+            "title": "Towards Knowledge Graph Construction using Semantic Data Mining",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 21st International Conference on Information Integration and Web-Based Applications & Services. Association for Computing Machinery"
+            ],
+            "doi": "10.1145/3366030.3366035",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shekarpour",
+                    "given": "Saeedeh"
+                },
+                {
+                    "family": "Saxena",
+                    "given": "Ankita"
+                },
+                {
+                    "family": "Thirunarayan",
+                    "given": "Krishnaprasad"
+                },
+                {
+                    "family": "Shalin",
+                    "given": "Valerie L."
+                },
+                {
+                    "family": "Sheth",
+                    "given": "Amit"
+                }
+            ],
+            "title": "Principles for Developing a Knowledge Graph of",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Su",
+                    "given": "Ying"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Yong"
+                }
+            ],
+            "title": "Automatic Construction of Subject Knowledge Graph based on Educational Big Data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2020 The 3rd International Conference on Big Data and Education. Association for Computing Machinery"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Suchanek",
+                    "given": "Fabian M."
+                },
+                {
+                    "family": "Kasneci",
+                    "given": "Gjergji"
+                },
+                {
+                    "family": "Weikum",
+                    "given": "Gerhard"
+                }
+            ],
+            "title": "Yago: A Core of Semantic Knowledge",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 16th International Conference on World Wide Web (Banf"
+            ],
+            "doi": "10.1145/1242572.1242667",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sun",
+                    "given": "K."
+                },
+                {
+                    "family": "Liu",
+                    "given": "Yu-Hua"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Zongchao"
+                },
+                {
+                    "family": "Wang",
+                    "given": "C."
+                }
+            ],
+            "title": "Visualization for Knowledge Graph Based on Education Data",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Software and Informatics"
+            ],
+            "doi": "10.21655/ijsi.1673-7288.00227",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tan",
+                    "given": "Jiyuan"
+                },
+                {
+                    "family": "Qiu",
+                    "given": "Qianqian"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Weiwei"
+                },
+                {
+                    "family": "Li",
+                    "given": "Tingshuai"
+                }
+            ],
+            "title": "Research on the Construction of a Knowledge Graph and Knowledge Reasoning Model in the Field of Urban Traic",
+            "type": "article-journal",
+            "container_title": [
+                "Sustainability"
+            ],
+            "doi": "10.3390/su13063191",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vrande\u010di\u0107",
+                    "given": "Denny"
+                },
+                {
+                    "family": "Kr\u00f6tzsch",
+                    "given": "Markus"
+                }
+            ],
+            "title": "Wikidata: A Free Collaborative Knowledgebase",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "10.1145/2629489",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Consortium",
+                    "given": "World Wide Web"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Consortium",
+                    "given": "World Wide Web"
+                }
+            ],
+            "title": "RDF Schema 1.1",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Consortium",
+                    "given": "World Wide Web"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Chengbin"
+                },
+                {
+                    "family": "Ma",
+                    "given": "Xiaogang"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Jianguo"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Jingwen"
+                }
+            ],
+            "title": "Information extraction and knowledge graph construction from geoscience literature",
+            "type": "article-journal",
+            "container_title": [
+                "Computers and Geosciences"
+            ],
+            "doi": "10.1016/j.cageo.2017.12.007",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Meng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Haofen"
+                },
+                {
+                    "family": "Qi",
+                    "given": "Guilin"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Qiushuo"
+                }
+            ],
+            "title": "Richpedia: A Large-Scale, Comprehensive Multi-Modal Knowledge Graph",
+            "type": "article-journal",
+            "container_title": [
+                "Big Data Research"
+            ],
+            "doi": "10.1016/j.bdr.2020.100159",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Peilu"
+                },
+                {
+                    "family": "Jiang",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Jingfang"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Qi"
+                }
+            ],
+            "title": "Knowledge Graph Construction and Applications for Web Search and Beyond",
+            "type": "article-journal",
+            "container_title": [
+                "Data Intelligence"
+            ],
+            "doi": "10.1162/dint",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Qingyun"
+                },
+                {
+                    "family": "Li",
+                    "given": "Manling"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xuan"
+                },
+                {
+                    "family": "Parulian",
+                    "given": "Nikolaus"
+                },
+                {
+                    "family": "Han",
+                    "given": "Guangxing"
+                },
+                {
+                    "family": "Ma",
+                    "given": "Jiawei"
+                },
+                {
+                    "family": "Tu",
+                    "given": "Jingxuan"
+                },
+                {
+                    "family": "Lin",
+                    "given": "Ying"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Haoran"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Weili"
+                },
+                {
+                    "family": "Chauhan",
+                    "given": "Aabhas"
+                },
+                {
+                    "family": "Guan",
+                    "given": "Yingjun"
+                },
+                {
+                    "family": "Li",
+                    "given": "Bangzheng"
+                },
+                {
+                    "family": "Li",
+                    "given": "Ruisong"
+                },
+                {
+                    "family": "Song",
+                    "given": "Xiangchen"
+                },
+                {
+                    "family": "Ji",
+                    "given": "Heng"
+                },
+                {
+                    "family": "Han",
+                    "given": "Jiawei"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Shih-Fu"
+                },
+                {
+                    "family": "Pustejovsky",
+                    "given": "James"
+                },
+                {
+                    "family": "Rah",
+                    "given": "Jasmine"
+                },
+                {
+                    "family": "Liem",
+                    "given": "David"
+                },
+                {
+                    "family": "Elsayed",
+                    "given": "Ahmed"
+                },
+                {
+                    "family": "Palmer",
+                    "given": "Martha"
+                },
+                {
+                    "family": "Voss",
+                    "given": "Clare"
+                },
+                {
+                    "family": "Schneider",
+                    "given": "Cynthia"
+                },
+                {
+                    "family": "Onyshkevych",
+                    "given": "Boyan"
+                }
+            ],
+            "title": "",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wei",
+                    "given": "Jingzhu"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Rui"
+                }
+            ],
+            "title": "A versatile approach for constructing a domain knowledge graph for culture",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the Association for Information Science and Technology"
+            ],
+            "doi": "10.1002/pra2.186",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Weikum",
+                    "given": "Gerhard"
+                },
+                {
+                    "family": "Dong",
+                    "given": "Luna"
+                },
+                {
+                    "family": "Razniewski",
+                    "given": "Simon"
+                },
+                {
+                    "family": "Suchanek",
+                    "given": "Fabian"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wick",
+                    "given": "Marc"
+                }
+            ],
+            "title": "Geonames Ontology",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Tianxing"
+                },
+                {
+                    "family": "Qi",
+                    "given": "Guilin"
+                },
+                {
+                    "family": "Li",
+                    "given": "Cheng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Meng"
+                }
+            ],
+            "title": "A Survey of Techniques for Constructing Chinese Knowledge Graphs and Their Applications",
+            "type": "article-journal",
+            "container_title": [
+                "Sustainability"
+            ],
+            "doi": "10.3390/su10093245",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Tianxing"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Haofen"
+                },
+                {
+                    "family": "Li",
+                    "given": "Cheng"
+                },
+                {
+                    "family": "Qi",
+                    "given": "Guilin"
+                },
+                {
+                    "family": "Niu",
+                    "given": "Xing"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Meng"
+                },
+                {
+                    "family": "Li",
+                    "given": "Lin"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Chaomin"
+                }
+            ],
+            "title": "Knowledge graph construction from multiple online encyclopedias",
+            "type": "article-journal",
+            "container_title": [
+                "Artiicial Intelligence in Medicine"
+            ],
+            "doi": "10.1016/j.artmed.",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xiao",
+                    "given": "Dinghe"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Nannan"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jiangang"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chunhong"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Jiaqi"
+                }
+            ],
+            "title": "A Practice of Tourism Knowledge Graph Construction based on Heterogeneous Information",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 19th Chinese National Conference on Computational Linguistics"
+            ],
+            "doi": "10.1007/978-3-030-63031-7_12",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xin",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Meng",
+                    "given": "Rui"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Lei"
+                }
+            ],
+            "title": "Subjective knowledge base construction powered by crowdsourcing and knowledge base",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "10.1145/3183713.3183732",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yan",
+                    "given": "Hehua"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Jun"
+                },
+                {
+                    "family": "Wan",
+                    "given": "Jiafu"
+                }
+            ],
+            "title": "KnowIME: A System to Construct a Knowledge Graph for Intelligent Manufacturing Equipment",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Access"
+            ],
+            "doi": "10.1109/ACCESS.2020.2977136",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yan",
+                    "given": "Jihong"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Chengyu"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Wenliang"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Ming"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Aoying"
+                }
+            ],
+            "title": "A retrospective of knowledge graphs",
+            "type": "article-journal",
+            "container_title": [
+                "Frontiers of Computer Science"
+            ],
+            "doi": "10.1007/s11704-016-5228-9",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yu",
+                    "given": "Haoze"
+                },
+                {
+                    "family": "Li",
+                    "given": "Haisheng"
+                },
+                {
+                    "family": "Mao",
+                    "given": "Dianhui"
+                },
+                {
+                    "family": "Cai",
+                    "given": "Qiang"
+                }
+            ],
+            "title": "A domain knowledge graph construction method based on Wikipedia",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Information Science"
+            ],
+            "doi": "10.1177/0165551520932510",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yu",
+                    "given": "Seunghak"
+                },
+                {
+                    "family": "He",
+                    "given": "Tianxing"
+                },
+                {
+                    "family": "Glass",
+                    "given": "James"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yu",
+                    "given": "Xiaobing"
+                },
+                {
+                    "family": "Stahr",
+                    "given": "Mike"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Han"
+                },
+                {
+                    "family": "Yan",
+                    "given": "Runming"
+                }
+            ],
+            "title": "Design and Implementation of Curriculum System Based on Knowledge Graph",
+            "type": "paper-conference",
+            "container_title": [
+                "2021 IEEE International Conference on Consumer Electronics and Computer Engineering (ICCECE"
+            ],
+            "doi": "10.1109/ICCECE51280.2021.9342370",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhao",
+                    "given": "Yuanyuan"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Quan"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Wenjun"
+                }
+            ],
+            "title": "Open Industrial Knowledge Graph Development for Intelligent Manufacturing Service Matchmaking",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings -2017 International Conference on Industrial Informatics -Computing Technology, Intelligent Technology, Industrial Information Integration, ICIICII"
+            ],
+            "doi": "10.1109/ICIICII.2017.36",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhao",
+                    "given": "Zhanfang"
+                },
+                {
+                    "family": "Han",
+                    "given": "Sung-Kook"
+                },
+                {
+                    "family": "So",
+                    "given": "In-Mi"
+                }
+            ],
+            "title": "Architecture of Knowledge Graph Construction Techniques",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Pure and Applied Mathematics"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Bin"
+                },
+                {
+                    "family": "Bao",
+                    "given": "Jinsong"
+                },
+                {
+                    "family": "Li",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Yuqian"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Tianyuan"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Qiwan"
+                }
+            ],
+            "title": "A novel knowledge graph-based optimization approach for resource allocation in discrete manufacturing workshops",
+            "type": "article-journal",
+            "container_title": [
+                "Robotics and Computer-Integrated Manufacturing"
+            ],
+            "doi": "10.1016/j.rcim.2021.102160",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Qi",
+                    "given": "Xingliang"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Ju",
+                    "given": "Fangning"
+                }
+            ],
+            "title": "Research on construction and application of TCM knowledge graph based on ancient Chinese texts",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings -2019 IEEE/WIC/ACM International Conference on Web Intelligence Workshops, WI 2019 Companion"
+            ],
+            "doi": "10.1145/3358695.3360938",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Sun K.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Process",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Al-Zaidy R.A.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Lian H.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Process",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Qui L.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Process",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Zhao Y.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Aspects",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Lin Z.Q.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Xin H.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Worklow",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Yan J.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Chen P.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Architecture",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Wang C.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Worklow",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Martinez-Rodriguez J.L.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Shekarpour S.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Pipeline",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Zhao Z.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Yang C.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Chenglin Q.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Technologies",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Wu T.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Sharafeldeen D.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Worklow ACM Trans",
+            "type": "article-journal",
+            "container_title": [
+                "Softw. Eng. Methodol"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Mehta A.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Pipeline",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Huang L.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Process",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Zhou Y.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Hu H.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Wu T.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Christophides V.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Methodological Bottom-up Worklow 24 Kejriwal M",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Chen H.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Wang P.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Chen Y.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Yu H.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Weikum G.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Li F.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Process",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Su Y.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Method",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Hertling S.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Worklow 33 Nitisha J",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Li L.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Procedure",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Mao S.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Process",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Kim J.E.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Wang Q.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Xiao D.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Method",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Yu S.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Elhammadi S.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Pipeline",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Fang W.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Worklow",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Wang M.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Pipeline",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Malik K.M.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Muhammad I.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Approach",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Liu S.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Jin Y.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Process",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Li F.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Methodological Bottom-up Flow chart",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Fensel D.",
+                    "particle": "et."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Dess\u00ec D.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Pipeline",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Aliyu I.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Architecture",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Yan H.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Process 52 Kim H",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Yu X.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Process",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Liu J.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Worklow",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Zhou B.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Dess\u00ec D.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Bottom-up Worklow",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "al",
+                    "given": "Tan J.",
+                    "particle": "et."
+                }
+            ],
+            "title": "Domain speciic Top-down Framework",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        }
+    ]
+}

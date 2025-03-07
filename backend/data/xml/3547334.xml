@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_3948vAG" coord="1,80.26,104.83,413.09,12.37;1,80.70,122.62,213.76,12.37">Tensor Network Quantum Virtual Machine for Simulating Quantum Circuits at Exascale</title>
+				<funder ref="#_72kQxkF">
+					<orgName type="full">U.S. Department of Energy</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">US Department of Energy (DOE) Office of Science Advanced</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,80.36,147.03,78.20,10.22"><forename type="first">Thien</forename><surname>Nguyen</surname></persName>
+							<email>nguyentm@ornl.gov</email>
+						</author>
+						<author>
+							<persName coords="1,80.70,234.90,113.80,10.22"><roleName>NVIDIA</roleName><forename type="first">David</forename><surname>Clark</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,80.54,249.54,106.27,10.22"><roleName>NVIDIA</roleName><forename type="first">Jeff</forename><surname>Larkin</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,187.19,549.49,73.21,7.43"><forename type="first">Alexander</forename><surname>Mccaskey</surname></persName>
+							<email>mccaskeyaj@ornl.gov</email>
+						</author>
+						<author>
+							<persName coords="1,418.15,670.72,39.52,7.43"><forename type="first">Acm</forename><surname>Trans</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,464.34,670.72,62.53,7.43"><forename type="first">Comput</forename><surname>Quantum</surname></persName>
+						</author>
+						<author>
+							<persName coords="2,157.98,82.35,46.00,6.81"><forename type="first">Dmitry</forename><surname>Lyakh</surname></persName>
+						</author>
+						<author>
+							<persName coords="2,209.96,82.35,68.92,6.81"><forename type="first">Eugene</forename><surname>Dumitrescu</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Quantum Computing Institute, Oak Ridge National Laboratory, USA and Com-puter Science and Mathematics Division,</note>
+								<orgName type="department">Com-puter Science and Mathematics Division</orgName>
+								<orgName type="institution" key="instit1">Quantum Computing Institute</orgName>
+								<orgName type="institution" key="instit2">Oak Ridge National Laboratory</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Oak Ridge National Laboratory, USA</note>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">DMITRY LYAKH, Quantum Computing Institute, Oak Ridge National Laboratory, USA and National Center for Computational Sciences,</note>
+								<orgName type="department">and National Center for Computational Sciences</orgName>
+								<orgName type="institution" key="instit1">DMITRY LYAKH</orgName>
+								<orgName type="institution" key="instit2">Quantum Computing Institute</orgName>
+								<orgName type="institution" key="instit3">Oak Ridge National Laboratory</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Oak Ridge National Laboratory, USA</note>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">EUGENE DUMITRESCU, Quantum Computing Institute, Oak Ridge National Laboratory, USA</note>
+								<orgName type="institution" key="instit1">EUGENE DUMITRESCU</orgName>
+								<orgName type="institution" key="instit2">Quantum Computing Institute</orgName>
+								<orgName type="institution" key="instit3">Oak Ridge National Laboratory</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<note type="raw_affiliation">and Computational Sciences and Engineering Division, Oak Ridge National Laboratory, USA</note>
+								<orgName type="institution" key="instit1">and Computational Sciences and Engineering Division</orgName>
+								<orgName type="institution" key="instit2">Oak Ridge National Laboratory</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<note type="raw_affiliation">ALEXANDER MCCASKEY, Quantum Computing Institute, Oak Ridge National Laboratory, USA</note>
+								<orgName type="institution" key="instit1">ALEXANDER MCCASKEY</orgName>
+								<orgName type="institution" key="instit2">Quantum Computing Institute</orgName>
+								<orgName type="institution" key="instit3">Oak Ridge National Laboratory</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<note type="raw_affiliation">and Computer Science and Mathematics Division, Oak Ridge National Laboratory, USA</note>
+								<orgName type="department">and Computer Science and Mathematics Division</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<note type="raw_affiliation">, Quantum Computing Institute, Oak Ridge National Laboratory, Oak Ridge, TN, USA and Computer Science and Mathematics Division,</note>
+								<orgName type="department">and Computer Science and Mathematics Division</orgName>
+								<orgName type="institution" key="instit1">Quantum Computing Institute</orgName>
+								<orgName type="institution" key="instit2">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<note type="raw_affiliation">Oak Ridge National Laboratory, Oak Ridge, TN, USA;</note>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<note type="raw_affiliation">Dmitry Lyakh, Quantum Computing Institute, Oak Ridge National Laboratory, Oak Ridge, TN, USA</note>
+								<orgName type="department">Dmitry Lyakh</orgName>
+								<orgName type="institution" key="instit1">Quantum Computing Institute</orgName>
+								<orgName type="institution" key="instit2">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<note type="raw_affiliation">and National Center for Computational Sciences, Oak Ridge National Laboratory, Oak Ridge, TN, USA; Eugene Dumitrescu,</note>
+								<orgName type="department">and National Center for Computational Sciences</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge, Eugene Dumitrescu</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff12">
+								<note type="raw_affiliation">Quantum Computing Institute, Oak Ridge National Laboratory, Oak Ridge, TN, USA</note>
+								<orgName type="department">Quantum Computing Institute</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff13">
+								<note type="raw_affiliation">and Computational Sciences and Engineering Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA; David Clark,</note>
+								<orgName type="institution" key="instit1">and Computational Sciences and Engineering Division</orgName>
+								<orgName type="institution" key="instit2">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge, David Clark</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<note type="raw_affiliation">NVIDIA Corp., Santa Clara, CA, USA; Jeff Larkin,</note>
+								<orgName type="institution">NVIDIA Corp</orgName>
+								<address>
+									<settlement>Santa Clara, Jeff Larkin</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<note type="raw_affiliation">NVIDIA Corp., Santa Clara, CA, USA;</note>
+								<orgName type="institution">NVIDIA Corp</orgName>
+								<address>
+									<settlement>Santa Clara</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff16">
+								<note type="raw_affiliation">, Quantum Computing Institute, Oak Ridge National Laboratory, Oak Ridge, TN, USA and Computer Science and Mathematics Division,</note>
+								<orgName type="department">and Computer Science and Mathematics Division</orgName>
+								<orgName type="institution" key="instit1">Quantum Computing Institute</orgName>
+								<orgName type="institution" key="instit2">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff17">
+								<note type="raw_affiliation">Oak Ridge National Laboratory, Oak Ridge, TN, USA.</note>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_QPmVWYy" coord="1,80.26,104.83,413.09,12.37;1,80.70,122.62,213.76,12.37">Tensor Network Quantum Virtual Machine for Simulating Quantum Circuits at Exascale</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3C89BAD61459B210053A2040BB69139B</idno>
+					<idno type="DOI">10.1145/3547334</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_mQbjpTg"><p xml:id="_s6XByDy"><s xml:id="_HrJTqxF" coords="1,80.43,299.05,450.87,8.36;1,80.70,310.56,370.35,8.36">The numerical simulation of quantum circuits is an indispensable tool for development, verification and validation of hybrid quantum-classical algorithms intended for near-term quantum co-processors.</s><s xml:id="_HRcwZjq" coords="1,454.45,310.56,76.85,8.36;1,80.70,322.06,450.60,8.36;1,80.70,333.57,129.20,8.36">The emergence of exascale high-performance computing (HPC) platforms presents new opportunities for pushing the boundaries of quantum circuit simulation.</s><s xml:id="_9sMrAqE" coords="1,213.46,333.57,317.84,8.36;1,80.70,345.08,450.80,8.36;1,80.38,356.58,77.81,8.36">We present a modernized version of the Tensor Network Quantum Virtual Machine (TNQVM) which serves as the quantum circuit simulation backend in the eXtreme-scale ACCelerator (XACC) framework.</s><s xml:id="_zwNJCMN" coords="1,160.47,356.58,370.84,8.36;1,80.43,368.09,75.22,8.36">The new version is based on the scalable tensor network processing library ExaTN (Exascale Tensor Networks).</s><s xml:id="_BjhzVyt" coords="1,158.20,368.09,373.10,8.36;1,80.70,379.60,450.83,8.36;1,80.70,391.10,145.23,8.36">It provides multiple configurable quantum circuit simulators which perform either an exact quantum circuit simulation via the full tensor network contraction or an approximate simulation via a suitably chosen tensor factorization scheme.</s><s xml:id="_yxK5Hse" coords="1,228.50,391.10,302.80,8.36;1,80.70,402.61,341.91,8.36">Upon necessity, stochastic noise modeling from real quantum processors is incorporated into the simulations by modeling quantum channels with Kraus tensors.</s><s xml:id="_jjet468" coords="1,425.02,402.61,106.29,8.36">By combining the portable</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="21" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="22" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1" xml:id="_4DPNemV">INTRODUCTION</head><p xml:id="_DsDMfhu"><s xml:id="_nupgxKW" coords="2,80.70,193.27,452.03,9.29;2,80.45,205.83,451.56,9.29;2,80.70,218.38,56.49,9.29">Quantum circuit simulation on classical computers is an important tool for development, verification, validation, and analysis of quantum algorithms in the noisy intermediate-scale quantum (NISQ) regime <ref type="bibr" coords="2,115.85,218.38,17.07,9.29" target="#b32">[33]</ref>.</s><s xml:id="_4sTgtej" coords="2,140.05,218.38,391.26,9.29;2,80.70,230.93,452.12,9.29;2,80.70,243.48,63.35,9.29">There exist a wide variety of simulation techniques that have been developed for this purpose, ranging from the state vector <ref type="bibr" coords="2,266.67,230.93,17.88,9.29" target="#b9">[10,</ref><ref type="bibr" coords="2,287.92,230.93,14.31,9.29" target="#b16">17,</ref><ref type="bibr" coords="2,305.60,230.93,14.97,9.29" target="#b18">19]</ref> or density matrix <ref type="bibr" coords="2,407.77,230.93,18.54,9.29" target="#b22">[23]</ref> simulators to Cliffordbased <ref type="bibr" coords="2,110.37,243.48,12.07,9.29" target="#b1">[2,</ref><ref type="bibr" coords="2,125.29,243.48,4.69,9.29" target="#b5">[6]</ref><ref type="bibr" coords="2,129.98,243.48,4.69,9.29" target="#b6">[7]</ref><ref type="bibr" coords="2,134.67,243.48,9.38,9.29" target="#b7">[8]</ref><ref type="bibr" coords="2,146.90,243.48,14.91,9.29" target="#b12">13]</ref> and tensor-based simulators <ref type="bibr" coords="2,297.04,243.48,118.34,9.29">[16, 20, 24-26, 34, 37, 38]</ref>.</s><s xml:id="_vSwQWaH" coords="2,146.90,243.48,14.91,9.29">In particular, the tensor network based techniques have proven their power in constructing effective simulators of rather large quantum circuits with memory requirements that scale in accordance with the quantum state entanglement properties <ref type="bibr" coords="2,200.87,281.14,17.88,9.29" target="#b25">[26,</ref><ref type="bibr" coords="2,222.72,281.14,13.41,9.29" target="#b33">34]</ref>.</s><s xml:id="_qrrXRwu" coords="2,164.68,243.48,54.12,9.29">More generally, tensor processing has been recognized as a computing technique applicable to many scientific and engineering domains <ref type="bibr" coords="2,423.55,293.70,17.63,9.29" target="#b13">[14,</ref><ref type="bibr" coords="2,443.88,293.70,14.20,9.29" target="#b17">18,</ref><ref type="bibr" coords="2,460.79,293.70,14.20,9.29" target="#b34">35,</ref><ref type="bibr" coords="2,477.69,293.70,14.83,9.29" target="#b35">36]</ref> that has resulted in highly-optimized software leveraging the state-of-the-art classical hardware capabilities to simulate complex physical phenomena <ref type="bibr" coords="2,270.92,318.80,17.00,9.29" target="#b31">[32]</ref>.</s></p><p xml:id="_AB2DsAc"><s xml:id="_WmrydzD" coords="2,90.66,331.36,442.16,9.29;2,80.70,343.91,390.08,9.29">The tensor network quantum virtual machine (TNQVM) was first introduced in <ref type="bibr" coords="2,457.73,331.36,18.51,9.29" target="#b25">[26]</ref> as a tensornetwork-based quantum circuit simulation back-end for the XACC framework <ref type="bibr" coords="2,449.33,343.91,17.16,9.29" target="#b26">[27]</ref>.</s><s xml:id="_qZTBY6J" coords="2,474.42,343.91,56.89,9.29;2,80.70,356.46,450.60,9.29;2,80.31,369.01,451.24,9.29;2,80.70,381.57,371.46,9.29">The original implementation leveraged the matrix product state (MPS) representation of the quantum circuit wave-function based on the data structures provided by the ITensor library <ref type="bibr" coords="2,422.60,369.01,18.33,9.29" target="#b10">[11]</ref> -a popular library that (at the time of implementation) only supported single-core CPU execution.</s><s xml:id="_kRGXEnx" coords="2,455.42,381.57,75.88,9.29;2,80.70,394.12,450.61,9.29;2,80.45,406.67,450.86,9.29;2,80.70,419.23,111.82,9.29">In this work, we present an enhanced TNQVM implementation with a direct focus on the modern HPC deployment via the utilization of the state-of-the-art Exascale Tensor Networks (ExaTN) library <ref type="bibr" coords="2,484.44,406.67,12.84,9.29" target="#b0">[1]</ref> as the computational backend.</s><s xml:id="_dbKdVf4" coords="2,195.78,419.23,336.95,9.29;2,80.70,431.78,257.50,9.29">This re-architected TNQVM code runs on both CPU and GPU hardware, and supports multi-node, multi-GPU execution contexts.</s><s xml:id="_6BHThaU" coords="2,341.03,431.78,190.27,9.29;2,80.70,444.33,450.60,9.29;2,80.70,456.89,450.60,9.29;2,80.70,469.44,450.60,9.29;2,80.70,481.99,104.97,9.29">One of the primary drivers of this work is the need for a flexible high-performance simulator that can (1) extract experimentally verifiable results from large quantum circuits, and (2) take full advantage of computing resources by devising custom strategies for each simulation task and balance the workload (memory and compute) across all available resources.</s></p><p xml:id="_keqc2xp"><s xml:id="_MhjxEMN" coords="2,90.66,494.54,393.49,9.29">Tensor network theory is a natural fit for large-scale quantum circuit simulations.</s><s xml:id="_4ZrSyCu" coords="2,488.34,494.54,42.97,9.29;2,80.70,507.10,450.61,9.29;2,80.70,519.65,160.61,9.29">Quantum computers encode computation and information in an exponentially large tensor space which is not directly accessible experimentally.</s><s xml:id="_zRH4Uv3" coords="2,244.59,519.65,286.72,9.29;2,80.70,532.20,328.63,9.29">One can only collect discrete observable statistics on a given quantum state (qubit measurement bit-strings, expectations values, etc.).</s><s xml:id="_hmgAXhu" coords="2,412.19,532.20,119.36,9.29;2,80.70,544.76,450.60,9.29;2,80.70,557.31,450.60,9.29;2,80.70,569.86,102.13,9.29">The tensor network theory provides the most natural way of dealing with the exact and approximate tensor representations in such exponentially large spaces, thereby enabling an efficient expression of the quantum state observable quantities.</s><s xml:id="_p7fbzNc" coords="2,185.69,569.86,347.05,9.29;2,80.70,582.41,452.03,9.29;2,80.31,594.97,203.30,9.29">Combined with a low-rank compression via low-order tensor factorizations, this approach also becomes highly amenable to memory-bound flop-oriented compute platforms, which most of the current HPC systems are.</s><s xml:id="_5mhH9ad" coords="2,286.47,594.97,244.83,9.29;2,80.70,607.52,450.60,9.29;2,80.70,620.07,192.55,9.29">Thus, the main goal of the TNQVM code is to provide an implementation of a set of tensor network algorithms which are well-suited for quantum circuit simulations in different use case scenarios.</s><s xml:id="_9qm7N6f" coords="2,276.01,620.07,255.29,9.29;2,80.70,632.63,304.18,9.29">All necessary construction, manipulation, and processing of the derived tensor networks is automated via the ExaTN backend.</s><s xml:id="_Ke4eJW4" coords="2,387.39,632.63,143.91,9.29;2,80.70,645.18,373.65,9.29">Importantly, the ExaTN backend also provides the foundation for the numerical processing workload optimization.</s><s xml:id="_Bkfxfnc" coords="2,457.19,645.18,74.12,9.29;3,80.70,107.40,452.03,9.29;3,80.70,119.95,450.60,9.29;3,80.70,132.50,450.60,9.29;3,80.70,145.06,450.60,9.29;3,80.70,157.61,307.00,9.29">Not only can we describe quantum circuits in various tensor network forms, such as matrix product state (MPS) <ref type="bibr" coords="3,511.64,107.40,16.87,9.29" target="#b29">[30]</ref>, tensor tree network (TTN) <ref type="bibr" coords="3,205.33,119.95,17.10,9.29" target="#b35">[36]</ref>, etc., but we can also delegate the runtime execution optimization to ExaTN where it can decompose and schedule the tensor processing tasks across all available resources, including multi-core CPUs, GPUs, and potentially more specialized accelerators (details of the ExaTN library will be described in an upcoming publication).</s></p><p xml:id="_jmEFVWU"><s xml:id="_xdWPj6T" coords="3,90.66,170.16,440.65,9.29;3,80.70,182.72,139.64,9.29">In this manuscript, we present implementation details and some preliminary results for the following TNQVM capabilities:</s></p><p xml:id="_w2EtQuQ"><s xml:id="_GZs2aHz" coords="3,96.17,200.40,4.95,16.19;3,105.11,200.02,426.20,9.29;3,105.11,212.57,308.76,9.29">• A generic tensor network contraction based simulator that expresses and evaluates the entire quantum circuit as a tensor network (including expectation values).</s></p><p xml:id="_Q46tfhh"><s xml:id="_m7Ctj62" coords="3,96.17,225.51,4.95,16.19;3,105.11,225.12,277.71,9.29">• A distributed-memory MPS-factorized state-vector simulator.</s></p><p xml:id="_sw9EX9P"><s xml:id="_yyXzaXh" coords="3,96.17,238.06,4.95,16.19;3,105.11,237.67,426.19,9.29;3,105.11,250.23,187.79,9.29">• A density matrix (noisy) simulator based on the hierarchical tensor network or locally-purified matrix product operator representations.</s></p><p xml:id="_2MR2g7T"><s xml:id="_6ZEtjtn" coords="3,96.17,263.17,4.95,16.19;3,105.11,262.78,426.45,9.29;3,105.11,275.33,305.71,9.29">• An automatic divide-and-conquer tensor network reconstruction simulator based on arbitrary tensor network factorization schemes with a target fidelity control.</s></p><p xml:id="_F8Pr4pu"><s xml:id="_6xUZ3ce" coords="3,90.66,292.63,440.65,9.29;3,80.70,305.19,450.86,9.29;3,80.70,317.74,140.03,9.29">We note that the generic tensor network contraction based simulator supports both noiseless and noisy simulations -we use tensor networks to represent either the state vector or density matrix evolution, respectively.</s><s xml:id="_jGPWcRr" coords="3,223.77,317.74,307.53,9.29;3,80.35,330.29,407.62,9.29">The noise-modelling operations expressed in terms of the channel (Kraus) operators can be incorporated into the latter to mimic the hardware noise models.</s><s xml:id="_sBffBYx" coords="3,490.83,330.29,41.90,9.29;3,80.70,342.85,450.82,9.29;3,80.70,355.40,438.36,9.29">Similarly, approximate tensor representations of pure or mixed quantum states, based on different tensor factorizations, are provided as alternative approaches geared towards larger-scale simulations.</s><s xml:id="_8ptZefn" coords="3,521.92,355.40,9.39,9.29;3,80.70,367.95,450.61,9.29;3,80.70,380.50,450.60,9.29;3,80.70,393.06,450.60,9.29;3,80.31,405.61,186.32,9.29">In essence, TNQVM provides a multi-modal simulation platform whereby one can quickly prototype and evaluate accuracy, runtime, parallelism, memory consumption, etc., of varying tensor-based approaches for quantum circuit simulation, as well as execute the actual production runs on workstations, HPC platforms and clouds.</s></p><p xml:id="_Vj5BDm4"><s xml:id="_Pkwz9VX" coords="3,90.66,418.16,440.64,9.29;3,80.70,430.72,452.03,9.29;3,80.70,443.27,72.75,9.29">Compared to many other available quantum circuit simulation platforms, the XACC-TNQVM-ExaTN software stack offers unique features in terms of scalability, flexibility, extensibility, performance, and availability.</s><s xml:id="_VYrRWyr" coords="3,156.44,443.27,374.86,9.29;3,80.70,455.82,180.26,9.29">There are not many quantum circuit simulators that have been rigorously tested in a state-of-the-art HPC environment.</s><s xml:id="_N6UKAQp" coords="3,264.44,455.82,268.38,9.29;3,80.70,468.37,450.61,9.29;3,80.70,480.93,406.22,9.29">For example, the Flexible Quantum Circuit (qFlex) Simulator <ref type="bibr" coords="3,105.67,468.37,17.88,9.29" target="#b37">[37,</ref><ref type="bibr" coords="3,126.60,468.37,14.97,9.29" target="#b38">38]</ref> and the QCMPS simulator <ref type="bibr" coords="3,269.35,468.37,12.84,9.29" target="#b8">[9]</ref> have demonstrated scalability and accuracy on large supercomputers for the contraction-based and MPS simulation approaches, respectively.</s><s xml:id="_S9qAV7Q" coords="3,489.78,480.93,42.95,9.29;3,80.70,493.48,450.60,9.29;3,80.70,506.03,452.61,9.29">However, both of these simulators have been developed for rather specific and narrow use cases, not targeting generic quantum circuit simulation workflows in a complete end-to-end quantum programming stack.</s><s xml:id="_EuazQwN" coords="3,80.70,518.59,450.60,9.29;3,80.70,531.14,450.86,9.29;3,80.70,543.69,52.59,9.29">Moreover, most tensor-based simulators, including qFlex and QCMPS, tend to associate their internal representation to a particular form of tensor networks as opposed to the multi-modal flexibility of TNQVM.</s><s xml:id="_4Pcstbw" coords="3,136.50,543.69,394.80,9.29;3,80.70,556.25,450.61,9.29;3,80.70,568.80,241.43,9.29">Very recently, classical simulations of the random quantum circuits used in Google's quantum supremacy experiments <ref type="bibr" coords="3,233.42,556.25,12.59,9.29" target="#b4">[5]</ref> have been revisited with new simulators leveraging a powerful tensor contraction path optimization algorithm <ref type="bibr" coords="3,300.72,568.80,17.12,9.29" target="#b15">[16]</ref>.</s><s xml:id="_Bwm8j5s" coords="3,324.96,568.80,206.34,9.29;3,80.70,581.35,450.61,9.29;3,80.70,593.90,189.18,9.29">The QUIMB <ref type="bibr" coords="3,382.75,568.80,18.51,9.29" target="#b14">[15]</ref> and ACQDP <ref type="bibr" coords="3,461.35,568.80,18.51,9.29" target="#b19">[20]</ref> simulators have positioned themselves as potentially the fastest simulators for the quantum supremacy circuits on distributed HPC platforms and clouds.</s><s xml:id="_A4xTZUU" coords="3,272.72,593.90,258.58,9.29;3,80.70,606.46,450.60,9.29;3,80.70,619.01,161.94,9.29">Although they can be used for simulating other quantum computing circuits as well, their main focus has so far been on the direct tensor network contraction technique and noiseless amplitudes.</s><s xml:id="_BkvuxMD" coords="3,245.47,619.01,285.83,9.29;3,80.70,631.56,450.82,9.29;3,80.70,644.12,139.06,9.29">Similarly, two other recent quantum circuit simulators based on tensor network representations, Jet <ref type="bibr" coords="3,248.22,631.56,18.51,9.29" target="#b39">[39]</ref> and QTensor <ref type="bibr" coords="3,331.06,631.56,17.12,9.29" target="#b23">[24]</ref>, have also focused on the direct tensor network contraction algorithm.</s><s xml:id="_Nt6N73R" coords="3,222.26,644.12,309.04,9.29;4,80.70,107.40,438.61,9.29">In particular, QTensor has demonstrated significant GPU acceleration for the Quantum Approximate Optimization Algorithm (QAOA) via the new NVIDIA cuPy backend.</s><s xml:id="_BwcpG9x" coords="4,522.16,107.40,9.15,9.29;4,80.70,119.95,450.60,9.29;4,80.70,132.50,242.54,9.29">In contrast, to further boost its GPU performance, TNQVM has been integrated with the cuTensorNet library from the NVIDIA cuQuantum framework <ref type="bibr" coords="4,301.98,132.50,17.00,9.29" target="#b28">[29]</ref>.</s></p><p xml:id="_Jdb6qsc"><s xml:id="_rZ2eWeA" coords="4,90.66,145.06,440.64,9.29;4,80.70,157.61,450.60,9.29;4,80.70,170.16,135.92,9.29">Last but not least, we note that the modular full-stack integration between XACC, TNQVM, and ExaTN allows us to support multiple quantum programming languages and run on different classical compute platforms seamlessly.</s><s xml:id="_wxAzxUh" coords="4,219.07,170.16,312.24,9.29;4,80.70,182.72,450.60,9.29;4,80.70,195.27,312.00,9.29">This full-stack integration proves beneficial, especially for the TNQVM noisy simulators, which can query device noise models directly from the cloud-based hardware providers, e.g., IBM, using the XACC remote connection capabilities.</s><s xml:id="_Q3b3w6d" coords="4,395.55,195.27,135.76,9.29;4,80.70,207.82,269.47,9.29">Finally, we also want to stress our commitment to open-source development principles.</s><s xml:id="_YAtDyrH" coords="4,354.35,207.82,176.95,9.29;4,80.70,220.37,314.00,9.29">All of our development activities and implementations are in the public domain under permissive licenses.</s></p><p xml:id="_XAyCf9P"><s xml:id="_HpM4we9" coords="4,90.66,232.93,272.55,9.29">To summarize, this work makes the following contributions:</s></p><p xml:id="_TZgBXyt"><s xml:id="_sQnjAQV" coords="4,96.17,248.35,4.95,16.19;4,105.11,247.96,426.20,9.29;4,105.11,260.52,207.74,9.29">• We present an end-to-end C++ system for quantum circuit expression and simulation with a full support of heterogeneous HPC platforms.</s></p><p xml:id="_QFSAUKT"><s xml:id="_m6RWvD4" coords="4,96.17,273.46,4.95,16.19;4,105.11,273.07,426.19,9.29;4,105.11,285.62,32.12,9.29">• We introduce multiple levels of parallelization in tensor network processing via our new ExaTN library.</s></p><p xml:id="_dmNu6xd"><s xml:id="_XdKh9N3" coords="4,96.17,298.56,4.95,16.19;4,105.11,298.18,403.05,9.29">• We design and implement a scheme to parallelize MPS simulations across MPS sites.</s><s xml:id="_9u6fvX9" coords="4,511.69,298.18,19.61,9.29;4,105.11,310.73,418.51,9.29">This scheme differs from the prior work which parallelized each contraction in such simulations.</s></p><p xml:id="_h5YZndY"><s xml:id="_EZGCrUM" coords="4,96.17,323.67,4.95,16.19;4,105.11,323.28,426.19,9.29;4,105.11,335.84,55.05,9.29">• We provide the ability to import and incorporate device noise models into quantum circuit simulations.</s></p><p xml:id="_VybN4YC"><s xml:id="_37YAccG" coords="4,96.17,348.78,4.95,16.19;4,105.11,348.39,426.20,9.29;4,105.11,360.94,45.05,9.29">• We provide the capability of performing locally-purified MPO simulations with explicit noise modeling.</s></p><p xml:id="_xrphGMW"><s xml:id="_VxbPrCM" coords="4,96.17,373.88,4.95,16.19;4,105.11,373.49,428.20,9.29">• We introduce a novel general tensor network reconstruction (ExaTN-Gen) simulation method.</s></p><p xml:id="_jqvWtun"><s xml:id="_P84MF7e" coords="4,104.81,386.05,426.50,9.29;4,105.11,398.60,55.05,9.29">To the best of our knowledge, we are the first to employ this technique for quantum circuit simulations.</s></p><p xml:id="_UTXdHJ5"><s xml:id="_74sW24N" coords="4,90.66,413.64,221.04,9.29">The subsequent sections are organized as follows.</s><s xml:id="_bPJejbS" coords="4,314.01,413.64,217.29,9.29;4,80.70,426.19,450.61,9.29;4,80.70,438.74,173.38,9.29">Section 2 provides some background information about the XACC programming framework (TNQVM frontend) and the ExaTN library, the scalable numerical backbone behind TNQVM.</s><s xml:id="_TunQAub" coords="4,257.34,438.74,273.96,9.29;4,80.70,451.30,287.88,9.29">Section 3 details the implementation of various simulators in TNQVM in terms of the tensor language used by ExaTN.</s><s xml:id="_yYXeTwU" coords="4,372.88,451.30,158.42,9.29;4,80.70,463.85,450.60,9.29;4,80.70,476.40,209.57,9.29">Section 4 provides examples and demonstration results of TNQVM for various tasks ranging from a large-scale quantum circuit simulation to noisy quantum circuit modeling.</s><s xml:id="_RGz9SFk" coords="4,293.12,476.40,221.23,9.29">Conclusions and outlooks are given in Section 5.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_HYyZzYJ">BACKGROUND</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_8WA7G9v">ExaTN library</head><p xml:id="_24ueE7K"><s xml:id="_JJNknC2" coords="4,80.40,532.22,452.42,9.29;4,80.70,544.77,450.60,9.29;4,80.70,557.32,162.46,9.29">The ExaTN library (Exascale Tensor Networks) provides generic capabilities for construction, manipulation and processing of arbitrary tensor networks on single workstations, commodity clusters and leadership supercomputers <ref type="bibr" coords="4,227.63,557.32,11.65,9.29" target="#b0">[1]</ref>.</s><s xml:id="_4t8RyHG" coords="4,246.02,557.32,285.28,9.29;4,80.70,569.88,322.64,9.29">On heterogeneous platforms, it can leverage GPU acceleration provided by NVIDIA GPUs (support of AMD GPUs is still experimental).</s><s xml:id="_edAtR2P" coords="4,406.19,569.88,125.12,9.29;4,80.70,582.43,268.24,9.29">Our TNQVM simulator uses the ExaTN library as a parallel tensor processing backend.</s><s xml:id="_4Azckex" coords="4,351.80,582.43,181.01,9.29;4,80.70,594.98,450.60,9.29;4,80.70,607.53,145.60,9.29">The native ExaTN C++ application programming interface (API) consists of declarative and executive API (partial Pybind11 <ref type="bibr" coords="4,470.95,594.98,18.40,9.29" target="#b20">[21]</ref> bindings are available for Python users).</s><s xml:id="_qrm6DN8" coords="4,229.23,607.53,302.33,9.29;4,80.70,620.09,385.16,9.29">The declarative API provides functions for constructing arbitrary tensors and tensor networks and performing different formal manipulations on them.</s><s xml:id="_YTh5pJk" coords="4,468.72,620.09,62.58,9.29;4,80.38,632.64,451.14,9.29;4,80.70,645.19,220.72,9.29">The executive API provides functions for allocating tensor storage and parallel processing of tensor networks, for example to perform tensor network contraction.</s><s xml:id="_7enMRYQ" coords="4,304.28,645.19,227.02,9.29;5,80.70,107.40,452.61,9.29">The latter operation is automatically decomposed by the ExaTN parallel runtime into smaller tasks which are distributed across all MPI processes.</s><s xml:id="_4fpPP8p" coords="5,80.40,119.95,452.90,9.29">The decomposition is performed via the standard technique of intermediate tensor slicing <ref type="bibr" coords="5,494.88,119.95,17.79,9.29" target="#b15">[16,</ref><ref type="bibr" coords="5,515.51,119.95,13.34,9.29" target="#b38">38]</ref>.</s><s xml:id="_86NGCRF" coords="5,80.70,132.50,450.60,9.29;5,80.70,145.06,280.48,9.29">Individual tensor network slices received by each MPI process are further decomposed into pairwise tensor contractions by a pluggable contraction path finder.</s><s xml:id="_SuW4Ftv" coords="5,365.04,145.06,166.26,9.29;5,80.70,157.61,450.60,9.29;5,80.70,170.16,450.60,9.29;5,80.70,182.72,31.54,9.29">The pairwise contractions are then subsequently appended into the dynamic directed acyclic graph (dynamic DAG) executed by the ExaTN parallel runtime in a fully asynchronous fashion on all available compute units (CPUs and GPUs).</s></p><p xml:id="_r4BFs8b"><s xml:id="_QvbqnkB" coords="5,90.66,195.27,440.64,9.29;5,80.70,207.82,154.21,9.29">ExaTN also provides API for higher-level algorithms, specifically for tensor network reconstruction and tensor network optimization.</s><s xml:id="_bP6cB6u" coords="5,237.75,207.82,293.56,9.29;5,80.70,220.37,373.34,9.29">Tensor network reconstruction allows approximation of a given tensor network by another tensor network, normally with a simpler structure.</s><s xml:id="_Qn4dZ6t" coords="5,458.05,220.37,73.51,9.29;5,80.70,232.93,450.60,9.29;5,80.45,245.48,144.20,9.29">Tensor network optimization allows finding extrema of a given symmetric tensor network functional (expectation value of some tensor operator).</s><s xml:id="_Y2Uyfen" coords="5,227.51,245.48,303.80,9.29;5,80.70,258.03,300.60,9.29">The provided capabilities are sufficient for reformulating common linear algebra procedures on low-rank tensor network manifolds.</s><s xml:id="_BygwGrr" coords="5,384.16,258.03,147.14,9.29;5,80.70,270.59,450.85,9.29;5,80.70,283.14,206.08,9.29">Such a low-rank compression of linear algebra procedures allows their efficient computation for rather large problems with a tiny fraction of their exact Flop and memory cost.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_tVFdQ3u">XACC quantum programming framework</head><p xml:id="_N2pJXrJ"><s xml:id="_uKWCyfU" coords="5,80.38,328.32,450.93,9.29;5,80.70,340.87,450.60,9.29;5,80.70,353.42,166.00,9.29">XACC is a system-level quantum programming framework that enables quantum-language-agnostic programming targeting multiple physical and virtual quantum backends via a novel quantum intermediate representation (IR) <ref type="bibr" coords="5,231.22,353.42,11.61,9.29" target="#b2">[3]</ref>.</s><s xml:id="_NhMw2PP" coords="5,249.54,353.42,281.76,9.29;5,80.70,365.98,450.60,9.29;5,80.70,378.53,238.89,9.29">Ultimately, XACC puts forward a service-oriented architecture and defines a number of interfaces or extension points that span the typical quantum-classical programming, compilation, and execution workflow.</s><s xml:id="_H8DmbXB" coords="5,322.45,378.53,208.85,9.29;5,80.70,391.08,450.60,9.29;5,80.70,403.64,93.13,9.29">This platform provides an extensible backend interface for quantum program execution in a retargetable fashion, and this is the interface we target for this work.</s><s xml:id="_dXeyrFT" coords="5,176.69,403.64,354.62,9.29;5,80.70,416.19,205.13,9.29">TNQVM directly extends this layer and enables execution of the XACC IR via multiple tensor-network simulation schemes.</s></p><p xml:id="_u5GgxE2"><s xml:id="_z9PReaY" coords="5,90.66,428.74,440.64,9.29;5,80.70,441.30,278.74,9.29">Here, we briefly summarize pertinent XACC interfaces that are relevant to TNQVM and direct interested readers to <ref type="bibr" coords="5,180.95,441.30,18.51,9.29" target="#b26">[27]</ref> for a comprehensive introduction.</s><s xml:id="_8FqNHNS" coords="5,362.28,441.30,169.02,9.29;5,80.70,453.85,407.71,9.29">At the high-level, we can classify the framework components into three categories, namely frontend, middle-end, and backend.</s><s xml:id="_RAX36CH" coords="5,491.26,453.85,41.56,9.29;5,80.70,466.40,450.61,9.29;5,80.70,478.95,71.93,9.29">The frontend exposes a Compiler interface which is responsible for converting the input kernel source strings to the XACC IR.</s><s xml:id="_gpvDbWN" coords="5,155.48,478.95,375.82,9.29;5,80.70,491.51,452.12,9.29;5,80.70,504.06,156.02,9.29">IR is a pertinent data structure of the framework, capturing both the Instruction and CompositeInstruction service interfaces specialized for concrete quantum gates and collections of those gates, respectively.</s><s xml:id="_MA2QtHY" coords="5,240.08,504.06,291.22,9.29;5,80.70,516.61,450.61,9.29;5,80.70,529.17,450.61,9.29;5,80.70,541.72,99.47,9.29">Using the IR representation of the quantum kernel as its core data structure, the middle-end layer also exposes an IRTransformation interface enabling general transformations of quantum circuits (CompositeInstruction) for tasks such as circuit optimization and qubit placement.</s><s xml:id="_SzrUDmP" coords="5,183.55,541.72,347.76,9.29;5,80.70,554.27,277.54,9.29">Lastly, XACC provides an Accelerator interface enabling integration with physical and virtual (simulator) quantum computing backends.</s><s xml:id="_53xZuty" coords="5,360.58,554.27,170.99,9.29;5,80.70,566.83,378.00,9.29">TNQVM implements this Accelerator interface, thus providing a universal virtual quantum backend for the framework.</s><s xml:id="_KGh7W6w" coords="5,461.56,566.83,71.17,9.29;5,80.70,579.38,438.68,9.29">In other words, one can use TNQVM interchangeably with other physical QPUs or simulators available in XACC.</s></p><p xml:id="_2j8PUzE"><s xml:id="_fFJNhaW" coords="5,90.66,591.93,440.65,9.29;5,80.35,604.48,450.96,9.29;5,80.70,617.04,37.63,9.29">Internally, XACC Accelerator implementations usually leverage the object-oriented visitor pattern (the XACC InstructionVisitor) <ref type="bibr" coords="5,234.59,604.48,18.48,9.29" target="#b11">[12]</ref> to walk the IR tree representation of the compiled quantum circuits.</s><s xml:id="_NY73cG9" coords="5,122.00,617.04,390.12,9.29">Each Accelerator may opt to perform different actions while walking the IR tree.</s><s xml:id="_MEWbmYh" coords="5,515.78,617.04,15.73,9.29;5,80.70,629.59,450.61,9.29;5,80.70,642.14,233.10,9.29">For instance, for physical hardware backends, the Accelerator adapter needs to convert XACC IR to the native gate set that the platform supports.</s><s xml:id="_T9SytKt" coords="5,317.46,642.14,215.27,9.29;6,80.40,107.40,451.17,9.29;6,80.70,119.95,450.82,9.29;6,80.70,132.50,197.05,9.29">As we will describe in detail later in the text, TNQVM makes use of this InstructionVisitor interface to construct different tensor network representations of the input circuit depending on the selected mode of simulation, e.g., exact or approximate, ideal or noisy simulation, etc.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_dxAYDue">EXATN-ENABLED TNQVM IMPLEMENTATION</head><p xml:id="_ffHpJTK"><s xml:id="_EKyxTEz" coords="6,80.40,174.68,450.90,9.29;6,80.70,187.23,450.60,9.29;6,80.70,200.30,100.03,8.77">The ultimate goal of our updated TNQVM implementation targeting heterogeneous HPC systems is to map the input XACC IR to unique tensor data structures provided by ExaTN via the XACC InstructionVisitor.</s><s xml:id="_XM8AqqJ" coords="6,183.57,199.78,347.73,9.29;6,80.70,212.33,450.60,9.29;6,80.70,224.89,277.02,9.29">TNQVM will walk the IR tree via custom visitors (visitor design pattern <ref type="bibr" coords="6,512.86,199.78,18.44,9.29" target="#b11">[12]</ref> as described in 2.2) and visit the IR nodes (quantum gates) and construct, evaluate, and post-process the corresponding ExaTN tensor and tensor network objects.</s><s xml:id="_zfpvK6S" coords="6,360.55,224.89,170.75,9.29;6,80.70,237.44,275.21,9.29">Broadly speaking, TNQVM simulation methods can be categorized as either exact or approximate.</s><s xml:id="_W9W2Xwt" coords="6,358.77,237.44,172.53,9.29;6,80.70,249.99,450.61,9.29;6,80.70,262.55,212.20,9.29">The first category comprises backend simulators (visitors) that faithfully translate quantum circuits to equivalent tensor networks and then contract them to evaluate the value of interest.</s><s xml:id="_xCu8ccx" coords="6,295.75,262.55,235.55,9.29;6,80.70,275.10,450.87,9.29;6,80.70,287.65,450.82,9.29;6,80.70,300.20,90.81,9.29">On the other hand, approximate simulation methods rely on factorized forms of the state vector or density matrix where some form of a tensor network compression is used, for example, via the matrix product-state (MPS) tensor network or other tensor network topologies.</s><s xml:id="_NJwsZFk" coords="6,174.39,300.20,356.92,9.29;6,80.45,312.76,190.16,9.29">The factorized representation is maintained throughout the circuit simulation via a suitable decomposition procedure.</s><s xml:id="_HQKx2rv" coords="6,274.64,312.76,256.66,9.29;6,80.70,325.31,328.57,9.29">Thus, we can balance the accuracy and complexity of these approximate representations throughout the simulation process.</s><s xml:id="_69cJjS3" coords="6,412.23,325.31,119.08,9.29;6,80.70,337.86,341.86,9.29">We note that TNQVM can incorporate stochastic noise into both forms of quantum circuit simulation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_MpdKBea">Direct Tensor Network Contraction</head><p xml:id="_Yr365ZQ"><s xml:id="_jahXKvt" coords="6,80.70,380.04,450.61,9.29;6,80.70,392.59,143.93,9.29">In this mode of execution, we construct a tensor network that embodies the entire quantum circuit before evaluating it numerically.</s><s xml:id="_q6Wv68K" coords="6,227.25,392.59,304.06,9.29;6,80.70,405.14,388.20,9.29">More specifically, qubits, single-qubit gates, and two-qubit gates are represented by rank-1, rank-2, and rank-4 tensors, respectively, as depicted in Fig. <ref type="figure" coords="6,455.21,405.14,9.13,9.29" target="#fig_0">1a</ref>.</s><s xml:id="_JKCeuDp" coords="6,471.75,405.14,59.55,9.29;6,80.70,417.69,373.14,9.29">The quantum circuit dictates the connectivity of tensors within the tensor network (see Fig. <ref type="figure" coords="6,436.19,417.69,8.82,9.29" target="#fig_0">1b</ref>).</s><s xml:id="_BZDVCY3" coords="6,456.68,417.69,76.05,9.29;6,80.70,430.25,451.31,9.29;6,80.70,442.80,50.20,9.29">Once completed, the tensor network is submitted to the ExaTN numerical server for parallel (GPU-accelerated) evaluation.</s></p><p xml:id="_CBatT32"><s xml:id="_J79mvrj" coords="6,90.66,455.35,440.65,9.29;6,80.70,467.91,450.61,9.29;6,80.70,480.46,450.82,9.29;6,80.70,493.01,258.09,9.29">During the evaluation phase, ExaTN first analyzes the structure of the tensor network in order to determine the pseudo-optimal tensor contraction sequence (contraction path), that is, it performs minimization of the Flop count (or other relevant metrics) necessary for the evaluation of the tensor network as a sequence of pairwise tensor contractions.</s><s xml:id="_jNzXF7K" coords="6,341.91,493.01,189.39,9.29;6,80.70,505.56,452.03,9.29;6,80.70,518.12,298.50,9.29">The Flop count is minimized by using an algorithm based on recursive graph partitioning (via the METIS library <ref type="bibr" coords="6,412.58,505.56,17.64,9.29" target="#b21">[22]</ref>) and some heuristics, following an approach similar to the one presented in Ref. <ref type="bibr" coords="6,357.75,518.12,17.16,9.29" target="#b15">[16]</ref>.</s><s xml:id="_WHRs4jg" coords="6,382.49,518.12,148.81,9.29;6,80.70,530.67,328.73,9.29">We should note that our default contraction path finder currently does not include Bayesian optimization.</s><s xml:id="_WXGNkgS" coords="6,412.27,530.67,119.03,9.29;6,80.45,543.22,450.86,9.29;6,80.70,555.78,450.61,9.29;6,80.70,568.33,452.60,9.29">Although such a simplified version of the contraction path finder implemented in ExaTN does not provide the top quality, it prioritizes the speed of the tensor contraction path search, to ensure that the search process does not take more time than the actual evaluation of the tensor network on a highly-parallel HPC platform.</s><s xml:id="_3YCqX2H" coords="6,80.70,580.88,450.61,9.29;6,80.70,593.44,450.61,9.29;6,80.70,605.99,416.65,9.29">Furthermore, a common interface for the tensor contraction path optimization provided by ExaTN allows easy integration with existing high-quality tensor contraction path finders, like CoTenGra <ref type="bibr" coords="6,513.04,593.44,18.26,9.29" target="#b15">[16]</ref> or cuQuantum <ref type="bibr" coords="6,147.81,605.99,18.27,9.29" target="#b28">[29]</ref> (in fact, ExaTN has been integrated with both in experimental branches).</s><s xml:id="_HsHHQ2r" coords="6,500.20,605.99,31.10,9.29;6,80.70,618.54,450.60,9.29;6,80.70,631.09,450.60,9.29;6,80.70,643.65,45.88,9.29">Once a pseudo-optimal tensor contraction path has been identified, the ExaTN numerical server executes the determined tensor contraction sequence across multiple nodes with an optional GPU acceleration capability.</s><s xml:id="_gCBxb4k" coords="6,129.43,643.65,401.88,9.29">Each compute node executes its own subset of tensor sub-networks generated by slicing</s></p><formula xml:id="formula_0" coords="7,117.96,127.96,38.11,92.51">Q k Gate (1Q) Gate (2Q)</formula><p xml:id="_xamtQdc"><s xml:id="_cm8CjF2" coords="7,80.38,302.86,113.14,7.67;7,80.70,314.37,112.65,7.67;7,80.70,325.88,63.83,7.67">(a) Tensor notations for qubits, single and two-qubit quantum gates.</s><s xml:id="_v9NAAmY" coords="7,80.70,390.00,450.60,9.29;7,80.70,402.55,268.62,9.29">some of the tensor network edges, a standard technique used for creating parallel work and reducing the memory footprint of intermediate tensors <ref type="bibr" coords="7,293.59,402.55,17.86,9.29" target="#b15">[16,</ref><ref type="bibr" coords="7,314.30,402.55,14.30,9.29" target="#b37">37,</ref><ref type="bibr" coords="7,331.45,402.55,13.40,9.29" target="#b38">38]</ref>.</s><s xml:id="_kNz53Ww" coords="7,352.16,402.55,179.15,9.29;7,80.70,415.10,302.24,9.29">It is worth noting that ExaTN supports GPU processing of tensors that are too large to fit into GPU memory.</s><s xml:id="_G88f63q" coords="7,385.35,415.10,145.95,9.29;7,80.70,427.65,389.63,9.29">In this case, all cross-device data transfers are orchestrated by the library automatically and transparently to the user.</s><s xml:id="_8QV7mQB" coords="7,473.16,427.65,59.57,9.29;7,80.70,440.21,450.60,9.29;7,80.70,452.76,450.61,9.29;7,80.70,465.31,450.60,9.29;7,80.70,477.87,154.81,9.29">In particular, ExaTN is capable of splitting larger tensors into manageable pieces, automatically transferring tensors to/from GPU memory, prefetching tensors to GPU memory in advance, caching tensors in GPU memory for a subsequent reuse, and pipelining data transfers with computations in order to amortize data transfer overheads.</s></p><formula xml:id="formula_1" coords="7,238.16,115.44,234.64,230.36">Q 0 Q 1 Q n-2 Q n-1 (b) Tensor network representation of a quantum circuit</formula><p xml:id="_qrq8nfN"><s xml:id="_zKtt6BF" coords="7,90.66,490.42,442.64,9.29">The direct tensor contraction works best for computing individual amplitudes or their batches.</s><s xml:id="_PjQ2utg" coords="7,80.70,502.97,450.60,9.29;7,80.70,515.53,263.64,9.29">Since the number of open edges in the tensor network is equal to the number of qubits, we cannot obtain the full wave-function for a large number of qubits.</s><s xml:id="_7VeKsT2" coords="7,347.19,515.53,184.12,9.29;7,80.70,528.08,432.81,9.29">Instead, for large-scale circuits, we have implemented a variety of utility functions to extract observable values, as described in Table <ref type="table" coords="7,504.96,528.08,4.28,9.29" target="#tab_0">1</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1" xml:id="_a9xUeTf">Single-state amplitudes.</head><p xml:id="_Z5vw6VK"><s xml:id="_9UjmN9g" coords="7,226.57,547.22,304.73,9.29;7,80.70,559.77,450.60,9.29;7,80.70,572.32,441.03,9.29">Once the full circuit tensor network has been constructed, we can append appropriate conjugate qubit tensors to each open qubit leg to compute a desired quantum state amplitude (as shown in Fig. <ref type="figure" coords="7,235.00,572.32,4.28,9.29" target="#fig_1">2</ref>, red triangles project open qubit legs to a specific bit-string).</s></p><p xml:id="_wQYYFgA"><s xml:id="_tmVCw68" coords="7,90.66,584.87,323.02,9.29">Effectively, here we construct the following tensor network to evaluate</s></p><formula xml:id="formula_2" coords="7,273.15,602.50,258.15,16.58">⟨Ψ i |U cir cuit |Ψ 0 ⟩,<label>(1)</label></formula><p xml:id="_5WFyC4C"><s xml:id="_5bFZ4Hv" coords="7,80.31,620.12,28.21,9.29;7,111.77,620.51,9.31,16.19;7,120.37,623.71,3.38,5.17;7,124.25,620.51,3.62,16.19;7,130.72,620.12,402.01,10.40;7,80.70,632.67,55.54,9.29">where |Ψ 0 ⟩ and U cir cuit are the initial state and the equivalent unitary matrix of the quantum circuit, respectively.</s><s xml:id="_j8v5XXc" coords="7,139.42,633.06,9.30,16.19;7,147.91,636.56,2.23,6.52;7,151.32,633.06,3.62,16.19;7,157.71,632.67,269.59,9.29">|Ψ i ⟩ is the bit-string state whose amplitude we want to calculate.</s><s xml:id="_WhrpNjJ" coords="7,430.07,632.67,101.23,9.29;7,80.70,645.23,38.48,9.29">The result of (1) is just a scalar.</s><s xml:id="_P5cz27u" coords="7,122.26,645.23,266.05,9.29">This procedure can be repeated for different amplitudes.</s><s xml:id="_73NmgcM" coords="7,391.41,645.23,139.89,9.29;8,80.70,341.05,450.61,9.29;8,80.70,353.60,293.43,9.29">It is worth noting that despite its low rank, the numerical evaluation of a single-state amplitude for large-scale quantum circuits involving many qubits and gates is numerically challenging <ref type="bibr" coords="8,352.91,353.60,16.97,9.29" target="#b38">[38]</ref>.</s><s xml:id="_fEhsPkf" coords="8,376.98,353.60,154.32,9.29;8,80.70,366.15,450.60,9.29;8,80.70,378.71,394.34,9.29">Small gate tensors are contracted internally to form larger tensors and any intermediate tensors that require more memory than available will be split into smaller slices and distributed across multiple MPI processes.</s><s xml:id="_ME4Wnhw" coords="8,477.91,378.71,54.82,9.29;8,80.70,391.26,450.60,9.29;8,80.70,403.81,317.67,9.29">In principle, this allows simulating output amplitudes of an arbitrarily large quantum circuit in terms of the number of qubits involved, while keeping a bounded memory footprint.</s><s xml:id="_kpxTKED" coords="8,401.13,403.81,130.17,9.29;8,80.70,416.36,450.60,9.29;8,80.70,428.92,268.30,9.29">The individual or small-batch amplitude evaluation plays a key role in validating near-term quantum hardware via procedures such as the random quantum circuit sampling protocol <ref type="bibr" coords="8,333.45,428.92,11.66,9.29" target="#b4">[5]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2" xml:id="_HV52sfb">Operator expectation values.</head><p xml:id="_5RgthKR"><s xml:id="_nYSc77x" coords="8,251.74,447.84,279.56,9.29;8,80.70,460.39,296.72,9.29">A ubiquitous use case in quantum circuit simulation is the calculation of the expectation values of Hermitian operators, i.e.,</s></p><formula xml:id="formula_3" coords="8,283.55,477.55,247.75,16.58">⟨Ψ f |H |Ψ f ⟩,<label>(2)</label></formula><p xml:id="_RPrR8an"><s xml:id="_Nknd6RA" coords="8,80.31,494.70,27.93,9.29;8,111.49,495.09,9.31,16.19;8,120.14,498.70,2.44,6.52;8,124.93,495.09,3.62,16.19;8,131.32,494.92,38.62,10.18;8,171.71,495.09,9.30,16.19;8,180.32,498.29,3.38,5.17;8,184.20,495.09,3.62,16.19;8,190.67,494.70,340.85,9.51;8,80.70,507.25,182.52,9.29">where |Ψ f ⟩ = U cir cuit |Ψ 0 ⟩ is the final state of the qubit register and H is a general Hermitian operator representing an observable of interest.</s><s xml:id="_TuGnNaq" coords="8,266.44,507.25,264.86,9.51;8,80.70,519.80,72.37,9.29;8,156.17,520.19,8.46,16.19;8,164.90,520.02,48.03,10.18;8,214.70,520.19,6.38,16.19;8,223.94,519.80,87.84,9.29">For instance, H could be a Hermitian sum of products of Pauli operators, {σ I , σ X , σ Y , σ Z }, on different qubits.</s><s xml:id="_mEmvrYz" coords="8,314.62,519.80,216.68,9.29;8,80.70,532.36,452.12,9.29;8,80.35,544.91,450.95,9.29;8,80.70,557.46,94.90,9.29">We have implemented two different methods to compute Eq. ( <ref type="formula" coords="8,143.08,532.36,4.15,9.29" target="#formula_3">2</ref>) for circuits that have more qubits than a state-vector simulator can efficiently handle: (a) via the use of the conjugate tensor network, and (b) via the wave-function slicing approach, as described in Table <ref type="table" coords="8,167.04,557.46,4.28,9.29" target="#tab_0">1</ref>.</s></p><p xml:id="_85YjkuU"><s xml:id="_xuPPVtg" coords="8,90.66,570.02,402.76,10.40;8,495.19,570.40,9.31,16.19;8,503.80,573.61,3.38,5.17;8,507.68,570.40,6.52,16.19;8,518.06,570.02,13.24,9.29;8,80.70,582.57,450.60,9.29;8,80.70,595.12,106.67,10.40;8,189.14,595.51,9.31,16.19;8,197.75,598.71,3.38,5.17;8,201.63,595.51,3.62,16.19;8,208.09,595.12,40.61,9.29">In the first approach, after constructing the tensor network which represents U cir cuit |Ψ 0 ⟩, we append the measure operator tensors and then close the obtained tensor network with the Hermitian conjugate of the U cir cuit |Ψ 0 ⟩ network.</s><s xml:id="_CGKUKE6" coords="8,251.54,595.12,279.76,9.29;8,80.31,607.67,443.15,9.29">The resulting tensor network evaluates to a scalar and in the worst case consists of approximately twice the number of component tensors, as shown in Fig. <ref type="figure" coords="8,514.91,607.67,4.28,9.29" target="#fig_2">3</ref>.</s></p><p xml:id="_GenQtbF"><s xml:id="_2DQDUaH" coords="8,90.66,620.23,311.49,9.29">The evaluation of this tensor network yields the expectation value.</s><s xml:id="_n6BYYXM" coords="8,405.28,620.23,126.03,9.29;8,80.70,632.78,450.60,9.29;8,80.70,645.33,450.60,9.29;9,80.70,451.94,302.35,9.29">It is worth mentioning that ExaTN can intelligently collapse a tensor and its conjugate in case they are contracted with each other, which can therefore simplify the tensor network if the measurement operator product is sparse, i.e., it affects only a small fraction of qubits in the circuit.</s><s xml:id="_gHgNbeF" coords="9,385.91,451.94,145.64,9.29;9,80.70,464.49,160.07,9.29">This simplification is commonly called the light-cone simplification.</s></p><formula xml:id="formula_4" coords="9,139.87,119.20,332.29,239.72">Q 0 Q 1 Q n-2 Q n-1 0/1 0/1 0/1 0/1</formula><p xml:id="_zs4hFXu"><s xml:id="_rGEetRk" coords="9,90.66,477.04,440.64,9.29;9,80.70,489.60,450.60,9.29;9,80.70,502.15,101.12,9.29">In the wave-function slicing evaluation method, we slice the output wave-function based on the memory constraint, compute the expectation value for each slice, and recombine them to form the final result at the end.</s><s xml:id="_7HvXGz4" coords="9,184.67,502.15,174.22,9.29;9,88.42,517.18,442.88,9.29;9,105.11,529.74,81.12,9.29">Specifically, the workflow is as follows (1) Based on the memory constraint, determine the max number of open qubit legs (rank_max ) in the output tensor.</s></p><p xml:id="_JSmdTKJ"><s xml:id="_gCRMNpW" coords="9,88.43,540.99,433.54,11.82;9,524.97,542.68,6.34,16.19;9,104.71,555.06,44.76,9.30">(2) Determine the number of wave-function slices (N slices ), which is 2 N pr o j ec t ed , N pr oject ed = N qubit s -rank_max.</s></p><p xml:id="_v2Wzc2R"><s xml:id="_4Y9MtdM" coords="9,88.42,567.39,252.05,9.29;9,340.72,571.39,19.53,6.52;9,361.43,567.39,121.70,9.29">(3) Distribute the wave-function slice compute tasks (N slices ) across all MPI processes.</s><s xml:id="_TqqZfgp" coords="9,88.42,579.95,361.48,9.29">(4) Compute the expectation value of the measurement operator for each slice.</s></p><p xml:id="_WFUG9Vt"><s xml:id="_gdz6UcS" coords="9,88.42,592.50,396.86,9.29">(5) Sum (reduce) the partial expectation values to compute the final expectation value.</s></p><p xml:id="_8G59QrT"><s xml:id="_TxACRUG" coords="9,90.66,607.54,440.64,9.29;9,80.70,620.09,371.08,9.29">In practice, there are pros and cons in using the above two methods, one based on the quantum circuit conjugation and the other one based on the output wave-function slicing.</s><s xml:id="_a5pb5qS" coords="9,454.63,620.09,76.68,9.29;9,80.70,632.64,450.60,9.29;9,80.70,645.19,450.61,9.29;10,80.70,365.08,260.57,9.29">The first method is more favorable for larger qubit counts (circuit width) and lower circuit depth, in which case the light-cone simplification becomes very effective in reducing the tensor network complexity, provided that the observable Pauli products are sufficiently local.</s><s xml:id="_QbWJyfq" coords="10,344.27,365.08,187.03,9.29;10,80.70,377.63,450.86,9.29;10,80.70,390.18,305.65,9.29">For deeper quantum circuits and/or less local observables, the light-cone simplification is unable to reduce the computational complexity significantly enough to justify doubling of the tensor network depth.</s><s xml:id="_7GT5rJ9" coords="10,389.21,390.18,142.09,9.29;10,80.31,402.74,296.21,9.29">In this case, the second method will be faster, provided that the number of qubits is not too high.</s><s xml:id="_Dxmmx3g" coords="10,379.37,402.74,151.93,9.29;10,80.70,415.29,300.43,9.29">On the other hand, both methods are highly amenable to parallelization, and TN-QVM exploits that.</s></p><formula xml:id="formula_5" coords="10,90.17,114.01,431.31,177.75">Q 0 Q 1 Q n-2 Q n-1 Observable σ k σ k σ k σ k Q † 0 Q † 1 Q † n-2 Q † n-1</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_2DzZ3Qc">Matrix Product State Simulation</head><p xml:id="_wkNXRxY"><s xml:id="_qb9vk3J" coords="10,80.40,454.39,450.90,9.29;10,80.31,466.94,450.99,9.29;10,80.31,479.49,242.71,9.29">TNQVM also provides an approximate simulator based on the MPS factorization of the circuit wave-function <ref type="bibr" coords="10,146.09,466.94,16.88,9.29" target="#b25">[26]</ref>, where a user can specify the numerical limit for the singular value truncation as well as the maximum entanglement bond dimension.</s><s xml:id="_53QbYfA" coords="10,325.88,479.49,206.84,9.29;10,80.31,492.05,450.99,9.29;10,80.70,504.60,232.79,9.29">Built upon the parallel capabilities of ExaTN, we have implemented a distributed MPS tensor processing scheme in which the MPS tensors are distributed evenly across available compute nodes.</s></p><p xml:id="_FkSaSzu"><s xml:id="_Up9PXuc" coords="10,90.66,517.15,440.64,9.29;10,80.70,529.70,300.94,9.29">A quantum circuit simulation via the MPS simulator backend (named exatn-mps) is performed via the standard sequential contraction and decomposition steps <ref type="bibr" coords="10,360.44,529.70,16.95,9.29" target="#b25">[26]</ref>.</s><s xml:id="_DZ4b47b" coords="10,384.49,529.70,146.82,9.29;10,80.70,542.26,207.64,9.29">Single-qubit gate tensors can be absorbed into the qubit MPS tensors directly.</s><s xml:id="_EXc48JH" coords="10,291.20,542.26,240.10,9.29;10,80.70,554.81,210.36,9.29">The application of the two-qubit entangling gates on two neighboring MPS tensors is computed by:</s></p><p xml:id="_9gzTUtV"><s xml:id="_weXPPAK" coords="10,96.17,570.25,4.95,16.19;10,105.11,569.87,304.52,9.29">• Merge (contract) the two MPS tensors with the rank-4 gate tensor.</s></p><p xml:id="_4cTdQe9"><s xml:id="_fTn4NZU" coords="10,96.17,582.81,4.95,16.19;10,105.11,582.42,426.19,9.29;10,104.78,594.97,219.10,9.29">• Decompose the resulting tensor back into two MPS tensors via the singular value decomposition API (exatn::decomposeTensorSVDLR) of ExaTN.</s></p><p xml:id="_83f6WeM"><s xml:id="_Rt79AvV" coords="10,96.17,607.91,4.95,16.19;10,105.11,607.53,426.19,9.29;10,105.11,620.08,426.19,9.29;10,105.11,632.63,38.95,9.29">• Truncate the dimension of the connecting leg between the two post-SVD MPS tensors, the so-called bond dimension, according to chosen numerical accuracy or memory constraint settings.</s></p><p xml:id="_7DSnmcy"><s xml:id="_HYkfrzX" coords="10,96.17,645.57,4.95,16.19;10,105.11,645.18,232.68,9.29">• Update the MPS ansatz with the new MPS tensors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_38ZxSRd">. TNQVM density matrix simulation with noise inclusion</head><p xml:id="_FKfFxWm"><s xml:id="_x3bEYxC" coords="11,90.66,436.17,440.64,9.29;11,80.70,448.73,222.14,9.29">By following this procedure, we can compute the MPS tensor network approximating the full state vector at the end of the quantum circuit.</s><s xml:id="_4eDXRrW" coords="11,306.66,448.73,224.64,9.29;11,80.70,461.28,450.60,9.29;11,80.70,473.83,38.40,9.29">Expectation values or bit-string amplitudes can be computed in the same manner as previously described for the full tensor network contraction strategy.</s><s xml:id="_w2HQY6q" coords="11,121.93,473.83,409.60,9.29;11,80.70,486.39,450.61,9.29;11,80.31,498.94,188.49,9.29">We also want to note that the transformation of quantum circuits into this nearest-neighbor form by injecting the SWAP gates is performed automatically by the XACC IRTransformation service when the exatn-mps backend is selected.</s></p><p xml:id="_ve7EHSv"><s xml:id="_k5mjNvG" coords="11,90.66,511.49,440.65,9.29;11,80.70,524.04,45.68,9.29;11,126.58,524.04,74.93,10.52">In our implementation of the distributed MPS algorithm each MPI process holds a sub-set of MPS tensors (N qubit s /N pr ocesses ).</s><s xml:id="_6DV3Yct" coords="11,204.18,524.04,327.12,9.29;11,80.70,536.60,452.61,9.29">Multiple process groups (exatn::ProcessGroup) are then created where each process group consists of a pair of neighboring MPI processes to facilitate local communication.</s></p><p xml:id="_cAR4erJ"><s xml:id="_pmFXvQk" coords="11,80.40,549.15,450.90,9.29;11,80.70,561.70,64.56,9.29">The application of entangling gates between neighboring tensors on different MPI processes is performed by:</s></p><p xml:id="_gZQ7And"><s xml:id="_ggre24u" coords="11,96.17,580.98,4.95,16.19;11,105.11,580.59,426.20,9.29;11,105.11,593.15,128.85,9.29">• Use exatn::replicateTensor API within a pair of neighboring MPI processes to broadcast the MPS tensor right-to-left.</s></p><p xml:id="_NEDCsAh"><s xml:id="_YrUPYGs" coords="11,96.17,606.09,4.95,16.19;11,105.11,605.70,423.88,9.29">• The left process (smaller MPI rank) performs the contraction and SVD decomposition locally.</s></p><p xml:id="_g84CpU4"><s xml:id="_CzR8BdX" coords="11,96.17,618.64,4.95,16.19;11,105.11,618.25,428.20,9.29">• The resulting right tensor will then be forwarded left-to-right using exatn::replicateTensor.</s></p><p xml:id="_yhHq9XK"><s xml:id="_3TPWpJC" coords="11,104.81,630.81,426.49,9.29;11,105.11,643.36,144.51,9.29">The two processes now decouple and can continue their independent processing of gates on their subset of managed qubits.</s></p><p xml:id="_g3tMYks"><s xml:id="_x9bPtSc" coords="12,228.45,122.86,8.95,8.19">T 0</s></p><formula xml:id="formula_6" coords="12,116.62,116.75,127.76,204.67">T 1 T 2 T 3 T 0 T 1 T 2 T 3 K K K K D D D D D D<label>(</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3" xml:id="_gYtkFfE">Density Matrix Simulation</head><p xml:id="_3TC9dYC"><s xml:id="_zSGDjpv" coords="12,80.70,411.71,450.82,9.29;12,80.31,424.26,58.21,9.29">In TNQVM, we can also construct the density matrix by taking the outer product of a state vector with its dual.</s><s xml:id="_hQ4xx6M" coords="12,141.38,424.26,389.92,9.29;12,80.70,436.82,124.01,9.29">In this form the density matrix tensor has a rank of 2N (number of dimensions), with N being the number of qubits.</s><s xml:id="_ashsVBZ" coords="12,207.44,436.82,323.86,9.29;12,80.70,449.37,320.36,9.29">Using a density matrix representation of the quantum state, we can thus incorporate (non-unitary) noise processes into the simulation workflow.</s><s xml:id="_SmCbWXJ" coords="12,403.91,449.37,127.40,9.29;12,80.70,461.92,246.80,9.29">A convenient representation for noise processes (channels) is the Kraus expansion,</s></p><formula xml:id="formula_7" coords="12,273.04,481.66,258.27,23.15">ρ → k A k ρA † k ,<label>(3)</label></formula><p xml:id="_FA6nHG5"><s xml:id="_M3VNQ2B" coords="12,80.31,516.72,45.58,9.66;12,129.07,517.11,26.14,16.19;12,158.47,516.72,112.35,9.29;12,273.93,517.11,9.86,16.19;12,283.83,520.72,3.77,6.52;12,289.08,517.11,3.27,16.19;12,295.45,516.72,131.36,9.29">where ρ = |Ψ⟩⟨Ψ| is the density matrix and {A k } is the set of Kraus operators,</s></p><formula xml:id="formula_8" coords="12,429.66,514.33,103.07,15.13">satisfying k A † k A k = 1,</formula><p xml:id="_vwA4Pzb"><s xml:id="_EmJM4K7" coords="12,80.70,529.27,156.82,9.29">describing the channel of interest.</s></p><p xml:id="_Yzpwbqv"><s xml:id="_9KGRXjX" coords="12,90.66,541.83,440.65,9.29;12,80.70,554.38,270.07,9.29">To simulate noisy quantum circuits via our exatn-dm backend, we append gate tensors to both sides of the tensor network representing the density matrix.</s><s xml:id="_VTUD3Eh" coords="12,353.63,554.38,177.67,9.29;12,80.70,566.93,421.45,9.29">Specifically, for each quantum gate, the gate tensor and its conjugate are applied to the ket (right) and bra (left) sides, respectively.</s><s xml:id="_xXhjVr6" coords="12,505.00,566.93,26.31,9.29;12,80.70,579.48,450.61,9.29;12,80.70,592.04,79.24,9.29">Noise operators, on the other hand, are tensors that need to be connected to both ket and bra legs as shown in Fig. <ref type="figure" coords="12,145.79,592.04,9.43,9.29">4a</ref>.</s><s xml:id="_PhWWxz2" coords="12,162.78,592.04,368.52,9.29;12,80.70,604.59,124.27,9.29">We want to note that for illustration purposes, noise tensors are represented as U-shaped tensors in Fig. <ref type="figure" coords="12,191.35,604.59,9.08,9.29">4a</ref>.</s><s xml:id="_7g3bmmN" coords="12,207.45,604.59,323.85,9.29;12,80.70,617.14,353.32,9.29">We construct them as rank-4 and rank-8 tensors for single-and two-qubit noise processes, respectively, and then append them to our tensor network.</s><s xml:id="_3peTgWj" coords="12,437.09,617.14,94.21,9.29;12,80.70,629.70,262.75,9.29">In our examples, we have defined depolarizing and dephasing Kraus tensors.</s><s xml:id="_sfrfEX2" coords="12,346.64,629.70,184.66,9.29;12,80.70,642.25,369.06,9.29;13,90.66,107.40,214.39,9.29;13,80.70,119.95,225.87,9.29;13,80.70,132.50,224.35,9.29;13,80.70,145.06,85.64,9.29">To formally construct these tensors, we contract (trace over) an environmental qubit in a dilated unitary formulation <ref type="bibr" coords="12,432.76,642.25,17.00,9.29" target="#b27">[28]</ref>  Following this construction procedure, we have a full tensor network capturing the noisy evolution according to the input quantum circuit and a given noise model.</s><s xml:id="_3uhwhZT" coords="13,169.19,145.06,135.86,9.29;13,80.70,157.61,225.78,9.29;13,80.31,170.16,224.74,9.29;13,80.70,182.72,226.35,9.29">At this point, we can evaluate this tensor network to retrieve the density matrix, whose diagonal elements equal the probability of measuring a particular computational basis state.</s><s xml:id="_UeJj7ZS" coords="13,80.70,195.27,224.61,9.29;13,80.70,207.82,225.87,9.29;13,80.70,220.37,37.38,9.29">For larger systems, however, full density matrix contraction is not practical due to memory constraints.</s><s xml:id="_ugZbAMZ" coords="13,120.95,220.37,184.10,9.29;13,80.70,232.93,224.60,9.29;13,80.70,245.48,224.35,9.29;13,80.70,258.03,224.35,9.29;13,80.70,270.59,151.61,9.29">We can compute specific quantities such as bit-string probabilities or expectation values by adding projection or observable tensors and then contracting the bra and ket qubit legs to form a trace value as depicted in Fig. <ref type="figure" coords="13,218.30,270.59,9.34,9.29">4b</ref>.</s><s xml:id="_r7wRbPb" coords="13,235.07,270.59,70.20,9.29;13,80.70,283.14,224.35,9.29;13,80.70,295.69,224.36,9.29;13,80.70,308.25,224.35,9.29;13,80.70,320.80,225.87,9.29;13,80.70,333.35,67.23,9.29">The final tensor network is then submitted to ExaTN, which will analyze the structure of the network to determine the tensor contraction sequence and perform the evaluation similar to the simulation algorithm described in Sec.</s><s xml:id="_a5GC3Rt" coords="13,150.78,333.35,17.11,9.29">3.1.</s></p><formula xml:id="formula_9" coords="13,325.76,310.65,161.42,71.53">{ H(q[0]); CX(q[0], q[1]); Measure(q[0]); Measure(q[1]); })",</formula><p xml:id="_636xXD6"><s xml:id="_Y9TGTK8" coords="13,90.66,345.90,214.39,9.29;13,80.70,358.46,224.35,9.29;13,80.70,371.01,224.35,9.29;13,80.70,383.56,149.32,9.29">Using the exatn-dm backend of TNQVM, users can incorporate quantum noise models into the simulation workflow, such as those that mimic the IBM-Q hardware backends.</s><s xml:id="_uWabzet" coords="13,234.25,383.56,70.80,9.29;13,80.70,396.12,224.35,9.29;13,80.70,408.67,225.87,9.29;13,80.70,421.22,224.61,9.29;13,80.70,433.77,225.87,9.29;13,80.31,446.33,128.74,9.29">XACC provides utilities to convert IBM's JSON-based backend configurations into concrete relaxation and depolarization Kraus tensors which are subsequently incorporated into the density matrix tensor network as illustrated in Fig. <ref type="figure" coords="13,200.50,446.33,4.28,9.29">4</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4" xml:id="_7aGh5dU">Locally-Purified Matrix Product Operator Simulation</head><p xml:id="_BQ923eF"><s xml:id="_tak2h6e" coords="13,90.66,512.78,214.39,9.29;13,80.70,525.33,224.35,9.29;13,80.70,537.88,224.35,9.29;13,80.70,550.44,19.71,9.29">Just as one can factorize a full state vector into an MPS tensor network, one can also factorize the full density matrix tensor (as described in Sec.</s><s xml:id="_vH59Akw" coords="13,104.67,550.44,136.56,9.29">3.3) into a similar structure.</s><s xml:id="_HB7cyD5" coords="13,245.50,550.44,60.97,9.29;13,80.70,562.99,224.36,9.29;13,80.35,575.54,204.04,9.29">One method, known as the locally-purified matrix product state (LP-MPS) ansatz <ref type="bibr" coords="13,159.82,575.54,17.15,9.29" target="#b40">[40]</ref>, is depicted in Fig. <ref type="figure" coords="13,270.22,575.54,9.45,9.29" target="#fig_6">5a</ref>.</s><s xml:id="_G2Eyua9" coords="13,287.27,575.54,17.78,9.29;13,80.70,588.10,224.35,9.29;13,80.70,600.65,225.87,9.29;13,80.70,613.20,225.87,9.29;13,80.70,625.75,450.60,9.29;13,80.70,638.31,20.33,9.29">It is implemented in TNQVM via another simulation algorithm, named exatn-pmps, that performs approximate density matrix-based simulation following this decomposition procedure (this particular algorithm does not support distributed execution yet).</s></p><p xml:id="_jfv5TbG"><s xml:id="_kSM2pDT" coords="14,90.66,107.40,420.99,9.29">The application of quantum gates is similar to the MPS algorithm, as described in Sec.</s><s xml:id="_Uje5pXX" coords="14,515.85,107.40,17.45,9.29">3.2.</s><s xml:id="_Cgp69NA" coords="14,80.40,119.95,451.12,10.40;14,80.31,132.50,290.75,9.29">Two-qubit gates are contracted with the LP-MPS tensors, denoted by T i , to form a merged tensor which is then decomposed into the canonical tensor product.</s><s xml:id="_bqyXQua" coords="14,374.90,132.50,156.40,9.29;14,80.45,145.06,450.85,9.52;14,80.70,157.61,171.39,9.29">This procedure only modifies the virtual bond dimension D (see Fig. <ref type="figure" coords="14,244.73,145.06,11.27,9.29" target="#fig_6">5a</ref> between the neighboring LP-MPS tensors) which captures the systems entanglement properties.</s><s xml:id="_m82qNvJ" coords="14,254.92,157.61,276.39,9.29;14,80.70,170.16,450.60,9.29;14,80.70,182.72,34.06,9.29">To simulate a non-unitary channel Kraus tensors, such as the ones shown in Fig. <ref type="figure" coords="14,169.38,170.16,9.35,9.29">4a</ref>, are contracted with the qubit legs of the MPS tensor and its conjugate, see Fig. <ref type="figure" coords="14,100.75,182.72,9.34,9.29" target="#fig_6">5b</ref>.</s><s xml:id="_qvTKtmy" coords="14,117.47,182.72,413.83,9.29;14,80.35,195.27,225.40,9.29">After this contraction, we can apply SVD along the Kraus dimension to recover the canonical (locally-purified) form of the LP-MPS factorization.</s><s xml:id="_QpexDeY" coords="14,308.43,195.27,223.08,9.29;14,80.70,207.82,450.61,9.29;14,80.70,220.37,84.12,9.29">The Kraus dimension (K) between the MPS tensor and its conjugate, encoding statistical mixture in the density operator, is updated after each noise operator iteration.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5" xml:id="_dcxKV78">Generic Tensor Network Reconstruction Based Simulation</head><p xml:id="_wbNzvad"><s xml:id="_jB8AS2P" coords="14,80.40,261.26,451.15,9.29;14,80.70,273.81,450.82,9.29;14,80.70,286.36,281.94,9.29">The most recent quantum circuit simulation algorithm implemented in TNQVM is based on the ability to reconstruct an arbitrary tensor network (the whole quantum circuit or any of its parts) as another tensor network with a different, presumably simpler topology.</s><s xml:id="_QUTyFAh" coords="14,365.48,286.36,165.83,9.29;14,80.70,298.92,450.60,9.29;14,80.40,311.47,42.45,9.29">This advanced capability is provided by the ExaTN library (exatn::TensorNetworkReconstructor used in the ExaTN-Gen algorithm in TNQVM).</s><s xml:id="_yW2vWhh" coords="14,125.70,311.47,407.03,9.29;14,80.70,324.02,276.72,9.29">In one of the most straightforward settings <ref type="bibr" coords="14,321.88,311.47,16.87,9.29" target="#b25">[26]</ref>, that is currently implemented in TNQVM, a quantum circuit can be split into chunks of constant depth.</s><s xml:id="_zpw8nXZ" coords="14,360.26,324.02,171.05,9.29;14,80.31,336.57,452.41,9.29;14,80.70,349.13,451.31,9.29;14,80.70,361.68,450.82,9.29;14,80.70,374.23,450.61,9.29;14,80.70,386.79,124.75,9.29">Then, by keeping the quantum circuit wave-function (or density matrix, in general) in a factorized form (by some tensor network, e.g., matrix-product state or tensor tree state), each step of this simulation algorithm consists of (A) applying the next quantum circuit chunk to the input tensor network by simply joining both tensor networks, (B) projecting the obtained product on another tensor network of the same or different topology and configuration.</s><s xml:id="_UJSMJSt" coords="14,208.29,386.79,323.01,9.29;14,80.70,399.34,450.60,9.29;14,80.70,411.89,152.15,9.29">The projection step consists of closing the product tensor network with another tensor network and optimizing the tensors in the latter tensor network to maximize the overlap (reconstruction fidelity).</s><s xml:id="_DQPrWk8" coords="14,236.49,411.89,295.07,9.29;14,80.70,424.45,450.60,9.29;14,80.35,437.00,146.03,9.29">At the end of the reconstruction step, the new tensor network approximates the action of a given chunk (slice) of the quantum circuit on the previous wave-function (previous tensor network state).</s><s xml:id="_2mzBZUJ" coords="14,229.21,437.00,302.09,9.29;14,80.70,449.55,450.60,9.29;14,80.70,462.10,291.17,9.29">The total reconstruction fidelity for the entire quantum circuit will be a product of reconstruction fidelities for all reconstruction steps, thus providing a user with a quantitative measure of simulation quality (approximation error).</s><s xml:id="_aC95H5D" coords="14,374.51,462.10,156.79,9.29;14,80.70,474.66,450.60,9.29;14,80.70,487.21,24.81,9.29">In the current implementation, this algorithm in TNQVM has two built-in tensor network topologies, matrix product state and tensor tree state.</s><s xml:id="_KSZUHnb" coords="14,108.15,487.21,423.37,9.29;14,80.70,499.76,79.75,9.29">In general, a user can extend this algorithm to other topologies by providing specialized tensor network builders.</s><s xml:id="_Dg8Qts8" coords="14,163.29,499.76,368.01,9.29;14,80.70,512.32,450.61,9.29;14,80.70,524.87,320.73,9.29">Furthermore, one can implement more sophisticated simulation algorithms using this general tensor network reconstruction procedure, in which the quantum circuit is partitioned in a more clever way (the work in this direction is currently in progress).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_tSR6HPD">DEMONSTRATIONS</head><p xml:id="_ggD6c5P"><s xml:id="_SKtaw3U" coords="14,80.70,565.75,450.60,9.29;14,80.70,578.30,426.14,9.29">In this section, we seek to demonstrate the utility, flexibility and performance of some of the ExaTN-based backends implemented in TNQVM, while also providing relevant code snippets.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_QuwAmYE">Quantum circuit simulation</head><p xml:id="_RVhphpc"><s xml:id="_EjkuPR6" coords="14,80.38,619.19,450.92,9.29;14,80.70,631.74,51.40,9.29">As a first example, Fig. <ref type="figure" coords="14,192.51,619.19,5.82,9.29" target="#fig_7">6</ref> shows a typical usage of TNQVM as a virtual Accelerator in the XACC framework.</s><s xml:id="_UGTXyAA" coords="14,134.95,631.74,396.35,9.29;14,80.70,644.29,450.60,9.29;15,80.70,107.40,75.30,9.29">In particular, after TNQVM is compiled and installed to the XACC plugin directory, users can use xacc::getAccelerator API to retrieve an instance of the TNQVM accelerator using the name key tnqvm.</s><s xml:id="_Ek2zNpp" coords="15,158.80,107.40,373.64,9.29;15,80.70,119.95,34.32,9.29">In addition, one of the backends described in Section 3 can be specified after the ':' symbol.</s><s xml:id="_kVrsU6R" coords="15,117.58,119.95,172.95,9.29;15,102.20,370.70,199.07,10.88;15,112.97,385.37,43.06,8.77;15,112.97,397.92,43.06,8.77;15,102.21,410.47,5.40,8.77;15,102.20,423.03,75.34,8.77;15,91.44,435.58,53.82,8.77;15,80.70,467.80,228.57,7.67">For example, the code snippet in Fig. <ref type="figure" coords="15,284.94,119.95,5.59,9.29" target="#fig_7">6</ref>  for (int i = 0; i &lt; NB _ CYCLES; i++) { H(q[0]); H(q[0]); } Measure(q[0]); })", qpu); Fig. <ref type="figure" coords="15,98.93,467.80,3.93,7.67">7</ref>. Noisy quantum circuit simulation with TNQVM.</s><s xml:id="_g4sezUF" coords="15,313.23,467.80,15.31,7.67;15,80.70,479.31,247.83,7.89;15,80.70,490.82,247.84,7.67;15,80.70,502.32,111.68,7.89">The device noise model (IBMQ Yorktown, ibmqx2) is generated from online calibration data and provided to TNQVM as a noise-model configuration.</s><s xml:id="_eu9k24U" coords="15,194.79,502.32,133.74,7.67;15,80.70,513.83,196.47,7.67">In this code snippet, we show the experiment on the first qubit (q[0]) of the device.</s><s xml:id="_MA3MzpW" coords="15,279.39,513.83,49.14,7.67;15,80.70,525.34,249.29,7.67;15,80.70,536.84,23.37,7.67">Other qubits can also be experimented with similarly by specifying their indices.</s><s xml:id="_fqvHatq" coords="15,106.48,536.84,222.05,7.67;15,80.70,548.35,214.02,7.67">Here, we only show a snippet of the code, not including header files and other initialization/finalization steps.</s></p><p xml:id="_GTq2J3h"><s xml:id="_9uA5sC7" coords="15,348.46,145.06,182.85,9.29;15,338.49,157.61,193.51,9.29;15,338.11,170.16,157.18,9.29">Any specialized configurations are given in terms of a dictionary (key-value pairs) when requesting the accelerator.</s><s xml:id="_NMnFPen" coords="15,499.44,170.16,33.38,9.29;15,338.49,182.71,194.33,9.29;15,338.49,195.27,194.81,9.29">For example, we can specify the number of simulation runs (shots), as shown in Fig. <ref type="figure" coords="15,524.58,195.27,4.36,9.29" target="#fig_7">6</ref>.</s><s xml:id="_deRFVMe" coords="15,338.20,207.82,193.10,9.29;15,338.49,220.37,192.81,9.29;15,338.49,232.93,170.78,9.29">There are a lot of configurations specific to each simulator backend documented on the XACC documentation website.</s><s xml:id="_rqex7wc" coords="15,512.11,232.93,20.71,9.29;15,338.49,245.48,194.33,9.29;15,338.49,258.03,193.03,9.29;15,338.14,270.59,194.67,9.29;15,338.49,283.14,119.29,9.29">Simulation results, e.g., shot count distribution, are persisted to the qubit register (xacc::AcceleratorBuffer) for later retrieval or post-processing.</s></p><p xml:id="_Fm2AGe3"><s xml:id="_yy3C2WV" coords="15,348.46,295.69,182.85,9.29;15,338.49,308.25,192.81,9.29;15,338.49,320.80,176.17,9.29">The above example demonstrates the seamless integration of TNQVM and all of its backends into the XACC stack.</s><s xml:id="_jCvrpaX" coords="15,518.85,320.80,12.46,9.29;15,338.49,333.35,194.33,9.29;15,338.49,345.90,194.33,9.29;15,338.49,358.46,20.15,9.29">All user codes can use TNQVM as a dropin replacement for the backend Accelerator.</s><s xml:id="_GmBmNFp" coords="15,361.50,358.46,171.31,9.29;15,338.49,371.01,194.33,9.29;15,338.49,383.56,194.33,9.29;15,338.49,396.12,194.33,9.29;15,338.49,408.67,68.09,9.29">Furthermore, when the simulation demands an HPC platform, users will get instant scalability, i.e., no code changes required, thanks to the TNQVM-ExaTN abstraction layer.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_xwDjkcm">Noisy simulation</head><p xml:id="_mGs7KPc"><s xml:id="_WXZKHrF" coords="15,338.49,453.85,192.81,9.29;15,338.17,466.40,193.38,9.29;15,338.49,478.95,194.33,9.29;15,338.49,491.51,194.32,9.29;15,338.49,504.06,122.72,9.29">One of the advantages of being part of the XACC framework is that TNQVM can query device characteristics of hardware backends, e.g., IBMQ devices, from XACC to perform hardware emulation.</s><s xml:id="_NXYQeaW" coords="15,464.67,504.06,66.63,9.29;15,338.49,516.61,194.32,9.29;15,338.49,529.17,194.32,9.29;15,338.49,541.72,150.77,9.29">Since TNQVM fully supports noisy quantum circuit simulations, local noise channels can be incorporated into the simulation process.</s><s xml:id="_P8JAQru" coords="15,492.12,541.72,40.60,9.29;15,338.11,554.27,193.19,9.29;15,80.70,566.83,450.61,9.29;15,80.70,579.38,450.61,9.29;15,80.35,591.93,113.23,9.29">In Fig. <ref type="figure" coords="15,524.33,541.72,4.20,9.29">7</ref>, we show a simple example how one can construct a noise model from the IBMQ ibmqx2 (Yorktown) device configuration via the XACC NoiseModel utility, followed by the initialization of the density matrix based backend of TNQVM (exatn-dm, see Sec. <ref type="bibr" coords="15,172.97,591.93,16.48,9.29">3.3)</ref>.</s></p><p xml:id="_FzphjBw"><s xml:id="_GYZSU3S" coords="15,90.66,604.48,440.64,9.29;15,80.70,617.04,222.01,9.29">In this demonstration, we simulate a simplified randomized benchmarking procedure whereby the gate set only contains a single gate (Hadamard).</s><s xml:id="_MATNAVx" coords="15,305.55,617.04,225.76,9.29;15,80.70,629.59,412.21,9.29">By repeating this gate back-to-back over multiple cycles, we can quantify the gate noise in terms of deviation from an ideal identity operation.</s><s xml:id="_GUEtxgt" coords="15,495.71,629.59,35.82,9.29;15,80.31,642.14,363.86,9.29;15,445.32,642.53,3.62,16.19;15,451.71,642.14,79.60,9.66;16,80.70,107.40,92.63,9.29">In other words, if the Hadamard gate is ideal, we would see the qubit state stays at 0 (⟨Z ⟩ = 1) regardless of the number of gates.</s><s xml:id="_VbPsmQR" coords="16,176.04,107.40,355.26,9.29;16,80.70,119.95,401.57,9.29">However, due to device noise, we expect a decay of the ground state population as the number of cycles increases, and we see this in the resultant data shown in Fig. <ref type="figure" coords="16,473.72,119.95,4.28,9.29" target="#fig_8">8</ref>.</s><s xml:id="_fXYd46z" coords="16,90.66,132.50,160.31,9.29;16,80.70,145.06,170.27,9.29;16,80.70,157.61,171.79,9.29;16,80.70,170.16,171.79,9.29;16,80.70,182.72,170.27,9.29;16,80.70,195.27,36.13,9.29">In this experiment, we test the Hadamard gate sequence on both qubit 0 and 1, which have a quite significant single-qubit gate fidelity difference (8.906e-4 for Q0 and 1.935e-3 for Q1).</s><s xml:id="_V9AFYxC" coords="16,119.90,195.27,131.07,9.29;16,80.70,207.82,170.27,9.29;16,80.70,220.37,170.27,9.29;16,80.70,232.93,172.28,9.29">It is worth noting that these calibration parameters are provided by IBM in real-time, which XACC uses to construct the NoiseModel object.</s><s xml:id="_hC5WtWe" coords="16,80.40,245.48,172.00,9.29;16,80.70,258.03,170.27,9.29;16,80.31,270.59,151.68,9.29">The simulation results from TNQVM, as shown in Fig. <ref type="figure" coords="16,168.85,258.03,4.36,9.29" target="#fig_8">8</ref>, are consistent with the device characteristics.</s><s xml:id="_J5JtM7h" coords="16,236.89,270.59,14.08,9.29;16,80.70,283.14,170.53,9.29;16,80.70,295.69,171.79,9.29;16,80.70,308.25,170.28,9.29;16,80.70,320.80,15.91,9.29">We can clearly see a much faster decay for Q1, whose gate error rate is reported to be more than double that of Q0.</s></p><p xml:id="_sBug9hn"><s xml:id="_WzYyz4q" coords="16,90.66,333.35,161.83,9.29;16,80.70,345.90,170.27,9.29;16,80.70,358.46,170.27,9.29;16,80.70,371.01,170.27,9.29;16,80.70,383.56,120.52,9.29">Using the matrix trace bra-ket connection, as depicted in Fig. <ref type="figure" coords="16,203.35,345.90,9.34,9.29">4b</ref>, we can simulate noisy quantum circuits that contain a large number of qubits as low-rank tensor networks.</s><s xml:id="_wKPt2gg" coords="16,204.05,383.56,48.44,9.29;16,80.70,396.12,170.27,9.29;16,80.70,408.67,171.79,9.29;16,80.70,421.22,170.27,9.29;16,80.70,433.78,178.20,9.29">Intermediate tensor slices appearing in these large-scale tensor network contractions can be effectively distributed across many compute nodes by ExaTN.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_f95yWcW">Single amplitude calculation</head><p xml:id="_gGdCuFx"><s xml:id="_CymAB2Z" coords="16,80.70,478.95,450.61,9.29;16,80.70,491.51,450.60,9.29;16,80.70,504.06,450.60,9.29;16,80.70,516.61,60.23,9.29">In order to demonstrate the parallel performance and efficient use of GPU by the TNQVM-ExaTN simulator, here we examine the run time of the direct tensor contraction algorithm when simulating a single output state amplitude (see Table <ref type="table" coords="16,276.18,504.06,4.64,9.29" target="#tab_0">1</ref>) for the Sycamore random quantum circuits involving 53 qubits <ref type="bibr" coords="16,125.53,516.61,11.55,9.29" target="#b3">[4]</ref>.</s><s xml:id="_XaZ43Vw" coords="16,143.78,516.61,387.52,9.29;16,80.70,529.17,450.61,9.29;16,80.31,541.72,87.96,9.29">The code snippet setting up the simulation experiment is shown in Fig. <ref type="figure" coords="16,465.83,516.61,4.21,9.29">9</ref>, whereby we can recognize the familiar Accelerator initialization, AcceleratorBuffer allocation, and execution workflow patterns.</s><s xml:id="_ZuNMWwn" coords="16,171.62,541.72,359.68,9.29;16,80.70,554.27,301.71,9.29">The only difference is that we provide a bit-string initialization parameter to request that the amplitude of that specific bit-string be computed.</s></p><p xml:id="_VsfCtwJ"><s xml:id="_K4qBDHq" coords="16,90.66,566.83,442.15,9.29;16,80.45,579.38,137.35,9.29">The Sycamore test circuits involve a large number of qubits (53), thus making the full statevector calculation unfeasible.</s><s xml:id="_yXd9rdY" coords="16,221.02,579.38,310.28,9.29;16,80.70,591.93,212.08,9.29">Instead, we use the projection, as shown in Fig. <ref type="figure" coords="16,448.60,579.38,4.36,9.29" target="#fig_1">2</ref>, to compute the amplitude of a particular bit-string of interest.</s><s xml:id="_3MfhFhm" coords="16,295.63,591.93,237.10,9.29;16,80.70,604.48,450.61,9.29;16,80.40,617.04,94.42,9.29">Also, since we intended to run this test on a cluster, configurations such as the RAM buffer size per MPI process can be customized when initializing the TNQVM accelerator.</s><s xml:id="_rz9EQWB" coords="16,177.67,617.04,353.64,9.29;16,80.70,629.59,450.61,9.29;16,80.70,642.14,317.90,9.29">The random quantum circuit (program variable in Fig. <ref type="figure" coords="16,429.14,617.04,4.65,9.29" target="#fig_1">2</ref>) is adopted from the Google's quantum supremacy experiment <ref type="bibr" coords="16,269.84,629.59,12.56,9.29" target="#b3">[4]</ref> in which the ideal simulation of the depth-14 circuit on Summit was already considered prohibitively expensive at that time.</s><s xml:id="_2uBdM2v" coords="16,401.44,642.14,130.07,9.29;17,80.69,106.35,220.60,8.77;17,80.69,116.79,236.73,10.89">The performance results for // Compute the amplitude of a bit-string: // BIT _ STRING is a vector of length 53, e.g.</s><s xml:id="_9eMWj6j" coords="17,322.78,118.91,75.34,8.77;17,80.69,131.46,317.43,8.77">000000000...00 // represents the state whose amplitude we want to compute.</s><s xml:id="_hc6B7wH" coords="17,80.68,144.01,53.82,8.77;17,102.20,154.45,338.95,10.88;17,301.26,169.12,161.42,8.77;17,80.69,181.67,274.39,8.77;17,80.68,194.22,166.79,8.77;17,385.75,357.09,145.56,9.29;17,80.70,369.64,450.61,9.29;17,80.70,382.19,450.86,9.29;17,80.35,394.74,200.74,9.29">auto qpu = xacc::getAccelerator("tnqvm:exatn", {{"bitstring", BIT _ STRING}, {"exatn-buffer-size-gb", 2}}); // Allocate a register of 53 qubits (Sycamore chip) auto qubitReg = xacc::qalloc( <ref type="formula" coords="17,236.71,194.22,10.76,8.77">53</ref>  <ref type="table" coords="17,385.75,357.09,4.25,9.29" target="#tab_4">2</ref>. Our compilation of the circuit comprises 2828 quantum gates, a higher count than originally reported because some 1-body gates had to be additionally decomposed inside XACC, which does not affect computational complexity (the number of two-body gates is the same).</s><s xml:id="_dDcqTJU" coords="18,90.66,107.40,157.68,9.29;18,251.97,105.72,4.16,6.78;18,260.26,107.40,13.24,9.29;18,80.70,119.95,192.81,9.29;18,80.41,132.50,193.35,9.29;18,80.70,145.06,192.81,9.29;18,80.70,157.61,152.37,9.29">As seen from Table <ref type="table" coords="18,184.86,107.40,4.36,9.29" target="#tab_4">2</ref>, on Summit 3 we observe an excellent strong scaling (from 16 to 64 nodes) as well as a reasonably good absolute efficiency (27 -53% of the theoretical FP32 peak per GPU).</s><s xml:id="_e59kWf9" coords="18,236.18,157.61,38.84,9.29;18,80.70,170.16,192.81,9.29;18,80.70,182.72,193.07,9.29;18,80.70,195.27,155.74,9.29">The second 64-node experiment on Summit used a faster tensor contraction path which took longer to find as the price to pay.</s><s xml:id="_vVq93re" coords="18,239.67,195.27,35.36,9.29;18,80.70,207.82,192.81,9.29;18,80.70,220.37,192.81,9.29;18,80.70,232.93,194.23,9.29;18,80.31,245.48,193.19,9.29;18,80.70,258.03,193.02,9.29;18,80.70,270.59,194.33,9.29;18,80.70,283.14,192.81,9.29;18,80.70,295.69,164.79,9.29">The 16node and the first 64-node experiments spent less time in the tensor contraction path search than in its actual execution, whereas the second 64-node experiment spent more time in finding a faster tensor contraction path than in its actual execution (this contraction path also turned out to deliver a better Flop efficiency).</s><s xml:id="_VXN5JwP" coords="18,249.10,295.69,24.41,9.29;18,80.70,308.25,192.81,9.29;18,80.70,320.80,192.81,9.29;18,80.70,333.35,194.33,9.29;18,80.70,345.90,192.81,9.29;18,80.70,358.46,192.81,9.29;18,80.70,371.01,25.76,9.29">In all these experiments we used an out-of-core tensor contraction algorithm implemented in ExaTN, in which the participating tensors may exceed the GPU RAM limit as long as they fit in a normally larger Host RAM.</s><s xml:id="_FDQeKyE" coords="18,110.23,371.01,163.28,9.29;18,80.70,383.56,194.33,9.29;18,80.70,396.12,192.81,9.29;18,80.70,408.67,149.12,9.29;18,233.50,406.99,4.16,6.78;18,241.84,408.67,31.66,9.29;18,80.31,421.22,193.19,9.29;18,80.70,433.77,192.81,9.29;18,80.70,446.33,76.56,9.29">The performance of this algorithm can easily become bound by the Host-to-Device data transfer bandwidth that can be clearly seen from the DGX-1 4 results where GPUs communicate with the CPU Host via the slower PCIe-3 bus instead of faster NVLink-2.</s><s xml:id="_feh4Sc8" coords="18,160.14,446.33,371.17,9.29;18,80.70,458.88,450.60,9.29;18,80.70,471.43,343.40,9.29">Combined with a lesser amount of Host RAM per MPI process (8 MPI processes on 8 V100 GPUs versus 6 MPI processes on 6 V100 GPUs on Summit), it resulted in a significant performance drop, down to about 20% of the absolute FP32 peak per GPU.</s><s xml:id="_6NwVY6f" coords="18,426.93,471.43,104.37,9.29;18,80.70,483.99,85.63,9.29;18,168.98,482.31,4.16,6.78;18,176.29,483.99,355.30,9.29;18,80.70,496.54,345.61,9.29">On the other hand, the new DGX-A100 box 5 with 2 TB of Host RAM and 80 GB RAM per GPU, as well as with a faster PCIe-4 bus, delivers much better FP32 performance for the out-of-core algorithm.</s><s xml:id="_JDUsqE2" coords="18,429.15,496.54,102.54,9.29;18,80.38,509.09,450.93,9.29;18,80.70,521.65,353.41,9.29">Furthermore, the new A100 tensor cores running with the TF32 precision bump up the performance with an impressive additional 2.3X speed up while keeping the result correct to 3 decimal digits.</s><s xml:id="_4h26cUj" coords="18,436.94,521.65,94.36,9.29;18,80.70,534.20,450.61,9.29;18,80.70,546.75,450.82,9.29;18,80.70,559.30,450.61,9.29;19,80.70,107.40,240.11,9.29">Despite such a great performance of the out-of-core algorithm on DGX-A100 with a quickly generated, but suboptimal tensor contraction sequence, the simulation of the Sycamore random quantum circuits with a higher depth will result in a computational workload with a lower arithmetic intensity, necessitating the full transition of all tensors into the GPU RAM (in-core).</s><s xml:id="_cBj83Ja" coords="19,323.65,107.40,207.66,9.29;19,80.40,119.95,441.07,9.29">For this purpose, we have already integrated TN-QVM with the NVIDIA cuQuantum framework and are looking forward to benchmark it soon.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4" xml:id="_PbE7R4F">Marginal wave-function slice calculation</head><p xml:id="_7yAFJBw"><s xml:id="_X6knBKe" coords="19,80.70,160.52,450.60,9.29;19,80.70,173.07,450.60,9.29;19,80.70,185.62,103.54,9.29">Similar to the bit-string amplitude calculation (Fig. <ref type="figure" coords="19,327.72,160.52,4.10,9.29">9</ref>), one can also use TNQVM to compute a marginal wave-function (state-vector) slice for a subset of qubits given other qubits are projected to classical 0 or 1 states.</s><s xml:id="_vd5tyb4" coords="19,187.29,185.62,344.01,9.51;19,80.31,196.95,103.02,10.52;19,184.23,198.18,347.07,9.29;19,80.70,210.73,101.14,9.29">In particular, by keeping a set of n qubits open, the computed vector slice will have a length of 2 n , representing the marginal (conditional) wave function of these qubits given other qubits are fixed.</s><s xml:id="_wSyZrYg" coords="19,184.69,210.73,346.61,9.29;19,80.70,223.28,337.42,9.29">This calculation applies to the chaotic sampling of random quantum circuits or divide-and-conquer parallelization of the state-vector based simulation.</s></p><p xml:id="_ptyywte"><s xml:id="_hZDwFqd" coords="19,90.66,235.84,440.64,9.29">Fig. <ref type="figure" coords="19,112.39,235.84,11.63,9.29" target="#fig_9">10</ref> demonstrates the use of this calculation for a many-qubit cat state, namely, the state</s></p><formula xml:id="formula_10" coords="19,81.10,246.56,34.64,18.41">|Ψ⟩ = 1 √ 2</formula><p xml:id="_krBvnyg"><s xml:id="_6UjcYhC" coords="19,117.38,248.51,42.35,9.54;19,162.35,248.78,36.70,16.19">(|00..00⟩ + |11..11⟩).</s><s xml:id="_sY74ppn" coords="19,201.91,248.39,329.39,9.29;19,80.70,262.04,109.24,9.29">This state is generated by the Hadamard gate followed by a sequence of entangling CNOT gates.</s><s xml:id="_Tc4WTxb" coords="19,192.78,262.04,338.52,9.29;19,80.41,274.60,177.08,9.29">For demonstration purposes, we randomly selected two open qubits, 2 and 47, to compute the wave-function slice.</s><s xml:id="_XEVHU3y" coords="19,260.35,274.60,270.95,9.29;19,80.31,287.15,199.61,9.29">Thus, the result vector is expected to have a length of 4 and will be returned in the AcceleratorBuffer.</s></p><p xml:id="_Q9dr3Kd"><s xml:id="_uTnxvm3" coords="19,90.66,299.70,380.93,9.29">In TNQVM, we use a special value of -1 to denote open qubits in the input bit-string.</s><s xml:id="_pj8B2X5" coords="19,474.45,299.70,56.85,9.29;19,80.70,312.26,298.74,9.29">Other qubits are projected to either 0 or 1 values as specified in the bit-string.</s><s xml:id="_AwxJT5S" coords="19,382.29,312.26,150.44,9.29;19,80.70,324.81,428.63,9.29">For instance, given the cat-state, only when other qubits are all 0's or all 1's, then the marginal wave-function result is non-zero.</s><s xml:id="_WTbm4Q4" coords="19,512.18,324.81,20.55,9.29;19,80.31,337.36,450.99,9.29;19,80.41,349.91,75.43,9.29">And, we get a marginal state vector of [1,0,0,0] or [0,0,0,1] for the two cases of all others are 0's or all 1's, respectively.</s><s xml:id="_yG5kv6Y" coords="19,158.69,349.91,304.76,9.29">This confirms the expected entanglement property of the cat state.</s><s xml:id="_Ryh67z2" coords="19,466.32,349.91,64.98,9.29;19,80.70,362.47,450.60,9.29;19,80.70,375.02,452.54,9.29">As reported in Ref. <ref type="bibr" coords="19,101.30,362.47,16.93,9.29" target="#b30">[31]</ref>, we can further draw bit-string samples from the resulting marginal wave-function slice to simulate sampling from a subspace of the total Hilbert space determined by those projected qubits.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_PmYHC8D">CONCLUSIONS</head><p xml:id="_APpswHV"><s xml:id="_xp94Wp7" coords="19,80.24,415.59,451.06,9.29;19,80.70,428.14,450.60,9.29;19,80.70,440.69,281.89,9.29">We have introduced a general tensor network based quantum circuit simulator capable of modeling both ideal and noisy quantum circuits as well as computing various experimentally accessible properties depending on the tensor network formalism used.</s><s xml:id="_vB6tcK8" coords="19,365.43,440.69,165.88,9.29;19,80.70,453.25,450.60,9.29;19,80.70,465.80,267.90,9.29">The versatility and scalability of the ExaTN numerical backend used by this new re-architected version of TNQVM enables simulations of large-scale quantum circuits on leadership HPC platforms.</s><s xml:id="_z3grpZJ" coords="19,351.45,465.80,179.85,9.29;19,80.70,478.35,347.70,9.29">In addition, we have also demonstrated algorithms that incorporate noisy dissipative processes into the simulations.</s></p><p xml:id="_QGdKcaa"><s xml:id="_xkRR8ev" coords="19,90.66,490.91,440.65,9.29;19,80.45,503.46,450.86,9.29;19,80.70,516.01,109.78,9.29">TNQVM provides a number of capabilities allowing users to efficiently calculate expectation values, exactly or approximately, generate unbiased random measurement bit-strings, or compute state-vector amplitudes.</s><s xml:id="_6a7Q2fB" coords="19,193.31,516.01,337.99,9.29;19,80.70,528.56,437.03,9.29">These properties are pertinent to near-term experimental endeavors, such as studying the variational quantum algorithms and validating the new quantum hardware.</s><s xml:id="_AkB9F4T" coords="19,521.80,528.56,9.50,9.29;19,80.70,541.12,450.61,9.29;19,80.70,553.67,450.60,9.29;19,80.70,566.22,97.18,9.29">In this respect, TNQVM presents itself as a valuable tool for analysis and verification of quantum algorithms and devices in pursuit of advancing the progress towards large-scale, fault-tolerant quantum computing.</s><s xml:id="_SQSPWf2" coords="19,181.45,566.22,349.86,9.29;19,80.70,578.78,450.99,9.29;19,80.70,591.33,353.00,9.29">Our continuous goal is to keep extending the functionality of TNQVM and ExaTN by incorporating new and more efficient tensor-based techniques into the simulation workflow in order to enable classical simulation of larger and deeper quantum circuits.</s></p><p xml:id="_F9F9v37"><s xml:id="_FSGEfjE" coords="20,80.70,107.40,450.60,9.29;20,80.70,119.95,38.67,9.29">Research in Quantum Computing (ARQC), and National Quantum Information Science Research Centers.</s><s xml:id="_gdt5ygk" coords="20,122.22,119.95,409.33,9.29;20,80.70,132.50,450.60,9.29;20,80.70,145.06,60.35,9.29">The development of the core capabilities of the ExaTN library was funded by a laboratory directed research and development (LDRD) project at the Oak Ridge National Laboratory (LDRD award 9463).</s><s xml:id="_hn9V5Db" coords="20,143.91,145.06,387.40,9.29;20,80.70,157.61,400.96,9.29">This research used resources of the Oak Ridge Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC05-00OR22725.</s><s xml:id="_PY5kHfD" coords="20,484.50,157.61,46.80,9.29;20,80.70,170.16,450.82,9.29;20,80.70,182.72,53.84,9.29">Oak Ridge National Laboratory is managed by UT-Battelle, LLC, for the US Department of Energy under contract no.</s><s xml:id="_7Yn459J" coords="20,137.40,182.72,99.76,9.29">DE-AC05-00OR22725.</s><s xml:id="_4FABAjk" coords="20,240.02,182.72,291.29,9.29;20,80.70,195.27,372.93,9.29">We would also like to thank Tom Gibbs and NVIDIA for providing access to the DGX-A100 computational resources for performance benchmarking.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="7,173.17,361.59,265.65,7.67"><head>Fig. 1 .</head><label>1</label><figDesc><div><p xml:id="_pRUYauj"><s xml:id="_zyrXSpg" coords="7,173.17,361.59,24.10,7.67">Fig. 1.</s><s xml:id="_HBh8Gfr" coords="7,201.31,361.59,237.51,7.67">ExaTN tensor network representation of a quantum circuit.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="9,80.70,411.77,450.60,7.67;9,80.70,423.28,164.82,7.67"><head>Fig. 2 .</head><label>2</label><figDesc><div><p xml:id="_u9drYKh"><s xml:id="_qd6eUQP" coords="9,80.70,411.77,450.60,7.67;9,80.70,423.28,164.82,7.67">Fig. 2. Single amplitude calculation by tensor network contraction: Open qubit legs are closed with tensors representing the projected 0 or 1 values.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="10,80.70,324.83,380.26,7.67;10,463.81,324.71,7.61,14.57;10,471.49,328.00,3.77,6.52;10,476.72,324.71,2.94,14.57;10,482.72,326.24,5.70,6.82;10,491.49,324.71,8.68,14.57;10,501.39,324.56,24.67,8.37;10,527.32,324.71,5.78,14.57;10,80.70,336.34,411.47,7.67"><head>Fig. 3 .</head><label>3</label><figDesc><div><p xml:id="_bSv8aKC"><s xml:id="_Y6gqtbt" coords="10,80.70,324.83,258.88,7.67">Fig. 3. Expectation value calculation by a double-depth circuit.</s><s xml:id="_eDwSeVj" coords="10,342.21,324.83,118.75,7.67;10,463.81,324.71,7.61,14.57;10,471.49,328.00,3.77,6.52;10,476.72,324.71,2.94,14.57;10,482.72,326.24,5.70,6.82;10,491.49,324.71,8.68,14.57;10,501.39,324.56,24.67,8.37;10,527.32,324.71,5.78,14.57;10,80.70,336.34,411.47,7.67">The observable Pauli tensors {σ k } = {I, X , Y , Z }.Hatched tensors after observable Pauli operators are the conjugates of the ones on the left-hand side.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="10,80.44,670.72,113.15,7.43;11,352.17,81.75,179.13,6.81;11,212.19,148.71,7.09,5.36;11,212.19,182.89,7.09,5.36;11,212.19,217.07,7.09,5.36;11,212.19,251.25,7.09,5.36;11,198.35,136.93,35.05,5.70;11,198.35,290.86,35.05,5.70;11,80.38,323.17,270.68,7.67;11,80.70,334.68,270.37,7.67;11,80.70,346.19,270.37,7.67;11,80.70,357.69,270.37,7.67"><head></head><label></label><figDesc><div><p xml:id="_76xGBqU"><s xml:id="_SyDmJk3" coords="11,94.26,323.17,160.55,7.67">Cartoon of a density matrix simulation.</s><s xml:id="_mjBsazH" coords="11,257.24,323.17,93.82,7.67;11,80.70,334.68,270.37,7.67;11,80.70,346.19,270.37,7.67;11,80.70,357.69,270.37,7.67">The circles represent a tensor product of unentangled qubit density matrices, the adjoint action of one and two qubit unitaries is indicated by the rounded rectangles, and the local Kraus superoperators are U-shaped tensors.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="11,183.62,392.83,244.75,7.67"><head></head><label></label><figDesc><div><p xml:id="_CSkyCKx"><s xml:id="_4tPjB9n" coords="11,183.62,392.83,244.75,7.67">Fig. 4. TNQVM density matrix simulation with noise inclusion</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="12,120.41,313.48,176.76,8.37;12,116.93,324.99,181.69,8.37;12,116.93,336.77,19.07,7.67;12,429.27,159.60,6.37,5.83;12,392.12,160.54,6.37,5.83;12,411.06,155.25,5.50,5.83;12,349.83,146.25,16.98,6.19;12,348.30,238.13,21.08,6.19;12,361.92,189.59,25.04,6.19;12,361.23,271.27,13.41,6.19;12,389.28,244.03,13.41,6.19;12,457.19,238.24,6.37,5.83;12,420.05,239.19,6.37,5.83;12,438.07,232.92,7.46,6.80;12,314.51,292.52,180.56,7.67;12,314.51,304.03,182.00,7.67;12,314.83,315.54,181.69,7.67;12,314.83,324.83,178.34,11.82"><head></head><label></label><figDesc><div><p xml:id="_BXYbDFB"><s xml:id="_BFg54hq" coords="12,120.41,313.48,176.76,8.37;12,116.93,324.99,181.69,8.37;12,328.81,292.52,166.26,7.67;12,314.51,304.03,182.00,7.67;12,314.83,315.54,62.70,7.67">a) Locally-purified MPS tensor network: K is the Kraus dimension and D is the bond dimen-Contract a Kraus tensor and decompose (SVD) back to the locally-purified matrix product state form.</s><s xml:id="_nxgdU5k" coords="12,381.08,315.54,115.44,7.67;12,314.83,324.83,178.34,11.82">The Kraus dimension is updated (K to K ′ after the SVD decomposition.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6" coords="12,154.61,360.23,302.78,7.67"><head>Fig. 5 .</head><label>5</label><figDesc><div><p xml:id="_Rx5DFwj"><s xml:id="_2aQPKRF" coords="12,154.61,360.23,302.78,7.67">Fig. 5. Locally-purified matrix product state tensor network representation.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7" coords="13,315.01,581.38,216.29,7.67;13,314.74,592.88,24.73,7.67"><head>Fig. 6 .</head><label>6</label><figDesc><div><p xml:id="_7Xz9maT"><s xml:id="_arutnat" coords="13,315.01,581.38,23.49,7.67">Fig. 6.</s><s xml:id="_p6qAAVH" coords="13,342.54,581.38,188.77,7.67;13,314.74,592.88,24.73,7.67">Code snippet demonstrating TNQVM usage with XACC.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8" coords="16,260.94,361.36,270.37,7.67;16,260.94,370.96,270.36,9.80;16,260.94,384.37,255.49,7.67;16,518.85,384.25,12.45,14.57;16,260.94,395.88,270.37,7.67;16,260.94,407.38,262.98,7.67"><head>Fig. 8 .</head><label>8</label><figDesc><div><p xml:id="_BG8fPQV"><s xml:id="_F8DVDz6" coords="16,260.94,361.36,24.23,7.67">Fig.8.</s><s xml:id="_UfUhZHp" coords="16,289.20,361.36,242.10,7.67;16,260.94,370.96,171.78,9.80">Plots of expectation values of Pauli-Z operator vs the length of the H-H sequence (NB _ CYCLES in Fig.7).</s><s xml:id="_Nu52XWf" coords="16,435.13,372.86,96.17,7.67;16,260.94,384.37,255.49,7.67;16,518.85,384.25,12.45,14.57;16,260.94,395.88,223.45,7.67">Since TNQVM simulates all noise channels according to the device model (ibmqx2), the ⟨Z ⟩ expectation decays as the number of cycles increases.</s><s xml:id="_EkgFwkj" coords="16,486.82,395.88,44.49,7.67;16,260.94,407.38,262.98,7.67">Calibration data: Single qubit Pauli-X error: 8.906e-4 (Q0) and 1.935e-3 (Q1).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9" coords="18,283.47,395.67,247.84,7.67;18,283.47,407.18,249.28,7.67;18,283.47,418.69,249.12,7.67;18,283.47,430.19,247.84,7.67;18,283.47,441.70,24.23,7.67"><head>Fig. 10 .</head><label>10</label><figDesc><div><p xml:id="_AJ5zpeN"><s xml:id="_VxjWR9U" coords="18,283.47,395.67,28.56,7.67">Fig.10.</s><s xml:id="_KAtRteP" coords="18,316.07,395.67,215.24,7.67;18,283.47,407.18,176.42,7.67">Compute the marginal wave function slice for a subset of qubits (2) out of a qubit register of size 60.</s><s xml:id="_ND2R929" coords="18,462.00,407.18,70.75,7.67;18,283.47,418.69,84.39,7.67">The qubits are initialized to a cat state.</s><s xml:id="_rgNgKRn" coords="18,369.91,418.69,162.68,7.67;18,283.47,430.19,247.84,7.67;18,283.47,441.70,24.23,7.67">Here, we only show a snippet of the code, not including header files and other initialization/finalization steps.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10" coords="18,80.70,591.94,450.60,9.03;18,80.70,604.00,50.63,7.43;18,80.52,612.58,450.78,9.03;18,80.70,624.65,121.25,7.43;18,80.70,633.23,450.61,9.03;18,80.70,645.29,111.18,7.43;18,80.44,670.72,113.15,7.43;19,352.17,81.75,179.13,6.81"><head>3</head><label></label><figDesc><div><p xml:id="_RtfpKCn"><s xml:id="_wPZHWBs" coords="18,84.73,593.54,446.57,7.43;18,80.70,604.00,50.63,7.43;18,80.52,612.58,450.78,9.03;18,80.70,624.65,121.25,7.43;18,80.70,633.23,450.61,9.03;18,80.70,645.29,111.18,7.43;18,80.44,670.72,43.36,7.43">Summit node: 2 IBM Power9 CPU with 21 cores each, 6 NVIDIA V100 GPU with 16 GB RAM each, NVLink-2 all-to-all, 512 GB Host RAM 4 DGX-1 node: 2 Intel Xeon E5-2698 CPU with 20 cores each, 8 NVIDIA V100 GPU with 32 GB RAM each, PCIe-3 bus between CPU and GPU, 512 GB Host RAM 5 DGX-A100 node: 2 AMD Rome CPU with 64 cores each, 8 NVIDIA A100 GPU with 80 GB RAM each, PCIe-4 bus between CPU and GPU, 2 TB Host RAM ACM Trans.</s><s xml:id="_r4wuVBG" coords="18,126.63,670.72,66.96,7.43">Quantum Comput.</s><s xml:id="_b2j5mAs" coords="19,352.17,81.75,179.13,6.81">Tensor Network Quantum Virtual Machine • 19</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="8,102.83,106.68,406.08,212.12"><head>Table 1 .</head><label>1</label><figDesc><div><p><s xml:id="_ee66nwJ" coords="8,138.27,106.68,370.65,7.67;8,189.52,145.13,245.11,9.29;8,438.98,145.51,10.53,16.19;8,448.71,149.01,2.23,6.52;8,452.51,145.51,5.30,16.19;8,462.16,145.13,41.60,10.40;8,189.52,157.68,173.59,9.51">Tensor Network utility functions for evaluating observables for large-scale quantum circuits.Closing the quantum circuit tensor network with a ⟨Ψ i |, where Ψ i represents a chosen bit-string state, i.</s></p></div></figDesc><table coords="8,106.81,132.17,399.65,186.63"><row><cell>Mode</cell><cell>Description</cell></row><row><cell>Single-state am-</cell><cell></cell></row><row><cell>plitudes</cell><cell></cell></row><row><cell>Expectation</cell><cell>Adding a tensor network which represents the observable and then</cell></row><row><cell>value by conju-</cell><cell>closing with the conjugate quantum circuit (plus light-cone simplifica-</cell></row><row><cell>gate</cell><cell>tion).</cell></row><row><cell>Expectation</cell><cell>A subset of open tensor legs is projected to a bit-string to keep the</cell></row><row><cell>value by state</cell><cell>number of open legs within the memory constraints. Accumulating</cell></row><row><cell>vector slicing</cell><cell>the expectation values computed on the partial state vector slices for</cell></row><row><cell></cell><cell>all possible projected bit-strings to compute the overall expectation</cell></row><row><cell></cell><cell>value.</cell></row><row><cell>Direct unbiased</cell><cell>Connecting the quantum circuit tensor network with its conjugate</cell></row><row><cell>bit-string sam-</cell><cell>while leaving a subset of qubit legs open to compute the reduced</cell></row><row><cell>pling</cell><cell>density matrices (marginals) for bit-string sampling and measurement</cell></row><row><cell></cell><cell>projection.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="12,449.76,642.25,4.25,9.29"><head></head><label></label><figDesc><div><p xml:id="_YAMrZkH"><s xml:id="_HG8k3xh" coords="12,449.76,642.25,4.25,9.29">.</s></p></div></figDesc><table coords="13,315.00,109.80,209.84,209.62"><row><cell>#include "xacc.hpp"</cell></row><row><cell>int main(int argc, char ** argv) {</cell></row><row><cell>// Initialize the XACC Framework</cell></row><row><cell>xacc::Initialize(argc, argv);</cell></row><row><cell>// Use ExaTN based TNQVM Accelerator</cell></row><row><cell>auto qpu =</cell></row><row><cell>xacc::getAccelerator("tnqvm:exatn",</cell></row><row><cell>{{"shots", 1024}});</cell></row><row><cell>// Create a Program</cell></row><row><cell>auto xasmCompiler =</cell></row><row><cell>xacc::getCompiler("xasm");</cell></row><row><cell>std::shared _ ptr&lt;IR&gt; ir =</cell></row><row><cell>xasmCompiler-&gt;compile(</cell></row><row><cell>R"( __ qpu __ void Bell(qbit q)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="15,80.35,119.95,451.17,249.08"><head></head><label></label><figDesc><div><p xml:id="_bkRJzS3"><s xml:id="_fKaWMWU" coords="15,293.09,119.95,238.44,9.29;15,80.35,132.50,36.83,9.29">calls for the full tensor network contraction simulator (exatn).</s></p></div></figDesc><table coords="15,80.68,159.42,247.49,209.62"><row><cell>// Query the noise model from an IBM device</cell></row><row><cell>auto noiseModel =</cell></row><row><cell>xacc::getService&lt;xacc::NoiseModel&gt;("IBM");</cell></row><row><cell>noiseModel-&gt;initialize(</cell></row><row><cell>{{"backend", "ibmqx2"}});</cell></row><row><cell>auto qpu = xacc::getAccelerator(</cell></row><row><cell>"tnqvm:exatn-dm",</cell></row><row><cell>{{"noise-model", noiseModel}});</cell></row><row><cell>auto qubitReg = xacc::qalloc(1);</cell></row><row><cell>// Create a test program:</cell></row><row><cell>// Apply back-to-back Hadamard gates</cell></row><row><cell>// to assess gate noise</cell></row><row><cell>auto xasmCompiler = xacc::getCompiler("xasm");</cell></row><row><cell>auto ir = xasmCompiler-&gt;compile(R"(</cell></row><row><cell>__ qpu __ void conjugateTest(qbit q) {</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="17,80.68,194.22,450.62,172.15"><head></head><label></label><figDesc><div><p xml:id="_baPaMbA"><s xml:id="_8pMefG9" coords="17,80.70,289.21,298.87,7.67">Fig. 9. Simulating a Sycamore bit-string amplitude with TNQVM.</s><s xml:id="_hD9cMHc" coords="17,387.15,289.21,144.15,7.89;17,80.70,300.72,304.30,7.89">Variable program is an XACC's CompositeInstruction instance compiled from the Sycamore test circuits.</s><s xml:id="_XdUxaRn" coords="17,387.42,300.72,143.88,7.67;17,80.70,310.10,297.07,9.79">Here, we only show a snippet of the code, not including header files and other initialization/finalization steps * .</s></p></div></figDesc><table coords="17,80.68,194.22,360.48,73.33"><row><cell>);</cell></row><row><cell>// Program is the random quantum circuit.</cell></row><row><cell>qpu-&gt;execute(qubitReg, program);</cell></row><row><cell>// Retrieve the amplitude result</cell></row><row><cell>const double realAmpl = ( * qubitReg)["amplitude-real"].as&lt;double&gt;();</cell></row><row><cell>const double imagAmpl = ( * qubitReg)["amplitude-imag"].as&lt;double&gt;();</cell></row></table><note coords="17,84.48,322.32,439.83,10.40;17,80.70,357.09,302.20,9.29"><p xml:id="_qHfbb77"><s xml:id="_D5HWBE6" coords="17,84.48,322.32,439.83,10.40;17,80.70,357.09,302.20,9.29">* Code for this example is available at https://github.com/ORNL-QCI/tnqvm/tree/master/examples/sycamore the depth-14 Sycamore random quantum circuit are listed in Table</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="17,80.37,423.02,450.93,173.32"><head>Table 2 .</head><label>2</label><figDesc><div><p xml:id="_kzvSNDg"><s xml:id="_eUwVx5t" coords="17,116.20,423.02,415.10,7.67;17,80.37,434.52,59.77,7.67">Performance comparison of simulating a single amplitude of the depth-14 2D random quantum circuit with 53 qubits.</s></p></div></figDesc><table coords="17,85.68,457.53,442.18,138.81"><row><cell>System</cell><cell>Precision</cell><cell>Time to</cell><cell>Avg.</cell><cell>Flop count</cell><cell>Bit-string</cell></row><row><cell></cell><cell></cell><cell>solution [s]</cell><cell>Tflop/s/GPU</cell><cell>per GPU</cell><cell>amplitude</cell></row><row><cell>DGX-A100, 8 A100 GPU</cell><cell>FP32</cell><cell>2003.23</cell><cell>15.06</cell><cell cols="2">3.0160E+16 6.4899E-09</cell></row><row><cell></cell><cell>TF32</cell><cell>868.38</cell><cell>34.73</cell><cell cols="2">3.0160E+16 6.4840E-09</cell></row><row><cell>DGX-1, 8 V100 GPU</cell><cell>FP32</cell><cell>13028.92</cell><cell>3.05</cell><cell cols="2">3.9791E+16 6.4896E-09</cell></row><row><cell>OLCF Summit</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>16 nodes, 96 V100 GPU</cell><cell>FP32</cell><cell>695.5</cell><cell>4.03</cell><cell cols="2">2.7995E+15 6.4899E-09</cell></row><row><cell>64 nodes, 384 V100 GPU</cell><cell>FP32</cell><cell>125.52</cell><cell>4.85</cell><cell cols="2">6.0856E+14 6.4899E-09</cell></row><row><cell>64 nodes, 384 V100 GPU 1</cell><cell>FP32</cell><cell>60.695</cell><cell>7.99</cell><cell cols="2">4.8508E+14 6.4900E-09</cell></row><row><cell>Dual AMD Rome CPU</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1 node, 2 x 64-core CPU</cell><cell>FP32</cell><cell>40571.41 2</cell><cell>2.98</cell><cell cols="2">3.0160E+16 6.4899E-09</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="2,80.44,670.72,113.15,7.43;3,356.73,81.75,174.57,6.81"><p xml:id="_xcTZWCQ"><s xml:id="_2nG7wR3" coords="2,80.44,670.72,43.36,7.43">ACM Trans.</s><s xml:id="_yEUUSJu" coords="2,126.63,670.72,66.96,7.43;3,356.73,81.75,174.57,6.81">Quantum Comput.Tensor Network Quantum Virtual Machine • 3</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1" coords="3,418.16,670.72,113.15,7.43"><p xml:id="_wNxnwZA"><s xml:id="_jzbJMXt" coords="3,418.16,670.72,43.36,7.43">ACM Trans.</s><s xml:id="_FYWtgqm" coords="3,464.34,670.72,66.96,7.43">Quantum Comput.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2" coords="4,80.44,670.72,113.15,7.43;5,356.73,81.75,174.57,6.81"><p xml:id="_ePac9bc"><s xml:id="_zaED6kx" coords="4,80.44,670.72,43.36,7.43">ACM Trans.</s><s xml:id="_VZdNujd" coords="4,126.63,670.72,66.96,7.43;5,356.73,81.75,174.57,6.81">Quantum Comput.Tensor Network Quantum Virtual Machine • 5</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3" coords="6,80.44,670.72,113.15,7.43;7,356.73,81.75,174.57,6.81"><p xml:id="_CSNt8fS"><s xml:id="_uVZE5Z4" coords="6,80.44,670.72,43.36,7.43">ACM Trans.</s><s xml:id="_7dDNakW" coords="6,126.63,670.72,66.96,7.43;7,356.73,81.75,174.57,6.81">Quantum Comput.Tensor Network Quantum Virtual Machine • 7</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4" coords="8,80.44,670.72,113.15,7.43;9,356.73,81.75,174.57,6.81"><p xml:id="_2E4Zesf"><s xml:id="_YuDHWPQ" coords="8,80.44,670.72,43.36,7.43">ACM Trans.</s><s xml:id="_dSugb22" coords="8,126.63,670.72,66.96,7.43;9,356.73,81.75,174.57,6.81">Quantum Comput.Tensor Network Quantum Virtual Machine • 9</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5" coords="12,80.44,670.72,113.15,7.43;13,352.17,81.75,179.13,6.81"><p xml:id="_ecv4yxj"><s xml:id="_qdeFDwT" coords="12,80.44,670.72,43.36,7.43">ACM Trans.</s><s xml:id="_xwWZnur" coords="12,126.63,670.72,66.96,7.43;13,352.17,81.75,179.13,6.81">Quantum Comput.Tensor Network Quantum Virtual Machine • 13</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6" coords="14,80.44,670.72,113.15,7.43;15,352.17,81.75,179.13,6.81"><p xml:id="_sJVs357"><s xml:id="_ERHmguz" coords="14,80.44,670.72,43.36,7.43">ACM Trans.</s><s xml:id="_37DSAJA" coords="14,126.63,670.72,66.96,7.43;15,352.17,81.75,179.13,6.81">Quantum Comput.Tensor Network Quantum Virtual Machine • 15</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7" coords="16,80.44,670.72,113.15,7.43;17,352.17,81.75,179.13,6.81"><p xml:id="_Y6AEFsE"><s xml:id="_AWMVcu3" coords="16,80.44,670.72,43.36,7.43">ACM Trans.</s><s xml:id="_mqMnJ2X" coords="16,126.63,670.72,66.96,7.43;17,352.17,81.75,179.13,6.81">Quantum Comput.Tensor Network Quantum Virtual Machine • 17</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_8" coords="17,84.55,635.52,143.33,7.43"><p xml:id="_E34PzSf"><s xml:id="_DtkbANd" coords="17,84.55,635.52,143.33,7.43">Faster tensor network contraction path</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_9" coords="17,84.73,645.98,130.66,7.43"><p xml:id="_QuUdHVZ"><s xml:id="_Nz8KnMU" coords="17,84.73,645.98,130.66,7.43">Extrapolated after 2-hour execution</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_10" coords="19,80.70,644.45,450.61,9.29;19,418.16,670.72,113.15,7.43"><p xml:id="_EYcPs4r"><s xml:id="_xqr5PcW" coords="19,80.70,644.45,450.61,9.29;19,418.16,670.72,43.36,7.43">Scientific Computing Research (ASCR) Quantum Computing Application Teams (QCAT), Accelerated ACM Trans.</s><s xml:id="_vYpdvUx" coords="19,464.34,670.72,66.96,7.43">Quantum Comput.</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_PYxEqY9">ACKNOWLEDGMENTS</head><p xml:id="_nKfmwdG">This work has been supported by the <rs type="funder">US Department of Energy (DOE) Office of Science Advanced</rs></p></div>
+			</div>
+			<div type="funding">
+<div xml:id="_UhBDS7m"><p xml:id="_Nj9gPsE">This manuscript has been authored by <rs type="institution">UT-Battelle, LLC</rs> under Contract No. <rs type="grantNumber">DE-AC05-00OR22725</rs> with the <rs type="funder">U.S. Department of Energy</rs>.The United States Government retains and the publisher, by accepting the article for publication, acknowledges that the United States Government retains a non-exclusive, paid-up, irrevocable, world-wide license to publish or reproduce the published form of this manuscript, or allow others to do so, for United States Government purposes.The <rs type="institution">Department of Energy</rs> will provide public access to these results of federally sponsored research in accordance with the <rs type="institution">DOE Public Access Plan</rs>.(http://energy.gov/downloads/doe-public-access-plan).</p><p xml:id="_NC2THA9">ACM acknowledges that this contribution was authored or co-authored by an employee, contractor, or affiliate of the United States government.As such, the United States government retains a nonexclusive, royalty-free right to publish or reproduce this article, or to allow others to do so, for government purposes only.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_72kQxkF">
+					<idno type="grant-number">DE-AC05-00OR22725</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="20,99.40,237.00,315.73,7.43" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" coord="20,123.00,237.00,150.53,7.43" xml:id="_KkyeMDu">ExaTN library: Exascale Tensor Networks</title>
+		<ptr target="https://github.com/ORNL-QCI/exatn" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">2020. ExaTN library: Exascale Tensor Networks. https://github.com/ORNL-QCI/exatn</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,247.46,433.04,7.43;20,99.40,257.92,228.81,7.43" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="20,269.93,247.46,152.01,7.43" xml:id="_H2zcsYX">Improved simulation of stabilizer circuits</title>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Aaronson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Gottesman</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevA.70.052328</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevA.70.052328" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3k3fuWj" coord="20,428.48,247.88,45.22,6.91">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="52328" to="52333" />
+			<date type="published" when="2004-11">2004. Nov 2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scott Aaronson and Daniel Gottesman. 2004. Improved simulation of stabilizer circuits. Phys. Rev. A 70 (Nov 2004), 052328. Issue 5. https://doi.org/10.1103/PhysRevA.70.052328</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,268.38,367.54,7.43" xml:id="b2">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Qir Alliance</surname></persName>
+		</author>
+		<ptr target="https://github.com/qir-alliance/qir-spec" />
+		<title level="m" xml:id="_7g9x622" coord="20,174.31,268.38,139.75,7.43">Quantum Intermediate Representation</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">QIR Alliance. [n.d.]. Quantum Intermediate Representation. https://github.com/qir-alliance/qir-spec.</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,278.84,433.04,7.43;20,99.40,289.30,431.90,7.43;20,99.40,299.77,169.34,7.43" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="20,299.40,289.30,231.91,7.43;20,99.40,299.77,33.48,7.43" xml:id="_5utcFwJ">Quantum supremacy using a programmable superconducting processor</title>
+		<author>
+			<persName coords=""><forename type="first">Frank</forename><surname>Arute</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kunal</forename><surname>Arya</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ryan</forename><surname>Babbush</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dave</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rami</forename><surname>Joseph C Bardin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rupak</forename><surname>Barends</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sergio</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Boixo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gsl</forename><surname>Fernando</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">A</forename><surname>Brandao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Buell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_88faBhW" coord="20,139.67,300.18,25.73,6.91">Nature</title>
+		<imprint>
+			<biblScope unit="volume">574</biblScope>
+			<biblScope unit="page" from="505" to="510" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frank Arute, Kunal Arya, Ryan Babbush, Dave Bacon, Joseph C Bardin, Rami Barends, Rupak Biswas, Sergio Boixo, Fernando GSL Brandao, David A Buell, et al. 2019. Quantum supremacy using a programmable superconducting processor. Nature 574, 7779 (2019), 505-510.</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,310.23,433.04,7.43;20,99.40,320.69,431.90,7.43;20,99.40,331.15,349.22,7.43" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="20,312.10,320.69,219.21,7.43;20,99.40,331.15,33.48,7.43" xml:id="_7Qw8dkt">Quantum supremacy using a programmable superconducting processor</title>
+		<author>
+			<persName coords=""><forename type="first">Frank</forename><surname>Arute</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kunal</forename><surname>Arya</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ryan</forename><surname>Babbush</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dave</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Joseph</forename><forename type="middle">C</forename><surname>Bardin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rami</forename><surname>Barends</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rupak</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sergio</forename><surname>Boixo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">S L</forename><surname>Fernando</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">A</forename><surname>Brandao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Buell</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-019-1666-5</idno>
+		<ptr target="https://doi.org/10.1038/s41586-019-1666-5" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UktJXwm" coord="20,139.67,331.56,25.73,6.91">Nature</title>
+		<imprint>
+			<biblScope unit="volume">574</biblScope>
+			<biblScope unit="page" from="505" to="510" />
+			<date type="published" when="2019-10">2019. Oct 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frank Arute, Kunal Arya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Rami Barends, Rupak Biswas, Sergio Boixo, Fernando G. S. L. Brandao, David A. Buell, and et al. 2019. Quantum supremacy using a programmable superconducting processor. Nature 574, 7779 (Oct 2019), 505-510. https://doi.org/10.1038/s41586-019-1666-5</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,341.61,433.50,7.43;20,99.40,352.07,433.50,7.43;20,99.40,362.53,163.34,7.43" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="20,153.82,352.07,201.96,7.43" xml:id="_FFDVuPe">Unbiased simulation of near-Clifford quantum circuits</title>
+		<author>
+			<persName coords=""><forename type="first">Ryan</forename><forename type="middle">S</forename><surname>Bennink</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><forename type="middle">M</forename><surname>Ferragut</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Travis</forename><forename type="middle">S</forename><surname>Humble</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jason</forename><forename type="middle">A</forename><surname>Laska</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><forename type="middle">J</forename><surname>Nutaro</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><forename type="middle">G</forename><surname>Pleszkoch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Raphael</forename><forename type="middle">C</forename><surname>Pooser</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevA.95.062337</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevA.95.062337" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ytcxuuX" coord="20,363.34,352.49,45.98,6.91">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="62337" to="62343" />
+			<date type="published" when="2017-06">2017. Jun 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ryan S. Bennink, Erik M. Ferragut, Travis S. Humble, Jason A. Laska, James J. Nutaro, Mark G. Pleszkoch, and Raphael C. Pooser. 2017. Unbiased simulation of near-Clifford quantum circuits. Phys. Rev. A 95 (Jun 2017), 062337. Issue 6. https://doi.org/10.1103/PhysRevA.95.062337</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,372.99,431.90,7.43;20,99.40,383.45,432.61,7.43;20,99.40,393.91,37.78,7.43" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="20,481.27,372.99,50.04,7.43;20,99.40,383.45,196.06,7.43" xml:id="_43XHfp4">Simulation of quantum circuits by low-rank stabilizer decompositions</title>
+		<author>
+			<persName coords=""><forename type="first">Sergey</forename><surname>Bravyi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dan</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Padraic</forename><surname>Calpin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Earl</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Gosset</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.22331/q-2019-09-02-181</idno>
+		<ptr target="https://doi.org/10.22331/q-2019-09-02-181" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Uv4PHs7" coord="20,302.20,383.87,33.03,6.91">Quantum</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">181</biblScope>
+			<date type="published" when="2019-09">2019. Sept. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sergey Bravyi, Dan Browne, Padraic Calpin, Earl Campbell, David Gosset, and Mark Howard. 2019. Simulation of quantum circuits by low-rank stabilizer decompositions. Quantum 3 (Sept. 2019), 181. https://doi.org/10.22331/q-2019- 09-02-181</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,404.37,433.50,7.43;20,99.40,414.83,364.92,7.43" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="20,242.20,404.37,286.92,7.43" xml:id="_esGGYm6">Improved Classical Simulation of Quantum Circuits Dominated by Clifford Gates</title>
+		<author>
+			<persName coords=""><forename type="first">Sergey</forename><surname>Bravyi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Gosset</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.116.250501</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevLett.116.250501" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_85qbVXv" coord="20,99.40,415.25,56.21,6.91">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="250501" to="250525" />
+			<date type="published" when="2016-06">2016. Jun 2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sergey Bravyi and David Gosset. 2016. Improved Classical Simulation of Quantum Circuits Dominated by Clifford Gates. Phys. Rev. Lett. 116 (Jun 2016), 250501. Issue 25. https://doi.org/10.1103/PhysRevLett.116.250501</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,425.30,431.90,7.43;20,99.14,435.76,310.02,7.43" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="20,331.57,425.30,199.73,7.43" xml:id="_UcVUAjn">Optimising Matrix Product State Simulations of Shor&apos;s</title>
+		<author>
+			<persName coords=""><forename type="first">Aidan</forename><surname>Dang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Charles</forename><forename type="middle">D</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lloyd</forename><forename type="middle">C L</forename><surname>Hollenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.22331/q-2019-01-25-116</idno>
+		<ptr target="https://doi.org/10.22331/q-2019-01-25-116" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qGe3g8y" coord="20,99.14,435.76,75.46,7.43">Algorithm. Quantum</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">116</biblScope>
+			<date type="published" when="2019-01">2019. Jan. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aidan Dang, Charles D. Hill, and Lloyd C. L. Hollenberg. 2019. Optimising Matrix Product State Simulations of Shor&apos;s Algorithm. Quantum 3 (Jan. 2019), 116. https://doi.org/10.22331/q-2019-01-25-116</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,446.22,431.90,7.43;20,99.40,456.68,431.90,7.43;20,99.40,467.14,226.58,7.43" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="20,164.97,456.68,234.94,7.43" xml:id="_yMMMPKg">Massively parallel quantum computer simulator, eleven years later</title>
+		<author>
+			<persName coords=""><forename type="first">Hans</forename><surname>De Raedt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fengping</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dennis</forename><surname>Willsch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Madita</forename><surname>Willsch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Naoki</forename><surname>Yoshioka</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nobuyasu</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shengjun</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kristel</forename><surname>Michielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cpc.2018.11.005</idno>
+		<ptr target="https://doi.org/10.1016/j.cpc.2018.11.005" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bRUVW3D" coord="20,405.35,457.09,125.96,6.91">Computer Physics Communications</title>
+		<imprint>
+			<biblScope unit="volume">237</biblScope>
+			<biblScope unit="page" from="47" to="61" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hans De Raedt, Fengping Jin, Dennis Willsch, Madita Willsch, Naoki Yoshioka, Nobuyasu Ito, Shengjun Yuan, and Kristel Michielsen. 2019. Massively parallel quantum computer simulator, eleven years later. Computer Physics Communications 237 (2019), 47-61. https://doi.org/10.1016/j.cpc.2018.11.005</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,477.60,432.12,7.43;20,99.40,488.06,146.23,7.43" xml:id="b10">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Matthew</forename><surname>Fishman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Steven</forename><forename type="middle">R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">Miles</forename><surname>Stoudenmire</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2007.14822[cs.MS]</idno>
+		<title level="m" xml:id="_5wxNZU9" coord="20,352.81,477.60,178.71,7.43;20,99.40,488.06,43.70,7.43">The ITensor Software Library for Tensor Network Calculations</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthew Fishman, Steven R. White, and E. Miles Stoudenmire. 2020. The ITensor Software Library for Tensor Network Calculations. arXiv:2007.14822 [cs.MS]</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,498.52,431.90,7.43;20,99.40,508.98,432.61,7.43;20,99.40,519.44,230.40,7.43" xml:id="b11">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Erich</forename><surname>Gamma</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><surname>Helm</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ralph</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><forename type="middle">M</forename><surname>Vlissides</surname></persName>
+		</author>
+		<ptr target="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=ntt_at_ep_dpi_1" />
+		<title level="m" xml:id="_Hup6ak6" coord="20,384.77,498.94,146.53,6.91;20,99.40,509.40,95.07,6.91">Design Patterns: Elements of Reusable Object-Oriented Software</title>
+		<imprint>
+			<publisher>Addison-Wesley Professional</publisher>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note>1 ed.</note>
+	<note type="raw_reference">Erich Gamma, Richard Helm, Ralph Johnson, and John M. Vlissides. 1994. Design Patterns: Elements of Reusable Object-Oriented Software (1 ed.). Addison-Wesley Professional. http://www.amazon.com/Design-Patterns-Elements- Reusable-Object-Oriented/dp/0201633612/ref=ntt_at_ep_dpi_1</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,529.90,326.27,7.43" xml:id="b12">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Craig</forename><surname>Gidney</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2103.02202</idno>
+		<title level="m" xml:id="_9wNhzWM" coord="20,174.51,529.90,138.28,7.43">Stim: a fast stabilizer circuit simulator</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>quant-ph</note>
+	<note type="raw_reference">Craig Gidney. 2021. Stim: a fast stabilizer circuit simulator. arXiv:2103.02202 [quant-ph]</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,540.36,432.07,7.43;20,99.40,550.82,232.26,7.43" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" coord="20,314.20,540.36,217.27,7.43;20,99.40,550.82,119.36,7.43" xml:id="_vdnvwgu">From probabilistic graphical models to generalized tensor networks for supervised learning</title>
+		<author>
+			<persName coords=""><forename type="first">Ivan</forename><surname>Glasser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nicola</forename><surname>Pancotti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">Ignacio</forename><surname>Cirac</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1806.05964</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>quant-ph</note>
+	<note type="raw_reference">Ivan Glasser, Nicola Pancotti, and J. Ignacio Cirac. 2019. From probabilistic graphical models to generalized tensor networks for supervised learning. arXiv:1806.05964 [quant-ph]</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,561.29,431.90,7.43;20,99.40,571.75,263.63,7.43" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="20,176.69,561.29,288.23,7.43" xml:id="_awfsKJC">quimb: a python library for quantum information and many-body calculations</title>
+		<author>
+			<persName coords=""><forename type="first">Johnnie</forename><surname>Gray</surname></persName>
+		</author>
+		<idno type="DOI">10.21105/joss.00819</idno>
+		<ptr target="https://doi.org/10.21105/joss.00819" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TNwn66U" coord="20,472.37,561.70,58.93,6.91;20,99.40,572.16,60.68,6.91">Journal of Open Source Software</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">819</biblScope>
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnnie Gray. 2018. quimb: a python library for quantum information and many-body calculations. Journal of Open Source Software 3, 29 (2018), 819. https://doi.org/10.21105/joss.00819</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,582.21,433.50,7.43;20,99.40,592.67,157.25,7.43" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="20,252.56,582.21,160.33,7.43" xml:id="_D9WtVcz">Hyper-optimized tensor network contraction</title>
+		<author>
+			<persName coords=""><forename type="first">Johnnie</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stefanos</forename><surname>Kourtis</surname></persName>
+		</author>
+		<idno type="DOI">10.22331/q-2021-03-15-410</idno>
+		<ptr target="https://doi.org/10.22331/q-2021-03-15-410" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mkYuMQh" coord="20,419.61,582.62,33.53,6.91">Quantum</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">410</biblScope>
+			<date type="published" when="2021-03">2021. March 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnnie Gray and Stefanos Kourtis. 2021. Hyper-optimized tensor network contraction. Quantum 5 (March 2021), 410. https://doi.org/10.22331/q-2021-03-15-410</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,603.13,431.90,7.43;20,99.40,613.59,433.50,7.43;20,99.40,624.05,155.17,7.43" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="20,432.26,603.13,99.04,7.43;20,99.40,613.59,214.71,7.43" xml:id="_tWYj3AB">Intel Quantum Simulator: a cloud-ready high-performance simulator of quantum circuits</title>
+		<author>
+			<persName coords=""><forename type="first">Gian</forename><surname>Giacomo Guerreschi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Justin</forename><surname>Hogaboam</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fabio</forename><surname>Baruffa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nicolas P D</forename><surname>Sawaya</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2058-9565/ab8505</idno>
+		<ptr target="https://doi.org/10.1088/2058-9565/ab8505" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PusEXqn" coord="20,320.11,614.01,120.87,6.91">Quantum Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34007</biblScope>
+			<date type="published" when="2020-05">2020. may 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gian Giacomo Guerreschi, Justin Hogaboam, Fabio Baruffa, and Nicolas P D Sawaya. 2020. Intel Quantum Simulator: a cloud-ready high-performance simulator of quantum circuits. Quantum Science and Technology 5, 3 (may 2020), 034007. https://doi.org/10.1088/2058-9565/ab8505</note>
+</biblStruct>
+
+<biblStruct coords="20,99.40,634.51,432.10,7.43;20,99.40,644.97,378.11,7.43" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="20,351.45,634.51,180.05,7.43;20,99.40,644.97,52.53,7.43" xml:id="_6jhRtKY">Unsupervised Generative Modeling Using Matrix Product States</title>
+		<author>
+			<persName coords=""><forename type="first">Zhao-Yu</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Heng</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lei</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pan</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevX.8.031012</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevX.8.031012" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wKtYJW9" coord="20,158.60,645.39,44.26,6.91">Phys. Rev. X</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="31012" to="31013" />
+			<date type="published" when="2018-07">2018. Jul 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhao-Yu Han, Jun Wang, Heng Fan, Lei Wang, and Pan Zhang. 2018. Unsupervised Generative Modeling Using Matrix Product States. Phys. Rev. X 8 (Jul 2018), 031012. Issue 3. https://doi.org/10.1103/PhysRevX.8.031012</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,108.83,431.90,7.43;21,99.40,119.29,433.50,7.43;21,99.40,129.75,152.37,7.43" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="21,281.94,108.83,195.16,7.43" xml:id="_s2SjTym">5 petabyte simulation of a 45-qubit quantum circuit</title>
+		<author>
+			<persName coords=""><forename type="first">Thomas</forename><surname>Häner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Damian</forename><forename type="middle">S</forename><surname>Steiger</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3126908.3126947</idno>
+		<ptr target="https://doi.org/10.1145/3126908.3126947" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Uap5kpw" coord="21,485.55,109.25,45.76,6.91;21,99.40,119.71,384.91,6.91">Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis</title>
+		<meeting>the International Conference for High Performance Computing, Networking, Storage and Analysis</meeting>
+		<imprint>
+			<date type="published" when="2017-11">2017. Nov 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomas Häner and Damian S. Steiger. 2017. 0.5 petabyte simulation of a 45-qubit quantum circuit. Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (Nov 2017). https://doi.org/10.1145/3126908.3126947</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,140.21,431.90,7.43;21,99.16,150.68,433.74,7.43;21,99.40,161.14,105.42,7.43" xml:id="b19">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Cupjin</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fang</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Junjie</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xun</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Zhengxiong</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Junyin</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Haihong</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Huanjun</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bo</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mario</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yaoyun</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jianxin</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2005.06787</idno>
+		<title level="m" xml:id="_yva3cUS" coord="21,338.24,150.68,191.24,7.43">Classical Simulation of Quantum Supremacy Circuits</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>quant-ph</note>
+	<note type="raw_reference">Cupjin Huang, Fang Zhang, Michael Newman, Junjie Cai, Xun Gao, Zhengxiong Tian, Junyin Wu, Haihong Xu, Huanjun Yu, Bo Yuan, Mario Szegedy, Yaoyun Shi, and Jianxin Chen. 2020. Classical Simulation of Quantum Supremacy Circuits. arXiv:2005.06787 [quant-ph]</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,171.60,431.90,7.43;21,99.40,182.06,164.90,7.43" xml:id="b20">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Jakob</forename><surname>Wenzel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jason</forename><surname>Rhinelander</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dean</forename><surname>Moldovan</surname></persName>
+		</author>
+		<ptr target="https://github.com/pybind/pybind11" />
+		<title level="m" xml:id="_uUXe34e" coord="21,373.80,171.60,157.50,7.43;21,99.40,182.06,23.66,7.43">Seamless operability between C++11 and Python</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wenzel Jakob, Jason Rhinelander, and Dean Moldovan. 2017. pybind11 -Seamless operability between C++11 and Python. https://github.com/pybind/pybind11.</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,192.52,433.50,7.43;21,99.40,202.98,398.63,7.43" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="21,251.70,192.52,277.20,7.43" xml:id="_fnuhCkA">A fast and high quality multilevel scheme for partitioning irregular graphs</title>
+		<author>
+			<persName coords=""><forename type="first">George</forename><surname>Karypis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vipin</forename><surname>Kumar</surname></persName>
+		</author>
+		<ptr target="http://glaros.dtc.umn.edu/gkhome/views/metis" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JRpJyNc" coord="21,99.40,203.40,139.04,6.91">SIAM Journal on Scientific Computing</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="359" to="392" />
+			<date type="published" when="1999">1999. 1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">George Karypis and Vipin Kumar. 1999. A fast and high quality multilevel scheme for partitioning irregular graphs. SIAM Journal on Scientific Computing 20, 1 (1999), 359-392. http://glaros.dtc.umn.edu/gkhome/views/metis</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,213.44,431.90,7.43;21,99.40,223.90,433.04,7.43;21,99.40,234.78,126.77,6.91" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="21,345.19,213.44,186.11,7.43;21,99.40,223.90,136.97,7.43" xml:id="_BbfWtTS">Density Matrix Quantum Circuit Simulation via the BSP Machine on Modern GPU Clusters</title>
+		<author>
+			<persName coords=""><forename type="first">Ang</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Omer</forename><surname>Subasi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiu</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sriram</forename><surname>Krishnamoorthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_9SHH8sR" coord="21,251.31,224.32,281.14,6.91;21,99.40,234.78,123.17,6.91">Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis</title>
+		<meeting>the International Conference for High Performance Computing, Networking, Storage and Analysis</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ang Li, Omer Subasi, Xiu Yang, and Sriram Krishnamoorthy. 2020. Density Matrix Quantum Circuit Simulation via the BSP Machine on Modern GPU Clusters. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis.</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,244.82,433.50,7.43;21,99.40,255.28,431.90,7.43;21,99.40,265.74,432.04,7.43" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="21,99.40,255.28,330.22,7.43" xml:id="_ZqWZuvE">Performance Evaluation and Acceleration of the QTensor Quantum Circuit Simulator on GPUs</title>
+		<author>
+			<persName coords=""><forename type="first">Danylo</forename><surname>Lykov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Angela</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Huaxuan</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kristopher</forename><surname>Keipert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Zheng</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tom</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yuri</forename><surname>Alexeev</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/QCS54837.2021.00007</idno>
+		<ptr target="https://doi.org/10.1109/QCS54837.2021.00007" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_26Nf8Dx" coord="21,465.01,255.70,66.30,6.91;21,99.40,266.16,229.12,6.91">IEEE/ACM Second International Workshop on Quantum Computing Software (QCS)</title>
+		<imprint>
+			<biblScope unit="page" from="27" to="34" />
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Danylo Lykov, Angela Chen, Huaxuan Chen, Kristopher Keipert, Zheng Zhang, Tom Gibbs, and Yuri Alexeev. 2021. Performance Evaluation and Acceleration of the QTensor Quantum Circuit Simulator on GPUs. In 2021 IEEE/ACM Second International Workshop on Quantum Computing Software (QCS). 27-34. https://doi.org/10.1109/QCS54837.2021.00007</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,276.20,433.04,7.43;21,99.40,286.67,248.20,7.43" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="21,245.63,276.20,250.62,7.43" xml:id="_49qe3Dy">Simulating Quantum Computation by Contracting Tensor Networks</title>
+		<author>
+			<persName coords=""><forename type="first">Igor</forename><forename type="middle">L</forename><surname>Markov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yaoyun</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1137/050644756</idno>
+		<ptr target="https://doi.org/10.1137/050644756" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BbYQkNf" coord="21,504.46,276.62,27.98,6.91;21,99.40,287.08,30.98,6.91">SIAM J. Comput</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="963" to="981" />
+			<date type="published" when="2008">2008. 2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Igor L. Markov and Yaoyun Shi. 2008. Simulating Quantum Computation by Contracting Tensor Networks. SIAM J. Comput. 38, 3 (2008), 963-981. https://doi.org/10.1137/050644756</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,297.13,433.11,7.43;21,99.40,307.59,363.09,7.43" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="21,459.48,297.13,73.03,7.43;21,99.40,307.59,229.66,7.43" xml:id="_xhNjsb3">Validating quantumclassical programming models with tensor network simulations</title>
+		<author>
+			<persName coords=""><forename type="first">Alexander</forename><surname>Mccaskey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eugene</forename><surname>Dumitrescu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mengsu</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dmitry</forename><surname>Lyakh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Travis</forename><surname>Humble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hFW5WYB" coord="21,335.80,308.00,31.82,6.91">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+	<note>e0206704</note>
+	<note type="raw_reference">Alexander McCaskey, Eugene Dumitrescu, Mengsu Chen, Dmitry Lyakh, and Travis Humble. 2018. Validating quantum- classical programming models with tensor network simulations. PloS one 13, 12 (2018), e0206704.</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,318.05,431.90,7.43;21,99.40,328.51,431.90,7.43;21,99.40,338.97,74.03,7.43" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="21,500.83,318.05,30.47,7.43;21,99.40,328.51,303.52,7.43" xml:id="_QTznDeQ">XACC: a system-level software infrastructure for heterogeneous quantum-classical computing</title>
+		<author>
+			<persName coords=""><surname>Alexander J Mccaskey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Dmitry</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eugene</forename><forename type="middle">F</forename><surname>Lyakh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sarah</forename><forename type="middle">S</forename><surname>Dumitrescu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Travis</forename><forename type="middle">S</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Humble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZZSGw9M" coord="21,410.00,328.92,121.31,6.91">Quantum Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">24002</biblScope>
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alexander J McCaskey, Dmitry I Lyakh, Eugene F Dumitrescu, Sarah S Powers, and Travis S Humble. 2020. XACC: a system-level software infrastructure for heterogeneous quantum-classical computing. Quantum Science and Technology 5, 2 (2020), 024002.</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,349.43,432.10,7.43;21,99.40,359.89,22.14,7.43" xml:id="b27">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Isaac</forename><forename type="middle">L</forename><surname>Chuang</surname></persName>
+		</author>
+		<title level="m" xml:id="_ZE9RY3X" coord="21,270.41,349.85,175.56,6.91">Quantum Computation and Quantum Information</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Michael A. Nielsen and Isaac L. Chuang. 2000. Quantum Computation and Quantum Information. Cambridge University Press.</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,370.35,424.70,7.43" xml:id="b28">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Nvidia</surname></persName>
+		</author>
+		<ptr target="https://developer.nvidia.com/cuquantum-sdk" />
+		<title level="m" xml:id="_2mCYn6G" coord="21,155.62,370.35,196.26,7.43">cuQuantum: Accelerate Quantum Information Science</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">NVIDIA. 2021. cuQuantum: Accelerate Quantum Information Science. https://developer.nvidia.com/cuquantum-sdk.</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,380.81,432.07,7.43;21,99.40,391.27,329.56,7.43" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="21,174.62,380.81,356.86,7.43;21,99.40,391.27,20.51,7.43" xml:id="_6wdvdpf">A practical introduction to tensor networks: Matrix product states and projected entangled pair states</title>
+		<author>
+			<persName coords=""><forename type="first">Román</forename><surname>Orús</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aop.2014.06.013</idno>
+		<ptr target="https://doi.org/10.1016/j.aop.2014.06.013" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RVFFCby" coord="21,126.40,391.69,63.37,6.91">Annals of Physics</title>
+		<imprint>
+			<biblScope unit="volume">349</biblScope>
+			<biblScope unit="page" from="117" to="158" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Román Orús. 2014. A practical introduction to tensor networks: Matrix product states and projected entangled pair states. Annals of Physics 349 (2014), 117-158. https://doi.org/10.1016/j.aop.2014.06.013</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,401.73,428.40,7.43" xml:id="b30">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Feng</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pan</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2103.03074</idno>
+		<title level="m" xml:id="_XmQdzxt" coord="21,218.10,401.73,197.15,7.43">Simulating the Sycamore quantum supremacy circuits</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>quant-ph</note>
+	<note type="raw_reference">Feng Pan and Pan Zhang. 2021. Simulating the Sycamore quantum supremacy circuits. arXiv:2103.03074 [quant-ph]</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,412.20,431.90,7.43;21,99.40,422.66,432.38,7.43;21,99.40,433.12,76.31,7.43" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="21,455.12,412.20,76.19,7.43;21,99.40,422.66,199.82,7.43" xml:id="_GhBAncB">Efficient modeling of superconducting quantum circuits with tensor networks</title>
+		<author>
+			<persName coords=""><forename type="first">Agustin</forename><surname>Di Paolo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Thomas</forename><forename type="middle">E</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexandre</forename><surname>Foley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Sénéchal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexandre</forename><surname>Blais</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41534-020-00352-4</idno>
+		<idno>41534-020-00352-4</idno>
+		<ptr target="https://doi.org/10.1038/s" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3554BDh" coord="21,306.23,423.07,91.16,6.91">npj Quantum Information</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Agustin Di Paolo, Thomas E. Baker, Alexandre Foley, David Sénéchal, and Alexandre Blais. 2021. Efficient modeling of superconducting quantum circuits with tensor networks. npj Quantum Information 7, 1 (2021). https://doi.org/10.1038/ s41534-020-00352-4</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,443.58,433.50,7.43;21,99.40,454.04,87.13,7.43" xml:id="b32">
+	<monogr>
+		<title level="m" type="main" coord="21,173.90,443.58,178.98,7.43" xml:id="_SugVWwY">Quantum Computing in the NISQ era and beyond</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Preskill</surname></persName>
+		</author>
+		<idno type="DOI">10.22331/q-2018-08-06-79</idno>
+		<ptr target="https://doi.org/10.22331/q-2018-08-06-79" />
+		<imprint>
+			<date type="published" when="2018-08">2018. Aug 2018</date>
+			<biblScope unit="page">79</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John Preskill. 2018. Quantum Computing in the NISQ era and beyond. Quantum 2 (Aug 2018), 79. https://doi.org/10. 22331/q-2018-08-06-79</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,464.50,433.50,7.43;21,99.40,474.96,100.90,7.43" xml:id="b33">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Justin</forename><surname>Reyes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Miles</forename><surname>Stoudenmire</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2001.08286</idno>
+		<title level="m" xml:id="_cCNJ8ya" coord="21,256.16,464.50,272.93,7.43">A Multi-Scale Tensor Network Architecture for Classification and Regression</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>stat.ML</note>
+	<note type="raw_reference">Justin Reyes and Miles Stoudenmire. 2020. A Multi-Scale Tensor Network Architecture for Classification and Regression. arXiv:2001.08286 [stat.ML]</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,485.42,431.90,7.43;21,99.40,495.88,433.11,7.43;21,99.40,506.34,12.01,7.43" xml:id="b34">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Chase</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ashley</forename><surname>Milsted</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martin</forename><surname>Ganahl</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Zalcman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bruce</forename><surname>Fontaine</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yijian</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jack</forename><surname>Hidary</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Guifre</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stefan</forename><surname>Leichenauer</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1905.01330</idno>
+		<title level="m" xml:id="_R2sbzBq" coord="21,194.46,495.88,213.08,7.43">TensorNetwork: A Library for Physics and Machine Learning</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>physics.compph</note>
+	<note type="raw_reference">Chase Roberts, Ashley Milsted, Martin Ganahl, Adam Zalcman, Bruce Fontaine, Yijian Zou, Jack Hidary, Guifre Vidal, and Stefan Leichenauer. 2019. TensorNetwork: A Library for Physics and Machine Learning. arXiv:1905.01330 [physics.comp- ph]</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,516.80,13.48,7.43" xml:id="b35">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Y.-Y</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Y.-Y.</note>
+</biblStruct>
+
+<biblStruct coords="21,115.15,516.80,417.76,7.43;21,99.40,527.26,332.77,7.43" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="21,246.70,516.80,282.25,7.43" xml:id="_tSAC62S">Classical simulation of quantum many-body systems with a tree tensor network</title>
+		<author>
+			<persName coords=""><forename type="first">L.-M</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Vidal</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevA.74.022320</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevA.74.022320" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_f8DHyFf" coord="21,99.40,527.68,44.33,6.91">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">22320</biblScope>
+			<date type="published" when="2006-08">2006. Aug 2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shi, L.-M. Duan, and G. Vidal. 2006. Classical simulation of quantum many-body systems with a tree tensor network. Phys. Rev. A 74 (Aug 2006), 022320. Issue 2. https://doi.org/10.1103/PhysRevA.74.022320</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,537.72,431.90,7.43;21,99.40,548.19,431.90,7.43;21,99.40,558.65,357.96,7.43" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="21,155.33,548.19,375.97,7.43;21,99.40,558.65,49.67,7.43" xml:id="_kDmSefG">A flexible high-performance simulator for verifying and benchmarking quantum circuits implemented on real hardware</title>
+		<author>
+			<persName coords=""><forename type="first">Benjamin</forename><surname>Villalonga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sergio</forename><surname>Boixo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bron</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christopher</forename><surname>Henze</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eleanor</forename><surname>Rieffel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rupak</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Salvatore</forename><surname>Mandrà</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41534-019-0196-1</idno>
+		<ptr target="https://doi.org/10.1038/s41534-019-0196-1" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8Hd27yg" coord="21,156.28,559.06,92.74,6.91">npj Quantum Information</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benjamin Villalonga, Sergio Boixo, Bron Nelson, Christopher Henze, Eleanor Rieffel, Rupak Biswas, and Salvatore Mandrà. 2019. A flexible high-performance simulator for verifying and benchmarking quantum circuits implemented on real hardware. npj Quantum Information 5, 1 (2019). https://doi.org/10.1038/s41534-019-0196-1</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,569.11,433.04,7.43;21,99.14,579.57,433.76,7.43;21,99.40,590.03,375.11,7.43" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coord="21,248.01,579.57,281.16,7.43" xml:id="_4w8u5P3">Establishing the quantum supremacy frontier with a 281 Pflop/s simulation</title>
+		<author>
+			<persName coords=""><forename type="first">Benjamin</forename><surname>Villalonga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dmitry</forename><surname>Lyakh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sergio</forename><surname>Boixo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hartmut</forename><surname>Neven</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rupak</forename><surname>Travis S Humble</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eleanor</forename><forename type="middle">G</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alan</forename><surname>Rieffel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Salvatore</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Mandrà</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2058-9565/ab7eeb</idno>
+		<ptr target="https://doi.org/10.1088/2058-9565/ab7eeb" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_N66pd7g" coord="21,99.40,590.44,123.68,6.91">Quantum Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">34003</biblScope>
+			<date type="published" when="2020-04">2020. apr 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benjamin Villalonga, Dmitry Lyakh, Sergio Boixo, Hartmut Neven, Travis S Humble, Rupak Biswas, Eleanor G Rieffel, Alan Ho, and Salvatore Mandrà. 2020. Establishing the quantum supremacy frontier with a 281 Pflop/s simulation. Quantum Science and Technology 5, 3 (apr 2020), 034003. https://doi.org/10.1088/2058-9565/ab7eeb</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,600.49,433.11,7.43;21,99.40,610.95,433.11,7.43;21,99.40,621.41,12.01,7.43" xml:id="b39">
+	<monogr>
+		<title level="m" type="main" coord="21,520.20,600.49,12.31,7.43;21,99.40,610.95,305.52,7.43" xml:id="_xSwpQxa">Jet: Fast quantum circuit simulations with parallel task-based tensor-network contraction</title>
+		<author>
+			<persName coords=""><forename type="first">Trevor</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lee</forename><forename type="middle">J</forename><surname>O'riordan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mikhail</forename><surname>Andrenkov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jack</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nathan</forename><surname>Killoran</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Haoyu</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ish</forename><surname>Dhand</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2107.09793</idno>
+		<imprint>
+			<date type="published" when="2021">2021. 2021</date>
+		</imprint>
+	</monogr>
+	<note>quantph</note>
+	<note type="raw_reference">Trevor Vincent, Lee J. O&apos;Riordan, Mikhail Andrenkov, Jack Brown, Nathan Killoran, Haoyu Qi, and Ish Dhand. 2021. Jet: Fast quantum circuit simulations with parallel task-based tensor-network contraction. (2021). arXiv:2107.09793 [quant- ph]</note>
+</biblStruct>
+
+<biblStruct coords="21,99.40,631.87,433.50,7.43;21,99.40,642.33,433.04,7.43" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coord="21,122.93,642.33,301.26,7.43" xml:id="_tDjFYdk">Positive tensor network approach for simulating open quantum many-body systems</title>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Albert H Werner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pietro</forename><surname>Jaschke</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martin</forename><surname>Silvi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tommaso</forename><surname>Kliesch</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jens</forename><surname>Calarco</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Simone</forename><surname>Eisert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Montangero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_z4AUWn4" coord="21,431.16,642.75,82.45,6.91">Physical review letters</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Albert H Werner, Daniel Jaschke, Pietro Silvi, Martin Kliesch, Tommaso Calarco, Jens Eisert, and Simone Montangero. 2016. Positive tensor network approach for simulating open quantum many-body systems. Physical review letters 116,</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_y3Qdy94" coord="1,65.59,84.23,480.83,15.44;1,131.65,104.15,349.20,15.44">Exchanging Best Practices for Supporting Computational and Data-Intensive Research, The Xpert Network</title>
+				<funder ref="#_jged5ps">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,261.07,144.29,90.86,11.96"><forename type="first">Rudolf</forename><surname>Eigenmann</surname></persName>
+							<email>eigenman@udel.edu</email>
+							<idno type="ORCID">0000-0001-7232-3923</idno>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">University of , , USA</note>
+								<orgName type="institution">University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_J5PtcGG" coord="1,65.59,84.23,480.83,15.44;1,131.65,104.15,349.20,15.44">Exchanging Best Practices for Supporting Computational and Data-Intensive Research, The Xpert Network</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7BE2B8B46CDCE6F9B921135C3964BFA6</idno>
+					<idno type="DOI">10.1145/3491418.3530293</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_EmxZxka">Computational and data-intensive (CDI) research</term>
+					<term xml:id="_auNzbF7">Xpert Network</term>
+					<term xml:id="_NpeTDSY">CDI research support</term>
+					<term xml:id="_4wnUmC8">Best practices</term>
+					<term xml:id="_SawTwCJ">Collaboration in CDI research</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_JR7NeFQ"><p xml:id="_mBeG7Vq"><s xml:id="_YKCKjtD" coords="1,53.37,227.01,242.19,8.97;1,53.80,237.97,188.52,8.97">We present best practices for professionals who support computational and data-intensive (CDI) research projects.</s><s xml:id="_ZeQaJpw" coords="1,244.56,237.97,49.49,8.97;1,53.80,248.93,240.25,8.97;1,53.80,259.89,241.76,8.97;1,53.80,270.85,240.25,8.97;1,53.80,281.81,112.16,8.97">The practices resulted from the Xpert Network activities, an initiative that brings together major NSF-funded projects for advanced cyberinfrastructure, national projects, and university teams that include individuals or groups of such professionals.</s><s xml:id="_mxvK7UK" coords="1,167.74,281.81,126.30,8.97;1,53.80,292.77,241.77,8.97;1,53.80,303.73,168.13,8.97">Additionally, our recommendations are based on years of experience building multidisciplinary applications and teaching computing to scientists.</s><s xml:id="_gqGhmhP" coords="1,224.25,303.73,69.80,8.97;1,53.80,314.68,240.25,8.97;1,53.80,325.64,75.20,8.97">This paper focuses particularly on practices that differ from those in a general software engineering context.</s><s xml:id="_aQRvjZs" coords="1,131.24,325.64,163.03,8.97;1,53.80,336.60,241.76,8.97;1,53.80,347.56,241.23,8.97;1,53.80,358.52,240.25,8.97;1,53.80,369.48,240.25,8.97;1,53.80,380.44,136.26,8.97">This paper also describes the Xpert Network initiative where participants exchange best practices, tools, successes, challenges, and general information about their activities, leading to increased productivity, efficiency, and coordination in the ever-growing community of scientists that use computational and data-intensive research methods.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_5YMPAWM">CCS CONCEPTS</head><p xml:id="_JRRaHdw"><s xml:id="_k6vhfwv" coords="1,53.80,415.88,241.85,8.97;1,53.45,427.93,113.94,7.70">• Software and its engineering → Programming teams; Software development methods.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2" xml:id="_NZh2ngk">Importance of Supporting Computational and Data-intensive (CDI) Research</head><p xml:id="_4H8Pvw3"><s xml:id="_uEcPyct" coords="1,317.69,503.36,187.47,8.97">The importance of CDI research is well evidenced.</s><s xml:id="_wdAxFHH" coords="1,507.40,503.36,51.03,8.97;1,317.96,514.32,241.76,8.97;1,317.96,525.28,170.14,8.97">A relentlessly growing amount of computing power is consumed to conduct research using computational experimentation.</s><s xml:id="_erQawcS" coords="1,490.82,525.28,67.39,8.97;1,317.96,536.24,181.71,8.97">Nobel prizes have been awarded to CDI science breakthroughs <ref type="bibr" coords="1,486.98,536.24,9.52,8.97" target="#b6">[7]</ref>.</s><s xml:id="_akwHUYF" coords="1,502.22,537.05,56.96,8.02">Laszewski et al.</s></p><p xml:id="_VJRA3vp"><s xml:id="_C8nkQFE" coords="1,317.96,547.20,241.76,8.97;1,317.96,558.16,33.91,8.97">have shown that CDI work correlates with higher scientific impact <ref type="bibr" coords="1,335.33,558.16,13.23,8.97" target="#b35">[36]</ref>.</s><s xml:id="_AmKhFcK" coords="1,354.10,558.16,205.62,8.97;1,317.96,569.12,240.25,8.97;1,317.96,580.08,52.96,8.97">Apon et al. have found that universities investing in computational infrastructure supporting CDI research tend to increase in ranking <ref type="bibr" coords="1,358.38,580.08,9.39,8.97" target="#b0">[1]</ref>.</s><s xml:id="_aDnNCRm" coords="1,327.92,591.03,230.28,8.97;1,317.96,601.99,191.20,8.97">Supporting such CDI research by Xperts is critical, allowing domain scientists to focus on their research tasks.</s><s xml:id="_DGgRMfe" coords="1,512.27,601.99,45.94,8.97;1,317.96,612.95,240.25,8.97;1,317.96,623.91,240.25,8.97;1,317.96,634.87,240.25,8.97;1,317.96,645.83,36.90,8.97">Recognizing this need, several large projects funded by the National Science Foundation (NSF) <ref type="bibr" coords="1,385.62,623.91,13.48,8.97" target="#b25">[26]</ref>, such as XSEDE <ref type="bibr" coords="1,463.39,623.91,13.48,8.97" target="#b42">[43]</ref>, CyVerse <ref type="bibr" coords="1,515.44,623.91,9.51,8.97" target="#b5">[6]</ref>, and the NSF Software Institutes, support the community through groups of Xperts.</s><s xml:id="_9MJPYFe" coords="1,357.52,645.83,200.68,8.97;1,317.96,656.79,241.76,8.97;1,317.96,667.75,240.25,8.97;1,317.66,678.71,145.28,8.97">National organizations have emerged, such as the US Research Software Engineer Association (US-RSE) <ref type="bibr" coords="1,512.08,656.79,14.85,8.97" target="#b30">[31]</ref> and Research Data Alliance United States (RDA-US) <ref type="bibr" coords="1,492.89,667.75,13.49,8.97" target="#b15">[16]</ref>, that include Xperts for supporting CDI researchers.</s><s xml:id="_4p3ghkJ" coords="1,465.24,678.71,92.96,8.97;1,317.96,689.66,241.76,8.97;1,317.96,700.62,240.25,8.97;2,53.80,86.92,113.77,8.97">There are also a growing number of university IT departments, or research computing support groups, that include Xperts for boosting the productivity of researchers on their campuses.</s><s xml:id="_KeMFFzK" coords="2,169.81,86.92,125.75,8.97;2,53.80,97.88,240.41,8.97;2,53.80,108.84,63.43,8.97">Furthermore, many large domainscience projects include computational experts for supporting their own applications.</s><s xml:id="_QD6KDjK" coords="2,119.46,108.84,174.59,8.97;2,53.80,119.80,50.12,8.97">The effectiveness of such computational support is remarkable.</s><s xml:id="_JxCGW79" coords="2,105.94,119.80,188.10,8.97;2,53.80,130.76,240.25,8.97;2,53.80,141.72,241.61,8.97">A study by XSEDE's ECSS group <ref type="bibr" coords="2,221.03,119.80,10.43,8.97" target="#b8">[9]</ref> has revealed that time invested by computational experts can have a four-fold return in terms of time a domain scientist would spend on the same tasks.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3" xml:id="_AJuxWEK">Structure and Activities of the Xpert Network</head><p xml:id="_jVCs32p"><s xml:id="_k9HPEEp" coords="2,53.53,189.83,240.52,8.97;2,53.80,200.79,72.38,8.97">The Xpert Network <ref type="bibr" coords="2,127.09,189.83,14.69,8.97" target="#b31">[32]</ref> is an NSF-supported, community-serving initiative that offers</s></p><p xml:id="_9gqtdMb"><s xml:id="_Z6ajAgB" coords="2,69.77,213.94,224.28,8.97;2,78.21,224.90,215.84,8.97;2,78.21,235.86,189.56,8.97;2,69.77,246.82,224.28,8.97;2,77.94,257.78,217.09,8.97;2,78.21,268.73,215.84,8.97;2,77.94,279.69,173.51,8.97;2,69.77,290.65,133.78,8.97">• Monthly online meetings (webinars and panels) to exchange best practices applied, tools used, and open problems faced in computational and data-intensive (CDI) research, • Face-To-Face Meetings at major conferences, such as PEARC (Practice and Experience in Advanced Research Computing), ICS (International Conference on Supercomputing), and SC (Supercomputing) for in-depth discussions, and • A website (sites.udel.edu/xpert-cdi)</s><s xml:id="_ryJGR8V" coords="2,205.18,290.65,88.86,8.97;2,78.21,301.61,216.83,8.97;2,78.21,312.57,120.06,8.97">with access to recordings and reports of past events, a calendar of upcoming events, and community announcements.</s><s xml:id="_2wg23dG" coords="2,63.76,325.72,97.99,8.97">Under preparation are also</s></p><p xml:id="_haSEzaR"><s xml:id="_5FfpHMW" coords="2,69.77,338.88,224.79,8.97;2,78.21,349.84,50.83,8.97;2,69.77,360.80,224.28,8.97;2,78.21,371.75,67.29,8.97">• A discussion platform for community communication around the clock, and • An exchange program that supports participants visiting other participants.</s><s xml:id="_wmjNPfE" coords="2,63.76,384.91,231.80,8.97;2,53.80,395.87,240.42,8.97;2,53.80,406.83,100.56,8.97">The ultimate goal of the initiative is to advance science by increasing the productivity of researchers who use CDI methods for pushing research frontiers.</s><s xml:id="_SAX6RYm" coords="2,156.79,406.83,137.26,8.97;2,53.80,417.79,240.25,8.97;2,53.53,428.74,240.51,8.97;2,53.47,439.70,240.58,8.97;2,53.80,450.66,240.25,8.97;2,53.80,461.62,240.78,8.97;2,53.80,472.58,241.76,8.97;2,53.80,483.54,28.05,8.97">To this end, several communities are invited to participate in the Xpert Network activities, including (i) researchers developing and using CDI applications, (ii) those who assist these researchers with expertise in CDI technology and methods (Xperts, Facilitators, RSEs), (iii) domain experts/scientists on university campuses and other research organizations, and (iv) developers of tools that support the creation and use of CDI applications.</s><s xml:id="_4kfqk37" coords="2,84.09,483.54,102.29,8.97">These groups are invited to:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4" xml:id="_xCtkzzS">Best Practices and Tools Guide</head><p xml:id="_8aEwF5B"><s xml:id="_FnprzR8" coords="2,53.53,630.48,240.52,8.97;2,53.80,641.44,55.41,8.97">Two specific outcomes of the discussions of the Xpert Network are the creation of:</s></p><p xml:id="_tAvWYvy"><s xml:id="_pV2YaKs" coords="2,69.77,654.59,224.28,8.97;2,78.21,665.55,48.51,8.97;2,69.77,676.51,225.66,8.97">• A best-practices guide for computational and data-intensive research, and • A catalog of tools that support CDI research and engineering.</s><s xml:id="_CySsjaz" coords="2,53.53,689.66,240.51,8.97;2,53.80,700.62,241.63,8.97">They will serve as training material for new Xperts joining CDI support teams, for instructional events, and for university curricula.</s></p><p xml:id="_nRAqjPp"><s xml:id="_ZRTEZER" coords="2,317.69,86.92,242.03,8.97;2,317.96,97.88,55.15,8.97">The present paper can be seen as a starting point for such educational material.</s><s xml:id="_EpshsDm" coords="2,375.33,97.88,182.87,8.97;2,317.96,108.84,240.25,8.97;2,317.96,119.80,186.45,8.97">This material is related to the large volume of best practices for software engineering and scientific programming that exists, but differs in the following significant ways.</s></p><p xml:id="_hb9U6uY"><s xml:id="_87DXzgS" coords="2,327.92,130.76,230.28,8.97;2,317.96,141.72,240.25,8.97;2,317.96,152.68,240.25,8.97;2,317.96,164.44,107.48,8.02">While training material for general software engineering and scientific programming cover important skills that Xperts must have, we are looking for best practices specific to professionals that support domain science teams.</s><s xml:id="_YzsDwSn" coords="2,427.69,163.64,130.51,8.97;2,317.96,174.60,241.76,8.97;2,317.96,185.55,179.68,8.97">We focus on information that is not commonly found in software engineering and scientific programming literature, or on advice that is unexpected.</s><s xml:id="_Es2Jb9P" coords="2,500.02,185.55,58.18,8.97;2,317.96,196.51,240.25,8.97;2,317.96,207.47,223.59,8.97">We also discuss skills that our participants have called out as especially relevant and those that need to be applied differently in a CDI context.</s></p><p xml:id="_FtXmM3v"><s xml:id="_FxRCuJx" coords="2,327.92,218.43,230.46,8.97;2,317.96,229.39,240.42,8.97;2,317.96,240.35,157.60,8.97">Since the Xpert Network initiative began three years ago, over 250 people have contributed to the knowledge base through over thirty webinars and three in-person events.</s><s xml:id="_DkNeKJT" coords="2,477.80,240.35,80.40,8.97;2,317.96,251.31,240.25,8.97;2,317.96,262.27,189.44,8.97">Some of the in-person sessions held at major conferences include the ICS19 workshop, the PEARC19, and the SC19 Birds-of-a-feather sessions.</s></p><p xml:id="_Rak6aMK"><s xml:id="_U9pYpp9" coords="2,327.92,273.23,230.28,8.97;2,317.96,284.18,240.25,8.97;2,317.96,295.14,240.25,8.97;2,317.96,306.10,240.24,8.97;2,317.96,317.06,240.25,8.97;2,317.69,328.02,241.50,8.97;2,317.96,338.98,240.24,8.97;2,317.96,349.94,241.76,8.97;2,317.96,360.90,241.76,8.97;2,317.96,371.86,240.25,8.97;2,317.96,382.81,185.10,8.97">The Xpert Network's participants include major NSF-funded projects for advanced cyberinfrastructure e.g., the Extreme Science and Engineering Discovery Environment (XSEDE) <ref type="bibr" coords="2,504.93,295.14,13.37,8.97" target="#b42">[43]</ref>, Extended Collaborative Support Services (ECSS) <ref type="bibr" coords="2,463.11,306.10,9.52,8.97" target="#b8">[9]</ref>, Novel and Innovative Projects (NaIP) <ref type="bibr" coords="2,377.75,317.06,13.49,8.97" target="#b22">[23]</ref>, The Molecular Sciences Software Institute (MolSSI) <ref type="bibr" coords="2,350.90,328.02,13.33,8.97" target="#b17">[18]</ref>, Science Gateways Community Institute (SGCI) <ref type="bibr" coords="2,542.52,328.02,13.33,8.97" target="#b29">[30]</ref>, Campus Research Computing Consortium (CarCC) <ref type="bibr" coords="2,512.53,338.98,13.49,8.97" target="#b27">[28]</ref>, Virtual Residency (VR) <ref type="bibr" coords="2,377.41,349.94,13.49,8.97" target="#b26">[27]</ref>, and Cyverse <ref type="bibr" coords="2,445.72,349.94,9.52,8.97" target="#b5">[6]</ref>, as well as national organizations e.g., the US Research Software Engineer Association (US-RSE) <ref type="bibr" coords="2,336.87,371.86,13.22,8.97" target="#b30">[31]</ref>, Research Data Alliance United States (RDA-US) <ref type="bibr" coords="2,526.46,371.86,13.22,8.97" target="#b15">[16]</ref>, and campus organizations supporting CDI researchers.</s></p><p xml:id="_4k4SRyU"><s xml:id="_jzT5qmc" coords="2,327.92,393.77,230.28,8.97;2,317.96,404.73,240.41,8.97;2,317.96,415.69,241.76,8.97;2,317.96,426.65,192.77,8.97">Through Xpert network events, these efforts have showcased their projects, the types of support they provide to their users, their best practices for developing, debugging, parallelizing, and executing CDI applications, and the tools they have used.</s><s xml:id="_uFvPCt3" coords="2,513.40,426.65,44.80,8.97;2,317.96,437.61,122.31,8.97">The present paper compiles that information.</s><s xml:id="_KM2m9BS" coords="2,442.52,437.61,117.19,8.97;2,317.96,448.57,240.25,8.97;2,317.96,459.53,192.89,8.97">Our past work on several interdisciplinary projects with domain scientists has also contributed to identifying the best practices described in this paper.</s></p><p xml:id="_CKFrpVq"><s xml:id="_fWMfPNC" coords="2,327.92,470.49,230.28,8.97;2,317.96,481.44,30.00,8.97">Another important element of our approach is the inclusion of tools.</s><s xml:id="_hYjsrDG" coords="2,350.33,481.44,208.20,8.97;2,317.96,492.40,114.13,8.97">Best practices need to be supported by tools that follow the underlying methodologies.</s><s xml:id="_45NPZ7M" coords="2,434.34,492.40,123.87,8.97;2,317.96,503.36,240.25,8.97;2,317.96,514.32,150.31,8.97">Good tools for scientific software development can boost the productivity of domain science research as much as the best practices themselves.</s><s xml:id="_j85MWDb" coords="2,470.52,514.32,87.69,8.97;2,317.96,525.28,204.94,8.97">For space reasons, these tools will be discussed in a forthcoming paper, however.</s></p><p xml:id="_JgmkDvJ"><s xml:id="_8nEcmzx" coords="2,327.92,536.24,193.53,8.97">The remainder of the paper is organized as follows.</s><s xml:id="_pRyr5w4" coords="2,523.98,536.24,34.21,8.97;2,317.96,547.20,240.48,8.97;2,317.96,558.16,55.89,8.97">Section 2 describes the best practices that have emerged in the Xpert Network activities so far.</s><s xml:id="_Ms2kwU2" coords="2,376.06,558.16,182.15,8.97;2,317.96,569.12,240.25,8.97;2,317.96,580.08,44.81,8.97">Section 3 describes related efforts on best practices and creating synergy among Xpert groups, followed by conclusions in Section 4.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_4u2mpfC">BEST PRACTICES</head><p xml:id="_pqkx6Nn"><s xml:id="_NJYncQd" coords="2,317.69,645.83,240.51,8.97;2,317.96,656.79,241.14,8.97;2,317.96,667.75,241.76,8.97;2,317.96,678.71,241.63,8.97">This section describes a set of best practices for professionals who support CDI research involving applications that are computeintensive (spending most execution time on computational algorithms) and/or data-intensive (manipulating large volumes of data).</s><s xml:id="_M2jtwep" coords="2,317.69,689.66,240.52,8.97;2,317.96,700.62,96.94,8.97">The practices have been compiled from Xpert Network activities as described in section 1.4.</s></p><p xml:id="_dtfTspv"><s xml:id="_2ReWvrh" coords="3,63.76,86.92,231.80,8.97;3,53.80,97.88,241.76,8.97;3,53.80,108.84,240.41,8.97;3,53.80,119.80,83.60,8.97">Two broad categories of best practices for supporting such research have emerged in the Xpert Network activities: (i) best practices related to project collaborations and (ii) best practices for software development.</s><s xml:id="_5Xc68DS" coords="3,139.64,119.80,155.91,8.97;3,53.80,130.76,240.24,8.97;3,53.80,141.72,241.14,8.97;3,53.80,152.68,25.37,8.97">As mentioned in the introduction, the second category is covered well in the software engineering literature and in organizations focused on training, such as Software Carpentry <ref type="bibr" coords="3,66.64,152.68,9.39,8.97" target="#b1">[2]</ref>.</s></p><p xml:id="_ncEnMrG"><s xml:id="_WZnjpc6" coords="3,63.76,163.64,230.28,8.97;3,53.80,174.60,240.25,8.97;3,53.80,185.55,240.24,8.97;3,53.80,196.51,32.15,8.97">This paper considers only those software development practices that have been described by participants as different from general software engineering practices or particularly important for CDI research.</s><s xml:id="_7EqmMhH" coords="3,88.19,196.51,205.85,8.97;3,53.47,207.47,209.23,8.97">Of particular interest are practices that are actionable; we will highlight the recommended actions in each practice.</s><s xml:id="_jSmZ79B" coords="3,264.95,207.47,29.09,8.97;3,53.80,218.43,185.45,8.97">In some cases, the action lies in being aware of something.</s><s xml:id="_bkbZGvD" coords="3,241.58,218.43,52.46,8.97;3,53.80,229.39,147.77,8.97">The following subsection will begin with this category.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_jYe2XA6">Diversity of Xpert Backgrounds</head><p xml:id="_Xnxm4bJ"><s xml:id="_2sUUS8B" coords="3,53.80,267.01,240.24,7.70;3,53.80,277.97,240.24,7.70;3,53.80,288.93,107.17,7.70">Be aware of different backgrounds Xperts may bring into a team; configure training so that less-familiar best practices can be acquired as needed.</s><s xml:id="_a45jRXQ" coords="3,163.20,287.84,130.84,8.97;3,53.80,298.80,240.41,8.97;3,53.80,309.76,240.25,8.97;3,53.80,320.71,101.15,8.97">Members of Xpert groups may come from domain sciences, from computer science backgrounds, or from environments where they learned to assist CDI science teams through training on the job.</s><s xml:id="_KV8XR4Q" coords="3,157.19,320.71,138.37,8.97;3,53.80,331.67,240.25,8.97;3,53.80,342.63,241.24,8.97;3,53.47,353.59,240.57,8.97;3,53.80,364.55,156.75,8.97">For example, working with Unix commands, parallel programming models, and version control may be second nature to members with computer science backgrounds, whereas these very skills may be critical best practices to acquire by Xperts with domain-science background.</s><s xml:id="_WFttSPc" coords="3,212.74,364.55,81.30,8.97;3,53.80,375.51,240.25,8.97;3,53.80,386.47,240.25,8.97;3,53.80,397.43,113.14,8.97">Vice versa, Xperts who have a domain degree are often well aware of the terminology gap discussed in Section 2.5, which facilitates the communication with new science collaborators <ref type="bibr" coords="3,150.25,397.43,13.35,8.97" target="#b9">[10]</ref>.</s><s xml:id="_6chZvmQ" coords="3,169.18,397.43,126.38,8.97;3,53.80,408.39,240.25,8.97;3,53.80,419.34,130.92,8.97">Training for Xperts should accommodate these differences, allowing the trainees to focus on best practices they are not familiar with.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_qWFTjdC">Understanding the Academic Environment</head><p xml:id="_aVmZQpz"><s xml:id="_SqKqqCs" coords="3,53.80,456.97,241.85,7.70;3,53.80,467.93,104.55,7.70">Be aware of the academic reward system and activities to increase academic standing.</s><s xml:id="_C29Hs3K" coords="3,160.59,466.83,133.69,8.97;3,53.80,477.79,240.25,8.97;3,53.80,488.75,169.67,8.97">An issue for Xperts that is essentially absent in a general software engineering context is the importance of understanding the academic environment.</s><s xml:id="_VhmnnYK" coords="3,226.32,488.75,69.23,8.97;3,53.80,499.71,241.23,8.97;3,53.47,510.67,240.58,8.97;3,53.80,521.63,194.63,8.97">This issue is especially relevant for software engineers with background in industry, where hierarchical organization, and the overriding goal of creating a reliable product as rapidly as possible, are the norm.</s><s xml:id="_HtNts57" coords="3,250.68,521.63,44.89,8.97;3,53.80,532.59,240.24,8.97;3,53.80,543.55,240.25,8.97;3,53.80,554.50,214.13,8.97">Understanding the academic reward system and the many side activities that researchers may get engaged in to maintain the academic standing of the science team <ref type="bibr" coords="3,125.07,554.50,13.41,8.97" target="#b23">[24,</ref><ref type="bibr" coords="3,140.72,554.50,11.47,8.97" target="#b24">25]</ref> will influence project decisions.</s><s xml:id="_SCutyJZ" coords="3,270.16,554.50,24.86,8.97;3,53.80,565.46,240.58,8.97;3,53.80,576.42,240.25,8.97;3,53.80,587.38,91.08,8.97">In fact, some of the best practices need to be understood from this view point, such as the issues of documentation and testing, mentioned in Sections 2.12 and 2.11.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3" xml:id="_DYsWrNW">Breadth of Xpert Skills Needed</head><p xml:id="_wC6UHKs"><s xml:id="_vTr9cWw" coords="3,53.80,625.00,240.50,7.70;3,53.80,635.96,123.80,7.70">Prepare for skills needed beyond your current expertise, by networking with other Xperts.</s><s xml:id="_TVHdbSx" coords="3,179.84,634.87,114.54,8.97;3,53.80,645.83,241.23,8.97;3,53.80,656.79,202.35,8.97">Modern CDI applications draw from a broad range of technologies, such as computing paradigms, programming languages, architectures, and algorithms.</s></p><p xml:id="_hdmZaCp"><s xml:id="_3bJfWH3" coords="3,63.76,667.75,149.47,8.97">What's more, this range keeps evolving.</s><s xml:id="_93shvdU" coords="3,215.47,667.75,80.09,8.97;3,53.80,678.71,241.62,8.97">For example, new applications may demand expertise of machine learning techniques.</s><s xml:id="_fv7upTq" coords="3,53.80,689.66,240.25,8.97;3,53.80,700.62,241.63,8.97">Individual Xperts and those in small teams, serving a large CDI research community, will be unlikely to cover the needed skills.</s></p><p xml:id="_TKn5hK8"><s xml:id="_XQ8HJDM" coords="3,317.96,86.92,240.24,8.97;3,317.96,97.88,177.45,8.97">Besides, they may need to perform tasks across the entire software life cycle and be involved in project management.</s><s xml:id="_A45srwX" coords="3,497.51,97.88,60.69,8.97;3,317.96,108.84,218.17,8.97">It is important to be able to recognize such situations and seek external advice.</s><s xml:id="_CCCC4de" coords="3,538.21,108.84,21.50,8.97;3,317.96,119.80,240.25,8.97;3,317.62,130.76,122.74,8.97">Maintaining contacts with other Xpert teams, who may be consulted when needed, is highly advisable.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4" xml:id="_DdRc6zc">Collaborative Assistance Between Xperts and Domain scientists</head><p xml:id="_vcYpXvf"><s xml:id="_p9AWytA" coords="3,317.96,183.00,241.85,7.70;3,317.96,193.95,121.15,7.70">Help propel new projects though short-term, close collaboration with domain scientists.</s><s xml:id="_jAySszm" coords="3,441.34,192.86,118.38,8.97;3,317.96,203.82,241.14,8.97;3,317.96,215.59,58.41,8.02">A recommended form of interaction between Xperts and CDI domain scientists is through collaborative assistance.</s><s xml:id="_HndR3k3" coords="3,378.25,214.78,180.18,8.97;3,317.96,225.74,240.25,8.97;3,317.62,236.70,105.09,8.97">For a period of one to several months, Xperts work side-by-side (physically or virtually) with the domain scientists whose project they support.</s><s xml:id="_EuzEPBW" coords="3,425.22,236.70,132.98,8.97;3,317.96,247.65,241.76,8.97;3,317.96,258.61,240.25,8.97;3,317.96,269.57,35.75,8.97">During the collaboration, the Xpert takes care of computer-engineering issues that arise, while the domain researcher resolves the problems requiring application science expertise.</s><s xml:id="_WxM98g3" coords="3,356.07,269.57,202.13,8.97;3,317.96,280.53,241.76,8.97;3,317.96,291.49,240.25,8.97;3,317.96,302.45,240.24,8.97;3,317.96,313.41,50.03,8.97">This form of joint work allows issues that fall into the competency of the collaborator to be addressed immediately, significantly reducing, or even avoiding, the need for domain researchers and Xperts to get trained on each others' knowledge and skills at project begin.</s><s xml:id="_SRfgPnf" coords="3,370.23,313.41,187.97,8.97;3,317.96,324.37,241.76,8.97;3,317.96,335.33,35.59,8.97">Over the course of the joint work, the collaborators tend to pick up sufficient knowledge of each others' skills and terminology.</s><s xml:id="_JjVWV9D" coords="3,355.72,335.33,202.48,8.97;3,317.96,346.29,240.25,8.97;3,317.96,357.24,125.42,8.97">In particular, the domain scientist becomes familiar with the software development processes and tools, allowing them to continue the work independently.</s><s xml:id="_CfpFrpE" coords="3,445.61,357.24,112.58,8.97;3,317.96,368.20,240.25,8.97;3,317.96,379.16,240.25,8.97;3,317.96,390.12,54.10,8.97">Vice versa, the Xpert will have acquired sufficient knowledge of the domain problem, allowing them to effectively provide help remotely, even after moving on to other projects.</s><s xml:id="_V8SzcuP" coords="3,374.53,390.12,183.67,8.97;3,317.96,401.08,226.65,8.97">This model has been pioneered by XSEDE's ECSS group and was applied successfully by other Xpert teams <ref type="bibr" coords="3,527.91,401.08,13.36,8.97" target="#b9">[10]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5" xml:id="_JFE5ejN">Overcoming the Terminology Gap Between Computer and Domain Sciences</head><p xml:id="_sujYYjw"><s xml:id="_VWbWRBg" coords="3,317.96,453.32,202.11,7.70">Carefully identify and resolve terminology gaps.</s><s xml:id="_RM2YsJZ" coords="3,523.30,453.32,36.50,7.70;3,317.96,464.27,102.57,7.70">Keep vocabulary to the essentials.</s><s xml:id="_E8FB3up" coords="3,422.02,464.27,122.02,7.70">Explain using many examples.</s><s xml:id="_R2u3n2z" coords="3,545.55,463.18,13.90,8.97;3,317.96,474.14,241.76,8.97;3,317.96,485.10,186.60,8.97">The gap between computer-science and domain-science lingo is an often mentioned issue in Xpert Network discussions.</s><s xml:id="_m9U2FJV" coords="3,506.79,485.10,51.42,8.97;3,317.96,496.06,240.25,8.97;3,317.96,507.02,68.75,8.97">The challenge can be big if the same term is used by both collaborators, but with different meanings.</s><s xml:id="_wBXWtEG" coords="3,388.38,507.02,169.82,8.97;3,317.96,517.97,198.99,8.97">Participants reported significant confusions and even incorrect project executions due to this challenge.</s><s xml:id="_3RArU8u" coords="3,519.19,517.97,39.01,8.97;3,317.96,528.93,241.21,8.97;3,317.73,539.89,86.17,8.97">Awareness of the issue and patience in trying to understand the collaborators' viewpoints are critical.</s><s xml:id="_axvzEzQ" coords="3,406.76,539.89,151.62,8.97;3,317.96,550.85,240.25,8.97;3,317.96,561.81,241.76,8.97;3,317.96,572.77,240.25,8.97;3,317.96,583.73,96.03,8.97">It was pointed out that the gap is wider than in a general software engineering context, when trying to understand a customer, as science terminology tends to use rich vocabularies that may complicate understanding the problem domain and project requirements.</s><s xml:id="_ZsbdTDY" coords="3,416.27,583.73,143.44,8.97;3,317.96,594.69,240.24,8.97;3,317.96,605.65,51.12,8.97">Keeping the vocabularies to the essentials and investing time to explain new terms is key to successful collaboration.</s><s xml:id="_zQVrx5N" coords="3,371.32,605.65,186.88,8.97;3,317.96,616.60,129.73,8.97">Using many examples and frequent feedback from both sides will help bridge this gap.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6" xml:id="_xPzFvgy">Understanding the Domain Problem and Developing a Project Plan</head><p xml:id="_qPUwqSH"><s xml:id="_XzQJ5jN" coords="3,317.96,668.84,241.85,7.70;3,317.96,679.80,241.85,7.70;3,317.96,690.76,156.80,7.70">Devote substantial time to understanding the domain problem, turning possibly vague ideas into a feasible solution approach, and developing a project plan.</s><s xml:id="_W7RW7CV" coords="3,477.46,689.66,80.98,8.97;3,317.96,700.62,240.25,8.97;4,53.80,86.92,241.76,8.97;4,53.80,97.88,144.43,8.97">Many Xpert Network participants highlighted the importance of the first contact with the supported domain scientists and the approach taken to understand problems and develop solutions.</s><s xml:id="_yFCSHKM" coords="4,200.98,97.88,93.07,8.97;4,53.80,108.84,241.76,8.97;4,53.80,119.80,240.25,8.97;4,53.80,130.76,112.04,8.97">In addition to awareness of the terminology gap, the relevance of investing time in understanding the goals and the functional as well as non-functional requirements was emphasized.</s><s xml:id="_QhYJn5T" coords="4,168.09,130.76,125.96,8.97;4,53.80,141.72,26.73,8.97">Showing patience in the process is critical.</s><s xml:id="_r9EUUpD" coords="4,82.78,141.72,211.26,8.97;4,53.80,152.68,166.88,8.97">The domain researcher needs to be helped to transform an initially often vague idea into a concrete plan.</s><s xml:id="_MQ2wCUa" coords="4,222.93,152.68,71.11,8.97;4,53.80,163.64,240.25,8.97;4,53.80,174.60,70.93,8.97">Developing specific requirements for the computational application and the underlying system is essential.</s><s xml:id="_jt8wJxn" coords="4,127.04,174.60,84.04,8.97">Devote sufficient time.</s><s xml:id="_Uemt6Jz" coords="4,213.38,174.60,80.67,8.97;4,53.50,185.55,242.06,8.97;4,53.80,196.51,240.25,8.97;4,53.80,207.47,223.29,8.97">One challenge for the Xpert is to introduce the researcher to the possibilities of the to-becreated or improved software implementation and the underlying system while introducing only a small number of new terms.</s><s xml:id="_6NnWZAA" coords="4,279.32,207.47,16.23,8.97;4,53.80,218.43,240.25,8.97;4,53.80,229.39,98.11,8.97">Recommendations include the use of many concrete examples and an inverted pyramid approach.</s><s xml:id="_PfZ6yPH" coords="4,154.15,229.39,139.90,8.97;4,53.80,240.35,240.48,8.97;4,53.80,251.31,80.87,8.97">The latter describes a possible solution in initially very few, high-level terms, which are then successively refined in discussions.</s></p><p xml:id="_C8euyc5"><s xml:id="_kKcNJ2Z" coords="4,63.76,262.27,230.29,8.97;4,53.80,273.23,180.74,8.97">The situation is again related to that of software engineers with their customers, two important differences being:</s></p><p xml:id="_U4SUkgW"><s xml:id="_nYwBzDf" coords="4,64.71,291.31,229.34,8.97;4,64.71,302.26,229.33,8.97;4,78.21,313.22,217.35,8.97;4,78.21,324.18,215.84,8.97;4,78.21,335.14,217.36,8.97;4,78.21,346.10,215.84,8.97;4,78.21,357.06,32.66,8.97">(1) the potentially large terminology gap, mentioned above, and (2) the collaborative assistance situation, which often enables the inverted pyramid approach: As Xpert and domain researcher work side by side, refinements of high-level ideas can more easily happen over time, permitting the collaborators to invest their initial effort in defining the tip of the pyramid.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7" xml:id="_Y6NhXer">Prioritize Functional Requirements</head><p xml:id="_YXGunzc"><s xml:id="_EeDv5F7" coords="4,53.80,398.43,240.25,7.70;4,53.80,409.39,109.38,7.70">Carefully vet all requirements by the application's end users and prioritize aggressively.</s><s xml:id="_rtcDkJB" coords="4,165.65,408.29,128.40,8.97;4,53.80,419.25,241.76,8.97;4,53.80,430.21,57.73,8.97">The dilemma of a large number of desirable features but only a short project duration can be big in scientific software.</s><s xml:id="_mSUJGnM" coords="4,113.76,430.21,180.28,8.97;4,53.80,441.17,191.42,8.97">Xperts need to learn to tell the difference between essential and desirable requirements users may have.</s><s xml:id="_kHF9B3n" coords="4,247.47,441.17,48.09,8.97;4,53.80,452.13,122.51,8.97">Essential features should be strictly prioritized.</s><s xml:id="_pVVxpzs" coords="4,178.16,452.13,115.88,8.97;4,53.80,463.09,240.25,8.97;4,53.80,474.05,97.91,8.97">Scientific software is also special in that its requirements can change rapidly as new insights into a research project emerge.</s><s xml:id="_UuAwb3E" coords="4,153.98,474.05,140.07,8.97;4,53.80,485.01,179.86,8.97">Therefore, frequent reassessment and reprioritizing of the requirements are needed <ref type="bibr" coords="4,221.13,485.01,9.39,8.97" target="#b3">[4]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8" xml:id="_YgwGpEf">Issue Tracking</head><p xml:id="_2FF87zQ"><s xml:id="_9xzxUZg" coords="4,53.50,526.37,242.15,7.70;4,53.80,537.33,93.19,7.70">Track origin as well as implementation status of requirements and bug reports.</s><s xml:id="_sQPdSUz" coords="4,149.23,536.24,146.33,8.97;4,53.80,547.20,157.04,8.97">Issue tracking is important in most midsize and large-size software development.</s><s xml:id="_qegfrUU" coords="4,213.60,547.20,80.45,8.97;4,53.80,558.16,161.80,8.97">Two points make it a particular concern in scientific applications.</s><s xml:id="_Avw6hU8" coords="4,217.83,558.16,76.22,8.97;4,53.80,569.12,240.25,8.97;4,53.80,580.08,241.63,8.97">The first is the belief that research projects -often of a three-year duration -will remain small and easy to oversee, obviating the need for issue tracking.</s></p><p xml:id="_KzAqYKr"><s xml:id="_3Yvm6jA" coords="4,53.53,591.03,242.03,8.97;4,53.80,601.99,240.25,8.97;4,53.80,612.95,31.73,8.97">The second is that developers (typically graduate students and postdoctoral researchers) tend to change often, losing important project memory.</s><s xml:id="_9C9sJD7" coords="4,87.79,612.95,206.25,8.97;4,53.47,623.91,240.58,8.97;4,53.80,634.87,39.83,8.97">The reality is that, even within three years, remembering what feature was requested by whom and with what rationale, can be difficult.</s><s xml:id="_DK3ECwT" coords="4,95.55,634.87,198.49,8.97;4,53.80,645.83,40.40,8.97">After a "change of guard", the same will become close to impossible.</s><s xml:id="_Jub5Cwu" coords="4,96.45,645.83,197.59,8.97;4,53.80,656.79,80.79,8.97">What's more, successful science applications may turn out to have a long life.</s><s xml:id="_55evq5w" coords="4,136.82,656.79,158.21,8.97;4,53.80,667.75,240.25,8.97;4,53.80,678.71,133.06,8.97">Hence, being able to trace a feature request, its implementation status, and the reasons for accepting/rejecting the request to its origin can be key.</s><s xml:id="_8aMBYJW" coords="4,189.45,678.71,104.76,8.97;4,53.80,689.66,240.25,8.97;4,53.80,700.62,241.51,8.97">Furthermore, having a clear record of who made what request can be critical for re-assessing and re-prioritizing functional requirements, mentioned previously.</s></p><p xml:id="_v7sRkX7"><s xml:id="_wJtPdWr" coords="4,327.92,86.92,230.28,8.97;4,317.96,97.88,241.76,8.97;4,317.96,108.84,46.00,8.97">Issue tracking tools, which maintain a list of tasks and sub-tasks to be performed, prevent duplicated efforts, and enable collaborative work.</s><s xml:id="_VFHpzfm" coords="4,366.99,108.84,192.21,8.97;4,317.96,119.80,240.24,8.97;4,317.96,130.76,63.30,8.97">The tools support requirement traceability, that is, the association of an application update with the requirement that motivated it <ref type="bibr" coords="4,364.56,130.76,13.36,8.97" target="#b37">[38]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.9" xml:id="_H3VkQcA">Source Code Management and Version Control</head><p xml:id="_xKa7vs5"><s xml:id="_QCkYEBQ" coords="4,317.96,181.73,240.24,7.70;4,317.96,192.69,171.63,7.70">Make use of source code management and version control systems to track your software's evolution.</s><s xml:id="_rFBHzF3" coords="4,491.40,191.59,68.32,8.97;4,317.62,202.55,240.58,8.97;4,317.96,213.51,91.05,8.97">An Xpert with software engineering background is well aware of the importance of software version control.</s><s xml:id="_n8bDWQD" coords="4,411.25,213.51,146.95,8.97;4,317.96,224.47,240.25,8.97;4,317.66,235.43,101.60,8.97">At the same time, this importance needs to be advertised to domain experts, as pointed out strongly by the Xpert network participants.</s><s xml:id="_3QNv5Wx" coords="4,327.92,246.39,230.29,8.97;4,317.96,257.35,171.56,8.97">Many successful science software applications had their origin in a"toy program" written by a graduate student.</s><s xml:id="_SaSfD92" coords="4,491.54,257.35,68.18,8.97;4,317.96,268.31,241.23,8.97;4,317.96,279.26,191.24,8.97">It got gradually expanded by several authors, caught the attention of a wide audience, and ended up becoming an important research tool.</s><s xml:id="_9bdbyEg" coords="4,511.44,279.26,48.27,8.97;4,317.96,290.22,241.23,8.97;4,317.96,301.18,240.25,8.97;4,317.96,312.14,190.04,8.97">Without version tracking, the history (origin, authors, relationship of features, and specific extensions) may no longer be known, making it difficult to extend further and obtain needed documentation.</s><s xml:id="_PNGPKjG" coords="4,510.24,312.14,49.48,8.97;4,317.96,323.10,240.25,8.97;4,317.96,334.06,240.25,8.97;4,317.96,345.02,240.25,8.97;4,317.96,355.98,53.47,8.97">Learning version control methods and tools will not only help overcome these difficulties; it will also increase the productivity of the software developer as soon as the application exceeds the boundaries of a small program.</s><s xml:id="_bRbYXn5" coords="4,373.13,355.98,185.30,8.97;4,317.96,366.94,240.24,8.97;4,317.96,377.89,240.25,8.97;4,317.96,388.85,110.72,8.97">What's more, source code management tools greatly facilitate collaborative software development <ref type="bibr" coords="4,485.48,366.94,9.42,8.97" target="#b2">[3]</ref>, enable software roll-back to a previous, well-defined state, and help developers start a new branch of the software.</s><s xml:id="_bV2rC6G" coords="4,430.92,388.85,128.27,8.97;4,317.96,399.81,241.63,8.97">The latter can be important if, say, two graduate students want to add their own, separate feature sets.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.10" xml:id="_R226W3R">Code Review</head><p xml:id="_Nq3kqcF"><s xml:id="_4gfMBwb" coords="4,317.63,437.83,242.17,7.70;4,317.61,448.79,54.09,7.70">Xpert and domain scientist should review each other's software written.</s><s xml:id="_AQDaQe9" coords="4,373.92,447.69,185.79,8.97;4,317.96,458.65,240.25,8.97;4,317.96,469.61,76.53,8.97">Code review -a second person reading newly written software -is one of the best ways to catch errors and also to improve the code.</s><s xml:id="_pmCPZDe" coords="4,396.82,469.61,162.37,8.97;4,317.96,480.57,232.04,8.97">Despite its effectiveness, it is often ignored, unless strictly mandated, and hence warrants mentioning here.</s><s xml:id="_pUmAJ3y" coords="4,552.25,480.57,6.27,8.97;4,317.96,491.53,240.25,8.97;4,317.96,502.49,156.05,8.97">A number of additional reasons make this practice particularly useful for an Xpert-domain scientist relationship:</s></p><p xml:id="_QJGsfuP"><s xml:id="_azRv6nt" coords="4,333.92,517.34,224.28,8.97;4,342.36,528.30,197.14,8.97">• The two collaborators have different backgrounds, increasing the chance of detecting an issue that eluded the other.</s><s xml:id="_B2aSD4E" coords="4,333.92,539.26,224.28,8.97;4,342.36,550.22,84.96,8.97">• The review is effective in verifying that requirement and implementation match.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_tNnnjrh">• It is a good way of transferring the knowledge of what the</head><p xml:id="_5NqDw7X"><s xml:id="_9Xeu4DU" coords="4,342.07,572.14,216.13,8.97;4,342.03,583.09,143.83,8.97">Xpert did to the domain scientist, who will continue the work after the collaboration completes.</s><s xml:id="_mdhcJN5" coords="4,333.92,594.05,225.80,8.97;4,342.36,605.01,198.85,8.97">• The discussions happening during code review provide excellent material for documenting the code and project.</s></p><p xml:id="_smVSsZa"><s xml:id="_h7K5MKz" coords="4,317.96,619.86,241.63,8.97">Code review helps improve the science as well as the code itself.</s></p><p xml:id="_6QEv4eh"><s xml:id="_gpFPsmd" coords="4,317.96,630.82,241.76,8.97;4,317.96,641.78,63.68,8.97">Research software can benefit from code reviews, as much as industrial software.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.11" xml:id="_A7AkRnu">Software Testing</head><p xml:id="_4gwZX93"><s xml:id="_CPT9jzr" coords="4,317.96,679.80,240.25,7.70;4,317.96,690.76,209.45,7.70">Define test cases that the application and its components must pass before you begin their implementation.</s><s xml:id="_byvzZEN" coords="4,530.75,689.66,27.45,8.97;4,317.96,700.62,240.25,8.97;5,53.80,86.92,35.28,8.97">Testing is another issue that is covered well in the software engineering literature.</s><s xml:id="_BTpQSRU" coords="5,91.32,86.92,204.24,8.97;5,53.80,97.88,184.71,8.97">The topic has been mentioned often in our Xpert discussions, deserving a place in this list of best practices.</s><s xml:id="_J2b4JSV" coords="5,240.72,97.88,53.33,8.97;5,53.80,108.84,240.25,8.97;5,53.80,119.80,240.25,8.97;5,53.80,130.76,210.05,8.97">Next to raising awareness of the need and the benefit of testing, a key point is that testing must not be an afterthought; one must avoid thinking of test cases only when the software is close to completion.</s><s xml:id="_rv7Gtf3" coords="5,266.10,130.76,28.92,8.97;5,53.80,141.72,175.17,8.97">Instead, testing should be considered in the design phase.</s><s xml:id="_RQWag74" coords="5,231.13,141.72,64.43,8.97;5,53.80,152.68,240.25,8.97;5,53.80,163.64,240.25,8.97;5,53.80,174.60,59.59,8.97">In the initial communication with the domain researcher, the Xpert needs to ask the question "what test cases should be passed by the application once it is completed?"</s><s xml:id="_c8WP3ky" coords="5,115.63,174.60,178.42,8.97;5,53.80,185.55,240.25,8.97;5,53.80,196.51,177.50,8.97">Coming up with a thorough set of such cases will not only facilitate the later testing phase; it will also help clarify the specific capabilities that need to be implemented.</s><s xml:id="_xYanjbZ" coords="5,233.53,196.51,62.03,8.97;5,53.80,207.47,240.24,8.97;5,53.80,218.43,102.29,8.97">The implementation of features that do not satisfy any test case can be postponed or even avoided altogether.</s><s xml:id="_fzEV7qs" coords="5,158.77,218.43,135.27,8.97;5,53.80,229.39,194.88,8.97">Designing test cases can go hand in hand with functional requirement prioritization (2.7).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.12" xml:id="_qTKYEe8">Documentation</head><p xml:id="_k8bAkZh"><s xml:id="_XGxnYgU" coords="5,53.80,268.84,241.85,7.70;5,53.80,279.80,204.59,7.70">Document your project to ensure long-term success, reproducibility, and obtain proper credit for your work.</s><s xml:id="_sspm9ya" coords="5,260.85,278.71,33.20,8.97;5,53.80,289.66,241.76,8.97;5,53.80,300.62,240.25,8.97;5,53.80,311.58,47.45,8.97">Software engineering teachings cover extensively the fact that well documented programs are essential for software maintenance and extensibility.</s><s xml:id="_7y4EpBd" coords="5,104.01,311.58,190.04,8.97;5,53.80,322.54,241.76,8.97;5,53.80,333.50,24.83,8.97">Yet, academic software is notorious for the lack of documentation, as pointed out forcefully by Xpert Network participants.</s><s xml:id="_bPDssJe" coords="5,80.92,333.50,213.13,8.97;5,53.80,344.46,240.25,8.97;5,53.80,355.42,219.54,8.97">While raising awareness of the benefits is important, one also has to understand that academic processes and reward systems often do not support spending time on documentation (2.2).</s><s xml:id="_TGH3NBD" coords="5,275.58,355.42,18.46,8.97;5,53.80,366.38,241.76,8.97;5,53.80,377.34,187.38,8.97">Most academic research funding pays for showing principles and developing prototypes, not production-ready software.</s><s xml:id="_aFmERKj" coords="5,244.17,377.34,50.87,8.97;5,53.80,388.29,240.48,8.97;5,53.80,399.25,241.63,8.97">What's more, students are under pressure to graduate, whereby the functionality of the created software is more important than its documentation.</s></p><p xml:id="_5zmurXV"><s xml:id="_3zx5QUx" coords="5,53.80,410.21,240.25,8.97;5,53.80,421.17,240.41,8.97;5,53.80,432.13,43.77,8.97">If the software becomes successful, the original author often is no longer involved and thus has little incentive to retrofit a proper description.</s><s xml:id="_uxVNMTb" coords="5,99.95,432.13,194.10,8.97;5,53.80,443.09,171.53,8.97">It is often the difficult task of the next generation of students in a team to accomplish these tasks.</s><s xml:id="_zBrAuQJ" coords="5,228.22,443.09,66.82,8.97;5,53.80,454.05,125.25,8.97">It helps, however, to understand these relationships.</s><s xml:id="_fJypCHU" coords="5,181.30,454.05,112.74,8.97;5,53.80,465.01,240.25,8.97;5,53.80,475.97,221.91,8.97">If one can identify the original creator, they may be willing to help, especially when offering them proper credit or co-authorship on a forthcoming publication.</s><s xml:id="_vqr62z3" coords="5,277.96,475.97,16.09,8.97;5,53.57,486.92,240.47,8.97;5,53.80,497.88,107.14,8.97">Vice versa, properly documenting the original authorship will insure that such credit can be given.</s><s xml:id="_HsJDE7n" coords="5,63.76,508.84,230.28,8.97;5,53.80,519.80,99.16,8.97">Reproducibility (2.14) of scientific research is a concern that is currently gaining attention.</s><s xml:id="_RTVMsdA" coords="5,155.11,519.80,138.93,8.97;5,53.80,530.76,94.19,8.97">Proper software documentation can be key to reproducibility <ref type="bibr" coords="5,135.46,530.76,9.39,8.97" target="#b2">[3]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.13" xml:id="_WmW5gXw">Continuous Integration</head><p xml:id="_bevy7jj"><s xml:id="_hG6DWeb" coords="5,53.80,570.21,241.85,7.70;5,53.80,581.17,241.78,7.70">Integrate new software updates frequently into the application version seen by the end users in their end environments.</s><s xml:id="_j85VMCp" coords="5,53.80,591.03,240.25,8.97;5,53.80,601.99,25.05,8.97">Continuous Integration (CI) is generally good software engineering advice.</s><s xml:id="_Jx5ZadW" coords="5,81.10,601.99,175.53,8.97">It catches miscommunicated requirements early.</s><s xml:id="_3jaqpGk" coords="5,258.88,601.99,36.68,8.97;5,53.80,612.95,240.25,8.97;5,53.80,623.91,92.92,8.97">CI also allows users to experience new features and provide feedback to the developer early and often.</s><s xml:id="_u8hfTzz" coords="5,148.72,623.91,146.84,8.97;5,53.80,634.87,240.25,8.97;5,53.80,645.83,154.77,8.97">The process may be combined with automated builds and testing, ensuring that new functionality satisfies and continues to satisfy defined test cases.</s></p><p xml:id="_arRtQxb"><s xml:id="_ZXQ8hJP" coords="5,63.76,656.79,231.27,8.97;5,53.80,667.75,240.25,8.97;5,53.80,678.71,91.36,8.97">CI was mentioned as particularly relevant for the work of Xperts, as scientific software tends to be a moving target with frequent changes of requirements.</s><s xml:id="_nBjJ43u" coords="5,147.41,678.71,146.63,8.97;5,53.80,689.66,240.25,8.97;5,53.80,700.62,143.33,8.97">Ensuring that new features are what the end user had in mind, conform to defined test cases, and do not break previous requirements is critical.</s><s xml:id="_chtmBpE" coords="5,199.37,700.62,94.68,8.97;5,317.96,86.92,240.25,8.97;5,317.96,97.88,218.67,8.97">Many teams find that this approach leads to significantly reduced integration problems and enables the development of cohesive software more rapidly.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.14" xml:id="_AwaMDEA">Reproducibility</head><p xml:id="_WfS7Jvz"><s xml:id="_PABUR9X" coords="5,317.96,133.93,240.25,7.70;5,317.96,144.89,240.24,7.70;5,317.96,155.85,79.60,7.70">Enable reproducibility and transparency by capturing data and software underlying scientific processes, using available software platforms.</s><s xml:id="_TJsDRUQ" coords="5,399.74,154.75,158.47,8.97;5,317.96,165.71,241.24,8.97;5,317.96,176.67,226.74,8.97">While the reproducibility of research results is a key requirement in any domain of science, there is recent, increased focus on this issue in computation-based research.</s><s xml:id="_xDh2UGS" coords="5,547.17,176.67,12.55,8.97;5,317.96,187.63,240.25,8.97;5,317.96,198.59,240.24,8.97;5,317.96,209.55,241.76,8.97;5,317.96,220.51,27.03,8.97">Reproducibility was highlighted as a significant concern in our Xpert Network discussions as well, pointing out that adding supporting software and data to a publication can increase the value significantly.</s><s xml:id="_ZPRKRuK" coords="5,348.02,220.51,210.19,8.97;5,317.96,231.47,240.25,8.97;5,317.96,242.42,45.32,8.97">This is of particular importance in large computational studies, where data analysis may play a central role in reaching the conclusions.</s><s xml:id="_5EDq85M" coords="5,365.51,242.42,192.68,8.97;5,317.96,253.38,240.25,8.97;5,317.96,264.34,222.50,8.97">Transparency regarding the input data, the software underlying the research methods, and the analysis conditions will contribute to achieving consistent results in science projects.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.15" xml:id="_gtdsPE6">Parallelization</head><p xml:id="_JeUtg8u"><s xml:id="_MSppqtv" coords="5,317.96,300.39,224.43,7.70">Optimize the code only after it works correctly in serial.</s><s xml:id="_T9yMTSp" coords="5,544.30,299.29,13.90,8.97;5,317.96,310.25,240.25,8.97;5,317.96,321.21,136.07,8.97">The question if parallel code should be written directly, versus creating serial code first, is an open one <ref type="bibr" coords="5,437.16,321.21,13.49,8.97" target="#b19">[20]</ref>.</s><s xml:id="_8HEQKDw" coords="5,456.52,321.21,103.19,8.97;5,317.96,332.17,240.25,8.97;5,317.96,343.13,197.02,8.97">The Xpert Network participants were clear, however, in recommending the latter for creating Computational and Data-Intensive (CDI) applications.</s><s xml:id="_m3GC67M" coords="5,517.21,343.13,40.99,8.97;5,317.96,354.09,240.25,8.97;5,317.96,365.05,240.25,8.97;5,317.96,376.01,107.19,8.97">Among the arguments were that the benefits of lesser complexity of getting the serial code correct first, combined with better tool support for serial code, outweigh the negatives.</s><s xml:id="_m2xp8n4" coords="5,427.40,376.01,130.80,8.97;5,317.96,386.97,194.09,8.97">The primary negative is that certain serial algorithms are intrinsically hard to parallelize.</s><s xml:id="_t9CCBqv" coords="5,514.28,386.97,45.44,8.97;5,317.96,397.92,240.24,8.97;5,317.96,408.88,241.63,8.97">When keeping this issue in mind and selecting algorithms that are known to parallelize and scale well, this negative can be overcome, however.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_QebJT7z">RELATED EFFORTS AND SYNERGY 3.1 Related Work on Best Practices</head><p xml:id="_MPskyGq"><s xml:id="_8S3euaa" coords="5,317.64,459.53,240.56,8.97;5,317.96,470.49,52.27,8.97">A number of papers have recommended practices for scientific programming.</s></p><p xml:id="_RP2gr8M"><s xml:id="_vRZVFGG" coords="5,327.92,481.44,230.29,8.97;5,317.96,492.40,240.48,8.97;5,317.96,503.36,240.24,8.97;5,317.96,514.32,241.76,8.97;5,317.96,525.28,152.18,8.97">Wilson et al. <ref type="bibr" coords="5,374.55,481.44,13.51,8.97" target="#b38">[39,</ref><ref type="bibr" coords="5,390.29,481.44,11.53,8.97" target="#b39">40]</ref> have provided a set of "best practices" and also "good enough practices" for scientific computing community from the experiences of the thousands of people who have taken part in Software Carpentry <ref type="bibr" coords="5,423.52,514.32,14.85,8.97" target="#b11">[12]</ref> and Data Carpentry <ref type="bibr" coords="5,519.51,514.32,14.85,8.97" target="#b10">[11]</ref> workshops, and from a variety of other guides.</s></p><p xml:id="_mWrS8EZ"><s xml:id="_k8uFT7k" coords="5,327.92,536.24,230.28,8.97;5,317.96,547.20,71.90,8.97">Dubois <ref type="bibr" coords="5,354.26,536.24,10.43,8.97" target="#b7">[8]</ref> has described some of his experiences to help writing scientific programs.</s></p><p xml:id="_W9Y3G4x"><s xml:id="_TvDwJrs" coords="5,327.92,558.16,231.80,8.97;5,317.96,569.12,240.25,8.97;5,317.96,580.08,230.40,8.97">Heroux et al. <ref type="bibr" coords="5,373.69,558.16,14.60,8.97" target="#b13">[14]</ref> discuss practices used in the Trilinos <ref type="bibr" coords="5,522.46,558.16,14.59,8.97" target="#b12">[13]</ref> opensource software library project, some of which are close to practices advocated by the Agile software development community <ref type="bibr" coords="5,531.66,580.08,13.36,8.97" target="#b20">[21]</ref>.</s></p><p xml:id="_HHxSk4Q"><s xml:id="_ccDZzSF" coords="5,327.92,591.03,231.80,8.97;5,317.96,601.99,240.25,8.97;5,317.96,612.95,191.91,8.97">Naguib et al. <ref type="bibr" coords="5,377.12,591.03,14.85,8.97" target="#b21">[22]</ref> present an overview of two projects and describes the software engineering methods they applied on these computational science and engineering applications.</s></p><p xml:id="_2s7q7Ed"><s xml:id="_GzQcRFy" coords="5,327.92,623.91,230.29,8.97;5,317.96,634.87,240.25,8.97;5,317.96,645.83,241.76,8.97;5,317.96,656.79,132.76,8.97">Wilson <ref type="bibr" coords="5,354.93,623.91,14.71,8.97" target="#b36">[37]</ref> talks about the "common core" of modern software development that is taught through software carpentry courses <ref type="bibr" coords="5,543.61,634.87,14.60,8.97" target="#b11">[12]</ref> to help computational scientists meet the standards that experimental scientists have taken for granted.</s></p><p xml:id="_J9bekes"><s xml:id="_Tx3H7w8" coords="5,327.92,667.75,231.80,8.97;5,317.96,678.71,200.57,8.97">Riley <ref type="bibr" coords="5,348.12,667.75,14.76,8.97" target="#b18">[19]</ref> advocates bringing knowledge of useful software engineering practices to HPC scientific code developers.</s><s xml:id="_Kfd3wye" coords="5,520.83,678.71,37.37,8.97;5,317.96,689.66,240.25,8.97;5,317.96,700.62,79.39,8.97">While not prescribing specific practices, she emphasizes adopting practices that help productivity.</s></p><p xml:id="_9C7AuZy"><s xml:id="_nwRbUwX" coords="6,63.76,86.92,230.28,8.97;6,53.80,97.88,240.25,8.97;6,53.80,108.84,240.25,8.97;6,53.80,119.80,125.46,8.97">The Better Scientific Software (BSSw) <ref type="bibr" coords="6,199.09,86.92,10.68,8.97" target="#b4">[5]</ref> community is focused on software development, and sustainability that leads to improved software for computational science and engineering (CSE) and related technical computing areas.</s></p><p xml:id="_BgsQ53v"><s xml:id="_44VVrac" coords="6,63.76,131.57,230.29,8.02;6,53.80,141.72,240.25,8.97;6,53.80,152.68,139.21,8.97">The Working Towards Sustainable Software Science: Practice and Experiences (WSSSPE) <ref type="bibr" coords="6,135.30,141.72,14.79,8.97" target="#b40">[41]</ref> community meet frequently to discuss the challenges of software for science.</s></p><p xml:id="_9Dm9YB3"><s xml:id="_hKAzp7z" coords="6,63.76,163.64,239.71,8.97;6,53.80,174.60,241.23,8.97;6,53.80,185.55,240.25,8.97;6,53.80,196.51,240.24,8.97;6,53.80,207.47,157.82,8.97">The Software Engineering for Computational Science (SE4Science) <ref type="bibr" coords="6,288.87,163.64,14.60,8.97" target="#b32">[33]</ref> community is working to understand the differences, necessities, impacts, and barriers of applying general software engineering practices to research software So that scientific communities can adopt good software engineering practices.</s></p><p xml:id="_3c3SavB"><s xml:id="_HzfUvsa" coords="6,63.76,218.43,231.80,8.97;6,53.80,229.39,240.24,8.97;6,53.80,240.35,130.85,8.97">The UK Software Sustainability Institute <ref type="bibr" coords="6,211.37,218.43,14.83,8.97" target="#b16">[17]</ref> has worked on facilitating the advancement of software in research by cultivating more sustainable research software.</s></p><p xml:id="_BQWTVeX"><s xml:id="_RNKxPTy" coords="6,63.76,251.31,230.52,8.97;6,53.80,262.27,235.75,8.97">IDEAS <ref type="bibr" coords="6,88.54,251.31,14.59,8.97" target="#b14">[15]</ref> community addresses issues of software productivity and sustainability in the Exascale Computing Project (ECP) <ref type="bibr" coords="6,272.86,262.27,13.36,8.97" target="#b28">[29]</ref>.</s></p><p xml:id="_JpBSu3u"><s xml:id="_rfM6Uv9" coords="6,63.76,273.23,231.80,8.97;6,53.80,284.18,240.25,8.97;6,53.80,295.14,240.25,8.97;6,53.80,306.10,25.19,8.97">The UCAR <ref type="bibr" coords="6,101.64,274.03,13.83,8.02" target="#b34">[35]</ref> Software Engineering Assembly (SEA) <ref type="bibr" coords="6,248.86,274.03,13.84,8.02" target="#b33">[34]</ref> is a community for software engineering professionals within UCAR, that addresses the issue of effective software engineering throughout UCAR.</s></p><p xml:id="_ZAfhxHF"><s xml:id="_dg8gKXu" coords="6,63.76,317.06,231.80,8.97;6,53.47,328.02,241.56,8.97;6,53.80,338.98,240.25,8.97;6,53.50,349.94,46.70,8.97">While the contributions above provide important, general software engineering advice for science and engineering applications, in this paper, we focused on practices specific to computational Xperts (a.k.a.</s><s xml:id="_rdTHRgA" coords="6,102.25,349.94,192.33,8.97;6,53.80,360.90,117.38,8.97">Research Facilitators or Research Software Engineers) that support domain scientists.</s><s xml:id="_PFQ6DBy" coords="6,174.22,360.90,119.83,8.97;6,53.80,371.86,241.76,8.97;6,53.80,382.81,173.55,8.97">We discussed the best practices related to project collaborations between Xperts and domain scientists, which is at the core of such projects.</s><s xml:id="_zYRdRQe" coords="6,230.69,382.81,63.35,8.97;6,53.80,393.77,241.76,8.97;6,53.80,404.73,118.84,8.97">Furthermore, we discussed best practices for software development that are of particular relevance to CDI research.</s><s xml:id="_3zcnkrD" coords="6,174.57,404.73,119.48,8.97;6,53.80,415.69,240.25,8.97;6,53.80,426.65,240.25,8.97;6,53.80,437.61,39.35,8.97">Also discussed are those software development practices that should be applied differently to CDI research than what is advised by general software development guidelines.</s></p><p xml:id="_ZDvXXJE"><s xml:id="_k2gtn4c" coords="6,63.76,448.57,230.28,8.97;6,53.80,459.53,241.76,8.97;6,53.57,470.49,140.21,8.97">We reported best practices discussed by participants of the Xpert Network activities, which represent both large projects and individuals involved in such support roles.</s><s xml:id="_cWzWDVZ" coords="6,196.03,470.49,98.01,8.97;6,53.47,481.44,242.10,8.97;6,53.80,492.40,240.25,8.97;6,53.80,503.36,85.58,8.97">In addition, our experience working on several interdisciplinary projects with domain scientists has also contributed to the emergence of the best practices presented in this paper.</s></p><p xml:id="_fb3Ht2R"><s xml:id="_7jjXgZb" coords="6,63.76,514.32,230.28,8.97;6,53.80,525.28,241.23,8.97;6,53.80,536.24,241.76,8.97;6,53.80,547.20,240.25,8.97;6,53.53,558.16,240.51,8.97;6,53.80,569.12,12.33,8.97">It is worth mentioning that even for those practices that are in common between CDI research and general software engineering, the priority and importance of the practices differ considering different scopes defined for the projects based on different environments (Academic Environment, or Industry) these projects are designed for.</s><s xml:id="_aebb7XJ" coords="6,68.58,569.12,225.47,8.97;6,53.80,580.08,240.25,8.97;6,53.80,591.03,142.33,8.97">While in academic environment a working prototype would be enough to prove a point, in industry we are trying to make a reliable production quality application.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_AHgdJxt">Related Efforts in Networking Xpert Groups</head><p xml:id="_99jrtVS"><s xml:id="_HGRTvBv" coords="6,53.53,645.83,240.52,8.97;6,53.80,656.79,241.76,8.97;6,53.80,667.75,234.56,8.97">The Xpert Network is related to and collaborates with a number of activities that involve or facilitate idea exchanges among professionals supporting computational and data-intensive (CDI) research.</s><s xml:id="_ZWN5CSD" coords="6,63.76,678.71,230.28,8.97;6,53.80,689.66,241.76,8.97;6,53.57,700.62,214.55,8.97">The Research Software Engineer Association (US-RSE) <ref type="bibr" coords="6,259.65,678.71,14.81,8.97" target="#b30">[31]</ref> is an initiative to create synergy among research software engineer individuals and groups at US universities and other institutions.</s><s xml:id="_bs7tafK" coords="6,270.29,700.62,23.75,8.97;6,317.96,86.92,240.24,8.97;6,317.96,97.88,193.19,8.97">This is a recent initiative with aims that are similar to those of the Xpert Network, and the two efforts seek to combine forces.</s></p><p xml:id="_vPFuCuV"><s xml:id="_gNeEDQG" coords="6,327.92,108.84,230.28,8.97;6,317.96,119.80,241.76,8.97;6,317.96,130.76,240.25,8.97;6,317.96,141.72,241.63,8.97">The Campus Research Computing Consortium (CaRCC) effort [28] also aims to engage a similar community as US-RSE, with the professionalization (professional development and advocacy) of those involved in campus research computing being a particular focus.</s><s xml:id="_JaaJ5mF" coords="6,317.96,152.68,240.25,8.97;6,317.96,163.64,101.87,8.97">CaRCC uses the term Research Facilitator, which is closely related to the terms Xpert and RSE.</s></p><p xml:id="_5ceBbTu"><s xml:id="_zcp98Kw" coords="6,327.92,174.60,230.86,8.97;6,317.96,185.55,100.88,8.97">The Virtual Residency <ref type="bibr" coords="6,408.75,174.60,14.71,8.97" target="#b26">[27]</ref> program focuses on training Xperts/ RSEs/ Research Facilitators.</s></p><p xml:id="_fuQZayS"><s xml:id="_4QC96Sd" coords="6,327.92,196.51,230.28,8.97;6,317.41,207.47,242.31,8.97;6,317.96,218.43,59.57,8.97">The The Extreme Science and Engineering Discovery Environment (XSEDE) <ref type="bibr" coords="6,349.57,207.47,14.60,8.97" target="#b42">[43]</ref> project includes two thrusts that support CDI application researchers.</s><s xml:id="_KJwnkab" coords="6,379.79,218.43,178.98,8.97;6,317.96,229.39,240.25,8.97;6,317.62,240.35,240.75,8.97;6,317.96,251.31,45.51,8.97">The Extended Collaborative Support Service (ECSS) group <ref type="bibr" coords="6,341.41,229.39,10.68,8.97" target="#b8">[9]</ref> has a large number of computational and data experts who work collaboratively with domain scientists in improving their applications.</s><s xml:id="_qCP9H2V" coords="6,365.70,251.31,194.02,8.97;6,317.96,262.27,240.24,8.97;6,317.96,273.23,194.53,8.97">The Campus Champions <ref type="bibr" coords="6,454.64,251.31,14.62,8.97" target="#b41">[42]</ref> program engages participants at many university campuses to raise awareness of XSEDE services and help local users accelerate CDI research.</s></p><p xml:id="_u6NC8dj"><s xml:id="_TzCXpsD" coords="6,327.92,284.18,231.80,8.97;6,317.96,295.14,240.25,8.97;6,317.96,306.10,45.29,8.97">The CyVerse project <ref type="bibr" coords="6,403.81,284.18,9.52,8.97" target="#b5">[6]</ref>, supporting data-driven discovery, includes community support services similar to that of XSEDE's ECSS group.</s></p><p xml:id="_EjdEgUE"><s xml:id="_YRVrSFs" coords="6,327.92,317.06,231.80,8.97;6,317.96,328.02,240.25,8.97;6,317.96,338.98,163.01,8.97">Related support groups are also part of the NSF Software Institutes, including the Science Gateway Community Institute <ref type="bibr" coords="6,527.83,328.02,14.69,8.97" target="#b29">[30]</ref> and the Molecular Sciences Software Institute <ref type="bibr" coords="6,464.27,338.98,13.36,8.97" target="#b17">[18]</ref>.</s></p><p xml:id="_RJS2UMS"><s xml:id="_AgVCB9E" coords="6,327.92,349.94,231.66,8.97">The Xpert Network exchanges ideas with all the above efforts.</s><s xml:id="_tm8Vu88" coords="6,317.96,360.90,240.25,8.97;6,317.96,371.86,97.33,8.97">Best practices identified in this paper may provide training material for the mentioned projects.</s><s xml:id="_8EcvydG" coords="6,417.50,371.86,141.69,8.97;6,317.96,382.81,240.25,8.97;6,317.96,393.77,240.25,8.97;6,317.96,404.73,200.16,8.97">In addition to presenting best practices, the agenda of monthly Xpert Network webinars include discussions of coordination among the many involved activities, with the overall goal of increasing efficiency in the science community.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_sUhSEHN">CONCLUSION</head><p xml:id="_YzCREap"><s xml:id="_rTWTKQ8" coords="6,317.69,459.53,240.51,8.97;6,317.96,470.49,240.25,8.97;6,317.96,481.44,119.63,8.97">This paper presented best practices for those who support domain researchers in creating, improving, and running computational and data-intensive (CDI) applications.</s><s xml:id="_5sVz5c9" coords="6,439.51,481.44,118.70,8.97;6,317.96,492.40,241.76,8.97;6,317.96,503.36,81.60,8.97">We refer to these professionals as computational experts, research software engineers, research facilitators or, short, Xperts.</s><s xml:id="_emTwB92" coords="6,401.40,503.36,156.81,8.97;6,317.96,514.32,240.25,8.97;6,317.96,525.28,89.62,8.97">The information in this paper emerged from discussions and reports of the Xpert Network project, over a period of more than three years.</s><s xml:id="_txkHwbz" coords="6,409.59,525.28,148.62,8.97;6,317.96,536.24,241.76,8.97;6,317.96,547.20,240.24,8.97;6,317.96,558.16,44.48,8.97">The Xpert Network's participants include major NSF-funded projects for advanced cyberinfrastructures, national organizations, and campus organizations that support CDI researchers.</s><s xml:id="_VhxX866" coords="6,364.87,558.16,193.33,8.97;6,317.96,569.12,241.76,8.97;6,317.96,580.08,84.68,8.97">This paper also describes some of the best practices identified through our work with domain scientists on several interdisciplinary projects.</s><s xml:id="_fx5B8xB" coords="6,404.59,580.08,153.62,8.97;6,317.96,591.03,241.76,8.97;6,317.96,601.99,240.25,8.97;6,317.96,612.95,76.79,8.97">While some of the identified practices have overlap with those presented in general software engineering literature, we have emphasized aspects in which the work of Xpert professionals differs.</s><s xml:id="_wGqpdks" coords="6,397.09,612.95,162.62,8.97;6,317.96,623.91,240.48,8.97;6,317.62,634.87,240.58,8.97;6,317.96,645.83,240.25,8.97;6,317.96,656.79,212.85,8.97">Although none of these practices will guarantee error-free software development, when used together, they will reduce the number of errors in scientific software, facilitate its reuse, and save the authors of the software time and effort that can be devoted to addressing the underlying scientific questions.</s><s xml:id="_rMPtqcG" coords="6,532.45,656.79,27.27,8.97;6,317.96,667.75,240.25,8.97;6,317.96,678.71,183.02,8.97">In addition, the paper discussed related projects that support CDI research and how to create synergy within this community.</s><s xml:id="_DAKZS7P" coords="6,503.21,678.71,55.00,8.97;6,317.96,689.66,240.25,8.97;6,317.96,700.62,102.04,8.97">Together, these contributions aim to improve computational and data-intensive science in a significant way.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="2,69.77,496.69,225.80,107.60"><head>•</head><label></label><figDesc><div><p xml:id="_fytjVeY"><s xml:id="_rzMZGnb" coords="2,78.21,496.69,215.84,8.97;2,78.21,507.65,43.61,8.97;2,69.77,518.61,225.79,8.97;2,78.21,529.57,63.77,8.97;2,69.77,540.53,225.80,8.97;2,78.21,551.49,104.14,8.97;2,69.77,562.45,224.28,8.97;2,78.21,573.40,215.84,8.97;2,78.21,584.36,73.38,8.97;2,69.77,595.32,184.53,8.97">Share success stories about how Xperts have assisted domain researchers, • Present open problems and challenges faced when supporting CDI research, • Exchange best practices that are being applied in their organization or in their research, • Present tools and report on the use of tools that have made a substantial difference in supporting the work of Xperts and domain researchers, • Coordinate activities that are of mutual interest.</s></p></div></figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_nSNn3TT">ACKNOWLEDGMENTS</head><p xml:id="_SmQ9mDF">This work was supported in part by the <rs type="funder">National Science Foundation</rs> under Award No. <rs type="grantNumber">OAC-1833846</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jged5ps">
+					<idno type="grant-number">OAC-1833846</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="7,69.23,144.96,225.58,6.97;7,69.23,152.93,225.99,6.97;7,69.23,160.90,224.81,6.97;7,69.23,168.87,103.03,6.97" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="7,175.75,152.93,119.48,6.97;7,69.23,160.90,153.17,6.97" xml:id="_WQW3DjY">High Performance Computing Instrumentation and Research Productivity in U.S. Universities</title>
+		<author>
+			<persName coords=""><forename type="first">Amy</forename><surname>Apon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stanley</forename><surname>Ahalt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vijay</forename><surname>Dantuluri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Constantin</forename><surname>Gurdgiev</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Moez</forename><surname>Limayem</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Linh</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Stealey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HVapsQ2" coord="7,229.23,161.52,64.82,6.23;7,69.23,169.49,51.88,6.23">Journal of Information Technology Impact</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2010-09">2010. Sept. 2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amy Apon, Stanley Ahalt, Vijay Dantuluri, Constantin Gurdgiev, Moez Limayem, Linh Ngo, and Michael Stealey. 2010. High Performance Computing Instrumen- tation and Research Productivity in U.S. Universities. Journal of Information Technology Impact 10, 2 (Sept. 2010).</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,176.84,225.89,6.97;7,69.23,184.81,224.81,6.97;7,68.90,192.78,225.14,6.97;7,69.23,200.75,225.63,6.97;7,69.01,208.72,71.17,6.97" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" coord="7,253.55,192.78,40.50,6.97;7,69.23,200.75,70.57,6.97" xml:id="_KkRdCsa">Best Practices for Scientific Computing</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Dhavide</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Aruliah</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Titus</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Neil</forename><forename type="middle">P Chue</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matt</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><forename type="middle">T</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Guy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">D</forename><surname>Steven</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Katy</forename><surname>Haddock</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ian</forename><surname>Huff</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ben</forename><surname>Plumbley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ethan</forename><forename type="middle">P</forename><surname>Waugh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Paul</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Wilson</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1210.0530</idno>
+		<ptr target="http://arxiv.org/abs/1210.0530" />
+		<imprint>
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dhavide A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, Katy Huff, Ian Mitchell, Mark D. Plumbley, Ben Waugh, Ethan P. White, Greg Wilson, and Paul Wilson. 2012. Best Practices for Scientific Computing. CoRR abs/1210.0530 (2012). arXiv:1210.0530 http: //arxiv.org/abs/1210.0530</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,216.69,224.81,6.97;7,69.23,224.66,224.81,6.97;7,69.23,232.63,221.48,6.97" xml:id="b2">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Klaus</forename><surname>Bartschat</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Barry</forename><forename type="middle">I</forename><surname>Schneider</surname></persName>
+		</author>
+		<ptr target="https://sites.udel.edu/xpert-cdi/2019/08/06/ics-workshop/" />
+		<title level="m" xml:id="_Fhtt4ns" coord="7,199.33,216.69,94.72,6.97;7,69.23,224.66,224.81,6.97;7,69.23,232.63,50.04,6.97">Position Paper) Workshop on Best Practices and Tools for Computational and Data-Intensive Research in atomic and molecular physics</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klaus Bartschat and Barry I. Schneider. 2019. (Position Paper) Workshop on Best Practices and Tools for Computational and Data-Intensive Research in atomic and molecular physics. https://sites.udel.edu/xpert-cdi/2019/08/06/ics-workshop/</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,240.60,224.81,6.97;7,69.23,248.57,225.26,6.97;7,69.23,256.54,121.37,6.97" xml:id="b3">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Brazier</surname></persName>
+		</author>
+		<ptr target="https://www.cac.cornell.edu/education/training/StampedeJan2015/BestPracticesForSoftwareDevelopment.pdf" />
+		<title level="m" xml:id="_jhVvm7Q" coord="7,133.12,241.23,160.92,6.23;7,69.23,249.20,33.42,6.23">Best Practices for Software Development in the Research Environment</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adam Brazier. 2015. Best Practices for Software Development in the Research Environment. https://www.cac.cornell.edu/education/training/StampedeJan2015/ BestPracticesForSoftwareDevelopment.pdf</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,264.51,188.09,6.97" xml:id="b4">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Bssw</surname></persName>
+		</author>
+		<ptr target="https://bssw.io/" />
+		<title level="m" xml:id="_DsRUbKB" coord="7,106.41,265.14,100.17,6.23">The Better Scientific Software (BSSw)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">BSSW. 2020. The Better Scientific Software (BSSw). https://bssw.io/</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,272.48,225.88,6.97;7,69.23,280.45,55.60,6.97" xml:id="b5">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Cyverse</surname></persName>
+		</author>
+		<ptr target="https://cyverse.org/" />
+		<title level="m" xml:id="_MQVNvxK" coord="7,114.61,273.11,177.60,6.23">CyVerse: Transforming Science Through Data-Driven Discovery</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CyVerse. 2020. CyVerse: Transforming Science Through Data-Driven Discovery. https://cyverse.org/</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,288.42,224.81,6.97;7,69.23,296.39,225.88,6.97;7,69.23,304.36,24.23,6.97" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="7,106.49,288.42,152.19,6.97" xml:id="_Mf6cPSg">Nobel prizes for computational science [The Last Word]</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Day</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MCSE.2012.123</idno>
+		<ptr target="https://doi.org/10.1109/MCSE.2012.123" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fKQqdNx" coord="7,263.74,289.05,30.30,6.23;7,69.23,297.02,70.31,6.23">Computing in Science &amp; Engineering</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">88</biblScope>
+			<date type="published" when="2012-11">2012. nov 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Day. 2012. Nobel prizes for computational science [The Last Word]. Computing in Science &amp; Engineering 14, 06 (nov 2012), 88. https://doi.org/10.1109/MCSE. 2012.123</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,312.33,224.81,6.97;7,69.23,320.30,117.56,6.97" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="7,129.37,312.33,127.69,6.97" xml:id="_9YaGA6v">Ten good practices in scientific programming</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Dubois</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zVBkV26" coord="7,263.00,312.96,31.05,6.23;7,69.23,320.93,68.55,6.23">Computing in Science &amp; Engineering</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="7" to="11" />
+			<date type="published" when="1999">1999. 1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paul F Dubois. 1999. Ten good practices in scientific programming. Computing in Science &amp; Engineering 1, 1 (1999), 7-11.</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,328.27,225.88,6.97;7,69.23,336.24,51.67,6.97" xml:id="b8">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Ecss</surname></persName>
+		</author>
+		<ptr target="https://www.xsede.org/for-users/ecss" />
+		<title level="m" xml:id="_eNAd5NS" coord="7,104.71,328.90,128.47,6.23">XSEDE Extended Collaborative Support Service</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ECSS. 2020. XSEDE Extended Collaborative Support Service. https://www.xsede. org/for-users/ecss</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,344.21,225.50,6.97;7,69.23,352.81,224.81,6.23;7,69.23,360.15,225.88,6.97;7,69.23,368.12,212.64,6.97" xml:id="b9">
+	<monogr>
+		<title level="m" type="main" coord="7,239.55,344.84,55.18,6.23;7,69.23,352.81,224.81,6.23;7,69.23,360.78,23.23,6.23" xml:id="_NyQTA6y">THE XPERT NET-WORK,Workshop on Best Practices and Tools for Computational and Data-Intensive Research</title>
+		<author>
+			<persName coords=""><forename type="first">Rudolf</forename><surname>Eigenmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Parinaz</forename><surname>Barakhshan</surname></persName>
+		</author>
+		<ptr target="https://cpb-us-w2.wpmucdn.com/sites.udel.edu/dist/6/8980/files/2019/08/ICS-workshop-report-RE4.pdf" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>University Of Delaware</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Report P-29</note>
+	<note type="raw_reference">Rudolf Eigenmann and Parinaz Barakhshan. 2019. THE XPERT NET- WORK,Workshop on Best Practices and Tools for Computational and Data-Intensive Research. Report P-29. University Of Delaware. https://cpb-us-w2.wpmucdn. com/sites.udel.edu/dist/6/8980/files/2019/08/ICS-workshop-report-RE4.pdf</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,376.09,224.81,6.97;7,69.23,384.06,141.37,6.97" xml:id="b10">
+	<monogr>
+		<author>
+			<orgName type="collaboration" coords="7,69.23,376.09,75.33,6.97">Data Carpentry Foundation</orgName>
+		</author>
+		<ptr target="https://datacarpentry.org/" />
+		<title level="m" xml:id="_AZX4g9r" coord="7,165.46,376.72,128.59,6.23;7,69.23,384.69,61.08,6.23">Data Carpentry-Building communities teaching universal data literacy</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Data Carpentry Foundation. 2020. Data Carpentry-Building communities teaching universal data literacy. https://datacarpentry.org/</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,392.03,224.81,6.97;7,69.23,400.00,158.01,6.97" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="7,69.23,392.03,224.81,6.97;7,69.23,400.63,61.71,6.23" xml:id="_EUScRY6">Software Carpentry Foundation. 2020. softwarecarpentry-Teaching basic lab skills for research computing</title>
+		<ptr target="https://software-carpentry.org/" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Software Carpentry Foundation. 2020. softwarecarpentry-Teaching basic lab skills for research computing. https://software-carpentry.org/</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,407.97,208.66,6.97" xml:id="b12">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Heroux</surname></persName>
+		</author>
+		<ptr target="http://trilinos.sandia.gov" />
+		<title level="m" xml:id="_GXpsJ8Q" coord="7,128.16,408.60,72.43,6.23">Trilinos project Home Page</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. A. Heroux. 2009. Trilinos project Home Page. http://trilinos.sandia.gov</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,415.94,224.81,6.97;7,69.23,423.91,224.81,6.97;7,69.23,431.88,223.04,6.97" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="7,219.79,415.94,74.25,6.97;7,69.23,423.91,156.50,6.97" xml:id="_wAyW6qZ">Barely sufficient software engineering: 10 practices to improve your CSE software</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><forename type="middle">M</forename><surname>Heroux</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Willenbring</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_setXEs3" coord="7,252.00,424.54,42.04,6.23;7,69.23,431.88,200.34,6.97">ICSE Workshop on Software Engineering for Computational Science and Engineering. IEEE</title>
+		<imprint>
+			<biblScope unit="page" from="15" to="21" />
+			<date type="published" when="2009">2009. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Michael A Heroux and James M Willenbring. 2009. Barely sufficient software engineering: 10 practices to improve your CSE software. In 2009 ICSE Workshop on Software Engineering for Computational Science and Engineering. IEEE, 15-21.</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,439.85,149.35,6.97" xml:id="b14">
+	<analytic>
+		<title/>
+		<ptr target="https://ideas-productivity.org/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_AdPCaEd" coord="7,69.23,439.85,17.17,6.97;7,108.60,440.48,16.35,6.23">IDEAS</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>IDEAS</note>
+	<note type="raw_reference">IDEAS. 2020. IDEAS. https://ideas-productivity.org/</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,447.82,225.88,6.97;7,69.23,455.79,83.07,6.97" xml:id="b15">
+	<monogr>
+		<ptr target="https://www.rd-alliance.org/groups/rda-united-states" />
+		<title level="m" xml:id="_DgYHZcF" coord="7,69.23,447.82,150.80,6.97">RDA in the United States. 2022. Research Data Alliance</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">RDA in the United States. 2022. Research Data Alliance. https://www.rd-alliance. org/groups/rda-united-states</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,463.76,225.63,6.97;7,69.01,471.73,64.81,6.97" xml:id="b16">
+	<monogr>
+		<ptr target="https://www.software.ac.uk/" />
+		<title level="m" xml:id="_XUcFRGa" coord="7,69.23,463.76,204.01,6.97">Software Sustainability Institute. 2020. UK Software Sustainability Institute</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Software Sustainability Institute. 2020. UK Software Sustainability Institute. https: //www.software.ac.uk/</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,479.70,224.81,6.97;7,69.23,487.67,82.60,6.97" xml:id="b17">
+	<monogr>
+		<ptr target="https://molssi.org/" />
+		<title level="m" xml:id="_5BSMCuT" coord="7,69.23,479.70,224.81,6.97;7,69.23,487.67,22.82,6.97">The Molecular Sciences Software Institute. 2020. The Molecular Sciences Software Institute</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">The Molecular Sciences Software Institute. 2020. The Molecular Sciences Software Institute. https://molssi.org/</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,495.64,224.81,6.97;7,69.23,503.61,225.88,6.97;7,69.23,511.58,147.54,6.97" xml:id="b18">
+	<monogr>
+		<ptr target="https://extremecomputingtraining.anl.gov/files/2016/08/Riley_935aug8_GoodScientific.pdf" />
+		<title level="m" xml:id="_HWgpeEh" coord="7,229.08,496.27,64.96,6.23;7,69.23,504.24,109.42,6.23">Good Scientific Process Requires Software Engineering Practices</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>Argonne National Laboratory Katherine Riley</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Argonne National Laboratory Katherine Riley. 2020. Good Scientific Process Requires Software Engineering Practices. https://extremecomputingtraining.anl. gov/files/2016/08/Riley_935aug8_GoodScientific.pdf</note>
+</biblStruct>
+
+<biblStruct coords="7,69.23,519.55,224.81,6.97;7,69.23,527.52,225.57,6.97;7,333.39,89.05,41.94,6.23" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="7,199.02,519.55,95.02,6.97;7,69.23,527.52,28.80,6.97" xml:id="_Ax3D7Bh">Programming Massively Parallel Processors</title>
+		<author>
+			<persName coords=""><forename type="first">David</forename><forename type="middle">B</forename><surname>Kirk</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wen</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Hwu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_8UKFqfb" coord="7,110.23,528.15,117.71,6.23">Programming Massively Parallel Processors</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Second Edition</note>
+	<note type="raw_reference">David B. Kirk and Wen mei W. Hwu. 2013. Programming Massively Parallel Processors. In Programming Massively Parallel Processors, A Hands-on Approach, Second Edition.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,96.39,225.88,6.97;7,333.39,104.36,129.03,6.97" xml:id="b20">
+	<monogr>
+		<ptr target="http://www.agile-software-development.com" />
+		<title level="m" xml:id="_rBDAqEP" coord="7,448.32,97.02,108.08,6.23">Agile Software Development Home Page</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+		<respStmt>
+			<orgName>Agile Software Development LLC</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Agile Software Development LLC. 2009. Agile Software Development Home Page. http://www.agile-software-development.com</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,112.33,224.81,6.97;7,333.39,120.30,225.58,6.97;7,333.23,128.27,31.30,6.97" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="7,471.07,112.33,87.13,6.97;7,333.39,120.30,118.25,6.97" xml:id="_yTR2zgR">Applying software engineering methods and tools to CSE research projects</title>
+		<author>
+			<persName coords=""><forename type="first">Hoda</forename><surname>Naguib</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yang</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NHvtSzZ" coord="7,456.29,120.93,71.96,6.23">Procedia Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1505" to="1509" />
+			<date type="published" when="2010">2010. 2010</date>
+		</imprint>
+	</monogr>
+	<note>Position Paper</note>
+	<note type="raw_reference">Hoda Naguib and Yang Li. 2010. (Position Paper) Applying software engineering methods and tools to CSE research projects. Procedia Computer Science 1, 1 (2010), 1505-1509.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,136.24,225.26,6.97;7,333.39,144.21,113.03,6.97" xml:id="b22">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Naip</surname></persName>
+		</author>
+		<ptr target="https://confluence.xsede.org/pages/viewpage.action?pageId=1671332" />
+		<title level="m" xml:id="_2UwSRkn" coord="7,367.34,136.87,102.74,6.23">XSEDE, Novel and Innovative Projects</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">NaIP. 2022. XSEDE, Novel and Innovative Projects. https://confluence.xsede.org/ pages/viewpage.action?pageId=1671332</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,152.18,225.99,6.97;7,333.39,160.15,225.99,6.97;7,333.39,168.12,224.81,6.97;7,333.22,176.09,224.98,6.97;7,333.39,184.69,224.81,6.23;7,332.97,192.03,226.01,6.97;7,333.39,200.00,224.97,6.97" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="7,427.52,168.12,130.68,6.97;7,333.22,176.09,163.98,6.97" xml:id="_HeJ5qGj">Cultivating the Cyberinfrastructure Workforce via an Intermediate/Advanced Virtual Residency Workshop</title>
+		<author>
+			<persName coords=""><forename type="first">Hussein</forename><forename type="middle">M</forename><surname>Henry Neeman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dana</forename><surname>Al-Azzawi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">William</forename><surname>Brunson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dirk</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeff</forename><forename type="middle">T</forename><surname>Colbry</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><forename type="middle">W</forename><surname>Falgout</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sandra</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Joshua</forename><surname>Gesing</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christopher</forename><forename type="middle">S</forename><surname>Gyllinsky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Simmons</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3332186.3332204</idno>
+		<ptr target="https://doi.org/10.1145/3332186.3332204" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_u653nYc" coord="7,509.66,176.72,48.54,6.23;7,333.39,184.69,224.81,6.23;7,332.97,192.66,28.51,6.23;7,418.79,192.66,28.69,6.23">Proceedings of the Practice and Experience in Advanced Research Computing on Rise of the Machines (Learning)</title>
+		<meeting>the Practice and Experience in Advanced Research Computing on Rise of the Machines (Learning)<address><addrLine>Chicago, IL, USA; New York, NY, USA, Article</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">79</biblScope>
+		</imprint>
+	</monogr>
+	<note>PEARC &apos;19)</note>
+	<note type="raw_reference">Henry Neeman, Hussein M. Al-Azzawi, Dana Brunson, William Burke, Dirk Col- bry, Jeff T. Falgout, James W. Ferguson, Sandra Gesing, Joshua Gyllinsky, Christo- pher S. Simmons, and et al. 2019. Cultivating the Cyberinfrastructure Workforce via an Intermediate/Advanced Virtual Residency Workshop. In Proceedings of the Practice and Experience in Advanced Research Computing on Rise of the Machines (Learning) (Chicago, IL, USA) (PEARC &apos;19). Association for Computing Machinery, New York, NY, USA, Article 79, 8 pages. https://doi.org/10.1145/3332186.3332204</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,207.97,224.81,6.97;7,333.16,215.94,226.12,6.97;7,333.39,223.91,163.56,6.97" xml:id="b24">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Marisa</forename><surname>Henry Neeman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dana</forename><surname>Brazil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Brunson</surname></persName>
+		</author>
+		<ptr target="https://sites.udel.edu/xpert-cdi/2019/08/06/ics-workshop/" />
+		<title level="m" xml:id="_Zh3D4CS" coord="7,503.29,207.97,54.91,6.97;7,333.16,215.94,223.52,6.97">Position Paper)The Virtual Residency: A Training Program for Research Computing Facilitators</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henry Neeman, Marisa Brazil, and Dana Brunson. 2019. (Position Paper)The Virtual Residency: A Training Program for Research Computing Facilitators. https://sites.udel.edu/xpert-cdi/2019/08/06/ics-workshop/</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,231.88,176.46,6.97" xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><surname>Nsf</surname></persName>
+		</author>
+		<ptr target="https://www.nsf.gov/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YHtZB95" coord="7,365.16,232.51,76.99,6.23">National Science Foundation</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">NSF. 2020. National Science Foundation. https://www.nsf.gov/</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,239.85,225.50,6.97;7,333.39,247.82,205.52,6.97" xml:id="b26">
+	<monogr>
+		<ptr target="http://www.oscer.ou.edu/virtualresidency.php" />
+		<title level="m" xml:id="_8ccxsy2" coord="7,424.22,240.48,134.67,6.23;7,333.39,248.45,67.79,6.23">OU Supercomputing Center for Education &amp; Research, Virtual Residency</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Oklahoma</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">University of Oklahoma. 2019. OU Supercomputing Center for Education &amp; Re- search, Virtual Residency. http://www.oscer.ou.edu/virtualresidency.php</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,254.14,70.22,6.97;7,421.94,254.14,137.03,6.97;7,333.39,262.11,50.25,6.97" xml:id="b27">
+	<monogr>
+		<ptr target="https://carcc.org/" />
+		<title level="m" xml:id="_ZTyWtvj" coord="7,421.94,254.14,133.74,6.97">Campus Research Computing Consortium</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>CaRCC Project</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">CaRCC Project. 2019. Campus Research Computing Consortium, https://carcc.org/.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,270.09,172.50,6.97;7,520.91,270.09,38.37,6.97;7,333.39,278.06,56.83,6.97" xml:id="b28">
+	<monogr>
+		<ptr target="https://www.exascaleproject.org/" />
+		<title level="m" xml:id="_JBPqv8w" coord="7,333.39,270.09,35.62,6.97;7,401.56,270.71,101.39,6.23">Exascale Computing Project (ECP)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>ECP project</note>
+	<note type="raw_reference">ECP project. 2020. Exascale Computing Project (ECP). https://www. exascaleproject.org/</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,286.03,67.28,6.97;7,424.90,286.03,134.06,6.97;7,333.39,294.00,82.81,6.97" xml:id="b29">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Sgci Project</surname></persName>
+		</author>
+		<ptr target="https://sciencegateways.org/" />
+		<title level="m" xml:id="_rMcMTBX" coord="7,424.90,286.03,131.48,6.97">Science Gateways Community Institute</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SGCI Project. 2015. Science Gateways Community Institute, https://sciencegateways.org/.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,301.97,225.99,6.97;7,333.39,309.94,21.03,6.97" xml:id="b30">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Us-Rse</forename><surname>Project</surname></persName>
+		</author>
+		<ptr target="https://us-rse.org" />
+		<title level="m" xml:id="_JCZAaaM" coord="7,403.21,301.97,121.81,6.97">S. Research Software Engineer Association</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">US-RSE Project. 2020. U.S. Research Software Engineer Association, https://us- rse.org.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,317.91,225.99,6.97;7,333.39,325.88,9.94,6.97" xml:id="b31">
+	<monogr>
+		<ptr target="https://sites.udel.edu/xpert-cdi" />
+		<title level="m" xml:id="_sAWJ5NJ" coord="7,419.69,317.91,54.75,6.97">The Xpert Network</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+		<respStmt>
+			<orgName>Xpert Network Project</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Xpert Network Project. 2019. The Xpert Network, https://sites.udel.edu/xpert- cdi.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,333.85,225.88,6.97;7,333.39,341.82,97.05,6.97" xml:id="b32">
+	<monogr>
+		<ptr target="https://se4science.org/workshops/" />
+		<title level="m" xml:id="_jUtujvG" coord="7,333.39,333.85,30.72,6.97;7,386.17,334.47,167.55,6.23">Software Engineering for Computational Science (SE4Science</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>SE4Science</note>
+	<note type="raw_reference">SE4Science. 2020. Software Engineering for Computational Science (SE4Science). https://se4science.org/workshops/</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,349.79,217.59,6.97" xml:id="b33">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Sea</surname></persName>
+		</author>
+		<ptr target="http://sea.ucar.edu" />
+		<title level="m" xml:id="_t9Q9cx8" coord="7,365.80,350.41,125.57,6.23">SOFTWARE ENGINEERING ASSEMBLY (SEA)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SEA. 2020. SOFTWARE ENGINEERING ASSEMBLY (SEA). http://sea.ucar.edu</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,357.76,225.63,6.97;7,333.17,365.73,47.71,6.97" xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><surname>Ucar</surname></persName>
+		</author>
+		<ptr target="https://www.ucar.edu/" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>University Corporation for Atmospheric Research (UCAR</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">UCAR. 2020. University Corporation for Atmospheric Research (UCAR). https: //www.ucar.edu/</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,373.70,225.58,6.97;7,333.39,381.67,225.89,6.97;7,333.39,389.64,225.63,6.97;7,333.17,397.61,100.91,6.97" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coord="7,396.97,381.67,159.31,6.97" xml:id="_EXMnmGV">Peer Comparison of XSEDE and NCAR Publication Data</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Laszewski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">C</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">L</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">R</forename><surname>Furlani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">L</forename><surname>Deleon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">M</forename><surname>Gallo</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CLUSTER.2015.98</idno>
+		<ptr target="https://doi.org/10.1109/CLUSTER.2015.98" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_9kccq5x" coord="7,341.57,390.26,163.54,6.23">2015 IEEE International Conference on Cluster Computing</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="531" to="532" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. von Laszewski, F. Wang, G. C. Fox, D. L. Hart, T. R. Furlani, R. L. DeLeon, and S. M. Gallo. 2015. Peer Comparison of XSEDE and NCAR Publication Data. In 2015 IEEE International Conference on Cluster Computing. 531-532. https: //doi.org/10.1109/CLUSTER.2015.98</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,405.58,224.99,6.97;7,333.39,413.55,225.58,6.97;7,333.39,421.52,18.33,6.97" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="7,388.72,405.58,169.66,6.97;7,333.39,413.55,85.72,6.97" xml:id="_fEGjrdf">Software carpentry: getting scientists to write better code by making them more productive</title>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4EzTzYV" coord="7,424.55,414.18,102.02,6.23">Computing in Science &amp; Engineering</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="66" to="69" />
+			<date type="published" when="2006">2006. 2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greg Wilson. 2006. Software carpentry: getting scientists to write better code by making them more productive. Computing in Science &amp; Engineering 8, 6 (2006), 66-69.</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,429.49,224.81,6.97" xml:id="b37">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1307.5448[cs.GL]</idno>
+		<title level="m" xml:id="_McDTRQX" coord="7,386.57,429.49,101.63,6.97">Software Carpentry: Lessons Learned</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greg Wilson. 2013. Software Carpentry: Lessons Learned. arXiv:1307.5448 [cs.GL]</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,437.46,225.58,6.97;7,333.39,445.43,224.81,6.97;7,333.39,453.40,224.97,6.97;7,333.18,461.37,18.66,6.97" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coord="7,395.39,453.40,106.96,6.97" xml:id="_JPwjnYC">Best practices for scientific computing</title>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dhavide</forename><forename type="middle">A</forename><surname>Aruliah</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Titus Brown</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Neil P Chue</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matt</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><forename type="middle">T</forename><surname>Guy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">D</forename><surname>Steven</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kathryn</forename><forename type="middle">D</forename><surname>Haddock</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ian</forename><forename type="middle">M</forename><surname>Huff</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Plumbley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XXe7RTv" coord="7,508.07,454.03,35.24,6.23">PLoS biology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greg Wilson, Dhavide A Aruliah, C Titus Brown, Neil P Chue Hong, Matt Davis, Richard T Guy, Steven HD Haddock, Kathryn D Huff, Ian M Mitchell, Mark D Plumbley, et al. 2014. Best practices for scientific computing. PLoS biology 12, 1 (2014).</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,469.34,225.58,6.97;7,333.39,477.31,224.81,6.97;7,333.39,485.28,97.31,6.97" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coord="7,404.27,477.31,134.03,6.97" xml:id="_TgMFDCd">Good enough practices in scientific computing</title>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jennifer</forename><surname>Bryan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Karen</forename><surname>Cranston</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Justin</forename><surname>Kitzes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lex</forename><surname>Nederbragt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tracy</forename><forename type="middle">K</forename><surname>Teal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_KhhaWRX" coord="7,544.55,477.94,13.65,6.23;7,333.39,485.91,61.83,6.23">PLoS computational biology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greg Wilson, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K Teal. 2017. Good enough practices in scientific computing. PLoS computational biology 13, 6 (2017).</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,493.25,225.51,6.97;7,333.39,501.22,170.01,6.97" xml:id="b40">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Wssspe</surname></persName>
+		</author>
+		<ptr target="http://wssspe.researchcomputing.org.uk/" />
+		<title level="m" xml:id="_SHrneBR" coord="7,377.94,493.88,180.96,6.23;7,333.39,501.85,46.17,6.23">Working Towards Sustainable Software Science: Practiceand Experiences (WSSSPE)</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">WSSSPE. 2020. Working Towards Sustainable Software Science: Practiceand Expe- riences (WSSSPE). http://wssspe.researchcomputing.org.uk/</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,509.19,225.49,6.97;7,333.39,517.16,92.57,6.97" xml:id="b41">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Xsede</surname></persName>
+		</author>
+		<ptr target="https://www.xsede.org/community-engagement/campus-champions" />
+		<title level="m" xml:id="_wvMemC2" coord="7,382.86,509.82,56.66,6.23">Campus Champions</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">XSEDE. 2020. Campus Champions. https://www.xsede.org/community- engagement/campus-champions</note>
+</biblStruct>
+
+<biblStruct coords="7,333.39,525.13,225.88,6.97;7,333.13,533.10,43.97,6.97" xml:id="b42">
+	<monogr>
+		<title level="m" type="main" coord="7,374.21,525.76,181.97,6.23" xml:id="_GDH3ryg">XSEDE -Extreme Science and Engineering Disvocery Environment</title>
+		<author>
+			<persName coords=""><surname>Xsede</surname></persName>
+		</author>
+		<ptr target="www.xsede.org" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">XSEDE. 2020. XSEDE -Extreme Science and Engineering Disvocery Environment. www.xsede.org</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

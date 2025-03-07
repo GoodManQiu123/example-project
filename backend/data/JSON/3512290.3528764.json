@@ -1,0 +1,806 @@
+{
+    "metadata": {
+        "title": "DiBB: Distributing Black-Box Optimization",
+        "doi": "10.1145/3512290.3528764",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "DiBB (for Distributing Black-Box) is a meta-algorithm and framework that addresses the decades-old scalability issue of Black-Box Optimization (BBO), including Evolutionary Computation. Algorithmically, it does so by creating out-of-the-box a Partially Separable (PS) version of any existing black-box algorithm. This is done by leveraging expert knowledge about the task at hand to define blocks of parameters expected to have significant correlation, such as weights entering a same neuron/layer in a neuroevolution application. DiBB distributes the computation to a set of machines without further customization, while still retaining the advanced features of the underlying BBO algorithm, such as scale invariance and step-size adaptation, which are typically lost in recent distributed ES implementations. This is achieved by instantiating a separate instance of the underlying base algorithm for each block, running on a dedicated machine, with DiBB handling communication and constructing complete individuals for evaluation on the original task. DiBB's performance scales constantly with the number of parameter-blocks defined, which should allow for unprecedented applications on large clusters. Our reference implementation (Python, on GitHub and PyPI) demonstrates a 5x speed-up on COCO/BBOB using our new PS-CMA-ES. We also showcase a neuroevolution application (11 590 weights) on the PyBullet Walker2D with our new PS-LM-MA-ES.",
+        "keywords": [
+            "algorithm",
+            "application",
+            "parallelization",
+            "blackbox",
+            "optimization",
+            "neuroevolution",
+            "evolution",
+            "dibb",
+            "strategy"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Giuseppe Cuccu",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Luca Rolshoven",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Fabien Vorpe",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Philippe Cudr\u00e9-Mauroux",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Exascale Infolab",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Akimoto",
+                    "given": "Youhei"
+                },
+                {
+                    "family": "Auger",
+                    "given": "Anne"
+                },
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                }
+            ],
+            "title": "Comparison-based natural gradient optimization in high dimension",
+            "type": "paper-conference",
+            "container_title": [
+                "Genetic and Evolutionary Computation Conference. ACM"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Audet",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Hare",
+                    "given": "Warren"
+                }
+            ],
+            "title": "Derivative-free and blackbox optimization",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brockman",
+                    "given": "Greg"
+                },
+                {
+                    "family": "Cheung",
+                    "given": "Vicki"
+                },
+                {
+                    "family": "Pettersson",
+                    "given": "Ludwig"
+                },
+                {
+                    "family": "Schneider",
+                    "given": "Jonas"
+                },
+                {
+                    "family": "Schulman",
+                    "given": "John"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Zaremba",
+                    "given": "Wojciech"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chrabaszcz",
+                    "given": "Patryk"
+                },
+                {
+                    "family": "Loshchilov",
+                    "given": "Ilya"
+                },
+                {
+                    "family": "Hutter",
+                    "given": "Frank"
+                }
+            ],
+            "title": "Back to basics: Benchmarking Canonical Evolution Strategies for Playing ATARI",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Coumans",
+                    "given": "Erwin"
+                },
+                {
+                    "family": "Bai",
+                    "given": "Yunfei"
+                }
+            ],
+            "title": "PyBullet, a Python module for physics simulation for games, robotics and machine learning",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cuccu",
+                    "given": "Giuseppe"
+                },
+                {
+                    "family": "Gomez",
+                    "given": "Faustino"
+                }
+            ],
+            "title": "Block diagonal natural evolution strategies",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Parallel Problem Solving from Nature"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cuccu",
+                    "given": "Giuseppe"
+                },
+                {
+                    "family": "Togelius",
+                    "given": "Julian"
+                },
+                {
+                    "family": "Cudr\u00e9-Mauroux",
+                    "given": "Philippe"
+                }
+            ],
+            "title": "Playing Atari with six neurons",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Au-tonomous Agents and Multiagent Systems"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dean",
+                    "given": "Jeffrey"
+                },
+                {
+                    "family": "Ghemawat",
+                    "given": "Sanjay"
+                }
+            ],
+            "title": "MapReduce: simplified data processing on large clusters",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Elhara",
+                    "given": "Ouassim Ait"
+                },
+                {
+                    "family": "Varelas",
+                    "given": "Konstantinos"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Duc Manh"
+                },
+                {
+                    "family": "Tu\u0161ar",
+                    "given": "Tea"
+                },
+                {
+                    "family": "Brockhoff",
+                    "given": "Dimo"
+                },
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                },
+                {
+                    "family": "Auger",
+                    "given": "Anne"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fort",
+                    "given": "Stanislav"
+                },
+                {
+                    "family": "Jastrzebski",
+                    "given": "Stanislaw"
+                }
+            ],
+            "title": "Large scale structure of neural network loss landscapes",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Neural Information Processing Systems"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fournier",
+                    "given": "Herv\u00e9"
+                },
+                {
+                    "family": "Teytaud",
+                    "given": "Olivier"
+                }
+            ],
+            "title": "Lower bounds for comparison based evolution strategies using vc-dimension and sign patterns",
+            "type": "article-journal",
+            "container_title": [
+                "Algorithmica"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ha",
+                    "given": "David"
+                },
+                {
+                    "family": "Schmidhuber",
+                    "given": "J\u00fcrgen"
+                }
+            ],
+            "title": "Recurrent world models facilitate policy evolution",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                }
+            ],
+            "title": "Adapting Arbitrary Normal Mutation Distributions in Evolution Strategies: The Covariance Matrix Adaptation",
+            "type": "paper-conference",
+            "container_title": [
+                "IEEE International Conference on Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                }
+            ],
+            "title": "A global surrogate assisted CMA-ES",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Genetic and Evolutionary Computation Conference. ACM, Prague Czech Republic"
+            ],
+            "doi": "10.1145/3321707.3321842",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                },
+                {
+                    "family": "Arnold",
+                    "given": "Dirk V."
+                },
+                {
+                    "family": "Auger",
+                    "given": "Anne"
+                }
+            ],
+            "title": "Evolution strategies",
+            "type": "chapter",
+            "container_title": [
+                "Springer handbook of computational intelligence"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                },
+                {
+                    "family": "Auger",
+                    "given": "Anne"
+                },
+                {
+                    "family": "Ros",
+                    "given": "Raymond"
+                },
+                {
+                    "family": "Finck",
+                    "given": "Steffen"
+                },
+                {
+                    "family": "Po\u0161\u00edk",
+                    "given": "Petr"
+                }
+            ],
+            "title": "Comparing results of 31 algorithms from the black-box optimization benchmarking BBOB-2009",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 12th annual conference companion on Genetic and evolutionary computation"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                },
+                {
+                    "family": "Finck",
+                    "given": "Steffen"
+                },
+                {
+                    "family": "Ros",
+                    "given": "Raymond"
+                },
+                {
+                    "family": "Auger",
+                    "given": "Anne"
+                }
+            ],
+            "title": "Real-Parameter Black-Box Optimization Benchmarking 2009: Noiseless Functions Defini-tions",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                },
+                {
+                    "family": "Ostermeier",
+                    "given": "Andreas"
+                }
+            ],
+            "title": "Completely Derandomized Self-Adaptation in Evolution Strategies",
+            "type": "article-journal",
+            "container_title": [
+                "Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heidrich-Meisner",
+                    "given": "Verena"
+                },
+                {
+                    "family": "Igel",
+                    "given": "Christian"
+                }
+            ],
+            "title": "Neuroevolution strategies for episodic reinforcement learning",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Algorithms"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Igel",
+                    "given": "Christian"
+                }
+            ],
+            "title": "Neuroevolution for Reinforcement Learning using Evolution Strategies",
+            "type": "chapter",
+            "container_title": [
+                "The 2003 Congress on Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "J\u00e4gersk\u00fcpper",
+                    "given": "Jens"
+                }
+            ],
+            "title": "How the (1+1)-ES using isotropic mutations minimizes positive definite quadratic forms",
+            "type": "article-journal",
+            "container_title": [
+                "Theoretical Computer Science"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Loshchilov",
+                    "given": "Ilya"
+                }
+            ],
+            "title": "A Computationally Efficient Limited Memory CMA-ES for Large Scale Optimization",
+            "type": "paper-conference",
+            "container_title": [
+                "Genetic and Evolutionary Computation Conference. ACM"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Loshchilov",
+                    "given": "Ilya"
+                },
+                {
+                    "family": "Glasmachers",
+                    "given": "Tobias"
+                },
+                {
+                    "family": "Beyer",
+                    "given": "Hans-Georg"
+                }
+            ],
+            "title": "Large Scale Black-box Optimization by Limited-Memory Matrix Adaptation",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transac-tions on Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Omidvar",
+                    "given": "Mohammad Nabi"
+                },
+                {
+                    "family": "Li",
+                    "given": "Xiaodong"
+                },
+                {
+                    "family": "Mei",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Yao",
+                    "given": "Xin"
+                }
+            ],
+            "title": "Coopera-tive co-evolution with differential grouping for large scale optimization",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Plappert",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Houthooft",
+                    "given": "Rein"
+                },
+                {
+                    "family": "Dhariwal",
+                    "given": "Prafulla"
+                },
+                {
+                    "family": "Sidor",
+                    "given": "Szymon"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Richard Y."
+                },
+                {
+                    "family": "Chen",
+                    "given": "Xi"
+                },
+                {
+                    "family": "Asfour",
+                    "given": "Tamim"
+                },
+                {
+                    "family": "Abbeel",
+                    "given": "Pieter"
+                },
+                {
+                    "family": "Andrychowicz",
+                    "given": "Marcin"
+                }
+            ],
+            "title": "Parameter space noise for exploration",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rechenberg",
+                    "given": "Ingo"
+                }
+            ],
+            "title": "Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1973"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ros",
+                    "given": "Raymond"
+                },
+                {
+                    "family": "Hansen",
+                    "given": "Nikolaus"
+                }
+            ],
+            "title": "A Simple Modification in CMA-ES Achieving Linear Time and Space Complexity",
+            "type": "chapter",
+            "container_title": [
+                "Parallel Problem Solving from Nature -PPSN"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Salimans",
+                    "given": "Tim"
+                },
+                {
+                    "family": "Ho",
+                    "given": "Jonathan"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Xi"
+                },
+                {
+                    "family": "Sutskever",
+                    "given": "Ilya"
+                }
+            ],
+            "title": "Evolution Strategies as a Scalable Alternative to Reinforcement Learning",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schaul",
+                    "given": "Tom"
+                },
+                {
+                    "family": "Glasmachers",
+                    "given": "Tobias"
+                },
+                {
+                    "family": "Schmidhuber",
+                    "given": "J\u00fcrgen"
+                }
+            ],
+            "title": "High Dimen-sions and Heavy Tails for Natural Evolution Strategies",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 13th annual conference on Genetic and Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "J\u00fcrgen Schmidhuber",
+                    "given": "S.Hochreiter"
+                },
+                {
+                    "family": "Bengio",
+                    "given": "Y."
+                }
+            ],
+            "title": "Evaluating benchmark problems by random guessing",
+            "type": "chapter",
+            "container_title": [
+                "A Field Guide to Dynamical Recurrent Networks"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Soltanolkotabi",
+                    "given": "Mahdi"
+                },
+                {
+                    "family": "Javanmard",
+                    "given": "Adel"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Jason D."
+                }
+            ],
+            "title": "Theoretical insights into the optimization landscape of over-parameterized shallow neural networks",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Information Theory"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Stanley",
+                    "given": "Kenneth O."
+                },
+                {
+                    "family": "Clune",
+                    "given": "Jeff"
+                },
+                {
+                    "family": "Lehman",
+                    "given": "Joel"
+                },
+                {
+                    "family": "Miikkulainen",
+                    "given": "Risto"
+                }
+            ],
+            "title": "De-signing neural networks through neuroevolution",
+            "type": "article-journal",
+            "container_title": [
+                "Nature Machine Intelligence"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Varelas",
+                    "given": "Konstantinos"
+                }
+            ],
+            "title": "Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the Bbob-Largescale Testbed",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO '19"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wierstra",
+                    "given": "D."
+                },
+                {
+                    "family": "Schaul",
+                    "given": "T."
+                },
+                {
+                    "family": "Glasmachers",
+                    "given": "T."
+                },
+                {
+                    "family": "Sun",
+                    "given": "Y."
+                },
+                {
+                    "family": "Peters",
+                    "given": "J."
+                },
+                {
+                    "family": "Schmidhuber",
+                    "given": "J."
+                }
+            ],
+            "title": "Natural Evolution Strategies",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Machine Learning Research"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        }
+    ]
+}

@@ -1,0 +1,1845 @@
+{
+    "metadata": {
+        "title": "Online Application Guidance for Heterogeneous Memory Systems",
+        "doi": "10.1145/3533855",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "As scaling of conventional memory devices has stalled, many high-end computing systems have begun to incorporate alternative memory technologies to meet performance goals. Since these technologies present distinct advantages and tradeoffs compared to conventional DDR* SDRAM, such as higher bandwidth with lower capacity or vice versa, they are typically packaged alongside conventional SDRAM in a heterogeneous memory architecture. To utilize the different types of memory efficiently, new data management strategies are needed to match application usage to the best available memory technology. However, current proposals for managing heterogeneous memories are limited, because they either (1) do not consider high-level application behavior when assigning data to different types of memory or (2) require separate program execution (with a representative input) to collect information about how the application uses memory resources. This work presents a new data management toolset to address the limitations of existing approaches for managing complex memories. It extends the application runtime layer with automated monitoring and management routines that assign application data to the best tier of memory based on previous usage, without any need for source code modification or a separate profiling run. It evaluates this approach on a state-of-the-art server platform with both conventional DDR4 SDRAM and non-volatile Intel Optane DC memory, using both memory-intensive high-performance computing (HPC) applications as well as standard benchmarks. Overall, the results show that this approach improves program performance significantly compared to a standard unguided approach across a variety of workloads and system configurations. The HPC applications exhibit the largest benefits, with speedups ranging from 1.4\u00d7 to 7\u00d7 in the best cases. Additionally, we show that this approach achieves similar performance as a comparable offline profiling-based approach after a short startup period, without requiring separate program execution or offline analysis steps. CCS Concepts: \u2022 Software and its engineering   Runtime environments; \u2022 Computer systems organization   Heterogeneous (hybrid) systems; Extension of Conference Paper: While not a true extension, this work builds upon prior contributions published at the IEEE International Conference on Networking, Architecture, and Storage (Best Paper Award) [60] and the ACM/IEEE International Symposium on Memory Systems [58]. The tools and approach developed for these earlier works are described in Section 3. All other sections present original results and contributions.",
+        "keywords": [
+            "guidance",
+            "memory",
+            "data",
+            "heterogeneous",
+            "management",
+            "system",
+            "approach",
+            "analysis",
+            "application",
+            "runtime",
+            "online"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Intel Corporation",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Michael R Jantz",
+            "affiliation": null,
+            "email": "mrjantz@utk.edu"
+        },
+        {
+            "name": "M Ben Olson",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Kshitij A Doshi",
+            "affiliation": null,
+            "email": "kshitij.a.doshi@intel.com"
+        },
+        {
+            "name": "W Chandler",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Blvd Chandler",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Brandon Kammerdiener",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Terry Jones",
+            "affiliation": null,
+            "email": "trjones@ornl.gov."
+        },
+        {
+            "name": "Online",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Agarwal",
+                    "given": "Neha"
+                },
+                {
+                    "family": "Nellans",
+                    "given": "David"
+                },
+                {
+                    "family": "Stephenson",
+                    "given": "Mark"
+                },
+                {
+                    "family": "O'Connor",
+                    "given": "Mike"
+                },
+                {
+                    "family": "Keckler",
+                    "given": "Stephen W."
+                }
+            ],
+            "title": "Page placement strategies for GPUs within heterogeneous memory systems",
+            "type": "article-journal",
+            "container_title": [
+                "SIGPLAN Not"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Agarwal",
+                    "given": "Neha"
+                },
+                {
+                    "family": "Wenisch",
+                    "given": "Thomas F."
+                }
+            ],
+            "title": "Thermostat: Application-transparent page management for two-tiered main memory",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 22nd International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS'17"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Akram",
+                    "given": "Shoaib"
+                }
+            ],
+            "title": "Performance evaluation of intel optane memory for managed workloads",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Archit. Code Optim"
+            ],
+            "doi": "10.1145/3451342",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "given": "A.N.L."
+                }
+            ],
+            "title": "U.S. Department of Energy and Intel to Deliver First Exascale Supercomputer",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Banga",
+                    "given": "Gaurav"
+                },
+                {
+                    "family": "Druschel",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Mogul",
+                    "given": "Jeffrey C."
+                }
+            ],
+            "title": "Resource containers: A new facility for resource man-agement in server systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3rd Symposium on Operating Systems Design and Implementation (OSDI'99"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Beckmann",
+                    "given": "Nathan"
+                },
+                {
+                    "family": "Sanchez",
+                    "given": "Daniel"
+                }
+            ],
+            "title": "Jigsaw: Scalable software-defined caches",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 22nd International Conference on Parallel Architectures and Compilation Techniques (PACT'13"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Belay",
+                    "given": "Adam"
+                },
+                {
+                    "family": "Bittau",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Mashtizadeh",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Terei",
+                    "given": "David"
+                },
+                {
+                    "family": "Mazi\u00e8res",
+                    "given": "David"
+                },
+                {
+                    "family": "Kozyrakis",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Dune: Safe user-level access to privileged CPU features",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 10th USENIX conference on Operating Systems Design and Implementation (OSDI'12"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brock",
+                    "given": "Jacob"
+                },
+                {
+                    "family": "Ding",
+                    "given": "Chen"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Xiaoran"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Yan"
+                }
+            ],
+            "title": "PAYJIT: Space-optimal JIT compilation and its practical implementation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 27th International Conference on Compiler Construction (CC'18"
+            ],
+            "doi": "10.1145/3178372.3179523",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Calder",
+                    "given": "Brad"
+                },
+                {
+                    "family": "Krintz",
+                    "given": "Chandra"
+                },
+                {
+                    "family": "John",
+                    "given": "Simmi"
+                },
+                {
+                    "family": "Austin",
+                    "given": "Todd"
+                }
+            ],
+            "title": "Cache-conscious data placement",
+            "type": "article-journal",
+            "container_title": [
+                "SIGPLAN Not"
+            ],
+            "doi": "10.1145/291006.291036",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cantalupo",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Venkatesan",
+                    "given": "Vishwanath"
+                },
+                {
+                    "family": "Hammond",
+                    "given": "Jeff"
+                },
+                {
+                    "family": "Czurlyo",
+                    "given": "Krzysztof"
+                },
+                {
+                    "family": "Hammond",
+                    "given": "Simon David"
+                }
+            ],
+            "title": "memkind: An Extensible Heap Memory Manager for Heterogeneous Memory Platforms and Mixed Memory Policies",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cherem",
+                    "given": "Sigmund"
+                },
+                {
+                    "family": "Rugina",
+                    "given": "Radu"
+                }
+            ],
+            "title": "Region analysis and transformation for java programs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 4th Intl. Symp. on Memory Management (ISMM'04). ACM"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chilimbi",
+                    "given": "Trishul M."
+                },
+                {
+                    "family": "Shaham",
+                    "given": "Ran"
+                }
+            ],
+            "title": "Cache-conscious coallocation of hot data streams",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'06). ACM"
+            ],
+            "doi": "10.1145/1133981.1134011",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chou",
+                    "given": "Chiachen"
+                },
+                {
+                    "family": "Jaleel",
+                    "given": "Aamer"
+                },
+                {
+                    "family": "Qureshi",
+                    "given": "Moinuddin K."
+                }
+            ],
+            "title": "CAMEO: A two-level memory organization with capacity of main memory and flexibility of hardware-managed cache",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 47th Annual IEEE/ACM Intl. Symp. on Microarchitecture"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cutress",
+                    "given": "Ian"
+                }
+            ],
+            "title": "Intel to Launch Next-Gen Sapphire Rapids Xeon with High-Bandwidth Memory",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dashti",
+                    "given": "Mohammad"
+                },
+                {
+                    "family": "Fedorova",
+                    "given": "Alexandra"
+                },
+                {
+                    "family": "Funston",
+                    "given": "Justin"
+                },
+                {
+                    "family": "Gaud",
+                    "given": "Fabien"
+                },
+                {
+                    "family": "Lachaize",
+                    "given": "Renaud"
+                },
+                {
+                    "family": "Lepers",
+                    "given": "Baptiste"
+                },
+                {
+                    "family": "Quema",
+                    "given": "Vivien"
+                },
+                {
+                    "family": "Roth",
+                    "given": "Mark"
+                }
+            ],
+            "title": "Traffic management: A holistic approach to memory placement on NUMA systems",
+            "type": "chapter",
+            "container_title": [
+                "ACM SIGPLAN Notices"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dulloor",
+                    "given": "Subramanya R."
+                },
+                {
+                    "family": "Roy",
+                    "given": "Amitabha"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Zheguang"
+                },
+                {
+                    "family": "Sundaram",
+                    "given": "Narayanan"
+                },
+                {
+                    "family": "Satish",
+                    "given": "Nadathur"
+                },
+                {
+                    "family": "Sankaran",
+                    "given": "Rajesh"
+                },
+                {
+                    "family": "Jackson",
+                    "given": "Jeff"
+                },
+                {
+                    "family": "Schwan",
+                    "given": "Karsten"
+                }
+            ],
+            "title": "Data tiering in heterogeneous memory systems",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the 11th European Conference on Computer Systems (EuroSys'16",
+                "Article"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Effler",
+                    "given": "T.Chad"
+                },
+                {
+                    "family": "Howard",
+                    "given": "Adam P."
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Tong"
+                },
+                {
+                    "family": "Jantz",
+                    "given": "Michael R."
+                },
+                {
+                    "family": "Doshi",
+                    "given": "Kshitij A."
+                },
+                {
+                    "family": "Kulkarni",
+                    "given": "Prasad A."
+                }
+            ],
+            "title": "On automated feedback-driven data placement in hybrid memories",
+            "type": "paper-conference",
+            "container_title": [
+                "LNCS International Conference on Architecture of Computing Systems"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Effler",
+                    "given": "T.Chad"
+                },
+                {
+                    "family": "Jantz",
+                    "given": "Michael R."
+                },
+                {
+                    "family": "Jones",
+                    "given": "Terry"
+                }
+            ],
+            "title": "Performance potential of mixed data management modes for heterogeneous memory systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE/ACM Workshop on Memory Centric High Performance Computing (MCHPC'20"
+            ],
+            "doi": "10.1109/MCHPC51950.2020.00007",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Effler",
+                    "given": "T.Chad"
+                },
+                {
+                    "family": "Kammerdiener",
+                    "given": "Brandon"
+                },
+                {
+                    "family": "Jantz",
+                    "given": "Michael R."
+                },
+                {
+                    "family": "Sengupta",
+                    "given": "Saikat"
+                },
+                {
+                    "family": "Kulkarni",
+                    "given": "Prasad A."
+                },
+                {
+                    "family": "Doshi",
+                    "given": "Kshitij A."
+                },
+                {
+                    "family": "Jones",
+                    "given": "Terry"
+                }
+            ],
+            "title": "Evaluating the effectiveness of program data features for guiding memory management",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceed-ings of the International Symposium on Memory Systems (MEMSYS'19"
+            ],
+            "doi": "10.1145/3357526.3357537",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Engler",
+                    "given": "D.R."
+                },
+                {
+                    "family": "Kaashoek",
+                    "given": "M.F."
+                },
+                {
+                    "family": "O'Toole",
+                    "given": "J.",
+                    "suffix": "Jr"
+                }
+            ],
+            "title": "Exokernel: An operating system architecture for application-level resource management",
+            "type": "article-journal",
+            "container_title": [
+                "SIGOPS Oper. Syst. Rev"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Evans",
+                    "given": "Jason"
+                }
+            ],
+            "title": "A Scalable Concurrent malloc (3) Implementation for FreeBSD",
+            "type": "paper-conference",
+            "container_title": [
+                "3rd Annual Technical BSD Conference (BSDCan'06"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fleming",
+                    "given": "Matt"
+                }
+            ],
+            "title": "A Thorough Introduction to eBPF",
+            "type": "article-journal",
+            "container_title": [
+                "LWN.net"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Georges",
+                    "given": "Andy"
+                },
+                {
+                    "family": "Buytaert",
+                    "given": "Dries"
+                },
+                {
+                    "family": "Eeckhout",
+                    "given": "Lieven"
+                }
+            ],
+            "title": "Statistically rigorous java performance evaluation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 22nd Annual ACM SIGPLAN Conference on Object-Oriented Programming Systems, Languages and Applications (OOPSLA'07). Assoc. for Computing Machinery"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guo",
+                    "given": "Rentong"
+                },
+                {
+                    "family": "Liao",
+                    "given": "Xiaofei"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Hai"
+                },
+                {
+                    "family": "Yue",
+                    "given": "Jianhui"
+                },
+                {
+                    "family": "Tan",
+                    "given": "Guang"
+                }
+            ],
+            "title": "NightWatch: Integrating lightweight and transparent cache pollution control into dynamic memory allocation systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the USENIX Annual Technical Conference (USENIX ATC'15"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guyer",
+                    "given": "Samuel Z."
+                },
+                {
+                    "family": "McKinley",
+                    "given": "Kathryn S."
+                }
+            ],
+            "title": "Finding your cronies: Static analysis for dynamic object colocation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 19th Annual ACM SIGPLAN Conference on Object-oriented Programming, Systems, Languages, and Applications (OOPSLA'04"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hirzel",
+                    "given": "Martin"
+                }
+            ],
+            "title": "Data layouts for object-oriented programs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS'07"
+            ],
+            "doi": "10.1145/1254882.1254915",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huang",
+                    "given": "Xianglong"
+                },
+                {
+                    "family": "Blackburn",
+                    "given": "Stephen M."
+                },
+                {
+                    "family": "McKinley",
+                    "given": "Kathryn S."
+                },
+                {
+                    "family": "Moss",
+                    "given": "J.Eliot B."
+                },
+                {
+                    "family": "Wang",
+                    "given": "Zhenlin"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Perry"
+                }
+            ],
+            "title": "The garbage collection advantage: Improving program locality",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 19th Annual ACM SIGPLAN Conference on Object-oriented Programming, Systems, Languages, and Applications (OOPSLA'04"
+            ],
+            "doi": "10.1145/1028976.1028983",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hundt",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Mannarswamy",
+                    "given": "Sandya"
+                },
+                {
+                    "family": "Chakrabarti",
+                    "given": "Dhruva"
+                }
+            ],
+            "title": "Practical structure layout optimization and advice",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the International Symposium on Code Generation and Optimization (CGO'06"
+            ],
+            "doi": "10.1109/CGO.2006.29",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Izraelevitz",
+                    "given": "Joseph"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Jian"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Lu"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Juno"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Xiao"
+                },
+                {
+                    "family": "Memaripour",
+                    "given": "Amirsaman"
+                },
+                {
+                    "family": "Soh",
+                    "given": "Yun Joon"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Zixuan"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Dulloor",
+                    "given": "Subramanya R."
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Jishen"
+                },
+                {
+                    "family": "Swanson",
+                    "given": "Steven"
+                }
+            ],
+            "title": "Basic performance measurements of the Intel Optane DC persistent memory module",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jang",
+                    "given": "H."
+                },
+                {
+                    "family": "Lee",
+                    "given": "Y."
+                },
+                {
+                    "family": "Kim",
+                    "given": "J."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Y."
+                },
+                {
+                    "family": "Kim",
+                    "given": "J."
+                },
+                {
+                    "family": "Jeong",
+                    "given": "J."
+                },
+                {
+                    "family": "Lee",
+                    "given": "J.W."
+                }
+            ],
+            "title": "Efficient footprint caching for tagless DRAM caches",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE International Symposium on High Performance Computer Architecture (HPCA'16"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jantz",
+                    "given": "Michael R."
+                },
+                {
+                    "family": "Robinson",
+                    "given": "Forrest J."
+                },
+                {
+                    "family": "Kulkarni",
+                    "given": "Prasad A."
+                },
+                {
+                    "family": "Doshi",
+                    "given": "Kshitij A."
+                }
+            ],
+            "title": "Cross-layer memory management for managed language applications",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA'15"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jantz",
+                    "given": "Michael R."
+                },
+                {
+                    "family": "Strickland",
+                    "given": "Carl"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Karthik"
+                },
+                {
+                    "family": "Dimitrov",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Doshi",
+                    "given": "Kshitij A."
+                }
+            ],
+            "title": "A framework for appli-cation guidance in virtual memory systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 9th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments (VEE'13). Assoc. for Computing Machinery"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jeon",
+                    "given": "Jinseong"
+                },
+                {
+                    "family": "Shin",
+                    "given": "Keoncheol"
+                },
+                {
+                    "family": "Han",
+                    "given": "Hwansoo"
+                }
+            ],
+            "title": "Layout transformations for heap objects using static access patterns",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 16th International Conference on Compiler Construction (CC'07"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karlin",
+                    "given": "Anna R."
+                },
+                {
+                    "family": "Manasse",
+                    "given": "Mark S."
+                },
+                {
+                    "family": "McGeoch",
+                    "given": "Lyle A."
+                },
+                {
+                    "family": "Owicki",
+                    "given": "Susan"
+                }
+            ],
+            "title": "Competitive randomized algorithms for non-uniform problems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1st Annual ACM-SIAM Symposium on Discrete Algorithms (SODA'90). Society for Industrial and Applied Mathematics"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Khanafer",
+                    "given": "Ali"
+                },
+                {
+                    "family": "Kodialam",
+                    "given": "Murali"
+                },
+                {
+                    "family": "Puttaswamy",
+                    "given": "Krishna P.N."
+                }
+            ],
+            "title": "The constrained ski-rental problem and its appli-cation to online cloud cost optimization",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Proceedings IEEE International Conference on Computer Communications (INFOCOM'13"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "Jonghyeon"
+                },
+                {
+                    "family": "Choe",
+                    "given": "Wonkyo"
+                },
+                {
+                    "family": "Ahn",
+                    "given": "Jeongseob"
+                }
+            ],
+            "title": "Exploring the design space of page management for multi-tiered memory systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the USENIX Annual Technical Conference (USENIX ATC'21"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "Yoongu"
+                },
+                {
+                    "family": "Daly",
+                    "given": "Ross"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Jeremie"
+                },
+                {
+                    "family": "Fallin",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Ji Hye"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Donghyuk"
+                },
+                {
+                    "family": "Wilkerson",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Lai",
+                    "given": "Konrad"
+                },
+                {
+                    "family": "Mutlu",
+                    "given": "Onur"
+                }
+            ],
+            "title": "Flipping bits in memory without accessing them: An experimental study of DRAM disturbance errors",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the ACM/IEEE 41st International Symposium on Computer Architecture"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kleen",
+                    "given": "A."
+                }
+            ],
+            "title": "A NUMA API for Linux",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kothe",
+                    "given": "D."
+                },
+                {
+                    "family": "Lee",
+                    "given": "S."
+                },
+                {
+                    "family": "Qualters",
+                    "given": "I."
+                }
+            ],
+            "title": "Exascale computing in the united states",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Sci. Eng"
+            ],
+            "doi": "10.1109/MCSE.2018.2875366",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Laghari",
+                    "given": "Mohammad"
+                },
+                {
+                    "family": "Ahmad",
+                    "given": "Najeeb"
+                },
+                {
+                    "family": "Unat",
+                    "given": "Didem"
+                }
+            ],
+            "title": "Phase-based data placement scheme for heterogeneous memory systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 30th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD'18"
+            ],
+            "doi": "10.1109/CAHPC.2018.",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lang",
+                    "given": "Mike"
+                }
+            ],
+            "title": "SICM",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lattner",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Adve",
+                    "given": "Vikram"
+                }
+            ],
+            "title": "Automatic pool allocation: Improving performance by controlling data structure layout in the heap",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM SIGPLAN Conference on Programming Language Design and Implemen-tation (PLDI'05"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lee",
+                    "given": "Yongjun"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Jongwon"
+                },
+                {
+                    "family": "Jang",
+                    "given": "Hakbeom"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Hyunggyun"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Jangwoo"
+                },
+                {
+                    "family": "Jeong",
+                    "given": "Jinkyu"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Jae W."
+                }
+            ],
+            "title": "A fully associative, tagless DRAM cache",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 42nd Annual International Symposium on Computer Architecture (ISCA'15"
+            ],
+            "doi": "10.1145/2749469.2750383",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lefurgy",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Rajamani",
+                    "given": "Karthick"
+                },
+                {
+                    "family": "Rawson",
+                    "given": "Freeman"
+                },
+                {
+                    "family": "Felter",
+                    "given": "Wes"
+                },
+                {
+                    "family": "Kistler",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Keller",
+                    "given": "Tom W."
+                }
+            ],
+            "title": "Energy management for commercial servers",
+            "type": "article-journal",
+            "container_title": [
+                "Computer"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Y."
+                },
+                {
+                    "family": "Ghose",
+                    "given": "S."
+                },
+                {
+                    "family": "Choi",
+                    "given": "J."
+                },
+                {
+                    "family": "Sun",
+                    "given": "J."
+                },
+                {
+                    "family": "Wang",
+                    "given": "H."
+                },
+                {
+                    "family": "Mutlu",
+                    "given": "O."
+                }
+            ],
+            "title": "Utility-based hybrid memory management",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE International Conference on Cluster Computing (CLUSTER'17"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "given": "L.L.N.L."
+                }
+            ],
+            "title": "CORAL Benchmark Codes",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Loh",
+                    "given": "Gabriel H."
+                },
+                {
+                    "family": "Hill",
+                    "given": "Mark D."
+                }
+            ],
+            "title": "Efficiently enabling conventional block sizes for very large die-stacked DRAM caches",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Manasse",
+                    "given": "Mark S."
+                }
+            ],
+            "title": "Ski Rental Problem",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Menage",
+                    "given": "Paul"
+                }
+            ],
+            "title": "CGROUPS",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Meswani",
+                    "given": "M.R."
+                },
+                {
+                    "family": "Blagodurov",
+                    "given": "S."
+                },
+                {
+                    "family": "Roberts",
+                    "given": "D."
+                },
+                {
+                    "family": "Slice",
+                    "given": "J."
+                },
+                {
+                    "family": "Ignatowski",
+                    "given": "M."
+                },
+                {
+                    "family": "Loh",
+                    "given": "G.H."
+                }
+            ],
+            "title": "Heterogeneous memory architec-tures: A HW/SW approach for mixing die-stacked and off-package memories",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE International Symposium on High Performance Computer Architecture (HPCA'15"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Meza",
+                    "given": "Justin"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Jichuan"
+                },
+                {
+                    "family": "Yoon",
+                    "given": "HanBin"
+                },
+                {
+                    "family": "Mutlu",
+                    "given": "Onur"
+                },
+                {
+                    "family": "Ranganathan",
+                    "given": "Parthasarathy"
+                }
+            ],
+            "title": "Enabling efficient and scalable hybrid memories using fine-granularity DRAM cache management",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Comput. Arch. Lett"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mittal",
+                    "given": "S."
+                },
+                {
+                    "family": "Vetter",
+                    "given": "J.S."
+                }
+            ],
+            "title": "A survey of techniques for architecting DRAM caches",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Parallel. Distrib. Syst"
+            ],
+            "doi": "10.1109/TPDS.2015.2461155",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mukkara",
+                    "given": "Anurag"
+                },
+                {
+                    "family": "Beckmann",
+                    "given": "Nathan"
+                },
+                {
+                    "family": "Sanchez",
+                    "given": "Daniel"
+                }
+            ],
+            "title": "Whirlpool: Improving dynamic cache management with static data classification",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 21st International Conference on Architectural Support for Program-ming Languages and Operating Systems (ASPLOS'16). ACM"
+            ],
+            "doi": "10.1145/2872362.",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mutlu",
+                    "given": "Onur"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Jeremie S."
+                }
+            ],
+            "title": "RowHammer: A retrospective",
+            "type": "article-journal",
+            "container_title": [
+                "Sys"
+            ],
+            "doi": "10.1109/TCAD.2019.2915318",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "N.V.I.D.I.A."
+                }
+            ],
+            "title": "GP100 Pascal Whitepaper",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Obama",
+                    "given": "Barack"
+                }
+            ],
+            "title": "Executive Order-Creating a National Strategic Computing Initiative",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Olson",
+                    "given": "M."
+                },
+                {
+                    "family": "Kammerdiener",
+                    "given": "Brandon"
+                },
+                {
+                    "family": "Jantz",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Doshi",
+                    "given": "Kshitij"
+                },
+                {
+                    "family": "Jones",
+                    "given": "Terry"
+                }
+            ],
+            "title": "Portable application guidance for complex memory systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the International Symposium on Memory Systems"
+            ],
+            "doi": "10.1145/3357526.3357575",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Olson",
+                    "given": "Matthew Benjamin"
+                },
+                {
+                    "family": "Teague",
+                    "given": "Joseph T."
+                },
+                {
+                    "family": "Rao",
+                    "given": "Divyani"
+                },
+                {
+                    "family": "Jantz",
+                    "given": "Michael R."
+                },
+                {
+                    "family": "Doshi",
+                    "given": "Kshitij A."
+                },
+                {
+                    "family": "Kulkarni",
+                    "given": "Prasad A."
+                }
+            ],
+            "title": "Cross-layer memory management to improve DRAM energy efficiency",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Arch. Code Optim"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Olson",
+                    "given": "M.B."
+                },
+                {
+                    "family": "Zhou",
+                    "given": "T."
+                },
+                {
+                    "family": "Jantz",
+                    "given": "M.R."
+                },
+                {
+                    "family": "Doshi",
+                    "given": "K.A."
+                },
+                {
+                    "family": "Lopez",
+                    "given": "M.G."
+                },
+                {
+                    "family": "Hernandez",
+                    "given": "O."
+                }
+            ],
+            "title": "MemBrain: Automated application guidance for hybrid memory systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE International Conference on Networking, Architecture and Storage (NAS'18"
+            ],
+            "doi": "10.1109/NAS.2018.8515694",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "given": "O.R.N.L."
+                }
+            ],
+            "title": "U.S. Department of Energy and Cray to Deliver Record-Setting Frontier Supercomputer at ORNL",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [],
+            "title": "pagemap, from the userspace perspective",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Peng",
+                    "given": "Ivy Bo"
+                },
+                {
+                    "family": "Gioiosa",
+                    "given": "Roberto"
+                },
+                {
+                    "family": "Kestor",
+                    "given": "Gokcen"
+                },
+                {
+                    "family": "Cicotti",
+                    "given": "Pietro"
+                },
+                {
+                    "family": "Laure",
+                    "given": "Erwin"
+                },
+                {
+                    "family": "Markidis",
+                    "given": "Stefano"
+                }
+            ],
+            "title": "RTHMS: A tool for data placement on hybrid memory system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM SIGPLAN International Symposium on Memory Management (ISMM'17"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [],
+            "title": "perf: Linux Profiling with Performance Counters",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Seidl",
+                    "given": "Matthew L."
+                },
+                {
+                    "family": "Zorn",
+                    "given": "Benjamin G."
+                }
+            ],
+            "title": "Segregating heap objects by reference behavior and lifetime",
+            "type": "article-journal",
+            "container_title": [
+                "SIGPLAN Not"
+            ],
+            "doi": "10.1145/291006.291012",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Servat",
+                    "given": "H."
+                },
+                {
+                    "family": "Pe\u00f1a",
+                    "given": "A.J."
+                },
+                {
+                    "family": "Llort",
+                    "given": "G."
+                },
+                {
+                    "family": "Mercadal",
+                    "given": "E."
+                },
+                {
+                    "family": "Hoppe",
+                    "given": "H."
+                },
+                {
+                    "family": "Labarta",
+                    "given": "J."
+                }
+            ],
+            "title": "Automating the application data placement in hybrid memory systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the IEEE International Conference on Cluster Computing (CLUSTER'17"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shuf",
+                    "given": "Yefim"
+                },
+                {
+                    "family": "Gupta",
+                    "given": "Manish"
+                },
+                {
+                    "family": "Franke",
+                    "given": "Hubertus"
+                },
+                {
+                    "family": "Appel",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Singh",
+                    "given": "Jaswinder Pal"
+                }
+            ],
+            "title": "Creating and preserv-ing locality of java applications at allocation and garbage collection times",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 17th ACM SIGPLAN Conference on Object-oriented Programming, Systems, Languages, and Applications (OOPSLA'02"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sim",
+                    "given": "Jaewoong"
+                },
+                {
+                    "family": "Alameldeen",
+                    "given": "Alaa R."
+                },
+                {
+                    "family": "Chishti",
+                    "given": "Zeshan"
+                },
+                {
+                    "family": "Wilkerson",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Hyesoon"
+                }
+            ],
+            "title": "Transparent hard-ware management of stacked DRAM as part of memory",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO-47"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "given": "S.P.E.C."
+                }
+            ],
+            "title": "SPEC CPU 2017",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tsai",
+                    "given": "Po-An"
+                },
+                {
+                    "family": "Beckmann",
+                    "given": "Nathan"
+                },
+                {
+                    "family": "Sanchez",
+                    "given": "Daniel"
+                }
+            ],
+            "title": "Jenga: Software-defined cache hierarchies",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 44th International Symposium on Computer Architecture (ISCA'17). ACM"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Zhenjiang"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Chenggang"
+                },
+                {
+                    "family": "Yew",
+                    "given": "Pen-Chung"
+                },
+                {
+                    "family": "Li",
+                    "given": "Jianjun"
+                },
+                {
+                    "family": "Xu",
+                    "particle": "Di"
+                }
+            ],
+            "title": "On-the-fly structure splitting for heap objects",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Archit. Code Optim"
+            ],
+            "doi": "10.1145/2086696.",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Kai"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Yingchao"
+                },
+                {
+                    "family": "Li",
+                    "given": "Dong"
+                }
+            ],
+            "title": "Unimem: Runtime data managementon non-volatile memory-based het-erogeneous main memory",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC'17). ACM",
+                "Article"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        }
+    ]
+}

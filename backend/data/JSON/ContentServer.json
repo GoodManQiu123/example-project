@@ -1,0 +1,605 @@
+{
+    "metadata": {
+        "title": "Game-based learning. Using board games in adult education*",
+        "doi": null,
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Our paper relies on a literature review type of research and aims to approach several aspects related to game-based learning in the education of adults. The objectives are: to highlight the importance of play and games in human development; to briefly present learning theories that support the use of games in learning; to define the main characteristics of game-based learning; to define board games in relation to adult education -learning outcomes of board games and competences that may be built and developed through board games. This paper is part of the research within an international cooperation project that aims to develop and implement game-based learning in adult education through board games and role plays.",
+        "keywords": [
+            "adult",
+            "play",
+            "education",
+            "competence",
+            "game",
+            "board"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ioana Boghian",
+            "affiliation": "Vasile Alecsandri University of Bac\u04d1u",
+            "email": null
+        },
+        {
+            "name": "Venera-Mihaela Cojocariu",
+            "affiliation": "Vasile Alecsandri University of Bac\u04d1u",
+            "email": null
+        },
+        {
+            "name": "Violeta Carmen",
+            "affiliation": "Vasile Alecsandri University of Bac\u04d1u",
+            "email": null
+        },
+        {
+            "name": "Liliana Popescu",
+            "affiliation": "Vasile Alecsandri University of Bac\u04d1u",
+            "email": null
+        },
+        {
+            "name": "M\u00e2\u0163\u04d1",
+            "affiliation": "Vasile Alecsandri University of Bac\u04d1u",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Anderson",
+                    "given": "O."
+                },
+                {
+                    "family": "B.",
+                    "given": "Anderson"
+                },
+                {
+                    "family": "N.",
+                    "given": "M."
+                },
+                {
+                    "family": "Taylor",
+                    "given": "A."
+                },
+                {
+                    "given": "T."
+                }
+            ],
+            "title": "New Territories in Adult Education: Game-Based Learning for Adult Education",
+            "type": "paper-conference",
+            "container_title": [
+                "InAdult Education Research Conference.http://www.adulterc.org/Proceedings/2009/proceedings/anderson_etal.pdf"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bogost",
+                    "given": "I."
+                }
+            ],
+            "title": "Persuasive games: The expressive power of videogames",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bowman",
+                    "given": "S.L."
+                }
+            ],
+            "title": "The functions of role-playing games: How participants create community, solve problems and explore identity",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Castell",
+                    "given": "S."
+                }
+            ],
+            "title": "Ludic Epistemology: What Game-Based Learning Can Teach Curriculum Studies",
+            "type": "article-journal",
+            "container_title": [
+                "InJournal of the Canadian Association for Curriculum"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cojocariu",
+                    "given": "V.-M."
+                },
+                {
+                    "family": "Boghian",
+                    "given": "I."
+                },
+                {
+                    "family": "Lupu",
+                    "given": "C."
+                },
+                {
+                    "family": "M\u00e2\u0163\u04d1",
+                    "given": "L."
+                },
+                {
+                    "family": "Nedelcu",
+                    "given": "C."
+                },
+                {
+                    "family": "Pu\u015fca\u015fu",
+                    "given": "D."
+                },
+                {
+                    "family": "Savin",
+                    "given": "P."
+                }
+            ],
+            "title": "Jocurididacticeminunate din diferiteizvoareadunate",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cojocariu",
+                    "given": "V.-M."
+                },
+                {
+                    "family": "Boghian",
+                    "given": "I."
+                }
+            ],
+            "title": "Teaching the Relevance of Game-Based Learning to Preschool and Primary Teachers",
+            "type": "article-journal",
+            "container_title": [
+                "InProcedia-Social and Behavioral Sciences"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Charlier",
+                    "given": "N."
+                },
+                {
+                    "family": "Ott",
+                    "given": "M."
+                },
+                {
+                    "family": "Remmelle",
+                    "given": "B."
+                },
+                {
+                    "family": "Whitton",
+                    "given": "N."
+                }
+            ],
+            "title": "Not just for children: game-based learning for older adults",
+            "type": "paper-conference",
+            "container_title": [
+                "InProceedings of the European Conference on Games Based Learning"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Connolly",
+                    "given": "M."
+                },
+                {
+                    "family": "Th.",
+                    "given": "Boyle"
+                },
+                {
+                    "family": "A.",
+                    "given": "E."
+                },
+                {
+                    "family": "MacArthur",
+                    "given": "E."
+                },
+                {
+                    "family": "Hainey",
+                    "given": "Th"
+                },
+                {
+                    "family": "Boyle",
+                    "given": "M."
+                },
+                {
+                    "given": "J."
+                }
+            ],
+            "title": "A systematic literature review of empirical evidence on computer games and serious games",
+            "type": "article-journal",
+            "container_title": [
+                "InComputers & Education"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Copeland",
+                    "given": "T."
+                },
+                {
+                    "family": "Henderson",
+                    "given": "B."
+                },
+                {
+                    "family": "Mayer",
+                    "given": "B."
+                },
+                {
+                    "family": "Nicholson",
+                    "given": "S."
+                }
+            ],
+            "title": "Three different paths for tabletop gaming in school libraries",
+            "type": "article-journal",
+            "container_title": [
+                "InLibrary Trends"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dumitriu",
+                    "given": "C."
+                }
+            ],
+            "title": "Psihopedagogiajocului",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Erhel",
+                    "given": "S."
+                },
+                {
+                    "family": "Jamet",
+                    "given": "E."
+                }
+            ],
+            "title": "Digital game-based learning: Impact of instructions and feedback on motivation and learning effectiveness",
+            "type": "article-journal",
+            "container_title": [
+                "Computers &"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gee",
+                    "given": "J.P."
+                }
+            ],
+            "title": "What video games have to teach us about learning and literacy",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Greenhalgh",
+                    "given": "S.P."
+                }
+            ],
+            "title": "Affordances and constraints of analog games for ethics education: Dilemmas and dragonsExamining the evolution of gaming and its impact on social, cultural and political perspectives",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hinzen",
+                    "given": "H."
+                }
+            ],
+            "title": "Skills and values in adult education and lifelong learning. Comparing commitments, documents and recommendations at global level",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Keesee",
+                    "given": "S."
+                },
+                {
+                    "given": "G."
+                }
+            ],
+            "title": "Educational games",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "literal": "M\u00e2\u021b\u0103, L. &Cojocariu V.-M."
+                }
+            ],
+            "title": "Ghid de elaborare a jocului didactic",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McGonigal",
+                    "given": "J."
+                }
+            ],
+            "title": "Reality is broken: Why games make us better and how they can change the world",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Milczynski",
+                    "given": "K.A."
+                }
+            ],
+            "title": "Literature Review: Effectiveness of Gaming in the Classroom",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Paczy\u0144ska-J\u0119drycka",
+                    "given": "M."
+                }
+            ],
+            "title": "Outdoor games and playtime versus social competences of children and youth",
+            "type": "article-journal",
+            "container_title": [
+                "InHANDEL WEWN\u0118TRZNY"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Popescu",
+                    "given": "C.-V."
+                }
+            ],
+            "title": "Web 2 resources for teaching Matlab",
+            "type": "chapter",
+            "container_title": [
+                "Social Media in Academia: Reseach and Teaching"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Prensky",
+                    "given": "M."
+                }
+            ],
+            "title": "Fun, Play and Games: What Makes Games Engaging",
+            "type": "chapter",
+            "container_title": [
+                "Digital Game-Based Learning"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rugelj",
+                    "given": "J."
+                }
+            ],
+            "title": "Games and Learning",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rugelj",
+                    "given": "J."
+                },
+                {
+                    "family": "Jedrinovi\u0107",
+                    "given": "S."
+                },
+                {
+                    "family": "Bev\u010di\u010d",
+                    "given": "M."
+                }
+            ],
+            "title": "A comprehensive model of a cooperative role-playing game",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rugelj",
+                    "given": "J."
+                }
+            ],
+            "title": "Serious Computer Games Design for Active Learning in Teacher Education",
+            "type": "article-journal",
+            "container_title": [
+                "LNICST"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rugelj",
+                    "given": "J."
+                }
+            ],
+            "title": "Serious computer games in computer science education",
+            "type": "article-journal",
+            "container_title": [
+                "EAI Endorsed Transactions on Serious Games"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Squire",
+                    "given": "K."
+                }
+            ],
+            "title": "Video games and learning: Teaching and participatory culture in the digital age",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Staudt Willet",
+                    "given": "K.B."
+                },
+                {
+                    "family": "Moudgalya",
+                    "given": "S.K."
+                },
+                {
+                    "family": "Owens Boltz",
+                    "given": "L."
+                },
+                {
+                    "family": "Greenhalgh",
+                    "given": "S.P."
+                },
+                {
+                    "family": "Koehler",
+                    "given": "M.J."
+                }
+            ],
+            "title": "Back to the Gaming Board: Understanding Games and Education through Board Game Reviews",
+            "type": "paper-conference",
+            "container_title": [
+                "Conference paper presented at SITE 2018 Conference"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Treher",
+                    "given": "N.E."
+                }
+            ],
+            "title": "Learning with Board Games. The Learning Key Inc",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Whitton",
+                    "given": "N."
+                }
+            ],
+            "title": "The place of game-based learning in an age of austerity.Electronic",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of E-Learning"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zalka",
+                    "given": "C.V."
+                }
+            ],
+            "title": "Adventures in the Classroom: Creating Role-Playing Games Based on Traditional Stories for the High School Curriculum\"",
+            "type": "chapter",
+            "container_title": [
+                "Electronic Theses and Dissertations.Paper 1469"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [],
+            "title": "*** Recommendation of the European Parliament and of the Council of 18 December 2006 on key competences for lifelong learning (2006/962/ECThe European Parliament and the Council of the European Union",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        }
+    ]
+}

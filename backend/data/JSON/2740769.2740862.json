@@ -1,0 +1,109 @@
+{
+    "metadata": {
+        "title": "Data Mapping Framework in a Digital Library with Computational Epidemiology Datasets",
+        "doi": "10.1145/1542275.1542336",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Computational epidemiology employs computer models and informatics tools to reason about the spatio-temporal spread of diseases. The diversity of models, data sources, data representations, and modalities that are collected, used, and modified motivate the development of a digital library (DL) framework to support computational epidemiology. The heterogeneous content includes metadata, text, tables, spreadsheets, experimental descriptions, and large result files. There is no accepted framework that allows unified access to such content. We propose a framework for a digital library system tailored to such datasets to support computational network epidemiology.",
+        "keywords": [
+            "datasets",
+            "data",
+            "library",
+            "simulation",
+            "system",
+            "epidemiology",
+            "digital",
+            "mapping",
+            "framework",
+            "computational"
+        ]
+    },
+    "authors": [
+        {
+            "name": "S M Shamimul Hasan",
+            "affiliation": "Department of Computer Science",
+            "email": null
+        },
+        {
+            "name": "Sandeep Gupta",
+            "affiliation": "Network Dynamics and Simulation Science Laboratory",
+            "email": "sandeep@vbi.vt.edu"
+        },
+        {
+            "name": "Edward A Fox",
+            "affiliation": "Department of Computer Science",
+            "email": "fox@vt.edu"
+        },
+        {
+            "name": "Keith Bisset",
+            "affiliation": "Network Dynamics and Simulation Science Laboratory",
+            "email": "kbisset@vbi.vt.edu"
+        },
+        {
+            "name": "Madhav V Marathe",
+            "affiliation": "Department of Computer Science",
+            "email": "mmarathe@vbi.vt.edu"
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "Interface to synthetic information systems (ISIS",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bisset",
+                    "given": "K.R."
+                },
+                {
+                    "family": "Chen",
+                    "given": "J."
+                },
+                {
+                    "family": "Feng",
+                    "given": "X."
+                },
+                {
+                    "family": "Kumar",
+                    "given": "V.A."
+                },
+                {
+                    "family": "Marathe",
+                    "given": "M.V."
+                }
+            ],
+            "title": "Epifast: A fast algorithm for large scale realistic epidemic simulations on distributed memory systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 23rd International Conference on Supercomputing, ser. ICS '09"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bizer",
+                    "given": "C."
+                },
+                {
+                    "family": "Cyganiak",
+                    "given": "R."
+                }
+            ],
+            "title": "D2R Server -publishing relational databases on the semantic web",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2006"
+        }
+    ]
+}

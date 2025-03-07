@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_MNj84V2" coord="1,102.44,67.97,421.00,15.98;1,232.42,86.71,161.00,15.98">Position paper: Towards a codelet-based runtime for exascale computing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,254.08,129.50,117.68,10.79"><forename type="first">Christopher</forename><surname>Lauderdale</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">ET International, Inc.</note>
+								<orgName type="institution">ET International, Inc</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,285.73,144.50,54.38,10.79"><forename type="first">Rishi</forename><surname>Khan</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">ET International, Inc.</note>
+								<orgName type="institution">ET International, Inc</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_apXSjSw" coord="1,102.44,67.97,421.00,15.98;1,232.42,86.71,161.00,15.98">Position paper: Towards a codelet-based runtime for exascale computing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A19BD18FAF17FBDE32430788FAEC0F92</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-19T00:00+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_B5RCjbd">D.1.3 [Concurrent Programming]: Parallel Programming exascale</term>
+					<term xml:id="_VaSxdmA">many-core</term>
+					<term xml:id="_Sg6JS75">parallel</term>
+					<term xml:id="_c3QxM8r">program execution model</term>
+					<term xml:id="_PEsZNu5">dynamic</term>
+					<term xml:id="_afhmh25">adaptive</term>
+					<term xml:id="_THU46gc">runtime</term>
+					<term xml:id="_86uueHK">codelet</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_Hb9s8JF"><p xml:id="_nqAkFDc"><s xml:id="_ebnFbxD" coords="1,76.73,210.67,224.95,8.44;1,76.73,220.51,224.96,8.44;1,76.73,230.36,225.00,8.44;1,76.73,240.20,43.47,8.44">Computing systems have reached the performance limits attainable by increasing clock rates and complexity, and are now using increased thread-level parallelism and heterogeneity instead.</s><s xml:id="_Bb2MA8y" coords="1,127.20,240.20,174.48,8.44;1,76.73,250.04,224.96,8.43;1,76.73,259.88,224.94,8.44;1,76.73,269.72,224.94,8.44;1,76.73,279.56,224.96,8.44;1,76.73,289.41,137.35,8.44">Existing software typically deals poorly with large-scale or heterogeneous computer systems, relying on multiple poorly interacting or special-purpose software interfaces to approach scaling/heterogeneity; attempting to use these approaches on future computers (especially at exascale) will only make matters worse.</s></p><p xml:id="_dycwNGb"><s xml:id="_YTD2m9e" coords="1,85.17,299.25,216.50,8.44;1,76.73,309.09,224.99,8.44;1,76.73,318.93,224.93,8.44;1,76.73,328.77,189.33,8.44">To solve this problem, software components may be broken up into pieces, called "codelets", that can be dynamically scheduled without reliance on binding to any one thread or hardware component in relation to other codelets.</s><s xml:id="_Hz4wF4R" coords="1,269.87,328.77,31.82,8.44;1,76.73,338.61,224.96,8.44;1,76.73,348.45,224.97,8.44;1,76.73,358.30,224.97,8.44;1,76.73,368.14,178.80,8.44">By placing a supporting runtime layer between the system interface and codelet-based application, a very high degree of parallelism can be exposed, scaled, and scheduled to use the available hardware efficiently and intelligently.</s><s xml:id="_b2A9W76" coords="1,261.87,368.14,39.84,8.44;1,76.73,377.97,224.94,8.44;1,76.73,387.82,224.95,8.44;1,76.73,397.66,29.63,8.44">A codeletbased runtime can be used to create a clear path forward to exascale, as well as to deal with computing challenges in the interim.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_DrfE6vG">INTRODUCTION 1.1 Motivation</head><p xml:id="_QZz87hm"><s xml:id="_N5ypDWa" coords="1,85.17,544.33,216.52,8.43;1,76.73,554.17,224.99,8.43">Present-day computer systems have reached limits in the performance attainable using coarse-grained parallelism.</s><s xml:id="_FQqkQ4c" coords="1,76.73,564.01,224.94,8.43;1,76.73,573.85,224.94,8.43;1,324.17,197.08,75.16,8.44">Due to fundamental physical limitations, increased CPU clock rate is no longer the primary means by which to boost performance.</s><s xml:id="_EsAB2Va" coords="1,410.27,197.08,138.94,8.44;1,324.17,206.92,224.96,8.44;1,324.17,216.77,225.00,8.44;1,324.17,226.61,224.98,8.44;1,324.17,236.45,47.24,8.44">Processors can extract instructionlevel parallelism to help overcome this limitation <ref type="bibr" coords="1,516.52,206.92,12.71,8.44" target="#b13">[13]</ref>, but this requires increased chip complexity, which increases power usage and reduces available chip space for other components.</s><s xml:id="_ZWQxCwM" coords="1,381.20,236.45,167.93,8.44;1,324.17,246.29,224.95,8.44;1,324.17,256.13,225.00,8.44;1,324.17,265.97,107.15,8.44">Contemporary computers are thus coming to rely more heavily on thread-level parallelism, using a larger number of simpler, lower-power cores to replace fewer complex, higher-power ones.</s><s xml:id="_6Q29697" coords="1,435.43,265.97,113.72,8.44;1,324.17,275.81,224.97,8.44;1,324.17,285.66,224.99,8.44;1,324.17,295.50,224.99,8.44;1,324.17,305.34,204.90,8.44">As core counts increase, small on-chip local memories, whether explicitly addressable or hardware-managed, have also become necessary to reduce the latency and power usage otherwise incurred by large numbers of cores accessing shared system memory.</s><s xml:id="_VmGqRwY" coords="1,539.27,305.34,9.87,8.44;1,324.17,315.18,224.98,8.44;1,324.17,325.02,225.01,8.44;1,324.17,334.86,71.07,8.44">To reach exascale, these local memories will need to be less coherent or under stricter software control than most caches in current use <ref type="bibr" coords="1,379.36,334.86,12.71,8.44" target="#b16">[16]</ref>.</s></p><p xml:id="_pd6hcDf"><s xml:id="_2kAHUgr" coords="1,332.61,344.71,216.56,8.44;1,324.17,354.55,224.97,8.44;1,324.17,364.39,225.00,8.44;1,324.17,374.23,73.14,8.44">Heterogeneity is also increasingly common in computers, as architectures with differing capabilities and requirements (e.g., CPUs, GPUs/GPGPUs, and FPGAs) are mixed together more freely.</s><s xml:id="_8MhweeV" coords="1,404.96,374.23,144.21,8.44;1,324.17,384.07,224.93,8.44;1,324.17,393.91,192.73,8.44">Effectively utilizing and coordinating disparate components is a difficult matter, and typically involves use of special APIs for non-CPU components.</s><s xml:id="_S8T3nzP" coords="1,520.37,393.91,28.76,8.44;1,324.17,403.76,224.96,8.44;1,324.17,413.60,224.94,8.44;1,324.17,423.44,224.95,8.44;1,324.17,433.28,112.21,8.44">Dealing with dynamic loads on these components that arise during parallel computation is also difficult, since work must typically have been statically partitioned in order to use the components in the first place.</s></p><p xml:id="_YNhdeBW"><s xml:id="_msR7dbd" coords="1,332.61,443.12,216.50,8.44;1,324.17,452.96,224.95,8.44;1,324.17,462.80,224.95,8.44;1,324.17,472.65,224.98,8.44;1,324.17,482.49,224.98,8.44;1,324.17,492.33,98.57,8.44">Unfortunately, contemporary software is generally illequipped to deal well with the hardware features of today's computers and even more poorly equipped to deal with exascale parallelism and memory structure, due in large part to reliance on traditional sequential processing and coherent memory models.</s><s xml:id="_2mh5Kgt" coords="1,428.80,492.33,120.33,8.44;1,324.17,502.17,224.97,8.44;1,324.17,512.01,224.97,8.43;1,324.17,521.85,224.98,8.43;1,324.17,531.70,181.73,8.43">Interfaces like OpenMP <ref type="bibr" coords="1,523.37,492.33,9.14,8.44">[7]</ref> can ease a transition to multithreading, but software threads require enough memory, management overhead, and centralization that they may not be practical in their present form as larger-scale systems become prevalent.</s><s xml:id="_Nh8b5wP" coords="1,512.73,531.70,36.44,8.44;1,324.17,541.53,225.01,8.43;1,324.17,551.37,224.95,8.43;1,324.17,561.21,224.97,8.43;1,324.17,571.06,224.94,8.43;1,324.17,580.90,65.69,8.43">Interfaces like MPI <ref type="bibr" coords="1,358.69,541.53,13.48,8.43" target="#b11">[11]</ref> and SHMEM <ref type="bibr" coords="1,426.02,541.53,9.14,8.43" target="#b4">[4]</ref> make it possible to coordinate explicit data transfer across a cluster, but make it difficult to deal well with the dynamic cross-cluster load presented by many programs, leading to under-or mis-utilization of computing resources.</s><s xml:id="_5TPGGaT" coords="1,398.23,580.90,150.93,8.43;1,324.17,590.74,224.99,8.43;1,324.17,600.58,224.98,8.43;1,324.17,610.42,60.76,8.43">Furthermore, inter-process/-node APIs like MPI interact poorly (or not at all) with multithreading interfaces, forcing threads, like nodes, to statically partition their workloads.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2" xml:id="_hQgywH7">Proposed solution</head><p xml:id="_ztAXATv"><s xml:id="_2DVDByw" coords="1,332.61,639.01,216.49,8.43;1,324.17,648.85,225.01,8.43;1,324.17,658.69,174.60,8.43">One of the problems underlying the above is that it can be difficult to expose enough parallelism in load-imbalanced programs to keep computing resources busy.</s><s xml:id="_PbEw7Ah" coords="1,506.71,658.69,42.43,8.43;1,324.17,668.53,225.00,8.43;2,76.73,53.69,224.94,8.44;2,76.73,63.53,224.98,8.43;2,76.73,73.37,224.91,8.44;2,76.73,83.20,172.96,8.44">This stems partly from the overhead inherent in creating and switch-ing between threads; typically the operating system (OS) and/or several layers of system library must be involved, limiting the potential benefits of thread use in handling operations of unknown/unpredictable duration.</s><s xml:id="_MrSrR2n" coords="2,256.26,83.20,45.44,8.44;2,76.73,93.05,224.95,8.44;2,76.73,102.89,225.02,8.44;2,76.73,112.73,224.95,8.44;2,76.73,122.58,197.01,8.44">In addition, neither the OS nor threading software can accurately observe or react to the small-scale behavior of a long-running software thread without either imposing unacceptable overhead or undue hardship on software programmers.</s><s xml:id="_G5Fm3yP" coords="2,280.50,122.58,21.21,8.44;2,76.73,132.42,224.95,8.44;2,76.73,142.25,224.93,8.44;2,76.73,152.10,224.98,8.44;2,76.73,161.94,171.74,8.44">Interposition of a software runtime layer between the OS and application allows the application to quickly and easily expose parallelism and while the runtime manages scheduling and placement of application components <ref type="bibr" coords="2,236.92,161.94,8.66,8.44" target="#b9">[9]</ref>.</s></p><p xml:id="_ZvcbBQX"><s xml:id="_bTwUQ6B" coords="2,85.17,171.78,216.53,8.44;2,76.73,181.63,224.98,8.44;2,76.73,191.46,224.95,8.44;2,76.73,201.30,63.73,8.44">An execution model that allows an application to describe finer-grained units of work will also be necessary, so that as much of an application as is ready to run can do so as soon as possible.</s><s xml:id="_esqeT8J" coords="2,145.75,201.30,155.94,8.44;2,76.74,211.14,224.98,8.44;2,76.74,220.99,224.95,8.44;2,76.74,230.83,224.95,8.44;2,76.74,240.67,155.78,8.44">Codelets, the fundamental unit of work considered in the model described by this paper, are small pieces of an application that can run to completion without blocking, and that explicitly suspend and resume execution if necessary to avoid running indefinitely.</s></p><p xml:id="_DAtjDvw"><s xml:id="_neTfhsZ" coords="2,85.17,250.51,216.53,8.44;2,76.74,260.35,224.95,8.44;2,76.74,270.19,224.98,8.44;2,76.74,280.04,224.96,8.44;2,76.74,289.88,188.27,8.44">One of the goals of a software runtime for exascale must be to minimize and hide long-latency memory accesses, which cause delays both from the accesses themselves and contention for bandwidth, and which increase power usage by engaging additional communications components.</s><s xml:id="_tANxdNb" coords="2,269.13,289.88,32.55,8.44;2,76.74,299.72,224.99,8.44;2,76.74,309.56,224.94,8.44;2,76.74,319.40,224.96,8.44;2,76.74,329.24,113.69,8.44">Codelets make it easier to coordinate access to distant and contentious memory so that application components can trigger as required data become available, rather than stalling threads during a long-latency accesses.</s><s xml:id="_AmazFBy" coords="2,194.00,329.24,107.70,8.44;2,76.74,339.08,224.96,8.44;2,76.74,348.93,52.94,8.44">(This allows the runtime system to step in where hardware caches would be used on fewcore systems.)</s><s xml:id="_P94DS6Y" coords="2,133.35,348.93,168.35,8.44;2,76.74,358.77,224.95,8.44;2,76.74,368.61,224.99,8.44;2,76.73,378.45,224.94,8.44;2,76.73,388.29,224.94,8.44;2,76.73,398.13,187.14,8.44">Using the runtime layer for nonlocal memory access also makes it possible to transparently route object accesses into other address spaces without (e.g.) hardwareand latency-intensive virtual memory tricks, and makes it possible for the runtime to intelligently place codelet execution based on the locations of input/output data.</s></p><p xml:id="_k3xUCS8"><s xml:id="_vKrGDcP" coords="2,85.17,407.98,216.52,8.44;2,76.73,417.82,224.96,8.44;2,76.73,427.66,224.99,8.44;2,76.73,437.50,224.94,8.44;2,76.73,447.34,224.99,8.44;2,76.73,457.18,29.19,8.44">An additional component of the solution to the challenges arising from exascale computing is the use of locales, which give a high-level description of available hardware components and provide an interface whereby an application may schedule codelets to run, allocate memory, and exchange objects.</s><s xml:id="_EARHJWe" coords="2,111.22,457.18,190.48,8.44;2,76.73,467.02,224.97,8.44;2,76.73,476.87,195.39,8.44">Such an interface allows an application to specify precisely or generally where a codelet should run or where an object should reside in memory, when necessary.</s><s xml:id="_NVxz8Wc" coords="2,85.17,486.71,216.53,8.44;2,76.73,496.55,224.94,8.44;2,76.73,506.39,224.94,8.44;2,76.73,516.23,224.95,8.43;2,76.73,526.07,224.96,8.43;2,76.73,535.92,224.99,8.43;2,76.73,545.76,114.42,8.43">SWARM (SWift Adaptive Runtime Machine) is an experimental codelet runtime that implements the ideas presented in this paper, with the aim of allowing applications to run well on single-, few-, or many-core computers, as well as allowing the application to transparently migrate across compute clusters or wider-area networks and between different kinds of computing hardware.</s><s xml:id="_urBmq3c" coords="2,196.44,545.76,105.29,8.43;2,76.73,555.60,224.99,8.43;2,76.73,565.44,162.19,8.43">This will allow applications to scale much more easily and widely, and makes a straightforward software path to exascale possible.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_K5nnYg8">THE CODELET EXECUTION MODEL</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_Fftcrej">Abstract machine model</head><p xml:id="_35TNKbY"><s xml:id="_rv4e5Re" coords="2,85.17,619.34,216.53,8.43;2,76.73,629.17,224.94,8.43;2,76.73,639.01,224.98,8.43;2,76.73,648.86,201.07,8.43">In this paper, an application is assumed to be running on one or more compute nodes in a compute cluster, all of which have separate memory address spaces and communicate solely through a bus or network interconnect.</s><s xml:id="_WHxCwCt" coords="2,283.03,648.86,18.67,8.44;2,76.73,658.70,224.95,8.43;2,76.73,668.54,225.01,8.43;2,324.17,327.75,224.99,8.44;2,324.17,337.59,37.00,8.44">Each node has one or more CPUs with some amount of DRAM shared amongst them and may have accelerators, coproces- sors, or other peripherals attached, all connected via a nodewide bus.</s><s xml:id="_gwHN55n" coords="2,368.96,337.59,180.21,8.44;2,324.17,347.43,175.20,8.44">Each CPU chip or peripheral may have some amount of local addressable memory attached.</s><s xml:id="_GTTzHhx" coords="2,503.09,347.43,46.05,8.44;2,324.17,357.27,224.96,8.44;2,324.17,367.11,224.95,8.44;2,324.17,376.95,51.34,8.44">A CPU chip contains one or more cores on it, each of which may timemultiplex its execution units amongst one or more hardware threads.</s><s xml:id="_XFpapPf" coords="2,380.61,376.95,168.51,8.44;2,324.17,386.79,224.94,8.44;2,324.17,396.64,199.06,8.44">Cores may be grouped into various levels of a communications hierarchy within the chip, and each core or group may have local memory associated with it.</s><s xml:id="_39gdJJD" coords="2,527.87,396.64,21.27,8.44;2,324.17,406.47,224.94,8.44;2,324.17,416.31,79.05,8.44">Cores within a group or CPU chip may be heterogeneous, as may a node's CPU chips.</s><s xml:id="_wMHQWJg" coords="2,409.12,416.31,140.04,8.44;2,324.17,426.16,203.13,8.44">Figure <ref type="figure" coords="2,437.14,416.31,4.33,8.44" target="#fig_0">1</ref> illustrates the relationships between hardware components in the machine model.</s></p><p xml:id="_Bcurdns"><s xml:id="_8hTsdTP" coords="2,332.61,436.00,216.53,8.44;2,324.17,445.84,224.98,8.44;2,324.17,455.69,89.59,8.44">For the purposes of this paper, more local memories are assumed to be smaller and have lower access latency than more remote memories.</s><s xml:id="_8DPvaZd" coords="2,418.92,455.69,130.30,8.44;2,324.17,465.52,224.94,8.44;2,324.17,475.36,82.60,8.44">Caches and other non-addressable memories will not be considered, although they tend to follow the same pattern.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_Up5cQQy">Abstract program model</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1" xml:id="_d7fgTVU">Codelets</head><p xml:id="_VnhAPvR"><s xml:id="_DrHxXDg" coords="2,332.61,525.21,216.51,8.43;2,324.17,535.06,224.97,8.43">A codelet acts as the fundamental unit of scheduling and execution for a codelet runtime, and comprises the following:</s></p><p xml:id="_CFprak8"><s xml:id="_tfvh8Td" coords="2,336.71,551.97,212.42,8.44;2,345.26,561.80,161.30,8.43">• A run fork, which describes work to be performed in order to advance the state of the program.</s></p><p xml:id="_AXWHFZ7"><s xml:id="_4fUZQAM" coords="2,336.71,575.34,212.44,8.44;2,345.26,585.18,142.37,8.43">• An optional cancel fork, which describes how to back out program state in case of an error.</s></p><p xml:id="_Q25RZuB"><s xml:id="_eENvvKQ" coords="2,336.71,598.72,212.40,8.44;2,345.26,608.56,189.31,8.43">• A description of the expected type of context frame (if any) used to store the codelet's state information.</s></p><p xml:id="_w3dV2sQ"><s xml:id="_eh3G2w9" coords="2,336.71,622.10,212.38,8.44;2,345.26,631.94,83.72,8.43">• A description of the type of input data (if any) expected by the codelet.</s></p><p xml:id="_pT9J5ae"><s xml:id="_kbSbdj3" coords="2,324.17,648.85,224.98,8.43;2,324.17,658.69,224.99,8.43;2,324.17,668.53,77.75,8.43">Codelets are represented within a codelet runtime as small descriptor objects referencing run/cancel fork functions and context/input types.</s><s xml:id="_Az756eN" coords="3,85.17,251.36,169.80,8.44">By itself, a codelet is not ready to execute.</s><s xml:id="_YBxr7UP" coords="3,261.32,251.36,40.36,8.44;3,76.73,261.20,224.95,8.44;3,76.73,271.04,224.98,8.44;3,76.73,280.88,224.96,8.44;3,76.73,290.72,224.96,8.44;3,76.73,300.57,224.96,8.44;3,76.73,310.41,39.53,8.44">A codelet instance may be created by associating a codelet with a context frame, and an enabled codelet instance additionally has associated input data for the run fork or error data for the cancel fork, as well as a chain instance which describes further work to be started once the codelet's work completes.</s><s xml:id="_PkTntyg" coords="3,123.13,310.41,178.54,8.44;3,76.73,320.25,224.94,8.44;3,76.73,330.08,163.45,8.44">The chain instance may be used to provide a communications path back to whatever started the codelet, and will be discussed in more detail in Sec.</s><s xml:id="_77kX8Tw" coords="3,243.06,330.08,20.22,8.44">2.2.2.</s></p><p xml:id="_fBJBKWD"><s xml:id="_wbFt6JH" coords="3,85.17,339.93,216.52,8.44;3,76.73,349.77,224.94,8.44;3,76.73,359.61,224.96,8.44;3,76.73,369.45,133.73,8.44">A ready codelet instance is an enabled instance that has been registered with a scheduler so that it may be dispatched and selected for execution, at which time the codelet instance will be considered active.</s><s xml:id="_2rF2Cq7" coords="3,216.01,369.45,85.67,8.44;3,76.73,379.29,224.98,8.44;3,76.73,389.13,224.94,8.44;3,76.73,398.98,224.98,8.44;3,76.73,408.82,164.88,8.44">An active codelet executes until completion, barring special runtime or operating system measures taken to preempt or block it, although the runtime may allow it to explicitly place itself in a suspended state and let other codelets run in its place.</s><s xml:id="_5bftERK" coords="3,245.40,408.82,56.30,8.44;3,76.73,418.65,224.96,8.44;3,76.73,428.50,120.87,8.44">Figure <ref type="figure" coords="3,272.60,408.82,4.33,8.44" target="#fig_1">2</ref> shows the states a codelet instance may attain and the additional data associated with each state.</s></p><p xml:id="_duHN4ME"><s xml:id="_PkSvMpM" coords="3,85.17,438.34,216.51,8.44;3,76.73,448.18,166.41,8.44">When executing, a codelet should not block, engage in long-latency operations, or run indefinitely.</s><s xml:id="_5MZngZP" coords="3,248.88,448.18,52.81,8.44;3,76.73,458.02,224.97,8.44;3,76.73,467.86,224.95,8.44;3,76.73,477.70,224.95,8.44">A codelet has exclusive use of its hardware thread during execution, and without runtime-/OS-layer preemption, any other codelets are unable to use that thread until the codelet completes.</s><s xml:id="_cYGhhgK" coords="3,76.73,487.54,224.94,8.44;3,76.73,497.39,224.94,8.44;3,76.73,507.23,224.96,8.43;3,76.73,517.07,224.96,8.43;3,76.73,526.91,224.95,8.43;3,76.73,536.75,102.03,8.43">To perform a long-latency or blocking operation, a codelet should start it asynchronously and register a codelet instance to be executed upon completion; the operation may then be carried out in the background by other software/hardware layers while the codelet's thread is ceded to the runtime in the interim.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2" xml:id="_HqdvwBS">Codelet complexes and chaining</head><p xml:id="_JxkkPvJ"><s xml:id="_QjuWm3G" coords="3,85.17,570.11,216.52,8.43;3,76.73,579.95,197.45,8.43">A codelet complex is an ad-hoc group of one or more codelets that work together to complete some task.</s><s xml:id="_E6UyMSK" coords="3,279.46,579.95,22.22,8.44;3,76.73,589.80,224.95,8.43;3,76.73,599.64,74.36,8.43">These codelets will typically share a context, and may run sequentially or in parallel.</s><s xml:id="_GUWA5Vu" coords="3,155.87,599.64,145.81,8.43;3,76.73,609.47,224.95,8.43;3,76.73,619.32,224.98,8.43;3,76.73,629.16,224.95,8.43;3,76.73,639.00,98.92,8.43">To start a codelet complex, an initiator causes an entry codelet for the complex to be readied, passing the entry codelet appropriate context and input data, and optionally passing a chain instance referring back to the initiator's complex.</s><s xml:id="_ZvWJ8dU" coords="3,179.95,639.00,121.71,8.43;3,76.73,648.84,224.98,8.43;3,76.73,658.68,224.94,8.43;3,76.73,668.52,208.44,8.43">If the complex involves multiple codelets, the entry codelet typically spills this information into a private context frame for later use; if the complex involves only one codelet, no private context is needed.</s></p><p xml:id="_rmcthHn"><s xml:id="_MkdZerb" coords="3,332.61,53.68,216.50,8.44;3,324.17,63.52,211.69,8.44">The chain instance passed into a codelet complex is typically used to effect communications with its initiator.</s><s xml:id="_deHRC7s" coords="3,542.60,63.52,6.49,8.44;3,324.17,73.36,224.96,8.44;3,324.17,83.20,125.41,8.44">A complex may chain by running or canceling the chain instance it was given at initiation.</s><s xml:id="_yHyqBnU" coords="3,455.39,83.20,93.76,8.44;3,324.16,93.04,224.94,8.44;3,324.16,102.88,224.97,8.44;3,324.17,112.72,224.94,8.44;3,324.17,122.57,43.60,8.44">Running it (i.e., causing execution of its run fork) indicates successful completion of the complex's operation; canceling it (i.e., causing execution of its cancel fork) indicates that the operation resulted in an error.</s><s xml:id="_7tjBMfk" coords="3,372.62,122.57,176.53,8.44;3,324.17,132.41,224.95,8.44;3,324.17,142.24,118.00,8.44">By convention, any chain instance passed into a complex must be run or canceled exactly once before the complex's execution completes.</s></p><p xml:id="_z6SScHv"><s xml:id="_yTBBXqz" coords="3,332.61,152.09,139.76,8.44">Chaining has several important uses:</s></p><p xml:id="_jPXe2YU"><s xml:id="_kFhVtkV" coords="3,336.70,167.51,155.89,8.44">• Destruction of input/error parameters.</s><s xml:id="_zMzyd6X" coords="3,496.61,167.51,52.53,8.44;3,345.26,177.35,203.86,8.44;3,345.26,187.19,203.89,8.44">Chaining provides a means by which a complex's initiator can release the memory associated with input/error data.</s><s xml:id="_36HZrzE" coords="3,345.26,197.03,203.87,8.44;3,345.26,206.87,35.20,8.44">(Chaining thus invalidates a complex's input/error parameter.)</s></p><p xml:id="_CZfeYan"><s xml:id="_j3pt4By" coords="3,336.70,219.79,89.69,8.44">• Return value passing.</s><s xml:id="_Sptwtx5" coords="3,430.09,219.79,119.05,8.44;3,345.26,229.63,203.85,8.44;3,345.26,239.48,203.86,8.44;3,345.26,249.32,92.96,8.43">If a complex behaves like a subroutine, it can use chaining to indicate completion of the subroutine and pass a return value to its initiator via the input parameter.</s><s xml:id="_ed3cmpt" coords="3,442.01,249.32,107.10,8.43;3,345.26,259.16,203.89,8.44;3,345.26,269.01,203.89,8.44;3,345.26,278.84,184.10,8.44">If the initiator needs to pass such a return value directly out to its own initiator, it can effect tail-call-like behavior by passing a higherlevel chain instance into the complex it initiates.</s></p><p xml:id="_7Sd5mNh"><s xml:id="_svQs8jc" coords="3,336.70,291.76,119.94,8.44">• Bidirectional communication.</s><s xml:id="_ms8sTfn" coords="3,460.71,291.76,88.40,8.44;3,345.26,301.60,203.91,8.44;3,345.26,311.45,168.03,8.44">Two complexes can enter into an arbitrarily long "conversation" by passing secondary chain instances during chaining.</s><s xml:id="_zpZsmXz" coords="3,521.92,311.45,27.19,8.44;3,345.26,321.29,203.89,8.44;3,345.26,331.13,203.88,8.44;3,345.26,340.97,203.87,8.44">This is merely an extension of subroutine-like behavior, and allows producer-consumer and coroutine-like semantics to be implemented within the same framework.</s><s xml:id="_z47JtaE" coords="3,345.26,350.81,203.85,8.44;3,345.26,360.65,97.29,8.44">This also enables unification of inter-node and intercomplex communications.</s></p><p xml:id="_HxUQtfE"><s xml:id="_pHnwUeQ" coords="3,336.70,373.57,104.97,8.44">• Extended error handling.</s><s xml:id="_UBaHV9W" coords="3,447.23,373.57,101.90,8.44;3,345.26,383.42,203.89,8.44;3,345.26,393.26,203.86,8.44;3,345.26,403.10,203.89,8.44;3,345.26,412.95,87.16,8.44">If a faulting operation can be resumed, a secondary chain instance can be passed from a complex to its chain codelet's cancel fork; the secondary instance can be run or canceled to resume or abort the operation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3" xml:id="_XE3jU6W">Interoperability between codelets and functions</head><p xml:id="_aPa9ed9"><s xml:id="_dtguZzc" coords="3,332.61,452.01,216.54,8.44;3,324.16,461.86,224.99,8.44;3,324.16,471.70,224.99,8.44;3,324.16,481.54,58.59,8.44">Most present-day architectures use a program stack for storage of activation records, and although use of codelets does not necessitate use of a stack, neither does it conflict with stack use.</s><s xml:id="_Cn7BJbn" coords="3,389.87,481.54,159.27,8.44;3,324.16,491.39,224.95,8.44;3,324.16,501.22,224.95,8.44;3,324.16,511.06,56.40,8.43">For example, if run and cancel forks are implemented as functions, they can be called on the program stack by the runtime, and may in turn call other functions normally.</s><s xml:id="_RsHGukx" coords="3,384.45,511.06,164.67,8.43;3,324.16,520.91,224.94,8.43;3,324.16,530.75,224.94,8.43;3,324.16,540.59,224.96,8.43;3,324.16,550.43,22.69,8.43">The fork functions or their callees may also quickly suspend their execution and call back into the runtime scheduler, allowing other codelets' fork functions to run on the thread and use the remainder of the available stack space.</s><s xml:id="_KWARE8e" coords="3,350.39,550.43,198.75,8.43;3,324.16,560.27,224.98,8.43;3,324.16,570.11,224.96,8.43;3,324.16,579.95,73.74,8.43">Platform-native exception handling may also be used, although a codelet runtime should catch exceptions escaping from run/cancel forks so that they don't propagate into the rest of the runtime.</s></p><p xml:id="_jDPgrEn"><s xml:id="_6ARgukT" coords="3,332.61,589.80,217.59,8.43;3,324.16,599.64,224.95,8.43;3,324.16,609.48,224.94,8.43;3,324.16,619.32,224.94,8.43;3,324.16,629.16,178.70,8.43">Section 2.2.2 noted that codelet complexes can be "called" much like subroutines; in addition, complexes can act as wrappers to integrate non-codelet-based functions into the codelet runtime, forwarding input data into a function as parameters and its return value out as chain input.</s><s xml:id="_w6ykm7M" coords="3,506.42,629.16,42.71,8.43;3,324.16,639.00,224.98,8.43;3,324.16,648.85,224.93,8.43;3,324.16,658.69,135.47,8.43">Conversely, functions can be used to wrap access to codelet complexes by starting an entry codelet and suspending until the initiated complex runs a chain instance.</s><s xml:id="_DCRpJHQ" coords="3,463.42,658.69,85.67,8.43;3,324.16,668.52,224.99,8.43;4,76.73,53.69,224.99,8.44;4,76.73,63.53,176.24,8.43">If the chain instance is run normally, its input can be passed back to the suspended codelet as a return value, and if canceled, the error can be passed back and thrown as a native exception.</s></p><p xml:id="_6A2VZnS"><s xml:id="_rRCaJ72" coords="4,85.17,73.36,216.53,8.44;4,76.73,83.20,224.96,8.44;4,76.73,93.05,77.85,8.44">The need to wrap codelets in functions and vice versa can be avoided entirely if a compiler is able to generate codelets as its normal output.</s><s xml:id="_gTwDCZv" coords="4,158.16,93.05,143.50,8.44;4,76.73,102.89,224.95,8.44;4,76.73,112.73,224.94,8.44;4,76.73,122.58,224.96,8.43">In this case, functions in program code can be transparently formulated as codelet complexes in the generated binary, enabling existing code to be recompiled in codelet form and adapted more easily to a codelet runtime.</s><s xml:id="_zUs6cyg" coords="4,76.73,132.41,224.97,8.44;4,76.73,142.25,224.95,8.44;4,76.73,152.10,189.23,8.44">Because codelet dispatch typically has higher overhead than native stack-based function calls, a compiler may also reformulate codelet dispatches as native function calls.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3" xml:id="_kywSaZe">Locality awareness and management</head><p xml:id="_UB8GDWg"><s xml:id="_KXajJGC" coords="4,85.17,186.31,216.53,8.44;4,76.73,196.15,224.95,8.44">All codelet execution occurs on a system component (typically a hardware thread) managed by the codelet runtime.</s><s xml:id="_DuRzkQ4" coords="4,76.73,205.99,224.94,8.44;4,76.73,215.83,224.98,8.44;4,76.73,225.67,224.94,8.44;4,76.73,235.52,160.37,8.44">These components can be grouped together based on the degree of information which can readily be shared between them; for example, two threads that share a memory might be grouped together, or all cores on a node.</s><s xml:id="_nDmAvPn" coords="4,240.69,235.52,61.06,8.44;4,76.73,245.36,224.95,8.44;4,76.73,255.19,224.96,8.43;4,76.73,265.03,128.74,8.44">These groupings can be nested into a tree-like structure, or locale tree, that describes the communication characteristics for software executing on a distributed platform.</s></p><p xml:id="_N2MC3xs"><s xml:id="_5aUTAXX" coords="4,85.17,274.88,216.52,8.44;4,76.73,284.72,224.96,8.44;4,76.73,294.56,168.51,8.44">Each locale in the tree has an associated allocator and scheduler, which respectively manage allocation of memory space and processing time within the locale.</s><s xml:id="_5dKf4mC" coords="4,249.79,294.56,51.89,8.44;4,76.73,304.41,224.95,8.44;4,76.73,314.25,224.98,8.44;4,76.73,324.08,224.99,8.44">A leaf locale has no descendants, and its allocators and schedulers (or leaf allocators/schedulers) manage space/time allocation within their described hardware or software structures only.</s><s xml:id="_BDKxJgE" coords="4,76.73,333.93,224.96,8.44;4,76.73,343.77,175.06,8.44">Higher-level locales, which do have descendants, may manage their own allocation or their descendants'.</s></p><p xml:id="_d4pcNUH"><s xml:id="_ZTBjHF6" coords="4,85.17,353.61,216.55,8.44;4,76.73,363.46,224.98,8.44;4,76.73,373.29,224.96,8.44;4,76.73,383.13,225.02,8.44;4,76.73,392.97,224.95,8.44;4,76.73,402.82,64.15,8.44">Because locales essentially represent bounded regions of a hardware/software platform, they provide an ideal interface for describing the transfer of data and control between those regions, including across boundaries for which ingress/egress communication normally requires special support (e.g., network interfaces).</s><s xml:id="_3zXtXDC" coords="4,149.06,402.82,152.62,8.44;4,76.73,412.66,224.94,8.44;4,76.73,422.50,55.98,8.44">Locales thus enable abstraction of disparate data transfer methods, including intra-and internode transfers.</s></p><p xml:id="_m8g9uyK"><s xml:id="_nZvVmgr" coords="4,85.17,432.34,216.54,8.44;4,76.73,442.18,224.96,8.44;4,76.73,452.02,224.95,8.44;4,76.73,461.87,224.97,8.44;4,76.73,471.71,149.25,8.44">The locale hierarchy facilitates inter-locale control transfer as well as data transfer, allowing a group of codelets executing within one locale to easily widen, narrow, or entirely transplant their execution scope, simply by specifiyng a different target locale for scheduling.</s><s xml:id="_Zac6dKg" coords="4,231.63,471.71,70.05,8.44;4,76.73,481.55,224.94,8.44;4,76.73,491.39,224.94,8.44;4,76.73,501.23,224.94,8.44;4,76.73,511.07,21.42,8.43">This allows a program component's execution to be explicitly or implicitly forwarded to data upon which it needs to act, and allows the system to dynamically react to data availability and placement.</s><s xml:id="_EEeR59K" coords="4,101.84,511.07,199.88,8.43;4,76.73,520.92,224.94,8.43;4,76.73,530.76,127.03,8.43">This differs from most existing runtimes' capabilities, which focus primarily on data movement and make it difficult to cleanly migrate execution.</s></p><p xml:id="_C3Yrccj"><s xml:id="_SHHebmP" coords="4,85.17,540.60,216.50,8.43;4,76.73,550.44,224.96,8.43;4,76.73,560.28,224.96,8.43;4,76.73,570.12,167.99,8.43">To enable codelets to easily control and inspect their position within the locale hierarchy, every active codelet instance has an environment buffer associated with it that describes the codelet's route and situation.</s><s xml:id="_VfZuxm4" coords="4,251.90,570.12,49.77,8.43;4,76.73,579.96,224.96,8.43;4,76.73,589.81,224.94,8.43;4,76.73,599.65,224.95,8.43;4,76.73,609.49,224.94,8.43;4,76.73,619.33,224.96,8.43;4,76.73,629.17,181.70,8.43">The environment buffer contains a reference to the first, most recent, current, next, and final locale for a codelet's execution and communication, and these can be changed during execution by a codelet to modify its own routing; for example, when effecting a return via a chain instance, a codelet can reverse the route before scheduling the chain instance.</s><s xml:id="_uNpBz6h" coords="4,264.74,629.17,36.95,8.43;4,76.73,639.01,224.94,8.43;4,76.73,648.86,224.96,8.43;4,76.73,658.70,224.97,8.43;4,76.73,668.53,224.95,8.43;4,324.17,53.69,225.00,8.44;4,324.17,63.53,85.56,8.43">A codelet complex can also use the "next locale" field of the route in a for-all loop to distribute execution across a group of locales, or can use the entire route to "walk" around the locale hierarchy collecting or updating local data, a practice espe-cially useful for distributed graph problems (e.g., Graph500, semantic web queries).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4" xml:id="_xPS5a74">Dealing with heterogeneity</head><p xml:id="_3snDZpJ"><s xml:id="_gVKzeEa" coords="4,332.61,95.88,216.52,8.44;4,324.17,105.71,224.98,8.44;4,324.17,115.55,130.39,8.44">The above sections implicitly assumed that codelets have single forms of run or cancel forks that are executed when a codelet instance becomes active.</s><s xml:id="_pedtk23" coords="4,459.03,115.55,90.11,8.44;4,324.17,125.40,224.94,8.44;4,324.17,135.24,224.95,8.44;4,324.17,145.08,212.36,8.44">However, if it is desired that a codelet be executable on disparate architectures or hardware components, multiple binary forms of the forks may be attached to the codelet's in-memory descriptor.</s><s xml:id="_txFMe8C" coords="4,541.16,145.08,7.94,8.44;4,324.17,154.93,225.00,8.44;4,324.17,164.76,224.99,8.44;4,324.17,174.60,224.95,8.44;4,324.17,184.45,107.29,8.44">In this case, the codelet runtime must select the appropriate binary form for the current hardware, or, if such a form can't be found, the codelet must be relocated and executed on a compatible component.</s></p><p xml:id="_eYqBySY"><s xml:id="_nrAuUCs" coords="4,332.61,194.29,216.58,8.44;4,324.17,204.13,224.99,8.44;4,324.17,213.98,153.66,8.44">Each leaf locale has an associated hardware component description associated with it, which describes the precise kind of device represented by the locale.</s><s xml:id="_XcWVrUg" coords="4,482.28,213.98,66.83,8.44;4,324.17,223.81,224.97,8.44;4,324.17,233.65,198.78,8.44">Among other features, the component description includes information about instruction set architecture and available extensions.</s><s xml:id="_TKX6ctz" coords="4,526.74,233.65,22.39,8.44;4,324.17,243.49,224.97,8.44;4,324.17,253.34,224.97,8.44;4,324.17,263.18,119.22,8.44">When different fork forms are present for a scheduled codelet, a scheduler can use its locale's component description to find an appropriate fork form to run.</s><s xml:id="_Ge6wC2W" coords="4,446.96,263.18,102.16,8.44;4,324.17,273.02,224.99,8.44;4,324.17,282.86,224.95,8.44">When a codelet is passed to a non-leaf scheduler, any descendant schedulers with compatible architectures can potentially execute that codelet.</s><s xml:id="_D4G9WqB" coords="4,324.17,292.70,224.96,8.44;4,324.17,302.54,224.97,8.44;4,324.17,312.39,225.02,8.44;4,324.17,322.23,224.99,8.44;4,324.17,332.07,224.92,8.44;4,324.17,341.92,160.47,8.44">Although codelets will likely have preferred architectures (a codelet that performs a matrix operation may run far faster on a GPU than on a CPU, for example) codelet-specified preferences will have to be weighed against resource availability (the matrix operation can only run faster on a GPU if it can actually get time on that GPU).</s><s xml:id="_wmJk7fT" coords="4,488.15,341.92,60.99,8.44;4,324.17,351.75,224.99,8.44;4,324.17,361.59,224.96,8.44;4,324.17,371.43,224.99,8.44;4,324.17,381.28,224.94,8.44;4,324.17,391.12,224.96,8.44;4,324.17,400.95,126.30,8.44">Different binary forms of the forks may also need to perform different actions, as appropriate for the architecture in question; for example, a fork compiled for a CPU may perform a smaller portion of a matrix operation than a GPU fork, may perform it in a different way, or may even schedule components of the operation on other nearby CPUs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5" xml:id="_BahvvhC">Scheduling and allocation</head><p xml:id="_AxmDyvm"><s xml:id="_vzp9xJZ" coords="4,332.61,432.35,216.56,8.44;4,324.17,442.19,225.00,8.44;4,324.17,452.03,181.39,8.44">Each locale in the hierarchy has an attached scheduler and allocator, which are used by an application to control runtime management of local time and memory.</s><s xml:id="_H5DeFuk" coords="4,509.34,452.03,39.81,8.44;4,324.17,461.87,224.95,8.44;4,324.17,471.71,224.97,8.44;4,324.17,481.55,224.94,8.44;4,324.17,491.40,224.98,8.44;4,324.17,501.24,224.96,8.44;4,324.17,511.08,224.95,8.43;4,324.17,520.93,84.88,8.43">Schedulers accept enabled codelet instances and ready them for dispatch, generally buffering readied instances in a queue or deque until a thread in the scheduler's locale is ready to run them; allocators accept requests for memory blocks and, when sufficient contiguous memory becomes available within their attached locale, readies codelets to run with the block address as their input.</s></p><p xml:id="_eG879wS"><s xml:id="_PEWsDkE" coords="4,332.61,530.76,216.56,8.43;4,324.17,540.60,224.96,8.43;4,324.17,550.44,224.99,8.43;4,324.17,560.29,51.85,8.43">The locale hierarchy can be used to establish delegating schedulers and allocators whose sole purpose is to select a descendant locale with available resources and forward requests into it.</s><s xml:id="_5mQGDqU" coords="4,379.83,560.29,169.30,8.43;4,324.17,570.13,224.97,8.43;4,324.17,579.97,224.94,8.43;4,324.17,589.81,29.51,8.43">Schedulers and allocators for non-leaf locales may also buffer requests and allow descendants to service them when the latter become idle or have sufficient free resources.</s><s xml:id="_AEn3zSt" coords="4,359.50,589.81,189.66,8.43;4,324.17,599.65,225.00,8.43;4,324.17,609.49,201.76,8.43">Only leaf schedulers actually cause the execution of any codelets; non-leaf schedulers may forward or buffer scheduling requests, but do not handle them directly.</s></p><p xml:id="_6mKGTHv"><s xml:id="_Z8ZYG72" coords="4,332.61,619.34,216.54,8.43;4,324.17,629.18,224.98,8.43;4,324.17,639.02,224.99,8.43;4,324.17,648.86,224.94,8.43;4,324.17,658.70,224.97,8.43;4,324.17,668.54,224.94,8.43;5,76.73,53.69,194.24,8.44">A codelet runtime's leaf schedulers will likely need to support a deque-based scheduling interface whereby a codelet can either be scheduled at the head of the deque, causing it to be dispatched immediately after the current codelet (a roughly LIFO ordering), or at the tail of the deque, causing it to be dispatched after any other readied codelet in-stances have been run (a roughly FIFO ordering).</s><s xml:id="_sz6Rw5w" coords="5,276.91,53.69,24.81,8.44;5,76.73,63.53,224.96,8.43;5,76.73,73.37,224.96,8.44;5,76.73,83.20,224.94,8.44;5,76.73,93.05,30.63,8.44">Schedulers might not cleave to the precise deque ordering, if other measures are taken (e.g.) to predictively optimize codelet ordering, but in general the deque ordering should be respected.</s><s xml:id="_xPpXnWG" coords="5,113.43,93.05,188.25,8.44;5,76.73,102.89,224.96,8.44;5,76.73,112.73,224.95,8.44;5,76.73,122.58,224.99,8.44;5,76.73,132.42,87.64,8.44;5,164.39,132.68,4.32,2.54;5,171.96,132.42,129.71,8.44;5,76.73,142.25,183.25,8.44">FIFO ordering is typically sufficient and is often fairer to other application components, but some recursive problems encounter exponential blowup if strict FIFO ordering is used (e.g., a recursive Fibonacci complex, which maxes out at about 1.6 n scheduled codelets for input n), so the LIFO form of scheduling is often also useful.</s></p><p xml:id="_XHFXrhf"><s xml:id="_ZmExNGr" coords="5,85.17,152.10,216.53,8.44;5,76.73,161.94,224.95,8.44;5,76.73,171.78,158.26,8.44">A simple leaf scheduler operates in a tight loop, repeatedly dequeueing codelets and dispatching them until it reaches an idle state or the runtime is shut down.</s><s xml:id="_D2J5aZT" coords="5,239.00,171.78,62.70,8.44;5,76.73,181.63,224.93,8.44;5,76.73,191.46,224.94,8.44;5,76.73,201.30,224.97,8.44;5,76.73,211.14,224.95,8.44;5,76.73,220.99,224.94,8.44;5,76.73,230.83,224.92,8.44;5,76.73,240.66,22.18,8.44">Codelet scheduling may also be circumvented in some cases by calling the scheduled codelet's run/cancel fork immediately within the current stack, as long as there is enough remaining stack space; this avoids the overhead of enqueueing/pushing the codelet into the scheduler's deque structure and later dequeueing it, but implicitly suspends the original codelet to do so.</s></p><p xml:id="_fzFMPte"><s xml:id="_9UwSYAG" coords="5,85.17,250.51,216.53,8.43;5,76.73,260.35,224.96,8.44;5,76.73,270.19,93.35,8.44">When a scheduler becomes idle, it may steal work from other schedulers around it in the hierarchy by consulting its parent locale's scheduler.</s><s xml:id="_tYFw5cz" coords="5,173.67,270.19,128.01,8.44;5,76.73,280.04,224.96,8.44;5,76.73,289.87,224.99,8.44;5,76.73,299.71,94.92,8.44">If that scheduler has work to do, it can pass the work to the idle scheduler; otherwise, it can look for stealable work on the idle scheduler's siblings or consult its own parent scheduler.</s><s xml:id="_DbKgmhK" coords="5,175.67,299.71,126.03,8.44;5,76.73,309.56,224.97,8.44;5,76.73,319.40,70.23,8.44">If no suitable work can be found, an idle scheduler can place its thread in a low-power state until work arrives.</s><s xml:id="_TPSc5Mv" coords="5,152.34,319.40,149.36,8.44;5,76.73,329.24,224.93,8.44;5,76.73,339.08,225.00,8.44;5,76.73,348.92,224.92,8.44;5,76.73,358.76,43.42,8.44">When an operating system layer exists beneath the runtime, an idle software thread may block to cede processor hardware to the OS; on bare-bones hardware, the runtime may be able to power-or clock-gate a core to save power.</s></p><p xml:id="_tXhh39y"><s xml:id="_zpS2rFY" coords="5,85.17,368.60,216.53,8.44;5,76.73,378.45,159.07,8.44">Locales' allocators may act in a similar fashion to schedulers with respect to allocation requests.</s><s xml:id="_TctHY4X" coords="5,242.98,378.45,58.71,8.44;5,76.73,388.29,224.94,8.44;5,76.73,398.13,224.97,8.44;5,76.73,407.97,224.99,8.44;5,76.73,417.81,24.41,8.44">For example, a leaf allocator, if unable to satisfy an allocation request, may push that request up to a higher level in the locale hierarchy; a non-leaf allocator may push the request upwards or downwards.</s><s xml:id="_H8agt5Y" coords="5,107.22,417.81,194.50,8.44;5,76.73,427.65,224.96,8.44;5,76.73,437.50,224.98,8.44;5,76.73,447.34,224.98,8.44;5,76.73,457.18,200.01,8.44">However, the cost of migrating allocation requests may outweigh the benefits; migration of a request generally necessitates migration of the codelet execution resulting from request satisfaction, and that in turn may necessitate migration of a codelet's context and associated data.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_WXtGkfN">APPLICABILITY TO PARALLEL AL-GORITHM CLASSES</head><p xml:id="_kMa3NZD"><s xml:id="_Qa3J9aH" coords="5,85.17,511.07,216.53,8.43;5,76.73,520.92,224.94,8.43;5,76.73,530.75,224.93,8.43;5,76.73,540.59,67.98,8.43">A codelet execution model and runtime are broadly applicable to high-performance computing algorithms, which tend to fall into one of two rough classes: fork-join and distributed dataflow.</s><s xml:id="_2RW25f6" coords="5,148.46,540.59,153.21,8.43;5,76.73,550.43,224.95,8.43;5,76.73,560.28,224.98,8.43;5,76.73,570.12,180.80,8.43">Fork-join algorithms include those based on recursion (e.g., game theory and decision analysis) and data-parallel or SIMD operations (e.g., partial differential equation solvers and Fast Fourier Transform).</s><s xml:id="_QvmGVyh" coords="5,265.39,570.12,36.33,8.44;5,76.73,579.95,224.96,8.43;5,76.73,589.80,224.99,8.43;5,76.73,599.64,224.97,8.43;5,76.73,609.48,224.99,8.43;5,76.73,619.33,115.69,8.43">Recursive algorithms can be parallelized well within a codelet runtime by judicious use of LIFO/FIFO codelet scheduling; data-parallel algorithms typically rely on parallel-for-like constructs, and can use locale hierarchy traversal to issue codelets to distinct schedulers.</s></p><p xml:id="_vqQNyC7"><s xml:id="_MBrJc7V" coords="5,85.16,629.17,216.49,8.43;5,76.73,639.00,224.95,8.43;5,76.73,648.85,224.96,8.43;5,76.73,658.69,224.95,8.43;5,76.73,668.53,175.73,8.43">Distributed dataflow algorithms include those that are primarily data-dependent, such as graph traversals (e.g., Graph500) or semantic web queries, and those that are primarily control-dependent, such as tiled linear algebra (e.g., PLASMA <ref type="bibr" coords="5,117.49,668.53,9.38,8.43" target="#b2">[2]</ref>) and adaptive mesh refinement.</s><s xml:id="_ZQ939wQ" coords="5,258.76,668.53,42.93,8.43;5,324.16,53.69,224.97,8.44;5,324.16,63.53,224.97,8.43;5,324.16,73.36,224.95,8.44;5,324.16,83.20,225.04,8.44;5,324.16,93.05,147.12,8.44">Codelet in-stances can be easily encapsulated and associated with data or control dependencies, then dispatched when those dependencies are satisfied, allowing program components to run as soon as possible instead of relying on global synchronization to break execution into distinct stages.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_aJEFNmU">RELATED WORK</head><p xml:id="_p9FwdEu"><s xml:id="_BHKXsNy" coords="5,332.61,127.55,216.55,8.43;5,324.16,137.39,225.01,8.44;5,324.16,147.23,224.98,8.44;5,324.16,157.08,224.95,8.44;5,324.16,166.92,28.45,8.44">The basis for the concept of codelets comes from dataflowrelated work by Gao et al., who implemented a prototype codelet-based execution model called EARTH <ref type="bibr" coords="5,506.89,147.23,12.71,8.44" target="#b18">[18]</ref>, which ran on commodity hardware but suffered from scaling limitations.</s><s xml:id="_KqSq6UR" coords="5,356.36,166.92,192.75,8.44;5,324.16,176.75,224.95,8.44;5,324.16,186.60,101.18,8.44">This codelet execution model has been extended to address the needs of exascale systems <ref type="bibr" coords="5,469.56,176.75,12.71,8.44" target="#b20">[20]</ref>, although no implementing runtime exists.</s><s xml:id="_bqqCjNR" coords="5,430.28,186.60,118.85,8.44;5,324.16,196.44,224.95,8.44;5,324.16,206.28,224.99,8.44;5,324.16,216.13,224.96,8.44;5,324.16,225.96,224.99,8.44;5,324.16,235.80,224.96,8.44;5,324.16,245.65,224.95,8.44;5,324.16,255.49,31.07,8.43">The execution model described in this paper discards some of the theoretical limitations imposed on codelets in Gao et al.'s model (e.g., prohibition of codelet side-effects), adds cancellation semantics to simplify integration with programming language constructs such as exceptions, and adds chaining semantics to simplify establishment of dynamic dataflow interactions and memory cleanup.</s></p><p xml:id="_8ZErU8c"><s xml:id="_D3V3QPX" coords="5,332.60,265.33,216.57,8.44;5,324.16,275.17,224.95,8.44;5,324.16,285.01,119.79,8.44">Other more commonly used frameworks for parallelizing and distributing programs have been in existence for some time, and include the following:</s></p><p xml:id="_VxH54g6"><s xml:id="_dxPKEgE" coords="5,336.70,301.25,212.49,8.44;5,345.26,311.09,203.88,8.44;5,345.26,320.93,203.88,8.44;5,345.26,330.78,35.66,8.44">• MPI <ref type="bibr" coords="5,364.38,301.25,12.71,8.44" target="#b11">[11]</ref>, which aids distributed coordination/communication within programs, but requires explicit transfers between address spaces and is primarily singlethreaded.</s></p><p xml:id="_BQu6t3N"><s xml:id="_6Gz72hX" coords="5,336.70,343.90,212.42,8.44;5,345.26,353.74,203.86,8.44;5,345.26,363.59,203.87,8.44;5,345.26,373.43,61.71,8.44">• SHMEM <ref type="bibr" coords="5,381.06,343.90,8.66,8.44" target="#b4">[4]</ref>, an API that establishes a distributed coordination layer and store, but deals primarily with data exchange and remote synchronization and disregards threading.</s></p><p xml:id="_bEGCAAQ"><s xml:id="_tYagnBp" coords="5,336.70,386.56,212.43,8.44;5,345.26,396.40,203.89,8.44;5,345.26,406.24,203.93,8.44;5,345.26,416.09,203.87,8.44;5,345.26,425.92,157.28,8.44">• OpenMP <ref type="bibr" coords="5,383.30,386.56,8.66,8.44">[7]</ref>, a framework for integrating basic multithreading control structures into existing program code, but which does not deal with multiple-addressspace interactions and which primarily provides for fork/join-like programming patterns (esp.</s><s xml:id="_XGqJqYv" coords="5,506.31,425.92,42.80,8.44;5,345.26,435.76,25.32,8.44">parallel for loops).</s></p><p xml:id="_G8vMPCR"><s xml:id="_ZJDvJ4Y" coords="5,336.70,448.90,212.45,8.44;5,345.26,458.73,203.86,8.44;5,345.26,468.57,64.99,8.44">• Cilk <ref type="bibr" coords="5,364.35,448.90,8.66,8.44" target="#b5">[5]</ref>, an extension to C for parallelizing recursion by using a fork-join paradigm on top of the existing threading model.</s><s xml:id="_kPuwMKS" coords="5,416.30,468.57,132.85,8.44;5,345.26,478.42,203.88,8.44;5,345.26,488.26,105.61,8.44">Cilk deals well with recursive programming patterns in a single address space, but does not address other problems.</s></p><p xml:id="_EUyXdJq"><s xml:id="_U7KKuyP" coords="5,336.70,501.38,212.42,8.44;5,345.26,511.23,203.86,8.43;5,345.26,521.07,145.55,8.43">• TBB <ref type="bibr" coords="5,367.83,501.38,12.71,8.44" target="#b15">[15]</ref>, an API that relies heavily on C++ templates to parallelize programs and deals solely with thread interactions in a single process.</s></p><p xml:id="_EerqgT2"><s xml:id="_uNPuHPt" coords="5,336.70,534.19,212.41,8.44;5,345.26,544.04,203.88,8.43;5,345.26,553.88,54.00,8.43">• OpenCL <ref type="bibr" coords="5,380.37,534.19,12.71,8.43" target="#b17">[17]</ref>, CUDA <ref type="bibr" coords="5,427.87,534.19,12.71,8.43" target="#b14">[14]</ref>, and DirectCompute, which allow programmers to create program components that run on GPUs.</s><s xml:id="_8rDWDEY" coords="5,404.65,553.88,144.51,8.43;5,345.26,563.72,203.86,8.43;5,345.26,573.57,78.32,8.43">These frameworks are specifically tailored to GPU-like accelerators, and deal only with the CPU-GPU interface.</s></p><p xml:id="_DUPQB2g"><s xml:id="_JPPRFtS" coords="5,324.16,589.81,224.95,8.43;5,324.16,599.64,224.94,8.43;5,324.16,609.48,224.96,8.43;5,324.16,619.33,224.96,8.43;5,324.16,629.17,224.94,8.43;5,324.16,639.01,225.00,8.43;5,324.16,648.85,87.12,8.43">Unfortunately, integrating more than one of these frameworks into a single application can be difficult, and due to disparate software interfaces for each component in the overall system (nodes in a cluster, threads on a node, and accelerators on a node), programming and load-balancing in a way that effectively coordinates use of a cluster's resources can be difficult as well.</s></p><p xml:id="_ZjxzVp5"><s xml:id="_zCbHdSr" coords="5,332.61,658.69,216.54,8.43;5,324.16,668.53,224.95,8.43;6,76.73,53.69,224.94,8.44;6,76.73,63.53,224.95,8.43;6,76.73,73.37,214.64,8.44">Other prior work includes ParalleX <ref type="bibr" coords="5,468.74,658.69,12.71,8.43" target="#b12">[12]</ref>, which is a largescale parallel runtime specification for which HPX <ref type="bibr" coords="5,516.23,668.53,9.14,8.43" target="#b3">[3]</ref> exists as an implementation; the codelet runtime described in this paper is entirely compatible with ParalleX, and may be used as an underlying framework to implement its constructs.</s></p><p xml:id="_NKsD4QP"><s xml:id="_3HhQDAu" coords="6,85.17,83.20,216.53,8.44;6,76.73,93.05,224.98,8.44;6,76.73,102.89,224.94,8.44;6,76.73,112.73,224.95,8.44;6,76.73,122.58,198.29,8.44">The locale hierarchy described in this paper is a close relative of Hierarchical Place Trees (HPTs) used by the Habanero runtime <ref type="bibr" coords="6,138.82,102.89,12.71,8.44" target="#b19">[19]</ref>, "places" in the X10 language <ref type="bibr" coords="6,272.53,102.89,8.66,8.44" target="#b8">[8]</ref>, and locales in the Chapel language <ref type="bibr" coords="6,199.62,112.73,8.66,8.44" target="#b6">[6]</ref>, as well as the Sequoia language's Parallel Memory Hierarchy (PMH) <ref type="bibr" coords="6,259.14,122.58,12.71,8.44" target="#b10">[10]</ref>.</s><s xml:id="_hq7QF7u" coords="6,281.97,122.58,19.75,8.44;6,76.73,132.42,224.94,8.44;6,76.73,142.25,224.94,8.44;6,76.73,152.10,206.29,8.44">However, Sequoia requires static partitioning within the PMH, X10 allows interaction only at leaf nodes of its place tree, and Chapel locales are not arranged in any hierarchy.</s><s xml:id="_6jkF37k" coords="6,288.00,152.10,13.72,8.44;6,76.73,161.94,224.98,8.44;6,76.73,171.78,224.98,8.44;6,76.73,181.63,177.78,8.44">Habanero's HPTs deal more with data locality and transfer than scheduling or processing, although they are otherwise largely the same as a codelet runtime's locales.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_wBs4kh6">ONGOING/FUTURE WORK</head><p xml:id="_9CvtdMS"><s xml:id="_fFg6KSf" coords="6,85.17,217.54,216.49,8.44;6,76.73,227.38,224.95,8.44;6,76.73,237.23,224.98,8.44;6,76.73,247.07,224.98,8.44;6,76.73,256.91,224.94,8.44">Although a full implementation of a codelet runtime as described in this paper is under active development, an earlier prototype version with a reduced scheduling interface and more limited codelet behavior already exists and is available for download from the ET International (ETI) web site <ref type="bibr" coords="6,290.12,256.91,8.66,8.44" target="#b1">[1]</ref>.</s><s xml:id="_WPD4hE6" coords="6,76.73,266.76,224.95,8.44;6,76.73,276.60,224.95,8.44;6,76.73,286.43,224.96,8.44;6,76.73,296.27,59.04,8.44">SWARM is intended to present a complete runtime interface and toolkit that programmers or compilers can use to transparently distribute their applications across a compute node or cluster.</s></p><p xml:id="_Wysmacr"><s xml:id="_QKvyqET" coords="6,85.17,306.12,216.54,8.44;6,76.73,315.96,224.94,8.44;6,76.73,325.80,224.96,8.44;6,76.73,335.65,224.99,8.44;6,76.73,345.48,224.96,8.44;6,76.73,355.32,212.14,8.44">Because generating codelets by hand and ensuring that they interact correctly can be a daunting task for programmers accustomed to using traditional imperative languages, ETI is also developing a C-based language, SCALE (SWARM Codelet Association Language Extensions), to simplify asynchronous parallel programming.</s><s xml:id="_Qm4Yywa" coords="6,295.20,355.32,6.50,8.44;6,76.73,365.17,224.95,8.44;6,76.73,375.01,224.95,8.44;6,76.73,384.85,185.97,8.44">A prototype SCALE translator compatible with the aforementioned SWARM prototype is available for download and has been used for in-house development on SWARM.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_2Er6U5Z">CONCLUSION</head><p xml:id="_Ct2DpK5"><s xml:id="_yRkSx9t" coords="6,85.17,420.77,216.54,8.44;6,76.73,430.61,224.99,8.44;6,76.73,440.45,225.00,8.44;6,76.73,450.30,196.16,8.44">The codelet execution model, when combined with a capable runtime, can allow software to be scalably parallelized much more easily and transparently than the thread-based and bulk-synchronous models in common use today.</s><s xml:id="_D8asCD2" coords="6,276.64,450.30,25.04,8.44;6,76.73,460.14,224.98,8.44;6,76.73,469.97,224.95,8.44;6,76.73,479.81,165.38,8.44">Such a runtime allows a clear path forward to exascale computing in the future, and can enable better utilization of hardware resources on present-day computers as well.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,324.17,291.76,224.94,7.60;2,324.17,301.60,37.24,7.60"><head>Figure 1 :</head><label>1</label><figDesc><div><p xml:id="_K6rkwBH"><s xml:id="_29366En" coords="2,324.17,291.76,224.94,7.60;2,324.17,301.60,37.24,7.60">Figure 1: An abstract machine model for a codelet runtime.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="3,76.73,211.86,224.89,7.60;3,76.73,221.70,72.63,7.60"><head>Figure 2 :</head><label>2</label><figDesc><div><p xml:id="_kmzrcEA"><s xml:id="_rvXcSmY" coords="3,76.73,211.86,224.89,7.60;3,76.73,221.70,72.63,7.60">Figure 2: State relationships and transitions of a codelet instance.</s></p></div></figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,80.95,502.10,91.08,10.10" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_yjUcpJC">Voltage References</title>
+		<author>
+			<persName coords=""><surname>References</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/9780470547038.ch3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5ZpXpd7">Voltage References</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">REFERENCES</note>
+</biblStruct>
+
+<biblStruct coords="6,94.41,517.17,132.64,8.43;6,94.41,527.48,144.07,7.73" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_snHFTUv">Swarm shape and its dynamics in a predator-swarm model</title>
+		<author>
+			<persName><forename type="first">Hayley</forename><surname>Tompkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1137/14s013743</idno>
+		<ptr target="http://etinternational.com/swarm" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nM92M9n">SIAM Undergraduate Research Online</title>
+		<title level="j" type="abbrev">SIURO</title>
+		<idno type="ISSNe">2327-7807</idno>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2015" />
+			<publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">SWARM beta download. Online at http://etinternational.com/swarm.</note>
+</biblStruct>
+
+<biblStruct coords="6,94.41,537.79,169.78,8.43;6,94.41,547.62,196.70,8.43;6,94.41,557.47,173.97,8.43;6,94.41,567.31,173.18,8.43" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="6,94.41,557.47,82.97,8.43" xml:id="_KAzqJEq">Numerical linear algebra on emerging architectures: The PLASMA and MAGMA projects</title>
+		<author>
+			<persName><forename type="first">Emmanuel</forename><surname>Agullo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jim</forename><surname>Demmel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jack</forename><surname>Dongarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bilel</forename><surname>Hadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jakub</forename><surname>Kurzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Langou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hatem</forename><surname>Ltaief</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Piotr</forename><surname>Luszczek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stanimire</forename><surname>Tomov</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/180/1/012037</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UEn5MtZ">Journal of Physics: Conference Series</title>
+		<title level="j" type="abbrev">J. Phys.: Conf. Ser.</title>
+		<idno type="ISSNe">1742-6596</idno>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page">012037</biblScope>
+			<date type="published" when="2010">2010</date>
+			<publisher>IOP Publishing</publisher>
+			<pubPlace>Knoxville, TN</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>ICL, University of Tennessee</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note type="raw_reference">E. Agullo, J. Dongarra, B. Hadri, J. Kurzak, J. Langou, H. Ltaief, P. Luszczek, and A. YarKhan. PLASMA users&apos; guide. Technical report, ICL, University of Tennessee, Knoxville, TN, 2010.</note>
+</biblStruct>
+
+<biblStruct coords="6,94.41,578.09,167.45,8.43;6,94.41,587.93,186.01,8.43;6,94.41,597.77,206.03,8.43;6,94.41,607.61,199.58,8.43" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" coord="6,140.60,587.93,139.83,8.43;6,94.41,597.77,95.54,8.43" xml:id="_hShBu3T">An application-driven analysis of the ParalleX execution model</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Brodowicz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Sterling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011-09">Sep. 2011</date>
+			<pubPlace>Baton Rouge, LA, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Louisiana State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note type="raw_reference">M. Anderson, M. Brodowicz, H. Kaiser, and T. Sterling. An application-driven analysis of the ParalleX execution model. Technical report, Louisiana State University, Baton Rouge, LA, USA, Sep. 2011.</note>
+</biblStruct>
+
+<biblStruct coords="6,94.41,618.39,207.26,8.43;6,94.41,628.23,191.94,8.43" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coord="6,195.92,618.39,101.46,8.43" xml:id="_J5NVGMP">Hydraulic wind energy conversion system</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Barriuso</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Knies</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/6480721</idno>
+		<imprint>
+			<date type="published" when="1994-06">June 1994</date>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<pubPlace>Eagan, MN, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. Barriuso and A. Knies. SHMEM user&apos;s guide for C. Cray Research, Inc., Eagan, MN, USA, June 1994.</note>
+</biblStruct>
+
+<biblStruct coords="6,94.41,639.01,194.30,8.43;6,94.41,648.85,185.04,8.43;6,94.41,658.69,190.77,8.43;6,94.41,668.53,118.15,8.43" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_MR6YGmU">Cilk</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">D</forename><surname>Blumofe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">F</forename><surname>Joerg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bradley</forename><forename type="middle">C</forename><surname>Kuszmaul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">E</forename><surname>Leiserson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">H</forename><surname>Randall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuli</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/209937.209958</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dcHYcF5">ACM SIGPLAN Notices</title>
+		<title level="j" type="abbrev">SIGPLAN Not.</title>
+		<idno type="ISSN">0362-1340</idno>
+		<idno type="ISSNe">1558-1160</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="207" to="216" />
+			<date type="published" when="1995-08">August 1995</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. D. Blumofe, C. F. Joerg, B. C. Kuszmaul, C. E. Leiserson, K. H. Randall, and Y. Zhou. Cilk: An efficient multithreaded runtime system. SIGPLAN Not., 30:207-216, August 1995.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,53.69,187.61,8.44;6,341.85,63.53,194.56,8.43;6,341.85,73.37,115.52,8.44" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="6,341.85,63.53,190.60,8.43" xml:id="_kgfbFzR">Parallel Programmability and the Chapel Language</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">L</forename><surname>Chamberlain</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">P</forename><surname>Zima</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1094342007078442</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EQKRaFs" coord="6,341.85,73.37,30.20,8.44">The International Journal of High Performance Computing Applications</title>
+		<title level="j" type="abbrev">The International Journal of High Performance Computing Applications</title>
+		<idno type="ISSN">1094-3420</idno>
+		<idno type="ISSNe">1741-2846</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="291" to="312" />
+			<date type="published" when="2007-08">2007</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. L. Chamberlain, D. Callahan, and H. P. Zima. Parallel programmability and the Chapel language. IJHPCA, 21(3):291-312, 2007.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,84.15,185.93,8.44;6,341.85,93.98,160.59,8.44;6,341.85,103.83,137.18,8.44" xml:id="b7">
+	<monogr>
+		<title level="m" type="main" coord="6,506.29,84.15,21.48,8.44;6,341.85,93.98,160.59,8.44;6,341.85,103.83,47.03,8.44" xml:id="_6C3pkyT">Using OpenMP: Portable shared-memory parallel programming</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Van Der Pas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>The MIT Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Chapman, G. Jost, and R. van der Pas. Using OpenMP: Portable shared-memory parallel programming. The MIT Press, 2007.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,114.61,188.36,8.44;6,341.85,124.45,167.72,8.43;6,341.85,134.29,181.66,8.44;6,341.85,144.13,186.20,8.44;6,341.85,153.97,188.91,8.44" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="6,404.66,134.29,118.85,8.44;6,341.85,144.13,115.42,8.44" xml:id="_AjUnvXD">X10</title>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Grothoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vijay</forename><surname>Saraswat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Donawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allan</forename><surname>Kielstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kemal</forename><surname>Ebcioglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Von Praun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vivek</forename><surname>Sarkar</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1103845.1094852</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DMPgJXx">ACM SIGPLAN Notices</title>
+		<title level="j" type="abbrev">SIGPLAN Not.</title>
+		<idno type="ISSN">0362-1340</idno>
+		<idno type="ISSNe">1558-1160</idno>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="519" to="538" />
+			<date type="published" when="2005-10-12">2005</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Charles, C. Grothoff, V. Saraswat, C. Donawa, A. Kielstra, K. Ebcioglu, C. von Praun, and V. Sarkar. X10: An object-oriented approach to non-uniform cluster computing. In OOPSLA &apos;05, pages 519-538, New York, NY, USA, 2005. ACM.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,164.75,178.81,8.44;6,341.85,174.59,189.26,8.44;6,341.85,184.44,102.53,8.44" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="6,505.72,164.75,14.94,8.44;6,341.85,174.59,184.80,8.44" xml:id="_G4GC3UA">Architecture-aware Algorithms and Software for Peta and Exascale Computing</title>
+		<author>
+			<persName coords=""><forename type="first">Jack</forename><surname>Dongarra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Beckman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ipdps.2011.419</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nKED5UX">2011 IEEE International Parallel &amp; Distributed Processing Symposium</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011-05">2011</date>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="3" to="60" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Dongarra, P. Beckman, T. Moore, et al. The International Exascale Software Project roadmap. IJHPCA, 25(1):3-60, 2011.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,195.21,191.45,8.44;6,341.85,205.05,199.99,8.44;6,341.85,214.89,205.75,8.44;6,341.85,224.74,187.19,8.44;6,341.85,234.58,195.01,8.44;6,341.85,244.42,129.70,8.44" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="6,460.55,214.89,87.05,8.44;6,341.85,224.74,81.38,8.44" xml:id="_pN7EwPd">Sequoia: Programming the Memory Hierarchy</title>
+		<author>
+			<persName><forename type="first">Kayvon</forename><surname>Fatahalian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mike</forename><surname>Houston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mattan</forename><surname>Erez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Larkhoon</forename><surname>Leem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ji</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manman</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Aiken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Dally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pat</forename><surname>Hanrahan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/sc.2006.55</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_YJSCXAY" coord="6,440.56,224.74,88.48,8.44;6,341.85,234.58,191.64,8.44">ACM/IEEE SC 2006 Conference (SC&apos;06)</title>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2006-11">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Fatahalian, D. R. Horn, T. J. Knight, L. Leem, M. Houston, J. Y. Park, M. Erez, M. Ren, A. Aiken, W. J. Dally, and P. Hanrahan. Sequoia: Programming the memory hierarchy. In Proceedings of the 2006 ACM/IEEE conference on Supercomputing, SC &apos;06, New York, NY, USA, 2006. ACM.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,255.19,206.67,8.43;6,341.85,265.03,133.75,8.44" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" xml:id="_pcZsuYV">Using MPI</title>
+		<author>
+			<persName><forename type="first">William</forename><surname>Gropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ewing</forename><surname>Lusk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><surname>Skjellum</surname></persName>
+		</author>
+		<idno type="DOI">10.7551/mitpress/7056.001.0001</idno>
+		<imprint>
+			<date type="published" when="1999-11">Nov. 1999</date>
+			<publisher>The MIT Press</publisher>
+		</imprint>
+	</monogr>
+	<note>2nd edition</note>
+	<note type="raw_reference">W. Gropp, E. Lusk, and A. Skjellum. Using MPI. The MIT Press, 2nd edition, Nov. 1999.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,275.81,197.40,8.44;6,341.85,285.66,157.58,8.44;6,341.85,295.50,206.64,8.44;6,341.85,305.34,38.51,8.44" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="6,503.94,275.81,35.31,8.44;6,341.85,285.66,157.58,8.44;6,341.85,295.50,108.57,8.44" xml:id="_KEKbQRK">ParalleX An Advanced Parallel Execution Model for Scaling-Impaired Applications</title>
+		<author>
+			<persName><forename type="first">Hartmut</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maciek</forename><surname>Brodowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Sterling</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/icppw.2009.14</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WgUHPbJ">2009 International Conference on Parallel Processing Workshops</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009-09">Sep. 2009</date>
+			<biblScope unit="page" from="394" to="401" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Kaiser, M. Brodowicz, and T. Sterling. ParalleX: An advanced parallel execution model for scaling-impaired applications. ICPPW, pages 394-401, Sep. 2009.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,316.11,201.44,8.44;6,341.85,325.96,174.74,8.44;6,341.85,335.80,122.47,8.44" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" coord="6,398.01,316.11,145.28,8.44;6,341.85,325.96,14.06,8.44" xml:id="_VMPRr5h">Approaches to addressing the memory wall</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Machanick</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<pubPlace>Brisbane, QLD, Australia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Brisbane</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note type="raw_reference">P. Machanick. Approaches to addressing the memory wall. Technical report, University of Brisbane, Brisbane, QLD, Australia, 2002.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,346.58,187.33,8.44;6,341.85,356.42,145.93,8.44" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="6,496.68,346.58,32.50,8.44;6,341.85,356.42,98.84,8.44" xml:id="_M3gBWYW">GPU computing with NVIDIA CUDA</title>
+		<author>
+			<persName><forename type="first">Ian</forename><surname>Buck</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1281500.1281647</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_cuy5YQU">ACM SIGGRAPH 2007 courses</title>
+		<meeting><address><addrLine>Santa Clara, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2007-06">June 2007</date>
+		</imprint>
+		<respStmt>
+			<orgName>NVIDIA Corporation</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">NVIDIA Corporation, Santa Clara, CA. NVIDIA CUDA programming guide, June 2007.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,367.20,203.93,8.44;6,341.85,377.04,131.50,8.44" xml:id="b15">
+	<monogr>
+		<title level="m" type="main" coord="6,389.80,367.20,118.20,8.44" xml:id="_Hyqe9Y9">Intel Threading Building Blocks</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Reinders</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007-07">July 2007</date>
+			<pubPlace>O&apos;Reilly Media, Sebastopol, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Reinders. Intel Threading Building Blocks. O&apos;Reilly Media, Sebastopol, CA, July 2007.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,387.82,178.90,8.44;6,341.85,397.66,199.67,8.44;6,341.85,407.50,195.77,8.44;6,341.85,417.35,179.47,8.44" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="6,488.06,387.82,32.69,8.44;6,341.85,397.66,122.69,8.44" xml:id="_A7D2qfF">Exascale Computing Technology Challenges</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Shalf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sudip</forename><surname>Dosanjh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Morrison</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-19328-6_1</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_mnrY6yW" coord="6,481.86,397.66,55.63,8.44">Lecture Notes in Computer Science</title>
+		<title level="s" xml:id="_7zhaB2A" coord="6,401.74,407.50,132.09,8.44">Lecture Notes in Computer Science</title>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">6449</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Shalf, S. Dosanjh, and J. Morrison. Exascale computing technology challenges. In VECPAR 2010, volume 6449 of Lecture Notes in Computer Science, pages 1-25. Springer Berlin / Heidelberg, 2011.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,428.12,182.66,8.44;6,341.85,437.96,186.69,8.44;6,341.85,447.80,169.78,8.44;6,341.85,457.65,138.47,8.44" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="6,480.61,428.12,43.90,8.44;6,341.85,437.96,186.69,8.44;6,341.85,447.80,70.52,8.44" xml:id="_8K8QFxp">OpenCL: A Parallel Programming Standard for Heterogeneous Computing Systems</title>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">E</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Gohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guochun</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/mcse.2010.69</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NWrBRQy" coord="6,419.20,447.80,92.43,8.44;6,341.85,457.65,43.39,8.44">Computing in Science &amp; Engineering</title>
+		<title level="j" type="abbrev">Comput. Sci. Eng.</title>
+		<idno type="ISSN">1521-9615</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="66" to="73" />
+			<date type="published" when="2010-05">May 2010</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. E. Stone, D. Gohara, and G. Shi. OpenCL: A parallel programming standard for heterogeneous computing systems. Computing in Science &amp; Engineering, 12(3):66-72, May 2010.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,468.43,205.73,8.44;6,341.85,478.27,180.29,8.44;6,341.85,488.10,116.45,8.44" xml:id="b18">
+	<monogr>
+		<title level="m" type="main" coord="6,406.19,468.43,141.39,8.44;6,341.85,478.27,57.86,8.44" xml:id="_pBSXRgB">EARTH: An efficient architecture for running threads</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">B</forename><surname>Theobald</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<pubPlace>Montreal, Que., Canada</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>McGill University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+	<note type="raw_reference">K. B. Theobald. EARTH: An efficient architecture for running threads. PhD thesis, McGill University, Montreal, Que., Canada, 1999.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,498.88,202.34,8.44;6,341.85,508.72,168.26,8.43;6,341.85,518.57,202.70,8.43;6,341.85,528.41,184.86,8.43;6,341.85,538.24,117.45,8.43" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="6,498.86,498.88,45.33,8.44;6,341.85,508.72,168.26,8.43;6,341.85,518.57,116.77,8.43" xml:id="_gkX9MhB">Hierarchical Place Trees: A Portable Abstraction for Task Parallelism and Data Movement</title>
+		<author>
+			<persName><forename type="first">Yonghong</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jisheng</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vivek</forename><surname>Sarkar</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-13374-9_12</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_YsDxabN" coord="6,476.85,518.57,67.70,8.43;6,341.85,528.41,184.86,8.43;6,341.85,538.24,71.27,8.43">Languages and Compilers for Parallel Computing</title>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2009-10">Oct. 2009</date>
+			<biblScope unit="page" from="172" to="187" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Yan, J. Zhao, Y. Guo, and V. Sarkar. Hierarchical Place Trees: A portable abstraction for task parallelism and data movement. In Proceedings of the 22nd Workshop on Languages and Compilers for Parallel Computing, Oct. 2009.</note>
+</biblStruct>
+
+<biblStruct coords="6,341.85,549.02,188.24,8.43;6,341.85,558.87,205.29,8.43;6,341.85,568.71,158.88,8.43;6,341.85,578.55,188.18,8.43;6,341.85,588.39,57.05,8.43" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="6,386.34,558.87,160.80,8.43;6,341.85,568.71,144.00,8.43" xml:id="_r9pEbS6">Using a &quot;codelet&quot; program execution model for exascale machines</title>
+		<author>
+			<persName><forename type="first">Stéphane</forename><surname>Zuckerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><surname>Suetterlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rob</forename><surname>Knauerhase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guang</forename><forename type="middle">R</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2000417.2000424</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nbThVv7" coord="6,341.85,578.55,57.08,8.43">Proceedings of the 1st International Workshop on Adaptive Self-Tuning Computing Systems for the Exaflop Era</title>
+		<meeting>the 1st International Workshop on Adaptive Self-Tuning Computing Systems for the Exaflop Era<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2011-06-05">June 2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Zuckerman, J. Suetterlein, R. Knauerhase, and G. R. Gao. Position paper: Using a &quot;codelet&quot; program execution model for exascale machines. In EXADAPT &apos;11, New York, NY, USA, June 2011. CAPSL, ACM.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

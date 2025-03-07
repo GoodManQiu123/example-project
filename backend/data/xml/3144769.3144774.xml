@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_XEWF2c4" coord="1,66.00,77.86,480.00,22.22">In Situ Workflows at Exascale</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2017-11-12">2017-11-12</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,101.52,108.54,81.74,16.53"><forename type="first">Matthieu</forename><surname>Dreher</surname></persName>
+							<email>mdreher@anl.gov</email>
+						</author>
+						<author>
+							<persName coords="1,266.18,108.54,80.64,16.53"><forename type="first">Swann</forename><surname>Perarnau</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,439.63,108.54,61.84,16.53"><forename type="first">Tom</forename><surname>Peterka</surname></persName>
+							<email>tpeterka@mcs.anl.gov</email>
+						</author>
+						<author>
+							<persName coords="1,195.89,167.00,56.00,16.53"><forename type="first">Kamil</forename><surname>Iskra</surname></persName>
+							<email>iskra@mcs.anl.gov</email>
+						</author>
+						<author>
+							<persName coords="1,353.59,167.00,69.04,16.53"><forename type="first">Pete</forename><forename type="middle">2017</forename><surname>Beckman</surname></persName>
+							<email>beckman@mcs.anl.gov</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Argonne National Laboratory Lemont, IL, USA</note>
+								<orgName type="laboratory">Argonne National Laboratory Lemont</orgName>
+								<address>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Argonne National Laboratory Lemont, IL, USA</note>
+								<orgName type="laboratory">Argonne National Laboratory Lemont</orgName>
+								<address>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Argonne National Laboratory Lemont, IL, USA</note>
+								<orgName type="laboratory">Argonne National Laboratory Lemont</orgName>
+								<address>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Argonne National Laboratory Lemont, IL, USA</note>
+								<orgName type="laboratory">Argonne National Laboratory Lemont</orgName>
+								<address>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">Argonne National Laboratory Lemont, IL, USA</note>
+								<orgName type="laboratory">Argonne National Laboratory Lemont</orgName>
+								<address>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<note type="raw_affiliation">ISAV&apos;), 5 pages.</note>
+								<orgName type="department">ISAV&apos;)</orgName>
+								<address>
+									<addrLine>5 pages</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<note type="raw_affiliation">ISAV&apos;, November 2017, Denver, Colorado, USA</note>
+								<orgName type="institution">ISAV&apos;</orgName>
+								<address>
+									<postCode>2017</postCode>
+									<settlement>November, Denver</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_kXNY77n" coord="1,66.00,77.86,480.00,22.22">In Situ Workflows at Exascale</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_W3mYrMg">Proceedings of the In Situ Infrastructures on Enabling Extreme-Scale Analysis and Visualization</title>
+						<meeting>the In Situ Infrastructures on Enabling Extreme-Scale Analysis and Visualization						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2017-11-12" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">D04E058162C9F0A6F3AE30250371BF97</idno>
+					<idno type="DOI">10.1145/3144769.3144774</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_kwD8h5c">Argo</term>
+					<term xml:id="_DCktD2W">MPI</term>
+					<term xml:id="_Pdrknrx">In Situ Workflows</term>
+					<term xml:id="_JDbPWHP">Exascale</term>
+					<term xml:id="_DKbqbjM">System Software</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_fwgA4Cg"><p xml:id="_JydNnqk"><s xml:id="_Yy3n2en" coords="1,53.68,239.94,241.87,12.40;1,53.68,250.91,241.35,12.40;1,53.68,261.87,91.01,12.40">Implementing an in situ workflow involves several challenges related to data placement, task scheduling, efficient communications, scalability, and reliability.</s><s xml:id="_KmUwGfr" coords="1,146.75,261.87,148.80,12.40;1,53.46,272.84,240.58,12.40;1,53.68,283.80,240.36,12.40;1,53.68,294.76,167.34,12.40">Most of the current implementations provide reasonably performant solutions to these issues by focusing on high-performance communications and low-overhead execution models at the cost of reliability and flexibility.</s></p><p xml:id="_wqVqgCh"><s xml:id="_qT9q37M" coords="1,63.65,305.73,230.39,12.40;1,53.68,316.69,241.88,12.89;1,53.68,327.66,240.36,12.89;1,53.68,338.62,94.68,12.40">One of the key design choices in such infrastructures is between providing a single-program, integrated environment or a multipleprogram, connected environment, both solutions having their own strengths and weaknesses.</s><s xml:id="_VtmdquC" coords="1,150.48,338.62,145.07,12.40;1,53.68,349.58,240.36,12.40;1,53.68,360.55,178.28,12.40">While these approaches might be appropriate for current production systems, the expected characteristics of exascale machines will shift current priorities.</s></p><p xml:id="_uFxn8XC"><s xml:id="_nrUKuhu" coords="1,63.65,371.51,230.39,12.40;1,53.68,382.48,240.36,12.40;1,53.68,393.44,207.31,12.40">After a survey of the trade-offs and challenges of integrated and connected in situ workflow solutions available today, we discuss in this paper how exascale systems will impact those designs.</s><s xml:id="_acHVJZb" coords="1,262.72,393.44,32.83,12.40;1,53.68,404.40,240.36,12.40;1,53.68,415.37,240.36,12.40;1,53.68,426.33,241.87,12.40;1,53.68,437.30,167.20,12.40">In particular, we identify missing features of current system-level software required for the evolution of in situ workflows toward exascale and how system software innovations from the Argo Exascale Computing Project can help address those challenges.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_kcVXrBS">CCS CONCEPTS</head><p xml:id="_DCbuu6B"><s xml:id="_j4CT6Fs" coords="1,53.68,472.84,240.36,13.03;1,53.68,483.81,241.26,13.03;1,53.68,494.77,111.17,12.89">• Computing methodologies → Concurrent programming languages; • Software and its engineering → Software reliability; Data flow architectures;</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1" xml:id="_yEwMwEB">INTRODUCTION</head><p xml:id="_9RjgCXt"><s xml:id="_WRqxvAM" coords="1,317.96,239.94,240.36,12.40;1,317.63,250.91,242.21,12.40;1,317.96,261.87,241.74,12.40">Many scientific processes can be expressed as a workflow graph where nodes are computational tasks (scientific simulations, analysis, visualization) and edges are data exchanges between tasks.</s><s xml:id="_nhmPG6H" coords="1,317.69,272.84,242.01,12.40">Traditional workflow infrastructures exchange data through files.</s><s xml:id="_sZw2tQ7" coords="1,317.96,283.80,241.87,12.40;1,317.96,294.76,240.36,12.40;1,317.96,305.73,241.88,12.40;1,317.96,316.69,31.98,12.40">However, the increasing gap between I/O bandwidth and computational capabilities in current and future supercomputers requires a change in the way scientists are analyzing data produced by simulations.</s><s xml:id="_NZgYE92" coords="1,352.83,316.69,205.49,12.40;1,317.63,327.66,240.69,12.40;1,317.74,338.62,216.98,12.40">File-based workflows must now be replaced by in situ workflows performing data extraction, data reduction, or online visualization before storing relevant data to the file system.</s></p><p xml:id="_TEjjmAa"><s xml:id="_DdUHfYF" coords="1,327.93,349.58,230.39,12.40;1,317.96,360.55,187.25,12.40">Over the past few years, several in situ workflow solutions have been proposed by different research communities.</s><s xml:id="_PVZkdUt" coords="1,507.65,360.55,50.67,12.40;1,317.96,371.51,240.59,12.40;1,317.96,382.48,241.74,12.40">Their designs tackle the same set of challenges related to data placement, task scheduling, efficient communications, scalability, and reliability.</s><s xml:id="_rTpUHds" coords="1,317.96,393.44,241.35,12.40;1,317.96,404.40,213.81,12.40">Nevertheless, these communities made different design trade-offs, based on their target workloads and production platforms.</s></p><p xml:id="_wtJabz7"><s xml:id="_q6qfDXA" coords="1,327.93,415.37,231.91,12.40;1,317.96,426.33,240.36,12.40;1,317.96,437.30,133.76,12.40">We distinguish two types of currently available workflow systems, depending on how a system fits its execution model inside a typical HPC production machine.</s><s xml:id="_EnA9tMf" coords="1,454.70,437.30,103.62,13.03;1,317.96,448.26,240.69,12.40;1,317.96,459.22,241.87,12.40;1,317.96,470.19,194.10,12.40">Integrated workflows map all their tasks inside a single MPI environment, providing a view of the workflow as a single program, and performing communications inside a single view of the entire execution.</s><s xml:id="_KrNvxJV" coords="1,514.76,471.18,43.56,12.04;1,317.63,481.15,242.21,12.40;1,317.96,492.12,240.36,12.40;1,317.96,503.08,240.36,12.40;1,317.96,514.04,47.04,12.40">Connected workflows, instead, separate tasks into different executables, effectively partitioning a resource allocation among different pieces and communicating across distinct namespaces through explicit connections.</s><s xml:id="_FfDFxUZ" coords="1,368.09,514.04,190.39,12.40;1,317.96,525.01,95.88,12.40">Both types of in situ workflow designs have their strengths and weaknesses.</s><s xml:id="_2TMJAfc" coords="1,416.09,525.01,142.23,12.40;1,317.96,535.97,240.36,12.40;1,317.63,546.94,240.69,12.40;1,317.96,557.90,46.75,12.40">Integrated workflows are easier to map inside a single MPI allocation on production systems, but connected workflows are more flexible to changes in the system and to faults in particular.</s></p><p xml:id="_XTGTbZ2"><s xml:id="_uSjUxHg" coords="1,327.93,568.86,230.39,12.40;1,317.96,579.83,240.36,12.40;1,317.96,590.79,240.36,12.40;1,317.96,601.76,228.87,12.40">We argue here that, for exascale platforms, the design trade-offs of current in situ workflows systems need to be re-evaluated, most notably regarding reliability and flexibility, and that new features of system-level software can help with the resulting evolution.</s></p><p xml:id="_Tw3fcya"><s xml:id="_bhvaV3A" coords="1,327.93,612.72,130.98,12.40">This paper is organized as follows.</s><s xml:id="_uKbTHpt" coords="1,461.59,612.72,96.73,12.40;1,317.96,623.68,240.53,12.40;1,317.96,634.65,69.05,12.40">We review current in situ infrastructures in Section 2, classifying them as either integrated or connected systems.</s><s xml:id="_exYg787" coords="1,388.97,634.65,169.35,12.40;1,317.96,645.61,240.57,12.40;1,317.96,656.58,241.87,12.40;1,317.96,667.54,218.72,12.40">We then discuss the typical challenges involved in the design of an in situ workflow system in Section 3. Section 4 details how those challenges are tackled by current implementations, and how exascale might impact those design choices.</s><s xml:id="_WS4dQxS" coords="1,538.92,667.54,19.40,12.40;1,317.96,678.51,240.36,12.40;2,53.68,83.41,240.69,12.40;2,53.68,94.38,180.81,12.40">From these observations, we argue in Section 5 that system software can help resolve the identified issues, and we focus in particular on new features of the Argo Exascale Computing Project.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_KNcBzvW">RELATED WORK</head><p xml:id="_fqNfcQe"><s xml:id="_3paS97g" coords="2,53.68,130.69,240.36,12.40;2,53.68,141.65,147.37,12.40">Building an in situ infrastructure includes making several critical choices, starting at the execution model.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_NC25SuR">Integrated Workflow Infrastructures</head><p xml:id="_EEsv46W"><s xml:id="_RNeHMrE" coords="2,53.68,177.96,240.36,12.40;2,53.68,188.93,200.98,12.40">Integrated workflow infrastructures include all their tasks within a single MPI program sharing a global communicator.</s><s xml:id="_thbPtBD" coords="2,257.02,188.93,38.53,12.40;2,53.68,199.89,109.76,12.40">We distinguish two major designs here.</s><s xml:id="_zzvc3G9" coords="2,165.69,199.89,128.58,12.40;2,53.68,210.85,241.74,12.40">The first uses a host code, typically a simulation code, to run the analysis tasks within its MPI context.</s><s xml:id="_HYQGDy8" coords="2,53.41,221.82,240.63,12.40;2,53.68,232.78,88.55,12.40">The analysis tasks take the form of a function call or a plugin to be loaded by the host code.</s><s xml:id="_HJUVr4d" coords="2,144.48,232.78,149.56,12.40;2,53.46,243.75,94.39,12.40">That strategy was widely adopted by the visualization community.</s><s xml:id="_FfEWaU4" coords="2,150.34,243.75,143.70,12.40;2,53.68,254.71,240.36,12.40;2,53.68,265.67,240.36,12.40;2,53.68,276.64,241.74,12.40">Current production visualization tools Paraview <ref type="bibr" coords="2,91.27,254.71,10.69,12.40" target="#b2">[3]</ref> and VisIt <ref type="bibr" coords="2,142.30,254.71,9.53,12.40" target="#b1">[2]</ref>, and their respective in situ libraries Catalyst <ref type="bibr" coords="2,87.09,265.67,14.86,12.40" target="#b16">[16]</ref> and Libsim <ref type="bibr" coords="2,148.78,265.67,13.50,12.40" target="#b22">[22]</ref>, insert rendering servers executed synchronously in time partitioning mode <ref type="bibr" coords="2,203.40,276.64,10.43,12.40" target="#b0">[1]</ref> within the simulation.</s><s xml:id="_eEUKnsK" coords="2,53.41,287.60,240.63,12.40;2,53.68,298.57,24.55,12.40">The analysis tasks take the form of filters executed by the rendering server.</s><s xml:id="_HFNGGt5" coords="2,80.47,298.57,215.08,12.40;2,53.68,309.53,240.36,12.40;2,53.68,320.49,21.03,12.40">ADIOS <ref type="bibr" coords="2,108.97,298.57,13.47,12.40" target="#b17">[17]</ref>, a flexible I/O interface, enables data transformations <ref type="bibr" coords="2,84.88,309.53,10.47,12.40" target="#b4">[5]</ref> along the I/O path within the same MPI context as the caller.</s><s xml:id="_weU7K8G" coords="2,76.50,320.49,176.43,12.40">Damaris <ref type="bibr" coords="2,108.52,320.49,14.61,12.40" target="#b9">[10]</ref> adopts a space partitioning strategy.</s><s xml:id="_NpMg8Ys" coords="2,254.72,320.49,39.31,12.40;2,53.68,331.46,241.87,12.40;2,53.68,342.42,240.36,12.40;2,53.68,353.39,172.03,12.40">It splits the initial MPI communicator of the simulation in two groups, the simulation processes and the analysis processes, allowing the analysis task to run asynchronously from the simulation.</s><s xml:id="_AVpYcAh" coords="2,227.64,353.39,66.40,12.40;2,53.68,364.35,218.19,12.40">The data transport method is selected separately from the tasks in an XML file.</s><s xml:id="_nB2g5SF" coords="2,274.11,364.35,19.93,12.40;2,53.68,375.32,240.36,12.40;2,53.68,386.28,144.38,12.40">Some transport methods allow in situ computation to be performed in the same MPI program as the caller <ref type="bibr" coords="2,185.53,386.28,9.40,12.40" target="#b4">[5]</ref>.</s></p><p xml:id="_sKreDSC"><s xml:id="_CRcZgtv" coords="2,63.65,397.24,230.39,12.40;2,53.68,408.21,107.22,12.40">The second design, followed by Swift/T <ref type="bibr" coords="2,213.74,397.24,13.49,12.40" target="#b23">[23]</ref>, organizes a pool of MPI processes as workers.</s><s xml:id="_dVzJK4t" coords="2,163.13,408.21,130.91,12.40;2,53.68,419.17,181.46,12.40">Tasks taking the form of a function call are then loaded and executed by the runtime.</s><s xml:id="_5KZqBzN" coords="2,237.37,419.17,56.66,12.40;2,53.68,430.13,240.36,12.40;2,53.68,441.10,68.68,12.40">Swift/T uses its own programming language to describe the workflow graph and extract parallelism.</s><s xml:id="_2F9gqEC" coords="2,124.59,441.10,169.45,12.40;2,53.68,452.06,64.52,12.40">The runtime can then select precisely where to execute the tasks.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_5uafEzR">Connected Workflow Infrastructure</head><p xml:id="_w6TzUGz"><s xml:id="_9E85YqP" coords="2,53.37,488.37,240.68,12.40;2,53.68,499.34,224.11,12.40">A connected workflow infrastructure coordinates tasks separated into different programs not sharing a common communicator.</s><s xml:id="_sbS2UTA" coords="2,280.03,499.34,14.01,12.40;2,53.68,510.30,240.36,12.40;2,53.68,521.26,216.11,12.40">The in situ infrastructure must provide mechanisms to connect the tasks and create the appropriate communication channels.</s><s xml:id="_DV7bqhB" coords="2,272.03,521.26,22.00,12.40;2,53.68,532.23,240.36,12.40;2,53.68,543.19,240.69,12.40;2,53.68,554.16,26.88,12.40">These frameworks rely on dedicated communication libraries to replace MPI, limiting portability but allowing more dynamic workflow graphs.</s></p><p xml:id="_kBG35sM"><s xml:id="_VqYbWXe" coords="2,63.65,565.12,230.39,12.40;2,53.68,576.09,79.91,12.40">FlowVR <ref type="bibr" coords="2,95.59,565.12,14.86,12.40" target="#b12">[13]</ref> relies on a network of daemons to identify tasks and coordinate them.</s><s xml:id="_sBwPphu" coords="2,136.19,576.09,157.85,12.40;2,53.68,587.05,240.36,12.40;2,53.68,598.01,67.40,12.40">Each task requires minor modifications to connect to the local daemon and exchange messages with the rest of the application.</s><s xml:id="_mBS7JRZ" coords="2,123.32,598.01,172.11,12.40">DataSpaces <ref type="bibr" coords="2,168.13,598.01,10.68,12.40" target="#b6">[7]</ref> acts as a distributed data store.</s><s xml:id="_v89NxTz" coords="2,53.37,608.98,240.67,12.40;2,53.68,619.94,17.90,12.40">Applications connect to the server to publish or retrieve indexed data.</s><s xml:id="_3t7MXuH" coords="2,74.55,619.94,219.76,12.40;2,53.68,630.91,241.87,12.40;2,53.68,641.87,33.73,12.40">The dynamic connections of tasks are managed by DART servers <ref type="bibr" coords="2,83.24,630.91,9.53,12.40" target="#b7">[8]</ref>, which support high-speed interconnects such as In-finiBand.</s><s xml:id="_Uv6y3Qu" coords="2,90.42,641.87,203.62,12.40;2,53.68,652.83,240.36,12.40;2,53.68,663.80,240.36,12.40;2,53.68,674.76,52.72,12.40">FlexPath <ref type="bibr" coords="2,125.84,641.87,9.52,12.40" target="#b5">[6]</ref>, built on top of EVPath <ref type="bibr" coords="2,230.99,641.87,13.50,12.40" target="#b13">[14]</ref>, embeds the connection information of all the tasks so that a new task can join the network and request the necessary connection information from any task.</s></p><p xml:id="_QaSRrZe"><s xml:id="_ANdDMj4" coords="2,63.65,685.73,230.56,12.40;2,53.68,696.69,29.67,12.40">Decaf <ref type="bibr" coords="2,88.48,685.73,14.86,12.40" target="#b11">[12]</ref> creates communication channels through MPI or CCI <ref type="bibr" coords="2,70.65,696.69,9.52,12.40" target="#b3">[4]</ref>.</s><s xml:id="_SjfMjTf" coords="2,85.78,696.69,208.25,12.40;2,317.96,83.41,241.35,12.40;2,317.96,94.38,192.47,12.40">In the case of CCI, the addresses of the tasks are shared through the file system during the startup phase of the workflow, enabling each task to connect to its dependent tasks.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_DbxpVCN">IMPLEMENTATION CHALLENGES</head><p xml:id="_stSHw38"><s xml:id="_MyP4Rpr" coords="2,317.53,135.25,242.30,12.40;2,317.96,146.21,240.36,12.40;2,317.96,157.17,241.88,12.40;2,317.96,168.14,47.80,12.40">When implementing an in situ infrastructure, integrated or connected, the developer must address several key challenges affecting the performance, portability, and usability of the designed infrastructure <ref type="bibr" coords="2,349.22,168.14,13.23,12.40" target="#b10">[11]</ref>.</s><s xml:id="_vhMUjZZ" coords="2,367.96,168.14,190.36,12.40;2,317.96,179.10,241.87,12.40;2,317.96,190.06,46.41,12.40">We highlight in this section some of these challenges and trade-offs and discuss how they can influence in situ infrastructure designs.</s></p><p xml:id="_RZCFdea"><s xml:id="_GYK5CPP" coords="2,327.93,201.03,230.40,12.89;2,317.96,211.99,240.36,12.40;2,317.96,222.96,17.34,12.40">Addressing Tasks: To create communication channels between tasks, the in situ infrastructure must first be able to identify each task.</s><s xml:id="_dvpyhud" coords="2,337.81,222.96,220.52,12.40;2,317.96,233.92,240.36,12.40;2,317.96,244.89,174.01,12.40">This addressing mechanism can come from the underlying communication library (MPI) or from a service provided by the in situ infrastructure itself (naming servers, URIs).</s></p><p xml:id="_FAd5eBT"><s xml:id="_KUJTJpd" coords="2,327.93,255.85,230.63,12.89;2,317.96,266.81,134.63,12.40">Efficient Data Exchanges between Tasks: Each individual task may have its own communication needs.</s><s xml:id="_ZnShmXk" coords="2,455.06,266.81,104.77,12.40;2,317.96,277.78,215.84,12.40">A workflow also creates additional communications to exchange data between tasks.</s><s xml:id="_yqYDeGC" coords="2,536.19,277.78,22.13,12.40;2,317.96,288.74,240.36,12.40;2,317.96,299.71,176.99,12.40">These inter-task communications might generate interferences with the computation tasks, degrading their performance.</s><s xml:id="_3JgS6eW" coords="2,497.20,299.71,61.12,12.40;2,317.96,310.67,241.87,12.40;2,317.96,321.63,239.22,12.40">Consequently, in situ infrastructures should provide efficient communication mechanisms in order to minimize their impact on the task performance.</s></p><p xml:id="_x6RPuF9"><s xml:id="_rGQfXHx" coords="2,327.93,332.60,230.39,12.89;2,317.96,343.56,241.74,12.40">User Code Integration: Scientific codes such as simulations and analyses can require the expertise of the developers to modify them.</s><s xml:id="_W8SuWDY" coords="2,317.96,354.53,240.36,12.40;2,317.96,365.49,136.70,12.40">In situ infrastructures often require modifying the user code to integrate it within the infrastructure.</s><s xml:id="_YznDPtY" coords="2,456.91,365.49,101.41,12.40;2,317.96,376.45,240.53,12.40;2,317.96,387.42,182.30,12.40">These modifications should remain as limited as possible in order to ease the integration of user codes and promote adoption of the infrastructure.</s></p><p xml:id="_FaTnJvr"><s xml:id="_tuH5ZBy" coords="2,327.93,398.38,231.90,12.89;2,317.96,409.35,241.74,12.40">Task Placement: Task placement is performance-critical for largescale in situ workflows, particularly for data-intensive applications.</s><s xml:id="_KJdC7jS" coords="2,317.96,420.31,240.36,12.40;2,317.96,431.27,240.36,12.40;2,317.96,442.24,165.00,12.40">Explicitly managing locality between tasks may deliver the best performance but is cumbersome and error prone and should be managed by the infrastructure automatically.</s></p><p xml:id="_J6zVdwD"><s xml:id="_TWWZgPh" coords="2,327.93,453.20,231.91,12.89;2,317.96,464.17,129.24,12.40">Resilience: In situ workflows may involve multiple tasks running on large scale supercomputers.</s><s xml:id="_aJpc9Tj" coords="2,449.40,464.17,108.92,12.40;2,317.96,475.13,241.87,12.40;2,317.96,486.09,17.62,12.40">The increase of computational resources involved in the workflow increases the probability of failures.</s><s xml:id="_4qMaK8m" coords="2,337.83,486.09,220.48,12.40;2,317.96,497.06,241.74,12.40">Failures can come from multiple sources, for example, crash of a task, overflow in a communication channel, or failure of a node.</s><s xml:id="_wpM6jgW" coords="2,317.53,508.02,240.79,12.40;2,317.96,518.99,240.36,12.40;2,317.96,529.95,31.35,12.40">Workflow engines should detect such faults without compromising the rest of the workflow and should apply corrective measures if possible.</s></p><p xml:id="_E3ekxHQ"><s xml:id="_UpMFCTh" coords="2,327.93,540.91,230.40,12.89;2,317.96,551.88,240.36,12.40;2,317.96,562.84,241.74,12.40">Dynamicity: The graph of the workflow may have to change at runtime for different reasons: completion of a task, insertion of a new analysis, or temporary connection of a human to the workflow.</s><s xml:id="_tJhY5f9" coords="2,317.96,573.81,240.36,12.40;2,317.96,584.77,240.36,12.40;2,317.96,595.74,183.98,12.40">Individual tasks might also require dynamicity in order to increase or reduce their computational resources, for instance, to reclaim the resources previously allocated to another task.</s></p><p xml:id="_2R8ZRht"><s xml:id="_FMjeaje" coords="2,327.93,606.70,231.91,12.89;2,317.96,617.66,240.36,12.40;2,317.96,628.63,224.33,12.40">Portability: Supercomputers provide a wide range of specialized hardware, for example, GPUs, accelerators (Xeon Phi), and high-performance interconnects such as InfiniBand or Gemini.</s><s xml:id="_Vy8TevE" coords="2,544.41,628.63,13.91,12.40;2,317.96,639.59,240.36,12.40;2,317.96,650.56,135.80,12.40">The developer must rely on specific libraries and runtimes to obtain the best performance on such hardware.</s><s xml:id="_WEUgKFg" coords="2,456.00,650.56,102.33,12.40;2,317.96,661.52,240.36,12.40;2,317.96,672.48,68.03,12.40">However these libraries are often developed for a specific hardware and might not be portable to other platforms.</s><s xml:id="_8PeNsGR" coords="2,388.24,672.48,170.08,12.40;2,317.96,683.45,240.36,12.40;2,317.96,694.41,191.16,12.40">Some libraries such as OpenCL or MPI provide a generic API supporting a broader spectrum of hardware but with lower performance than that of specialized libraries.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_JxPdybx">DESIGN CHOICES FOR CURRENT SOLUTIONS AND BEYOND</head><p xml:id="_JrhwN5W"><s xml:id="_NTgDp4y" coords="3,53.68,110.08,240.36,12.40;3,53.68,121.04,103.76,12.40">Current in situ infrastructures were developed to focus mainly on performance and scalability.</s><s xml:id="_dTJYPC5" coords="3,159.69,121.04,134.35,12.40;3,53.68,132.01,241.88,12.40;3,53.68,142.97,53.19,12.40">We discuss in this section how these infrastructures address the other challenges presented in the preceding section.</s><s xml:id="_KntGmT3" coords="3,108.84,142.97,185.20,12.40;3,53.68,153.93,233.87,12.40">We also discuss how exascale system characteristics might shift the design priorities of future in situ infrastructures.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_pfpjhRk">Integrated In Situ Infrastructures</head><p xml:id="_Hzmftxr"><s xml:id="_mKDpUn7" coords="3,53.68,189.72,240.36,12.40;3,53.68,200.68,157.25,12.40">Integrated in situ infrastructures host and execute the tasks of a workflow within a single MPI context.</s><s xml:id="_fV87AQJ" coords="3,214.49,200.68,79.55,12.40;3,53.68,211.64,72.22,12.40">That model provides several advantages.</s><s xml:id="_NgknU3p" coords="3,128.14,211.64,167.41,12.40;3,53.68,222.61,241.87,12.40;3,53.68,233.57,211.33,12.40">First, MPI supports a large spectrum of highperformance interconnects and is available in almost all the supercomputers on the Top500, providing very good portability.</s><s xml:id="_TgKS4XH" coords="3,267.26,233.57,27.76,12.40;3,53.68,244.54,240.90,12.40;3,53.68,255.50,240.36,12.40;3,53.68,266.46,20.74,12.40">Second, MPI provides an easy mechanism to identify each task (MPI rank) and to create communication channels (communicators) between tasks.</s><s xml:id="_Jz3SqtX" coords="3,76.67,266.46,218.36,12.40;3,53.68,277.43,240.36,12.40;3,53.68,288.39,196.43,12.40">Third, the runtime has the flexibility to statically (Damaris, LibSim, Catalyst) or dynamically (Swift) place tasks at runtime and can therefore support different placement strategies.</s><s xml:id="_dPpS3ZA" coords="3,252.56,288.39,41.49,12.40;3,53.68,299.36,240.53,12.40;3,53.68,310.32,240.36,12.40;3,53.68,321.28,77.60,12.40">Fourth, the single MPI program model is the standard execution model for current supercomputer environments, making it easy to execute on today's platforms.</s></p><p xml:id="_xn3g7TF"><s xml:id="_yEbxMfr" coords="3,63.65,332.25,186.46,12.40">Yet the MPI model also has certain disadvantages.</s><s xml:id="_w5cRU5H" coords="3,252.49,332.25,41.54,12.40;3,53.68,343.21,240.36,12.40;3,53.68,354.18,59.93,12.40">Because all the tasks share the same execution context, tasks are implemented as function calls.</s><s xml:id="_M7K4BaU" coords="3,115.82,354.18,178.44,12.40;3,53.68,365.14,240.36,12.40;3,53.68,376.11,51.72,12.40">In some cases, the base code of one task, typically the simulation, is used to host the remaining tasks converted into function calls.</s><s xml:id="_wDAfxXx" coords="3,107.64,376.11,186.39,12.40;3,53.68,387.07,141.31,12.40">In other cases, all the tasks must be converted into functions driven by one main program.</s><s xml:id="_KDeXyHF" coords="3,197.25,387.07,96.80,12.40;3,53.68,398.03,240.53,12.40;3,53.68,409.00,18.48,12.40">That transformation might require significant code modifications and expertise in the user code.</s><s xml:id="_6vty5Ar" coords="3,74.03,409.00,220.01,12.40;3,53.68,419.96,232.62,12.40">Additionally, MPI is not resilient to failures: a crash of a single task within the workflow causes a crash of the entire workflow.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_VNd8BKB">Connected In Situ Infrastructures</head><p xml:id="_WkFNJSG"><s xml:id="_9BdGHv5" coords="3,53.68,455.74,241.87,12.40;3,53.68,466.71,32.45,12.40">Connected in situ infrastructures separate tasks in different executables.</s><s xml:id="_qs6CuXH" coords="3,88.73,466.71,205.31,12.40;3,53.68,477.67,240.60,12.40;3,53.68,488.64,60.01,12.40">Since tasks no longer share a common MPI context, in situ infrastructures must replace some functionalities traditionally handled by MPI.</s><s xml:id="_PrdSw6G" coords="3,115.93,488.64,178.34,12.40;3,53.68,499.60,240.36,12.40;3,53.68,510.56,137.69,12.40">In particular, infrastructures must provide a way to create communication channels between tasks and distribute computational resources to each task.</s></p><p xml:id="_Us4vD2D"><s xml:id="_6rcjdZz" coords="3,63.65,521.53,230.39,12.40;3,53.68,532.49,240.53,12.40;3,53.68,543.46,220.65,12.40">MPI_Connect would provide an answer to the first challenge, but its lack of support on current supercomputers necessitates other communication libraries, coming with their own challenges.</s><s xml:id="_pB844vk" coords="3,276.58,543.46,18.44,12.40;3,53.68,554.42,240.36,12.40;3,53.68,565.38,240.36,12.40;3,53.68,576.35,240.36,12.40;3,53.68,587.31,52.09,12.40">First, communication libraries often provide a mechanism to address each communication point within the workflow, but it is up to the in situ infrastructure to share the connection information with the relevant tasks.</s><s xml:id="_YKbsRP2" coords="3,108.02,587.31,187.00,12.40;3,53.68,598.28,240.53,12.40;3,53.68,609.24,240.36,12.40;3,53.68,620.21,52.54,12.40">Second, communication libraries such as DART <ref type="bibr" coords="3,282.58,587.31,9.34,12.40" target="#b7">[8]</ref>, CCI <ref type="bibr" coords="3,71.18,598.28,9.53,12.40" target="#b3">[4]</ref>, or Nessie <ref type="bibr" coords="3,124.99,598.28,14.86,12.40" target="#b18">[18]</ref> do not support or are not optimized for all high-performance interconnects, limiting the portability of the infrastructure.</s></p><p xml:id="_ZgZTeMY"><s xml:id="_SNTuYWB" coords="3,63.65,631.17,231.77,12.40">In situ infrastructures must also deal with resource allocation.</s><s xml:id="_mGhbgBT" coords="3,53.68,642.13,240.36,12.40;3,53.68,653.10,240.36,12.40;3,53.68,664.06,233.76,12.40">Because the tasks are not in the same execution context, it is more difficult to distribute the computational resources between the tasks unless the user provides more information to the infrastructure.</s><s xml:id="_nAyXya3" coords="3,63.65,675.02,230.39,12.40;3,53.68,685.99,45.75,12.40">Despite these challenges, the connected mode enables several key features.</s><s xml:id="_NN8xPt9" coords="3,101.68,685.99,192.36,12.40;3,53.68,696.95,177.44,12.40">First, it allows tasks to join and leave the workflow at runtime with their own computational resources.</s><s xml:id="_hPd2thk" coords="3,233.36,696.95,60.69,12.40;3,317.96,83.41,241.87,12.40;3,317.96,94.38,187.88,12.40">This implies that the initial allocation of the workflow might grow or shrink at runtime and notifies the infrastructure of those changes.</s><s xml:id="_EFKbXRv" coords="3,507.76,94.38,50.79,12.40;3,317.96,105.34,241.87,12.40;3,317.96,116.31,20.27,12.40">Unfortunately this feature is not supported by current production batch schedulers.</s><s xml:id="_NC8FKvS" coords="3,340.47,116.31,217.85,12.40;3,317.96,127.27,241.74,12.40">Additionally, a connected in situ infrastructure can sustain the crash of a task without compromising the rest of the workflow.</s><s xml:id="_9hwHV7n" coords="3,317.69,138.23,226.31,12.40">The user can then decide how to act on a task or node failure.</s><s xml:id="_qTPKT9Y" coords="3,546.25,138.23,12.25,12.40;3,317.96,149.20,241.87,12.40;3,317.96,160.16,149.71,12.40">For instance, EVPath calls a user-provided function to correct the workflow upon detection of the crash of a task.</s><s xml:id="_37WttBK" coords="3,469.76,160.16,88.56,12.40;3,317.96,171.13,240.53,12.40;3,317.96,182.09,240.36,12.40;3,317.96,193.06,84.39,12.40">Moreover, the connected mode preserves the original user code and only requires minor modifications to enable the task to exchange messages with the rest of the application.</s><s xml:id="_xsqsCzs" coords="3,404.86,193.06,153.46,12.40;3,317.96,204.02,139.12,12.40">This simplifies the integration process of complex codes into the infrastructure.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_F7VhRXh">Exascale Is Coming</head><p xml:id="_CkyaTU6"><s xml:id="_Fs6W5D6" coords="3,317.69,240.90,240.63,12.40;3,317.96,251.86,241.88,12.40;3,317.96,262.83,152.55,12.40">The need for performance, the simplicity of the MPI runtime, and the supercomputer environment constraints tend to favor the integrated mode for past and current solutions.</s><s xml:id="_qZw5j4G" coords="3,472.26,262.83,87.04,12.40;3,317.96,273.79,241.88,12.40;3,317.96,284.75,196.68,12.40">Future exascale systems, however, will bring new constraints and challenges, causing developers to reconsider some aspects of current solutions.</s></p><p xml:id="_uAQDzc2"><s xml:id="_nWXHqHT" coords="3,327.93,295.72,230.57,12.40;3,317.96,306.68,32.51,12.40">First, the projected mean time to failure will decrease by a factor of 10 <ref type="bibr" coords="3,337.99,306.68,9.36,12.40" target="#b8">[9]</ref>.</s><s xml:id="_pDCf8Sf" coords="3,352.71,306.68,205.61,12.40;3,317.96,317.65,43.27,12.40">Individual tasks already provide a response to failures in some cases.</s><s xml:id="_vRvCZ7e" coords="3,363.66,317.65,194.66,12.40;3,317.96,328.61,241.87,12.40;3,317.96,339.58,85.24,12.40">However, this rate of failure will also compel in situ infrastructures to respond to these failures and adjust the workflow graph accordingly.</s><s xml:id="_XM3Zw2n" coords="3,405.45,339.58,152.88,12.40;3,317.96,350.54,240.36,12.40;3,317.96,361.50,158.63,12.40">Second, the number of cores per node will increase dramatically, and deeper memory hierarchies will make efficient placement of tasks more difficult.</s><s xml:id="_dzdqcQN" coords="3,479.34,361.50,79.97,12.40;3,317.96,372.47,240.53,12.40;3,317.96,383.43,102.52,12.40">If tasks share a node, proper mechanisms for performance isolation will be required for both compute and memory.</s><s xml:id="_yKBtz9P" coords="3,422.74,383.43,135.58,12.40;3,317.96,394.39,146.56,12.40">Third, we expect human-in-the-loop interactions to become more prevalent.</s><s xml:id="_TEzJsJH" coords="3,466.90,394.39,92.93,12.40;3,317.96,405.36,240.36,12.40;3,317.96,416.32,172.66,12.40">Consequently the infrastructures will have to dynamically readjust the workflow graph and the distribution of its resources at runtime.</s><s xml:id="_ms5r29j" coords="3,327.93,427.29,230.72,12.40;3,317.96,438.25,39.53,12.40">Connected workflows will be better tailored to face these new challenges.</s><s xml:id="_Gdza9b5" coords="3,359.73,438.25,198.59,12.40;3,317.63,449.22,242.21,12.40;3,317.63,460.18,124.34,12.40">However, current supercomputer environments are not well suited for these infrastructures as they are more oriented toward integrated execution models.</s><s xml:id="_rsMNdsx" coords="3,444.23,460.18,114.09,12.40;3,317.96,471.14,241.74,12.40">Yet these environments are also evolving to better support exascale systems and their workloads.</s><s xml:id="_Fh2uc4x" coords="3,317.96,482.11,241.35,12.40;3,317.96,493.07,179.32,12.40">For example, Argo, a system software Exascale Computing Project, is working on several features to bridge that gap.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_8haUsqC">HELP FROM THE SYSTEM-LEVEL SOFTWARE</head><p xml:id="_wqkeT5p"><s xml:id="_adrUqAH" coords="3,317.69,542.91,240.63,12.40;3,317.96,553.87,240.36,12.40;3,317.96,564.84,220.19,12.40">The issues identified in the preceding sections indicate a lack of flexibility of the current HPC software stack, in particular from system software needed by in situ workflow infrastructures.</s></p><p xml:id="_4cVsMJa"><s xml:id="_JAD7xvf" coords="3,327.93,575.80,230.39,12.40;3,317.96,586.76,240.36,12.40;3,317.63,597.73,240.69,12.40;3,317.96,608.69,30.12,12.40">From a system software perspective, this lack of flexibility is due to a lack of advanced resource management mechanisms that would enable users and runtimes to build the right management policies.</s><s xml:id="_CR8V9cM" coords="3,350.32,608.69,208.00,12.40;3,317.96,619.66,74.81,12.40">We define resource management here as the handling of the following issues.</s></p><p xml:id="_6EBh6ry"><s xml:id="_SUG6Q4P" coords="3,327.93,630.62,230.62,12.89;3,317.96,641.59,240.53,12.40;3,317.96,652.55,241.88,12.40;3,317.63,663.51,240.69,12.40;3,317.96,674.48,20.44,12.40">Dynamicity: If we expect job allocations to be able to shrink and expand depending on several factors, including current power budget, node failures, and workload changes, then user-level software should be notified of these changes and be able to act on them.</s><s xml:id="_tcfWSUe" coords="3,340.65,674.48,217.68,12.40;3,317.96,685.44,240.36,12.40;3,317.96,696.40,50.59,12.40">This goes both ways: user-level software should also be able to communicate to the system software changes in its resource requirements.</s></p><p xml:id="_vtHS6JE"><s xml:id="_VbwQjKf" coords="4,63.65,83.41,230.39,12.89;4,53.68,94.38,240.36,12.40;4,53.68,105.34,240.36,12.40;4,53.68,116.31,240.36,12.40;4,53.68,127.27,75.19,12.40">Node-level management: If a workflow supports multiple tasks on the same node or requires additional node services, then users should be able to partition the node resources among the current processes while taking into account the topology and hardware features of the node.</s><s xml:id="_Ar4Crp5" coords="4,131.11,127.27,164.44,12.40;4,53.68,138.23,113.62,12.40">This partitioning should also provide performance isolation between tasks.</s></p><p xml:id="_UUckKT2"><s xml:id="_n8hhKrF" coords="4,63.65,149.20,231.91,12.89;4,53.68,160.16,240.36,12.40;4,53.68,171.13,241.88,12.40;4,53.68,182.09,177.33,12.40">Job-level management: Regardless of their execution model, workflows will have to configure and manage multiple types of tasks inside the same job, with possibly different configurations and different types of processes on subgroups of nodes.</s></p><p xml:id="_vRqxrWZ"><s xml:id="_tChgdKu" coords="4,63.65,204.02,231.91,12.40;4,53.68,214.98,240.36,12.40;4,53.68,225.95,35.49,12.40">Argo <ref type="bibr" coords="4,85.08,204.02,14.85,12.40" target="#b19">[19]</ref> is aimed at providing such advanced resource management services and making them directly available to users and runtimes.</s><s xml:id="_Y2GFSsa" coords="4,91.58,225.95,202.46,12.40;4,53.68,236.91,241.88,12.40;4,53.68,247.88,44.71,12.40">We describe here two of its components that will help future in situ workflows systems deal with those resource management issues.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1" xml:id="_7B2Xfwd">Containers for Node Resource Management</head><p xml:id="_caqKTPy"><s xml:id="_8ceNHAc" coords="4,53.41,296.05,240.85,12.40;4,53.68,307.01,240.36,12.40;4,53.68,317.98,129.58,12.40">The Argo NodeOS <ref type="bibr" coords="4,124.70,296.05,14.86,12.40" target="#b21">[21]</ref> is a set of extensions on top of the Linux operating system to provide resource partitioning mechanisms at the node level to HPC applications.</s><s xml:id="_S6kq5Zu" coords="4,185.50,317.98,108.54,12.40;4,53.68,328.94,240.36,12.89;4,53.68,339.91,241.88,12.40;4,53.68,350.87,126.58,12.40">It is designed around the idea of compute containers: a partition of the available resources where users can execute arbitrary commands, providing performance isolation from the rest of the processes.</s><s xml:id="_r5jUnwC" coords="4,181.78,350.87,112.26,12.40;4,53.68,361.84,240.36,12.40;4,53.68,372.80,27.38,12.40">The operating system processes can be isolated in their own container, reducing the noise on the system.</s><s xml:id="_PeVHhJx" coords="4,83.30,372.80,210.74,12.40;4,53.68,383.76,240.36,12.40;4,53.47,394.73,240.57,12.89;4,53.68,405.69,179.32,12.89">Furthermore, users can describe the resource requirement of a container in a declarative manner (e.g., this container requires 4 cores and 1 GiB of memory), and a system service called node resource manager will find a good partition for it.</s></p><p xml:id="_w35AtdJ"><s xml:id="_h7c7VvF" coords="4,63.65,416.66,231.91,12.40;4,53.68,427.62,240.53,12.40;4,53.68,438.58,141.77,12.40">The node resource manager also provides a local API to applications that can register themselves with the resource manager to be notified of changes on the node.</s><s xml:id="_wudgMv9" coords="4,197.93,438.58,96.28,12.40;4,53.68,449.55,240.69,12.40;4,53.68,460.51,240.36,12.40;4,53.68,471.48,64.56,12.40">For example, if the power budget of the node changes for administrative reasons, a workflow manager could react to this information by decreasing or increasing its workload <ref type="bibr" coords="4,101.54,471.48,13.36,12.40" target="#b15">[15]</ref>.</s></p><p xml:id="_kKm2dKx"><s xml:id="_PmnNWa9" coords="4,63.65,482.44,230.39,12.40;4,53.68,493.40,229.31,12.40">We recently showcased how these compute containers can be used for performance isolation with in situ workflows <ref type="bibr" coords="4,266.12,493.40,13.50,12.40" target="#b21">[21]</ref>.</s><s xml:id="_GjyCrtP" coords="4,286.37,493.40,7.68,12.40;4,53.68,504.37,240.36,12.40;4,53.35,515.33,241.23,12.40;4,53.68,526.30,179.18,12.40">In this setup, a molecular dynamics simulation (Gromacs) is coupled with an in situ visualization component (isosurface extraction) using a connected in situ middleware (FlowVR).</s><s xml:id="_edXVmuE" coords="4,235.25,526.30,58.79,12.40;4,53.68,537.26,240.36,12.40;4,53.68,548.22,194.06,12.40">Data exchanges between modules are performed by using a shared-memory space managed by the FlowVR daemon hosted on each node.</s><s xml:id="_z4fFy22" coords="4,249.67,548.22,44.37,12.40;4,53.68,559.19,240.36,12.40;4,53.68,570.15,240.36,12.40;4,53.68,581.12,97.36,12.40">The daemon is heavily multithreaded, consisting of four internal threads plus a thread for each module running on the node; none of them are computationally intensive.</s></p><p xml:id="_MyzUcct"><s xml:id="_DECv5G2" coords="4,63.65,592.08,231.91,12.40;4,53.68,603.04,144.60,12.40">Correct placement of application processes on the node is critical to obtaining optimal performance.</s><s xml:id="_mjJqXq2" coords="4,200.89,603.04,93.15,12.40;4,53.68,614.01,241.87,12.40;4,53.68,624.97,241.35,12.40;4,53.35,635.94,164.09,12.40">The five in situ analytics processes together require at most 20% of the CPU cycles of a single core, but they must be kept apart from the Gromacs processes, which are highly sensitive to perturbations.</s><s xml:id="_6Qg56Ae" coords="4,219.96,635.94,75.60,12.40;4,53.68,646.90,240.36,12.40;4,53.68,657.86,240.36,12.40;4,53.68,668.83,107.60,12.40">Using compute containers, these different components sharing node resources can be isolated from each other easily, with the same performance as with a tedious manual placement.</s><s xml:id="_YkQByMG" coords="4,163.91,668.83,131.64,12.40;4,53.68,679.79,240.36,12.40;4,53.68,690.76,116.28,12.40">Instead, we can just declare the resource requirements of each component and have the node resource manager deal with partitioning.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2" xml:id="_8eC9mpz">Control Bus for Job-Level Resource Management</head><p xml:id="_53SsRGp"><s xml:id="_EJ6zQmD" coords="4,317.69,110.08,240.63,12.40;4,317.96,121.04,241.87,12.40;4,317.96,132.01,233.09,12.40">The Argo GlobalOS <ref type="bibr" coords="4,391.25,110.08,14.68,12.40" target="#b20">[20]</ref> is a set of user-facing distributed services that can be deployed inside job allocations or as part of the production infrastructure to control and monitor the resources available.</s><s xml:id="_qxEVp9b" coords="4,552.93,132.01,5.39,12.40;4,317.96,142.97,240.36,12.89;4,317.96,153.93,144.10,12.40">It is based on the concept of enclaves: groups of resources that behave and can be controlled as a single entity.</s><s xml:id="_rXDB6Td" coords="4,327.93,164.90,230.39,12.40;4,317.96,175.86,78.76,12.89">As one of its core services, the GlobalOS provides a component called the control bus.</s><s xml:id="_Fb5D5PY" coords="4,398.96,175.86,159.36,12.40;4,317.96,186.83,240.36,12.40;4,317.96,197.79,241.74,12.40">This control infrastructure provides an API to partition a job into a hierarchy of enclaves and enables each enclave to execute distinct programs or be configured differently.</s><s xml:id="_VBnbHk7" coords="4,317.69,208.75,240.63,12.40;4,317.96,219.72,115.10,12.40">This allows a native support for connected workflows, with each task living in a separate enclave.</s><s xml:id="_YZA8t4m" coords="4,435.02,219.72,123.30,12.40;4,317.96,230.68,215.75,12.40">The control bus also enables the in situ infrastructure to register callbacks on resource events.</s><s xml:id="_p3ZQGFh" coords="4,535.95,230.68,22.37,12.40;4,317.96,241.65,240.59,12.40;4,317.96,252.61,39.40,12.40">Those callbacks will trigger for example when resource allocations shrink or expend.</s><s xml:id="_AXqNDJZ" coords="4,359.72,252.61,198.83,12.40;4,317.96,263.57,240.36,12.40;4,317.96,274.54,241.74,12.40">This allows in situ infrastructure to insert a new task or remove a finished one with their associated resources without having to modify the resource allocation of the other running tasks.</s><s xml:id="_HpZxPSD" coords="4,317.65,285.50,240.67,12.40;4,317.96,296.47,241.87,12.40;4,317.96,307.43,240.36,12.40;4,317.96,318.39,226.17,12.40">Additionally, the in situ infrastructure can use the control bus to communicate directly with the underlying batch scheduler, to trigger those resource changes itself, using its internal knowledge of the current and future resource requirements of the workflow.</s><s xml:id="_uTY6g9B" coords="4,546.37,318.39,12.12,12.40;4,317.96,329.36,240.36,12.40;4,317.96,340.32,240.59,12.40;4,317.96,351.29,88.32,12.40">For instance, in a human-in-the-loop scheme, this allows users to spawn new tasks and let the workflow infrastructure request the necessary resources automatically.</s></p><p xml:id="_ZHSXhrv"><s xml:id="_8jhHNVB" coords="4,327.93,362.25,231.91,12.40;4,317.96,373.22,240.36,12.40;4,317.96,384.18,29.92,12.40">This infrastructure can thus be used by in situ workflow managers to perform space-partitioning or to launch different MPI subjobs.</s><s xml:id="_JEh6bjN" coords="4,350.12,384.18,208.20,12.40;4,317.96,395.14,240.36,12.40;4,317.96,406.11,147.50,12.40">Using the control bus, one can also implement a naming service to communicate connection information between different subjobs and connect them back together.</s><s xml:id="_sBbzG9k" coords="4,467.71,406.11,90.61,12.40;4,317.96,417.07,234.10,12.40">This strategy can replace file-based address exchanges, like in the case of Decaf with CCI.</s></p><p xml:id="_Tz5xFgB"><s xml:id="_qE2rkgk" coords="4,327.93,428.03,230.56,12.40;4,317.96,439.00,63.70,12.40">Callbacks can also be registered with the control bus to trigger on failure events.</s><s xml:id="_MpDexpd" coords="4,383.91,439.00,174.41,12.40;4,317.96,449.96,168.87,12.40">The in situ infrastructure can then act on those events and implement fault recovery schemes.</s><s xml:id="_JXvPMGT" coords="4,489.07,449.96,69.25,12.40;4,317.96,460.93,240.36,12.40;4,317.96,471.89,51.23,12.40">For example, failed tasks can be restarted on other resources or simply removed from the workflow.</s><s xml:id="_kMAF5qs" coords="4,371.43,471.89,187.06,12.40;4,317.96,482.86,169.28,12.40">Alternatively, the in situ infrastructure can ask for additional resources to replace the failed ones.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3" xml:id="_raSY56G">Portability of Argo</head><p xml:id="_cskK9Xw"><s xml:id="_dQT4TAS" coords="4,317.53,523.02,242.30,12.40;4,317.96,533.99,240.36,12.40;4,317.96,544.95,241.74,12.40">While some of the features of Argo require changes in the production infrastructure (e.g., a different Linux kernel), the features relevant to in situ workflows discussed here are all in userspace.</s><s xml:id="_S5uUAfv" coords="4,317.65,555.92,240.67,12.40;4,317.96,566.88,224.96,12.40">As such, they are intended to be portable to as many production systems as possible and can be deployed by users themselves.</s></p><p xml:id="_AmMHM3p"><s xml:id="_zBpNhEa" coords="4,327.93,577.84,231.90,12.40;4,317.96,588.81,240.36,12.40;4,317.96,599.77,241.87,12.40;4,317.96,610.74,25.44,12.40">By providing these new system-level features, we hope to simplify the implementation of connected workflows and allow users more flexibility in managing their allocations on production machines.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6" xml:id="_kWuqpQA">ACKNOWLEDGMENT</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,317.96,650.90,241.88,12.40;4,317.96,661.87,240.53,12.40;4,317.96,672.83,241.74,12.40;4,317.96,683.80,240.36,12.40;4,317.96,694.76,240.36,12.40;5,53.68,83.41,241.87,12.40;5,53.68,94.38,47.20,12.40"><head></head><label></label><figDesc><div><p xml:id="_xchQjNH"><s xml:id="_UnZ7vbY" coords="4,317.96,650.90,241.88,12.40;4,317.96,661.87,240.53,12.40;4,317.96,672.83,241.74,12.40">Part of this work was supported by Advanced Scientific Computing Research, Office of Science, U.S. Department of Energy, under Contract DE-AC02-06CH11357, program manager Lucy Nowell.</s><s xml:id="_E6Cz8wP" coords="4,317.96,683.80,240.36,12.40;4,317.96,694.76,240.36,12.40;5,53.68,83.41,241.87,12.40;5,53.68,94.38,47.20,12.40">Other part of this work was supported by the Exascale Computing Project (17-SC-20-SC), a collaborative effort of the U.S. Department of Energy Office of Science and the National Nuclear Security Administration.</s></p></div></figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="5,69.12,136.43,14.80,9.64;5,110.22,136.43,121.13,9.64;5,257.65,136.43,37.46,9.64;5,69.12,143.67,204.15,11.47;5,69.12,153.47,113.77,9.64" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="5,110.22,136.43,25.51,9.64" xml:id="_7Me43VZ">Acknowledgments</title>
+		<idno type="DOI">10.1016/b978-0-08-100127-1.04001-8</idno>
+		<ptr target="https://ix.cs.uoregon.edu/hank/insituterminology/index.cgi?n=Phase1B.Phase1BProposedInSituCategorizations" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nxv6jtC" coord="5,144.01,136.43,87.34,9.64">Project Management for Information Professionals</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2016-02">2016. Feb 2016</date>
+			<biblScope unit="page">ix</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">2016. The In Situ Terminology Project. (Feb 2016). https://ix.cs.uoregon.edu/ hank/insituterminology/index.cgi?n=Phase1B. Phase1BProposedInSituCategorizations.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,161.44,225.69,9.64;5,69.12,169.41,224.91,9.64;5,69.12,177.39,134.44,10.03" xml:id="b1">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Sean</forename><surname>Ahern</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><surname>Brugger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brad</forename><surname>Whitlock</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><forename type="middle">S</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kathleen</forename><surname>Biagas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mark</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hank</forename><surname>Childs</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1309.1796</idno>
+		<title level="m" xml:id="_6B7CsWv" coord="5,189.74,169.41,104.30,9.64;5,69.12,177.39,23.82,9.64">VisIt: Experiences with Sustainable Software</title>
+		<imprint>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Sean Ahern, Eric Brugger, Brad Whitlock, Jeremy S Meredith, Kathleen Biagas, Mark C Miller, and Hank Childs. 2013. VisIt: Experiences with Sustainable Software. arXiv preprint arXiv:1309.1796 (2013).</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,185.36,224.91,9.64;5,69.12,193.34,197.20,10.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_Gj8pQSN">ParaView: An End-User Tool for Large-Data Visualization</title>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Ahrens</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Berk</forename><surname>Geveci</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Charles</forename><surname>Law</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-012387582-2/50038-1</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_8wJRxCZ" coord="5,213.63,185.36,80.41,9.64;5,69.12,193.34,163.54,10.03">Visualization Handbook</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2005">2005. 2005</date>
+			<biblScope unit="page" from="717" to="731" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">James Ahrens, Berk Geveci, and Charles Law. 2005. ParaView: An End-User Tool for Large-Data Visualization. The Visualization Handbook (2005), 717.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,201.31,225.69,9.64;5,69.12,209.28,224.91,9.64;5,68.91,217.26,225.12,10.03;5,68.70,225.23,58.01,10.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="5,187.19,209.28,106.84,9.64;5,68.91,217.26,14.20,9.64" xml:id="_t24yJpJ">The Common Communication Interface (CCI)</title>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Atchley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Dillow</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Galen</forename><surname>Shipman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Patrick</forename><surname>Geoffray</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><forename type="middle">M</forename><surname>Squyres</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">George</forename><surname>Bosilca</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ronald</forename><surname>Minnich</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/hoti.2011.17</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_58AEjGQ" coord="5,95.43,218.88,198.60,8.41;5,68.70,226.85,17.93,8.41">2011 IEEE 19th Annual Symposium on High Performance Interconnects</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011-08">2011</date>
+			<biblScope unit="page" from="51" to="60" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scott Atchley, David Dillow, Galen Shipman, Patrick Geoffray, Jeffrey M Squyres, George Bosilca, and Ronald Minnich. 2011. The common communication interface (CCI). In 2011 IEEE 19th Annual Symposium on High Performance Interconnects (HOTI). IEEE, 51-60.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,233.21,225.69,9.64;5,69.12,241.18,225.99,9.64;5,68.91,249.15,225.12,10.03;5,69.12,257.13,225.99,10.03;5,69.12,265.10,110.59,9.64" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_BUFm3uc">Transparent in Situ Data Transformations in ADIOS</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Boyuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sriram</forename><surname>Lakshminarasimham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiaocheng</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Zhenhuan</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><forename type="middle">R</forename><surname>Schendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Norbert</forename><surname>Podhorszki</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Qing</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><surname>Klasky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nagiza</forename><forename type="middle">F</forename><surname>Samatova</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ccgrid.2014.73</idno>
+		<ptr target="https://doi.org/10.1109/CCGrid.2014.73" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Tnpy46A" coord="5,68.91,249.15,225.12,10.03;5,69.12,258.75,197.32,8.41">2014 14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014-05">2014</date>
+			<biblScope unit="page" from="256" to="266" />
+		</imprint>
+	</monogr>
+	<note>Transparent In Situ Data Transformations in ADIOS</note>
+	<note type="raw_reference">D.A. Boyuka, S. Lakshminarasimham, Xiaocheng Zou, Zhenhuan Gong, J. Jenkins, E.R. Schendel, N. Podhorszki, Qing Liu, S. Klasky, and N.F. Samatova. 2014. Transparent In Situ Data Transformations in ADIOS. In 2014 14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid). 256-266. https://doi.org/10.1109/CCGrid.2014.73</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,273.07,225.68,9.64;5,69.12,281.05,226.09,9.64;5,69.12,289.02,224.91,10.03;5,69.12,297.00,225.99,10.03;5,69.12,304.97,113.83,9.64" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="5,215.39,281.05,79.83,9.64;5,69.12,289.02,156.08,9.64" xml:id="_uvv9Eda">Flexpath: Type-Based Publish/Subscribe System for Large-Scale Science Analytics</title>
+		<author>
+			<persName><forename type="first">Jai</forename><surname>Dayal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Drew</forename><surname>Bratcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Greg</forename><surname>Eisenhauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karsten</forename><surname>Schwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xuechen</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hasan</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><surname>Klasky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Norbert</forename><surname>Podhorszki</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ccgrid.2014.104</idno>
+		<ptr target="https://doi.org/10.1109/CCGrid.2014.104" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wSHJ6uB" coord="5,237.32,290.64,56.71,8.41;5,69.12,298.62,197.32,8.41">2014 14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014-05">2014</date>
+			<biblScope unit="page" from="246" to="255" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Dayal, D. Bratcher, G. Eisenhauer, K. Schwan, M. Wolf, Xuechen Zhang, H. Abbasi, S. Klasky, and N. Podhorszki. 2014. Flexpath: Type-Based Pub- lish/Subscribe System for Large-Scale Science Analytics. In 2014 14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid). 246-255. https://doi.org/10.1109/CCGrid.2014.104</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,312.94,226.09,9.64;5,69.12,320.92,224.92,9.64;5,69.12,330.51,224.91,8.41;5,69.12,336.87,225.74,10.03;5,68.90,344.84,97.04,9.64" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="5,240.46,312.94,54.76,9.64;5,69.12,320.92,213.94,9.64" xml:id="_ktthfJj">DataSpaces</title>
+		<author>
+			<persName coords=""><forename type="first">Ciprian</forename><surname>Docan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Manish</forename><surname>Parashar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Klasky</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1851476.1851481</idno>
+		<ptr target="https://doi.org/10.1145/1851476.1851481" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FxynhFm" coord="5,69.12,330.51,224.91,8.41;5,69.12,338.48,99.30,8.41">Proceedings of the 19th ACM International Symposium on High Performance Distributed Computing</title>
+		<meeting>the 19th ACM International Symposium on High Performance Distributed Computing<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-06-21">2010</date>
+			<biblScope unit="page" from="25" to="36" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ciprian Docan, Manish Parashar, and Scott Klasky. 2010. DataSpaces: an In- teraction and Coordination Framework for Coupled Simulation Workflows. In Proceedings of the 19th ACM International Symposium on High Performance Distributed Computing (HPDC &apos;10). ACM, New York, NY, USA, 25-36. https: //doi.org/10.1145/1851476.1851481</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,352.81,224.91,9.64;5,68.88,360.79,225.16,10.03;5,69.12,368.76,166.55,10.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="5,233.20,352.81,60.84,9.64;5,68.88,360.79,167.67,9.64" xml:id="_9j8YjeW">Enabling high‐speed asynchronous data extraction and transfer using DART</title>
+		<author>
+			<persName coords=""><forename type="first">Ciprian</forename><surname>Docan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Manish</forename><surname>Parashar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Klasky</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cpe.1567</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aH6ee3N" coord="5,245.38,362.41,48.66,8.41;5,69.12,370.38,104.68,8.41">Concurrency and Computation: Practice and Experience</title>
+		<title level="j" type="abbrev">Concurrency and Computation</title>
+		<idno type="ISSN">1532-0626</idno>
+		<idno type="ISSNe">1532-0634</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1181" to="1204" />
+			<date type="published" when="2010-03-23">2010. 2010</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ciprian Docan, Manish Parashar, and Scott Klasky. 2010. Enabling High-Speed Asynchronous Data Extraction and Transfer using DART. Concurrency and Computation: Practice and Experience 22 (2010), 1181-1204.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,376.74,224.92,9.64;5,69.12,384.71,208.10,10.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="5,190.15,376.74,103.89,9.64;5,69.12,384.71,46.43,9.64" xml:id="_WePkvzY">Architecture-aware Algorithms and Software for Peta and Exascale Computing</title>
+		<author>
+			<persName coords=""><forename type="first">Jack</forename><surname>Dongarra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pete</forename><surname>Beckman</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ipdps.2011.419</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_C6EVHfS">2011 IEEE International Parallel &amp; Distributed Processing Symposium</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011-02">2011. Feb. 2011</date>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">58</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jack Dongarra, Pete Beckman, et al. 2011. The International Exascale Software Project Roadmap. Int. J. High Perform. Comput. Appl. 25, 1 (Feb. 2011), 58.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,392.68,225.99,9.64;5,69.12,400.66,224.91,9.64;5,69.12,408.63,224.92,10.03;5,69.12,416.60,49.48,10.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="5,87.09,400.66,206.94,9.64;5,69.12,408.63,64.75,9.64" xml:id="_NZVG8Xg">Damaris: How to Efficiently Leverage Multicore Parallelism to Achieve Scalable, Jitter-free I/O</title>
+		<author>
+			<persName coords=""><forename type="first">Matthieu</forename><surname>Dorier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gabriel</forename><surname>Antoniu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Franck</forename><surname>Cappello</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Snir</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Leigh</forename><surname>Orf</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cluster.2012.26</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Ax9pUQ6" coord="5,146.06,410.25,147.98,8.41;5,69.12,418.22,29.22,8.41">2012 IEEE International Conference on Cluster Computing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2012-09">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthieu Dorier, Gabriel Antoniu, Franck Cappello, Marc Snir, and Leigh Orf. 2012. Damaris: How to Efficiently Leverage Multicore Parallelism to Achieve Scalable, Jitter-free I/O. In CLUSTER -IEEE International Conference on Cluster Computing. IEEE.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,424.58,224.91,9.64;5,68.88,432.55,225.16,9.64;5,69.12,440.53,224.91,10.03;5,69.12,448.50,180.99,10.03" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="5,161.32,432.55,132.72,9.64;5,69.12,440.53,34.17,9.64" xml:id="_uyGkaXn">Lessons Learned from Building In Situ Coupling Frameworks</title>
+		<author>
+			<persName coords=""><forename type="first">Matthieu</forename><surname>Dorier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matthieu</forename><surname>Dreher</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tom</forename><surname>Peterka</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Justin</forename><forename type="middle">M</forename><surname>Wozniak</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gabriel</forename><surname>Antoniu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bruno</forename><surname>Raffin</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2828612.2828622</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nDxSHHc" coord="5,116.48,442.15,177.56,8.41;5,69.12,450.12,139.93,8.41">Proceedings of the First Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization</title>
+		<meeting>the First Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2015-11-15">2015</date>
+			<biblScope unit="page" from="19" to="24" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthieu Dorier, Matthieu Dreher, Tom Peterka, Justin M Wozniak, Gabriel Antoniu, and Bruno Raffin. 2015. Lessons Learned from Building in Situ Coupling Frameworks. In Proceedings of the First Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization. ACM, 19-24.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,456.47,225.62,10.03;5,69.12,464.45,175.03,10.03" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="5,165.95,458.09,128.79,8.41;5,69.12,466.07,63.92,8.41" xml:id="_ubCwp4Q">Decaf: Decoupled Dataflows for In Situ High-Performance Workflows</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Dreher</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Peterka</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/1372113</idno>
+		<idno>ANL/MCS-TM-371</idno>
+		<imprint>
+			<date type="published" when="2017-07-31">2017</date>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">M. Dreher and T. Peterka. 2017. Decaf: Decoupled Dataflows for In Situ High- Performance Workflows. Technical Report ANL/MCS-TM-371.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,472.42,224.91,9.64;5,69.12,480.40,224.91,10.03;5,69.12,488.37,225.99,10.03;5,69.12,496.34,44.60,9.64" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="5,181.98,472.42,112.06,9.64;5,69.12,480.40,167.47,9.64" xml:id="_a3sBxMB">A Flexible Framework for Asynchronous in Situ and in Transit Analytics for Scientific Simulations</title>
+		<author>
+			<persName coords=""><forename type="first">Matthieu</forename><surname>Dreher</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bruno</forename><surname>Raffin</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ccgrid.2014.92</idno>
+		<ptr target="https://hal.inria.fr/hal-00941413" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_55AG5ya" coord="5,249.81,482.01,44.23,8.41;5,69.12,489.99,174.83,8.41">2014 14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014-05">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthieu Dreher and Bruno Raffin. 2014. A Flexible Framework for Asynchronous In Situ and In Transit Analytics for Scientific Simulations. In 14th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing. https://hal.inria. fr/hal-00941413</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,504.32,225.99,9.64" xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>Eisenhauer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matthew</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hasan</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Karsten</forename><surname>Schwan</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Greg Eisenhauer, Matthew Wolf, Hasan Abbasi, and Karsten Schwan. [n. d.].</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,512.29,224.92,10.03;5,69.12,521.88,224.91,8.41;5,68.70,529.86,31.04,8.41" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="5,69.12,512.29,180.41,9.64" xml:id="_sjcYC8T">Event-based systems</title>
+		<author>
+			<persName><forename type="first">Greg</forename><surname>Eisenhauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hasan</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karsten</forename><surname>Schwan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1619258.1619261</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_X77jABP" coord="5,261.77,513.91,32.27,8.41;5,69.12,521.88,224.91,8.41;5,68.70,529.86,28.68,8.41">Proceedings of the Third ACM International Conference on Distributed Event-Based Systems</title>
+		<meeting>the Third ACM International Conference on Distributed Event-Based Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2009-07-06" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Event-based Systems: Opportunities and Challenges at Exascale. In Proceedings of the Third ACM International Conference on Distributed Event-Based Systems (DEBS &apos;09).</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,536.21,225.68,9.64;5,69.01,544.19,226.21,9.64;5,69.12,552.16,224.91,9.64;5,68.86,560.13,189.98,10.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="5,200.02,552.16,94.01,9.64;5,68.86,560.13,27.54,9.64" xml:id="_s6rVUuG">Systemwide Power Management with Argo</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Ellsworth</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tapasya</forename><surname>Patki</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Swann</forename><surname>Perarnau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sangmin</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Abdelhalim</forename><surname>Amer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Judicael</forename><surname>Zounmevo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rinku</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kazutomo</forename><surname>Yoshii</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Henry</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Allen</forename><surname>Malony</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martin</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pete</forename><surname>Beckman</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ipdpsw.2016.81</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_SAzu6HP" coord="5,108.93,561.75,48.85,8.41">2016 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016-05">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dan Ellsworth, Tapasya Patki, Swann Perarnau, Sangmin Seo, Abdelhalim Amer, Judicael Zounmevo, Rinku Gupta, Kazutomo Yoshii, Henry Hoffman, Allen Mal- ony, Martin Schulz, and Pete Beckman. 2016. Systemwide Power Management with Argo. In High-Performance, Power-Aware Computing (HPPAC).</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,568.11,225.99,9.64;5,69.12,576.08,225.69,9.64;5,69.12,584.06,224.91,10.03;5,69.12,592.03,225.99,10.03;5,69.12,600.00,37.22,9.64" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="5,158.76,576.08,136.05,9.64;5,69.12,584.06,126.82,9.64" xml:id="_r648ZYv">The ParaView Coprocessing Library: A scalable, general purpose in situ visualization library</title>
+		<author>
+			<persName><forename type="first">Nathan</forename><surname>Fabian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenneth</forename><surname>Moreland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">C</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pat</forename><surname>Marion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Berk</forename><surname>Gevecik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Rasquin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenneth</forename><forename type="middle">E</forename><surname>Jansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ldav.2011.6092322</idno>
+		<ptr target="https://doi.org/10.1109/LDAV.2011.6092322" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_9sEnaF8" coord="5,207.96,585.67,86.07,8.41;5,69.12,593.65,112.91,8.41">2011 IEEE Symposium on Large Data Analysis and Visualization</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011-10">2011</date>
+			<biblScope unit="page" from="89" to="96" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">N. Fabian, K. Moreland, D. Thompson, A.C. Bauer, P. Marion, B. Geveci, M. Rasquin, and K.E. Jansen. 2011. The ParaView Coprocessing Library: A Scalable, General Purpose In Situ Visualization Library. In 2011 IEEE Symposium on Large Data Analysis and Visualization (LDAV). 89-96. https://doi.org/10.1109/LDAV. 2011.6092322</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,607.98,224.91,9.64;5,69.12,615.95,225.69,9.64;5,69.12,623.92,225.68,9.64;5,69.12,631.90,224.91,9.64;5,69.12,639.87,224.92,10.03;5,69.12,647.85,191.92,10.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="5,134.67,631.90,159.36,9.64;5,69.12,639.87,95.32,9.64" xml:id="_rFzAkKS">Hello ADIOS: the challenges and lessons of developing leadership class I/O frameworks</title>
+		<author>
+			<persName coords=""><forename type="first">Qing</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><surname>Logan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yuan</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hasan</forename><surname>Abbasi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Norbert</forename><surname>Podhorszki</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jong</forename><forename type="middle">Youl</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Klasky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Roselyne</forename><surname>Tchoua</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jay</forename><surname>Lofstead</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ron</forename><surname>Oldfield</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Manish</forename><surname>Parashar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nagiza</forename><surname>Samatova</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Karsten</forename><surname>Schwan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Arie</forename><surname>Shoshani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matthew</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kesheng</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Weikuan</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cpe.3125</idno>
+		<ptr target="https://doi.org/10.1002/cpe.3125" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NEVyPus" coord="5,170.34,641.49,123.70,8.41;5,69.12,649.46,29.58,8.41">Concurrency and Computation: Practice and Experience</title>
+		<title level="j" type="abbrev">Concurrency and Computation</title>
+		<idno type="ISSN">1532-0626</idno>
+		<idno type="ISSNe">1532-0634</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1453" to="1473" />
+			<date type="published" when="2014">2014. 2014</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qing Liu, Jeremy Logan, Yuan Tian, Hasan Abbasi, Norbert Podhorszki, Jong Youl Choi, Scott Klasky, Roselyne Tchoua, Jay Lofstead, Ron Oldfield, Manish Parashar, Nagiza Samatova, Karsten Schwan, Arie Shoshani, Matthew Wolf, Kesheng Wu, and Weikuan Yu. 2014. Hello ADIOS: The Challenges and Lessons of Developing Leadership Class I/O Frameworks. Concurrency and Computation: Practice and Experience 26, 7 (2014), 1453-1473. https://doi.org/10.1002/cpe.3125</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,655.82,226.09,9.64;5,69.12,663.79,224.91,10.03;5,69.12,673.39,62.38,8.41" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="5,286.97,655.82,8.25,9.64;5,69.12,663.79,118.96,9.64" xml:id="_3JNa93W">Efficient Data-Movement for Lightweight I/O</title>
+		<author>
+			<persName><forename type="first">Ron</forename><surname>Oldfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patrick</forename><surname>Widener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arthur</forename><surname>Maccabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lee</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Todd</forename><surname>Kordenbrock</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/clustr.2006.311897</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_avcfZEY" coord="5,199.51,665.41,94.52,8.41;5,69.12,673.39,59.13,8.41">2006 IEEE International Conference on Cluster Computing</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R. A. Oldfield, P. Widener, A. B. Maccabe, L. Ward, and T. Kordenbrock. 2006. Ef- ficient Data-Movement for Lightweight I/O. In 2006 IEEE International Conference on Cluster Computing.</note>
+</biblStruct>
+
+<biblStruct coords="5,69.12,679.74,226.10,9.64;5,69.12,687.72,224.92,10.03;5,69.12,697.31,146.02,8.41" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="5,226.41,679.74,68.81,9.64;5,69.12,687.72,72.62,9.64" xml:id="_MzHCtJt">Argo: An Exascale Operating System and Runtime</title>
+		<author>
+			<persName coords=""><forename type="first">Swann</forename><surname>Perarnau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rinku</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pete</forename><surname>Beckman</surname></persName>
+		</author>
+		<idno>SC15</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Z2SaErg" coord="5,154.21,689.33,139.83,8.41;5,69.12,697.31,126.29,8.41">The International Conference for High Performance Computing, Networking, Storage and Analysis</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swann Perarnau, Rinku Gupta, and Pete Beckman. 2015. Argo: An Exascale Oper- ating System and Runtime. In The International Conference for High Performance Computing, Networking, Storage and Analysis, SC15.</note>
+</biblStruct>
+
+<biblStruct coords="5,333.40,85.66,225.68,9.64;5,333.40,93.63,224.91,9.64;5,333.40,101.61,224.91,9.64;5,333.40,109.58,225.61,10.03;5,333.40,119.17,157.41,8.41" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="5,401.70,101.61,156.62,9.64;5,333.40,109.58,78.96,9.64" xml:id="_VBDYJFD">Distributed Monitoring and Management of Exascale Systems in the Argo Project</title>
+		<author>
+			<persName coords=""><forename type="first">Swann</forename><surname>Perarnau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rajeev</forename><surname>Thakur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kamil</forename><surname>Iskra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ken</forename><surname>Raffenetti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Franck</forename><surname>Cappello</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rinku</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pete</forename><surname>Beckman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Snir</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Henry</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Martin</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Barry</forename><surname>Rountree</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-19129-4_14</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_vp6qET3" coord="5,424.46,111.20,134.55,8.41;5,333.40,119.17,119.36,8.41">Distributed Applications and Interoperable Systems</title>
+		<meeting><address><addrLine>Short Paper</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="173" to="178" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swann Perarnau, Rajeev Thakur, Kamil Iskra, Ken Raffenetti, Franck Cappello, Rinku Gupta, Pete Beckman, Marc Snir, Henry Hoffmann, Martin Schulz, and Barry Rountree. 2015. Distributed Monitoring and Management of Exascale Systems in the Argo Project. In IFIP International Conference on Distributed Ap- plications and Interoperable Systems (DAIS), Short Paper.</note>
+</biblStruct>
+
+<biblStruct coords="5,333.40,125.53,225.99,9.64;5,333.40,133.50,224.91,9.64;5,333.40,141.47,224.92,10.03;5,333.40,149.45,222.43,10.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="5,447.91,133.50,110.41,9.64;5,333.40,141.47,74.28,9.64" xml:id="_KdbbcZt">Argo NodeOS: Toward Unified Resource Management for Exascale</title>
+		<author>
+			<persName><forename type="first">Swann</forename><surname>Perarnau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Judicael</forename><forename type="middle">A</forename><surname>Zounmevo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthieu</forename><surname>Dreher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">C Van</forename><surname>Essen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><surname>Gioiosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kamil</forename><surname>Iskra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maya</forename><forename type="middle">B</forename><surname>Gokhale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazutomo</forename><surname>Yoshii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pete</forename><surname>Beckman</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ipdps.2017.25</idno>
+		<ptr target="https://doi.org/10.1109/IPDPS.2017.25" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_wvm4Tx9" coord="5,420.97,143.09,137.35,8.41;5,333.40,151.07,83.85,8.41">2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017-05">2017</date>
+			<biblScope unit="page" from="153" to="162" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Perarnau, J. A. Zounmevo, M. Dreher, B. C. V. Essen, R. Gioiosa, K. Iskra, M. B. Gokhale, K. Yoshii, and P. Beckman. 2017. Argo NodeOS: Toward Unified Resource Management for Exascale. In 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS). 153-162. https://doi.org/10.1109/IPDPS.2017.25</note>
+</biblStruct>
+
+<biblStruct coords="5,333.40,157.42,224.91,9.64;5,333.40,165.40,224.91,10.03;5,333.40,174.99,224.91,8.41;5,332.66,181.34,114.50,10.03" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="5,514.96,157.42,43.36,9.64;5,333.40,165.40,181.83,9.64" xml:id="_H8UQyBg">Eurographics Symposium on Parallel Graphics and Visualization (EGPGV’07)</title>
+		<author>
+			<persName coords=""><forename type="first">Brad</forename><surname>Whitlock</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jean</forename><forename type="middle">M</forename><surname>Favre</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><forename type="middle">S</forename><surname>Meredith</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cag.2007.01.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NHPPTEZ" coord="5,346.19,181.34,71.51,9.64">Computers &amp; Graphics</title>
+		<title level="j" type="abbrev">Computers &amp; Graphics</title>
+		<idno type="ISSN">0097-8493</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">308</biblScope>
+			<date type="published" when="2011">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brad Whitlock, Jean M. Favre, and Jeremy S. Meredith. 2011. Parallel In Situ Coupling of Simulation with a Fully Featured Visualization System. In Proceedings of the 11th Eurographics Conference on Parallel Graphics and Visualization (EGPGV &apos;11). Eurographics Association, 101-109.</note>
+</biblStruct>
+
+<biblStruct coords="5,333.40,189.32,225.68,9.64;5,333.40,197.29,224.92,10.03;5,333.40,205.27,180.54,10.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="5,391.40,197.29,141.56,9.64" xml:id="_j9ppYem">Swift: A language for distributed parallel scripting</title>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Wilde</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mihael</forename><surname>Hategan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Justin</forename><forename type="middle">M</forename><surname>Wozniak</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ben</forename><surname>Clifford</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><forename type="middle">S</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ian</forename><surname>Foster</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.parco.2011.05.005</idno>
+		<ptr target="https://doi.org/10.1016/j.parco.2011.05.005" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UmXSBmS" coord="5,537.62,198.91,20.70,8.41;5,333.40,206.88,23.60,8.41">Parallel Computing</title>
+		<title level="j" type="abbrev">Parallel Computing</title>
+		<idno type="ISSN">0167-8191</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="633" to="652" />
+			<date type="published" when="2011-09">2011. 2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Michael Wilde, Mihael Hategan, Justin M. Wozniak, Ben Clifford, Daniel S. Katz, and Ian Foster. 2011. Swift: A Language for Distributed Parallel Scripting. Parallel Comput. 37, 9 (2011). https://doi.org/10.1016/j.parco.2011.05.005</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

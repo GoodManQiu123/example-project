@@ -1,0 +1,1485 @@
+{
+    "metadata": {
+        "title": "Detecting Anomalous Graphs in Labeled Multi-Graph Databases",
+        "doi": "10.1145/3533770",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Within a large database G containing graphs with labeled nodes and directed, multi-edges; how can we detect the anomalous graphs? Most existing work are designed for plain (unlabeled) and/or simple (unweighted) graphs. We introduce CODEtect, the irst approach that addresses the anomaly detection task for graph databases with such complex nature. To this end, it identiies a small representative set S of structural patterns (i.e., node-labeled network motifs) that losslessly compress database G as concisely as possible. Graphs that do not compress well are lagged as anomalous. CODEtect exhibits two novel building blocks: () a motif-based lossless graph encoding scheme, and () fast memory-eicient search algorithms for S. We show the efectiveness of CODEtect on transaction graph databases from three diferent corporations and statistically similar synthetic datasets, where existing baselines adjusted for the task fall behind signiicantly, across diferent types of anomalies and performance metrics.",
+        "keywords": [
+            "methodology",
+            "multigraph",
+            "anomaly",
+            "graph",
+            "task",
+            "motif",
+            "detection",
+            "codetect",
+            "database",
+            "anomalous"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Hung T Nguyen",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Pierre J Liang",
+            "affiliation": null,
+            "email": "liangj@andrew.cmu.edu"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Akoglu",
+                    "given": "Leman"
+                },
+                {
+                    "family": "McGlohon",
+                    "given": "Mary"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "oddball: Spotting Anomalies in Weighted Graphs",
+            "type": "chapter",
+            "container_title": [
+                "PAKDD"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Akoglu",
+                    "given": "Leman"
+                },
+                {
+                    "family": "Tong",
+                    "given": "Hanghang"
+                },
+                {
+                    "family": "Koutra",
+                    "given": "Danai"
+                }
+            ],
+            "title": "Graph based anomaly detection and description: a survey",
+            "type": "article-journal",
+            "container_title": [
+                "Data Min. Knowl. Discov"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Akoglu",
+                    "given": "Leman"
+                },
+                {
+                    "family": "Tong",
+                    "given": "Hanghang"
+                },
+                {
+                    "family": "Vreeken",
+                    "given": "Jilles"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Fast and reliable anomaly detection in categorical data",
+            "type": "chapter",
+            "container_title": [
+                "CIKM"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hasan",
+                    "given": "Mohammad Al"
+                },
+                {
+                    "family": "Dave",
+                    "given": "Vachik S."
+                }
+            ],
+            "title": "Triangle counting in large networks: a review",
+            "type": "article-journal",
+            "container_title": [
+                "Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Arenas",
+                    "given": "A."
+                },
+                {
+                    "family": "Fern\u00e1ndez",
+                    "given": "A."
+                },
+                {
+                    "family": "Fortunato",
+                    "given": "S."
+                },
+                {
+                    "family": "G\u00f3mez",
+                    "given": "S."
+                }
+            ],
+            "title": "Motif-based communities in complex networks",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Physics A"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bandyopadhyay",
+                    "given": "Sambaran"
+                },
+                {
+                    "family": "Vivek",
+                    "given": "Saley Vishal"
+                },
+                {
+                    "family": "Murty",
+                    "given": "M.N."
+                }
+            ],
+            "title": "Outlier resistant unsupervised deep architectures for attributed network embedding",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 13th International Conference on Web Search and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Benson",
+                    "given": "Austin R."
+                },
+                {
+                    "family": "Gleich",
+                    "given": "David F."
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Higher-order organization of complex networks",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bloem",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Rooij",
+                    "given": "Steven",
+                    "particle": "de"
+                }
+            ],
+            "title": "Large-Scale Network Motif Learning with Compression",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bloem",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Rooij",
+                    "given": "Steven",
+                    "particle": "de"
+                }
+            ],
+            "title": "Large-scale network motif analysis using compression",
+            "type": "article-journal",
+            "container_title": [
+                "Data Mining and Knowledge Discovery"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cook",
+                    "given": "Diane J."
+                },
+                {
+                    "family": "Holder",
+                    "given": "Lawrence B."
+                }
+            ],
+            "title": "Substructure Discovery Using Minimum Description Length and Background Knowledge",
+            "type": "article-journal",
+            "container_title": [
+                "JAIR"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ding",
+                    "given": "Kaize"
+                },
+                {
+                    "family": "Li",
+                    "given": "Jundong"
+                },
+                {
+                    "family": "Bhanushali",
+                    "given": "Rohit"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Huan"
+                }
+            ],
+            "title": "Deep anomaly detection on attributed networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2019 SIAM International Conference on Data Mining. SIAM"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Eberle",
+                    "given": "William"
+                },
+                {
+                    "family": "Holder",
+                    "given": "Lawrence B."
+                }
+            ],
+            "title": "Anomaly detection in data represented as graphs",
+            "type": "article-journal",
+            "container_title": [
+                "Intell. Data Anal"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Elenberg",
+                    "given": "Ethan R."
+                },
+                {
+                    "family": "Shanmugam",
+                    "given": "Karthikeyan"
+                },
+                {
+                    "family": "Borokhovich",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Dimakis",
+                    "given": "Alexandros G."
+                }
+            ],
+            "title": "Beyond Triangles: A Distributed Framework for Estimating 3-proiles of Large Graphs",
+            "type": "chapter",
+            "container_title": [
+                "ACM"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Eswaran",
+                    "given": "Dhivya"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                },
+                {
+                    "family": "Guha",
+                    "given": "Sudipto"
+                },
+                {
+                    "family": "Mishra",
+                    "given": "Nina"
+                }
+            ],
+            "title": "SpotLight: Detecting Anomalies in Streaming Graphs",
+            "type": "chapter",
+            "container_title": [
+                "KDD. ACM"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fan",
+                    "given": "Yujie"
+                },
+                {
+                    "family": "Hou",
+                    "given": "Shifu"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Yiming"
+                },
+                {
+                    "family": "Ye",
+                    "given": "Yanfang"
+                },
+                {
+                    "family": "Abdulhayoglu",
+                    "given": "Melih"
+                }
+            ],
+            "title": "Gotcha-Sly Malware! Scorpion A Metagraph2vec Based Malware Detection System",
+            "type": "chapter",
+            "container_title": [
+                "KDD"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Grover",
+                    "given": "Aditya"
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "node2vec: Scalable feature learning for networks",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gr\u00fcnwald",
+                    "given": "Peter D."
+                }
+            ],
+            "title": "The minimum description length principle",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Halld\u00f3rsson",
+                    "given": "Magn\u00fas M."
+                },
+                {
+                    "family": "Radhakrishnan",
+                    "given": "Jaikumar"
+                }
+            ],
+            "title": "Greed is good: Approximating independent sets in sparse and bounded-degree graphs",
+            "type": "article-journal",
+            "container_title": [
+                "Algorithmica"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hamilton",
+                    "given": "Will"
+                },
+                {
+                    "family": "Ying",
+                    "given": "Zhitao"
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Inductive representation learning on large graphs",
+            "type": "chapter",
+            "container_title": [
+                "NeurIPS"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hooi",
+                    "given": "Bryan"
+                },
+                {
+                    "family": "Shin",
+                    "given": "Kijung"
+                },
+                {
+                    "family": "Song",
+                    "given": "Hyun Ah"
+                },
+                {
+                    "family": "Beutel",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Shah",
+                    "given": "Neil"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Graph-based fraud detection in the face of camoulage",
+            "type": "article-journal",
+            "container_title": [
+                "TKDD"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kashani",
+                    "given": "Zahra"
+                },
+                {
+                    "family": "Ahrabian",
+                    "given": "Hayedeh"
+                },
+                {
+                    "family": "Elahi",
+                    "given": "Elahe"
+                },
+                {
+                    "family": "Nowzari-Dalini",
+                    "given": "Abbas"
+                },
+                {
+                    "family": "Ansari",
+                    "given": "Elnaz"
+                },
+                {
+                    "family": "Asadi",
+                    "given": "Sahar"
+                },
+                {
+                    "family": "Mohammadi",
+                    "given": "Shahin"
+                },
+                {
+                    "family": "Schreiber",
+                    "given": "Falk"
+                },
+                {
+                    "family": "Masoudi-Nejad",
+                    "given": "Ali"
+                }
+            ],
+            "title": "Kavosh: a new algorithm for inding network motifs",
+            "type": "article-journal",
+            "container_title": [
+                "BMC Bioinformatics"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kashtan",
+                    "given": "Nadav"
+                },
+                {
+                    "family": "Itzkovitz",
+                    "given": "Shalev"
+                },
+                {
+                    "family": "Milo",
+                    "given": "Ron"
+                },
+                {
+                    "family": "Alon",
+                    "given": "Uri"
+                }
+            ],
+            "title": "Eicient sampling algorithm for estimating subgraph concentrations and detecting network motifs",
+            "type": "article-journal",
+            "container_title": [
+                "Bioinformatics"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Danai Koutra",
+                    "given": "U.Kang"
+                },
+                {
+                    "family": "Vreeken",
+                    "given": "Jilles"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "VOG: Summarizing and Understanding Large Graphs",
+            "type": "chapter",
+            "container_title": [
+                "SDM. SIAM"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kovanen",
+                    "given": "Lauri"
+                },
+                {
+                    "family": "Karsai",
+                    "given": "M\u00e1rton"
+                },
+                {
+                    "family": "Kaski",
+                    "given": "Kimmo"
+                },
+                {
+                    "family": "Kert\u00e9sz",
+                    "given": "J\u00e1nos"
+                },
+                {
+                    "family": "Saram\u00e4ki",
+                    "given": "Jari"
+                }
+            ],
+            "title": "Temporal motifs in time-dependent networks",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Statistical Mechanics: Theory and Experiment"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Fei Tony"
+                },
+                {
+                    "family": "Ting",
+                    "given": "Kai Ming"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Zhi-Hua"
+                }
+            ],
+            "title": "Isolation-based anomaly detection",
+            "type": "article-journal",
+            "container_title": [
+                "TKDD"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ma",
+                    "given": "Rongrong"
+                },
+                {
+                    "family": "Pang",
+                    "given": "Guansong"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Ling"
+                },
+                {
+                    "family": "Hengel",
+                    "given": "Anton",
+                    "particle": "van den"
+                }
+            ],
+            "title": "Deep Graph-level Anomaly Detection by Glocal Knowledge Distillation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Fifteenth ACM International Conference on Web Search and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ma",
+                    "given": "Xiaoxiao"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Jia"
+                },
+                {
+                    "family": "Xue",
+                    "given": "Shan"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Jian"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Chuan"
+                },
+                {
+                    "family": "Sheng",
+                    "given": "Quan Z."
+                },
+                {
+                    "family": "Xiong",
+                    "given": "Hui"
+                },
+                {
+                    "family": "Akoglu",
+                    "given": "Leman"
+                }
+            ],
+            "title": "A comprehensive survey on graph anomaly detection with deep learning",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Knowledge and Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Manzoor",
+                    "given": "Emaad A."
+                },
+                {
+                    "family": "Milajerdi",
+                    "given": "Sadegh M."
+                },
+                {
+                    "family": "Akoglu",
+                    "given": "Leman"
+                }
+            ],
+            "title": "Fast Memory-eicient Anomaly Detection in Streaming Heterogeneous Graphs",
+            "type": "chapter",
+            "container_title": [
+                "KDD. ACM"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Milo",
+                    "given": "Ron"
+                },
+                {
+                    "family": "Itzkovitz",
+                    "given": "Shalev"
+                },
+                {
+                    "family": "Kashtan",
+                    "given": "Nadav"
+                },
+                {
+                    "family": "Levitt",
+                    "given": "Reuven"
+                },
+                {
+                    "family": "Shen-Orr",
+                    "given": "Shai"
+                },
+                {
+                    "family": "Ayzenshtat",
+                    "given": "Inbal"
+                },
+                {
+                    "family": "Shefer",
+                    "given": "Michal"
+                },
+                {
+                    "family": "Alon",
+                    "given": "Uri"
+                }
+            ],
+            "title": "Superfamilies of evolved and designed networks",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Milo",
+                    "given": "Ron"
+                },
+                {
+                    "family": "Shen-Orr",
+                    "given": "Shai"
+                },
+                {
+                    "family": "Itzkovitz",
+                    "given": "Shalev"
+                },
+                {
+                    "family": "Kashtan",
+                    "given": "Nadav"
+                },
+                {
+                    "family": "Chklovskii",
+                    "given": "Dmitri"
+                },
+                {
+                    "family": "Alon",
+                    "given": "Uri"
+                }
+            ],
+            "title": "Network Motifs: Simple Building Blocks of Complex Networks",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Narayanan",
+                    "given": "Annamalai"
+                },
+                {
+                    "family": "Chandramohan",
+                    "given": "Mahinthan"
+                },
+                {
+                    "family": "Venkatesan",
+                    "given": "Rajasekar"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Lihui"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Jaiswal",
+                    "given": "Shantanu"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Navlakha",
+                    "given": "Saket"
+                },
+                {
+                    "family": "Rastogi",
+                    "given": "Rajeev"
+                },
+                {
+                    "family": "Shrivastava",
+                    "given": "Nisheeth"
+                }
+            ],
+            "title": "Graph summarization with bounded error",
+            "type": "chapter",
+            "container_title": [
+                "SIGMOD. ACM"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Niepert",
+                    "given": "Mathias"
+                },
+                {
+                    "family": "Ahmed",
+                    "given": "Mohamed"
+                },
+                {
+                    "family": "Kutzkov",
+                    "given": "Konstantin"
+                }
+            ],
+            "title": "Learning convolutional neural networks for graphs",
+            "type": "chapter",
+            "container_title": [
+                "ICML"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Noble",
+                    "given": "Caleb C."
+                },
+                {
+                    "family": "Cook",
+                    "given": "Diane J."
+                }
+            ],
+            "title": "Graph-based anomaly detection",
+            "type": "chapter",
+            "container_title": [
+                "KDD. ACM"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Paranjape",
+                    "given": "Ashwin"
+                },
+                {
+                    "family": "Benson",
+                    "given": "Austin R."
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Motifs in Temporal Networks",
+            "type": "chapter",
+            "container_title": [
+                "WSDM. ACM"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Paudel",
+                    "given": "Ramesh"
+                },
+                {
+                    "family": "Eberle",
+                    "given": "William"
+                }
+            ],
+            "title": "SNAPSKETCH: Graph Representation Approach for Intrusion Detection in a Streaming Graph",
+            "type": "chapter",
+            "container_title": [
+                "MLG 2020: 16th International Workshop on Mining and Learning with Graphs"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Peng",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Li",
+                    "given": "Jianxin"
+                },
+                {
+                    "family": "Gong",
+                    "given": "Qiran"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Senzhang"
+                },
+                {
+                    "family": "Ning",
+                    "given": "Yuanxing"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Philip S."
+                }
+            ],
+            "title": "Graph convolutional neural networks via motif-based attention",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Perozzi",
+                    "given": "Bryan"
+                },
+                {
+                    "family": "Akoglu",
+                    "given": "Leman"
+                }
+            ],
+            "title": "Scalable anomaly ranking of attributed neighborhoods",
+            "type": "chapter",
+            "container_title": [
+                "SDM. SIAM"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Perozzi",
+                    "given": "Bryan"
+                },
+                {
+                    "family": "Akoglu",
+                    "given": "Leman"
+                },
+                {
+                    "family": "S\u00e1nchez",
+                    "given": "Patricia Iglesias"
+                },
+                {
+                    "family": "M\u00fcller",
+                    "given": "Emmanuel"
+                }
+            ],
+            "title": "Focused clustering and outlier detection in large attributed graphs",
+            "type": "chapter",
+            "container_title": [
+                "KDD"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rissanen",
+                    "given": "Jorma"
+                }
+            ],
+            "title": "Modeling by shortest data description",
+            "type": "article-journal",
+            "container_title": [
+                "Automatica"
+            ],
+            "doi": "",
+            "published_date": "1978"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rossi",
+                    "given": "Ryan A."
+                },
+                {
+                    "family": "Ahmed",
+                    "given": "Nesreen K."
+                },
+                {
+                    "family": "Carranza",
+                    "given": "Aldo G."
+                },
+                {
+                    "family": "Arbour",
+                    "given": "David"
+                },
+                {
+                    "family": "Rao",
+                    "given": "Anup"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Sungchul"
+                },
+                {
+                    "family": "Koh",
+                    "given": "Eunyee"
+                }
+            ],
+            "title": "Heterogeneous Network Motifs",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sanei-Mehri",
+                    "given": "Seyed-Vahid"
+                },
+                {
+                    "family": "Sariy\u00fcce",
+                    "given": "Ahmet Erdem"
+                },
+                {
+                    "family": "Tirthapura",
+                    "given": "Srikanta"
+                }
+            ],
+            "title": "Butterly Counting in Bipartite Networks",
+            "type": "chapter",
+            "container_title": [
+                "ACM"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Seshadhri",
+                    "given": "SeTi19 C."
+                },
+                {
+                    "family": "Tirthapura",
+                    "given": "Srikanta"
+                }
+            ],
+            "title": "Scalable Subgraph Counting: The Methods Behind The Madness: WWW 2019 Tutorial",
+            "type": "chapter",
+            "container_title": [
+                "WWW"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shah",
+                    "given": "Neil"
+                },
+                {
+                    "family": "Koutra",
+                    "given": "Danai"
+                },
+                {
+                    "family": "Zou",
+                    "given": "Tianmin"
+                },
+                {
+                    "family": "Gallagher",
+                    "given": "Brian"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "TimeCrunch: Interpretable Dynamic Graph Summarization",
+            "type": "chapter",
+            "container_title": [
+                "KDD. ACM"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nino Shervashidze",
+                    "given": "S.V.N.Vishwanathan"
+                },
+                {
+                    "family": "Petri",
+                    "given": "Tobias"
+                },
+                {
+                    "family": "Mehlhorn",
+                    "given": "Kurt"
+                },
+                {
+                    "family": "Borgwardt",
+                    "given": "Karsten M."
+                }
+            ],
+            "title": "Eicient graphlet kernels for large graph comparison",
+            "type": "chapter",
+            "container_title": [
+                "AISTATS. 488\u015b495"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shin",
+                    "given": "Kijung"
+                },
+                {
+                    "family": "Eliassi-Rad",
+                    "given": "Tina"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Corescope: Graph mining using k-core analysis\u00d0patterns, anomalies and algorithms",
+            "type": "chapter",
+            "container_title": [
+                "ICDM"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Smets",
+                    "given": "Koen"
+                },
+                {
+                    "family": "Vreeken",
+                    "given": "Jilles"
+                }
+            ],
+            "title": "The Odd One Out: Identifying and Characterising Anomalies",
+            "type": "chapter",
+            "container_title": [
+                "SDM. SIAM / Omnipress"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tatti",
+                    "given": "Nikolaj"
+                },
+                {
+                    "family": "Vreeken",
+                    "given": "Jilles"
+                }
+            ],
+            "title": "Finding Good Itemsets by Packing Data",
+            "type": "chapter",
+            "container_title": [
+                "ICDM"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tian",
+                    "given": "Yuanyuan"
+                },
+                {
+                    "family": "Hankins",
+                    "given": "Richard A."
+                },
+                {
+                    "family": "Patel",
+                    "given": "Jignesh M."
+                }
+            ],
+            "title": "Eicient aggregation for graph summarization",
+            "type": "chapter",
+            "container_title": [
+                "SIGMOD. ACM"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ugander",
+                    "given": "Johan"
+                },
+                {
+                    "family": "Backstrom",
+                    "given": "Lars"
+                },
+                {
+                    "family": "Kleinberg",
+                    "given": "Jon M."
+                }
+            ],
+            "title": "Subgraph frequencies: mapping the empirical and extremal geography of large graph collections",
+            "type": "chapter",
+            "container_title": [
+                "ACM"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "V\u00e1zquez",
+                    "given": "A."
+                },
+                {
+                    "family": "Dobrin",
+                    "given": "R."
+                },
+                {
+                    "family": "Sergi",
+                    "given": "D."
+                },
+                {
+                    "family": "Eckmann",
+                    "given": "J.-P."
+                },
+                {
+                    "family": "Oltvai",
+                    "given": "Z.N."
+                },
+                {
+                    "family": "Barab\u00e1si",
+                    "given": "A.-L."
+                }
+            ],
+            "title": "The topological relationship between the large-scale attributes and local interaction patterns of complex networks",
+            "type": "article-journal",
+            "container_title": [
+                "PNAS"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vreeken",
+                    "given": "Jilles"
+                },
+                {
+                    "family": "Leeuwen",
+                    "given": "Matthijs",
+                    "particle": "van"
+                },
+                {
+                    "family": "Siebes",
+                    "given": "Arno"
+                }
+            ],
+            "title": "Krimp: mining itemsets that compress",
+            "type": "article-journal",
+            "container_title": [
+                "Data Min. Knowl. Discov"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Keyulu"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Weihua"
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                },
+                {
+                    "family": "Jegelka",
+                    "given": "Stefanie"
+                }
+            ],
+            "title": "How Powerful are Graph Neural Networks?",
+            "type": "chapter",
+            "container_title": [
+                "ICLR"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yanardag",
+                    "given": "Pinar"
+                },
+                {
+                    "family": "Vishwanathan",
+                    "given": "S.V.N."
+                }
+            ],
+            "title": "Deep graph kernels",
+            "type": "chapter",
+            "container_title": [
+                "KDD"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yin",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Benson",
+                    "given": "Austin R."
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Higher-order clustering in networks",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev. E"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhao",
+                    "given": "Lingxiao"
+                },
+                {
+                    "family": "Akoglu",
+                    "given": "Leman"
+                }
+            ],
+            "title": "On using classiication datasets to evaluate graph outlier detection: Peculiar observations and new insights",
+            "type": "article-journal",
+            "container_title": [
+                "Big Data"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhao",
+                    "given": "Tong"
+                },
+                {
+                    "family": "Deng",
+                    "given": "Chuchen"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Kaifeng"
+                },
+                {
+                    "family": "Jiang",
+                    "given": "Tianwen"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Daheng"
+                },
+                {
+                    "family": "Jiang",
+                    "given": "Meng"
+                }
+            ],
+            "title": "Error-Bounded Graph Anomaly Loss for GNNs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 29th ACM International Conference on Information & Knowledge Management"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        }
+    ]
+}

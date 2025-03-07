@@ -1,0 +1,960 @@
+{
+    "metadata": {
+        "title": "Preschool and primary school influences on the development of children's early numeracy skills between the ages of 3 and 7 years in Germany",
+        "doi": "10.1080/09243453.2012.749794",
+        "publisher": "Informa UK Limited",
+        "journal": "School Effectiveness and School Improvement",
+        "published_date": "20 Dec 2012."
+    },
+    "content": {
+        "abstract": "Few studies have investigated how preschool and primary school interact to influence children's cognitive development. The present investigation explores German children's numeracy skills between age 3 (1st year of preschool) and age 7 (1st year of primary school). We first identified the influence of preschool experience on development while controlling for child factors, family background, and the quality of the home learning environment (HLE). We then considered how the instructional quality of primary schools influences numeracy. We finally analysed how preschool and primary school interact. We sampled 547 children who attended 97 German preschools. Latent growth curve analyses identified child and family factors related to age 3 numeracy and development to age 7: gender, migration background, socioeconomic status (SES), mother education, HLE. The effects of preschool on numeracy development persist until age 7 with notable effects from process quality. Strengthened efforts are needed to ensure high quality preschool education in Germany.",
+        "keywords": [
+            "school",
+            "early",
+            "longitudinal",
+            "skill",
+            "preschool",
+            "germany",
+            "study",
+            "primary",
+            "age",
+            "development"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Yvonne Anders",
+            "affiliation": "Free University of Berlin",
+            "email": "yvonne.anders@fu-berlin.de"
+        },
+        {
+            "name": "Christiane Grosse",
+            "affiliation": "University of Bamberg",
+            "email": null
+        },
+        {
+            "name": "Hans-G\u00fcnther Rossbach",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Susanne Ebert",
+            "affiliation": "University of Bamberg",
+            "email": null
+        },
+        {
+            "name": "Sabine Weinert",
+            "affiliation": "University of Bamberg",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Anders",
+                    "given": "Y."
+                },
+                {
+                    "family": "Rossbach",
+                    "given": "H.-G."
+                },
+                {
+                    "family": "Weinert",
+                    "given": "S."
+                },
+                {
+                    "family": "Ebert",
+                    "given": "S."
+                },
+                {
+                    "family": "Kuger",
+                    "given": "S."
+                },
+                {
+                    "family": "Lehrl",
+                    "given": "S."
+                },
+                {
+                    "family": "Maurice",
+                    "given": "J.",
+                    "particle": "von"
+                }
+            ],
+            "title": "Home and preschool learning environments and their relations to the development of early numeracy skills",
+            "type": "article-journal",
+            "container_title": [
+                "Early Childhood Research Quarterly"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Anders",
+                    "given": "Y."
+                },
+                {
+                    "family": "Sammons",
+                    "given": "P."
+                },
+                {
+                    "family": "Taggart",
+                    "given": "B."
+                },
+                {
+                    "family": "Sylva",
+                    "given": "K."
+                },
+                {
+                    "family": "Melhuish",
+                    "given": "E."
+                },
+                {
+                    "family": "Siraj-Blatchford",
+                    "given": "I."
+                }
+            ],
+            "title": "The influence of child, family home factors and pre-school education on the identification of special educational needs at age 10",
+            "type": "article-journal",
+            "container_title": [
+                "British Educational Research Journal"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Arbuckle",
+                    "given": "J.L."
+                }
+            ],
+            "title": "Full information estimation in the presence of incomplete data",
+            "type": "chapter",
+            "container_title": [
+                "Advanced structural equation modeling: Issues and Techniques"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Baumert",
+                    "given": "J."
+                },
+                {
+                    "family": "Kunter",
+                    "given": "M."
+                },
+                {
+                    "family": "Blum",
+                    "given": "W."
+                },
+                {
+                    "family": "Brunner",
+                    "given": "M."
+                },
+                {
+                    "family": "Voss",
+                    "given": "T."
+                },
+                {
+                    "family": "Jordan",
+                    "given": "A."
+                },
+                {
+                    "family": "Tsai",
+                    "given": "Y.-M."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Teachers' mathematical knowledge, cognitive activation in the classroom, and student progress",
+            "type": "article-journal",
+            "container_title": [
+                "American Educational Research Journal"
+            ],
+            "doi": "10.3102/000283120",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Caldwell",
+                    "given": "B.M."
+                },
+                {
+                    "family": "Bradley",
+                    "given": "R.H."
+                }
+            ],
+            "title": "Home Observation for Measurement of the Environment (HOME",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1984"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cox",
+                    "given": "T."
+                }
+            ],
+            "title": "Combating educational disadvantage. Meeting the needs of vulnerable children",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Curby",
+                    "given": "T.W."
+                },
+                {
+                    "family": "Rimm-Kaufman",
+                    "given": "S.E."
+                },
+                {
+                    "family": "Ponitz",
+                    "given": "C.C."
+                }
+            ],
+            "title": "Teacher-child interactions and children's achievement trajectories across kindergarten and first grade",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Educational Psychology"
+            ],
+            "doi": "10.1037/a0016647",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dubowy",
+                    "given": "M."
+                },
+                {
+                    "family": "Ebert",
+                    "given": "S."
+                },
+                {
+                    "family": "Maurice",
+                    "given": "J.",
+                    "particle": "von"
+                },
+                {
+                    "family": "Weinert",
+                    "given": "S."
+                }
+            ],
+            "title": "Sprachlich-kognitive Kompetenzen beim Eintritt in den Kindergarten: Ein Vergleich von Kindern mit und ohne Migrationshintergrund [Linguistic-cognitive competencies at entry to preschool: A comparison of children with and without migration background",
+            "type": "article-journal",
+            "container_title": [
+                "Zeitschrift fu \u0308r Entwicklungspsychologie und Pa \u0308dagogische Psychologie"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "literal": "European Child Care and Education (ECCE)-Study Group."
+                },
+                {
+                    "family": "Ganzeboom",
+                    "given": "H.B.G.",
+                    "particle": "pdf"
+                },
+                {
+                    "family": "Graaf",
+                    "given": "P.M.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Treiman",
+                    "given": "D.J."
+                },
+                {
+                    "family": "Gorey",
+                    "given": "K.M."
+                }
+            ],
+            "title": "School-age assessment of child development: Long-term impact of pre-school experiences on school success, and family-school relationshipsA standard international socio-economic index of occupational statusEarly childhood education: A meta-analytic affirmation of the short-and long-term benefits of educational opportunity",
+            "type": "article-journal",
+            "container_title": [
+                "Social Science Research",
+                "School Psychology Quarterly"
+            ],
+            "doi": "10.1016/0049-089X(92)90017-B10.1521/scpq.16.1.9.19163",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Harms",
+                    "given": "T."
+                },
+                {
+                    "family": "Clifford",
+                    "given": "R.M."
+                },
+                {
+                    "family": "Cryer",
+                    "given": "D."
+                }
+            ],
+            "title": "Early childhood environment rating scale",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hart",
+                    "given": "B."
+                },
+                {
+                    "family": "Risley",
+                    "given": "R.T."
+                }
+            ],
+            "title": "Meaningful differences in the everyday experience of young American children",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hu",
+                    "given": "L."
+                },
+                {
+                    "family": "M",
+                    "given": "Bentler P."
+                }
+            ],
+            "title": "Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives",
+            "type": "article-journal",
+            "container_title": [
+                "Structural Equation Modeling"
+            ],
+            "doi": "10.1080/10705519909540118",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Klieme",
+                    "given": "E."
+                },
+                {
+                    "family": "Pauli",
+                    "given": "C."
+                },
+                {
+                    "family": "Reusser",
+                    "given": "K."
+                }
+            ],
+            "title": "The pythagoras study: Investigating effects of teaching and learning in Swiss and German mathematics classrooms",
+            "type": "chapter",
+            "container_title": [
+                "The power of video studies in investigating teaching and learning in the classroom"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kuger",
+                    "given": "S."
+                },
+                {
+                    "family": "Kluczniok",
+                    "given": "K."
+                }
+            ],
+            "title": "Prozessqualita \u0308t im Kindergarten. Konzept, Umsetzung und Befunde [Process quality in preschools -concepts, implementations and findings",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "article-journal",
+            "container_title": [
+                "Zeitschrift fu \u0308r Erziehungswissenschaft, Special Edition"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [],
+            "title": "Familieneinscha \u0308tzskala [Family Rating Scale",
+            "type": "manuscript",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Magnuson",
+                    "given": "K.A."
+                },
+                {
+                    "family": "Ruhm",
+                    "given": "C."
+                },
+                {
+                    "family": "Waldfogel",
+                    "given": "J."
+                }
+            ],
+            "title": "Does prekindergarten improve school preparation and performance?",
+            "type": "article-journal",
+            "container_title": [
+                "Economics of Education Review"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Melchers",
+                    "given": "P."
+                },
+                {
+                    "family": "Preuss",
+                    "given": "U."
+                }
+            ],
+            "title": "Kaufman -Assessment Battery for Children (K-ABC",
+            "type": "article-journal",
+            "container_title": [
+                "German version"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Melhuish",
+                    "given": "E."
+                }
+            ],
+            "title": "Why children, parents and home learning are important",
+            "type": "chapter",
+            "container_title": [
+                "Early childhood matters: Evidence from the Effective Pre-school and Primary Education Project"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Melhuish",
+                    "given": "E."
+                },
+                {
+                    "family": "Sylva",
+                    "given": "K."
+                },
+                {
+                    "family": "Sammons",
+                    "given": "P."
+                },
+                {
+                    "family": "Siraj-Blatchford",
+                    "given": "I."
+                },
+                {
+                    "family": "Taggart",
+                    "given": "B."
+                },
+                {
+                    "family": "Phan",
+                    "given": "M."
+                }
+            ],
+            "title": "Effects of Home Learning Environment and preschool center experience upon literacy and numeracy in early primary school",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Social Issues"
+            ],
+            "doi": "10.1111/j.1540-4560.2008.00550.x",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "literal": "Muthe \u0301n, L. K., & Muthe \u0301n, B. O."
+                }
+            ],
+            "title": "Mplus user's guide",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Network",
+                    "given": "N.I.C.H.D.Early Child Care Research"
+                }
+            ],
+            "title": "Early child care and children's development prior to school entry. Results from the NICHD Study of early child care",
+            "type": "article-journal",
+            "container_title": [
+                "American Educational Research Journal"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Network",
+                    "given": "N.I.C.H.D.Early Child Care Research"
+                }
+            ],
+            "title": "Child-care effect sizes for the NICHD Study of Early Child Care and Youth Development",
+            "type": "article-journal",
+            "container_title": [
+                "American Psychologist"
+            ],
+            "doi": "10.1037/0003-066X.61.2.99",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Network",
+                    "given": "N.I.C.H.D.Early Child Care Research"
+                },
+                {
+                    "family": "Duncan",
+                    "given": "G.J."
+                }
+            ],
+            "title": "Modeling the impacts of child care quality on children's preschool cognitive development",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Peisner-Feinberg",
+                    "given": "E.S."
+                },
+                {
+                    "family": "Burchinal",
+                    "given": "M.R."
+                },
+                {
+                    "family": "Clifford",
+                    "given": "R.M."
+                },
+                {
+                    "family": "Culkin",
+                    "given": "M.L."
+                },
+                {
+                    "family": "Howes",
+                    "given": "C."
+                },
+                {
+                    "family": "Kagan",
+                    "given": "S.L."
+                },
+                {
+                    "family": "Yazejian",
+                    "given": "N."
+                }
+            ],
+            "title": "The relation of preschool child-care quality to children's cognitive and social developmental trajectories through second grade",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "10.1111/1467-8624.00364",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pianta",
+                    "given": "R.C."
+                },
+                {
+                    "family": "Belsky",
+                    "given": "J."
+                },
+                {
+                    "family": "Vandergrift",
+                    "given": "N."
+                },
+                {
+                    "family": "Houts",
+                    "given": "R."
+                },
+                {
+                    "family": "Morrison",
+                    "given": "F.J."
+                }
+            ],
+            "title": "Classroom effects on children's achievement trajectories in elementary school",
+            "type": "article-journal",
+            "container_title": [
+                "American Educational Research Journal"
+            ],
+            "doi": "10.3102/0002831207308230",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pianta",
+                    "given": "R.C."
+                },
+                {
+                    "family": "Hamre",
+                    "given": "B.K."
+                }
+            ],
+            "title": "Conceptualization, measurement, and improvement of classroom processes: Standardized observation can leverage capacity",
+            "type": "article-journal",
+            "container_title": [
+                "Educational Researcher"
+            ],
+            "doi": "10.3102/0013189X09332374",
+            "published_date": "2009"
+        },
+        {
+            "authors": [],
+            "title": "Unterrichtsqualita \u0308t in Grundschulklassen und ihre Auswirkungen auf Schu \u0308ler [Instructional quality in primary school classes and its effects on students",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [],
+            "title": "Individuelles und soziales Lernen in der Grundschule -Kindperspektive und pa \u0308dagogische Konzepte",
+            "type": "article-journal",
+            "container_title": [
+                "Jahrbuch Grundschulforschung"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sammons",
+                    "given": "P."
+                },
+                {
+                    "family": "Anders",
+                    "given": "Y."
+                },
+                {
+                    "family": "Sylva",
+                    "given": "K."
+                },
+                {
+                    "family": "Melhuish",
+                    "given": "E."
+                },
+                {
+                    "family": "Siraj-Blatchford",
+                    "given": "I."
+                },
+                {
+                    "family": "Taggart",
+                    "given": "B."
+                },
+                {
+                    "family": "Barreau",
+                    "given": "S."
+                }
+            ],
+            "title": "Children's cognitive attainment and progress in English primary schools during Key Stage 2. Investigating the potential continuing influencesof pre-school education",
+            "type": "article-journal",
+            "container_title": [
+                "Zeitschrift fu \u0308r Erziehungswissenschaft, Special Edition"
+            ],
+            "doi": "10.1007/978-3-531-91452-7_12",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sammons",
+                    "given": "P."
+                },
+                {
+                    "family": "Elliot",
+                    "given": "K."
+                },
+                {
+                    "family": "Sylva",
+                    "given": "K."
+                },
+                {
+                    "family": "Melhuish",
+                    "given": "E."
+                },
+                {
+                    "family": "Siraj-Blatchford",
+                    "given": "I."
+                },
+                {
+                    "family": "Taggart",
+                    "given": "B."
+                }
+            ],
+            "title": "The impact of pre-school on young children's cognitive attainments at entry to reception",
+            "type": "article-journal",
+            "container_title": [
+                "British Educational Research Journal"
+            ],
+            "doi": "10.1080/0141192042000234656",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schmidt",
+                    "given": "S."
+                },
+                {
+                    "family": "Schmitt",
+                    "given": "M."
+                },
+                {
+                    "family": "Smidt",
+                    "given": "W."
+                }
+            ],
+            "title": "Die BiKS-Studie. Methodenbericht zur zweiten Projektphase",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Snow",
+                    "given": "C."
+                },
+                {
+                    "family": "Hemel",
+                    "given": "S.",
+                    "particle": "Van"
+                }
+            ],
+            "title": "Early childhood assessment: Why, what and how? Report of the Committee on Developmental Outcomes and Assessments for Young Children",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Steinweg",
+                    "given": "A.S."
+                }
+            ],
+            "title": "Dimensionen zur Einscha \u0308tzung pa \u0308dagogisch-didaktischer Qualita \u0308t von Lernsituationen in Mathematik",
+            "type": "chapter",
+            "container_title": [
+                "Schulungsunterlagen. Unvero \u0308ffentlichte Forschungsversion [Dimensions of rating pedagogical quality of learning situations in mathematics"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [],
+            "title": "Unpublished training material",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Strand",
+                    "given": "S."
+                }
+            ],
+            "title": "Wandsworth Baseline assessment 1994/1995",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Strand",
+                    "given": "S."
+                }
+            ],
+            "title": "Pupil progress during Key Stage 1: A value added analysis of school effects",
+            "type": "article-journal",
+            "container_title": [
+                "British Educational Research Journal"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Strand",
+                    "given": "S."
+                }
+            ],
+            "title": "Baseline assessments results at age 4: Associations with pupil background factors",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Research in Reading"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sylva",
+                    "given": "K."
+                },
+                {
+                    "family": "Siraj-Blatchford",
+                    "given": "I."
+                },
+                {
+                    "family": "Taggart",
+                    "given": "B."
+                }
+            ],
+            "title": "Assessing quality in the Early Childhood Rating Scale Extensions (ECERS-E). Stoke On Trent",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tietze",
+                    "given": "W."
+                },
+                {
+                    "family": "Rossbach",
+                    "given": "H.-G."
+                },
+                {
+                    "family": "Grenner",
+                    "given": "K."
+                }
+            ],
+            "title": "Kinder von 4 bis 8 Jahren. Zur Qualita \u0308t der Erziehung und Bildung in Kindergarten, Grundschule und Familie [Children from age 4 to 8 years. Speaking about the quality of the educational settings preschool, primary school and family",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tymms",
+                    "given": "P.B."
+                },
+                {
+                    "family": "Merrell",
+                    "given": "C."
+                },
+                {
+                    "family": "Henderson",
+                    "given": "B."
+                }
+            ],
+            "title": "The first year at school: A quantitative investigation of the attainment and progress of pupils",
+            "type": "article-journal",
+            "container_title": [
+                "Educational Research and Evaluation"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Maurice",
+                    "given": "J.",
+                    "particle": "von"
+                },
+                {
+                    "family": "Artelt",
+                    "given": "C."
+                },
+                {
+                    "family": "Blossfeld",
+                    "given": "H.-P."
+                },
+                {
+                    "family": "Faust",
+                    "given": "G."
+                },
+                {
+                    "family": "Rossbach",
+                    "given": "H.-G."
+                },
+                {
+                    "family": "Weinert",
+                    "given": "S."
+                }
+            ],
+            "title": "Bildungsprozesse, Kompetenzentwicklung und Formation von Selektionsentscheidungen im Vor-und Grundschulalter. U  \u0308berblick u \u0308ber die Erhebung in den La \u0308ngsschnitten BiKS-3-8 und BiKS-8-12 in den ersten beiden Projektjahren [Educational processes, competence development and selection decisions at pre-and primary school age: Overview of the data collection in the longitudinal studies BiKS-3-8 and BiKS-8-12 in the first two years of the study",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        }
+    ]
+}

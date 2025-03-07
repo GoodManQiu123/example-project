@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_NGx6jYc" coord="1,89.05,91.02,418.79,12.90">LegoNet: Efficient Convolutional Neural Networks with Lego Filters</title>
+				<funder ref="#_MewTn4T">
+					<orgName type="full">Australian Research Council</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,146.88,143.78,60.33,8.96"><forename type="first">Zhaohui</forename><surname>Yang</surname></persName>
+							<email>&lt;zhaohuiyang@pku.edu.cn&gt;</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Key Laboratory of Machine Perception (Ministry of Education), Peking University.</note>
+								<orgName type="laboratory">Key Laboratory of Machine Perception (Ministry of Education)</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Huawei Noah&apos;s Ark Lab.</note>
+								<orgName type="laboratory">Huawei Noah&apos;s Ark Lab</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,229.30,143.78,54.62,8.96"><forename type="first">Yunhe</forename><surname>Wang</surname></persName>
+							<email>&lt;wangyunhe@pku.edu.cn&gt;</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Huawei Noah&apos;s Ark Lab.</note>
+								<orgName type="laboratory">Huawei Noah&apos;s Ark Lab</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,295.71,143.78,60.06,8.96"><forename type="first">Hanting</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Key Laboratory of Machine Perception (Ministry of Education), Peking University.</note>
+								<orgName type="laboratory">Key Laboratory of Machine Perception (Ministry of Education)</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Huawei Noah&apos;s Ark Lab.</note>
+								<orgName type="laboratory">Huawei Noah&apos;s Ark Lab</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,377.86,143.78,62.84,8.96"><forename type="first">Chuanjian</forename><surname>Liu</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Huawei Noah&apos;s Ark Lab.</note>
+								<orgName type="laboratory">Huawei Noah&apos;s Ark Lab</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,185.64,155.73,41.26,8.96"><forename type="first">Boxin</forename><surname>Shi</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>3</label> National Engineering Laboratory for Video Technology, Peking University</note>
+								<orgName type="laboratory">National Engineering Laboratory for Video Technology</orgName>
+								<address>
+									<country>Peking University</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>4</label> Peng Cheng Laboratory.</note>
+								<orgName type="laboratory">Peng Cheng Laboratory</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,243.84,155.73,37.92,8.96"><forename type="first">Chao</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Key Laboratory of Machine Perception (Ministry of Education), Peking University.</note>
+								<orgName type="laboratory">Key Laboratory of Machine Perception (Ministry of Education)</orgName>
+								<orgName type="institution">Peking University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,293.54,155.73,55.64,8.96"><forename type="first">Chunjing</forename><surname>Xu</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> Huawei Noah&apos;s Ark Lab.</note>
+								<orgName type="laboratory">Huawei Noah&apos;s Ark Lab</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,360.97,155.73,43.46,8.96"><forename type="first">Chang</forename><surname>Xu</surname></persName>
+							<email>changxu&lt;c.xu@sydney.edu.au&gt;.</email>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>5</label> School of Com-puter Science, University of Sydney.</note>
+								<orgName type="department">School of Com-puter Science</orgName>
+								<orgName type="institution">University of Sydney</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<note type="raw_affiliation">Yunhe Wang</note>
+								<address>
+									<settlement>Yunhe Wang</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_m8hDyES" coord="1,89.05,91.02,418.79,12.90">LegoNet: Efficient Convolutional Neural Networks with Lego Filters</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EEB940ED94F932AB62ECF76F37AAB353</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:36+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_VJJHj5Q"><p xml:id="_7mpyBU4"><s xml:id="_MvEQvpA" coords="1,75.37,205.62,194.15,8.64;1,75.37,217.58,168.47,8.64">This paper aims to build efficient convolutional neural networks using a set of Lego filters.</s><s xml:id="_cap6g76" coords="1,246.95,217.58,22.91,8.64;1,75.37,229.35,130.72,8.82">Many successful building blocks, e.g.</s><s xml:id="_vpGYbZX" coords="1,213.19,229.53,56.33,8.64;1,75.37,241.49,194.14,8.64;1,75.37,253.44,195.80,8.64;1,75.37,265.40,49.87,8.64">inception and residual modules, have been designed to refresh state-of-the-art records of CNNs on visual recognition tasks.</s><s xml:id="_gZ2TMBU" coords="1,130.74,265.40,140.02,8.64;1,75.01,277.35,196.17,8.64;1,75.01,289.31,194.51,8.64;1,75.37,301.26,30.50,8.64">Beyond these high-level modules, we suggest that an ordinary filter in the neural network can be upgraded to a sophisticated module as well.</s><s xml:id="_5qdQcNJ" coords="1,108.97,301.26,162.21,8.64;1,75.37,313.22,194.15,8.64;1,75.37,325.17,99.00,8.64">Filter modules are established by assembling a shared set of Lego filters that are often of much lower dimensions.</s><s xml:id="_cCPQGuS" coords="1,177.46,325.17,92.06,8.64;1,75.37,337.13,194.15,8.64;1,75.37,349.08,194.14,8.64;1,75.37,361.04,127.38,8.64">Weights in Lego filters and binary masks to stack Lego filters for these filter modules can be simultaneously optimized in an end-to-end manner as usual.</s><s xml:id="_Tjqg9AT" coords="1,206.48,361.04,64.68,8.64;1,75.01,372.99,196.16,8.64;1,75.37,384.95,195.81,8.64;1,75.37,396.90,170.99,8.64">Inspired by network engineering, we develop a split-transformmerge strategy for an efficient convolution by exploiting intermediate Lego feature maps.</s><s xml:id="_PFVS8cq" coords="1,253.72,396.90,15.80,8.64;1,75.37,408.86,194.15,8.64;1,75.37,420.81,194.15,8.64;1,75.37,432.77,111.12,8.64">The compression and acceleration achieved by Lego Networks using the proposed Lego filters have been theoretically discussed.</s><s xml:id="_fdEPH3r" coords="1,189.41,432.77,80.10,8.64;1,75.37,444.72,195.80,8.64;1,75.37,456.68,194.14,8.64;1,75.37,468.63,195.80,8.64;1,75.37,480.59,49.55,8.64">Experimental results on benchmark datasets and deep models demonstrate the advantages of the proposed Lego filters and their potential real-world applications on mobile devices.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_NXC6g9s">Introduction</head><p xml:id="_vGkWaHH"><s xml:id="_p4sVEAp" coords="1,55.13,534.15,234.98,8.64;1,55.44,546.10,234.17,8.64;1,55.19,558.06,234.25,8.64;1,55.44,570.01,234.83,8.64;1,307.44,190.71,235.25,8.64;1,307.44,202.66,234.00,8.64;1,307.44,214.62,53.53,8.64">The success of deep convolutional neural networks (CNNs) has been well demonstrated on a wide variety of computer vision (CV) tasks, such as object recognition <ref type="bibr" coords="1,244.99,558.06,44.45,8.64;1,55.44,570.01,85.87,8.64" target="#b27">(Simonyan and Zisserman, 2014;</ref><ref type="bibr" coords="1,143.80,570.01,82.96,8.64" target="#b28">Szegedy et al., 2015;</ref><ref type="bibr" coords="1,229.25,570.01,61.02,8.64" target="#b7">He et al., 2016;</ref><ref type="bibr" coords="1,307.44,190.71,76.45,8.64" target="#b12">Huang et al., 2017)</ref>, detection <ref type="bibr" coords="1,430.69,190.71,70.39,8.64" target="#b25">(Ren et al., 2015;</ref><ref type="bibr" coords="1,503.67,190.71,39.02,8.64;1,307.44,202.66,21.87,8.64" target="#b19">Liu et al., 2016)</ref>, segmentation <ref type="bibr" coords="1,392.79,202.66,68.93,8.64">(He et al., 2017a)</ref>, and tracking <ref type="bibr" coords="1,521.68,202.66,19.75,8.64;1,307.44,214.62,49.23,8.64">(Luo et al., 2017b)</ref>.</s><s xml:id="_NT8SrZa" coords="1,363.97,214.62,177.82,8.64;1,307.44,226.57,234.17,8.64;1,307.44,238.53,217.00,8.64">Due to the powerful feature expression ability of CNNs, building deeper networks will result in higher performance, but lead to the need for more resources.</s><s xml:id="_CtfKCuB" coords="1,527.65,238.53,13.96,8.64;1,307.44,250.16,163.35,8.96;1,470.80,248.59,3.97,6.12;1,477.18,250.48,65.92,8.64;1,307.44,262.44,235.65,8.64;1,307.44,274.39,234.00,8.64;1,307.44,286.35,234.17,8.64;1,307.44,298.30,54.71,8.64">For instance, more than 90MB memory and 10 9 FLOPs (floatingnumber operations) are required for launching the ResNet-50 <ref type="bibr" coords="1,320.37,274.39,65.14,8.64" target="#b7">(He et al., 2016)</ref>, which limits the application of these deep neural networks on mobile phones, laptops, and other edge devices.</s><s xml:id="_ZGQhufB" coords="1,366.03,298.30,175.40,8.64;1,307.44,310.26,180.84,8.64">Thus, we are motivated to explore portable deep neural networks with high performance.</s></p><p xml:id="_gBDgxnm"><s xml:id="_H8tRgny" coords="1,307.08,328.19,236.01,8.64;1,307.44,340.15,234.00,8.64;1,307.44,352.10,38.66,8.64">A number of algorithms have been proposed to reduce memory and FLOPs of convolutional networks with different concerns.</s><s xml:id="_a6rWaNG" coords="1,352.03,352.10,191.06,8.64;1,307.44,364.06,235.65,8.64;1,307.44,376.01,235.65,8.64;1,307.44,387.97,19.24,8.64"><ref type="bibr" coords="1,352.03,352.10,74.10,8.64" target="#b6">(Han et al., 2015)</ref> introduced pruning, quantization and Huffman coding for generating extremely compact deep models without obviously affecting their accuracy.</s><s xml:id="_RughjmB" coords="1,336.92,387.97,204.52,8.64;1,307.44,399.92,168.65,8.64"><ref type="bibr" coords="1,336.92,387.97,97.14,8.64" target="#b14">(Jaderberg et al., 2014)</ref> used matrix factorization to decompose spatial structure of kernels.</s><s xml:id="_YqbST5h" coords="1,478.62,399.92,63.49,8.64;1,307.44,411.88,235.66,8.64;1,307.44,423.83,52.56,8.64"><ref type="bibr" coords="1,478.62,399.92,63.49,8.64" target="#b18">(Li et al., 2016)</ref> proposed to learn 2-bit weight and constructed binary neural networks.</s><s xml:id="_cuQuHd7" coords="1,362.50,423.83,179.11,8.64;1,307.44,435.79,234.00,8.64;1,307.44,447.74,25.69,8.64"><ref type="bibr" coords="1,362.50,423.83,99.83,8.64" target="#b22">(Molchanov et al., 2016)</ref> investigated Taylor expansions to eliminate side effects caused by removing filters.</s><s xml:id="_wnXTXCr" coords="1,335.97,447.74,205.64,8.64;1,307.44,459.70,70.61,8.64"><ref type="bibr" coords="1,335.97,447.74,72.31,8.64">(He et al., 2017b)</ref> fine-tuned the pruned model for higher efficiency.</s><s xml:id="_vepZ7fD" coords="1,381.15,459.70,161.94,8.64;1,307.44,471.65,180.78,8.64"><ref type="bibr" coords="1,381.15,459.70,73.07,8.64" target="#b5">(Gao et al., 2018)</ref> pruned useless channels during the inference stage to accelerate.</s><s xml:id="_Qybc682" coords="1,490.84,471.65,51.85,8.64;1,307.44,483.61,234.00,8.64;1,307.44,495.56,234.00,8.64;1,307.44,507.52,32.90,8.64"><ref type="bibr" coords="1,490.84,471.65,51.85,8.64;1,307.44,483.61,28.79,8.64">(Wang et al., 2018b)</ref> discarded redundant coefficients of parameters in the DCT frequency domain and introduced a data-driven method.</s><s xml:id="_AeaRaMk" coords="1,342.82,507.52,198.62,8.64;1,307.44,519.47,149.50,8.64"><ref type="bibr" coords="1,342.82,507.52,68.74,8.64" target="#b35">(Xie et al., 2018)</ref> decompose convolution kernels along channel and spatial dimensions.</s><s xml:id="_dzgZfrr" coords="1,459.43,519.47,82.83,8.64;1,307.44,531.43,234.67,8.64;1,307.44,543.38,187.86,8.64"><ref type="bibr" coords="1,459.43,519.47,82.83,8.64" target="#b0">(Buciluǎ et al., 2006;</ref><ref type="bibr" coords="1,307.44,531.43,75.54,8.64" target="#b10">Hinton et al., 2015;</ref><ref type="bibr" coords="1,385.38,531.43,79.87,8.64" target="#b26">Romero et al., 2014;</ref><ref type="bibr" coords="1,467.66,531.43,74.45,8.64" target="#b23">Polino et al., 2018)</ref> introduced teacher-student distillation strategy.</s><s xml:id="_nCpKpkZ" coords="1,500.87,543.38,41.81,8.64;1,307.44,555.34,234.25,8.64;1,307.08,567.29,120.02,8.64"><ref type="bibr" coords="1,500.87,543.38,41.81,8.64;1,307.44,555.34,23.15,8.64" target="#b33">(Wu et al., 2018;</ref><ref type="bibr" coords="1,334.01,555.34,93.81,8.64" target="#b15">Juefei-Xu et al., 2017)</ref> build light-weight network with depth-wise convolution.</s><s xml:id="_YB5SpUq" coords="1,436.46,567.29,106.63,8.64;1,307.44,579.25,235.74,8.64"><ref type="bibr" coords="1,436.46,567.29,80.61,8.64">(Wang et al., 2017)</ref> introduced circulant matrix to construct convolution kernels.</s><s xml:id="_t7VPMdv" coords="1,307.44,591.20,234.00,8.64;1,307.44,603.16,234.00,8.64;1,307.44,615.11,234.00,8.64;1,307.44,627.07,235.66,8.64;1,307.44,639.02,28.76,8.64">Moreover, <ref type="bibr" coords="1,351.19,591.20,67.56,8.64" target="#b34">(Wu et al., 2016)</ref> compressed network based on product quantization, <ref type="bibr" coords="1,392.67,603.16,97.61,8.64" target="#b29">(Wang and Cheng, 2017)</ref> decomposed a weight matrix into two ternary matrices and a non-negative diagonal matrix to reduce memory and computational complexity.</s><s xml:id="_wtQUdqF" coords="1,338.51,639.02,204.59,8.64;1,307.44,650.98,235.74,8.64"><ref type="bibr" coords="1,338.51,639.02,88.06,8.64" target="#b24">(Rastegari et al., 2016;</ref><ref type="bibr" coords="1,428.88,639.02,97.48,8.64" target="#b3">Courbariaux et al., 2015)</ref> further studied the weight binarization problem in deep CNNs.</s><s xml:id="_A2zGEuv" coords="1,307.08,662.94,234.36,8.64;1,307.44,674.89,234.00,8.64;1,307.44,686.85,76.22,8.64">Although these methods can produce very high compression and speed-up ratios, they often involve special architectures and operations (e.g.</s><s xml:id="_E4244Wp" coords="1,386.66,686.85,156.44,8.64;1,307.44,698.80,234.35,8.64;2,55.44,70.54,207.87,8.64">sparse convolution, fixed-point multiplication, and Huffman codebooks), which cannot be directly satisfied on off-the-shelf platforms and hardwares.</s><s xml:id="_vxmaqYS" coords="2,268.54,70.54,20.89,8.64;2,55.44,82.49,234.00,8.64;2,55.44,94.45,234.00,8.64;2,55.44,106.40,198.30,8.64">Most importantly, these methods rely on a pre-trained network of heavy design and the performance of compressed models is usually upper bounded by this particular network.</s></p><p xml:id="_z5TPgXU"><s xml:id="_W3k7dKQ" coords="2,55.44,124.34,235.66,8.64;2,55.08,136.29,236.01,8.64;2,55.44,148.25,135.05,8.64">Besides manipulating well-trained convolutional neural networks, an alternative is to design efficient network architectures for learning representations.</s><s xml:id="_ssUkUbS" coords="2,193.59,148.25,95.85,8.64;2,55.44,160.20,217.67,8.64">A set of network design principles have been developed in network engineering.</s><s xml:id="_jQwkSvz" coords="2,276.20,160.20,13.41,8.64;2,55.44,172.16,234.00,8.64;2,55.44,184.11,234.00,8.64;2,55.44,196.07,235.74,8.64">For example, VGGNets <ref type="bibr" coords="2,137.51,172.16,134.81,8.64" target="#b27">(Simonyan and Zisserman, 2014)</ref> and ResNets <ref type="bibr" coords="2,90.81,184.11,64.44,8.64" target="#b7">(He et al., 2016)</ref> stack building blocks of the same shape, which reduces the free choices of hyper-parameters.</s><s xml:id="_XjSGC6T" coords="2,55.08,207.84,236.01,8.82;2,55.44,219.98,234.00,8.64;2,55.44,231.93,235.66,8.64;2,55.44,243.89,235.66,8.64;2,55.44,255.84,26.85,8.64">Another important strategy is split-transform-merge in Inception models <ref type="bibr" coords="2,120.51,219.98,87.97,8.64" target="#b28">(Szegedy et al., 2015)</ref>, where the input is split into a few embeddings of lower dimensionalities, transformed by a set of specialized filters, and merged by concatenation.</s><s xml:id="_PYUhBmQ" coords="2,85.28,255.84,204.16,8.64;2,55.44,267.80,235.65,8.64;2,55.44,279.75,234.00,8.64;2,55.44,291.71,87.19,8.64">The representational power of large and dense layers can therefore be approximated using this split-transformmerge strategy, while the computational complexity could be considerably lower.</s><s xml:id="_fQMnre4" coords="2,145.59,291.71,145.51,8.64;2,55.44,303.66,235.25,8.64;2,55.44,315.44,14.38,8.59">These insightful network design principles then produce a number of successful neural networks, e.g.</s><s xml:id="_AKGhTmZ" coords="2,74.18,315.62,216.51,8.64;2,55.44,327.57,26.25,8.64">Xception <ref type="bibr" coords="2,114.35,315.62,60.64,8.64" target="#b2">(Chollet, 2017)</ref>, MobileNet <ref type="bibr" coords="2,229.33,315.62,61.36,8.64;2,55.44,327.57,21.87,8.64" target="#b11">(Howard et al., 2017)</ref>.</s><s xml:id="_Xeqhrya" coords="2,84.89,327.57,204.55,8.64;2,55.44,339.53,50.17,8.64">Shufflenet <ref type="bibr" coords="2,128.93,327.57,78.56,8.64" target="#b38">(Zhang et al., 2017)</ref>, and ResNeXt <ref type="bibr" coords="2,271.38,327.57,18.06,8.64;2,55.44,339.53,45.87,8.64" target="#b36">(Xie et al., 2017)</ref>.</s><s xml:id="_gkw9M2h" coords="2,108.70,339.53,180.74,8.64;2,55.44,351.48,235.65,8.64;2,55.44,363.44,234.00,8.64;2,55.44,375.39,35.14,8.64">As filter is the basic unit in constructing deep neural networks, we must ask whether these network design principles are applicable for re-designing filters in deep learning.</s></p><p xml:id="_8svqgtt"><s xml:id="_Y5hvVP2" coords="2,55.44,393.33,234.00,8.64;2,55.44,405.28,234.00,8.64;2,55.44,417.24,48.97,8.64">In this paper, we propose Lego Networks (LegoNets) that are efficient convolutional neural networks constructed with Lego filters.</s><s xml:id="_xXH9HMJ" coords="2,107.66,417.24,183.43,8.64;2,55.44,429.19,235.65,8.64;2,55.44,441.15,118.90,8.64">A set of lower-dimensional filters are discovered and taken as Lego bricks to be stacked for more complex filters, as shown in Fig. <ref type="figure" coords="2,167.02,441.15,3.66,8.64" target="#fig_0">1</ref>.</s><s xml:id="_deVdR8d" coords="2,177.35,441.15,112.08,8.64;2,55.44,453.10,234.00,8.64;2,55.44,465.06,193.05,8.64">Instead of manually stacking these Lego filters, we develop a method to learn the optimal permutation of Lego filters for a filter module.</s><s xml:id="_bKMU2KW" coords="2,253.98,465.06,35.45,8.64;2,55.44,477.01,234.00,8.64;2,55.44,488.79,234.00,8.82;2,55.44,500.92,235.65,8.64;2,55.44,512.88,235.74,8.64">As these filter modules share the same set of Lego filter but with different combinations, we adapt the split-transform-merge strategy to accelerate their convolutions, which further decrease the maximum serial FLOPS of standard convolution.</s><s xml:id="_vYCkKAd" coords="2,55.44,524.83,234.00,8.64;2,55.44,536.79,216.60,8.64">Firstly, Lego filters are convolved with splitted part from input features, and then merge the convolved results.</s><s xml:id="_7dZnqwF" coords="2,276.42,536.79,14.67,8.64;2,55.44,548.74,234.00,8.64;2,55.44,560.70,234.00,8.64;2,55.44,572.65,234.00,8.64;2,55.44,584.61,52.83,8.64">Experimental results on benchmark datasets and CNN models demonstrate the superiority of the proposed Lego filters in establishing portable deep neural networks with acceptable performance.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_gQWPSUn">Lego Network</head><p xml:id="_22b359D"><s xml:id="_GJ9gGFw" coords="2,55.44,632.55,235.65,8.64;2,55.44,644.50,235.74,8.64">In this section, we first define the problem of how to compress deep neural networks from a macro point of view.</s><s xml:id="_vh2YHX2" coords="2,55.13,656.46,234.30,8.64;2,55.44,668.41,219.33,8.64">Then we introduce the concept of Lego Filters (LF), which are basic unit in our efficient convolutional networks.</s><s xml:id="_mVpTvdH" coords="2,279.28,668.41,10.16,8.64;2,55.44,680.37,221.67,8.64">At last, we demonstrate the way of combining Lego filters.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_8JYXkQz">Lego Filters for Establishing CNNs</head><p xml:id="_EPgVKsT"><s xml:id="_fxdAtNc" coords="2,307.44,243.99,235.65,8.64;2,307.44,255.94,234.00,8.64;2,307.44,267.90,105.29,8.64">Most of existing convolutional neural networks are overparameterized with numerous parameters and enormous computational complexity.</s><s xml:id="_2ESuY8B" coords="2,415.83,267.90,125.61,8.64;2,307.44,279.53,234.00,8.96;2,307.19,291.49,234.25,8.96;2,307.44,303.44,164.68,8.96">It is common to have more than one thousand of parameters in convolution filter (e.g. 3 × 3 × 128 = 1152), but it will produce only one convolution response for a given 3 × 3 input patch.</s><s xml:id="_NZYfBAR" coords="2,478.44,303.76,63.00,8.64;2,307.44,315.72,235.75,8.64">There could be considerable redundancy in these learned convolution filters.</s></p><p xml:id="_5J5bAYw"><s xml:id="_2QYDQVg" coords="2,307.13,333.65,235.96,8.64;2,307.44,345.60,235.65,8.64;2,307.44,357.56,235.65,8.64;2,307.44,369.52,41.83,8.64">To reduce the required number of parameters in deep neural networks, some works proposed to decompose highdimensional convolution filters into different efficient representations.</s><s xml:id="_B8ds8Nu" coords="2,352.39,369.52,189.21,8.64;2,307.44,381.47,52.78,8.64">For example, <ref type="bibr" coords="2,409.08,369.52,66.60,8.64" target="#b34">(Wu et al., 2016)</ref> exploited vector quantization.</s><s xml:id="_xhuF2XM" coords="2,365.11,381.47,176.33,8.64;2,307.44,393.43,88.44,8.64"><ref type="bibr" coords="2,365.11,381.47,82.08,8.64" target="#b37">(Zhang et al., 2016)</ref> utilized singular value decomposition (SVD).</s><s xml:id="_rHbZkHW" coords="2,400.83,393.43,142.27,8.64;2,307.44,405.38,234.00,8.64;2,307.44,417.34,110.67,8.64"><ref type="bibr" coords="2,400.83,393.43,69.78,8.64" target="#b16">(Kim et al., 2015)</ref> applied tensor <ref type="bibr" coords="2,530.63,393.43,8.31,8.64;2,307.44,405.38,149.99,8.64">decomposition, and (Cheng et al., 2015)</ref> replaced convolution filters by circulate matrices.</s></p><p xml:id="_9G48aDk"><s xml:id="_YbvZ9XS" coords="2,307.08,435.27,236.01,8.64;2,307.44,447.22,234.00,8.64;2,307.44,459.18,234.00,8.64;2,307.44,471.13,235.66,8.64;2,307.44,483.09,99.12,8.64">Although these schemes make tremendous efforts to represent weights in deep CNNs with less parameters, most of them are proposed to compress and accelerate pre-trained neural networks, which cannot be directly applied for learning CNNs from scratch.</s><s xml:id="_RgT4jaM" coords="2,411.83,483.09,129.60,8.64;2,307.44,495.04,234.00,8.64;2,307.44,507.00,234.17,8.64;2,307.44,518.95,60.18,8.64">In addition, the performance of compressed neural networks is usually worse than that of original models, due to the loss caused by quantization or decomposition.</s><s xml:id="_3AXwGxY" coords="2,370.71,518.95,170.73,8.64;2,307.44,530.91,234.25,8.64;2,307.44,542.87,234.00,8.64;2,307.44,554.82,168.46,8.64">Therefore, we are motivated to alleviate the redundancy between these filters during the stage of network design instead of waiting for solutions after all filters have been optimized through back propagation.</s></p><p xml:id="_A3rPhSz"><s xml:id="_rhtX4Bj" coords="2,307.44,572.43,235.65,8.96;2,307.44,584.39,135.93,9.65;2,443.37,582.81,35.46,6.12;2,479.33,584.39,62.11,8.96;2,307.44,596.34,235.65,8.96;2,307.44,608.62,140.83,8.64">Given an arbitrary convolutional layer L with its n convolution filters F = {f i , ..., f n } ∈ R d×d×c×n , where d × d is the size of filters and, c is the channel number, the convolution operation can be formulated as</s></p><formula xml:id="formula_0" coords="2,395.03,627.40,146.41,8.96">Y = L(F, X),<label>(1)</label></formula><p xml:id="_YgfE4Pb"><s xml:id="_kVY3xwR" coords="2,307.08,646.49,234.36,8.96;2,307.44,658.77,21.41,8.64">where X and Y are input data and output features of this layer.</s><s xml:id="_kbQYxH6" coords="2,331.92,658.45,211.17,8.96;2,307.44,670.72,234.00,8.64;2,307.44,682.50,136.79,8.82">Convolution filters F are then solved from the following minimization problem by exploiting the feed-forward and back-propagation strategy, i.e.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_cX7qb4g">F = arg min</head><formula xml:id="formula_1" coords="2,398.91,699.08,138.66,22.31">F 1 2 || Ŷ -L(F, X)|| 2 F (<label>2</label></formula><formula xml:id="formula_2" coords="2,537.57,706.13,3.87,8.64">)</formula><p xml:id="_Jte9TxN"><s xml:id="_7TmAaQT" coords="3,55.08,67.70,235.60,11.47;3,55.44,82.17,184.27,9.65">where Ŷ is the ground-truth of desired output of this layer, and || • || F is the Frobenius norm for matrices.</s></p><p xml:id="_sXrA9Qj"><s xml:id="_CQN9wtm" coords="3,55.44,100.11,234.00,9.65;3,55.44,114.24,7.20,7.11;3,62.64,110.49,37.60,6.12;3,104.55,112.38,95.64,8.64;3,220.60,112.06,68.85,8.96;3,55.44,124.34,136.71,8.64">Here, we propose a set of smaller filters B = {b 1 , ..., b m } ∈ R d×d×c×m with fewer channels (c c), namely Lego filters, and apply them to establish</s></p><formula xml:id="formula_3" coords="3,127.93,146.19,161.51,9.65">F = G(b 1 , b 2 , ..., b m ),<label>(3)</label></formula><p xml:id="_duGDuzD"><s xml:id="_Tx55GzY" coords="3,55.08,168.36,234.36,8.96;3,55.44,180.63,24.68,8.64">where G is a linear transformation for stacking these Lego filters.</s><s xml:id="_tPYJ85J" coords="3,83.04,180.31,207.65,8.96;3,55.08,192.59,234.36,8.64;3,55.44,204.54,25.69,8.64">Though F in Eq. 3 looks like a classical filter in Eq. 1, we take it as a filter module, as it is the assembled with Lego filters.</s><s xml:id="_knS8YfW" coords="3,85.07,204.54,204.36,8.64;3,55.44,216.18,235.74,8.96">Each Lego filter can be utilized for multiple times in constructing a filters module F , as shown in Figure <ref type="figure" coords="3,283.56,216.50,3.81,8.64" target="#fig_0">1</ref>.</s></p><p xml:id="_8SsMRBA"><s xml:id="_RzBEeds" coords="3,55.44,228.45,234.00,8.64;3,55.44,240.09,235.74,8.96">Hence, the attention of the optimization problem Eq. 2 has been turned to these Lego filters B of fewer parameters, i.e.</s></p><formula xml:id="formula_4" coords="3,102.67,259.88,182.90,22.31">B = arg min B 1 2 ||Y, L(G(B), X)|| F 2 . (<label>4</label></formula><formula xml:id="formula_5" coords="3,285.57,266.94,3.87,8.64">)</formula><p xml:id="_TYAUDDg"><s xml:id="_zSemaU7" coords="3,54.97,292.17,234.47,11.48;3,55.44,306.96,234.00,8.64;3,55.44,318.92,40.12,8.64">We can stack B to construct F using Eq. 3 and then calculate the output data by exploiting the conventional convolution operation.</s><s xml:id="_J7wXX96" coords="3,98.65,318.92,142.63,8.64">The compression can be achieved if</s></p><formula xml:id="formula_6" coords="3,111.49,338.88,177.95,22.31">d × d × c × n d × d × c × m = c × n c × m &gt; 1.<label>(5)</label></formula><p xml:id="_3Ct5vNW"><s xml:id="_GHjJfBf" coords="3,55.44,371.61,234.00,8.64;3,55.44,383.57,58.62,8.64">Note that, there is a constraint over the number of channels of Lego filters.</s><s xml:id="_mAEjEzw" coords="3,117.15,383.25,172.29,8.96;3,55.44,395.20,234.00,8.96;3,55.44,407.48,188.83,8.64">In practice, we need to select o = c/c Lego filters from B to stack a general convolution filter, and o should be an integer for subsequent processing.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_y5yBEBj">Learning to Stack Lego Filters</head><p xml:id="_4MZMfUQ"><s xml:id="_mxQy2DC" coords="3,55.08,451.26,236.01,8.64;3,55.44,463.22,234.00,8.64;3,55.44,474.85,234.00,8.96;3,55.44,487.13,96.31,8.64">A new convolution framework with Lego filters was proposed in Eq. 4 to reduce the space complexity of convolution filters in deep CNNs, and a transformation G for stacking Lego filters is proposed.</s><s xml:id="_PVFfMDj" coords="3,154.84,487.13,134.60,8.64;3,55.44,498.90,100.37,8.82">In fact, we can design many ways to stack Lego filters, e.g.</s><s xml:id="_n5vB5Y9" coords="3,159.48,499.08,129.96,8.64;3,55.44,511.04,28.50,8.64">random projection and circulate matrix.</s></p><p xml:id="_JhGdbM5"><s xml:id="_38y9Tfa" coords="3,55.08,528.65,234.36,8.96;3,55.44,540.93,234.00,8.64;3,55.44,552.88,234.00,8.64;3,55.44,564.84,181.83,8.64">Admittedly, the optimal transformation G can be also learned during the training procedure of deep CNNs if it is exactly a linear projection, and different filters would have their own combinations of Lego filters.</s><s xml:id="_DftfERD" coords="3,241.61,564.52,47.05,8.96;3,55.44,576.47,234.00,8.96">Dividing X into q = H × W patches and verctorizing them, we have</s></p><formula xml:id="formula_7" coords="3,55.01,586.25,236.18,38.13">X = [vec(x 1 ), ..., vec(x q )] ∈ R d 2 c×q . The output and fil- ters in L can be reformulated as Y = [vec(y 1 ), ..., vec(y n )] and F = [vec(f 1 ), ..., vec(f n )] ∈ R d 2 c×n , respectively.</formula><p xml:id="_JTkXvXa"><s xml:id="_RwWpjX9" coords="3,55.13,627.01,235.05,8.64;3,55.44,638.96,74.72,8.64">The conventional convolution operation as described in Eq. 1 can be rewritten as</s></p><formula xml:id="formula_8" coords="3,148.64,660.78,140.80,8.99">Y = X F.<label>(6)</label></formula><p xml:id="_qWDYZ4K"><s xml:id="_Bqg2P2s" coords="3,55.13,683.30,234.31,8.64;3,334.34,155.02,131.70,8.99">Then, according to Eq. 3, we further divide the input data Get mini-batch data X, target Y.</s></p><formula xml:id="formula_9" coords="3,55.01,694.91,159.01,9.68">X into o = c/c fragments [X 1 , ..., X o ],</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_zArshfT">4:</head><p xml:id="_DFDz5U3"><s xml:id="_w7byKyf" coords="3,334.34,166.97,207.10,8.99;3,334.34,179.27,23.52,8.64">Calculate M for each layer using N according to Eq. 9.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Mr8BZ6y">5:</head><p xml:id="_RMkcpum"><s xml:id="_ejf4jb5" coords="3,334.34,190.91,207.10,8.96;3,334.34,202.84,208.75,8.99;3,334.34,214.79,101.80,8.99">Construct convolution filters F for each layer using lego filters B and binary matrix M. Filters are constructed as F = BM(Eq.</s><s xml:id="_n2Gde2z" coords="3,438.63,215.14,10.79,8.64">3).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_nFWvn3s">6:</head><p xml:id="_HWgbBAt"><s xml:id="_sKyQGNm" coords="3,334.34,226.78,208.76,8.96;3,334.34,238.70,207.10,8.99;3,346.52,250.66,59.04,8.77">Forward LegoNet N (X) with stacked convolution kernels F , get prediction P, Y = X (BM)(Eq.</s><s xml:id="_aVN4zpD" coords="3,408.04,251.01,10.79,8.64">7).</s></p><p xml:id="_sXQU4Ny"><s xml:id="_qVkRuEv" coords="3,312.42,263.61,6.98,7.77">7:</s></p><p xml:id="_4YZ6KTu"><s xml:id="_HZDYg4h" coords="3,334.34,262.61,207.10,8.99;3,333.90,274.57,71.38,8.77">Calculate loss L using prediction P and ground truth Y, L = C(P, Y).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_UBU3ahW">8:</head><p xml:id="_abr6meF"><s xml:id="_qRESCaH" coords="3,334.34,286.52,208.35,8.99;3,333.98,298.51,129.15,8.96">Backward gradients related to parameters B and M, which denoted as ∆B and ∆M.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_mnMApDD">9:</head><p xml:id="_uSUttub"><s xml:id="_pFnQAGp" coords="3,334.34,310.43,207.10,8.99;3,334.34,322.39,207.10,8.99;3,334.34,334.37,64.58,8.96">For each convolution layer, backward gradients M to parameters N according to N using STE, which denoted as ∆N.</s></p><p xml:id="_ZnWMRRE"><s xml:id="_hfEcWkz" coords="3,307.94,347.30,11.46,7.77">10:</s></p><formula xml:id="formula_10" coords="3,307.44,343.89,234.00,47.26">Update parameters B, N in Network N , B = B - η × ∆B, N = N -η × ∆N. 11: end for Ensure: Trained Network N *</formula><p xml:id="_ZJWJW7c"><s xml:id="_x6j2NEd" coords="3,307.44,419.02,234.00,8.64;3,307.44,430.98,235.65,8.64;3,307.44,442.59,141.45,8.99;3,449.18,441.04,3.30,6.12;3,455.52,442.62,85.92,8.96;3,307.44,454.54,234.00,8.99;3,307.44,466.85,199.34,8.64">Since output feature maps are calculated by accumulating convolution response extracted from all fragments of the input data, for the j-th feature maps Y j generated by the j-the convolution filter, i.e. the j-th column in F the convolution opearation using Lego filters can be formulated as</s></p><formula xml:id="formula_11" coords="3,378.64,487.78,162.80,30.32">Y j = o i=1 X i (BM j i ),<label>(7)</label></formula><p xml:id="_E6A8bdg"><s xml:id="_2FuywXp" coords="3,307.08,533.38,38.60,8.99;3,345.68,530.66,3.30,6.12;3,345.68,538.23,2.82,6.12;3,353.41,533.41,34.52,8.74;3,387.93,531.83,17.27,6.12;3,408.60,533.41,33.99,8.96;3,442.58,530.66,3.30,6.12;3,442.58,538.23,2.82,6.12;3,446.78,533.41,94.91,8.96;3,307.44,545.33,234.00,8.99;3,307.44,557.32,129.47,8.96">where M j i ∈ {0, 1} m×1 and ||M j i || = 1 is a vector mask for selecting only one Lego filter from B to process the i-th fragment of the input data.</s><s xml:id="_AQ9f897" coords="3,442.62,557.64,98.81,8.64;3,307.44,569.59,234.16,8.64;3,307.44,581.55,58.95,8.64">Therefore, the objective function for simultaneously learning Lego filters and their combination is</s></p><formula xml:id="formula_12" coords="3,325.79,600.44,215.66,47.48">min B,M j o i=1 1 2 ||Y j -X i (BM j i )|| 2 F , s.t. M j i ∈ {0, 1} m×1 , ||M j i || 1 = 1, i = 1, ..., o.<label>(8)</label></formula><p xml:id="_ZN2BBHv"><s xml:id="_H2wKY4Y" coords="3,307.44,660.44,234.00,8.96;3,307.44,672.39,235.66,8.96;3,307.44,684.66,195.00,8.64">By minimizing the above function, we can obtain m Lego filters with corresponding n masks for stacking them to original convolution filters, as illustrated in Figure <ref type="figure" coords="3,494.93,684.66,3.76,8.64" target="#fig_0">1</ref>.</s><s xml:id="_DxEaZHa" coords="3,505.53,684.66,35.91,8.64;3,307.44,696.62,234.00,8.64;3,307.44,708.58,99.92,8.64">By using masks, Lego filters could construct complete convolution filters as Fig. <ref type="figure" coords="3,361.69,708.58,4.01,8.64" target="#fig_0">1</ref>(c) shows.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3." xml:id="_MYX2u7Y">Optimization</head><p xml:id="_cxQtBCZ"><s xml:id="_aUn4NK9" coords="4,55.13,89.19,234.31,8.64;4,55.44,101.15,234.00,8.64;4,55.44,113.10,235.24,8.64;4,55.44,124.88,12.27,8.59">The proposed convolution operation needs the cooperation between Lego filters and stacking masks, which are to be optimized in the training procedure of deep neural network, i.e.</s><s xml:id="_4VFDYj2" coords="4,70.99,124.71,115.14,8.99;4,186.13,121.99,3.30,6.12;4,186.13,129.55,2.82,6.12;4,193.22,124.74,33.88,8.74;4,227.10,123.16,17.27,6.12;4,247.42,125.06,42.36,8.64;4,55.44,136.66,234.00,8.99;4,55.44,148.97,235.75,8.64">B and M in Eq. 8. Since M j i ∈ {0, 1} m×1 is a binary matrix and optimizing M is a NP-hard problem, which makes it difficult to discover an optimal result using SGD.</s><s xml:id="_PXyNRXu" coords="4,54.97,160.57,236.21,8.99">We thus proceed to relax the object function for learning M.</s></p><p xml:id="_mEp7cZR"><s xml:id="_ngkpe55" coords="4,54.97,178.50,90.37,9.33;4,145.34,176.96,28.38,6.12;4,177.65,178.50,113.54,8.99">We introduce N ∈ R n×o×m with the same shape as M.</s></p><p xml:id="_r5mEfBV"><s xml:id="_7z2DGvW" coords="4,55.44,190.46,200.46,8.99">During training, M is binarized from N as follow,</s></p><formula xml:id="formula_13" coords="4,101.87,211.91,187.57,43.09">M j i,k = 1, if k = arg max N j i 0, otherwise s.t. j = 1, . . . , n, i = 1, . . . , o.<label>(9)</label></formula><p xml:id="_yHfzUW3"><s xml:id="_vs3Mk8S" coords="4,55.44,265.49,235.25,8.99;4,55.44,277.79,220.19,8.64">During forward, Eq. 9 is used to produce binary mask M, however, it is a step function which is undifferentable.</s><s xml:id="_7RNyYdZ" coords="4,278.95,277.79,10.49,8.64;4,55.44,289.75,234.00,8.64;4,55.44,301.70,235.75,8.64">To enable gradients to pass through the binary mask, we refer to the Straight Through Estimator (STE) <ref type="bibr" coords="4,207.06,301.70,79.90,8.64" target="#b13">(Hubara et al., 2016)</ref>.</s><s xml:id="_kkcAByM" coords="4,55.44,313.66,234.25,8.64;4,55.44,325.61,112.18,8.64">STE strategy is popular in training Binary Neural Network like <ref type="bibr" coords="4,73.00,325.61,90.26,8.64" target="#b24">(Rastegari et al., 2016)</ref>.</s><s xml:id="_ECgrjjT" coords="4,170.72,325.61,120.37,8.64;4,55.44,337.22,234.00,8.99;4,55.44,349.17,200.21,8.99">For any undifferentable transformation Eq. 9, the gradient ∆N for float parameters N is same with the gradient ∆M for output feature M.</s></p><p xml:id="_8WK8RJX"><s xml:id="_pBw99Y4" coords="4,55.44,367.45,234.00,8.64;4,55.44,379.06,234.00,8.99;4,55.44,391.05,51.75,8.96">Compared to Binary Neural Network with binarized weights and activations in {-1, 1}, our target matrix M's weights are in {0, 1}.</s><s xml:id="_5jTpzWe" coords="4,110.29,391.37,179.33,8.64;4,55.44,403.32,234.00,8.64;4,55.44,414.93,75.20,8.99;4,130.63,412.21,3.30,6.12;4,130.63,419.77,2.82,6.12;4,134.83,414.96,154.61,9.65;4,55.44,427.23,132.53,8.64">Besides, there is no constraint on the number of each value in binary neural network, while we have the constraint M, ||M j i || 1 = 1, which constraints Lego filters are concatenated brick by brick.</s><s xml:id="_PZRmpHm" coords="4,193.05,427.23,96.39,8.64;4,55.44,439.19,88.83,8.64">The training pipeline is summarized in Alg. 1.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_sGwhuGm">Efficient Implementation of Lego Filters</head><p xml:id="_8KPeWez"><s xml:id="_Rg5tWeW" coords="4,55.08,487.12,234.36,8.64;4,55.44,499.08,67.72,8.64">A two-stage approach underlines Eq. 7, that is concatenation and convolution.</s><s xml:id="_dU92k9u" coords="4,126.43,499.08,163.01,8.64;4,55.44,511.03,210.43,8.64">Lego filters firstly construct convolution filters and apply convolution onto input feature maps.</s><s xml:id="_c6EMWHD" coords="4,268.96,511.03,22.13,8.64;4,55.44,522.99,234.00,8.64;4,55.44,534.94,74.70,8.64">However, repeated convolutions will be introduced during the convolution stage.</s><s xml:id="_97KBHrn" coords="4,135.74,534.63,154.00,9.65;4,55.44,546.58,235.75,9.65">For example, if two filter modules j 1 and j 2 contain same Lego filter at the same position, i.e.</s><s xml:id="_gD7VZKr" coords="4,55.44,558.54,9.66,8.74;4,66.19,555.79,6.69,6.12;4,65.11,563.35,2.82,6.12;4,76.95,558.54,20.49,8.74;4,98.52,555.79,6.69,6.12;4,97.44,563.35,2.82,6.12;4,106.20,558.54,183.24,8.96;4,55.44,570.63,191.14,8.82">M j1 i = M j2 i , i ≤ o, as shown in Fig. <ref type="figure" coords="4,207.40,558.85,4.09,8.64" target="#fig_0">1</ref>(c) , their convolve convolution results will be exactly the same, i.e.</s></p><formula xml:id="formula_14" coords="4,130.59,590.49,154.70,13.68">X i M j1 i = X i M j2 i . (<label>10</label></formula><formula xml:id="formula_15" coords="4,285.29,593.14,4.15,8.64">)</formula><p xml:id="_4YnStuf"><s xml:id="_JmAzEVc" coords="4,55.13,612.93,235.96,8.64;4,55.44,624.71,205.90,8.82">Towards an efficient convolution using Lego filters, we propose a three stage pipeline, split-transform-merge.</s><s xml:id="_RsgvnDV" coords="4,265.66,624.89,23.78,8.64;4,55.44,636.53,235.74,8.96">In the split stage, input feature maps are split into o fragments.</s></p><p xml:id="_XHbUHTh"><s xml:id="_bhRTXZ7" coords="4,55.44,648.80,234.00,8.64;4,55.44,660.44,235.65,8.96;4,55.44,672.71,97.60,8.64">In the transform stage, these fragments are convolved with each individual Lego filter, which leads to o × m intermediate feature maps in total.</s><s xml:id="_sXKQSZ3" coords="4,156.13,672.71,133.31,8.64;4,55.44,684.32,234.00,8.99;4,55.44,696.62,235.65,8.64;4,55.44,708.58,63.08,8.64">At last, these intermediate feature maps are summed according to M. We argue that this three stage convolution is equivalent to the aforementioned twostage operation.</s></p><p xml:id="_3md96nH"><s xml:id="_feRjCGd" coords="4,314.91,70.15,148.42,9.03">1. Split: We split input feature maps</s></p><formula xml:id="formula_16" coords="4,327.37,67.01,214.07,24.81">X ∈ R d 2 c×q into o fragments [X 1 , . . . , X o ],</formula><p xml:id="_XPzb6st"><s xml:id="_DEePeeu" coords="4,430.39,82.14,111.06,9.68;4,327.37,97.68,7.20,7.11;4,334.56,92.29,21.47,7.75;4,359.28,95.81,182.16,8.64;4,327.01,107.77,68.20,8.64">where each fragment X i ∈ R d 2 c×q will be the basic feature map to be convolved with Lego filters.</s></p><p xml:id="_T2spDTq"><s xml:id="_a8yJeab" coords="4,314.91,126.92,226.53,9.72;4,327.37,139.26,214.24,8.64;4,327.37,150.87,189.24,9.68">2. Transform: Taking feature fragment X i , i ≤ o as the basic component for convolution, for each Lego filter B j , j ≤ m, we can calculate the convolution as</s></p><formula xml:id="formula_17" coords="4,406.83,171.83,134.61,10.65">I ij = X i B j .<label>(11)</label></formula><p xml:id="_fzHsSQh"><s xml:id="_rE9uRKa" coords="4,327.37,193.14,214.07,8.64;4,327.37,204.78,214.07,8.96;4,327.37,216.70,214.07,9.68;4,327.37,229.01,20.20,8.64">By launching this convolution between each feature fragment and each Lego filter, there would be o × m intermediate Lego feature maps I i,j , i ≤ o, j ≤ m in total.</s></p><p xml:id="_rtgGNG3"><s xml:id="_BJKCGRV" coords="4,326.90,244.75,216.20,8.64;4,327.37,256.71,214.07,8.64;4,327.37,268.66,215.73,8.64;4,327.37,280.62,66.38,8.64">We name this process as Lego Convolution, as the classical convolution operation is split into convolutions over many smaller fragments cut from the original input feature map.</s><s xml:id="_egwAfPg" coords="4,397.07,280.62,144.37,8.64;4,327.37,292.58,214.07,8.64;4,327.37,304.53,214.07,8.64;4,327.37,316.49,89.61,8.64">Note that the major float operations are done in this stage, which could reduce the total number of float operations compared to the standard convolution operation.</s></p><p xml:id="_VfgV2WX"><s xml:id="_Y8CK3r9" coords="4,314.91,335.64,226.52,9.03;4,326.93,347.63,214.51,8.99;4,327.37,359.59,6.85,8.77">3. Merge: In this stage, the desired output feature maps Y is produced from intermediate Lego feature maps I.</s><s xml:id="_d2hwugb" coords="4,337.30,359.62,204.14,8.96;4,327.37,371.89,215.72,8.64;4,327.37,383.85,214.07,8.64;4,327.37,395.80,82.50,8.64">However, in standard convolution, o different Lego kernels have to be concatenated for a complete convolution filter first, and then conduct convolutions with input feature mapX.</s><s xml:id="_eSXaJZX" coords="4,412.95,395.80,128.49,8.64;4,327.37,407.76,215.73,8.64;4,327.37,419.71,214.07,8.64;4,327.37,431.67,202.87,8.64">In the above split and transform stages, we have pre-calculated convolution results between input feature fragments and Lego filters and recorded them as intermediate Lego feature map.</s><s xml:id="_FDfnjN3" coords="4,535.23,431.67,6.21,8.64;4,327.37,443.62,215.73,8.64;4,327.12,455.23,214.32,8.99;4,327.37,467.19,214.07,8.99;4,327.37,479.14,198.98,8.99">It is instructive to note that in previous two-stage convolution, M is used to select Lego filter, while in the proposed three-stage pipeline, M is used for picking Lego feature maps from I and summarizing them.</s></p><p xml:id="_Us5cG4r"><s xml:id="_qEBUysS" coords="4,307.44,505.14,235.65,9.03;4,307.44,517.48,234.00,8.64;4,307.44,529.44,220.35,8.64">Equivalent We next proceed to prove the equivalence between the proposed efficient three-stage convolution and the standard convolutions using Lego filters in Theorem. 1.</s></p><p xml:id="_uBFtcpU"><s xml:id="_PMYqQDC" coords="4,307.11,544.61,235.98,8.96;4,307.44,556.77,234.00,8.59;4,307.44,568.56,234.00,8.77;4,307.44,580.51,198.01,8.77">Theorem 1. Suppose we reverse the convolution by splittransform-merge three-stage pipeline, the result should be equal to concat lego filters B using M to form standard kernels K and then convolve with feature map X.</s></p><p xml:id="_3ZTUWvF"><s xml:id="_UZQp98u" coords="4,307.44,605.49,24.74,8.59">Proof.</s><s xml:id="_8rcFymM" coords="4,337.16,605.67,204.28,8.64;4,307.44,617.28,234.17,8.99;4,307.44,629.23,231.61,8.99">In two-stage convolution, we calculate output feature maps X by firstly constructing a complete convolution filter and then conduct convolutions over input feature maps X,</s></p><formula xml:id="formula_18" coords="4,392.24,650.19,149.20,8.99">Y = X (BM)<label>(12)</label></formula><p xml:id="_D2ytCap"><s xml:id="_zHREt7r" coords="4,307.44,671.15,235.22,9.68;5,55.44,304.76,136.65,8.99;5,192.38,303.21,3.30,6.12;5,199.07,305.11,81.88,8.64">For the j'th output Y j , the corresponding can be written as, From the perspective of matrix, Y j can be calculated as,</s></p><formula xml:id="formula_19" coords="4,378.64,690.07,162.80,30.32">Y j = o i=1 X i (BM j i ).<label>(13)</label></formula><formula xml:id="formula_20" coords="5,127.47,322.02,161.97,30.32">Y j = o i=1 (X i B)M j i .<label>(14)</label></formula><p xml:id="_acCtPUn"><s xml:id="_uPvg4D7" coords="5,55.13,362.65,65.30,8.99;5,120.43,367.31,2.82,6.12;5,127.15,362.65,162.28,8.99;5,55.44,374.60,234.00,8.99;5,55.44,386.56,235.66,8.99;5,55.44,398.86,235.74,8.64">The first item X i B denotes the intermediate Lego feature map I. M selects feature maps from I and summarizes them to generate output Y. Hence, the proposed split-transformmerge strategy can result in the same output feature map.</s></p><p xml:id="_qqm4K36"><s xml:id="_ub2Ej5a" coords="5,55.08,425.57,236.01,8.64;5,55.44,437.52,234.00,8.64;5,55.44,449.48,113.82,8.64">A convolution layer reformed by the proposed splittransform-merge pipeline can be equivalent to the two-stage construct-convolve solution.</s><s xml:id="_6pRnMm6" coords="5,172.36,449.48,118.73,8.64;5,55.44,461.43,234.00,8.64;5,55.44,473.39,172.96,8.64">By using this split-transformmerge pipeline, repeated computations are eliminated, and the network could feed forward efficiently.</s><s xml:id="_YKXHsDw" coords="5,231.49,473.39,57.94,8.64;5,55.44,485.34,234.00,8.64;5,55.44,497.30,25.74,8.64">Efficient Lego networks can be established using Lego Unit shown in Fig. <ref type="figure" coords="5,73.71,497.30,3.74,8.64" target="#fig_2">2</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_gkcZJcx">Analysis on Compression Performance</head><p xml:id="_q8bWWhW"><s xml:id="_dgR2ByN" coords="5,55.44,545.24,234.00,8.64;5,55.44,557.19,234.00,8.64;5,55.44,569.15,45.92,8.64">Compared with standard convolution, convolution kernels constructed by Lego filters can greatly reduce the number of parameters.</s><s xml:id="_j5UVFaN" coords="5,104.44,569.15,186.66,8.64;5,55.44,581.10,234.25,8.64;5,55.44,593.06,127.50,8.64">Further, by using our proposed split-transformmerge convolution strategy for Lego filters, neural network calculation could be accelerated.</s><s xml:id="_223Ff8P" coords="5,186.02,593.06,103.41,8.64;5,55.44,605.01,166.31,8.64">In this section, we analyze the memory and float operations in detail.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1." xml:id="_MfmdFDM">Compression</head><p xml:id="_TrCAgzv"><s xml:id="_uQ86Ss9" coords="5,54.97,648.48,198.22,8.96;5,253.19,646.91,3.97,6.12;5,259.16,648.48,30.28,8.74;5,55.44,660.41,169.70,8.99;5,225.14,658.86,3.97,6.12;5,225.14,664.94,4.52,6.12;5,231.47,660.44,15.81,8.74">We define the size of the convolution kernel F as d 2 × c × n and the size of the input feature map X as d 2 x × c.</s><s xml:id="_ddrd25Z" coords="5,250.28,660.75,39.16,8.64;5,55.44,672.39,234.00,8.96;5,55.44,684.66,32.53,8.64">We divide that input channel into o segments and have m Lego Filters at hand.</s><s xml:id="_M5pHS6Y" coords="5,92.28,684.66,197.16,8.64;5,55.44,696.27,163.64,8.99">All parameters are saved with float-32 data type except for M matrix with binary weights.</s><s xml:id="_g9tS9xd" coords="5,222.16,696.62,67.28,8.64;5,55.44,708.58,79.40,8.64">The compression rate is calculated by</s></p><formula xml:id="formula_21" coords="5,347.27,322.34,194.17,26.74">n × c × d 2 m × c o × d 2 + n × o × m+ ≈ n × o m .<label>(15)</label></formula><p xml:id="_h6hMgNZ"><s xml:id="_MbMdydd" coords="5,307.44,357.51,98.37,8.96;5,409.40,355.63,3.56,6.12;5,409.22,362.99,3.93,6.12;5,416.56,357.51,15.15,8.74;5,431.70,355.94,3.97,6.12;5,438.66,357.83,104.43,8.64;5,307.44,369.79,99.19,8.64">In the denominator, m × c o × d 2 denotes the memory occupied by Lego filter takes.</s><s xml:id="_E8DFfeg" coords="5,409.73,369.44,133.46,8.99;5,307.44,381.39,234.00,8.99;5,307.44,393.70,234.17,8.64;5,307.44,405.65,168.65,8.64;5,479.77,403.45,15.08,6.12;5,483.78,410.81,7.07,6.12;5,496.05,405.65,2.49,8.64">n × o × m is the memory for M. Since the binary matrix M is relatively small compared to the Lego filter parameters, the total compression ratio for convolution layer would be approximately n×o m .</s><s xml:id="_fBpgKpA" coords="5,307.44,423.59,233.99,8.64;5,307.44,435.19,235.65,8.99;5,307.44,447.50,234.00,8.64;5,307.44,459.45,32.12,8.64">By using Lego filters to construct filter modules according to binary matrix M, we can save a large volume of parameters, which make compressed network applicable for mobile devices.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2." xml:id="_uHqWdKZ">Acceleration</head><p xml:id="_TKGha6m"><s xml:id="_YwKZSEe" coords="5,307.44,503.24,235.66,8.64;5,307.44,515.19,235.66,8.64;5,307.44,527.15,138.09,8.64">In order to accelerate inference time, we develop the splittransform-merge strategy, which can largely reduce the number of float operations in LegoNet.</s><s xml:id="_uX47Tsa" coords="5,448.61,527.15,94.48,8.64;5,307.44,539.10,199.93,8.64">For a standard convolution layer, float operations number is calculated as</s></p><formula xml:id="formula_22" coords="5,389.72,558.68,151.72,12.69">n × c × d 2 × d 2 x ,<label>(16)</label></formula><p xml:id="_usSpmBd"><s xml:id="_aXVMeNR" coords="5,307.44,583.05,234.00,8.64;5,307.44,594.65,234.00,8.99;5,307.44,606.96,234.00,8.64;5,307.44,618.91,65.93,8.64">For Lego networks, firstly generating standard convolution filter using Lego filters B and binary matrix M, and then conducting convolve as usual would not increase any extra float operations.</s><s xml:id="_B2j2sJ6" coords="5,377.93,618.91,163.50,8.64;5,307.44,630.87,141.23,8.64">Hence, Eq. 16 provides an upper bound of the number of float operations.</s><s xml:id="_pnNpSBd" coords="5,455.02,630.87,86.42,8.64;5,307.44,642.82,234.00,8.64;5,307.44,654.78,89.45,8.64">In other words, even in the worst case, applying Lego filters will not increase computational burden.</s></p><p xml:id="_rQDaJ2K"><s xml:id="_VkbsGXT" coords="5,307.44,672.39,234.17,8.96;5,307.44,684.35,234.00,8.96;5,307.44,696.62,146.19,8.64">In some cases, if the number of Lego filters m is smaller than the output channel number n, it could be optimized using split-transform-merge strategy.</s><s xml:id="_a23KGsw" coords="5,456.72,696.62,84.73,8.64;5,307.44,708.58,232.09,8.64">The theoretical speed up for an optimized convolution layer can be calculated as</s></p><formula xml:id="formula_23" coords="6,55.44,85.51,234.00,47.35">n × c × d 2 × d 2 x m × o × c o × d 2 × d 2 x + n × o × d 2 x ≈ n m . (17) m × o × c o × d 2 k × d 2</formula><p xml:id="_N6byxSm"><s xml:id="_dUpZttV" coords="6,135.27,125.76,4.52,6.12;6,142.64,121.58,146.80,8.64;6,55.44,133.53,83.13,8.64">x is number of float operations required by Lego convolution.</s><s xml:id="_EMJpt27" coords="6,141.66,133.21,147.78,8.96;6,55.44,145.49,155.11,8.64">It would generate m × o intermediate Lego features with channel equal to 1.</s><s xml:id="_yxgdbdB" coords="6,213.66,145.49,77.03,8.64;6,55.44,157.13,40.37,8.74;6,95.81,155.55,3.97,6.12">In the merge stage, n × o × d 2</s></p><p xml:id="_jE3J5g7"><s xml:id="_Eww8b6Z" coords="6,95.81,161.63,4.52,6.12;6,103.32,157.44,186.12,8.64;6,55.44,169.40,23.52,8.64">x FLOPS are taken to sum up these Lego feature maps.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_duJQ8bB">Experiments</head><p xml:id="_5yjqC2U"><s xml:id="_sjYGMxf" coords="6,55.44,216.95,81.09,8.96">Experiment Setup.</s><s xml:id="_RdeGyX2" coords="6,143.78,217.34,147.32,8.64;6,55.44,229.29,235.25,8.64;6,55.44,241.25,235.65,8.64;6,54.69,253.20,234.75,8.64;6,55.44,265.16,99.49,8.64">We have developed a novel convolution framework using Lego filters in the above section, here we will first test the proposed method on the CIFAR-10 ( <ref type="bibr" coords="6,72.90,253.20,124.98,8.64" target="#b17">Krizhevsky and Hinton, 2010)</ref> dataset with different parameters and settings.</s><s xml:id="_jWAWReT" coords="6,160.52,265.16,128.91,8.64;6,55.44,276.79,234.00,8.96;6,55.44,289.07,57.34,8.64">The CIFAR-10 dataset consists of 60000 natural images with 32 × 32 resolution split into train/test fold.</s><s xml:id="_4qdBZdB" coords="6,117.02,289.07,172.42,8.64;6,55.44,301.02,235.65,8.64;6,55.44,312.66,234.00,8.96;6,55.44,324.93,92.46,8.64">We select the VGGNet-16 <ref type="bibr" coords="6,227.44,289.07,62.00,8.64;6,55.44,301.02,66.38,8.64" target="#b27">(Simonyan and Zisserman, 2014</ref>) as the baseline model, which is a classical deep neural network and has a 93.25% accuracy on the CIFAR-10 benchmark.</s><s xml:id="_fuYYRAe" coords="6,150.99,324.93,140.10,8.64;6,55.44,336.89,234.00,8.64;6,55.08,348.84,236.01,8.64;6,55.44,360.80,41.16,8.64">This network contains 13 convolution layers, followed by 3 fully-connected layers, which is widely used in visual recognition, detection and segmentation tasks.</s><s xml:id="_gPddGpt" coords="6,99.68,360.80,189.75,8.64;6,55.44,372.75,233.99,8.64;6,55.44,384.71,234.00,8.64;6,55.44,396.66,235.65,8.64;6,55.44,408.62,27.30,8.64">In order to apply VGGNet-16 on the CIFAR10 dataset, we replace the last convolutional layer by a global average pooling layer and then reconfigure a fully-connected layer for conducting the classification task with 10 categories.</s><s xml:id="_dprykvu" coords="6,85.84,408.62,203.60,8.64;6,55.44,420.58,189.21,8.64">The network will be trained 1,000 epochs with the batch size of 128 using the conventional SGD.</s><s xml:id="_v7v6ga8" coords="6,247.29,420.58,42.15,8.64;6,55.44,432.53,235.65,8.64;6,55.44,444.49,235.74,8.64">The initial learning rate is set as 0.1, which will be reduced by a factor of 10 at 200, 400, 600, 800, 900 epochs, respectively.</s><s xml:id="_YEaQXXj" coords="6,54.97,456.12,124.49,8.96;6,179.47,454.55,10.20,6.12;6,193.60,456.44,74.11,8.64">Weight decay is set to 5 × 10 -4 for regularization.</s><s xml:id="_Z5wcYmY" coords="6,273.64,456.44,15.80,8.64;6,55.44,468.40,141.41,8.64">The momentum parameter is set to 0.9.</s><s xml:id="_KU4HTjK" coords="6,200.43,468.40,89.01,8.64;6,55.44,480.03,234.25,8.96;6,55.44,492.31,234.17,8.64;6,55.44,504.26,75.82,8.64">In addition, images in the training set are firstly padded by 4 pixels, and 32 × 32 patches will be randomly sampled for padded images for data augmentation.</s><s xml:id="_wYPtXjw" coords="6,134.34,504.26,114.78,8.64">Code is available at github<ref type="foot" coords="6,242.65,502.59,3.49,6.05" target="#foot_0">1</ref> .</s><s xml:id="_aCdabs7" coords="6,55.44,521.81,45.40,8.96">Binary v.s.</s><s xml:id="_EBpX8tw" coords="6,105.90,521.81,42.80,8.96">Weighted.</s><s xml:id="_yDwzUgM" coords="6,153.77,522.19,135.67,8.64;6,55.44,533.97,235.74,8.82">Conventional filters in CNNs are divided into two parts by using the proposed approach, i.e.</s><s xml:id="_4ynn4be" coords="6,55.44,545.76,235.66,8.99;6,55.44,558.06,94.26,8.64">Lego filters B and corresponding binary mask M for recording their permutations.</s><s xml:id="_BD38jEc" coords="6,155.89,558.06,135.20,8.64;6,55.44,569.67,234.00,8.99;6,55.44,581.62,235.74,8.99;6,55.13,593.93,234.31,8.64;6,55.44,605.53,234.17,8.99;6,55.44,617.52,234.00,8.96;6,55.44,629.79,164.80,8.64">In order to solve these two variables efficiently, an intermediate variable N was introduced in Eq. 9 for relaxing the constrain of the binary mask M. Therefore, besides to permute Lego filters to conventional filters using M, we also can utilize N to obtain another permutation of Lego filters with o × n floating numbers to assign each Lego filter a learnable weight.</s><s xml:id="_U2XQpvU" coords="6,223.33,629.79,67.36,8.64;6,55.44,641.43,42.47,8.96;6,97.91,639.85,3.97,6.12;6,104.58,641.43,184.86,8.96;6,55.44,653.70,235.65,8.64;6,55.44,665.66,176.71,8.64">Considering that, there are d 2 × c × m parameters in the given conventional layer, these coefficients do not account for an obvious proportion for storing the entire neural network.</s><s xml:id="_s7fYaTq" coords="6,235.25,665.66,54.18,8.64;6,55.44,677.61,234.00,8.64;6,55.44,689.57,150.96,8.64">Thus, we first test the performance of Lego networks with and without additional coefficients on Lego filters.</s><s xml:id="_43Ad6bd" coords="6,307.44,313.67,95.95,8.96">Impact of Parameters.</s><s xml:id="_H4apvtx" coords="6,411.37,314.05,130.07,8.64;6,307.44,326.01,234.00,8.64;6,307.44,337.96,83.67,8.64">We evaluate the performance of our proposed LegoNet as described in the previous section on CIFAR10 dataset.</s></p><p xml:id="_WrBUFkd"><s xml:id="_NpT4gJt" coords="6,307.44,355.90,234.00,8.64;6,307.08,367.85,234.36,8.64;6,307.44,379.81,234.00,8.64;6,307.44,391.76,124.05,8.64">Lego filters could construct convolution filters with and without coefficients while concatenating, in order to full explore the impact of coefficients, we test LegoNet with a range of compression ratios.</s><s xml:id="_JTna3FW" coords="6,436.11,391.44,105.33,8.96;6,307.44,403.72,235.65,8.64;6,307.44,415.35,175.29,9.30;6,482.73,413.78,6.12,6.12;6,491.83,415.67,49.61,8.64;6,307.44,427.63,235.65,8.64;6,307.44,439.58,18.56,8.64">We set hyper-parameter o to be 2 for whole network, which indicates that input features are splitted into two fragments, m ∈ R + indicates the ratio of Lego filters compared to the original output channels.</s><s xml:id="_Kket4K3" coords="6,329.09,439.26,212.35,8.96;6,307.08,451.54,136.21,8.64">We set m ranging from 0.125 to 0.5, which compress VGGNet-16 by a factor of 4-16×.</s><s xml:id="_8hWunxz" coords="6,446.38,451.54,96.31,8.64;6,307.44,463.49,234.00,8.64;6,307.44,475.13,235.65,8.96;6,307.44,487.40,234.00,8.64;6,307.44,499.04,90.00,8.96">Fig. <ref type="figure" coords="6,464.69,451.54,5.00,8.64" target="#fig_3">3</ref> shows the results, for any compression ratio, Lego filters concatenating with coefficients(denoted as o = 2, coef f ) always performs better than directly concatenating without coefficients(denoted as o = 2, w/o coef f ).</s><s xml:id="_skAtR4G" coords="6,400.64,499.36,141.15,8.64;6,307.44,511.31,234.00,8.64;6,307.44,523.27,164.50,8.64">Under same parameters budget, by introducing few more coefficients, LegoNet would enhance the expression ability by a large margin.</s><s xml:id="_JT2gr99" coords="6,475.97,523.27,65.46,8.64;6,307.44,535.23,234.00,8.64;6,307.44,547.18,234.00,8.64;6,307.44,559.14,235.25,8.64;6,307.44,571.09,235.74,8.64">As compression ratio increases, coefficients play an more important role, in the extreme compression situation of 16×, LegoNet with coefficient could maintain performance about 90% accuracy, compared to 86% accuracy of LegoNet without coefficient.</s><s xml:id="_9g3aqUm" coords="6,306.97,583.05,234.46,8.64;6,307.44,594.82,235.65,8.82;6,306.69,606.96,115.75,8.64">We argue that if parameters are not too few, parameters are enough to learn comparable results, e.g. , Lego-VGGNet-16-w(o=2,m=0.5) in Tab. 1.</s><s xml:id="_yXvaHGh" coords="6,428.72,606.96,112.73,8.64;6,307.44,618.91,234.00,8.64;6,307.44,630.87,235.74,8.64">However, if VGGNet-16 is compressed extremely, using Lego filters would introduce many repeat calculations among different filter modules.</s><s xml:id="_6CcM2Vd" coords="6,306.97,642.82,234.46,8.64;6,307.44,654.78,134.13,8.64">We thus need few coefficients for weighted concatenation to strength the expression ability.</s><s xml:id="_7AxGJcQ" coords="6,444.66,654.78,96.78,8.64;6,307.44,666.73,210.59,8.64">Further experiments are all conducted with coefficients during concatenating.</s></p><p xml:id="_arC2DVX"><s xml:id="_xQgxTfb" coords="6,307.13,684.35,235.96,8.96;6,307.44,696.62,234.00,8.64;6,307.44,708.26,234.00,8.96;7,55.44,172.84,87.82,8.64">There are two parameters o and m in LegoNet, i.e. , o indicates how many fragments input feature maps are splitted into, m indicates the number of Lego filters compared to the original of each layer.</s><s xml:id="_KbyhR2w" coords="7,146.34,172.84,144.75,8.64;7,55.44,184.48,234.00,8.96;7,55.09,196.75,28.46,8.64">We conduct our experiments on different o and m which compress VGGNet-16 by a factor of 4-64×.</s><s xml:id="_UFxbWHk" coords="7,86.66,196.75,202.78,8.64;7,55.44,208.71,80.41,8.64">Fig. <ref type="figure" coords="7,104.91,196.75,4.97,8.64" target="#fig_3">3</ref> shows the relationship between performance and two parameters.</s></p><p xml:id="_h89gcrD"><s xml:id="_wqnvS9Y" coords="7,55.08,226.64,234.35,8.64;7,55.44,238.27,130.97,8.96">As mentioned above, Lego-VGGNet-16-w could compress the network by a factor of m/o.</s><s xml:id="_jz9fWAk" coords="7,190.79,238.27,98.65,8.96;7,55.44,250.23,234.35,8.96;7,55.44,262.33,234.67,8.82;7,55.44,274.46,39.38,8.64">When we set different o or m to achieve a compression ratio less than 8×, accuracy drops less than 1%, e.g. , Lego-VGGNet-16-w(o=4, m=0.5) in Tab. 1.</s><s xml:id="_7akJM8v" coords="7,100.49,274.46,190.61,8.64;7,55.44,286.41,235.25,8.64;7,55.44,298.37,208.25,8.64">As the parameter grows, the accuracy will increase, which in consistent with our motivation, however, this will lead to larger model size or much more flops.</s><s xml:id="_f45YvQK" coords="7,266.67,298.37,22.77,8.64;7,55.44,310.32,234.94,8.64">There is thus a trade-off between accuracy, model size and speed.</s></p><p xml:id="_Tup65hf"><s xml:id="_k74urfa" coords="7,55.44,328.26,234.00,8.64;7,55.44,340.21,234.00,8.64;7,55.44,352.17,235.74,8.64">In order to analysis the relationship between params and flops, as previous figures show, under the same budget of parameters, the performance are approximately the same.</s></p><p xml:id="_PHv8Tyt"><s xml:id="_SNbpNCa" coords="7,55.13,364.12,235.96,8.64;7,55.44,376.08,89.93,8.64">The number of parameters directly indicates the final performance of the network.</s><s xml:id="_NW8Scz8" coords="7,148.46,376.08,141.33,8.64;7,55.44,387.71,235.65,8.96;7,55.44,399.81,235.66,8.82;7,55.08,411.94,235.61,8.64;7,55.08,423.90,236.01,8.64;7,55.08,435.85,167.56,8.64">Under the budget of approximately same parameters, higher o which indicates much more fragments, which could achieve higher performance, e.g. , Lego-VGGNet-16-w(o=2, m = 0.25) achieves 91.97% accuracy, which is almost the same accuracy with Lego-VGGNet-16w(o=4, m = 0.5) with 92.42% accuracy.</s><s xml:id="_sJYYnq7" coords="7,228.85,435.85,60.60,8.64;7,55.44,447.81,164.69,8.64">However, float operations vary a lot for two networks.</s><s xml:id="_p5AzNbr" coords="7,227.05,447.81,64.04,8.64;7,54.69,459.76,234.75,8.64;7,55.44,471.72,152.08,8.64">Lego-VGGNet-16-w(o=4, m = 0.5) costs twice flops compared to model Lego-VGGNet-16-w(o=2, m = 0.25).</s><s xml:id="_sYaeTUG" coords="7,211.09,471.72,78.52,8.64;7,55.44,483.67,234.00,8.64;7,55.44,495.63,234.00,8.64;7,55.44,507.59,82.45,8.64">Note that using our proposed three-stage strategy by split-transform-merge, the number of FLOPS is proportional to the number of Lego filters for each layer.</s><s xml:id="_hyUpbzq" coords="7,140.97,507.59,149.71,8.64;7,55.44,519.22,234.00,8.96;7,55.44,531.50,69.44,8.64">Thus, under same parameters budget, though larger o introduce higher performance, but takes much more flops.</s><s xml:id="_s82Fgkx" coords="7,127.97,531.50,161.47,8.64;7,55.44,543.13,234.00,8.96;7,55.44,555.41,234.00,8.64;7,55.08,567.36,148.04,8.64">Take flops into consideration, in order to balance the model size and flops, we set o = 2 in the rest of our experiments, which reduce a large amount of flops while maintain comparable accuracy.</s></p><p xml:id="_QuaJYpH"><s xml:id="_7AQRa26" coords="7,55.44,584.90,92.88,8.96">Large-Scale Datasets.</s><s xml:id="_s5c2ndf" coords="7,154.80,585.29,136.29,8.64;7,55.44,597.25,235.65,8.64;7,55.44,609.20,83.76,8.64">We test our LegoNet on a largescale classification task, ILSVRC2012, with several different architectures.</s><s xml:id="_mq6V9js" coords="7,151.64,609.20,137.79,8.64;7,55.44,621.16,234.00,8.64;7,55.44,633.11,217.83,8.64;7,307.44,495.63,216.50,8.64">We evaluate LegoNet based on ResNet50 <ref type="bibr" coords="7,98.84,621.16,66.84,8.64" target="#b7">(He et al., 2016)</ref>, VGGNet-16 <ref type="bibr" coords="7,226.99,621.16,62.44,8.64;7,55.44,633.11,69.05,8.64" target="#b27">(Simonyan and Zisserman, 2014)</ref> and MobileNet <ref type="bibr" coords="7,188.93,633.11,84.35,8.64" target="#b11">(Howard et al., 2017)</ref>  ResNet50 usually contains 1x1 and 3x3 convolutions.</s><s xml:id="_7DKhqpG" coords="7,527.04,495.63,15.14,8.64;7,307.44,507.59,235.65,8.64;7,307.44,519.54,234.00,8.64;7,307.44,531.50,34.70,8.64">1x1 convolution layers are mainly used for channel-wise transformation and 3x3 convolution is used to merge spatial features.</s><s xml:id="_hycCK2P" coords="7,347.62,531.50,193.82,8.64;7,307.44,543.13,234.00,8.96;7,307.44,555.09,121.49,8.96">We used the same compression method as that on CIFAR10, thus setting parameter o to be 2 and controls the number of Lego filters m.</s><s xml:id="_4vGUBjA" coords="7,433.18,555.41,108.26,8.64;7,307.44,567.36,105.52,8.64">We compress two types of layers without difference.</s><s xml:id="_TnbpUHG" coords="7,418.66,567.36,122.78,8.64;7,307.44,579.32,234.00,8.64;7,307.44,591.27,82.21,8.64">In the ResNet50 network, the convolutional feature extractor is followed by classification layer of the network.</s><s xml:id="_4aS9BfK" coords="7,392.74,591.27,148.70,8.64;7,307.44,603.23,62.05,8.64">The final classification layer occupies 2M parameters.</s><s xml:id="_hhDYhE3" coords="7,372.60,602.91,170.50,8.96;7,307.44,615.18,57.05,8.64">Tab. 2 shows Lego-Res50 with 2-3 × compression ratio.</s><s xml:id="_bp2Nygg" coords="7,367.58,615.18,173.86,8.64;7,307.44,627.14,87.60,8.64">Accuracy keeps to be almost the same with 3× compression ratio.</s><s xml:id="_QK3wbqc" coords="7,398.13,627.14,143.31,8.64;7,307.44,639.09,179.31,8.64">Meanwhile, float operations reduced a lot in these networks by approximately 2×.</s><s xml:id="_E8rVadU" coords="7,489.84,639.09,51.60,8.64;7,307.44,651.05,234.00,8.64;7,307.44,663.00,102.53,8.64">Compared to the original, Lego-Res50-w(o=2,m=0.5) is a more portable alternative to the original.</s></p><p xml:id="_PQXfF7v"><s xml:id="_s2JGfVe" coords="7,307.44,680.94,234.00,8.64;7,307.44,692.89,138.15,8.64">In addition, we evaluate LegoNet-Res50 with and without coefficients on large scale dataset.</s><s xml:id="_pPaB3M2" coords="7,448.85,692.89,92.58,8.64;7,307.44,704.85,234.67,8.64">Compared to weighted concatenation of Lego filters, Lego-Res50(o=2,m=0.5)</s><s xml:id="_UCREkDh" coords="8,55.44,397.74,234.00,8.64;8,55.44,409.70,217.68,8.64">drops 2% more accuracy, which proves that the introduced coefficients indeed improve LegoNet expression ability.</s><s xml:id="_ZZb3v9d" coords="8,276.20,409.70,13.41,8.64;8,55.08,421.65,234.36,8.64;8,55.08,433.61,110.70,8.64">For VGGNet-16 and MobileNet, we only tested the performance which contains coefficients.</s></p><p xml:id="_bB7xXPt"><s xml:id="_7jUudgG" coords="8,55.44,451.54,234.00,8.64;8,55.44,463.49,179.78,8.64">Further, we adopt proposed LegoNet onto mobile setting networks, MobileNet <ref type="bibr" coords="8,144.94,463.49,85.91,8.64" target="#b11">(Howard et al., 2017)</ref>.</s><s xml:id="_MBtnvHP" coords="8,239.36,463.49,50.08,8.64;8,55.44,475.45,235.66,8.64;8,55.44,487.40,28.52,8.64">VGGNet-16 and ResNet50 are designed for a higher classification performance.</s><s xml:id="_JkYykTm" coords="8,87.05,487.40,202.38,8.64;8,55.44,499.36,50.72,8.64">Given much more parameters, higher accuracy can be achieved.</s><s xml:id="_jT5trAc" coords="8,110.38,499.36,179.06,8.64;8,55.44,511.31,234.00,8.64;8,55.44,523.27,165.30,8.64">Compressing these kinds of networks while preserving their performance is easier than compressing MobileNet like efficient network designs.</s></p><p xml:id="_fQ8G7Ab"><s xml:id="_5XePVwn" coords="8,55.44,541.20,235.66,8.64;8,55.08,553.16,236.10,8.64">Mobilenet consists depthwise convolutional filters and pointwise convolution which are 3×3 and 1×1 convolution.</s><s xml:id="_aZADhx4" coords="8,55.44,565.11,235.65,8.64;8,55.44,577.07,234.00,8.64;8,55.44,589.02,58.66,8.64">Depthwise convolution learns a transform for each channel using 3× 3 convolution with group number equals to input channels.</s><s xml:id="_nYPvsmP" coords="8,117.02,589.02,172.42,8.64;8,55.44,600.98,234.00,8.64;8,55.44,612.93,142.71,8.64">1×1 pointwise convolution takes most of the parameters in MobileNet, thus we mainly adopt our Lego filters onto those 1×1 convolution.</s><s xml:id="_HZ7YnPf" coords="8,202.49,612.93,86.95,8.64;8,55.44,624.89,234.00,8.64;8,54.69,636.84,176.51,8.64">We test our proposed Lego-MobileNet-w on ILSVRC2012 and achieved less than 1% accuracy drop with 1.2× compression.</s><s xml:id="_dBXjEVe" coords="8,236.38,636.84,53.23,8.64;8,55.44,648.80,234.00,8.64;8,55.44,660.75,235.66,8.64;8,55.44,672.71,234.00,8.64;8,55.44,684.66,162.13,8.64">Note that for model Lego-Mobile-w(o=2,m=1.5), the number of Lego filters for each layer is 1.5× compared to the original, directly using our proposed split-transform-merge three-stage pipeline, flops is larger than the original.</s><s xml:id="_GV8fhHa" coords="8,220.65,684.66,68.79,8.64;8,55.44,696.62,234.35,8.64;8,55.44,708.58,234.00,8.64;8,307.44,224.59,234.00,8.64;8,307.44,236.55,79.14,8.64">For this model, it reaches the upper bound and we forward this network by firstly reconstruct convolution filters and then forward input data, which achieves same float operations and inference time as the original.</s></p><p xml:id="_mWwtCBT"><s xml:id="_rWRX4z3" coords="8,307.44,254.09,97.11,8.96">Generalization Ability.</s><s xml:id="_7jxQBcG" coords="8,413.07,254.48,130.02,8.64;8,307.44,266.44,234.00,8.64;8,307.44,278.39,235.74,8.64">In order to full explore the generalization ability of LegoNet, we evaluate our LegoNet on VOC object detection task <ref type="bibr" coords="8,434.74,278.39,104.07,8.64" target="#b4">(Everingham et al., 2010)</ref>.</s><s xml:id="_Tekutag" coords="8,307.44,290.35,234.00,8.64;8,307.44,302.30,234.00,8.64;8,307.44,314.26,34.93,8.64">Faster-RCNN <ref type="bibr" coords="8,365.98,290.35,70.63,8.64" target="#b25">(Ren et al., 2015)</ref> was used as the detection framework, VOC07 train+val dataset was used to train the network.</s><s xml:id="_EZAxRXS" coords="8,345.48,314.26,197.61,8.64;8,307.44,326.21,58.89,8.64">We used Lego-Res50-w(o=2,m=0.5) as the detection backbone.</s><s xml:id="_fBfmyEK" coords="8,369.45,326.21,173.74,8.64">Tab. 3 shows the results of trained network.</s></p><p xml:id="_f94h7kX"><s xml:id="_qxYcevT" coords="8,307.44,338.17,235.65,8.64;8,307.44,350.12,159.37,8.64">Comparing baseline network, our LegoNet achieves comparable results with much less parameters.</s><s xml:id="_FvMReYs" coords="8,307.44,421.42,235.74,8.64">Here, we give the example of Faster-RCNN detection result.</s></p><p xml:id="_N39j5Mr"><s xml:id="_K2nTSb7" coords="8,307.44,433.37,234.00,8.64;8,307.44,445.33,200.75,8.64">It can be seen from Fig. <ref type="figure" coords="8,407.75,433.37,5.08,8.64">4</ref> that the difference between the original ResNet50 and our LegoNet is quite small.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_pwaEqMv">Conclusion</head><p xml:id="_s8DYRBu"><s xml:id="_mUDDP7w" coords="8,307.44,493.26,235.65,8.64;8,307.44,505.22,234.00,8.64;8,307.44,517.18,25.06,8.64">In this work, we propose a new method to construct efficient convolutional neural networks with a set of Lego filters.</s><s xml:id="_tCgP6xw" coords="8,335.58,517.18,205.86,8.64;8,307.44,529.13,233.99,8.64;8,307.08,541.09,130.01,8.64">We first define the problem of network compression from the perspective of how to construct convolution filters with a shared set of Lego filters.</s><s xml:id="_5RAUttw" coords="8,440.19,541.09,102.90,8.64;8,307.44,553.04,234.00,8.64;8,307.08,565.00,147.28,8.64">Then we propose a learning method to simultaneously optimize binary masks and weights in end-to-end training stage.</s><s xml:id="_Rd5C6KY" coords="8,457.45,565.00,83.99,8.64;8,307.44,576.95,235.65,8.64;8,307.19,588.91,36.22,8.64">We further develop a split-transform-merge three-stage strategy for efficient convolution.</s><s xml:id="_r8U5FYG" coords="8,348.27,588.91,193.18,8.64;8,307.44,600.86,234.00,8.64;8,307.44,612.82,55.22,8.64">We evaluate LegoNet with different backbones and compare their performance, parameters, float operations and speed up.</s><s xml:id="_RDjrWH9" coords="8,365.75,612.82,175.70,8.64;8,307.44,624.77,234.00,8.64;8,307.44,636.73,82.49,8.64">The proposed LegoNet could combine with any state-of-the-art architecture and can be easily deployed onto mobile devices.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,306.94,163.53,234.50,7.77;2,307.44,174.49,235.12,7.77;2,307.44,185.45,234.31,7.77;2,307.44,196.41,118.02,7.77"><head>Figure 1 .</head><label>1</label><figDesc><div><p xml:id="_JmQNvab"><s xml:id="_ChmPPvd" coords="2,306.94,163.53,32.38,7.77">Figure 1.</s><s xml:id="_Ctktbr8" coords="2,341.56,163.53,199.88,7.77;2,307.44,174.49,23.12,7.77">The diagram of convolution filters represented by Lego filters.</s><s xml:id="_A9xywer" coords="2,337.22,174.49,205.34,7.77;2,307.44,185.45,234.31,7.77;2,307.44,196.41,118.02,7.77">From left to right are conventional convolution filters, Lego filters with smaller sizes, and convolution filters stacked by exploiting a series of Lego filters</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="3,216.63,694.94,72.81,8.96;3,55.44,708.23,207.81,9.68;3,263.25,705.05,24.89,7.75;3,288.64,708.58,2.54,8.64;3,307.08,69.84,195.39,9.03;3,307.44,83.24,235.74,9.03;3,324.07,95.27,171.01,8.96;3,312.42,107.19,229.02,8.99;3,324.38,119.18,217.06,9.65;3,324.38,131.14,83.82,8.96;3,312.42,143.02,88.22,9.03;3,312.42,156.01,6.98,7.77"><head></head><label></label><figDesc><div><p xml:id="_kN3KPDQ"><s xml:id="_PhzW28t" coords="3,216.63,694.94,72.81,8.96;3,55.44,708.23,207.81,9.68;3,263.25,705.05,24.89,7.75;3,288.64,708.58,2.54,8.64">and stack m Lego filters to a matrix B = [vec(b 1 ), ..., vec(b m )] ∈ R d 2 c×m .</s><s xml:id="_cwHwEFw" coords="3,307.08,69.84,195.39,9.03;3,307.44,83.24,133.79,9.03">Algorithm 1 Forward and Backward of LegoNet Require: Hyper-parameter o, m.</s><s xml:id="_aaWMYKY" coords="3,444.32,83.31,98.86,8.96">Network architecture N .</s><s xml:id="_Pj9WuNz" coords="3,324.07,95.27,104.25,8.96">Total training iterations n.</s><s xml:id="_dY5T2vk" coords="3,431.41,95.27,63.67,8.96">Learning rate η.</s><s xml:id="_mgWHqXw" coords="3,312.42,107.19,229.02,8.99;3,324.38,119.18,136.82,9.65">1: Initialize Lego Filters B, float gradient accumulator N for each convolution layer L 1 , . . .</s><s xml:id="_NgFrnmM" coords="3,462.86,119.18,78.58,9.65;3,324.38,131.14,11.24,8.74">, L k by using o and m.</s><s xml:id="_qudbUn7" coords="3,338.70,131.14,69.50,8.96;3,312.42,143.02,68.73,9.03">Task criterions C. 2: for iter = 1 . . .</s><s xml:id="_DAChDb3" coords="3,382.65,143.02,17.99,9.03;3,312.42,156.01,6.98,7.77">n do 3:</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="5,54.94,251.69,486.50,8.09;5,55.44,262.65,486.00,8.09;5,55.44,273.61,175.79,8.09"><head>Figure 2 .</head><label>2</label><figDesc><div><p xml:id="_Ak9uTHt"><s xml:id="_4HraRzn" coords="5,54.94,252.01,91.08,7.77">Figure 2. Lego Unit(LU).</s><s xml:id="_TqcBEt2" coords="5,148.25,252.01,361.06,7.77">This figure shows how the three-stage pipeline split-transform-merge operates on input feature maps.</s><s xml:id="_w2yyPuR" coords="5,512.09,251.69,29.35,8.09;5,55.44,262.65,486.00,8.09;5,55.44,273.61,175.79,8.09">X is the input feature map, lego filters B are convolved with different parts from X, which result in intermediate feature maps I. Output feature map Y is generated by merging according to M.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="6,306.94,242.08,234.82,8.06;6,307.44,253.04,235.12,8.06;6,307.44,264.29,234.00,7.77;6,307.44,275.24,234.00,7.77;6,307.44,286.20,43.35,7.77"><head>Figure 3 .</head><label>3</label><figDesc><div><p xml:id="_rMBckTU"><s xml:id="_w2HXMyg" coords="6,306.94,242.08,234.82,8.06;6,307.44,253.33,168.55,7.77">Figure 3. Impact of two parameters o and m, o indicates how many fragments input feature maps are splitted into.</s><s xml:id="_jsGNmar" coords="6,478.97,253.04,63.59,8.06;6,307.44,264.29,182.40,7.77">m is set to 0.125, 0.25 and 0.5 times to the original output features.</s><s xml:id="_cuRjEW7" coords="6,493.62,264.29,47.82,7.77;6,307.44,275.24,234.00,7.77;6,307.44,286.20,43.35,7.77">Upper line is LegoNet with coefficients, which verify the impact of introduced coefficients.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="7,91.20,77.30,412.24,70.69"><head>Table 1 .</head><label>1</label><figDesc><div><p xml:id="_FTryjx6"><s xml:id="_EfzEfwK" coords="7,179.83,77.30,268.97,7.77">Comparison results of different neural networks on the CIFAR-10 datasets.</s></p></div></figDesc><table coords="7,91.20,87.61,412.24,60.38"><row><cell>Model</cell><cell cols="5">Acc (%) Params(M) Comp ratio FLOPS(M) Speed Up</cell></row><row><cell>VGGNet-16(Simonyan and Zisserman, 2014)</cell><cell>93.25</cell><cell>14.7</cell><cell>1×</cell><cell>298.7</cell><cell>1×</cell></row><row><cell>Lego-VGGNet-16-w(o=2,m=0.5)</cell><cell>93.23</cell><cell>3.7</cell><cell>4×</cell><cell>149.4</cell><cell>2×</cell></row><row><cell>Lego-VGGNet-16-w(o=2,m=0.25)</cell><cell>91.97</cell><cell>1.9</cell><cell>8×</cell><cell>74.7</cell><cell>4×</cell></row><row><cell>Lego-VGGNet-16-w(o=4,m=0.5)</cell><cell>92.42</cell><cell>1.9</cell><cell>8×</cell><cell>149.4</cell><cell>2×</cell></row><row><cell>Lego-VGGNet-16-w(o=4,m=0.25)</cell><cell>91.35</cell><cell>0.9</cell><cell>16×</cell><cell>74.7</cell><cell>4×</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="8,54.94,63.13,459.97,321.02"><head>Table 2 .</head><label>2</label><figDesc><div><p xml:id="_dsE7wzh"><s xml:id="_e8bFY2W" coords="8,173.77,63.13,281.10,7.77">Comparison results of different neural networks on the ILSVRC2012 datasets.</s></p></div></figDesc><table coords="8,54.94,73.44,459.97,310.71"><row><cell>Model</cell><cell></cell><cell cols="5">Top-5 Acc(%) Params(M) Comp Ratio FLOPs(B) Speed Up</cell></row><row><cell cols="2">ResNet50 (He et al., 2016)</cell><cell>92.2</cell><cell>25.6</cell><cell>1.0×</cell><cell>4.1</cell><cell>1.0×</cell></row><row><cell cols="2">ThiNet-Res (Luo et al., 2017a)</cell><cell>88.3</cell><cell>8.7</cell><cell>2.9×</cell><cell>2.2</cell><cell>1.9×</cell></row><row><cell cols="2">Versatile (Wang et al., 2018a)</cell><cell>91.8</cell><cell>11.0</cell><cell>2.3×</cell><cell>3.0</cell><cell>1.4×</cell></row><row><cell cols="2">Lego-Res50(o=2,m=0.5)</cell><cell>89.7</cell><cell>8.1</cell><cell>3.2×</cell><cell>2.0</cell><cell>2.0×</cell></row><row><cell cols="2">Lego-Res50-w(o=2,m=0.5)</cell><cell>90.6</cell><cell>8.1</cell><cell>3.2×</cell><cell>2.0</cell><cell>2.0×</cell></row><row><cell cols="2">Lego-Res50-w(o=2,m=0.6)</cell><cell>91.3</cell><cell>9.3</cell><cell>2.8×</cell><cell>2.0</cell><cell>1.7×</cell></row><row><cell cols="2">VGGNet-16 (Simonyan and Zisserman, 2014)</cell><cell>90.1</cell><cell>138.0</cell><cell>1.0×</cell><cell>15.3</cell><cell>1.0×</cell></row><row><cell cols="2">ThiNet-VGG (Luo et al., 2017a)</cell><cell>90.3</cell><cell>38.0</cell><cell>3.6×</cell><cell>3.9</cell><cell>3.9×</cell></row><row><cell cols="2">Lego-VGGNet-16-w(o=2,m=0.5)</cell><cell>88.9</cell><cell>4.2</cell><cell>32.9×</cell><cell>7.7</cell><cell>2.0×</cell></row><row><cell cols="2">Lego-VGGNet-16-w(o=2,m=0.6)</cell><cell>89.2</cell><cell>5.0</cell><cell>27.6×</cell><cell>9.2</cell><cell>1.7×</cell></row><row><cell cols="2">MobileNet (Howard et al., 2017)</cell><cell>88.9</cell><cell>4.2</cell><cell>1.0×</cell><cell>0.6</cell><cell>1.0×</cell></row><row><cell cols="2">Lego-Mobile-w(o=2,m=0.9)</cell><cell>87.5</cell><cell>2.5</cell><cell>1.7×</cell><cell>0.5</cell><cell>1.1×</cell></row><row><cell cols="2">Lego-Mobile-w(o=2,m=1.5)</cell><cell>88.3</cell><cell>3.5</cell><cell>1.2×</cell><cell>0.6</cell><cell>1.0×</cell></row><row><cell>(a) FRCNN</cell><cell>(b) Lego-FRCNN</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Figure 4. Example object detection results on PASCAL VOC</cell><cell></cell><cell></cell><cell></cell></row><row><cell>dataset.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="8,319.96,365.34,208.96,40.80"><head>Table 3 .</head><label>3</label><figDesc><div><p xml:id="_JQEWNKS"><s xml:id="_rF2EuGx" coords="8,351.72,365.34,177.20,7.77">Object detection results on the VOC2007 dataset.</s></p></div></figDesc><table coords="8,325.01,375.65,196.61,30.49"><row><cell>Model</cell><cell cols="2">mAP(%) Params(M)</cell></row><row><cell>ResNet50</cell><cell>72.8</cell><cell>23.8</cell></row><row><cell>Lego-Res50(o=2,m=0.5)-w</cell><cell>71.3</cell><cell>6.3</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0" coords="6,71.58,709.22,180.72,7.77"><p xml:id="_BuA5Br9"><s xml:id="_BxMzU9A" coords="6,71.58,709.22,150.19,7.77">https://github.com/zhaohui-yang/LegoNet</s><s xml:id="_cgUfEB9" coords="6,224.99,709.22,27.30,7.77">pytorch</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_tp3ztZb">Acknowledgement</head><p xml:id="_3emcH9R">This work is supported by <rs type="funder">National Natural Science Foundation of China</rs> under Grant No. 61876007, 61872012 and <rs type="funder">Australian Research Council</rs> Project <rs type="grantNumber">DE-180101438</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div xml:id="_WD3896P"><p xml:id="_SRchBVP">* This work was done when <rs type="person">Zhaohui Yang</rs> and <rs type="person">Hanting Chen</rs> were interns at <rs type="institution">Huawei Noah's Ark Lab</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_MewTn4T">
+					<idno type="grant-number">DE-180101438</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,55.44,87.13,235.49,7.77;9,65.40,96.93,224.04,7.94;9,65.40,106.89,224.03,7.93;9,65.40,117.01,80.59,7.77" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="9,232.20,87.13,58.73,7.77;9,65.40,97.09,14.01,7.77" xml:id="_FbpyxNS">Model compression</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Buciluǎ</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Caruana</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Niculescu-Mizil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nyAZVN4" coord="9,95.99,96.93,193.45,7.73;9,65.40,106.89,196.17,7.73">Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining</title>
+		<meeting>the 12th ACM SIGKDD international conference on Knowledge discovery and data mining</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="535" to="541" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Buciluǎ, R. Caruana, and A. Niculescu-Mizil. Model compres- sion. In Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining, pages 535-541. ACM, 2006.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,134.58,235.57,7.77;9,65.40,144.54,225.52,7.77;9,65.08,154.34,225.85,7.93;9,65.40,164.30,225.16,7.93;9,65.40,174.43,20.17,7.77" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="9,95.56,144.54,195.37,7.77;9,65.08,154.50,111.70,7.77" xml:id="_9SzTXvn">An exploration of parameter redundancy in deep networks with circulant projections</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">S</forename><surname>Feris</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Choudhary</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S.-F</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_BqdzpdP" coord="9,192.38,154.34,98.56,7.73;9,65.40,164.30,154.63,7.73">Proceedings of the IEEE International Conference on Computer Vision</title>
+		<meeting>the IEEE International Conference on Computer Vision</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="2857" to="2865" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Cheng, F. X. Yu, R. S. Feris, S. Kumar, A. Choudhary, and S.-F. Chang. An exploration of parameter redundancy in deep net- works with circulant projections. In Proceedings of the IEEE In- ternational Conference on Computer Vision, pages 2857-2865, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,191.99,234.00,7.77;9,65.40,201.79,199.12,7.93" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" coord="9,99.95,191.99,189.49,7.77;9,65.40,201.95,44.34,7.77" xml:id="_dZFsCGy">Xception: Deep learning with depthwise separable convolutions</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="1610" to="02357" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">F. Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv preprint, pages 1610-02357, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,219.52,235.48,7.77;9,65.40,229.48,225.52,7.77;9,65.40,239.28,225.16,7.93;9,65.40,249.40,87.66,7.77" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="9,212.89,219.52,78.04,7.77;9,65.40,229.48,225.52,7.77;9,65.40,239.44,16.73,7.77" xml:id="_pBuXan3">Binaryconnect: Training deep neural networks with binary weights during propagations</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Courbariaux</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J.-P</forename><surname>David</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_xTb6N6J" coord="9,99.59,239.28,187.20,7.73">Advances in neural information processing systems</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="3123" to="3131" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Courbariaux, Y. Bengio, and J.-P. David. Binaryconnect: Train- ing deep neural networks with binary weights during propaga- tions. In Advances in neural information processing systems, pages 3123-3131, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,266.97,235.48,7.77;9,65.40,276.77,225.53,7.93;9,65.40,286.73,209.96,7.93" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coord="9,96.41,276.77,194.52,7.93;9,65.40,286.73,126.39,7.73" xml:id="_MZRxWRQ">The pascal visual object classes (voc) challenge. International journal of computer vision</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Everingham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Van Gool</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">K</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Winn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="303" to="338" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and A. Zis- serman. The pascal visual object classes (voc) challenge. Inter- national journal of computer vision, 88(2):303-338, 2010.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,304.45,234.00,7.77;9,65.40,314.26,225.53,7.93;9,65.11,324.22,174.62,7.93" xml:id="b5">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Dudziak</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">D</forename><surname>Mullins</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<title level="m" xml:id="_AkMXJEr" coord="9,257.00,304.45,32.44,7.77;9,65.40,314.26,225.53,7.93;9,65.11,324.22,148.41,7.73">Dynamic channel pruning: Feature boosting and suppression. arXiv: Computer Vision and Pattern Recognition</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Gao, Y. Zhao, L. Dudziak, R. D. Mullins, and C. Xu. Dynamic channel pruning: Feature boosting and suppression. arXiv: Computer Vision and Pattern Recognition, 2018.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,341.94,234.00,7.77;9,65.40,351.91,224.03,7.77;9,65.40,361.71,205.89,7.93" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" coord="9,172.87,341.94,116.57,7.77;9,65.40,351.91,224.03,7.77;9,65.40,361.87,55.24,7.77" xml:id="_3TpXaQF">Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">J</forename><surname>Dally</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1510.00149</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">S. Han, H. Mao, and W. J. Dally. Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding. arXiv preprint arXiv:1510.00149, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,379.43,234.15,7.77;9,65.40,389.23,224.03,7.93;9,65.40,399.19,225.58,7.93" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="9,193.77,379.43,95.82,7.77;9,65.40,389.39,64.51,7.77" xml:id="_hWk2Zf4">Deep residual learning for image recognition</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WXNKgcx" coord="9,146.63,389.23,142.81,7.73;9,65.40,399.19,141.83,7.73">Proceedings of the IEEE conference on computer vision and pattern recognition</title>
+		<meeting>the IEEE conference on computer vision and pattern recognition</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="770" to="778" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770-778, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,416.92,234.00,7.77;9,65.11,426.72,224.34,7.73;9,65.40,436.68,129.00,7.93" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="9,233.21,416.92,40.74,7.77" xml:id="_as6DVvb">Mask r-cnn</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Gkioxari</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Dollár</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FJqpdDE" coord="9,65.11,426.72,224.34,7.73;9,65.40,436.68,7.47,7.73">2017 IEEE International Conference on</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="2980" to="2988" />
+		</imprint>
+	</monogr>
+	<note>Computer Vision (ICCV)</note>
+	<note type="raw_reference">K. He, G. Gkioxari, P. Dollár, and R. Girshick. Mask r-cnn. In Computer Vision (ICCV), 2017 IEEE International Conference on, pages 2980-2988. IEEE, 2017a.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,454.41,234.32,7.77;9,65.40,464.21,224.04,7.93;9,65.40,474.17,118.05,7.93" xml:id="b9">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<title level="m" xml:id="_tWCdTux" coord="9,157.12,454.41,132.64,7.77;9,65.40,464.21,224.04,7.93;9,65.40,474.17,20.28,7.73">Channel pruning for accelerating very deep neural networks. international conference on computer vision</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="1398" to="1406" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. He, X. Zhang, and J. Sun. Channel pruning for accelerating very deep neural networks. international conference on computer vision, pages 1398-1406, 2017b.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,491.89,234.00,7.77;9,65.40,501.70,203.03,7.93" xml:id="b10">
+	<monogr>
+		<title level="m" type="main" coord="9,185.76,491.89,103.69,7.77;9,65.40,501.86,52.24,7.77" xml:id="_RYJrwXr">Distilling the knowledge in a neural network</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Vinyals</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Dean</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1503.02531</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">G. Hinton, O. Vinyals, and J. Dean. Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,519.42,235.12,7.77;9,65.13,529.38,224.31,7.77;9,65.40,539.35,225.61,7.77;9,65.40,549.15,143.62,7.93" xml:id="b11">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">G</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Kalenichenko</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Weyand</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Andreetto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Adam</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1704.04861</idno>
+		<title level="m" xml:id="_3k3JuFZ" coord="9,213.54,529.38,75.90,7.77;9,65.40,539.35,222.03,7.77">Mobilenets: Efficient convolutional neural networks for mobile vision applications</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam. Mobilenets: Efficient convolutional neural networks for mobile vision applications. arXiv preprint arXiv:1704.04861, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,566.87,235.57,7.77;9,65.40,576.67,225.16,7.93;9,65.40,586.80,48.31,7.77" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="9,65.40,576.83,148.59,7.77" xml:id="_amC6Hhp">Densely connected convolutional networks</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Van Der Maaten</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_gg2Rp9X" coord="9,229.71,576.67,19.33,7.73">CVPR</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Huang, Z. Liu, L. Van Der Maaten, and K. Q. Weinberger. Densely connected convolutional networks. In CVPR, volume 1, page 3, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,604.36,235.57,7.77;9,65.40,614.16,224.03,7.93;9,65.40,624.12,160.23,7.93" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="9,65.40,614.32,93.15,7.77" xml:id="_BamNWex">Binarized neural networks</title>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Hubara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Courbariaux</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Soudry</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>El-Yaniv</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_6g5EUyQ" coord="9,175.43,614.16,114.01,7.73;9,65.40,624.12,66.62,7.73">Advances in neural information processing systems</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="4107" to="4115" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Hubara, M. Courbariaux, D. Soudry, R. El-Yaniv, and Y. Bengio. Binarized neural networks. In Advances in neural information processing systems, pages 4107-4115, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,641.85,235.49,7.77;9,65.18,651.65,224.26,7.93;9,65.40,661.61,116.97,7.93" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coord="9,226.13,641.85,64.81,7.77;9,65.18,651.81,194.99,7.77" xml:id="_RSDzHEQ">Speeding up convolutional neural networks with low rank expansions</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Jaderberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Vedaldi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1405.3866</idno>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">M. Jaderberg, A. Vedaldi, and A. Zisserman. Speeding up con- volutional neural networks with low rank expansions. arXiv preprint arXiv:1405.3866, 2014.</note>
+</biblStruct>
+
+<biblStruct coords="9,55.44,679.34,234.31,7.77;9,65.40,689.14,224.04,7.93;9,65.11,699.10,224.33,7.93;9,64.73,709.22,47.07,7.77" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="9,243.29,679.34,46.46,7.77;9,65.40,689.30,110.59,7.77" xml:id="_ATaVUHc">Local binary convolutional neural networks</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Juefei-Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><forename type="middle">Naresh</forename><surname>Boddeti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Savvides</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_3ACM372" coord="9,196.70,689.14,92.75,7.73;9,65.11,699.10,198.45,7.73">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="19" to="28" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">F. Juefei-Xu, V. Naresh Boddeti, and M. Savvides. Local binary convolutional neural networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 19-28, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,71.19,235.49,7.77;9,317.40,81.15,224.36,7.77;9,317.40,90.95,225.16,7.94;9,317.40,101.07,20.17,7.77" xml:id="b16">
+	<monogr>
+		<title level="m" type="main" coord="9,522.32,71.19,20.61,7.77;9,317.40,81.15,224.36,7.77;9,317.40,91.11,95.16,7.77" xml:id="_EcGZjvs">Compression of deep convolutional neural networks for fast and low power mobile applications</title>
+		<author>
+			<persName coords=""><forename type="first">Y.-D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Shin</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1511.06530</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Y.-D. Kim, E. Park, S. Yoo, T. Choi, L. Yang, and D. Shin. Com- pression of deep convolutional neural networks for fast and low power mobile applications. arXiv preprint arXiv:1511.06530, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,119.04,234.00,7.77;9,317.40,128.84,181.76,7.93" xml:id="b17">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Krizhevsky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<title level="m" xml:id="_9YMZRZm" coord="9,416.22,119.04,125.22,7.77;9,317.40,128.84,131.57,7.93">Convolutional deep belief networks on cifar-10. Unpublished manuscript</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">40</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Krizhevsky and G. Hinton. Convolutional deep belief networks on cifar-10. Unpublished manuscript, 40(7), 2010.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,146.96,234.00,7.77;9,317.40,156.76,225.16,7.93;9,317.40,166.88,20.17,7.77" xml:id="b18">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kadav</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Durdanovic</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Samet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">P</forename><surname>Graf</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1608.08710</idno>
+		<title level="m" xml:id="_JSJSrNV" coord="9,513.61,146.96,27.83,7.77;9,317.40,156.92,96.86,7.77">Pruning filters for efficient convnets</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">H. Li, A. Kadav, I. Durdanovic, H. Samet, and H. P. Graf. Pruning filters for efficient convnets. arXiv preprint arXiv:1608.08710, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,184.85,234.00,7.77;9,317.08,194.65,224.36,7.93;9,317.40,204.61,219.20,7.93" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="9,362.89,194.81,125.58,7.77" xml:id="_rM5G9aF">Ssd: Single shot multibox detector</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Anguelov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Erhan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C.-Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">C</forename><surname>Berg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5wYRkNC" coord="9,505.77,194.65,35.67,7.73;9,317.40,204.61,108.84,7.73">European conference on computer vision</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="21" to="37" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. Reed, C.-Y. Fu, and A. C. Berg. Ssd: Single shot multibox detector. In European conference on computer vision, pages 21-37. Springer, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,222.73,234.00,7.77;9,317.40,232.53,224.04,7.93;9,317.25,242.50,224.19,7.93;9,317.40,252.62,92.89,7.77" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="9,429.76,222.73,111.69,7.77;9,317.40,232.69,165.14,7.77" xml:id="_PddRQQ5">Thinet: A filter level pruning method for deep neural network compression</title>
+		<author>
+			<persName coords=""><forename type="first">J.-H</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_37umNHt" coord="9,500.83,232.53,40.62,7.73;9,317.25,242.50,196.59,7.73">2017 IEEE International Conference on Computer Vision (ICCV)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="5068" to="5076" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J.-H. Luo, J. Wu, and W. Lin. Thinet: A filter level pruning method for deep neural network compression. In 2017 IEEE International Conference on Computer Vision (ICCV), pages 5068-5076. IEEE, 2017a.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,270.58,234.00,7.77;9,317.40,280.38,224.04,7.93;9,317.40,290.35,94.64,7.93" xml:id="b21">
+	<monogr>
+		<title level="m" type="main" coord="9,500.30,270.58,41.15,7.77;9,317.40,280.54,168.11,7.77" xml:id="_ycQYXbz">End-to-end active object tracking via reinforcement learning</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1705.10561</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">W. Luo, P. Sun, F. Zhong, W. Liu, and Y. Wang. End-to-end active object tracking via reinforcement learning. arXiv preprint arXiv:1705.10561, 2017b.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,308.47,234.00,7.77;9,317.40,318.43,224.19,7.77;9,317.40,328.23,142.95,7.93" xml:id="b22">
+	<monogr>
+		<title level="m" type="main" coord="9,512.84,308.47,28.60,7.77;9,317.40,318.43,224.19,7.77;9,317.40,328.39,28.11,7.77" xml:id="_w4xZz26">Pruning convolutional neural networks for resource efficient transfer learning</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Molchanov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Tyree</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Karras</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Aila</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Kautz</surname></persName>
+		</author>
+		<idno>CoRR, abs/1611.06440</idno>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Molchanov, S. Tyree, T. Karras, T. Aila, and J. Kautz. Pruning convolutional neural networks for resource efficient transfer learning. CoRR, abs/1611.06440, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,346.35,234.00,7.77;9,317.40,356.16,225.16,7.93;9,317.40,366.28,20.17,7.77" xml:id="b23">
+	<monogr>
+		<title level="m" type="main" coord="9,455.31,346.35,86.13,7.77;9,317.40,356.32,98.05,7.77" xml:id="_mpsDAhY">Model compression via distillation and quantization</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Polino</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Pascanu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Alistarh</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1802.05668</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">A. Polino, R. Pascanu, and D. Alistarh. Model compression via distillation and quantization. arXiv preprint arXiv:1802.05668, 2018.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,384.24,235.49,7.77;9,317.40,394.20,224.03,7.77;9,317.40,404.01,224.04,7.93;9,317.40,414.13,91.04,7.77" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="9,521.27,384.24,21.67,7.77;9,317.40,394.20,224.03,7.77;9,317.40,404.17,31.01,7.77" xml:id="_jT8HFf3">Xnornet: Imagenet classification using binary convolutional neural networks</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Rastegari</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Ordonez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Redmon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Farhadi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5njGuTp" coord="9,365.19,404.01,150.18,7.73">European Conference on Computer Vision</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="525" to="542" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Rastegari, V. Ordonez, J. Redmon, and A. Farhadi. Xnor- net: Imagenet classification using binary convolutional neural networks. In European Conference on Computer Vision, pages 525-542. Springer, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,432.09,234.00,7.77;9,317.40,442.05,224.03,7.77;9,316.86,451.85,225.93,7.93;9,317.40,461.98,33.62,7.77" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="9,459.76,432.09,81.68,7.77;9,317.40,442.05,207.78,7.77" xml:id="_zYZVTMq">Faster r-cnn: Towards real-time object detection with region proposal networks</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZWybCXW" coord="9,316.86,451.85,183.63,7.73">Advances in neural information processing systems</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="91" to="99" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Ren, K. He, R. Girshick, and J. Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. In Advances in neural information processing systems, pages 91- 99, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,479.94,234.00,7.77;9,316.88,489.74,224.56,7.93;9,317.40,499.70,85.67,7.93" xml:id="b26">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Ballas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">E</forename><surname>Kahou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Chassang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Gatta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1412.6550</idno>
+		<title level="m" xml:id="_zCWSNuJ" coord="9,361.42,489.90,118.55,7.77">Fitnets: Hints for thin deep nets</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">A. Romero, N. Ballas, S. E. Kahou, A. Chassang, C. Gatta, and Y. Bengio. Fitnets: Hints for thin deep nets. arXiv preprint arXiv:1412.6550, 2014.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,517.83,235.49,7.77;9,317.08,527.63,224.36,7.93;9,317.40,537.59,85.67,7.93" xml:id="b27">
+	<monogr>
+		<title level="m" type="main" coord="9,434.81,517.83,108.12,7.77;9,317.08,527.79,154.36,7.77" xml:id="_AYM5A4e">Very deep convolutional networks for large-scale image recognition</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Simonyan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1409.1556</idno>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">K. Simonyan and A. Zisserman. Very deep convolutional net- works for large-scale image recognition. arXiv preprint arXiv:1409.1556, 2014.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,555.71,235.12,7.77;9,317.40,565.68,224.19,7.77;9,317.08,575.48,224.36,7.93;9,317.40,585.44,209.78,7.93" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="9,491.36,565.68,50.23,7.77;9,317.08,575.64,63.75,7.77" xml:id="_V8ZNGNQ">Going deeper with convolutions</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Szegedy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Sermanet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Anguelov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Erhan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Vanhoucke</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Rabinovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_9d7kTtn" coord="9,397.78,575.48,143.66,7.73;9,317.40,585.44,143.17,7.73">Proceedings of the IEEE conference on computer vision and pattern recognition</title>
+		<meeting>the IEEE conference on computer vision and pattern recognition</meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 1-9, 2015.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,603.40,234.00,7.93;9,317.40,613.36,200.57,7.93" xml:id="b29">
+	<monogr>
+		<title level="m" type="main" coord="9,389.72,603.40,151.72,7.93;9,317.40,613.36,107.06,7.73" xml:id="_9ESpkqZ">Fixed-point factorized networks. computer vision and pattern recognition</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="3966" to="3974" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P. Wang and J. Cheng. Fixed-point factorized networks. computer vision and pattern recognition, pages 3966-3974, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,631.49,234.00,7.77;9,317.40,641.29,224.04,7.93;9,316.96,651.25,224.48,7.73;9,316.96,661.21,144.79,7.93" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="9,449.62,631.49,91.82,7.77;9,317.40,641.45,134.54,7.77" xml:id="_dHHEFs9">Beyond filters: Compact feature map for portable deep model</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Tao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5XxgBNs" coord="9,472.02,641.29,69.43,7.73;9,316.96,651.25,194.84,7.73">Proceedings of the 34th International Conference on Machine Learning</title>
+		<meeting>the 34th International Conference on Machine Learning</meeting>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="3703" to="3711" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Wang, C. Xu, C. Xu, and D. Tao. Beyond filters: Compact feature map for portable deep model. In Proceedings of the 34th International Conference on Machine Learning-Volume 70, pages 3703-3711. JMLR. org, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="9,307.44,679.34,234.00,7.77;9,317.18,689.30,224.26,7.77;9,316.86,699.10,224.58,7.93;9,316.73,709.22,68.99,7.77" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="9,508.43,679.34,33.02,7.77;9,317.18,689.30,209.48,7.77" xml:id="_4AbKuVM">Learning versatile filters for efficient convolutional neural networks</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Chunjing</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Tao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_NrzeAFD" coord="9,316.86,699.10,196.07,7.73">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="1615" to="1625" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Wang, C. Xu, X. Chunjing, C. Xu, and D. Tao. Learning versatile filters for efficient convolutional neural networks. In Advances in Neural Information Processing Systems, pages 1615-1625, 2018a.</note>
+</biblStruct>
+
+<biblStruct coords="10,55.44,71.19,234.00,7.77;10,65.40,80.99,224.03,7.94;10,65.40,90.95,150.70,7.94" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="10,186.01,71.19,103.43,7.77;10,65.40,81.15,116.11,7.77" xml:id="_G7VfEmD">Packing convolutional neural networks in the frequency domain</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Tao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_dRPHPca" coord="10,187.72,80.99,101.72,7.73;10,65.40,90.95,120.41,7.73">IEEE transactions on pattern analysis and machine intelligence</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Wang, C. Xu, C. Xu, and D. Tao. Packing convolutional neural networks in the frequency domain. IEEE transactions on pattern analysis and machine intelligence, 2018b.</note>
+</biblStruct>
+
+<biblStruct coords="10,55.44,109.04,235.49,7.77;10,65.40,119.01,225.16,7.77;10,65.40,128.81,225.52,7.93;10,65.40,138.77,224.03,7.73;10,65.13,148.73,135.39,7.93" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coord="10,220.76,119.01,69.80,7.77;10,65.40,128.97,176.05,7.77" xml:id="_9FdnXnd">Shift: A zero flop, zero parameter alternative to spatial convolutions</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Golmant</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Gholaminejad</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Keutzer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ppNK6gb" coord="10,258.21,128.81,32.72,7.73;10,65.40,138.77,224.03,7.73;10,65.13,148.73,41.70,7.73">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="9127" to="9135" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">B. Wu, A. Wan, X. Yue, P. Jin, S. Zhao, N. Golmant, A. Gho- laminejad, J. Gonzalez, and K. Keutzer. Shift: A zero flop, zero parameter alternative to spatial convolutions. In Proceed- ings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 9127-9135, 2018.</note>
+</biblStruct>
+
+<biblStruct coords="10,55.44,166.83,235.48,7.77;10,65.40,176.63,224.04,7.93;10,65.25,186.59,225.31,7.73;10,65.40,196.72,87.66,7.77" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coord="10,222.06,166.83,68.86,7.77;10,65.40,176.79,143.46,7.77" xml:id="_X8YNpxT">Quantized convolutional neural networks for mobile devices</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Leng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uf8qfqB" coord="10,224.38,176.63,65.07,7.73;10,65.25,186.59,221.57,7.73">Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="4820" to="4828" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Wu, C. Leng, Y. Wang, Q. Hu, and J. Cheng. Quantized convolu- tional neural networks for mobile devices. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 4820-4828, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="10,55.44,214.65,234.00,7.77;10,65.40,224.45,224.04,7.93;10,64.86,234.41,101.02,7.93" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coord="10,249.82,214.65,39.62,7.77;10,65.40,224.61,77.26,7.77" xml:id="_TssWxMN">Decoupled convolutions for cnns</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_QexggT2" coord="10,159.88,224.45,129.56,7.73;10,64.86,234.41,75.19,7.73">Thirty-Second AAAI Conference on Artificial Intelligence</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Xie, T. Zhang, K. Yang, J. Lai, and J. Wang. Decoupled convolutions for cnns. In Thirty-Second AAAI Conference on Artificial Intelligence, 2018.</note>
+</biblStruct>
+
+<biblStruct coords="10,55.44,252.51,234.00,7.77;10,65.40,262.31,224.04,7.93;10,64.86,272.27,224.59,7.73;10,65.40,282.23,125.02,7.93" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="10,246.95,252.51,42.49,7.77;10,65.40,262.47,172.75,7.77" xml:id="_2QHGvzT">Aggregated residual transformations for deep neural networks</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Girshick</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Dollár</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_zU54spR" coord="10,254.29,262.31,35.15,7.73;10,64.86,272.27,224.59,7.73;10,65.40,282.23,7.47,7.73">Computer Vision and Pattern Recognition (CVPR), 2017 IEEE Conference on</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="5987" to="5995" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Xie, R. Girshick, P. Dollár, Z. Tu, and K. He. Aggregated residual transformations for deep neural networks. In Computer Vision and Pattern Recognition (CVPR), 2017 IEEE Conference on, pages 5987-5995. IEEE, 2017.</note>
+</biblStruct>
+
+<biblStruct coords="10,55.44,300.33,234.00,7.77;10,65.40,310.13,224.04,7.93;10,65.40,320.09,224.03,7.93;10,65.11,330.21,82.44,7.77" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="10,202.92,300.33,86.52,7.77;10,65.40,310.29,197.51,7.77" xml:id="_YjTGY2J">Accelerating very deep convolutional networks for classification and detection</title>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yt7rDet" coord="10,269.71,310.13,19.73,7.73;10,65.40,320.09,209.25,7.73">IEEE transactions on pattern analysis and machine intelligence</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1943" to="1955" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Zhang, J. Zou, K. He, and J. Sun. Accelerating very deep convolutional networks for classification and detection. IEEE transactions on pattern analysis and machine intelligence, 38 (10):1943-1955, 2016.</note>
+</biblStruct>
+
+<biblStruct coords="10,55.44,348.15,235.49,7.77;10,65.40,358.11,225.52,7.77;10,65.18,367.91,228.03,7.93;10,65.40,378.88,99.08,6.31" xml:id="b38">
+	<monogr>
+		<title level="m" type="main" coord="10,219.13,348.15,71.80,7.77;10,65.40,358.11,225.52,7.77;10,65.18,368.07,17.57,7.77" xml:id="_9Jyn9Zm">Shufflenet: An extremely efficient convolutional neural network for mobile devices</title>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<idno>CoRR, abs/1707.01083</idno>
+		<ptr target="http://arxiv.org/abs/1707.01083" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">X. Zhang, X. Zhou, M. Lin, and J. Sun. Shufflenet: An ex- tremely efficient convolutional neural network for mobile de- vices. CoRR, abs/1707.01083, 2017. URL http://arxiv. org/abs/1707.01083.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

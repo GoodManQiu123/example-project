@@ -1,0 +1,225 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": [
+    {
+      "id": 1,
+      "title": "example paper title 1",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1",
+          "email": "test@test.test"
+        },
+        {
+          "id": 2,
+          "name": "author 2",
+          "email": "test@test.test",
+          "affiliation": "affiliation test afawf"
+        },
+        {
+          "id": 3,
+          "name": "author 3",
+          "email": "test@test.test"
+        },
+        {
+          "id": 4,
+          "name": "author 4",
+          "email": "test@test.test"
+        },
+        {
+          "id": 5,
+          "name": "author 5",
+          "email": "test@test.test"
+        },
+        {
+          "id": 6,
+          "name": "author 6",
+          "email": "test@test.test"
+        },
+        {
+          "id": 7,
+          "name": "author 7",
+          "email": "test@test.test"
+        },
+        {
+          "id": 8,
+          "name": "author 8",
+          "email": "test@test.test"
+        },
+        {
+          "id": 9,
+          "name": "author 9",
+          "email": "test@test.test"
+        },
+        {
+          "id": 10,
+          "name": "author 10",
+          "email": "test@test.test"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "example paper title 2",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "example paper title 3",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "example paper title 4",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "example paper title 5",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "example paper title 6",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "example paper title 7",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "example paper title 8",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "example paper title 9",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "example paper title 10",
+      "authors": [
+        {
+          "id": 1,
+          "name": "author 1"
+        },
+        {
+          "id": 2,
+          "name": "author 2"
+        },
+        {
+          "id": 3,
+          "name": "author 3"
+        }
+      ]
+    }
+  ]
+}

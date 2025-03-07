@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_cFxU3kB" coord="1,108.50,57.67,394.89,19.66;1,112.78,81.33,386.43,19.66">Epidemiology as a Framework for Large-Scale Mobile Application Accessibility Assessment</title>
+				<funder ref="#_snSrEaP">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Wilma Bradley Endowed Fellowship in Computer Science &amp; Engineering</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Mani Charitable Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2017-10-19">2017-10-19</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,141.26,103.53,88.33,10.37"><forename type="first">Anne</forename><forename type="middle">Spencer</forename><surname>Ross</surname></persName>
+							<email>ansross@cs.washington.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Computer Science &amp; Engineering,</note>
+								<orgName type="department">Computer Science &amp; Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,238.49,103.53,58.06,10.37"><forename type="first">Xiaoyi</forename><surname>Zhang</surname></persName>
+							<email>xiaoyiz@cs.washington.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Computer Science &amp; Engineering,</note>
+								<orgName type="department">Computer Science &amp; Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,305.43,103.53,65.68,10.37"><forename type="first">James</forename><surname>Fogarty</surname></persName>
+							<email>jfogarty@cs.washington.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>1</label> Computer Science &amp; Engineering,</note>
+								<orgName type="department">Computer Science &amp; Engineering</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,380.11,103.53,86.93,10.37"><forename type="first">Jacob</forename><forename type="middle">O</forename><surname>Wobbrock</surname></persName>
+							<email>wobbrock@uw.edu</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>2</label> The Information School DUB Group, University of Washington Seattle, WA 98195 USA</note>
+								<orgName type="department">The Information School DUB Group</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postCode>98195</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_XswHbjJ" coord="1,108.50,57.67,394.89,19.66;1,112.78,81.33,386.43,19.66">Epidemiology as a Framework for Large-Scale Mobile Application Accessibility Assessment</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_egdDnRF">Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility</title>
+						<meeting>the 19th International ACM SIGACCESS Conference on Computers and Accessibility						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2017-10-19" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">BBA5B8CD6B9B6CCC719618DF4C39EEB7</idno>
+					<idno type="DOI">10.1145/3132525.3132547</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T10:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_rkqBb4t">CCS Concepts</term>
+					<term xml:id="_6FUC6PG">Human-Centered Computing➝Accessibility➝Accessibility Theory, Concepts and Paradigms Mobile computing</term>
+					<term xml:id="_kaUNweg">mobile accessibility</term>
+					<term xml:id="_4EEzqeY">app accessibility</term>
+					<term xml:id="_pgYuKFc">accessibility assessment</term>
+					<term xml:id="_AJZVHFN">conceptual framework</term>
+					<term xml:id="_dHAuRMr">epidemiology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_nPz8Kc3"><p xml:id="_S3jxSak"><s xml:id="_MvuaMwb" coords="1,54.00,193.98,239.80,8.72;1,54.00,204.30,240.32,8.72;1,54.00,214.74,240.11,8.72;1,54.00,225.06,163.38,8.72">Mobile accessibility is often a property considered at the level of a single mobile application (app), but rarely on a larger scale of the entire app "ecosystem," such as all apps in an app store, their companies, developers, and user influences.</s><s xml:id="_Uh5byTQ" coords="1,220.98,225.06,73.01,8.72;1,54.00,235.38,239.98,8.72;1,54.00,245.70,63.65,8.72">We present a novel conceptual framework for the accessibility of mobile apps inspired by epidemiology.</s><s xml:id="_T68kjED" coords="1,120.78,245.70,173.27,8.72;1,54.00,256.17,105.72,8.72">It considers apps within their ecosystems, over time, and at a population level.</s><s xml:id="_6eMUpYd" coords="1,161.30,256.17,132.93,8.72;1,54.00,266.49,239.97,8.72;1,54.00,276.81,16.78,8.72">Under this metaphor, "inaccessibility" is a set of diseases that can be viewed through an epidemiological lens.</s><s xml:id="_hDCu9Ra" coords="1,73.70,276.81,220.52,8.72;1,54.00,287.13,240.31,8.72;1,54.00,297.57,66.95,8.72">Accordingly, our framework puts forth notions like risk and protective factors, prevalence, and health indicators found within a population of apps.</s><s xml:id="_DYxs29T" coords="1,122.78,297.57,171.59,8.72;1,54.00,307.89,240.10,8.72;1,54.00,318.21,46.61,8.72">This new framing offers terminology, motivation, and techniques to reframe how we approach and measure app accessibility.</s><s xml:id="_txKBPrt" coords="1,103.26,318.21,190.66,8.72;1,54.00,328.53,220.58,8.72">It establishes how app accessibility can benefit from multi-factor, longitudinal, and population-based analyses.</s><s xml:id="_ZjxGaP8" coords="1,280.13,328.53,14.03,8.72;1,54.00,338.97,240.32,8.72;1,54.00,349.29,239.93,8.72;1,54.00,359.61,176.54,8.72">Our epidemiology-inspired conceptual framework is the main contribution of this work, intended to provoke thought and inspire new work enhancing app accessibility at a systemic level.</s><s xml:id="_q5VYaTh" coords="1,233.93,359.61,60.24,8.72;1,54.00,369.93,240.08,8.72;1,54.00,380.37,224.78,8.72">In a preliminary exercising of our framework, we perform an analysis of the prevalence of common determinants or accessibility barriers.</s><s xml:id="_TxZBR8w" coords="1,281.79,380.37,12.39,8.72;1,54.00,390.69,240.17,8.72;1,54.00,401.01,138.67,8.72">We assess the health of a stratified sample of 100 popular Android apps using Google's Accessibility Scanner.</s><s xml:id="_XCATMEq" coords="1,195.50,401.01,98.55,8.72;1,54.00,411.33,239.91,8.72;1,54.00,421.77,91.46,8.72">We find that 100% of apps have at least one of nine accessibility errors and examine which errors are most common.</s><s xml:id="_GpvJH5j" coords="1,148.23,421.77,145.74,8.72;1,54.00,432.11,240.05,8.72;1,54.00,442.43,36.79,8.72">A preliminary analysis of the frequency of co-occurrences of multiple errors in a single app is also presented.</s><s xml:id="_gegCscj" coords="1,93.08,442.43,200.98,8.72;1,54.00,452.75,232.10,8.72">We find 72% of apps have five or six errors, suggesting an interaction among different errors or an underlying influence.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_Ry34sem">INTRODUCTION</head><p xml:id="_fxqbzJT"><s xml:id="_erftEh9" coords="1,54.00,564.35,239.63,8.72;1,54.00,574.67,240.00,8.72;1,54.00,584.99,160.96,8.72">Mobile applications (apps) play increasingly important roles in many aspects of life, including personal finances, communication, community engagement, and transportation.</s><s xml:id="_3peyXSF" coords="1,217.97,584.99,75.70,8.72;1,317.93,399.53,35.58,8.78">Supporting access to Figure <ref type="figure" coords="1,346.83,399.53,3.34,8.78">1</ref>.</s><s xml:id="_fmJBZDn" coords="1,357.91,399.53,200.25,8.37;1,317.93,408.77,240.29,8.37;1,317.93,418.01,44.92,8.37">As a systems science, epidemiology can serve as a metaphor that changes the way we think and work with mobile app accessibility.</s><s xml:id="_8AqtP6U" coords="1,366.85,418.01,191.15,8.37;1,317.93,427.27,207.04,8.37">Here, the concept of a multi-factor ecosystem from epidemiology has been applied to mobile app accessibility.</s><s xml:id="_2UYQSfw" coords="1,527.06,427.27,31.01,8.37;1,317.93,436.39,240.29,8.37;1,317.93,445.63,152.81,8.37">An app's accessibility is a product of many factors ranging from individual and intrinsic to population-level and extrinsic.</s><s xml:id="_ubSVcZe" coords="1,475.21,445.63,82.95,8.37;1,317.93,454.87,239.91,8.37;1,317.93,463.99,240.25,8.37;1,317.93,473.23,69.45,8.37">These factors include: source code and design, behaviors, demographics, physical context, social context and relationships, institutional context and policies, and cultural norms.</s><s xml:id="_xPUxNyV" coords="1,390.31,473.23,167.70,8.37">Accessibility is affected by factors at all levels.</s><s xml:id="_mHUtCaG" coords="1,317.93,482.47,81.46,8.37">Figure inspired by <ref type="bibr" coords="1,383.83,482.47,12.44,8.37" target="#b33">[34]</ref>.</s></p><p xml:id="_jxfma8w"><s xml:id="_ueEHt2U" coords="1,317.93,498.23,198.10,8.72">these impactful technologies for all people is important.</s><s xml:id="_NnDW86e" coords="1,517.87,498.23,40.33,8.72;1,317.93,508.55,240.26,8.72;1,317.93,518.99,131.30,8.72">Yet, for the approximately 15% of the world population with disabilities <ref type="bibr" coords="1,540.82,508.55,13.90,8.72" target="#b34">[35]</ref>, many of these apps are inaccessible.</s><s xml:id="_WgcWZSy" coords="1,451.87,518.99,106.19,8.72;1,317.93,529.31,240.08,8.72;1,317.93,539.63,33.95,8.72">Understanding the extent and causes of app inaccessibility is imperative for creating successful solutions.</s><s xml:id="_sjypFDh" coords="1,353.95,539.63,204.15,8.72;1,317.93,549.95,240.02,8.72;1,317.93,560.39,240.21,8.72;1,317.93,570.71,85.19,8.72">To date, most approaches to understanding and improving app accessibility have focused on specific issues within individual apps, such as developer guidelines <ref type="bibr" coords="1,445.15,560.39,9.82,8.72" target="#b1">[1,</ref><ref type="bibr" coords="1,454.97,560.39,6.55,8.72" target="#b4">4]</ref>, app scanners <ref type="bibr" coords="1,518.02,560.39,10.32,8.72">[5,</ref><ref type="bibr" coords="1,528.34,560.39,10.32,8.72" target="#b19">19]</ref>, and compiler warnings <ref type="bibr" coords="1,390.31,570.71,9.61,8.72" target="#b2">[2]</ref>.</s><s xml:id="_N3Nh9CC" coords="1,406.75,570.71,129.35,8.72">But apps do not exist in isolation.</s><s xml:id="_6w6ZKTZ" coords="1,539.72,570.71,18.41,8.72;1,317.93,581.03,239.81,8.72;1,317.93,591.35,239.97,8.72;1,317.93,601.82,215.95,8.72">They might come from the same developers or studios, utilize the same libraries or code repositories, mimic the same popular design patterns, or simply be subsequent versions of prior releases.</s><s xml:id="_qaDAetS" coords="1,536.28,601.82,21.50,8.72;1,317.93,612.14,240.18,8.72;1,317.93,622.46,240.09,8.72;1,317.93,632.78,64.04,8.72">These factors can perpetuate accessibility problems, but the factors are rarely, if ever, analyzed at a "multi-factor" or "population level" over myriad apps.</s><s xml:id="_MkTnTe2" coords="1,383.95,632.78,173.93,8.72;1,317.93,643.22,240.20,8.72;1,317.93,653.54,193.45,8.72">Expanding how we approach app accessibility to encompass the rich ecosystem in which apps exist can drive innovations in how we work to enhance accessibility.</s><s xml:id="_CQAbS52" coords="1,514.42,653.54,43.62,8.72;1,317.93,663.86,240.40,8.72;1,317.93,674.18,31.54,8.72">Fortunately, other areas of study provide a model for multi-factor population-level analyses.</s><s xml:id="_uTjJcEN" coords="1,351.64,674.18,206.40,8.72;1,317.93,684.62,164.46,8.72">One such area is epidemiology, which examines health on a population level from a systems perspective.</s><s xml:id="_hq9Qtsd" coords="1,484.42,684.62,73.61,8.72;1,317.93,694.94,240.17,8.72;1,317.93,705.26,103.90,8.72">Whereas a physician treats a single patient, an epidemiologist considers the health of a whole population of patients.</s><s xml:id="_fV6ECdj" coords="1,424.63,705.26,133.40,8.72;2,54.00,56.20,240.42,8.72;2,54.00,66.52,240.41,8.72;2,54.00,76.84,188.70,8.72">Analogously, a designer or developer might address the inaccessibility of an individual app, but a population perspective on app accessibility might reveal the causes of systemic problems and suggest potential solutions.</s><s xml:id="_mw4u9Sr" coords="2,247.73,76.84,46.30,8.72;2,54.00,87.30,239.99,8.72;2,54.00,97.62,200.84,8.72">An example would be discovering that a widely-used interface toolkit was responsible for inaccessible widgets used in many apps.</s></p><p xml:id="_ckBp5hW"><s xml:id="_kZhMNK7" coords="2,54.00,113.94,240.33,8.72;2,54.00,124.26,105.84,8.72">We propose an epidemiology-inspired framework for the examination of mobile app accessibility.</s><s xml:id="_xqJPS86" coords="2,164.66,124.26,129.61,8.72;2,54.00,134.70,159.50,8.72">We emphasize that this metaphor supports the social model of disability <ref type="bibr" coords="2,196.22,134.70,13.82,8.72" target="#b29">[29]</ref>.</s><s xml:id="_NCB82qr" coords="2,216.27,134.70,77.86,8.72;2,54.00,145.02,240.07,8.72;2,54.00,155.34,240.04,8.72;2,54.00,165.66,108.50,8.72">App accessibility is a community responsibility, as captured by our multi-factor framing (see Figure <ref type="figure" coords="2,96.92,155.34,3.81,8.72">1</ref>) that guides how different parts of the community can contribute to app accessibility.</s><s xml:id="_28yPfqh" coords="2,164.42,165.66,129.77,8.72;2,54.00,176.10,240.06,8.72;2,54.00,186.42,240.09,8.72;2,54.00,196.74,151.58,8.72">As more companies invest resources into accessibility and more researchers investigate app accessibility, it becomes increasingly beneficial to have a conceptual framework from which to guide thought and action.</s><s xml:id="_JyTUKSZ" coords="2,208.84,196.74,85.32,8.72;2,54.00,207.06,240.16,8.72;2,54.00,217.50,239.88,8.72;2,54.00,227.82,177.56,8.72">Conceptual frameworks (e.g., <ref type="bibr" coords="2,74.54,207.06,10.08,8.72" target="#b6">[7]</ref>) give a common vocabulary to ground discussion, guide efforts to improve accessibility with known strategies, and illuminate opportunities not previously considered.</s><s xml:id="_bfQzGyK" coords="2,233.51,227.82,60.68,8.72;2,54.00,238.14,240.07,8.72;2,54.00,248.46,240.17,8.72;2,54.00,258.93,181.10,8.72">We acknowledge that the concepts in our framework are numerous, but we believe that this is indicative of the richness of the framework and of its potential to inspire and inform thought and action.</s></p><p xml:id="_68XwgUN"><s xml:id="_U3y4eCw" coords="2,54.00,275.25,240.29,8.72;2,54.00,285.57,239.97,8.72;2,54.00,295.89,87.87,8.72">Adapting a model from epidemiology <ref type="bibr" coords="2,201.65,275.25,13.90,8.72" target="#b33">[34]</ref>, Figure <ref type="figure" coords="2,250.71,275.25,4.50,8.72">1</ref> illustrates many factors that act upon an app during its creation, distribution, maintenance, and usage.</s><s xml:id="_w8g7z3V" coords="2,144.15,295.89,150.14,8.72;2,54.00,306.33,240.32,8.72;2,54.00,316.65,240.08,8.72">These factors range from intrinsic factors that are tightly encapsulated within each individual app to extrinsic factors that indirectly but influentially affect app populations.</s><s xml:id="_sjH8fJq" coords="2,54.00,326.97,240.09,8.72;2,54.00,337.29,240.00,8.72;2,54.00,347.73,239.95,8.72;2,54.00,358.05,168.74,8.72">Example factors, listed from intrinsic to extrinsic, include source code, visual design, development and testing tools, operating systems, assistive technologies used, app popularity, company and government policies, and public opinions.</s><s xml:id="_2ZxFBVn" coords="2,229.36,358.05,64.70,8.72;2,54.00,368.37,240.28,8.72;2,54.00,378.69,69.95,8.72">As this framing exemplifies, apps do not exist independently of one another or of their environments.</s><s xml:id="_aB4QvVR" coords="2,126.24,378.69,167.92,8.72;2,54.00,389.13,166.46,8.72">A natural extension is to recognize that neither do their accessibility strengths or weaknesses.</s><s xml:id="_PANBuF5" coords="2,222.98,389.13,71.13,8.72;2,54.00,399.45,239.81,8.72;2,54.00,409.77,240.13,8.72;2,54.00,420.09,196.82,8.72">Understanding how these factors interact and influence the accessibility of apps over time can help in improving app accessibility through development of preventative measures and post-release repairs <ref type="bibr" coords="2,233.45,420.09,13.90,8.72" target="#b36">[37]</ref>.</s></p><p xml:id="_p6R37xy"><s xml:id="_EDchzzK" coords="2,54.00,436.43,240.28,8.72;2,54.00,446.87,239.91,8.72;2,54.00,457.19,239.83,8.72;2,54.00,467.51,84.43,8.72">Developing an understanding of how a variety of factors contribute to app accessibility requires recognizing the value of varying levels of analysis, from individual entities to populations at specific moments and over time.</s><s xml:id="_WZwPDSS" coords="2,140.14,467.51,154.11,8.72;2,54.00,477.83,240.07,8.72;2,54.00,488.27,227.90,8.72">Many well-established scientific disciplines have benefitted from longitudinal population-level analyses, such as ecology <ref type="bibr" coords="2,94.58,488.27,13.89,8.72" target="#b32">[33]</ref>, oceanography <ref type="bibr" coords="2,167.06,488.27,13.80,8.72" target="#b22">[22]</ref>, and computer security <ref type="bibr" coords="2,269.09,488.27,9.61,8.72">[9]</ref>.</s><s xml:id="_b2bRfhC" coords="2,284.21,488.27,9.86,8.72;2,54.00,498.59,240.10,8.72;2,54.00,508.91,89.05,8.72">As stated, we chose epidemiology <ref type="bibr" coords="2,170.54,498.59,15.10,8.72" target="#b20">[20]</ref> as our metaphor for our app accessibility framework.</s><s xml:id="_w6VhYSr" coords="2,146.06,508.91,148.17,8.72;2,54.00,519.23,240.26,8.72;2,54.00,529.67,240.00,8.72;2,54.00,539.99,240.06,8.72;2,54.00,550.31,240.04,8.72;2,54.00,560.63,82.43,8.72">We construct our epidemiology-inspired framework and, although no metaphor is perfect or without limitations, we advance the claim that the study of app accessibility can benefit from epidemiology's well-developed language and approach to collecting, analyzing, and acting upon longitudinal multi-factor population-based data.</s><s xml:id="_ZdFV5yw" coords="2,139.67,560.63,154.46,8.72;2,54.00,571.07,233.93,8.72">To the best of our knowledge, ours is the first attempt to frame app accessibility as a "population science."</s></p><p xml:id="_KTrwkxr"><s xml:id="_XWz9FeB" coords="2,54.00,587.39,240.23,8.72;2,54.00,597.71,240.08,8.72;2,54.00,608.06,131.38,8.72">To put our conceptual framework through its paces, we apply it in an analysis of accessibility barriers in popular Android apps available on the Google Play Store.</s><s xml:id="_vuTsAXa" coords="2,188.52,608.06,105.71,8.72;2,54.00,618.50,240.13,8.72;2,54.00,628.82,239.90,8.72;2,54.00,639.14,17.39,8.72">We analyze a sample of 100 apps for nine determinants, or causes, of a variety of "inaccessibility diseases" using Google's Accessibility Scanner <ref type="bibr" coords="2,54.00,639.14,13.92,8.72" target="#b19">[19]</ref>.</s><s xml:id="_Xec3YGT" coords="2,78.02,639.14,216.11,8.72;2,54.00,649.46,239.99,8.72;2,54.00,659.90,166.82,8.72">We present the prevalence of different determinants, motivated by the objective of "Determining the Extent of the Disease" in the population (see Section 4.2).</s><s xml:id="_3JDAWNA" coords="2,224.19,659.90,69.84,8.72;2,54.00,670.22,225.11,8.72">We then reflect on how our framework and preliminary data informs future work.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_TeJknMY">Our research contributions are twofold:</head><p xml:id="_hqnMkNs"><s xml:id="_Fj2fR9K" coords="2,54.00,699.22,240.02,9.00;2,67.58,709.94,226.72,8.72;2,331.49,56.20,65.44,8.72">• A novel conceptual framework for monitoring, analyzing, and acting upon longitudinal multi-factor large-scale data on mobile app accessibility.</s><s xml:id="_zx5xRqN" coords="2,402.82,56.20,155.45,8.72;2,331.49,66.52,226.36,8.72;2,331.49,76.84,226.63,8.72;2,331.49,87.30,226.48,8.72;2,331.49,97.50,103.00,8.72">Our framework highlights wide-ranging intrinsic and extrinsic factors that influence app accessibility, motivates the collection and analysis of large-scale data, and guides opportunities for enhancing treatments for app "diseases" of inaccessibility.</s><s xml:id="_6n37FPn" coords="2,317.93,110.30,240.05,9.00;2,331.49,121.02,226.69,8.72">• Empirical results from a framework-guided analysis of a stratified sample of 100 apps from the Google Play Store.</s><s xml:id="_sUPY4mx" coords="2,331.49,131.34,226.66,8.72;2,331.49,141.66,226.68,8.72;2,331.49,151.98,226.76,8.72;2,331.49,162.30,93.35,8.72">Motivated to determine the extent of the disease in the population, we found high prevalence with 100% of apps having an "inaccessibility disease" based on the nine determinants scanned for.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_CRZdgCm">REAL-WORLD EXAMPLES</head><p xml:id="_tywaZnp"><s xml:id="_xccFDcv" coords="2,317.93,192.54,240.17,8.72;2,317.93,202.86,240.08,8.72;2,317.93,213.18,125.35,8.72">We present two real-world examples of population-level factors that influence app accessibility and how they fit into the epidemiology-inspired framework.</s><s xml:id="_YfRDvUz" coords="2,445.51,213.18,112.61,8.72;2,317.93,223.50,240.09,8.72;2,317.93,233.94,240.24,8.72;2,317.93,244.26,17.39,8.72">The examples present elements that are infectious agents that carry inaccessibility within Android Studio <ref type="bibr" coords="2,344.95,233.94,10.55,8.72" target="#b2">[2]</ref> and Android's Floating Action Button design tutorial <ref type="bibr" coords="2,317.93,244.26,13.91,8.72" target="#b17">[17]</ref>.</s><s xml:id="_txbMfKe" coords="2,340.25,244.26,217.76,8.72;2,317.93,254.61,240.05,8.72;2,317.93,264.93,72.88,8.72">These examples both exemplify how factors apart from developer-written source code affect the likelihood of an accessibility barrier.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_4KCuwwk">Android Studio App Designer</head><p xml:id="_sRACFZ4"><s xml:id="_x9vsdNW" coords="2,317.93,293.13,240.21,8.72;2,317.93,303.45,240.15,8.72;2,317.93,313.77,113.94,8.72">Android Studio is the development environment released by Google for creating Android apps and is one of the most popular tools for Android developers.</s><s xml:id="_Ut9K88z" coords="2,436.68,313.77,121.26,8.72;2,317.93,324.21,239.75,8.72;2,317.93,334.53,219.91,8.72">Due to its widespread use, the accessibility of the Android features it provides has a large impact on the accessibility of the whole population of Android apps.</s></p><p xml:id="_ru8ACRJ"><s xml:id="_bVZyWMU" coords="2,317.93,348.93,240.26,8.72">Android Studio includes a drag-and-drop WYSIWYG Layout Editor.</s></p><p xml:id="_Dx865Hm"><s xml:id="_Q2jeedQ" coords="2,317.93,359.25,239.96,8.72;2,317.93,369.57,215.55,8.72">The editor provides basic widgets including Image Buttons for common functionality, such as a star icon for "favoriting."</s><s xml:id="_azDWv5h" coords="2,536.32,369.57,21.41,8.72;2,317.93,379.89,240.18,8.72;2,317.93,390.21,240.26,8.72;2,317.93,400.65,142.07,8.72">When an icon button is dragged onto an interface, Android Studio generates the layout code in a separate file that defines the button, its layout size, and other basic features.</s><s xml:id="_fsEzAhc" coords="2,462.40,400.65,95.68,8.72;2,317.93,410.97,239.86,8.72;2,317.93,421.29,138.58,8.72">A notable omission within the generated code is the Content Description, the field a screen reader uses to describe an icon button.</s><s xml:id="_nRUJWk9" coords="2,458.92,421.29,99.22,8.72;2,317.93,431.63,240.05,8.72;2,317.93,442.07,108.23,8.72">If that field is not manually added by the developer, the app will have an inaccessible button for people using a screen reader.</s><s xml:id="_pxnpmsu" coords="2,429.55,442.07,128.49,8.72;2,317.93,452.39,240.23,8.72;2,317.93,462.71,240.27,8.72">As an approach to addressing this, when the content description field is non-existent or has no content, Android Studio will issue a warning that provides options to:</s></p><p xml:id="_zuNy7JA"><s xml:id="_sWKUEq7" coords="2,317.93,473.03,240.30,8.72;2,317.93,483.47,89.53,8.72">(1) guide the developer to add the field, or (2) set a flag to ignore all warnings of that type.</s></p><p xml:id="_chxQmDf"><s xml:id="_XDE4tJ5" coords="2,317.93,497.75,240.19,8.72;2,317.93,508.07,223.94,8.72">This example illustrates the transmission of an inaccessible button disease from an infectious agent, the icon button, to a host app.</s><s xml:id="_vwMzqEG" coords="2,544.65,508.07,13.59,8.72;2,317.93,518.51,240.15,8.72;2,317.93,528.83,40.64,8.72">The determinant, or cause of the disease, is the missing content description.</s><s xml:id="_C925W3N" coords="2,361.03,528.83,197.12,8.72;2,317.93,539.15,240.28,8.72;2,317.93,549.47,239.89,8.72;2,317.93,559.91,51.17,8.72">Our epidemiology-inspired framework then motivates an in-depth analysis to evaluate the existing preventative treatment of the warning to determine if it is sufficient at preventing the spread of the disease.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_AkTAYx3">Android Floating Action Button Design</head><p xml:id="_eUJXdqP"><s xml:id="_eHxwtt3" coords="2,317.93,587.99,240.23,8.72;2,317.93,598.43,240.26,8.72">Floating action buttons are a part of Google's Material Design for Android, a guide for a more unified design in Android apps <ref type="bibr" coords="2,540.82,598.43,13.90,8.72" target="#b24">[24]</ref>.</s><s xml:id="_kfAvn6P" coords="2,317.93,608.78,240.16,8.72;2,317.93,619.10,74.66,8.72;3,54.00,153.42,240.19,8.72;3,54.00,163.74,240.34,8.72;3,54.00,174.06,38.63,8.72">Floating action buttons are already being adopted in popular apps such as Skype, Gmail This example illustrates transmission of a second inaccessible button disease from an infectious agent, the floating action button design, to a host app.</s><s xml:id="_dsMUJq6" coords="3,95.42,174.06,198.73,8.72;3,54.00,184.38,206.28,8.72">One determinant of the disease is the lack of intuitive integration of the button into linear navigation order.</s><s xml:id="_6mDWRjB" coords="3,264.75,184.38,29.50,8.72;3,54.00,194.70,240.19,8.72;3,54.00,205.14,39.81,8.72">Another determinant is the lack of feedback for floating action button state transitions.</s><s xml:id="_3QMd9gb" coords="3,95.73,205.14,198.34,8.72;3,54.00,215.46,60.42,8.72">This infectious agent lives in the repository of Google's Material Design.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_pUDkd5d">RELATED WORK</head><p xml:id="_eJqA9dj"><s xml:id="_4nC3z4U" coords="3,54.00,243.66,240.22,8.72;3,54.00,254.01,240.16,8.72;3,54.00,264.33,196.10,8.72">We see two major strands of related work, that of mobile app accessibility and that of population-level or large-scale analyses of the web for accessibility or of apps for other purposes.</s><s xml:id="_svGCXnC" coords="3,252.41,264.33,41.65,8.72;3,54.00,274.65,125.78,8.72">We address both in the subsections that follow.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_6UpwBgP">Mobile App Accessibility</head><p xml:id="_Wd9a5Cf"><s xml:id="_MbSKuju" coords="3,54.00,302.85,240.02,8.72">There is limited work assessing the accessibility of mobile apps.</s><s xml:id="_weVWd5R" coords="3,54.00,313.17,240.25,8.72;3,54.00,323.49,239.99,8.72;3,54.00,333.93,151.99,8.72">Milne et al. <ref type="bibr" coords="3,96.50,313.17,14.99,8.72" target="#b25">[25]</ref> investigated nine mobile health apps on Apple iOS for adherence to seven accessibility features and found that all of the apps had at least one feature missing.</s><s xml:id="_zsKTfRP" coords="3,209.00,333.93,84.91,8.72;3,54.00,344.25,240.11,8.72;3,54.00,354.57,240.01,8.72;3,54.00,364.89,34.16,8.72">Moreover, many of the barriers were not covered in Apple's accessibility guidelines, which focus primarily on individual elements versus interactions between elements.</s><s xml:id="_SP2fR4g" coords="3,90.23,364.89,203.96,8.72;3,54.00,375.33,203.28,8.72">This study fits into our conceptual framework by looking at prevalence of inaccessibility, although on a small scale.</s><s xml:id="_EZtNn4r" coords="3,259.36,375.33,34.82,8.72;3,54.00,385.65,238.58,8.72">It also fits the objective of assessing existing treatments (i.e., the guidelines).</s></p><p xml:id="_TaJ9n9W"><s xml:id="_TZUkWqJ" coords="3,54.00,399.93,239.95,8.72;3,54.00,410.37,240.17,8.72;3,54.00,420.69,23.24,8.72">Yu et al. <ref type="bibr" coords="3,87.14,399.93,14.99,8.72" target="#b35">[36]</ref> assessed the interface and navigation accessibility of six mobile health apps through user tests with six people with spina bifida.</s><s xml:id="_9v5AywH" coords="3,79.30,420.69,214.88,8.72;3,54.00,431.03,68.21,8.72">They identified many enhancements that would increase the app's accessibility.</s><s xml:id="_C54aKvE" coords="3,124.39,431.03,169.90,8.72;3,54.00,441.35,176.57,8.72">These studies begin to establish the lethality, or severity, and prevalence of accessibility barriers.</s><s xml:id="_RREW989" coords="3,235.37,441.35,58.90,8.72;3,54.00,451.79,138.35,8.72">They also fit the objective of inspiring new treatments.</s><s xml:id="_DrYE7zy" coords="3,195.25,451.79,98.76,8.72;3,54.00,462.11,240.06,8.72;3,54.00,472.43,106.46,8.72">Our framework would also motivate the collection of data needed to assess if the new enhancements were effective.</s></p><p xml:id="_PwkRJgF"><s xml:id="_E9cdB2w" coords="3,54.00,486.83,240.22,8.72;3,54.00,497.15,169.31,8.72">To guide developers in enhancing app accessibility, Google <ref type="bibr" coords="3,268.61,486.83,10.55,8.72" target="#b1">[1]</ref> and Apple <ref type="bibr" coords="3,78.50,497.15,10.44,8.72" target="#b4">[4]</ref> have mobile accessibility guidelines.</s><s xml:id="_WzFYMVx" coords="3,226.37,497.15,67.92,8.72;3,54.00,507.47,240.08,8.72;3,54.00,517.79,72.11,8.72">W3C also issued a note on how to apply existing web accessibility guidelines to mobile devices <ref type="bibr" coords="3,109.10,517.79,13.61,8.72" target="#b15">[15]</ref>.</s><s xml:id="_ahevQVX" coords="3,127.94,517.79,166.25,8.72;3,54.00,528.23,240.14,8.72;3,54.00,538.55,240.11,8.72;3,54.00,548.87,240.11,8.72;3,54.00,559.19,240.10,8.72;3,54.00,569.63,148.82,8.72">Studies analyzing the success of web guidelines suggest that guidelines are not sufficient for ensuring accessibility, due to a number of factors that include lack of developer knowledge, difficult to implement recommendations, difficulties testing for adherence, or the mismatch between actual user concerns and guideline recommendations <ref type="bibr" coords="3,162.98,569.63,14.49,8.72" target="#b13">[13,</ref><ref type="bibr" coords="3,177.47,569.63,10.87,8.72" target="#b23">23,</ref><ref type="bibr" coords="3,188.33,569.63,7.24,8.72" target="#b26">26</ref>].</s><s xml:id="_2u3Sp5Y" coords="3,208.59,569.63,85.56,8.72;3,54.00,579.95,240.35,8.72;3,54.00,590.27,75.48,8.72">Google's Accessibility Scanner <ref type="bibr" coords="3,85.22,579.95,14.99,8.72" target="#b19">[19]</ref> and Apple's Accessibility Inspector [5] are tools for app accessibility analysis.</s><s xml:id="_tQe5gHP" coords="3,131.90,590.27,162.19,8.72;3,54.00,600.62,239.99,8.72;3,54.00,611.06,239.90,8.72;3,54.00,621.38,215.79,8.72">Both tools run on an app interface, screen by screen, and return an analysis flagging common accessibility barriers such as buttons that are too small, images lacking text descriptions, and elements with problematic color contrast.</s><s xml:id="_wV4jdMj" coords="3,272.59,621.38,21.41,8.72;3,54.00,631.70,240.23,8.72;3,54.00,642.02,45.83,8.72">These tools can only be applied to a single app at a time and must be guided interactively.</s><s xml:id="_K4nbvtZ" coords="3,107.53,642.02,186.69,8.72;3,54.00,652.46,240.22,8.72;3,54.00,662.78,133.91,8.72">Our framework motivates the development of advancements in analysis tools to allow for larger-scale analyses with more detail on accessibility problems.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_XHPX82n">Large-Scale Analyses</head><p xml:id="_QPNgVkK"><s xml:id="_4jqSkqq" coords="3,54.00,690.86,240.20,8.72;3,54.00,701.30,240.19,8.72;3,54.00,711.62,176.25,8.72">Large-scale app analyses have been conducted to understand the effectiveness of web accessibility guidelines, vulnerabilities in apps, app usage patterns, and popular designs.</s><s xml:id="_s2eptDg" coords="3,234.21,711.62,60.02,8.72;3,317.93,56.20,239.90,8.72;3,317.93,66.52,240.01,8.72;3,317.93,76.84,168.55,8.72">This prior work demonstrates insights that can be gained from such analyses and provides further motivation for designing and leveraging population-level analyses for app accessibility.</s></p><p xml:id="_SuWnhpe"><s xml:id="_rNVcuMK" coords="3,317.93,91.26,239.98,8.72;3,317.93,101.58,138.22,8.72">How well the existing guidelines and tools work to address accessibility is largely under-studied.</s><s xml:id="_kacm9RY" coords="3,459.77,101.58,98.32,8.72;3,317.93,112.02,240.03,8.72;3,317.93,122.34,118.45,8.72">Hanson and Richards <ref type="bibr" coords="3,543.10,101.58,14.99,8.72" target="#b21">[21]</ref> performed a longitudinal study of changes in web accessibility on over 100 websites over 14 years.</s><s xml:id="_cFuwBTv" coords="3,438.78,122.34,118.93,8.72;3,317.93,132.66,240.17,8.72;3,317.93,142.98,239.90,8.72;3,317.93,153.42,176.69,8.72">They concluded that government websites tended to be more accessible than non-government sites and that accessibility overall was getting better, but most sites still failed on at least one simple accessibility feature.</s></p><p xml:id="_REtVU4f"><s xml:id="_ySQSZ7T" coords="3,317.93,167.70,240.25,8.72;3,317.93,178.02,240.19,8.72;3,317.93,188.46,240.29,8.72;3,317.93,198.78,47.58,8.72">Richards, Montague, and Hanson <ref type="bibr" coords="3,438.43,167.70,14.98,8.72" target="#b30">[30]</ref> further investigated potential indirect factors influencing accessibility, including changes in coding practices, devices, browser capabilities, and the importance of page rank.</s><s xml:id="_G4xvKkx" coords="3,368.04,198.78,190.12,8.72;3,317.93,209.10,240.40,8.72;3,317.93,219.42,237.62,8.72">They concluded these indirect factors might account for some increase in web accessibility and discussed the potential of considering indirect accessibility when developing new technology.</s></p><p xml:id="_RpWecBU"><s xml:id="_n9xtVxE" coords="3,317.93,233.82,240.01,8.72;3,317.93,244.14,240.26,8.72">Bigham et al. <ref type="bibr" coords="3,367.03,233.82,10.67,8.72" target="#b7">[8]</ref> studied web accessibility by analyzing differences between sighted and blind people's browsing behaviors.</s></p><p xml:id="_FkyfXY5"><s xml:id="_xTYYHKQ" coords="3,317.93,254.49,239.83,8.72;3,317.93,264.93,240.23,8.72;3,317.93,275.25,27.71,8.72">Participants used a web proxy to perform their normal web browsing in their home on their own equipment over the course of a week.</s><s xml:id="_HtxRb5S" coords="3,348.31,275.25,209.66,8.72;3,317.93,285.57,240.09,8.72;3,317.93,295.89,239.96,8.72;3,317.93,306.33,239.91,8.72;3,317.93,316.65,66.07,8.72">The data collected was analyzed for statistical differences between sighted and blind people's browsing experience using metrics such as number of websites visited that had images with alt text, number of interactions with dynamic content, and timing spent on common tasks.</s><s xml:id="_qM3mEZF" coords="3,386.76,316.65,171.02,8.72;3,317.93,326.97,240.00,8.72;3,317.93,337.29,146.03,8.72">They used the differences in these metrics as a measure of the frequency of accessibility barriers on the web and how those impact browsing experiences.</s></p><p xml:id="_5baa9mK"><s xml:id="_EEBngZr" coords="3,317.93,351.69,239.94,8.72;3,317.93,362.01,163.98,8.72">These works exemplify the types of insights that can be gained through large-scale and longitudinal studies.</s><s xml:id="_WXVF9z6" coords="3,485.28,362.01,72.69,8.72;3,317.93,372.33,239.88,8.72;3,317.93,382.77,240.00,8.72;3,317.93,393.09,240.18,8.72;3,317.93,403.41,63.74,8.72">Creating techniques that allow for such studies of mobile apps could allow similar insights into how successful existing interventions are, into potentially impactful unconsidered influences, and into opportunities for improvement.</s><s xml:id="_3EUXBge" coords="3,384.82,403.41,173.21,8.72;3,317.93,413.73,185.70,8.72">Our epidemiology-inspired framework helps to structure our approach to creating those techniques.</s></p><p xml:id="_PW76FEt"><s xml:id="_jg7fNCQ" coords="3,317.93,428.15,240.35,8.72;3,317.93,438.47,240.07,8.72;3,317.93,448.79,28.55,8.72">Large-scale analyses of app usage can reveal patterns in terms of duration, app category, and context (e.g., time of day, location) <ref type="bibr" coords="3,317.93,448.79,14.28,8.72" target="#b10">[10,</ref><ref type="bibr" coords="3,332.21,448.79,10.71,8.72" target="#b27">27]</ref>.</s><s xml:id="_mSn4ywB" coords="3,348.89,448.79,209.19,8.72;3,317.93,459.23,216.98,8.72">The results of these studies aim to inform app design <ref type="bibr" coords="3,542.98,448.79,15.10,8.72" target="#b27">[27]</ref> or to provide a basis for an app recommendation system <ref type="bibr" coords="3,517.42,459.23,13.99,8.72" target="#b10">[10]</ref>.</s><s xml:id="_3jvj6jY" coords="3,536.74,459.23,21.41,8.72;3,317.93,469.55,240.31,8.72;3,317.93,479.87,137.31,8.72">These types of analyses have yet to be applied with a focus on mobile accessibility, but could be insightful.</s><s xml:id="_B4DbAfj" coords="3,458.75,479.87,99.39,8.72;3,317.93,490.19,240.20,8.72;3,317.93,500.63,240.03,8.72;3,317.93,510.95,198.99,8.72">For example, analogous to prior analysis of web accessibility <ref type="bibr" coords="3,443.59,490.19,9.70,8.72" target="#b7">[8]</ref>, the difference in time spent in communication apps between those who use a screen reader and those who do not could suggest an accessibility barrier.</s></p><p xml:id="_R6KbnCB"><s xml:id="_rqtdrWm" coords="3,317.93,525.23,240.28,8.72;3,317.93,535.67,240.17,8.72;3,317.93,545.99,240.26,8.72">Population-level analyses have also been used to explore interactions between apps and more extrinsic factors through analyzing code reuse <ref type="bibr" coords="3,338.59,545.99,13.90,8.72" target="#b28">[28]</ref>, design reuse <ref type="bibr" coords="3,403.39,545.99,13.90,8.72" target="#b16">[16]</ref>, and widget and layout popularity <ref type="bibr" coords="3,540.82,545.99,13.90,8.72" target="#b31">[31]</ref>.</s><s xml:id="_bsbkyuA" coords="3,317.93,556.31,240.27,8.72;3,317.93,566.63,240.03,8.72;3,317.93,577.07,21.20,8.72">For example, Mojica et al.'s <ref type="bibr" coords="3,452.11,556.31,14.98,8.72" target="#b28">[28]</ref> insights support the interdependence of apps by highlighting the prominence of code reuse.</s><s xml:id="_Y265BR3" coords="3,341.07,577.07,216.80,8.72;3,317.93,587.39,221.15,8.72">The ERICA project <ref type="bibr" coords="3,412.87,577.07,14.98,8.72" target="#b16">[16]</ref> similarly analyzed interface designs and user traces with the aim of informing future designers.</s><s xml:id="_puPPfyt" coords="3,542.56,587.39,15.42,8.72;3,317.93,597.71,240.11,8.72;3,317.93,608.06,240.06,8.72;3,317.93,618.50,228.23,8.72">App interdependence is a key component of our epidemiology-inspired framework, and motivates extending analyses to include the impact of such code reuse and popular design patterns on accessibility.</s></p><p xml:id="_jJF4WNC"><s xml:id="_zHfj6jV" coords="3,317.93,632.78,240.07,8.72;3,317.93,643.10,240.04,8.72;3,317.93,653.54,130.67,8.72">Computer security also has a long history of using large-scale studies to understand the prevalence of security vulnerabilities, their sources, and how they spread.</s><s xml:id="_FwUuSAq" coords="3,451.73,653.54,106.13,8.72;3,317.93,663.86,83.77,8.72">In work that is perhaps most similar to ours, Gil et.</s><s xml:id="_X6cPHfw" coords="3,405.21,663.86,152.83,8.72;3,317.93,674.18,240.03,8.72;3,317.93,684.50,240.10,8.72;3,317.93,694.94,78.99,8.72">al. <ref type="bibr" coords="3,417.31,663.86,14.98,8.72" target="#b18">[18]</ref> propose a "genetic epidemiology approach to cyber-security" using large-scale automated analyses to create tools to determine the probability of a network being susceptible to a threat.</s><s xml:id="_vDQ7z9h" coords="3,398.65,694.94,159.31,8.72;3,317.93,705.26,227.59,8.72">The authors focus on computer networks and genetic mutation detection concepts from genetic epidemiology.</s><s xml:id="_eSKR4UD" coords="3,547.42,705.26,10.61,8.72">By</s></p><p xml:id="_sPQVjfj"><s xml:id="_XRdh8qr" coords="3,54.00,27.86,180.16,8.14;3,359.68,33.79,91.78,1.00">Session: Interaction Techniques and Frameworks ASSETS'17, Oct. 29-Nov.</s><s xml:id="_cFrH4kW" coords="3,453.69,33.79,104.32,1.00;4,54.00,56.20,240.43,8.72;4,54.00,66.52,227.25,8.72">1, 2017, Baltimore, MD, USA contrast, we create a broader framework utilizing many more concepts from general epidemiology applied to mobile app accessibility.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_NFkyZUX">EPIDEMIOLOGY FRAMEWORK</head><p xml:id="_kVC277E"><s xml:id="_vFHvF58" coords="4,54.00,94.74,240.14,8.72;4,54.00,105.06,187.23,8.72">Epidemiology regards human health as holistic physical, emotional, and social well-being, not just the absence of illness.</s><s xml:id="_kTsqswm" coords="4,243.19,105.06,50.92,8.72;4,54.00,115.38,239.98,8.72;4,54.00,125.82,240.19,8.72;4,54.00,136.14,136.91,8.72">Epidemiology acknowledges that an individual's health cannot be understood in isolation and is instead the product of continuous interaction with environmental and social factors <ref type="bibr" coords="4,173.54,136.14,13.90,8.72" target="#b11">[11]</ref>.</s><s xml:id="_yMnhMdj" coords="4,193.20,136.14,100.78,8.72;4,54.00,146.46,240.22,8.72;4,54.00,156.78,159.07,8.72">We utilize key terminology, concepts, and techniques from epidemiology to frame mobile app accessibility in a similarly holistic fashion.</s><s xml:id="_M95wdy7" coords="4,216.32,156.78,77.96,8.72;4,54.00,167.22,240.26,8.72;4,54.00,177.54,182.43,8.72">A healthy app is one whose essential functionality is accessible and usable to all, not just an app that has no rudimentary accessibility errors.</s><s xml:id="_F4FaH9w" coords="4,238.60,177.54,55.47,8.72;4,54.00,187.86,240.28,8.72;4,54.00,198.18,53.58,8.72">Our framework defines a single app as a potential host of one or more diseases of inaccessibility.</s><s xml:id="_5ttG6N6" coords="4,109.64,198.18,184.56,8.72;4,54.00,208.50,239.98,8.72;4,54.00,218.94,150.91,8.72">A population consists of a large group of apps, such as: all apps in existence, all Android apps, all apps that use the Google Map library, or all shopping apps.</s></p><p xml:id="_paMyhKW"><s xml:id="_FxNMgSx" coords="4,54.00,233.22,240.18,8.72;4,54.00,243.66,240.13,8.72;4,54.00,254.01,240.07,8.72;4,54.00,264.33,140.39,8.72">Inspired by epidemiological concepts and the five objectives of epidemiology presented by Gordis <ref type="bibr" coords="4,188.66,243.66,13.92,8.72" target="#b20">[20]</ref>, we offer a conceptual framework to guide the thoughts and actions of researchers and developers concerning app accessibility.</s><s xml:id="_mYgMjP7" coords="4,196.22,264.33,97.98,8.72;4,54.00,274.65,240.01,8.72;4,54.00,285.09,217.82,8.72">We present the terminology for this framework in Tables <ref type="figure" coords="4,164.43,274.65,14.75,8.72">1a-d</ref>, showing the analogies drawn between epidemiology and app accessibility, with examples.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_XVb4yXB">Identify Factors and Causation</head><p xml:id="_WgEVvWu"><s xml:id="_Xb3hzqT" coords="4,54.00,313.17,240.04,8.72;4,54.00,323.49,240.18,8.72;4,54.00,333.93,113.21,8.72">Addressing a disease requires understanding what causes it and what factors make the entity more (risk factor) or less (protective factor) likely to contract it.</s><s xml:id="_kcSJZJC" coords="4,173.42,333.93,120.75,8.72;4,54.00,344.25,169.18,8.72">The same is true for various "inaccessibility diseases" that arise in apps.</s><s xml:id="_7peDM8K" coords="4,227.98,344.25,66.26,8.72;4,54.00,354.57,239.87,8.72;4,54.00,364.89,235.10,8.72">By understanding where diseases come from, how they spread, and what factors affect an app's risk, we can better guide the development of treatments.</s></p><p xml:id="_5yR2PnX"><s xml:id="_SmeWryR" coords="4,54.00,379.29,240.18,8.72;4,54.00,389.61,240.01,8.72;4,54.00,399.93,201.50,8.72">We define a factor as characteristics of an app, or of the ecosystem in which an app is developed, maintained, and used, that impact the likelihood of an app having an inaccessibility disease.</s><s xml:id="_SJwTchm" coords="4,258.87,399.93,35.17,8.72;4,317.93,56.20,240.20,8.72;4,317.93,66.52,122.07,8.72">There are risk factors that increase the likelihood of disease and protective factors that reduce the likelihood.</s><s xml:id="_9DMtKFb" coords="4,442.51,66.52,115.59,8.72;4,317.93,76.84,240.00,8.72;4,317.93,87.30,46.61,8.72">Figure <ref type="figure" coords="4,468.40,66.52,4.50,8.72">1</ref> presents a structure for understanding the many factors within the ecosystem that impact accessibility.</s><s xml:id="_vqMgPrC" coords="4,366.48,87.30,191.30,8.72;4,317.93,97.62,240.19,8.72;4,317.93,107.94,182.54,8.72">Much of the language and structure of the framing are inspired from the "model for analysis of population health and health disparities" presented in epidemiology <ref type="bibr" coords="4,483.10,107.94,13.90,8.72" target="#b33">[34]</ref>.</s></p><p xml:id="_RQ73FAS"><s xml:id="_MatT59T" coords="4,317.93,122.34,240.27,8.72">Epidemiological elements move from intrinsic to extrinsic factors.</s><s xml:id="_3aME79E" coords="4,317.93,132.66,194.45,8.72">Intrinsic factors include the core of an individual app.</s><s xml:id="_aPV4Kxd" coords="4,514.80,132.66,43.17,8.72;4,317.93,142.98,239.98,8.72;4,317.93,153.42,227.02,8.72">At the other end of the spectrum are highly extrinsic factors, or those that impact many apps in a manner that is removed from their source code.</s></p><p xml:id="_AZrfSRP"><s xml:id="_ds5ncg2" coords="4,317.93,167.70,240.13,8.72;4,317.93,178.02,240.18,8.72;4,317.93,188.46,71.75,8.72">Starting at the intrinsic end of the spectrum (see Figure <ref type="figure" coords="4,515.44,167.70,3.27,8.72">1</ref>), there are the metaphorical biological and genetic factors (i.e. an app's source code and design).</s><s xml:id="_kp8aHbz" coords="4,396.05,188.46,161.92,8.72;4,317.93,198.78,239.93,8.72;4,317.93,209.10,53.60,8.72">Progressing toward extrinsic factors, the spectrum continues into factors that directly impact the biological characteristics.</s><s xml:id="_GnXMvE5" coords="6,54.00,66.52,240.27,8.72;6,54.00,76.84,240.21,8.72;6,54.00,87.30,29.35,8.72">Social context encompasses the popularity of an app and how that popularity can impact the accessibility standards to which the app is held.</s><s xml:id="_6pDUUWw" coords="6,88.94,87.30,205.12,8.72;6,54.00,97.62,239.84,8.72;6,54.00,107.94,240.31,8.72;6,54.00,118.26,113.62,8.72">Social relationships cover how vocal people in the community are about accessibility, how active people are in demanding that an app be accessible, and how responsive an app is to adapting to critical feedback.</s></p><p xml:id="_ZMczCHM"><s xml:id="_CVgvBQ7" coords="6,54.00,132.66,240.21,8.72;6,54.00,142.98,64.37,8.72">The final, most extrinsic factors include those on the institutional and societal level.</s><s xml:id="_GbyKn59" coords="6,120.56,142.98,173.67,8.72;6,54.00,153.42,134.75,8.72">Within institutional context, there are education, company, and government influences.</s><s xml:id="_G5ZW4kV" coords="6,191.18,153.42,103.02,8.72;6,54.00,163.74,240.09,8.72;6,54.00,174.06,240.06,8.72;6,54.00,184.38,240.08,8.72;6,54.00,194.70,240.38,8.72">Education influences include the education of developers for creating accessible apps, of users on existing accessibility support, of the community on the importance of advocating for accessibility, and of institutional leaders on the importance of prioritizing and integrating accessibility considerations.</s></p><p xml:id="_KaXXK7H"><s xml:id="_dMm9xRP" coords="6,54.00,209.10,239.91,8.72;6,54.00,219.42,239.73,8.72;6,54.00,229.86,240.15,8.72;6,54.00,240.18,192.38,8.72">Company factors consider how companies can impact the accessibility of their apps by dedicating resources to accessibility, choosing tools to help enhance accessibility, and creating policies that enforce accessibility within their organizations.</s><s xml:id="_8wEkSxq" coords="6,249.77,240.18,44.48,8.72;6,54.00,250.50,145.56,8.72">Government factors are similar, but on a larger scale.</s><s xml:id="_xwmWffn" coords="6,202.08,250.50,91.89,8.72;6,54.00,260.85,239.97,8.72;6,54.00,271.29,239.86,8.72">The government's role in funding allocation, public initiatives, policies, lawmaking, enforcement, and advocacy all play into the accessibility of apps.</s></p><p xml:id="_bk3AuGJ"><s xml:id="_Zepaxxu" coords="6,54.00,281.61,196.82,8.72">At the extrinsic end of the spectrum is social condition.</s><s xml:id="_2heyuue" coords="6,252.76,281.61,41.28,8.72;6,54.00,291.93,225.02,8.72">This covers the cultural norms and public expectations of a whole society.</s><s xml:id="_kUfyZbR" coords="6,281.55,291.93,12.58,8.72;6,54.00,302.25,240.12,8.72;6,54.00,312.57,240.23,8.72;6,54.00,323.01,155.61,8.72">For example, whether accessibility is viewed as a bonus or an essential requirement and how much society supports the allocation of resources for achieving better accessibility.</s></p><p xml:id="_4SmMVwS"><s xml:id="_YqxDfK6" coords="6,54.00,337.29,239.99,8.72;6,54.00,347.73,240.26,8.72">All factors throughout the spectrum interact with one another and shape the ecosystem in which an app is created, maintained, and used.</s><s xml:id="_Tb8UAy5" coords="6,54.00,358.05,239.94,8.72;6,54.00,368.37,120.95,8.72">Changes in any one can impact others up and down the spectrum, potentially affecting accessibility.</s><s xml:id="_HQw75M5" coords="6,177.26,368.37,116.98,8.72;6,54.00,378.69,240.35,8.72;6,54.00,389.13,194.89,8.72">Structuring our understanding of how these factors affect an app's risk for acquiring an "inaccessibility disease" can guide accessibility enhancing treatments.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_yqKw9Tg">Determine the Extent of a Disease</head><p xml:id="_p983WKy"><s xml:id="_qBxs4dc" coords="6,54.00,417.21,240.30,8.72;6,54.00,427.55,177.52,8.72">In a world of limited resources, it is essential to direct those resources toward the most impactful problems.</s><s xml:id="_7UmEuhd" coords="6,235.48,427.55,58.54,8.72;6,54.00,437.99,240.03,8.72;6,54.00,448.31,240.06,8.72;6,54.00,458.63,104.11,8.72">Epidemiologists determine the extent of a disease in a community, through measures such as incidence and prevalence, to plan health services, facilities, and health-provider training.</s><s xml:id="_Rhn4XjP" coords="6,160.88,458.63,133.32,8.72;6,54.00,468.95,56.84,8.72">App accessibility could benefit from similar metrics.</s><s xml:id="_uds8zcp" coords="6,114.08,468.95,180.24,8.72;6,54.00,479.39,240.22,8.72;6,54.00,489.71,40.91,8.72">These metrics include disease prevalence, or the extent to which "inaccessibility diseases" occur in an app population.</s><s xml:id="_46hSvqs" coords="6,96.74,489.71,197.54,8.72;6,54.00,500.03,178.70,8.72">For a given disease, metrics also include identifying the prevalence of determinants, or causes of diseases.</s><s xml:id="_9Wqw9wc" coords="6,234.89,500.03,59.42,8.72;6,54.00,510.35,240.13,8.72;6,54.00,520.79,240.07,8.72;6,54.00,531.11,87.76,8.72">Properties of the determinant can also be measured, such as lethality, a measure of severity defined as the likelihood an app will be abandoned due to an accessibility barrier.</s><s xml:id="_mWQc7Jm" coords="6,146.09,531.11,148.06,8.72;6,54.00,541.43,240.18,8.72;6,54.00,551.75,240.22,8.72;6,54.00,562.07,18.83,8.72">Finally, metrics such as incidence that measure how many new cases are emerging over time can help identify whether a new risk factor has emerged that impacts many apps.</s><s xml:id="_fBkmRvs" coords="6,76.20,562.07,217.97,8.72;6,54.00,572.51,81.83,8.72">An example would be an accessibility barrier created by a widespread OS update.</s><s xml:id="_PDj3ZSz" coords="6,138.26,572.51,155.88,8.72;6,54.00,582.83,239.61,8.72">The objective of determining the extent of a disease gives a data-driven focus to addressing app inaccessibility.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_EjzxhuG">Study Natural Histories</head><p xml:id="_bSJHn2r"><s xml:id="_5Jy5ME8" coords="6,54.00,611.06,240.08,8.72;6,54.00,621.38,129.22,8.72">Our next inspiration from epidemiology is the study of the progression of a disease in a host.</s><s xml:id="_FMwQfxf" coords="6,186.84,621.38,107.05,8.72;6,54.00,631.70,240.23,8.72;6,54.00,642.02,240.26,8.72;6,54.00,652.46,89.03,8.72">Epidemiologists map disease progression from exposure to a risk factor or infectious agent, to early disease onset, to the appearance of symptoms, to diagnosis, and finally to outcome.</s><s xml:id="_FBbpsmf" coords="6,147.36,652.46,146.79,8.72;6,54.00,662.78,239.99,8.72;6,54.00,673.10,239.92,8.72;6,54.00,683.42,240.25,8.72;6,54.00,693.74,158.30,8.72">This progression model, known as the natural history of the disease, informs what risk factors and symptoms to be alert for, what impact the disease will have if untreated, and where in the timeline there exist opportunities for preventative or therapeutic treatments <ref type="bibr" coords="6,194.90,693.74,13.92,8.72" target="#b20">[20]</ref>.</s><s xml:id="_vh4xjbf" coords="6,215.08,693.74,79.08,8.72;6,54.00,704.18,239.90,8.72;6,317.93,66.52,240.15,8.72;6,317.93,76.84,240.19,8.72;6,317.93,87.30,40.31,8.72">Rather than modeling the natural history of an "inaccessibility disease," we use similar concepts to model the progression of an app through two important phases of its existence: (1) its creation and maintenance, and (2) its usage <ref type="bibr" coords="6,340.87,87.30,13.90,8.72" target="#b12">[12]</ref>.</s><s xml:id="_WrYdWE8" coords="6,360.67,87.30,197.30,8.72;6,317.93,97.62,239.95,8.72;6,317.93,107.94,239.97,8.72;6,317.93,118.26,240.06,8.72;6,317.93,128.70,66.45,8.72">Modeling how an app progresses through these phases frames thinking about when a host app might be exposed to a risk factor or infectious agent, at what stages in the progressions the disease might manifest and be diagnosable, and what impact the disease might have.</s><s xml:id="_N9GHHjq" coords="6,386.09,128.70,171.86,8.72;6,317.93,139.02,225.14,8.72">The natural histories also inspire when a treatment, preventative or therapeutic, might be applied most effectively.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.1" xml:id="_vRTxyhU">Natural History of App Development</head><p xml:id="_3XZBPUG"><s xml:id="_cEE43N9" coords="6,317.93,165.06,240.31,8.72;6,317.93,175.38,142.94,8.72">The "Natural History of App Development" (Figure <ref type="figure" coords="6,506.86,165.06,3.78,8.72" target="#fig_0">2</ref>) outlines the stages of app creation and maintenance.</s><s xml:id="_SKQw7cF" coords="6,462.93,175.38,95.05,8.72;6,317.93,185.70,240.25,8.72;6,317.93,196.02,140.14,8.72">Pre-birth, or before an app is released, the app goes through iterative steps of conception, design, implementation, and testing.</s><s xml:id="_mfeg7FJ" coords="6,463.60,196.02,94.38,8.72;6,317.93,206.46,135.47,8.72">Interventions within this period are preventative treatments.</s><s xml:id="_wypmrfr" coords="6,459.05,206.46,98.93,8.72;6,317.93,216.78,240.03,8.72;6,317.93,227.10,60.06,8.72">A successful preventative intervention will treat an "inaccessibility disease" before the app is released for use.</s><s xml:id="_SfQXJvs" coords="6,380.99,227.10,176.85,8.72;6,317.93,237.42,240.15,8.72;6,317.93,247.86,147.19,8.72">As with epidemiology, preventative treatment is preferred to therapeutic treatment (i.e., after release), as it prevents placing a burden on the user community.</s><s xml:id="_BX2pS89" coords="6,317.93,465.35,239.99,8.72;6,317.93,475.67,70.00,8.72">However, it is difficult to prevent all "diseases" in an app before the app is released.</s><s xml:id="_8TwmwH3" coords="6,390.70,475.67,167.14,8.72;6,317.93,485.99,240.25,8.72;6,317.93,496.31,79.31,8.72">We then consider the next stages of the app's post-birth life, which is an iteration on pre-birth stages through a series of updates <ref type="bibr" coords="6,379.87,496.31,13.90,8.72" target="#b12">[12]</ref>.</s><s xml:id="_v2NuJRc" coords="6,399.43,496.31,158.63,8.72;6,317.93,506.75,240.19,8.72;6,317.93,517.07,148.87,8.72">These updates might be driven by bug fixes, end-user feedback, the app creator's desire for new or extended features, or any number of other factors.</s><s xml:id="_d97ykjk" coords="6,469.80,517.07,88.15,8.72;6,317.93,527.39,157.58,8.72">This update stage might occur at varying rates, from daily to yearly.</s><s xml:id="_Vbt76X3" coords="6,478.04,527.39,79.82,8.72;6,317.93,537.71,240.15,8.72;6,317.93,548.15,146.39,8.72">This stage presents an opportunity for therapeutic treatments that address accessibility barriers or vulnerabilities in released apps.</s><s xml:id="_VSmDXar" coords="6,465.92,548.15,92.21,8.72;6,317.93,558.47,240.07,8.72">It is unfortunately possible that updates might introduce or worsen "inaccessibility diseases."</s><s xml:id="_Tp4PNJJ" coords="6,317.93,568.79,239.85,8.72">It is therefore beneficial to monitor an app's accessibility over time.</s></p><p xml:id="_tGbm2j9"><s xml:id="_vrmMdRR" coords="6,317.93,582.11,239.91,8.72;6,317.93,592.43,29.83,8.72">The last important milestone in the natural history of development is death.</s><s xml:id="_2DfpGe6" coords="6,349.72,592.43,208.42,8.72;6,317.93,602.90,127.73,8.72">In this stage of natural history, death is defined as when an app is no longer being maintained.</s><s xml:id="_wcbQE5w" coords="6,448.55,602.90,109.46,8.72;6,317.93,613.22,240.17,8.72;6,317.93,623.54,240.24,8.72">A "dead" app will not benefit from treatment aimed at developers or maintainers, such as guidelines or source code testing tools, and requires other forms of remediation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.2" xml:id="_P8DPc4F">Natural History of App Usage</head><p xml:id="_svfRCNV"><s xml:id="_XbZw6xr" coords="6,317.93,649.58,240.14,8.72;6,317.93,659.90,240.15,8.72">We also present the "Natural History of App Usage" (Figure <ref type="figure" coords="6,548.26,649.58,3.27,8.72" target="#fig_1">3</ref>), which focuses on the environment of usage on a device by an end user.</s><s xml:id="_8Gjacyh" coords="6,317.93,670.22,205.68,8.72">An app's usage is born at the beginning of its active use.</s><s xml:id="_Svy5HQz" coords="6,526.02,670.22,32.12,8.72;6,317.93,680.66,189.96,8.72">Pre-birth stages include finding and downloading an app.</s><s xml:id="_mSbkknT" coords="6,513.06,680.66,45.07,8.72;6,317.93,690.98,153.68,8.72">Preventative treatment can be introduced at these stages.</s><s xml:id="_DccEPjv" coords="6,473.54,690.98,84.60,8.72;6,317.93,701.30,240.34,8.72;6,317.93,711.62,217.60,8.72">For example, by adding the ability to filter searches for healthy, accessible apps or by adding an accessibility rating to an app download page.</s><s xml:id="_w77A2aq" coords="6,540.10,711.62,17.94,8.72">Such</s></p><p xml:id="_hNAYEFh"><s xml:id="_W6eAxmS" coords="6,54.00,27.86,180.16,8.14;6,359.68,27.86,91.78,8.14">Session: Interaction Techniques and Frameworks ASSETS'17, Oct. 29-Nov.</s><s xml:id="_XuPKBnw" coords="6,453.69,27.86,104.32,8.14;7,54.00,56.20,240.20,8.72;7,54.00,66.52,228.41,8.72">1, 2017, Baltimore, MD, USA preventative treatments would allow a user to understand the health of the app and potentially avoid trying apps that are "diseased."</s><s xml:id="_Dgyqc5S" coords="7,54.00,252.06,240.10,8.72">An app's usage-birth happens when it is first opened on the device.</s><s xml:id="_raymedr" coords="7,54.00,262.53,240.16,8.72;7,54.00,272.85,142.67,8.72">During usage, barriers caused by "diseases" might be encountered and work-arounds might be attempted.</s><s xml:id="_Yt5Z4sb" coords="7,199.80,272.85,94.15,8.72;7,54.00,283.17,129.74,8.72">Usage-death occurs when the person discontinues use entirely.</s><s xml:id="_6rqtkws" coords="7,185.91,283.17,108.21,8.72;7,54.00,293.49,161.24,8.72">Therapeutic methods could be introduced within usage or abandonment.</s><s xml:id="_Qz8kPMq" coords="7,220.55,293.49,73.44,8.72;7,54.00,303.93,240.14,8.72;7,54.00,314.25,240.02,8.72;7,54.00,324.57,63.42,8.72">An example of an existing treatment is found in Apple's and Google's screen readers, an end-user can create custom button labels for fixing poorly labeled elements.</s><s xml:id="_zdHN6AP" coords="7,120.80,324.57,173.25,8.72;7,54.00,334.89,186.13,8.72">A post-death treatment could prompt a user to submit feedback on why an app's usage has ceased.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4" xml:id="_6JexvB5">Evaluating Existing and New Treatments</head><p xml:id="_CN2ZYZy"><s xml:id="_QJEH3HW" coords="7,54.00,363.09,240.04,8.72;7,54.00,373.41,239.97,8.72;7,54.00,383.73,31.63,8.72">Epidemiology is motivated to collect information to guide the development of intervention methods and modes of health care delivery.</s><s xml:id="_kMpJSse" coords="7,90.32,383.73,203.65,8.72;7,54.00,394.17,240.01,8.72;7,54.00,404.49,119.04,8.72">A key component to achieving that is being able to evaluate the effectiveness of interventions in order to focus efforts on the most promising strategies.</s></p><p xml:id="_vnbTfU5"><s xml:id="_VuMGJGm" coords="7,54.00,418.89,239.97,8.72;7,54.00,429.23,240.11,8.72;7,54.00,439.55,41.59,8.72">App accessibility efforts would benefit from expanding evaluation techniques, such as those motivated by our epidemiology-inspired framework.</s><s xml:id="_zCUyAhE" coords="7,97.88,439.55,196.41,8.72;7,54.00,449.87,240.22,8.72;7,54.00,460.19,240.15,8.72;7,54.00,470.63,239.88,8.72;7,54.00,480.95,182.06,8.72">Existing accessibility enhancement techniques include preventative treatments such as developer guidelines <ref type="bibr" coords="7,259.37,449.87,10.35,8.72" target="#b1">[1,</ref><ref type="bibr" coords="7,269.72,449.87,6.90,8.72" target="#b4">4]</ref> and automatic interface analysis tools <ref type="bibr" coords="7,184.70,460.19,10.84,8.72">[5,</ref><ref type="bibr" coords="7,195.55,460.19,10.84,8.72" target="#b19">19]</ref> as well as therapeutic treatments such as adding custom labels for screen readers and forums where people can search for assistance <ref type="bibr" coords="7,223.25,480.95,9.61,8.72" target="#b5">[6]</ref>.</s></p><p xml:id="_X499MhM"><s xml:id="_XwwsZaq" coords="7,54.00,495.35,239.85,8.72;7,54.00,505.67,240.07,8.72;7,54.00,515.99,240.08,8.72">Some existing treatments might have been tested on a small scale with user testing or on a small number of apps, but systematic population-based longitudinal multi-factor analyses are lacking.</s><s xml:id="_ysdF6Dv" coords="7,54.00,526.31,240.13,8.72;7,54.00,536.75,240.24,8.72;7,54.00,547.07,112.67,8.72">Such analyses could provide more insights into the effectiveness of treatments that address accessibility diseases and highlight opportunities for improvement.</s></p><p xml:id="_DW3adFZ"><s xml:id="_mMEzjSs" coords="7,54.00,561.35,240.08,8.72;7,54.00,571.79,240.27,8.72;7,54.00,582.11,240.02,8.72;7,54.00,592.43,240.17,8.72;7,54.00,602.78,240.09,8.72;7,54.00,613.22,240.35,8.72;7,54.00,623.54,240.20,8.72">Example metrics from epidemiology include: (1) tracking the prevalence or lethality of different disease determinants, or causes, in the population (e.g., how many Android apps have an unlabeled image button, or how many apps in that same population are abandoned because of that "inaccessibility disease"); (2) performing such tracking before and after a treatment is introduced (e.g., adding the empty content description warning in Android Studio), and</s></p><p xml:id="_Qqw4zrh"><s xml:id="_PeRd2RR" coords="7,54.00,633.86,239.98,8.72;7,54.00,644.18,239.92,8.72;7,54.00,654.62,145.55,8.72">(3) examining whether a treatment influences factors as expected (e.g., logging whether missing content description warnings are frequently muted in Android Studio).</s><s xml:id="_DZ2Qyxr" coords="7,204.65,654.62,89.32,8.72;7,54.00,664.94,225.61,8.72">An impactful treatment should be reflected in the metrics of the whole population.</s><s xml:id="_W9EQjnF" coords="7,283.59,664.94,10.50,8.72;7,54.00,675.26,240.09,8.72;7,54.00,685.58,185.00,8.72">By collecting population-level longitudinal multi-factor data, we can better evaluate the strength of different approaches.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5" xml:id="_XRrTGH4">Breaking the Chain of Infection</head><p xml:id="_tuGb9u5"><s xml:id="_y2UXFY6" coords="7,317.93,70.00,240.26,8.72;7,317.93,80.32,240.08,8.72;7,317.93,90.66,240.14,8.72">Although not one of Gordis' five objectives of epidemiology <ref type="bibr" coords="7,540.82,70.00,13.90,8.72" target="#b20">[20]</ref>, the Chain of Infection <ref type="bibr" coords="7,397.99,80.32,14.98,8.72" target="#b14">[14]</ref> (Figure <ref type="figure" coords="7,443.46,80.32,3.78,8.72" target="#fig_2">4</ref>) is another helpful concept for understanding how different factors interact in the spread of disease.</s></p><p xml:id="_yVZ38s6"><s xml:id="_968PWQE" coords="7,317.93,101.10,240.12,8.72;7,317.93,111.42,117.35,8.72">The chain portrays the links between a disease agent, a susceptible host, and how a disease spreads.</s><s xml:id="_mW6YWQj" coords="7,437.69,111.42,120.24,8.72;7,317.93,121.74,240.16,8.72">We similarly conceptually model different hosts, agents, and reservoirs for app accessibility barriers.</s><s xml:id="_d9Tkb2Q" coords="7,317.93,132.06,239.96,8.72;7,317.93,142.50,113.53,8.72">This model structures an understanding of the interactions between agents, hosts, and transmission.</s><s xml:id="_GKcqpH8" coords="7,317.93,367.61,240.20,8.37;7,317.93,376.73,240.31,8.37;7,317.93,385.97,139.26,8.37">Working to break the chain at any one major link-infectious agent, reservoir, transmission, portal of entry, or susceptible host-can guide where treatments are introduced.</s><s xml:id="_dX5CZ6j" coords="7,459.43,385.97,56.99,8.37">Inspired by <ref type="bibr" coords="7,500.86,385.97,12.44,8.37" target="#b14">[14]</ref>.</s></p><p xml:id="_mxZNmAu"><s xml:id="_gsn2Tfr" coords="7,317.93,401.73,240.30,8.72;7,317.93,412.17,85.55,8.72">This model is further useful with its extension into Breaking the Chain of Infection <ref type="bibr" coords="7,386.11,412.17,13.90,8.72" target="#b14">[14]</ref>.</s><s xml:id="_ZSWCUk5" coords="7,405.89,412.17,152.23,8.72;7,317.93,422.49,80.91,8.72">If any link of the chain is broken, then the disease cannot spread.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6" xml:id="_MZEqrgv">Inform Public Policy and Regulation</head><p xml:id="_vXXRU7k"><s xml:id="_RQEP6yz" coords="8,54.00,70.00,240.15,8.72;8,54.00,80.32,240.04,8.72;8,54.00,90.66,31.19,8.72">Epidemiology's consideration of multi-factor and population-level influences on health within an ecosystem guides data collection and analysis.</s><s xml:id="_BxTHyhT" coords="8,87.98,90.66,206.22,8.72">In turn, that data can be applied to impact public health.</s><s xml:id="_XDDXzpc" coords="8,54.00,101.10,240.21,8.72;8,54.00,111.42,240.23,8.72;8,54.00,121.74,239.98,8.72;8,54.00,132.06,106.96,8.72">Mirroring Gordis' <ref type="bibr" coords="8,121.10,101.10,14.99,8.72" target="#b20">[20]</ref> final objective for epidemiology, Informing Public Policy and Regulation, we consider how a population-based model of app accessibility can change the app environment to enhance the health of apps.</s><s xml:id="_A3bPgAZ" coords="8,165.52,132.06,128.71,8.72;8,54.00,142.50,240.19,8.72;8,54.00,152.82,239.99,8.72;8,54.00,163.14,136.58,8.72">Changes could include legislation (e.g., web accessibility [32]), company-enforced vetting of apps, initiatives to inform developers, or initiatives to educate people on available treatments for their apps.</s><s xml:id="_NXmZ9MB" coords="8,195.74,163.14,98.46,8.72;8,54.00,173.46,168.08,8.72">Data-driven direction and structure can propel these changes to happen.</s><s xml:id="_xG5wu8V" coords="8,225.22,173.46,68.98,8.72;8,54.00,183.90,240.13,8.72;8,54.00,194.22,239.89,8.72">For example, as in the introduction of this paper, the percentage of people in the world with disabilities is often used as motivation for accessibility work.</s><s xml:id="_TBATy9y" coords="8,54.00,204.54,240.10,8.72;8,54.00,214.86,220.51,8.72">Similar data around the prevalence and lethality, or impact, of app accessibility problems could compel policy changes.</s><s xml:id="_WenA7qg" coords="8,283.15,214.86,11.00,8.72;8,54.00,225.30,240.17,8.72;8,54.00,235.62,192.02,8.72">An epidemiology-inspired framework helps inform what data collection, analysis, and presentation might look like.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_MqX3KB8">EXERCISING THE FRAMEWORK</head><p xml:id="_dh9ytwK"><s xml:id="_5Jjsp2c" coords="8,54.00,263.73,240.05,8.72;8,54.00,274.17,240.05,8.72;8,54.00,284.49,62.33,8.72">Our chief contribution in this paper is conceptual, providing a new framework that reshapes how we think about and work to improve app accessibility.</s><s xml:id="_zA7A9JH" coords="8,119.18,284.49,174.93,8.72;8,54.00,294.81,240.07,8.72;8,54.00,305.13,234.09,8.72">To demonstrate how this framework guided our own thinking, we present an initial empirical study of the prevalence of various "inaccessibility diseases" in Android apps.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1" xml:id="_wYuDjd8">Method</head><p xml:id="_4x954Mj"><s xml:id="_pGNQSMN" coords="8,54.00,333.33,240.17,8.72;8,54.00,343.65,18.82,8.72">We took a stratified sample from the population of top free Android apps.</s><s xml:id="_4CXASnK" coords="8,75.46,343.65,218.48,8.72;8,54.00,353.97,240.15,8.72;8,54.00,364.41,240.04,8.72;8,54.00,374.73,239.92,8.72;8,54.00,385.05,41.35,8.72">Apps were selected from the "top downloaded, free" lists in the Google Play Store in each of ten categories (i.e., our strata): Business, Communication, Education, Entertainment, Health and Fitness, Maps and Navigation, Medical, Productivity, Shopping, and Social.</s><s xml:id="_XaWVCmY" coords="8,99.02,385.05,195.21,8.72;8,54.00,395.37,240.12,8.72;8,54.00,405.81,223.44,8.72">We excluded apps that required a specialized log-in (e.g., a bank account or subscription) or blocked automated scanning (e.g., banking apps often block taking screenshots).</s><s xml:id="_Rnvrs5c" coords="8,280.33,405.81,13.86,8.72;8,54.00,416.13,207.57,8.72">Ten apps from each category were analyzed, totaling 100 apps.</s><s xml:id="_JfPJDrh" coords="8,263.26,416.13,30.76,8.72;8,54.00,426.45,138.08,8.72">For each app, 4-8 primary tasks were identified.</s><s xml:id="_PeCAShE" coords="8,194.14,426.45,100.08,8.72;8,54.00,436.79,240.07,8.72;8,54.00,447.23,239.94,8.72;8,54.00,457.55,29.74,8.72">For example, in the "Indeed Job Search" app, the tasks were as follows: recover forgotten password, log-in, search for jobs, apply for jobs, and access settings.</s><s xml:id="_wBU3nuR" coords="8,87.26,457.55,207.02,8.72;8,54.00,467.87,240.14,8.72;8,54.00,478.19,216.70,8.72">Google's Accessibility Scanner <ref type="bibr" coords="8,206.45,457.55,14.99,8.72" target="#b19">[19]</ref> was the diagnostic tool used to scan each screen required to complete the tasks for determinants of various "inaccessibility diseases" (Table <ref type="table" coords="8,260.89,478.19,3.27,8.72" target="#tab_4">2</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2" xml:id="_zHTF2Ya">Results</head><p xml:id="_YfpTbf5"><s xml:id="_dZKG4h8" coords="8,317.93,70.00,240.12,8.72;8,317.93,80.32,160.29,8.72">The prevalence of each disease determinant is the number of apps in which each error occurred (Figure <ref type="figure" coords="8,468.42,80.32,3.27,8.72">5</ref>).</s><s xml:id="_fqfY4z9" coords="8,483.16,80.32,74.69,8.72;8,317.93,90.66,239.94,8.72;8,317.93,101.10,104.41,8.72">The most prevalent determinants are Touch Target (95% of apps), Item Label (94%), and Text Contrast (94%).</s><s xml:id="_KKCJSYx" coords="8,428.84,101.10,129.08,8.72;8,317.93,111.42,239.86,8.72;8,317.93,121.74,24.80,8.72">Slightly less prevalent are Item Descriptions (85%), Image Contrast (85%), and Clickable Items (57%).</s><s xml:id="_tHTzKyA" coords="8,346.70,121.74,211.04,8.72;8,317.93,132.06,182.41,8.72">The least prevalent determinants were Item Type Label (20%), Editable Item Label (10%), and Link (1%).</s></p><p xml:id="_kaNvWkv"><s xml:id="_DuEAREG" coords="8,317.93,337.73,36.18,8.78">Figure <ref type="figure" coords="8,347.56,337.73,3.28,8.78">5</ref>.</s><s xml:id="_QWYhyYF" coords="8,359.23,337.73,198.73,8.37;8,317.93,347.09,240.04,8.37;8,317.93,356.21,103.55,8.37">The high prevalence of disease in the tested apps highlights that apps are still largely inaccessible, even for simple determinants like item labels.</s><s xml:id="_shyQhrX" coords="8,423.91,356.21,134.04,8.37;8,317.93,365.45,240.29,8.37">All of these determinants can result in various "inaccessibility diseases," like the "inaccessible button disease."</s></p><p xml:id="_C3gBa4D"><s xml:id="_8Yxzx7T" coords="8,317.93,379.29,240.23,8.72;8,317.93,389.61,204.67,8.72">To provoke thinking about whether determinants co-occur, Figure <ref type="figure" coords="8,553.66,379.29,4.50,8.72" target="#fig_3">6</ref> presents the distribution of disease determinants per app.</s><s xml:id="_bYjS2Qr" coords="8,524.98,389.61,33.18,8.72;8,317.93,399.93,239.99,8.72;8,317.93,410.37,240.16,8.72;8,317.93,420.69,153.38,8.72">Based on the determinants tested, all of the apps had some form of an "inaccessibility disease;" in other words, they all presented at least one of the nine determinants as symptoms.</s><s xml:id="_e5HkEHr" coords="8,473.74,420.69,84.47,8.72;8,317.93,431.03,240.12,8.72;8,317.93,441.35,21.68,8.72">Seventy-two percent of apps were diagnosed with either five or six determinants (36% each).</s><s xml:id="_uWy858x" coords="8,342.63,441.35,215.25,8.72;8,317.93,451.79,240.32,8.72;8,317.93,462.11,240.21,8.72;8,317.93,472.43,160.28,8.72">The remaining distribution is skewed slightly left with 3% of apps diagnosed with one determinant, 2% of apps with two, 2% with three, 9% with four, 10% with seven, 3% with eight, and no apps presenting a case with all determinants.</s><s xml:id="_XSmEp7g" coords="8,480.40,472.43,77.74,8.72;8,317.93,482.75,240.27,8.72;8,317.93,493.19,189.51,8.72">It is important to note the limitations of the Google Accessibility Scanner diagnostic tool and the impact those limitations have on the results.</s><s xml:id="_2Jhe6y9" coords="8,510.08,493.19,47.61,8.72;8,317.93,503.51,240.08,8.72;8,317.93,513.83,125.07,8.72">For example, the three apps with a single determinant all presented a single Item Label error on all tested screens.</s><s xml:id="_mXDmWu8" coords="8,446.96,513.83,111.21,8.72;8,317.93,524.15,240.15,8.72;8,317.93,534.59,240.17,8.72;8,317.93,544.91,214.94,8.72">In each case, the single error reflected the fact that their entire interface was a canvas that presented itself as a single item to the accessibility API (i.e., the entire screen is inaccessible, but only one error is reported).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3" xml:id="_yR9KBAt">Discussion of Results</head><p xml:id="_vTn6wx3"><s xml:id="_kMnArgt" coords="8,317.93,572.99,240.10,8.72;8,317.93,583.43,181.10,8.72">To our knowledge, there is no large-scale census of how prevalent different accessibility barriers are in mobile apps.</s><s xml:id="_u8KCqu3" coords="8,501.80,583.43,56.32,8.72;8,317.93,593.75,239.78,8.72;8,317.93,604.10,240.19,8.72;8,317.93,614.42,18.82,8.72">The prevalence report presented above works toward such a census on the most prominent accessibility barriers in the population of top Android apps.</s><s xml:id="_6ekdFPa" coords="8,342.63,614.42,215.09,8.72;8,317.93,624.86,240.04,8.72;8,317.93,635.18,71.95,8.72">Our findings, albeit preliminary, show that significant accessibility barriers, such as missing item labels, are still widely prevalent in apps.</s><s xml:id="_9d4sRgF" coords="8,396.12,635.18,161.79,8.72;8,317.93,645.50,240.00,8.72;8,317.93,655.82,239.96,8.72;8,317.93,666.26,240.15,8.72;8,317.93,676.58,138.96,8.72">Situating these findings within our new conceptual framework, we can see how this type of data can motivate the need for dedicating resources to reducing even basic accessibility barriers and serve as a metric for evaluating the effectiveness of existing interventions.</s></p><p xml:id="_TRgw3Qp"><s xml:id="_XGhPh23" coords="8,54.00,27.86,180.16,8.14;8,359.68,27.86,91.78,8.14">Session: Interaction Techniques and Frameworks ASSETS'17, Oct. 29-Nov.</s><s xml:id="_Xk46akT" coords="8,453.69,27.86,104.32,8.14;9,54.00,253.26,239.85,8.72;9,54.00,263.73,179.62,8.72">1, 2017, Baltimore, MD, USA Although prevalence is one useful metric of app accessibility, it does not alone capture disease causes or impact.</s><s xml:id="_kgTG7Fg" coords="9,236.77,263.73,57.39,8.72;9,54.00,274.05,240.02,8.72;9,54.00,284.37,28.74,8.72">The lethality of each case of inaccessibility varies due to the determinant and context.</s><s xml:id="_S3H2T3w" coords="9,85.53,284.37,208.79,8.72;9,54.00,294.69,145.15,8.72">For example, the Item Label error is more lethal than the Item Type Label for a screen reader user.</s><s xml:id="_ZuUNa5x" coords="9,200.98,294.69,93.02,8.72;9,54.00,305.13,239.97,8.72;9,54.00,315.45,45.42,8.72">A Touch Target error may be more lethal for someone with a motor impairment than an Item Label error.</s><s xml:id="_gryXTsQ" coords="9,104.72,315.45,189.46,8.72;9,54.00,325.77,239.95,8.72;9,54.00,336.09,164.92,8.72">These observations motivate the development of advanced diagnostic tools and techniques that can give deeper insights into the most impactful determinants.</s></p><p xml:id="_jQkUbGR"><s xml:id="_FMPbZW3" coords="9,54.00,350.49,240.03,8.72;9,54.00,360.81,98.03,8.72">There are many co-occurrences of different determinants of inaccessibility (Figure <ref type="figure" coords="9,142.22,360.81,3.27,8.72" target="#fig_3">6</ref>).</s><s xml:id="_PnGUUJe" coords="9,157.22,360.81,137.01,8.72;9,54.00,371.13,189.98,8.72">Cases where different lethalities of similar determinants co-occur are of special interest.</s><s xml:id="_SsjBHEz" coords="9,246.51,371.13,47.52,8.72;9,54.00,381.57,240.01,8.72;9,54.00,391.89,81.23,8.72">For example, Item Description and Item Label are similar errors but Item Label is usually more lethal.</s><s xml:id="_KDqsRGj" coords="9,138.12,391.89,155.82,8.72;9,54.00,402.21,240.37,8.72;9,54.00,412.53,171.66,8.72">An Item Label error will result in a screen reader saying "unlabeled button" versus an Item Description error will cause it to redundantly say "save button button."</s><s xml:id="_4ppbzbp" coords="9,227.43,412.53,66.76,8.72;9,54.00,422.97,239.92,8.72;9,54.00,433.31,123.60,8.72">The co-occurrence of these determinants raises the question of why some elements get poor labels while others get none.</s><s xml:id="_3wqGE2r" coords="9,180.37,433.31,113.82,8.72;9,54.00,443.63,240.04,8.72;9,54.00,453.95,239.91,8.72;9,54.00,464.39,33.79,8.72">The fact that the co-occurrence was not an isolated incident (at least 11% of apps tested had both errors) suggests that there might be underlying common factors involved.</s><s xml:id="_6ZkNxGJ" coords="9,91.64,464.39,202.39,8.72;9,54.00,474.71,239.95,8.72;9,54.00,485.03,239.97,8.72;9,54.00,495.35,240.09,8.72;9,54.00,505.79,240.03,8.72;9,54.00,516.11,240.29,8.72;9,54.00,526.43,240.17,8.72;9,54.00,536.75,188.18,8.72">A more detailed analysis of what tools, education, or other factors contributed to some elements being labeled while others were not would give insight into: <ref type="bibr" coords="9,205.73,485.03,10.56,8.72" target="#b1">(1)</ref> in what stages of an app's natural history of development and usage it might be exposed to different infectious agents and determinants (e.g., what libraries are associated with unlabeled versus poorly labeled elements); (2) the effectiveness of current treatments; and (3) where in the chain of infection new treatments might be most effective.</s></p><p xml:id="_FY5hFT9"><s xml:id="_vtvwhp2" coords="9,54.00,551.15,240.20,8.72;9,54.00,561.47,51.79,8.72">Our results also highlight the limitations of current accessibility analysis tools.</s><s xml:id="_28BxTAB" coords="9,108.80,561.47,185.12,8.72;9,54.00,571.79,240.09,8.72;9,54.00,582.23,93.21,8.72">As noted above, the three apps that only have one error are due to the whole interface canvas being represented as a single, unlabeled element.</s><s xml:id="_YMxBRy5" coords="9,149.16,582.23,144.80,8.72;9,54.00,592.55,147.75,8.72">This design makes them among the most inaccessible apps for screen reader users.</s><s xml:id="_3G4ffBd" coords="9,204.04,592.55,90.17,8.72;9,54.00,602.90,239.84,8.72;9,54.00,613.22,240.32,8.72;9,54.00,623.66,65.83,8.72">Yet our current approach of counting types of errors, based on the granularity of the Accessibility Scanner, does not reflect the magnitude of those single error cases.</s><s xml:id="_D29kZa2" coords="9,122.71,623.66,171.45,8.72;9,54.00,633.98,177.02,8.72">Advancements in diagnostic tools would allow for the collection of better overall health metrics.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6." xml:id="_NU9pzcD">TAKEAWAYS AND FUTURE WORK</head><p xml:id="_XtjtPA5"><s xml:id="_aPvSjxG" coords="9,54.00,662.06,240.09,8.72;9,54.00,672.50,240.04,8.72">Our epidemiology-inspired framework has influenced how we approach app accessibility, driving our initial prevalence analysis.</s><s xml:id="_VsErBrp" coords="9,54.00,682.82,240.09,8.72;9,54.00,693.14,239.84,8.72;9,54.00,703.46,239.99,8.72;9,317.93,56.20,132.71,8.72">Situating our analysis and findings within the framework guided our methods, structured the types of phenomena we investigated, and gave us language to discuss the results and how they impact the larger ecosystem of app accessibility.</s><s xml:id="_rjDCfHX" coords="9,452.58,56.20,105.56,8.72;9,317.93,66.52,240.24,8.72;9,317.93,76.84,116.26,8.72">The framework also provided many opportunities for considering future work in understanding and enhancing app accessibility.</s></p><p xml:id="_Wdc2Wx5"><s xml:id="_UGTKG9g" coords="9,317.93,91.26,240.18,8.72;9,317.93,101.58,240.19,8.72;9,317.93,112.02,240.04,8.72;9,317.93,122.34,70.07,8.72">The primary purpose and contribution of this paper is to introduce the epidemiology-inspired framework for app accessibility and to put a small piece of it through its paces in a preliminary analysis of disease prevalence.</s><s xml:id="_rSKyB76" coords="9,390.43,122.34,167.52,8.72;9,317.93,132.66,239.94,8.72;9,317.93,142.98,91.83,8.72">But, as the size of the entire framework makes clear, there are many other aspects of accessibility that can be measured in future work.</s><s xml:id="_KCuYrP6" coords="9,412.63,142.98,145.36,8.72;9,317.93,153.42,240.17,8.72;9,317.93,163.74,240.19,8.72;9,317.93,174.06,240.10,8.72;9,317.93,184.38,205.58,8.72">Creating tools that allow for large-scale population-level analyses, tracing "inaccessibility diseases" in apps to identify potential agents (e.g., the Android Studio icon button example), and designing novel interventions beyond guidelines and individual developer tools are priorities for future work.</s><s xml:id="_GXaZYvQ" coords="9,526.42,184.38,31.82,8.72;9,317.93,194.70,240.10,8.72;9,317.93,205.14,102.27,8.72">Our new conceptual framework provides the motivation and structure to explore these opportunities.</s><s xml:id="_A9wmBtW" coords="9,423.79,205.14,134.13,8.72;9,317.93,215.46,240.25,8.72;9,317.93,225.78,240.09,8.72;9,317.93,236.10,227.66,8.72">We acknowledge the sheer size and complexity of the epidemiology-inspired framework, but find it proportional to the problems and opportunities associated with improving the accessibility of the entire mobile app ecosystem.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7." xml:id="_AMNntbS">CONCLUSION</head><p xml:id="_BvAYJWb"><s xml:id="_tssjsmT" coords="9,317.93,264.33,240.06,8.72;9,317.93,274.65,240.13,8.72;9,317.93,285.09,240.45,8.72;9,317.93,295.41,59.99,8.72">We have shown how epidemiology's motivation, language, techniques, and models are highly transferrable to the challenge of mobile app accessibility on a population-level, beyond just addressing individual apps.</s><s xml:id="_PMgWhsC" coords="9,382.51,295.41,175.53,8.72;9,317.93,305.73,240.20,8.72;9,317.93,316.05,239.97,8.72;9,317.93,326.37,205.82,8.72">It is our hope that our epidemiology-inspired framework will shape, guide, and inform our current methods and priorities for addressing app accessibility by incorporating multi-factor, longitudinal, and population-level concepts.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="6,317.93,423.77,240.05,8.78;6,317.93,433.03,239.98,8.37;6,317.93,442.27,240.03,8.37;6,317.93,451.51,129.35,8.37"><head>Figure 2 .</head><label>2</label><figDesc><div><p xml:id="_WZ7xNBr"><s xml:id="_EJVfAUf" coords="6,317.93,423.77,240.05,8.78;6,317.93,433.03,239.98,8.37;6,317.93,442.27,106.99,8.37">Figure 2. The natural history of app development model represents the design and implementation process an app goes through pre-release and post-release.</s><s xml:id="_rqMUYna" coords="6,428.32,442.27,129.64,8.37;6,317.93,451.51,129.35,8.37">It serves as a framework for where new treatments might be introduced.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="7,54.00,190.10,240.27,8.78;7,54.00,199.46,240.12,8.37;7,54.00,208.70,240.23,8.37;7,54.00,217.82,240.12,8.37;7,54.00,227.06,240.30,8.37;7,54.00,236.30,239.53,8.37"><head>Figure 3 .</head><label>3</label><figDesc><div><p xml:id="_pzdPMVx"><s xml:id="_Zdkp7Xz" coords="7,54.00,190.10,34.62,8.78">Figure 3.</s><s xml:id="_K99Xdb6" coords="7,92.18,190.10,202.09,8.37;7,54.00,199.46,240.12,8.37;7,54.00,208.70,28.14,8.37">The natural history of app usage model represents the process by which an end user finds, downloads, uses, and abandons an app.</s><s xml:id="_9hbmTsz" coords="7,85.89,208.70,208.33,8.37">The usage stage includes first usage, or birth of usage.</s><s xml:id="_eCnZ3UJ" coords="7,54.00,217.82,240.12,8.37;7,54.00,227.06,179.93,8.37">Within usage, someone might cycle through the stages of encountering a barrier and trying to work around it.</s><s xml:id="_GAJWHW6" coords="7,236.25,227.06,58.05,8.37;7,54.00,236.30,239.53,8.37">The progression could ultimately end when a user abandons an app and usage dies.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="7,317.93,349.01,240.09,8.78;7,317.93,358.37,240.10,8.37;7,317.93,367.61,240.20,8.37;7,317.93,376.73,240.31,8.37;7,317.93,385.97,198.49,8.37"><head>Figure 4 .</head><label>4</label><figDesc><div><p xml:id="_F7dvUya"><s xml:id="_6K8jVeS" coords="7,317.93,349.01,37.50,8.78">Figure 4.</s><s xml:id="_qbuWZPk" coords="7,361.75,349.01,196.27,8.37;7,317.93,358.37,240.10,8.37;7,317.93,367.61,240.20,8.37;7,317.93,376.73,240.31,8.37;7,317.93,385.97,139.26,8.37">The Chain of Infection helps visualize where an accessibility barrier originates and how it spreads into host apps.Working to break the chain at any one major link-infectious agent, reservoir, transmission, portal of entry, or susceptible host-can guide where treatments are introduced.</s><s xml:id="_SQpmcjB" coords="7,459.43,385.97,56.99,8.37">Inspired by<ref type="bibr" coords="7,500.86,385.97,12.44,8.37" target="#b14">[14]</ref>.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="9,54.00,219.02,240.20,8.78;9,54.00,228.26,240.21,8.37;9,54.00,237.50,226.53,8.37"><head>Figure 6 .</head><label>6</label><figDesc><div><p xml:id="_pw6BNgW"><s xml:id="_vCsuHdf" coords="9,54.00,219.02,35.14,8.78">Figure 6.</s><s xml:id="_7EYBgtp" coords="9,96.98,219.02,197.21,8.37;9,54.00,228.26,222.21,8.37">The distribution of the number of errors in each app explores co-occurrences of different disease determinants.</s><s xml:id="_KUHsMge" coords="9,281.29,228.26,12.92,8.37;9,54.00,237.50,226.53,8.37">Cooccurrence might suggest different underlying influential factors.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="4,317.93,209.10,240.29,194.99"><head></head><label></label><figDesc><div><p xml:id="_JqFFN2w"><s xml:id="_mwpcc38" coords="4,374.67,209.10,183.55,8.72;4,317.93,219.42,240.10,8.72;4,317.93,229.86,210.40,8.72">These factors include individual behavior such as code reuse through libraries, copying from repositories or tutorials, frequency of updates, testing techniques, and tools used.</s><s xml:id="_BfUggN4" coords="4,531.57,229.86,26.52,8.72;4,317.93,240.18,239.90,8.72;4,317.93,250.50,240.02,8.72">Factors such as tools, testing, and code provenance not only reflect what app building strategies are used but also the trust in those strategies.</s><s xml:id="_zX3CX24" coords="4,317.93,260.85,240.07,8.72;4,317.93,271.29,198.29,8.72">Having high trust in a tool might reduce developer sense of responsibility for investigating accessibility barriers.</s><s xml:id="_rBZ6HRA" coords="4,521.02,271.29,37.15,8.72;4,317.93,281.61,170.44,8.72">Individual demographics are closely tied to these factors.</s><s xml:id="_sZ3C7RW" coords="4,491.25,281.61,66.74,8.72;4,317.93,291.93,204.98,8.72">These include app age and category (e.g., travel, shopping, entertainment).</s><s xml:id="_JsVHraq" coords="4,525.80,291.93,32.24,8.72;4,317.93,302.25,211.12,8.72">The next section of the spectrum is more extrinsic than intrinsic.</s><s xml:id="_vFTBAAp" coords="4,533.02,302.25,24.89,8.72;4,317.93,312.57,240.15,8.72">Within physical context, there is the device upon which the app is running,</s></p></div></figDesc><table /><note coords="4,317.93,323.01,240.06,8.72;4,317.93,333.33,240.09,8.72;4,317.93,343.65,239.90,8.72;4,317.93,353.97,239.91,8.72;4,317.93,364.41,240.00,8.72;4,317.93,374.73,239.86,8.72;4,317.93,385.05,239.90,8.72;4,317.93,395.37,162.98,8.72"><p xml:id="_Bwa6Ss3"><s xml:id="_DbxmDfJ" coords="4,317.93,323.01,240.06,8.72;4,317.93,333.33,41.10,8.72">the OS and OS version, and any accessibility software or hardware being used.</s><s xml:id="_5Rbnruv" coords="4,361.45,333.33,196.58,8.72;4,317.93,343.65,139.57,8.72">These elements have fewer direct interactions with the app's biological and genetic factors.</s><s xml:id="_V89cSbA" coords="4,462.18,343.65,95.65,8.72;4,317.93,353.97,239.91,8.72;4,317.93,364.41,187.50,8.72">Yet physical context can impact an app's accessibility based on how the source code and physical context interact and support one another.</s><s xml:id="_j9utmhR" coords="4,509.26,364.41,48.67,8.72;4,317.93,374.73,239.86,8.72;4,317.93,385.05,239.90,8.72;4,317.93,395.37,162.98,8.72">For example, different versions of a screen reader might interact differently with app source code, resulting in different levels of accessibility within the same app, dependent on physical context.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="4,54.00,422.81,499.92,267.41"><head>Table 1 :</head><label>1</label><figDesc><div><p xml:id="_4F2AFhu"><s xml:id="_cNJFfCn" coords="4,90.62,422.81,331.32,8.37">Epidemiology-inspired terminology and its mapping to mobile app accessibility with examples.</s><s xml:id="_nvFjVmu" coords="4,424.04,422.81,118.76,8.37;5,332.71,69.84,192.56,8.37">(a) Terms describing a single app Terms for taking action on epidemiology-inspired data.</s></p></div></figDesc><table coords="4,54.00,436.59,499.92,253.64"><row><cell cols="2">(a) Terms Describing an App</cell><cell></cell><cell></cell></row><row><cell>Term</cell><cell>Epidemiology</cell><cell>Accessibility</cell><cell>Example(s)</cell></row><row><cell>Health</cell><cell>State of complete physical, social, and mental</cell><cell>State of complete accessibility and usability,</cell><cell>An app has all its buttons labeled but</cell></row><row><cell></cell><cell>well-being, not just the absence of disease</cell><cell>not merely the absence of obvious accessibility</cell><cell>their labels so poorly describe their</cell></row><row><cell></cell><cell></cell><cell>problems</cell><cell>functions that the app is almost</cell></row><row><cell></cell><cell></cell><cell></cell><cell>impossible to use</cell></row><row><cell>Disease</cell><cell>A condition that interferes with a vital physiological</cell><cell>An accessibility barrier</cell><cell>An app with a calendar that cannot be</cell></row><row><cell></cell><cell>process</cell><cell></cell><cell>traversed with a screen reader would</cell></row><row><cell></cell><cell></cell><cell></cell><cell>have an "inaccessible calendar disease"</cell></row><row><cell>Host</cell><cell>An organism that can be infected</cell><cell>An app that can have an accessibility barrier</cell><cell>A specific app (e.g., the Yelp app)</cell></row><row><cell>Case</cell><cell>An instance of a particular condition</cell><cell>A single instance of an app with an</cell><cell>An instance of the Toggl app with an</cell></row><row><cell></cell><cell></cell><cell>inaccessibility disease</cell><cell>unlabeled button</cell></row><row><cell>Infectious Agent</cell><cell>An entity that carries and transmits a disease</cell><cell>A component that carries or transmits disease</cell><cell>The icon button widget from Android</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Studio (see Section 2.1)</cell></row><row><cell>Determinant</cell><cell>A factor (entity, characteristic, behavior, or event)</cell><cell>The root cause (element, characteristic, code, or</cell><cell>The missing content description within</cell></row><row><cell></cell><cell>that directly influences disease occurrence</cell><cell>design) of an accessibility barrier</cell><cell>the button's source code</cell></row><row><cell>Factor</cell><cell>An aspect of behavior, lifestyle, environment, or</cell><cell>A characteristic of an app or of the ecosystem in</cell><cell>(See Factors and Causation Section 4.1)</cell></row><row><cell></cell><cell>inherited characteristic that is associated with</cell><cell>which an app is developed, maintained, and used</cell><cell></cell></row><row><cell></cell><cell>increased occurrence of a disease</cell><cell>that impact the likelihood of an app having an</cell><cell></cell></row><row><cell></cell><cell></cell><cell>inaccessibility disease. Can be risk or protective</cell><cell></cell></row><row><cell>Usual Source</cell><cell>The place a patient usually goes when sick or</cell><cell>The way an app is normally tested for</cell><cell>Automated tests;</cell></row><row><cell>of Care</cell><cell>needing advice about health</cell><cell>accessibility</cell><cell>Blindfolded developer</cell></row><row><cell>Diagnosis</cell><cell>The process of determining by examination the</cell><cell>The process of determining the existence and</cell><cell>By hand exploration;</cell></row><row><cell></cell><cell>nature and circumstances of a disease</cell><cell>cause of an accessibility barrier</cell><cell>Google Accessibility Scanner</cell></row><row><cell>Life Expectancy</cell><cell>Average number of years of life remaining based on</cell><cell></cell><cell></cell></row><row><cell></cell><cell>individual, population, and environment</cell><cell></cell><cell></cell></row><row><cell></cell><cell>characteristics</cell><cell></cell><cell></cell></row></table><note coords="4,282.17,664.33,139.68,7.54;4,282.17,673.45,137.58,7.54;4,282.17,682.69,129.11,7.54;4,435.19,664.33,82.62,7.54;4,435.19,673.45,81.93,7.54;4,435.19,682.69,40.22,7.54;5,58.56,69.84,271.88,8.78"><p xml:id="_baTRdGe"><s xml:id="_hfyqHa6" coords="4,282.17,664.33,139.68,7.54;4,282.17,673.45,137.58,7.54;4,282.17,682.69,42.16,7.54">How long before an app is abandoned based on its risk and protective factors, environment, and characteristics.</s><s xml:id="_xkCdxA4" coords="4,325.98,682.69,85.30,7.54;4,435.19,664.33,82.62,7.54;4,435.19,673.45,81.93,7.54;4,435.19,682.69,40.22,7.54;5,58.56,69.84,49.04,8.78">Can be of development or use How long app is maintained; Time between download and abandonment Table 1 cont.</s><s xml:id="_4ZAqhJN" coords="5,109.82,69.84,112.48,8.78">(b) Terms describing a disease.</s><s xml:id="_HeeqpmJ" coords="5,224.57,69.84,93.41,8.78">(c) Population-level terms.</s><s xml:id="_QamWYYD" coords="5,320.21,69.84,10.23,8.78">(d)</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="7,317.93,422.49,240.32,265.09"><head></head><label></label><figDesc><div><p><s xml:id="_Uz8aauJ" coords="7,401.49,422.49,156.39,8.72;7,317.93,432.83,240.22,8.72;7,317.93,443.15,240.01,8.72;7,317.93,453.59,240.07,8.72;7,317.93,463.91,121.32,8.72;7,317.93,478.31,240.20,8.72;7,317.93,488.63,126.71,8.72">By looking at each component in the chain as an opportunity to disrupt the flow of a disease, we can better consider where interventions could be introduced effectively, what those interventions might look like, and what resources need to be involved for intervention success.This cycle can be applied to the Android Studio unlabeled icon button case study (see Section 2.1).</s><s xml:id="_DmzhcCw" coords="7,446.83,488.63,111.36,8.72;7,317.93,498.95,203.05,8.72">We start by defining the app as a susceptible host for the inaccessible button disease.</s><s xml:id="_k6fytn9" coords="7,524.86,498.95,33.30,8.72;7,317.93,509.27,240.07,8.72;7,317.93,519.59,195.86,8.72">The icon button widget acts as the infectious agent with the disease determinant being its missing content description.</s><s xml:id="_DF2GnVj" coords="7,519.20,519.59,38.88,8.72;7,317.93,530.03,224.28,8.72">The agent resides in the reservoir of the Android Studio design interface.</s><s xml:id="_QjuXNQS" coords="7,544.39,530.03,13.68,8.72;7,317.93,540.35,240.28,8.72;7,317.93,550.67,176.40,8.72">It is transmitted through the developer's use of that interface with a port of entry at the source code implementation stage.</s></p></div></figDesc><table coords="7,317.93,565.07,240.32,122.51"><row><cell>Establishing the links between the elements helps to structure the</cell></row><row><cell>consideration of possible interventions. Currently, Android Studio</cell></row><row><cell>provides a compilation warning for the missing content description,</cell></row><row><cell>effectively applying first aid (i.e., a warning) in the portal of entry</cell></row><row><cell>(i.e., the source code). The existing accessibility guidelines for</cell></row><row><cell>Android act to treat underlying vulnerabilities of the host app in the</cell></row><row><cell>form of addressing lack of education of developers. A potential</cell></row><row><cell>treatment at the agent (i.e., Image Button widget) link could be to</cell></row><row><cell>create a default content description for default Android icon</cell></row><row><cell>buttons. Framing accessibility within this chain provokes thinking</cell></row><row><cell>about causes of inaccessibility in greater granularity and inspires</cell></row><row><cell>new opportunities for addressing this problem.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="8,54.00,493.87,240.30,165.99"><head>Table 2 .</head><label>2</label><figDesc><div><p xml:id="_pRXwNxW"><s xml:id="_defyyyQ" coords="8,86.66,493.87,207.64,8.37;8,54.00,503.11,238.20,8.37">The accessibility errors, or disease determinants, reported by Google's Accessibility Scanner provide a health indicator for apps.</s></p></div></figDesc><table coords="8,59.64,516.70,218.19,143.17"><row><cell>Error</cell><cell>Description</cell></row><row><cell>Clickable Items</cell><cell>Overlapping clickable items</cell></row><row><cell>Editable Image Label</cell><cell>TextView has a content description. This might</cell></row><row><cell></cell><cell>interfere with a screen reader's ability to read the</cell></row><row><cell></cell><cell>content of the text field</cell></row><row><cell>Image Contrast</cell><cell>Low contrast in image or icon</cell></row><row><cell>Item Descriptions</cell><cell>Items with identical speakable text</cell></row><row><cell>Item Label</cell><cell>Missing element label</cell></row><row><cell>Item Type Label</cell><cell>Item label ends with type, e.g., "Play Button."</cell></row><row><cell></cell><cell>TalkBack automatically announces item type, so</cell></row><row><cell></cell><cell>information is redundant</cell></row><row><cell>Link</cell><cell>URL in link may be invalid</cell></row><row><cell>Text Contrast</cell><cell>Low text contrast between foreground and</cell></row><row><cell></cell><cell>background</cell></row><row><cell>Touch Target</cell><cell>Item is too small</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head n="8." xml:id="_5Pn2P2W">ACKNOWLEDGMENTS</head><p xml:id="_bRAk3VS">We thank <rs type="person">Anat Caspi</rs> of the <rs type="institution">Taskar Center for Accessible Technology at the University of Washington</rs> for her insights and feedback.This work was funded in part by the <rs type="funder">National Science Foundation</rs> under awards IIS-1053868, IIS-1702751, and <rs type="grantNumber">DGE-1256082</rs>; the <rs type="funder">Wilma Bradley Endowed Fellowship in Computer Science &amp; Engineering</rs>; a Google Faculty Award; and The <rs type="funder">Mani Charitable Foundation</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_snSrEaP">
+					<idno type="grant-number">DGE-1256082</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,322.43,423.63,92.29,11.88" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_yDwRhBM">Voltage References</title>
+		<author>
+			<persName coords=""><surname>References</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/9780470547038.ch3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FjHeY2a">Voltage References</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">REFERENCES</note>
+</biblStruct>
+
+<biblStruct coords="9,321.34,436.43,173.36,8.72;9,332.35,446.87,211.01,8.72" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_Ced6k9H">Developer Guidelines That Make Sense</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Mueller</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4302-0774-0_4</idno>
+		<ptr target="https://developer.android.com/guide/topics/ui/accessibility" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_rDkHqJY" coord="9,332.35,436.43,158.59,8.72">Accessibility for Everyone: Understanding the Section 508 Accessibility Requirements</title>
+		<imprint>
+			<publisher>Apress</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="107" to="144" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Android Accessibility Developer Guidelines. https://developer.android.com/guide/topics/ui/accessibility</note>
+</biblStruct>
+
+<biblStruct coords="9,321.34,461.15,69.02,8.72;9,332.35,471.59,173.50,8.72" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" xml:id="_acQQZmt">Using Android NDK with Android Studio</title>
+		<author>
+			<persName coords=""><forename type="first">Android</forename><surname>Studio</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781119419310.ch11</idno>
+		<ptr target="https://developer.android.com/studio/index.html" />
+		<imprint>
+			<date type="published" when="2016-09-06" />
+			<publisher>Wiley</publisher>
+			<biblScope unit="page" from="309" to="330" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Android Studio. https://developer.android.com/studio/index.html</note>
+</biblStruct>
+
+<biblStruct coords="9,321.34,485.87,135.45,8.72" xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><surname>Androzoo</surname></persName>
+		</author>
+		<ptr target="https://androzoo.uni.lu/" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Androzoo. https://androzoo.uni.lu/</note>
+</biblStruct>
+
+<biblStruct coords="9,321.34,500.27,165.47,8.72;9,332.35,510.59,162.36,8.72" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" xml:id="_5gQ9xyb">Developer Guidelines That Make Sense</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Mueller</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4302-0774-0_4</idno>
+		<ptr target="https://developer.apple.com/accessibility/ios/" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_nCb8vx2" coord="9,332.35,500.27,150.71,8.72">Accessibility for Everyone: Understanding the Section 508 Accessibility Requirements</title>
+		<imprint>
+			<publisher>Apress</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="107" to="144" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Apple Accessibility Developer Guidelines. https://developer.apple.com/accessibility/ios/</note>
+</biblStruct>
+
+<biblStruct coords="9,321.34,570.35,143.27,8.72" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_8wxj7aX">LAS VEGAS SANDS CORP., a Nevada corporation, Plaintiff, v. UKNOWN REGISTRANTS OF www.wn0000.com, www.wn1111.com, www.wn2222.com, www.wn3333.com, www.wn4444.com, www.wn5555.com, www.wn6666.com, www.wn7777.com, www.wn8888.com, www.wn9999.com, www.112211.com, www.4456888.com, www.4489888.com, www.001148.com, and www.2289888.com, Defendants.</title>
+		<idno type="DOI">10.1089/glre.2016.201011</idno>
+		<ptr target="http://www.applevis.com/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JQA4476">Gaming Law Review and Economics</title>
+		<title level="j" type="abbrev">Gaming Law Review and Economics</title>
+		<idno type="ISSN">1097-5349</idno>
+		<idno type="ISSNe">1941-5494</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="859" to="868" />
+			<date type="published" when="2016-12" />
+			<publisher>Mary Ann Liebert Inc</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">AppleVis. http://www.applevis.com/</note>
+</biblStruct>
+
+<biblStruct coords="9,321.34,584.63,233.95,8.72;9,332.35,595.07,208.82,8.72;9,332.35,605.42,195.64,8.72;9,332.35,615.74,197.51,8.72;9,332.35,626.06,137.69,8.72" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="9,332.35,605.42,195.64,8.72;9,332.35,615.74,95.27,8.72" xml:id="_vMNb9UY">Making sense of sensing systems</title>
+		<author>
+			<persName coords=""><forename type="first">Victoria</forename><surname>Bellotti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Maribeth</forename><surname>Back</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">Keith</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rebecca</forename><forename type="middle">E</forename><surname>Grinter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Austin</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cristina</forename><surname>Lopes</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/503376.503450</idno>
+		<ptr target="http://doi.org/10.1145/503376.503450" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_NTugMrE">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2002-04-20">2002</date>
+			<biblScope unit="volume">2002</biblScope>
+			<biblScope unit="page" from="415" to="422" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Victoria Bellotti, Maribeth Back, W. Keith Edwards, Rebecca E. Grinter, Austin Henderson, and Cristina Lopes. (2002). Making Sense of Sensing Systems: Five Questions for Designers and Researchers. Proc CHI 2002, 415-422. http://doi.org/10.1145/503376.503450</note>
+</biblStruct>
+
+<biblStruct coords="9,321.34,640.46,221.71,8.72;9,332.35,650.78,188.42,8.72;9,332.35,661.10,206.64,8.72;9,332.35,671.54,171.11,8.72;9,332.35,681.86,146.67,8.72" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="9,332.35,661.10,206.64,8.72;9,332.35,671.54,68.49,8.72" xml:id="_Ad3KQZm">WebinSitu</title>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><forename type="middle">P</forename><surname>Bigham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anna</forename><forename type="middle">C</forename><surname>Cavender</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><forename type="middle">T</forename><surname>Brudvik</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jacob</forename><forename type="middle">O</forename><surname>Wobbrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">E</forename><surname>Ladner</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1296843.1296854</idno>
+		<ptr target="http://doi.org/10.1145/1296843.1296854" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_uG9sA4k" coord="9,407.11,671.54,44.53,8.72">Proceedings of the 9th international ACM SIGACCESS conference on Computers and accessibility</title>
+		<meeting>the 9th international ACM SIGACCESS conference on Computers and accessibility</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2007-10-15">2007. 2007</date>
+			<biblScope unit="page" from="51" to="58" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeffrey P. Bigham, Anna C. Cavender, Jeremy T. Brudvik, Jacob O. Wobbrock, and Richard E. Lander. (2007). WebinSitu: a Comparative Analysis of Blind and Sighted Browsing Behavior. Proc. Assets 2007, 51-58. http://doi.org/10.1145/1296843.1296854</note>
+</biblStruct>
+
+<biblStruct coords="9,54.00,27.86,180.16,8.14;9,359.68,27.86,198.33,8.14" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="9,54.00,27.86,180.16,8.14;9,359.68,27.86,37.55,8.14" xml:id="_GV5pvVW">Addressing the MSICS learning curve: identification of instrument-holding techniques used by experienced surgeons</title>
+		<author>
+			<persName><forename type="first">Alexandra</forename><forename type="middle">J</forename><surname>Berges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angela</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shameema</forename><surname>Sikder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Samuel</forename><surname>Yiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ravilla</forename><forename type="middle">D</forename><surname>Ravindran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kunal</forename><forename type="middle">S</forename><surname>Parikh</surname></persName>
+		</author>
+		<idno type="DOI">10.18240/ijo.2021.05.08</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XXQZdAq">International Journal of Ophthalmology</title>
+		<title level="j" type="abbrev">Int J Ophthalmol</title>
+		<idno type="ISSN">2222-3959</idno>
+		<idno type="ISSNe">2227-4898</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="693" to="699" />
+			<date type="published" when="2017-11-01">Oct. 29-Nov. 1, 2017</date>
+			<publisher>Press of International Journal of Ophthalmology (IJO Press)</publisher>
+			<pubPlace>Baltimore, MD, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Session: Interaction Techniques and Frameworks ASSETS&apos;17, Oct. 29-Nov. 1, 2017, Baltimore, MD, USA</note>
+</biblStruct>
+
+<biblStruct coords="10,57.41,56.20,212.61,8.72;10,68.42,66.52,155.51,8.72;10,68.42,76.84,164.92,8.72" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="10,146.22,56.20,101.85,8.72" xml:id="_Q9yaqtH">What is computer security?</title>
+		<author>
+			<persName coords=""><forename type="first">Matt</forename><surname>Bishop</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/msecp.2003.1176998</idno>
+		<ptr target="http://doi.org/10.1109/MSECP.2003.1176998" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FPpxKqv" coord="10,250.49,56.20,19.53,8.72;10,68.42,66.52,104.83,8.72">IEEE Security &amp; Privacy</title>
+		<title level="j" type="abbrev">IEEE Secur. Privacy</title>
+		<idno type="ISSN">1540-7993</idno>
+		<idno type="ISSNe">1558-4046</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="67" to="69" />
+			<date type="published" when="2003-01">2003</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matt Bishop. (2003). What is Computer Security? IEEE Security &amp; Privacy Magazine, 1(1), 67-69. http://doi.org/10.1109/MSECP.2003.1176998</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,91.26,225.46,8.72;10,68.42,101.58,223.23,8.72;10,68.42,112.02,224.30,8.72;10,68.42,122.34,186.59,8.72;10,68.42,132.66,146.67,8.72" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="10,195.41,101.58,96.25,8.72;10,68.42,112.02,224.30,8.72;10,68.42,122.34,65.30,8.72" xml:id="_7d4YHBb">Falling asleep with Angry Birds, Facebook and Kindle</title>
+		<author>
+			<persName coords=""><forename type="first">Matthias</forename><surname>Böhmer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brent</forename><surname>Hecht</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Johannes</forename><surname>Schöning</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Antonio</forename><surname>Krüger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gernot</forename><surname>Bauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2037373.2037383</idno>
+		<ptr target="http://doi.org/10.1145/2037373.2037383" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_freDZUx" coord="10,140.18,122.34,63.00,8.72">Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services</title>
+		<meeting>the 13th International Conference on Human Computer Interaction with Mobile Devices and Services</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2011-08-30">2011. 2011</date>
+			<biblScope unit="page" from="47" to="56" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthias Böhmer, Brent Hecht, Johannes Schöning, Antonio Krüger, and Gernot Bauer. (2011). Falling Asleep with Angry Birds, Facebook and Kindle -A Large Scale Study on Mobile Application Usage. Proc. MobileHCI 2011, 47-56. http://doi.org/10.1145/2037373.2037383</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,147.06,198.23,8.72;10,68.42,157.38,213.18,8.72;10,68.42,167.70,61.48,8.72" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="10,176.78,147.06,83.03,8.72;10,68.42,157.38,177.58,8.72" xml:id="_vWs7xeW">The Ecology of Human Development: Experiments by Nature and Design</title>
+		<author>
+			<persName coords=""><forename type="first">Urie</forename><surname>Bronfenbrenner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979">1979</date>
+			<publisher>Harvard University Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Urie Bronfenbrenner. (1979). The Ecology of Human Development: Experiments by Nature and Design. Harvard University Press.</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,182.10,224.57,8.72;10,68.42,192.42,223.91,8.72;10,68.42,202.74,208.44,8.72;10,68.42,213.06,191.64,8.72" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="10,229.30,192.42,63.04,8.72;10,68.42,202.74,142.30,8.72" xml:id="_ffWRZ5F">Post-Deployment Usability: a Survey of Current Practices</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Parmit</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Chilana</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jacob</forename><forename type="middle">O</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tovi</forename><surname>Wobbrock</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">George</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Fitzmaurice</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1978942.1979270</idno>
+		<ptr target="http://doi.org/10.1145/1978942.1979270" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_78VHbdD" coord="10,216.65,202.74,37.58,8.72">Proc. CHI</title>
+		<meeting>CHI</meeting>
+		<imprint>
+			<date type="published" when="2011">2011. 2011</date>
+			<biblScope unit="page" from="2243" to="2246" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parmit K. Chilana, Andrew J. Ko, Jacob O. Wobbrock, Tovi Grossman, and George Fitzmaurice. (2011). Post-Deployment Usability: a Survey of Current Practices. Proc. CHI 2011, 2243-2246. http://doi.org/10.1145/1978942.1979270</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,227.46,200.03,8.72;10,68.42,237.78,207.16,8.72;10,68.42,248.10,209.52,8.72;10,68.42,258.57,206.89,8.72" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="10,138.95,237.78,136.63,8.72;10,68.42,248.10,183.51,8.72" xml:id="_r3HTXeR">Investigating the appropriateness and relevance of mobile web accessibility guidelines</title>
+		<author>
+			<persName coords=""><forename type="first">Raphael</forename><surname>Clegg-Vinell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christopher</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Voula</forename><surname>Gkatzidou</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2596695.2596717</idno>
+		<ptr target="http://doi.org/10.1145/2596695.2596717" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_CCNatD2" coord="10,258.17,248.10,19.77,8.72;10,68.42,258.57,36.00,8.72">Proceedings of the 11th Web for All Conference</title>
+		<meeting>the 11th Web for All Conference</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014-04-07">2014</date>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raphael Clegg-Vinell, Christopher Bailey, and Voula Gkatzidou. (2014). Investigating the Appropriateness and Relevance of Mobile Web Accessibility Guidelines. Proc. W4A 2014, 1-4. http://doi.org/10.1145/2596695.2596717</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,272.85,216.72,8.72;10,68.42,283.29,214.73,8.72;10,68.42,293.61,94.05,8.72" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="10,68.42,272.85,177.65,8.72;10,68.42,283.29,210.48,8.72" xml:id="_duBhd38">Infection Control Manual for Healthcare Professionals</title>
+		<author>
+			<persName><forename type="first">Stéphane</forename><surname>Bouchoucha</surname></persName>
+			<idno type="ORCID">0000-0001-7066-0133</idno>
+		</author>
+		<idno type="DOI">10.1016/j.idh.2017.08.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EyK6wRV">Infection, Disease &amp; Health</title>
+		<title level="j" type="abbrev">Infection, Disease &amp; Health</title>
+		<idno type="ISSN">2468-0451</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="227" to="228" />
+			<date type="published" when="2017-12">2017</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>Association for Professionals in Infection Control</note>
+	<note type="raw_reference">Association for Professionals in Infection Control. (2017). Break the Chain of Infection. Infection Protection and You: Healthcare Professionals.</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,307.89,211.98,8.72;10,68.42,318.33,205.93,8.72;10,68.42,328.65,196.29,8.72;10,68.42,338.97,172.22,8.72;10,68.42,349.29,174.37,8.72" xml:id="b15">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Peter</forename><surname>Korn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andi</forename><surname>Snow-Weaver</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gregg</forename><surname>Vanderheiden</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Loïc</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Normand</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mike</forename><surname>Pluke</surname></persName>
+		</author>
+		<ptr target="http://www.w3.org/TR/wcag2ict/" />
+		<title level="m" xml:id="_eywaCCA" coord="10,96.98,328.65,167.73,8.72;10,68.42,338.97,172.22,8.72;10,68.42,349.29,47.42,8.72">Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Michael Cooper, Peter Korn, Andi Snow-Weaver, Gregg Vanderheiden, Loïc Martínez Normand, and Mike Pluke. (2013). Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT). http://www.w3.org/TR/wcag2ict/</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,363.69,214.92,8.72;10,68.42,374.01,217.08,8.72;10,68.42,384.33,182.65,8.72" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="10,68.42,374.01,146.84,8.72" xml:id="_9v8sRYR">ERICA</title>
+		<author>
+			<persName coords=""><forename type="first">Biplab</forename><surname>Deka</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Zifeng</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ranjitha</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2984511.2984581</idno>
+		<ptr target="http://doi.org/10.1145/2984511.2984581" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5mRwmXb" coord="10,221.93,374.01,59.52,8.72">Proceedings of the 29th Annual Symposium on User Interface Software and Technology</title>
+		<meeting>the 29th Annual Symposium on User Interface Software and Technology</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016-10-16">2016</date>
+			<biblScope unit="page" from="767" to="776" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Biplab Deka, Zifeng Huang, and Ranjitha Kumar. (2016). ERICA: Interaction Mining Mobile Apps. Proc. UIST 2016, 767-776. http://doi.org/10.1145/2984511.2984581</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,398.73,158.61,8.72;10,68.42,409.05,173.43,8.72;10,68.42,419.37,127.03,8.72" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_Sx8JcD4">Avaliação afetiva e comunicacional do floating action button</title>
+		<author>
+			<persName><forename type="first">Bruno</forename><forename type="middle">Lucena De</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">José</forename><forename type="middle">Guilherme Da Silva Santa</forename><surname>Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wellington</forename><forename type="middle">Gomes De</forename><surname>Medeiros</surname></persName>
+		</author>
+		<idno type="DOI">10.5151/9cidi-congic-4.0221</idno>
+		<ptr target="https://www.material.io/guidelines/components/buttons-floating-action-button.html" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_NH2W8kq" coord="10,68.42,398.73,148.01,8.72">Blucher Design Proceedings</title>
+		<imprint>
+			<publisher>Editora Blucher</publisher>
+			<date type="published" when="2019-11" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Floating Action Button Usage Guidelines. https://www.material.io/guidelines/components/ buttons-floating-action-button.html</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,433.79,217.90,8.72;10,68.42,444.11,224.85,8.72;10,68.42,454.43,218.68,8.72" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_CZ3R6B4">A genetic epidemiology approach to cyber-security</title>
+		<author>
+			<persName coords=""><forename type="first">Santiago</forename><surname>Gil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexander</forename><surname>Kott</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Albert-László</forename><surname>Barabási</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep05659</idno>
+		<ptr target="http://doi.org/10.1038/srep05659" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DRqgwwY" coord="10,96.95,444.11,196.33,8.72;10,68.42,454.43,62.31,8.72">Scientific Reports</title>
+		<title level="j" type="abbrev">Sci Rep</title>
+		<idno type="ISSNe">2045-2322</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">5659</biblScope>
+			<date type="published" when="2014-07-16">2014</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Santiago Gil, Alexander Kott, and Albert-László Barabási. (2014). A Genetic Epidemiology Approach to Cyber-Security. Scientific Reports, 4, 5659. http://doi.org/10.1038/srep05659</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,468.83,115.92,8.72;10,68.42,479.15,153.89,8.72;10,68.42,489.59,177.32,8.72" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" xml:id="_CGq7y2f">Figure 1: Evolution of apps on the Google Play Store (Statista, 2023a; Statistaa, 2023b).</title>
+		<idno type="DOI">10.7717/peerjcs.1722/fig-1</idno>
+		<ptr target="https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_N3M7rY5" coord="10,68.42,468.83,105.17,8.72">Google Accessibility Scanner</title>
+		<imprint>
+			<publisher>PeerJ</publisher>
+			<date>null</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Google Accessibility Scanner. https://play.google.com/store/apps/details? id=com.google.android.apps.accessibility.auditor</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,503.87,231.24,8.72" xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Leon</forename><surname>Gordis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pEsdCeq" coord="10,143.54,503.87,82.70,8.72">Epidemiology. Saunders</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<pubPlace>Philadelphia, PA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leon Gordis. (2004). Epidemiology. Saunders, Philadelphia, PA.</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,518.27,220.48,8.72;10,68.42,528.59,217.91,8.72;10,68.42,538.91,169.22,8.72" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="10,239.69,518.27,42.37,8.72;10,68.42,528.59,82.54,8.72" xml:id="_ZERUp4q">Progress on Website Accessibility?</title>
+		<author>
+			<persName coords=""><forename type="first">Vicki</forename><forename type="middle">L</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><forename type="middle">T</forename><surname>Richards</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2435215.2435217</idno>
+		<ptr target="http://doi.org/10.1145/2435215.2435217" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uvm8RZt" coord="10,153.26,528.59,108.94,8.72">ACM Transactions on the Web</title>
+		<title level="j" type="abbrev">ACM Trans. Web</title>
+		<idno type="ISSN">1559-1131</idno>
+		<idno type="ISSNe">1559-114X</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="30" />
+			<date type="published" when="2013-03">2013</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vicki L. Hanson and John T. Richards. (2013). Progress on Website Accessibility? ACM Transactions on the Web, 7(1), 1-30. http://doi.org/10.1145/2435215.2435217</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,553.31,216.56,8.72;10,68.42,563.63,218.04,8.72;10,68.42,573.95,191.56,8.72" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="10,158.21,553.31,119.93,8.72;10,68.42,563.63,50.74,8.72" xml:id="_26xKdQd">Oceanography—A definition for academic use</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Dale</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Leipper</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/tr042i004p00429</idno>
+		<ptr target="http://doi.org/10.1029/TR042i004p00429" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wpk8yKd" coord="10,125.54,563.63,156.78,8.72">Eos, Transactions American Geophysical Union</title>
+		<title level="j" type="abbrev">Eos Trans. AGU</title>
+		<idno type="ISSN">0002-8606</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="429" to="431" />
+			<date type="published" when="1961-12">1961</date>
+			<publisher>American Geophysical Union (AGU)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dale F. Leipper. (1961). Oceanography-A Definition for Academic Use. Transactions, American Geophysical Union, 42(4), 429. http://doi.org/10.1029/TR042i004p00429</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,588.35,219.83,8.72;10,68.42,598.67,218.78,8.72;10,68.42,609.02,214.60,8.72;10,68.42,619.46,198.50,8.72" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="10,254.18,588.35,27.23,8.72;10,68.42,598.67,218.78,8.72;10,68.42,609.02,170.94,8.72" xml:id="_bKUXK6g">Is your web page accessible?</title>
+		<author>
+			<persName coords=""><forename type="first">Jennifer</forename><surname>Mankoff</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Holly</forename><surname>Fait</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tu</forename><surname>Tran</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1054972.1054979</idno>
+		<ptr target="http://doi.org/10.1145/1054972.1054979" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_GgHGfdP" coord="10,245.57,609.02,37.46,8.72;10,68.42,619.46,16.30,8.72">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the SIGCHI Conference on Human Factors in Computing Systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2005-04-02">2005</date>
+			<biblScope unit="page" from="41" to="50" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jennifer Mankoff, Holly Fait, and Tu Tran. (2005). Is Your Web Page Accessible?: a Comparative Study of Methods for Assessing Web Page Accessibility for the Blind. Proc. CHI 2005, 41-50. http://doi.org/10.1145/1054972.1054979</note>
+</biblStruct>
+
+<biblStruct coords="10,61.58,633.74,175.24,8.72" xml:id="b24">
+	<monogr>
+		<title level="m" type="main" xml:id="_m6XBSJV">Environmental management systems � Guidelines for incorporating material circulation in design and development</title>
+		<author>
+			<persName coords=""><forename type="first">Material</forename><surname>Design</surname></persName>
+		</author>
+		<idno type="DOI">10.3403/30373288u</idno>
+		<ptr target="https://material.io/guidelines/" />
+		<imprint>
+			<date>null</date>
+			<publisher>BSI British Standards</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Material Design. https://material.io/guidelines/</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,56.20,227.96,8.72;10,332.35,66.52,220.98,8.72;10,332.35,76.84,225.28,8.72" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" xml:id="_JKCk96a">BraillePlay</title>
+		<author>
+			<persName coords=""><forename type="first">Lauren</forename><forename type="middle">R</forename><surname>Milne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Cynthia</forename><forename type="middle">L</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><forename type="middle">E</forename><surname>Ladner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shiri</forename><surname>Azenkot</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2661334.2661377</idno>
+		<ptr target="http://scholarworks.calstate.edu/handle/10211.3/133384" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_QM3QAUG" coord="10,360.87,66.52,192.46,8.72;10,332.35,76.84,18.07,8.72">Proceedings of the 16th international ACM SIGACCESS conference on Computers &amp; accessibility - ASSETS &apos;14</title>
+		<meeting>the 16th international ACM SIGACCESS conference on Computers &amp; accessibility - ASSETS &apos;14</meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lauren R. Milne, Cynthia L. Bennett, and Richard E. Ladner. (2014). The Accessibility of Mobile Health Sensors for Blind Users. http://scholarworks.calstate.edu/handle/10211.3/133384</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,91.26,222.92,8.72;10,332.35,101.58,185.27,8.72;10,332.35,112.02,205.16,8.72;10,332.35,122.34,168.34,8.72;10,332.35,132.66,123.42,8.72" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="10,415.65,101.58,101.98,8.72;10,332.35,112.02,205.16,8.72;10,332.35,122.34,23.01,8.72" xml:id="_nEZaSju">Are guidelines enough? An introduction to designing Web sites accessible to older people</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Milne</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Dickinson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Carmichael</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Sloan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Eisma</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Gregor</surname></persName>
+		</author>
+		<idno type="DOI">10.1147/sj.443.0557</idno>
+		<ptr target="http://doi.org/10.1147/sj.443.0557" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_PuRXQyb" coord="10,361.51,122.34,75.38,8.72">IBM Systems Journal</title>
+		<title level="j" type="abbrev">IBM Syst. J.</title>
+		<idno type="ISSN">0018-8670</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="557" to="571" />
+			<date type="published" when="2005">2005</date>
+			<publisher>IBM</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. Milne, A. Dickinson, A. Carmichael, D. Sloan, R. Eisma, and P. Gregor. (2005). Are Guidelines Enough? An Introduction to Designing Web Sites Accessible to Older People. IBM Systems Journal, 44(3), 557-571. http://doi.org/10.1147/sj.443.0557</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,147.06,210.23,8.72;10,332.35,157.38,195.64,8.72;10,332.35,167.70,204.12,8.72;10,332.35,178.02,182.65,8.72" xml:id="b27">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Trinh</forename><surname>Minh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tri</forename><surname>Do</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jan</forename><surname>Blom</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><surname>Gatica-Perez</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2070481.2070550</idno>
+		<ptr target="http://doi.org/10.1145/2070481.2070550" />
+		<title level="m" xml:id="_edDJ4be" coord="10,360.87,157.38,167.12,8.72;10,332.35,167.70,200.07,8.72">Smartphone Usage in the Wild : a Large-Scale Analysis of Applications and Context. Proc. ICMI 2011</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="353" to="360" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Trinh Minh, Tri Do, Jan Blom, and Daniel Gatica-perez. (2011). Smartphone Usage in the Wild : a Large-Scale Analysis of Applications and Context. Proc. ICMI 2011, 353-360. http://doi.org/10.1145/2070481.2070550</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,192.42,228.68,8.72;10,332.35,202.74,210.70,8.72;10,332.35,213.06,212.13,8.72;10,332.35,223.50,130.64,8.72;10,332.35,233.82,130.48,8.72" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="10,536.55,202.74,6.50,8.72;10,332.35,213.06,212.13,8.72;10,332.35,223.50,16.98,8.72" xml:id="_VZAGRt9">A Large-Scale Empirical Study on Software Reuse in Mobile Apps</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Israel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Bram</forename><surname>Mojica</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Meiyappan</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Steffen</forename><surname>Nagappan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Thorsten</forename><surname>Dienst</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ahmed</forename><forename type="middle">E</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Hassan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MS.2013.142</idno>
+		<ptr target="http://doi.org/10.1109/MS.2013.142" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZZhGmvw" coord="10,355.87,223.50,52.21,8.72">IEEE Software</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="78" to="86" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Israel J. Mojica, Bram Adams, Meiyappan Nagappan, Steffen Dienst, Thorsten Berger, and Ahmed E. Hassan. (2014). A Large-Scale Empirical Study on Software Reuse in Mobile Apps. IEEE Software, 31(2), 78-86. http://doi.org/10.1109/MS.2013.142</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,248.10,216.28,8.72;10,332.35,258.57,216.68,8.72;10,332.35,268.89,225.32,8.72" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="10,409.66,248.10,132.13,8.72;10,332.35,258.57,216.68,8.72;10,332.35,268.89,190.15,8.72" xml:id="_8GsDVvY">Guidelines for the management of convulsions with fever. Joint Working Group of the Research Unit of the Royal College of Physicians and the British Paediatric Association.</title>
+		<author>
+			<persName coords=""><forename type="first">Mike</forename><surname>Oliver</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.303.6803.634</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cARmJyD">BMJ</title>
+		<title level="j" type="abbrev">BMJ</title>
+		<idno type="ISSN">0959-8138</idno>
+		<idno type="ISSNe">1468-5833</idno>
+		<imprint>
+			<biblScope unit="volume">303</biblScope>
+			<biblScope unit="issue">6803</biblScope>
+			<biblScope unit="page" from="634" to="636" />
+			<date type="published" when="1990">1990</date>
+			<publisher>BMJ</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mike Oliver. (1990). The Individual and Social Models of Disability. Joint Workshop of the Living Options Group and the Research Unit of the Royal College of Physicians, Vol. 23.</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,283.29,210.47,8.72;10,332.35,293.61,209.22,8.72;10,332.35,303.93,197.11,8.72" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="10,360.87,293.61,123.23,8.72" xml:id="_EZeAXFZ">Web accessibility as a side effect</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><forename type="middle">T</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kyle</forename><surname>Montague</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vicki</forename><forename type="middle">L</forename><surname>Hanson</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2384916.2384931</idno>
+		<ptr target="http://doi.org/10.1145/2384916.2384931" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_sjgwXSP" coord="10,490.06,293.61,51.51,8.72;10,332.35,303.93,16.30,8.72">Proceedings of the 14th international ACM SIGACCESS conference on Computers and accessibility</title>
+		<meeting>the 14th international ACM SIGACCESS conference on Computers and accessibility</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2012-10-22">2012</date>
+			<biblScope unit="page" from="79" to="86" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John T. Richards, Kyle Montague, and Vicki L. Hanson. (2012). Web Accessibility as a Side Effect. Proc. ASSETS 2012, 79-86. http://doi.org/10.1145/2384916.2384931</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,318.33,209.40,8.72;10,332.35,328.65,182.65,8.72;10,332.35,338.97,215.58,8.72;10,332.35,349.29,216.05,8.72;10,332.35,359.73,101.83,8.72;10,332.35,370.05,146.67,8.72" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="10,405.83,338.97,142.10,8.72;10,332.35,349.29,211.81,8.72" xml:id="_Pu7fkpk">Insights into layout patterns of mobile user interfaces by an automatic analysis of android apps</title>
+		<author>
+			<persName coords=""><forename type="first">Alireza</forename><surname>Sahami Shirazi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Niels</forename><surname>Henze</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Albrecht</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robin</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Benjamin</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hansjörg</forename><surname>Schmauder</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2494603.2480308</idno>
+		<ptr target="http://doi.org/10.1145/2494603.2480308" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_vuCmQ6T" coord="10,332.35,359.73,59.52,8.72">Proceedings of the 5th ACM SIGCHI symposium on Engineering interactive computing systems</title>
+		<meeting>the 5th ACM SIGCHI symposium on Engineering interactive computing systems</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2013-06-24">2013</date>
+			<biblScope unit="page" from="275" to="284" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alireza Sahami Shirazi, Niels Henze, Albrecht Schmidt, Robin Goldberg, Benjamin Schmidt, and Hansjörg Schmauder. (2013). Insights Into Layout Patterns of Mobile User Interfaces by an Automatic Analysis of Android Apps. Proc. EICS 2013, 275-284. http://doi.org/10.1145/2494603.2480308</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,398.73,228.66,8.72;10,332.35,409.05,129.08,8.72;10,332.35,419.37,184.04,8.72" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="10,420.08,398.73,63.72,8.72" xml:id="_mJy57X4">What is Ecology?</title>
+		<author>
+			<persName coords=""><forename type="first">Arthur</forename><surname>Tansley</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1095-8312.1987.tb00406.x</idno>
+		<ptr target="http://doi.org/10.1111/j.1095-8312.1987.tb00406.x" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_unfUb5C" coord="10,486.22,398.73,67.95,8.72;10,332.35,409.05,79.00,8.72">Biological Journal of the Linnean Society</title>
+		<idno type="ISSN">0024-4066</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="16" />
+			<date type="published" when="1987-09">1987</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arthur Tansley. (1987). What is Ecology? Biological Journal of the Linnean Society, 32(1), 5-16. http://doi.org/10.1111/j.1095-8312.1987.tb00406.x</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,433.79,227.09,8.72;10,332.35,444.11,214.82,8.72;10,332.35,454.43,211.31,8.72;10,332.35,464.87,195.38,8.72;10,332.35,475.19,221.73,8.72;10,332.35,485.51,212.02,8.72;10,332.35,495.83,204.07,8.72;10,332.35,506.27,217.77,8.72;10,332.35,516.59,121.88,8.72;10,332.35,526.91,152.60,8.72" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coord="10,360.87,485.51,183.50,8.72;10,332.35,495.83,204.07,8.72;10,332.35,506.27,146.66,8.72" xml:id="_qTMbC6W">Approaching Health Disparities From a Population Perspective: the National Institutes of Health Centers for Population Health and Health Disparities</title>
+		<author>
+			<persName coords=""><forename type="first">April</forename><surname>Richard B Warnecke</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nancy</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sarah</forename><surname>Breen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Electra</forename><surname>Gehlert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Katherine</forename><forename type="middle">L</forename><surname>Paskett</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nicole</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Timothy</forename><surname>Lurie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Rebbeck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Shobha</forename><surname>Flack</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jon</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Suzanne</forename><surname>Kerner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ronald</forename><surname>Heurtin-Roberts</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Abeles</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Georgeanne</forename><surname>Frederick L Tyson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><forename type="middle">A</forename><surname>Patmios</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Hiatt</surname></persName>
+		</author>
+		<idno type="DOI">10.2105/AJPH.2006.102525</idno>
+		<ptr target="http://doi.org/10.2105/AJPH.2006.102525" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hrYmWqM" coord="10,484.90,506.27,65.22,8.72;10,332.35,516.59,58.06,8.72">American Journal of Public Health</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1608" to="1615" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richard B Warnecke, April Oh, Nancy Breen, Sarah Gehlert, Electra Paskett, Katherine L Tucker, Nicole Lurie, Timothy Rebbeck, James Goodwin, John Flack, Shobha Srinivasan, Jon Kerner, Suzanne Heurtin-Roberts, Ronald Abeles, Frederick L Tyson, Georgeanne Patmios, and Robert A Hiatt. (2008). Approaching Health Disparities From a Population Perspective: the National Institutes of Health Centers for Population Health and Health Disparities. American Journal of Public Health, 98(9), 1608-15. http://doi.org/10.2105/AJPH.2006.102525</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,541.31,230.11,8.72;10,332.35,551.63,219.43,8.72" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" xml:id="_TN2YqMC">The World Health Organization/World Bank’s First World Report on Disability</title>
+		<author>
+			<persName><forename type="first">Katherine</forename><forename type="middle">D</forename><surname>Seelman</surname></persName>
+		</author>
+		<idno type="DOI">10.5195/ijt.2011.6076</idno>
+		<ptr target="http://www.who.int/disabilities/world_report/2011/report/en/" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_p9ysXR2">International Journal of Telerehabilitation</title>
+		<title level="j" type="abbrev">Int J Telerehab</title>
+		<idno type="ISSNe">1945-2020</idno>
+		<imprint>
+			<biblScope unit="page" from="11" to="14" />
+			<date type="published" when="2011-12-20">2011</date>
+			<publisher>University Library System, University of Pittsburgh</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">World Health Organization. (2011). World Report on Disability. http://www.who.int/disabilities/world_report/2011/report/en/</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,566.03,212.99,8.72;10,332.35,576.35,212.35,8.72;10,332.35,586.67,199.36,8.72;10,332.35,596.99,182.67,8.72;10,332.35,607.46,182.38,8.72;10,332.35,617.78,174.38,8.72" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coord="10,418.05,576.35,126.65,8.72;10,332.35,586.67,138.82,8.72" xml:id="_YJGaZbg">Accessibility of mHealth Self-Care Apps for Individuals with Spina Bifida</title>
+		<author>
+			<persName coords=""><forename type="first">Bambang</forename><surname>Daihua X Yu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brad</forename><forename type="middle">E</forename><surname>Parmanto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gede</forename><surname>Dicianno</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Pramana</surname></persName>
+		</author>
+		<ptr target="http://www.ncbi.nlm.nih.gov/pubmed/26755902" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bTqVeVj" coord="10,477.10,586.67,54.61,8.72;10,332.35,596.99,182.67,8.72;10,332.35,607.46,135.14,8.72">American Health Information Management Association</title>
+		<imprint>
+			<biblScope unit="page">12</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Perspectives in Health Information Managemen</note>
+	<note type="raw_reference">Daihua X Yu, Bambang Parmanto, Brad E Dicianno, and Gede Pramana. (2015). Accessibility of mHealth Self-Care Apps for Individuals with Spina Bifida. Perspectives in Health Information Managemen, American Health Information Management Association, 12(Spring). http://www.ncbi.nlm.nih.gov/pubmed/26755902</note>
+</biblStruct>
+
+<biblStruct coords="10,325.51,632.06,202.52,8.72;10,332.35,642.50,220.57,8.72;10,332.35,652.82,218.97,8.72;10,332.35,663.14,158.86,8.72;10,54.00,27.86,180.16,8.14;10,359.68,27.86,198.33,8.14" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="10,484.77,642.50,68.15,8.72;10,332.35,652.82,218.97,8.72;10,332.35,663.14,45.62,8.72;10,54.00,27.86,180.16,8.14;10,359.68,27.86,37.55,8.14" xml:id="_88ZsPR8">Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility</title>
+		<author>
+			<persName coords=""><forename type="first">Xiaoyi</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anne</forename><forename type="middle">Spencer</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anat</forename><surname>Caspi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">James</forename><surname>Fogarty</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jacob</forename><forename type="middle">O</forename><surname>Wobbrock</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3025453.3025846</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_UAEQZEe" coord="10,383.83,663.14,37.58,8.72">Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems</title>
+		<meeting>the 2017 CHI Conference on Human Factors in Computing Systems<address><addrLine>Baltimore, MD, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017-10-29">2017. 2017. Oct. 29-Nov. 1, 2017</date>
+			<biblScope unit="page" from="6024" to="6037" />
+		</imprint>
+	</monogr>
+	<note>Session: Interaction Techniques and Frameworks ASSETS&apos;17</note>
+	<note type="raw_reference">Xiaoyi Zhang, Anne Spencer Ross, Anat Caspi, James Fogarty, and Jacob O. Wobbrock. (2017). Interaction Proxies for Runtime Repair and Enhancement of Mobile Application Accessibility. Proc. CHI 2017, 6024-6037. Session: Interaction Techniques and Frameworks ASSETS&apos;17, Oct. 29-Nov. 1, 2017, Baltimore, MD, USA</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

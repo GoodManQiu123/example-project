@@ -1,0 +1,262 @@
+{
+    "metadata": {
+        "title": "Teaching arithmetic to low-performing, low-SES first graders",
+        "doi": "10.1016/j.jmathb.2004.12.004",
+        "publisher": null,
+        "journal": null,
+        "published_date": "8 January 2005"
+    },
+    "content": {
+        "abstract": "To develop their logico-mathematical foundation of number as described by  Piaget (1947 Piaget ( /1950 Piaget ( , 1967 Piaget ( /1971 Piaget ( , 1971 Piaget ( /1974)) , 26 low-performing, low-SES first graders were given physical-knowledge activities (e.g., Pick-Up Sticks and \"bowling\") during the math hour instead of math instruction. During the second half of the school year, when they showed \"readiness\" for arithmetic, the children were given arithmetic games and word problems that stimulated the exchange of viewpoints. At the end of the year, the children in the experimental group were compared with a similar (low-performing, low-SES) group of 20 first graders who received traditional exercises focusing narrowly on number (e.g., counting objects, making one-to-one correspondences, and answering questions like 2 + 2). The experimental group was found to be superior both in mental arithmetic and in logical reasoning as revealed by word problems.",
+        "keywords": [
+            "logicomathematical",
+            "arithmetic",
+            "group",
+            "lowperforming",
+            "experimental",
+            "grader",
+            "piaget",
+            "first",
+            "low"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Constance Kamii",
+            "affiliation": "School of Education",
+            "email": "ckamii@uab.edu"
+        },
+        {
+            "name": "Judith Rummelsburg",
+            "affiliation": "Shore Acres Elementary School",
+            "email": null
+        },
+        {
+            "name": "Amy Kari",
+            "affiliation": "Mt. Diablo Unified School District",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Burns",
+                    "given": "M."
+                },
+                {
+                    "family": "Tank",
+                    "given": "B."
+                }
+            ],
+            "title": "A collection of math lessons from grades 1 through 3",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mifflin",
+                    "given": "Houghton"
+                }
+            ],
+            "title": "Readiness test (grades 1-5: California standards-based assessment",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Inhelder",
+                    "given": "B."
+                },
+                {
+                    "family": "Piaget",
+                    "given": "J."
+                }
+            ],
+            "title": "The early growth of logic in the child",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1964"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kamii",
+                    "given": "C."
+                }
+            ],
+            "title": "Young children reinvent arithmetic",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kamii",
+                    "given": "C."
+                }
+            ],
+            "title": "Young children continue to reinvent arithmetic, 2nd grade",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kamii",
+                    "given": "C."
+                },
+                {
+                    "family": "DeVries",
+                    "given": "R."
+                }
+            ],
+            "title": "Physical knowledge in preschool education",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kamii",
+                    "given": "C."
+                },
+                {
+                    "family": "Dominick",
+                    "given": "A."
+                }
+            ],
+            "title": "The harmful effects of algorithms in grades 1-4",
+            "type": "chapter",
+            "container_title": [
+                "The teaching and learning of algorithms in school mathematics: 1998 Yearbook"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piaget",
+                    "given": "J."
+                }
+            ],
+            "title": "The psychology of intelligence",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1950"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piaget",
+                    "given": "J."
+                }
+            ],
+            "title": "The child's conception of time",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1969"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piaget",
+                    "given": "J."
+                },
+                {
+                    "family": "Piaget",
+                    "given": "J."
+                }
+            ],
+            "title": "Biology and knowledgeUnderstanding causality",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1971"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piaget",
+                    "given": "J."
+                },
+                {
+                    "family": "Inhelder",
+                    "given": "B."
+                }
+            ],
+            "title": "Memory and intelligence",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1973"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piaget",
+                    "given": "J."
+                },
+                {
+                    "family": "Inhelder",
+                    "given": "B."
+                },
+                {
+                    "family": "Szeminska",
+                    "given": "A."
+                }
+            ],
+            "title": "The child's conception of geometry",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1960"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piaget",
+                    "given": "J."
+                },
+                {
+                    "family": "Szeminska",
+                    "given": "A."
+                }
+            ],
+            "title": "The child's conception of number",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "1965"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Richardson",
+                    "given": "K."
+                }
+            ],
+            "title": "Developing number concepts: Counting, comparing, and pattern",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1999"
+        }
+    ]
+}

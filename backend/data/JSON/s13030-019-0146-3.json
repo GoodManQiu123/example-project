@@ -1,0 +1,1489 @@
+{
+    "metadata": {
+        "title": "Special series on \"effects of board games on health education and promotion\" board games as a promising tool for health promotion: a review of recent literature",
+        "doi": "10.1186/s13030-019-0146-3",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Board games are played by moving game pieces in particular ways on special boards marked with patterns. To clarify the possible roles of board game use in psychosomatic medicine, the present review evaluated studies that investigated the effects of this activity on health education and treatment. A literature search conducted between January 2012 and August 2018 identified 83 relevant articles; 56 (67%) targeted education or training for healthrelated problems, six (7%) examined basic brain mechanisms, five (6%) evaluated preventative measures for dementia or contributions to healthy aging, and three (4%) assessed social communication or public health policies. The results of several randomized controlled trials indicated that the playing of traditional board games (e.g., chess, Go, and Shogi) helps to improve cognitive impairment and depression, and that the playing of newly developed board games is beneficial for behavioral modifications, such as the promotion of healthy eating, smoking cessation, and safe sex. Although the number of studies that have evaluated board game use in terms of mental health remains limited, many studies have provided interesting findings regarding brain function, cognitive effects, and the modification of health-related lifestyle factors.",
+        "keywords": [
+            "lifestyle",
+            "dementia",
+            "review",
+            "shogi",
+            "study",
+            "promotion",
+            "health",
+            "chess",
+            "game",
+            "modification",
+            "board"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mutsuhiro Nakao",
+            "affiliation": "Department of Psychosomatic Medicine",
+            "email": "m-nakao@iuhw.ac.jp"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Kyppo",
+                    "given": "J."
+                }
+            ],
+            "title": "Board games: throughout the history and multidimensional spaces",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Akbaraly",
+                    "given": "T.N."
+                },
+                {
+                    "family": "Portet",
+                    "given": "F."
+                },
+                {
+                    "family": "Fustinoni",
+                    "given": "S."
+                },
+                {
+                    "family": "Dartigues",
+                    "given": "J.F."
+                },
+                {
+                    "family": "Artero",
+                    "given": "S."
+                },
+                {
+                    "family": "Rouaud",
+                    "given": "O."
+                },
+                {
+                    "family": "Touchon",
+                    "given": "J."
+                },
+                {
+                    "family": "Ritchie",
+                    "given": "K."
+                },
+                {
+                    "family": "Berr",
+                    "given": "C."
+                }
+            ],
+            "title": "Leisure activities and the risk of dementia in the elderly: results from the three-city study",
+            "type": "article-journal",
+            "container_title": [
+                "Neurology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dartigues",
+                    "given": "J.F."
+                },
+                {
+                    "family": "Foubert-Samier",
+                    "given": "A."
+                },
+                {
+                    "family": "Le Goff",
+                    "given": "M."
+                },
+                {
+                    "family": "Viltard",
+                    "given": "M."
+                },
+                {
+                    "family": "Amieva",
+                    "given": "H."
+                },
+                {
+                    "family": "Orgogozo",
+                    "given": "J.M."
+                },
+                {
+                    "family": "Barberger-Gateau",
+                    "given": "P."
+                },
+                {
+                    "family": "Helmer",
+                    "given": "C."
+                }
+            ],
+            "title": "Playing board games, cognitive decline and dementia: a French population-based cohort study",
+            "type": "article-journal",
+            "container_title": [
+                "BMJ Open"
+            ],
+            "doi": "",
+            "published_date": "2013-08"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hoffmann",
+                    "given": "A."
+                },
+                {
+                    "family": "Christmann",
+                    "given": "C.A."
+                },
+                {
+                    "family": "Bleser",
+                    "given": "G."
+                }
+            ],
+            "title": "Gamification in stress management apps: a critical app review",
+            "type": "article-journal",
+            "container_title": [
+                "JMIR Serious Games"
+            ],
+            "doi": "",
+            "published_date": "2017-06"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ueda",
+                    "given": "T."
+                }
+            ],
+            "title": "The availability of shogi for art therapy",
+            "type": "article-journal",
+            "container_title": [
+                "Jpn Bull Arts Ther"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Riggs",
+                    "given": "A.E."
+                },
+                {
+                    "family": "Young",
+                    "given": "A.G."
+                }
+            ],
+            "title": "Developmental changes in children's normative reasoning across learning contexts and collaborative roles",
+            "type": "article-journal",
+            "container_title": [
+                "Dev Psychol"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Akl",
+                    "given": "E.A."
+                },
+                {
+                    "family": "Kairouz",
+                    "given": "V.F."
+                },
+                {
+                    "family": "Sackett",
+                    "given": "K.M."
+                },
+                {
+                    "family": "Erdley",
+                    "given": "W.S."
+                },
+                {
+                    "family": "Mustafa",
+                    "given": "R.A."
+                },
+                {
+                    "family": "Fiander",
+                    "given": "M."
+                },
+                {
+                    "family": "Gabriel",
+                    "given": "C."
+                },
+                {
+                    "family": "Sch\u00fcnemann",
+                    "given": "H."
+                }
+            ],
+            "title": "Educational games for health professionals",
+            "type": "article-journal",
+            "container_title": [
+                "Cochrane Database Syst Rev"
+            ],
+            "doi": "",
+            "published_date": "2013-03-28"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Burke",
+                    "given": "C.T."
+                }
+            ],
+            "title": "The influences of teaching strategies and reinforcement techniques on health care workers' learning and retention",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Telner",
+                    "given": "D."
+                },
+                {
+                    "family": "Bujas-Bobanovic",
+                    "given": "M."
+                },
+                {
+                    "family": "Chan",
+                    "given": "D."
+                },
+                {
+                    "family": "Chester",
+                    "given": "B."
+                },
+                {
+                    "family": "Marlow",
+                    "given": "B."
+                },
+                {
+                    "family": "Meuser",
+                    "given": "J."
+                },
+                {
+                    "family": "Rothman",
+                    "given": "A."
+                },
+                {
+                    "family": "Harvey",
+                    "given": "B."
+                }
+            ],
+            "title": "Game-based versus traditional case-based learning: comparing effectiveness in stroke continuing medical education",
+            "type": "article-journal",
+            "container_title": [
+                "Can Fam Physician"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fuentes",
+                    "given": "J.P."
+                },
+                {
+                    "family": "Villafaina",
+                    "given": "S."
+                },
+                {
+                    "family": "Collado-Mateo",
+                    "given": "D."
+                },
+                {
+                    "family": "Vega",
+                    "given": "R.",
+                    "particle": "de la"
+                },
+                {
+                    "family": "Gusi",
+                    "given": "N."
+                },
+                {
+                    "family": "Clemente-Su\u00e1rez",
+                    "given": "V.J."
+                }
+            ],
+            "title": "Use of biotechnological devices in the quantification of psychophysiological workload of professional chess players",
+            "type": "article-journal",
+            "container_title": [
+                "J Med Syst"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barzegar",
+                    "given": "K."
+                },
+                {
+                    "family": "Barzegar",
+                    "given": "S."
+                }
+            ],
+            "title": "Chess therapy: a new approach to curing panic attack",
+            "type": "article-journal",
+            "container_title": [
+                "Asian J Psychiatr"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schaigorodsky",
+                    "given": "A.L."
+                },
+                {
+                    "family": "Perotti",
+                    "given": "J.I."
+                },
+                {
+                    "family": "Billoni",
+                    "given": "O.V."
+                }
+            ],
+            "title": "A study of memory effects in a chess database",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS One"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chassy",
+                    "given": "P."
+                },
+                {
+                    "family": "Gobet",
+                    "given": "F."
+                }
+            ],
+            "title": "Risk taking in adversarial situations: civilization differences in chess experts",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2015-08"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sheridan",
+                    "given": "H."
+                },
+                {
+                    "family": "Reingold",
+                    "given": "E.M."
+                }
+            ],
+            "title": "Expert vs novice differences in the detection of relevant information during a chess game: Evidence from eye movements",
+            "type": "article-journal",
+            "container_title": [
+                "Front Psychol"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Moxley",
+                    "given": "J.H."
+                },
+                {
+                    "family": "Charness",
+                    "given": "N."
+                }
+            ],
+            "title": "Meta-analysis of age and skill effects on recalling chess positions and selecting the best move",
+            "type": "article-journal",
+            "container_title": [
+                "Psychon Bull Rev"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leone",
+                    "given": "M.J."
+                },
+                {
+                    "family": "Petroni",
+                    "given": "A."
+                },
+                {
+                    "family": "Fernandez Slezak",
+                    "given": "D."
+                },
+                {
+                    "family": "Sigman",
+                    "given": "M."
+                }
+            ],
+            "title": "The tell-tale heart: heart rate fluctuations index objective and subjective events during a game of chess",
+            "type": "article-journal",
+            "container_title": [
+                "Front Hum Neurosci"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barradas-Bautista",
+                    "given": "D."
+                },
+                {
+                    "family": "Alvarado-Mentado",
+                    "given": "M."
+                },
+                {
+                    "family": "Agostino",
+                    "given": "M."
+                },
+                {
+                    "family": "Cocho",
+                    "given": "G."
+                }
+            ],
+            "title": "Cancer growth and metastasis as a metaphor of go gaming: an Ising model approach",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS One"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bae",
+                    "given": "J."
+                },
+                {
+                    "family": "Cha",
+                    "given": "Y.J."
+                },
+                {
+                    "family": "Lee",
+                    "given": "H."
+                },
+                {
+                    "family": "Lee",
+                    "given": "B."
+                },
+                {
+                    "family": "Baek",
+                    "given": "S."
+                },
+                {
+                    "family": "Choi",
+                    "given": "S."
+                },
+                {
+                    "family": "Jang",
+                    "given": "D."
+                }
+            ],
+            "title": "Social networks and inference about unknown events: a case of the match between Google's AlphaGo and Sedol Lee",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS One"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Silver",
+                    "given": "D."
+                },
+                {
+                    "family": "Huang",
+                    "given": "A."
+                },
+                {
+                    "family": "Maddison",
+                    "given": "C.J."
+                },
+                {
+                    "family": "Guez",
+                    "given": "A."
+                },
+                {
+                    "family": "Sifre",
+                    "given": "L."
+                },
+                {
+                    "family": "Driessche",
+                    "given": "G.",
+                    "particle": "van den"
+                },
+                {
+                    "family": "Schrittwieser",
+                    "given": "J."
+                },
+                {
+                    "family": "Antonoglou",
+                    "given": "I."
+                },
+                {
+                    "family": "Panneershelvam",
+                    "given": "V."
+                },
+                {
+                    "family": "Lanctot",
+                    "given": "M."
+                },
+                {
+                    "family": "Dieleman",
+                    "given": "S."
+                },
+                {
+                    "family": "Grewe",
+                    "given": "D."
+                },
+                {
+                    "family": "Nham",
+                    "given": "J."
+                },
+                {
+                    "family": "Kalchbrenner",
+                    "given": "N."
+                },
+                {
+                    "family": "Sutskever",
+                    "given": "I."
+                },
+                {
+                    "family": "Lillicrap",
+                    "given": "T."
+                },
+                {
+                    "family": "Leach",
+                    "given": "M."
+                },
+                {
+                    "family": "Kavukcuoglu",
+                    "given": "K."
+                },
+                {
+                    "family": "Graepel",
+                    "given": "T."
+                },
+                {
+                    "family": "Hassabis",
+                    "given": "D."
+                }
+            ],
+            "title": "Mastering the game of go with deep neural networks and tree search",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lin",
+                    "given": "Q."
+                },
+                {
+                    "family": "Cao",
+                    "given": "Y."
+                },
+                {
+                    "family": "Gao",
+                    "given": "J."
+                }
+            ],
+            "title": "The impacts of a GO-game (Chinese chess) intervention on Alzheimer disease in a northeast Chinese population",
+            "type": "article-journal",
+            "container_title": [
+                "Front Aging Neurosci"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "S.H."
+                },
+                {
+                    "family": "Han",
+                    "given": "D.H."
+                },
+                {
+                    "family": "Lee",
+                    "given": "Y.S."
+                },
+                {
+                    "family": "Kim",
+                    "given": "B.N."
+                },
+                {
+                    "family": "Cheong",
+                    "given": "J.H."
+                },
+                {
+                    "family": "Han",
+                    "given": "S.H."
+                }
+            ],
+            "title": "Baduk (the game of go) improved cognitive function and brain activity in children with attention deficit hyperactivity disorder",
+            "type": "article-journal",
+            "container_title": [
+                "Psychiatry Investig"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jung",
+                    "given": "W.H."
+                },
+                {
+                    "family": "Kim",
+                    "given": "S.N."
+                },
+                {
+                    "family": "Lee",
+                    "given": "T.Y."
+                },
+                {
+                    "family": "Jang",
+                    "given": "J.H."
+                },
+                {
+                    "family": "Choi",
+                    "given": "C.H."
+                },
+                {
+                    "family": "Kang",
+                    "given": "D.H."
+                },
+                {
+                    "family": "Kwon",
+                    "given": "J.S."
+                }
+            ],
+            "title": "Exploring the brains of Baduk (go) experts: gray matter morphometry, resting-state functional connectivity, and graph theoretical analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Front Hum Neurosci"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lee",
+                    "given": "M.K."
+                },
+                {
+                    "family": "Yoo",
+                    "given": "J."
+                },
+                {
+                    "family": "Cho",
+                    "given": "Y.J."
+                },
+                {
+                    "family": "Lee",
+                    "given": "B.I."
+                },
+                {
+                    "family": "Heo",
+                    "given": "K."
+                }
+            ],
+            "title": "Reflex epilepsy induced by playing go-stop or Baduk games",
+            "type": "article-journal",
+            "container_title": [
+                "Seizure"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tanaka",
+                    "given": "K."
+                }
+            ],
+            "title": "Brain mechanisms of intuition in shogi experts",
+            "type": "article-journal",
+            "container_title": [
+                "Brain Nerve"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nakao",
+                    "given": "M."
+                },
+                {
+                    "family": "Furukawa",
+                    "given": "H."
+                },
+                {
+                    "family": "Oomine",
+                    "given": "A."
+                },
+                {
+                    "family": "Fukumoto",
+                    "given": "T."
+                },
+                {
+                    "family": "Ono",
+                    "given": "H."
+                },
+                {
+                    "family": "Obara",
+                    "given": "A."
+                },
+                {
+                    "family": "Noda",
+                    "given": "S."
+                },
+                {
+                    "family": "Kitashima",
+                    "given": "C."
+                }
+            ],
+            "title": "Introduction of \"Shogi\" health promotion project in Kakogawa City",
+            "type": "paper-conference",
+            "container_title": [
+                "Tokyo: Abstract of the 24th Annual Scientific Conference of the Japanese Society of Behavioral Medicine"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wan",
+                    "given": "X."
+                },
+                {
+                    "family": "Cheng",
+                    "given": "K."
+                },
+                {
+                    "family": "Tanaka",
+                    "given": "K."
+                }
+            ],
+            "title": "The neural system of post-decision evaluation in rostral frontal cortex during problem-solving tasks",
+            "type": "article-journal",
+            "container_title": [
+                "eNeuro"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wan",
+                    "given": "X."
+                },
+                {
+                    "family": "Cheng",
+                    "given": "K."
+                },
+                {
+                    "family": "Tanaka",
+                    "given": "K."
+                }
+            ],
+            "title": "Neural encoding of opposing strategy values in anterior and posterior cingulate cortex",
+            "type": "article-journal",
+            "container_title": [
+                "Nat Neurosci"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nakatani",
+                    "given": "H."
+                },
+                {
+                    "family": "Yamaguchi",
+                    "given": "Y."
+                }
+            ],
+            "title": "Quick concurrent responses to global and local cognitive information underlie intuitive understanding in board-game experts",
+            "type": "article-journal",
+            "container_title": [
+                "Sci Rep"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Aoyagi",
+                    "given": "M."
+                },
+                {
+                    "family": "Ogawa",
+                    "given": "T."
+                }
+            ],
+            "title": "Effects of denture wearing and chewing in elderly with dementia repeating aspiration pneumonia",
+            "type": "article-journal",
+            "container_title": [
+                "J Jpn Psychiatr Nurs Soc"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wan",
+                    "given": "X."
+                },
+                {
+                    "family": "Takano",
+                    "given": "D."
+                },
+                {
+                    "family": "Asamizuya",
+                    "given": "T."
+                },
+                {
+                    "family": "Suzuki",
+                    "given": "C."
+                },
+                {
+                    "family": "Ueno",
+                    "given": "K."
+                },
+                {
+                    "family": "Cheng",
+                    "given": "K."
+                },
+                {
+                    "family": "Ito",
+                    "given": "T."
+                },
+                {
+                    "family": "Tanaka",
+                    "given": "K."
+                }
+            ],
+            "title": "Developing intuition: neural correlates of cognitive-skill learning in caudate nucleus",
+            "type": "article-journal",
+            "container_title": [
+                "J Neurosci"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Duan",
+                    "given": "X."
+                },
+                {
+                    "family": "Long",
+                    "given": "Z."
+                },
+                {
+                    "family": "Chen",
+                    "given": "H."
+                },
+                {
+                    "family": "Liang",
+                    "given": "D."
+                },
+                {
+                    "family": "Qiu",
+                    "given": "L."
+                },
+                {
+                    "family": "Huang",
+                    "given": "X."
+                },
+                {
+                    "family": "Liu",
+                    "given": "T.C."
+                },
+                {
+                    "family": "Gong",
+                    "given": "Q."
+                }
+            ],
+            "title": "Functional organization of intrinsic connectivity networks in Chinese-chess experts",
+            "type": "article-journal",
+            "container_title": [
+                "Brain Res"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Panphunpho",
+                    "given": "S."
+                },
+                {
+                    "family": "Thavichachart",
+                    "given": "N."
+                },
+                {
+                    "family": "Kritpet",
+                    "given": "T."
+                }
+            ],
+            "title": "Positive effects of Ska game practice on cognitive function among older adults",
+            "type": "article-journal",
+            "container_title": [
+                "J Med Assoc Thail"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dries S",
+                    "particle": "van den"
+                },
+                {
+                    "family": "MA",
+                    "given": "Wiering"
+                }
+            ],
+            "title": "Neural-fitted TD-leaf learning for playing Othello with structured neural networks",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans Neural Netw Learn Syst"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nederkoorn",
+                    "given": "C."
+                },
+                {
+                    "family": "Thei\u03b2en",
+                    "given": "J."
+                },
+                {
+                    "family": "Tummers",
+                    "given": "M."
+                },
+                {
+                    "family": "Roefs",
+                    "given": "A."
+                }
+            ],
+            "title": "Taste the feeling or feel the tasting: tactile exposure to food texture promotes food acceptance",
+            "type": "article-journal",
+            "container_title": [
+                "Appetite"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fancourt",
+                    "given": "D."
+                },
+                {
+                    "family": "Burton",
+                    "given": "T.M."
+                },
+                {
+                    "family": "Williamon",
+                    "given": "A."
+                }
+            ],
+            "title": "The razor's edge: Australian rock music impairs men's performance when pretending to be a surgeon",
+            "type": "article-journal",
+            "container_title": [
+                "Med J Aust"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karbownik",
+                    "given": "M.S."
+                },
+                {
+                    "family": "Wiktorowska-Owczarek",
+                    "given": "A."
+                },
+                {
+                    "family": "Kowalczyk",
+                    "given": "E."
+                },
+                {
+                    "family": "Kwarta",
+                    "given": "P."
+                },
+                {
+                    "family": "Mokros",
+                    "given": "\u0141."
+                },
+                {
+                    "family": "Pietras",
+                    "given": "T."
+                }
+            ],
+            "title": "Board game versus lecture-based seminar in the teaching of pharmacology of antimicrobial drugs--a randomized controlled trial",
+            "type": "article-journal",
+            "container_title": [
+                "FEMS Microbiol Lett"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sharps",
+                    "given": "M."
+                },
+                {
+                    "family": "Robinson",
+                    "given": "E."
+                }
+            ],
+            "title": "Encouraging children to eat more fruit and vegetables: Health vs descriptive social norm-based messages",
+            "type": "article-journal",
+            "container_title": [
+                "Appetite"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "E."
+                },
+                {
+                    "family": "Costanzo",
+                    "given": "A.",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Andreozzi",
+                    "given": "E."
+                },
+                {
+                    "family": "Romano",
+                    "given": "V."
+                },
+                {
+                    "family": "Rianna",
+                    "given": "I."
+                },
+                {
+                    "family": "Vicidomini",
+                    "given": "C."
+                },
+                {
+                    "family": "Gargano",
+                    "given": "G."
+                },
+                {
+                    "family": "Incarnato",
+                    "given": "L."
+                },
+                {
+                    "family": "Fevola",
+                    "given": "C."
+                },
+                {
+                    "family": "Volta",
+                    "given": "P."
+                },
+                {
+                    "family": "Tolomeo",
+                    "given": "C."
+                },
+                {
+                    "family": "Scianni",
+                    "given": "G."
+                },
+                {
+                    "family": "Santangelo",
+                    "given": "C."
+                },
+                {
+                    "family": "Battista",
+                    "given": "R."
+                },
+                {
+                    "family": "Monda",
+                    "given": "M."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Luca",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Kaledo",
+                    "given": "Amaro S."
+                }
+            ],
+            "title": "a board game for nutrition education of children and adolescents at school: cluster randomized controlled trial of healthy lifestyle promotion",
+            "type": "article-journal",
+            "container_title": [
+                "Eur J Pediatr"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fernandes",
+                    "given": "S.C."
+                },
+                {
+                    "family": "Arriaga",
+                    "given": "P."
+                },
+                {
+                    "family": "Esteves",
+                    "given": "F."
+                }
+            ],
+            "title": "Providing preoperative information for children undergoing surgery: a randomized study testing different types of educational material to reduce children's preoperative worries",
+            "type": "article-journal",
+            "container_title": [
+                "Health Educ Res"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Laski",
+                    "given": "E.V."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Learning from number board games: you learn what you encode",
+            "type": "article-journal",
+            "container_title": [
+                "Dev Psychol"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Charlier",
+                    "given": "N."
+                },
+                {
+                    "family": "Fraine",
+                    "given": "B.",
+                    "particle": "De"
+                }
+            ],
+            "title": "Game-based learning as a vehicle to teach first aid content: a randomized experiment",
+            "type": "article-journal",
+            "container_title": [
+                "J Sch Health"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Swiderska",
+                    "given": "N."
+                },
+                {
+                    "family": "Thomason",
+                    "given": "E."
+                },
+                {
+                    "family": "Hart",
+                    "given": "A."
+                },
+                {
+                    "family": "Shaw",
+                    "given": "B.N."
+                }
+            ],
+            "title": "Randomised controlled trial of the use of an educational board game in neonatology",
+            "type": "article-journal",
+            "container_title": [
+                "Med Teach"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Khazaal",
+                    "given": "Y."
+                },
+                {
+                    "family": "Chatton",
+                    "given": "A."
+                },
+                {
+                    "family": "Prezzemolo",
+                    "given": "R."
+                },
+                {
+                    "family": "Zebouni",
+                    "given": "F."
+                },
+                {
+                    "family": "Edel",
+                    "given": "Y."
+                },
+                {
+                    "family": "Jacquet",
+                    "given": "J."
+                },
+                {
+                    "family": "Ruggeri",
+                    "given": "O."
+                },
+                {
+                    "family": "Burnens",
+                    "given": "E."
+                },
+                {
+                    "family": "Monney",
+                    "given": "G."
+                },
+                {
+                    "family": "Protti",
+                    "given": "A.S."
+                },
+                {
+                    "family": "Etter",
+                    "given": "J.F."
+                },
+                {
+                    "family": "Khan",
+                    "given": "R."
+                },
+                {
+                    "family": "Cornuz",
+                    "given": "J."
+                },
+                {
+                    "family": "Zullino",
+                    "given": "D."
+                }
+            ],
+            "title": "Impact of a board-game approach on current smokers: a randomized controlled trial",
+            "type": "article-journal",
+            "container_title": [
+                "Subst Abuse Treat Prev Policy"
+            ],
+            "doi": "",
+            "published_date": "2013-01-17"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cho",
+                    "given": "K.H."
+                },
+                {
+                    "family": "Lee",
+                    "given": "K.J."
+                },
+                {
+                    "family": "Song",
+                    "given": "C.H."
+                }
+            ],
+            "title": "Virtual-reality balance training with a video-game system improves dynamic balance in chronic stroke patients",
+            "type": "article-journal",
+            "container_title": [
+                "Tohoku J Exp Med"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wanyama",
+                    "given": "J.N."
+                },
+                {
+                    "family": "Castelnuovo",
+                    "given": "B."
+                },
+                {
+                    "family": "Robertson",
+                    "given": "G."
+                },
+                {
+                    "family": "Newell",
+                    "given": "K."
+                },
+                {
+                    "family": "Sempa",
+                    "given": "J.B."
+                },
+                {
+                    "family": "Kambugu",
+                    "given": "A."
+                },
+                {
+                    "family": "Manabe",
+                    "given": "Y.C."
+                },
+                {
+                    "family": "Colebunders",
+                    "given": "R."
+                }
+            ],
+            "title": "A randomized controlled trial to evaluate the effectiveness of a board game on patients' knowledge uptake of HIV and sexually transmitted diseases at the infectious diseases institute",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [],
+            "title": "National Institute for Educational Research Policy, Japanese Ministry of Education, Culture, Sports, Science and Technology. Report of investigation of scholastic ability and learning situation in Japan",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sala",
+                    "given": "G."
+                },
+                {
+                    "family": "Tatlidil",
+                    "given": "K.S."
+                },
+                {
+                    "family": "Gobet",
+                    "given": "F."
+                }
+            ],
+            "title": "Video game training does not enhance cognitive ability: a comprehensive meta-analytic investigation",
+            "type": "article-journal",
+            "container_title": [
+                "Psychol Bull"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chabris",
+                    "given": "C.F."
+                }
+            ],
+            "title": "Six suggestions for research on games in cognitive science",
+            "type": "article-journal",
+            "container_title": [
+                "Topics Cog Sci"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nakao",
+                    "given": "M."
+                }
+            ],
+            "title": "Bio-psycho-social medicine is a comprehensive form of medicine bridging clinical medicine and public health",
+            "type": "article-journal",
+            "container_title": [
+                "BioPsychoSoc Med"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        }
+    ]
+}

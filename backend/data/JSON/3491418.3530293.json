@@ -1,0 +1,814 @@
+{
+    "metadata": {
+        "title": "Exchanging Best Practices for Supporting Computational and Data-Intensive Research, The Xpert Network",
+        "doi": "10.1145/3491418.3530293",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "We present best practices for professionals who support computational and data-intensive (CDI) research projects. The practices resulted from the Xpert Network activities, an initiative that brings together major NSF-funded projects for advanced cyberinfrastructure, national projects, and university teams that include individuals or groups of such professionals. Additionally, our recommendations are based on years of experience building multidisciplinary applications and teaching computing to scientists. This paper focuses particularly on practices that differ from those in a general software engineering context. This paper also describes the Xpert Network initiative where participants exchange best practices, tools, successes, challenges, and general information about their activities, leading to increased productivity, efficiency, and coordination in the ever-growing community of scientists that use computational and data-intensive research methods.",
+        "keywords": [
+            "best",
+            "dataintensive",
+            "research",
+            "cdi",
+            "practice",
+            "collaboration",
+            "xpert",
+            "network",
+            "support",
+            "project",
+            "computational"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rudolf Eigenmann",
+            "affiliation": "University",
+            "email": "eigenman@udel.edu"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Apon",
+                    "given": "Amy"
+                },
+                {
+                    "family": "Ahalt",
+                    "given": "Stanley"
+                },
+                {
+                    "family": "Dantuluri",
+                    "given": "Vijay"
+                },
+                {
+                    "family": "Gurdgiev",
+                    "given": "Constantin"
+                },
+                {
+                    "family": "Limayem",
+                    "given": "Moez"
+                },
+                {
+                    "family": "Ngo",
+                    "given": "Linh"
+                },
+                {
+                    "family": "Stealey",
+                    "given": "Michael"
+                }
+            ],
+            "title": "High Performance Computing Instrumen-tation and Research Productivity in U.S",
+            "type": "article-journal",
+            "container_title": [
+                "Universities. Journal of Information Technology Impact"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Aruliah",
+                    "given": "Dhavide A."
+                },
+                {
+                    "family": "Brown",
+                    "given": "C.Titus"
+                },
+                {
+                    "family": "Hong",
+                    "given": "Neil P.Chue"
+                },
+                {
+                    "family": "Davis",
+                    "given": "Matt"
+                },
+                {
+                    "family": "Guy",
+                    "given": "Richard T."
+                },
+                {
+                    "family": "Haddock",
+                    "given": "Steven H.D."
+                },
+                {
+                    "family": "Huff",
+                    "given": "Katy"
+                },
+                {
+                    "family": "Mitchell",
+                    "given": "Ian"
+                },
+                {
+                    "family": "Plumbley",
+                    "given": "Mark D."
+                },
+                {
+                    "family": "Waugh",
+                    "given": "Ben"
+                },
+                {
+                    "family": "White",
+                    "given": "Ethan P."
+                },
+                {
+                    "family": "Wilson",
+                    "given": "Greg"
+                },
+                {
+                    "family": "Wilson",
+                    "given": "Paul"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bartschat",
+                    "given": "Klaus"
+                },
+                {
+                    "family": "Schneider",
+                    "given": "Barry I."
+                }
+            ],
+            "title": "Position Paper) Workshop on Best Practices and Tools for Computational and Data-Intensive Research in atomic and molecular physics",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brazier",
+                    "given": "Adam"
+                }
+            ],
+            "title": "Best Practices for Software Development in the Research Environment",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "given": "B.S.S.W."
+                }
+            ],
+            "title": "The Better Scientific Software (BSSw",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "CyVerse"
+                }
+            ],
+            "title": "CyVerse: Transforming Science Through Data-Driven Discovery",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Day",
+                    "given": "C."
+                }
+            ],
+            "title": "Nobel prizes for computational science [The Last Word",
+            "type": "article-journal",
+            "container_title": [
+                "Computing in Science & Engineering"
+            ],
+            "doi": "10.1109/MCSE.",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dubois",
+                    "given": "Paul F."
+                }
+            ],
+            "title": "Ten good practices in scientific programming",
+            "type": "article-journal",
+            "container_title": [
+                "Computing in Science & Engineering"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "given": "E.C.S.S."
+                }
+            ],
+            "title": "XSEDE Extended Collaborative Support Service",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Eigenmann",
+                    "given": "Rudolf"
+                },
+                {
+                    "family": "Barakhshan",
+                    "given": "Parinaz"
+                }
+            ],
+            "title": "THE XPERT NET-WORK,Workshop on Best Practices and Tools for Computational and Data-Intensive Research",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Foundation",
+                    "given": "Data Carpentry"
+                }
+            ],
+            "title": "Data Carpentry-Building communities teaching universal data literacy",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Foundation",
+                    "given": "Software Carpentry"
+                }
+            ],
+            "title": "softwarecarpentry-Teaching basic lab skills for research computing",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heroux",
+                    "given": "M.A."
+                }
+            ],
+            "title": "Trilinos project Home Page",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heroux",
+                    "given": "Michael A."
+                },
+                {
+                    "family": "Willenbring",
+                    "given": "James M."
+                }
+            ],
+            "title": "Barely sufficient software engineering: 10 practices to improve your CSE software",
+            "type": "chapter",
+            "container_title": [
+                "2009 ICSE Workshop on Software Engineering for Computational Science and Engineering. IEEE"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "given": "I.D.E.A.S."
+                }
+            ],
+            "title": "IDEAS",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [],
+            "title": "RDA in the United StatesResearch Data Alliance",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [],
+            "title": "Software Sustainability InstituteUK Software Sustainability Institute",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [],
+            "title": "The Molecular Sciences Software InstituteThe Molecular Sciences Software Institute",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Riley",
+                    "given": "Argonne National Laboratory Katherine"
+                }
+            ],
+            "title": "Good Scientific Process Requires Software Engineering Practices",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kirk",
+                    "given": "David B."
+                },
+                {
+                    "family": "W. Hwu",
+                    "given": "Wen",
+                    "particle": "mei"
+                }
+            ],
+            "title": "Programming Massively Parallel Processors",
+            "type": "chapter",
+            "container_title": [
+                "Programming Massively Parallel Processors, A Hands-on Approach"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "LLC",
+                    "given": "Agile Software Development"
+                }
+            ],
+            "title": "Agile Software Development Home Page",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Naguib",
+                    "given": "Hoda"
+                },
+                {
+                    "family": "Li",
+                    "given": "Yang"
+                }
+            ],
+            "title": "Position Paper) Applying software engineering methods and tools to CSE research projects",
+            "type": "article-journal",
+            "container_title": [
+                "Procedia Computer Science"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "given": "NaIP"
+                }
+            ],
+            "title": "XSEDE, Novel and Innovative Projects",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Neeman",
+                    "given": "Henry"
+                },
+                {
+                    "family": "Al-Azzawi",
+                    "given": "Hussein M."
+                },
+                {
+                    "family": "Brunson",
+                    "given": "Dana"
+                },
+                {
+                    "family": "Burke",
+                    "given": "William"
+                },
+                {
+                    "family": "Col-bry",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Falgout",
+                    "given": "Jeff T."
+                },
+                {
+                    "family": "Ferguson",
+                    "given": "James W."
+                },
+                {
+                    "family": "Gesing",
+                    "given": "Sandra"
+                },
+                {
+                    "family": "Gyllinsky",
+                    "given": "Joshua"
+                },
+                {
+                    "family": "Simmons",
+                    "given": "Christo-pher S."
+                },
+                {
+                    "given": "and"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Cultivating the Cyberinfrastructure Workforce via an Intermediate/Advanced Virtual Residency Workshop",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the Practice and Experience in Advanced Research Computing on Rise of the Machines (Learning",
+                "Article"
+            ],
+            "doi": "10.1145/3332186.3332204",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Neeman",
+                    "given": "Henry"
+                },
+                {
+                    "family": "Brazil",
+                    "given": "Marisa"
+                },
+                {
+                    "family": "Brunson",
+                    "given": "Dana"
+                }
+            ],
+            "title": "Position Paper)The Virtual Residency: A Training Program for Research Computing Facilitators",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "given": "N.S.F."
+                }
+            ],
+            "title": "National Science Foundation",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oklahoma",
+                    "given": "University",
+                    "particle": "of"
+                }
+            ],
+            "title": "",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Project",
+                    "given": "CaRCC"
+                }
+            ],
+            "title": "Campus Research Computing Consortium",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [],
+            "title": "Exascale Computing Project (ECP",
+            "type": "article-journal",
+            "container_title": [
+                "ECP project"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Project",
+                    "given": "S.G.C.I."
+                }
+            ],
+            "title": "Science Gateways Community Institute",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Project",
+                    "given": "U.S.-R.S.E."
+                }
+            ],
+            "title": "U.S",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Project",
+                    "given": "Xpert Network"
+                }
+            ],
+            "title": "The Xpert Network",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "given": "SE4Science"
+                }
+            ],
+            "title": "Software Engineering for Computational Science (SE4Science",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "S.E.A."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "U.C.A.R."
+                }
+            ],
+            "title": "University Corporation for Atmospheric Research (UCAR",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Laszewski",
+                    "given": "G.",
+                    "particle": "von"
+                },
+                {
+                    "family": "Wang",
+                    "given": "F."
+                },
+                {
+                    "family": "Fox",
+                    "given": "G.C."
+                },
+                {
+                    "family": "Hart",
+                    "given": "D.L."
+                },
+                {
+                    "family": "Furlani",
+                    "given": "T.R."
+                },
+                {
+                    "family": "DeLeon",
+                    "given": "R.L."
+                },
+                {
+                    "family": "Gallo",
+                    "given": "S.M."
+                }
+            ],
+            "title": "Peer Comparison of XSEDE and NCAR Publication Data",
+            "type": "paper-conference",
+            "container_title": [
+                "2015 IEEE International Conference on Cluster Computing"
+            ],
+            "doi": "10.1109/CLUSTER.2015.98",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wilson",
+                    "given": "Greg"
+                }
+            ],
+            "title": "Software carpentry: getting scientists to write better code by making them more productive",
+            "type": "article-journal",
+            "container_title": [
+                "Computing in Science & Engineering"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wilson",
+                    "given": "Greg"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wilson",
+                    "given": "Greg"
+                },
+                {
+                    "family": "Aruliah",
+                    "given": "Dhavide A."
+                },
+                {
+                    "family": "Brown",
+                    "given": "C.Titus"
+                },
+                {
+                    "family": "Hong",
+                    "given": "Neil P.Chue"
+                },
+                {
+                    "family": "Davis",
+                    "given": "Matt"
+                },
+                {
+                    "family": "Guy",
+                    "given": "Richard T."
+                },
+                {
+                    "family": "Haddock",
+                    "given": "Steven H.D."
+                },
+                {
+                    "family": "Huff",
+                    "given": "Kathryn D."
+                },
+                {
+                    "family": "Mitchell",
+                    "given": "Ian M."
+                },
+                {
+                    "family": "Plumbley",
+                    "given": "Mark D."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Best practices for scientific computing",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS biology"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wilson",
+                    "given": "Greg"
+                },
+                {
+                    "family": "Bryan",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Cranston",
+                    "given": "Karen"
+                },
+                {
+                    "family": "Kitzes",
+                    "given": "Justin"
+                },
+                {
+                    "family": "Nederbragt",
+                    "given": "Lex"
+                },
+                {
+                    "family": "Teal",
+                    "given": "Tracy K."
+                }
+            ],
+            "title": "Good enough practices in scientific computing",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS computational biology"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "given": "W.S.S.S.P.E."
+                }
+            ],
+            "title": "Working Towards Sustainable Software Science: Practiceand Expe-riences (WSSSPE",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "X.S.E.D.E."
+                }
+            ],
+            "title": "Campus Champions",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "X.S.E.D.E."
+                }
+            ],
+            "title": "XSEDE -Extreme Science and Engineering Disvocery Environment",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        }
+    ]
+}

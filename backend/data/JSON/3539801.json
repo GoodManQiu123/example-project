@@ -1,0 +1,1953 @@
+{
+    "metadata": {
+        "title": "Enabling New Flexibility in the SUNDIALS Suite of Nonlinear and Differential/Algebraic Equation Solvers",
+        "doi": "10.1145/3539801",
+        "publisher": "Association for Computing Machinery (ACM)",
+        "journal": "ACM Transactions on Mathematical Software",
+        "published_date": "2022-09-10"
+    },
+    "content": {
+        "abstract": "In recent years, the SUite of Nonlinear and DIferential/ALgebraic equation Solvers (SUNDIALS) has been redesigned to better enable the use of application-speciic and third-party algebraic solvers and data structures. Throughout this work, we have adhered to speciic guiding principles that minimized the impact to current users while providing maximum lexibility for later evolution of solvers and data structures. The redesign was done through the addition of new linear and nonlinear solvers classes, enhancements to the vector class, and the creation of modern Fortran interfaces. The vast majority of this work has been performed \u0142behind-the-scenes, \u017e with minimal changes to the user interface and no reduction in solver capabilities or performance. These changes allow SUNDIALS users to more easily utilize external solver libraries and create highly customized solvers, enabling greater lexibility on extreme-scale, heterogeneous computational architectures. CCS Concepts: \u2022 Mathematics of computing   Solvers; Ordinary diferential equations; Diferential algebraic equations; Nonlinear equations.",
+        "keywords": [
+            "equation",
+            "flexibility",
+            "nonlinear",
+            "sundial",
+            "new",
+            "differentialalgebraic",
+            "suite",
+            "user",
+            "solver"
+        ]
+    },
+    "authors": [
+        {
+            "name": "David J Gardner",
+            "affiliation": null,
+            "email": "gardner48@llnl.gov"
+        },
+        {
+            "name": "Daniel R Reynolds",
+            "affiliation": null,
+            "email": "reynolds@smu.edu"
+        },
+        {
+            "name": "Carol S Woodward",
+            "affiliation": null,
+            "email": "woodward6@llnl.gov"
+        },
+        {
+            "name": "Cody J Balos",
+            "affiliation": null,
+            "email": "balos1@llnl.gov"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Anderson",
+                    "given": "Donald G."
+                }
+            ],
+            "title": "Iterative procedures for nonlinear integral equations",
+            "type": "article-journal",
+            "container_title": [
+                "J. ACM"
+            ],
+            "doi": "",
+            "published_date": "1965"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Anderson",
+                    "given": "E."
+                },
+                {
+                    "family": "Bai",
+                    "given": "Z."
+                },
+                {
+                    "family": "Bischof",
+                    "given": "C."
+                },
+                {
+                    "family": "Blackford",
+                    "given": "S."
+                },
+                {
+                    "family": "Demmel",
+                    "given": "J."
+                },
+                {
+                    "family": "Dongarra",
+                    "given": "J."
+                },
+                {
+                    "family": "Croz",
+                    "given": "J.",
+                    "particle": "Du"
+                },
+                {
+                    "family": "Greenbaum",
+                    "given": "A."
+                },
+                {
+                    "family": "Hammarling",
+                    "given": "S."
+                },
+                {
+                    "family": "McKenney",
+                    "given": "A."
+                },
+                {
+                    "family": "Sorensen",
+                    "given": "D."
+                }
+            ],
+            "title": "LAPACK Users' Guide",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1137/1.9780898719604",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Anderson",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Andrej",
+                    "given": "Julian"
+                },
+                {
+                    "family": "Barker",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Bramwell",
+                    "given": "Jamie"
+                },
+                {
+                    "family": "Camier",
+                    "given": "Jean-Sylvain"
+                },
+                {
+                    "family": "Cerveny",
+                    "given": "Jakub"
+                },
+                {
+                    "family": "Dobrev",
+                    "given": "Veselin"
+                },
+                {
+                    "family": "Dudouit",
+                    "given": "Yohann"
+                },
+                {
+                    "family": "Fisher",
+                    "given": "Aaron"
+                },
+                {
+                    "family": "Kolev",
+                    "given": "Tzanio"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "MFEM: A modular inite element methods library",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Math. with Appl"
+            ],
+            "doi": "10.1016/j.camwa.2020.06.009",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Andersson",
+                    "given": "Joel A.E."
+                },
+                {
+                    "family": "Gillis",
+                    "given": "Joris"
+                },
+                {
+                    "family": "Horn",
+                    "given": "Greg"
+                },
+                {
+                    "family": "Rawlings",
+                    "given": "James B."
+                },
+                {
+                    "family": "Diehl",
+                    "given": "Moritz"
+                }
+            ],
+            "title": "CasADi \u015b A software framework for nonlinear optimization and optimal control",
+            "type": "article-journal",
+            "container_title": [
+                "Math. Program. Comput"
+            ],
+            "doi": "10.1007/s12532-018-0139-4",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Arndt",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Bangerth",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Blais",
+                    "given": "Bruno"
+                },
+                {
+                    "family": "Clevenger",
+                    "given": "Thomas C."
+                },
+                {
+                    "family": "Fehling",
+                    "given": "Marc"
+                },
+                {
+                    "family": "Grayver",
+                    "given": "Alexander V."
+                },
+                {
+                    "family": "Heister",
+                    "given": "Timo"
+                },
+                {
+                    "family": "Heltai",
+                    "given": "Luca"
+                },
+                {
+                    "family": "Kronbichler",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Maier",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Munch",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Pelteret",
+                    "given": "Jean-Paul"
+                },
+                {
+                    "family": "Rastak",
+                    "given": "Reza"
+                },
+                {
+                    "family": "Thomas",
+                    "given": "Ignacio"
+                },
+                {
+                    "family": "Turcksin",
+                    "given": "Bruno"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Zhuoran"
+                },
+                {
+                    "family": "Wells",
+                    "given": "David"
+                }
+            ],
+            "title": "The deal.II Library, Version 9.2",
+            "type": "article-journal",
+            "container_title": [
+                "J. Numer. Math"
+            ],
+            "doi": "10.1515/jnma-2020-0043",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ascher",
+                    "given": "Uri M."
+                },
+                {
+                    "family": "Ruuth",
+                    "given": "Steven J."
+                },
+                {
+                    "family": "Spiteri",
+                    "given": "Raymond J."
+                }
+            ],
+            "title": "Implicit-Explicit Runge-Kutta Methods for Time-Dependent Partial Diferential Equations",
+            "type": "article-journal",
+            "container_title": [
+                "Appl. Numer. Math"
+            ],
+            "doi": "10.1016/S0168-9274(97)00056-1",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ascher",
+                    "given": "Uri M."
+                },
+                {
+                    "family": "Ruuth",
+                    "given": "Steven J."
+                },
+                {
+                    "family": "Wetton",
+                    "given": "Brian T.R."
+                }
+            ],
+            "title": "Implicit-Explicit Methods for Time-Dependent Partial Diferential Equations",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Numer. Anal"
+            ],
+            "doi": "10.1137/0732037",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ashby",
+                    "given": "Steven F."
+                },
+                {
+                    "family": "Falgout",
+                    "given": "Robert D."
+                }
+            ],
+            "title": "A parallel multigrid preconditioned conjugate gradient algorithm for groundwater low simulations",
+            "type": "article-journal",
+            "container_title": [
+                "Nucl. Sci. Eng"
+            ],
+            "doi": "10.13182/NSE96-A24230",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Balay",
+                    "given": "Satish"
+                },
+                {
+                    "family": "Abhyankar",
+                    "given": "Shrirang"
+                },
+                {
+                    "family": "Adams",
+                    "given": "Mark F."
+                },
+                {
+                    "family": "Brown",
+                    "given": "Jed"
+                },
+                {
+                    "family": "Brune",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Buschelman",
+                    "given": "Kris"
+                },
+                {
+                    "family": "Dalcin",
+                    "given": "Lisandro"
+                },
+                {
+                    "family": "Dener",
+                    "given": "Alp"
+                },
+                {
+                    "family": "Eijkhout",
+                    "given": "Victor"
+                },
+                {
+                    "family": "Gropp",
+                    "given": "William D."
+                },
+                {
+                    "family": "Kaushik",
+                    "given": "Dinesh"
+                },
+                {
+                    "family": "Knepley",
+                    "given": "Matthew G."
+                },
+                {
+                    "family": "May",
+                    "given": "Dave A."
+                },
+                {
+                    "family": "McInnes",
+                    "given": "Lois Curfman"
+                },
+                {
+                    "family": "Mills",
+                    "given": "Richard Tran"
+                },
+                {
+                    "family": "Munson",
+                    "given": "Todd"
+                },
+                {
+                    "family": "Rupp",
+                    "given": "Karl"
+                },
+                {
+                    "family": "Sanan",
+                    "given": "Patrick"
+                },
+                {
+                    "family": "Smith",
+                    "given": "Barry F."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Balay",
+                    "given": "Satish"
+                },
+                {
+                    "family": "Abhyankar",
+                    "given": "Shrirang"
+                },
+                {
+                    "family": "Adams",
+                    "given": "Mark F."
+                },
+                {
+                    "family": "Brown",
+                    "given": "Jed"
+                },
+                {
+                    "family": "Brune",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Buschelman",
+                    "given": "Kris"
+                },
+                {
+                    "family": "Dalcin",
+                    "given": "Lisandro"
+                },
+                {
+                    "family": "Dener",
+                    "given": "Alp"
+                },
+                {
+                    "family": "Eijkhout",
+                    "given": "Victor"
+                },
+                {
+                    "family": "Gropp",
+                    "given": "William D."
+                },
+                {
+                    "family": "Kaushik",
+                    "given": "Dinesh"
+                },
+                {
+                    "family": "Knepley",
+                    "given": "Matthew G."
+                },
+                {
+                    "family": "May",
+                    "given": "Dave A."
+                },
+                {
+                    "family": "McInnes",
+                    "given": "Lois Curfman"
+                },
+                {
+                    "family": "Mills",
+                    "given": "Richard Tran"
+                },
+                {
+                    "family": "Munson",
+                    "given": "Todd"
+                },
+                {
+                    "family": "Rupp",
+                    "given": "Karl"
+                },
+                {
+                    "family": "Sanan",
+                    "given": "Patrick"
+                },
+                {
+                    "family": "Smith",
+                    "given": "Barry F."
+                },
+                {
+                    "family": "Zampini",
+                    "given": "Stefano"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Hong"
+                }
+            ],
+            "title": "PETSc Users Manual",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Balos",
+                    "given": "Cody J."
+                },
+                {
+                    "family": "Gardner",
+                    "given": "David J."
+                },
+                {
+                    "family": "Woodward",
+                    "given": "Carol S."
+                },
+                {
+                    "family": "Reynolds",
+                    "given": "Daniel R."
+                }
+            ],
+            "title": "Enabling GPU Accelerated Computing in the SUNDIALS Time Integration Library",
+            "type": "article-journal",
+            "container_title": [
+                "Parallel Comput"
+            ],
+            "doi": "10.1016/j.parco.2021.102836",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brenan",
+                    "given": "Kathryn Eleda"
+                },
+                {
+                    "family": "Campbell",
+                    "given": "Stephen L."
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda Ruth"
+                }
+            ],
+            "title": "Numerical solution of initial-value problems in diferential-algebraic equations",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1137/1.9781611971224",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brown",
+                    "given": "Peter N."
+                },
+                {
+                    "family": "Byrne",
+                    "given": "George D."
+                },
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "VODE: A variable-coeicient ODE solver",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Sci. Statist. Comput"
+            ],
+            "doi": "10.1137/0910062",
+            "published_date": "1989"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brown",
+                    "given": "Peter N."
+                },
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "Matrix-free methods for stif systems of ODE's",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Numer. Anal"
+            ],
+            "doi": "10.1137/0723039",
+            "published_date": "1986"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brown",
+                    "given": "Peter N."
+                },
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "Reduced storage matrix methods in stif ODE systems",
+            "type": "article-journal",
+            "container_title": [
+                "Appl. Math. Comput"
+            ],
+            "doi": "10.1016/0096-3003(89)90110-0",
+            "published_date": "1989"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brown",
+                    "given": "Peter N."
+                },
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda R."
+                }
+            ],
+            "title": "Using Krylov methods in the solution of large-scale diferential-algebraic systems",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Sci. Comput"
+            ],
+            "doi": "10.1137/0915088",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brown",
+                    "given": "Peter N."
+                },
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda R."
+                }
+            ],
+            "title": "Consistent initial condition calculation for diferential-algebraic systems",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Sci. Comput"
+            ],
+            "doi": "10.1137/S1064827595289996",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brown",
+                    "given": "Peter N."
+                },
+                {
+                    "family": "Saad",
+                    "given": "Youcef"
+                }
+            ],
+            "title": "Hybrid Krylov methods for nonlinear systems of equations",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Sci. Statist. Comput"
+            ],
+            "doi": "10.1137/0911026",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Byrne",
+                    "given": "George D."
+                },
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "A polyalgorithm for the numerical solution of ordinary diferential equations",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "10.1145/355626.355636",
+            "published_date": "1975"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Byrne",
+                    "given": "George D."
+                },
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "Stif ODE solvers: A review of current and coming attractions",
+            "type": "article-journal",
+            "container_title": [
+                "J. Comput. Phys"
+            ],
+            "doi": "10.1016/0021-9991(87)90001-5",
+            "published_date": "1987"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cao",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Li",
+                    "given": "Shengtai"
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda"
+                },
+                {
+                    "family": "Serban",
+                    "given": "Radu"
+                }
+            ],
+            "title": "Adjoint sensitivity analysis for diferential-algebraic equations: The adjoint DAE system and its numerical solution",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Sci. Comput"
+            ],
+            "doi": "10.1016/S0377-0427(02)00528-9",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Carnevale",
+                    "given": "Nicholas T."
+                },
+                {
+                    "family": "Hines",
+                    "given": "Michael L."
+                }
+            ],
+            "title": "The NEURON Book",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1017/CBO9780511541612",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Davis",
+                    "given": "Tim"
+                }
+            ],
+            "title": "KLU Sparse Matrix Factorization Library",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Davis",
+                    "given": "Tim"
+                },
+                {
+                    "family": "Natarajan",
+                    "given": "Ekanathan Palamadai"
+                }
+            ],
+            "title": "Algorithm 907: KLU, a direct sparse solver for circuit simulation problems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "10.1145/1824801.1824814",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dembo",
+                    "given": "Ron S."
+                },
+                {
+                    "family": "Eisenstat",
+                    "given": "Stanley C."
+                },
+                {
+                    "family": "Steihaug",
+                    "given": "Trond"
+                }
+            ],
+            "title": "Inexact Newton methods",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Numer. Anal"
+            ],
+            "doi": "10.1137/0719025",
+            "published_date": "1982"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Demmel",
+                    "given": "James W."
+                },
+                {
+                    "family": "Gilbert",
+                    "given": "John R."
+                },
+                {
+                    "family": "Li",
+                    "given": "Xiaoye S."
+                }
+            ],
+            "title": "An Asynchronous Parallel Supernodal Algorithm for Sparse Gaussian Elimination",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Matrix Anal. Appl"
+            ],
+            "doi": "10.1137/S0895479897317685",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dennis",
+                    "given": "John E.",
+                    "suffix": "Jr"
+                },
+                {
+                    "family": "Schnabel",
+                    "given": "Robert B."
+                }
+            ],
+            "title": "Numerical methods for unconstrained optimization and nonlinear equations",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1137/1.9781611971200",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dorr",
+                    "given": "Milo R."
+                },
+                {
+                    "family": "Fattebert",
+                    "given": "J.-L."
+                },
+                {
+                    "family": "Wickett",
+                    "given": "Michael E."
+                },
+                {
+                    "family": "Belak",
+                    "given": "James F."
+                },
+                {
+                    "family": "Turchi",
+                    "given": "Patrice E.A."
+                }
+            ],
+            "title": "A numerical algorithm for the solution of a phase-ield model of polycrystalline materials",
+            "type": "article-journal",
+            "container_title": [
+                "J. Comput. Phys"
+            ],
+            "doi": "10.1016/j.jcp.2009.09.041",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dudson",
+                    "given": "B.D."
+                },
+                {
+                    "family": "Umansky",
+                    "given": "M.V."
+                },
+                {
+                    "family": "Xu",
+                    "given": "X.Q."
+                },
+                {
+                    "family": "Snyder",
+                    "given": "P.B."
+                },
+                {
+                    "family": "Wilson",
+                    "given": "H.R."
+                }
+            ],
+            "title": "BOUT++: A framework for parallel plasma luid simulations",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Phys. Commun"
+            ],
+            "doi": "10.1016/j.cpc.2009.03.008",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Eich",
+                    "given": "Edda"
+                }
+            ],
+            "title": "Convergence results for a coordinate projection method applied to mechanical systems with algebraic constraints",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Numer. Anal"
+            ],
+            "doi": "10.1137/0730076",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Falgout",
+                    "given": "Robert D."
+                },
+                {
+                    "family": "Jones",
+                    "given": "Jim E."
+                }
+            ],
+            "title": "Multigrid on massively parallel architectures",
+            "type": "chapter",
+            "container_title": [
+                "Multigrid Methods VI"
+            ],
+            "doi": "10.1007/978-3-642-58312-4_13",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Feehery",
+                    "given": "William F."
+                },
+                {
+                    "family": "Tolsma",
+                    "given": "John E."
+                },
+                {
+                    "family": "Barton",
+                    "given": "Paul I."
+                }
+            ],
+            "title": "Eicient sensitivity analysis of large-scale diferential-algebraic systems",
+            "type": "article-journal",
+            "container_title": [
+                "Appl. Numer. Math"
+            ],
+            "doi": "10.1016/S0168-9274(97)00050-0",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gardner",
+                    "given": "David J."
+                },
+                {
+                    "family": "Guerra",
+                    "given": "Jorge E."
+                },
+                {
+                    "family": "Hamon",
+                    "given": "Fran\u00e7ois P."
+                },
+                {
+                    "family": "Reynolds",
+                    "given": "Daniel R."
+                },
+                {
+                    "family": "Ullrich",
+                    "given": "Paul A."
+                },
+                {
+                    "family": "Woodward",
+                    "given": "Carol S."
+                }
+            ],
+            "title": "Implicit\u015b explicit (IMEX) Runge\u015bKutta methods for non-hydrostatic atmospheric models",
+            "type": "article-journal",
+            "container_title": [
+                "Geosci. Model Dev"
+            ],
+            "doi": "10.5194/gmd-11-1497-2018",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gardner",
+                    "given": "David J."
+                },
+                {
+                    "family": "Woodward",
+                    "given": "Carol S."
+                },
+                {
+                    "family": "Reynolds",
+                    "given": "Daniel R."
+                },
+                {
+                    "family": "Hommes",
+                    "given": "Gregg"
+                },
+                {
+                    "family": "Aubry",
+                    "given": "Sylvie"
+                },
+                {
+                    "family": "Arsenlis",
+                    "given": "A."
+                }
+            ],
+            "title": "Implicit integration methods for dislocation dynamics",
+            "type": "article-journal",
+            "container_title": [
+                "Modelling Simul. Mater. Sci. Eng"
+            ],
+            "doi": "10.1088/0965-0393/23/2/025006",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Goodwin",
+                    "given": "David G."
+                },
+                {
+                    "family": "Speth",
+                    "given": "Raymond L."
+                },
+                {
+                    "family": "Mofat",
+                    "given": "Harry K."
+                },
+                {
+                    "family": "Weber",
+                    "given": "Bryan W."
+                }
+            ],
+            "title": "Cantera: An Object-oriented Software Toolkit for Chemical Kinetics, Thermodynamics, and Transport Processes",
+            "type": null,
+            "container_title": "",
+            "doi": "10.5281/zenodo.1174508",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hairer",
+                    "given": "Ernst"
+                },
+                {
+                    "family": "N\u00f9rsett",
+                    "given": "Syvert P."
+                },
+                {
+                    "family": "Wanner",
+                    "given": "Gerhard"
+                }
+            ],
+            "title": "Solving Ordinary Diferential Equations I: Nonstif Problems",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1007/978-3-540-78862-1",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hairer",
+                    "given": "Ernst"
+                },
+                {
+                    "family": "Wanner",
+                    "given": "Gerhard"
+                }
+            ],
+            "title": "Solving Ordinary Diferential Equations II: Stif and Diferential-Algebraic Problems",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1007/978-3-642-05221-7",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "LSODE and LSODI, two new initial value ordinary diferential equation solvers",
+            "type": "article-journal",
+            "container_title": [
+                "ACM SIGNUM Newslett"
+            ],
+            "doi": "10.1145/1218052.1218054",
+            "published_date": "1980"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "ODEPACK, a systematized collection of ODE solvers",
+            "type": "chapter",
+            "container_title": [
+                "Scientiic Computing: Applications of Mathematics and Computing to the Physical Sciences (IMACS transactions on scientiic computation"
+            ],
+            "doi": "",
+            "published_date": "1983"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "Detecting stability barriers in BDF solvers",
+            "type": "paper-conference",
+            "container_title": [
+                "Computational Ordinary Diferential Equations (Institute of Mathematics and its Applications Conference Series"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                },
+                {
+                    "family": "Brown",
+                    "given": "Peter N."
+                },
+                {
+                    "family": "Grant",
+                    "given": "Keith E."
+                },
+                {
+                    "family": "Lee",
+                    "given": "Steven L."
+                },
+                {
+                    "family": "Serban",
+                    "given": "Radu"
+                },
+                {
+                    "family": "Shumaker",
+                    "given": "Dan E."
+                },
+                {
+                    "family": "Woodward",
+                    "given": "Carol S."
+                }
+            ],
+            "title": "SUNDIALS: Suite of nonlinear and diferential/algebraic equation solvers",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "10.1145/1089014.1089020",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                },
+                {
+                    "family": "N\u00f9rsett",
+                    "given": "Syvert P."
+                }
+            ],
+            "title": "KRYSI, an ODE solver combining a semi-implicit Runge-Kutta method and a preconditioned Krylov method",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda R."
+                }
+            ],
+            "title": "Algorithms and software for ordinary diferential equations and diferential-algebraic equations, Part I: Euler methods and error estimation",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Phys"
+            ],
+            "doi": "10.1063/1.168536",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda R."
+                }
+            ],
+            "title": "Algorithms and software for ordinary diferential equations and diferential-algebraic equations, Part II: Higher-order methods and software packages",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Phys"
+            ],
+            "doi": "10.1063/1.168540",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                },
+                {
+                    "family": "Serban",
+                    "given": "Radu"
+                },
+                {
+                    "family": "Balos",
+                    "given": "Cody J."
+                },
+                {
+                    "family": "Gardner",
+                    "given": "David J."
+                },
+                {
+                    "family": "Reynolds",
+                    "given": "Daniel R."
+                },
+                {
+                    "family": "Woodward",
+                    "given": "Carol S."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Intel"
+                }
+            ],
+            "title": "Developer Reference for Intel oneAPI Math Kernel Library",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jackson",
+                    "given": "Kenneth R."
+                },
+                {
+                    "family": "Sacks-Davis",
+                    "given": "Ron"
+                }
+            ],
+            "title": "An alternative implementation of variable step-size multistep formulas for stif ODEs",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "10.1145/355900.355903",
+            "published_date": "1980"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Johnson",
+                    "given": "Seth"
+                },
+                {
+                    "family": "Prokopenko",
+                    "given": "Andrey"
+                },
+                {
+                    "family": "Evans",
+                    "given": "Katherine"
+                }
+            ],
+            "title": "Automated Fortran-C++ Bindings for Large-Scale Scientiic Applications",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Sci. Eng. PP"
+            ],
+            "doi": "10.1109/MCSE.2019.2924204",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karlin",
+                    "given": "Ian"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Preparation and Optimization of a Diverse Workload for a Large-Scale Heterogeneous System",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis",
+                "Article"
+            ],
+            "doi": "10.1145/3295500.3356192",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kennedy",
+                    "given": "Christopher A."
+                },
+                {
+                    "family": "Carpenter",
+                    "given": "Mark H."
+                }
+            ],
+            "title": "Additive Runge\u015bKutta schemes for convection\u015bdifusion\u015breaction equations",
+            "type": "article-journal",
+            "container_title": [
+                "Appl. Numer. Math"
+            ],
+            "doi": "10.1016/S0168-9274(02)00138-1",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kennedy",
+                    "given": "Christopher A."
+                },
+                {
+                    "family": "Carpenter",
+                    "given": "Mark H."
+                }
+            ],
+            "title": "Higher-Order Additive Runge\u015bKutta Schemes for Ordinary Diferential Equations",
+            "type": "article-journal",
+            "container_title": [
+                "Appl. Numer. Math"
+            ],
+            "doi": "10.1016/j.apnum.2018.10.007",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kollet",
+                    "given": "Stefan J."
+                },
+                {
+                    "family": "Maxwell",
+                    "given": "Reed M."
+                },
+                {
+                    "family": "Woodward",
+                    "given": "Carol S."
+                },
+                {
+                    "family": "Smith",
+                    "given": "Steve"
+                },
+                {
+                    "family": "Vanderborght",
+                    "given": "Jan"
+                },
+                {
+                    "family": "Vereecken",
+                    "given": "Harry"
+                },
+                {
+                    "family": "Simmer",
+                    "given": "Clemens"
+                }
+            ],
+            "title": "Proof of concept of regional scale hydrologic simulations at hydrologic resolution utilizing massively parallel computer resources",
+            "type": "article-journal",
+            "container_title": [
+                "Water Resour. Res"
+            ],
+            "doi": "10.1029/2009WR008730",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Shengtai"
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda"
+                }
+            ],
+            "title": "Software and algorithms for sensitivity analysis of large-scale diferential algebraic systems",
+            "type": "article-journal",
+            "container_title": [
+                "J. Comput. Appl. Math"
+            ],
+            "doi": "10.1016/S0377-0427(00)00464-7",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Xiaoye S."
+                },
+                {
+                    "family": "Demmel",
+                    "given": "James W."
+                }
+            ],
+            "title": "SuperLU_DIST: A Scalable Distributed-Memory Sparse Direct Solver for Unsymmetric Linear Systems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "10.1145/779359.779361",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Malengier",
+                    "given": "Benny"
+                },
+                {
+                    "family": "Ki\u0161on",
+                    "given": "Pavol"
+                },
+                {
+                    "family": "Tocknell",
+                    "given": "James"
+                },
+                {
+                    "family": "Abert",
+                    "given": "Claas"
+                },
+                {
+                    "family": "Bruckner",
+                    "given": "Florian"
+                },
+                {
+                    "family": "Bisotti",
+                    "given": "Marc-Antonio"
+                }
+            ],
+            "title": "ODES: a high level interface to ODE and DAE solvers",
+            "type": "article-journal",
+            "container_title": [
+                "J. Open Source Softw"
+            ],
+            "doi": "10.21105/joss.00165",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Maly",
+                    "given": "Timothy"
+                },
+                {
+                    "family": "Petzold",
+                    "given": "Linda R."
+                }
+            ],
+            "title": "Numerical methods and software for sensitivity analysis of diferential-algebraic systems",
+            "type": "article-journal",
+            "container_title": [
+                "Appl. Numer. Math"
+            ],
+            "doi": "10.1016/0168-9274(95)00117-4",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McNenly",
+                    "given": "Matthew J."
+                },
+                {
+                    "family": "Whitesides",
+                    "given": "Russell A."
+                },
+                {
+                    "family": "Flowers",
+                    "given": "Daniel L."
+                }
+            ],
+            "title": "Faster solvers for large kinetic mechanisms using adaptive preconditioners",
+            "type": "article-journal",
+            "container_title": [
+                "Proc. Combust. Inst"
+            ],
+            "doi": "10.1016/j.proci.2014.05.113",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "given": "N.V.I.D.I.A."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ortega",
+                    "given": "James M."
+                },
+                {
+                    "family": "Rheinboldt",
+                    "given": "Werner C."
+                }
+            ],
+            "title": "Iterative solution of nonlinear equations in several variables",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1137/1.9780898719468",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pernice",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Walker",
+                    "given": "Homer F."
+                }
+            ],
+            "title": "NITSOL: A Newton iterative solver for nonlinear systems",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Sci. Comput"
+            ],
+            "doi": "10.1137/S1064827596303843",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Petzold",
+                    "given": "Linda R."
+                }
+            ],
+            "title": "Description of DASSL: A diferential/algebraic system solver",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1982"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rackauckas",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Nie",
+                    "given": "Qing"
+                }
+            ],
+            "title": "DiferentialEquations.jl \u015b A performant and feature-rich ecosystem for solving diferential equations in Julia",
+            "type": "article-journal",
+            "container_title": [
+                "J. Open Res. Softw"
+            ],
+            "doi": "10.5334/jors.151",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Reynolds",
+                    "given": "Daniel R."
+                },
+                {
+                    "family": "Gardner",
+                    "given": "David J."
+                },
+                {
+                    "family": "Balos",
+                    "given": "Cody J."
+                },
+                {
+                    "family": "Woodward",
+                    "given": "Carol S."
+                }
+            ],
+            "title": "SUNDIALS Multiphysics+MPIManyVector Performance Testing",
+            "type": "report",
+            "container_title": "",
+            "doi": "10.2172/1567994",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sandu",
+                    "given": "Adrian"
+                }
+            ],
+            "title": "A Class of Multirate Ininitesimal GARK Methods",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Numer. Anal"
+            ],
+            "doi": "10.1137/18M1205492",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schlegel",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Knoth",
+                    "given": "Oswald"
+                },
+                {
+                    "family": "Arnold",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Wolke",
+                    "given": "Ralf"
+                }
+            ],
+            "title": "Multirate Runge\u015bKutta schemes for advection equations",
+            "type": "article-journal",
+            "container_title": [
+                "J. Comput. Appl. Math"
+            ],
+            "doi": "10.1016/j.cam.2008.08.009",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schlegel",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Knoth",
+                    "given": "Oswald"
+                },
+                {
+                    "family": "Arnold",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Wolke",
+                    "given": "Ralf"
+                }
+            ],
+            "title": "Implementation of multirate time integration methods for air pollution modelling",
+            "type": "article-journal",
+            "container_title": [
+                "Geosci. Model Dev"
+            ],
+            "doi": "10.5194/gmd-5-1395-2012",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schlegel",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Knoth",
+                    "given": "Oswald"
+                },
+                {
+                    "family": "Arnold",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Wolke",
+                    "given": "Ralf"
+                }
+            ],
+            "title": "Numerical solution of multiscale problems in atmospheric modeling",
+            "type": "article-journal",
+            "container_title": [
+                "Appl. Numer. Math"
+            ],
+            "doi": "10.1016/j.apnum.2012.06.023",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schmidt",
+                    "given": "Henning"
+                }
+            ],
+            "title": "SBaddon: High performance simulation for the Systems Biology Toolbox for MATLAB",
+            "type": "article-journal",
+            "container_title": [
+                "Bioinformatics"
+            ],
+            "doi": "10.1093/bioinformatics/btl668",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Serban",
+                    "given": "Radu"
+                },
+                {
+                    "family": "Hindmarsh",
+                    "given": "Alan C."
+                }
+            ],
+            "title": "CVODES: The sensitivity-enabled ODE solver in SUNDIALS",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ASME 2005 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. (International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+                "5th International Conference on Multibody Systems, Nonlinear Dynamics, and Control, Parts A, B, and C"
+            ],
+            "doi": "10.1115/DETC2005-85597",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shampine",
+                    "given": "Lawrence F."
+                }
+            ],
+            "title": "Conservation laws and the numerical solution of ODEs, II",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Math. with Appl"
+            ],
+            "doi": "10.1016/S0898-1221(99)00183-2",
+            "published_date": "1999"
+        },
+        {
+            "authors": [],
+            "title": "The SUNDIALS development teamSUNDIALS",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "chapter",
+            "container_title": [
+                "The SUNDIALS development team. 2022. SUNDIALS GitHub"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tomov",
+                    "given": "Stanimire"
+                },
+                {
+                    "family": "Dongarra",
+                    "given": "Jack"
+                },
+                {
+                    "family": "Baboulin",
+                    "given": "Marc"
+                }
+            ],
+            "title": "Towards dense linear algebra for hybrid GPU accelerated manycore systems",
+            "type": "article-journal",
+            "container_title": [
+                "Parallel Comput"
+            ],
+            "doi": "10.1016/j.parco.2009.12.005",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vogl",
+                    "given": "Christopher J."
+                },
+                {
+                    "family": "Steyer",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Reynolds",
+                    "given": "Daniel R."
+                },
+                {
+                    "family": "Ullrich",
+                    "given": "Paul A."
+                },
+                {
+                    "family": "Woodward",
+                    "given": "Carol S."
+                }
+            ],
+            "title": "Evaluation of Implicit-Explicit Additive Runge-Kutta Integrators for the HOMME-NH Dynamical Core",
+            "type": "article-journal",
+            "container_title": [
+                "J. Adv. Model. Earth Syst"
+            ],
+            "doi": "10.1029/2019MS001700",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Walker",
+                    "given": "Homer F."
+                },
+                {
+                    "family": "Ni",
+                    "given": "Peng"
+                }
+            ],
+            "title": "Anderson acceleration for ixed-point iterations",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Numer. Anal"
+            ],
+            "doi": "10.1137/10078356X",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Wolfram"
+                }
+            ],
+            "title": "IDA Method for NDSolve",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "Weiqun"
+                },
+                {
+                    "family": "Myers",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Gott",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Almgren",
+                    "given": "Ann"
+                },
+                {
+                    "family": "Bell",
+                    "given": "John"
+                }
+            ],
+            "title": "AMReX: Block-structured adaptive mesh reinement for multiphysics applications",
+            "type": "article-journal",
+            "container_title": [
+                "Int. J. High Perform. Comput. Appl"
+            ],
+            "doi": "10.1177/10943420211022811",
+            "published_date": "2021"
+        }
+    ]
+}

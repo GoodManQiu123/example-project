@@ -1,0 +1,715 @@
+{
+    "metadata": {
+        "title": "Summarize the Etiology and Epidemiology Characteristics of the New Coronavirus",
+        "doi": "10.1145/3418094.3418142",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Until May 16th, there are more than four million people who have been confirmed of the Covid-19 virus in the whole world and 311,739 of total deaths. The virus caused disastrous effects in the economy around the whole world, destroying small businesses and the stock market, ruining international transportation, devastating the morale of the people and prohibiting people from interacting and socializing. Considering these huge impacts that the virus made, on March, 12, 2020, the World Health Organization (WHO) characterized the Covid-19 caused by the Sars-CoV-2 virus as a global pandemic. There is not an effective vaccination or specific medicine to cure the disease. The most effective way to slow down the transmission is early detection, isolation of new carriers and operating proper treatment to patients. Thus, the research on the physical properties and clinical characteristics of the Covid-19 become significantly important. To prepare for the future prevention, this paper summarizes the overall treatment of the virus, mainly through the virus's origin, etiology, epidemiology, and clinical symptoms to inform readers more about the Covid-19, eliminate misunderstanding and bias to the virus, invoke the sense of self-protection and finally use scientific and logical methods to overcome this world-wide pandemic.",
+        "keywords": [
+            "sarscov2",
+            "coronavirus",
+            "covid",
+            "etiology",
+            "virus",
+            "disease",
+            "epidemiology",
+            "new",
+            "clinical",
+            "people",
+            "world",
+            "characteristic"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sicheng Shen",
+            "affiliation": "Ravenscroft School Student",
+            "email": "seanshen4@gmail.com"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Lai",
+                    "given": "C.C."
+                },
+                {
+                    "family": "Shih",
+                    "given": "T.P."
+                },
+                {
+                    "family": "Ko",
+                    "given": "W.C."
+                },
+                {
+                    "family": "Tang",
+                    "given": "H.J."
+                },
+                {
+                    "family": "Hsueh",
+                    "given": "P.R."
+                }
+            ],
+            "title": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and coronavirus disease-2019 (COVID-19): The epidemic and the challenges",
+            "type": "article-journal",
+            "container_title": [
+                "Int J Antimicrob Agents"
+            ],
+            "doi": "10.1016/j.ijantimicag.2020.105924",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ali",
+                    "given": "I."
+                },
+                {
+                    "family": "Alharbi",
+                    "given": "O.M.L."
+                }
+            ],
+            "title": "COVID-19: Disease, management, treatment, and social impact",
+            "type": "article-journal",
+            "container_title": [
+                "Sci Total Environ"
+            ],
+            "doi": "10.1016/j.scitotenv.2020.138861",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shao",
+                    "given": "S."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Experiences and practices in the current prevention and control of the novel coronavirus pneumonia in China",
+            "type": "chapter",
+            "container_title": [
+                "Disaster Med Public Health Prep"
+            ],
+            "doi": "10.1017/dmp.2020.173",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cheever",
+                    "given": "F.S."
+                },
+                {
+                    "family": "Daniels",
+                    "given": "J.B."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "A murine virus (JHM) causing disseminated encephalomyelitis with extensive destruction of myelin",
+            "type": "article-journal",
+            "container_title": [
+                "J Exp Med"
+            ],
+            "doi": "10.1084/jem.90.3.181",
+            "published_date": "1949"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bailey",
+                    "given": "O.T."
+                },
+                {
+                    "family": "Pappenheimer",
+                    "given": "A.M."
+                },
+                {
+                    "family": "Cheever",
+                    "given": "F.S."
+                },
+                {
+                    "family": "Daniels",
+                    "given": "J.B."
+                }
+            ],
+            "title": "A Murine Virus (Jhm) Causing Disseminated Encephalomyelitis with Extensive Destruction of Myelin : Ii",
+            "type": "article-journal",
+            "container_title": [
+                "Pathology. J Exp Med"
+            ],
+            "doi": "10.1084/jem.90.3.195",
+            "published_date": "1949"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hamre",
+                    "given": "D."
+                },
+                {
+                    "family": "Procknow",
+                    "given": "J.J."
+                }
+            ],
+            "title": "A new virus isolated from the human respiratory tract",
+            "type": "article-journal",
+            "container_title": [
+                "Proc Soc Exp Biol Med"
+            ],
+            "doi": "10.3181/00379727-121-30734",
+            "published_date": "1966"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Goldstein",
+                    "given": "S.A."
+                },
+                {
+                    "family": "Weiss",
+                    "given": "S.R."
+                }
+            ],
+            "title": "Origins and pathogenesis of Middle East respiratory syndrome-associated coronavirus: recent advances",
+            "type": "article-journal",
+            "container_title": [
+                "F1000Res"
+            ],
+            "doi": "10.12688/f1000research.11827.1",
+            "published_date": "1628"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jewell",
+                    "given": "N.P."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Non-parametric estimation of the case fatality ratio with competing risks data: an application to Severe Acute Respiratory Syndrome (SARS",
+            "type": "article-journal",
+            "container_title": [
+                "Stat Med"
+            ],
+            "doi": "10.1002/sim.2691",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhu",
+                    "given": "N."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+            "type": "article-journal",
+            "container_title": [
+                "N Engl J Med"
+            ],
+            "doi": "10.1056/NEJMoa2001017",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mousavizadeh",
+                    "given": "L."
+                },
+                {
+                    "family": "Ghasemi",
+                    "given": "S."
+                }
+            ],
+            "title": "Genotype and phenotype of COVID-19: Their roles in pathogenesis",
+            "type": "article-journal",
+            "container_title": [
+                "J Microbiol Immunol Infect"
+            ],
+            "doi": "10.1016/j.jmii.2020.03.022",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Decaro",
+                    "given": "N."
+                },
+                {
+                    "family": "Lorusso",
+                    "given": "A."
+                }
+            ],
+            "title": "Novel human coronavirus (SARS-CoV-2): A lesson from animal coronaviruses",
+            "type": "article-journal",
+            "container_title": [
+                "Vet Microbiol"
+            ],
+            "doi": "10.1016/j.vetmic.2020.108693",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chan",
+                    "given": "J.F."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "A familial cluster of pneumonia associated with the 2019 novel coronavirus indicating person-to-person transmission: a study of a family cluster",
+            "type": "article-journal",
+            "container_title": [
+                "Lancet"
+            ],
+            "doi": "10.1016/S0140-6736(20)30154-9",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "P."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "10.1038/s41586-020-2012-7",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hu",
+                    "given": "D."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Genomic characterization and infectivity of a novel SARS-like coronavirus in Chinese bats",
+            "type": "article-journal",
+            "container_title": [
+                "Emerg Microbes Infect"
+            ],
+            "doi": "10.1038/s41426-018-0155-5",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lu",
+                    "given": "R."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "type": "article-journal",
+            "container_title": [
+                "Lancet"
+            ],
+            "doi": "10.1016/S0140-6736(20)30251-8",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Deng",
+                    "given": "X."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Structure-Guided Mutagenesis Alters Deubiquitinating Activity and Attenuates Pathogenesis of a Murine Coronavirus",
+            "type": "article-journal",
+            "container_title": [
+                "J Virol"
+            ],
+            "doi": "10.1128/JVI.01734-19",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chen",
+                    "given": "Z."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Diagnosis and treatment recommendation for pediatric coronavirus disease-19",
+            "type": "article-journal",
+            "container_title": [
+                "Zhejiang Da Xue Xue Bao Yi Xue Ban"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Delamater",
+                    "given": "P.L."
+                },
+                {
+                    "family": "Street",
+                    "given": "E.J."
+                },
+                {
+                    "family": "Leslie",
+                    "given": "T.F."
+                },
+                {
+                    "family": "Yang",
+                    "given": "Y.T."
+                },
+                {
+                    "family": "Jacobsen",
+                    "given": "K.H."
+                }
+            ],
+            "title": "Complexity of the Basic Reproduction Number (R0",
+            "type": "article-journal",
+            "container_title": [
+                "Emerg Infect Dis"
+            ],
+            "doi": "10.3201/eid2501.171901",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ncip Epidemic Response",
+                    "given": "C.C.f D.C.",
+                    "particle": "Epidemiology Working Group for"
+                },
+                {
+                    "given": "Prevention"
+                }
+            ],
+            "title": "The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) in China",
+            "type": "article-journal",
+            "container_title": [
+                "Zhonghua Liu Xing Bing Xue Za Zhi"
+            ],
+            "doi": "10.3760/cma.j.issn.0254-6450.2020.02.003",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "S."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "The epidemiological characteristics of measles and difficulties of measles elimination in Hang Zhou, China",
+            "type": "article-journal",
+            "container_title": [
+                "Hum Vaccin Immunother"
+            ],
+            "doi": "10.4161/hv.24032",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Prospero",
+                    "given": "E."
+                },
+                {
+                    "family": "Raffo",
+                    "given": "M."
+                },
+                {
+                    "family": "Bagnoli",
+                    "given": "M."
+                },
+                {
+                    "family": "Appignanesi",
+                    "given": "R."
+                },
+                {
+                    "family": "D'Errico",
+                    "given": "M.M."
+                }
+            ],
+            "title": "Diphtheria: epidemiological update and review of prevention and control strategies",
+            "type": "article-journal",
+            "container_title": [
+                "Eur J Epidemiol"
+            ],
+            "doi": "10.1023/a:1007305205763",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lauer",
+                    "given": "S.A."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application",
+            "type": "article-journal",
+            "container_title": [
+                "Ann Intern Med"
+            ],
+            "doi": "10.7326/M20-0504",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Al-Tawfiq",
+                    "given": "J.A."
+                }
+            ],
+            "title": "Asymptomatic coronavirus infection: MERS-CoV and SARS-CoV-2 (COVID-19",
+            "type": "article-journal",
+            "container_title": [
+                "Travel Med Infect Dis"
+            ],
+            "doi": "10.1016/j.tmaid.2020.101608",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ip",
+                    "given": "V.H.Y."
+                },
+                {
+                    "family": "Sondekoppam",
+                    "given": "R.V."
+                },
+                {
+                    "family": "Ozelsel",
+                    "given": "T.J.P."
+                },
+                {
+                    "family": "Tsui",
+                    "given": "B.C.H."
+                }
+            ],
+            "title": "Coronavirus disease 2019 (COVID-19) pandemic: International variation of personal protective equipment (PPE) and infection prevention and control (IPC) guidelines",
+            "type": "article-journal",
+            "container_title": [
+                "Anesth Analg"
+            ],
+            "doi": "10.1213/ANE.0000000000004941",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Z."
+                },
+                {
+                    "family": "Chen",
+                    "given": "X."
+                },
+                {
+                    "family": "Lu",
+                    "given": "Y."
+                },
+                {
+                    "family": "Chen",
+                    "given": "F."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "W."
+                }
+            ],
+            "title": "Clinical characteristics and therapeutic procedure for four cases with 2019 novel coronavirus pneumonia receiving combined Chinese and Western medicine treatment",
+            "type": "article-journal",
+            "container_title": [
+                "Biosci Trends"
+            ],
+            "doi": "10.5582/bst.2020.01030",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "T."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Clinical trials for the treatment of Coronavirus disease 2019 (COVID-19): A rapid response to urgent need",
+            "type": "article-journal",
+            "container_title": [
+                "Sci China Life Sci"
+            ],
+            "doi": "10.1007/s11427-020-1660-2",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Asadi",
+                    "given": "S."
+                },
+                {
+                    "family": "Bouvier",
+                    "given": "N."
+                },
+                {
+                    "family": "Wexler",
+                    "given": "A.S."
+                },
+                {
+                    "family": "Ristenpart",
+                    "given": "W.D."
+                }
+            ],
+            "title": "The coronavirus pandemic and aerosols: Does COVID-19 transmit via expiratory particles?",
+            "type": "article-journal",
+            "container_title": [
+                "Aerosol Sci Technol"
+            ],
+            "doi": "10.1080/02786826.2020.1749229",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhao",
+                    "given": "F."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "The Time Sequences of Oral and Fecal Viral Shedding of Coronavirus Disease 2019 (COVID-19) Patients",
+            "type": "article-journal",
+            "container_title": [
+                "Gastroenterology"
+            ],
+            "doi": "10.1053/j.gastro.2020.05.035",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Adhikari",
+                    "given": "S.P."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Epidemiology, causes, clinical manifestation and diagnosis, prevention and control of coronavirus disease (COVID-19) during the early outbreak period: a scoping review",
+            "type": "article-journal",
+            "container_title": [
+                "Infect Dis Poverty"
+            ],
+            "doi": "10.1186/s40249-020-00646-x",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karimi-Zarchi",
+                    "given": "M."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Vertical Transmission of Coronavirus Disease 19 (COVID-19) from Infected Pregnant Mothers to Neonates: A Review",
+            "type": "article-journal",
+            "container_title": [
+                "Fetal Pediatr Pathol"
+            ],
+            "doi": "10.1080/15513815.2020.1747120",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chen",
+                    "given": "N."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "type": "article-journal",
+            "container_title": [
+                "Lancet"
+            ],
+            "doi": "10.1016/S0140-6736(20)30211-7",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "M."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "The proportion of patients with thrombocytopenia in three human-susceptible coronavirus infections: a systematic review and meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Br J Haematol"
+            ],
+            "doi": "10.1111/bjh.16655",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "H."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Why are pregnant women susceptible to COVID-19? An immunological viewpoint",
+            "type": "article-journal",
+            "container_title": [
+                "J Reprod Immunol"
+            ],
+            "doi": "10.1016/j.jri.2020.103122",
+            "published_date": "2020"
+        }
+    ]
+}

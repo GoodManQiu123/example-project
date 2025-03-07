@@ -1,0 +1,324 @@
+{
+  "title": "Descriptive Epidemiology of Neonatal Mortality in Gowa District 2015",
+  "doi": "10.1145/3242789.3242827",
+  "publisher": "ACM",
+  "journal": null,
+  "publish date": "2018-06-08",
+  "abstract": "The aim of this study is to describe epidemiology of neonatal mortality in Gowa district 2015. The study type was an observational escriptive study. The population for this study was all neonatal deaths had recorded in Gowa district health office in 2015. Meanwhile, the sample sizes were 77 neonatal death cases. The point coordinates were determined by using geographic positioning system (GPS) and exported into geographic information system (GIS). The result showed neonatal death cases occurred by maternal characteristics with received antenatal care visit (ANC) ≥ 4visits (71.2%), 2 times of tetanus toxoid (TT) vaccination (81.9%) and birth attendance by midwife (85.7%). Based on infant characteristics occurred based on parity 1 (51.9%), gestational age < 37 weeks (64.9%), birth weight < 2500 gram (54.2%). The main cause of neonatal mortality was asphyxia neonatorum (45.5%). The neonatal mortality was occurred at health centres (46.8%) and hospital (57. 1%).The average distance from respondent house to the hospital respectively 19. 41 km and 19.94 km. Most of neonatal mortality occurred in September with total of 12.52/1000 live births. The number of midwives should be increasing to reduce neonatal mortality.",
+  "keywords": [
+    "Descriptive",
+    "epidemiology",
+    "neonatal death",
+    "GIS"
+  ],
+  "authors": [
+    {
+      "name": "Amalya Rezky Putri",
+      "affiliation": "Faculty of Public Health, Hasanuddin University",
+      "email": "amalyarp@gmail.com"
+    },
+    {
+      "name": "Jumriani Ansar",
+      "affiliation": "Faculty of Public Health, Hasanuddin University",
+      "email": "jumriani.ansar@gmail.com"
+    },
+    {
+      "name": "Dian Sidik Arsyad",
+      "affiliation": "Faculty of Public Health, Hasanuddin University",
+      "email": "dian_sidiq@yahoo.com"
+    }
+  ],
+  "Reference": [
+    {
+      "authors": [
+        {
+          "family": "Ferreira Pinheiro",
+          "given": "J.M."
+        },
+        {
+          "others": true
+        }
+      ],
+      "container_title": "Brazil.Ciencia & Saude Coletiva,21(1),243-252",
+      "doi": "10.1590/141381232015211.09912014",
+      "published_date": "2015",
+      "title": "Childcare in the neonatal period: evaluation of neonatal mortality reduction pact in Rio Grande do Norte",
+      "type": "article-journal"
+    },
+    {
+      "authors": [
+        {
+          "family": "Doukkali",
+          "given": "L."
+        }
+      ],
+      "title": "Factors of neo-natal morbidity at the Provincial Hospital Centre of Missour",
+      "type": "article-journal",
+      "container_title": "Journal of Biosciences and Medicines",
+      "doi": "10.4236/jbm.2016.45005",
+      "published_date": "2016"
+    },
+    {
+      "authors": [],
+      "title": "World Health Organization",
+      "type": null,
+      "container_title": "",
+      "doi": "",
+      "published_date": "2006"
+    },
+    {
+      "authors": [
+        {
+          "family": "Oza",
+          "given": "S."
+        }
+      ],
+      "title": "Neonatal cause-of-death estimates for the early and late neonatal periods for 194 countries:2000-2013",
+      "type": "article-journal",
+      "container_title": "Bulletin World Health Organ",
+      "doi": "10.2471/BLT.14.139790",
+      "published_date": "2015"
+    },
+    {
+      "authors": [],
+      "title": "Kementerian Kesehatan Republik Indonesia",
+      "type": "book",
+      "container_title": "",
+      "doi": "",
+      "published_date": "2013"
+    },
+    {
+      "authors": [
+        {
+          "family": "Selatan",
+          "given": "Dinas Kesehatan Provinsi Sulawesi"
+        }
+      ],
+      "title": "Profil kesehatan Sulawesi Selatan",
+      "type": null,
+      "container_title": "",
+      "doi": "",
+      "published_date": "2015"
+    },
+    {
+      "authors": [
+        {
+          "family": "El Awour",
+          "given": "I."
+        }
+      ],
+      "title": "Determinants and risk factors of neonatal mortality in the Gaza Strip, Occupied Palestinian Territory: a case-control study",
+      "type": "article-journal",
+      "container_title": "The Lancet",
+      "doi": "",
+      "published_date": "2012"
+    },
+    {
+      "authors": [
+        {
+          "family": "Chaman",
+          "given": "R."
+        }
+      ],
+      "title": "Consanguinity and neonatal death: a nested case-control study",
+      "type": "article-journal",
+      "container_title": "Journal of Family and Reproductive Health",
+      "doi": "",
+      "published_date": "2014"
+    },
+    {
+      "authors": [
+        {
+          "family": "Chiabi",
+          "given": "A."
+        }
+      ],
+      "title": "Risk factors for neonatal mortality at the Yaounde Gynaeco-Obstetric and Pediatric Hospital, Cameroon",
+      "type": "article-journal",
+      "container_title": "Iranian journal of Pediatrics",
+      "doi": "",
+      "published_date": "2014"
+    },
+    {
+      "authors": [
+        {
+          "family": "Anggraini",
+          "given": "A."
+        }
+      ],
+      "title": "Faktor risiko kematian neonatus dengan penyakit membran hialin",
+      "type": "article-journal",
+      "container_title": "Sari Pediatri",
+      "doi": "",
+      "published_date": "2012"
+    },
+    {
+      "authors": [
+        {
+          "family": "Yani",
+          "given": "D.F."
+        }
+      ],
+      "title": "Pelayanan kesehatan ibu dan kematian neonatal.Kesmas",
+      "type": "article-journal",
+      "container_title": "Jurnal Kesehatan Masyarat Nasional",
+      "doi": "",
+      "published_date": "2013"
+    },
+    {
+      "authors": [
+        {
+          "given": "Masni"
+        }
+      ],
+      "title": "Faktor risiko kematian neonatal di Kabupaten Morowali provinsi Sulawesi Tengah",
+      "type": null,
+      "container_title": "",
+      "doi": "",
+      "published_date": "2014"
+    },
+    {
+      "authors": [
+        {
+          "family": "Abdullah",
+          "given": "A."
+        }
+      ],
+      "title": "Faktor risiko kematian neonatal di provinsi Nusa Tenggara Timur: a matched case-control study",
+      "type": "book",
+      "container_title": "",
+      "doi": "",
+      "published_date": "2015"
+    },
+    {
+      "authors": [
+        {
+          "family": "Eijk",
+          "given": "A.M."
+        }
+      ],
+      "title": "Use of antenatal services and delivery care among women in rural western Kenya: a community based survey",
+      "type": "article-journal",
+      "container_title": "Reproductive Health",
+      "doi": "",
+      "published_date": "2006"
+    },
+    {
+      "authors": [
+        {
+          "family": "Ayaz",
+          "given": "A."
+        }
+      ],
+      "title": "Neonatal mortality and prevalence of practices for newborn care in a squatter settlement of Karachi, Pakistan: a cross-sectional study",
+      "type": "article-journal",
+      "container_title": "PLoS ONE",
+      "doi": "",
+      "published_date": "2010"
+    },
+    {
+      "authors": [
+        {
+          "family": "Indonesia",
+          "given": "Kementerian Kesehatan Republik"
+        }
+      ],
+      "title": "Profil kesehatan Indonesia 2012",
+      "type": "book",
+      "container_title": "",
+      "doi": "",
+      "published_date": "2013"
+    },
+    {
+      "authors": [
+        {
+          "family": "Titaley",
+          "given": "C."
+        }
+      ],
+      "title": "Type of delivery attendant, place of delivery and risk of early neonatal mortality: analyses of 1994-2007 Indonesia demographic and health surveys",
+      "type": "article-journal",
+      "container_title": "Health Policy and Planning",
+      "doi": "",
+      "published_date": "2012"
+    },
+    {
+      "authors": [
+        {
+          "family": "Wiknjosastro",
+          "given": "H."
+        }
+      ],
+      "title": "Ilmu kebidanan edisi ketiga",
+      "type": "book",
+      "container_title": "",
+      "doi": "",
+      "published_date": "2007"
+    },
+    {
+      "authors": [
+        {
+          "family": "Yego",
+          "given": "F.H."
+        }
+      ],
+      "title": "A case-control study of risk factors for fetal and early neonatal deaths in a tertiary hospital in Kenya",
+      "type": "article-journal",
+      "container_title": "BMC Pregnancy Childbirth",
+      "doi": "10.1186/s12884-014-0389-8",
+      "published_date": "2014"
+    },
+    {
+      "authors": [
+        {
+          "family": "Chowdhury",
+          "given": "H.R."
+        }
+      ],
+      "title": "Causes of neonatal deaths in a rural subdistrict of Bangladesh: Implications from intervention",
+      "type": "article-journal",
+      "container_title": "Journal of Health, Population, and Nutrition",
+      "doi": "",
+      "published_date": "2010"
+    },
+    {
+      "authors": [
+        {
+          "family": "Owais",
+          "given": "A."
+        }
+      ],
+      "title": "Maternal and antenatal risk factors for stillbirths and neonatal mortality in rural Bangladesh: a case-control study",
+      "type": "article-journal",
+      "container_title": "PLoS ONE",
+      "doi": "",
+      "published_date": "2013"
+    },
+    {
+      "authors": [
+        {
+          "family": "Velaphi",
+          "given": "S."
+        }
+      ],
+      "title": "Avoidable factors and causes of neonatal deaths from perinatal asphyxia-hypoxia in South Africa: national perinatal survey",
+      "type": "article-journal",
+      "container_title": "Annals of Tropical Paediatrics",
+      "doi": "",
+      "published_date": "2007"
+    },
+    {
+      "authors": [
+        {
+          "family": "Lohela",
+          "given": "T.J."
+        }
+      ],
+      "title": "Distance to care, facility delivery and early neonatal mortality in Malawi and Zambia",
+      "type": "article-journal",
+      "container_title": "PLoS ONE",
+      "doi": "",
+      "published_date": "2012"
+    }
+  ]
+}

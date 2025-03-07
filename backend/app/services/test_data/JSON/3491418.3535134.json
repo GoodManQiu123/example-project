@@ -1,0 +1,273 @@
+{
+  "title": "Integrating End-to-End Exascale SDN into the LHC Data Distribution Cyberinfrastructure",
+  "doi": "10.1145/3491418.3535134",
+  "publisher": "ACM",
+  "journal": null,
+  "publish date": "2022-07-08",
+  "abstract": "The Compact Muon Solenoid (CMS) experiment at the CERN Large Hadron Collider (LHC) distributes its data by leveraging a diverse ar- ray of National Research and Education Networks (NRENs), which CMS is forced to treat as an opaque resource. Consequently, CMS sees highly variable performance that already poses a challenge for operators coordinating the movement of petabytes around the globe. This kind of unpredictability, however, threatens CMS with a logistical nightmare as it barrels towards the High Luminosity LHC (HL-LHC) era in 2030, which is expected to produce roughly 0.5 exabytes of data per year. This paper explores one potential solution to this issue: software-defined networking (SDN). In par- ticular, the prototypical interoperation of SENSE, an SDN product developed by the Energy Sciences Network, with Rucio, the data management software used by the LHC, is outlined. In addition, this paper presents the current progress in bringing these technologies together.",
+  "keywords": [
+    "exascale",
+    "data distribution",
+    "software defined networking"
+  ],
+  "authors": [
+    {
+      "name": "Jonathan Guiang",
+      "affiliation": "UC San Diego",
+      "email": "jguiang@ucsd.edu"
+    },
+    {
+      "name": "Aashay Arora",
+      "affiliation": "UC San Diego",
+      "email": "aaarora@ucsd.edu"
+    },
+    {
+      "name": "Diego Davila",
+      "affiliation": "UC San Diego",
+      "email": "didavila@ucsd.edu"
+    },
+    {
+      "name": "John Graham",
+      "affiliation": "UC San Diego",
+      "email": "jjgraham@ucsd.edu"
+    },
+    {
+      "name": "Dima Mishin",
+      "affiliation": "UC San Diego",
+      "email": "dmishin@ucsd.edu"
+    },
+    {
+      "name": "Igor Sfiligoi",
+      "affiliation": "UC San Diego",
+      "email": "isfiligoi@sdsc.edu"
+    },
+    {
+      "name": "Frank Wuerthwein",
+      "affiliation": "UC San Diego",
+      "email": "fkw@ucsd.edu"
+    },
+    {
+      "name": "Tom Lehman",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "tlehman@es.net"
+    },
+    {
+      "name": "Xi Yang",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "xiyang@es.net"
+    },
+    {
+      "name": "Chin Guok",
+      "affiliation": "Lawrence Berkeley National Laboratory",
+      "email": "chin@es.net"
+    },
+    {
+      "name": "Harvey Newman",
+      "affiliation": "Caltech",
+      "email": "newman@hep.caltech.edu"
+    },
+    {
+      "name": "Justas Balcas",
+      "affiliation": "Caltech",
+      "email": "jbalcas@caltech.edu"
+    },
+    {
+      "name": "Thomas Hutton",
+      "affiliation": "UC San Diego",
+      "email": "aaarora@ucsd.edu"
+    }
+  ],
+  "Reference": [
+    {
+      "authors": [
+        {
+          "family": "Albrecht",
+          "given": "Johannes"
+        }
+      ],
+      "title": "A Roadmap for HEP Software and Computing R&D for the 2020s",
+      "type": "article-journal",
+      "container_title": "Computing and Software for Big Science",
+      "doi": "10.1007/s41781-",
+      "published_date": "2019"
+    },
+    {
+      "authors": [
+        {
+          "family": "Ayllon",
+          "given": "A.A."
+        },
+        {
+          "family": "Salichos",
+          "given": "M."
+        },
+        {
+          "family": "Simon",
+          "given": "M.K."
+        },
+        {
+          "family": "Keeble",
+          "given": "O."
+        }
+      ],
+      "title": "FTS3: New Data Movement Service For WLCG",
+      "type": "article-journal",
+      "container_title": "Journal of Physics: Conference Series",
+      "doi": "10.1088/1742-",
+      "published_date": "2014"
+    },
+    {
+      "authors": [
+        {
+          "family": "Barisits",
+          "given": "Martin"
+        },
+        {
+          "family": "Beermann",
+          "given": "Thomas"
+        },
+        {
+          "family": "Berghaus",
+          "given": "Frank"
+        }
+      ],
+      "title": "Rucio: Scientific Data Management",
+      "type": "article-journal",
+      "container_title": "Computing and Software for Big Science",
+      "doi": "10.1007/s41781-",
+      "published_date": "2019"
+    },
+    {
+      "authors": [
+        {
+          "given": "C.E.R.N."
+        }
+      ],
+      "title": "CERN Homepage",
+      "type": null,
+      "container_title": "",
+      "doi": "",
+      "published_date": "2022"
+    },
+    {
+      "authors": [
+        {
+          "family": "Collaboration",
+          "given": "C.M.S."
+        }
+      ],
+      "title": "CMS Offline and Computing Public Results",
+      "type": null,
+      "container_title": "",
+      "doi": "",
+      "published_date": "2022"
+    },
+    {
+      "authors": [
+        {
+          "family": "Dorigo",
+          "given": "Alvise"
+        },
+        {
+          "family": "Elmer",
+          "given": "Peter"
+        },
+        {
+          "family": "Furano",
+          "given": "Fabrizio"
+        },
+        {
+          "family": "Hanushevsky",
+          "given": "Andrew"
+        }
+      ],
+      "title": "XROOTD-A highly scalable architecture for data access",
+      "type": null,
+      "container_title": "",
+      "doi": "",
+      "published_date": "2005"
+    },
+    {
+      "authors": [
+        {
+          "family": "Monga",
+          "given": "Inder"
+        },
+        {
+          "family": "Guok",
+          "given": "Chin"
+        },
+        {
+          "family": "MacAuley",
+          "given": "John"
+        },
+        {
+          "family": "Sim",
+          "given": "Alex"
+        },
+        {
+          "family": "Newman",
+          "given": "Harvey"
+        },
+        {
+          "family": "Balcas",
+          "given": "Justas"
+        },
+        {
+          "family": "DeMar",
+          "given": "Phil"
+        },
+        {
+          "family": "Winkler",
+          "given": "Linda"
+        },
+        {
+          "family": "Lehman",
+          "given": "Tom"
+        },
+        {
+          "family": "Yang",
+          "given": "Xi"
+        }
+      ],
+      "title": "Software-Defined Network for End-to-end Networked Science at the Exascale",
+      "type": "article-journal",
+      "container_title": "Future",
+      "doi": "10.1016/j.future.",
+      "published_date": "2020"
+    },
+    {
+      "authors": [
+        {
+          "family": "Zurawski",
+          "given": "J."
+        },
+        {
+          "family": "Brown",
+          "given": "D."
+        },
+        {
+          "family": "Carder",
+          "given": "B."
+        },
+        {
+          "family": "Colby",
+          "given": "E."
+        },
+        {
+          "family": "Dart",
+          "given": "E."
+        },
+        {
+          "family": "Miller",
+          "given": "K."
+        }
+      ],
+      "title": "High Energy Physics Network Requirements Review Final Report",
+      "type": "report",
+      "container_title": "Technical Report LBNL-2001398.Lawrence Berkeley National Laboratory.",
+      "doi": "",
+      "published_date": "2021"
+    }
+  ]
+}

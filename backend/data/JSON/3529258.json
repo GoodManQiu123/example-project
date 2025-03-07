@@ -1,0 +1,1827 @@
+{
+    "metadata": {
+        "title": "Algorithm XXXX: VTMOP: Solver for Blackbox Multiobjective Optimization Problems",
+        "doi": "10.1145/3529258",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "VTMOP is a Fortran 2008 software package containing two Fortran modules for solving computationally expensive boundconstrained blackbox multiobjective optimization problems. VTMOP implements the algorithm of  [32] , which handles two or more objectives, does not require any derivatives, and produces well-distributed points over the Pareto front. The irst module contains a general framework for solving multiobjective optimization problems by combining response surface methodology, trust region methodology, and an adaptive weighting scheme. The second module features a driver subroutine that implements this framework when the objective functions can be wrapped as a Fortran subroutine. Support is provided for both serial and parallel execution paradigms, and VTMOP is demonstrated on several test problems as well as one real-world problem in the area of particle accelerator optimization. CCS Concepts: \u2022 Mathematics of computing   Mathematical optimization; \u2022 Applied computing   Multi-criterion optimization and decision-making.",
+        "keywords": [
+            "adaptive",
+            "algorithm",
+            "multiobjective",
+            "module",
+            "blackbox",
+            "xxxx",
+            "problem",
+            "fortran",
+            "vtmop",
+            "optimization",
+            "response",
+            "solver"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Tyler H Chang",
+            "affiliation": null,
+            "email": "tchang@anl.gov"
+        },
+        {
+            "name": "Layne T Watson",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Jeffrey Larson",
+            "affiliation": null,
+            "email": "jmlarson@anl.gov"
+        },
+        {
+            "name": "Thomas C H Lux",
+            "affiliation": null,
+            "email": "tchlux@vt.edu"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Abraham",
+                    "given": "A."
+                },
+                {
+                    "family": "Jain",
+                    "given": "L."
+                },
+                {
+                    "family": "Goldberg",
+                    "given": "R."
+                }
+            ],
+            "title": "Evolutionary Multiobjective Optimization: Theoretical Advances and Applications",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Adelmann",
+                    "given": "A."
+                },
+                {
+                    "family": "Calvo",
+                    "given": "P."
+                },
+                {
+                    "family": "Frey",
+                    "given": "M."
+                },
+                {
+                    "family": "Gsell",
+                    "given": "A."
+                },
+                {
+                    "family": "Locans",
+                    "given": "U."
+                },
+                {
+                    "family": "Metzger-Kraus",
+                    "given": "C."
+                },
+                {
+                    "family": "Neveu",
+                    "given": "N."
+                },
+                {
+                    "family": "Rogers",
+                    "given": "C."
+                },
+                {
+                    "family": "Russell",
+                    "given": "S."
+                },
+                {
+                    "family": "Sheehy",
+                    "given": "S."
+                },
+                {
+                    "family": "Snuverink",
+                    "given": "J."
+                },
+                {
+                    "family": "Winklehner",
+                    "given": "D."
+                }
+            ],
+            "title": "OPAL a versatile tool for charged particle accelerator simulations",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Al-Dujaili",
+                    "given": "A."
+                },
+                {
+                    "family": "Suresh",
+                    "given": "S."
+                }
+            ],
+            "title": "A MATLAB toolbox for surrogate-assisted multi-objective optimization: A preliminary study",
+            "type": "paper-conference",
+            "container_title": [
+                "Companion Proc. 2016 Genetic and Evolutionary Computation Conference"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Amos",
+                    "given": "B.D."
+                },
+                {
+                    "family": "Easterling",
+                    "given": "D.R."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Thacker",
+                    "given": "W.I."
+                },
+                {
+                    "family": "Castle",
+                    "given": "B.S."
+                },
+                {
+                    "family": "Trosset",
+                    "given": "M.W."
+                }
+            ],
+            "title": "Algorithm 1007: QNSTOP: Quasi-Newton algorithm for stochatic optimization",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Anderson",
+                    "given": "E."
+                },
+                {
+                    "family": "Bai",
+                    "given": "Z."
+                },
+                {
+                    "family": "Bischof",
+                    "given": "C."
+                },
+                {
+                    "family": "Blackford",
+                    "given": "S."
+                },
+                {
+                    "family": "Demmel",
+                    "given": "J."
+                },
+                {
+                    "family": "Dongarra",
+                    "given": "J."
+                },
+                {
+                    "family": "Croz",
+                    "given": "J.",
+                    "particle": "Du"
+                },
+                {
+                    "family": "Greenbaum",
+                    "given": "A."
+                },
+                {
+                    "family": "Hammarling",
+                    "given": "S."
+                },
+                {
+                    "family": "McKenney",
+                    "given": "A."
+                },
+                {
+                    "family": "Sorensen",
+                    "given": "D."
+                }
+            ],
+            "title": "LAPACK Users' Guide",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Audet",
+                    "given": "C."
+                },
+                {
+                    "family": "Bigeon",
+                    "given": "J."
+                },
+                {
+                    "family": "Cartier",
+                    "given": "D."
+                },
+                {
+                    "family": "Digabel",
+                    "given": "S.Le"
+                }
+            ],
+            "title": "Performance indicators in multiobjective optimization",
+            "type": "article-journal",
+            "container_title": [
+                "European Journal of Operational Research"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Audet",
+                    "given": "C."
+                },
+                {
+                    "family": "Dennis",
+                    "given": "J.E."
+                }
+            ],
+            "title": "Mesh adaptive direct search algorithms for constrainted optimization",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM Journal on Optimization"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Audet",
+                    "given": "C."
+                },
+                {
+                    "family": "Savard",
+                    "given": "G."
+                },
+                {
+                    "family": "Zghal",
+                    "given": "W."
+                }
+            ],
+            "title": "Multiobjective optimization through a series of single-objective formulations",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM Journal on Optimization"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Audet",
+                    "given": "C."
+                },
+                {
+                    "family": "Savard",
+                    "given": "G."
+                },
+                {
+                    "family": "Zghal",
+                    "given": "W."
+                }
+            ],
+            "title": "A mesh adaptive direct search algorithm for multiobjective optimization",
+            "type": "article-journal",
+            "container_title": [
+                "European Journal of Operational Research"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barber",
+                    "given": "C.B."
+                },
+                {
+                    "family": "Dobkin",
+                    "given": "D.P."
+                },
+                {
+                    "family": "Huhdanpaa",
+                    "given": "H."
+                }
+            ],
+            "title": "The Quickhull algorithm for convex hulls",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bazarov",
+                    "given": "I.V."
+                },
+                {
+                    "family": "Sinclair",
+                    "given": "C.K."
+                }
+            ],
+            "title": "Multivariate optimization of a high brightness DC gun photoinjector",
+            "type": "article-journal",
+            "container_title": [
+                "Physical Review Special Topics -Accelerators and Beams"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bergan",
+                    "given": "W.F."
+                },
+                {
+                    "family": "Bazarov",
+                    "given": "I.V."
+                },
+                {
+                    "family": "Duncan",
+                    "given": "C.J.R."
+                },
+                {
+                    "family": "Liarte",
+                    "given": "D.B."
+                },
+                {
+                    "family": "Rubin",
+                    "given": "D.L."
+                },
+                {
+                    "family": "Sethna",
+                    "given": "J.P."
+                }
+            ],
+            "title": "Online storage ring optimization using dimension-reduction and genetic algorithms",
+            "type": "article-journal",
+            "container_title": [
+                "Physical Review Accelerators and Beams"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Biedron",
+                    "given": "R.T."
+                },
+                {
+                    "family": "Carlson",
+                    "given": "J.R."
+                },
+                {
+                    "family": "Derlaga",
+                    "given": "J.M."
+                },
+                {
+                    "family": "Gnofo",
+                    "given": "P.A."
+                },
+                {
+                    "family": "Hammond",
+                    "given": "D.P."
+                },
+                {
+                    "family": "Jones",
+                    "given": "W.T."
+                },
+                {
+                    "family": "Kleb",
+                    "given": "B."
+                },
+                {
+                    "family": "Lee-Rausch",
+                    "given": "E.M."
+                },
+                {
+                    "family": "Nielson",
+                    "given": "E.J."
+                },
+                {
+                    "family": "Park",
+                    "given": "M.A."
+                },
+                {
+                    "family": "Rumsey",
+                    "given": "C.L."
+                },
+                {
+                    "family": "Thomas",
+                    "given": "J.L."
+                },
+                {
+                    "family": "Thompson",
+                    "given": "K.B."
+                },
+                {
+                    "family": "Wood",
+                    "given": "W.A."
+                }
+            ],
+            "title": "",
+            "type": "article-journal",
+            "container_title": [
+                "FUN3D Manual"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bigeon",
+                    "given": "J."
+                },
+                {
+                    "family": "Digabel",
+                    "given": "S.Le"
+                },
+                {
+                    "family": "Salomon",
+                    "given": "L."
+                }
+            ],
+            "title": "DMulti-MADS: Mesh adaptive direct multisearch for bound-constrained blackbox multiobjective optimization",
+            "type": "article-journal",
+            "container_title": [
+                "Computational Optimization and Applications"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Blank",
+                    "given": "J."
+                },
+                {
+                    "family": "Deb",
+                    "given": "K."
+                }
+            ],
+            "title": "pymoo: Multi-objective optimization in Python",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Access"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Blank",
+                    "given": "J."
+                },
+                {
+                    "family": "Deb",
+                    "given": "K."
+                },
+                {
+                    "family": "Roy",
+                    "given": "P.C."
+                }
+            ],
+            "title": "Investigating the normalization procedure of NSGA-III",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. 10th International Conference on Evolutionary Multi-Criterion Optimization"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Board",
+                    "given": "OpenMP Architecture Review"
+                }
+            ],
+            "title": "OpenMP Application Programming Interface",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Boissonnat",
+                    "given": "J.-D."
+                },
+                {
+                    "family": "Devillers",
+                    "given": "O."
+                },
+                {
+                    "family": "Hornus",
+                    "given": "S."
+                }
+            ],
+            "title": "Incremental construction of the Delaunay triangulation and the Delaunay graph in medium dimension",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. Twenty-ifth Annual Symp. on Computational Geometry"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Campana",
+                    "given": "E.F."
+                },
+                {
+                    "family": "Diez",
+                    "given": "M."
+                },
+                {
+                    "family": "Liuzzi",
+                    "given": "G."
+                },
+                {
+                    "family": "Lucidi",
+                    "given": "S."
+                },
+                {
+                    "family": "Pellegrini",
+                    "given": "R."
+                },
+                {
+                    "family": "Piccialli",
+                    "given": "V."
+                },
+                {
+                    "family": "Rinaldi",
+                    "given": "F."
+                },
+                {
+                    "family": "Serani",
+                    "given": "A."
+                }
+            ],
+            "title": "A multi-objective DIRECT algorithm for ship hull optimization",
+            "type": "article-journal",
+            "container_title": [
+                "Computational Optimization and Applications"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chang",
+                    "given": "T.H."
+                },
+                {
+                    "family": "Larson",
+                    "given": "J."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                }
+            ],
+            "title": "Multiobjective optimization of the variability of the high-performance LINPACK solver",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. Winter Simulation Conference"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chang",
+                    "given": "T.H."
+                },
+                {
+                    "family": "Larson",
+                    "given": "J."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Lux",
+                    "given": "T.C.H."
+                }
+            ],
+            "title": "Managing computationally expensive blackbox multiobjective optimization problems using libEnsemble",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. 28th High Performance Computing Symposium"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chang",
+                    "given": "T.H."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Lux",
+                    "given": "T.C.H."
+                },
+                {
+                    "family": "Butt",
+                    "given": "A.R."
+                },
+                {
+                    "family": "Cameron",
+                    "given": "K.W."
+                },
+                {
+                    "family": "Hong",
+                    "given": "Y."
+                }
+            ],
+            "title": "Algorithm 1012: DELAUNAYSPARSE: Interpolation via a sparse subset of the Delaunay triangulation in medium to high dimensions",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chang",
+                    "given": "T.H."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Lux",
+                    "given": "T.C.H."
+                },
+                {
+                    "family": "Li",
+                    "given": "B."
+                },
+                {
+                    "family": "Xu",
+                    "given": "L."
+                },
+                {
+                    "family": "Butt",
+                    "given": "A.R."
+                },
+                {
+                    "family": "Cameron",
+                    "given": "K.W."
+                },
+                {
+                    "family": "Hong",
+                    "given": "Y."
+                }
+            ],
+            "title": "A polynomial time algorithm for multivariate interpolation in arbitrary dimension via the Delaunay triangulation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. ACM Southeast Conference"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chang",
+                    "given": "T.H."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Lux",
+                    "given": "T.C.H."
+                },
+                {
+                    "family": "Raghvendra",
+                    "given": "S."
+                },
+                {
+                    "family": "Li",
+                    "given": "B."
+                },
+                {
+                    "family": "Xu",
+                    "given": "L."
+                },
+                {
+                    "family": "Butt",
+                    "given": "A.R."
+                },
+                {
+                    "family": "Cameron",
+                    "given": "K.W."
+                },
+                {
+                    "family": "Hong",
+                    "given": "Y."
+                }
+            ],
+            "title": "Computing the umbrella neighbourhood of a vertex in the Delaunay triangulation and a single Voronoi cell in arbitrary dimension",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. IEEE SoutheastCon. IEEE, St"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cocchi",
+                    "given": "G."
+                },
+                {
+                    "family": "Lapucci",
+                    "given": "M."
+                }
+            ],
+            "title": "An augmented Lagrangian algorithm for multi-objective optimization",
+            "type": "article-journal",
+            "container_title": [
+                "Computational Optimization and Applications"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cooper",
+                    "given": "K."
+                },
+                {
+                    "family": "Hunter",
+                    "given": "S.R."
+                }
+            ],
+            "title": "PyMOSO: Software for multi-objective simulation optimization with R-PERLE and R-MinRLE",
+            "type": "article-journal",
+            "container_title": [
+                "INFORMS Journal on Computing"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cust\u00f3dio",
+                    "given": "A.L."
+                },
+                {
+                    "family": "Madeira",
+                    "given": "J.F.A."
+                }
+            ],
+            "title": "MultiGLODS: Global and local multiobjective optimization using direct search",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Global Optimization"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cust\u00f3dio",
+                    "given": "A.L."
+                },
+                {
+                    "family": "Madeira",
+                    "given": "J.F.A."
+                },
+                {
+                    "family": "Vaz",
+                    "given": "A.I.F."
+                },
+                {
+                    "family": "Vicente",
+                    "given": "L.N."
+                }
+            ],
+            "title": "Direct multisearch for multiobjective optimization",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM Journal on Optimization"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Deb",
+                    "given": "K."
+                },
+                {
+                    "family": "Pratap",
+                    "given": "A."
+                },
+                {
+                    "family": "Agarwel",
+                    "given": "S."
+                },
+                {
+                    "family": "Meyarivan",
+                    "given": "T."
+                }
+            ],
+            "title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Deb",
+                    "given": "K."
+                },
+                {
+                    "family": "Thiele",
+                    "given": "L."
+                },
+                {
+                    "family": "Laumanns",
+                    "given": "M."
+                },
+                {
+                    "family": "Zitzler",
+                    "given": "E."
+                }
+            ],
+            "title": "Scalable multi-objective optimization test problems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. 2002 IEEE Congress on Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Deshpande",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Watson",
+                    "given": "S."
+                },
+                {
+                    "family": "Shu",
+                    "given": "J."
+                },
+                {
+                    "family": "Ramakrishnan",
+                    "given": "N."
+                }
+            ],
+            "title": "Data driven surrogate-based optimization in the problem solving environment WBCSim",
+            "type": "article-journal",
+            "container_title": [
+                "Engineering with Computers"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Deshpande",
+                    "given": "S."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Canield",
+                    "given": "R.A."
+                }
+            ],
+            "title": "Multiobjective optimization using an adaptive weighting scheme",
+            "type": "article-journal",
+            "container_title": [
+                "Optimization Methods and Software"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ehrgott",
+                    "given": "M."
+                }
+            ],
+            "title": "Multicriteria Optimization",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Feng",
+                    "given": "Y."
+                },
+                {
+                    "family": "Chen",
+                    "given": "Z."
+                },
+                {
+                    "family": "Dai",
+                    "given": "Y."
+                },
+                {
+                    "family": "Wang",
+                    "given": "F."
+                },
+                {
+                    "family": "Cai",
+                    "given": "J."
+                },
+                {
+                    "family": "Shen",
+                    "given": "Z."
+                }
+            ],
+            "title": "Multidisciplinary optimization of an ofshore aquaculture vessel hull form based on the support vector regression surrogate model",
+            "type": "article-journal",
+            "container_title": [
+                "Ocean Engineering"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gulliford",
+                    "given": "C."
+                },
+                {
+                    "family": "Bartnik",
+                    "given": "A."
+                },
+                {
+                    "family": "Bazarov",
+                    "given": "I."
+                }
+            ],
+            "title": "Multiobjective optimizations of a novel cryocooled DC gun based ultrafast electron difraction beam line",
+            "type": "article-journal",
+            "container_title": [
+                "Physical Review Accelerators and Beams"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gulliford",
+                    "given": "C."
+                },
+                {
+                    "family": "Bartnik",
+                    "given": "A."
+                },
+                {
+                    "family": "Bazarov",
+                    "given": "I."
+                },
+                {
+                    "family": "Maxson",
+                    "given": "J."
+                }
+            ],
+            "title": "Multiobjective optimization design of an rf gun based electron difraction beam line",
+            "type": "article-journal",
+            "container_title": [
+                "Physical Review Accelerators and Beams"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "He",
+                    "given": "J."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Sosonkina",
+                    "given": "M."
+                }
+            ],
+            "title": "Algorithm 897: VTDIRECT95: Serial and parallel codes for the global optimization algorithm DIRECT",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Holer",
+                    "given": "A."
+                },
+                {
+                    "family": "Terzic",
+                    "given": "B."
+                },
+                {
+                    "family": "Kramer",
+                    "given": "M."
+                },
+                {
+                    "family": "Zvezdin",
+                    "given": "A."
+                },
+                {
+                    "family": "Morozov",
+                    "given": "V."
+                },
+                {
+                    "family": "Roblin",
+                    "given": "Y."
+                },
+                {
+                    "family": "Lin",
+                    "given": "F."
+                },
+                {
+                    "family": "Jarvis",
+                    "given": "C."
+                }
+            ],
+            "title": "Innovative applications of genetic algorithms to problems in accelerator physics",
+            "type": "article-journal",
+            "container_title": [
+                "Physical Review Special Topics -Accelerators and Beams"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hunter",
+                    "given": "S.R."
+                },
+                {
+                    "family": "Applegate",
+                    "given": "E.A."
+                },
+                {
+                    "family": "Arora",
+                    "given": "V."
+                },
+                {
+                    "family": "Chong",
+                    "given": "B."
+                }
+            ],
+            "title": "An introduction to multiobjective simulation optimization",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Transactions on Modeling and Computer Simulation"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jones",
+                    "given": "D.R."
+                },
+                {
+                    "family": "Perttunen",
+                    "given": "C.D."
+                },
+                {
+                    "family": "Stuckman",
+                    "given": "B.E."
+                }
+            ],
+            "title": "Lipschitzian optimization without the Lipschitz constant",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Optimization Theory and Applications"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Klee",
+                    "given": "V."
+                }
+            ],
+            "title": "On the complexity of d-dimensional Voronoi diagrams",
+            "type": "article-journal",
+            "container_title": [
+                "Archiv der Mathematik"
+            ],
+            "doi": "",
+            "published_date": "1980"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kocis",
+                    "given": "L."
+                },
+                {
+                    "family": "Whiten",
+                    "given": "W.J."
+                }
+            ],
+            "title": "Computational investigations of low-discrepancy sequences",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kranj\u010devi\u0107",
+                    "given": "M."
+                },
+                {
+                    "family": "Adelmann",
+                    "given": "A."
+                },
+                {
+                    "family": "Arbenz",
+                    "given": "P."
+                },
+                {
+                    "family": "Citterio",
+                    "given": "A."
+                },
+                {
+                    "family": "Stingelin",
+                    "given": "L."
+                }
+            ],
+            "title": "Multi-objective shape optimization of radio frequency cavities using an evolutionary algorithm",
+            "type": "article-journal",
+            "container_title": [
+                "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kugele",
+                    "given": "S.C."
+                },
+                {
+                    "family": "Trosset",
+                    "given": "M.W."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                }
+            ],
+            "title": "Numerical integration in statistical decision-theoretic methods for robust design optimization",
+            "type": "article-journal",
+            "container_title": [
+                "Structural Multidisciplinary Optimization"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Digabel",
+                    "given": "S.Le"
+                }
+            ],
+            "title": "Algorithm 909: NOMAD: Nonlinear optimization with the MADS algorithm",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Digabel",
+                    "given": "S.Le"
+                },
+                {
+                    "family": "Wild",
+                    "given": "S.M."
+                }
+            ],
+            "title": "A taxonomy of constraints in simulation-based optimization",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lemons",
+                    "given": "R."
+                },
+                {
+                    "family": "Neveu",
+                    "given": "N."
+                },
+                {
+                    "family": "Duris",
+                    "given": "J."
+                },
+                {
+                    "family": "Marinelli",
+                    "given": "A."
+                },
+                {
+                    "family": "Durfee",
+                    "given": "C."
+                },
+                {
+                    "family": "Carbajo",
+                    "given": "S."
+                }
+            ],
+            "title": "Temporal shaping of narrow-band picosecond pulses via non-colinear sum-frequency mixing of dispersion-controlled pulses",
+            "type": "article-journal",
+            "container_title": [
+                "Physical Review Special Topics -Accelerators and Beams"
+            ],
+            "doi": "",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "K."
+                },
+                {
+                    "family": "Wang",
+                    "given": "R."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "T."
+                },
+                {
+                    "family": "Ishibuchi",
+                    "given": "H."
+                }
+            ],
+            "title": "Evolutionary many-objective optimization: A comparative study of the state-of-the-art",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Access"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liuzzi",
+                    "given": "G."
+                },
+                {
+                    "family": "Lucidi",
+                    "given": "S."
+                },
+                {
+                    "family": "Rinaldi",
+                    "given": "F."
+                }
+            ],
+            "title": "A derivative-free approach to constrained multiobjective nonsmooth optimization",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM Journal on Optimization"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lovison",
+                    "given": "A."
+                },
+                {
+                    "family": "Miettinen",
+                    "given": "K."
+                }
+            ],
+            "title": "On the extension of the DIRECT algorithm to multiple objectives",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Global Optimization"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Marler",
+                    "given": "R.T."
+                },
+                {
+                    "family": "Arora",
+                    "given": "J.S."
+                }
+            ],
+            "title": "Survey of multi-objective optimization methods for engineering",
+            "type": "article-journal",
+            "container_title": [
+                "Structural and Multidisciplinary Optimization"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "M\u00fcller",
+                    "given": "J."
+                }
+            ],
+            "title": "SOCEMO: Surrogate optimization of computationally expensive multiobjective problems",
+            "type": "article-journal",
+            "container_title": [
+                "INFORMS Journal on Computing"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Myers",
+                    "given": "R.H."
+                },
+                {
+                    "family": "Montgomery",
+                    "given": "D.C."
+                },
+                {
+                    "family": "Anderson-Cook",
+                    "given": "C.M."
+                }
+            ],
+            "title": "Response Surface Methodology: Process and Design Optimization Using Designed Experiments",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Neveu",
+                    "given": "N."
+                },
+                {
+                    "family": "Ding",
+                    "given": "Y."
+                }
+            ],
+            "title": "LCLS-II standard coniguration with a Gaussian-proile injector laser",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Neveu",
+                    "given": "N."
+                },
+                {
+                    "family": "Sudar",
+                    "given": "N."
+                },
+                {
+                    "family": "Ding",
+                    "given": "Y."
+                },
+                {
+                    "family": "Marcus",
+                    "given": "G."
+                },
+                {
+                    "family": "Marinelli",
+                    "given": "A."
+                },
+                {
+                    "family": "Mayes",
+                    "given": "C."
+                }
+            ],
+            "title": "LCLS-II standard coniguration with a Gaussian-proile injector laser",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nocedal",
+                    "given": "J."
+                },
+                {
+                    "family": "Wright",
+                    "given": "S.J."
+                }
+            ],
+            "title": "Numerical Optimization",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Qiang",
+                    "given": "J."
+                },
+                {
+                    "family": "Mitchell",
+                    "given": "C."
+                },
+                {
+                    "family": "Qiang",
+                    "given": "A."
+                }
+            ],
+            "title": "Tuning of an adaptive uniied diferential evolution algorithm for global optimization",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. 2016 IEEE Congress on Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Raghunath",
+                    "given": "C."
+                },
+                {
+                    "family": "Chang",
+                    "given": "T.H."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Jrad",
+                    "given": "M."
+                },
+                {
+                    "family": "Kapania",
+                    "given": "R.K."
+                },
+                {
+                    "family": "Kolonay",
+                    "given": "R.M."
+                }
+            ],
+            "title": "Global deterministic and stochastic optimization in a service oriented architecture",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. 25th High Performance Computing Symposium"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ryu",
+                    "given": "J."
+                },
+                {
+                    "family": "Kim",
+                    "given": "S."
+                },
+                {
+                    "family": "Wan",
+                    "given": "H."
+                }
+            ],
+            "title": "Pareto front approximation with adaptive weighted sum method in multiobjective simulation optimization",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. Winter Simulation Conference"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sobieszczanski-Sobieski",
+                    "given": "J."
+                },
+                {
+                    "family": "Morris",
+                    "given": "A."
+                },
+                {
+                    "family": "Tooren",
+                    "given": "M.",
+                    "particle": "Van"
+                }
+            ],
+            "title": "Multidisciplinary Design Optimization Supported by Knowledge Based Engineering",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tavares",
+                    "given": "S."
+                }
+            ],
+            "title": "Contributions to the development of an integrated toolbox of solvers in derivative-free optimization",
+            "type": "article-journal",
+            "container_title": [
+                "Master's thesis. ACM Trans. Math. Softw"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Terzic",
+                    "given": "B."
+                },
+                {
+                    "family": "Holer",
+                    "given": "A.S."
+                },
+                {
+                    "family": "Reeves",
+                    "given": "C.J."
+                },
+                {
+                    "family": "Khan",
+                    "given": "S.A."
+                },
+                {
+                    "family": "Kraft",
+                    "given": "G.A."
+                },
+                {
+                    "family": "Benesch",
+                    "given": "J."
+                },
+                {
+                    "family": "Freyberger",
+                    "given": "A."
+                },
+                {
+                    "family": "Ranjan",
+                    "given": "D."
+                }
+            ],
+            "title": "Simultaneous optimization of the cavity heat load and trip rates in linacs using a genetic algorithm",
+            "type": "article-journal",
+            "container_title": [
+                "Physical Review Special Topics -Accelerators and Beams"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Thacker",
+                    "given": "W.I."
+                },
+                {
+                    "family": "Zhang",
+                    "given": "J."
+                },
+                {
+                    "family": "Watson",
+                    "given": "L.T."
+                },
+                {
+                    "family": "Birch",
+                    "given": "J.B."
+                },
+                {
+                    "family": "Iyer",
+                    "given": "M.A."
+                },
+                {
+                    "family": "Berry",
+                    "given": "M.W."
+                }
+            ],
+            "title": "Algorithm 905: SHEPPACK: Modiied Shepard algorithm for interpolation of scattered multivariate data",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Math. Software"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Thomann",
+                    "given": "J."
+                },
+                {
+                    "family": "Eichfelder",
+                    "given": "G."
+                }
+            ],
+            "title": "A trust-region algorithm for heterogeneous multiobjective optimization",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM Journal on Optimization"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tu\u0161ar",
+                    "given": "T."
+                },
+                {
+                    "family": "Filipi\u010d",
+                    "given": "B."
+                }
+            ],
+            "title": "Visualization of Pareto front approximations in evolutionary multiobjective optimization: A critical review and the prosection method",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Evolutionary Computation"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "L."
+                },
+                {
+                    "family": "Robin",
+                    "given": "D."
+                },
+                {
+                    "family": "Sannibale",
+                    "given": "F."
+                },
+                {
+                    "family": "Steier",
+                    "given": "C."
+                },
+                {
+                    "family": "Wan",
+                    "given": "W."
+                }
+            ],
+            "title": "Global optimization of an accelerator lattice using multiobjective genetic algorithms",
+            "type": "article-journal",
+            "container_title": [
+                "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yee",
+                    "given": "A.K.Y."
+                },
+                {
+                    "family": "Ray",
+                    "given": "A.K."
+                },
+                {
+                    "family": "Rangaiah",
+                    "given": "G.P."
+                }
+            ],
+            "title": "Multiobjective optimization of an industrial styrene reactor",
+            "type": "article-journal",
+            "container_title": [
+                "Computers & Chemical Engineering"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        }
+    ]
+}

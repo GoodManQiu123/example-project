@@ -1,0 +1,2106 @@
+{
+    "metadata": {
+        "title": "How approximate and exact number skills are related to each other across development: A review \u2606",
+        "doi": "10.1016/j.dr.2014.11.001",
+        "publisher": null,
+        "journal": null,
+        "published_date": "6 November 2015"
+    },
+    "content": {
+        "abstract": "Human and non-human species possess a mental system of number representations that appears early in the lifespan and that supports approximate number skills, such as numerical estimation or number comparison. With the later acquisition of language and of symbolic numbers, human beings also develop exact number skills that allow using numbers precisely, such as in counting and arithmetic. Whether the exact number skills are built on the approximate number skills or whether both abilities develop independently is debated in scientific literature. The current review points out the behavioural data which either support or challenge these contrasting proposals. In an attempt to provide a comprehensive overview of these mixed data, we carefully took into account the heterogeneity of the available studies regarding the kind of tasks, stimuli or ages of assessment. The conclusions of this review highlight the evidence that phylogenetically determined approximate number skills and culturally acquired numerical abilities are related to each other across development. They also stress the need to consider the less explored hypothesis that the acquisition of exact number skills refines the approximate number skills, a perspective which opens new and promising avenues for future research.",
+        "keywords": [
+            "number",
+            "review",
+            "skill",
+            "approximate",
+            "exact",
+            "development"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Christophe Mussolin",
+            "affiliation": null,
+            "email": "christophe.mussolin@outlook.com"
+        },
+        {
+            "name": "Julie Nys",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Jacqueline Leybaert",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Alain Content",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Bae",
+                    "given": "G.Y."
+                },
+                {
+                    "family": "Choi",
+                    "given": "J.M."
+                },
+                {
+                    "family": "Cho",
+                    "given": "Y.S."
+                },
+                {
+                    "family": "Proctor",
+                    "given": "R.W."
+                }
+            ],
+            "title": "Transfer of magnitude and spatial mappings to the SNARC effect for parity judgments",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology. Learning, Memory, and Cognition"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barth",
+                    "given": "H."
+                },
+                {
+                    "family": "Mont",
+                    "given": "K.",
+                    "particle": "La"
+                },
+                {
+                    "family": "Lipton",
+                    "given": "J."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Abstract number and arithmetic in preschool children",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the National Academy of Sciences of the United States of America"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barth",
+                    "given": "H."
+                },
+                {
+                    "family": "Starr",
+                    "given": "A."
+                },
+                {
+                    "family": "Sullivan",
+                    "given": "J."
+                }
+            ],
+            "title": "Children's mappings of large number words to numerosities",
+            "type": "article-journal",
+            "container_title": [
+                "Cognitive Development"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brannon",
+                    "given": "E.M."
+                }
+            ],
+            "title": "The representation of numerical magnitude",
+            "type": "article-journal",
+            "container_title": [
+                "Current Opinion in Neurobiology"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brannon",
+                    "given": "E.M."
+                },
+                {
+                    "family": "Walle",
+                    "given": "G.A.",
+                    "particle": "Van de"
+                }
+            ],
+            "title": "The development of ordinal numerical competence in young children",
+            "type": "article-journal",
+            "container_title": [
+                "Cognitive Psychology"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Buckley",
+                    "given": "P.B."
+                },
+                {
+                    "family": "Gillman",
+                    "given": "C.B."
+                }
+            ],
+            "title": "Comparisons of digits and dot patterns",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "1974"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Calabria",
+                    "given": "M."
+                },
+                {
+                    "family": "Rossetti",
+                    "given": "Y."
+                }
+            ],
+            "title": "Interference between number processing and line bisection: A methodology",
+            "type": "article-journal",
+            "container_title": [
+                "Neuropsychologia"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Carey",
+                    "given": "S."
+                }
+            ],
+            "title": "Cognitive foundations of arithmetic: Evolution and ontogenesis",
+            "type": "article-journal",
+            "container_title": [
+                "Mind & Language and Speech"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Carey",
+                    "given": "S."
+                }
+            ],
+            "title": "Bootstrapping and the origins of concepts",
+            "type": "article-journal",
+            "container_title": [
+                "Daedalus"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [],
+            "title": "The origin of concepts (Oxford series in cognitive development",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cohen Kadosh",
+                    "given": "R."
+                },
+                {
+                    "family": "Henik",
+                    "given": "A."
+                }
+            ],
+            "title": "A common representation for semantic and physical properties: A cognitive-anatomical approach",
+            "type": "article-journal",
+            "container_title": [
+                "Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "Precis of the number sense",
+            "type": "article-journal",
+            "container_title": [
+                "Mind & Language"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hevia",
+                    "given": "M.D.",
+                    "particle": "de"
+                },
+                {
+                    "family": "Girelli",
+                    "given": "L."
+                },
+                {
+                    "family": "Vallar",
+                    "given": "G."
+                }
+            ],
+            "title": "Numbers and space: A cognitive illusion?",
+            "type": "article-journal",
+            "container_title": [
+                "Experimental Brain Research"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hevia",
+                    "given": "M.-D.",
+                    "particle": "de"
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Spontaneous mapping of number and space in adults and young children",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Smedt",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "No\u00ebl",
+                    "given": "M.-P."
+                },
+                {
+                    "family": "Gilmore",
+                    "given": "C."
+                },
+                {
+                    "family": "Ansari",
+                    "given": "D."
+                }
+            ],
+            "title": "How do symbolic and non-symbolic numerical magnitude processing skills relate to individual differences in children's mathematical skills? A review of evidence from brain and behavior",
+            "type": "article-journal",
+            "container_title": [
+                "Trends in Neuroscience and Education"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "Varieties of numerical abilities",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "The number sense: How the mind creates mathematics",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "Origins of mathematical intuitions: The case of arithmetic",
+            "type": "article-journal",
+            "container_title": [
+                "Annals of the New York Academy of Sciences"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                },
+                {
+                    "family": "Bossini",
+                    "given": "S."
+                },
+                {
+                    "family": "Giraux",
+                    "given": "P."
+                }
+            ],
+            "title": "The mental representation of parity and number magnitude",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology. General"
+            ],
+            "doi": "",
+            "published_date": "1993"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                },
+                {
+                    "family": "Dehaene-Lambertz",
+                    "given": "G."
+                },
+                {
+                    "family": "Cohen",
+                    "given": "L."
+                }
+            ],
+            "title": "Abstract representations of numbers in the animal and human brain",
+            "type": "article-journal",
+            "container_title": [
+                "Trends in Neurosciences"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E."
+                },
+                {
+                    "family": "Pinel",
+                    "given": "P."
+                },
+                {
+                    "family": "Stanescu",
+                    "given": "R."
+                },
+                {
+                    "family": "Tsivkin",
+                    "given": "S."
+                }
+            ],
+            "title": "Sources of mathematical thinking: Behavioral and brain-imaging evidence",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "DeWind",
+                    "given": "N.K."
+                },
+                {
+                    "family": "Brannon",
+                    "given": "E.M."
+                }
+            ],
+            "title": "Malleability of the approximate number system: effects of feedback and training",
+            "type": "article-journal",
+            "container_title": [
+                "Frontiers in Cognitive Neuroscience"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Diester",
+                    "given": "I."
+                },
+                {
+                    "family": "Nieder",
+                    "given": "A."
+                }
+            ],
+            "title": "Semantic associations between signs and numerical categories in the prefrontal cortex",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS Biology"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Duncan",
+                    "given": "E."
+                },
+                {
+                    "family": "McFarland",
+                    "given": "C."
+                }
+            ],
+            "title": "Isolating the effects of symbolic distance and semantic congruity in comparative judgments: An additive-factors analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Memory & Cognition"
+            ],
+            "doi": "",
+            "published_date": "1980"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fias",
+                    "given": "W."
+                },
+                {
+                    "family": "Fischer",
+                    "given": "M.H."
+                }
+            ],
+            "title": "Spatial representation of numbers",
+            "type": "chapter",
+            "container_title": [
+                "Handbook of mathematical cognition"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Furlong",
+                    "given": "E.E."
+                },
+                {
+                    "family": "Opfer",
+                    "given": "J.E."
+                }
+            ],
+            "title": "Cognitive constraints on how economic rewards affect cooperation",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Science"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fuson",
+                    "given": "K.C."
+                },
+                {
+                    "family": "Richards",
+                    "given": "J."
+                },
+                {
+                    "family": "Briars",
+                    "given": "D.J."
+                }
+            ],
+            "title": "The acquisition and elaboration of the number word sequence",
+            "type": "chapter",
+            "container_title": [
+                "Children's logical and mathematical cognition"
+            ],
+            "doi": "",
+            "published_date": "1982"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gallistel",
+                    "given": "C.R."
+                },
+                {
+                    "family": "Gelman",
+                    "given": "R."
+                }
+            ],
+            "title": "Preverbal and verbal counting and computation",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gathercole",
+                    "given": "V.C."
+                }
+            ],
+            "title": "'He has too much hard questions': The acquisition of the linguistic mass-count distinction in much and many",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Child Language"
+            ],
+            "doi": "",
+            "published_date": "1985"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gebuis",
+                    "given": "T."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                }
+            ],
+            "title": "The interplay between nonsymbolic number and its continuous visual properties",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology. General"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gelman",
+                    "given": "R."
+                },
+                {
+                    "family": "Gallistel",
+                    "given": "C.R."
+                }
+            ],
+            "title": "The child's understanding of number",
+            "type": "article-journal",
+            "container_title": [
+                "C. Mussolin et al. / Developmental Review"
+            ],
+            "doi": "",
+            "published_date": "1978"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gilmore",
+                    "given": "C.K."
+                },
+                {
+                    "family": "McCarthy",
+                    "given": "S.E."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Non-symbolic arithmetic abilities and mathematics achievement in the first year of formal schooling",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Girelli",
+                    "given": "L."
+                },
+                {
+                    "family": "Lucangeli",
+                    "given": "D."
+                },
+                {
+                    "family": "Butterworth",
+                    "given": "B."
+                }
+            ],
+            "title": "The development of automaticity in accessing number magnitude",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gordon",
+                    "given": "P."
+                }
+            ],
+            "title": "Numerical cognition without words: Evidence from Amazonia",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Groen",
+                    "given": "G.J."
+                },
+                {
+                    "family": "Parkman",
+                    "given": "J.M."
+                }
+            ],
+            "title": "A chronometric analysis of simple addition",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Review"
+            ],
+            "doi": "",
+            "published_date": "1972"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guillaume",
+                    "given": "M."
+                },
+                {
+                    "family": "Nys",
+                    "given": "J."
+                },
+                {
+                    "family": "Mussolin",
+                    "given": "C."
+                },
+                {
+                    "family": "Content",
+                    "given": "A."
+                }
+            ],
+            "title": "Differences in the acuity of the Approximate Number System by adults: The role of mathematical ability",
+            "type": "article-journal",
+            "container_title": [
+                "Acta Psychologica"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                },
+                {
+                    "family": "Feigenson",
+                    "given": "L."
+                }
+            ],
+            "title": "Developmental change in the acuity of the \"number sense\": The approximate number system in 3-, 4-, 5-, and 6-year-olds and adults",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                },
+                {
+                    "family": "Ly",
+                    "given": "R."
+                },
+                {
+                    "family": "Wilmer",
+                    "given": "J."
+                },
+                {
+                    "family": "Naiman",
+                    "given": "D."
+                },
+                {
+                    "family": "Germine",
+                    "given": "L."
+                }
+            ],
+            "title": "Number sense across the lifespan as revealed by a massive internet-based sample",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the National Academy of Sciences of the United States of America"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                },
+                {
+                    "family": "Mazzocco",
+                    "given": "M.M.M."
+                },
+                {
+                    "family": "Feigenson",
+                    "given": "L."
+                }
+            ],
+            "title": "Individual differences in non-verbal number acuity correlate with maths achievement",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heirdsfield",
+                    "given": "A.M."
+                },
+                {
+                    "family": "Cooper",
+                    "given": "T.J."
+                }
+            ],
+            "title": "Flexibility and inflexibility in accurate mental computation: Two case studies",
+            "type": "article-journal",
+            "container_title": [
+                "The Journal of Mathematical Behavior"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heirdsfield",
+                    "given": "A.M."
+                },
+                {
+                    "family": "Cooper",
+                    "given": "T.J."
+                }
+            ],
+            "title": "Factors affecting the process of proficient mental addition and subtraction: Case studies of flexible and inflexible computers",
+            "type": "article-journal",
+            "container_title": [
+                "The Journal of Mathematical Behavior"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Holloway",
+                    "given": "I.D."
+                },
+                {
+                    "family": "Ansari",
+                    "given": "D."
+                }
+            ],
+            "title": "Mapping numerical magnitudes onto symbols: The numerical distance effect and individual differences in children's mathematics achievement",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huntley-Fenner",
+                    "given": "G."
+                },
+                {
+                    "family": "Cannon",
+                    "given": "E."
+                }
+            ],
+            "title": "Preschoolers' magnitude comparisons are mediated by a preverbal analog mechanism",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Science"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hurford",
+                    "given": "J.R."
+                }
+            ],
+            "title": "Language and number: The emergence of a cognitive system",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1987"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hyde",
+                    "given": "D.C."
+                },
+                {
+                    "family": "Khanum",
+                    "given": "S."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Brief non-symbolic, approximate number practice enhances subsequent exact symbolic arithmetic in children",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Inglis",
+                    "given": "M."
+                },
+                {
+                    "family": "Attridge",
+                    "given": "N."
+                },
+                {
+                    "family": "Batchelor",
+                    "given": "S."
+                },
+                {
+                    "family": "Gilmore",
+                    "given": "C."
+                }
+            ],
+            "title": "Non-verbal number acuity correlates with symbolic mathematics achievement: But only in children",
+            "type": "article-journal",
+            "container_title": [
+                "Psychonomic Bulletin & Review"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Izard",
+                    "given": "V.R."
+                },
+                {
+                    "family": "Sann",
+                    "given": "C."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                },
+                {
+                    "family": "Streri",
+                    "given": "A."
+                }
+            ],
+            "title": "Newborn infants perceive abstract numbers",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the National Academy of Sciences of the United States of America"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Le Corre",
+                    "given": "M."
+                },
+                {
+                    "family": "Carey",
+                    "given": "S."
+                }
+            ],
+            "title": "One, two, three, four, nothing more: An investigation of the conceptual sources of the verbal counting principles",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Libertus",
+                    "given": "M."
+                },
+                {
+                    "family": "Odic",
+                    "given": "D."
+                },
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                }
+            ],
+            "title": "Intuitive sense of number correlates with math scores on college-entrance examination",
+            "type": "article-journal",
+            "container_title": [
+                "Acta Psychologica"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Libertus",
+                    "given": "M.E."
+                },
+                {
+                    "family": "Feigenson",
+                    "given": "L."
+                },
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                }
+            ],
+            "title": "Preschool acuity of the approximate number system correlates with school math ability",
+            "type": "article-journal",
+            "container_title": [
+                "Psychonomic Bulletin & Review"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Libertus",
+                    "given": "M.E."
+                },
+                {
+                    "family": "Feigenson",
+                    "given": "L."
+                },
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                }
+            ],
+            "title": "Is approximate number precision a stable predictor of math ability?",
+            "type": "article-journal",
+            "container_title": [
+                "Learning and Individual Differences"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lipton",
+                    "given": "J.S."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Origins of number sense: Large-number discrimination in human infants",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Science"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lipton",
+                    "given": "J.S."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Preschool children's mapping of number words to nonsymbolic numerosities",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lonnemann",
+                    "given": "J."
+                },
+                {
+                    "family": "Linkersd\u00f6rfer",
+                    "given": "J."
+                },
+                {
+                    "family": "Hasselhorn",
+                    "given": "M."
+                },
+                {
+                    "family": "Lindberg",
+                    "given": "S."
+                }
+            ],
+            "title": "Symbolic and non-symbolic distance effects in children and their connection with arithmetic skills",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Neurolinguistics"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Maloney",
+                    "given": "E.A."
+                },
+                {
+                    "family": "Risko",
+                    "given": "E.F."
+                },
+                {
+                    "family": "Preston",
+                    "given": "F."
+                },
+                {
+                    "family": "Ansari",
+                    "given": "D."
+                },
+                {
+                    "family": "Fugelsang",
+                    "given": "J."
+                }
+            ],
+            "title": "Challenging the reliability and validity of cognitive measures: The case of the numerical distance effect",
+            "type": "article-journal",
+            "container_title": [
+                "Acta Psychologica"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mazzocco",
+                    "given": "M.M.M."
+                },
+                {
+                    "family": "Feigenson",
+                    "given": "L."
+                },
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                }
+            ],
+            "title": "Preschoolers' precision of the approximate number system predicts later school mathematics performance",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS ONE"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Moyer",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Landauer",
+                    "given": "T.K."
+                }
+            ],
+            "title": "The time required for judgements of numerical inequality",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "1967"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mundy",
+                    "given": "E."
+                },
+                {
+                    "family": "Gilmore",
+                    "given": "C.K."
+                }
+            ],
+            "title": "Children's mapping between symbolic and nonsymbolic representations of number",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mussolin",
+                    "given": "C."
+                },
+                {
+                    "family": "No\u00ebl",
+                    "given": "M.-P."
+                }
+            ],
+            "title": "The nonintentional processing of Arabic numerals in children",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Clinical and Experimental Neuropsychology"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mussolin",
+                    "given": "C."
+                },
+                {
+                    "family": "No\u00ebl",
+                    "given": "M.-P."
+                }
+            ],
+            "title": "Automaticity for numerical magnitude of two-digit Arabic numbers in children",
+            "type": "article-journal",
+            "container_title": [
+                "Acta Psychologica"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mussolin",
+                    "given": "C."
+                },
+                {
+                    "family": "Nys",
+                    "given": "J."
+                },
+                {
+                    "family": "Content",
+                    "given": "A."
+                },
+                {
+                    "family": "Leybaert",
+                    "given": "J."
+                }
+            ],
+            "title": "Symbolic number abilities predict later approximate number system acuity in preschool children",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS ONE"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mussolin",
+                    "given": "C."
+                },
+                {
+                    "family": "Nys",
+                    "given": "J."
+                },
+                {
+                    "family": "Leybaert",
+                    "given": "J."
+                },
+                {
+                    "family": "Content",
+                    "given": "A."
+                }
+            ],
+            "title": "Relationships between approximate number system acuity and early symbolic number abilities",
+            "type": "article-journal",
+            "container_title": [
+                "Trends in Neuroscience and Education"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nieder",
+                    "given": "A."
+                }
+            ],
+            "title": "Counting on neurons: The neurobiology of numerical competence",
+            "type": "article-journal",
+            "container_title": [
+                "Nature Reviews. Neuroscience"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "No\u00ebl",
+                    "given": "M.-P."
+                }
+            ],
+            "title": "Le transcodage chez l'enfant",
+            "type": "chapter",
+            "container_title": [
+                "Troubles du calcul et dyscalculie chez l'enfant"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nys",
+                    "given": "J."
+                },
+                {
+                    "family": "Content",
+                    "given": "A."
+                }
+            ],
+            "title": "Complex mental arithmetic: The contribution of the number sense",
+            "type": "article-journal",
+            "container_title": [
+                "Canadian Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nys",
+                    "given": "J."
+                },
+                {
+                    "family": "Content",
+                    "given": "A."
+                }
+            ],
+            "title": "Judgement of discrete and continuous quantity in adults: Number counts!",
+            "type": "article-journal",
+            "container_title": [
+                "Quarterly Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nys",
+                    "given": "J."
+                },
+                {
+                    "family": "Ventura",
+                    "given": "P."
+                },
+                {
+                    "family": "Fernandes",
+                    "given": "T."
+                },
+                {
+                    "family": "Querido",
+                    "given": "L."
+                },
+                {
+                    "family": "Leybaert",
+                    "given": "J."
+                },
+                {
+                    "family": "Content",
+                    "given": "A."
+                }
+            ],
+            "title": "Does math education modify the approximate number system? A comparison of literate, ex-illiterate and illiterate adults",
+            "type": "article-journal",
+            "container_title": [
+                "Trends in Neuroscience and Education"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Opfer",
+                    "given": "J.E."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R."
+                }
+            ],
+            "title": "Representational change and children's numerical estimation",
+            "type": "article-journal",
+            "container_title": [
+                "Cognitive Psychology"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Opfer",
+                    "given": "J.E."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Development of quantitative thinking",
+            "type": "chapter",
+            "container_title": [
+                "Oxford handbook of thinking and reasoning"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mussolin",
+                    "given": "C."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "/",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Review"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Opfer",
+                    "given": "J.E."
+                },
+                {
+                    "family": "Thompson",
+                    "given": "C."
+                }
+            ],
+            "title": "The trouble with transfer: Insights from microgenetic changes in the representation of numerical magnitude",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Palermo",
+                    "given": "D.S."
+                }
+            ],
+            "title": "More about less: A study of language comprehension",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Verbal Learning and Verbal Behavior"
+            ],
+            "doi": "",
+            "published_date": "1973"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Park",
+                    "given": "J."
+                },
+                {
+                    "family": "Brannon",
+                    "given": "E.M."
+                }
+            ],
+            "title": "Training the approximate number system improves math proficiency",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Science"
+            ],
+            "doi": "10.1177/0956797613482944.",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piazza",
+                    "given": "M."
+                }
+            ],
+            "title": "Neurocognitive start-up tools for symbolic number representations",
+            "type": "article-journal",
+            "container_title": [
+                "Trends in Cognitive Sciences"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piazza",
+                    "given": "M."
+                },
+                {
+                    "family": "Facoetti",
+                    "given": "A."
+                },
+                {
+                    "family": "Trussardi",
+                    "given": "A.N."
+                },
+                {
+                    "family": "Berteletti",
+                    "given": "I."
+                },
+                {
+                    "family": "Conte",
+                    "given": "S."
+                },
+                {
+                    "family": "Lucangeli",
+                    "given": "D."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Developmental trajectory of number acuity reveals a severe impairment in developmental dyscalculia",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piazza",
+                    "given": "M."
+                },
+                {
+                    "family": "Pinel",
+                    "given": "P."
+                },
+                {
+                    "family": "Le Bihan",
+                    "given": "D."
+                },
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "A magnitude code common to numerosities and number symbols in human intraparietal cortex",
+            "type": "article-journal",
+            "container_title": [
+                "Neuron"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pica",
+                    "given": "P."
+                },
+                {
+                    "family": "Lemer",
+                    "given": "C."
+                },
+                {
+                    "family": "Izard",
+                    "given": "V."
+                },
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "Exact and approximate arithmetic in an Amazonian indigene group",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Price",
+                    "given": "G.R."
+                },
+                {
+                    "family": "Palmer",
+                    "given": "D."
+                },
+                {
+                    "family": "Battista",
+                    "given": "C."
+                },
+                {
+                    "family": "Ansari",
+                    "given": "D."
+                }
+            ],
+            "title": "Nonsymbolic numerical magnitude comparison: Reliability and validity of different task variants and outcome measures, and their relationship to arithmetic achievement in adults",
+            "type": "article-journal",
+            "container_title": [
+                "Acta Psychologica"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rousselle",
+                    "given": "L."
+                },
+                {
+                    "family": "No\u00ebl",
+                    "given": "M.-P."
+                }
+            ],
+            "title": "The development of automatic numerosity processing in preschoolers: Evidence for numerosity-perceptual interference",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rousselle",
+                    "given": "L."
+                },
+                {
+                    "family": "Palmers",
+                    "given": "E."
+                },
+                {
+                    "family": "No\u00ebl",
+                    "given": "M."
+                }
+            ],
+            "title": "Magnitude comparison in preschoolers: what counts? Influence of perceptual variables",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rubinsten",
+                    "given": "O."
+                },
+                {
+                    "family": "Henik",
+                    "given": "A."
+                },
+                {
+                    "family": "Berger",
+                    "given": "A."
+                },
+                {
+                    "family": "Shahar-Shalev",
+                    "given": "S."
+                }
+            ],
+            "title": "The development of internal representations of magnitude and their association with Arabic numerals",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sarnecka",
+                    "given": "B.W."
+                },
+                {
+                    "family": "Carey",
+                    "given": "S."
+                }
+            ],
+            "title": "How counting represents number: What children must learn and when they learn it",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sarnecka",
+                    "given": "B.W."
+                },
+                {
+                    "family": "Lee",
+                    "given": "M.D."
+                }
+            ],
+            "title": "Levels of number knowledge during early childhood",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Slaughter",
+                    "given": "V."
+                },
+                {
+                    "family": "Kamppi",
+                    "given": "D."
+                },
+                {
+                    "family": "Paynter",
+                    "given": "J."
+                }
+            ],
+            "title": "Toddler subtraction with large sets: Further evidence for an analog-magnitude representation of number",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Science"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sekuler",
+                    "given": "R."
+                },
+                {
+                    "family": "Mierkiewicz",
+                    "given": "M."
+                }
+            ],
+            "title": "Children's judgments of numerical inequality",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "",
+            "published_date": "1977"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Core knowledge",
+            "type": "article-journal",
+            "container_title": [
+                "American Psychologist"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Szucs",
+                    "given": "D."
+                },
+                {
+                    "family": "Nobes",
+                    "given": "A."
+                },
+                {
+                    "family": "Devine",
+                    "given": "A."
+                },
+                {
+                    "family": "Gabriel",
+                    "given": "F.C."
+                },
+                {
+                    "family": "Gebuis",
+                    "given": "T."
+                }
+            ],
+            "title": "Visual stimulus parameters seriously compromise the measurement of approximate number system acuity and comparative effects between adults and children",
+            "type": "article-journal",
+            "container_title": [
+                "Frontiers in Psychology"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Temple",
+                    "given": "E."
+                },
+                {
+                    "family": "Posner",
+                    "given": "M.I."
+                }
+            ],
+            "title": "Brain mechanisms of quantity are similar in 5-year-olds and adults",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the National Academy of Sciences of the United States of America"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tzelgov",
+                    "given": "J."
+                },
+                {
+                    "family": "Meyer",
+                    "given": "J."
+                },
+                {
+                    "family": "Henik",
+                    "given": "A."
+                }
+            ],
+            "title": "Automatic and intentional processing of numerical information",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology. Learning, Memory, and Cognition"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Galen",
+                    "given": "M.S.",
+                    "particle": "van"
+                },
+                {
+                    "family": "Reitsma",
+                    "given": "P."
+                }
+            ],
+            "title": "Developing access to number magnitude: A study of the SNARC effect in 7-to 9-year-olds",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Verguts",
+                    "given": "T."
+                },
+                {
+                    "family": "Fias",
+                    "given": "W."
+                }
+            ],
+            "title": "Representation of number in animals and humans: A neural model",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Cognitive Neuroscience"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wagner",
+                    "given": "J.B."
+                },
+                {
+                    "family": "Johnson",
+                    "given": "S.C."
+                }
+            ],
+            "title": "An association between understanding cardinality and analog magnitude representations in preschoolers",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Whalen",
+                    "given": "J."
+                },
+                {
+                    "family": "Gallistel",
+                    "given": "C.R."
+                },
+                {
+                    "family": "Gelman",
+                    "given": "R."
+                }
+            ],
+            "title": "Non verbal counting in humans: the psychophysics of number representation",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Science"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wynn",
+                    "given": "K."
+                }
+            ],
+            "title": "Children's understanding of counting",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wynn",
+                    "given": "K."
+                }
+            ],
+            "title": "Addition and subtraction by human infants",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "F."
+                },
+                {
+                    "family": "Arriaga",
+                    "given": "R.I."
+                }
+            ],
+            "title": "Number discrimination in 10-month-old infants",
+            "type": "article-journal",
+            "container_title": [
+                "British Journal of Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "F."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E."
+                },
+                {
+                    "family": "Goddard",
+                    "given": "S."
+                }
+            ],
+            "title": "Number sense in human infants",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Science"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "F."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Large number discrimination in 6-month-old infants",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zebian",
+                    "given": "S."
+                },
+                {
+                    "family": "Ansari",
+                    "given": "D."
+                }
+            ],
+            "title": "Differences between literates and illiterates on symbolic but not nonsymbolic numerical magnitude processing",
+            "type": "article-journal",
+            "container_title": [
+                "Psychonomic Bulletin & Review"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        }
+    ]
+}

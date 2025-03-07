@@ -1,0 +1,1569 @@
+{
+    "metadata": {
+        "title": "\"It just gives people hope\": A qualitative inquiry into the lived experience of the Harry Potter world in mental health recovery",
+        "doi": "10.1016/j.aip.2021.101802",
+        "publisher": null,
+        "journal": null,
+        "published_date": "1 April 2021"
+    },
+    "content": {
+        "abstract": "The Harry Potter universe is both widely accessible and incredibly popular, and this feature combined with its depth of narrative and genre may make it uniquely suitable to supporting mental health recovery. The current study aims to address a gap in the literature around how engagement with the Harry Potter universe, in the tradition of unguided creative bibliotherapy, may allow people to derive psychologically-relevant meanings from these narratives as part of their mental health recovery journey. Semi-structured interviews were conducted with six individuals who identified as Harry Potter fans, had experienced mental health challenges, and were in recovery. Interviews were transcribed and analysed inductively to identify themes. Three superordinate themes were established that captured participants' experiences of using Harry Potter along their mental health recovery journey: Early Engagement, Immersive World, and Connection. Although participants employed Harry Potter in creative and individual ways, best suited to their lived experience of mental health recovery, the superordinate themes pointed to several commonalities in how these fans used the series, and these reflected contemporary models of mental health recovery.",
+        "keywords": [
+            "qualitative",
+            "harry",
+            "potter",
+            "recovery",
+            "health",
+            "people",
+            "world",
+            "inquiry",
+            "give",
+            "mental"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kelsey V Tribe",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Fiona Ann Papps",
+            "affiliation": null,
+            "email": "fionaann.papps@acap.edu.au"
+        },
+        {
+            "name": "Fiona Calvert",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Altmann",
+                    "given": "U."
+                },
+                {
+                    "family": "Bohrn",
+                    "given": "I.C."
+                },
+                {
+                    "family": "Lubrich",
+                    "given": "O."
+                },
+                {
+                    "family": "Menninghaus",
+                    "given": "W."
+                },
+                {
+                    "family": "Jacobs",
+                    "given": "A.M."
+                }
+            ],
+            "title": "Fact vs fiction-How paratextual information shapes our reading processes",
+            "type": "article-journal",
+            "container_title": [
+                "Social Cognitive and Affective Neuroscience"
+            ],
+            "doi": "10.1093/scan/nss098",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Council",
+                    "given": "Australian Health Ministers' Advisory"
+                }
+            ],
+            "title": "A national framework for recovery-oriented mental health services: Policy and theory",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bal",
+                    "given": "P.M."
+                },
+                {
+                    "family": "Veltkamp",
+                    "given": "M."
+                }
+            ],
+            "title": "How does fiction reading influence empathy? An experimental investigation on the role of emotional transportation",
+            "type": "article-journal",
+            "container_title": [
+                "PloS One"
+            ],
+            "doi": "10.1371/journal.pone.0055341",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Beck",
+                    "given": "J.S."
+                },
+                {
+                    "family": "Beck",
+                    "given": "A.T."
+                }
+            ],
+            "title": "Cognitive therapy: Basics and beyond",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bhattacharyya",
+                    "given": "A."
+                }
+            ],
+            "title": "Historical backdrop",
+            "type": "chapter",
+            "container_title": [
+                "The therapeutic use of stories"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Billington",
+                    "given": "J."
+                },
+                {
+                    "family": "Robinson",
+                    "given": "J."
+                }
+            ],
+            "title": "An evaluation of a pilot study of a literature-based intervention with women in prison",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Billington",
+                    "given": "J."
+                },
+                {
+                    "family": "Dowrick",
+                    "given": "C."
+                },
+                {
+                    "family": "Hamer",
+                    "given": "A."
+                },
+                {
+                    "family": "Robinson",
+                    "given": "J."
+                },
+                {
+                    "family": "Williams",
+                    "given": "C."
+                }
+            ],
+            "title": "An investigation into the therapeutic benefits of reading in relation to depression and well-being",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Billington",
+                    "given": "J."
+                },
+                {
+                    "family": "Farrington",
+                    "given": "G."
+                },
+                {
+                    "family": "Lampropoulou",
+                    "given": "S."
+                },
+                {
+                    "family": "Lingwood",
+                    "given": "J."
+                },
+                {
+                    "family": "Jones",
+                    "given": "A."
+                },
+                {
+                    "family": "Ledson",
+                    "given": "J."
+                },
+                {
+                    "family": "McDonnell",
+                    "given": "K."
+                },
+                {
+                    "family": "Duirs",
+                    "given": "N."
+                },
+                {
+                    "family": "Humphreys",
+                    "given": "A.L."
+                }
+            ],
+            "title": "A comparative study of cognitive behavioural therapy and shared reading for chronic pain",
+            "type": "article-journal",
+            "container_title": [
+                "Medical Humanities"
+            ],
+            "doi": "10.1136/medhum-2016-011047",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Billington",
+                    "given": "J."
+                },
+                {
+                    "family": "Humphreys",
+                    "given": "A.L."
+                },
+                {
+                    "family": "Jones",
+                    "given": "A."
+                },
+                {
+                    "family": "McDonnell",
+                    "given": "K."
+                }
+            ],
+            "title": "A literature-based intervention for people with chronic pain",
+            "type": "article-journal",
+            "container_title": [
+                "Arts & Health"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Braun",
+                    "given": "V."
+                },
+                {
+                    "family": "Clarke",
+                    "given": "V."
+                }
+            ],
+            "title": "Using thematic analysis in psychology",
+            "type": "article-journal",
+            "container_title": [
+                "Qualitative Research in Psychology"
+            ],
+            "doi": "10.1191/1478088706qp063oa",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Braun",
+                    "given": "V."
+                },
+                {
+                    "family": "Clarke",
+                    "given": "V."
+                }
+            ],
+            "title": "Successful qualitative research: A practical guide for beginners",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Breithaupt",
+                    "given": "F.A."
+                }
+            ],
+            "title": "Empathic sadism: How readers get implicated",
+            "type": "chapter",
+            "container_title": [
+                "The Oxford handbook of cognitive literary studies"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Butera",
+                    "given": "K.J."
+                }
+            ],
+            "title": "Manhunt: The challenge of enticing men to participate in a study on friendship",
+            "type": "article-journal",
+            "container_title": [
+                "Qualitative Inquiry"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Canty",
+                    "given": "N."
+                }
+            ],
+            "title": "Bibliotherapy: Its processes and benefits and application in clinical and developmental settings",
+            "type": "article-journal",
+            "container_title": [
+                "Logos"
+            ],
+            "doi": "10.1163/1878-4712-11112133",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cohen",
+                    "given": "L.J."
+                }
+            ],
+            "title": "Phenomenology of therapeutic reading with implications for research and practice of bibliotherapy",
+            "type": "article-journal",
+            "container_title": [
+                "The Arts in Psychotherapy"
+            ],
+            "doi": "10.1016/0197-4556(94)90035-3",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Egeci",
+                    "given": "\u0130.S."
+                },
+                {
+                    "family": "Gen\u00e7\u00f6z",
+                    "given": "F."
+                }
+            ],
+            "title": "Use of cinematherapy in dealing with relationship problems",
+            "type": "article-journal",
+            "container_title": [
+                "The Arts in Psychotherapy"
+            ],
+            "doi": "10.1016/j.",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ellis",
+                    "given": "C."
+                },
+                {
+                    "family": "McCann",
+                    "given": "E."
+                },
+                {
+                    "family": "Dalsg\u00e5rd",
+                    "given": "A.L."
+                }
+            ],
+            "title": "Reading for depression/mental health",
+            "type": "chapter",
+            "container_title": [
+                "Reading and mental health"
+            ],
+            "doi": "10.1007/978-3-030-21762-4_5.",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Erikson",
+                    "given": "E."
+                }
+            ],
+            "title": "Identity: Youth and crisis",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1968"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Farrington",
+                    "given": "G."
+                },
+                {
+                    "family": "McDonnell",
+                    "given": "K."
+                },
+                {
+                    "family": "Cook",
+                    "given": "H."
+                }
+            ],
+            "title": "Reading in clinical contexts",
+            "type": "chapter",
+            "container_title": [
+                "Reading and mental health"
+            ],
+            "doi": "10.1007/978-3-030-21762-4_8.",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Frank",
+                    "given": "A.J."
+                },
+                {
+                    "family": "McBee",
+                    "given": "M.T."
+                }
+            ],
+            "title": "The use of Harry Potter and the Sorcerer's Stone to discuss identity development with gifted adolescents",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Secondary Gifted Education"
+            ],
+            "doi": "10.4219/jsge-2003-438.",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gibson",
+                    "given": "D.M."
+                }
+            ],
+            "title": "Empathizing with Harry Potter: The use of popular literature in counselor education",
+            "type": "article-journal",
+            "container_title": [
+                "The Journal of Humanistic Counseling, Education and Development"
+            ],
+            "doi": "10.1002/j.2161-1939.2007.tb00036.x",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Glavin",
+                    "given": "C.E.Y."
+                },
+                {
+                    "family": "Montgomery",
+                    "given": "P."
+                }
+            ],
+            "title": "Creative bibliotherapy for post-traumatic stress disorder (PTSD): A systematic review",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Poetry Therapy"
+            ],
+            "doi": "10.1080/08893675.2017.1266190",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Glover",
+                    "given": "H."
+                }
+            ],
+            "title": "Recovery, life long learning, social inclusion and empowerment: Is a new paradigm emerging?",
+            "type": "chapter",
+            "container_title": [
+                "Empowerment, lifelong learning and recovery in mental health: Towards a new paradigm"
+            ],
+            "doi": "10.1007/978-0-230-39135-2_2.",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hakemulder",
+                    "given": "J."
+                }
+            ],
+            "title": "Apologies",
+            "type": "chapter",
+            "container_title": [
+                "The moral laboratory: Experiments examining the effects of reading literature on social perception and moral self-concept"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heath",
+                    "given": "M.A."
+                },
+                {
+                    "family": "Sheen",
+                    "given": "D."
+                },
+                {
+                    "family": "Leavy",
+                    "given": "D."
+                },
+                {
+                    "family": "Young",
+                    "given": "E."
+                },
+                {
+                    "family": "Money",
+                    "given": "K."
+                }
+            ],
+            "title": "Bibliotherapy: A resource to facilitate emotional healing and growth",
+            "type": "article-journal",
+            "container_title": [
+                "School Psychology International"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heath",
+                    "given": "M.A."
+                },
+                {
+                    "family": "Smith",
+                    "given": "K."
+                },
+                {
+                    "family": "Young",
+                    "given": "E.L."
+                }
+            ],
+            "title": "Using children's literature to strengthen social and emotional learning",
+            "type": "article-journal",
+            "container_title": [
+                "School Psychology International"
+            ],
+            "doi": "10.1177/0143034317710070",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Holman",
+                    "given": "L.F."
+                },
+                {
+                    "family": "MacGillivray",
+                    "given": "L."
+                },
+                {
+                    "family": "Salem",
+                    "given": "W."
+                },
+                {
+                    "family": "Tarbett",
+                    "given": "L.B."
+                }
+            ],
+            "title": "Book club groups to aid relational connection and trust among addicted trauma survivors",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Creativity in Mental Health"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Honey",
+                    "given": "A."
+                },
+                {
+                    "family": "Boydell",
+                    "given": "K.M."
+                },
+                {
+                    "family": "Coniglio",
+                    "given": "F."
+                },
+                {
+                    "family": "Do",
+                    "given": "T.T."
+                },
+                {
+                    "family": "Dunn",
+                    "given": "L."
+                },
+                {
+                    "family": "Gill",
+                    "given": "K."
+                },
+                {
+                    "family": "Glover",
+                    "given": "H."
+                },
+                {
+                    "family": "Hines",
+                    "given": "M."
+                },
+                {
+                    "family": "Scanlan"
+                },
+                {
+                    "family": "Tooth",
+                    "given": "B."
+                }
+            ],
+            "title": "Lived experience research as a resource for recovery: A mixed methods study",
+            "type": "article-journal",
+            "container_title": [
+                "BMC Psychiatry"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hsu",
+                    "given": "C.T."
+                },
+                {
+                    "family": "Jacobs",
+                    "given": "A.M."
+                },
+                {
+                    "family": "Altmann",
+                    "given": "U."
+                },
+                {
+                    "family": "Conrad",
+                    "given": "M."
+                }
+            ],
+            "title": "The magical activation of left amygdala when reading Harry Potter: An fMRI study on how descriptions of supra-natural events entertain and enchant",
+            "type": "article-journal",
+            "container_title": [
+                "PloS One"
+            ],
+            "doi": "10.1371/journal.pone.0118179",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hutchinson",
+                    "given": "S.A."
+                },
+                {
+                    "family": "Wilson",
+                    "given": "M.E."
+                },
+                {
+                    "family": "Wilson",
+                    "given": "H.S."
+                }
+            ],
+            "title": "Benefits of participating in research interviews",
+            "type": "article-journal",
+            "container_title": [
+                "Image: The Journal of Nursing Scholarship"
+            ],
+            "doi": "10.1111/j.1547-5069.1994.tb00937.x",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jacobs",
+                    "given": "A.M."
+                }
+            ],
+            "title": "Neurocognitive poetics: Methods and models for investigating the neuronal and cognitive-affective bases of literature reception",
+            "type": "article-journal",
+            "container_title": [
+                "Frontiers in Human Neuroscience"
+            ],
+            "doi": "10.3389/fnhum.2015.00186",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Katz",
+                    "given": "M."
+                }
+            ],
+            "title": "Prisoners of Azkaban: Understanding intergenerational transmission of trauma due to war and state terror (with help from Harry Potter",
+            "type": "article-journal",
+            "container_title": [
+                "Journal for the Psychoanalysis of Culture and Society"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kidd",
+                    "given": "D.C."
+                },
+                {
+                    "family": "Castano",
+                    "given": "E."
+                }
+            ],
+            "title": "Reading literary fiction improves theory of mind",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "10.1126/science.1239918",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kringelbach",
+                    "given": "M.L."
+                },
+                {
+                    "family": "Vuust",
+                    "given": "P."
+                },
+                {
+                    "family": "Geake",
+                    "given": "J."
+                }
+            ],
+            "title": "The pleasure of reading",
+            "type": "article-journal",
+            "container_title": [
+                "Interdisciplinary Science Reviews"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Krueger",
+                    "given": "J."
+                }
+            ],
+            "title": "The phenomenology of person perception",
+            "type": "chapter",
+            "container_title": [
+                "Neuroscience, literature and history"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leamy",
+                    "given": "M."
+                },
+                {
+                    "family": "Bird",
+                    "given": "V."
+                },
+                {
+                    "family": "Boutillier",
+                    "given": "C.L."
+                },
+                {
+                    "family": "Williams",
+                    "given": "J."
+                },
+                {
+                    "family": "Slade",
+                    "given": "M."
+                }
+            ],
+            "title": "Conceptual framework for personal recovery in mental health: Systematic review and narrative synthesis",
+            "type": "article-journal",
+            "container_title": [
+                "British Journal of Psychiatry"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Levitt",
+                    "given": "H.M."
+                },
+                {
+                    "family": "Rattanasampan",
+                    "given": "W."
+                },
+                {
+                    "family": "Chaidaroon",
+                    "given": "S.S."
+                },
+                {
+                    "family": "Stanley",
+                    "given": "C."
+                },
+                {
+                    "family": "Robinson",
+                    "given": "T."
+                }
+            ],
+            "title": "The process of personal change through reading fictional narratives: Implications for psychotherapy practice and theory",
+            "type": "article-journal",
+            "container_title": [
+                "The Humanistic Psychologist"
+            ],
+            "doi": "10.1080/08873260903113501",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lincoln",
+                    "given": "Y.S."
+                },
+                {
+                    "family": "Guba",
+                    "given": "E.G."
+                }
+            ],
+            "title": "But is it rigorous? Trustworthiness and authenticity in naturalistic evaluation",
+            "type": "article-journal",
+            "container_title": [
+                "New Directions for Program Evaluation"
+            ],
+            "doi": "10.1002/ev.1427",
+            "published_date": "1986"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Malyn",
+                    "given": "B."
+                },
+                {
+                    "family": "Thomas",
+                    "given": "Z."
+                },
+                {
+                    "family": "Ramsey-Wade",
+                    "given": "C.E."
+                }
+            ],
+            "title": "Reading and writing for well-being: A qualitative exploration of the therapeutic experience of older adult participants in a bibliotherapy and creative writing group",
+            "type": "article-journal",
+            "container_title": [
+                "Counselling & Psychotherapy Research"
+            ],
+            "doi": "10.1002/capr.12304",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mar",
+                    "given": "R.A."
+                }
+            ],
+            "title": "The neural bases of social cognition and story comprehension",
+            "type": "article-journal",
+            "container_title": [
+                "Annual Review of Psychology"
+            ],
+            "doi": "10.1146/annurev-psych-120709-145406",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mar",
+                    "given": "R.A."
+                },
+                {
+                    "family": "Oatley",
+                    "given": "K."
+                },
+                {
+                    "family": "Peterson",
+                    "given": "J.B."
+                }
+            ],
+            "title": "Exploring the link between reading fiction and empathy: Ruling out individual differences and examining outcomes",
+            "type": "article-journal",
+            "container_title": [
+                "Communications"
+            ],
+            "doi": "10.1515/comm.2009.025",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Markell",
+                    "given": "K.A."
+                },
+                {
+                    "family": "Markell",
+                    "given": "M.A."
+                }
+            ],
+            "title": "The children who lived: Using Harry Potter and other fictional characters to help grieving children and adolescents",
+            "type": "article-journal",
+            "container_title": [
+                "Routledge"
+            ],
+            "doi": "10.4324/9780203927533",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McCulliss",
+                    "given": "D."
+                }
+            ],
+            "title": "Bibliotherapy: Historical and research perspectives",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Poetry Therapy"
+            ],
+            "doi": "10.1080/08893675.2012.654944",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McNay",
+                    "given": "A."
+                },
+                {
+                    "family": "Darby-Villis",
+                    "given": "C."
+                },
+                {
+                    "family": "Billington",
+                    "given": "J."
+                },
+                {
+                    "family": "Walmsley",
+                    "given": "A."
+                }
+            ],
+            "title": "Reading in prisons",
+            "type": "chapter",
+            "container_title": [
+                "Reading and mental health"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McNulty",
+                    "given": "W."
+                }
+            ],
+            "title": "Harry Potter and the prisoner within: Helping children with traumatic loss",
+            "type": "chapter",
+            "container_title": [
+                "Popular culture in counselling, psychotherapy, and play-based interventions"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Montgomery",
+                    "given": "P."
+                },
+                {
+                    "family": "Maunders",
+                    "given": "K."
+                }
+            ],
+            "title": "The effectiveness of creative bibliotherapy for internalizing, externalizing, and prosocial behaviours in children: A systematic review",
+            "type": "article-journal",
+            "container_title": [
+                "Children and Youth Services Review"
+            ],
+            "doi": "10.1016/j.",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Morawski",
+                    "given": "C.M."
+                }
+            ],
+            "title": "A role for bibliotherapy in teacher education",
+            "type": "article-journal",
+            "container_title": [
+                "Reading Horizons: A Journal of Literacy and Language Arts"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mulholland",
+                    "given": "N."
+                }
+            ],
+            "title": "The psychology of Harry Potter: An unauthorized examination of the boy who lived",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Noctor",
+                    "given": "C."
+                }
+            ],
+            "title": "Putting Harry Potter on the couch",
+            "type": "article-journal",
+            "container_title": [
+                "Clinical Child Psychology and Psychiatry"
+            ],
+            "doi": "10.1177/1359104506067879",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oatley",
+                    "given": "K."
+                }
+            ],
+            "title": "A taxonomy of the emotions of literary response and a theory of identification in fictional narrative",
+            "type": "article-journal",
+            "container_title": [
+                "Poetics"
+            ],
+            "doi": "10.1016/0304-422X(94)P4296-S",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oatley",
+                    "given": "K."
+                }
+            ],
+            "title": "Fiction: Simulation of social worlds",
+            "type": "article-journal",
+            "container_title": [
+                "Trends in Cognitive Sciences"
+            ],
+            "doi": "10.1016/j.tics.2016.06.002",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oldford",
+                    "given": "L."
+                }
+            ],
+            "title": "The use of Harry Potter and fairytales in narrative therapy",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Integrated Studies"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Panero",
+                    "given": "M.E."
+                },
+                {
+                    "family": "Weisberg",
+                    "given": "D.S."
+                },
+                {
+                    "family": "Black",
+                    "given": "J."
+                },
+                {
+                    "family": "Goldstein",
+                    "given": "T.R."
+                },
+                {
+                    "family": "Barnes",
+                    "given": "J.L."
+                },
+                {
+                    "family": "Brownell",
+                    "given": "H."
+                },
+                {
+                    "family": "Winner",
+                    "given": "E."
+                }
+            ],
+            "title": "Does reading a single passage of literary fiction really improve theory of mind? An attempt at replication",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Personality and Social Psychology"
+            ],
+            "doi": "10.1037/pspa0000064",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Panos",
+                    "given": "A."
+                }
+            ],
+            "title": "Harry Potter and friends: Models for psychological resiliency",
+            "type": "chapter",
+            "container_title": [
+                "Harry Potter's world wide influence"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pettersson",
+                    "given": "C."
+                }
+            ],
+            "title": "Psychological well-being, improved self-confidence, and social capacity: Bibliotherapy from a user perspective",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Poetry Therapy"
+            ],
+            "doi": "10.1080/08893675.2018.1448955",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Robinson",
+                    "given": "J."
+                },
+                {
+                    "family": "Billington",
+                    "given": "J."
+                },
+                {
+                    "family": "Gray",
+                    "given": "E."
+                },
+                {
+                    "family": "Chapple",
+                    "given": "M."
+                }
+            ],
+            "title": "Qualitative methodologies I: Using established qualitative methods in research on reading and health",
+            "type": "chapter",
+            "container_title": [
+                "Reading and mental health"
+            ],
+            "doi": "10.1007/978-3-030-21762-4_9.",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rosegrant",
+                    "given": "J."
+                }
+            ],
+            "title": "The deathly hallows: Harry Potter and adolescent development",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of the American Psychoanalytic Association"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rowling",
+                    "given": "J.K."
+                },
+                {
+                    "family": "Rus-Makovec",
+                    "given": "M."
+                },
+                {
+                    "family": "Furlan",
+                    "given": "M."
+                },
+                {
+                    "family": "Smolej",
+                    "given": "T."
+                }
+            ],
+            "title": "Harry Potter and the philosopher's stoneExperts on comparative literature and addiction specialists in cooperation: A bibliotherapy session in aftercare group therapy for alcohol dependence",
+            "type": "article-journal",
+            "container_title": [
+                "The Arts in Psychotherapy"
+            ],
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rustin",
+                    "given": "M.E."
+                },
+                {
+                    "family": "Rustin",
+                    "given": "M.J."
+                }
+            ],
+            "title": "Narratives and phantasies",
+            "type": "chapter",
+            "container_title": [
+                "Narrative therapies with children and their families: A practitioner's guide to concepts and approaches"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schmid",
+                    "given": "H."
+                },
+                {
+                    "family": "Klimmt",
+                    "given": "C."
+                }
+            ],
+            "title": "A magically nice guy: Parasocial relationships with Harry Potter across different cultures",
+            "type": "article-journal",
+            "container_title": [
+                "International Communication Gazette"
+            ],
+            "doi": "10.1177/1748048510393658",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schwandt",
+                    "given": "T."
+                }
+            ],
+            "title": "Trustworthiness criteria",
+            "type": "chapter",
+            "container_title": [
+                "The SAGE dictionary of qualitative inquiry"
+            ],
+            "doi": "10.4135/97814129862681.n354",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Suvilehto",
+                    "given": "P."
+                },
+                {
+                    "family": "Kerry-Moran",
+                    "given": "K.J."
+                },
+                {
+                    "family": "Aerila",
+                    "given": "J.A."
+                }
+            ],
+            "title": "Supporting children's social and emotional growth through developmental bibliotherapy",
+            "type": "chapter",
+            "container_title": [
+                "Story in children's lives: Contributions of the narrative mode to early childhood development, literacy, and learning"
+            ],
+            "doi": "10.1007/978-3-030-19266-2_15.",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Swaton",
+                    "given": "S."
+                },
+                {
+                    "family": "O'Callaghan",
+                    "given": "J."
+                }
+            ],
+            "title": "The experience of 'healing stories' in the life narrative: A grounded theory",
+            "type": "article-journal",
+            "container_title": [
+                "Counselling Psychology Quarterly"
+            ],
+            "doi": "10.1080/09515079908254109",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tamir",
+                    "given": "D.I."
+                },
+                {
+                    "family": "Bricker",
+                    "given": "A.B."
+                },
+                {
+                    "family": "Dodell-Feder",
+                    "given": "D."
+                },
+                {
+                    "family": "Mitchell",
+                    "given": "J.P."
+                }
+            ],
+            "title": "Reading fiction and reading minds: The role of simulation in the default network",
+            "type": "article-journal",
+            "container_title": [
+                "Social Cognitive and Affective Neuroscience"
+            ],
+            "doi": "10.1093/scan/nsv114",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Theron",
+                    "given": "L."
+                },
+                {
+                    "family": "Cockcroft",
+                    "given": "K."
+                },
+                {
+                    "family": "Wood",
+                    "given": "L."
+                }
+            ],
+            "title": "The resilience-enabling value of African folktales: The read-me-to-resilience intervention",
+            "type": "article-journal",
+            "container_title": [
+                "School Psychology International"
+            ],
+            "doi": "10.1177/0143034317719941",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Thunnissen",
+                    "given": "M."
+                }
+            ],
+            "title": "Harry Potter, script, and the meaning of life",
+            "type": "article-journal",
+            "container_title": [
+                "Transactional Analysis Journal"
+            ],
+            "doi": "10.1177/036215371004000105",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tracy",
+                    "given": "S.J."
+                }
+            ],
+            "title": "Qualitative quality: Eight \"big-tent\" criteria for excellent qualitative research",
+            "type": "article-journal",
+            "container_title": [
+                "Qualitative Inquiry"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Troscianko",
+                    "given": "E.T."
+                }
+            ],
+            "title": "Fiction-reading for good or ill: Eating disorders, interpretation and the case for creative bibliotherapy research",
+            "type": "article-journal",
+            "container_title": [
+                "Medical Humanities"
+            ],
+            "doi": "10.1136/medhum-2017-011375",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vezzali",
+                    "given": "L."
+                },
+                {
+                    "family": "Stathi",
+                    "given": "S."
+                },
+                {
+                    "family": "Giovannini",
+                    "given": "D."
+                },
+                {
+                    "family": "Capozza",
+                    "given": "D."
+                },
+                {
+                    "family": "Trifiletti",
+                    "given": "E."
+                }
+            ],
+            "title": "The greatest magic of Harry Potter: Reducing prejudice",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Applied Social Psychology"
+            ],
+            "doi": "10.1111/jasp.12279",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vries",
+                    "given": "D.D."
+                },
+                {
+                    "family": "Brennan",
+                    "given": "Z."
+                },
+                {
+                    "family": "Lankin",
+                    "given": "M."
+                },
+                {
+                    "family": "Morse",
+                    "given": "R."
+                },
+                {
+                    "family": "Rix",
+                    "given": "B."
+                },
+                {
+                    "family": "Beck",
+                    "given": "T."
+                }
+            ],
+            "title": "Healing with books: A literature review of bibliotherapy used with children and youth who have experienced trauma",
+            "type": "article-journal",
+            "container_title": [
+                "Therapeutic Recreation Journal"
+            ],
+            "doi": "10.18666/TRJ-2017-V51-I1-7652",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wallstr\u00f6m",
+                    "given": "R."
+                },
+                {
+                    "family": "Lindgren",
+                    "given": "E."
+                },
+                {
+                    "family": "Gabrielsson",
+                    "given": "S."
+                }
+            ],
+            "title": "'Don't abandon me': Young people's experiences of child and adolescent psychiatric inpatient care supporting recovery described in blogs",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Mental Health Nursing"
+            ],
+            "doi": "10.1111/inm.12787.",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "S."
+                },
+                {
+                    "family": "Bressington",
+                    "given": "D.T."
+                },
+                {
+                    "family": "Leung",
+                    "given": "A.Y.M."
+                },
+                {
+                    "family": "Davidson",
+                    "given": "P.M."
+                },
+                {
+                    "family": "Cheung",
+                    "given": "D.S.K."
+                }
+            ],
+            "title": "The effects of bibliotherapy on the mental well-being of informal caregivers of people with neurocognitive disorder: A systematic review and meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Nursing Studies"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zunshine",
+                    "given": "L."
+                }
+            ],
+            "title": "Why we read fiction: Theory of mind and the novel",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2006"
+        }
+    ]
+}

@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_kHWhuch" coord="1,59.97,84.23,491.46,15.44;1,202.84,104.15,206.33,15.44;1,53.80,595.19,240.25,7.94;1,53.80,605.70,240.25,8.40;1,53.80,617.04,92.68,8.02">Anvil - System Architecture and Experiences from Deployment and Early User Operations</title>
+				<funder ref="#_FGbmFY8">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2022-07-08">2022-07-08</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">X</forename><forename type="middle">Carol</forename><surname>Song</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,272.10,131.50,68.79,10.59"><forename type="first">Preston</forename><surname>Smith</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,415.85,327.03,53.81,7.06"><forename type="first">Rajesh</forename><surname>Kalyanam</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,118.85,177.88,45.61,10.59"><forename type="first">Xiao</forename><surname>Zhu</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,269.91,177.88,72.17,10.59"><forename type="first">Eric</forename><forename type="middle">W</forename><surname>Adams</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,433.36,177.88,73.89,10.59"><forename type="first">Kevin</forename><forename type="middle">D</forename><surname>Colby</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,94.41,224.25,94.89,10.59"><forename type="first">Patrick</forename><forename type="middle">T</forename><surname>Finnegan</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,277.79,224.25,56.43,10.59"><forename type="first">Erik</forename><surname>Gough</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,430.36,224.25,79.90,10.59"><forename type="first">Elizabett</forename><surname>Hillery</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,115.02,270.63,53.67,10.59"><forename type="first">Rick</forename><surname>Irvine</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,270.38,270.63,70.82,10.59"><forename type="first">Amiya</forename><forename type="middle">K</forename><surname>Maji</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jason</forename><surname>St. John</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA Rajesh Kalyanam</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country>USA Rajesh Kalyanam</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<note type="raw_affiliation">Purdue University West Lafayette, USA</note>
+								<orgName type="institution">Purdue University West Lafayette</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff12">
+								<note type="raw_affiliation">Anvil -System Architecture and Experiences from Deployment and Early User Operations. In Practice and Experience in Advanced Research Computing (PEARC &apos;22), July 10-14, 2022, Boston, MA, USA. ACM, New York, NY, USA, 9 pages.</note>
+								<orgName type="department">Anvil -System Architecture and Experiences from Deployment and Early User Operations. In Practice and Experience in Advanced Research Computing (PEARC &apos;22)</orgName>
+								<address>
+									<addrLine>July 10-14, 9 pages</addrLine>
+									<postCode>2022</postCode>
+									<settlement>Boston, New York</settlement>
+									<region>MA, NY</region>
+									<country>USA. ACM, USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_G93Zky2" coord="1,59.97,84.23,491.46,15.44;1,202.84,104.15,206.33,15.44;1,53.80,595.19,240.25,7.94;1,53.80,605.70,240.25,8.40;1,53.80,617.04,92.68,8.02">Anvil - System Architecture and Experiences from Deployment and Early User Operations</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_5vxPmFX">Practice and Experience in Advanced Research Computing</title>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2022-07-08" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">848C0A3A02A95F9B6E9ACCBD57CA19A6</idno>
+					<idno type="DOI">10.1145/3491418.3530766</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-18T02:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_YNwjTTh"><p xml:id="_mBR8GSD"><s xml:id="_RugYrFx" coords="1,53.48,330.12,240.56,7.94;1,53.80,341.08,53.45,7.94">Anvil is a new XSEDE advanced capacity computational resource funded by NSF.</s><s xml:id="_hqtBgU5" coords="1,108.84,341.08,185.37,7.94;1,53.80,352.03,241.76,7.94;1,53.80,362.99,240.24,7.94;1,53.80,373.95,241.77,7.94;1,53.47,384.91,242.09,7.94;1,53.80,395.87,240.25,7.94;1,53.80,406.83,240.24,7.94;1,53.80,417.79,107.61,7.94">Designed with a systematic strategy to meet the ever increasing and diversifying research needs for advanced computational capacity, Anvil integrates a large capacity high-performance computing (HPC) system with a comprehensive ecosystem of software, access interfaces, programming environments, and composable services in a seamless environment to support a broad range of current and future science and engineering applications of the nation's research community.</s><s xml:id="_ngtEqYw" coords="1,163.64,417.79,131.92,7.94;1,53.80,428.75,241.76,7.94;1,53.80,439.71,240.25,7.94;1,53.80,450.66,241.76,7.94;1,53.80,461.62,240.25,7.94;1,53.80,472.58,217.40,7.94">Anchored by a 1000-node CPU cluster featuring the latest AMD EPYC 3rd generation (Milan) processors, along with a set of 1TB large memory and NVIDIA A100 GPU nodes, Anvil integrates a multi-tier storage system, a Kubernetes composable subsystem, and a pathway to Azure commercial cloud to support a variety of workflows and storage needs.</s><s xml:id="_utjHtjB" coords="1,273.43,472.58,20.61,7.94;1,53.47,483.54,240.58,7.94;1,53.47,494.50,124.64,7.94">Anvil was successfully deployed and integrated with XSEDE during the world-wide COVID-19 pandemic.</s><s xml:id="_pwExRwh" coords="1,180.34,494.50,113.71,7.94;1,53.80,505.46,241.76,7.94;1,53.80,516.42,161.16,7.94">Entering production operation in February 2022, Anvil will serve the nation's science and engineering research community for five years.</s><s xml:id="_hn6dEzj" coords="1,217.32,516.42,76.72,7.94;1,53.80,527.38,240.25,7.94;1,53.80,538.34,240.24,7.94;1,53.80,549.29,240.42,7.94;1,53.80,560.25,100.35,7.94">This paper describes the Anvil system and services, including its various components and subsystems, user facing features, and shares the Anvil team's experience through its early user access program from November 2021 through January 2022.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1" xml:id="_e3Dn3yF">INTRODUCTION</head><p xml:id="_PcVa5W4"><s xml:id="_UCDtxqV" coords="1,317.69,427.52,240.51,7.94;1,317.96,438.48,241.76,7.94;1,317.96,449.44,240.48,7.94;1,317.96,460.40,241.76,7.94;1,317.96,471.35,240.25,7.94;1,317.96,482.31,240.24,7.94;1,317.96,493.27,21.01,7.94">The demand for diverse modalities of computational capacity is increasing more rapidly than the current national advanced computing infrastructure -XSEDE <ref type="bibr" coords="1,420.09,449.44,13.57,7.94" target="#b15">[15,</ref><ref type="bibr" coords="1,435.90,449.44,11.57,7.94" target="#b16">16]</ref> -can accommodate primarily due to the convergence of two trends: traditionally computing intensive domains are growing exponentially, and new and more diverse research domains are emerging as major computational resource users.</s><s xml:id="_BMhyP5g" coords="1,341.21,493.27,218.51,7.94;1,317.96,504.23,240.25,7.94;1,317.96,515.19,241.76,7.94;1,317.96,526.15,240.25,7.94;1,317.96,537.11,240.25,7.94;1,317.96,548.07,240.25,7.94;1,317.96,559.03,241.77,7.94;1,317.96,569.99,11.32,7.94">This convergence highlights three main challenges to meeting the rapidly evolving landscape of computational needs: (1) the ever-increasing need for computational resources in almost all domains of science and engineering (S&amp;E); <ref type="bibr" coords="1,464.08,526.15,9.32,7.94" target="#b1">(2)</ref> the new computational paradigms (e.g., non-batch computing, AI/ML) and expansion to non-traditional HPC domains, and (3) training the next generation researchers and workforce for cyberinfrastructure (CI) sustainability.</s></p><p xml:id="_7KnBfwu"><s xml:id="_BgC7Tny" coords="1,327.92,580.94,231.80,7.94;1,317.96,591.90,240.25,7.94;1,317.96,602.86,241.76,7.94;1,317.96,613.82,241.76,7.94;1,317.73,624.78,20.61,7.94">Employing a systematic strategy to meeting these needs, a Purdue University Rosen Center for Advanced Computing team has developed and deployed Anvil, a new national advanced computational resource, and a broad range of capabilities and services.</s><s xml:id="_hjMEeKh" coords="1,340.84,624.78,218.88,7.94;1,317.96,635.74,240.25,7.94;1,317.96,646.70,241.76,7.94;1,317.96,657.66,240.24,7.94;1,317.96,668.62,191.16,7.94">Funded by the NSF, Anvil combines a large-capacity highperformance computing cluster with a comprehensive ecosystem of software, access interfaces, programming environments, and composable services to form a seamless environment able to support a broad range of current and future S&amp;E applications.</s><s xml:id="_VGtr2fh" coords="1,511.35,668.62,48.37,7.94;1,317.96,679.57,240.25,7.94;1,317.96,690.53,90.72,7.94">Anvil is integrated with XSEDE and has been operating and supporting users since November 1, 2021.</s><s xml:id="_aMNfwEw" coords="1,411.20,690.53,147.00,7.94;1,317.69,701.49,240.52,7.94">To date nearly 117M CPU service units (SUs) and 290K GPU SUs have been allocated on Anvil through the</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_kPe5mdf">Component Features</head><p xml:id="_S5wk6vZ"><s xml:id="_JXqTTWg" coords="2,146.30,107.93,68.47,7.94;2,246.27,96.86,160.23,7.94;2,246.27,107.82,171.51,7.94;2,246.27,118.78,80.11,7.94;2,146.30,130.13,319.41,7.94">Standard Compute 1000 128-core Dell compute nodes, with 3rd Generation AMD Epyc processors, with a peak performance of 5.1 PF Large Memory Compute 32 large memory compute nodes each with 1 TB of memory</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_XCBZdyY">GPU Compute</head><p xml:id="_4Dch9cd"><s xml:id="_e3Ttc44" coords="2,246.27,141.49,164.79,7.94;2,246.27,152.45,179.54,7.94;2,146.30,163.81,46.45,7.94;2,246.27,163.81,113.63,7.94;2,146.30,180.76,47.18,7.94;2,246.27,175.17,189.67,7.94;2,246.27,186.12,111.90,7.94;2,146.30,197.48,73.65,7.94;2,246.27,197.48,199.64,7.94;2,233.00,210.06,145.71,7.70;2,53.80,249.99,166.04,7.94">A total of 64 Nvidia A100 GPUs providing an additional 1.5 PF of single-precision performance Interconnect HDR100 Infiniband, 3:1 fat tree Data Storage Arcastream Pixstor -10 PB DDN storage, (disk tier), 3 PB of Dell storage (flash tier) Composable System 8 composable compute nodes, managed by Kubernetes Table <ref type="table" coords="2,257.34,210.06,3.45,7.70">1</ref>: Anvil System Specifications quarterly XSEDE allocation process (XRAC).</s><s xml:id="_JdRAu64" coords="2,222.09,249.99,71.96,7.94;2,53.80,260.94,240.25,7.94;2,53.80,271.90,104.25,7.94">Anvil also provides nearly 20M CPU and 30K GPU SUs to researchers as part of the COVID-19 HPC Consortium.</s><s xml:id="_7GDwHjE" coords="2,160.30,271.90,133.75,7.94;2,53.80,282.86,240.25,7.94;2,53.48,293.82,240.56,7.94;2,53.80,304.78,240.25,7.94;2,53.80,315.74,240.25,7.94;2,53.80,326.70,237.84,7.94">In the following sections we describe how the increasing need for computational resources has driven the Anvil system architecture, the various innovative capabilities that support new computational paradigms and non-traditional HPC users and domains, as well as our ongoing and planned workforce development activities to train the next generation CI workforce.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_M5dvu5w">ARCHITECTURE</head><p xml:id="_sFMYE6u"><s xml:id="_feutUNR" coords="2,53.53,372.72,241.90,7.94">The Anvil system design was motivated by two main considerations.</s><s xml:id="_TpgAPB9" coords="2,53.80,383.68,240.25,7.94;2,53.80,394.64,241.76,7.94;2,53.80,405.60,61.82,7.94">Firstly, Anvil is to deliver a large quantity of computing power to support a large number of current and future science and engineering applications.</s><s xml:id="_BwbFUmV" coords="2,118.26,405.60,175.79,7.94;2,53.80,416.56,240.25,7.94;2,53.47,427.52,240.58,7.94;2,53.80,438.48,76.21,7.94">Based on our analysis of workloads on XSEDE and Purdue clusters, Anvil is optimized to support moderate-sized workloads (e.g., under 1024 cores) while also allowing wider jobs to run on the system.</s><s xml:id="_8Za3vVJ" coords="2,132.19,438.48,161.86,7.94;2,53.80,449.44,240.25,7.94;2,53.80,460.40,240.25,7.94;2,53.50,471.35,28.88,7.94">Anvil's 128-core compute nodes were chosen after analysis of XSEDE usage data, which revealed that such a node could support significant fractions of today's workloads on XSEDE.</s><s xml:id="_sD6k5Te" coords="2,84.63,471.35,209.42,7.94;2,53.48,482.31,242.07,7.94;2,53.80,493.27,146.96,7.94">The expected major growth in Python, R, notebooks and AI applications has led to the optimization of Anvil for both traditional and emerging scientific workloads.</s><s xml:id="_GyPsujH" coords="2,202.69,493.27,91.36,7.94;2,53.80,504.23,240.46,7.94;2,53.47,515.19,240.58,7.94;2,53.80,526.15,240.25,7.94;2,53.80,537.11,241.76,7.94;2,53.80,548.07,240.25,7.94;2,53.80,559.03,140.79,7.94">Secondly, recognizing the changing application landscape on HPC systems where complex workflows, data-driven computations, and interactive explorations at all scales are becoming more common, Anvil complements its core HPC system with composable edge services, a variety of storage types and access interfaces to meet these needs and make Anvil more accessible to a broader audience.</s><s xml:id="_DNfaa5b" coords="2,196.83,559.03,97.21,7.94;2,53.80,569.99,240.25,7.94;2,53.80,580.94,240.25,7.94;2,53.80,591.90,39.94,7.94">These considerations have impacted Anvil's design decisions, including the selection of the type of nodes, interconnect, queues, storage types, and the software ecosystem.</s></p><p xml:id="_NgtRJKC"><s xml:id="_dVADfxh" coords="2,63.76,602.86,230.28,7.94;2,53.80,613.82,133.61,7.94">Built in partnership with Dell, Anvil consists of the following components, summarized in Table <ref type="table" coords="2,181.26,613.82,3.07,7.94">1</ref>.</s></p><p xml:id="_NJXx3hJ"><s xml:id="_DEvP5ZG" coords="2,63.76,624.78,230.28,7.94;2,53.80,635.74,241.76,7.94;2,53.80,646.70,81.10,7.94">Compute: The Anvil compute system consists of 1000 base compute nodes based on the AMD 3rd generation EPYC 7763 64core (Milan) processor.</s><s xml:id="_tZyC6pu" coords="2,136.80,646.70,158.23,7.94;2,53.80,657.66,70.86,7.94">Each compute node features two 7763 CPUs, and 256 GB of RAM.</s><s xml:id="_WWjMGEu" coords="2,126.28,657.66,167.76,7.94;2,53.53,668.62,240.51,7.94;2,53.53,679.57,16.52,7.94">The CPU partition delivers up to 5.1 TeraFLOPS (TF) of peak performance per node, for a total of 5.1 PetaFLOPS (PF).</s></p><p xml:id="_Xa4hWQn"><s xml:id="_gMN9Hfx" coords="2,63.76,690.53,230.52,7.94;2,53.80,701.49,240.25,7.94;2,317.62,249.99,103.23,7.94">The base compute nodes are complemented by 32 large-memory nodes with 1 TB of RAM each, and 16 GPU compute nodes, each with 4 NVIDIA A100 GPUs.</s><s xml:id="_rMySf7s" coords="2,423.11,249.99,135.10,7.94;2,317.96,260.94,206.69,7.94">The GPU subsystem provides a total of 64 GPUs, with 1.5 PF of single-precision performance.</s></p><p xml:id="_ZnpQ3uX"><s xml:id="_g2FMFX3" coords="2,327.92,271.90,230.29,7.94;2,317.96,282.86,241.23,7.94;2,317.96,293.82,216.97,7.94">Storage: The primary file storage platform is a 13 PB raw (11 PB usable) parallel filesystem based on Arcastream's Pixstor product, utilizing disk storage from DDN and flash storage from Dell.</s><s xml:id="_QAxgBFb" coords="2,537.16,293.82,21.05,7.94;2,317.96,304.78,240.25,7.94;2,317.96,315.74,240.25,7.94;2,317.96,326.70,218.35,7.94">Based on Spectrum Scale, Pixstor provides a multi-tier filesystem utilizing flash to accelerate writes and actively read files, and provides a policy engine to migrate data to the large-capacity disk tier.</s></p><p xml:id="_AuHqMdu"><s xml:id="_dmyKC5w" coords="2,327.92,337.66,230.45,7.94;2,317.96,348.62,241.63,7.94">The Pixstor filesystem also provides persistent file storage for active allocations, and a repository for commonly used datasets.</s><s xml:id="_kySg4fd" coords="2,317.64,359.57,240.56,7.94;2,317.96,370.53,166.88,7.94">Anvil users can leverage Purdue's HPSS-based Fortress tape archive for longer-term storage for active allocations.</s><s xml:id="_Gtu3bwR" coords="2,487.07,370.53,72.65,7.94;2,317.96,381.49,240.25,7.94;2,317.96,392.45,134.57,7.94">Anvil's home directories and application software are provided by a dedicated ZFS file server with a total capacity of 51 TB.</s></p><p xml:id="_b5zNNja"><s xml:id="_udQunTp" coords="2,327.92,403.41,230.28,7.94;2,317.96,414.37,240.24,7.94;2,317.96,425.33,78.31,7.94">Composable Subsystem: Anvil's composable subsystem is based on 8 large memory compute nodes with 1 TB of RAM, and 6 TB of local storage.</s><s xml:id="_H9snSRA" coords="2,398.50,425.33,159.70,7.94;2,317.96,436.29,240.24,7.94;2,317.96,447.25,240.25,7.94;2,317.96,458.20,28.66,7.94">The composable subsystem is managed via Kubernetes <ref type="bibr" coords="2,361.11,436.29,9.30,7.94" target="#b2">[3]</ref>, with Rancher <ref type="bibr" coords="2,426.52,436.29,14.63,7.94" target="#b14">[14]</ref> software providing a GUI-based control plane and Ceph <ref type="bibr" coords="2,404.60,447.25,14.62,7.94" target="#b18">[18]</ref> providing block, filesystem and object storage.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_S6P7XKB">INNOVATIVE CAPABILITIES</head><p xml:id="_EkvnP7B"><s xml:id="_Fh8UHmr" coords="2,317.64,497.66,240.56,7.94;2,317.96,508.62,241.63,7.94">Anvil offers a number of innovative capabilities in response to the changing landscape of research applications and HPC user base.</s><s xml:id="_AEcaxDZ" coords="2,317.69,519.57,240.69,7.94;2,317.96,530.53,240.25,7.94;2,317.96,541.49,240.24,7.94;2,317.96,552.45,240.25,7.94;2,317.96,563.41,240.25,7.94;2,317.96,574.37,84.78,7.94">Traditional HPC users benefit from powerful tools like container distributions for easy access to applications, while nontraditional HPC users and training activities can take advantage of interactive computing capabilities that reduce the barrier to entry to HPC, and leverage composable technologies that complement Anvil's batch computing capabilities.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_2pe3YyT">Software Ecosystem</head><p xml:id="_UMhhYYs"><s xml:id="_z8qN5gx" coords="2,317.64,613.82,242.07,7.94;2,317.96,624.78,240.25,7.94;2,317.96,635.74,163.33,7.94">Anvil provides a diverse suite of software including compilers, debuggers, visualization libraries, development environments, and other commonly used application software.</s><s xml:id="_GdTKtx7" coords="2,483.97,635.74,75.75,7.94;2,317.96,646.70,240.24,7.94;2,317.96,657.66,241.76,7.94;2,317.96,668.62,21.17,7.94">The Spack <ref type="bibr" coords="2,525.75,635.74,10.68,7.94" target="#b7">[7]</ref> package management tool is used to manage multiple library versions and configurations for ease of compilation and continuous deployment.</s><s xml:id="_SyTskap" coords="2,341.40,668.62,216.97,7.94;2,317.96,679.57,240.24,7.94;2,317.96,690.53,241.76,7.94;2,317.73,701.49,102.85,7.94">Lmod and the module system are used to manage the user environment, allowing users to easily load the requisite software and dependencies while also ensuring the appropriate Linux environment variables are set.</s><s xml:id="_b8waRB2" coords="2,422.82,701.49,135.38,7.94;3,53.80,352.63,240.25,7.94;3,53.80,363.59,98.76,7.94">Anvil also provides "canonical" CPU  and GPU software stacks in the form of a module that is loaded by default on Anvil nodes.</s><s xml:id="_8Fm6yKY" coords="3,154.91,363.59,139.13,7.94;3,53.80,374.55,240.25,7.94;3,53.80,385.51,186.19,7.94">The CPU module comprises a default compiler and MPI environment, while the GPU module comprises a stable CUDA version, compiler, and math library.</s></p><p xml:id="_aD9JAjn"><s xml:id="_Tzzzfwk" coords="3,63.76,396.47,230.28,7.94;3,53.80,407.43,241.77,7.94;3,53.80,418.38,85.55,7.94">The Anvil software ecosystem also consists of tools that are geared towards modern machine learning, data science, and bioinformatics applications.</s><s xml:id="_zPv3s2M" coords="3,142.63,418.38,151.64,7.94;3,53.80,429.34,240.25,7.94;3,53.80,440.30,240.42,7.94;3,53.80,451.26,66.80,7.94">Containerization has been leveraged by projects such as NVIDIA GPU Cloud (NGC) <ref type="bibr" coords="3,210.98,429.34,14.60,7.94" target="#b13">[13]</ref> and BioContainers <ref type="bibr" coords="3,53.80,440.30,10.59,7.94" target="#b6">[6]</ref> to distribute heavily optimized and efficient software tools for these applications.</s><s xml:id="_TbG6Vc4" coords="3,122.84,451.26,172.72,7.94;3,53.80,462.22,240.25,7.94;3,53.80,473.18,240.25,7.94;3,53.80,484.14,241.54,7.94">Anvil hosts a subset of these containers, including more than 400 biocontainers, that can be loaded via the module system, while other containers available on these project sites can be downloaded and run via Anvil's Singularity container platform.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_wtgQ5p3">Interactive Computing</head><p xml:id="_AW75Nta"><s xml:id="_DKJ2MuJ" coords="3,53.80,521.58,240.24,7.94;3,53.80,532.54,240.25,7.94;3,53.80,543.50,240.24,7.94;3,53.80,554.46,120.95,7.94">Using the Cendio ThinLinc <ref type="bibr" coords="3,160.97,521.58,10.68,7.94" target="#b3">[4]</ref> software pioneered in Purdue's Data Workbench <ref type="bibr" coords="3,118.26,532.54,10.59,7.94" target="#b5">[5]</ref> system, users can quickly log into Anvil and launch common HPC science applications as batch jobs from the convenience of a desktop menu.</s><s xml:id="_tpVNbNd" coords="3,177.37,554.46,116.68,7.94;3,53.80,565.42,241.76,7.94;3,53.80,576.38,58.96,7.94">Menu applications also include easy-to-use graphical tools to launch Windows VMs to use non-Linux software.</s><s xml:id="_97s6teN" coords="3,115.88,576.38,178.17,7.94;3,53.80,587.34,198.44,7.94">ThinLinc is well-suited to remote visualization applications even over slow or high-latency networks.</s></p><p xml:id="_5kafkaV"><s xml:id="_tPqpjjg" coords="3,63.76,598.29,230.28,7.94;3,53.80,609.25,240.25,7.94;3,53.80,620.21,84.63,7.94">Anvil uses the Open OnDemand <ref type="bibr" coords="3,182.63,598.29,14.61,7.94" target="#b12">[12]</ref> software developed by the Ohio Supercomputer Center to provide another mode of easy access to science applications.</s><s xml:id="_EepwUTj" coords="3,140.66,620.21,153.38,7.94;3,53.80,631.17,241.76,7.94;3,53.80,642.13,14.02,7.94">Open OnDemand provides browser-based file management, job templates, and gateway-style application hosting.</s><s xml:id="_SGeH6fN" coords="3,70.64,642.13,224.40,7.94;3,53.66,653.09,172.14,7.94">The applications published in OnDemand include R Studio, Jupyter notebooks, Spark, MATLAB, and more.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3" xml:id="_haDyPB6">Composable Subsystem</head><p xml:id="_nJS7urv"><s xml:id="_f5ENFZD" coords="3,53.48,690.53,240.56,7.94;3,53.80,701.49,241.23,7.94;3,317.96,352.63,55.87,7.94">Anvil features a composable subsystem <ref type="bibr" coords="3,193.73,690.53,10.43,7.94" target="#b9">[9]</ref> to dynamically provision infrastructure from pools of computing resources (CPU, memory, disk, network).</s><s xml:id="_CTeQp6V" coords="3,376.20,352.63,182.00,7.94;3,317.96,363.59,240.25,7.94;3,317.73,374.55,70.23,7.94">Rancher is used to provide a control plane to the composable infrastructure to launch container-based applications via Kubernetes <ref type="bibr" coords="3,375.34,374.55,9.47,7.94" target="#b2">[3]</ref>.</s><s xml:id="_AsyAQcm" coords="3,390.20,374.55,168.01,7.94;3,317.96,385.51,241.76,7.94;3,317.62,396.47,242.09,7.94;3,317.96,407.43,100.53,7.94">Using an intuitive user interface or command line tools, users can deploy containerized applications, science gateways, elastic software stacks, and data analysis pipelines to complement batch HPC workflows.</s><s xml:id="_hra5gUc" coords="3,420.47,407.43,137.73,7.94;3,317.96,418.38,241.76,7.94;3,317.62,429.34,240.75,7.94;3,317.96,440.30,23.00,7.94">Common use cases for the composable subsystem include SQL or NoSQL databases, personal science gateways and parallel, scalable analysis frameworks based on Dask or Spark.</s></p><p xml:id="_chRRTFE"><s xml:id="_wWXjZxM" coords="3,327.92,451.26,230.28,7.94;3,317.96,462.22,241.76,7.94;3,317.96,473.18,28.61,7.94">The Microsoft Azure cloud will be integrated to facilitate bursting to the cloud for composable workflows or appropriate HPC applications.</s><s xml:id="_ses5c6f" coords="3,348.97,473.18,209.46,7.94;3,317.96,484.14,241.63,7.94">During the deployment phase, Azure was used for early access to compute nodes for benchmarking and staff training <ref type="bibr" coords="3,541.77,484.14,14.25,7.94" target="#b20">[20]</ref>.</s><s xml:id="_h3YqGMZ" coords="3,317.64,495.10,242.08,7.94;3,317.96,506.06,116.76,7.94">Anvil HPC bursting <ref type="bibr" coords="3,391.40,495.10,14.62,7.94" target="#b17">[17]</ref> will utilize HBv3 instances built on equivalent 128-core AMD processors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_FmSqdAG">WORKFORCE DEVELOPMENT, TRAINING &amp; COMMUNITY ENGAGEMENT</head><p xml:id="_6f7PX6M"><s xml:id="_2XNhf5G" coords="3,317.69,569.99,13.90,7.94;4,63.76,87.79,231.80,7.94;4,53.80,98.75,240.25,7.94;4,53.80,109.71,240.25,7.94;4,53.80,120.67,240.25,7.94;4,53.80,131.63,105.77,7.94">The The Anvil team is launching a new REU program in the summer of 2022 to extend the Purdue CI professional apprenticeship program to students nationwide, with a particular emphasis on under-served communities such as women <ref type="bibr" coords="4,220.77,120.67,9.52,7.94" target="#b0">[1]</ref>, minorities, and under-resourced institutions.</s><s xml:id="_vYGMvP6" coords="4,161.82,131.63,133.74,7.94;4,53.80,142.59,240.25,7.94;4,53.80,153.55,240.25,7.94;4,53.80,164.51,180.38,7.94">The 12-week Anvil REU program recruits nationwide and pairs each student with a CI professional mentor to work on a range of R&amp;D projects that will directly impact the Anvil project and the broader CI community.</s><s xml:id="_sfPuAd2" coords="4,236.43,164.51,58.60,7.94;4,53.80,175.46,240.25,7.94;4,53.80,186.42,240.24,7.94;4,53.80,197.38,240.24,7.94;4,53.80,208.34,101.74,7.94">In the first year, the student projects focus on improving system data collection and reporting, application monitoring, container and application cybersecurity, and impact assessment of Anvil's novel interactive and cloud computing tools.</s><s xml:id="_KcRhxmP" coords="4,157.92,208.34,136.12,7.94;4,53.80,219.30,240.42,7.94;4,53.80,230.26,241.63,7.94">Future projects are designed to train students in researcher-facing roles, gateway support, and deeper explorations of accelerator, cloud and composable technologies.</s><s xml:id="_FSHdAy4" coords="4,53.80,241.22,240.41,7.94;4,53.80,252.18,240.25,7.94;4,53.80,263.14,93.38,7.94">Students who complete this internship will be prepared to enter the Research Computing and Data (RCD) workforce to support CI resources and their users.</s></p><p xml:id="_mZb6x4n"><s xml:id="_GWYbRKr" coords="4,63.76,274.09,231.80,7.94;4,53.80,285.05,240.25,7.94;4,53.80,296.01,240.25,7.94;4,53.80,306.97,166.42,7.94">The team also engaged with the research computing communities through presentations at CASC, PEARC, and Supercomputing conferences, and webinars to various user and CI facilitator groups such as the Campus Champions and CaRCC.</s><s xml:id="_6fVzzBp" coords="4,222.45,306.97,71.59,7.94;4,53.80,317.93,240.24,7.94;4,53.80,328.89,240.25,7.94;4,53.48,339.85,156.02,7.94">An early tutorial at PEARC21 on the composable system was conducted to prepare the science and engineering community for the novel capabilities that Anvil brings to the XSEDE ecosystem <ref type="bibr" coords="4,196.81,339.85,9.52,7.94" target="#b8">[8]</ref>.</s><s xml:id="_yyb7Z92" coords="4,211.82,339.85,82.23,7.94;4,53.47,350.81,240.75,7.94;4,53.80,361.77,23.33,7.94">A training curriculum with progressing tiers has been created to meet the diverse user needs.</s><s xml:id="_Cw7gyp4" coords="4,79.36,361.77,216.20,7.94;4,53.80,372.72,240.25,7.94;4,53.80,383.68,241.76,7.94;4,53.80,394.64,22.05,7.94">For instance, the introductory level courses (Anvil 101) include basics of Linux, running jobs, using storage, using interactive access interfaces, and HPC seminar series for undergraduate students.</s><s xml:id="_NvG6vmt" coords="4,78.10,394.64,215.94,7.94;4,53.80,405.60,240.25,7.94;4,53.80,416.56,66.46,7.94">The advanced tutorials include Anvil 200 short courses on Kubernetes, object storage with Ceph, archiving data, and cloud bursting to Azure.</s><s xml:id="_rwu7wu8" coords="4,122.50,416.56,171.54,7.94;4,53.80,427.52,222.19,7.94">More targeted training will cover specific tools such as Jupyter Kernels &amp; HPC and Using GPUs with Python.</s><s xml:id="_WqCvkC2" coords="4,278.23,427.52,15.81,7.94;4,53.80,438.48,240.25,7.94;4,53.80,449.44,240.24,7.94;4,53.80,460.40,193.96,7.94">This curriculum will continue to evolve in response to community input and will also leverage learning materials from other projects such as those funded by the OAC CyberTraining program.</s></p><p xml:id="_8cY3y6T"><s xml:id="_mfbWeW5" coords="4,63.76,471.35,230.29,7.94;4,53.80,482.31,240.25,7.94;4,53.80,493.27,196.18,7.94">As a new system in the national CI ecosystem, the Anvil team reached out to the broader communities to build its user base and enable knowledge sharing through multiple venues.</s><s xml:id="_5QFjsFU" coords="4,252.72,493.27,41.33,7.94;4,53.80,504.23,241.76,7.94;4,53.80,515.19,241.76,7.94;4,53.80,526.15,240.25,7.94;4,53.53,537.11,242.03,7.94;4,53.80,548.07,240.48,7.94;4,53.80,559.03,241.76,7.94;4,53.80,569.99,112.38,7.94">During the acquisition and early user phases, the team engaged in technology forums and partnerships with industry such as AMD and Microsoft, federal agencies via NITRD (Networking and Information Technology Research and Development Program), and various academic research computing centers, sharing our experiences as early adopters of the newer hardware and systems and getting community feedback on best practices.</s><s xml:id="_pcXu9du" coords="4,168.34,569.99,125.71,7.94;4,53.80,580.94,240.48,7.94;4,53.80,591.90,240.25,7.94;4,53.80,602.86,241.76,7.94;4,53.80,613.82,240.41,7.94;4,53.80,624.78,44.63,7.94">Several staff members from Purdue played leadership roles in the AMD HPC user forum community and shared insights on diverse topics including AMD hardware benchmarking results, Spack automation framework stability, application build related issues and performance issues with peer institutions.</s><s xml:id="_xzTMSbD" coords="4,101.17,624.78,194.38,7.94;4,53.80,635.74,201.02,7.94">These interactions helped shape the choice of compiler versions and application configurations on Anvil.</s><s xml:id="_Vxza4G5" coords="4,257.04,635.74,37.00,7.94;4,53.80,646.70,240.25,7.94;4,53.80,657.66,215.78,7.94">The Anvil leadership team presented to NITRD's member agencies on today's HPC vendor ecosystem from the perspective of a campus.</s><s xml:id="_msW7wn5" coords="4,271.92,657.66,22.12,7.94;4,53.80,668.62,241.76,7.94;4,53.80,679.57,240.25,7.94;4,53.80,690.53,166.26,7.94">These interactions helped the team learn about the national exascale computing landscape and share the campus perspective on the critical problems facing the researchers of tomorrow.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_z7tWZzf">SYSTEM DEPLOYMENT AND PERFORMANCE</head><p xml:id="_ZYrvHgV"><s xml:id="_ZAFKUbb" coords="4,317.69,114.44,240.52,7.94;4,317.96,125.40,240.25,7.94;4,317.96,136.36,88.98,7.94">The Anvil team has successfully acquired, assembled and deployed the system and conducted an early user program in 2021 all through a world-wide pandemic.</s><s xml:id="_uKpECtP" coords="4,409.17,136.36,149.04,7.94;4,317.96,147.32,240.48,7.94;4,317.96,158.28,18.65,7.94">The Anvil acquisition has been accepted by NSF and formally entered production operations in February 2022.</s></p><p xml:id="_YN2NqDv"><s xml:id="_V5cgH6M" coords="4,327.92,169.24,231.80,7.94;4,317.96,180.20,241.63,7.94">From January through July of 2021, the Anvil system was ordered, received and deployed in the Purdue research data center.</s><s xml:id="_FtMCF5W" coords="4,317.96,191.16,241.76,7.94;4,317.96,202.11,240.25,7.94;4,317.96,213.07,240.24,7.94;4,317.96,224.03,199.07,7.94">During the winter of 2020-21, Purdue engineers relocated or decommissioned administrative computing systems to make room for Anvil, deployed Anvil's new liquid cooling infrastructure, and began deploying compute nodes during June of 2021.</s><s xml:id="_KP7SVbj" coords="4,519.46,224.03,38.74,7.94;4,317.96,234.99,159.73,7.94">The entire system was fully running by early fall 2021.</s></p><p xml:id="_B9ZgB9U"><s xml:id="_aecD3dQ" coords="4,327.92,245.95,231.80,7.94;4,317.96,256.91,80.52,7.94">During the fall of 2021, Anvil was put through a number of acceptance benchmarks.</s><s xml:id="_UVfDSZN" coords="4,400.70,256.91,159.02,7.94;4,317.96,267.87,240.48,7.94;4,317.96,278.83,240.25,7.94;4,317.96,289.79,47.55,7.94">These tests included single-node HPL, measurement of the InfiniBand performance with the OSU benchmark suite, STREAM memory tests, and application and system-wide benchmarks.</s><s xml:id="_DZv3maq" coords="4,368.14,289.79,190.07,7.94;4,317.96,300.74,156.60,7.94">The following sections describe the benchmarking results and lessons learned in more details.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1" xml:id="_Gmh89cB">Application Benchmarks</head><p xml:id="_mSxmaGf"><s xml:id="_sC25hwu" coords="4,317.64,344.33,240.56,7.94;4,317.96,355.29,241.63,7.94">Anvil was designed to support a wide variety of S&amp;E applications seen at Purdue (as a representative campus) and XSEDE today.</s><s xml:id="_ASFrbcX" coords="4,317.69,366.25,240.51,7.94;4,317.96,377.21,241.76,7.94;4,317.96,388.17,241.24,7.94;4,317.96,399.13,211.89,7.94">The top applications being run on Purdue's campus HPC systems include molecular dynamics (LAMMPS, GROMACS), material modeling (VASP), computational fluid dynamics (OpenFOAM, GEMS), high-energy physics, and weather modeling (WRF, CESM).</s><s xml:id="_vthj5Xz" coords="4,532.09,399.13,26.12,7.94;4,317.96,410.08,240.25,7.94;4,317.96,421.04,241.24,7.94;4,317.96,432.00,241.76,7.94;4,317.96,442.96,240.41,7.94;4,317.96,453.92,88.70,7.94">XSEDE data for 2017-19 also reveals similar categories and software in the top 30 applications: molecular dynamics (NAMD, LAMMPS, GROMACS, Amber), materials modeling (Quantum Espresso), computational fluid dynamics (OpenFOAM, NEK5000), and weather modeling (WRF, CESM).</s></p><p xml:id="_Fux7mhX"><s xml:id="_SrUNSkS" coords="4,327.92,464.88,230.28,7.94;4,317.96,475.84,241.76,7.94;4,317.96,486.80,241.23,7.94;4,317.96,497.76,116.47,7.94">The Anvil team expected to support a similar mix of applications for traditional HPC users today, as well as new and long-tail applications for the future, with major growth anticipated in Python, R, notebooks, and AI applications.</s><s xml:id="_QNhdugK" coords="4,436.67,497.76,121.54,7.94;4,317.96,508.71,241.76,7.94;4,317.96,519.67,134.93,7.94">These applications were also run during benchmarking and the early operations phase to demonstrate real-world utilization patterns.</s><s xml:id="_jnhFQHN" coords="4,512.18,544.83,46.02,7.94;4,317.96,555.79,240.25,7.94;4,317.96,566.75,240.48,7.94;4,317.96,577.71,240.41,7.94;4,317.69,588.67,73.99,7.94"><ref type="figure" coords="4,512.18,544.83,8.43,7.94">2a</ref> describes the single node application and benchmark performance obtained on both Anvil and Azure HBv3 instances, shown with benchmark results performed on the 2nd generation AMD EPYC 7742 processor (Rome) as a baseline.</s><s xml:id="_waKchva" coords="4,393.64,588.67,164.73,7.94;4,317.62,599.62,240.58,7.94;4,317.96,610.58,142.31,7.94">All Anvil application benchmarks exceeded or were close to projected performance, and exceeded the single-node performance observed on Azure HBv3.</s><s xml:id="_93e8z3t" coords="5,100.11,651.47,8.81,7.94"><ref type="figure" coords="5,100.11,651.47,2.94,7.94" target="#fig_1">3</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.1" xml:id="_hRNDHJZ">Single Node Application Benchmarks. Figure</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.2" xml:id="_wsBZJVP">Memory Bandwidth.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.5" xml:id="_bYSy2UG">Storage</head><p xml:id="_chaErjj"><s xml:id="_b8EnfEp" coords="5,108.35,668.55,47.54,8.04">Performance.</s><s xml:id="_BRPAQVH" coords="5,159.37,668.62,134.68,7.94;5,53.80,679.57,194.06,7.94">Aggregate performance of the Anvil storage system was measured with mdtest and IOR.</s><s xml:id="_935rQz7" coords="5,250.35,679.57,43.70,7.94;5,53.80,690.53,241.76,7.94;5,53.80,701.49,216.01,7.94">To simulate system-wide load, multiple IOR benchmarks were run simultaneously against the scratch tier (flash) and project tier (disk).</s><s xml:id="_Jmkynwd" coords="5,272.05,701.49,21.99,7.94">These</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2" xml:id="_XzchSYh">Lessons Learned</head><p xml:id="_D9CbzuE"><s xml:id="_2jtYfbu" coords="5,317.96,304.40,240.25,7.94;5,317.96,315.36,240.25,7.94;5,317.96,326.32,240.24,7.94;5,317.96,337.28,45.40,7.94">Extending the Anvil team's expertise from building campus CI to developing a national CI resource was a valuable experience and here we summarize several key lessons learned from Anvil's deployment.</s></p><p xml:id="_WkG7uQm"><s xml:id="_HrKGDmh" coords="5,328.87,350.81,3.17,7.94;6,86.68,98.75,207.37,7.94;6,86.68,109.71,207.54,7.94;6,86.68,120.67,126.50,7.94">( Developing this client for Anvil required addressing Slurm job log idiosyncrasies when translating Slurm records for submission to the XSEDE service.</s><s xml:id="_rugRj9g" coords="6,215.69,120.67,78.35,7.94;6,86.68,131.63,207.37,7.94;6,86.68,142.59,49.14,7.94">We also encountered some transparency and scaling issues with the XSEDE service itself.</s><s xml:id="_6Qyp66E" coords="6,138.47,142.59,157.10,7.94;6,86.68,153.55,207.37,7.94;6,86.68,164.51,207.37,7.94;6,86.68,175.46,208.89,7.94;6,86.68,186.42,207.37,7.94;6,86.68,197.38,98.40,7.94">XSEDE development staff for the new usage reporting system have been quite responsive to this though, and have already started to implement new APIs to allow insight into what the reporting system is doing with uploaded data, and restructuring the service to avoid these scaling failures.</s><s xml:id="_N5FCgVt" coords="6,187.21,197.38,107.07,7.94;6,86.38,208.34,207.66,7.94;6,86.68,219.30,208.89,7.94;6,86.68,230.26,207.37,7.94;6,86.68,241.22,114.13,7.94">These new APIs developed by XSEDE as part of the Anvil integration will make future usage reporting from other resource providers much easier, and the Anvil client developed will be shared across the XSEDE community as well.</s><s xml:id="_S72tfQx" coords="6,64.71,252.18,230.85,7.94;6,78.21,263.14,217.36,7.94;6,78.21,274.09,48.17,7.94">(2) Scale Considerations One of the key lessons learned during the deployment of Anvil is how to detect and address scalability issues.</s><s xml:id="_HsX8ehq" coords="6,128.62,274.09,166.95,7.94;6,78.21,285.05,215.84,7.94;6,78.21,296.01,117.69,7.94">Purdue's campus community clusters are typically composed of 500-600 compute nodes, whereas, Anvil consists of 1048 compute nodes.</s><s xml:id="_2mhVwMq" coords="6,198.15,296.01,96.07,7.94;6,78.21,306.97,215.84,7.94;6,78.21,317.93,71.24,7.94">This 2x increase in cluster size led to a variety of subtle issues which never manifested in campus clusters.</s><s xml:id="_v3jmTVe" coords="6,151.74,317.93,142.31,7.94;6,78.21,328.89,88.33,7.94;6,73.36,339.79,220.69,8.02;6,86.68,350.81,207.37,7.94;6,86.34,361.77,209.22,7.94;6,86.68,372.72,134.72,7.94">We highlight three of these issues and our design choices here: (a) Reducing system image size: The compute nodes on Anvil are provisioned using the xCAT provisioning software which boots nodes by downloading appropriate OS images over the management network.</s><s xml:id="_QVEgB4P" coords="6,223.65,372.72,70.40,7.94;6,86.68,383.68,207.37,7.94;6,86.47,394.64,209.09,7.94;6,86.34,405.60,207.70,7.94;6,86.68,416.56,36.78,7.94">However, since the management network is much slower compared to the 100Gbps InfiniBand fabric, this has the potential for network congestion when booting the entire cluster from a cold state.</s><s xml:id="_MHjTEB8" coords="6,125.69,416.56,169.87,7.94;6,86.68,427.52,207.91,7.94;6,86.68,438.48,207.60,7.94;6,86.68,449.44,138.07,7.94">To avoid this, we carefully removed all unnecessary RPMs (such as multimedia and graphics libraries) from the system images without reducing Anvil's usability or its interactive compute capability.</s><s xml:id="_gVb2WUD" coords="6,227.50,449.44,68.06,7.94;6,86.68,460.40,208.89,7.94;6,86.68,471.35,107.92,7.94">Compared to Purdue's campus clusters, the Anvil compute images are reduced by 50% or more in size.</s><s xml:id="_Z2ggu4g" coords="6,72.82,482.25,221.23,8.02;6,86.68,493.27,207.37,7.94;6,86.68,504.23,123.91,7.94">(b) Choice of subnet manager (SM): During early deployment of Anvil, we used the embedded subnet manager on one of the switches on the Anvil fabric.</s><s xml:id="_B9SAhyj" coords="6,212.49,504.23,81.55,7.94;6,86.68,515.19,207.37,7.94;6,86.68,526.15,93.53,7.94">However, as we racked and powered on the entire cluster, a subset of the nodes could not join the fabric.</s><s xml:id="_CwsGTM2" coords="6,182.93,526.15,111.11,7.94;6,86.68,537.11,208.89,7.94;6,86.68,548.07,207.37,7.94;6,86.68,559.03,43.54,7.94">After investigation, we found that the embedded subnet manager had a maximum capacity of 1024 InfiniBand ports which is lower than Anvil's cluster size.</s><s xml:id="_Ut5jF9E" coords="6,132.70,559.03,161.52,7.94;6,86.68,569.99,207.37,7.94;6,86.68,580.94,208.75,7.94">We therefore migrated the subnet manager to a software-based SM, or opensm which allowed us to connect all the nodes to the fabric without further issues.</s><s xml:id="_PuJRbqa" coords="6,73.66,591.84,221.90,8.02;6,86.68,602.86,207.37,7.94;6,86.68,613.82,113.16,7.94">(c) Defining ARP table size: The Linux kernel uses ARP (Address Resolution Protocol) tables to map IP addresses to corresponding MAC addresses.</s><s xml:id="_wJYV2tn" coords="6,202.08,613.82,91.97,7.94;6,86.68,624.78,143.39,7.94">However, the default size of ARP tables in Linux is set to 1024.</s><s xml:id="_kjAgBpQ" coords="6,233.25,624.78,62.31,7.94;6,86.68,635.74,207.37,7.94;6,86.68,646.70,208.89,7.94;6,86.68,657.66,42.10,7.94">This initially resulted in instability of the GPFS filesystem for Anvil as the storage servers could only connect to a subset of the compute nodes.</s><s xml:id="_esWWKyB" coords="6,131.01,657.66,164.55,7.94;6,86.68,668.62,208.89,7.94;6,86.68,679.57,207.37,7.94">To address this issue, we increased the maximum size of the ARP cache 8x by setting appropriate kernel parameters: net.ipv4.neigh.default.gc_thresh3</s><s xml:id="_Tpqev3w" coords="6,86.68,690.75,28.87,7.20">= 8192.</s></p><formula xml:id="formula_0" coords="5,332.04,350.81,6.34,7.94">)<label>1</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6" xml:id="_VxMJb6R">EARLY USER OPERATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2" xml:id="_Pz7WGbs">Science Accomplishments</head><p xml:id="_GkZAYNe"><s xml:id="_7JYJjQF" coords="6,317.69,383.34,240.52,7.94;6,317.96,394.29,241.62,7.94">The computations carried out on Anvil during the early user period also enabled tangible science accomplishments in several domains.</s><s xml:id="_w3hAB9W" coords="6,317.53,405.25,241.95,7.94">We report on the accomplishments of four such early user groups.</s></p><p xml:id="_y5sJeqz"><s xml:id="_22bTqUY" coords="6,317.96,423.57,151.62,8.04">6.2.1 Astronomy and Planetary Sciences.</s><s xml:id="_eUpmsMu" coords="6,473.06,423.63,86.66,7.94;6,317.73,434.59,241.99,7.94;6,317.96,445.55,240.25,7.94;6,317.96,456.51,99.79,7.95">This group seeks to develop numerical tools to model obliquely rotating magnetic massive star winds, and a rare (and only known) magnetic massive star binary system, ϵ Lupi.</s><s xml:id="_jRWjX6Q" coords="6,420.29,456.51,137.91,7.94;6,317.96,467.47,240.24,7.94;6,317.96,478.43,165.23,7.94">The developed models utilize full 3D magnetohydrodynamics(MHD) methods that require over 64,000 core hours for a single successful model run.</s><s xml:id="_PgjzUkq" coords="6,485.43,478.43,72.77,7.94;6,317.96,489.39,241.76,7.94;6,317.96,500.35,223.52,7.94">The group was able to carry out a model run for nearly 83,000 core hours and visualize the results of model evolution at various time snapshots.</s><s xml:id="_aPrsR9r" coords="6,543.74,500.35,14.47,7.94;6,317.73,511.31,240.47,7.94;6,317.96,522.26,240.24,7.94;6,317.62,533.22,70.70,7.94">The visualizations (Figure <ref type="figure" coords="6,401.09,511.31,3.49,7.94" target="#fig_2">4</ref>) helped the researcher confirm episodic centrifugal mass ejection and the expected slow velocity of dense wind material flow.</s></p><p xml:id="_b3ER5Zt"><s xml:id="_VR4RRbW" coords="6,317.96,551.54,78.65,8.04">6.2.2 Bioinformatics.</s><s xml:id="_SPwAGvJ" coords="6,400.09,551.60,158.11,7.94;6,317.96,562.56,240.25,7.94;6,317.96,573.52,240.25,7.94;6,317.96,584.48,185.72,7.94">This early user sought to carry out analysis of 648 human whole-genome bisulfite sequencing (WGBS) samples created as a part of a research protocol involving DNA methylation patterns in psychiatric syndromes such as PTSD.</s><s xml:id="_9nQj5ZH" coords="6,506.63,584.48,51.57,7.94;6,317.96,595.44,241.24,7.94;6,317.96,606.40,240.48,7.94;6,317.96,617.36,55.90,7.94">This involved running a toolchain of several well-known bioinfomatics tools, including a GPU-accelerated short-read alignment tool created by this researcher.</s><s xml:id="_UwSv6uH" coords="6,376.10,617.36,182.10,7.94;6,317.96,628.32,240.25,7.94;6,317.64,639.28,240.56,7.94;6,317.96,650.23,240.25,7.94;6,317.64,661.19,229.48,7.94">Computations on Anvil enabled the researcher to evaluate the performance of their GPU-accelerated tool on the A100 GPUs, and achieve much better throughput (Figure <ref type="figure" coords="6,528.63,639.28,3.43,7.94" target="#fig_3">5</ref>) when compared to other XSEDE systems due to a combination of the A100 performance and improved filesystem (GPFS) I/O speeds.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_bAK4zTS">6.2.3</head><p xml:id="_tXrZxWg"><s xml:id="_YXAPB3R" coords="6,343.00,679.51,108.02,8.04">Computer-aided Drug Design.</s><s xml:id="_3Rhwq6z" coords="6,454.50,679.57,103.93,7.94;6,317.96,690.09,240.25,8.39;6,317.96,701.49,240.25,7.94;7,53.80,494.28,181.37,7.94">GPCRs serve as the primary targets of ∼ 1/3 of the currently marketed drugs; however the molecular mechanisms by which GPCRs catalyze the G protein  activated exchanges are not yet well understood.</s><s xml:id="_CK6cVa6" coords="7,237.40,494.28,56.64,7.94;7,53.80,505.24,240.25,7.94;7,53.80,516.20,240.48,7.94;7,53.80,527.15,77.43,7.94">This group had previously developed Gaussian accelerated molecular dynamics computational methods to accelerate biomolecular simulations by orders of magnitude.</s><s xml:id="_ZFQyX6C" coords="7,133.51,527.15,160.53,7.94;7,53.80,538.11,240.25,7.94;7,53.80,549.07,209.24,7.94">Anvil GPUs enabled the group to carry out long-timescale (2000 ns) simulations (Figure <ref type="figure" coords="7,214.55,538.11,3.36,7.94" target="#fig_4">6</ref>) with greater speeds to capture the spontaneous activation of the G protein.</s><s xml:id="_ccvVDrQ" coords="7,265.91,549.07,28.31,7.94;7,53.80,559.58,240.25,8.39;7,53.80,570.99,240.25,7.94;7,53.80,581.95,79.63,7.94">In their simulations, Anvil achieved ∼ 1.48 speedup when compared to other capacity XSEDE systems due to the A100 GPUs and the filesystem I/O speeds.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_2S3EFmH">6.2.4</head><p xml:id="_uZrue3s"><s xml:id="_W28wKKh" coords="7,78.78,602.80,40.41,8.04">Biophysics.</s><s xml:id="_hpj6ySr" coords="7,122.68,602.86,171.37,7.94;7,53.80,613.82,241.76,7.94;7,53.80,624.78,240.25,7.94;7,53.80,635.74,222.85,7.95">This early user group sought to apply Anvil to the task of carrying out all-atom molecular dynamics (MD) simulations to calculate the diffusivity and permeability coefficients for small molecules across a synthetic β-carboxysome shell.</s><s xml:id="_S24h2gR" coords="7,278.98,635.74,16.58,7.94;7,53.80,646.70,241.77,7.94;7,53.80,657.66,240.25,7.94;7,53.80,668.62,139.09,7.94">Carboxysome proteins form a selective permeable protein shell encapsulating photosynthesis enzymes and play a critical role in carbon fixation for plant energy production.</s><s xml:id="_4hGFH8n" coords="7,195.75,668.62,99.81,7.94;7,53.80,679.57,240.25,7.94;7,53.80,690.53,240.25,8.89;7,53.80,701.49,180.93,7.94">Calculations of permeability coefficients across a synthetic carboxysome shell enable the researchers to analyze CO 2 concentrating mechanisms that are posited to be operating in photosynthetic bacteria.</s><s xml:id="_bmcZnPJ" coords="7,236.94,701.49,57.11,7.94;7,317.96,494.28,240.24,7.94;7,317.96,505.24,240.24,7.94;7,317.62,516.20,240.58,7.94;7,317.96,527.15,68.30,7.94">The A100 GPUs and NVLINK interconnects between the four GPUs on one Anvil node provides a 2-3x performance boost for their MD simulations when compared to the V100 GPUs available on their campus HPC systems (Figure <ref type="figure" coords="7,377.44,527.15,2.94,7.94" target="#fig_5">7</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3" xml:id="_Ux648MW">User Feedback</head><p xml:id="_AUQja5J"><s xml:id="_JkZKyjx" coords="7,317.96,569.99,240.24,7.94;7,317.96,580.94,112.77,7.94">In late December 2021 the Anvil team carried out an anonymous online survey of the early users.</s><s xml:id="_EFXXxMB" coords="7,432.48,580.94,125.73,7.94;7,317.96,591.90,240.25,7.94;7,317.96,602.86,51.37,7.94">Users were asked seven Likert scale questions and one additional question on how Anvil has helped their research.</s><s xml:id="_NuRXRvF" coords="7,371.50,602.86,186.70,7.94;7,317.64,613.82,240.56,7.94;7,317.96,624.78,87.70,7.94">18 responses were received out of 40 active users on Anvil (estimated based on the number of users active on the Anvil support Slack channel).</s><s xml:id="_PQT9Ych" coords="7,408.17,624.78,150.04,7.94;7,317.96,635.74,240.25,7.94;7,317.69,646.70,242.03,7.94;7,317.96,657.66,50.96,7.94">The responses to the free form question overwhelmingly cited the Anvil A100 GPUs and the filesystem (GPFS) I/O performance as being responsible for improved performance results.</s><s xml:id="_mhX4RBA" coords="7,370.78,657.66,187.42,7.94;7,317.96,668.62,126.86,7.94">Similarly, the response was overwhelmingly positive on the seven Likert scale questions.</s><s xml:id="_A95578g" coords="7,446.99,668.62,112.72,7.94;7,317.96,679.57,241.23,7.94;7,317.75,690.53,240.45,7.94;7,317.96,701.49,241.24,7.94;8,53.80,494.27,240.24,7.94;8,53.80,505.23,240.25,7.94;8,53.80,516.19,48.46,7.94">All 18 respondents reported access and login to Anvil as being either extremely or somewhat easy, 14 respondents were able to run their first successful job within a day, 17 respondents found all the necessary compilers, libraries,  and applications available on Anvil, and 13 respondents reported achieving better performance on Anvil with none reporting worse performance.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7" xml:id="_zkMWgdE">SUMMARY</head><p xml:id="_BZD94nd"><s xml:id="_DDRXPD7" coords="8,53.80,554.05,240.24,7.94;8,53.80,565.01,241.77,7.94;8,53.80,575.97,240.25,7.94;8,53.80,586.92,240.25,7.94;8,53.80,597.88,61.67,7.94">In this paper, we have described the experiences and outcomes of Purdue University's acquisition and deployment of Anvil -providing advanced CI capabilities and services to support the full range of computational and data-intensive research across all of science and engineering.</s><s xml:id="_vjABUaB" coords="8,117.72,597.88,176.33,7.94;8,53.47,608.84,240.58,7.94;8,53.80,619.80,240.48,7.94;8,53.80,630.76,240.24,7.94;8,53.50,641.72,28.51,7.94">Following a 56-day early-user operations period where Anvil demonstrated production operation capabilities, with 97% uptime, in support of science and engineering for 29 early user research groups, Anvil has entered production operations on XSEDE.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,233.51,324.66,144.99,7.70"><head>Figure 1 :</head><label>1</label><figDesc><div><p xml:id="_FfAGBBN"><s xml:id="_y9xR8QD" coords="3,233.51,324.66,144.99,7.70">Figure 1: Anvil System Architecture</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,357.48,227.23,161.19,7.70"><head>Figure 3 :</head><label>3</label><figDesc><div><p xml:id="_jJjx3tg"><s xml:id="_zqfhzMa" coords="5,357.48,227.23,161.19,7.70">Figure 3: Anvil GPU ResNet benchmark</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="7,53.80,253.60,504.40,7.70;7,53.80,264.56,241.57,7.70"><head>Figure 4 :</head><label>4</label><figDesc><div><p xml:id="_8HeS7r5"><s xml:id="_vBYeMPD" coords="7,53.80,253.60,504.40,7.70;7,53.80,264.56,95.91,7.70">Figure 4: Slices through Z-plane from the 3D MHD simulation, logarithm of density (left), radial velocity (right) at the 800 ks physical time snapshot.</s><s xml:id="_rWgSChx" coords="7,151.95,264.56,143.42,7.70">(Images courtesy of Asif ud-Doula).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="7,53.80,455.35,504.40,7.70;7,53.80,466.31,312.46,7.70"><head>Figure 5 :</head><label>5</label><figDesc><div><p xml:id="_QDSMGE3"><s xml:id="_CA57CG7" coords="7,53.80,455.35,504.40,7.70;7,53.80,466.31,131.29,7.70">Figure 5: Average end-to-end processing time and percentage of overall processing time per WGBS sample on Anvil versus another XSEDE capacity system.</s><s xml:id="_QUGHB5B" coords="7,187.33,466.31,178.93,7.70">(Images courtesy of Richard Wilton in [19]).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="8,53.80,253.60,504.40,7.70;8,53.52,264.56,64.41,7.70"><head>Figure 6 :</head><label>6</label><figDesc><div><p xml:id="_yT8K7nr"><s xml:id="_zf853wK" coords="8,53.80,253.60,419.73,7.70">Figure 6: 2000 ns GaMD simulations captured spontaneous activation of the G protein by the GPCR.</s><s xml:id="_2VrV2qs" coords="8,476.84,253.60,81.36,7.70;8,53.52,264.56,64.41,7.70">(Images courtesy of Yinglong Miao).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5" coords="8,53.80,455.35,506.01,7.70;8,53.80,466.31,98.97,7.70"><head>Figure 7 :</head><label>7</label><figDesc><div><p xml:id="_etGCJZQ"><s xml:id="_p4PMJ7E" coords="8,53.80,455.35,449.08,7.70">Figure 7: Performance comparison between A100 (Anvil) and V100 (campus resource) GPUs for MD simulations.</s><s xml:id="_GhFFhFm" coords="8,504.80,455.35,55.01,7.70;8,53.80,466.31,98.97,7.70">(Images courtesy of Joshua Vermaas).</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="4,317.96,635.74,241.77,73.70"><head>Table 2 :</head><label>2</label><figDesc><div><p xml:id="_rWDDctJ"><s xml:id="_vrjDAd3" coords="4,423.07,635.74,135.13,7.94;4,317.96,646.70,241.77,7.94;4,317.96,657.66,13.86,7.94">Table 2 summarizes the results of STREAM benchmarks performed on Anvil during acceptance testing.</s><s xml:id="_H5FsrZ4" coords="4,334.04,657.66,224.15,7.94;4,317.96,668.62,77.36,7.94">Memory bandwidth on Anvil exceeded the projections based on earlier platforms.</s><s xml:id="_dyK948W" coords="4,398.25,668.62,159.95,7.94;4,317.96,679.57,240.25,7.94;4,317.96,690.53,240.25,7.94;4,317.96,701.49,22.11,7.94">As expected, this has shown to result in a significant performance improvement on scientific applications running on Anvil during the early user phase and in production today.</s><s xml:id="_dnQy6cj" coords="5,144.81,514.85,91.42,7.70">Anvil STREAM results</s></p></div></figDesc><table coords="5,53.48,234.57,249.79,424.84"><row><cell></cell><cell cols="3">(a) Anvil Single Node Benchmarks</cell><cell></cell></row><row><cell></cell><cell cols="3">(b) Anvil Strong Scaling Study</cell><cell></cell></row><row><cell cols="4">Figure 2: Anvil benchmark and scaling studies</cell><cell></cell></row><row><cell>STREAM</cell><cell>Performance</cell><cell>Performance</cell><cell>Projection</cell><cell>Actual</cell></row><row><cell>Benchmark</cell><cell>on Sky Lake</cell><cell>on Rome</cell><cell>on Milan</cell><cell>on Anvil</cell></row><row><cell>COPY</cell><cell>144064.5</cell><cell>203522.5</cell><cell>284931.5</cell><cell>345981.3</cell></row><row><cell>SCALE</cell><cell>143006.6</cell><cell>196341.9</cell><cell>247878.7</cell><cell>346168.7</cell></row><row><cell>ADD</cell><cell>148988.5</cell><cell>215621.8</cell><cell>301870.5</cell><cell>347385.5</cell></row><row><cell>TRIAD</cell><cell>148831.5</cell><cell>223098.8</cell><cell>312338.3</cell><cell>347375.4</cell></row><row><cell cols="5">5.1.3 Strong Scaling Study. Strong scaling study of these repre-</cell></row><row><cell cols="5">sentative applications also shows good scalability on Anvil up to</cell></row><row><cell cols="3">modest scale (1024 cores/ 8 nodes). (Figure 2b)</cell><cell></cell><cell></cell></row><row><cell cols="5">5.1.4 GPU Performance. Performance of each GPU (NVIDIA A100</cell></row><row><cell cols="5">SXM4, 40GB) on Anvil was evaluated by measuring FP32 through-</cell></row><row><cell cols="5">put (number of training images processed per second) while training</cell></row><row><cell cols="5">models on synthetic data. The benchmark shows a 2X speedup on</cell></row><row><cell cols="5">Anvil compared to NVIDIA V100 GPUs for the training of ResNet-50</cell></row><row><cell>V1.5 (Figure</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="5,336.98,350.81,222.75,358.63"><head></head><label></label><figDesc><div><p xml:id="_D4unr3K"><s xml:id="_t37vJeQ" coords="5,350.83,690.47,207.37,8.02;5,350.83,701.49,207.37,7.94;6,86.68,87.79,208.75,7.94">Usage reporting: Usage reporting for XSEDE has moved to a new, custom XSEDE usage reporting protocol which only one other resource provider is known to have used.</s></p></div></figDesc><table coords="5,336.98,394.58,222.75,303.90"><row><cell>(a) Domain blending: XSEDE Anvil user accounts originate</cell></row><row><cell>with and are managed by XSEDE and thereby do not go</cell></row><row><cell>through the standard campus workflow for account cre-</cell></row><row><cell>ation and management. Nevertheless, we wished to con-</cell></row><row><cell>tinue to use centralized campus accounts for administra-</cell></row><row><cell>tors and a small portion of Purdue projects on Anvil which</cell></row><row><cell>would be outside the scope of XSEDE. A new approach</cell></row><row><cell>to LDAP tree management and creation for Anvil had to</cell></row><row><cell>devised in order to allow for Anvil to host a blended set of</cell></row><row><cell>users from both XSEDE and campus authorities. Care had</cell></row><row><cell>to be taken to negotiate naming schemes which would</cell></row><row><cell>avoid eventual collisions in the username, group name,</cell></row><row><cell>UID, and GID namespaces between XSEDE and campus.</cell></row><row><cell>(b) AMIE integration: XSEDE resource provider systems must</cell></row><row><cell>run an AMIE client in order to exchange packets with</cell></row><row><cell>XSEDE and properly create and link local resource user ac-</cell></row><row><cell>counts with the central XSEDE user accounts. The decades-</cell></row><row><cell>old AMIE software and protocol has been extended to work</cell></row><row><cell>for XSEDE in a number of ways over the years but has</cell></row><row><cell>become convoluted and poorly understood. The current</cell></row><row><cell>AMIE version for XSEDE also lacks any working client</cell></row><row><cell>implementation. It took several months of work to get a</cell></row><row><cell>working AMIE client implemented for Anvil, and much</cell></row><row><cell>of this was due to misunderstandings about how AMIE</cell></row><row><cell>worked and not encountering many of the protocol sce-</cell></row><row><cell>narios until well after we started receiving production</cell></row><row><cell>packets from XSEDE.</cell></row><row><cell>(c)</cell></row></table><note coords="5,342.36,350.81,215.84,7.94;5,342.03,361.77,216.17,7.94;5,342.36,372.72,217.35,7.94;5,342.36,383.68,194.15,7.94"><p xml:id="_Jcp495x"><s xml:id="_D5AYmu3" coords="5,342.36,350.81,215.84,7.94;5,342.03,361.77,216.17,7.94;5,342.36,372.72,31.52,7.94">XSEDE Integration Many of the challenges encountered were in how to link Anvil with central XSEDE management services.</s><s xml:id="_RJfMVQ3" coords="5,376.12,372.72,183.59,7.94;5,342.36,383.68,194.15,7.94">Starting this integration very early during the deployment phase allowed time to address these issues.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="6,317.69,101.49,241.90,252.98"><head></head><label></label><figDesc><div><p><s xml:id="_aE8UqYM" coords="6,317.69,101.49,240.51,7.94;6,317.96,112.45,240.24,7.94;6,317.96,123.41,241.63,7.94;6,317.96,236.93,240.25,7.94;6,317.96,247.89,240.25,7.94;6,317.96,258.85,125.06,7.94">The Anvil Early User Program (EUP) was established in the spring of 2021 and applications were solicited through various venues.In total 39 applications were received out of which 29 were granted.During the two month EUP, 24 early user groups submitted a total of 144, 662 jobs on Anvil and consumed a total of 9.8M CPU service units and 42.7K GPU service units.</s><s xml:id="_Hm4aNyf" coords="6,445.25,258.85,112.95,7.94;6,317.96,269.81,145.09,7.94">The observed job sizes bear out our CPU and GPU node design choices.</s><s xml:id="_Kwh4tr4" coords="6,465.29,269.81,92.91,7.94;6,317.96,280.77,240.25,7.94;6,317.96,291.73,114.63,7.94">Specifically, a majority of CPU jobs requested fewer than 128 cores and more than 99% of the jobs used fewer than 1024 cores.</s><s xml:id="_PAZjkZg" coords="6,434.58,291.73,123.62,7.94;6,317.69,302.69,240.52,7.94;6,317.96,313.65,117.03,7.94">The top five largest individual jobs (in terms of CPU cores) used between 2100 and 7200 cores which still fit within one rack on Anvil.</s><s xml:id="_9vZUnNw" coords="6,437.12,313.65,121.09,7.94;6,317.96,324.61,68.00,7.94">A majority of GPU jobs requested either 1 or 4 GPUs.</s><s xml:id="_pggfkMW" coords="6,388.15,324.61,170.06,7.94;6,317.96,335.56,240.25,7.94;6,317.96,346.52,83.88,7.94">System utilization saw a steady increase during the two month EUP period, peaking at nearly 45% in the second half of December 2021.</s></p></div></figDesc><table coords="6,317.69,134.37,240.75,97.24"><row><cell>The early users include a diverse group, representing researchers</cell></row><row><cell>from 22 institutions, 17 fields of science, including 31% who have</cell></row><row><cell>not had XSEDE allocations previously. The first cohort of early</cell></row><row><cell>users started using Anvil on 10/31/21 and the formal EUP was</cell></row><row><cell>concluded on 12/31/21. Nearly 60% of the user groups requested</cell></row><row><cell>CPU resources alone, while the rest requested a mix of CPU and</cell></row><row><cell>GPU resources.</cell></row><row><cell>6.1 System Usage during EUP</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_cRejZgh">ACKNOWLEDGMENTS</head><p xml:id="_MpyvvrA">This material is based upon work supported by the <rs type="funder">National Science Foundation</rs> under Grant No. (<rs type="grantNumber">OAC-2005632</rs>) .The authors wish to thank our early users for sharing their science accomplishments with the Anvil team and approving their inclusion in this paper; and <rs type="person">Alexander Younts</rs> for his work during the design and acquisition of Anvil.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_FGbmFY8">
+					<idno type="grant-number">OAC-2005632</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="8,333.39,551.36,225.99,6.18;8,333.39,559.28,224.81,6.23;8,333.39,567.25,211.82,6.23" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="8,489.11,551.36,70.27,6.18;8,333.39,559.33,128.16,6.18" xml:id="_jx6z8ne">Advancing the representation of women in HPC at purdue university</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>G K Andino</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Brazil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Gribskov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3093338.3104175</idno>
+		<ptr target="https://doi.org/10.1145/3093338.3104175" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_TwVtscf" coord="8,473.67,559.28,84.54,6.23;8,333.39,567.25,91.44,6.23">ACM International Conference Proceeding Series, Vol. Part F1287</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G K Andino, M Brazil, M Gribskov, and P Smith. 2017. Advancing the represen- tation of women in HPC at purdue university. In ACM International Conference Proceeding Series, Vol. Part F1287. https://doi.org/10.1145/3093338.3104175</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,575.27,224.81,6.18;8,333.39,583.24,225.99,6.18;8,333.39,591.16,224.81,6.23;8,333.39,599.13,74.54,6.23" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="8,417.16,583.24,142.22,6.18;8,333.39,591.21,44.09,6.18" xml:id="_Yz3Zzku">Scholar: a campus HPC resource to enable computational literacy</title>
+		<author>
+			<persName coords=""><forename type="first">Xiao</forename><surname>Michael E Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Preston</forename><forename type="middle">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stephen</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Lien</forename><surname>Harrell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robert</forename><surname>Skeel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Amiya</forename><surname>Maji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qJqgDjx" coord="8,389.42,591.16,123.39,6.23">Education for High-Performance Computing</title>
+		<imprint>
+			<date type="published" when="2016">2016. 2016</date>
+			<biblScope unit="page" from="25" to="31" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Michael E Baldwin, Xiao Zhu, Preston M Smith, Stephen Lien Harrell, Robert Skeel, and Amiya Maji. 2016. Scholar: a campus HPC resource to enable compu- tational literacy. In Education for High-Performance Computing (EduHPC), 2016 Workshop on. IEEE, 25-31.</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,607.15,225.88,6.18;8,333.39,615.07,225.63,6.23;8,333.17,623.09,97.00,6.18" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_8CXywmH">Borg, Omega, and Kubernetes</title>
+		<author>
+			<persName coords=""><forename type="first">Brendan</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brian</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Oppenheimer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><surname>Brewer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Wilkes</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2898442.2898444</idno>
+		<ptr target="https://doi.org/10.1145/2898442.2898444" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YrvARng" coord="8,370.76,615.07,94.63,6.23">Queue</title>
+		<title level="j" type="abbrev">Queue</title>
+		<idno type="ISSN">1542-7730</idno>
+		<idno type="ISSNe">1542-7749</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="70" to="93" />
+			<date type="published" when="2016-01">2016. jan 2016</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+			<pubPlace>Borg</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brendan Burns, Brian Grant, David Oppenheimer, Eric Brewer, and John Wilkes. 2016. Borg, Omega, and Kubernetes. Queue 14, 1 (jan 2016), 70-93. https: //doi.org/10.1145/2898442.2898444</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,631.06,51.80,6.18" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" xml:id="_KzpPxkh">AB</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">B</forename><surname>Cendio</surname></persName>
+		</author>
+		<idno type="DOI">10.5040/9781350981454</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<publisher>Human Kinetics</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cendio AB. [n.d.].</note>
+</biblStruct>
+
+<biblStruct coords="8,387.71,631.06,170.49,6.18;8,333.39,639.03,202.92,6.18" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="8,387.71,631.06,170.49,6.18;8,333.39,639.03,27.52,6.18" xml:id="_pJRmBCq">Transformation of X-ray Server from a set of WWW-accessed programs into WWW-based library for remote calls from X-ray data analysis software</title>
+		<author>
+			<persName><forename type="first">Sergey</forename><surname>Stepanov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tsf.2006.12.011</idno>
+		<ptr target="https://www.cendio.com/thinlinc/what-is-thinlinc" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HQVA5F7">Thin Solid Films</title>
+		<title level="j" type="abbrev">Thin Solid Films</title>
+		<idno type="ISSN">0040-6090</idno>
+		<imprint>
+			<biblScope unit="volume">515</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="5700" to="5703" />
+			<date type="published" when="2007-05" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ThinLinc -a remote desktop server from Cendio | ThinLinc by Cendio. ([n. d.]). https://www.cendio.com/thinlinc/what-is-thinlinc</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,647.00,225.88,6.18;8,333.18,654.97,170.49,6.18" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_anN5vDk">BioContainers on Purdue Clusters</title>
+		<author>
+			<persName><forename type="first">Yucheng</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lev</forename><surname>Gorenstein</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3491418.3535152</idno>
+		<ptr target="https://www.rcac.purdue.edu/compute/workbench" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_TzYbTtJ" coord="8,433.84,647.00,122.06,6.18">Practice and Experience in Advanced Research Computing</title>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2022-07-08" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Purdue Research Computing. [n.d.]. ITaP Research Computing -Data Workbench. ([n. d.]). https://www.rcac.purdue.edu/compute/workbench</note>
+</biblStruct>
+
+<biblStruct coords="8,333.39,662.94,224.99,6.18;8,333.39,670.91,225.99,6.18;8,333.39,678.88,225.99,6.18;8,333.39,686.85,224.81,6.18;8,333.39,694.82,225.99,6.18;8,333.39,702.79,225.88,6.18;9,69.23,89.05,141.22,6.23;9,226.96,89.10,67.53,6.18;9,69.23,97.07,225.99,6.18;9,69.23,105.04,102.19,6.18" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="8,483.17,694.82,76.21,6.18;8,333.39,702.79,222.97,6.18" xml:id="_7vEYjWV">BioContainers: an opensource and community-driven framework for software standardization</title>
+		<author>
+			<persName coords=""><forename type="first">Felipe</forename><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Veiga</forename><surname>Leprevost</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Björn</forename><forename type="middle">A</forename><surname>Grüning</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Saulo</forename><surname>Alves Aflitos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Hannes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Julian</forename><surname>Röst</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Harald</forename><surname>Uszkoreit</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marc</forename><surname>Barsnes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Pablo</forename><surname>Vaudel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Laurent</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jonas</forename><surname>Gatto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Mingze</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Rafael</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Timo</forename><surname>Jimenez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Julianus</forename><surname>Sachsenberg</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Roberto</forename><surname>Pfeuffer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Johannes</forename><surname>Vera Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexey</forename><forename type="middle">I</forename><surname>Griss</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yasset</forename><surname>Nesvizhskii</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Perez-Riverol</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btx192</idno>
+		<ptr target="https://academic.oup.com/bioinformatics/article-pdf/33/16/2580/25163480/btx192.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_7tWpZfd" coord="9,69.23,89.05,41.16,6.23">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="2580" to="2582" />
+			<date type="published" when="2017-03">2017. 03 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Felipe da Veiga Leprevost, Björn A Grüning, Saulo Alves Aflitos, Hannes L Röst, Julian Uszkoreit, Harald Barsnes, Marc Vaudel, Pablo Moreno, Lau- rent Gatto, Jonas Weber, Mingze Bai, Rafael C Jimenez, Timo Sachsen- berg, Julianus Pfeuffer, Roberto Vera Alvarez, Johannes Griss, Alexey I Nesvizhskii, and Yasset Perez-Riverol. 2017. BioContainers: an open- source and community-driven framework for software standardization. Bioinformatics 33, 16 (03 2017), 2580-2582. https://doi.org/10.1093/ bioinformatics/btx192 arXiv:https://academic.oup.com/bioinformatics/article- pdf/33/16/2580/25163480/btx192.pdf</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,113.01,224.81,6.18;9,69.23,120.98,225.88,6.18;9,69.23,128.90,225.57,6.23;9,69.23,136.87,225.58,6.23;9,69.23,144.89,149.57,6.18" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="9,215.22,120.98,76.67,6.18" xml:id="_DSYd9Wf">The Spack package manager</title>
+		<author>
+			<persName coords=""><forename type="first">Todd</forename><surname>Gamblin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Matthew</forename><surname>Legendre</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><forename type="middle">R</forename><surname>Collette</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gregory</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Adam</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bronis</forename><forename type="middle">R</forename><surname>De Supinski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><surname>Futral</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2807591.2807623</idno>
+		<ptr target="https://doi.org/10.1145/2807591.2807623" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_EVfeVDK" coord="9,76.91,128.90,217.90,6.23;9,69.23,136.87,124.87,6.23">Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis</title>
+		<meeting>the International Conference for High Performance Computing, Networking, Storage and Analysis<address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2015-11-15">2015</date>
+			<biblScope unit="page" from="1" to="12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Todd Gamblin, Matthew LeGendre, Michael R. Collette, Gregory L. Lee, Adam Moody, Bronis R. de Supinski, and Scott Futral. 2015. The Spack package manager. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis on -SC &apos;15. ACM Press, New York, New York, USA, 1-12. https://doi.org/10.1145/2807591.2807623</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,152.86,224.81,6.18;9,69.23,160.83,225.26,6.18;9,69.23,168.80,47.66,6.18" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" xml:id="_YRU2Hjw">More Exploration to Composable Infrastructure: The Application and Analysis of Composable Memory</title>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Gough</surname></persName>
+		</author>
+		<idno type="DOI">10.22360/springsim.2019.hpc.005</idno>
+		<ptr target="https://www.rcac.purdue.edu/training/anvilcomposable" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_d8ygeXB" coord="9,124.05,152.86,170.00,6.18;9,69.23,160.83,104.69,6.18">High Performance Computing (HPC 2019)</title>
+		<imprint>
+			<publisher>Society for Modeling and Simulation International (SCS)</publisher>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erik Gough. [n.d.]. ITaP Research Computing -Interactive Scientific Computing on the Anvil Composable Subsystem. https://www.rcac.purdue.edu/training/ anvilcomposable</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,176.77,225.99,6.18;9,69.23,184.74,225.88,6.18;9,69.23,192.71,117.89,6.18" xml:id="b9">
+	<monogr>
+		<title level="m" type="main" coord="9,257.84,176.77,37.38,6.18;9,69.23,184.74,186.97,6.18" xml:id="_K85S7KU">Enabling Research and Education through the Geddes Composable Platform</title>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Gough</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sam</forename><surname>Weekly</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brian</forename><surname>Werts</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Preston</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/ZENODO.5796289</idno>
+		<ptr target="https://doi.org/10.5281/ZENODO.5796289" />
+		<imprint>
+			<date type="published" when="2021-11">2021. nov 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erik Gough, Sam Weekly, Brian Werts, and Preston Smith. 2021. Enabling Re- search and Education through the Geddes Composable Platform. (nov 2021). https://doi.org/10.5281/ZENODO.5796289</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,200.68,224.95,6.18;9,69.23,208.65,224.81,6.18;9,69.23,216.57,224.81,6.23;9,69.23,224.54,32.46,6.23" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="9,250.05,200.68,44.13,6.18;9,69.23,208.65,213.48,6.18" xml:id="_S66nGAT">Student cluster competition</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">Lien</forename><surname>Harrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hai</forename><forename type="middle">Ah</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Verónica</forename><forename type="middle">G Vergara</forename><surname>Larrea</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Kurt</forename><surname>Keville</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dan</forename><surname>Kamalic</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2831425.2831428</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qJf9SDV" coord="9,69.23,216.57,224.81,6.23;9,69.23,224.54,29.21,6.23">Proceedings of the Workshop on Education for High-Performance Computing</title>
+		<meeting>the Workshop on Education for High-Performance Computing</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2015-11-15">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S Harrell, H A Nam, V Vergara, K Keville, and D Kamalic. 2015. Student Cluster Competition: A Multi-disciplinary Undergraduate HPC Educational Tool. In EduHPC &apos;15 Proceedings of the Workshop on Education for High-Performance Computing.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,232.56,225.58,6.18;9,69.23,240.53,224.81,6.18;9,69.23,248.45,224.81,6.23;9,69.23,256.42,225.58,6.23;9,69.23,264.44,146.33,6.18" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="9,217.26,240.53,76.79,6.18;9,69.23,248.50,80.20,6.18" xml:id="_Ybu6GVq">Mentoring Undergraduates into Cyber-Facilitator Roles</title>
+		<author>
+			<persName coords=""><forename type="first">Lien</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Marisa</forename><surname>Harrell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alex</forename><surname>Brazil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><forename type="middle">T</forename><surname>Younts</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Preston</forename><surname>Dietz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Erik</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiao</forename><surname>Gough</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Gladys</forename><forename type="middle">K</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Andino</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3219104.3219138</idno>
+		<ptr target="https://doi.org/10.1145/3219104.3219138" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_5v7mRxH" coord="9,163.03,248.45,131.02,6.23;9,69.23,256.42,123.17,6.23">Proceedings of the Practice and Experience on Advanced Research Computing -PEARC &apos;18</title>
+		<meeting>the Practice and Experience on Advanced Research Computing -PEARC &apos;18<address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stephen Lien Harrell, Marisa Brazil, Alex Younts, Daniel T. Dietz, Preston Smith, Erik Gough, Xiao Zhu, and Gladys K. Andino. 2018. Mentoring Undergraduates into Cyber-Facilitator Roles. In Proceedings of the Practice and Experience on Advanced Research Computing -PEARC &apos;18. ACM Press, New York, New York, USA, 1-7. https://doi.org/10.1145/3219104.3219138</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,272.41,224.99,6.18;9,69.23,280.38,224.81,6.18;9,69.23,288.35,225.89,6.18;9,69.23,296.32,98.05,6.18" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="9,200.43,280.38,93.61,6.18;9,69.23,288.35,110.04,6.18" xml:id="_bdu7jTN">Open OnDemand: A web-based client portal for HPC centers</title>
+		<author>
+			<persName coords=""><forename type="first">Dave</forename><surname>Hudak</surname></persName>
+			<idno type="ORCID">0000-0002-9043-0850</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Doug</forename><surname>Johnson</surname></persName>
+			<idno type="ORCID">0000-0002-4331-8508</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alan</forename><surname>Chalker</surname></persName>
+			<idno type="ORCID">0000-0002-5475-8779</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jeremy</forename><surname>Nicklas</surname></persName>
+			<idno type="ORCID">0000-0003-3208-7588</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Eric</forename><surname>Franz</surname></persName>
+			<idno type="ORCID">0000-0002-9662-412X</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Trey</forename><surname>Dockendorf</surname></persName>
+			<idno type="ORCID">0000-0002-5494-0968</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Brian</forename><forename type="middle">L</forename><surname>Mcmichael</surname></persName>
+			<idno type="ORCID">0000-0001-7455-6691</idno>
+		</author>
+		<idno type="DOI">10.21105/joss.00622</idno>
+		<ptr target="https://doi.org/10.21105/joss.00622" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Hb7TYCG" coord="9,185.22,288.35,85.49,6.18">Journal of Open Source Software</title>
+		<title level="j" type="abbrev">JOSS</title>
+		<idno type="ISSNe">2475-9066</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page">622</biblScope>
+			<date type="published" when="2018-05-15">2018. 2018</date>
+			<publisher>The Open Journal</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dave Hudak, Doug Johnson, Alan Chalker, Jeremy Nicklas, Eric Franz, Trey Dockendorf, and Brian L Mcmichael. 2018. Open OnDemand: A web-based client portal for HPC centers Software • Review • Repository • Archive. (2018). https://doi.org/10.21105/joss.00622</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,89.10,225.88,6.18;9,333.39,97.07,153.23,6.18" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_VEY2dZA">Figure 1: Architecture of an Nvidia GPU.</title>
+		<author>
+			<persName coords=""><surname>Nvidia</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj-cs.185/fig-1</idno>
+		<ptr target="https://docs.nvidia.com/ngc/ngc-overview/index.html" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_7pEB92J" coord="9,379.41,89.10,151.96,6.18">NGC Overview :: NVIDIA GPU Cloud Documentation</title>
+		<imprint>
+			<publisher>PeerJ</publisher>
+			<date>null</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">NVIDIA. [n.d.]. NGC Overview :: NVIDIA GPU Cloud Documentation. ([n. d.]). https://docs.nvidia.com/ngc/ngc-overview/index.html</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,105.04,225.88,6.18;9,333.39,113.01,14.26,6.18" xml:id="b14">
+	<monogr>
+		<author>
+			<persName coords=""><surname>Rancher</surname></persName>
+		</author>
+		<ptr target="https://rancher.com/" />
+		<title level="m" xml:id="_acwaVSV" coord="9,378.93,105.04,128.64,6.18">Enterprise Kubernetes Management | Rancher</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Rancher. [n.d.]. Enterprise Kubernetes Management | Rancher. https://rancher. com/</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,120.98,224.94,6.18;9,333.39,128.95,224.81,6.18" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" xml:id="_w597tfS">NIOSH extramural research and training program: annual report of fiscal year 2020.</title>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Towns</surname></persName>
+		</author>
+		<idno type="DOI">10.26616/nioshpub2022120</idno>
+		<ptr target="https://www.ideals.illinois.edu/handle/2142/107285" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_QnAhC8M" coord="9,385.91,120.98,172.43,6.18;9,333.39,128.95,40.66,6.18">XSEDE Annual Report for Report Year 4 and Program Plan for Project Year 10</title>
+		<imprint>
+			<publisher>U.S. Department of Health and Human Services, Public Health Service, Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health</publisher>
+			<date type="published" when="2020-05">2020. may 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">John Towns. 2020. XSEDE Annual Report for Report Year 4 and Program Plan for Project Year 10. (may 2020). https://www.ideals.illinois.edu/handle/2142/107285</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,136.92,225.58,6.18;9,333.39,144.89,225.88,6.18;9,333.16,152.81,225.04,6.23;9,333.23,160.83,179.51,6.18" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" xml:id="_nw9pGWU">XSEDE: Accelerating Scientific Discovery</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Towns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><surname>Cockerill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maytal</forename><surname>Dahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ian</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kelly</forename><surname>Gaither</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Grimshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Victor</forename><surname>Hazlewood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><surname>Lathrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dave</forename><surname>Lifka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">D</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ralph</forename><surname>Roskies</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">Ray</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nancy</forename><surname>Wilkins-Diehr</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/mcse.2014.80</idno>
+		<ptr target="https://doi.org/10.1109/MCSE.2014.80" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fpbMXyR" coord="9,333.16,152.81,225.04,6.23">Computing in Science &amp; Engineering</title>
+		<title level="j" type="abbrev">Comput. Sci. Eng.</title>
+		<idno type="ISSN">1521-9615</idno>
+		<idno type="ISSNe">1558-366X</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="62" to="74" />
+			<date type="published" when="2014-09">2014. sep 2014</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Towns, T. Cockerill, M. Dahan, I. Foster, K. Gaither, A. Grimshaw, V. Hazlewood, S. Lathrop, D. Lifka, G. D. Peterson, R. Roskies, J. Scott, and N. Wilkins-Diehr. 2014. XSEDE: Accelerating Scientific Discovery. Computing in Science &amp; Engineering 16, 05 (sep 2014), 62-74. https://doi.org/10.1109/MCSE.2014.80</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,168.80,224.81,6.18;9,333.39,176.72,225.25,6.23;9,333.18,184.74,207.32,6.18" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="9,477.58,168.80,80.62,6.18;9,333.39,176.77,48.67,6.18" xml:id="_XTD6sxz">Rapid Prototype for Shifting HPC to the Cloud</title>
+		<author>
+			<persName coords=""><forename type="first">Sam</forename><surname>Weekly</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Zoey</forename><surname>Mertes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alex</forename><surname>Younts</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/escience51609.2021.00051</idno>
+		<ptr target="https://doi.org/10.1109/ESCIENCE51609.2021.00051" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_76rhxks" coord="9,401.75,176.72,156.89,6.23">2021 IEEE 17th International Conference on eScience (eScience)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2021-09">2021. 2021. sep 2021</date>
+			<biblScope unit="page" from="262" to="263" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sam Weekly, Zoey Mertes, and Alex Younts. 2021. Rapid Prototype for Shifting HPC to the Cloud. 2021 IEEE 17th International Conference on eScience (eScience) (sep 2021), 262-263. https://doi.org/10.1109/ESCIENCE51609.2021.00051</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,192.71,224.81,6.18;9,333.39,200.68,224.81,6.18;9,333.39,208.60,224.81,6.23;9,332.97,216.57,134.42,6.23" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="9,379.71,200.68,167.91,6.18" xml:id="_4HsZNqt">Ceph: A Scalable, High-Performance Distributed File System</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Sage</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Scott</forename><forename type="middle">A</forename><surname>Weil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ethan</forename><forename type="middle">L</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Darrell D E</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Carlos</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Maltzahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_c4ekJF4" coord="9,333.39,208.60,224.81,6.23;9,332.97,216.57,27.73,6.23">Proceedings of the 7th Symposium on Operating Systems Design and Implementation (OSDI &apos;06)</title>
+		<meeting>the 7th Symposium on Operating Systems Design and Implementation (OSDI &apos;06)</meeting>
+		<imprint>
+			<publisher>USENIX Association, USA</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="307" to="320" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sage A Weil, Scott A Brandt, Ethan L Miller, Darrell D E Long, and Carlos Maltzahn. 2006. Ceph: A Scalable, High-Performance Distributed File System. In Proceedings of the 7th Symposium on Operating Systems Design and Implementation (OSDI &apos;06). USENIX Association, USA, 307-320.</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,224.59,156.12,6.18;9,506.83,224.59,52.55,6.18;9,333.39,232.56,143.08,6.18;9,501.53,232.51,57.44,6.23;9,333.39,240.53,87.11,6.18;9,446.72,240.53,111.93,6.18;9,333.39,248.50,21.97,6.18;9,400.03,248.50,159.35,6.18;9,333.39,256.47,101.70,6.18" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="9,506.83,224.59,52.55,6.18;9,333.39,232.56,139.98,6.18" xml:id="_e3hvEWn">Performance optimization in DNA short-read alignment</title>
+		<author>
+			<persName coords=""><forename type="first">Richard</forename><surname>Wilton</surname></persName>
+			<idno type="ORCID">0000-0003-1263-5532</idno>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alexander</forename><forename type="middle">S</forename><surname>Szalay</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btac066</idno>
+		<ptr target="https://academic.oup.com/bioinformatics/article-pdf/38/8/2081/43369967/btac066.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GUZfPnp" coord="9,501.53,232.51,41.16,6.23">Bioinformatics</title>
+		<idno type="ISSN">1367-4803</idno>
+		<idno type="ISSNe">1367-4811</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2081" to="2087" />
+			<date type="published" when="2022-02-09">2022. 02 2022</date>
+			<publisher>Oxford University Press (OUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richard Wilton and Alexander S Szalay. 2022. Performance op- timization in DNA short-read alignment. Bioinformatics 38, 8 (02 2022), 2081-2087. https://doi.org/10.1093/bioinformatics/ btac066 arXiv:https://academic.oup.com/bioinformatics/article- pdf/38/8/2081/43369967/btac066.pdf</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,264.44,225.58,6.18;9,333.39,272.41,225.99,6.18;9,333.39,280.38,224.81,6.18;9,333.39,288.30,224.81,6.23;9,333.39,296.32,225.88,6.18;9,333.39,304.29,22.70,6.18" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="9,519.84,272.41,39.54,6.18;9,333.39,280.38,214.11,6.18" xml:id="_z7cHzKC">Defining Performance of Scientific Application Workloads on the AMD Milan Platform</title>
+		<author>
+			<persName coords=""><forename type="first">Tsai-Wei</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Lien Harrell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Geoffrey</forename><surname>Lentner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Alex</forename><surname>Younts</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sam</forename><surname>Weekly</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Zoey</forename><surname>Mertes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Amiya</forename><surname>Maji</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Preston</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiao</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3437359.3465596</idno>
+		<ptr target="https://doi.org/10.1145/3437359.3465596" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_9wjdZaR" coord="9,333.39,288.30,188.58,6.23">Practice and Experience in Advanced Research Computing</title>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2021-07-17">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsai-Wei Wu, Stephen Lien Harrell, Geoffrey Lentner, Alex Younts, Sam Weekly, Zoey Mertes, Amiya Maji, Preston Smith, and Xiao Zhu. 2021. Defining Per- formance of Scientific Application Workloads on the AMD Milan Platform. In Practice and Experience in Advanced Research Computing (PEARC &apos;21). Association for Computing Machinery, New York, NY, USA. https://doi.org/10.1145/3437359. 3465596</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

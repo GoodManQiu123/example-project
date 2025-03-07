@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_Q5TBjSK" coord="1,111.49,100.77,397.07,14.49">The Use of Harry Potter and Fairytales in Narrative Therapy</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,274.63,137.59,69.94,10.96"><forename type="first">Laura</forename><surname>Oldford</surname></persName>
+						</author>
+						<title level="a" type="main" xml:id="_zznsevD" coord="1,111.49,100.77,397.07,14.49">The Use of Harry Potter and Fairytales in Narrative Therapy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4F7D6A6AD4E0082AE6FC6F3C51DB6A6F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_u9CHgXV">Fairytales</term>
+					<term xml:id="_8pHE5Ry">narrative therapy</term>
+					<term xml:id="_DTbCwQR">psychoanalysis</term>
+					<term xml:id="_hNbNPBf">Harry Potter</term>
+					<term xml:id="_QFXCjFW">children&apos;s literature</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_gtKhv8C"><p xml:id="_y6RpgXD"><s xml:id="_SH7mFdt" coords="1,141.77,171.19,379.52,10.96">is a recreation therapist who is currently living in Fredericton, New Brunswick.</s><s xml:id="_AjqaVJb" coords="1,71.79,187.99,468.22,10.96;1,71.79,205.03,313.01,10.96">Laura is a certified therapeutic recreation specialist who graduated from Memorial University of Newfoundland in 2008 with a Bachelor of Recreation (Honours).</s><s xml:id="_DKPzcCn" coords="1,384.81,205.03,158.85,10.96;1,71.79,221.83,230.39,10.96">Laura currently works in tertiary neurological rehabilitation and long--term care.</s><s xml:id="_rPnbNBA" coords="1,302.18,221.83,236.71,10.96;1,71.79,238.63,273.16,10.96">She is passionate about delivering individualized care focused on providing quality of life through leisure.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_8nEhbTD">Introduction</head><p xml:id="_jWcf748"><s xml:id="_hS2sYr9" coords="1,71.88,513.91,461.05,10.96;1,71.88,530.71,227.73,10.96">The post--modernist era of psychotherapy is trying to capitalize on the therapeutic potential of fairytales within the field of narrative therapy.</s><s xml:id="_58RZvqw" coords="1,299.61,530.71,209.74,10.96;1,71.88,547.75,441.90,10.96;1,71.88,564.55,435.97,10.96">Narrative therapy focuses on the power of communication through storytelling <ref type="bibr" coords="1,250.14,547.75,107.24,10.96" target="#b10">(Noble &amp; Jones, 2005)</ref>, helping a person tell her or his personal story and then devise and live a more positive life <ref type="bibr" coords="1,361.20,564.55,141.03,10.96" target="#b0">(Biggs &amp; Hinton--Bayre, 2008)</ref>.</s><s xml:id="_Pysvude" coords="1,71.88,581.35,466.22,10.96;1,71.88,598.15,426.50,10.96">Fairytales are sometimes used as a literary tool within narrative therapy to allow a person to fit story themes to personal experiences to increase one's understanding <ref type="bibr" coords="1,416.72,598.15,76.05,10.96">(Howard, 2001)</ref>.</s></p><p xml:id="_KAHwRZq"><s xml:id="_EAaeJ2d" coords="1,107.88,614.95,430.59,10.96;1,71.88,631.75,434.57,10.96">According to Freedman and Combs, focusing on "the meaning of that story helps assure that the story is an experience that matters" (as cited in <ref type="bibr" coords="1,346.57,631.75,154.35,10.96">Kondrat &amp; Teater, 2009, p. 301)</ref>.</s><s xml:id="_7PB8bMs" coords="1,71.88,648.79,422.16,10.96;1,71.88,665.59,445.53,10.96;1,71.88,682.39,127.92,10.96">Through fantastical literature, such as the popular Harry Potter series <ref type="bibr" coords="1,412.15,648.79,76.29,10.96">(Rowling, 2003)</ref>, individuals requiring clinical narrative therapy can begin to recognize themes and integrate them into their own lives.</s><s xml:id="_wq7egYb" coords="2,107.88,75.67,392.65,10.96;2,71.88,92.47,190.04,10.96">This paper examines the use of fairytales, specifically the Harry Potter tales, as a valuable tool within narrative therapy.</s><s xml:id="_zZV7mMA" coords="2,261.92,92.47,253.08,10.96;2,71.88,109.27,208.56,10.96">The first section begins by providing an overview of narrative therapy and the main processes.</s><s xml:id="_NekM9ZN" coords="2,280.44,109.27,233.89,10.96;2,71.88,126.31,182.77,10.96">Second, research on the use of fairytales within narrative therapy will be highlighted.</s><s xml:id="_Hqc2NdM" coords="2,254.65,126.31,280.34,10.96;2,71.88,143.11,198.44,10.96">The final section explores the use of the fantastical Harry Potter series as a narrative therapy tool.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_3qyV2MC">Narrative Therapy</head><p xml:id="_ra3hurT"><s xml:id="_EXe3GG6" coords="2,107.88,193.49,423.83,10.98;2,71.88,210.55,469.41,10.96;2,71.88,227.35,433.69,10.96;2,71.88,244.15,212.57,10.96">Basic concepts: The concept of narrative therapy began with theorists such as Jerome Bruner <ref type="bibr" coords="2,108.07,210.55,31.98,10.96">(1986)</ref>, who focused on the idea that human beings need to have a meaning attached to their lives, and through narratives this meaning can be built, developed, and modified as necessary (in <ref type="bibr" coords="2,138.07,244.15,140.76,10.96" target="#b9">Machato &amp; Goncalves, 1999)</ref>.</s><s xml:id="_GnHkXPn" coords="2,284.45,244.15,254.66,10.96;2,71.88,260.95,417.12,10.96;2,71.88,277.75,395.09,10.96"><ref type="bibr" coords="2,284.45,244.15,66.75,10.96">White (2000)</ref> added to the above idea, emphasizing that individuals make sense of their lives through both the cultural narratives of their environment and the personal narrative they create (in <ref type="bibr" coords="2,343.40,277.75,117.95,10.96" target="#b7">Leahy &amp; Harrigan, 2006)</ref>.</s></p><p xml:id="_CsZAxEa"><s xml:id="_nAVPYF8" coords="2,107.88,294.55,427.82,10.96;2,71.88,311.59,432.72,10.96">White and Epstein took these ideas and developed concrete guidelines for therapists in 1990, consequently developing a narrative approach model <ref type="bibr" coords="2,364.43,311.59,134.54,10.96">(Gutterman &amp; Rudes, 2005)</ref>.</s><s xml:id="_Bz6A2pQ" coords="2,504.60,311.59,26.27,10.96;2,71.88,328.39,466.14,10.96;2,71.88,345.19,465.65,10.96;2,71.88,361.99,318.50,10.96">They suggest that their model empowers individuals to move from a uni--directional, blaming view of their lives to a fuller vision of both the future and alternatives to their situation, and thereby to create greater control in their lives <ref type="bibr" coords="2,243.73,361.99,141.03,10.96" target="#b0">(Biggs &amp; Hinton--Bayre, 2008)</ref>.</s></p><p xml:id="_bsXCpRW"><s xml:id="_M5CSqt4" coords="2,107.88,378.79,430.93,10.96;2,71.88,395.83,355.66,10.96">The central focus of the narrative therapy model is that the past is not seen as fixed and irreversible, but is based on the individual's interpretation of the events.</s><s xml:id="_nyZyEcX" coords="2,427.54,395.83,104.04,10.96;2,71.88,412.63,468.42,10.96;2,71.88,429.43,377.24,10.96">This interpretation is based on the fact that individuals understand their lives through sequencing experiences across timelines to build an account of what has occurred <ref type="bibr" coords="2,321.60,429.43,116.29,10.96" target="#b6">(Kondrat &amp; Teater, 2009</ref>).</s><s xml:id="_uXHunTY" coords="2,451.84,429.43,73.76,10.96;2,71.88,446.23,448.81,10.96;2,71.88,463.03,80.87,10.96">An individual's interpretation of her or his life is known in the narrative therapy world as her or his story or "self--narrative."</s></p><p xml:id="_mnmzKvC"><s xml:id="_XVKSEAT" coords="2,107.88,480.07,431.70,10.96;2,71.88,496.87,199.83,10.96">Growing from the concept of self--narrative is the main vehicle for narrative therapy, the art of storytelling <ref type="bibr" coords="2,158.82,496.87,107.27,10.96" target="#b10">(Noble &amp; Jones, 2005)</ref>.</s><s xml:id="_4M3HKMV" coords="2,271.71,496.87,260.00,10.96;2,71.88,513.67,241.26,10.96">According to <ref type="bibr" coords="2,336.10,496.87,148.47,10.96" target="#b0">Biggs and Hinton--Bayre (2008)</ref>, through storytelling individuals can reinterpret their past.</s><s xml:id="_JquFtqG" coords="2,313.14,513.67,216.23,10.96;2,71.88,530.47,446.91,10.96;2,71.88,547.27,201.76,10.96">Kondrat and Teater also assert that through "re--authoring" their personal narratives, individuals can rework their narratives to examine their lives in a more positive light <ref type="bibr" coords="2,236.30,547.27,32.01,10.96">(2009)</ref>.</s></p><p xml:id="_udhkuwc"><s xml:id="_qqHz6zB" coords="2,107.88,564.31,415.24,10.96;2,71.88,581.11,302.28,10.96">From a clinical perspective, <ref type="bibr" coords="2,242.97,564.31,68.53,10.96" target="#b4">Hogan (1999)</ref> asserts that the personal narratives people live by are essential components of mental health and illness.</s><s xml:id="_zuuGd7u" coords="2,374.16,581.11,166.04,10.96;2,71.88,597.91,463.25,10.96;2,71.88,614.71,470.34,10.96;2,71.88,631.51,33.71,10.96">Consequently, the main objective of narrative therapy in a clinical context can be seen as transforming a disabling and restrictive narrative into an integrated narrative full of hope and possibilities <ref type="bibr" coords="2,395.57,614.71,71.10,10.96" target="#b4">(Hogan, 1999;</ref><ref type="bibr" coords="2,466.67,614.71,75.54,10.96;2,71.88,631.51,28.09,10.96" target="#b10">Noble &amp; Jones, 2005)</ref>.</s><s xml:id="_M2EwFhY" coords="2,105.59,631.51,423.21,10.96;2,71.88,648.31,463.76,10.96;2,71.88,665.35,394.26,10.96"><ref type="bibr" coords="2,105.59,631.51,124.73,10.96" target="#b10">Noble and Jones's (2005)</ref> research also supports the above viewpoint, adding the view that persons with dementia are more likely to reach a stage of ego--integrity when they can tell their life story and attach positive meanings to it if they can be assisted to do so.</s></p><p xml:id="_EqkkgMY"><s xml:id="_SbnWhhU" coords="2,107.88,682.15,429.12,10.96;2,71.88,698.95,426.22,10.96;3,71.88,75.67,248.27,10.96">The field of psychotherapy was not only affected by the narrative therapy movement in the post modern era-it became the central medium for the "diffusion of the narrative metaphor" <ref type="bibr" coords="3,128.06,75.67,140.33,10.96" target="#b9">(Machato &amp; Goncalves, 1999</ref><ref type="bibr" coords="3,268.39,75.67,46.14,10.96">, p. 1175)</ref>.</s><s xml:id="_Vxt584y" coords="3,320.15,75.67,212.32,10.96;3,71.88,92.47,465.43,10.96;3,71.88,109.27,58.96,10.96">According to <ref type="bibr" coords="3,384.54,75.67,51.68,10.96" target="#b8">Lee (2004)</ref>, postmodern ideas have led to a greater recognition of the role of narrative in both human understanding and self-perception.</s><s xml:id="_DGDX4rm" coords="3,133.55,109.27,391.16,10.96;3,71.88,126.31,452.93,10.96;3,71.88,143.11,167.16,10.96">In the postmodern surge, a large percentage of psychoanalytic therapists began practicing narrative therapy, as they quickly realized that narrative therapy was at the actual core of their therapeutic practice.</s><s xml:id="_UNcqnkM" coords="3,239.04,143.11,298.62,10.96;3,71.88,159.91,452.66,10.96;3,71.88,176.71,174.23,10.96">Machato and Goncalves point out that humans use language and narratives in all activities; thus it makes perfect sense that psychologists use narrative in most areas of their practice <ref type="bibr" coords="3,208.77,176.71,32.01,10.96">(1999)</ref>.</s></p><p xml:id="_zg4uFDv"><s xml:id="_GdhPSKb" coords="3,107.88,210.53,394.93,10.98;3,71.88,227.35,417.00,10.96;3,71.88,244.15,444.36,10.96;3,71.88,260.95,33.71,10.96">Specific processes in narrative therapy: According to several theorists, narrative therapy is typically seen as having two main stages, the deconstruction stage and the reconstruction stage <ref type="bibr" coords="3,174.93,244.15,251.13,10.96" target="#b1">(Bohlmeijer, Westerhof, &amp; Emmerik--de Jong, 2008;</ref><ref type="bibr" coords="3,426.06,244.15,90.18,10.96;3,71.88,260.95,28.09,10.96" target="#b6">Kondrat &amp; Teater, 2009)</ref>.</s></p><p xml:id="_ADeAhCg"><s xml:id="_ZynsA4t" coords="3,107.88,277.75,307.79,10.96">The first process to be considered is the deconstruction phase.</s><s xml:id="_HtB9kEu" coords="3,415.67,277.75,109.51,10.96;3,71.88,294.55,436.26,10.96;3,71.88,311.59,127.53,10.96">During this phase, the primary objective is for the therapist to elicit the individual's "problem saturated stories" <ref type="bibr" coords="3,71.88,311.59,121.91,10.96" target="#b6">(Kondrat &amp; Teater, 2009)</ref>.</s><s xml:id="_NCY2jrQ" coords="3,199.41,311.59,330.87,10.96;3,71.88,328.39,428.03,10.96;3,71.88,345.19,368.40,10.96">"Problem saturated stories" is a narrative therapy term from White and Epston, defined as stories with a focus on negative memories, victimized plots, and depressing worldviews <ref type="bibr" coords="3,185.70,345.19,248.97,10.96" target="#b1">(Bohlmeijer, Westerhof, &amp; Emmerik--de Jong, 2008)</ref>.</s><s xml:id="_ufMh4Qm" coords="3,440.29,345.19,97.36,10.96;3,71.88,361.99,433.86,10.96;3,71.88,378.79,190.57,10.96"><ref type="bibr" coords="3,440.29,345.19,97.36,10.96;3,71.88,361.99,34.32,10.96" target="#b6">Kondrat and Teater (2009)</ref> assert that individuals experience problems of clinical significance when their self-narratives become problem saturated.</s></p><p xml:id="_BxRshrX"><s xml:id="_skwDaNX" coords="3,107.88,395.83,419.41,10.96;3,71.88,412.63,455.02,10.96;3,71.88,429.43,422.04,10.96">During the deconstruction phase, the narrative therapist prods as the individual's self-narrative emerges, in order to gain a full and complete understanding of the person's unique perceptions of her or his problems, life, and personal reality <ref type="bibr" coords="3,366.39,429.43,121.91,10.96" target="#b6">(Kondrat &amp; Teater, 2009)</ref>.</s><s xml:id="_9jDjzpP" coords="3,493.92,429.43,14.32,10.96;3,71.88,446.23,396.93,10.96">Of importance is the fact that the individual, not the therapist, defines the problem.</s><s xml:id="_Jt9q3Sz" coords="3,468.81,446.23,67.88,10.96;3,71.88,463.03,430.86,10.96;3,71.88,480.07,447.68,10.96;3,71.88,496.87,369.03,10.96">The narrative therapist's role in the deconstruction phase is to help individuals become aware of their cognitive processes while relaying their self--narratives <ref type="bibr" coords="3,338.51,480.07,121.88,10.96" target="#b6">(Kondrat &amp; Teater, 2009)</ref>, making no judgments until he or she has heard the entire story <ref type="bibr" coords="3,328.02,496.87,107.27,10.96" target="#b10">(Noble &amp; Jones, 2005)</ref>.</s></p><p xml:id="_kvsHDjn"><s xml:id="_eDemskd" coords="3,107.88,513.67,392.45,10.96;3,71.88,530.47,157.03,10.96">The second component in the deconstruction phase is the externalization of the problem <ref type="bibr" coords="3,116.02,530.47,107.27,10.96" target="#b10">(Noble &amp; Jones, 2005)</ref>.</s><s xml:id="_FkaaUv5" coords="3,231.63,530.47,309.58,10.96;3,71.88,547.27,231.18,10.96">In this phase the therapist works with the individual to assist in separating her or him from personal problems.</s><s xml:id="_hjy62TF" coords="3,303.06,547.27,220.75,10.96;3,71.88,564.31,445.28,10.96;3,71.88,581.11,259.26,10.96">This concept is explained succinctly by Noble and Jones, who state it is a process of "emphasizing the principle that the person is not the problem, the problem is the problem" (2005, p.332).</s><s xml:id="_4YcNf7j" coords="3,331.14,581.11,182.23,10.96;3,71.88,597.91,457.43,10.96;3,71.88,614.71,276.17,10.96">Through externalizing conversations, individuals can begin deconstructing their beliefs and assertions that are fuelling the problem itself, and examining how these beliefs affect their lives.</s><s xml:id="_FEUhntV" coords="3,348.05,614.71,158.37,10.96;3,71.88,631.51,464.31,10.96;3,71.88,648.31,270.57,10.96">This allows individuals to have a different perspective on the problem, which enables them to challenge their self--narrative and its respective "truths" <ref type="bibr" coords="3,181.42,648.31,155.41,10.96" target="#b15">(Weber, Davis, &amp; McPhie, 2006)</ref>.</s><s xml:id="_pY5kXwK" coords="3,342.45,648.31,180.79,10.96;3,71.88,665.35,438.25,10.96;3,71.88,682.15,461.31,10.96;3,71.88,698.95,86.87,10.96">For example, when adolescents with anorexia nervosa can externalize their problem, they are enabled to gain control over the problem to begin the healing process, rather than being immersed in the illness <ref type="bibr" coords="3,462.03,682.15,71.16,10.96;3,71.88,698.95,81.26,10.96" target="#b15">(Weber, Davis &amp; McPhie, 2006)</ref>.</s><s xml:id="_8MBKnAs" coords="3,161.47,698.95,365.91,10.96;4,71.88,75.67,428.73,10.96;4,71.88,92.47,445.26,10.96;4,71.88,109.27,35.67,10.96">This externalization through the narrative therapy process is done through the exploration of issues that may have played a role in constructing an individual's self-narrative, objectifying the power of the eating disorder and issues that have supported the illness.</s><s xml:id="_hrQ36Uy" coords="4,107.55,109.27,399.03,10.96;4,71.88,126.31,445.78,10.96;4,71.88,143.11,195.80,10.96">Consequently, through the identification of the issues, the individual can begin to separate herself or himself from the eating disorder and is ready to explore possibilities for change <ref type="bibr" coords="4,109.65,143.11,152.42,10.96" target="#b15">(Weber, Davis &amp; McPhie, 2006)</ref>.</s></p><p xml:id="_R8tkUfM"><s xml:id="_BFK5wxV" coords="4,107.88,159.91,428.78,10.96;4,71.88,176.71,468.83,10.96;4,71.88,193.51,447.75,10.96;4,71.88,210.55,33.67,10.96">Additionally, <ref type="bibr" coords="4,171.99,159.91,117.04,10.96" target="#b10">Noble and Jones (2005)</ref> mention that deconstructing and externalizing the problem challenge the meaning the individual gives to a problem, as well as allowing her or him to place the problem in the context of her or his whole life, as opposed to the present state solely.</s><s xml:id="_QxUdvxq" coords="4,105.55,210.55,434.22,10.96;4,71.88,227.35,332.94,10.96"><ref type="bibr" coords="4,105.55,210.55,150.81,10.96" target="#b0">Biggs and Hinton--Bayre (2008)</ref> assert that this shift into externalizing and deconstructing the problem facilitates the opportunity for the individual to change.</s></p><p xml:id="_nt7GVR2"><s xml:id="_pkWxGWv" coords="4,107.88,244.15,393.18,10.96;4,71.88,260.95,445.36,10.96">Once the individual has externalized the problem and is ready to view it from an objective perspective, the therapist begins the reconstructive process of narrative therapy.</s><s xml:id="_cU5qh4Y" coords="4,517.24,260.95,12.04,10.96;4,71.88,277.75,453.21,10.96;4,71.88,294.55,234.07,10.96">In this phase, the individual is encouraged by the therapist to explore stories that he or she has ignored or forgotten in his or her self--narrative.</s><s xml:id="_7a9pQqH" coords="4,305.95,294.55,198.98,10.96;4,71.88,311.59,428.43,10.96;4,71.88,328.39,363.07,10.96">These stories are known in the narrative therapy realm as "unique outcomes," defined by <ref type="bibr" coords="4,311.82,311.59,140.29,10.96" target="#b3">Guterman and Rudes (2005)</ref> as "those behaviours, thoughts, and feelings that contradict the dominant story" (p.</s><s xml:id="_rStZG25" coords="4,434.95,328.39,15.45,10.96">4).</s></p><p xml:id="_VPwA2aG"><s xml:id="_bxNaFAw" coords="4,107.88,345.19,429.99,10.96;4,71.88,361.99,264.18,10.96">The purpose of unique outcomes is to allow the individual to focus on exceptions to her or his identified problems <ref type="bibr" coords="4,199.92,361.99,130.52,10.96" target="#b3">(Guterman &amp; Rudes, 2005)</ref>.</s><s xml:id="_7kaUKFK" coords="4,336.06,361.99,183.41,10.96;4,71.88,378.79,421.27,10.96;4,71.88,395.83,50.07,10.96">Hogan (1999) explains this concept is through an examination of the dominant story line, also known as the individual's self-narrative.</s><s xml:id="_vM3a2AG" coords="4,121.95,395.83,399.08,10.96;4,71.88,412.63,347.65,10.96">Hogan asserts that when an individual's dominant story line becomes oppressive, other "faintly etched story lines may be more promising" <ref type="bibr" coords="4,352.27,412.63,61.87,10.96">(1999, p. 22)</ref>.</s><s xml:id="_VxxN9na" coords="4,422.24,412.63,98.63,10.96;4,71.88,429.43,243.22,10.96">Thus, looking at the faint etchings may permit a new story to emerge.</s></p><p xml:id="_NFaFCR8"><s xml:id="_f6VFm8Q" coords="4,107.88,446.23,405.51,10.96;4,71.88,463.03,458.59,10.96;4,71.88,480.07,77.17,10.96">For example, research by Biggs and Hinton--Bayre ( <ref type="formula" coords="4,355.36,446.23,22.88,10.96">2008</ref>) reveals one patient with a traumatic spinal cord injury who identified a problem of being unable to play football with his son any longer.</s><s xml:id="_x5Xnmtc" coords="4,149.05,480.07,382.22,10.96;4,71.88,496.87,458.08,10.96;4,71.88,513.67,62.24,10.96">Through the narrative therapist's questioning, the patient was able to identify that watching his son play football (the unique outcome) decreased his feelings of depression and anxiety.</s><s xml:id="_DXcfjAG" coords="4,134.12,513.67,398.29,10.96;4,71.88,530.47,202.19,10.96">The patient reconstructed his life to watch his son play football, gaining the same quality as when he was playing with him.</s><s xml:id="_2Ytg6YN" coords="4,274.07,530.47,221.07,10.96;4,71.88,547.27,463.91,10.96;4,71.88,564.31,437.80,10.96">Unique outcomes such as that above may be introduced using questions such as the following: When was a time you did not experience the problem, and when was a time you were able to overcome it <ref type="bibr" coords="4,371.01,564.31,132.63,10.96" target="#b3">(Guterman &amp; Rudes, 2005)</ref>?</s></p><p xml:id="_P8qPpBz"><s xml:id="_nt3b36u" coords="4,107.88,581.11,409.55,10.96;4,71.88,597.91,150.42,10.96">Once unique outcomes have been identified, the final process in the reconstruction phase is called "re--authoring."</s><s xml:id="_2nsYuEU" coords="4,222.30,597.91,310.22,10.96;4,71.88,614.71,319.85,10.96">This component entails strengthening, thickening, and merging unique outcomes into the self--narrative <ref type="bibr" coords="4,268.48,614.71,117.63,10.96" target="#b1">(Bohlmeijer et al., 2008)</ref>.</s><s xml:id="_RMr5nux" coords="4,391.73,614.71,146.72,10.96;4,71.88,631.51,424.45,10.96;4,71.88,648.31,285.20,10.96">The primary belief that drives the re--authoring component is that the disregarded narratives of an individual (unique outcomes) offer alternative interpretations of experience.</s><s xml:id="_D5XsqHk" coords="4,357.09,648.31,174.52,10.96;4,71.88,665.35,453.34,10.96;4,71.88,682.15,418.25,10.96">When those disregarded narratives are identified, the problematic and hurtful meanings the individual has derived from the self-narrative can be built into a positive and empowering story <ref type="bibr" coords="4,362.92,682.15,121.59,10.96" target="#b7">(Leahy &amp; Harrigan, 2006)</ref>.</s></p><p xml:id="_pv34YAf"><s xml:id="_v4cB2yv" coords="5,107.88,75.67,416.41,10.96;5,71.88,92.47,426.55,10.96;5,71.88,109.27,466.22,10.96">Through creating a self--narrative, externalizing the problem from the self, identifying strategies to minimize the problem, and re--writing the narrative using those strategies, individuals can overcome problems inhibiting their quality of life <ref type="bibr" coords="5,388.09,109.27,144.39,10.96" target="#b9">(Machato &amp; Goncalves, 1999)</ref>.</s><s xml:id="_jDktZ9a" coords="5,71.88,126.31,457.63,10.96;5,71.88,143.11,362.78,10.96">There are also other considerations that intertwine with these processes, including social and cultural concerns to ensure a successful re--authoring of the self--narrative.</s></p><p xml:id="_XtVYcbB"><s xml:id="_zBVSEk7" coords="5,107.88,176.69,431.36,10.98;5,71.88,193.51,456.98,10.96;5,71.88,210.55,74.56,10.96">Social and societal considerations: A vital basis to the field of narrative therapy is that a person's "reality" is socially constructed through language, and maintained through narrative <ref type="bibr" coords="5,71.88,210.55,68.94,10.96" target="#b4">(Hogan, 1999)</ref>.</s><s xml:id="_kJGv4EA" coords="5,146.44,210.55,347.78,10.96;5,71.88,227.35,459.68,10.96;5,71.88,244.15,161.60,10.96">This reality can be divided into two sections: stories related to who the individuals thinks they are as people, and their interpretation of these stories to signify where they fit in society <ref type="bibr" coords="5,158.23,244.15,69.64,10.96" target="#b2">(Cashin, 2008)</ref>.</s><s xml:id="_KGEbWyh" coords="5,233.48,244.15,253.68,10.96;5,71.88,260.95,465.39,10.96;5,71.88,277.75,129.53,10.96">Consequently, clinical problems such as anorexia or depression are seen from a narrative perspective as having roots in cultural, familial, and social contexts and experiences.</s><s xml:id="_2NNjvBM" coords="5,201.41,277.75,284.22,10.96;5,71.88,294.55,435.59,10.96">Disorders and illnesses are not seen as a mark of personal inadequacy, but based more in experiences and self--interpretations <ref type="bibr" coords="5,404.37,294.55,97.49,10.96" target="#b15">(Weber et al., 2006)</ref>.</s></p><p xml:id="_2Mc66tV"><s xml:id="_VdVXXcw" coords="5,107.88,311.59,416.73,10.96;5,71.88,328.39,317.28,10.96">Freedman and Combs have asserted that narrative therapists must develop attitudes that are congruent with a postmodern and narrative world view.</s><s xml:id="_UU2AKCR" coords="5,389.16,328.39,131.93,10.96;5,71.88,345.19,464.53,10.96;5,71.88,361.99,451.63,10.96;5,71.88,378.79,181.38,10.96">They have listed four main essential beliefs intrinsic to this viewpoint: (a) realities are socially constructed, (b) realities are established through language, (c) realities are organized and maintained through narratives, and (d) there are no essential truths.</s><s xml:id="_VFwFMUV" coords="5,253.26,378.79,60.04,10.96"><ref type="bibr" coords="5,253.26,378.79,54.42,10.96" target="#b8">(Lee, 2004)</ref>.</s></p><p xml:id="_qPA58TE"><s xml:id="_WHSetDT" coords="5,107.88,395.83,395.67,10.96;5,71.88,412.63,465.60,10.96;5,71.88,429.43,76.79,10.96">Consequently the use of literary tools has been found to be a useful and creative approach in narrative therapy, as it allows stories to be shared through a culturally appropriate tool, literature.</s><s xml:id="_zBFNmm5" coords="5,148.67,429.43,391.54,10.96;5,71.88,446.23,455.82,10.96;5,71.88,463.03,46.86,10.96">According to <ref type="bibr" coords="5,213.06,429.43,148.47,10.96" target="#b0">Biggs and Hinton--Bayre (2008)</ref>, the therapist can act as a literature critic, exploring new worlds with the client to create new meanings and significance to her or his story.</s><s xml:id="_WfKwRqw" coords="5,118.74,463.03,380.72,10.96">In sum, <ref type="bibr" coords="5,157.08,463.03,75.65,10.96" target="#b5">Howard (1991)</ref> describes the value of the literary intervention ideally:</s></p><p xml:id="_egf3Qbf"><s xml:id="_uXeE6Wu" coords="5,107.88,480.07,403.47,10.96;5,107.88,496.87,429.88,10.96;5,107.88,513.67,215.15,10.96">A life becomes meaningful when one sees himself or herself as an actor within the context of a story-be it a cultural tale, a religious narrative, a family saga, the march of science, a political movement, and so forth.</s><s xml:id="_3Nqeacq" coords="5,323.04,513.67,210.38,10.96;5,107.88,530.47,319.67,10.96">Early in life we are free to choose what life story we will inhabit--and later we find we are lived by that story.</s><s xml:id="_wgHQFpB" coords="5,427.55,530.47,15.68,10.96">(p.</s><s xml:id="_Rwgzydu" coords="5,443.23,530.47,24.59,10.96;5,71.88,547.27,452.19,10.96;5,71.88,564.31,454.48,10.96;5,71.88,581.11,365.21,10.96">196) Due to the importance of culture and social context in today's society, many narratives from society are directly intertwined with personal narratives of individuals, allowing literary tools describing metaphors related to these narratives to be valid interventions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_z9JuGPk">Fairytales</head><p xml:id="_bRsXQaA"><s xml:id="_fgqUYfD" coords="5,107.88,631.51,390.44,10.96">One such literary tool that has been utilized in narrative therapy is the fairytale.</s><s xml:id="_cvCSuxj" coords="5,71.88,648.31,410.47,10.96;5,71.88,665.35,305.25,10.96">According to <ref type="bibr" coords="5,136.27,648.31,73.31,10.96" target="#b5">Howard (1991)</ref>, most North American children learn through fairytales represented via television or literature from a very young age.</s><s xml:id="_K68gCCf" coords="5,377.13,665.35,152.87,10.96;5,71.88,682.15,454.24,10.96;5,71.88,698.95,412.47,10.96">Howard also asserts that many of these pieces of fictional literature, such as Cinderella, Sleeping Beauty, and Pinocchio, play out conflicts and issues such as good versus evil, living and dying, and love and hate.</s><s xml:id="_EPQQdVt" coords="5,484.35,698.95,42.05,10.96;6,71.88,75.67,437.73,10.96;6,71.88,92.47,439.41,10.96">The fact that these stories are "not real" and may be deemed impossible is not seen as an issue to children, and therefore fictional stories are an ideal modality for learning <ref type="bibr" coords="6,429.62,92.47,76.05,10.96" target="#b5">(Howard, 1991)</ref>.</s></p><p xml:id="_HQ4CkvA"><s xml:id="_aGRUZmb" coords="6,107.88,119.09,429.50,10.98;6,71.88,136.15,314.11,10.96">The acquisition of life skills: Several facets of fairytales make their use ideal in the field of narrative therapy, mainly from a psychodynamic perspective.</s><s xml:id="_8FgeMMr" coords="6,385.99,136.15,110.62,10.96;6,71.88,152.95,463.16,10.96;6,71.88,169.99,50.71,10.96">First of all, the reader, specifically a child or an adolescent, may learn life skills through metaphors and themes within fairytales.</s><s xml:id="_CA4BJ9q" coords="6,122.59,169.99,376.44,10.96;6,71.88,186.79,469.48,10.96;6,71.88,203.59,195.21,10.96">According to Bruno Bettelheim, who explored the effects of literature on the developing child, everyone's greatest yet most difficult accomplishment is to finding meaning in her or his life (as cited in <ref type="bibr" coords="6,194.00,203.59,67.47,10.96" target="#b11">Noctor, 2006)</ref>.</s><s xml:id="_BR3sKTr" coords="6,267.09,203.59,234.73,10.96;6,71.88,220.39,317.64,10.96">Bettelheim asserts that within specific stages of development, the individual strives to find appropriate meaning.</s><s xml:id="_73wXcvv" coords="6,389.52,220.39,114.71,10.96;6,71.88,237.19,462.87,10.96;6,71.88,254.23,170.68,10.96">To accomplish this, the individual must develop inner resources to balance and accommodate emotions, intellect, and imagination <ref type="bibr" coords="6,132.54,254.23,99.46,10.96">(Noctor, 2006, p.580</ref>).</s><s xml:id="_6NNbGNf" coords="6,242.56,254.23,290.08,10.96;6,71.88,271.03,466.67,10.96;6,71.88,287.83,351.42,10.96">Bettelheim has found that children's literature can assist in accomplishing this feat, equipping the individual with coping mechanisms and increasing her or his self--awareness of anxieties and ambitions (as cited in <ref type="bibr" coords="6,350.21,287.83,67.47,10.96" target="#b11">Noctor, 2006)</ref>.</s></p><p xml:id="_qmaE4fG"><s xml:id="_y8nXwWU" coords="6,107.88,304.63,431.05,10.96;6,71.88,321.43,68.58,10.96">Fairytales are a type of children's literature that can be an effective tool for meeting the child's needs.</s><s xml:id="_vcsFHRv" coords="6,140.46,321.43,402.06,10.96;6,71.88,338.47,311.47,10.96">According to <ref type="bibr" coords="6,204.85,321.43,68.37,10.96" target="#b11">Noctor (2006)</ref>, compared with other literature sources, fairytales are unique because they usually include a dark character or theme.</s><s xml:id="_nw77t8W" coords="6,383.35,338.47,144.12,10.96;6,71.88,355.27,429.41,10.96;6,71.88,372.07,467.99,10.96;6,71.88,388.87,15.68,10.96">Noctor believes that children are relieved to come across these characters and themes because "they know that they themselves are not all good and find difficulties in the portrayal of all people as inherently good (p.</s><s xml:id="_zPVmSqD" coords="6,87.57,388.87,32.65,10.96">581)."</s><s xml:id="_RpRV8sd" coords="6,120.21,388.87,410.45,10.96;6,71.88,405.67,444.93,10.96">Noctor also emphasizes that the dark character can be a symbolic representation of the child and give greater insight into unconscious struggles between good and evil <ref type="bibr" coords="6,479.47,405.67,32.01,10.96">(2006)</ref>.</s></p><p xml:id="_9DQTVSZ"><s xml:id="_nHYmVDn" coords="6,107.88,422.47,414.03,10.96;6,71.88,439.51,428.88,10.96;6,71.88,456.31,218.28,10.96">Other important research relevant to the area of life skills through fiction focuses on gaining autonomy, increasing independence, learning about parental absence, issues of abandonment, and issues concerning death.</s><s xml:id="_uk9J6JR" coords="6,290.16,456.31,210.72,10.96;6,71.88,473.11,440.46,10.96">Many of these skills are brought about in a metaphorical rather than literal way within the piece of fictional literature <ref type="bibr" coords="6,435.61,473.11,71.11,10.96" target="#b11">(Noctor, 2006)</ref>.</s></p><p xml:id="_RJu53C8"><s xml:id="_TbfPbjT" coords="6,107.88,506.69,415.64,10.98;6,71.88,523.75,275.41,10.96">The importance of fantasies: A second facet of fairytales, and one that is inherent to their concept, is the fact that they are based on fantasy.</s><s xml:id="_cWs4WUp" coords="6,347.29,523.75,172.06,10.96;6,71.88,540.55,452.90,10.96;6,71.88,557.35,76.05,10.96">This has a distinct psychoanalytical association as, according to Jungian therapist Hillman, adults are not motivated by reason or reinforcement.</s><s xml:id="_jwn39M2" coords="6,147.94,557.35,379.26,10.96;6,71.88,574.15,269.63,10.96">Rather, they are motivated "by fantasy and the images and myths with which we have grown up" (as cited by <ref type="bibr" coords="6,227.48,574.15,108.50,10.96">Howard, 1991, p. 193)</ref>.</s><s xml:id="_dT828aG" coords="6,341.51,574.15,162.75,10.96;6,71.88,590.95,455.31,10.96;6,71.88,607.99,454.80,10.96;6,71.88,624.79,153.35,10.96"><ref type="bibr" coords="6,341.51,574.15,75.65,10.96" target="#b5">Howard (1991)</ref> supports this and highlights that many of the narrative and story elements by which adults live are deep within their unconscious and connected with great myths and fairytales that have been ingrained in them since they were children.</s><s xml:id="_G8ZkYyb" coords="6,107.88,641.59,412.18,10.96;6,71.88,658.39,424.24,10.96"><ref type="bibr" coords="6,107.88,641.59,70.71,10.96" target="#b11">Noctor (2006)</ref> adds that the fantasy aspect of fairytales allows the author to explore many aspects of society and relevant issues through metaphors in a safe environment.</s><s xml:id="_yKk2bvd" coords="6,496.12,658.39,22.31,10.96;6,71.88,675.19,323.19,10.96">This offers the reader both a pleasurable and an emotional adventure.</s></p><p xml:id="_WfnxfA2"><s xml:id="_F8VbGVW" coords="7,107.88,75.41,386.48,10.98;7,71.88,92.47,169.94,10.96">Feelings of safety and security: Subsequently, the next facet of fairytales to be discussed is the element of safety.</s><s xml:id="_SfcYfjB" coords="7,241.82,92.47,284.43,10.96;7,71.88,109.27,418.54,10.96">Environments such as Never--Never Land and Wonderland are seen as "unrealistic representations of the real world" <ref type="bibr" coords="7,356.73,109.27,128.17,10.96">(Noel--Smith, 2001, p. 201)</ref>.</s><s xml:id="_hXGuG6n" coords="7,490.42,109.27,51.33,10.96;7,71.88,126.31,463.60,10.96;7,71.88,143.11,284.05,10.96">According to Bettelheim, it is this unrealistic nature that provides the reader with a safe place in which to explore her or his fantasies (as cited in <ref type="bibr" coords="7,261.87,143.11,88.44,10.96" target="#b12">Noel--Smith, 2001)</ref>.</s><s xml:id="_7VkW8ee" coords="7,358.65,143.11,167.15,10.96;7,71.88,159.91,460.40,10.96;7,71.88,176.71,187.07,10.96">Because the world is fictional, the author can focus on the message and inner processes being conveyed, rather than on taking a realistic approach <ref type="bibr" coords="7,161.25,176.71,86.47,10.96" target="#b12">(Noel--Smith, 2001</ref>).</s><s xml:id="_eQMh8N5" coords="7,107.88,193.51,392.76,10.96;7,71.88,210.55,407.92,10.96"><ref type="bibr" coords="7,107.88,193.51,78.40,10.96" target="#b11">Noctor's (2006)</ref> research also showed that the realm of fairytales allows for safe exploration of inner conflicts, where the good character always emerges the victor.</s><s xml:id="_rezPQH7" coords="7,479.80,210.55,18.74,10.96;7,71.88,227.35,465.13,10.96;7,71.88,244.15,38.27,10.96">For example, many fairytales create situations in which the main character, often a child, has lost a parent.</s><s xml:id="_KsEjpjN" coords="7,110.15,244.15,417.57,10.96;7,71.88,260.95,287.79,10.96">While the main character may have difficulties, he or she always manages to gain the confidence to become independent and secure in the end.</s><s xml:id="_Dhmvz5R" coords="7,359.67,260.95,147.64,10.96;7,71.88,277.75,470.26,10.96;7,71.88,294.55,238.01,10.96">The message conveyed in this situation is one of hope and confidence to succeed in life despite setbacks, as well as to become less dependent on one's parents <ref type="bibr" coords="7,233.16,294.55,71.11,10.96" target="#b11">(Noctor, 2006)</ref>.</s></p><p xml:id="_ZgV7kRr"><s xml:id="_rANzFDj" coords="7,107.88,328.37,427.28,10.98;7,71.88,345.19,442.90,10.96;7,71.88,361.99,260.35,10.96">The role of the unconscious: While the message above may not be completely obvious without conscious thought, Bettelheim believes that these messages travel to the reader's unconscious automatically (as cited in <ref type="bibr" coords="7,259.14,361.99,67.47,10.96" target="#b11">Noctor, 2006)</ref>.</s><s xml:id="_vM3WY3d" coords="7,332.24,361.99,201.38,10.96;7,71.88,378.79,445.82,10.96;7,71.88,395.83,31.56,10.96">He argues that fairytales may be an ideal avenue to work out emotional dilemmas unconsciously and reduce their potential to cause harm.</s><s xml:id="_xSzqnVN" coords="7,103.44,395.83,389.75,10.96;7,71.88,412.63,464.51,10.96;7,71.88,429.43,33.71,10.96">This has been found to be especially useful for children and adolescents, whose unconscious thoughts and desires may not be accessible in traditional ways (as cited in <ref type="bibr" coords="7,497.00,412.63,39.39,10.96;7,71.88,429.43,28.09,10.96" target="#b11">Noctor, 2006)</ref>.</s></p><p xml:id="_JE43gWF"><s xml:id="_VWKbUhP" coords="7,107.88,446.23,413.37,10.96;7,71.88,463.03,456.37,10.96;7,71.88,480.07,440.56,10.96;7,71.88,496.87,73.09,10.96">Bettelheim attributes the fairytale's power to a formula he believes structures many fairytales, including such issues as the death of parents, the presence of evil characters in the storyline, and a needy and isolated hero who draws sympathy from the reader (as cited in <ref type="bibr" coords="7,71.88,496.87,67.47,10.96" target="#b11">Noctor, 2006)</ref>.</s><s xml:id="_f2EqfBx" coords="7,144.97,496.87,375.48,10.96;7,71.88,513.67,202.06,10.96">For example, in the fairytale Cinderella, the title character is an orphan living with her evil stepmother and stepsisters.</s><s xml:id="_pEU5bwA" coords="7,273.94,513.67,265.70,10.96;7,71.88,530.47,458.78,10.96;7,71.88,547.27,234.68,10.96">This fairytale has all three of Bettelheim's ingredients: Cinderella is an orphan, she has an evil stepmother and two evil stepsisters, and she has been isolated as a servant in her stepmother's castle.</s></p><p xml:id="_t2tD8qv"><s xml:id="_KebAd4Z" coords="7,107.88,581.09,425.43,10.98;7,71.88,597.91,289.99,10.96">Societal and cultural needs: The final facet supporting the use of fairytales in narrative therapy is their ability to interest children and adolescents.</s><s xml:id="_UyPnF3u" coords="7,361.87,597.91,157.57,10.96;7,71.88,614.71,445.28,10.96"><ref type="bibr" coords="7,361.87,597.91,70.71,10.96" target="#b11">Noctor (2006)</ref> asserts that most children and adolescents are brought to therapy, and thus usually do not want to be there.</s><s xml:id="_BaKgea5" coords="7,71.88,631.51,421.66,10.96">Consequently, they may not want to talk or participate in traditional therapy sessions.</s><s xml:id="_Z9JMAbW" coords="7,493.54,631.51,43.00,10.96;7,71.88,648.31,465.65,10.96;7,71.88,665.35,393.42,10.96">Because of the low levels of engagement within treatment, it has been suggested that the interventions being utilized may not match the needs of the child and adolescent populations.</s><s xml:id="_5pywWrg" coords="7,465.30,665.35,64.39,10.96;7,71.88,682.15,470.01,10.96;8,71.88,75.67,444.48,10.96;8,71.88,92.47,47.34,10.96">According to <ref type="bibr" coords="7,71.88,682.15,68.37,10.96" target="#b11">Noctor (2006)</ref>, this suggestion challenges therapists to be creative in tailoring an intervention of interest to the child and adolescent population groups, in order to enable them to become engaged.</s></p><p xml:id="_pdyvD8v"><s xml:id="_FMy9VtK" coords="8,107.88,109.27,404.33,10.96;8,71.88,126.31,461.97,10.96;8,71.88,143.11,103.69,10.96">According to <ref type="bibr" coords="8,172.27,109.27,68.37,10.96" target="#b11">Noctor (2006)</ref>, one creative intervention is the use of fairytales in the therapeutic environment, using the story as a vehicle for the child or adolescent to discuss her or his own narrative.</s><s xml:id="_RkY9MqR" coords="8,175.57,143.11,340.23,10.96;8,71.88,159.91,469.61,10.96;8,71.88,176.71,368.32,10.96">He states: "I have found that veering off the well--worn path of tested group programmes into the dubious terrain of a fictional world of witches and wizards, can take a group to the most surprising and fruitful of places" <ref type="bibr" coords="8,330.18,176.71,99.46,10.96">(Noctor, 2006, p.588</ref>).</s><s xml:id="_hUsZNma" coords="8,440.20,176.71,83.33,10.96;8,71.88,193.51,445.36,10.96;8,71.88,210.55,289.31,10.96"><ref type="bibr" coords="8,440.20,176.71,83.33,10.96" target="#b5">Howard's (1991)</ref> findings appear to coincide with those of Noctor's: Howard states that fairytales are simply "psychologically heavy material packaged in a medium" (p.</s><s xml:id="_p5ry9c3" coords="8,361.19,210.55,162.66,10.96;8,71.88,227.35,84.67,10.96">193) that is attractive to children and adolescents.</s></p><p xml:id="_HmENkdh"><s xml:id="_BUBJ42q" coords="8,107.88,244.15,408.16,10.96;8,71.88,260.95,442.76,10.96;8,71.88,277.75,439.87,10.96;8,71.88,294.55,293.38,10.96">As a result of their ability to teach valuable life lessons, allow the reader to become immersed in a comfortable and safe world of fantasy, reach the unconscious, and hold the interest of difficult--to--reach children and adolescents, fairytales are an excellent and valid intervention in narrative therapy with younger populations.</s><s xml:id="_9vAeBCa" coords="8,365.26,294.55,167.27,10.96;8,71.88,311.59,433.90,10.96;8,71.88,328.39,160.62,10.96">The following section comprises a discussion of one particular piece of fantastical literature, the Harry Potter series, and its application to narrative therapy.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Zfxb7u7">Harry Potter in Narrative Therapy</head><p xml:id="_aU8bgQH"><s xml:id="_63vuvXT" coords="8,107.88,385.99,394.97,10.96">The literary works in the Harry Potter series have been international best sellers.</s><s xml:id="_x6cYz3C" coords="8,502.85,385.99,20.82,10.96;8,71.88,402.79,441.36,10.96;8,71.88,419.83,366.87,10.96">The first three books in the series sat in the first three places of the New York Times hardcover fiction, something that has never been previously achieved <ref type="bibr" coords="8,362.02,419.83,71.11,10.96" target="#b11">(Noctor, 2006)</ref>.</s><s xml:id="_urMdCep" coords="8,438.75,419.83,99.42,10.96;8,71.88,436.63,451.91,10.96;8,71.88,453.43,169.75,10.96">All books within the series have been sought internationally, each having been translated into more than twenty-five languages <ref type="bibr" coords="8,143.94,453.43,92.08,10.96" target="#b12">(Noel--Smith, 2001)</ref>.</s></p><p xml:id="_qjhb48e"><s xml:id="_PW44JGD" coords="8,107.88,470.23,401.66,10.96;8,71.88,487.03,234.52,10.96">According to <ref type="bibr" coords="8,172.27,470.23,68.37,10.96" target="#b11">Noctor (2006)</ref>, the Harry Potter series <ref type="bibr" coords="8,358.87,470.23,78.90,10.96" target="#b14">(Rowling, 2004)</ref> has fostered a degree of fanaticism among persons of all ages.</s><s xml:id="_3fPeaSE" coords="8,306.40,487.03,218.80,10.96;8,71.88,504.07,356.30,10.96">Noctor also notes that there appears to be a qualitative difference between the series and other similar literary tools.</s><s xml:id="_qQDmqpX" coords="8,428.19,504.07,91.67,10.96;8,71.88,520.87,468.63,10.96;8,71.88,537.67,424.15,10.96"><ref type="bibr" coords="8,428.19,504.07,91.67,10.96" target="#b12">Noel--Smith (2001)</ref> asserts that this different is due to the unconscious appeal of the storyline and the ability of the author, Rowling, to portray issues that many children experience within actual society.</s><s xml:id="_Z7AJQ68" coords="8,496.03,537.67,33.30,10.96;8,71.88,554.47,452.11,10.96;8,71.88,571.27,354.12,10.96">Rustin and Rustin agree, believing that the stories evoke conscious and unconscious responses that connect deeply with children and adolescents (as cited in <ref type="bibr" coords="8,352.91,571.27,67.47,10.96" target="#b11">Noctor, 2006)</ref>.</s></p><p xml:id="_pSfePmz"><s xml:id="_TNC7sAR" coords="8,107.88,588.31,391.47,10.96">Due to its popularity, the themes within Harry Potter are internationally known.</s><s xml:id="_V6suNfc" coords="8,499.35,588.31,36.39,10.96;8,71.88,605.11,468.30,10.96;8,71.88,621.91,210.23,10.96"><ref type="bibr" coords="8,499.35,588.31,36.39,10.96;8,71.88,605.11,34.32,10.96" target="#b11">Noctor (2006)</ref> feels that Rowling's storylines are insightful and allow readers to draw parallels between the world of Hogwarts and their own lives.</s><s xml:id="_hEJMth8" coords="8,282.12,621.91,191.78,10.96;8,71.88,638.71,462.34,10.96;8,71.88,655.51,470.57,10.96;8,71.88,672.31,120.86,10.96">Rustin and Rustin suggest that Rowling "incorporates the broader social world that, often implicitly and metaphorically, becomes part of the stories and gives them much of their capacity to surprise and delight the reader" (as cited in <ref type="bibr" coords="8,83.65,672.31,103.57,10.96">Noctor, 2006, p. 580)</ref>.</s><s xml:id="_esr6nZv" coords="8,192.74,672.31,349.29,10.96;8,71.88,689.35,241.62,10.96">According to <ref type="bibr" coords="8,257.13,672.31,89.35,10.96" target="#b12">Noel--Smith (2001)</ref>, the exceptional success of the series is due in part to the Oedipal fantasies they contain.</s><s xml:id="_x93QY2z" coords="9,107.88,75.67,420.11,10.96;9,71.88,92.47,63.60,10.96"><ref type="bibr" coords="9,107.88,75.67,70.71,10.96" target="#b11">Noctor (2006)</ref> utilized the Harry Potter series in group narrative therapy sessions with adolescents.</s><s xml:id="_njEqqsr" coords="9,135.48,92.47,402.16,10.96;9,71.88,109.27,468.74,10.96">He reports that "the form of directed group storytelling allowed the young people to do something that previously they had found impossible to do: Speak" <ref type="bibr" coords="9,430.60,109.27,104.74,10.96">(Noctor, 2006, p.585)</ref>.</s></p><p xml:id="_pbWKqwq"><s xml:id="_gUrm6jF" coords="9,107.88,143.09,433.13,10.98;9,71.88,159.91,443.55,10.96;9,71.88,176.71,231.78,10.96">Important themes in Harry Potter: Several resounding themes in the Harry Potter series relate to children's and adolescent's daily lives, making the series a great literary vehicle in bringing issues to the forefront during therapy.</s><s xml:id="_7r7PjUz" coords="9,303.66,176.71,219.52,10.96;9,71.88,193.51,439.26,10.96;9,71.88,210.55,441.42,10.96;9,71.88,227.35,470.10,10.96">Basic themes include (a) the value of making clear choice; (b) the importance of developing relationships; (c) the power of jealousy; (d) dealing with loss, abuse, and neglect; (e) self--discovery/learning about oneself; (f) trusting others; (g) paying attention to dreams; and (h) the battle between good and evil <ref type="bibr" coords="9,465.25,227.35,71.11,10.96" target="#b11">(Noctor, 2006)</ref>.</s><s xml:id="_zxjpMQF" coords="9,71.88,244.15,445.09,10.96;9,71.88,260.95,452.45,10.96;9,71.88,277.75,136.03,10.96">Adolescents who participated in a narrative therapy group with <ref type="bibr" coords="9,383.28,244.15,70.71,10.96" target="#b11">Noctor (2006)</ref> also saw the Harry Potter series as having links to modern issues they face daily, including racism, sexism, and issues with social class.</s></p><p xml:id="_nVdsu5P"><s xml:id="_8XRq3d4" coords="9,107.88,294.55,415.00,10.96;9,71.88,311.59,343.66,10.96">As previously described, the theme of good and evil is one that resounds throughout many pieces of fantastical literature, including the Harry Potter series.</s><s xml:id="_9CtcDnA" coords="9,415.54,311.59,79.57,10.96;9,71.88,328.39,154.41,10.96">Lord Voldemort epitomizes evil in the storyline.</s><s xml:id="_8hEKWzm" coords="9,226.29,328.39,269.08,10.96;9,71.88,345.19,158.35,10.96">Harry is consistently reminded, through the scar on his forehead, of the dark character.</s><s xml:id="_F997g43" coords="9,230.23,345.19,291.94,10.96;9,71.88,361.99,446.48,10.96;9,71.88,378.79,214.88,10.96">Harry also finds that they have many likenesses, including a physical resemblance as children, the use of the same wand, and their unusual aptitude for communicating with snakes <ref type="bibr" coords="9,210.03,378.79,71.11,10.96" target="#b11">(Noctor, 2006)</ref>.</s></p><p xml:id="_kNwHDYy"><s xml:id="_acDhrM3" coords="9,107.88,395.83,430.71,10.96;9,71.88,412.63,323.71,10.96">Another theme surrounding Lord Voldemort is uncovering unconscious motivations and learning to interpret one's thoughts and emotions <ref type="bibr" coords="9,318.86,412.63,71.11,10.96" target="#b11">(Noctor, 2006)</ref>.</s><s xml:id="_n8cytRa" coords="9,395.59,412.63,141.27,10.96;9,71.88,429.43,425.41,10.96;9,71.88,446.23,343.92,10.96">As Harry progresses through the series and begins to grow as a person, he is able to objectify signs that predict Lord Voldemort's imminent arrival, such as pain in his scar and nightmares.</s><s xml:id="_hR58sHf" coords="9,415.80,446.23,101.32,10.96;9,71.88,463.03,467.40,10.96;9,71.88,480.07,288.74,10.96">Subsequently, Harry learns to ask for others' help more quickly and does not repress thoughts and dreams about his enemy; rather, he learns to use these as a tool for survival.</s><s xml:id="_RJZRnNU" coords="9,360.62,480.07,158.31,10.96;9,71.88,496.87,449.65,10.96;9,71.88,513.67,54.37,10.96"><ref type="bibr" coords="9,360.62,480.07,70.71,10.96" target="#b11">Noctor (2006)</ref> draws similarities between this example and the psychotherapy treatments that entail identifying and dealing with fears.</s><s xml:id="_WmGSmZD" coords="9,126.25,513.67,381.21,10.96;9,71.88,530.47,454.25,10.96;9,71.88,547.27,117.28,10.96">Noctor uses Harry's situation to provide a concrete example and illustrate the importance of seeking assistance and of becoming aware of our thoughts and feelings rather than suppressing them.</s><s xml:id="_7kRtCz5" coords="9,107.88,564.31,426.85,10.96;9,71.88,581.11,397.97,10.96"><ref type="bibr" coords="9,107.88,564.31,64.01,10.96">Pahel (2001)</ref> has also used the Harry Potter series in psychotherapy, focusing its use on children and adolescents dealing with childhood abuse (as cited in <ref type="bibr" coords="9,396.76,581.11,67.47,10.96" target="#b11">Noctor, 2006)</ref>.</s><s xml:id="_FfAqUGS" coords="9,469.86,581.11,69.99,10.96;9,71.88,597.91,455.70,10.96;9,71.88,614.71,118.49,10.96">The first book in the Harry Potter series <ref type="bibr" coords="9,196.54,597.91,78.90,10.96" target="#b14">(Rowling, 2004)</ref> begins with Harry suffering from abuse and neglect with the Dursley family.</s><s xml:id="_CbG5pcC" coords="9,190.37,614.71,315.49,10.96">Harry's world then turns upside--down with the arrival of Hagrid.</s><s xml:id="_auGfp7q" coords="9,505.86,614.71,29.73,10.96;9,71.88,631.51,374.18,10.96">Harry must make a decision to leave a familiar environment, or to trust a stranger.</s><s xml:id="_ax3BmRZ" coords="9,446.06,631.51,86.23,10.96;9,71.88,648.31,446.82,10.96;9,71.88,665.35,123.83,10.96">Pahel relates this moment to the anxiety of a person beginning psychotherapy, as it is also extremely anxiety-provoking and unknown.</s><s xml:id="_tXcgpMH" coords="9,195.71,665.35,323.29,10.96;9,71.88,682.15,456.87,10.96;9,71.88,698.95,249.01,10.96">As both Harry and the individual take that first step, it begins "the hard work of discovery and reconstruction, [in which they know] only that they want to leave the pain behind" (as cited in <ref type="bibr" coords="9,211.80,698.95,103.57,10.96">Noctor, 2006, p. 583)</ref>.</s></p><p xml:id="_fGWEQRD"><s xml:id="_wP4bUZZ" coords="10,107.88,75.67,317.94,10.96">These are only two examples related to the themes listed above.</s><s xml:id="_D4RJuwH" coords="10,425.82,75.67,112.82,10.96;10,71.88,92.47,376.46,10.96">Many examples within each theme are prevalent throughout the Harry Potter series <ref type="bibr" coords="10,371.61,92.47,71.11,10.96" target="#b11">(Noctor, 2006)</ref>.</s><s xml:id="_UhKAkps" coords="10,448.34,92.47,60.85,10.96;10,71.88,109.27,457.73,10.96;10,71.88,126.31,273.92,10.96">While these themes are vital to the success of the book, the examples are illustrative in an examination of their potential linkages to narrative and psychotherapy.</s></p><p xml:id="_Ya4QRA2"><s xml:id="_H4Pd2tB" coords="10,107.88,159.89,391.74,10.98;10,71.88,176.71,446.37,10.96;10,71.88,193.51,423.88,10.96">Harry Potter from a psychotherapeutic perspective: Another area that must be considered within the use of the Harry Potter series is its relationship to the psychotherapy principles, particularly the unconscious, the reality principle, and the Oedipal complex.</s><s xml:id="_g2PQkK8" coords="10,495.76,193.51,26.47,10.96;10,71.88,210.55,417.91,10.96;10,71.88,227.35,431.10,10.96;10,71.88,244.15,119.26,10.96"><ref type="bibr" coords="10,495.76,193.51,26.47,10.96;10,71.88,210.55,65.21,10.96" target="#b12">Noel--Smith (2001)</ref> asserts that works of fiction appease the reality principle, defined in the psychoanalytic field as when one defers instant gratification when necessary because of obstacles due to reality.</s><s xml:id="_vDNzm6N" coords="10,191.14,244.15,315.21,10.96;10,71.88,260.95,278.17,10.96">The reality principle is appeased due to the fact that readers are consciously aware that what they are reading is not real.</s><s xml:id="_fr2UkWB" coords="10,350.05,260.95,174.28,10.96;10,71.88,277.75,458.65,10.96;10,71.88,294.55,353.98,10.96">Thus, one's id (immediate pleasure-seeking drive in the psyche) fantasies can be realized through immersion in the book, without any dangers that may be associated with actually acting out the fantasy.</s></p><p xml:id="_3rS3aU6"><s xml:id="_bFkPfvX" coords="10,107.88,311.59,433.57,10.96;10,71.88,328.39,347.07,10.96">A primary example of this in the Harry Potter series is when Harry must find Platform 9¾ at Kings Cross Station to catch the train that will take him to Hogwarts.</s><s xml:id="_ZU5Vw4p" coords="10,421.66,328.39,90.85,10.96;10,71.88,345.19,422.40,10.96;10,71.88,361.99,451.32,10.96;10,71.88,378.79,236.80,10.96">According to Noel--Smith ( <ref type="formula" coords="10,108.10,345.19,21.32,10.96">2001</ref>), Harry's stepping onto the train that takes him to the fantastical world of Hogwarts also allows readers to leave the external world and suspend their reality principle, because they know that Platform 9¾ is fictional.</s><s xml:id="_8uHkGJQ" coords="10,308.68,378.79,203.40,10.96;10,71.88,395.83,400.36,10.96">This allows readers to give full rein to the pleasure principle once they are inside the world of Hogwarts <ref type="bibr" coords="10,374.54,395.83,92.08,10.96" target="#b12">(Noel--Smith, 2001)</ref>.</s></p><p xml:id="_ZWa4wke"><s xml:id="_w9G4kud" coords="10,107.88,412.63,431.99,10.96;10,71.88,429.43,197.21,10.96">Another psychoanalytic principle inherent to the world of Harry Potter is the occurrence of Oedipal fantasies <ref type="bibr" coords="10,171.39,429.43,92.08,10.96" target="#b12">(Noel--Smith, 2001)</ref>.</s><s xml:id="_ctux43y" coords="10,269.09,429.43,257.48,10.96;10,71.88,446.23,451.75,10.96;10,71.88,463.03,81.93,10.96">At the age of eleven, Harry finds out that his mother and father were not killed in an automobile crash, but rather died attempting to save his life <ref type="bibr" coords="10,71.88,463.03,76.32,10.96">(Rowling, 2003)</ref>.</s><s xml:id="_FxU9hFP" coords="10,153.81,463.03,381.42,10.96;10,71.88,480.07,359.36,10.96">Harry's father died trying to save his son, and Harry's mother died after giving Harry a love that would protect him from evil forever <ref type="bibr" coords="10,333.54,480.07,92.08,10.96" target="#b12">(Noel--Smith, 2001)</ref>.</s><s xml:id="_xyhjbwF" coords="10,431.24,480.07,104.25,10.96;10,71.88,496.87,469.36,10.96">The love that Harry's mother gave him saved him from evil Voldemort's attack that night, causing his spell to reverse.</s></p><p xml:id="_pMG8b6T"><s xml:id="_UKuDaAt" coords="10,107.88,513.67,414.22,10.96;10,71.88,530.47,276.25,10.96">According to <ref type="bibr" coords="10,172.27,513.67,68.37,10.96" target="#b11">Noctor (2006)</ref>, through this familial environment Rowling has created a family romance in which the reader can find enjoyment.</s><s xml:id="_u54RD2X" coords="10,348.13,530.47,179.82,10.96;10,71.88,547.27,454.54,10.96;10,71.88,564.31,458.32,10.96;10,71.88,581.11,109.09,10.96">Freud describes a family romance as "'the child's noblest longing for the happy, vanished days when his father seemed to him the noblest and strongest of men and his mother the dearest and loveliest of women" (as cited in <ref type="bibr" coords="10,71.88,581.11,103.57,10.96">Noctor, 2006, p. 581)</ref>.</s><s xml:id="_8gwB2Cb" coords="10,107.88,597.91,434.69,10.96;10,71.88,614.71,217.47,10.96"><ref type="bibr" coords="10,107.88,597.91,91.68,10.96" target="#b12">Noel--Smith (2001)</ref> firmly believes that a component of the popularity of the Harry Potter series hinges on its Oedipal fantasy content.</s><s xml:id="_zD5Qx92" coords="10,289.36,614.71,245.18,10.96;10,71.88,631.51,260.57,10.96">She asserts that Harry's parents are ideal parents, both brave and self--sacrificing on their child's behalf.</s><s xml:id="_AsTKRy8" coords="10,107.88,648.31,424.25,10.96;10,71.88,665.35,35.98,10.96"><ref type="bibr" coords="10,107.88,648.31,91.68,10.96" target="#b12">Noel--Smith (2001)</ref> also offers several other indicators of oedipal fantasies within Harry Potter.</s><s xml:id="_5BqxnMy" coords="10,107.86,665.35,417.64,10.96;10,71.88,682.15,455.80,10.96;10,71.88,698.95,466.13,10.96;11,71.88,75.67,264.42,10.96">She mentions that (a) Harry's mother's name is Lily, a name that represents all that is pure; (b) the last thing Harry's father highlights before dying is the importance of the mother-son relationship; and (c) Harry's scar is a significant mark that is evidence of his mother's loving sacrifice to protect him from all that is inherently evil.</s><s xml:id="_MGM2fR5" coords="11,336.30,75.67,187.39,10.96;11,71.88,92.47,454.69,10.96;11,71.88,109.27,462.61,10.96;11,71.88,126.31,414.96,10.96">Because so many aspects of the Harry Potter series have components of Oedipal fantasies, <ref type="bibr" coords="11,328.10,92.47,91.67,10.96" target="#b12">Noel--Smith (2001)</ref> believes the reader is able to indulge in "wish--fulfillment of the most basic phantasies without the grief which would ordinarily attach to them: we know, at a conscious level, that the story is not true (p.</s><s xml:id="_MthcsMZ" coords="11,486.84,126.31,32.65,10.96">202)."</s><s xml:id="_w9md82g" coords="11,71.88,143.11,436.96,10.96;11,71.88,159.91,455.98,10.96;11,71.88,176.71,266.78,10.96">Additionally, <ref type="bibr" coords="11,135.99,143.11,91.68,10.96" target="#b12">Noel--Smith (2001)</ref> sums up her position by asserting that the death of Harry Potter's parents allows unconscious fulfillment of Oedipal fantasies, through the intense love he shared with his mother and the death of his father.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_AXuhmHb">Conclusion</head><p xml:id="_FmVjRew"><s xml:id="_6uWx3hz" coords="11,107.88,227.35,432.08,10.96;11,71.88,244.15,316.18,10.96">One of the primary focuses in narrative therapy involves separating the person from her or his problems and objectifying those problems <ref type="bibr" coords="11,310.18,244.15,72.26,10.96" target="#b13">(Richert, 2003)</ref>.</s><s xml:id="_NMcGndm" coords="11,388.06,244.15,117.42,10.96;11,71.88,260.95,458.82,10.96;11,71.88,277.75,373.49,10.96">According to one of the founders of narrative therapy, Epston, it is crucial to employ the belief that "[t]he person isn't the problem; the problem is the problem" (as cited in <ref type="bibr" coords="11,335.13,277.75,104.71,10.96">Richert, 2003, p. 188)</ref>.</s></p><p xml:id="_fkrF7A3"><s xml:id="_hHzrkRQ" coords="11,107.88,294.55,433.73,10.96;11,71.88,311.59,250.58,10.96">Research has supported the use of stories, specifically fairytales, to promote therapeutic healing in narrative therapy <ref type="bibr" coords="11,209.57,311.59,107.27,10.96" target="#b10">(Noble &amp; Jones, 2005)</ref>.</s><s xml:id="_vRqRnVQ" coords="11,322.46,311.59,197.22,10.96;11,71.88,328.39,422.59,10.96;11,71.88,345.19,438.92,10.96;11,71.88,361.99,33.71,10.96">Narrative therapy includes the adamant belief that individuals shape their lives through personal stories and narratives, and re-authoring a story therefore can be powerful in shaping an individual's life <ref type="bibr" coords="11,431.62,345.19,79.18,10.96;11,71.88,361.99,28.09,10.96">(Noble &amp; Jones, 2003)</ref>.</s><s xml:id="_d7Vf8GR" coords="11,107.88,378.79,401.25,10.96;11,71.88,395.83,446.69,10.96;11,71.88,412.63,68.24,10.96"><ref type="bibr" coords="11,107.88,378.79,75.65,10.96" target="#b5">Howard (1991)</ref> provides an illustrious opinion on the importance of stories, which emphasizes the importance of fantastical works such as Harry Potter and their influence on everyday life:</s></p><p xml:id="_W7dAZfw"><s xml:id="_gVRCQ38" coords="11,107.88,429.43,115.51,10.96">Stories are habitations.</s><s xml:id="_P62mKCj" coords="11,223.39,429.43,152.01,10.96">We live in and through stories.</s><s xml:id="_Fe7rp6T" coords="11,375.40,429.43,104.60,10.96">They conjure worlds.</s><s xml:id="_tTZbSqX" coords="11,480.00,429.43,54.07,10.96;11,107.88,446.23,208.27,10.96">We do not know the world other than as story world.</s><s xml:id="_EvQ6uab" coords="11,316.15,446.23,92.59,10.96">Stories inform life.</s><s xml:id="_v2Wu6JG" coords="11,408.74,446.23,130.61,10.96;11,107.88,463.03,71.87,10.96">They hold us together and keep us apart.</s><s xml:id="_U9cQEcS" coords="11,179.75,463.03,211.50,10.96">We inhabit the great stories of our culture.</s><s xml:id="_7uXwQPG" coords="11,391.25,463.03,119.16,10.96">We live through stories.</s><s xml:id="_jusW5WJ" coords="11,510.42,463.03,19.36,10.96;11,107.88,480.07,221.49,10.96">We are lived by the stories of our race and place.</s><s xml:id="_VazNrDD" coords="11,329.37,480.07,178.89,10.96;11,107.88,496.87,325.45,10.96">It is this enveloping and constituting function of stories that is especially important to sense more fully.</s><s xml:id="_cxTh8BB" coords="11,433.33,496.87,96.19,10.96;11,107.88,513.67,368.09,10.96">We are, each of us, locations where the stories of our place and time become partially tellable.</s><s xml:id="_r5bGgdH" coords="11,475.97,513.67,47.96,10.96;11,107.88,530.47,66.68,10.96;11,71.88,547.27,467.43,10.96"><ref type="bibr" coords="11,475.97,513.67,47.96,10.96;11,107.88,530.47,60.53,10.96">(Howard, 2001, p. 192</ref>) Fairytales contain powerful messages that are extremely valuable tools for narrative therapists.</s><s xml:id="_GndJ6gN" coords="11,71.88,564.31,462.33,10.96;11,71.88,580.87,418.40,10.96">As the postmodern era continues, fantastical and fictional environments such as Hogwarts will continue to provide creative and socially applicable contexts for therapeutic learning.</s></p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="9,77.25,37.50,188.93,7.23;9,336.72,37.50,204.95,7.23"><p xml:id="_vuVtftx"><s xml:id="_2AmsV6s" coords="9,77.25,37.50,115.06,7.23">Journal of Integrated Studies -Vol.</s><s xml:id="_V9Q9cTu" coords="9,192.33,37.50,73.86,7.23;9,336.72,37.50,204.95,7.23">2, Winter/Spring 2011 L. Oldford -Harry Potter and Fairytales in Narrative Therapy 9</s></p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,71.88,92.47,449.58,10.96;12,107.88,109.27,420.06,10.96;12,107.88,126.31,33.75,10.96" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="12,250.43,92.47,271.03,10.96;12,107.88,109.27,145.31,10.96" xml:id="_vdmtBnD">Telling Tales to End Wails: Narrative Therapy Techniques and Rehabilitation Counselling</title>
+		<author>
+			<persName><forename type="first">Herbert</forename><forename type="middle">C</forename><surname>Biggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anton</forename><forename type="middle">D</forename><surname>Hinton-Bayre</surname></persName>
+		</author>
+		<idno type="DOI">10.1375/jrc.14.1.16</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FSg32Hw" coord="12,260.96,109.27,230.64,10.96">The Australian Journal of Rehabilitation Counselling</title>
+		<title level="j" type="abbrev">The Australian Journal of Rehabilitation Counselling</title>
+		<idno type="ISSN">1323-8922</idno>
+		<idno type="ISSNe">1838-6059</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="16" to="25" />
+			<date type="published" when="2008-11-01">2008</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Biggs, H., &amp; Hinton--Bayre, A. (2008). Telling tales to end wails: Narrative therapy techniques and rehabilitation counselling. Australian Journal of Rehabilitation Counselling, 14(1), 16--25.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,143.11,426.31,10.96;12,114.43,159.91,401.02,10.96;12,114.43,176.71,152.98,10.96" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="12,373.37,143.11,124.82,10.96;12,114.43,159.91,343.43,10.96" xml:id="_nz7VWsY">The effects of integrative reminiscence on meaning in life: Results of a quasi- experimental study</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">T</forename><surname>Bohlmeijer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><forename type="middle">J</forename><surname>Westerhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Emmerik-De Jong</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/13607860802343209</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FYwg2jc" coord="12,463.27,159.91,52.18,10.96;12,114.43,176.71,70.41,10.96">Aging &amp; Mental Health</title>
+		<title level="j" type="abbrev">Aging &amp; Mental Health</title>
+		<idno type="ISSN">1360-7863</idno>
+		<idno type="ISSNe">1364-6915</idno>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="639" to="646" />
+			<date type="published" when="2008-09">2008</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bohlmeijer, E., Westerhof, G., &amp; Emmerik--de Jong, M. (2008). The effects of integrative reminiscence on meaning in life: Results of a quasi--experimental study. Aging and Mental Health, 12(5), 639--646.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,193.51,428.21,10.96;12,114.43,210.55,395.34,10.96;12,114.43,227.35,108.47,10.96" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="12,159.82,193.51,340.27,10.96;12,114.43,210.55,180.55,10.96" xml:id="_xp99K25">Narrative Therapy: A Psychotherapeutic Approach in the Treatment of Adolescents With Asperger&apos;s Disorder</title>
+		<author>
+			<persName coords=""><forename type="first">Andrew</forename><surname>Cashin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1744-6171.2008.00128.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_SftzEPx" coord="12,300.14,210.55,209.63,10.96;12,114.43,227.35,38.06,10.96">Journal of Child and Adolescent Psychiatric Nursing</title>
+		<title level="j" type="abbrev">Child Adoles Psych Nursing</title>
+		<idno type="ISSN">1073-6077</idno>
+		<idno type="ISSNe">1744-6171</idno>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="48" to="56" />
+			<date type="published" when="2008-02">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cashin, A. (2008). Narrative therapy: A psychotherapeutic approach in the treatment of adolescents with Asperger&apos;s disorder. Journal of Child and Adolescent Psychiatric Nursing, 21(1), 48--56.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,244.15,434.61,10.96;12,114.43,260.95,190.47,10.96" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="12,233.15,244.15,217.81,10.96" xml:id="_rXfaz64">A Narrative Approach to Strategic Eclecticism</title>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><forename type="middle">T</forename><surname>Guterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Rudes</surname></persName>
+		</author>
+		<idno type="DOI">10.17744/mehc.27.1.tf591m8384t50njt</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DYMMmg2" coord="12,455.91,244.15,50.58,10.96;12,114.43,260.95,126.24,10.96">Journal of Mental Health Counseling</title>
+		<idno type="ISSN">1040-2861</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2005-01-01">2005</date>
+			<publisher>American Mental Health Counselors Association</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guterman, J., &amp; Rudes, J. (2005). A narrative approach to strategic eclecticism. Journal of Mental Health Counseling, 27(1), 1--12.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,277.75,410.85,10.96;12,114.43,294.55,155.54,10.96" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="12,158.71,277.75,318.61,10.96" xml:id="_ukbrNuc">Narrative therapy in rehabilitation after brain injury: a case study</title>
+		<author>
+			<persName coords=""><forename type="first">Barbara</forename><forename type="middle">A</forename><surname>Hogan</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/nre-1999-13104</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CxWNsnC" coord="12,114.43,294.55,98.73,10.96">NeuroRehabilitation</title>
+		<title level="j" type="abbrev">NRE</title>
+		<idno type="ISSN">1053-8135</idno>
+		<idno type="ISSNe">1878-6448</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="21" to="25" />
+			<date type="published" when="1999-08-01">1999</date>
+			<publisher>IOS Press</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hogan, B. (1999). Narrative therapy in rehabilitation after brain injury: A case study. NeuroRehabilitation, 13, 21--25.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,311.59,454.97,10.96;12,114.43,328.39,290.92,10.96" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="12,166.86,311.59,359.99,10.96;12,114.43,328.39,93.35,10.96" xml:id="_NWmAHnA">Culture tales: A narrative approach to thinking, cross-cultural psychology, and psychotherapy.</title>
+		<author>
+			<persName coords=""><forename type="first">George</forename><forename type="middle">S</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1037//0003-066x.46.3.187</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_nUwVVPN" coord="12,213.34,328.39,109.81,10.96">American Psychologist</title>
+		<title level="j" type="abbrev">American Psychologist</title>
+		<idno type="ISSN">0003-066X</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="187" to="197" />
+			<date type="published" when="1991">1991</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Howard, G. (1991). Culture tales: A narrative approach to thinking, cross--cultural psychology, and psychotherapy. American Psychologist, 46(3), 187--197.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,345.19,461.12,10.96;12,114.43,361.99,426.34,10.96;12,114.43,378.79,109.66,10.96" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="12,230.79,345.19,302.21,10.96;12,114.43,361.99,309.82,10.96" xml:id="_4EeRcgs">AN ANTI‐STIGMA APPROACH TO WORKING WITH PERSONS WITH SEVERE MENTAL DISABILITY: SEEKING REAL CHANGE THROUGH NARRATIVE CHANGE</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">C</forename><surname>Kondrat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbra</forename><surname>Teater</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02650530902723308</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xdVDzSD" coord="12,430.07,361.99,110.70,10.96;12,114.43,378.79,39.71,10.96">Journal of Social Work Practice</title>
+		<title level="j" type="abbrev">Journal of Social Work Practice</title>
+		<idno type="ISSN">0265-0533</idno>
+		<idno type="ISSNe">1465-3885</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="47" />
+			<date type="published" when="2009-03">2009</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kondrat, D., &amp; Teater, B. (2009). An anti--stigma approach to working with persons with severe mental disability: Seeking real change through narrative change. Journal of Social Work Practice, 23(1), 35--47.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,395.83,416.66,10.96;12,114.43,412.63,417.30,10.96;12,114.43,429.43,45.91,10.96" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="12,228.93,395.83,259.61,10.96;12,114.43,412.63,278.62,10.96" xml:id="_HMs5SKb">Using Narrative Therapy in Sport Psychology Practice: Application to a Psychoeducational Body Image Program</title>
+		<author>
+			<persName><forename type="first">Trisha</forename><surname>Leahy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rachel</forename><surname>Harrigan</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/tsp.20.4.480</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QxfV9Wh">The Sport Psychologist</title>
+		<idno type="ISSN">0888-4781</idno>
+		<idno type="ISSNe">1543-2793</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="480" to="494" />
+			<date type="published" when="2006-12">2006</date>
+			<publisher>Human Kinetics</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leahy, T., &amp; Harrigan, R. (2006). Using narrative therapy in sport psychology practice: Application to a psycho--educational body image program. The Sport Psychologist, 20, 480--494.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,446.23,466.55,10.96;12,114.43,463.03,347.53,10.96" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="12,144.06,446.23,394.37,10.96;12,114.43,463.03,86.83,10.96" xml:id="_Kp5dzND">Agency and Purpose in Narrative Therapy: Questioning the Postmodern Rejection of Metanarrative</title>
+		<author>
+			<persName coords=""><forename type="first">Cameron</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/009164710403200307</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9KKPVpk" coord="12,206.21,463.03,173.06,10.96">Journal of Psychology and Theology</title>
+		<title level="j" type="abbrev">Journal of Psychology and Theology</title>
+		<idno type="ISSN">0091-6471</idno>
+		<idno type="ISSNe">2328-1162</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="221" to="231" />
+			<date type="published" when="2004-09">2004</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, C. (2004). Agency and Purpose in narrative therapy: Questioning the postmodern rejection of meta--narrative. Journal of Psychology and Theology, 32(3), 221--231.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,480.07,438.57,10.96;12,114.43,496.87,297.23,10.96" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="12,253.51,480.07,256.95,10.96;12,114.43,496.87,48.17,10.96" xml:id="_Uk337uu">Introduction: Narrative in psychotherapy: The emerging metaphor</title>
+		<author>
+			<persName><forename type="first">Paulo</forename><forename type="middle">P P</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Óscar</forename><forename type="middle">F</forename><surname>Gonçalves</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(sici)1097-4679(199910)55:10&lt;1175::aid-jclp1&gt;3.0.co;2-s</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_evTdj6D" coord="12,168.62,496.87,142.23,10.96">Journal of Clinical Psychology</title>
+		<title level="j" type="abbrev">J. Clin. Psychol.</title>
+		<idno type="ISSN">0021-9762</idno>
+		<idno type="ISSNe">1097-4679</idno>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1175" to="1177" />
+			<date type="published" when="1999-10">1999</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Machato, P., &amp; Goncalves, O. (1999). Introduction: Narrative in psychology: The emerging metaphor. Journal of Clinical Psychology, 55(10), 1175--1177.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,513.67,461.75,10.96;12,114.43,530.47,228.55,10.96" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="12,215.58,513.67,318.05,10.96;12,114.43,530.47,16.71,10.96" xml:id="_H7tJfXC">Benefits of narrative therapy: holistic interventions at the end of life</title>
+		<author>
+			<persName><forename type="first">Agnes</forename><surname>Noble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/bjon.2005.14.6.17802</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bC9nZrM" coord="12,138.03,530.47,122.39,10.96">British Journal of Nursing</title>
+		<title level="j" type="abbrev">Br J Nurs</title>
+		<idno type="ISSN">0966-0461</idno>
+		<idno type="ISSNe">2052-2819</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="330" to="333" />
+			<date type="published" when="2005-03-01">2005</date>
+			<publisher>Mark Allen Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Noble, A., &amp; Jones, C. (2005). Benefits of narrative therapy: Holistic interventions at the end of life. British Journal of Nursing, 14(6), 330--333.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,547.27,456.83,10.96;12,114.43,564.31,77.14,10.96" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="12,160.75,547.27,164.51,10.96" xml:id="_jK5ZCuW">Putting Harry Potter on the Couch</title>
+		<author>
+			<persName coords=""><forename type="first">Colman</forename><surname>Noctor</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1359104506067879</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FYTQrfP" coord="12,331.07,547.27,192.59,10.96">Clinical Child Psychology and Psychiatry</title>
+		<title level="j" type="abbrev">Clin Child Psychol Psychiatry</title>
+		<idno type="ISSN">1359-1045</idno>
+		<idno type="ISSNe">1461-7021</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="579" to="589" />
+			<date type="published" when="2006-10">2006</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Noctor, C. (2006). Putting Harry Potter on the couch. Clinical Child Psychology and Psychiatry, 11(4), 579--589.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,581.11,440.64,10.96" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="12,181.56,581.11,139.61,10.96" xml:id="_qf3P7P9">Harry Potter&apos;s oedipal issues</title>
+		<author>
+			<persName coords=""><forename type="first">--</forename><surname>Noel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kKStwD3" coord="12,326.15,581.11,110.24,10.96">Psychoanalytic Studies</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="199" to="207" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Noel--Smith, K. (2001). Harry Potter&apos;s oedipal issues. Psychoanalytic Studies, 3(2), 199--207.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,597.91,427.81,10.96;12,114.43,614.71,425.32,10.96" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="12,162.44,597.91,337.25,10.96;12,114.43,614.71,157.89,10.96" xml:id="_CqzxdJy">Living stories, telling stories, changing stories: Experiential use of the relationship in narrative therapy.</title>
+		<author>
+			<persName coords=""><forename type="first">Alphons</forename><forename type="middle">J</forename><surname>Richert</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/1053-0479.13.2.188</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_b42TQrV" coord="12,277.78,614.71,179.81,10.96">Journal of Psychotherapy Integration</title>
+		<title level="j" type="abbrev">Journal of Psychotherapy Integration</title>
+		<idno type="ISSN">1053-0479</idno>
+		<idno type="ISSNe">1573-3696</idno>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="188" to="210" />
+			<date type="published" when="2003-06">2003</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richert, A. (2003). Living stories, telling stories, changing stories: Experiential use of the relationship in narrative therapy. Journal of Psychotherapy Integration, 13(2), 188--210.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,631.51,333.63,10.96" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coord="12,175.36,631.51,118.61,10.96" xml:id="_byAYmQ6">Harry Potter (boxed set)</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">K</forename><surname>Rowling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>Bloomsbury</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowling, J. K. (2004). Harry Potter (boxed set). London: Bloomsbury.</note>
+</biblStruct>
+
+<biblStruct coords="12,71.88,648.31,442.68,10.96;12,114.43,665.35,403.55,10.96;12,114.43,682.15,45.91,10.96" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="12,277.67,648.31,236.89,10.96;12,114.43,665.35,163.95,10.96" xml:id="_277rG6q">Narrative Therapy, Eating Disorders and Groups: Enhancing Outcomes in Rural NSW</title>
+		<author>
+			<persName><forename type="first">Mim</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kierrynn</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lisa</forename><surname>Mcphie</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/03124070600985970</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Yk2Q8WA">Australian Social Work</title>
+		<title level="j" type="abbrev">Australian Social Work</title>
+		<idno type="ISSN">0312-407X</idno>
+		<idno type="ISSNe">1447-0748</idno>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="391" to="405" />
+			<date type="published" when="2006-12">2006</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weber, M., Davis, K., &amp; McPhie, L. (2006). Narrative therapy, eating disorders, and groups: Enhancing outcomes in rural NSW. Australian Association of Social Workers, 59(4), 391--405.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

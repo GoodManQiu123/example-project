@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_uHBbg8n" coord="1,61.35,179.16,416.15,15.24">Teaching arithmetic to low-performing, low-SES first graders</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2005-01-08">8 January 2005</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,126.27,209.86,89.57,11.66"><forename type="first">Constance</forename><surname>Kamii</surname></persName>
+							<email>ckamii@uab.edu</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> University of Alabama at Birmingham, School of Education, 901 13th Street South, Birmingham, AL 35294-1250, USA</note>
+								<orgName type="department">School of Education</orgName>
+								<orgName type="institution">University of Alabama at Birmingham</orgName>
+								<address>
+									<addrLine>901 13th Street South</addrLine>
+									<postCode>35294-1250</postCode>
+									<settlement>Birmingham</settlement>
+									<region>AL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,235.73,209.86,107.81,11.66"><forename type="first">Judith</forename><surname>Rummelsburg</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Shore Acres Elementary School, Bay Point, CA, USA</note>
+								<orgName type="department">Shore Acres Elementary School</orgName>
+								<address>
+									<settlement>Bay Point</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,355.49,209.86,52.16,11.66"><forename type="first">Amy</forename><surname>Kari</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Mt. Diablo Unified School District, CA, USA</note>
+								<orgName type="department">Mt. Diablo Unified School District</orgName>
+								<address>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_xwVRHwy" coord="1,61.35,179.16,416.15,15.24">Teaching arithmetic to low-performing, low-SES first graders</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main" xml:id="_NyXM6n5">The Journal of Mathematical Behavior</title>
+						<title level="j" type="abbrev">The Journal of Mathematical Behavior</title>
+						<idno type="ISSN">0732-3123</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">24</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="39" to="50"/>
+							<date type="published" when="2005-01-08">8 January 2005</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4CA4ED4A0513E1A82C7CEF83F501DEE2</idno>
+					<idno type="DOI">10.1016/j.jmathb.2004.12.004</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T03:27+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_XEYjqHv">Piaget&apos;s theory</term>
+					<term xml:id="_ECtKnss">Low-performing first graders</term>
+					<term xml:id="_CXQmQm3">Low-SES first graders</term>
+					<term xml:id="_QWDGBcm">Cognitive foundation for arithmetic</term>
+					<term xml:id="_pQ4t2Z2">Constructivism</term>
+					<term xml:id="_bbXSetj">Logico-mathematical thinking</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_58qUmje"><p xml:id="_J45svhc"><s xml:id="_37Sdudn" coords="1,51.24,326.29,445.32,8.97;1,42.27,338.25,454.27,8.97;1,42.27,350.20,298.31,8.97">To develop their logico-mathematical foundation of number as described by <ref type="bibr" coords="1,370.29,326.29,50.83,8.97" target="#b7">Piaget (1947</ref><ref type="bibr" coords="1,425.53,326.29,17.61,8.97" target="#b7">Piaget ( /1950</ref><ref type="bibr" coords="1,451.45,326.29,18.04,8.97" target="#b9">Piaget ( , 1967</ref><ref type="bibr" coords="1,474.01,326.29,18.04,8.97" target="#b9">Piaget ( /1971</ref><ref type="bibr" coords="1,42.27,338.25,17.61,8.97" target="#b9">Piaget ( , 1971</ref><ref type="bibr" coords="1,64.28,338.25,22.01,8.97" target="#b9">Piaget ( /1974))</ref>, 26 low-performing, low-SES first graders were given physical-knowledge activities (e.g., Pick-Up Sticks and "bowling") during the math hour instead of math instruction.</s><s xml:id="_x3Nfkdr" coords="1,344.29,350.20,152.28,8.97;1,42.27,362.16,454.28,8.97;1,42.27,374.11,176.61,8.97">During the second half of the school year, when they showed "readiness" for arithmetic, the children were given arithmetic games and word problems that stimulated the exchange of viewpoints.</s><s xml:id="_PgAUEcF" coords="1,222.13,374.11,274.43,8.97;1,42.27,386.07,454.29,8.97;1,42.27,398.02,454.29,8.97;1,42.27,409.98,42.13,8.97">At the end of the year, the children in the experimental group were compared with a similar (low-performing, low-SES) group of 20 first graders who received traditional exercises focusing narrowly on number (e.g., counting objects, making one-to-one correspondences, and answering questions like 2 + 2).</s><s xml:id="_jT3mM73" coords="1,86.99,409.98,409.58,8.97;1,42.27,421.93,110.72,8.97">The experimental group was found to be superior both in mental arithmetic and in logical reasoning as revealed by word problems.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="544.0" lry="742.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_UsTfZKx"><p xml:id="_jb5ASu5"><s xml:id="_jQFHYeu" coords="1,54.23,515.10,442.34,9.86;1,42.27,528.05,220.56,9.86">Many children from low-SES backgrounds come to first grade with no logico-mathematical notion of number, but they are expected to learn arithmetic.</s><s xml:id="_VH94TAZ" coords="1,266.05,528.05,230.52,9.86;1,42.27,541.00,454.29,9.86;1,42.27,553.95,132.54,9.86">They may be able to count out four chips, but when the teacher hides some of them under his or her hand and asks, "How many am I hiding?" they give random numbers like "Eight."</s><s xml:id="_zMHKBUf" coords="1,178.00,553.95,318.57,9.86;1,42.27,566.91,454.30,9.86;1,42.27,579.86,158.34,9.86">These first graders are usually given activities aimed at developing their number concepts, e.g., exercises in counting objects, making one-to-one correspondences, and filling out workbooks with the aid of counters.</s><s xml:id="_hJBQyEE" coords="1,203.51,579.86,293.07,9.86;2,47.19,287.36,454.29,9.86;2,47.19,300.31,39.87,9.86">The purpose of this article is to present different kinds of activities that develop the logico-mathematical foundation of number and to report the results of using this way of teaching.</s></p><p xml:id="_nwRfC8b"><s xml:id="_jVfxHfj" coords="2,59.14,313.26,442.39,9.86;2,47.19,326.21,281.01,9.86">On the basis of Piaget's theory, we gave what we call "physical-knowledge activities (or games)" <ref type="bibr" coords="2,47.19,326.21,116.99,9.86" target="#b5">(Kamii &amp; DeVries, 1993)</ref> to the low-performing first graders.</s><s xml:id="_B2VZqq4" coords="2,332.39,326.21,169.09,9.86;2,47.19,339.16,165.77,9.86">An example of a physical-knowledge activity is the game of Pick-Up Sticks.</s><s xml:id="_RbwKDn7" coords="2,215.22,339.16,286.30,9.86;2,47.19,352.11,342.13,9.86">The game starts when one of two players holds 15 sticks vertically in a bunch and releases them so that they will scatter on the floor (see Fig. <ref type="figure" coords="2,377.45,352.11,3.96,9.86" target="#fig_0">1</ref>).</s><s xml:id="_Pd4uMWz" coords="2,392.27,352.11,109.21,9.86;2,47.19,365.06,267.07,9.86">The player then picks up one stick at a time trying not to make any other stick move.</s><s xml:id="_evs7m7E" coords="2,317.61,365.06,183.88,9.86;2,47.19,378.01,115.35,9.86">If he or she moves another stick, the turn passes to the other person.</s><s xml:id="_FXAvNTG" coords="2,165.28,378.01,239.56,9.86">The person who picks up the most sticks is the winner.</s></p><p xml:id="_wP6awsv"><s xml:id="_bWnCU9q" coords="2,59.14,390.97,442.33,9.86;2,47.19,403.92,317.85,9.86">To explain the logico-mathematical foundation of number that develops as children play this kind of game, it is necessary to review <ref type="bibr" coords="2,183.21,403.92,66.56,9.86" target="#b9">Piaget's (1971)</ref> framework of knowledge.</s><s xml:id="_55pRxSY" coords="2,367.67,403.92,133.81,9.86;2,47.19,416.87,454.26,9.86;2,47.19,429.82,361.86,9.86">As an epistemologist, he made a fundamental distinction among three kinds of knowledge according to their ultimate sources-physical knowledge, logico-mathematical knowledge, and social-conventional knowledge.</s><s xml:id="_VUazpMy" coords="2,412.87,429.82,88.59,9.86;2,47.19,442.77,454.29,9.86;2,47.19,455.72,38.65,9.86">Physical-knowledge (Fig. <ref type="figure" coords="2,71.40,442.77,4.11,9.86" target="#fig_1">2</ref>, first column) is knowledge of objects, such as the weight of a ball and the fact that it rolls and bounces.</s><s xml:id="_dTfmaE7" coords="2,89.02,455.72,412.46,9.86;2,47.19,468.67,246.05,9.86">Examples of social-conventional knowledge (Fig. <ref type="figure" coords="2,311.33,455.72,4.11,9.86" target="#fig_1">2</ref>, second column) are words such as "one, two, three" and "uno, dos, tres" and the rules of a game.</s><s xml:id="_G8UREPp" coords="2,296.04,468.67,205.45,9.86;2,47.19,481.62,434.01,9.86">Social-conventional knowledge has a source in conventions made by people, and physical-knowledge has a source in objects in the external world.</s></p><p xml:id="_SmyUCtq"><s xml:id="_daQDnU9" coords="2,59.14,494.58,442.32,9.86;2,47.19,507.53,272.58,9.86">While physical and social knowledge have sources outside the individual, logico-mathematical knowledge (Fig. <ref type="figure" coords="2,93.66,507.53,4.11,9.86" target="#fig_1">2</ref>, columns 3-7) originates inside each child's mind.</s><s xml:id="_WdjPgzj" coords="2,322.16,507.53,179.32,9.86;2,47.19,520.48,336.37,9.86">If we have a red Pick-Up Stick and a blue one, for example, we can say that they are different or that they are similar.</s><s xml:id="_zhA9AhY" coords="2,386.88,520.48,114.61,9.86;2,47.19,533.43,288.63,9.86">If we think about them as being different (because of their colors), they are different for us.</s><s xml:id="_skPArd6" coords="2,338.95,533.43,162.52,9.86;2,47.19,546.38,454.29,9.86">If, on the other hand, we think about them as being similar (because of their shape, length, and so on), the same two sticks become similar.</s><s xml:id="_jxqYcRR" coords="2,47.19,559.33,454.29,9.86;2,47.19,572.28,232.16,9.86">The reason why it is just as true to say that the sticks are different as it is to say that they are similar is that these are mental relationships that each person makes.</s><s xml:id="_NJtQ5Jt" coords="2,281.35,572.28,220.13,9.86;2,47.19,585.23,270.79,9.86">A third mental relationship an individual can create between the same two sticks is the numerical relationship two.</s><s xml:id="_7VHQJWm" coords="2,320.39,585.23,181.09,9.86;2,47.19,598.19,323.20,9.86">Logico-mathematical knowledge consists of mental relationships, which have their source in each individual's mind.</s><s xml:id="_QfMjJdA" coords="2,372.82,598.19,128.65,9.86;2,47.19,611.14,454.28,9.86">The two sticks are observable (physical-knowledge), but the number two is logico-mathematical knowledge, which is not observable.</s><s xml:id="_6et8TPf" coords="2,47.19,624.09,454.29,9.86;2,47.19,637.04,66.78,9.86">Children go on to coordinate such relationships and construct higher-order relationships such as addition (2 + 2 = 4).</s><s xml:id="_CN5R9m8" coords="2,117.56,637.04,383.93,9.86;2,47.19,649.26,107.31,10.96">Out of these kinds of additive relationships, they construct even higher, multiplicative relationships (2 × 2 = 4).</s><s xml:id="_aDK3eSk" coords="3,54.23,429.82,442.34,9.86;3,42.27,442.77,239.21,9.86">Logico-mathematical knowledge has many aspects, five of which appear in Fig. <ref type="figure" coords="3,411.71,429.82,4.11,9.86" target="#fig_1">2</ref>. The first column under logico-mathematical knowledge is classification.</s><s xml:id="_aSq8Mpb" coords="3,283.75,442.77,212.82,9.86;3,42.27,455.72,214.88,9.86">When children play Pick-Up Sticks, they classify the sticks to decide which one to pick up first.</s><s xml:id="_76kcW5x" coords="3,261.45,455.72,235.12,9.86;3,42.27,468.68,285.49,9.86">With the sticks in Fig. <ref type="figure" coords="3,368.63,455.72,4.11,9.86" target="#fig_0">1</ref>, they categorize them into "those that are not touching any other stick" and "all the others."</s><s xml:id="_7B6dA9e" coords="3,330.75,468.68,165.81,9.86;3,42.27,481.63,454.29,9.86;3,42.27,494.58,454.30,9.86;3,42.27,507.53,116.37,9.86">After picking up all those that are not touching any other stick, children are likely to look for those that are touching as few sticks as possible, thus seriating them from "the easiest" to "the hardest" to pick up (the second column under logicomathematical knowledge).</s><s xml:id="_rxXfY33" coords="3,161.76,507.53,334.81,9.86;3,42.27,520.48,454.29,9.86">As they seriate the sticks in this way, they pick up the easiest one first, then the next easiest, and so on, thus introducing a temporal order into their actions (the last column of Fig. <ref type="figure" coords="3,484.70,520.48,3.96,9.86" target="#fig_1">2</ref>).</s><s xml:id="_Ah5R6Qm" coords="3,42.27,533.43,454.30,9.86;3,42.27,546.38,425.69,9.86">When they decide to pick up the stick that is on top of another before picking up the one on the bottom, they make a spatial relationship as well as a temporal relationship (the last two columns of Fig. <ref type="figure" coords="3,456.10,546.38,3.96,9.86" target="#fig_1">2</ref>).</s><s xml:id="_baRUNUg" coords="3,470.40,546.38,26.17,9.86;3,42.27,559.33,454.29,9.86;3,42.27,572.28,293.15,9.86">When all the sticks have been picked up, they count their sticks thereby putting them into numerical relationships (the third column under logico-mathematical knowledge in Fig. <ref type="figure" coords="3,323.55,572.28,3.96,9.86" target="#fig_1">2</ref>).</s></p><p xml:id="_t3WAVqM"><s xml:id="_S3c8vs9" coords="3,54.23,585.24,442.32,9.86;3,42.27,598.19,288.83,9.86">Physical-knowledge activities are good for all three-and four-year-olds because the three kinds of knowledge are undifferentiated from birth to the age of about five.</s><s xml:id="_xypUGDY" coords="3,333.73,598.19,162.82,9.86;3,42.27,611.14,394.02,9.86">As children play physical-knowledge games like Pick-Up Sticks, they make the logico-mathematical relationships just described.</s><s xml:id="_mF5syPE" coords="3,438.42,611.14,58.12,9.86;3,42.27,624.09,454.30,9.86;3,42.27,637.04,97.58,9.86">These mental relationships constitute an interrelated network that begins to differentiate into separate systems around the age of five or six.</s><s xml:id="_uKjnTGu" coords="3,143.63,637.04,352.94,9.86;3,42.27,649.99,454.29,9.86;4,47.19,92.74,28.31,9.86">The conservation of number appears between five and six years of age among most middle-class children, and is evidence of the construction of a number system <ref type="bibr" coords="3,402.40,649.99,94.17,9.86;4,47.19,92.74,23.59,9.86" target="#b12">(Piaget &amp; Szeminska, 1965)</ref>.</s><s xml:id="_EDXx84A" coords="4,77.08,92.74,424.41,9.86;4,47.19,105.69,454.30,9.86;4,47.19,118.64,415.38,9.86">By age seven or eight, most middle-class children "group" other mental relationships they have been making <ref type="bibr" coords="4,81.64,105.69,60.93,9.86" target="#b7">(Piaget, 1950)</ref> and construct a classificatory system, a seriational system <ref type="bibr" coords="4,389.61,105.69,107.16,9.86" target="#b2">(Inhelder &amp; Piaget, 1964)</ref>, a system of space <ref type="bibr" coords="4,127.99,118.64,162.26,9.86" target="#b11">(Piaget, Inhelder, &amp; Szeminska, 1960</ref>), and a system of time <ref type="bibr" coords="4,397.47,118.64,60.38,9.86" target="#b8">(Piaget, 1969)</ref>.</s><s xml:id="_kgzdS6A" coords="4,465.57,118.64,35.91,9.86;4,47.19,131.60,329.27,9.86">Number is the first system that differentiates out of the undifferentiated network.</s><s xml:id="_UgnTJfM" coords="4,380.70,131.60,120.82,9.86;4,47.19,144.55,454.29,9.86;4,47.19,157.50,200.34,9.86">Physical-knowledge games are good for low-performing, low-SES first graders, who develop their logico-mathematical foundation more slowly than most middle-class children.</s><s xml:id="_4DWAMsv" coords="4,250.46,157.50,251.04,9.86;4,47.19,170.45,454.30,9.86;4,47.19,183.40,43.30,9.86">The logico-mathematical foundation of number that lowperforming, low-SES first graders have developed is at the level of most middle-class three-and fouryear-olds.</s></p><p xml:id="_KS49577"><s xml:id="_eNSm7sK" coords="4,59.15,196.35,442.36,9.86;4,47.19,209.30,398.37,9.86">We thus hypothesized that giving physical-knowledge games to low-performing, low-SES first graders during the math hour would strengthen their logico-mathematical foundation for arithmetic.</s><s xml:id="_QFfUWjs" coords="4,447.95,209.30,53.51,9.86;4,47.19,222.25,454.33,9.86;4,47.19,235.21,454.30,9.86;4,47.19,248.16,364.91,9.86">Our hypothesis was that the children who engaged in physical-knowledge activities would do better in arithmetic by the end of first grade than those who were given traditional exercises focusing narrowly on number (e.g., counting, making one-to-one correspondences, and answering questions like 2 + 2).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_3Pb6rjw">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1." xml:id="_z2a5F8H">Participants</head><p xml:id="_g47Z9Nv"><s xml:id="_SHFxQBn" coords="4,59.15,329.19,442.33,9.86;4,47.19,342.14,454.30,9.86;4,47.19,355.09,303.33,9.86">The participants were 26 low-performing first graders at the school where two of the authors used to teach constructivist math, and 20 low-performing first graders in a comparison school in the same, low-SES neighborhood in California with a traditional math program.</s><s xml:id="_UwfEcqW" coords="4,352.97,355.09,148.52,9.86;4,47.19,368.04,355.85,9.86">Both schools were Title-I schools, and the two groups are hereafter referred to as "Constructivist" and "Traditional."</s><s xml:id="_BMvdyb7" coords="4,405.69,368.04,95.79,9.86;4,47.19,380.99,454.30,9.86;4,47.19,393.94,36.22,9.86">All the students in the Traditional sample and 77% of those in the Constructivist sample were receiving free or reduced-price lunches.</s></p><p xml:id="_d2gxxqr"><s xml:id="_KAv9bnJ" coords="4,59.15,406.90,442.34,9.86;4,47.19,419.85,454.29,9.86;4,47.19,432.80,454.29,9.86;4,47.19,445.75,98.41,9.86">In the Constructivist school, a group of seven first-, second-, and third-grade teachers worked together, and all the children assigned to each class were categorized into "low" (first, second, and third graders), "regular" (first, second, and third graders), and "advanced" (first, second, and third graders) according to performance levels.</s><s xml:id="_MShWGzu" coords="4,148.93,445.75,352.56,9.86;4,47.19,458.70,66.22,9.86">The children were then pooled and regrouped into math groups we called "Just Right Groups."</s><s xml:id="_GKP2Caz" coords="4,116.17,458.70,385.31,9.86;4,47.19,471.65,164.85,9.86">This article deals only with the lowest performance group of 26 first graders assigned to 2 of the 7 teachers in two classrooms.</s></p><p xml:id="_MnFH8BV"><s xml:id="_NXCdZHs" coords="4,59.15,484.60,442.34,9.86;4,47.19,497.55,60.68,9.86">In the Traditional school, the low-performing first graders stayed in their heterogeneous classes during the math hour.</s><s xml:id="_NYmztMX" coords="4,109.45,497.55,392.04,9.86;4,47.19,510.51,454.29,9.86;4,47.19,523.46,364.12,9.86">The instruction the low-performing first graders received in the Traditional school was based on a state-approved textbook and workbook supplemented by manipulatives and activities recommended by <ref type="bibr" coords="4,61.98,523.46,104.34,9.86" target="#b0">Burns and Tank (1988)</ref> and <ref type="bibr" coords="4,189.79,523.46,82.96,9.86" target="#b13">Richardson (1999)</ref> focusing on number concepts.</s><s xml:id="_wenujQv" coords="4,415.14,523.46,86.35,9.86;4,47.19,536.41,454.30,9.86;4,47.19,549.36,204.69,9.86">The children in the Traditional group were chosen by four first-grade teachers who were asked to identify about six lowperforming children in their respective classes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2." xml:id="_mUZDAA8">The instruction received by the Constructivist group</head><p xml:id="_ubtpxg3"><s xml:id="_tk8V59s" coords="4,59.15,598.18,442.38,9.86;4,47.19,611.13,236.99,9.86">At the Constructivist school, the low-performing students engaged daily in a variety of physicalknowledge games during the first half of the year.</s><s xml:id="_KKy6GCV" coords="4,289.38,611.13,212.10,9.86;4,47.19,624.09,321.23,9.86">According to Piaget, children develop logicomathematically by thinking, i.e., by actively making mental relationships.</s><s xml:id="_32UaYa7" coords="4,371.00,624.09,130.46,9.86;4,47.19,637.04,454.29,9.86;4,47.19,649.99,146.72,9.86">Physical-knowledge activities are especially good for young children because they think hard as they act on objects to produce desired effects <ref type="bibr" coords="4,78.78,649.99,110.41,9.86" target="#b5">(Kamii &amp; DeVries, 1993)</ref>.</s><s xml:id="_vqbRgeB" coords="4,196.57,649.99,304.91,9.86;5,42.27,92.74,145.83,9.86">In Pick-Up Sticks, for example, they think hard trying to pick up each stick without moving any others.</s><s xml:id="_HhxudM5" coords="5,191.38,92.74,305.20,9.86;5,42.27,105.69,246.38,9.86">Since the feedback from the objects is clear and immediate, children can tell whether or not their thinking produced success.</s><s xml:id="_Z2EDxj8" coords="5,291.87,105.69,204.70,9.86;5,42.27,118.64,339.89,9.86">A characteristic of this thinking in play is that all the mental relationships discussed earlier develop in an interrelated way.</s><s xml:id="_Z5XBmrr" coords="5,385.81,118.64,110.75,9.86;5,42.27,131.60,454.29,9.86;5,42.27,144.55,166.28,9.86">For example, as children look for "the easiest stick to pick up next," they make spatial, temporal, and seriational relationships simultaneously in an interrelated way.</s></p><p xml:id="_eRGjSRJ"><s xml:id="_796m7kX" coords="5,54.23,157.50,442.38,9.86;5,42.27,170.45,355.72,9.86">Another example of a physical-knowledge game is "bowling," in which two children arrange 10 empty plastic bottles on the floor and roll a tennis ball to knock over as many as possible.</s><s xml:id="_mmgzvSW" coords="5,400.41,170.45,96.15,9.86;5,42.27,183.40,454.29,9.86;5,42.27,196.35,454.29,9.86;5,42.27,209.30,212.96,9.86">Children think hard in this game to figure out how best to arrange the pins (putting them into spatial relationships, see Fig. <ref type="figure" coords="5,469.51,183.40,4.56,9.86" target="#fig_1">2</ref>) and get immediate feedback from the objects about how successful they were in knocking them down (putting the pins into numerical relationships, see Fig. <ref type="figure" coords="5,243.36,209.30,3.96,9.86" target="#fig_1">2</ref>).</s><s xml:id="_SduBcur" coords="5,257.87,209.30,238.70,9.86;5,42.27,222.25,310.77,9.86">Based on the feedback from the objects, children think some more to figure out how to knock over even more bottles next time.</s><s xml:id="_fNxTnFm" coords="5,355.42,222.25,141.15,9.86;5,42.27,235.21,309.81,9.86">A variation they can introduce is the amount of force with which they roll the ball (seriation, see Fig. <ref type="figure" coords="5,340.21,235.21,3.96,9.86" target="#fig_1">2</ref>).</s><s xml:id="_t7pa5QS" coords="5,354.73,235.21,141.83,9.86;5,42.27,248.16,129.02,9.86">Another variation is the distance to the target (more seriation).</s><s xml:id="_9TNC6yJ" coords="5,174.30,248.16,322.27,9.86;5,42.27,261.11,454.30,9.86;5,42.27,274.06,62.40,9.86">Children also arrange the bottles into a big or bunched-up circle, a big or bunched-up rectangle, or a big or bunched-up triangle with the apex toward or away from them (spatial relationships).</s><s xml:id="_hHEDZS3" coords="5,106.48,274.06,265.40,9.86">Later, they begin to announce, "There's only one left standing.</s><s xml:id="_QzJ54A5" coords="5,373.69,274.06,122.88,9.86;5,42.27,287.01,62.40,9.86">So my score is 9" (numerical relationships).</s></p><p xml:id="_cwfPYQ4"><s xml:id="_zK5JnfX" coords="5,54.23,299.96,293.18,9.86">A third example of a physical-knowledge game is Balancing Cubes.</s><s xml:id="_rZGDHCz" coords="5,349.64,299.96,146.96,9.86;5,42.27,312.91,396.32,9.86">In this game, each pair of students is given an empty plastic bottle (with the lid on it), a paper plate, and a bag of Unifix cubes.</s><s xml:id="_C9y9qk2" coords="5,441.10,312.91,55.46,9.86;5,42.27,325.86,267.21,9.86">The children begin by balancing the plate on the plastic bottle (see Fig. <ref type="figure" coords="5,297.62,325.86,3.96,9.86">3</ref>).</s><s xml:id="_349F2P7" coords="5,312.21,325.86,184.36,9.86;5,42.27,338.82,281.13,9.86">They then take turns placing cubes one by one onto the plate trying not to knock the plate or the bottle over.</s><s xml:id="_96CgmB7" coords="5,325.88,338.82,170.69,9.86;5,42.27,351.77,284.96,9.86">Play continues until either all the cubes have been placed on the plate or the bottle and/or plate falls over.</s></p><p xml:id="_fPMHvED"><s xml:id="_e8THaqm" coords="5,54.23,364.72,165.04,9.86">Balancing Cubes is rich in geometry.</s><s xml:id="_eZBP9wR" coords="5,222.64,364.72,273.92,9.86;5,42.27,377.67,106.62,9.86">First, the center of the plate is an all-important consideration, but it is not observable.</s><s xml:id="_eXSGZgQ" coords="5,152.76,377.67,343.80,9.86;5,42.27,390.62,128.58,9.86">Some children construct it immediately, but others take a long time figuring out how to prevent a tumble.</s><s xml:id="_4f6asyS" coords="5,174.25,390.62,322.33,9.86;5,42.27,403.57,454.30,9.86;5,42.27,416.52,170.29,9.86">It is also important to think about distances from the center of the circle and to figure out that the farther a cube is from the center of the circle, the more likely it is to make the plate fall (serial correspondences).</s><s xml:id="_UFcRbHS" coords="5,216.13,416.52,280.44,9.86;5,42.27,429.47,454.30,9.86">The construction of symmetry is also needed to figure out that balance is achieved when two cubes are placed on the plate equidistant from the center symmetrically.</s><s xml:id="_kuaHPpu" coords="5,42.27,442.43,454.29,9.86;5,42.27,455.38,412.75,9.86">Children with lower levels of logico-mathematical knowledge can put only a few cubes on the plate because they cannot make the relationships necessary to understand the cause(s) of a tumble.</s><s xml:id="_hwHuyWU" coords="5,458.21,455.38,38.36,9.86;5,147.20,649.41,23.17,8.07">Children Fig. <ref type="figure" coords="5,163.64,649.41,3.36,8.07">3</ref>.</s><s xml:id="_PajpjQp" coords="5,173.75,649.41,217.89,8.07">A paper plate placed on a plastic bottle for Balancing Cubes.</s><s xml:id="_kXJmtfU" coords="6,47.19,92.74,454.30,9.86;6,47.19,105.69,24.04,9.86">at a higher level make all the relationships just described and are able to put a big heap of cubes on the plate.</s></p><p xml:id="_6YGezNv"><s xml:id="_45r9XX6" coords="6,59.14,118.64,442.34,9.86;6,47.19,131.60,187.61,9.86">When a child places a cube on the plate and makes it tumble, a disagreement may emerge about whether or not to include the last cube in the score.</s><s xml:id="_bKjxZXz" coords="6,237.75,131.60,263.72,9.86;6,47.19,144.55,432.27,9.86">One child may say that it should be included because it was used, but the other player may insist that it cannot be included because it was not used successfully.</s><s xml:id="_9Rr7tC5" coords="6,482.00,144.55,19.48,9.86;6,47.19,157.50,159.19,9.86">This disagreement is about classification.</s><s xml:id="_CYKcTDz" coords="6,209.42,157.50,292.07,9.86;6,47.19,170.45,59.50,9.86">Children can also be asked to think of other objects to use besides Unifix cubes.</s><s xml:id="_FfjTm48" coords="6,110.49,170.45,391.00,9.86;6,47.19,183.40,32.57,9.86">This modification encourages children to categorize objects according to their size and weight.</s></p><p xml:id="_MQsAsSB"><s xml:id="_vrdTKSW" coords="6,59.14,196.35,442.38,9.86;6,47.19,209.30,326.19,9.86">Physical-knowledge games thus encourage children to think, thereby developing their logicomathematical knowledge as a network of interrelated mental relationships.</s><s xml:id="_nzCswfr" coords="6,376.12,209.30,97.71,9.86">As <ref type="bibr" coords="6,391.03,209.30,59.35,9.86" target="#b9">Piaget (1974)</ref> said:</s></p><p xml:id="_yJMWPeC"><s xml:id="_Et5NYxT" coords="6,71.10,231.09,430.39,9.86;6,71.10,244.04,430.39,9.86;6,71.10,256.99,430.36,9.86;6,71.10,269.94,145.04,9.86">The child may on occasion be interested in seriating for the sake of seriating, in classifying for the sake of classifying, but, in general, it is when events or phenomena must be explained and goals attained through an organization of causes that operations [logico-mathematical knowledge] will be used [and developed] most (p.</s><s xml:id="_GgSCxAp" coords="6,218.88,269.94,17.35,9.86">17).</s></p><p xml:id="_HCYmZKT"><s xml:id="_6hJ7Pps" coords="6,59.14,291.73,442.37,9.86;6,47.19,304.68,249.11,9.86">After the winter break, the teachers of the Constructivist group began to introduce easy addition games to find out which children seemed "ready" for arithmetic.</s><s xml:id="_YhXsC24" coords="6,298.79,304.68,202.70,9.86;6,47.19,317.63,454.30,9.86;6,47.19,330.59,110.22,9.86">For example, using home-made cards showing 1, 2, 3, or 4 dots, the teachers introduced a game called Piggy Bank in which children try to make 5 with two cards <ref type="bibr" coords="6,92.43,330.59,60.27,9.86" target="#b3">(Kamii, 2000)</ref>.</s><s xml:id="_X4WvnYJ" coords="6,160.30,330.59,341.18,9.86;6,47.19,343.54,300.87,9.86">If a child played this game easily and eagerly, he or she went on to arithmetic with math games and word problems as described in <ref type="bibr" coords="6,285.36,343.54,58.14,9.86" target="#b3">Kamii (2000)</ref>.</s><s xml:id="_bmDfvQr" coords="6,351.41,343.54,150.07,9.86;6,47.19,356.49,121.01,9.86">If not, the child continued to play physical-knowledge games.</s><s xml:id="_NdZSgAf" coords="6,170.50,356.49,331.02,9.86;6,47.19,369.44,270.74,9.86">In other words, the first graders in the Constructivist group were not asked to deal with arithmetic until they showed their "readiness" for it.</s><s xml:id="_2zGGdQe" coords="6,320.64,369.44,180.85,9.86;6,47.19,382.39,454.31,9.86;6,47.19,395.34,139.06,9.86">By February, most of the low-performing first graders were solving word problems and playing card games, board games, or physical-knowledge games that involved arithmetic.</s><s xml:id="_Mcuw2wT" coords="6,189.57,395.34,311.94,9.86;6,47.19,408.29,454.29,9.86;6,47.19,421.24,176.37,9.86">For example, in a physical-knowledge game similar to Pick-Up Sticks using bottle tops, children now had to pick up bottle tops marked 5 and 1, 4 and 2, or 3 and 3 if the rule required making 6 with two bottle tops.</s><s xml:id="_VPmb2T4" coords="6,226.85,421.24,274.63,9.86;6,47.19,434.20,363.99,9.86">All the teachers in the Constructivist school used math games instead of worksheets, and teacher-created word problems rather than the textbook.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3." xml:id="_beQgeyk">Data collection 1.3.1. Pretest</head><p xml:id="_4ESHgyC"><s xml:id="_JMXVZF4" coords="6,59.14,503.24,442.33,9.86;6,47.19,516.19,140.70,9.86">The pretest was a traditional "readiness" test administered in September 2002, to all the first graders in the Title-I schools in the District.</s><s xml:id="_kYMFTgU" coords="6,189.74,516.19,311.74,9.86;6,47.19,529.14,65.48,9.86">It was an orally given, multiple-choice group test published by Houghton Mifflin (2002).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3.2." xml:id="_WpKhSk5">Posttest</head><p xml:id="_ubkqQy8"><s xml:id="_954EcJn" coords="6,59.14,572.28,269.06,9.86">The posttest was given in individual interviews in May 2003.</s><s xml:id="_NqBJ3nK" coords="6,331.13,572.28,170.35,9.86;6,47.19,585.23,111.87,9.86">It consisted of a mental arithmetic part and a word problems part.</s><s xml:id="_dWadDWw" coords="6,161.11,585.23,340.38,9.86;6,47.19,598.18,361.58,9.86">In the mental arithmetic part, the child and the interviewer both had a form with 17 addition problems photocopied in a column on the left hand side (see Table <ref type="table" coords="6,396.90,598.18,3.96,9.86">2</ref>).</s><s xml:id="_F2aSTRb" coords="6,411.76,598.18,89.72,9.86;6,47.19,611.14,382.39,9.86">The child was asked to give the answer orally to each question and to slide a ruler down to the next question.</s><s xml:id="_G9KxHeZ" coords="6,432.20,611.14,69.29,9.86;6,47.19,624.09,403.27,9.86">The interviewer recorded what the child said and used one dot per second to record the child's reaction time.</s></p><p xml:id="_wr3rXM3"><s xml:id="_SUnJXvH" coords="6,59.14,637.04,422.03,9.86">In the word problems part of the interview, each problem was photocopied on a separate sheet.</s><s xml:id="_5YxrqFs" coords="6,484.44,637.04,17.04,9.86;6,47.19,649.99,454.29,9.86">The child was given a pencil and told, "You can draw or write anything you need to, to solve this problem."</s></p><p xml:id="_b3GsjPu"><s xml:id="_TuySyJP" coords="7,42.27,92.74,338.93,9.86">The following four problems were read to the child as many times as desired:</s></p><p xml:id="_asTkbzV"><s xml:id="_GKTkCWt" coords="7,42.27,113.35,8.22,9.86">1.</s><s xml:id="_Nzt2QgQ" coords="7,55.67,113.35,185.42,9.86">People started to get in line to go to lunch.</s><s xml:id="_GA78aBv" coords="7,243.80,113.35,252.77,9.86;7,55.67,126.30,121.43,9.86">I was standing in line and counted 3 people in front of me and 6 people in back of me.</s><s xml:id="_KFckKV5" coords="7,179.85,126.30,237.87,9.86;7,42.27,139.25,174.51,9.86">How many people were in line altogether at that time? 2. I am getting soup ready for 4 people.</s><s xml:id="_MArXCrh" coords="7,219.41,139.25,80.15,9.86">So I have 4 bowls.</s><s xml:id="_btDJhCZ" coords="7,302.19,139.25,194.38,9.86;7,55.67,152.20,111.70,9.86;7,42.27,165.15,8.22,9.86">If I want to put 2 crackers in each bowl, how many crackers do I need? 3.</s><s xml:id="_FwZ4TCQ" coords="7,55.67,165.15,91.29,9.86">There are 3 children.</s><s xml:id="_W9hv7UG" coords="7,149.70,165.15,166.16,9.86">There are 6 cookies for them to share.</s><s xml:id="_EU2jg35" coords="7,318.60,165.15,172.44,9.86;7,42.27,178.11,199.99,9.86">How many cookies will each child get? 4. Let's pretend that I had 12 pieces of candy.</s><s xml:id="_kbVNewr" coords="7,244.79,178.11,251.78,9.86;7,55.67,191.06,251.86,9.86">If I gave 2 pieces to my mother, 2 pieces to my father, and 2 pieces to my sister, how many pieces would I have left?</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_6fnWQEZ">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_B9Y7u9G">Pretest</head><p xml:id="_zYuTgNb"><s xml:id="_a2XnXXr" coords="7,54.23,282.55,442.34,9.86;7,42.27,295.51,454.30,9.86;7,42.27,308.46,32.57,9.86">As can be seen in Table <ref type="table" coords="7,159.38,282.55,4.11,9.86" target="#tab_0">1</ref>, the Constructivist and Traditional groups were essentially at the same level at the beginning of first grade, with a mean of 78.6 (percent correct) and 79.38, respectively, for the two groups.</s><s xml:id="_MXEXMqK" coords="7,77.58,308.46,321.63,9.86">The standard deviations of the two groups were also essentially the same.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_U6q49Y4">Posttest</head><p xml:id="_S5eJeYr"><s xml:id="_AWUKv6W" coords="7,54.23,362.78,442.33,9.86;7,42.27,375.73,46.37,9.86">Table <ref type="table" coords="7,81.01,362.78,5.48,9.86">2</ref> about mental arithmetic includes only the percentage in each group giving the correct answer within 3 s.</s><s xml:id="_2h6sftk" coords="7,92.69,375.73,403.88,9.86;7,42.27,388.68,454.29,9.86">As can be seen in this table, the Constructivist group did better on almost all the mental arithmetic problems, and the differences between the two groups were significant on 8 of the 17 problems.</s></p><p xml:id="_2fRmXge"><s xml:id="_HNV2Guq" coords="7,54.23,401.63,442.35,9.86;7,42.27,414.58,333.62,9.86">As can be seen in Table <ref type="table" coords="7,163.09,401.63,4.11,9.86" target="#tab_1">3</ref>, about word problems, the Constructivist group did better on all the word problems, and the differences were highly significant on two of the four items.</s><s xml:id="_aj7vm2F" coords="7,377.81,414.58,118.76,9.86;7,42.27,427.54,344.68,9.86">Since the numbers involved in the word problems were small, all the first graders were able to add them.</s><s xml:id="_sGgTsYf" coords="7,390.50,427.54,106.08,9.86;7,42.27,440.49,230.05,9.86">The word problems can therefore be said to be a test of the children's logic.</s><s xml:id="_ayTXCkr" coords="7,275.64,440.49,220.93,9.86;7,42.27,453.44,454.30,9.86;7,42.27,466.39,197.13,9.86">For example, if the problem said that "there are 3 people in front of me and 6 people in back of me," the logical way to find out how many people are in line is to add the two numbers and one more.</s></p><p xml:id="_6ZyZtgs"><s xml:id="_dj5TDXF" coords="7,54.23,479.34,442.33,9.86;7,42.27,492.29,307.20,9.86">This problem about the lunch line turned out to be too hard for both groups because the children were too egocentric to think about themselves from the perspective of others.</s><s xml:id="_w29Y4EH" coords="7,351.57,492.29,145.01,9.86;7,42.27,505.24,325.70,9.86">The great majority of both groups (85% and 80%, respectively) failed to include themselves and did 3 + 6 = 9.</s><s xml:id="_6NX7k2C" coords="7,370.41,505.24,126.16,9.86;7,42.27,518.19,454.30,9.86;7,42.27,531.15,215.04,9.86">It must nevertheless be noted that eight percent (two children) in the Constructivist group, and no one in the Traditional group, got the answer of 10 by including themselves in the line.</s></p><p xml:id="_42mQUuA"><s xml:id="_WPGypsT" coords="7,54.23,544.10,367.06,9.86">The second problem about crackers to put in 4 bowls was also difficult for both groups.</s><s xml:id="_DmZU3Es" coords="7,423.02,544.10,73.55,9.86;7,42.27,557.05,454.30,9.86;8,47.19,344.78,454.30,9.86">Nineteen percent of the Constructivist group and 5% of the Traditional group succeeded in putting the numbers into the correct logical relationship (2 + 2 + 2 + 2 crackers), but this difference was not statistically significant.</s><s xml:id="_AueSmtP" coords="8,47.19,357.73,454.30,9.86;8,47.19,370.68,454.29,9.86;8,47.19,383.63,54.49,9.86">About a fourth of both groups (23% and 25%, respectively) added all the numbers they saw on the paper and did 4 + 4 + 2. A small minority in both groups (12% and 20%, respectively) put 4 and 2 into an additive relationship.</s></p><p xml:id="_BgAGv6u"><s xml:id="_GrUGbRR" coords="8,59.14,396.58,442.34,9.86;8,47.19,409.53,404.66,9.86">The third problem about 6 cookies to share equally among three children was much easier for the Constructivist group, and the difference between the two groups was significant at the .001</s><s xml:id="_RMHCqNn" coords="8,455.13,409.53,23.61,9.86">level.</s><s xml:id="_aR4XVc7" coords="8,482.02,409.53,19.47,9.86;8,47.19,422.48,454.30,9.86;8,47.19,435.43,94.87,9.86">Half of the Constructivist group and none of the Traditional group succeeded in putting the numbers into relationship logically.</s><s xml:id="_fVNexh2" coords="8,144.80,435.43,292.39,9.86">(Many in both groups, 38% and 50%, respectively, added 3 and 6.)</s><s xml:id="_X3EHxSJ" coords="9,54.23,92.74,442.34,9.86;9,42.27,105.69,454.27,9.86;9,42.27,118.64,53.87,9.86">The fourth problem about giving two pieces of candy to each of three people was easy for the Constructivist group, and 73% gave the correct answer by putting the numbers into a logical relationship (12-2-2-2).</s><s xml:id="_8jfB3Uh" coords="9,99.51,118.64,397.06,9.86;9,42.27,131.60,267.94,9.86">Only 25% of the Traditional group put the numbers into this logical relationship, and the difference between the two groups was significant at the .001</s><s xml:id="_hWPztcW" coords="9,312.96,131.60,23.61,9.86">level.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_fqj8Kj6">Discussion</head><p xml:id="_UdTUYBW"><s xml:id="_cKybVVm" coords="9,54.23,196.69,442.34,9.86;9,42.27,209.65,454.30,9.86;9,42.27,222.60,221.55,9.86">Although the children in the Constructivist group did not have traditional instruction in arithmetic during the first half of the school year, they did considerably better on the posttest than those who received traditional math instruction during the entire year.</s><s xml:id="_JjAjwHE" coords="9,267.11,222.60,229.47,9.86;9,42.27,235.55,245.19,9.86">The mental arithmetic test was a kind of speed test, although the children were not told that speed mattered.</s><s xml:id="_fBaMh3f" coords="9,290.31,235.55,206.27,9.86;9,42.27,248.50,454.30,9.86;9,42.27,261.45,132.42,9.86">The superior performance of the Constructivist group can be attributed to the logico-mathematical foundation the children built by thinking hard in physical-knowledge activities.</s><s xml:id="_KxxSQPa" coords="9,177.14,261.45,319.43,9.86;9,42.27,274.40,454.29,9.86;9,42.27,287.35,52.38,9.86"><ref type="bibr" coords="9,177.14,261.45,116.29,9.86" target="#b10">Piaget and Inhelder (1973)</ref> showed in their book on memory that children at a higher level of logico-mathematical knowledge remember numerical facts better than those at a lower level.</s><s xml:id="_DPEuXKU" coords="9,98.74,287.35,397.83,9.86;9,42.27,300.30,377.88,9.86">Children who have constructed a solid logico-mathematical foundation can therefore be expected to construct sums more easily than those who do not have such a foundation.</s><s xml:id="_brrpZas" coords="9,422.90,300.30,73.68,9.86;9,42.27,313.26,454.29,9.86;9,42.27,326.21,289.70,9.86">Since memory is a reconstruction of a previous construction, it is not surprising that children in the Constructivist group did better in mental arithmetic than those in the Traditional group.</s></p><p xml:id="_fKAJAP9"><s xml:id="_T9pWasq" coords="9,54.23,339.16,442.34,9.86;9,42.27,352.11,238.20,9.86">Since the word problems involved only small numbers that all the children in both groups could add, the word problems were a test of logic as stated before.</s><s xml:id="_hGR9yPD" coords="9,282.85,352.11,213.71,9.86;9,42.27,365.06,454.30,9.86;9,42.27,378.01,317.50,9.86">With respect to the division of six cookies among three children, half of the Constructivist group and no one in the Traditional group figured out that they could give one cookie to everybody and one more, making a total of two.</s><s xml:id="_C2F6dgg" coords="9,362.31,378.01,134.25,9.86;9,42.27,390.96,454.30,9.86;9,42.27,403.91,414.37,9.86">Likewise, the great majority of the Constructivist group (73%) and only 25% of the Traditional group reasoned logically that the way to answer the last question about giving two pieces of candy to three people was to do 12-2-2-2.</s></p><p xml:id="_cM2UnBM"><s xml:id="_3HGnRKw" coords="9,54.23,416.87,442.34,9.86;9,42.27,429.82,454.29,9.86;9,42.27,442.77,454.30,9.86;9,42.27,455.72,182.16,9.86">The results of this study must also be interpreted in light of similar research conducted during the previous year, <ref type="bibr" coords="9,107.61,429.82,20.82,9.86">2001</ref><ref type="bibr" coords="9,133.64,429.82,20.82,9.86" target="#b1">-2002</ref><ref type="bibr" coords="9,175.50,429.82,20.82,9.86">. In 2001</ref><ref type="bibr" coords="9,201.53,429.82,20.82,9.86" target="#b1">-2002</ref>, two groups of low-performing first graders were selected in the same way in the same two schools and interviewed in May with questions that were identical or very similar to the ones described earlier.</s><s xml:id="_PgthPhe" coords="9,227.48,455.72,269.08,9.86;9,42.27,468.67,345.87,9.86">The findings were similar to those reported earlier in that the Constructivist group did better both in mental arithmetic and in word problems.</s><s xml:id="_rdueaS4" coords="9,390.64,468.67,105.93,9.86;9,42.27,481.62,453.12,9.86">However, as can be seen in Tables <ref type="table" coords="9,84.62,481.62,5.48,9.86" target="#tab_2">4</ref> and<ref type="table" coords="9,111.40,481.62,4.11,9.86">5</ref>, many more statistically significant differences were found in 2003 than in May 2002.</s></p><p xml:id="_RUsrfMV"><s xml:id="_hcgBycA" coords="9,54.23,494.57,442.34,9.86;9,42.27,507.52,256.60,9.86">The low-performing first graders in the Constructivist school went on to second and third grade, where they continued to be encouraged to do their own thinking.</s><s xml:id="_yFbbuVc" coords="9,301.97,507.52,194.61,9.86;9,42.27,520.47,454.29,9.86;9,42.27,533.43,218.18,9.86">They thus invented their own ways of doing multidigit addition and subtraction as described in <ref type="bibr" coords="9,270.84,520.47,60.22,9.86" target="#b4">Kamii (2004)</ref> while the children in the Traditional school were taught "carrying" and "borrowing."</s><s xml:id="_qdjQpts" coords="9,264.80,533.43,231.77,9.86;9,42.27,546.38,88.03,9.86">Table <ref type="table" coords="9,293.22,533.43,5.48,9.86" target="#tab_4">6</ref> shows the findings from a place-value test given in May 2002.</s><s xml:id="_6CBPZvj" coords="9,133.92,546.38,362.68,9.86;9,42.27,559.33,361.64,9.86">The second graders in the Constructivist group in this table engaged in physicalknowledge activities when they were low-performing first graders in 2000-2001.</s><s xml:id="_6rMpGKT" coords="9,407.44,559.33,89.12,9.86;9,42.27,572.28,454.32,9.86;9,42.27,585.23,99.59,9.86">The third graders in the Constructivist group engaged in physical-knowledge activities when they were low-performing first graders in 1999-2000.</s><s xml:id="_7r7qgfh" coords="9,145.24,585.23,351.33,9.86;9,42.27,598.18,280.96,9.86">The Traditional group received traditional instruction in first, second, and third grade that included the teaching of "carrying" and "borrowing."</s><s xml:id="_umNNEnt" coords="9,326.19,598.18,170.38,9.86;9,42.27,611.13,387.44,9.86">(For evidence of the harmful effects of these algorithms, the reader is referred to <ref type="bibr" coords="9,224.87,611.13,59.35,9.86" target="#b4">Kamii (2004)</ref> or <ref type="bibr" coords="9,298.83,611.13,121.98,9.86" target="#b6">Kamii and Dominick (1998)</ref>.)</s></p><p xml:id="_ApbBbyj"><s xml:id="_jRf7JUS" coords="9,54.23,624.08,442.34,9.86;9,42.27,637.04,80.90,9.86">In the place-value test, each child was first shown a card with "17" written on it and asked to count out "this many chips."</s><s xml:id="_3GfVCdb" coords="9,126.19,637.04,370.38,9.86;9,42.27,649.99,101.88,9.86">The interviewer then circled the "7" of "17" asking the child to show with the chips "what this part means."</s><s xml:id="_xGvaNgc" coords="9,146.81,649.99,185.91,9.86">(No one had any trouble showing 7 chips.)</s><s xml:id="_NYDW7CV" coords="9,335.39,649.99,161.18,9.86;10,47.19,349.26,319.97,9.86">The interviewer went on to circle the "1" of "17" asking the child to show with the chips "what this part means."</s><s xml:id="_4ePwJGP" coords="10,369.28,349.26,132.21,9.86;10,47.19,362.21,454.29,9.86;10,47.19,375.16,162.32,9.86">Many children responded with one chip, whereupon they were asked, "You used these chips (pointing) for this part (the "7"), and this chip (pointing) for this part (the "1").</s><s xml:id="_sjhY2zW" coords="10,212.06,375.16,278.96,9.86">But you didn't use any of these (pointing to the 9 unused chips).</s><s xml:id="_RpABtXT" coords="10,493.57,375.16,7.91,9.86;10,47.19,388.11,324.64,9.86">Is this how it's supposed to be, or is there something strange or funny here?"</s><s xml:id="_zG6cDkZ" coords="11,54.23,249.24,442.33,9.86;11,42.27,262.19,239.56,9.86">As can be seen in Table <ref type="table" coords="11,161.40,249.24,4.11,9.86" target="#tab_4">6</ref>, 67% of the second graders in the Constructivist group and only 4% of the Traditional group showed 10 chips for the "1" in "17."</s><s xml:id="_XFAzMyC" coords="11,284.70,262.19,211.87,9.86;11,42.27,275.14,325.15,9.86">In third grade, 100% of the Constructivist group and only 35% of the Traditional group showed 10 chips for the "1" in "17."</s><s xml:id="_G3JDrGX" coords="11,369.81,275.14,126.75,9.86;11,42.27,288.09,146.27,9.86">The differences at both grade levels were significant at the .001</s><s xml:id="_T3qCCuu" coords="11,191.28,288.09,23.61,9.86">level.</s></p><p xml:id="_bSHw3AJ"><s xml:id="_SqNp57Z" coords="11,54.23,301.05,442.34,9.86;11,42.27,314.00,454.29,9.86">These findings about the results of instruction in grades 1, 2, and 3 indicate that it is not enough to teach low-performing, low-SES children only in first grade to think hard in their own ways.</s><s xml:id="_7ha5TqZ" coords="11,42.27,326.95,454.30,9.86;11,42.27,339.90,454.29,9.86;11,42.27,352.85,45.36,9.86">Logico-mathematical knowledge develops over many years starting in infancy, and it is important for its development that children be mentally active from the preschool years to the end of their schooling.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_5h3VFpp">Just Right Groups</head><p xml:id="_NEdfnp6"><s xml:id="_KM5VagV" coords="11,54.23,416.75,442.35,9.86;11,42.27,429.70,39.10,9.86">An important aspect of our constructivist teaching was the grouping of children into "Just Right Groups."</s><s xml:id="_bHJZXGh" coords="11,85.04,429.70,411.53,9.86;11,42.27,442.65,454.30,9.86;11,42.27,455.60,206.81,9.86">These were flexible groups that were at about the same level of development, and unlike in "homogeneous" groups, the children were moved from one group to another as soon as the teacher felt that another group would be more appropriate.</s><s xml:id="_NNKHQDH" coords="11,252.27,455.60,244.31,9.86;11,42.27,468.55,244.54,9.86">The children were also free to try another group and to decide if they functioned better in one group or another.</s></p><p xml:id="_BThs6pz"><s xml:id="_3uDHs24" coords="11,54.23,481.50,442.35,9.86;11,42.27,494.45,246.76,9.86">Logico-mathematical knowledge is constructed by each child's thinking, and this thinking is stimulated by the exchange of viewpoints among children.</s><s xml:id="_m3vGp9w" coords="11,293.17,494.45,203.40,9.86;11,42.27,507.41,454.29,9.86;11,42.27,520.36,72.05,9.86">To exchange viewpoints, children must be at about the same level of logic because if others are at a much higher level, it is impossible to understand their arguments.</s><s xml:id="_Pw9X9p3" coords="11,118.08,520.36,378.49,9.86;11,42.27,533.31,68.44,9.86">If, on the other hand, others are at a much lower level, their statements are too boring to listen to.</s><s xml:id="_tRzQrd9" coords="11,114.34,533.31,382.23,9.86;11,42.27,546.26,454.30,9.86;11,42.27,559.21,24.66,9.86">"Homogeneous groups" have been out of fashion for some time, but this opinion has been based on the assumption that children learn by internalizing the knowledge that is presented to them.</s><s xml:id="_veVeH9p" coords="11,69.55,559.21,427.01,9.86;11,42.27,572.16,28.92,9.86">"Just Right Groups" facilitate children's construction of logico-mathematical knowledge from the inside.</s></p><p xml:id="_CufqGGq"><s xml:id="_qarPPhN" coords="11,54.23,585.11,442.34,9.86">We worked hard from 1998 to 2003 to perfect our constructivist math program for the entire school.</s><s xml:id="_3WNWSgt" coords="11,42.27,598.06,454.30,9.86;11,42.27,611.02,337.71,9.86">In September 2003, however, because of the "No Child Left Behind" legislation, our school was forced to go back to the traditional method of teaching that did not work before.</s><s xml:id="_NbgzRvb" coords="11,384.12,611.02,112.46,9.86;11,42.27,623.97,298.37,9.86">We were, thus, forced to abandon the "Just Right Groups" and physical-knowledge activities.</s><s xml:id="_zUPH8Pd" coords="11,343.30,623.97,153.24,9.86;11,42.27,636.92,454.30,9.86;11,42.27,649.87,38.50,9.86">It is truly ironic that, in <ref type="bibr" coords="11,447.24,623.97,49.31,9.86;11,42.27,636.92,66.88,9.86">2003-2004 and 2004-2005</ref>, we are leaving our low-performing children behind in the name of "No Child Left Behind."</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,169.83,245.74,209.02,8.07"><head>Fig. 1 .</head><label>1</label><figDesc><div><p xml:id="_vrEMTeG"><s xml:id="_4ms5C3y" coords="2,169.83,245.74,23.17,8.07">Fig. 1.</s><s xml:id="_Ug6fmef" coords="2,196.38,245.74,182.47,8.07">Fifteen Pick-Up Sticks, which have been scattered.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="3,134.40,398.45,270.05,8.07"><head>Fig. 2 .</head><label>2</label><figDesc><div><p xml:id="_eWczAhP"><s xml:id="_qgJg2aa" coords="3,134.40,398.45,270.05,8.07">Fig. 2. Aspects of knowledge fostered by three physical-knowledge games.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="7,42.27,586.25,454.30,63.81"><head>Table 1</head><label>1</label><figDesc><div><p><s xml:id="_U3B5yAd" coords="7,42.27,597.21,290.77,8.07">Mean and S.D. of the two groups of first graders on the pretest(September 2002)</s></p></div></figDesc><table coords="7,276.29,614.05,220.28,8.07"><row><cell>Mean</cell><cell>S.D.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="8,47.19,461.72,454.30,188.35"><head>Table 3</head><label>3</label><figDesc><div><p><s xml:id="_wzmuN8u" coords="8,47.19,472.67,234.42,8.07">Responses of the two groups to word problems(in %, May 2003)</s></p></div></figDesc><table coords="8,47.19,489.51,454.30,160.55"><row><cell></cell><cell>Constructivist (n = 26)</cell><cell>Traditional (n = 20)</cell><cell>Difference</cell><cell>Significance</cell></row><row><cell>1. Line</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>10 (correct ans.)</cell><cell>8</cell><cell>0</cell><cell>8</cell><cell>n.s.</cell></row><row><cell>9 (3 + 6)</cell><cell>85</cell><cell>80</cell><cell></cell><cell></cell></row><row><cell>2. Crackers</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>8 (correct ans.)</cell><cell>19</cell><cell>5</cell><cell>14</cell><cell>n.s.</cell></row><row><cell>10 (4 + 4 + 2)</cell><cell>23</cell><cell>25</cell><cell></cell><cell></cell></row><row><cell>6 (4 + 2)</cell><cell>12</cell><cell>20</cell><cell></cell><cell></cell></row><row><cell>3. Cookies</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>2 (correct ans.)</cell><cell>50</cell><cell>0</cell><cell>50</cell><cell>.001</cell></row><row><cell>9 (3 + 6)</cell><cell>38</cell><cell>50</cell><cell></cell><cell></cell></row><row><cell>4. Candy</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>6 (correct ans.)</cell><cell>73</cell><cell>25</cell><cell>48</cell><cell>.001</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="10,47.19,92.73,454.30,228.49"><head>Table 4</head><label>4</label><figDesc><div><p><s xml:id="_N2DJ8wu" coords="10,47.19,103.69,394.89,8.07">Percentage of two groups of first graders giving the correct answer within 3 s in mental arithmetic(May 2002)</s></p></div></figDesc><table coords="10,47.19,120.53,454.30,200.69"><row><cell></cell><cell>Constructivist (n = 18)</cell><cell>Traditional (n = 26)</cell><cell>Difference</cell><cell>Significance</cell></row><row><cell>2 + 2</cell><cell>94</cell><cell>88</cell><cell>6</cell><cell>n.s.</cell></row><row><cell>5 + 5</cell><cell>78</cell><cell>81</cell><cell>-3</cell><cell>n.s.</cell></row><row><cell>3 + 3</cell><cell>72</cell><cell>73</cell><cell>-1</cell><cell>n.s.</cell></row><row><cell>4 + 1</cell><cell>61</cell><cell>46</cell><cell>15</cell><cell>n.s.</cell></row><row><cell>1 + 5</cell><cell>61</cell><cell>38</cell><cell>23</cell><cell>n.s.</cell></row><row><cell>4 + 4</cell><cell>78</cell><cell>58</cell><cell>20</cell><cell>n.s.</cell></row><row><cell>2 + 3</cell><cell>39</cell><cell>23</cell><cell>16</cell><cell>n.s.</cell></row><row><cell>4 + 2</cell><cell>44</cell><cell>19</cell><cell>25</cell><cell>.05</cell></row><row><cell>6 + 6</cell><cell>50</cell><cell>27</cell><cell>23</cell><cell>n.s.</cell></row><row><cell>5 + 3</cell><cell>39</cell><cell>31</cell><cell>8</cell><cell>n.s.</cell></row><row><cell>8 + 2</cell><cell>28</cell><cell>23</cell><cell>5</cell><cell>n.s.</cell></row><row><cell>2 + 5</cell><cell>39</cell><cell>19</cell><cell>20</cell><cell>n.s.</cell></row><row><cell>4 + 5</cell><cell>28</cell><cell>4</cell><cell>24</cell><cell>.05</cell></row><row><cell>5 + 6</cell><cell>6</cell><cell>4</cell><cell>2</cell><cell>n.s.</cell></row><row><cell>3 + 4</cell><cell>22</cell><cell>0</cell><cell>22</cell><cell>.01</cell></row><row><cell>3 + 6</cell><cell>11</cell><cell>0</cell><cell>11</cell><cell>.05</cell></row><row><cell>4 + 6</cell><cell>6</cell><cell>8</cell><cell>-2</cell><cell>n.s.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="10,47.19,418.88,454.30,231.18"><head></head><label></label><figDesc><div><p xml:id="_7JDyFpa"><s xml:id="_6TWgSwz" coords="10,95.19,631.03,74.69,8.07">There are 3 children.</s><s xml:id="_dEfJujP" coords="10,172.12,631.03,135.95,8.07">There are 6 cookies for them to share.</s><s xml:id="_dHp2jHB" coords="10,310.31,631.03,141.09,8.07">How many cookies will each child get?</s><s xml:id="_DbfScWD" coords="10,47.19,641.99,200.49,8.07">Question 4: Let's pretend you have 12 pieces of candy.</s><s xml:id="_WPjyEbu" coords="10,249.92,641.99,206.26,8.07">If you eat 5 of them, how many pieces will you have left?</s></p></div></figDesc><table coords="10,47.19,418.88,454.30,220.23"><row><cell>Table 5</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Responses of two groups of first graders to word problems (in %, May 2002)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Constructivist (n = 18)</cell><cell>Traditional (n = 26)</cell><cell>Difference</cell><cell>Significance</cell></row><row><cell>1. Gum</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>9 (correct ans.)</cell><cell>83</cell><cell>65</cell><cell>18</cell><cell>n.s.</cell></row><row><cell>2. Crackers</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>8 (correct ans.)</cell><cell>22</cell><cell>8</cell><cell>14</cell><cell>n.s.</cell></row><row><cell>2 + 2 + 2 + 2 (but no ans.)</cell><cell>11</cell><cell>0</cell><cell>11</cell><cell>.05</cell></row><row><cell>3. Cookies</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>2 (correct ans.)</cell><cell>11</cell><cell>0</cell><cell>11</cell><cell>.05</cell></row><row><cell>2 + 2 + 2 (but no ans.)</cell><cell>11</cell><cell>0</cell><cell>11</cell><cell>.05</cell></row><row><cell>4. Candy</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>7 (correct ans.)</cell><cell>44</cell><cell>50</cell><cell>-6</cell><cell>n.s.</cell></row><row><cell cols="5">Question 1: Let's pretend you had 3 sticks of gum. If I gave you 6 more, how many sticks of gum would you have altogether?</cell></row><row><cell cols="5">Question 2: I am getting soup ready for 4 people. So I have 4 bowls. If I want to put 2 crackers in each bowl, how many</cell></row><row><cell>crackers do I need?</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Question 3:</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="11,42.27,92.73,454.29,112.63"><head>Table 6</head><label>6</label><figDesc><div><p><s xml:id="_pyTkHvd" coords="11,42.27,103.69,384.92,8.07">Percentage of second and third graders in the two schools showing 10 chips for the "1" in "17"(May 2002)</s></p></div></figDesc><table coords="11,42.27,120.53,454.29,84.83"><row><cell></cell><cell>Constructivist</cell><cell>Traditional</cell><cell>Difference</cell><cell>Significance</cell></row><row><cell>Second graders</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>n</cell><cell>21</cell><cell>23</cell><cell></cell><cell></cell></row><row><cell>Showing 10 chips</cell><cell>67%</cell><cell>4%</cell><cell>63%</cell><cell>.001</cell></row><row><cell>Third graders</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>n</cell><cell>12</cell><cell>17</cell><cell></cell><cell></cell></row><row><cell>Showing 10 chips</cell><cell>100%</cell><cell>35%</cell><cell>65%</cell><cell>.001</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="12,47.19,118.08,454.31,8.07;12,59.14,129.04,46.58,8.07" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="12,166.17,118.08,200.65,8.07" xml:id="_4UHN3yP">Intermediate Stations (Third Through Fifth Grades)</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Tank</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9781315856254-8</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HXS8ec5">Family Math Night</title>
+		<meeting><address><addrLine>Sausalito, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="page" from="49" to="80" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burns, M., &amp; Tank, B. (1988). A collection of math lessons from grades 1 through 3. Sausalito, CA: The Math Solution Publications.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,140.00,439.20,8.07" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" xml:id="_GVf8yus">Royce&apos;s California: &lt;i&gt;American Commonwealths. California&lt;/i&gt; . By Josiah Royce. Boston, Houghton, Mifflin &amp; Co., 1886. 16°</title>
+		<author>
+			<persName coords=""><surname>Houghton Mifflin</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.ns-8.180s.66</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_s9nwbWr">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">ns-8</biblScope>
+			<biblScope unit="issue">180s</biblScope>
+			<biblScope unit="page" from="66" to="66" />
+			<date type="published" when="2002">2002</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Houghton Mifflin (2002). Readiness test (grades 1-5: California standards-based assessment). Boston: Houghton Mifflin.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,150.96,454.31,8.07" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" coord="12,164.03,150.96,129.30,8.07" xml:id="_b2SsvHC">The early growth of logic in the child</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Inhelder</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Piaget</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1959">1964. 1959</date>
+			<publisher>Harper &amp; Row</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Inhelder, B., &amp; Piaget, J. (1964). The early growth of logic in the child. New York: Harper &amp; Row, original work published 1959.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,161.91,354.90,8.07" xml:id="b3">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Kamii</surname></persName>
+		</author>
+		<title level="m" xml:id="_B6WY3Ws" coord="12,112.94,161.91,123.79,8.07">Young children reinvent arithmetic</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Teachers College Press</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">Kamii, C. (2000). Young children reinvent arithmetic (2nd ed.). New York: Teachers College Press.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,172.87,438.20,8.07" xml:id="b4">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Kamii</surname></persName>
+		</author>
+		<title level="m" xml:id="_67BjmBc" coord="12,112.94,172.87,207.09,8.07">Young children continue to reinvent arithmetic, 2nd grade</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Teachers College Press</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">Kamii, C. (2004). Young children continue to reinvent arithmetic, 2nd grade (2nd ed.). New York: Teachers College Press.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,183.83,454.30,8.07;12,59.14,194.79,57.29,8.07" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" coord="12,167.62,183.83,152.76,8.07" xml:id="_KzDGQaX">Physical knowledge in preschool education</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Kamii</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Devries</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978">1993. 1978</date>
+			<publisher>Teachers College Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kamii, C., &amp; DeVries, R. (1993). Physical knowledge in preschool education. New York: Teachers College Press, original work published 1978.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,205.75,454.31,8.07;12,59.14,216.71,442.35,8.07;12,59.14,227.67,92.25,8.07" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="12,173.59,205.75,167.20,8.07;12,488.05,205.75,13.45,8.07;12,59.14,216.71,209.37,8.07" xml:id="_d9BtfgN">Call for Authors: The 1998 Yearbook on Algorithms</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Kamii</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Dominick</surname></persName>
+		</author>
+		<idno type="DOI">10.5951/mtms.1.7.0536</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FYu2rnF" coord="12,294.59,216.71,33.54,8.07">Mathematics Teaching in the Middle School</title>
+		<title level="j" type="abbrev">MTMS</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Morrow</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kenney</surname></persName>
+		</editor>
+		<idno type="ISSN">1072-0839</idno>
+		<idno type="ISSNe">2328-5486</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">536</biblScope>
+			<date type="published" when="1998">1998. 1998</date>
+			<publisher>National Council of Teachers of Mathematics</publisher>
+			<pubPlace>Reston, VA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The harmful effects of algorithms in grades 1-4</note>
+	<note type="raw_reference">Kamii, C., &amp; Dominick, A. (1998). The harmful effects of algorithms in grades 1-4. In L. J. Morrow &amp; M. J. Kenney (Eds.), The teaching and learning of algorithms in school mathematics: 1998 Yearbook (pp. 130-140). Reston, VA: National Council of Teachers of Mathematics.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,238.63,417.22,8.07" xml:id="b7">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Piaget</surname></persName>
+		</author>
+		<title level="m" xml:id="_TxnMQbY" coord="12,110.45,238.63,240.13,8.07">The psychology of intelligence. London: Routledge and Kegan Paul</title>
+		<imprint>
+			<date type="published" when="1947">1950. 1947</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piaget, J. (1950). The psychology of intelligence. London: Routledge and Kegan Paul, original work published 1947.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,249.58,416.30,8.07" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="12,110.45,249.58,106.80,8.07" xml:id="_eQkHzgz">The Child&apos;s Conception of time By Jean Piaget. (Pp. xi + 285, £2 5&lt;i&gt;s&lt;/i&gt;.) and The Psychology of the Child By Jean Piaget and Bärbel Inhelder. (Pp. xiv + 173; £1 15&lt;i&gt;s&lt;/i&gt;.) Routledge and Kegan Paul: London. 1969.</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Piaget</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/s0033291700040150</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_X5dnrX9">Psychological Medicine</title>
+		<title level="j" type="abbrev">Psychol. Med.</title>
+		<idno type="ISSN">0033-2917</idno>
+		<idno type="ISSNe">1469-8978</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="99" to="99" />
+			<date type="published" when="1946">1969. 1946</date>
+			<publisher>Cambridge University Press (CUP)</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piaget, J. (1969). The child&apos;s conception of time. London: Routledge and Kegan Paul, original work published 1946.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,260.54,399.35,8.07;12,47.19,271.50,335.08,8.07" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="12,110.45,271.50,87.11,8.07" xml:id="_wuMe95y">Federal Court Stays of State Court Proceedings: A Re-Examination of Original Congressional Intent</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Piaget</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1599032</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_n7dMJCK" coord="12,47.19,271.50,32.63,8.07">The University of Chicago Law Review</title>
+		<title level="j" type="abbrev">The University of Chicago Law Review</title>
+		<idno type="ISSN">0041-9494</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">612</biblScope>
+			<date type="published" when="1967">1971. 1967. 1974. 1971</date>
+			<publisher>JSTOR</publisher>
+			<pubPlace>Chicago; New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piaget, J. (1971). Biology and knowledge. Chicago: University of Chicago Press, original work published 1967. Piaget, J. (1974). Understanding causality. New York: Norton, original work published 1971.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,282.46,411.91,8.07" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" xml:id="_vV7YuMw">Memory and Intelligence (Psychology Revivals)</title>
+		<author>
+			<persName><forename type="first">Jean</forename><surname>Piaget</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bärbel</forename><surname>Inhelder</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9781315719207</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_vwvQmsT" coord="12,166.37,282.46,88.42,8.07">Memory and intelligence</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Psychology Press</publisher>
+			<date type="published" when="1968">1973. 1968</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piaget, J., &amp; Inhelder, B. (1973). Memory and intelligence. New York: Basic Books, original work published 1968.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,293.42,454.31,8.07;12,59.14,304.38,57.29,8.07" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="12,226.92,293.42,126.23,8.07" xml:id="_68t2D2c">Child&apos;s Conception Of Geometry</title>
+		<author>
+			<persName><forename type="first">Jean</forename><surname>Piaget</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barbel</forename><surname>Inhelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alina</forename><surname>Szeminska</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9781315009643</idno>
+		<imprint>
+			<date type="published" when="1948">1960. 1948</date>
+			<publisher>Routledge</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piaget, J., Inhelder, B., &amp; Szeminska, A. (1960). The child&apos;s conception of geometry. New York: Basic Books, original work published 1948.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,315.34,454.33,8.07;12,59.14,326.30,57.29,8.07" xml:id="b12">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Piaget</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Szeminska</surname></persName>
+		</author>
+		<title level="m" xml:id="_FRz7GZS" coord="12,183.20,315.34,261.66,8.07">The child&apos;s conception of number. London: Routledge and Kegan Paul</title>
+		<imprint>
+			<date type="published" when="1941">1965. 1941</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piaget, J., &amp; Szeminska, A. (1965). The child&apos;s conception of number. London: Routledge and Kegan Paul, original work published 1941.</note>
+</biblStruct>
+
+<biblStruct coords="12,47.19,337.25,442.04,8.07" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" coord="12,131.86,337.25,231.02,8.07" xml:id="_F2xbV96">SYNCHEM feasibility report: Phase 1</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Richardson</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/10107027</idno>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<pubPlace>White Plains, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richardson, K. (1999). Developing number concepts: Counting, comparing, and pattern. White Plains, NY: Dale Seymour.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

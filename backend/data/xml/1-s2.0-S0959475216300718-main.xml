@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_9YNVUk7" coord="1,42.52,178.39,433.81,12.72;1,42.52,195.63,261.36,12.72;1,303.93,192.78,9.18,8.97">Enhancing arithmetic in pre-schoolers with comparison or number line estimation training: Does it matter?</title>
+				<funder ref="#_x3UDTzn">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2016-09-07">7 September 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,42.52,220.54,76.79,9.99"><forename type="first">Bieke</forename><surname>Maertens</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Brain &amp; Cognition, KU Leuven, Leuven, Belgium</note>
+								<orgName type="institution">Brain &amp; Cognition, KU Leuven</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Faculty of Psychology and Educational Sciences@ Kulak, Kortrijk, Belgium</note>
+								<orgName type="department">Faculty of Psychology and Educational Sciences@ Kulak</orgName>
+								<address>
+									<settlement>Kortrijk</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,140.32,220.54,71.34,9.99"><forename type="first">Bert</forename><surname>De Smedt</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Parenting and Special Education Research Group, KU Leuven, Leuven, Belgium</note>
+								<orgName type="laboratory">Parenting and Special Education Research Group</orgName>
+								<orgName type="institution">KU Leuven</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,223.71,220.54,97.67,9.99"><forename type="first">Delphine</forename><surname>Sasanguie</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Brain &amp; Cognition, KU Leuven, Leuven, Belgium</note>
+								<orgName type="institution">Brain &amp; Cognition, KU Leuven</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Faculty of Psychology and Educational Sciences@ Kulak, Kortrijk, Belgium</note>
+								<orgName type="department">Faculty of Psychology and Educational Sciences@ Kulak</orgName>
+								<address>
+									<settlement>Kortrijk</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,342.43,220.54,39.85,9.99"><forename type="first">Jan</forename><surname>Elen</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> Centre for Instructional Psychology and Technology, KU Leuven, Leuven, Belgium</note>
+								<orgName type="department">Centre for Instructional Psychology and Technology</orgName>
+								<orgName type="institution">KU Leuven</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName coords="1,395.32,220.54,69.67,9.99"><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+							<email>bert.reynvoet@kuleuven-kulak.be</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Brain &amp; Cognition, KU Leuven, Leuven, Belgium</note>
+								<orgName type="institution">Brain &amp; Cognition, KU Leuven</orgName>
+								<address>
+									<settlement>Leuven</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Faculty of Psychology and Educational Sciences@ Kulak, Kortrijk, Belgium</note>
+								<orgName type="department">Faculty of Psychology and Educational Sciences@ Kulak</orgName>
+								<address>
+									<settlement>Kortrijk</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">KU Leuven, Faculty of Psychology and Educational Sciences @ Kulak, Etienne Sabbelaan 53, 8500 Kortrijk, Belgium.</note>
+								<orgName type="department">Faculty of Psychology and Educational Sciences @ Kulak</orgName>
+								<orgName type="institution">KU Leuven</orgName>
+								<address>
+									<addrLine>Etienne Sabbelaan 53</addrLine>
+									<postCode>8500</postCode>
+									<settlement>Kortrijk</settlement>
+									<country key="BE">Belgium</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_MfSHEc4" coord="1,42.52,178.39,433.81,12.72;1,42.52,195.63,261.36,12.72;1,303.93,192.78,9.18,8.97">Enhancing arithmetic in pre-schoolers with comparison or number line estimation training: Does it matter?</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main" xml:id="_jPdxYKR">Learning and Instruction</title>
+						<title level="j" type="abbrev">Learning and Instruction</title>
+						<idno type="ISSN">0959-4752</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">46</biblScope>
+							<biblScope unit="page" from="1" to="11"/>
+							<date type="published" when="2016-09-07">7 September 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FE35EB9A8FDACE8279CC51488A575903</idno>
+					<idno type="DOI">10.1016/j.learninstruc.2016.08.004</idno>
+					<note type="submission">Received 24 June 2015 Received in revised form 15 July 2016 Accepted 4 August 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T01:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords xml:id="_k5zurGT">Magnitude processing training Numerical intervention Arithmetic achievement</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_F6G6aDn"><p xml:id="_R58bGvJ"><s xml:id="_gvQGGAJ" coords="1,206.93,316.06,355.62,6.79;1,206.93,325.64,100.91,6.79">Children's intuitive understanding of number, i.e. number sense, is associated with individual differences in mathematics achievement.</s><s xml:id="_DhXy7Qb" coords="1,310.23,325.64,252.36,6.79;1,206.93,335.17,355.68,6.79;1,206.93,344.75,355.58,6.79;1,206.93,354.33,155.12,6.79">To investigate the causal association between number sense, traditionally assessed with comparison or number line estimation tasks, and mathematics achievement, often assessed with an arithmetic test, an intervention study was conducted that aimed at training either comparison or number line estimation skills.</s><s xml:id="_n5n6NuY" coords="1,364.59,354.33,197.95,6.79;1,206.93,363.91,28.65,6.79">We contrasted a comparison and number line estimation training.</s><s xml:id="_QeKVSVB" coords="1,238.28,363.91,324.25,6.79;1,206.93,373.44,37.10,6.79">By doing so, we wanted to address the question which intervention had the largest effect on arithmetic.</s><s xml:id="_gC8nSBg" coords="1,247.75,373.44,314.80,6.79;1,206.93,383.02,280.73,6.79">In addition, such a direct comparison between comparison and number line estimation trainings would allow us to get more insight in the association between both tasks.</s><s xml:id="_5hUTJDE" coords="1,489.55,383.02,73.04,6.79;1,206.93,392.49,301.38,7.17">Participants were 151 five-year-olds that were randomly allocated to either an experimental condition (i.e.</s><s xml:id="_SeAefBM" coords="1,511.83,392.60,50.71,6.79;1,206.93,402.12,355.64,6.79;1,206.93,411.70,355.61,6.79;1,206.93,421.29,166.49,6.79">comparison or number line estimation) or one of the two control conditions (i.e., active control condition and empty control condition) in a pretest-posttest design measuring number knowledge, (non-)symbolic comparison and number line estimation and arithmetic.</s><s xml:id="_eZTEQRD" coords="1,375.65,421.29,186.91,6.79;1,206.93,430.81,211.63,6.79">The results showed that both comparison and number line estimation trainings had a positive effect on arithmetic.</s><s xml:id="_5Mk3KPx" coords="1,421.63,430.81,140.86,6.79;1,206.93,440.39,355.62,6.79;1,206.93,449.97,271.31,6.79">However, the absence of transfer effects from one task to another, also suggested that comparison and number line estimation rely on different mechanisms and probably influence arithmetic through different mechanisms.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="595.276" lry="793.701"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_jTbHNbv">Introduction</head><p xml:id="_AJFZZAD"><s xml:id="_gSR3cE4" coords="1,54.48,538.85,239.04,7.54;1,42.52,549.28,104.75,7.54">Mathematical ability plays an important role in one's daily-life and professional activities.</s><s xml:id="_4PX8vC8" coords="1,151.88,549.28,141.71,7.54;1,42.52,559.77,251.04,7.54;1,42.52,570.20,251.06,7.54;1,42.52,580.69,30.20,7.54">For instance, <ref type="bibr" coords="1,206.59,549.28,87.00,7.54;1,42.52,559.77,52.24,7.54" target="#b12">Dieckman, Slovic, and Peters (2009)</ref> observed that people low in mathematical ability have problems with integrating numerical information in decision making.</s><s xml:id="_JDpRNse" coords="1,75.34,580.69,218.21,7.54;1,42.52,591.00,251.09,7.97;1,42.52,601.61,251.08,7.54;1,42.52,611.92,251.07,7.97;1,42.52,622.52,251.08,7.54;1,311.53,517.93,251.06,7.54;1,311.53,528.36,251.12,7.54;1,311.53,538.85,251.04,7.54;1,311.53,549.16,251.00,7.97;1,311.53,559.65,195.35,7.97">Although mathematical ability is also influenced by environmental factors like socioeconomic status (e.g., <ref type="bibr" coords="1,231.25,591.00,62.36,7.97;1,42.52,601.61,22.24,7.54" target="#b24">Jordan &amp; Levine, 2009)</ref> and general cognitive factors like working memory (e.g., Friso-van den Bos, van der Ven, Kroesbergen, &amp; van Luit, 2013), there is now considerable evidence to suggest that mathematical ability also builds upon an intuitive understanding of number, i.e. number sense <ref type="bibr" coords="1,365.95,528.36,56.18,7.54" target="#b10">(Dehaene, 1997</ref>) that can already be observed in very young children through the presence of a set of basic number skills (e.g., <ref type="bibr" coords="1,334.15,549.16,117.77,7.97">Halberda &amp; Feigenson, 2008;</ref><ref type="bibr" coords="1,457.05,549.16,105.47,7.97" target="#b21">Holloway &amp; Ansari, 2009;</ref><ref type="bibr" coords="1,311.53,559.65,191.47,7.97" target="#b42">Sasanguie, De Smedt, Defever, &amp; Reynvoet, 2012)</ref>.</s><s xml:id="_e5ZbDRd" coords="1,510.63,559.77,51.93,7.54;1,311.53,570.20,251.05,7.54;1,311.53,580.68,251.09,7.54;1,311.53,591.00,251.06,7.97;1,311.53,601.48,152.83,7.97">This observation has motivated researchers to develop training programs that focused on (some of) these basic number skills in order to improve children's mathematical achievement (e.g., <ref type="bibr" coords="1,473.21,591.00,89.37,7.97" target="#b37">Ramani &amp; Siegler, 2008;</ref><ref type="bibr" coords="1,311.53,601.48,148.80,7.97" target="#b52">Wilson, Dehaene, Dubois, &amp; Fayol, 2009)</ref>.</s><s xml:id="_JZcFWEn" coords="1,466.18,601.60,96.37,7.54;1,311.53,612.04,251.11,7.54;1,311.53,622.52,33.76,7.54">However, it is still unclear whether these different numerical training programs are equally effective.</s><s xml:id="_atsDQKE" coords="1,348.54,622.52,214.09,7.54;1,311.53,632.95,251.05,7.54;1,311.53,643.44,63.87,7.54">In this study, we compared the effects of two different interventions, training number comparison and on number line estimation skills.</s><s xml:id="_sqSvjWz" coords="1,378.02,643.44,184.55,7.54;1,311.53,653.75,162.35,7.97">Both skills are assumed to operate on the representation of number <ref type="bibr" coords="1,389.25,653.75,80.62,7.97" target="#b26">(Laski &amp; Siegler, 2007)</ref>.</s><s xml:id="_3SkAe8b" coords="1,475.59,653.87,86.95,7.54;1,311.53,664.36,251.14,7.54;1,311.53,674.79,251.12,7.54;1,311.53,685.28,251.05,7.54;1,311.53,695.77,66.98,7.54">By analysing the effects of both interventions on other number skills and arithmetic, we will examine whether both skills build on a common underlying mechanism and clarify which intervention has the largest effect on arithmetic ability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1." xml:id="_7TUMHPU">Number sense</head><p xml:id="_BRfk68m"><s xml:id="_QXsKuym" coords="2,44.79,87.69,239.15,7.54;2,32.83,98.12,20.94,7.54">Researchers have defined the term number sense in different ways.</s><s xml:id="_YAeGERM" coords="2,56.47,98.12,227.40,7.54;2,32.83,108.60,251.07,7.54;2,32.83,119.04,251.07,7.54;2,32.83,129.40,251.05,7.97;2,32.83,139.96,251.03,7.54;2,32.83,150.32,104.98,7.97">For instance, <ref type="bibr" coords="2,107.26,98.12,49.35,7.54" target="#b2">Berch (2005)</ref> made a list of more than 30 definitions ranging from elementary definitions about quantity, a typical definition from cognitive psychology, to more complex skills, such as flexibility with operations and procedures, a definition shared among mathematics educators (see also <ref type="bibr" coords="2,247.07,139.96,36.79,7.54;2,32.83,150.32,101.14,7.97" target="#b41">Reynvoet, Smets, &amp; Sasanguie, 2016)</ref>.</s><s xml:id="_VrvNHUa" coords="2,141.62,150.44,142.27,7.54;2,32.83,160.87,144.48,7.54">Here, we define number sense as is typically done in cognitive psychology.</s><s xml:id="_HPsrpBj" coords="2,179.20,160.87,104.69,7.54;2,32.83,171.36,251.11,7.54;2,32.83,181.79,251.04,7.54;2,32.83,192.28,251.08,7.54;2,32.83,202.71,251.08,7.54">Number sense is considered as the intuitive understanding of numbers that is demonstrated through successful discrimination of visual sets on the basis of number or understanding the result of manipulations (e.g., adding or subtracting elements) with such visual sets <ref type="bibr" coords="2,219.51,202.71,60.52,7.54" target="#b10">(Dehaene, 1997)</ref>.</s><s xml:id="_8KFEvxS" coords="2,32.83,213.20,251.11,7.54;2,32.83,223.51,167.10,7.97">These abilities are grounded in a cognitive system often referred to as the 'approximate number system' (ANS).</s><s xml:id="_9kNknrZ" coords="2,202.96,223.63,80.89,7.54;2,32.83,234.12,251.03,7.54;2,32.83,244.43,219.50,7.97">This system makes it possible for infants, but also non-human species to discriminate non-symbolic numbers (e.g., <ref type="bibr" coords="2,148.59,244.43,99.71,7.97" target="#b33">Nieder &amp; Dehaene, 2009)</ref>.</s><s xml:id="_fyRcNvk" coords="2,256.65,244.55,27.30,7.54;2,32.83,255.04,251.07,7.54;2,32.83,265.47,251.04,7.54;2,32.83,275.84,251.05,7.97;2,32.83,286.33,158.78,7.97">Several authors assume that, later in development, numerical symbols (e.g., Arabic number symbols) are mapped on this ANS (e.g., <ref type="bibr" coords="2,249.91,265.47,33.96,7.54;2,32.83,275.84,116.87,7.97" target="#b0">Barth, La Mont, Lipton, &amp; Spelke, 2005;</ref><ref type="bibr" coords="2,153.13,275.84,100.31,7.97" target="#b21">Holloway &amp; Ansari, 2009;</ref><ref type="bibr" coords="2,256.88,275.96,27.00,7.54;2,32.83,286.33,103.81,7.97">Mundy &amp; Gilmore, 2009, but see;</ref><ref type="bibr" coords="2,140.71,286.45,46.87,7.54" target="#b6">Carey, 2009)</ref>.</s><s xml:id="_8BKDMYX" coords="2,195.65,286.45,88.24,7.54;2,32.83,296.88,251.04,7.54;2,32.83,307.37,251.03,7.54;2,32.83,317.80,175.97,7.54">As a consequence, the concept number sense implicitly also refers to the representation of numerical symbols because they activate the same representation as a numerical equivalent visual set of objects.</s></p><p xml:id="_hTuqYjD"><s xml:id="_PHe7rNQ" coords="2,44.79,328.29,239.07,7.54;2,32.83,338.72,163.35,7.54">The characteristics of this number representation are typically assessed with a number comparison task.</s><s xml:id="_X7xxA7D" coords="2,199.73,338.72,84.16,7.54;2,32.83,349.21,251.04,7.54;2,32.83,359.64,108.51,7.54">In a comparison task, participants have to indicate which of two presented stimuli (i.e., digits or dot arrays) is more.</s><s xml:id="_UDUJFyA" coords="2,143.89,359.64,140.00,7.54;2,32.83,370.13,134.32,7.54">Performance on this task results in a distance effect and a size effect (e.g.</s><s xml:id="_sAxjKkx" coords="2,169.29,370.01,98.57,7.97"><ref type="bibr" coords="2,169.29,370.01,94.55,7.97" target="#b21">Holloway &amp; Ansari, 2009)</ref>.</s><s xml:id="_35DrQGc" coords="2,269.98,370.13,13.89,7.54;2,32.83,380.56,251.11,7.54;2,32.83,391.04,251.03,7.54">The distance effect refers to the observation that decisions are more difficult when the numerical distance between the stimuli is small.</s><s xml:id="_eNcEWFz" coords="2,32.83,401.48,251.05,7.54;2,32.83,411.96,59.43,7.54">The size effect reflects more difficult discriminations for numerical larger numbers.</s><s xml:id="_ESZvXqq" coords="2,94.11,411.96,189.76,7.54;2,32.83,422.28,251.03,7.97;2,32.83,432.88,251.03,7.54;2,32.83,443.31,107.70,7.54">Both observations resulted in the popular idea that numbers are represented on a 'mental number line', which obeys Weber-Fechner's law and represents numbers in an approximate and compressed way (i.e.</s><s xml:id="_AzF56Zq" coords="2,147.00,443.31,136.87,7.54;2,32.83,453.68,196.65,7.97">noisier representations for larger numbers, <ref type="bibr" coords="2,70.76,453.80,57.92,7.54" target="#b10">Dehaene, 1997;</ref><ref type="bibr" coords="2,131.13,453.68,94.46,7.97" target="#b15">Gallistel &amp; Gelman, 1992)</ref>.</s></p><p xml:id="_JeECuWb"><s xml:id="_DjPGQGe" coords="2,44.79,464.23,239.15,7.54;2,32.83,474.60,251.03,7.97;2,32.83,485.15,251.05,7.54;2,32.83,495.65,150.31,7.54">The mental number line concept has inspired Siegler and Booth <ref type="bibr" coords="2,32.83,474.60,90.18,7.97" target="#b4">(Booth &amp; Siegler, 2006;</ref><ref type="bibr" coords="2,126.14,474.60,87.77,7.97" target="#b48">Siegler &amp; Booth, 2004)</ref> to assess number representations through number line estimation tasks, an approach that was followed by many others (e.g.</s><s xml:id="_C4cvJxX" coords="2,186.07,495.53,97.83,7.97;2,32.83,505.96,157.65,7.97"><ref type="bibr" coords="2,186.07,495.53,97.83,7.97;2,32.83,506.08,41.69,7.54" target="#b11">Dehaene, Izard, Spelke, &amp; Pica, 2008;</ref><ref type="bibr" coords="2,77.10,505.96,109.52,7.97" target="#b29">Link, Nuerk, &amp; Moeller, 2014)</ref>.</s><s xml:id="_dwR8NJu" coords="2,193.04,506.08,90.82,7.54;2,32.83,516.57,251.04,7.54;2,32.83,527.00,185.77,7.54">In the number line estimation task, participants have to indicate the position of a nonsymbolic or symbolic number on an empty line.</s><s xml:id="_Ur5xFe3" coords="2,221.66,527.00,62.22,7.54;2,32.83,537.49,251.05,7.54;2,32.83,547.92,240.08,7.54">The idea behind this task is that the positioning of numbers on the external line reflects the organisation of the underlying mental number line.</s></p><p xml:id="_3UZkkXK"><s xml:id="_BXvXFvq" coords="2,44.79,558.41,239.09,7.54;2,32.82,568.84,251.07,7.54;2,32.82,579.33,100.19,7.54">However, the idea that number comparison and number line estimation skills rely on the same representation of numbers has been recently debated (e.g.</s><s xml:id="_Vqcxu7C" coords="2,134.81,579.21,149.03,7.97;2,32.82,589.64,109.51,7.97"><ref type="bibr" coords="2,134.81,579.21,87.20,7.97" target="#b1">Barth &amp; Paladino, 2011;</ref><ref type="bibr" coords="2,223.77,579.33,60.08,7.54" target="#b29">Link et al., 2014;</ref><ref type="bibr" coords="2,32.82,589.64,105.66,7.97">Sasanguie &amp; Reynvoet, 2013)</ref>.</s><s xml:id="_hW9E6GX" coords="2,144.23,589.76,139.72,7.54;2,32.82,600.24,251.01,7.54;2,32.82,610.68,251.05,7.54;2,32.82,621.16,211.37,7.54">For instance, <ref type="bibr" coords="2,193.49,589.76,90.45,7.54;2,32.82,600.24,24.20,7.54">Sasanguie and Reynvoet (2013)</ref> examined the association between the size effect observed in the comparison task and the amount of compression for larger numbers observed in the number line estimation task.</s><s xml:id="_xbTYwrQ" coords="2,247.34,621.16,36.50,7.54;2,32.82,631.60,251.05,7.54;2,32.82,642.08,211.22,7.54">The association between both indices was not significant, suggesting that different representations or mechanisms might be stake.</s><s xml:id="_2qTmH8j" coords="2,245.87,642.08,38.01,7.54;2,32.82,652.57,251.06,7.54;2,32.82,663.00,134.56,7.54">A possible explanation for this unrelated performance can be found in the study of <ref type="bibr" coords="2,66.39,663.00,97.31,7.54" target="#b1">Barth and Paladino (2011)</ref>.</s><s xml:id="_RrvCZya" coords="2,170.08,663.00,113.81,7.54;2,32.82,673.49,231.47,7.54">They argued that subjects use anchor points to place a number on an empty number line.</s><s xml:id="_B5Scf3m" coords="2,267.47,673.49,16.42,7.54;2,32.82,683.92,251.03,7.54;2,32.82,694.41,251.12,7.54;2,32.82,704.84,198.15,7.54">As a consequence, number line placements are based on proportion reasoning, taking the visual begin and endpoints and, at a later age even the implicit midpoints of a line, into account.</s><s xml:id="_FtYuCGG" coords="2,234.19,704.84,49.75,7.54;2,32.82,715.33,251.05,7.54;2,32.82,725.76,251.04,7.54;2,32.82,736.25,23.11,7.54">This requires spatial reasoning as well as arithmetic skills to perform this task, which is less important in the comparison task (see also <ref type="bibr" coords="2,245.76,725.76,38.10,7.54;2,32.82,736.25,19.26,7.54" target="#b29">Link et al., 2014)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2." xml:id="_JPzeQZb">Association between basic number skills and mathematical achievement</head><p xml:id="_ZyeSru6"><s xml:id="_Bx4GF4d" coords="2,313.74,98.11,239.10,7.54;2,301.83,108.60,251.05,7.54;2,301.83,119.03,251.02,7.54;2,301.83,129.52,121.42,7.54">Although it is debated whether the same representation is involved in both tasks, many studies have shown that the performance on both tasks is related to (later) individual differences in mathematical achievement.</s><s xml:id="_sNGmWGp" coords="2,428.59,129.52,124.25,7.54;2,301.83,139.95,251.00,7.54;2,301.83,150.44,250.99,7.54;2,301.83,160.87,251.00,7.54;2,301.83,171.24,251.01,7.97;2,301.83,181.67,250.97,7.97;2,301.83,192.16,196.13,7.97">Many studies have revealed a predictive association between number comparison and mathematical achievement: fast and/or accurate comparison of numbers is related to better performance on a general mathematical achievement test <ref type="bibr" coords="2,416.41,171.24,136.44,7.97;2,301.83,181.79,75.01,7.54">(e.g., De Smedt, Verschaffel, &amp; Ghesqui ere, 2009;</ref><ref type="bibr" coords="2,384.66,181.67,168.14,7.97" target="#b14">Feigenson, Libertus, &amp; Halberda, 2013;</ref><ref type="bibr" coords="2,301.83,192.16,192.23,7.97" target="#b44">Sasanguie, G€ obel, Moll, Smets, &amp; Reynvoet, 2013)</ref>.</s><s xml:id="_bceWaXE" coords="2,501.45,192.28,51.42,7.54;2,301.83,202.71,251.00,7.54;2,301.83,213.20,250.95,7.54;2,301.83,223.51,250.97,7.97;2,301.83,234.12,88.03,7.54">Similarly, the accurate positioning of the numbers in a number line estimation task is related to better performance on a general mathematical achievement test <ref type="bibr" coords="2,376.15,223.51,98.60,7.97" target="#b4">(Booth &amp; Siegler, 2006;</ref><ref type="bibr" coords="2,480.41,223.63,72.38,7.54" target="#b29">Link et al., 2014;</ref><ref type="bibr" coords="2,301.83,234.12,84.14,7.54">Sasanguie et al., 2013)</ref>.</s></p><p xml:id="_cts3j4E"><s xml:id="_7pH8ddQ" coords="2,313.74,244.55,239.15,7.54;2,301.83,255.03,251.02,7.54;2,301.83,265.47,50.34,7.54">Currently, researchers still disagree whether non-symbolic or symbolic number processing is more related to later mathematical achievement.</s><s xml:id="_pfjRAnc" coords="2,355.91,265.47,196.96,7.54;2,301.83,275.95,251.02,7.54;2,301.83,286.44,81.26,7.54">Several studies have shown that discrimination of non-symbolic stimuli is related to the score on a mathematical achievement test (e.g.</s><s xml:id="_m8DGV6y" coords="2,384.77,286.32,168.07,7.97;2,301.83,296.87,147.10,7.54"><ref type="bibr" coords="2,384.77,286.44,81.57,7.54" target="#b14">Feigenson et al., 2013;</ref><ref type="bibr" coords="2,468.05,286.32,84.79,7.97;2,301.83,296.87,65.90,7.54" target="#b20">Halberda, Mazzocco, &amp; Feigenson, 2008;</ref><ref type="bibr" coords="2,371.90,296.87,73.19,7.54" target="#b36">Piazza et al., 2010)</ref>.</s><s xml:id="_rtmgTfQ" coords="2,453.14,296.87,99.72,7.54;2,301.83,307.36,251.04,7.54;2,301.83,317.79,251.05,7.54">In contrast, other studies found that the processing of symbolic numbers, but not nonsymbolic numbers, is related to mathematical achievement (e.g.</s><s xml:id="_Fx88uXk" coords="2,301.83,328.16,251.03,7.97;2,301.83,338.59,121.99,7.97"><ref type="bibr" coords="2,301.83,328.16,108.48,7.97" target="#b21">Holloway &amp; Ansari, 2009;</ref><ref type="bibr" coords="2,416.46,328.28,94.89,7.54" target="#b42">Sasanguie et al., 2012;</ref><ref type="bibr" coords="2,517.49,328.28,35.37,7.54;2,301.83,338.59,118.13,7.97" target="#b50">Vanbinst, Ghesqui ere, &amp; De Smedt, 2015)</ref>.</s><s xml:id="_Spy5k5X" coords="2,426.78,338.71,126.11,7.54;2,301.83,349.20,251.11,7.54;2,301.83,359.63,212.02,7.54">To date, these different positions concerning what is the best predictor for mathematics achievement, symbolic or non-symbolic processing, still exist.</s><s xml:id="_BJBFxd4" coords="2,517.31,359.63,35.52,7.54;2,301.83,370.12,85.85,7.54">However, narrative reviews (e.g.</s><s xml:id="_pJpfM27" coords="2,391.12,370.01,161.76,7.97;2,301.83,380.56,251.03,7.54;2,301.83,391.05,251.05,7.54;2,301.83,401.48,251.00,7.54;2,301.83,411.97,96.84,7.54">De Smedt, No€ el, Gilmore, &amp; Ansari, 2013) and a meta-analysis <ref type="bibr" coords="2,379.16,380.56,86.08,7.54" target="#b47">(Schneider et al., 2016)</ref> indicate that, although both are related to mathematics achievement, the relation between symbolic number processing and mathematics achievement is significantly more robust.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3." xml:id="_mHG9A3F">Training studies</head><p xml:id="_5sdPz7M"><s xml:id="_exeq9Uj" coords="2,313.74,453.81,239.12,7.54;2,301.83,464.24,251.11,7.54;2,301.83,474.73,251.02,7.54;2,301.83,485.16,251.12,7.54;2,301.83,495.65,251.05,7.54;2,301.83,506.08,199.15,7.54">To investigate whether number sense and mathematical achievement are causally related, several training studies were conducted to investigate whether mathematical achievement, in several studies assessed with an arithmetic test, improved after training number sense abilities such as comparison or number line estimation (for a review, see De <ref type="bibr" coords="2,427.24,506.08,69.89,7.54" target="#b8">Smedt et al., 2013)</ref>.</s><s xml:id="_gsDcANA" coords="2,503.89,506.08,48.98,7.54;2,301.83,516.45,251.06,7.97;2,301.83,527.00,251.10,7.54;2,301.83,537.49,251.11,7.54;2,301.83,547.80,251.05,7.97;2,301.83,558.29,251.02,7.97">For example, some intervention studies have made use of "The Number Race" game <ref type="bibr" coords="2,324.79,527.00,74.81,7.54" target="#b53">(Wilson et al., 2006)</ref>, a computer program in which children were presented different formats of comparison tasks, adapted to their performance level <ref type="bibr" coords="2,393.11,547.80,124.03,7.97" target="#b34">(Obersteiner, Reiss, &amp; Ufer, 2013;</ref><ref type="bibr" coords="2,519.48,547.92,33.40,7.54;2,301.83,558.29,169.48,7.97" target="#b40">R€ as€ anen, Salminen, Wilson, Aunio, &amp; Dehaene, 2009;</ref><ref type="bibr" coords="2,474.52,558.40,74.31,7.54" target="#b52">Wilson et al., 2009)</ref>.</s><s xml:id="_2WVpQ8S" coords="2,301.83,568.84,251.06,7.54;2,301.83,579.32,251.03,7.54;2,301.83,589.76,142.55,7.54">Although the game contained a lot of practice with comparison, children also had to count while moving an object on a number board when they answered correctly.</s><s xml:id="_nB4yjPa" coords="2,447.19,589.76,105.69,7.54;2,301.83,600.24,251.03,7.54;2,301.83,610.68,251.05,7.54;2,301.83,621.16,209.01,7.54">After training, children performed more accurate and faster on comparison tasks and in some of the studies, also improvement in arithmetic performance was observed <ref type="bibr" coords="2,338.63,621.16,93.53,7.54" target="#b34">(Obersteiner et al., 2013;</ref><ref type="bibr" coords="2,434.66,621.16,72.16,7.54" target="#b52">Wilson et al., 2009)</ref>.</s><s xml:id="_U7pxxFm" coords="2,513.36,621.16,39.51,7.54;2,301.83,631.53,251.06,7.97;2,301.83,642.08,251.05,7.54;2,301.83,652.57,251.01,7.54;2,301.83,662.88,196.54,7.97">In another study, <ref type="bibr" coords="2,326.16,631.65,126.36,7.54" target="#b23">Hyde, Khanum, and Spelke (2014)</ref> trained first graders either with a non-symbolic comparison task or with a non-symbolic addition task, in which two non-symbolic stimuli had to be added first and then compared with a third stimulus.</s><s xml:id="_XvwWpS6" coords="2,500.14,663.00,52.71,7.54;2,301.83,673.49,174.99,7.54">Both trainings led to improvement in symbolic arithmetic.</s><s xml:id="_eU2qMJW" coords="2,481.21,673.49,71.64,7.54;2,301.83,683.92,251.04,7.54;2,301.83,694.41,251.02,7.54;2,301.83,704.84,251.02,7.54;2,301.83,715.33,125.98,7.54"><ref type="bibr" coords="2,481.21,673.49,71.64,7.54;2,301.83,683.92,24.20,7.54" target="#b35">Park and Brannon (2014)</ref> showed that also adults benefit from practicing with nonsymbolic addition: Non-symbolic addition training resulted in improvement on two and three digit addition problems, whereas practice with other tasks did not.</s></p><p xml:id="_2fJwspH"><s xml:id="_Fx9cRBe" coords="2,313.74,725.76,239.15,7.54;2,301.83,736.13,251.01,7.97;3,42.52,66.65,251.07,7.97;3,42.52,77.20,24.76,7.54">Other training studies have focused on number line estimation (e.g., <ref type="bibr" coords="2,343.56,736.25,77.90,7.54" target="#b25">Kucian et al., 2011;</ref><ref type="bibr" coords="2,425.59,736.13,127.25,7.97;3,42.52,66.77,50.80,7.54" target="#b28">Link, Moeller, Huber, Fischer, &amp; Nuerk, 2013;</ref><ref type="bibr" coords="3,97.17,66.65,91.97,7.97" target="#b37">Ramani &amp; Siegler, 2008</ref><ref type="bibr" coords="3,189.14,66.77,29.29,7.54">, 2011;</ref><ref type="bibr" coords="3,222.23,66.65,71.36,7.97;3,42.52,77.20,20.63,7.54" target="#b49">Siegler &amp; Ramani, 2009)</ref>.</s><s xml:id="_29Ys54j" coords="3,71.17,77.20,222.40,7.54;3,42.52,87.69,251.09,7.54;3,42.52,98.12,251.08,7.54;3,42.52,108.60,251.05,7.54;3,42.52,119.04,251.03,7.54;3,42.52,129.52,199.48,7.54">For instance, in a series of studies, Ramani and Siegler embedded this task into a board game in which children had to move a token a certain number of squares and investigated which type of board game (i.e., linear versus circular number board game or number versus coloured board game) induced the largest effect on children's number line estimation.</s><s xml:id="_XbHCCFf" coords="3,244.69,129.52,48.89,7.54;3,42.52,139.96,251.06,7.54;3,42.52,150.32,251.07,7.97;3,42.52,160.76,251.07,7.97;3,42.52,171.24,225.31,7.97">Playing with the linear number board game induced larger improvements on number line estimation compared to the circular one <ref type="bibr" coords="3,252.28,150.32,41.31,7.97;3,42.52,160.87,52.68,7.54" target="#b38">(Ramani &amp; Siegler, 2011;</ref><ref type="bibr" coords="3,98.82,160.76,97.30,7.97" target="#b49">Siegler &amp; Ramani, 2009)</ref> or the coloured version <ref type="bibr" coords="3,42.52,171.24,99.41,7.97" target="#b37">(Ramani &amp; Siegler, 2008;</ref><ref type="bibr" coords="3,145.38,171.24,118.48,7.97" target="#b39">Ramani, Siegler, &amp; Hitti, 2012)</ref>.</s><s xml:id="_kdnmwVe" coords="3,271.26,171.36,22.30,7.54;3,42.52,181.79,251.04,7.54;3,42.52,192.16,251.05,7.97;3,42.52,202.59,105.59,7.97">These authors also observed transfer effects to arithmetic after playing with the linear number board version <ref type="bibr" coords="3,196.13,192.16,97.44,7.97" target="#b38">(Ramani &amp; Siegler, 2011;</ref><ref type="bibr" coords="3,42.52,202.59,101.46,7.97" target="#b49">Siegler &amp; Ramani, 2009)</ref>.</s><s xml:id="_QutGSYH" coords="3,153.81,202.71,139.78,7.54;3,42.52,213.08,251.00,7.97;3,42.52,223.63,251.04,7.54;3,42.52,234.12,95.16,7.54"><ref type="bibr" coords="3,153.81,202.71,84.03,7.54" target="#b25">Kucian et al. (2011)</ref> developed a computerized game, "Rescue Calcularis", in which children had to position the magnitude or the outcome of the arithmetic problem on the number line.</s><s xml:id="_CbrA4Fp" coords="3,140.49,234.12,153.06,7.54;3,42.52,244.55,251.03,7.54;3,42.52,255.04,42.33,7.54">Results showed enhanced performance on number line estimation tasks and improvement on arithmetic.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4." xml:id="_gQ7FpAW">The present study</head><p xml:id="_rAN74TM"><s xml:id="_YxDJaTD" coords="3,54.48,307.37,239.02,7.54;3,42.52,317.80,251.00,7.54;3,42.52,328.29,22.02,7.54">The goal of the present study was to compare the effects of comparison and number line training on mathematical achievement.</s><s xml:id="_wy5AQVt" coords="3,68.54,328.29,225.06,7.54;3,42.52,338.72,251.03,7.54;3,42.52,349.21,251.06,7.54">Previous studies have shown that training of both tasks resulted in higher mathematical achievement, demonstrating the causal role of both comparison and number line estimation skills.</s><s xml:id="_rS83pmQ" coords="3,42.52,359.64,251.06,7.54;3,42.52,370.13,251.03,7.54;3,42.52,380.56,224.24,7.54">However, the effects of both type of trainings on mathematical achievement have not been compared directly, leaving the question what the most effective training is, unanswered.</s><s xml:id="_NTQwrjB" coords="3,269.86,380.44,23.71,7.97;3,42.52,391.05,251.08,7.54;3,42.52,401.48,82.80,7.54">A first goal of the present study was to provide an answer on this outstanding question.</s><s xml:id="_7pM2S7y" coords="3,127.50,401.48,166.07,7.54;3,42.52,411.96,251.03,7.54;3,42.52,422.40,50.71,7.54">The second goal of this study was to further investigate the relation between comparison and number line performance.</s><s xml:id="_dVeFTdy" coords="3,96.15,422.40,197.44,7.54;3,42.52,432.88,251.06,7.54;3,42.52,443.32,50.82,7.54">As we have mentioned, it is debated whether both tasks rely on the same representation of numbers, i.e. mental number line.</s><s xml:id="_nKVmADU" coords="3,98.02,443.32,195.56,7.54;3,42.52,453.80,251.03,7.54;3,42.52,464.24,241.14,7.54">We will do this by investigating the effect of a specific number sense training (comparison vs. number line training) on comparison and number line estimation skills.</s><s xml:id="_7mWvKq2" coords="3,288.34,464.24,5.17,7.54;3,42.52,474.72,250.98,7.54;3,42.52,485.15,251.00,7.54;3,42.52,495.64,251.00,7.54;3,42.52,506.07,81.86,7.54">If comparison and number line tasks reflect the same underlying mental number line, we expected that practising comparison would generalize to improvements in number line estimation skills and vice versa.</s><s xml:id="_qUjhy4C" coords="3,128.12,506.07,165.37,7.54;3,42.52,516.56,251.00,7.54;3,42.52,526.99,95.61,7.54">In contrast, if both skills rely on different mechanisms, no transfer effects to the other, untrained number sense skill, are expected.</s></p><p xml:id="_9MxFnrv"><s xml:id="_D4ppxMv" coords="3,54.48,537.48,239.13,7.54;3,42.52,547.79,202.09,7.97">To investigate these questions, we used the K-games of Dudeman &amp; Sidegirl: Operation clean world <ref type="bibr" coords="3,168.15,547.91,72.61,7.54" target="#b30">(Linsen et al., 2015)</ref>.</s><s xml:id="_gddmRbe" coords="3,247.30,547.91,46.27,7.54;3,42.52,558.28,251.05,7.97;3,42.52,568.83,103.67,7.54">These tablet games were developed for children in the final year of kindergarten in Flanders (Belgium) (i.e.</s><s xml:id="_QwYM7f8" coords="3,150.74,568.71,142.83,7.97">around the age of five and a half).</s><s xml:id="_sR3p9bH" coords="3,42.52,579.32,251.03,7.54;3,42.52,589.75,251.06,7.54;3,42.52,600.24,251.13,7.54;3,42.52,610.67,251.06,7.54;3,42.52,621.16,130.62,7.54">Kindergarten children were chosen because children at this age are still in the process of acquiring the meaning of Arabic digits (Vlaams Ministerie van Onderwijs en Vorming Agentschap voor Kwaliteitszorg in Onderwijs en Vorming, 2010), a process that is explicitly targeted by these games.</s><s xml:id="_U7PfTts" coords="3,175.35,621.16,118.23,7.54;3,42.52,631.65,251.06,7.54;3,42.52,642.08,224.19,7.54">An active and an empty control condition were included to assure that the improvements on the dependent measures were due to number sense training.</s><s xml:id="_MTuHUax" coords="3,270.25,642.08,23.33,7.54;3,42.52,652.57,251.10,7.54;3,42.52,663.01,251.03,7.54;3,42.52,673.49,134.69,7.54">In the active control condition, children had to play with Mega memory Match, an existing game on tablets <ref type="bibr" coords="3,190.94,663.01,102.61,7.54;3,42.52,673.49,130.84,7.54">(GiggleUp Kids Apps And Educational Games Pty Ltd, 2013)</ref>.</s><s xml:id="_4bqqrYW" coords="3,181.13,673.49,112.44,7.54;3,42.52,683.92,251.06,7.54;3,42.52,694.41,251.07,7.54;3,42.52,704.84,19.66,7.54">This active control condition was included to control for effects of motivation -playing with a tablet is an activity the kindergartners typically do not do during class.</s><s xml:id="_apNX7vj" coords="3,63.95,704.84,229.61,7.54;3,42.52,715.33,251.08,7.54;3,42.52,725.76,76.07,7.54">In the empty control group, children did not play with a tablet game and stayed in their classroom participating in the normal classroom activities.</s><s xml:id="_FH7SjdC" coords="3,121.09,725.76,172.46,7.54;3,42.52,736.25,110.05,7.54">This empty control condition was included to control for test-retest effects.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_9DQX7KY">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_2bPCYkq">Participants</head><p xml:id="_XwWwJMv"><s xml:id="_ruTJyM7" coords="3,323.49,108.60,239.16,7.54;3,311.53,118.92,251.06,7.97">Originally, 160 children in the third year of kindergarten<ref type="foot" coords="3,538.19,106.50,3.56,5.66" target="#foot_1">1</ref> from ten classes from five different schools participated in the study.</s><s xml:id="_qFC7cf5" coords="3,311.53,129.52,251.06,7.54;3,311.53,139.96,251.10,7.54;3,311.53,150.44,251.10,7.54;3,311.53,160.88,107.71,7.54">Most of these children were from middle-to-high socio-economic status (SES) families as indicated by the highest educational degree of the mothers that was secondary education (31%), bachelor level (34%) or master level (30%).</s><s xml:id="_RNrURbQ" coords="3,422.42,160.88,140.14,7.54;3,311.53,171.36,34.49,7.54">Five percent did not respond to this question.</s><s xml:id="_UszAhkZ" coords="3,349.00,171.36,213.58,7.54;3,311.53,181.79,251.02,7.54;3,311.53,192.28,251.03,7.54;3,311.53,202.71,251.05,7.54;3,311.53,213.20,81.70,7.54">Five children (2 children in the number line estimation condition, 2 children in the comparison condition, and 1 child in the active control condition) did not have Dutch as their mother tongue, but their level of Dutch was sufficient to attend the class and the intervention.</s><s xml:id="_atB5jFz" coords="3,396.45,213.20,166.11,7.54;3,311.53,223.63,189.96,7.54">Within each class, children were randomly assigned to one of the four intervention conditions.</s><s xml:id="_d9ykEvP" coords="3,503.20,223.63,59.35,7.54;3,311.53,234.12,251.02,7.54;3,311.53,244.55,251.04,7.54;3,311.53,255.04,251.03,7.54">Four children (2 children in the number line estimation condition, and 2 children in the comparison condition) were excluded from analyses because they were frequently absent during the intervention period.</s><s xml:id="_V89Y9U2" coords="3,311.53,265.35,251.06,7.97;3,311.53,275.96,251.06,7.54;3,311.53,286.45,251.11,7.54;3,311.53,296.88,92.16,7.54">Another five children (3 children in the number line estimation condition, 1 child in the comparison condition, and 1 child in the active control condition) were also excluded because they were absent at the post-test.</s><s xml:id="_uD7syA2" coords="3,407.79,296.76,154.75,7.97;3,311.53,307.37,251.03,7.54;3,311.53,317.68,251.04,8.54;3,311.53,328.17,250.94,8.54;3,311.53,338.60,251.05,7.97;3,311.53,349.09,251.03,8.54;3,311.53,359.52,251.02,8.60;3,311.53,370.13,22.21,7.54">The final sample thus consisted of 151 kindergartners, of which 47 children participated in the comparison condition (M age (t 1 ) ¼ 5.44 years, SD ¼ 0.31; 23 boys), 41 children in the number line estimation condition (M age (t 1 ) ¼ 5.49 years, SD ¼ 0.29; 18 boys), 37 children in the active control condition (M age (t 1 ) ¼ 5.43 years, SD ¼ 0.27; 14 boys), and 26 children in the empty control condition (M age (t 1 ) ¼ 5.32 years, SD ¼ 0.31; 14 boys).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_5XrvhUx">Procedure and materials</head><p xml:id="_UwYxYkr"><s xml:id="_snZ2q5B" coords="3,323.49,415.76,239.10,7.97;3,311.53,426.37,143.41,7.54">The intervention study was conducted in the first quarter of the school year (SeptembereNovember).</s><s xml:id="_Twz3DDM" coords="3,459.38,426.37,103.16,7.54;3,311.53,436.80,221.28,7.54">In the pre-and post-test, children's number sense and arithmetic were measured.</s><s xml:id="_2dSCEer" coords="3,536.53,436.80,26.05,7.54;3,311.53,447.29,251.06,7.54;3,311.53,457.72,251.06,7.54;3,311.53,468.21,251.03,7.54;3,311.53,478.70,191.97,7.54">During the intervention, children in the comparison, number line estimation, and active control condition played 6 sessions of approximately 10 min with a tablet game over a period of three weeks, resulting in a total practice time of about 60 min.</s><s xml:id="_PEEHpcN" coords="3,506.49,478.70,56.09,7.54;3,311.53,489.13,251.05,7.54;3,311.53,499.50,74.02,7.97">These children were trained in a quiet separate room in the school, in groups of about five children.</s><s xml:id="_up7qKGG" coords="3,388.23,499.61,174.32,7.54;3,311.53,510.05,96.20,7.54">In each session, they were instructed to complete two or three levels.</s><s xml:id="_F7Tgnq3" coords="3,410.57,510.05,152.00,7.54;3,311.53,520.53,183.46,7.54">After completing the levels in each session, the child had to log out from the game.</s><s xml:id="_CeRehQj" coords="3,499.01,520.53,63.63,7.54;3,311.53,530.97,251.06,7.54;3,311.53,541.45,118.95,7.54">In the following session, the game restarted automatically at the level where the player ended the previous time.</s><s xml:id="_B4PAsN4" coords="3,432.45,541.45,130.20,7.54;3,311.53,551.89,204.28,7.54">Children wore headphones so they could hear the auditory instructions and feedback.</s><s xml:id="_ncdvNwc" coords="3,520.43,551.89,42.16,7.54;3,311.53,562.37,251.06,7.54;3,311.53,572.80,234.40,7.54">An experimenter was present during all sessions to log-on the children on the tablet and to help them with possible practical problems.</s><s xml:id="_3rANmpV" coords="3,548.67,572.80,13.89,7.54;3,311.53,583.29,251.04,7.54;3,311.53,593.72,251.02,7.54;3,311.53,604.21,86.95,7.54">The children in the empty control condition did not play with a tablet game, and had to stay in the classroom and participated in regular kindergarten activities.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3." xml:id="_S3jbCcJ">Pre-and post-measures</head><p xml:id="_5vzVsrG"><s xml:id="_N7EGtsj" coords="3,323.49,649.84,239.10,7.97;3,311.53,660.45,251.11,7.54;3,311.53,670.94,132.79,7.54">In the pre-and posttest, two number knowledge tasks were first included to investigate whether children were familiar with Arabic digits and their semantic meaning.</s><s xml:id="_R3EXVcF" coords="3,446.96,670.94,115.60,7.54;4,32.83,66.77,251.05,7.54;4,32.83,77.20,64.59,7.54">Children's number sense skills were measured with two comparison tasks and two number line estimation tasks.</s><s xml:id="_hYH4GyZ" coords="4,100.68,77.20,183.21,7.54;4,32.83,87.69,116.32,7.54">These tasks were run on a tablet (iPad 2 Wi-Fi 16 GB with 9.7 inches display).</s><s xml:id="_YJBvv5r" coords="4,151.42,87.69,132.54,7.54;4,32.83,98.12,241.82,7.54">Screenshots of number knowledge, comparison and number line estimation tasks are shown in Fig. <ref type="figure" coords="4,268.72,98.12,2.96,7.54" target="#fig_0">1</ref>.</s><s xml:id="_vjVjG2Z" coords="4,276.38,98.12,7.51,7.54;4,32.83,108.60,251.05,7.54;4,32.83,119.04,61.09,7.54">In addition to these tasks, children also completed two standardized arithmetic tests.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1." xml:id="_UEnD6J8">Number knowledge tasks</head><p xml:id="_4QBShFS"><s xml:id="_JKnm7YH" coords="4,44.79,158.77,239.11,7.97;4,32.83,169.32,251.06,7.54;4,32.83,179.81,251.04,7.54;4,32.83,190.24,26.29,7.54">In a variant of the give a number task <ref type="bibr" coords="4,188.50,158.77,91.37,7.97" target="#b7">(Condry &amp; Spelke, 2008)</ref>, children were shown the digits 3, 5, 7, and 9 in random order and for each digit they had to tap the same number of dots on the tablet screen.</s></p><p xml:id="_GqDpkGZ"><s xml:id="_QMUYdEN" coords="4,44.79,200.73,239.10,7.54;4,301.83,66.76,251.05,7.54;4,301.83,77.20,19.14,7.54">In the connecting task, an Arabic digit was shown and the child had to select which of three collections of dots corresponded to that digit.</s><s xml:id="_CnFuyxw" coords="4,322.92,77.20,229.92,7.54;4,301.83,87.68,251.06,7.54;4,301.83,98.12,136.48,7.54">Incorrect response alternatives differed in numerical distance from the correct response, one alternative with one digit away and one with more than two digits away.</s><s xml:id="_edGEN7m" coords="4,440.22,98.12,112.64,7.54;4,301.83,108.60,43.02,7.54">All single digits were included in this task.</s><s xml:id="_ayUADpJ" coords="4,347.02,108.60,205.87,7.54">For each correct answer, the child was given one point.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2." xml:id="_ztQXKaT">Comparison tasks</head><p xml:id="_SeRmScG"><s xml:id="_m8U2kvj" coords="4,313.74,148.40,239.15,7.54;4,301.83,158.89,251.00,7.54;4,301.83,169.32,197.33,7.54">The stimuli in the symbolic comparison task were all single digits; 16 trials had a numerical distance of 1 and 16 trials with a numerical distance of 4, resulting in 32 trials in total.</s><s xml:id="_p8NSDqg" coords="4,501.16,169.32,51.70,7.54;4,301.83,179.81,153.66,7.54">The stimuli in the non-symbolic tasks were dot arrays.</s><s xml:id="_cvp9QMV" coords="4,458.30,179.81,94.53,7.54;4,301.83,190.24,251.09,7.54;4,301.83,200.73,162.74,7.54">One of the dot arrays always contained the reference numerosity 16, whereas the other dot array contained 8, 11, 13, 19, 24, and 32 dots.</s><s xml:id="_rXcj8Nn" coords="4,466.46,200.73,86.41,7.54;5,42.52,212.30,251.04,7.54;5,42.52,222.73,34.62,7.54">Sixteen trials of each of the ratios (2.00, 1.50, and 1.20) were included, resulting in a total of 48 trials.</s><s xml:id="_8Tw52GP" coords="5,81.24,222.73,212.32,7.54;5,42.52,233.22,251.03,7.54;5,42.52,243.65,251.06,7.54;5,42.52,254.14,32.68,7.54">These stimuli were generated with the MatLab script developed by <ref type="bibr" coords="5,96.21,233.22,105.08,7.54" target="#b16">Gebuis and Reynvoet (2011)</ref>, controlling for four visual parameters (i.e., convex hull, total surface, item size, and density).</s><s xml:id="_9uXkyFb" coords="5,77.44,254.14,216.13,7.54;5,42.52,264.57,251.02,7.54;5,42.52,272.95,8.25,9.65;5,53.29,274.94,66.75,7.97">Regression analyses showed that differences in the visual parameters did not explain the variance in numerical distance (all R 2 &lt; 0.05, ps &gt; 0.17).</s></p><p xml:id="_gfY9G45"><s xml:id="_AjPAf3c" coords="5,54.48,285.49,219.16,7.54">The procedure in both comparison tasks was the same.</s><s xml:id="_4B5VhXx" coords="5,277.33,285.49,16.31,7.54;5,42.52,295.98,251.04,7.54;5,42.52,306.41,38.65,7.54">Two stimuli were presented simultaneously on the left and right side of the tablet.</s><s xml:id="_2PXZC4H" coords="5,83.90,306.41,209.68,7.54;5,42.52,316.89,49.03,7.54">The stimuli were presented for 1500 ms, followed by a blank screen.</s><s xml:id="_CJdjvWb" coords="5,93.26,316.89,200.32,7.54;5,42.52,327.33,251.05,7.54;5,42.52,337.81,61.51,7.54">The children had to answer during stimulus display or during the blank screen by tapping on the side of the numerical larger stimulus.</s><s xml:id="_5QjQ6pM" coords="5,109.07,337.81,184.49,7.54;5,42.52,348.25,195.20,7.54">After responding, an interstimulus interval of 600 ms followed after which the next trial started.</s><s xml:id="_8DHzSwe" coords="5,240.60,348.25,52.98,7.54;5,42.52,358.73,251.03,7.54;5,42.52,369.16,251.10,7.54;5,42.52,379.53,251.07,7.97;5,42.52,390.08,53.78,7.54">The child was instructed to answer as accurate and as fast as possible, though only accuracy was analysed as reaction times collected on different tablets may be unreliable due to timing errors <ref type="bibr" coords="5,224.84,379.53,68.75,7.97;5,42.52,390.08,49.93,7.54" target="#b46">(Schatz, Ybarra, &amp; Leitner, 2015)</ref>.</s><s xml:id="_aFyycW9" coords="5,98.99,390.08,194.57,7.54;5,42.52,400.57,89.21,7.54">There were three practice trials to become familiar with the task demands.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3." xml:id="_P5PBueD">Number line estimation tasks</head><p xml:id="_hk8wCPz"><s xml:id="_fA3fBqP" coords="5,54.48,448.08,239.13,7.54;5,42.52,458.57,217.06,7.54">In the number line estimation tasks, children had to place a nonsymbolic or symbolic numbers on an empty number line.</s><s xml:id="_KarbNzn" coords="5,261.91,458.57,31.65,7.54;5,42.52,468.88,251.06,7.97;5,42.52,479.49,251.06,7.54;5,42.52,489.80,251.04,7.97;5,42.52,500.41,163.36,7.54">A line of 14 cm was presented in the middle of the tablet labelled by "0" (symbolic variant) or an empty circle (non-symbolic variant) at the left end point and by "10" (symbolic variant) or a circle with 10 dots (non-symbolic variant) on the right side.</s><s xml:id="_Ffz9p92" coords="5,210.21,500.41,83.35,7.54;5,42.52,510.84,251.06,7.54;5,42.52,521.33,49.26,7.54">The to be positioned number was shown in the middle of the screen, 2.2 cm above the number line.</s><s xml:id="_Fr7nVAe" coords="5,95.19,521.33,198.37,7.54;5,42.52,531.76,251.06,7.54;5,42.52,542.25,251.08,7.54;5,42.52,552.68,39.00,7.54">All numbers from 1 to 9 were shown in a random order and had to be positioned twice on the number line in both symbolic and non-symbolic tasks, resulting in a total of 18 trials in each task.</s><s xml:id="_nrp6WnB" coords="5,85.78,552.68,207.80,7.54;5,42.52,563.17,32.59,7.54">Children were instructed to answer as accurately as possible.</s><s xml:id="_FmEUMwq" coords="5,77.61,563.17,205.63,7.54">Three practice trials preceded the task administration.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.4." xml:id="_QF8yTU8">Arithmetic measures</head><p xml:id="_yt3v4cT"><s xml:id="_XHD2MsG" coords="5,54.48,610.67,239.08,7.54;5,42.52,621.04,234.75,7.97">Children's arithmetic skills were measured with two subtests of the TEDI-MATH (Gr egoire, No€ el, &amp; Van Nieuwenhoven, 2004).</s><s xml:id="_9J2Ckts" coords="5,279.72,621.16,13.89,7.54;5,42.52,631.47,251.04,7.97;5,42.52,642.08,167.14,7.54">The first subtest comprised six pictorially presented arithmetic problems, which were read aloud to the child (e.g.</s><s xml:id="_uqksH7G" coords="5,211.52,641.96,82.15,7.97;5,42.52,652.57,130.46,7.54">"Here you see two red balloons and three blue balloons.</s><s xml:id="_6bqTh2B" coords="5,176.65,652.57,116.90,7.54;5,42.52,663.00,44.83,7.54">How many balloons are there together?").</s><s xml:id="_Ue9TRAa" coords="5,89.29,663.00,204.28,7.54">For each correct answer, the child was given one point.</s><s xml:id="_ZuefbEy" coords="5,42.52,673.49,251.09,7.54;5,42.52,683.92,89.42,7.54">The second subtest comprised 18 horizontally presented symbolic addition operations (e.g.</s><s xml:id="_fmj69VK" coords="5,134.70,683.80,53.56,7.97">"6 þ 3 ¼ …").</s><s xml:id="_g6wKr6w" coords="5,191.06,683.80,102.53,7.97;5,42.52,694.41,251.04,7.54;5,42.52,704.84,130.99,7.54">Only the first problem was read aloud by the experimenter, after which the child had to complete the remaining problems.</s><s xml:id="_aygaW6d" coords="5,176.03,704.84,117.53,7.54;5,42.52,715.21,251.04,7.97;5,42.52,725.76,72.61,7.54">The child had to solve as many addition problems as possible and testing was stopped after five consecutive errors.</s><s xml:id="_CaVpGcW" coords="5,118.89,725.76,174.77,7.54;5,42.52,736.25,76.53,7.54">The total score was the number of correctly answered problems.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4." xml:id="_5UKvJZS">Intervention conditions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1." xml:id="_edb98ks">Experimental conditions: comparison and number line estimation</head><p xml:id="_skW6FeM"><s xml:id="_pbBfckZ" coords="5,323.49,254.13,239.08,7.54;5,311.53,264.56,251.07,7.54;5,311.53,275.05,251.06,7.54;5,311.53,285.48,251.06,7.54">In both conditions, children were presented with the story that the planet was destroyed and the child needed to help the game characters to make the planet beautiful again by collecting the animals that were hidden in the water, on the land, and in the air.</s><s xml:id="_3dXF7x6" coords="5,311.53,295.97,251.05,7.54;5,311.53,306.40,35.35,7.54">The different levels of the game were characterised by increasing difficulty.</s><s xml:id="_mEWgxU4" coords="5,348.78,306.40,213.82,7.54;5,311.53,316.89,251.05,7.54;5,311.53,327.32,138.90,7.54">The children had to reach a minimum mean accuracy in a level (i.e., 80% in the comparison game and 50% in the number line game) before going to the next level.</s><s xml:id="_M3WNvKr" coords="5,452.81,327.32,109.74,7.54;5,311.53,337.81,146.55,7.54">As long as they did not reach that score, they had to repeat the level.</s><s xml:id="_j6jqYcB" coords="5,460.23,337.81,102.41,7.54;5,311.53,348.24,215.47,7.54">In the comparison training, the difficulty of the levels was based on the numbers (i.e.</s><s xml:id="_nBqNuXc" coords="5,528.66,348.24,33.88,7.55;5,311.53,358.73,138.48,7.54">1e4, 1e9 and 5e18), the display duration (i.e.</s><s xml:id="_UUZvMWd" coords="5,453.03,358.73,109.56,7.54;5,311.53,369.17,78.33,7.54">infinite or 1500 ms) and the type of stimuli (i.e.</s><s xml:id="_akGBYZj" coords="5,394.69,369.17,138.46,7.54">non-symbolic, symbolic or mixed).</s><s xml:id="_afczEDU" coords="5,537.95,369.17,24.64,7.54;5,311.53,379.65,251.05,7.54;5,311.53,390.08,251.02,7.54">In the number line training, level difficulty was based on the number of anchor points (i.e. 9, 1 or 0), display duration of the stimulus (i.e.</s><s xml:id="_SPZbknT" coords="5,311.53,400.57,160.08,7.54">infinite or 1500 ms) and type of stimuli (i.e.</s><s xml:id="_yARGJhP" coords="5,473.32,400.57,89.24,7.54;5,311.53,411.00,41.18,7.54">non-symbolic, symbolic or mixed).</s><s xml:id="_TkMzcqx" coords="5,357.33,411.00,205.22,7.54;5,311.53,421.37,251.05,7.97;5,311.53,431.92,203.86,7.54">As a consequence some children played somewhat longer than others, but importantly, all children finished the last level and thereby received the same learning content.</s><s xml:id="_na92aNn" coords="5,517.82,431.92,44.76,7.54;5,311.53,442.41,251.02,7.54;5,311.53,452.84,57.55,7.54">In that way, all children trained at their individual performance level and at their own pace.</s><s xml:id="_5hfgX4X" coords="5,370.94,452.84,191.63,7.54;5,311.53,463.33,158.86,7.54">After each session, the children received pictures of the animals they had caught as a reward.</s><s xml:id="_ANYBJu8" coords="5,473.27,463.33,89.28,7.54;5,311.53,473.76,251.06,7.54;5,311.53,484.25,251.01,7.54;5,311.53,494.68,57.88,7.54">The two games used in these conditions are described into detail in <ref type="bibr" coords="5,486.31,473.76,72.54,7.54" target="#b30">Linsen et al. (2015)</ref>, where they are denoted as K-games as they were designed for kindergartners.</s></p><p xml:id="_C7ytrbH"><s xml:id="_kKYE8MQ" coords="5,323.49,505.17,239.06,7.54;5,311.53,515.60,251.06,7.54;5,311.53,526.09,152.32,7.54">In the comparison game, children had to navigate their vehicle through the world and they were shown two stimuli on the left and right side of the tablet screen (Fig. <ref type="figure" coords="5,454.16,526.09,3.23,7.54" target="#fig_1">2</ref>).</s><s xml:id="_stsUqB8" coords="5,467.71,526.09,94.92,7.54;5,311.53,536.58,251.03,7.54;5,311.53,547.01,52.26,7.54">They were instructed to collect as many animals as possible by tapping on the numerically larger stimuli.</s><s xml:id="_EnkHNaU" coords="5,365.67,547.01,196.91,7.54;5,311.53,557.50,251.04,7.54">Immediately after tapping, the vehicle moved to that position and if the answer was correct, the animals were collected.</s><s xml:id="_2WVbY4W" coords="5,311.53,567.93,251.02,7.54;5,311.53,578.42,211.29,7.54">The feedback was extended by a positive or negative sound depending on whether the answer was correct or wrong.</s><s xml:id="_eH56jJr" coords="5,524.63,578.42,37.95,7.54;5,311.53,588.85,251.04,7.54;5,311.53,599.34,61.86,7.54">After each session, the children received printed pictures of the collected animals as reward.</s></p><p xml:id="_Kh7YnZH"><s xml:id="_xgq2bRa" coords="5,323.49,609.77,239.08,7.54;5,311.53,620.25,251.06,7.54;5,311.53,630.69,109.29,7.54">In the number line game, children had to navigate their vehicle and were shown an empty number line on which they had to position a number (Fig. <ref type="figure" coords="5,411.08,630.69,3.24,7.54" target="#fig_2">3</ref>).</s><s xml:id="_AfcfJ2C" coords="5,425.25,630.69,137.33,7.54;5,311.53,641.17,251.04,7.54;5,311.53,651.61,221.69,7.54">Here too, they were instructed to collect as many animals as possible by tapping on corresponding position on the number line of the presented numbers.</s><s xml:id="_JnggxFK" coords="5,536.88,651.61,25.70,7.54;5,311.53,662.09,251.05,7.54;5,311.53,672.52,134.95,7.54">Immediately after tapping on that position, the vehicle moved over there and grasped for the animal.</s><s xml:id="_UeWzX8r" coords="5,450.19,672.52,112.40,7.54;5,311.53,683.01,251.03,7.54;5,311.53,693.44,29.11,7.54">If the answer was correct, a hidden animal came out of the line and disappeared in the vehicle.</s><s xml:id="_3cAEbKT" coords="5,344.52,693.44,218.05,7.54;5,311.53,703.93,89.94,7.54">If the answer was incorrect, the animal came out, but stayed at its position.</s><s xml:id="_N52CumJ" coords="5,406.66,703.93,155.94,7.54;5,311.53,714.36,210.98,7.54">This feedback was augmented with a positive (high tone) or negative (low tone) feedback.</s><s xml:id="_xFcRSXy" coords="5,526.22,714.36,36.37,7.54;5,311.53,724.85,251.05,7.54;5,311.53,735.28,29.62,7.54">Here too, the children received pictures of the animals as reward after each session.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2." xml:id="_vxy9Hvc">Control conditions: active and empty control condition</head><p xml:id="_KQCCzVz"><s xml:id="_DpjUGzh" coords="6,44.79,328.01,239.12,7.54;6,32.83,338.38,251.05,7.97;6,32.83,348.93,219.38,7.54">In the active control condition children played an existing, commercial game called 'Mega Memory Match' on a tablet (Fig. <ref type="figure" coords="6,276.27,338.49,3.80,7.54" target="#fig_3">4</ref>; GiggleUp Kids Apps And Educational Games Pty Ltd, 2013).</s><s xml:id="_SK5kHY9" coords="6,254.16,348.93,29.74,7.54;6,32.83,359.41,251.10,7.54;6,32.83,369.85,118.56,7.54">This is a typical memory game with different topics (e.g., animals, vehicles, food, letters…) but no numbers.</s><s xml:id="_bMwhsSk" coords="6,153.07,369.85,130.86,7.54;6,32.83,380.33,74.73,7.54">Children had to play three different levels each session.</s><s xml:id="_MXBMESW" coords="6,110.95,380.33,172.92,7.54;6,32.83,390.76,172.05,7.54">This approximately matched the playtime of the children in the experimental conditions.</s><s xml:id="_gcjsY4g" coords="6,208.29,390.76,75.68,7.54;6,32.83,401.25,251.05,7.54;6,32.83,411.56,251.07,7.97;6,32.83,422.05,251.03,7.97;6,32.83,432.60,190.46,7.54">In each session, we gradually adjusted the degree of difficulty by increasing the number of cards that comprised the memory game, going from a 2 Â 2 to a 7 Â 4 grid and by decreasing the amount of time the picture side is shown in the beginning (from 10 s to 0 s).</s><s xml:id="_4kUgk9n" coords="6,226.20,432.60,57.65,7.54;6,32.83,443.09,251.05,7.54;6,32.83,453.52,35.52,7.54">As in the other experimental conditions, children received auditory and visual feedback.</s><s xml:id="_35VmGeY" coords="6,70.47,453.52,213.43,7.54;6,32.83,464.01,114.02,7.54">For a correct match of cards, a positive sound was played and the cards were collected.</s><s xml:id="_fMQvAnP" coords="6,150.12,464.01,133.77,7.54;6,32.83,474.44,223.08,7.54">For an incorrect match, a bummer sound was played and the cards remained on their position.</s><s xml:id="_jBcACrZ" coords="6,257.83,474.44,26.05,7.54;6,32.83,484.93,251.08,7.54;6,32.83,495.36,24.32,7.54">During the entire intervention, the children heard soft, happy background music.</s><s xml:id="_Dfeh6j3" coords="6,59.24,495.36,224.63,7.54;6,32.83,505.85,45.81,7.54">After each session, the children received pictures of animals as a reward.</s></p><p xml:id="_b57UbkA"><s xml:id="_xjs9dpC" coords="6,44.79,516.28,239.10,7.54;6,32.83,526.77,46.10,7.54">The children in the empty control condition did not play with a tablet game.</s><s xml:id="_cDJHgy9" coords="6,80.79,526.77,203.09,7.54;6,32.83,537.20,251.03,7.54;6,32.83,547.69,123.62,7.54">They had to stay in the classroom doing activities their teacher instructed them to do (e.g., doing arts and crafts, listening to a story, or playing with dolls).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_UCAxMHw">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1." xml:id="_MqrTaer">Descriptive statistics</head><p xml:id="_qNFwmgG"><s xml:id="_DAnzHhJ" coords="6,44.79,619.47,205.82,9.50;6,247.18,618.43,3.43,5.66;6,252.68,620.37,31.21,7.97;6,32.82,628.87,48.06,9.65;6,83.45,629.96,4.83,9.17;6,88.33,628.87,195.53,9.96;6,32.83,641.41,66.94,7.54">Analyses showed that age, F(3,147) ¼ 1.77, p ¼ 0.156, h p 2 ¼ 0.036, and gender, 2 c 2 (3) ¼ 1.87, p ¼ 0.600 did not statistically differ between conditions.</s><s xml:id="_E4YfTdf" coords="6,101.54,641.41,182.28,7.54;6,32.83,651.89,251.05,7.54;6,32.83,662.32,88.92,7.54">Table <ref type="table" coords="6,123.19,641.41,4.74,7.54" target="#tab_0">1</ref> shows the mean performance on all tasks during pre-and post-test in all conditions, together with the corresponding gain scores.</s><s xml:id="_ZgqsXAq" coords="7,54.48,66.77,239.03,7.54;7,42.52,77.20,251.06,7.54;7,42.52,87.69,33.98,7.54">The mean accuracies on the two number knowledge tasks showed that the children performed on average above chance on this task.</s></p><p xml:id="_5DVCjvV"><s xml:id="_pTanzPq" coords="7,54.48,98.12,239.11,7.54;7,42.52,108.60,70.10,7.54">The mean accuracy on the non-symbolic comparison task at pre-test was 59%.</s><s xml:id="_dYn4pu5" coords="7,117.18,108.60,176.39,7.54;7,42.52,118.92,251.06,7.97;7,42.52,128.51,4.58,9.17;7,47.11,127.42,3.43,5.66;7,50.51,129.41,203.69,8.54">Crucially and as expected, performance was influenced by numerical ratio, F(2,146) ¼ 10.79, p &lt; 0.001, h 2 p ¼ 0.129, reflecting higher accuracies for larger ratios.</s><s xml:id="_rzvyUUk" coords="7,256.42,129.52,37.18,7.54;7,42.52,139.96,232.88,7.54">The mean accuracy in the symbolic comparison task at pre-test was 66%.</s><s xml:id="_5wthbkq" coords="7,277.45,139.96,16.13,7.54;7,42.52,150.44,251.09,7.54;7,42.52,159.86,131.23,9.17;7,173.71,158.83,3.43,5.66;7,177.17,160.76,37.27,8.60">Also here, a distance effect was observed in the symbolic comparison task, F(1,147) ¼ 45.74, p &lt; 0.001, h 2 p ¼ 0.237.</s><s xml:id="_rAjYq2G" coords="7,217.25,160.88,76.31,7.54;7,42.52,171.36,251.06,7.54;7,42.52,181.80,23.55,7.54">Children were more accurate when the numerical difference between two digits was larger.</s></p><p xml:id="_SJdVBMV"><s xml:id="_QgNU5qF" coords="7,54.48,192.28,239.07,7.54;7,42.52,202.71,123.94,7.54">In the number line estimation tasks, the percentage absolute error (PAE) was used as outcome.</s><s xml:id="_jrUraGq" coords="7,168.49,202.71,125.10,7.54;7,42.52,213.08,251.04,7.97;7,42.52,223.63,108.03,7.54">The PAE was calculated according to the formula of <ref type="bibr" coords="7,114.52,213.20,97.24,7.54" target="#b48">Siegler and Booth (2004)</ref>: j(estimate e actual number)/scale of estimatesj.</s><s xml:id="_yx3xeJB" coords="7,153.69,223.63,139.87,7.54;7,42.52,234.12,251.08,7.54;7,42.52,244.43,193.01,7.97">For example, if a child was asked to estimate 4 on a 0e10 number line and marks the line at the point corresponding to 5.3, the PAE would be j(5.3À4)/10j</s><s xml:id="_mWzX2hn" coords="7,237.54,244.55,46.51,7.54">or 13% error.</s><s xml:id="_rVPxc2X" coords="7,286.07,244.55,7.51,7.54;7,42.52,255.04,251.07,7.54;7,42.52,265.47,251.06,7.54;7,42.52,275.96,251.08,7.54;7,42.52,286.45,251.08,7.54;7,42.52,296.88,70.09,7.54">In general, taking into account time of testing during school year (i.e. the present pre-test was conducted in second month of the school year) mean accuracies and variation for comparison and number line estimation tasks were comparable with previous studies with pre-schoolers (e.g.</s><s xml:id="_99fV7sr" coords="7,115.71,296.76,177.86,7.97;7,42.52,307.25,251.08,7.97;7,42.52,317.68,186.16,7.97"><ref type="bibr" coords="7,115.71,296.76,177.86,7.97;7,42.52,307.37,21.02,7.54" target="#b3">Berteletti, Lucangeli, Piazza, Dehaene, &amp; Zorzi, 2010;</ref><ref type="bibr" coords="7,69.96,307.25,121.52,7.97">Halberda &amp; Feigenson, 2008;</ref><ref type="bibr" coords="7,197.91,307.37,95.68,7.54" target="#b42">Sasanguie et al., 2012;</ref><ref type="bibr" coords="7,42.52,317.68,182.31,7.97" target="#b43">Sasanguie, Defever, Maertens, &amp; Reynvoet, 2014)</ref>.</s></p><p xml:id="_pDGfKv3"><s xml:id="_Sayv8tN" coords="7,54.48,328.29,239.07,7.54;7,42.52,338.72,161.71,7.54">In the arithmetic tasks, on average three out of six pictorially presented problems were solved correctly.</s><s xml:id="_mUWTBH6" coords="7,206.87,338.72,86.70,7.54;7,42.52,349.21,163.34,7.54">In contrast, the performance on symbolic addition operation (e.g.</s><s xml:id="_Qb4ufD6" coords="7,208.12,349.09,85.52,7.97;7,42.52,359.64,15.62,7.54">"2 þ 3 ¼ …") was very low.</s></p><p xml:id="_7nVTB6d"><s xml:id="_BtpSTXV" coords="7,54.48,370.13,239.09,7.54;7,42.52,380.44,236.98,7.97">One-way ANOVA's on all pre-test measures showed no differences in performance between the four conditions (ps &gt; 0.32).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2." xml:id="_Xn2SX8S">Reliabilities of tasks and correlations between tasks</head><p xml:id="_j84ZSG3"><s xml:id="_7DRRwnA" coords="7,54.48,432.49,239.12,7.54;7,42.52,442.92,251.06,7.54;7,42.52,453.41,251.04,7.54;7,42.52,463.84,59.52,7.54">The reliability of the number knowledge, comparison, number line estimation and arithmetic tasks was assessed by computing the test-retest reliability (pre and post-test) of these tasks in the two control groups.</s><s xml:id="_fZ2bWts" coords="7,106.92,463.84,186.73,7.54;7,42.52,474.21,251.08,7.97;7,42.52,484.64,251.08,7.97;7,42.52,495.13,251.06,7.97;7,42.52,505.56,251.08,7.97;7,42.52,516.05,251.04,7.97;7,42.52,526.48,251.04,7.97;7,42.52,536.97,43.73,7.97">These analyses indicated low to moderate reliabilities between 0.39 and 0.74 (give a number, r(63) ¼ 0.42, p ¼ 0.001, connecting, r(63) ¼ 0.50, p &lt; 0.001, non-symbolic comparison, r(63) ¼ 0.50, p &lt; 0.001, symbolic comparison, r(63) ¼ 0.64, p &lt; 0.001, non-symbolic number line, r(63) ¼ 0.39, p ¼ 0.002, symbolic number line, r(63) ¼ 0.58, p &lt; 0.001, pictorial arithmetic problems, r(63) ¼ 0.60, p &lt; 0.001, symbolic addition, r(63) ¼ 0.74, p &lt; 0.001).</s><s xml:id="_5UysHCK" coords="7,90.14,537.09,203.41,7.54;7,42.52,547.52,251.06,7.54;7,42.52,558.01,251.08,7.54;7,42.52,568.50,33.12,7.54">These low to moderate reliabilities of the tasks are probably due to the low number of observations in each task, ranging from 4 (give a number task) to 48 (non-symbolic comparison).</s><s xml:id="_seEgcRP" coords="7,79.26,568.50,214.39,7.54;7,42.52,578.93,251.05,7.54;7,42.52,589.42,142.40,7.54"><ref type="bibr" coords="7,79.26,568.50,171.25,7.54" target="#b27">Lindskog, Winman, Juslin, and Poom (2013)</ref> previously demonstrated that the reliability of a numerical task increases when the number of trials increases.</s><s xml:id="_MfMMdwq" coords="7,188.05,589.42,105.59,7.54;7,42.52,599.85,251.06,7.54;7,311.53,66.76,31.95,7.54">Another reason for the low reliabilities is that there was quite some time between pre-and posttest.</s><s xml:id="_RVQ2HPk" coords="7,345.83,66.76,216.76,7.54;7,311.53,77.19,251.04,7.54">Substantial development might have taken place in these children, influencing the stability of the skills under investigation.</s><s xml:id="_CAntmSs" coords="7,311.53,87.68,251.11,7.54;7,311.53,98.11,251.06,7.54;7,311.53,108.48,218.14,7.97">Low reliabilities will add more measurement error making it more difficult to detect differences between conditions or resulting in the underestimation of differences <ref type="bibr" coords="7,430.35,108.48,95.41,7.97" target="#b22">(Hunter &amp; Schmidt, 1990)</ref>.</s></p><p xml:id="_6q7vc82"><s xml:id="_4QJ7mEB" coords="7,323.49,119.03,239.10,7.54">The correlations between all tasks are presented in Table <ref type="table" coords="7,555.93,119.03,3.33,7.54">2</ref>.</s><s xml:id="_U7C7e97" coords="7,311.53,129.52,251.05,7.54;7,311.53,139.95,251.03,7.54;7,311.53,150.32,202.98,7.97">These correlations showed that arithmetic performance was significantly related to number knowledge, symbolic comparison and symbolic number line estimation (all ps &lt; 0.001).</s><s xml:id="_B9sSH9b" coords="7,516.93,150.44,45.63,7.54;7,311.53,160.87,251.03,7.54;7,311.53,171.36,73.36,7.54">The relation between arithmetic performance and non-symbolic comparison was not significant.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3." xml:id="_F7gdc3d">Effects of training</head><p xml:id="_srRj2NN"><s xml:id="_g9j8BSK" coords="7,323.49,216.54,239.06,7.54;7,311.53,227.03,251.13,7.54;7,311.53,237.46,251.03,7.54;7,311.53,247.95,223.98,7.54">The training effect was evaluated with a repeated measures ANOVA with time (pre-test vs. post-test) as within-subject factor and condition (comparison, number line, active control, and empty control) as between-subjects factor on all subtests (Fig. <ref type="figure" coords="7,525.83,247.95,3.23,7.54" target="#fig_4">5</ref>).</s><s xml:id="_WZ3hmyG" coords="7,538.36,247.95,24.20,7.54;7,311.53,258.38,207.74,7.54">Partial eta-squared was calculated as a measure of effect size.</s><s xml:id="_FtystBf" coords="7,521.91,258.38,40.67,7.54;7,311.53,268.87,251.11,7.54;7,311.53,279.30,251.02,7.54;7,311.53,289.67,227.02,7.97">If an interaction effect was found, planned pairwise comparison tests on preand post-test scores were conducted correcting for multiple comparisons with a Bonferroni correction (p &lt; 0.05/8 ¼ 0.006).</s><s xml:id="_pErf5aR" coords="7,541.36,289.79,21.20,7.54;7,311.53,300.22,251.06,7.54;7,311.53,310.71,147.43,7.54">Effect sizes (d) were reported for these pairwise comparison using the formula reported in <ref type="bibr" coords="7,388.91,310.71,66.17,7.54" target="#b5">Borenstein (2009)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1." xml:id="_4rTcdfm">Number knowledge tasks</head><p xml:id="_aaJYkWb"><s xml:id="_U8HWXwz" coords="7,323.49,345.40,239.10,7.54">On the give a number task, a main effect of moment was found,</s></p><formula xml:id="formula_0" coords="7,311.53,353.85,129.56,10.47">F(1,147) ¼ 23.71, p &lt; 0.001, h 2 p ¼ 0.</formula><p xml:id="_wkCQybm"><s xml:id="_YjJBkmJ" coords="7,441.08,355.90,121.47,7.54;7,311.53,366.39,198.57,7.54">139, indicating that performance for this task was significantly better on the post-test.</s><s xml:id="_bJF2nQB" coords="7,512.33,366.39,50.26,7.54;7,311.53,376.70,251.06,7.97;7,311.53,386.29,4.58,9.17;7,316.06,385.20,3.43,5.66;7,319.52,387.19,37.56,8.54">There was no significant moment by condition effect, F(3,147) ¼ 1.74, p ¼ 0.161, h 2 p ¼ 0.034.</s><s xml:id="_cVMkTgS" coords="7,323.49,397.74,239.15,7.54;7,311.53,407.21,133.16,9.17;7,444.70,406.12,3.43,5.66;7,448.10,408.11,39.60,8.54">Also on the connecting task, a main effect of moment was present, F(1,147) ¼ 5.37, p ¼ 0.002, h 2 p ¼ 0.035.</s><s xml:id="_RkuYMsk" coords="7,491.13,408.23,71.41,7.54;7,311.53,418.66,251.02,7.54;7,311.53,428.13,105.38,9.17;7,416.92,427.04,3.43,5.66;7,420.38,429.03,142.17,8.54;7,311.53,439.58,102.07,7.54">There was a trend towards significant interaction between moment and condition, F(3,147) ¼ 2.38, p ¼ 0.072, h 2 p ¼ 0.046 which was further explored with planned comparisons.</s><s xml:id="_yvhHVzt" coords="7,415.55,439.58,147.02,7.54;7,311.53,450.07,251.05,7.54;7,311.53,460.38,251.06,7.97;7,311.53,470.87,251.03,7.97;7,311.52,481.30,251.07,7.97;7,311.52,491.79,228.73,7.97">These additional analyses revealed that the comparison condition improved significantly from pre-to posttest, t(46) ¼ 3.06, p ¼ 0.004, d ¼ 0.61, which was not the case for the other conditions (NLE condition, t(40) ¼ 1.77, p ¼ 0.085, d ¼ 0.30, active control condition, t(36) ¼ 0.057, p ¼ 0.571, d ¼ 0.09, and empty control condition, t(25) ¼ 0.323, p ¼ 0.749, d ¼ 0.07).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2." xml:id="_KHYY5nu">Comparison tasks</head><p xml:id="_hAVAAhZ"><s xml:id="_gEAD3b2" coords="7,323.49,526.60,239.08,7.54;7,311.52,536.07,208.73,9.17;7,520.21,534.98,3.43,5.66;7,523.67,536.97,38.90,8.54">The performance on the non-symbolic comparison task was improved on the post-test, F(1,147) ¼ 6.51, p ¼ 0.012, h 2 p ¼ 0.042.</s><s xml:id="_9mXx6rZ" coords="7,311.53,547.52,251.03,7.54;7,311.53,558.01,251.07,7.54;7,311.53,567.48,143.81,9.17;7,455.30,566.39,3.43,5.66;7,458.76,568.38,37.39,8.54">However, no significant differences between conditions were found as indicated by a non-significant interaction between moment and condition, F(3,147) ¼ 2.01, p ¼ 0.115, h 2 p ¼ 0.039.</s><s xml:id="_pvdbZ8S" coords="7,498.56,568.50,64.08,7.54;7,311.53,578.93,251.03,7.54;7,311.53,588.40,185.54,9.17;7,497.08,587.31,3.43,5.66;7,500.48,589.30,62.10,8.54;7,311.53,598.83,210.88,9.17;7,522.37,597.80,3.43,5.66;7,525.83,599.73,36.76,8.54">A similar pattern was observed in the symbolic comparison task, where a main effect of moment was found, F(1,147) ¼ 6.65, p ¼ 0.011, h 2 p ¼ 0.043, but no moment by condition effect, F(3,147) ¼ 1.72, p ¼ 0.165, h 2 p ¼ 0.034.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.3." xml:id="_SjvjyZT">Number line estimation tasks</head><p xml:id="_A3xBrr7"><s xml:id="_SnySrqf" coords="8,44.79,607.39,239.07,7.54;8,32.83,617.88,251.10,7.54;8,32.83,627.29,112.18,9.17;8,145.02,626.26,3.43,5.66;8,148.42,628.19,38.58,8.54">On the non-symbolic number line estimation task, children's performance was better at the post-test than at the pre-test, F(1,147) ¼ 12.73, p &lt; 0.001, h 2 p ¼ 0.080.</s><s xml:id="_a5Tppn3" coords="8,190.03,628.31,93.83,7.54;8,32.83,638.68,251.03,7.97;8,32.83,648.21,44.94,9.17;8,77.73,647.18,3.43,5.66;8,81.18,649.11,37.96,8.54">An interaction effect between moment and condition was also observed, F(3,147) ¼ 14.22, p &lt; 0.001, h 2 p ¼ 0.225.</s><s xml:id="_T7gk8sD" coords="8,121.89,649.23,161.96,7.54;8,32.83,659.72,162.12,7.54">This interaction was further explored with pairwise comparisons of pre-and post-test.</s><s xml:id="_7dBWbWW" coords="8,196.78,659.72,87.11,7.54;8,32.83,670.15,251.08,7.54;8,32.83,680.52,251.05,7.97;8,32.83,690.95,251.04,7.97;8,32.83,701.44,251.06,7.97;8,32.83,711.87,37.21,7.97">These revealed that the performance only improved significantly in the NLE condition, t(40) ¼ 6.72, p &lt; 0.001, d ¼ 1.17 (comparison condition, t(46) ¼ 1.55, p ¼ 0.129, d ¼ 0.18, active control condition, t(36) ¼ 1.63, p ¼ 0.113, d ¼ 0.30, and empty control condition, t(25) ¼ À0.02, p ¼ 0.984, d ¼ 0.00).</s></p><p xml:id="_aebsPch"><s xml:id="_xMXsJBW" coords="8,44.79,722.47,239.07,7.54;8,32.83,732.91,45.27,7.54">Similar results were obtained in the symbolic number line estimation task.</s><s xml:id="_U6UuMaE" coords="8,80.79,732.79,203.10,7.97;8,301.83,595.89,4.58,9.17;8,306.37,594.85,3.43,5.66;8,309.83,596.78,243.04,8.60;8,301.83,607.39,251.00,7.54;8,301.83,616.86,107.53,9.17;8,409.32,615.77,3.43,5.66;8,412.78,617.76,35.97,8.54">A main effect of moment, F(1,147) ¼ 23.67, p &lt; 0.001, h 2 p ¼ 0.139, indicating that performance was better in the post-test and a moment by condition interaction was observed, F(3,147) ¼ 14.74, p &lt; 0.001, h 2 p ¼ 0.231.</s><s xml:id="_ABUucvu" coords="8,450.94,617.88,101.96,7.54;8,301.83,628.31,251.05,7.54;8,301.83,638.68,251.03,7.97;8,301.83,649.11,251.01,7.97;8,301.83,659.60,251.04,7.97;8,301.83,670.03,239.14,7.97">Here too, planned pairwise comparison of pre-and post-test revealed that only the NLE condition improved significantly from pre-to post-test, t(40) ¼ 6.93, p &lt; 0.001, d ¼ 1.15 (comparison condition, t(46) ¼ 0.60, p ¼ 0.551, d ¼ 0.06, active control condition, t(36) ¼ 0.92, p ¼ 0.366, d ¼ 0.14, and empty control condition, t(25) ¼ 0.47, p ¼ 0.641, d ¼ 0.09).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.4." xml:id="_qp4J7qK">Arithmetic</head><p xml:id="_ughzHpK"><s xml:id="_wEQs36E" coords="8,313.74,704.84,239.13,7.54;8,301.83,715.21,251.01,7.97;8,301.83,724.75,4.58,9.17;8,306.37,723.71,3.43,5.66;8,309.83,725.64,36.84,8.60">On arithmetic, performance improved from pre to post-test resulting in a main effect of moment, F(1,147) ¼ 19.96, p &lt; 0.001, h 2 p ¼ 0.120.</s><s xml:id="_aWxYwWB" coords="8,349.23,725.76,203.67,7.54;8,301.83,735.24,174.03,9.17;8,475.82,734.15,3.43,5.66;8,479.28,736.13,38.61,8.54">There was a trend for a significant moment by condition interaction, F(3,147) ¼ 2.20, p ¼ 0.090, h 2 p ¼ 0.043.</s><s xml:id="_8K3PwAt" coords="8,520.89,736.25,31.96,7.54;9,42.52,66.77,251.08,7.54;9,42.52,77.08,251.07,7.97;9,42.52,87.57,251.08,7.97;9,42.52,98.00,251.03,7.97;9,42.52,108.49,251.04,7.97;9,42.52,118.92,67.13,7.97">Pairwise comparison of pre-and post-test showed that the performance in the comparison condition, t(46) ¼ À3.60, p ¼ 0.001, d ¼ 0.49, and the NLE condition, t(40) ¼ À4.13, p &lt; 0.001, d ¼ 0.53, improved significantly, which was not the case for the active, t(36) ¼ À2.46, p ¼ 0.019, d ¼ 0.32, and empty control condition, t(25) ¼ 0.00, p ¼ 1.00, d ¼ 0.00.</s><s xml:id="_F5T33Ty" coords="9,111.51,119.04,182.03,7.54;9,42.52,128.51,211.50,9.17;9,254.04,127.42,3.43,5.66;9,257.44,129.41,36.14,8.54;9,42.52,139.84,251.08,7.97;9,42.52,149.43,4.58,9.17;9,47.11,148.34,3.43,5.66;9,50.51,150.33,37.80,8.54">For the symbolic addition operations a main effect of moment was observed, F(3,147) ¼ 17.54, p &lt; 0.001, h 2 p ¼ 0.107, but no moment by condition interaction, F(3,147) ¼ 0.41, p ¼ 0.745, h 2 p ¼ 0.008.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_FRX5VAs">Discussion and conclusion</head><p xml:id="_46XxfsK"><s xml:id="_kyFVUq2" coords="9,54.48,192.28,239.07,7.54;9,42.52,202.71,251.08,7.54;9,42.52,213.20,251.08,7.54;9,42.52,223.63,251.05,7.54;9,42.52,234.12,177.80,7.54">In this study, we contrasted two training programs that focused each on a specific basic number skill, i.e. comparison and number line estimation, in order to answer two outstanding questions in the domain of interventions on basic number processing, and, on the other hand, models of numerical cognition.</s><s xml:id="_ffzgtUC" coords="9,222.63,234.12,70.96,7.54;9,42.52,244.55,251.06,7.54;9,42.52,255.04,41.14,7.54">First, we evaluated which training was more effective by examining their impact on arithmetic.</s><s xml:id="_jyMdMsS" coords="9,86.96,255.04,206.60,7.54;9,42.52,265.47,251.06,7.54;9,42.52,275.96,251.12,7.54;9,42.52,286.45,171.91,7.54">Second, by contrasting both interventions, we gained more insight in the association between number comparison and number line estimation: do these skills rely on the same underlying representation as has been suggested or not?</s></p><p xml:id="_Ebfkptk"><s xml:id="_a9FrvZB" coords="9,54.48,296.88,239.09,7.54;9,42.52,307.37,251.03,7.54;9,42.52,317.80,251.04,7.54;9,42.52,328.29,47.63,7.54">When we compared the effect of both training programs on arithmetic performance, children improved in solving pictorially presented arithmetic problems, regardless of the numerical skill they trained.</s><s xml:id="_wjJEHZM" coords="9,92.01,328.29,201.59,7.54;9,42.52,338.72,251.08,7.54;9,42.52,349.21,196.18,7.54">The performance of children improved significantly in both the number line estimation and in the comparison condition, with similar effects that were medium in their size.</s><s xml:id="_c3wgNaE" coords="9,241.28,349.21,52.31,7.54;9,42.52,359.64,251.06,7.54;9,42.52,370.13,41.49,7.54">No significant improvements were observed in the active and empty control conditions.</s><s xml:id="_YT5VqgT" coords="9,86.79,370.13,206.77,7.54;9,42.52,380.56,251.05,7.54;9,42.52,391.05,251.06,7.54;9,42.52,401.48,251.06,7.54;9,42.52,411.85,251.06,7.97;9,42.52,422.40,150.95,7.54">These results suggest that both comparison and number line estimation skills are causally related to arithmetic performance and confirm previous intervention studies in which comparison training (e.g., <ref type="bibr" coords="9,142.30,401.48,91.17,7.54" target="#b34">Obersteiner et al., 2013)</ref> or number line estimation training (e.g., <ref type="bibr" coords="9,142.58,411.97,76.52,7.54" target="#b25">Kucian et al., 2011;</ref><ref type="bibr" coords="9,223.25,411.85,70.33,7.97;9,42.52,422.40,20.88,7.54" target="#b38">Ramani &amp; Siegler, 2011)</ref> resulted in improved arithmetic.</s><s xml:id="_9Z53HtE" coords="9,197.06,422.40,96.60,7.54;9,42.52,432.88,251.05,7.54;9,42.52,443.32,239.71,7.54">In the present study, we only observed a training effect for the pictorially presented arithmetic problems and not for the symbolic addition problems.</s><s xml:id="_bnCzYQZ" coords="9,286.07,443.32,7.51,7.54;9,42.52,453.80,251.08,7.54;9,42.52,464.12,251.06,7.97;9,42.52,474.72,251.05,7.54;9,42.52,485.15,251.13,7.54;9,42.52,495.64,195.97,7.54">In Flanders, formal instruction of symbolic addition problems is a part of the curriculum of the first year of elementary school and is typically not a part of the preparatory arithmetic in kindergarten (Vlaams Ministerie van Onderwijs en Vorming Agentschap voor Kwaliteitszorg in Onderwijs en Vorming, 2010).</s><s xml:id="_VnPPusf" coords="9,244.12,495.64,49.45,7.54;9,42.52,506.07,251.02,7.54;9,42.52,516.56,251.04,7.54;9,42.52,526.99,251.06,7.54">As a consequence, a straightforward explanation for this absence of an effect is that this task was too difficult for most of the children in our sample which was also evidenced by the low accuracies in that task.</s></p><p xml:id="_FPrbkyK"><s xml:id="_c5AaFqD" coords="9,54.48,537.48,239.08,7.54;9,42.52,547.91,142.82,7.54">We should be aware however, that the effects of number sense training on arithmetic were medium.</s><s xml:id="_yRJDfyE" coords="9,188.27,547.91,105.29,7.54;9,42.52,558.40,223.38,7.54">It is widely recognized that arithmetic abilities are influenced by many factors (e.g.</s><s xml:id="_gwbSRaY" coords="9,270.48,558.40,23.11,7.54;9,42.52,568.83,154.73,7.54">social, emotional and general cognitive factors).</s><s xml:id="_FhmP8gC" coords="9,199.61,568.83,93.94,7.54;9,42.52,579.32,251.06,7.54;9,42.52,589.75,212.01,7.54">In this study, we focused on one of the factors that has been suggested as a building block for arithmetic is manipulated, i.e. number-specific skills.</s><s xml:id="_fHKAGGg" coords="9,259.43,589.75,34.13,7.54;9,42.52,600.24,251.05,7.54;9,42.52,610.67,251.03,7.54;9,42.52,621.04,251.06,7.97;9,42.52,631.65,84.05,7.54">A recent meta-analysis <ref type="bibr" coords="9,97.45,600.24,87.09,7.54" target="#b47">(Schneider et al., 2016)</ref> showed that the association between symbolic magnitude comparison and arithmetic was only moderate (i.e., r ¼ 0.378) and only explained about 14% of the variance in arithmetic.</s><s xml:id="_Tj3EZDd" coords="9,128.41,631.65,165.23,7.54;9,42.52,642.08,251.05,7.54;9,42.52,652.57,211.93,7.54">In light of this result, we cannot expect large effects when only number-specific skills are trained and interventions should probably focus on multiple factors.</s><s xml:id="_b3sGg6R" coords="9,258.06,652.57,35.52,7.54;9,42.52,663.00,251.05,7.54;9,42.52,673.49,251.04,7.54;9,42.52,683.92,201.48,7.54">However, what this study clearly shows is that number-specific skills can certainly be one of these factors that is part of a large intervention as they lead to improved mathematical achievement.</s></p><p xml:id="_WTM4gEP"><s xml:id="_8GhYrua" coords="9,54.48,694.41,239.07,7.54;9,42.52,704.84,251.08,7.54;9,42.52,715.32,99.11,7.54">Although both training programs resulted in higher arithmetic scores, they also resulted in different effects on the basic number skills that were measured.</s><s xml:id="_McpJaYd" coords="9,143.94,715.21,149.67,7.97;9,42.52,725.76,251.06,7.54;9,42.52,736.24,251.05,7.54;9,311.53,66.76,251.11,7.54">A first difference between both number sense trainings was the significantly increased performance on the connecting task after the comparison training, in contrast to no significant improvement after the number line estimation training.</s><s xml:id="_6ardQec" coords="9,311.53,77.19,251.02,7.54;9,311.53,87.67,49.23,7.54">However, we believe that this observation has to be interpreted with caution.</s><s xml:id="_TXBdUmA" coords="9,362.50,87.67,200.11,7.54;9,311.53,98.11,251.05,7.54;9,311.53,108.47,251.05,7.97;9,311.53,119.04,188.32,7.54">First, the effect size of improvement in the connecting task performance in the number line estimation condition was small (d ¼ 0.30) indicating that also number line estimation training had some impact on the connecting task.</s><s xml:id="_VpUwwzR" coords="9,502.35,119.04,60.25,7.54;9,311.53,129.52,251.06,7.54;9,311.53,139.96,251.01,7.54;9,311.53,150.44,41.49,7.54">This also means that the trend towards a moment by condition interaction was mainly driven by the absence of improvement in both control conditions.</s><s xml:id="_MrSYG2X" coords="9,355.80,150.32,206.79,7.97;9,311.53,160.88,251.06,7.54;9,311.53,171.24,192.97,7.97">Second, this finding was not observed in a pilot study that contrasted the exact same trainings <ref type="bibr" coords="9,467.49,160.88,95.11,7.54;9,311.53,171.24,188.98,7.97">(Maertens, Sasanguie, De Smedt, Elen &amp; Reynvoet, unpublished manuscript)</ref>.</s><s xml:id="_D2NCND3" coords="9,507.00,171.36,55.66,7.54;9,311.53,181.79,251.02,7.54;9,311.53,192.28,251.06,7.54;9,311.53,202.71,61.54,7.54">As a result, we believe it is best to refrain from drawing strong conclusions based on this different impact of both number sense trainings on the connecting task.</s></p><p xml:id="_EXcrtsP"><s xml:id="_pBVTEax" coords="9,323.49,213.20,239.07,7.54;9,311.53,223.63,251.04,7.54;9,311.53,234.12,251.02,7.54;9,311.53,244.43,251.03,7.97;9,311.53,255.04,230.99,7.54">More importantly, another difference between both number trainings was the observation that number line estimation skills improved after number line training (see also <ref type="bibr" coords="9,496.23,234.12,66.32,7.54" target="#b28">Link et al., 2013;</ref><ref type="bibr" coords="9,311.53,244.43,89.75,7.97" target="#b37">Ramani &amp; Siegler, 2008</ref><ref type="bibr" coords="9,401.28,244.55,26.85,7.54">, 2011)</ref>, but that these number line estimation skills were not boosted by practising comparison.</s><s xml:id="_wZ6Fb2k" coords="9,546.97,255.04,15.62,7.54;9,311.53,265.47,251.06,7.54;9,311.53,275.96,251.02,7.54">This observation is at odds with the idea that both skills are relying on the same representation of number, i.e. the mental number line.</s><s xml:id="_RnrJ7Xv" coords="9,311.53,286.45,251.05,7.54;9,311.53,296.76,251.07,7.97;9,311.53,307.25,140.75,7.97">The positioning of numbers on an external number line is considered as a reflection of the underlying mental number line <ref type="bibr" coords="9,528.88,296.76,33.71,7.97;9,311.53,307.37,52.26,7.54" target="#b4">(Booth &amp; Siegler, 2006;</ref><ref type="bibr" coords="9,366.80,307.25,81.46,7.97" target="#b26">Laski &amp; Siegler, 2007)</ref>.</s><s xml:id="_u49Qugw" coords="9,455.30,307.37,107.28,7.54;9,311.53,317.80,251.02,7.54;9,311.53,328.29,251.06,7.54;9,311.53,338.60,215.59,7.97">Changes in the number line estimation performance have been interpreted before as changes in the representation of numbers on the mental number line (e.g. a more linear representation, see <ref type="bibr" coords="9,436.70,338.60,86.38,7.97" target="#b4">Booth &amp; Siegler, 2006)</ref>.</s><s xml:id="_WP28qmm" coords="9,530.65,338.72,31.95,7.54;9,311.53,349.21,251.02,7.54;9,311.53,359.64,251.06,7.54;9,311.53,370.13,213.74,7.54">Also the performance in a comparison task and the developmental changes in comparison, have been explained in terms of changes in the number representations on the mental number line (e.g.</s><s xml:id="_sAxYF3J" coords="9,527.64,370.13,34.94,7.54;9,311.53,380.56,23.17,7.54"><ref type="bibr" coords="9,527.64,370.13,34.94,7.54;9,311.53,380.56,19.31,7.54" target="#b10">Dehaene, 1997)</ref>.</s><s xml:id="_W3jgW4H" coords="9,338.63,380.56,223.95,7.54;9,311.53,391.05,166.41,7.54">Following this line of reasoning, improvement in performance of both tasks should go hand in hand.</s><s xml:id="_KUfutZb" coords="9,479.84,391.05,82.81,7.54;9,311.53,401.48,251.06,7.54;9,311.53,411.96,55.24,7.54">However, this was not the case in the present study, as we observed an asymmetry in the transfer effect.</s><s xml:id="_UZhbFdX" coords="9,369.86,411.85,192.72,7.97;9,311.53,422.40,251.02,7.54;9,311.53,432.88,174.12,7.54">This asymmetry fits with <ref type="bibr" coords="9,469.81,411.96,92.77,7.54;9,311.53,422.40,22.38,7.54">Sasanguie and Reynvoet (2013)</ref>, who found no relation between both tasks, and suggested that both tasks rely on different mechanisms.</s><s xml:id="_sRNMpTn" coords="9,488.40,432.88,74.16,7.54;9,311.53,443.32,251.03,7.54;9,311.53,453.68,200.22,7.97">Recent studies suggested that a number line estimation task is based in part on spatial reasoning <ref type="bibr" coords="9,351.15,453.68,92.99,7.97" target="#b1">(Barth &amp; Paladino, 2011;</ref><ref type="bibr" coords="9,446.85,453.80,61.04,7.54" target="#b28">Link et al., 2013)</ref>.</s><s xml:id="_2KQ6ZjQ" coords="9,514.43,453.80,48.18,7.54;9,311.53,464.23,251.03,7.54;9,311.53,474.72,251.06,7.54;9,311.53,485.15,251.06,7.54;9,311.53,495.64,119.50,7.54">For instance, children might use an anchor point strategy in which they initially use external anchor points (begin and end points) and later also use internal anchor points (e.g., middle of the number line) to position the numbers on a number line.</s><s xml:id="_upJMX4b" coords="9,433.75,495.64,128.90,7.54;9,311.53,506.07,251.11,7.54;9,311.53,516.56,164.76,7.54">These strategies are evidently not needed in the comparison task and may explain why no improvement is observed on the comparison tasks.</s><s xml:id="_HEp3eDm" coords="9,479.16,516.56,83.41,7.54;9,311.53,526.99,251.03,7.54;9,311.53,537.48,251.05,7.54;9,311.53,547.91,17.34,7.54">We should note however, that this explanation remains largely speculative, as we did not directly examine strategy use in the number line estimation task.</s><s xml:id="_NBmdmju" coords="9,332.33,547.91,230.31,7.54;9,311.53,558.40,251.11,7.54;9,311.53,568.83,251.11,7.54;9,311.53,579.32,128.41,7.54">Nonetheless, the present results indicate that the improvements in the number line estimation task are probably not due to changes of the mental number line, because this would have led to improvements in comparison too.</s></p><p xml:id="_JYe9YgF"><s xml:id="_BnkPy7A" coords="9,323.49,589.63,239.10,7.97;9,311.53,600.24,251.12,7.54;9,311.53,610.67,204.13,7.54">A rather unexpected finding was that the performance on the comparison tasks in the post-test was statistically the same after comparison training compared to the other conditions.</s><s xml:id="_ZVUmZx2" coords="9,517.43,610.67,45.15,7.54;9,311.53,621.16,251.04,7.54;9,311.53,631.59,251.02,7.54;9,311.53,642.08,251.05,7.54;9,311.53,652.57,26.91,7.54">However, as can be inferred from Table <ref type="table" coords="9,418.56,621.16,2.99,7.54" target="#tab_0">1</ref>, the gain scores on the comparison tasks were the highest in the comparison training condition, reflecting a similar pattern as the number line estimation performance.</s><s xml:id="_VwZBXVS" coords="9,342.03,652.57,220.56,7.54;9,311.53,663.00,251.14,7.54;9,311.53,673.49,251.05,7.54;9,311.53,683.80,251.03,7.98;9,311.53,694.41,251.03,7.54;9,311.53,704.72,96.15,7.97">This was also reflected in effect sizes accompanying the pairwise comparison between pre and post-test performance we computed: the effect sizes (d) after comparison training were medium (d ¼ 0.50 and d ¼ 0.47 for non-symbolic and symbolic comparison tasks respectively) whereas they were small in the other conditions (all ds &lt; 0.25).</s></p><p xml:id="_8rxqNc7"><s xml:id="_GtZvRy9" coords="9,323.49,715.33,239.05,7.54;9,311.53,725.64,251.03,7.97;9,311.53,736.25,240.06,7.54">A possible limitation of this study, that might perhaps be responsible for the lack of finding a significant effect on the comparison tasks even after comparison training, is the sample size.</s><s xml:id="_vx3DAuj" coords="9,553.77,736.25,8.80,7.54;10,32.83,66.77,251.14,7.54;10,32.83,77.20,251.06,7.54;10,32.83,87.57,251.13,7.97;10,32.83,98.12,237.28,7.54">To verify whether the current sample size was large enough, we calculated post-hoc the power value of our study by means of the G*power program <ref type="bibr" coords="10,108.00,87.57,135.51,7.97">(Erdfelder, Faul, &amp; Buchner, 1996)</ref> to detect intervention effects that have been reported in previous studies.</s><s xml:id="_7X6SYE8" coords="10,271.78,98.12,12.17,7.54;10,32.83,108.60,251.05,7.54;10,32.83,116.99,144.77,9.59;10,180.96,118.92,29.73,7.97">For example, <ref type="bibr" coords="10,71.38,108.60,106.89,7.54" target="#b49">Siegler and Ramani (2009)</ref> reported that their linear board game had a medium effect (h 2 ¼ 0.19).</s><s xml:id="_Zz4AwUS" coords="10,214.07,119.04,69.82,7.54;10,32.83,129.52,168.62,7.54">We calculated the power of our studies to detect a similar effect.</s><s xml:id="_9SEwTK3" coords="10,203.12,129.52,80.73,7.54;10,32.83,139.96,251.06,7.54;10,32.83,150.33,251.12,7.97;10,32.83,160.88,63.80,7.54">Given the sample size in our study (i.e., four groups of 47, 41, 37, and 26 children) and the alpha level used (a ¼ 0.05), our study had a power of 0.99 to detect a medium effect.</s><s xml:id="_G2XgrgW" coords="10,99.21,160.88,184.66,7.54;10,32.83,171.36,239.25,7.54">This analysis showed that the sample size in our study was most likely not the reason for the absence of effects.</s></p><p xml:id="_F6Qrcbd"><s xml:id="_XGtNq6t" coords="10,44.79,181.80,239.13,7.54;10,32.83,192.28,205.51,7.54">Another explanation for the absence of effects in the comparison post-test may be the duration of the intervention.</s><s xml:id="_v2RhfmP" coords="10,243.09,192.28,40.76,7.54;10,32.83,202.71,251.05,7.54;10,32.83,213.20,114.72,7.54">It remains possible that more extensive training would have led to larger improvements in comparison.</s><s xml:id="_DZKavfy" coords="10,150.57,213.08,133.32,7.97;10,32.83,223.63,251.03,7.54;10,32.83,234.12,82.74,7.54">At first sight this is at odds with a recent study of <ref type="bibr" coords="10,91.73,223.63,66.89,7.54" target="#b23">Hyde et al. (2014)</ref> in children that were on average about one year older.</s><s xml:id="_hAzkGYq" coords="10,119.00,234.12,164.89,7.54;10,32.83,244.55,251.01,7.54;10,32.83,255.04,159.77,7.54">These authors demonstrated that during a brief training of only 60 trials, comparison performance improved already in the second half of the training.</s><s xml:id="_s7NGnRW" coords="10,195.47,255.04,88.47,7.54;10,32.83,265.47,251.03,7.54;10,32.83,275.96,107.17,7.54">However, the improvement on comparison performance was only observed on reaction times and not on accuracies.</s><s xml:id="_uAPBKqs" coords="10,142.35,275.96,141.53,7.54;10,32.83,286.45,251.08,7.54;10,32.83,296.88,251.05,7.54;10,32.83,307.37,251.12,7.54;10,32.83,317.80,31.71,7.54">The lack of effect on accuracies in the <ref type="bibr" coords="10,32.83,286.45,66.83,7.54" target="#b23">Hyde et al. (2014)</ref> study, was further evidenced by the observation that there were no differences between conditions in the numerical acuity, another accuracy related measure, that was measured after training.</s><s xml:id="_wWTz6uz" coords="10,68.99,317.80,214.92,7.54;10,32.83,328.29,251.04,7.54;10,32.83,338.72,69.94,7.54">In sum, it remains possible that also our comparison training would have resulted in faster responding in the post-test comparison tasks.</s><s xml:id="_jrmcBbr" coords="10,107.49,338.72,176.40,7.54;10,32.83,349.21,251.07,7.54;10,32.83,359.64,251.06,7.54;10,32.83,370.13,97.27,7.54">However these reaction times could not be analysed in the present study because performance was measured with tablets making the reaction times unreliable due to timing error <ref type="bibr" coords="10,54.26,370.13,71.98,7.54" target="#b46">(Schatz et al., 2015)</ref>.</s></p><p xml:id="_egY3W5k"><s xml:id="_Q4pMHEy" coords="10,44.79,380.56,239.09,7.54;10,32.83,391.05,251.09,7.54;10,32.83,401.48,251.05,7.54;10,32.83,411.97,194.60,7.54">Finally, it is also possible that the lack of effect on comparison is due to reduced malleability (also in accuracy) of the comparison skills in contrast to the malleability of the number line estimation skills, leaving less room to improve on comparison.</s></p><p xml:id="_KWVWQX2"><s xml:id="_aQ6hTPc" coords="10,44.79,422.40,239.10,7.54;10,32.83,432.88,251.08,7.54;10,32.83,443.32,178.43,7.54">To conclude, the present study with 5e6 year old kindergartners showed that the effectiveness of number line training and comparison training on arithmetic was very similar.</s><s xml:id="_2b5yh2c" coords="10,213.44,443.32,70.43,7.54;10,32.83,453.80,251.02,7.54;10,32.83,464.24,55.08,7.54">A training of about 1 h spread over three weeks resulted in a (medium) positive effect on arithmetic.</s><s xml:id="_fGk6pYA" coords="10,92.18,464.24,191.75,7.54;10,32.83,474.72,148.50,7.54">However, further training studies are needed to tackle the following outstanding issues.</s><s xml:id="_pDYa8MF" coords="10,183.46,474.72,100.44,7.54;10,32.83,485.15,251.01,7.54;10,32.83,495.64,251.02,7.54;10,32.83,506.07,138.76,7.54">For instance, it needs to be determined whether a longer intervention results in larger effects and whether number sense trainings are equally effective in older children or in children with low SES.</s><s xml:id="_fqxyKTh" coords="10,173.99,506.07,109.86,7.54;10,32.83,516.56,251.03,7.54;10,32.83,526.99,251.12,7.54;10,32.83,537.48,145.16,7.54">Currently, studies are lacking in order have an idea to what extend the effectiveness of training studies is influenced by the duration of the training and the age and/or background of the participants.</s><s xml:id="_FfemPDC" coords="10,180.22,537.48,103.67,7.54;10,32.83,547.91,251.06,7.54;10,32.83,558.40,184.22,7.54">In the future, it may also be interesting to investigate whether the effects of comparison and number line estimation training are additive.</s><s xml:id="_YnGqtgt" coords="10,222.23,558.40,61.64,7.54;10,32.83,568.83,251.06,7.54;10,32.83,579.32,251.12,7.54;10,32.83,589.75,251.11,7.54;10,32.83,600.24,49.17,7.54">The absence of transfer effects from one task to another and the fact that both trainings influence arithmetic performance, suggests that they probably influence mathematics achievement through different mechanisms.</s><s xml:id="_dQJYZyE" coords="10,84.41,600.24,199.47,7.54;10,32.83,610.67,251.06,7.54;10,32.83,621.16,155.37,7.54">A crucial test for this idea would be to combine both skills in one intervention and compare their effects with the current interventions focussing on one only skill.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="4,155.74,737.37,274.17,6.03"><head>Fig. 1 .</head><label>1</label><figDesc><div><p xml:id="_wnJnxZ9"><s xml:id="_Er4ZVn6" coords="4,155.74,737.37,17.30,6.03">Fig.1.</s><s xml:id="_zzUKaaN" coords="4,176.20,737.37,253.70,6.03">Screenshots of the number knowledge, comparison and number line estimation tasks.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="5,209.31,173.46,186.49,6.38"><head>Fig. 2 .</head><label>2</label><figDesc><div><p xml:id="_7yxRBmg"><s xml:id="_dhbRPmf" coords="5,209.31,173.46,186.49,6.38">Fig. 2. Screenshots of some levels in the K e comparison game.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="6,198.77,174.48,188.13,6.38"><head>Fig. 3 .</head><label>3</label><figDesc><div><p xml:id="_JWJpqUX"><s xml:id="_NzJ9pZk" coords="6,198.77,174.48,188.13,6.38">Fig. 3. Screenshots of some levels in the K e number line game.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="6,159.53,290.17,266.62,6.03"><head>Fig. 4 .</head><label>4</label><figDesc><div><p xml:id="_e3ysuBR"><s xml:id="_KYvQEPu" coords="6,159.53,290.17,266.62,6.03">Fig. 4. Screenshots of the Mega Memory Match-game, used in the active control condition.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="8,123.31,569.56,339.13,6.03"><head>Fig. 5 .</head><label>5</label><figDesc><div><p xml:id="_cYvJNHh"><s xml:id="_NU3xjaA" coords="8,123.31,569.56,339.13,6.03">Fig. 5. Graphic representation of the mean scores (±SD) of all experimental tasks on pre-and post-test, per group.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="6,32.83,332.52,520.04,411.18"><head>Table 1</head><label>1</label><figDesc><div><p xml:id="_bXhunG9"><s xml:id="_uN3X8xn" coords="6,301.83,341.08,209.95,6.03">Performance at pretest and posttest and gain scores in all conditions.</s></p></div></figDesc><table coords="6,307.79,355.20,239.10,366.48"><row><cell>Measure</cell><cell>Pretest</cell><cell></cell><cell>Posttest</cell><cell></cell><cell>Gain scores</cell><cell></cell></row><row><cell></cell><cell>M</cell><cell>SD</cell><cell>M</cell><cell>SD</cell><cell>M</cell><cell>SD</cell></row><row><cell cols="2">Give a number (% correct)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Comparison</cell><cell>52.13</cell><cell>35.67</cell><cell>63.83</cell><cell>30.31</cell><cell>11.70</cell><cell>37.54</cell></row><row><cell>NLE</cell><cell>45.73</cell><cell>36.19</cell><cell>73.17</cell><cell>29.26</cell><cell>27.44</cell><cell>38.65</cell></row><row><cell>Active control</cell><cell>54.73</cell><cell>38.11</cell><cell>64.19</cell><cell>35.13</cell><cell>9.46</cell><cell>41.81</cell></row><row><cell>Empty control</cell><cell>46.15</cell><cell>37.21</cell><cell>60.58</cell><cell>36.86</cell><cell>14.42</cell><cell>36.86</cell></row><row><cell cols="2">Connecting (% correct)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Comparison</cell><cell>68.79</cell><cell>21.44</cell><cell>81.09</cell><cell>18.67</cell><cell>12.29</cell><cell>27.53</cell></row><row><cell>NLE</cell><cell>70.46</cell><cell>28.18</cell><cell>78.05</cell><cell>22.01</cell><cell>7.59</cell><cell>27.49</cell></row><row><cell>Active control</cell><cell>75.38</cell><cell>21.46</cell><cell>73.57</cell><cell>20.01</cell><cell>-0.80</cell><cell>19.16</cell></row><row><cell>Empty control</cell><cell>73.08</cell><cell>24.78</cell><cell>74.79</cell><cell>25.64</cell><cell>1.71</cell><cell>26.98</cell></row><row><cell cols="3">Non-symbolic comparison (% correct)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Comparison</cell><cell>58.87</cell><cell>11.28</cell><cell>63.96</cell><cell>8.92</cell><cell>5.10</cell><cell>11.21</cell></row><row><cell>NLE</cell><cell>61.18</cell><cell>9.19</cell><cell>60.52</cell><cell>9.94</cell><cell>À0.66</cell><cell>11.59</cell></row><row><cell>Active control</cell><cell>58.67</cell><cell>8.63</cell><cell>61.09</cell><cell>11.89</cell><cell>2.42</cell><cell>9.84</cell></row><row><cell>Empty control</cell><cell>58.25</cell><cell>9.97</cell><cell>60.74</cell><cell>10.22</cell><cell>2.48</cell><cell>11.10</cell></row><row><cell cols="3">Symbolic comparison (% correct)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Comparison</cell><cell>66.49</cell><cell>16.27</cell><cell>73.6</cell><cell>13.46</cell><cell>7.11</cell><cell>15.64</cell></row><row><cell>NLE</cell><cell>67.61</cell><cell>16.37</cell><cell>70.43</cell><cell>17.69</cell><cell>2.82</cell><cell>14.27</cell></row><row><cell>Active control</cell><cell>64.27</cell><cell>14.63</cell><cell>64.27</cell><cell>18.16</cell><cell>0.00</cell><cell>12.99</cell></row><row><cell>Empty control</cell><cell>65.14</cell><cell>14.70</cell><cell>67.79</cell><cell>17.07</cell><cell>2.64</cell><cell>15.48</cell></row><row><cell cols="2">Non-symbolic NLE (PAE)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Comparison</cell><cell>27.65</cell><cell>10.21</cell><cell>29.48</cell><cell>10.54</cell><cell>1.83</cell><cell>8.11</cell></row><row><cell>NLE</cell><cell>29.20</cell><cell>7.51</cell><cell>19.29</cell><cell>9.25</cell><cell>À9.91</cell><cell>9.44</cell></row><row><cell>Active control</cell><cell>28.48</cell><cell>8.06</cell><cell>26.07</cell><cell>7.96</cell><cell>À2.41</cell><cell>9.01</cell></row><row><cell>Empty control</cell><cell>28.61</cell><cell>7.89</cell><cell>28.64</cell><cell>8.06</cell><cell>0.03</cell><cell>8.57</cell></row><row><cell>Symbolic NLE (PAE)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Comparison</cell><cell>26.61</cell><cell>11.38</cell><cell>25.95</cell><cell>10.6</cell><cell>À0.67</cell><cell>7.61</cell></row><row><cell>NLE</cell><cell>26.26</cell><cell>11.98</cell><cell>13.99</cell><cell>8.71</cell><cell>À12.27</cell><cell>11.35</cell></row><row><cell>Active control</cell><cell>25.39</cell><cell>9.61</cell><cell>24.06</cell><cell>9.91</cell><cell>À1.33</cell><cell>8.83</cell></row><row><cell>Empty control</cell><cell>26.56</cell><cell>9.16</cell><cell>25.70</cell><cell>10.36</cell><cell>À0.86</cell><cell>9.31</cell></row><row><cell cols="3">Arithmetic problems (# correct)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Comparison</cell><cell>3,00</cell><cell>1.74</cell><cell>3.87</cell><cell>1.81</cell><cell>0.87</cell><cell>1.66</cell></row><row><cell>NLE</cell><cell>3.10</cell><cell>1.83</cell><cell>4.02</cell><cell>1.60</cell><cell>0.93</cell><cell>1.44</cell></row><row><cell>Active control</cell><cell>3.62</cell><cell>1.69</cell><cell>4.19</cell><cell>1.85</cell><cell>0.57</cell><cell>1.41</cell></row><row><cell>Empty control</cell><cell>3.54</cell><cell>1.86</cell><cell>3.54</cell><cell>1.92</cell><cell>0.00</cell><cell>1.9</cell></row><row><cell cols="2">Addition operations (# correct)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Comparison</cell><cell>1.64</cell><cell>2.34</cell><cell>2.19</cell><cell>2.78</cell><cell>0.55</cell><cell>1.59</cell></row><row><cell>NLE</cell><cell>1.54</cell><cell>2.13</cell><cell>1.85</cell><cell>2.01</cell><cell>0.32</cell><cell>1.52</cell></row><row><cell>Active control</cell><cell>1.30</cell><cell>1.79</cell><cell>1.86</cell><cell>2.39</cell><cell>0.57</cell><cell>1.54</cell></row><row><cell>Empty control</cell><cell>1.46</cell><cell>1.77</cell><cell>2.19</cell><cell>2.19</cell><cell>0.73</cell><cell>1.56</cell></row></table><note coords="6,301.83,728.70,251.03,6.38;6,301.83,737.26,130.44,6.38;6,38.27,693.14,245.57,7.46;6,32.83,703.03,251.02,6.38;6,32.83,711.59,251.03,6.38;6,32.83,720.15,251.01,6.38;6,32.83,728.86,251.00,6.03;6,32.83,737.33,242.51,6.38"><p><s xml:id="_KwszAjM" coords="6,301.83,728.70,251.03,6.38;6,301.83,737.26,130.44,6.38;6,38.27,693.14,2.84,4.22">Note.Comparison (n ¼ 47); NLE (n ¼ 41); Active control (n ¼ 37); Empty control (n ¼ 26); PAE ¼ percentage absolute error.2</s><s xml:id="_6Vnhzy7" coords="6,44.73,694.56,239.11,6.03;6,32.83,703.03,67.71,6.38">On seven (out of eight) of the pretest measures, no gender differences were observed (ps &gt; 0.16).</s><s xml:id="_dV23MQY" coords="6,104.26,703.12,179.59,6.03;6,32.83,711.59,251.03,6.38;6,32.83,720.15,180.42,6.38">On the symbolic addition task boys outperformed girls, F(1,149) ¼ 2.49, p ¼ 0.014, however, this difference did not survive the Bonferroni correction (p &lt; 0.05/8 ¼ 0.006) for multiple comparisons.</s><s xml:id="_9VXZEYb" coords="6,215.94,720.25,67.90,6.03;6,32.83,728.86,251.00,6.03;6,32.83,737.33,242.51,6.38">No gender differences were observed after Bonferroni corrections in the gain scores of the experimental tasks (ps &gt; 0.06) indicating that improvements were not moderated by gender.</s></p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="2,207.50,48.21,170.65,6.03"><p xml:id="_UBKfRUu"><s xml:id="_DD5UxJQ" coords="2,207.50,48.21,170.65,6.03">B.Maertens et al. / Learning and Instruction 46 (2016) 1e11</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_1" coords="3,323.43,703.12,239.16,6.03;3,311.53,711.69,251.01,6.03;3,311.53,720.25,251.03,6.03;3,311.53,728.77,251.01,6.38;3,311.53,737.42,154.32,6.03"><p xml:id="_wrxqNxY"><s xml:id="_sUvQygR" coords="3,323.43,703.12,191.10,6.03">In Belgium, compulsory education starts in primary school (i.e.</s><s xml:id="_Da9AsK6" coords="3,516.63,703.12,45.96,6.03;3,311.53,711.69,33.93,6.03">around the age of 6 years).</s><s xml:id="_uss2dau" coords="3,347.70,711.69,214.84,6.03;3,311.53,720.25,140.13,6.03">However, although it is not compulsory, the majority of children typically start in kindergarten at about 3 years old.</s><s xml:id="_wYVq2G5" coords="3,453.37,720.25,101.46,6.03">Kindergarten consists of 3 grades.</s><s xml:id="_ydMug4F" coords="3,556.55,720.25,6.01,6.03;3,311.53,728.77,251.01,6.38;3,311.53,737.42,154.32,6.03">In the present sample, all children started school in the first year of kindergarten and they were now in their third year of kindergarten.</s></p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div xml:id="_aQwdz9h"><p xml:id="_cKp5rPW">* This research was supported by grant <rs type="grantNumber">GOA 2012/010</rs> of the <rs type="institution">Research Fund KU Leuven, Belgium</rs>.<rs type="person">Delphine Sasanguie</rs> is a post-doctoral reseracher of the Fund for Scientific Research -Flanders.We would like to thank all participating children and teachers.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_x3UDTzn">
+					<idno type="grant-number">GOA 2012/010</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="10,32.83,665.65,251.06,6.03;10,44.79,673.64,239.06,6.03;10,44.79,681.64,85.88,6.03" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="10,216.56,665.65,67.33,6.03;10,44.79,673.64,99.07,6.03" xml:id="_fxeCj9u">Abstract number and arithmetic in preschool children</title>
+		<author>
+			<persName><forename type="first">Hilary</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kristen</forename><surname>La Mont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jennifer</forename><surname>Lipton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><forename type="middle">S</forename><surname>Spelke</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0505512102</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QGYtazw" coord="10,149.73,673.64,134.12,6.03;10,44.79,681.64,14.37,6.03">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">39</biblScope>
+			<biblScope unit="page" from="14116" to="14121" />
+			<date type="published" when="2005-09-19">2005</date>
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barth, H., La Mont, K., Lipton, J., &amp; Spelke, E. S. (2005). Abstract number and arithmetic in preschool children. Proceedings of the National Academy of Sci- ences, 102(39), 14116e14121.</note>
+</biblStruct>
+
+<biblStruct coords="10,32.83,689.57,251.12,6.03;10,44.79,697.57,228.74,6.03" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="10,140.93,689.57,143.01,6.03;10,44.79,697.57,115.76,6.03" xml:id="_stPufyT">The development of numerical estimation: evidence against a representational shift</title>
+		<author>
+			<persName><forename type="first">Hilary</forename><forename type="middle">C</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Annie</forename><forename type="middle">M</forename><surname>Paladino</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-7687.2010.00962.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mtdRHPA" coord="10,165.32,697.57,65.38,6.03">Developmental Science</title>
+		<idno type="ISSN">1363-755X</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="125" to="135" />
+			<date type="published" when="2011">2011</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barth, H., &amp; Paladino, A. M. (2011). The development of numerical estimation: ev- idence against a representational shift. Developmental Science, 14, 125e135.</note>
+</biblStruct>
+
+<biblStruct coords="10,32.83,705.51,251.03,6.03;10,44.79,713.50,213.72,6.03" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="10,93.60,705.51,190.26,6.03;10,44.79,713.50,75.08,6.03" xml:id="_hpWqk73">Making Sense of Number Sense</title>
+		<author>
+			<persName coords=""><forename type="first">Daniel</forename><forename type="middle">B</forename><surname>Berch</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/00222194050380040901</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_69UXGYT" coord="10,124.72,713.50,88.97,6.03">Journal of Learning Disabilities</title>
+		<title level="j" type="abbrev">J Learn Disabil</title>
+		<idno type="ISSN">0022-2194</idno>
+		<idno type="ISSNe">1538-4780</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="333" to="339" />
+			<date type="published" when="2005-07">2005</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berch, D. B. (2005). Making sense of number sense: Implications for children with mathematical disabilities. Journal of Learning Disabilities, 38, 333e339.</note>
+</biblStruct>
+
+<biblStruct coords="10,32.83,721.44,251.04,6.03;10,44.79,729.43,213.38,6.03" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="10,252.67,721.44,31.20,6.03;10,44.79,729.43,79.31,6.03" xml:id="_5vknufR">Numerical estimation in preschoolers.</title>
+		<author>
+			<persName><forename type="first">Ilaria</forename><surname>Berteletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Lucangeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manuela</forename><surname>Piazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stanislas</forename><surname>Dehaene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Zorzi</surname></persName>
+			<idno type="ORCID">0000-0002-4651-6390</idno>
+		</author>
+		<idno type="DOI">10.1037/a0017887</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dzPquS5" coord="10,129.43,729.43,75.54,6.03">Developmental Psychology</title>
+		<title level="j" type="abbrev">Developmental Psychology</title>
+		<idno type="ISSN">0012-1649</idno>
+		<idno type="ISSNe">1939-0599</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="545" to="551" />
+			<date type="published" when="2010">2010</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berteletti, I., Lucangeli, D., Piazza, M., Dehaene, S., &amp; Zorzi, M. (2010). Numerical estimation in preschoolers. Developmental Psychology, 46(2), 545e551.</note>
+</biblStruct>
+
+<biblStruct coords="10,32.82,737.42,251.08,6.03;10,313.74,66.74,187.13,6.03" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="10,134.47,737.42,149.44,6.03;10,313.74,66.74,63.44,6.03" xml:id="_6hTZfS7">Developmental and individual differences in pure numerical estimation.</title>
+		<author>
+			<persName><forename type="first">Julie</forename><forename type="middle">L</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">S</forename><surname>Siegler</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0012-1649.41.6.189</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_g2tNf9j" coord="10,382.45,66.74,75.55,6.03">Developmental Psychology</title>
+		<title level="j" type="abbrev">Developmental Psychology</title>
+		<idno type="ISSN">0012-1649</idno>
+		<idno type="ISSNe">1939-0599</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="189" to="201" />
+			<date type="published" when="2006">2006</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Booth, J. L., &amp; Siegler, R. S. (2006). Developmental and individual differences in pure numerical estimation. Developmental Psychology, 41, 189e201.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,74.74,251.05,6.03;10,313.74,82.67,239.14,6.03;10,313.74,90.67,142.46,6.03" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="10,362.55,74.74,95.55,6.03" xml:id="_37fHNzg">EFFECT SIZES FOR META-ANALYSIS</title>
+		<author>
+			<persName coords=""><forename type="first">Michael</forename><surname>Borenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Larry</forename><forename type="middle">V</forename><surname>Hedges</surname></persName>
+		</author>
+		<idno type="DOI">10.7758/9781610448864.14</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_MPVEzcU" coord="10,378.88,82.67,159.98,6.03">The Handbook of Research Synthesis and Meta-Analysis</title>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Cooper</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Hedges</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Valentine</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Russell Sage Foundation</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="207" to="244" />
+		</imprint>
+	</monogr>
+	<note>e237</note>
+	<note type="raw_reference">Borenstein. (2009). Effect sizes for continuous data. In H. Cooper, L. V. Hedges, &amp; J. C. Valentine (Eds.), The handbook of research synthesis and meta-analysis (pp. 221e237). New York: Russell Sage Foundation.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,98.60,200.11,6.03" xml:id="b6">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Carey</surname></persName>
+		</author>
+		<title level="m" xml:id="_9Vx7C4J" coord="10,353.31,98.60,63.03,6.03">The origin of concepts</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+		<respStmt>
+			<orgName>Oxford University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Carey, S. (2009). The origin of concepts. Oxford: Oxford University.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,106.60,251.07,6.03;10,313.74,114.59,239.10,6.03;10,313.74,122.53,70.00,6.03" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="10,418.56,106.60,134.34,6.03;10,313.74,114.59,121.40,6.03" xml:id="_qXaG4mq">&quot;The development of language and abstract concepts: The case of natural number&quot;: Correction to Condry and Spelke (2008).</title>
+		<author>
+			<persName><forename type="first">Kirsten</forename><forename type="middle">F</forename><surname>Condry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><forename type="middle">S</forename><surname>Spelke</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0096-3445.137.2.243</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xDgazkJ" coord="10,442.66,114.59,110.18,6.03;10,313.74,122.53,20.79,6.03">Journal of Experimental Psychology: General</title>
+		<title level="j" type="abbrev">Journal of Experimental Psychology: General</title>
+		<idno type="ISSN">0096-3445</idno>
+		<idno type="ISSNe">1939-2222</idno>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="243" to="243" />
+			<date type="published" when="2008-05">2008</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Condry, K. F., &amp; Spelke, E. S. (2008). The development of language and abstract concepts: The case of natural number. Journal of Experimental Psychology: General, 137(1), 22e38.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,130.52,251.04,6.03;10,313.74,138.46,239.10,6.03;10,313.74,146.45,239.10,6.03;10,313.74,154.39,178.34,6.03" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="10,475.47,130.52,77.41,6.03;10,313.74,138.46,239.10,6.03;10,313.74,146.45,239.10,6.03;10,313.74,154.39,28.41,6.03" xml:id="_ARpwRHC">How do symbolic and non-symbolic numerical magnitude processing skills relate to individual differences in children&apos;s mathematical skills? A review of evidence from brain and behavior</title>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>De Smedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marie-Pascale</forename><surname>Noël</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Camilla</forename><surname>Gilmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Ansari</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tine.2013.06.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BS6WdrV">Trends in Neuroscience and Education</title>
+		<title level="j" type="abbrev">Trends in Neuroscience and Education</title>
+		<idno type="ISSN">2211-9493</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="48" to="55" />
+			<date type="published" when="2013-06">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>Trends in Neuroscience and Education, 2, 48e55</note>
+	<note type="raw_reference">De Smedt, B., No€ el, M. P., Gilmore, C., &amp; Ansari, D. (2013). The relationship between symbolic and non-symbolic numerical magnitude processing and the typical and atypical development of mathematics. A review of evidence from brain and behaviour. Trends in Neuroscience and Education, 2, 48e55.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,162.38,250.99,6.03;10,313.74,170.38,239.13,6.03;10,313.74,178.31,209.13,6.03" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="10,468.67,162.38,84.16,6.03;10,313.74,170.38,239.13,6.03;10,313.74,178.31,37.00,6.03" xml:id="_gtrDheG">The predictive value of numerical magnitude comparison for individual differences in mathematics achievement</title>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>De Smedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lieven</forename><surname>Verschaffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pol</forename><surname>Ghesquière</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jecp.2009.01.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_A3CfZfA" coord="10,356.31,178.31,118.40,6.03">Journal of Experimental Child Psychology</title>
+		<title level="j" type="abbrev">Journal of Experimental Child Psychology</title>
+		<idno type="ISSN">0022-0965</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="469" to="479" />
+			<date type="published" when="2009-08">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Smedt, B., Verschaffel, L., &amp; Ghesqui ere, P. (2009). The predictive value of nu- merical magnitude comparison for individual differences in mathematics achievement. Journal of Experimental Child Psychology, 103, 469e479.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,186.31,251.00,6.03;10,313.74,194.24,59.40,6.03" xml:id="b10">
+	<monogr>
+		<title level="m" type="main" coord="10,362.49,186.31,159.97,6.03" xml:id="_3cGhNFp">The number sense: How the mind creates mathematics</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Dehaene</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>The Penguim Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dehaene, S. (1997). The number sense: How the mind creates mathematics. London: The Penguim Press.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,202.24,251.05,6.03;10,313.74,210.23,239.13,6.03;10,313.74,218.17,69.49,6.03" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="10,448.83,202.24,104.05,6.03;10,313.74,210.23,209.17,6.03" xml:id="_9Np3SKj">Log or Linear? Distinct Intuitions of the Number Scale in Western and Amazonian Indigene Cultures</title>
+		<author>
+			<persName><forename type="first">Stanislas</forename><surname>Dehaene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Véronique</forename><surname>Izard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><surname>Spelke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Pica</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1156540</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_v7yUuQb" coord="10,530.25,210.23,19.80,6.03">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="issue">5880</biblScope>
+			<biblScope unit="page" from="1217" to="1220" />
+			<date type="published" when="2008-05-30">2008</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dehaene, S., Izard, V., Spelke, E., &amp; Pica, P. (2008). Log or linear? Distinct intuitions of the number scale in western and Amazonian indigene cultures. Science, 320(5880), 1217e1220.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,226.16,251.01,6.03;10,313.74,234.10,239.12,6.03;10,313.74,242.09,35.42,6.03" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="10,450.19,226.16,102.65,6.03;10,313.74,234.10,182.38,6.03" xml:id="_2JUdKAW">The Use of Narrative Evidence and Explicit Likelihood by Decision Makers Varying in Numeracy</title>
+		<author>
+			<persName><forename type="first">Nathan</forename><surname>Dieckmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Slovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ellen</forename><surname>Peters</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.1592655</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Ak9GCUx" coord="10,502.30,234.10,36.96,6.03">SSRN Electronic Journal</title>
+		<title level="j" type="abbrev">SSRN Journal</title>
+		<idno type="ISSNe">1556-5068</idno>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2009">2009. 1473e1488</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dieckman, N. F., Slovic, P., &amp; Peters, E. M. (2009). The use of narrative evidence and explicit likelihood by decision makers varying in numeracy. Risk Analysis, 10, 1473e1488.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,250.08,251.09,6.03;10,313.74,257.93,209.07,6.38" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="10,429.67,250.08,123.25,6.03;10,313.74,258.02,13.80,6.03" xml:id="_wf3fAr8">GPOWER: A general power analysis program</title>
+		<author>
+			<persName><forename type="first">Edgar</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Franz</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Axel</forename><surname>Buchner</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03203630</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Z5GxKPd" coord="10,333.18,257.93,157.67,6.38">Behavior Research Methods, Instruments, &amp; Computers</title>
+		<title level="j" type="abbrev">Behavior Research Methods, Instruments, &amp; Computers</title>
+		<idno type="ISSN">0743-3808</idno>
+		<idno type="ISSNe">1532-5970</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="1996-03">1996</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erdfelder, E., Faul, F., &amp; Bucher, A. (1996). GPOWER: a general power analysis pro- gram. Behavior Research Methods, Instruments &amp; Computers, 28, 1e11.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,266.02,251.00,6.03;10,313.74,273.96,239.12,6.03;10,313.74,281.95,20.96,6.03;10,301.83,289.89,251.04,6.03;10,313.74,297.88,239.10,6.03;10,313.74,305.88,148.13,6.03" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="10,452.46,266.02,100.37,6.03;10,313.74,273.96,126.54,6.03;10,336.36,297.88,216.48,6.03;10,313.74,305.88,22.58,6.03" xml:id="_AhH4ke7">Links between the intuitive sense of number and formal mathematics ability</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Feigenson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">E</forename><surname>Libertus</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Halberda</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Bos</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">H G</forename><surname>Van Der Ven</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">H</forename><surname>Kroesbergen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">E H</forename><surname>Van Luit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QwJcD9m" coord="10,444.53,273.96,90.00,6.03;10,341.40,305.88,83.00,6.03">Child Development Perspectives</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="29" to="e44" />
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note>Educational Research Review</note>
+	<note type="raw_reference">Feigenson, L., Libertus, M. E., &amp; Halberda, J. (2013). Links between the intuitive sense of number and formal mathematics ability. Child Development Perspectives, 7(2), 74e79. Friso-van den Bos, I., van der Ven, S. H. G., Kroesbergen, E. H., &amp; van Luit, J. E. H. (2013). Working memory and mathematics in primary school children: A meta- analysis. Educational Research Review, 10, 29e44.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,313.81,250.99,6.03;10,313.74,321.81,63.60,6.03" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="10,407.90,313.81,141.57,6.03" xml:id="_szn4XPF">Preverbal and verbal counting and computation</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">R</forename><surname>Gallistel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rochel</forename><surname>Gelman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0010-0277(92)90050-r</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9r5sf8U" coord="10,313.74,321.81,26.32,6.03">Cognition</title>
+		<title level="j" type="abbrev">Cognition</title>
+		<idno type="ISSN">0010-0277</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="43" to="74" />
+			<date type="published" when="1992-01">1992</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gallistel, C. R., &amp; Gelman, R. (1992). Preverbal and verbal counting and computation. Cognition, 44, 43e74.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,329.74,251.07,6.03;10,313.74,337.74,104.87,6.03" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="10,401.27,329.74,121.39,6.03" xml:id="_C5YTE43">Generating nonsymbolic number stimuli</title>
+		<author>
+			<persName><forename type="first">Titia</forename><surname>Gebuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13428-011-0097-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ryuznKf" coord="10,527.30,329.74,25.60,6.03;10,313.74,337.74,50.85,6.03">Behavior Research Methods</title>
+		<title level="j" type="abbrev">Behav Res</title>
+		<idno type="ISSNe">1554-3528</idno>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="981" to="986" />
+			<date type="published" when="2011-04-22">2011</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gebuis, T., &amp; Reynvoet, B. (2011). Generating nonsymbolic number stimuli. Behavior Research Methods, 43(4), 981e986.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,345.73,251.01,6.03;10,313.74,353.67,229.74,6.03;10,313.74,361.66,37.01,6.03" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" xml:id="_ABqJ8BV">Identifying quality educational apps: Lessons from ‘top’ mathematics apps in the Apple App store</title>
+		<author>
+			<persName><forename type="first">Adam</forename><forename type="middle">Kenneth</forename><surname>Dubé</surname></persName>
+			<idno type="ORCID">0000-0001-9935-8886</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Gulsah</forename><surname>Kacmaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Run</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabrina</forename><forename type="middle">Shajeen</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chu</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10639-020-10234-z</idno>
+		<ptr target="https://itunes.apple.com/be/app/mega-memory-match-het-grappige/id535014207?l¼nl&amp;mt¼8" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NM5sdJs">Education and Information Technologies</title>
+		<title level="j" type="abbrev">Educ Inf Technol</title>
+		<idno type="ISSN">1360-2357</idno>
+		<idno type="ISSNe">1573-7608</idno>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="5389" to="5404" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">GiggleUp Kids Apps And Educational Games Pty Ltd, 2013. Retrieved from: https:// itunes.apple.com/be/app/mega-memory-match-het-grappige/id535014207? l¼nl&amp;mt¼8.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,369.60,251.10,6.03;10,313.74,377.59,28.33,6.03" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" xml:id="_hyf9aJE">Nieuwenhoven, Willem van</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Gr Egoire</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>No€ El</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Van Nieuwenhoven</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/benz/9780199773787.article.b00130669</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_AChPxVX" coord="10,478.15,369.60,31.88,6.03">TEDI-MATH</title>
+		<meeting><address><addrLine>Antwerpen; Harcourt</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gr egoire, J., No€ el, M., &amp; Van Nieuwenhoven, C. (2004). TEDI-MATH. Antwerpen: Harcourt.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,385.53,251.03,6.03;10,313.74,393.43,239.11,6.38;10,313.74,401.52,171.43,6.03" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="10,417.03,385.53,135.83,6.03;10,313.74,393.43,44.24,6.38" xml:id="_ff5Z8HZ">Developmental change in the acuity of the &quot;number sense&quot;: The approximate number system in 3-, 4-, 5-, and 6-year-olds and adults.</title>
+		<author>
+			<persName><forename type="first">Justin</forename><surname>Halberda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lisa</forename><surname>Feigenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0012682</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_MjrjzCT" coord="10,349.51,401.52,75.55,6.03">Developmental Psychology</title>
+		<title level="j" type="abbrev">Developmental Psychology</title>
+		<idno type="ISSN">0012-1649</idno>
+		<idno type="ISSNe">1939-0599</idno>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1457" to="1465" />
+			<date type="published" when="2008">2008</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Halberda, J., &amp; Feigenson, L. (2008). Developmental change in the acuity of the &quot;number sense&quot;: The approximate number system in 3-, 4-, 5-, and 6-year-olds and adults. Developmental Psychology, 44(5), 1457e1465.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,409.45,251.01,6.03;10,313.74,417.45,239.12,6.03" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="10,478.42,409.45,74.42,6.03;10,313.74,417.45,181.53,6.03" xml:id="_6DtABNm">Individual differences in non-verbal number acuity correlate with maths achievement</title>
+		<author>
+			<persName><forename type="first">Justin</forename><surname>Halberda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michèle</forename><forename type="middle">M M</forename><surname>Mazzocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lisa</forename><surname>Feigenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature07246</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yzftmxX" coord="10,500.31,417.45,18.25,6.03">Nature</title>
+		<title level="j" type="abbrev">Nature</title>
+		<idno type="ISSN">0028-0836</idno>
+		<idno type="ISSNe">1476-4687</idno>
+		<imprint>
+			<biblScope unit="volume">455</biblScope>
+			<biblScope unit="issue">7213</biblScope>
+			<biblScope unit="page" from="665" to="668" />
+			<date type="published" when="2008-09-07">2008</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Halberda, J., Mazzocco, M. M. M., &amp; Feigenson, L. (2008). Individual differences in non-verbal number acuity correlate with maths achievement. Nature, 455, 1e11.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,425.38,250.99,6.03;10,313.74,433.38,239.08,6.03;10,313.74,441.37,222.56,6.03" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="10,410.56,425.38,142.26,6.03;10,313.74,433.38,239.08,6.03;10,313.74,441.37,59.05,6.03" xml:id="_qwhWajH">Mapping numerical magnitudes onto symbols: The numerical distance effect and individual differences in children’s mathematics achievement</title>
+		<author>
+			<persName><forename type="first">Ian</forename><forename type="middle">D</forename><surname>Holloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Ansari</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jecp.2008.04.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_SkugThn" coord="10,378.31,441.37,118.41,6.03">Journal of Experimental Child Psychology</title>
+		<title level="j" type="abbrev">Journal of Experimental Child Psychology</title>
+		<idno type="ISSN">0022-0965</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="17" to="29" />
+			<date type="published" when="2009-05">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holloway, I. D., &amp; Ansari, D. (2009). Mapping numerical magnitudes onto symbols: The numerical distance effect and individual differences in children&apos;s mathe- matics achievement. Journal of Experimental Child Psychology, 103, 17e29.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,449.31,251.01,6.03;10,313.74,457.21,150.17,6.38" xml:id="b22">
+	<monogr>
+		<title level="m" type="main" coord="10,413.52,449.31,139.32,6.03;10,313.74,457.21,70.01,6.38" xml:id="_VtuvhvG">Methods of meta-analysis: Correcting error and bias in research findings</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">E</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">L</forename><surname>Schmidt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<publisher>Sage</publisher>
+			<pubPlace>Newbury Park, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter, J. E., &amp; Schmidt, F. L. (1990). Methods of meta-analysis: Correcting error and bias in research findings. Newbury Park, CA: Sage.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,465.24,251.07,6.03;10,313.74,473.23,239.15,6.03;10,313.74,481.17,68.64,6.03" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="10,451.67,465.24,101.24,6.03;10,313.74,473.23,236.20,6.03" xml:id="_ZHwhBKu">Brief non-symbolic, approximate number practice enhances subsequent exact symbolic arithmetic in children</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><forename type="middle">C</forename><surname>Hyde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saeeda</forename><surname>Khanum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><forename type="middle">S</forename><surname>Spelke</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2013.12.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RAJJu9y" coord="10,313.74,481.17,26.32,6.03">Cognition</title>
+		<title level="j" type="abbrev">Cognition</title>
+		<idno type="ISSN">0010-0277</idno>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="92" to="107" />
+			<date type="published" when="2014-04">2014</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hyde, D. C., Khanum, S., &amp; Spelke, E. S. (2014). Brief non-symbolic, approximate number practise enhances subsequent exact symbolic arithmetic in children. Cognition, 131, 92e107.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,489.16,251.00,6.03;10,313.74,497.16,239.14,6.03;10,313.74,505.09,120.35,6.03" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="10,411.02,489.16,141.82,6.03;10,313.74,497.16,174.64,6.03" xml:id="_m4tYdFF">Socioeconomic variation, number competence, and mathematics learning difficulties in young children</title>
+		<author>
+			<persName><forename type="first">Nancy</forename><forename type="middle">C</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susan</forename><forename type="middle">C</forename><surname>Levine</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ddrr.46</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_HC3qcBq" coord="10,494.47,497.16,58.40,6.03;10,313.74,505.09,74.41,6.03">Developmental Disabilities Research Reviews</title>
+		<title level="j" type="abbrev">Dev Disabil Res Revs</title>
+		<idno type="ISSN">1940-5510</idno>
+		<idno type="ISSNe">1940-5529</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="60" to="68" />
+			<date type="published" when="2009-01">2009</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jordan, N. C., &amp; Levine, S. C. (2009). Socioeconomic variation, number competence, and mathematics learning difficulties in young children. Developmental Dis- abilities Research Reviews, 15(1), 60e68.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,513.09,251.05,6.03;10,313.74,521.03,239.18,6.03;10,313.74,529.02,76.01,6.03" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="10,313.74,521.03,219.84,6.03" xml:id="_SUTpJpY">Mental number line training in children with developmental dyscalculia</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Kucian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">U</forename><surname>Grond</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Rotzer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Henzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schönmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Plangger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gälli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Von Aster</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroimage.2011.01.070</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_tRWufRe" coord="10,538.64,521.03,14.28,6.03;10,313.74,529.02,22.04,6.03">NeuroImage</title>
+		<title level="j" type="abbrev">NeuroImage</title>
+		<idno type="ISSN">1053-8119</idno>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="782" to="795" />
+			<date type="published" when="2011-08">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kucian, K., Grond, U., Rotzer, S., Henzi, B., Sch€ onmann, C., Plangger, F., et al. (2011). Mental number line training in children with developmental dyscalculia. Neu- roimage, 57(3), 782e795.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,537.01,251.00,6.03;10,313.74,544.95,239.10,6.03;10,313.74,552.94,219.56,6.03" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="10,411.76,537.01,141.08,6.03;10,313.74,544.95,239.10,6.03;10,313.74,552.94,101.31,6.03" xml:id="_fVk6BWV">Is 27 a Big Number? Correlational and Causal Connections Among Numerical Categorization, Number Line Estimation, and Numerical Magnitude Comparison</title>
+		<author>
+			<persName><forename type="first">Elida</forename><forename type="middle">V</forename><surname>Laski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">S</forename><surname>Siegler</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-8624.2007.01087.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_dvay8UY" coord="10,420.60,552.94,53.27,6.03">Child Development</title>
+		<title level="j" type="abbrev">Child Development</title>
+		<idno type="ISSN">0009-3920</idno>
+		<idno type="ISSNe">1467-8624</idno>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1723" to="1743" />
+			<date type="published" when="2007-11">2007</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laski, E. V., &amp; Siegler, R. S. (2007). Is 27 a big number? Correlational and causal connections among numerical categorization, number line estimation, and numerical magnitude comparison. Child Development, 78(6), 1723e1743.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,560.88,251.03,6.03;10,313.74,568.88,239.11,6.03;10,313.74,576.81,239.15,6.03;10,313.74,584.81,53.51,6.03" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="10,477.86,560.88,75.00,6.03;10,313.74,568.88,239.11,6.03;10,313.74,576.81,45.33,6.03" xml:id="_8ZD5ekx">Measuring acuity of the approximate number system reliably and validly: the evaluation of an adaptive test procedure</title>
+		<author>
+			<persName><forename type="first">Marcus</forename><surname>Lindskog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Winman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Juslin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leo</forename><surname>Poom</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2013.00510</idno>
+		<ptr target="http://dx.doi.org/10.3389/fpsyg.2013.00510" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_D4qFXPg" coord="10,367.43,576.81,71.58,6.03">Frontiers in Psychology</title>
+		<title level="j" type="abbrev">Front. Psychol.</title>
+		<idno type="ISSNe">1664-1078</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">510</biblScope>
+			<date type="published" when="2013">2013</date>
+			<publisher>Frontiers Media SA</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lindskog, M., Winman, A., Juslin, P., &amp; Poom, L. (2013). Measuring acuity of the approximate number system reliably and validly: The evaluation of an adaptive test procedure. Frontiers in Psychology, 4, 510. http://dx.doi.org/10.3389/ fpsyg.2013.00510.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,592.80,250.99,6.03;10,313.74,600.64,239.10,6.38;10,313.74,608.73,61.27,6.03" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="10,498.78,592.80,54.05,6.03;10,313.74,600.64,154.10,6.38" xml:id="_ZXzTmp7">Walk the number line – An embodied training of numerical concepts</title>
+		<author>
+			<persName><forename type="first">Tanja</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Korbinian</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ursula</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans-Christoph</forename><surname>Nuerk</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tine.2013.06.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DpE4DDU">Trends in Neuroscience and Education</title>
+		<title level="j" type="abbrev">Trends in Neuroscience and Education</title>
+		<idno type="ISSN">2211-9493</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="74" to="84" />
+			<date type="published" when="2013-06">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>Trends in Neuroscience and Education, 2, 74e84</note>
+	<note type="raw_reference">Link, T., Moeller, K., Huber, S., Fischer, U., &amp; Nuerk, H. C. (2013). Walk the number line e An embodied training of numerical concepts. Trends in Neuroscience and Education, 2, 74e84.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,616.67,251.02,6.03;10,313.74,624.66,239.10,6.03;10,313.74,632.65,89.51,6.03" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="10,438.57,616.67,114.28,6.03;10,313.74,624.66,124.46,6.03" xml:id="_6rc3K7j">On the Relation between the Mental Number Line and Arithmetic Competencies</title>
+		<author>
+			<persName><forename type="first">Tanja</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans-Christoph</forename><surname>Nuerk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Korbinian</forename><surname>Moeller</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17470218.2014.892517</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_a7y8xYk" coord="10,443.22,624.66,109.62,6.03;10,313.74,632.65,30.02,6.03">Quarterly Journal of Experimental Psychology</title>
+		<title level="j" type="abbrev">Quarterly Journal of Experimental Psychology</title>
+		<idno type="ISSN">1747-0218</idno>
+		<idno type="ISSNe">1747-0226</idno>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1597" to="1613" />
+			<date type="published" when="2014-08">2014</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Link, T., Nuerk, H. C., &amp; Moeller, K. (2014). On the relation between the mental number line and arithmetic competencies. The Quarterly Journal of Experimental Psychology, 67(8), 1597e1613.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,640.59,251.02,6.03;10,313.74,648.49,239.12,6.38;10,313.74,656.52,239.14,6.03;10,313.74,664.51,239.14,6.03;10,313.74,672.51,102.66,6.03" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="10,352.91,648.49,199.94,6.38;10,313.74,656.52,128.76,6.03;10,336.87,664.51,174.51,6.03" xml:id="_vFmrX8q">Design of the Game-Based Learning Environment “Dudeman &amp; Sidegirl: Operation Clean World,” a Numerical Magnitude Processing Training</title>
+		<author>
+			<persName><forename type="first">Sarah</forename><surname>Linsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bieke</forename><surname>Maertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jelle</forename><surname>Husson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lieven</forename><surname>Van Den Audenaeren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeroen</forename><surname>Wauters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>De Smedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lieven</forename><surname>Verschaffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Elen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-20276-1_2</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_CMbJMVP">Describing and Studying Domain-Specific Serious Games</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Torbeyns</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Lehtinen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Elen</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="9" to="26" />
+		</imprint>
+	</monogr>
+	<note>Describing and studying domain-specific serious games</note>
+	<note type="raw_reference">Linsen, S., Maertens, B., Husson, J., Van den Audenaeren, L., Wauters, J., Reynvoet, B., et al. (2015). Design of the game &quot;Dudeman &amp; Sidegirl: Operation clean world&quot;, a numerical magnitude processing training. In J. Torbeyns, E. Lehtinen, &amp; J. Elen (Eds.), Describing and studying domain-specific serious games (pp. 9e26). Springer International Publishing.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,680.35,251.01,6.38;10,313.74,688.44,239.09,6.03;10,313.74,696.38,181.39,6.03" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="10,354.50,688.44,198.33,6.03;10,313.74,696.38,177.79,6.03" xml:id="_2pk5tRT">Enhancing arithmetic in pre-schoolers with comparison or number line estimation training: Does it matter?</title>
+		<author>
+			<persName><forename type="first">Bieke</forename><surname>Maertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>De Smedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Delphine</forename><surname>Sasanguie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><surname>Elen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.learninstruc.2016.08.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zzbBG23">Learning and Instruction</title>
+		<title level="j" type="abbrev">Learning and Instruction</title>
+		<idno type="ISSN">0959-4752</idno>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2016-12" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note>unpublished manuscript</note>
+	<note type="raw_reference">Maertens, B., Sasanguie, S., De Smedt, B., Elen, J., &amp; Reynvoet, B.. (unpublished manuscript). Comparison or number line estimation training: does it matter? Results of a number sense intervention with a tablet game.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,704.37,251.01,6.03;10,313.74,712.31,239.12,6.03;10,313.74,720.30,56.91,6.03" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="10,417.99,704.37,134.85,6.03;10,313.74,712.31,120.27,6.03" xml:id="_n4Fs8FD">Children’s mapping between symbolic and nonsymbolic representations of number</title>
+		<author>
+			<persName><forename type="first">Eleanor</forename><surname>Mundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Camilla</forename><forename type="middle">K</forename><surname>Gilmore</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jecp.2009.02.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mrQFjEU" coord="10,439.88,712.31,112.98,6.03;10,313.74,720.30,8.61,6.03">Journal of Experimental Child Psychology</title>
+		<title level="j" type="abbrev">Journal of Experimental Child Psychology</title>
+		<idno type="ISSN">0022-0965</idno>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="490" to="502" />
+			<date type="published" when="2009-08">2009</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mundy, E., &amp; Gilmore, C. K. (2009). Children&apos;s mapping between symbolic and nonsymbolic representations of number. Journal of Experimental Child Psychol- ogy, 130, 490e502.</note>
+</biblStruct>
+
+<biblStruct coords="10,301.83,728.29,251.04,6.03;10,313.74,736.23,111.84,6.03" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coord="10,405.35,728.29,121.41,6.03" xml:id="_kWUHxU9">Representation of Number in the Brain</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Nieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stanislas</forename><surname>Dehaene</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.neuro.051508.135550</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WQD7GTv" coord="10,532.17,728.29,20.69,6.03;10,313.74,736.23,67.22,6.03">Annual Review of Neuroscience</title>
+		<title level="j" type="abbrev">Annu. Rev. Neurosci.</title>
+		<idno type="ISSN">0147-006X</idno>
+		<idno type="ISSNe">1545-4126</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="185" to="208" />
+			<date type="published" when="2009-06-01">2009</date>
+			<publisher>Annual Reviews</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nieder, A., &amp; Dehaene, S. (2009). Representations of number in the brain. Annual Review of Neuroscience, 32, 185e208.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,66.75,251.10,6.03;11,54.48,74.65,239.10,6.38;11,54.48,82.68,239.12,6.03" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coord="11,174.95,66.75,118.67,6.03;11,54.48,74.65,239.10,6.38;11,54.48,82.68,121.12,6.03" xml:id="_8qAsGfY">How training on exact or approximate mental representations of number can enhance first-grade students’ basic number processing and arithmetic skills</title>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Obersteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kristina</forename><surname>Reiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Ufer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.learninstruc.2012.08.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RZDpH8E" coord="11,180.00,82.68,70.41,6.03">Learning and Instruction</title>
+		<title level="j" type="abbrev">Learning and Instruction</title>
+		<idno type="ISSN">0959-4752</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="125" to="135" />
+			<date type="published" when="2013-02">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Obersteiner, A., Reiss, K., &amp; Ufer, S. (2013). How training on exact or approximate mental representations of number can enhance first-grade students&apos; basic number processing and arithmetic skills. Learning and Instruction, 23, 125e135.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,90.67,251.05,6.03;11,54.48,98.61,239.12,6.03;11,54.48,106.60,28.96,6.03" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coord="11,144.68,90.67,148.89,6.03;11,54.48,98.61,189.49,6.03" xml:id="_4FTycw2">Improving arithmetic performance with number sense training: An investigation of underlying mechanism</title>
+		<author>
+			<persName><forename type="first">Joonkoo</forename><surname>Park</surname></persName>
+			<idno type="ORCID">0000-0002-6703-3961</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Elizabeth</forename><forename type="middle">M</forename><surname>Brannon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2014.06.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5jNxTJC" coord="11,250.13,98.61,26.32,6.03">Cognition</title>
+		<title level="j" type="abbrev">Cognition</title>
+		<idno type="ISSN">0010-0277</idno>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="188" to="200" />
+			<date type="published" when="2014-10">2014. 188e200</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Park, J., &amp; Brannon, E. M. (2014). Improving arithmetic performance with number sense training: An investigation of the underlying mechanism. Cognition, 133, 188e200.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,114.60,251.05,6.03;11,54.48,122.53,239.06,6.03;11,54.48,130.53,166.38,6.03" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="11,77.04,122.53,216.49,6.03;11,54.48,130.53,87.30,6.03" xml:id="_qTM8CzV">Developmental trajectory of number acuity reveals a severe impairment in developmental dyscalculia</title>
+		<author>
+			<persName><forename type="first">Manuela</forename><surname>Piazza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Facoetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anna</forename><forename type="middle">Noemi</forename><surname>Trussardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilaria</forename><surname>Berteletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefano</forename><surname>Conte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniela</forename><surname>Lucangeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stanislas</forename><surname>Dehaene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Zorzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cognition.2010.03.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4WXzmHh" coord="11,146.83,130.53,26.32,6.03">Cognition</title>
+		<title level="j" type="abbrev">Cognition</title>
+		<idno type="ISSN">0010-0277</idno>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="41" />
+			<date type="published" when="2010-07">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piazza, M., Facoetti, A., Trussardi, A. N., Berteletti, I., Conte, S., Lucangeli, D., et al. (2010). Developmental trajectory of number acuity reveals a severe impairment in developmental dyscalculia. Cognition, 116(1), 33e41.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,138.46,251.07,6.03;11,54.48,146.46,239.13,6.03;11,54.48,154.39,130.61,6.03" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="11,154.94,138.46,138.65,6.03;11,54.48,146.46,239.13,6.03;11,54.48,154.39,17.42,6.03" xml:id="_UEVHNa2">Promoting Broad and Stable Improvements in Low‐Income Children’s Numerical Knowledge Through Playing Number Board Games</title>
+		<author>
+			<persName><forename type="first">Geetha</forename><forename type="middle">B</forename><surname>Ramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">S</forename><surname>Siegler</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-8624.2007.01131.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_SUUUbUC" coord="11,77.61,154.39,53.22,6.03">Child Development</title>
+		<title level="j" type="abbrev">Child Development</title>
+		<idno type="ISSN">0009-3920</idno>
+		<idno type="ISSNe">1467-8624</idno>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="375" to="394" />
+			<date type="published" when="2008-03">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ramani, G. B., &amp; Siegler, R. S. (2008). Promoting broad and stable improvements in low-income children&apos;s numerical knowledge through playing number board games. Child Development, 79(2), 375e394.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,162.39,251.02,6.03;11,54.48,170.38,239.11,6.03;11,54.48,178.32,96.42,6.03" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coord="11,160.72,162.39,132.82,6.03;11,54.48,170.38,148.19,6.03" xml:id="_Zu7qgVK">Reducing the gap in numerical knowledge between low- and middle-income preschoolers</title>
+		<author>
+			<persName><forename type="first">Geetha</forename><forename type="middle">B</forename><surname>Ramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">S</forename><surname>Siegler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.appdev.2011.02.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zdV7mKY" coord="11,209.19,170.38,84.40,6.03;11,54.48,178.32,52.42,6.03">Journal of Applied Developmental Psychology</title>
+		<title level="j" type="abbrev">Journal of Applied Developmental Psychology</title>
+		<idno type="ISSN">0193-3973</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="146" to="159" />
+			<date type="published" when="2011-05">2011</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ramani, G. B., &amp; Siegler, R. S. (2011). Reducing the gap in numerical knowledge between low-and middle-income preschoolers. Journal of Applied Develop- mental Psychology, 32, 146e159.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,186.31,251.01,6.03;11,54.48,194.25,239.06,6.03;11,54.48,202.24,64.73,6.03" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coord="11,184.24,186.31,109.28,6.03;11,54.48,194.25,142.44,6.03" xml:id="_JnY7v3U">Taking it to the classroom: Number board games as a small group learning activity.</title>
+		<author>
+			<persName><forename type="first">Geetha</forename><forename type="middle">B</forename><surname>Ramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">S</forename><surname>Siegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aline</forename><surname>Hitti</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0028995</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_sHE7C3p" coord="11,201.82,194.25,91.72,6.03;11,54.48,202.24,8.57,6.03">Journal of Educational Psychology</title>
+		<title level="j" type="abbrev">Journal of Educational Psychology</title>
+		<idno type="ISSN">0022-0663</idno>
+		<idno type="ISSNe">1939-2176</idno>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="661" to="672" />
+			<date type="published" when="2012-08">2012</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ramani, G. B., Siegler, R. S., &amp; Hitti, A. (2012). Taking it to the classroom: Number board games as a small group learning activity. Journal of Educational Psychol- ogy, 104(3), 661e672.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,210.23,251.05,6.03;11,54.48,218.17,239.08,6.03;11,54.48,226.16,65.58,6.03" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coord="11,261.12,210.23,32.45,6.03;11,54.48,218.17,185.12,6.03" xml:id="_ktkXUUv">Computerassisted intervention for children with low numeracy skills</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>R€ As€ Anen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Salminen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Aunio</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Dehaene</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yzwnKs4" coord="11,245.02,218.17,48.53,6.03;11,54.48,226.16,20.17,6.03">Cognitive Development</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="450" to="e472" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R€ as€ anen, P., Salminen, J., Wilson, A. J., Aunio, P., &amp; Dehaene, S. (2009). Computer- assisted intervention for children with low numeracy skills. Cognitive Devel- opment, 24, 450e472.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,234.10,251.06,6.03;11,54.48,242.10,239.06,6.03;11,54.48,250.09,236.57,6.03" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coord="11,182.60,234.10,110.98,6.03;11,54.48,242.10,77.70,6.03" xml:id="_XpC3YdM">“Number Sense”: What’s in a Name and Why Should We Bother?</title>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karolien</forename><surname>Smets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Delphine</forename><surname>Sasanguie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-12-801637-4.00009-3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_DTbVkrd" coord="11,197.17,242.10,96.36,6.03;11,54.48,250.09,104.64,6.03">Continuous Issues in Numerical Cognition</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Henik</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Diego</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="195" to="214" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reynvoet, B., Smets, K., &amp; Sasanguie, D. (2016). Number sense: what&apos;s in a name and why should we bother? In A. Henik (Ed.), Continuous issues in numerical cognition: How many or how much (pp. 195e216). San Diego: Academic Press.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,258.03,251.11,6.03;11,54.48,266.02,239.08,6.03;11,54.48,273.96,120.40,6.03" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coord="11,231.07,258.03,62.56,6.03;11,54.48,266.02,177.82,6.03" xml:id="_KjSN8wA">Association between basic numerical abilities and mathematics achievement</title>
+		<author>
+			<persName><forename type="first">Delphine</forename><surname>Sasanguie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>De Smedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmy</forename><surname>Defever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.2044-835x.2011.02048.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_R5KYPeH" coord="11,239.86,266.02,53.69,6.03;11,54.48,273.96,75.55,6.03">British Journal of Developmental Psychology</title>
+		<title level="j" type="abbrev">British J of Dev Psycho</title>
+		<idno type="ISSN">0261-510X</idno>
+		<idno type="ISSNe">2044-835X</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="344" to="357" />
+			<date type="published" when="2012">2012</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sasanguie, D., De Smedt, B., Defever, E., &amp; Reynvoet, B. (2012). Association between basic numerical abilities and mathematics achievement. British Journal of Developmental Psychology, 30, 344e357.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,281.95,251.10,6.03;11,54.48,289.89,239.09,6.03;11,54.48,297.88,226.19,6.03" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coord="11,241.05,281.95,52.57,6.03;11,54.48,289.89,239.09,6.03;11,54.48,297.88,23.68,6.03" xml:id="_7cjxbFR">The Approximate Number System is not Predictive for Symbolic Number Processing in Kindergarteners</title>
+		<author>
+			<persName><forename type="first">Delphine</forename><surname>Sasanguie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emmy</forename><surname>Defever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bieke</forename><surname>Maertens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17470218.2013.803581</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Ss8KAvj" coord="11,83.33,297.88,143.80,6.03">Quarterly Journal of Experimental Psychology</title>
+		<title level="j" type="abbrev">Quarterly Journal of Experimental Psychology</title>
+		<idno type="ISSN">1747-0218</idno>
+		<idno type="ISSNe">1747-0226</idno>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="271" to="280" />
+			<date type="published" when="2014-02">2014</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sasanguie, D., Defever, E., Maertens, B., &amp; Reynvoet, B. (2014). The approximate number system is not predictive for symbolic number processing in kinder- gartners. The Quarterly Journal of Experimental Psychology, 67(2), 271e280.</note>
+</biblStruct>
+
+<biblStruct coords="11,42.52,305.87,251.02,6.03;11,54.48,313.81,239.09,6.03;11,323.48,66.74,239.08,6.03;11,323.48,74.74,142.17,6.03" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coord="11,252.65,305.87,40.88,6.03;11,54.48,313.81,239.09,6.03;11,323.48,66.74,202.50,6.03" xml:id="_DqMwJRC">Approximate number sense, symbolic number processing, or number–space mappings: What underlies mathematics achievement?</title>
+		<author>
+			<persName><forename type="first">Delphine</forename><surname>Sasanguie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Silke</forename><forename type="middle">M</forename><surname>Göbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kristina</forename><surname>Moll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karolien</forename><surname>Smets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jecp.2012.10.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kNNzhks" coord="11,532.79,66.74,29.77,6.03;11,323.48,74.74,87.56,6.03">Journal of Experimental Child Psychology</title>
+		<title level="j" type="abbrev">Journal of Experimental Child Psychology</title>
+		<idno type="ISSN">0022-0965</idno>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="418" to="431" />
+			<date type="published" when="2013-03">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sasanguie, D., G€ obel, S., Moll, K., Smets, K., &amp; Reynvoet, B. (2013). Acuity of the approximate number sense, symbolic number comparison or mapping numbers onto space: What underlies mathematics achievement? Journal of Experimental Child Psychology, 114(3), 418e431.</note>
+</biblStruct>
+
+<biblStruct coords="11,311.52,82.67,251.03,6.03;11,323.48,90.67,220.41,6.03" xml:id="b45">
+	<analytic>
+		<title level="a" type="main" coord="11,428.30,82.67,134.25,6.03;11,323.48,90.67,111.38,6.03" xml:id="_jmRmUSC">Number Compasison and Number Line Estimation Rely on Different Mechanisms</title>
+		<author>
+			<persName><forename type="first">Delphine</forename><surname>Sasanguie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>Reynvoet</surname></persName>
+		</author>
+		<idno type="DOI">10.5334/pb-53-4-17</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2jWFbvr" coord="11,440.67,90.67,58.20,6.03">Psychologica Belgica</title>
+		<title level="j" type="abbrev">PSYCHOL BELG</title>
+		<idno type="ISSN">0033-2879</idno>
+		<idno type="ISSNe">2054-670X</idno>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2013-12-27">2013</date>
+			<publisher>Ubiquity Press, Ltd.</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sasanguie, D., &amp; Reynvoet, B. (2013). Number comparison and number line esti- mation rely on different mechanisms. Psychologica Belgica, 53(4), 17e35.</note>
+</biblStruct>
+
+<biblStruct coords="11,311.53,98.61,251.00,6.03;11,323.49,106.60,219.50,6.03" xml:id="b46">
+	<analytic>
+		<title level="a" type="main" xml:id="_mCqDUap">Validating the Accuracy of Reaction Time Assessment on Computer-Based Tablet Devices</title>
+		<author>
+			<persName><forename type="first">Philip</forename><surname>Schatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Ybarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Donald</forename><surname>Leitner</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1073191114566622</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CS59tyG" coord="11,466.92,106.60,31.18,6.03">Assessment</title>
+		<title level="j" type="abbrev">Assessment</title>
+		<idno type="ISSN">1073-1911</idno>
+		<idno type="ISSNe">1552-3489</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="405" to="410" />
+			<date type="published" when="2015-01-22">2015</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schatz, P., Ybarra, V., &amp; Leitner, D. (2015). Validating the accuracy of reaction time assessment on computer-based tablet devices. Assessment, 22, 405e410.</note>
+</biblStruct>
+
+<biblStruct coords="11,311.53,114.60,251.04,6.03;11,323.49,122.53,239.14,6.03;11,323.49,130.53,239.05,6.03;11,323.49,138.46,158.48,6.03" xml:id="b47">
+	<analytic>
+		<title level="a" type="main" coord="11,323.49,122.53,239.14,6.03;11,323.49,130.53,145.56,6.03" xml:id="_m7dNaH5">Associations of non‐symbolic and symbolic numerical magnitude processing with mathematical competence: a meta‐analysis</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kassandra</forename><surname>Beeres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leyla</forename><surname>Coban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Merz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Susan Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Stricker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bert</forename><surname>De Smedt</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/desc.12372</idno>
+		<ptr target="http://dx.doi.org/10.1111/desc.12372" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_R6KXquK" coord="11,473.72,130.53,64.79,6.03">Developmental Science</title>
+		<title level="j" type="abbrev">Developmental Science</title>
+		<idno type="ISSN">1363-755X</idno>
+		<idno type="ISSNe">1467-7687</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2016-01-14">2016</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schneider, M., Beeres, K., Coban, L., Merz, S., Schmidt, S. S., Stricker, J., et al. (2016). Associations of non-symbolic and symbolic numerical magnitude processing with mathematical competence: A meta-analysis. Developmental Science. http:// dx.doi.org/10.1111/desc.12372 (Epub ahead of print).</note>
+</biblStruct>
+
+<biblStruct coords="11,311.53,146.46,251.10,6.03;11,323.49,154.39,136.67,6.03" xml:id="b48">
+	<analytic>
+		<title level="a" type="main" coord="11,417.42,146.46,145.20,6.03;11,323.49,154.39,23.52,6.03" xml:id="_Ub5fgXD">Development of Numerical Estimation in Young Children</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">S</forename><surname>Siegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julie</forename><forename type="middle">L</forename><surname>Booth</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-8624.2004.00684.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xZRD3C9" coord="11,352.17,154.39,53.27,6.03">Child Development</title>
+		<title level="j" type="abbrev">Child Development</title>
+		<idno type="ISSN">0009-3920</idno>
+		<idno type="ISSNe">1467-8624</idno>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="428" to="444" />
+			<date type="published" when="2004-03">2004</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siegler, R. S., &amp; Booth, J. L. (2004). Development of numerical estimation in young children. Child Development, 75(2), 428e444.</note>
+</biblStruct>
+
+<biblStruct coords="11,311.53,162.29,251.09,6.38;11,323.49,170.28,239.05,6.38;11,323.49,178.32,154.08,6.03" xml:id="b49">
+	<analytic>
+		<title level="a" type="main" coord="11,423.21,162.29,139.41,6.38;11,323.49,170.28,235.79,6.38" xml:id="_fxxRDXp">Playing linear number board games—but not circular ones—improves low-income preschoolers’ numerical understanding.</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">S</forename><surname>Siegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geetha</forename><forename type="middle">B</forename><surname>Ramani</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0014239</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bQHQb7N" coord="11,323.49,178.32,97.26,6.03">Journal of Educational Psychology</title>
+		<title level="j" type="abbrev">Journal of Educational Psychology</title>
+		<idno type="ISSN">0022-0663</idno>
+		<idno type="ISSNe">1939-2176</idno>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="545" to="560" />
+			<date type="published" when="2009-08">2009</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Siegler, R. S., &amp; Ramani, G. B. (2009). Playing linear number board games e But not circular ones e Improves low-income preschoolers&apos; numerical understanding. Journal of Educational Psychology, 101(3), 545e560.</note>
+</biblStruct>
+
+<biblStruct coords="11,311.52,186.31,251.10,6.03;11,323.49,194.15,239.06,6.38;11,323.49,202.15,139.85,6.38" xml:id="b50">
+	<monogr>
+		<title level="m" type="main" coord="11,478.53,186.31,84.09,6.03;11,323.49,194.15,239.06,6.38;11,323.49,202.15,96.79,6.38" xml:id="_BzhSKpk">Does numerical processing uniquely predict first graders&apos; future development of single-digit arithmetic? Learning &amp; Individual Differences</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Vanbinst</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Ghesqui Ere</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>De Smedt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="153" to="e160" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vanbinst, K., Ghesqui ere, P., &amp; De Smedt, B. (2015). Does numerical processing uniquely predict first graders&apos; future development of single-digit arithmetic? Learning &amp; Individual Differences, 37, 153e160.</note>
+</biblStruct>
+
+<biblStruct coords="11,311.52,210.23,251.01,6.03;11,323.49,218.17,239.06,6.03;11,323.49,226.17,239.06,6.03;11,323.49,234.10,239.14,6.03;11,323.49,242.10,239.05,6.03;11,323.49,250.09,236.45,6.03;11,323.49,258.03,115.58,6.03" xml:id="b51">
+	<analytic>
+		<title level="a" type="main" coord="11,425.42,218.17,137.13,6.03;11,323.49,226.17,239.06,6.03;11,323.49,234.10,188.97,6.03" xml:id="_W4jFaXK">Ontwikkelingsdoelen en eindtermen voor het gewoon basisonderwijs. Informatie voor de onderwijspraktijk [Developmental objectives and attainment targets for regular elementary education</title>
+		<author>
+			<persName coords=""><surname>Vlaams Ministerie Van Onderwijs En</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Vorming</surname></persName>
+		</author>
+		<ptr target="http://www.vlaanderen.be/nl/publicaties/detail/ontwikkelingsdoelen-en-eindtermen-voor-het-gewoon-basisonderwijs-informatie-voor-de-onderwijspraktijk" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_MAeJ37r" coord="11,456.88,210.23,105.65,6.03;11,323.49,218.17,70.20,6.03">Agentschap voor Kwaliteitszorg in Onderwijs en Vorming</title>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Information for educational practice</note>
+	<note type="raw_reference">Vlaams Ministerie van Onderwijs en Vorming, Agentschap voor Kwaliteitszorg in Onderwijs en Vorming. (2010). Ontwikkelingsdoelen en eindtermen voor het gewoon basisonderwijs. Informatie voor de onderwijspraktijk [Developmental ob- jectives and attainment targets for regular elementary education. Information for educational practice]. Retrieved from: http://www.vlaanderen.be/nl/publicaties/ detail/ontwikkelingsdoelen-en-eindtermen-voor-het-gewoon-basisonderwijs- informatie-voor-de-onderwijspraktijk.</note>
+</biblStruct>
+
+<biblStruct coords="11,311.52,266.02,251.02,6.03;11,323.49,273.96,239.09,6.03;11,323.49,281.95,179.31,6.03" xml:id="b52">
+	<analytic>
+		<title level="a" type="main" coord="11,480.18,266.02,82.37,6.03;11,323.49,273.96,239.09,6.03;11,323.49,281.95,45.27,6.03" xml:id="_gtur5N3">Effects of an adaptive game intervention on accessing number sense in low-socioeconomic-status kindergarten children</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Dehaene</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Fayol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WgzFXz8" coord="11,373.89,281.95,78.46,6.03">Mind, Brain, and Education</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="224" to="e234" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilson, A. J., Dehaene, S., Dubois, O., &amp; Fayol, M. (2009). Effects of an adaptive game intervention on accessing number sense in low-socioeconomic-status kinder- garten children. Mind, Brain, and Education, 3(4), 224e234.</note>
+</biblStruct>
+
+<biblStruct coords="11,311.52,289.89,251.04,6.03;11,323.48,297.79,239.14,6.38;11,323.48,305.87,239.06,6.03" xml:id="b53">
+	<analytic>
+		<title level="a" type="main" coord="11,323.48,297.79,239.14,6.38;11,323.48,305.87,106.23,6.03" xml:id="_VDxc6tn">Principles underlying the design of &quot;The Number Race&quot;, an adaptive computer game for remediation of dyscalculia</title>
+		<author>
+			<persName><forename type="first">Anna</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stanislas</forename><surname>Dehaene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Pinel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susannah</forename><forename type="middle">K</forename><surname>Revkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurent</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1744-9081-2-19</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2YnCnQP" coord="11,434.26,305.87,88.52,6.03">Behavioral and Brain Functions</title>
+		<title level="j" type="abbrev">Behav Brain Funct</title>
+		<idno type="ISSNe">1744-9081</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="e14" />
+			<date type="published" when="2006-05-30">2006</date>
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilson, A. J., Dehaene, S., Pinel, P., Revkin, S. K., Cohen, L., &amp; Cohen, D. (2006). Principles underlying the design of &quot;the number race&quot;, an adaptive computer game for remediation of dyscalculia. Behavioral and Brain Functions, 2(19), 1e14.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

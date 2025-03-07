@@ -1,0 +1,48 @@
+# .DS_Store file
+.DS_Store
+.vscode
+.idea/
+
+# Ignore grobid
+grobid-0.8.0/
+.gradle/
+
+# History file
+historyPSD.txt
+
+# Frontend files
+frontend/node_modules
+frontend/.vite-ssg-temp
+frontend/.DS_Store
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+frontend/*.log
+
+# Backend files
+# Byte-compiled / optimized / DLL files
+__pycache__/
+backend/app/__pycache__/
+backend/app/db/__pycache__/
+backend/app/services/__pycache__/
+backend/app/services/Extractor/__pycache__/
+backend/app/services/Parser/__pycache__/
+backend/app/routers/__pycache__/
+backend/app/intergration/__pycache__/
+
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Other files and folders to ignore
+*.log
+#*.csv
+#*.json
+#.env
+
+# Ignore src
+backend/src/

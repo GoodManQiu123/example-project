@@ -1,0 +1,2406 @@
+{
+    "metadata": {
+        "title": "GRACE: A General Graph Convolution Framework for Atributed Graph Clustering",
+        "doi": "10.1145/3544977",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Attributed graph clustering (AGC) is an important problem in graph mining as more and more complex data in real-world have been represented in graphs with attributed nodes. While it is a common practice to leverage both attribute and structure information for improved clustering performance, most existing AGC algorithms consider only a speciic type of relations, which hinders their applicability to integrate various complex relations into node attributes for AGC. In this paper, we propose GRACE, an extended graph convolution framework for AGC tasks. Our framework provides a general and interpretative solution for clustering many diferent types of attributed graphs, including undirected, directed, heterogeneous and hyper attributed graphs. By building suitable graph Laplacians for each of the aforementioned graph types, GRACE can seamlessly perform graph convolution on node attributes to fuse all available information for clustering. We conduct extensive experiments on 14 real-world datasets of 4 diferent graph types. The experimental results show that GRACE outperforms the state-of-the-art AGC methods on the diferent graph types in terms of clustering quality, time, and memory usage. CCS Concepts: \u2022 Information systems   Clustering and classiication.",
+        "keywords": [
+            "grace",
+            "agc",
+            "graph",
+            "general",
+            "clustering",
+            "framework",
+            "type",
+            "diferent",
+            "convolution"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Barakeel Fanseu Kamhoua",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Hong Kong",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Agarwal",
+                    "given": "Sameer"
+                },
+                {
+                    "family": "Branson",
+                    "given": "Kristin"
+                },
+                {
+                    "family": "Belongie",
+                    "given": "Serge J."
+                }
+            ],
+            "title": "Higher order learning with graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 23rd international conference on Machine learning"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Akbas",
+                    "given": "Esra"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Peixiang"
+                }
+            ],
+            "title": "Attributed Graph Clustering: an Attribute-aware Graph Embedding Approach",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the 2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining 2017",
+                "ACM"
+            ],
+            "doi": "10.1145/3110025.3110092",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Andersen",
+                    "given": "Reid"
+                },
+                {
+                    "family": "Chung",
+                    "given": "Fan"
+                },
+                {
+                    "family": "Lang",
+                    "given": "Kevin"
+                }
+            ],
+            "title": "Using PageRank to Locally Partition a Graph",
+            "type": "article-journal",
+            "container_title": [
+                "Internet Mathematics"
+            ],
+            "doi": "10.1080/15427951.2007.10129139",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bai",
+                    "given": "Song"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Feihu"
+                },
+                {
+                    "family": "Torr",
+                    "given": "Philip H.S."
+                }
+            ],
+            "title": "Hypergraph Convolution and Hypergraph Attention",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Belkin",
+                    "given": "Mikhail"
+                },
+                {
+                    "family": "Niyogi",
+                    "given": "Partha"
+                }
+            ],
+            "title": "Laplacian Eigenmaps for Dimensionality Reduction and Data Representation",
+            "type": "article-journal",
+            "container_title": [
+                "Neural Comput"
+            ],
+            "doi": "10.1162/089976603321780317",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cai",
+                    "given": "Deng"
+                },
+                {
+                    "family": "He",
+                    "given": "Xiaofei"
+                },
+                {
+                    "family": "Han",
+                    "given": "Jiawei"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Thomas S."
+                }
+            ],
+            "title": "Graph regularized nonnegative matrix factorization for data representation",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE transactions on pattern analysis and machine intelligence"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cai",
+                    "given": "Deng"
+                },
+                {
+                    "family": "He",
+                    "given": "Xiaofei"
+                },
+                {
+                    "family": "Han",
+                    "given": "Jiawei"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Thomas S."
+                }
+            ],
+            "title": "Graph Regularized Nonnegative Matrix Factorization for Data Representation",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Pattern Anal. Mach. Intell"
+            ],
+            "doi": "10.1109/TPAMI.2010.231",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chan",
+                    "given": "T.-H.Hubert"
+                },
+                {
+                    "family": "Liang",
+                    "given": "Zhibin"
+                }
+            ],
+            "title": "Generalizing the hypergraph Laplacian via a difusion process with mediators",
+            "type": "article-journal",
+            "container_title": [
+                "Theor. Comput. Sci"
+            ],
+            "doi": "10.1016/j.tcs.2019.07.024",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chen",
+                    "given": "Siheng"
+                },
+                {
+                    "family": "Sandryhaila",
+                    "given": "Aliaksei"
+                },
+                {
+                    "family": "Moura",
+                    "given": "Jos\u00e9 M.F."
+                },
+                {
+                    "family": "Kovacevic",
+                    "given": "Jelena"
+                }
+            ],
+            "title": "Signal denoising on graphs via graph iltering",
+            "type": "paper-conference",
+            "container_title": [
+                "2014 IEEE Global Conference on Signal and Information Processing"
+            ],
+            "doi": "10.1109/GlobalSIP.2014.7032244",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cheng",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jefrey Xu"
+                }
+            ],
+            "title": "Clustering Large Attributed Graphs: A Balance between Structural and Attribute Similarities",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Knowl. Discov. Data"
+            ],
+            "doi": "10.1145/1921632.1921638",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chung",
+                    "given": "Fan"
+                }
+            ],
+            "title": "Laplacians and the Cheeger Inequality for Directed Graphs",
+            "type": "article-journal",
+            "container_title": [
+                "Annals of Combinatorics"
+            ],
+            "doi": "10.1007/s00026-005-0237-z",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dang",
+                    "given": "T.A."
+                },
+                {
+                    "family": "Viennet",
+                    "given": "Emmanuel"
+                }
+            ],
+            "title": "Community detection based on structural and attribute similarities",
+            "type": "paper-conference",
+            "container_title": [
+                "International conference on digital society"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Delalleau",
+                    "given": "Olivier"
+                },
+                {
+                    "family": "Bengio",
+                    "given": "Yoshua"
+                },
+                {
+                    "family": "Roux",
+                    "given": "Nicolas Le"
+                }
+            ],
+            "title": "Eicient Non-Parametric Function Induction in Semi-Supervised Learning",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Tenth International Workshop on Artiicial Intelligence and Statistics (proceedings of the tenth international workshop on artiicial intelligence and statistics ed.). Society for Artiicial Intelligence and Statistics"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dhillon",
+                    "given": "Inderjit S."
+                },
+                {
+                    "family": "Guan",
+                    "given": "Yuqiang"
+                },
+                {
+                    "family": "Kulis",
+                    "given": "Brian"
+                }
+            ],
+            "title": "Kernel k-means: spectral clustering and normalized cuts",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ding",
+                    "given": "Chris"
+                },
+                {
+                    "family": "He",
+                    "given": "Xiaofeng"
+                }
+            ],
+            "title": "K-means clustering via principal component analysis",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the twenty-irst international conference on Machine learning"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ding",
+                    "given": "Chris"
+                },
+                {
+                    "family": "He",
+                    "given": "Xiaofeng"
+                },
+                {
+                    "family": "Simon",
+                    "given": "Horst D."
+                }
+            ],
+            "title": "On the equivalence of nonnegative matrix factorization and spectral clustering",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2005 SIAM international conference on data mining. SIAM"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Du",
+                    "given": "Rundong"
+                },
+                {
+                    "family": "Drake",
+                    "given": "Barry L."
+                },
+                {
+                    "family": "Park",
+                    "given": "Haesun"
+                }
+            ],
+            "title": "Hybrid Clustering based on Content and Connection Structure using Joint Nonnegative Matrix Factorization",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fan",
+                    "given": "Wenqi"
+                },
+                {
+                    "family": "Ma",
+                    "given": "Yao"
+                },
+                {
+                    "family": "Li",
+                    "given": "Qing"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Jianping"
+                },
+                {
+                    "family": "Cai",
+                    "given": "Guoyong"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Jiliang"
+                },
+                {
+                    "family": "Yin",
+                    "given": "Dawei"
+                }
+            ],
+            "title": "A Graph Neural Network Framework for Social Recommendations",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Knowledge and Data Engineering"
+            ],
+            "doi": "10.1109/TKDE.",
+            "published_date": "2022"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Feng",
+                    "given": "Yifan"
+                },
+                {
+                    "family": "You",
+                    "given": "Haoxuan"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Zizhao"
+                },
+                {
+                    "family": "Ji",
+                    "given": "Rongrong"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Yue"
+                }
+            ],
+            "title": "Hypergraph Neural Networks",
+            "type": "article-journal",
+            "container_title": [
+                "AAAI"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Grover",
+                    "given": "Aditya"
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "node2vec: Scalable Feature Learning for Networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guo",
+                    "given": "Ting"
+                },
+                {
+                    "family": "Pan",
+                    "given": "Shirui"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Xingquan"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chengqi"
+                }
+            ],
+            "title": "CFOND: consensus factorization for co-clustering networked data",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Knowledge and Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hu",
+                    "given": "Ziniu"
+                },
+                {
+                    "family": "Dong",
+                    "given": "Yuxiao"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Kuansan"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Yizhou"
+                }
+            ],
+            "title": "Heterogeneous Graph Transformer",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huang",
+                    "given": "Chao"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Huance"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Yong"
+                },
+                {
+                    "family": "Dai",
+                    "given": "Peng"
+                },
+                {
+                    "family": "Xia",
+                    "given": "Lianghao"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Mengyin"
+                },
+                {
+                    "family": "Bo",
+                    "given": "Liefeng"
+                },
+                {
+                    "family": "Xing",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Lai",
+                    "given": "Xiaoping"
+                },
+                {
+                    "family": "Ye",
+                    "given": "Yanfang"
+                }
+            ],
+            "title": "Knowledge-aware Coupled Graph Neural Network for Social Recommendation",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the AAAI Conference on Artiicial Intelligence"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huang",
+                    "given": "Po-Yao"
+                },
+                {
+                    "family": "Frederking",
+                    "given": "Robert"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "RWR-GAE: Random Walk Regularization for Graph Auto Encoders",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huang",
+                    "given": "Zhichao"
+                },
+                {
+                    "family": "Ye",
+                    "given": "Yunming"
+                },
+                {
+                    "family": "Li",
+                    "given": "Xutao"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Feng"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Huajie"
+                }
+            ],
+            "title": "Joint Weighted Nonnegative Matrix Factorization for Mining Attributed Graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Advances in Knowledge Discovery and Data Mining -21st Paciic-Asia Conference, PAKDD 2017, Jeju, South Korea, May 23-26, 2017, Proceedings, Part I (Lecture Notes in Computer Science"
+            ],
+            "doi": "10.1007/978-3-319-57454-7_29",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shi",
+                    "given": "Jianbo"
+                },
+                {
+                    "family": "Malik",
+                    "given": "J."
+                }
+            ],
+            "title": "Normalized cuts and image segmentation",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+            ],
+            "doi": "10.1109/34.868688",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kamhoua",
+                    "given": "Barakeel Fanseu"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Lin"
+                },
+                {
+                    "family": "Ma",
+                    "given": "Kaili"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "James"
+                },
+                {
+                    "family": "Li",
+                    "given": "Bo"
+                },
+                {
+                    "family": "Han",
+                    "given": "Bo"
+                }
+            ],
+            "title": "HyperGraph Convolution Based Attributed HyperGraph Clustering",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 30th ACM International Conference on Information & Knowledge Management"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kipf",
+                    "given": "Thomas N."
+                },
+                {
+                    "family": "Welling",
+                    "given": "Max"
+                }
+            ],
+            "title": "Variational Graph Auto-Encoders",
+            "type": "chapter",
+            "container_title": [
+                "NIPS Workshop on Bayesian Deep Learning"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kipf",
+                    "given": "Thomas N."
+                },
+                {
+                    "family": "Welling",
+                    "given": "Max"
+                }
+            ],
+            "title": "Semi-Supervised Classiication with Graph Convolutional Networks",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Learning Representations (ICLR"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kuang",
+                    "particle": "Da"
+                },
+                {
+                    "family": "Ding",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Park",
+                    "given": "Haesun"
+                }
+            ],
+            "title": "Symmetric nonnegative matrix factorization for graph clustering",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2012 SIAM international conference on data mining. SIAM"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kumar",
+                    "given": "Tarun"
+                },
+                {
+                    "family": "Vaidyanathan",
+                    "given": "Sankaran"
+                },
+                {
+                    "family": "Ananthapadmanabhan",
+                    "given": "Harini"
+                },
+                {
+                    "family": "Parthasarathy",
+                    "given": "Srinivasan"
+                },
+                {
+                    "family": "Ravindran",
+                    "given": "Balaraman"
+                }
+            ],
+            "title": "Hypergraph Clustering: A Modularity Maximization Approach",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lee",
+                    "given": "Daniel D."
+                },
+                {
+                    "family": "Seung",
+                    "given": "H.Sebastian"
+                }
+            ],
+            "title": "Algorithms for Non-negative Matrix Factorization",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Neural Information Processing Systems 13, Papers from Neural Information Processing Systems (NIPS) 2000"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leordeanu",
+                    "given": "Marius"
+                },
+                {
+                    "family": "Sminchisescu",
+                    "given": "Cristian"
+                }
+            ],
+            "title": "Eicient Hypergraph Clustering",
+            "type": "article-journal",
+            "container_title": [
+                "AISTATS"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                },
+                {
+                    "family": "Mcauley",
+                    "given": "Julian"
+                }
+            ],
+            "title": "Learning to Discover Social Circles in Ego Networks",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Neural Information Processing Systems"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Chensheng"
+                },
+                {
+                    "family": "Qin",
+                    "given": "Xiaowei"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Xiaodong"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Dujia"
+                },
+                {
+                    "family": "Wei",
+                    "given": "Guo"
+                }
+            ],
+            "title": "Scalable Graph Convolutional Networks With Fast Localized Spectral Filter for Directed Graphs",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Access"
+            ],
+            "doi": "10.1109/ACCESS.2020.2999520",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Jianxin"
+                },
+                {
+                    "family": "Peng",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Cao",
+                    "given": "Yuwei"
+                },
+                {
+                    "family": "Dou",
+                    "given": "Yingtong"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Hekai"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Philip S."
+                },
+                {
+                    "family": "He",
+                    "given": "Lifang"
+                }
+            ],
+            "title": "Higher-Order Attribute-Enhancing Heterogeneous Graph Neural Networks",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Pan"
+                },
+                {
+                    "family": "Milenkovic",
+                    "given": "Olgica"
+                }
+            ],
+            "title": "Inhomogeneous Hypergraph Clustering with Applications",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Neural Information Processing Systems"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Q."
+                },
+                {
+                    "family": "Han",
+                    "given": "Z."
+                },
+                {
+                    "family": "Wu",
+                    "given": "X.-M."
+                }
+            ],
+            "title": "Deeper Insights into Graph Convolutional Networks for Semi-Supervised Learning",
+            "type": "paper-conference",
+            "container_title": [
+                "The Thirty-Second AAAI Conference on Artiicial Intelligence"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Xiang"
+                },
+                {
+                    "family": "Kao",
+                    "given": "Ben"
+                },
+                {
+                    "family": "Ren",
+                    "given": "Zhaochun"
+                },
+                {
+                    "family": "Yin",
+                    "given": "Dawei"
+                }
+            ],
+            "title": "Spectral Clustering in Heterogeneous Information Networks",
+            "type": "paper-conference",
+            "container_title": [
+                "The Thirty-Third AAAI Conference on Artiicial Intelligence, AAAI 2019, The Thirty-First Innovative Applications of Artiicial Intelligence Conference, IAAI 2019, The Ninth AAAI Symposium on Educational Advances in Artiicial Intelligence, EAAI 2019"
+            ],
+            "doi": "10.1609/aaai.v33i01.33014221",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lin",
+                    "given": "Zhiping"
+                },
+                {
+                    "family": "Kang",
+                    "given": "Zhao"
+                }
+            ],
+            "title": "Graph Filter-based Multi-view Attributed Graph Clustering",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Thirtieth International Joint Conference on Artiicial Intelligence, IJCAI-21",
+                "International Joint Conferences on Artiicial Intelligence Organization"
+            ],
+            "doi": "10.24963/ijcai.2021/375",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Zhiwei"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Liangwei"
+                },
+                {
+                    "family": "Fan",
+                    "given": "Ziwei"
+                },
+                {
+                    "family": "Peng",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Philip S."
+                }
+            ],
+            "title": "Federated Social Recommendation with Graph Neural Network",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Intell. Syst. Technol"
+            ],
+            "doi": "10.1145/3501815",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Luxburg",
+                    "given": "Ulrike"
+                }
+            ],
+            "title": "A Tutorial on Spectral Clustering",
+            "type": "article-journal",
+            "container_title": [
+                "Statistics and Computing"
+            ],
+            "doi": "10.1007/s11222-007-9033-z",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ma",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Hao",
+                    "given": "Jianye"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Yaodong"
+                },
+                {
+                    "family": "Li",
+                    "given": "Han"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Junqi"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Guangyong"
+                }
+            ],
+            "title": "Spectral-based Graph Convolutional Network for Directed Graphs",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MacQueen",
+                    "given": "James"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Some methods for classiication and analysis of multivariate observations",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ifth Berkeley symposium on mathematical statistics and probability"
+            ],
+            "doi": "",
+            "published_date": "1967"
+        },
+        {
+            "authors": [
+                {
+                    "family": "MacQueen",
+                    "given": "James"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Some methods for classiication and analysis of multivariate observations",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ifth Berkeley symposium on mathematical statistics and probability"
+            ],
+            "doi": "",
+            "published_date": "1967"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Malliaros",
+                    "given": "Fragkiskos D."
+                },
+                {
+                    "family": "Vazirgiannis",
+                    "given": "Michalis"
+                }
+            ],
+            "title": "Clustering and Community Detection in Directed Networks: A Survey",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McAuley",
+                    "given": "Julian J."
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Learning to Discover Social Circles in Ego Networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Advances in Neural Information Processing Systems 25: 26th Annual Conference on Neural Information Processing Systems 2012. Proceedings of a meeting held December 3-6, 2012, Lake Tahoe, Nevada, United States"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Neville",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Adler",
+                    "given": "Micah"
+                },
+                {
+                    "family": "Jensen",
+                    "given": "David"
+                }
+            ],
+            "title": "Clustering relational data using attribute and link information",
+            "type": "paper-conference",
+            "container_title": [
+                "In Proceedings of the Text Mining and Link Analysis Workshop, 18th International Joint Conference on Artiicial Intelligence"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pan",
+                    "given": "Shirui"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Ruiqi"
+                },
+                {
+                    "family": "Long",
+                    "given": "Guodong"
+                },
+                {
+                    "family": "Jiang",
+                    "given": "Jing"
+                },
+                {
+                    "family": "Yao",
+                    "given": "Lina"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chengqi"
+                }
+            ],
+            "title": "Adversarially Regularized Graph Autoencoder for Graph Embedding",
+            "type": "chapter",
+            "container_title": [
+                "IJCAI"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Perozzi",
+                    "given": "Bryan"
+                },
+                {
+                    "family": "Al-Rfou",
+                    "given": "Rami"
+                },
+                {
+                    "family": "Skiena",
+                    "given": "Steven"
+                }
+            ],
+            "title": "Deepwalk: Online learning of social representations",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Qin",
+                    "given": "Yaoyao"
+                },
+                {
+                    "family": "Jia",
+                    "given": "Caiyan"
+                },
+                {
+                    "family": "Li",
+                    "given": "Yafang"
+                }
+            ],
+            "title": "Community detection using nonnegative matrix factorization with orthogonal constraint",
+            "type": "paper-conference",
+            "container_title": [
+                "2016 Eighth International Conference on Advanced Computational Intelligence (ICACI"
+            ],
+            "doi": "10.1109/ICACI.2016.7449802",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rodriguez",
+                    "given": "J.A."
+                }
+            ],
+            "title": "On the Laplacian Eigenvalues and Metric Parameters of Hypergraphs",
+            "type": "article-journal",
+            "container_title": [
+                "Linear and Multilinear Algebra"
+            ],
+            "doi": "10.1080/03081080290011692",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sadikaj",
+                    "given": "Ylli"
+                },
+                {
+                    "family": "Velaj",
+                    "given": "Yllka"
+                },
+                {
+                    "family": "Behzadi",
+                    "given": "Sahar"
+                },
+                {
+                    "family": "Plant",
+                    "given": "Claudia"
+                }
+            ],
+            "title": "Spectral Clustering of Attributed Multi-Relational Graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (Virtual Event, Singapore"
+            ],
+            "doi": "10.1145/3447548.3467381",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Saito",
+                    "given": "Shota"
+                },
+                {
+                    "family": "Mandic",
+                    "given": "Danilo P."
+                },
+                {
+                    "family": "Suzuki",
+                    "given": "Hideyuki"
+                }
+            ],
+            "title": "Hypergraph p-Laplacian: A Diferential Geometry View",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Satuluri",
+                    "given": "Venu"
+                },
+                {
+                    "family": "Parthasarathy",
+                    "given": "Srinivasan"
+                }
+            ],
+            "title": "Symmetrizations for Clustering Directed Graphs",
+            "type": null,
+            "container_title": "",
+            "doi": "10.1145/1951365.1951407",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sengupta",
+                    "given": "Srijan"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Yuguo"
+                }
+            ],
+            "title": "SPECTRAL CLUSTERING IN HETEROGENEOUS NETWORKS",
+            "type": "article-journal",
+            "container_title": [
+                "Statistica Sinica"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shi",
+                    "given": "Jinghan"
+                },
+                {
+                    "family": "Ji",
+                    "given": "Houye"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Chuan"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xiao"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Zhiqiang"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Jun"
+                }
+            ],
+            "title": "Heterogeneous Graph Neural Network for Recommendation",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shuman",
+                    "given": "D.I."
+                },
+                {
+                    "family": "Narang",
+                    "given": "S.K."
+                },
+                {
+                    "family": "Frossard",
+                    "given": "P."
+                },
+                {
+                    "family": "Ortega",
+                    "given": "A."
+                },
+                {
+                    "family": "Vandergheynst",
+                    "given": "P."
+                }
+            ],
+            "title": "The emerging ield of signal processing on graphs: Extending high-dimensional data analysis to networks and other irregular domains",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Signal Processing Magazine"
+            ],
+            "doi": "10.1109/MSP.2012.2235192",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sun",
+                    "given": "Heli"
+                },
+                {
+                    "family": "He",
+                    "given": "Fang"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Jianbin"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Yizhou"
+                },
+                {
+                    "family": "Li",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Chenyu"
+                },
+                {
+                    "family": "He",
+                    "given": "Liang"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Zhongbin"
+                },
+                {
+                    "family": "Jia",
+                    "given": "Xiaolin"
+                }
+            ],
+            "title": "Network Embedding for Community Detection in Attributed Networks",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Knowl. Discov. Data"
+            ],
+            "doi": "10.1145/3385415",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sun",
+                    "given": "Yizhou"
+                },
+                {
+                    "family": "Han",
+                    "given": "Jiawei"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Peixiang"
+                },
+                {
+                    "family": "Yin",
+                    "given": "Zhijun"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Tianyi"
+                }
+            ],
+            "title": "RankClus: Integrating Clustering with Ranking for Heterogeneous Information Network Analysis",
+            "type": null,
+            "container_title": "",
+            "doi": "10.1145/1516360.1516426",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sun",
+                    "given": "Yizhou"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Yintao"
+                },
+                {
+                    "family": "Han",
+                    "given": "Jiawei"
+                }
+            ],
+            "title": "Ranking-based clustering of heterogeneous information networks with star network schema",
+            "type": "chapter",
+            "container_title": [
+                "Ranking-Based Clustering of Heterogeneous Information Networks with Star Network Schema"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sun",
+                    "given": "Yizhou"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Yintao"
+                },
+                {
+                    "family": "Han",
+                    "given": "Jiawei"
+                }
+            ],
+            "title": "Ranking-Based Clustering of Heterogeneous Information Networks with Star Network Schema",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "10.1145/1557019.1557107",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Takai",
+                    "given": "Yuuki"
+                },
+                {
+                    "family": "Miyauchi",
+                    "given": "Atsushi"
+                },
+                {
+                    "family": "Ikeda",
+                    "given": "Masahiro"
+                },
+                {
+                    "family": "Yoshida",
+                    "given": "Yuichi"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "10.1145/3394486.3403248",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tong",
+                    "given": "Zekun"
+                },
+                {
+                    "family": "Liang",
+                    "given": "Yuxuan"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Changsheng"
+                },
+                {
+                    "family": "Li",
+                    "given": "Xinke"
+                },
+                {
+                    "family": "Rosenblum",
+                    "given": "David"
+                },
+                {
+                    "family": "Lim",
+                    "given": "Andrew"
+                }
+            ],
+            "title": "Digraph Inception Convolutional Networks",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Neural Information Processing Systems"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Veli\u010dkovi\u0107",
+                    "given": "Petar"
+                },
+                {
+                    "family": "Cucurull",
+                    "given": "Guillem"
+                },
+                {
+                    "family": "Casanova",
+                    "given": "Arantxa"
+                },
+                {
+                    "family": "Romero",
+                    "given": "Adriana"
+                },
+                {
+                    "family": "Li\u00f2",
+                    "given": "Pietro"
+                },
+                {
+                    "family": "Bengio",
+                    "given": "Yoshua"
+                }
+            ],
+            "title": "Graph Attention Networks",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Learning Representations"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Chun"
+                },
+                {
+                    "family": "Pan",
+                    "given": "Shirui"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Ruiqi"
+                },
+                {
+                    "family": "Long",
+                    "given": "Guodong"
+                },
+                {
+                    "family": "Jiang",
+                    "given": "Jing"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chengqi"
+                }
+            ],
+            "title": "Attributed Graph Clustering: a Deep Attentional Embedding approach",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Twenty-Eighth International Joint Conference on Artiicial Intelligence",
+                "Association for the Advancement of Artiicial Intelligence (AAAI), United States of America"
+            ],
+            "doi": "10.24963/ijcai.",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Chun"
+                },
+                {
+                    "family": "Pan",
+                    "given": "Shirui"
+                },
+                {
+                    "family": "Long",
+                    "given": "Guodong"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Xingquan"
+                },
+                {
+                    "family": "Jiang",
+                    "given": "Jing"
+                }
+            ],
+            "title": "Mgae: Marginalized graph autoencoder for graph clustering",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2017 ACM on Conference on Information and Knowledge Management"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Daixin"
+                },
+                {
+                    "family": "Cui",
+                    "given": "Peng"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Wenwu"
+                }
+            ],
+            "title": "Structural Deep Network Embedding",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+                "ACM"
+            ],
+            "doi": "10.1145/2939672.2939753",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Xiao"
+                },
+                {
+                    "family": "Jin",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Cao",
+                    "given": "Xiaochun"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Liang"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Weixiong"
+                }
+            ],
+            "title": "Semantic Community Identiication in Large Attribute Networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Thirtieth AAAI Conference on Artiicial Intelligence, February 12-17, 2016"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Xiao"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Nian"
+                },
+                {
+                    "family": "Han",
+                    "given": "Hui"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Chuan"
+                }
+            ],
+            "title": "Self-supervised Heterogeneous Graph Neural Network with Co-contrastive Learning",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Whang",
+                    "given": "Joyce"
+                },
+                {
+                    "family": "Du",
+                    "given": "Rundong"
+                },
+                {
+                    "family": "Jung",
+                    "given": "Sangwon"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Geon"
+                },
+                {
+                    "family": "Drake",
+                    "given": "Barry"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Qingqing"
+                },
+                {
+                    "family": "Kang",
+                    "given": "Seonggoo"
+                },
+                {
+                    "family": "Park",
+                    "given": "Haesun"
+                }
+            ],
+            "title": "MEGA: multi-view semi-supervised clustering of hypergraphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Souza",
+                    "given": "Amauri"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Tianyi"
+                },
+                {
+                    "family": "Fifty",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Tao"
+                },
+                {
+                    "family": "Weinberger",
+                    "given": "Kilian"
+                }
+            ],
+            "title": "Simplifying Graph Convolutional Networks",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 36th International Conference on Machine Learning. PMLR"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Zonghan"
+                },
+                {
+                    "family": "Pan",
+                    "given": "Shirui"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Fengwen"
+                },
+                {
+                    "family": "Long",
+                    "given": "Guodong"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chengqi"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Philip S."
+                }
+            ],
+            "title": "A Comprehensive Survey on Graph Neural Networks",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rongkai Xia",
+                    "given": "Y.Pan"
+                },
+                {
+                    "family": "Du",
+                    "given": "Lei"
+                },
+                {
+                    "family": "Yin",
+                    "given": "J."
+                }
+            ],
+            "title": "Robust Multi-View Spectral Clustering via Low-Rank and Sparse Decomposition",
+            "type": "chapter",
+            "container_title": [
+                "AAAI"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Keyulu"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Weihua"
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                },
+                {
+                    "family": "Jegelka",
+                    "given": "Stefanie"
+                }
+            ],
+            "title": "How Powerful are Graph Neural Networks?",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Learning Representations"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Xin"
+                },
+                {
+                    "family": "Gong",
+                    "given": "Yihong"
+                }
+            ],
+            "title": "Document clustering based on non-negative matrix factorization",
+            "type": "paper-conference",
+            "container_title": [
+                "SIGIR 2003: Proceedings of the 26th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval"
+            ],
+            "doi": "10.1145/860435.860485",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zhiqiang"
+                },
+                {
+                    "family": "Ke",
+                    "given": "Yiping"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "James"
+                }
+            ],
+            "title": "A model-based approach to attributed graph clustering",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data, SIGMOD"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zhiqiang"
+                },
+                {
+                    "family": "Ke",
+                    "given": "Yiping"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "James"
+                }
+            ],
+            "title": "A model-based approach to attributed graph clustering",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the ACM SIGMOD International Conference on Management of Data, SIGMOD 2012",
+                "ACM"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zhiqiang"
+                },
+                {
+                    "family": "Ke",
+                    "given": "Yiping"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "James"
+                }
+            ],
+            "title": "GBAGC: A General Bayesian Framework for Attributed Graph Clustering",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Trans. Knowl. Discov. Data"
+            ],
+            "doi": "10.1145/2629616",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yadati",
+                    "given": "Naganand"
+                },
+                {
+                    "family": "Nimishakavi",
+                    "given": "Madhav"
+                },
+                {
+                    "family": "Yadav",
+                    "given": "Prateek"
+                },
+                {
+                    "family": "Nitin",
+                    "given": "Vikram"
+                },
+                {
+                    "family": "Louis",
+                    "given": "Anand"
+                },
+                {
+                    "family": "Talukdar",
+                    "given": "Partha"
+                }
+            ],
+            "title": "HyperGCN: A New Method For Training Graph Convolutional Networks on Hypergraphs",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Neural Information Processing Systems (NeurIPS"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Cheng"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Zhiyuan"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Deli"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Maosong"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Edward Y."
+                }
+            ],
+            "title": "Network Representation Learning with Rich Text Information",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the Twenty-Fourth International Joint Conference on Artiicial Intelligence, IJCAI 2015",
+                "Qiang Yang and Michael J"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Jaewon"
+                },
+                {
+                    "family": "McAuley",
+                    "given": "Julian J."
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Community Detection in Networks with Node Attributes",
+            "type": "article-journal",
+            "container_title": [
+                "2013 IEEE 13th International Conference on Data Mining",
+                "IEEE Computer Society"
+            ],
+            "doi": "10.1109/ICDM.2013.167",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Tianbao"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Rong"
+                },
+                {
+                    "family": "Chi",
+                    "given": "Yun"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Shenghuo"
+                }
+            ],
+            "title": "Combining Link and Content for Community Detection: A Discriminative Approach",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 15th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "10.1145/1557019.1557120",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "Xiaotong"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Han"
+                },
+                {
+                    "family": "Li",
+                    "given": "Qimai"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Xiao-Ming"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "10.24963/ijcai.2019/601",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Dengyong"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Jiayuan"
+                },
+                {
+                    "family": "Sch\u00f6lkopf",
+                    "given": "Bernhard"
+                }
+            ],
+            "title": "Learning with Hypergraphs: Clustering, Classiication, and Embedding",
+            "type": "paper-conference",
+            "container_title": [
+                "Advances in Neural Information Processing Systems 19: Proceedings of the 2006 Conference"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Dengyong"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Jiayuan"
+                },
+                {
+                    "family": "Scholkopf",
+                    "given": "Bernhard"
+                }
+            ],
+            "title": "Learning from labeled and unlabeled data on a directed graph",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 22nd international conference on Machine learning"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Cui",
+                    "given": "Ganqu"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Zhengyan"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Cheng"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Zhiyuan"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Maosong"
+                }
+            ],
+            "title": "Graph Neural Networks: A Review of Methods and Applications",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Y."
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Yu",
+                    "given": "J.X."
+                }
+            ],
+            "title": "Graph Clustering Based on Structural/Attribute Similarities",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. VLDB Endow"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jefrey Xu"
+                }
+            ],
+            "title": "Graph Clustering Based on Structural/Attribute Similarities",
+            "type": "article-journal",
+            "container_title": [
+                "Proc. VLDB Endow"
+            ],
+            "doi": "10.14778/1687627.1687709",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Hong"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jefrey Xu"
+                }
+            ],
+            "title": "Clustering Large Attributed Graphs: An Eicient Incremental Approach",
+            "type": "paper-conference",
+            "container_title": [
+                "ICDM 2010, The 10th IEEE International Conference on Data Mining"
+            ],
+            "doi": "10.1109/ICDM.2010.41",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Ling"
+                }
+            ],
+            "title": "Social Inluence Based Clustering of Heterogeneous Information Networks",
+            "type": null,
+            "container_title": "",
+            "doi": "10.1145/2487575.2487640",
+            "published_date": "2013"
+        }
+    ]
+}

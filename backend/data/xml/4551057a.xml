@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_kxTfE5G" coord="3,210.90,567.32,158.00,7.57;3,210.90,577.82,163.77,7.57;3,210.90,588.32,99.64,7.57">John Beddington is the UK government chief scientific adviser and head of the Government Office for Science in London</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,42.52,191.84,62.51,8.46"><forename type="first">John</forename><surname>Beddington</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,110.81,191.84,53.00,8.46"><forename type="first">Cary</forename><forename type="middle">L</forename><surname>Cooper</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,169.53,191.84,18.28,8.46;1,42.52,202.34,17.42,8.46"><forename type="first">John</forename><surname>Field</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,64.93,202.34,54.61,8.46"><forename type="first">Usha</forename><surname>Goswami</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,125.80,202.34,66.57,8.46"><forename type="first">Felicia</forename><forename type="middle">A</forename><surname>Huppert</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,42.52,212.84,55.06,8.46"><forename type="first">Rachel</forename><surname>Jenkins</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,103.02,212.84,60.83,8.46"><forename type="first">Hannah</forename><forename type="middle">S</forename><surname>Jones</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,169.45,212.84,30.54,8.46;1,42.52,223.34,34.85,8.46"><forename type="first">Tom</forename><forename type="middle">B L</forename><surname>Kirkwood</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,83.23,223.34,74.99,8.46"><forename type="first">Barbara</forename><forename type="middle">J</forename><surname>Sahakian</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,175.57,223.34,23.93,8.46;1,42.52,233.84,42.90,8.46"><forename type="first">Sandy</forename><forename type="middle">M</forename><surname>Thomas</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Lancaster University</note>
+								<orgName type="institution">Lancaster University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Centre for Research in Lifelong Learning, Stirling</note>
+								<orgName type="department">Centre for Research in Lifelong Learning</orgName>
+								<address>
+									<settlement>Stirling</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Institute of Education, University of Stirling</note>
+								<orgName type="department">Institute of Education</orgName>
+								<orgName type="institution">University of Stirling</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">University of Cambridge</note>
+								<orgName type="institution">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<note type="raw_affiliation">University of Cambridge</note>
+								<orgName type="institution">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<note type="raw_affiliation">Institute of Psychiatry, King&apos;s College London,</note>
+								<orgName type="department">Institute of Psychiatry</orgName>
+								<orgName type="institution">King&apos;s College London</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<note type="raw_affiliation">Institute for Ageing and Health, Newcastle University</note>
+								<orgName type="department">Institute for Ageing and Health</orgName>
+								<orgName type="institution">Newcastle University</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<note type="raw_affiliation">neuropsychology, University of Cambridge</note>
+								<orgName type="institution" key="instit1">neuropsychology</orgName>
+								<orgName type="institution" key="instit2">University of Cambridge</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_45DTN6Y" coord="3,210.90,567.32,158.00,7.57;3,210.90,577.82,163.77,7.57;3,210.90,588.32,99.64,7.57">John Beddington is the UK government chief scientific adviser and head of the Government Office for Science in London</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0A68398CEDAD99F09E7F9EDDB2E43092</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="1190.55" lry="782.362"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="782.362"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_ukzXvfV"><p xml:id="_GbpPsw7"><s xml:id="_bDzBnCy" coords="1,42.52,252.13,164.82,9.40;1,42.52,262.63,164.85,9.40;1,42.52,273.13,165.06,9.40">To prosper and flourish in a rapidly changing world, we must make the most of all our resources -both mental and material.</s><s xml:id="_UvQ4WXe" coords="1,42.52,283.63,164.90,9.40;1,42.52,294.13,164.98,9.40;1,42.52,304.63,98.44,9.40">Globalization and its associated demands for competitiveness are increasing the pressures in our working lives.</s><s xml:id="_ZfDwpRn" coords="1,143.03,304.63,64.41,9.40;1,42.52,315.13,164.95,9.40;1,42.52,325.63,164.95,9.40;1,42.52,336.13,111.44,9.40">Added to this are the demands from evolving family structures and increased care responsibilities, both for children and for older relatives.</s><s xml:id="_u4Vzr9g" coords="1,155.64,336.13,51.97,9.40;1,42.52,346.63,164.83,9.40;1,42.52,357.13,164.89,9.40;1,42.52,367.63,165.06,9.40;1,42.52,378.13,35.57,9.40">And increased life expectancy in most industrialized nations means that ever greater numbers of people will be at risk of degenerative disorders in older age.</s></p><p xml:id="_RJBfBex"><s xml:id="_pdWyZsR" coords="1,51.02,388.63,156.39,9.40;1,42.52,399.13,165.00,9.40;1,42.52,409.63,164.87,9.40;1,42.52,420.13,126.60,9.40">The UK Government Office for Science is this week announcing the findings of a peer-reviewed study: the Foresight Project on Mental Capital and Wellbeing.</s><s xml:id="_tqyyHBG" coords="1,171.04,420.13,36.60,9.40;1,219.40,189.13,164.92,9.40;1,219.40,199.63,164.89,9.40;1,219.40,210.13,123.62,9.40">This used state-of-the-art scientific and other evidence to investigate the challenges and opportunities that lie ahead in the next 20 years.</s><s xml:id="_FMQT5rp" coords="1,344.77,210.13,39.72,9.40;1,219.40,220.63,164.98,9.40;1,219.40,231.13,165.00,9.40;1,219.40,241.63,143.84,9.40">The report provides an independent assessment that is intended to inform policy-makers both in the United Kingdom and around the world.</s></p><p xml:id="_4rpJfk5"><s xml:id="_dcQtvaN" coords="1,227.91,252.13,156.59,9.40;1,219.40,262.63,164.97,9.40;1,219.40,273.13,55.24,9.40">The project tracks the implications of future challenges to our mental development from cradle to grave.</s><s xml:id="_ZTbY3D2" coords="1,276.34,273.13,107.91,9.40;1,219.40,283.63,165.06,9.40;1,219.40,294.13,165.11,9.40;1,219.40,304.63,50.66,9.40">Taking two years to complete, it has involved more than 450 experts and stakeholders from many disciplines and from 16 countries.</s><s xml:id="_7ayaBGB" coords="1,272.58,304.63,111.92,9.40;1,219.40,315.13,164.98,9.40;1,219.40,325.63,165.08,9.40;1,219.40,336.13,164.97,9.40;1,219.40,346.63,144.15,9.40">Eighty peer-reviewed papers summarize the latest evidence, and international workshops have brought together experts and policy-makers to discuss what could be done to address the challenges.</s></p><p xml:id="_Wb8ky6q"><s xml:id="_QVby6uN" coords="1,227.91,357.13,156.58,9.40;1,219.40,367.63,164.98,9.40;1,219.40,378.13,164.85,9.40;1,219.40,388.63,84.51,9.40">Although our project focused on the United Kingdom, the challenges of depression, dementia, learning difficulties and mental ill-health are evident worldwide.</s><s xml:id="_9qCdxwQ" coords="1,305.70,388.63,78.59,9.40;1,219.40,399.13,165.09,9.40;1,219.40,409.63,165.08,9.40">The project therefore has far-reaching implications for the course of an individual's life, for societies and for nations.</s><s xml:id="_Hxt238Y" coords="1,219.40,420.13,164.96,9.40;1,219.40,430.63,164.98,9.40;1,219.40,441.13,165.04,9.40;1,219.40,451.63,18.04,9.40">Five reports synthesize the evidence base; and a final report sets out the overall findings and options for policy, which are summarized here.</s><s xml:id="_hVkhXdH" coords="1,239.07,451.63,145.32,9.40">All reports are available at http://tinyurl.</s><s xml:id="_DCUNBHR" coords="1,219.40,462.13,52.12,9.40">com/49jonm.</s><s xml:id="_DuU7uBT" coords="1,273.82,462.13,110.58,9.40;1,219.40,472.63,32.32,9.40">Box 1 shows some of the key findings.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_eKsd3Tq">Defining mental capital</head><p xml:id="_j84mXTu"><s xml:id="_SHU9CTB" coords="1,219.40,504.13,164.92,9.40;1,219.40,514.63,164.95,9.40;1,219.40,525.13,40.99,9.40">The project looked at two main aspects of mental development: mental capital and mental well-being.</s><s xml:id="_WEbyu3v" coords="1,262.30,525.13,122.03,9.40;1,219.40,535.63,125.63,9.40">Mental capital encompasses both cognitive and emotional resources.</s><s xml:id="_Sue8ZMZ" coords="1,346.81,535.63,37.55,9.40;1,219.40,546.13,165.06,9.40;1,219.40,556.63,164.90,9.40;1,219.40,567.13,165.03,9.40;1,219.40,577.63,45.84,9.40">It includes people's cognitive ability; their flexibility and efficiency at learning; and their 'emotional intelligence' , or social skills and resilience in the face of stress.</s><s xml:id="_tHsPyWh" coords="1,266.77,577.63,117.61,9.40;1,219.40,588.13,164.81,9.40;1,219.40,598.63,164.98,9.40;1,219.40,609.13,151.26,9.40">The term therefore captures a key dimension of the elements that establish how well an individual is able to contribute to society and to experience a high quality of life.</s></p><p xml:id="_6u9dEd4"><s xml:id="_MbjEk34" coords="1,227.91,619.63,156.45,9.40;1,219.40,630.13,165.08,9.40;1,219.40,640.63,165.07,9.40;1,219.40,651.13,164.98,9.40;1,219.40,661.63,164.94,9.40;1,219.40,672.13,44.18,9.40">Mental well-being, on the other hand, is a dynamic state that refers to individuals' ability to develop their potential, work productively and creatively, build strong and positive relationships with others and contribute to their community.</s></p><p xml:id="_RMMZMxu"><s xml:id="_ewRqwWC" coords="1,227.91,682.63,156.49,9.40;1,219.40,693.13,164.98,9.40;1,219.40,703.63,94.85,9.40">However, the two concepts are intimately linked both throughout life and across different areas of the project.</s><s xml:id="_VRsQ78v" coords="1,315.99,703.63,68.52,9.40;1,219.40,714.13,164.82,9.40;1,219.40,724.63,165.12,9.40;1,219.40,735.13,164.88,9.40;1,219.40,745.63,164.84,9.40;1,396.28,189.13,164.83,9.40;1,396.28,199.63,101.95,9.40">Positive emotional states or a generally positive approach to life are associated with greater curiosity, more flexible thinking and a greater openness to learning, and these qualities are particularly important during the development of mental capital in childhood and adolescence.</s><s xml:id="_MMawvuM" coords="1,499.96,199.63,61.24,9.40;1,396.28,210.13,164.86,9.40;1,396.28,220.63,117.96,9.40">Early learning in children can increase their resilience to stress and common mental disorders.</s><s xml:id="_qdc86ad" coords="1,516.14,220.63,45.03,9.40;1,396.28,231.13,164.94,9.40;1,396.28,241.63,89.41,9.40">Later in life, this resilience helps to engender well-being at work and into old age.</s><s xml:id="_VRmcatB" coords="1,487.42,241.63,73.84,9.40;1,396.28,252.13,164.95,9.40;1,396.28,262.63,165.01,9.40;1,396.28,273.13,164.98,9.40;1,396.28,283.63,164.98,9.40;1,396.28,294.13,133.26,9.40;1,529.48,292.60,2.68,5.64;1,532.13,294.13,2.12,9.40">And older individuals who report higher levels of well-being also have better cognitive function, even when adjustment has been made for other possible explanatory factors, such as socio-demographic variables, health and lifestyle <ref type="bibr" coords="1,529.48,292.60,2.68,5.64" target="#b0">1</ref> .</s></p><p xml:id="_2SwEY5K"><s xml:id="_h5rxc3g" coords="1,404.79,304.63,156.61,9.40;1,396.28,315.13,164.95,9.40;1,396.28,325.63,164.98,9.40;1,396.28,336.13,164.99,9.40;1,396.28,346.63,164.78,9.40">Thus, how a nation develops and uses its mental capital not only has a significant effect on its economic competitiveness and prosperity, it is also important for mental health and well-being and social cohesion and inclusion.</s><s xml:id="_Ggu2esd" coords="1,396.28,357.13,165.11,9.40;1,396.28,367.63,164.94,9.40;1,396.28,378.13,164.93,9.40;1,396.28,388.63,88.24,9.40">Because they are so closely linked, mental health and well-being should both therefore be considered when developing policies and designing interventions.</s></p><p xml:id="_NHSh35c"><s xml:id="_67CgHjy" coords="1,404.79,399.13,156.56,9.40;1,396.28,409.63,164.85,9.40;1,396.28,420.13,51.51,9.40">The project comprised two key stages: understanding the evidence and identifying ways forward.</s><s xml:id="_JdhT8xD" coords="1,449.55,420.13,111.83,9.40;1,396.28,430.63,164.83,9.40;1,396.28,441.13,164.95,9.40;1,396.28,451.63,124.49,9.40">Three particular areas of focus were: childhood development; mental health and well-being at work; and making the most of cognitive resources in older age.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_w8mAf5D">Progression through life</head><p xml:id="_8qX2zw7"><s xml:id="_qXhK4yC" coords="1,396.28,483.13,164.83,9.40;1,396.28,493.63,165.07,9.40;1,396.28,504.13,164.85,9.40;1,396.28,514.63,164.98,9.40;1,396.28,525.13,105.74,9.40;1,502.09,523.60,2.68,5.64;1,504.75,525.13,2.13,9.40">Evidence on childhood learning difficulties shows that, left untreated, very small initial differences in the sensory processing systems used by the brain in learning can lead to significant problems later in life <ref type="bibr" coords="1,502.09,523.60,2.68,5.64" target="#b1">2</ref> .</s><s xml:id="_2aeufDt" coords="1,508.80,525.13,52.46,9.40;1,396.28,535.63,165.08,9.40;1,396.28,546.13,164.88,9.40;1,396.28,556.63,164.87,9.40;1,396.28,567.13,78.01,9.40">Subtle impairments in auditory processing, for example, can give rise to developmental dyslexia, which can have significant negative effects on a person's passage through life.</s><s xml:id="_Fnj5DSd" coords="1,476.48,567.13,84.78,9.40;1,396.28,577.63,164.94,9.40;1,396.28,588.13,164.98,9.40;1,396.28,598.63,109.71,9.40">More over, the interactive nature of the developing brain means that a problem in one sensory area can affect development in other areas.</s><s xml:id="_xFBCsPX" coords="1,508.74,598.63,52.52,9.40;1,396.28,609.13,164.98,9.40;1,396.28,619.63,16.21,9.40">By late childhood it can be hard to identify the core problem.</s><s xml:id="_zvF4tyb" coords="1,414.50,619.63,146.72,9.40;1,396.28,630.13,164.79,9.40;1,396.28,640.63,164.97,9.40;1,396.28,651.13,165.09,9.40;1,396.28,661.63,117.20,9.40">The cognitive problems experienced by a child with a learning difficulty can lead to poor self-esteem, or to frustration that results in the child disengaging from learning and lacking the motivation to learn.</s><s xml:id="_NCmw3nb" coords="1,515.49,661.63,45.70,9.40;1,396.28,672.13,164.89,9.40;1,396.28,682.63,165.01,9.40;1,396.28,693.13,109.54,9.40">If a problem is identified later in life, it is often harder for an individual to realize the full potential of their mental capital and well-being.</s></p><p xml:id="_E3q2XrR"><s xml:id="_PVcRkmj" coords="1,404.79,703.63,156.57,9.40;1,396.28,714.13,159.99,9.40;1,556.40,712.60,2.72,5.64;1,559.11,714.13,2.15,9.40;1,396.28,724.63,164.89,9.40;1,396.28,735.13,164.83,9.40;1,396.28,745.63,153.99,9.40">The brain undergoes significant structural and functional changes during adolescence 3 : the formation of new synapses peaks at around 9-12 years, followed by some 'pruning' of synapses that are surplus or underused.</s><s xml:id="_NYzbPCd" coords="1,552.72,745.63,8.40,9.40">In</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_fQunfDx">The mental wealth of nations</head><p xml:id="_dwdBq4r"><s xml:id="_d5UJPmt" coords="1,42.52,149.02,503.51,10.68;1,42.52,163.52,129.10,10.68">Countries must learn how to capitalize on their citizens' cognitive resources if they are to prosper, both economically and socially.</s><s xml:id="_qMe9zKX" coords="1,173.55,163.52,149.56,10.68">Early interventions will be key.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_QgPGpX4">Box 1 | Key findings</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_EgNSAGY">• Boosting brain power in young and old</head><p xml:id="_pSdYCAG"><s xml:id="_UyBAHJQ" coords="1,47.77,459.81,116.00,7.56;1,47.77,469.81,137.98,7.56;1,47.77,479.81,47.87,7.56">There is huge scope for improving mental capital through different types of intervention.</s><s xml:id="_zDZjCkm" coords="1,95.64,479.81,82.07,7.56;1,47.77,489.81,129.66,7.56;1,47.77,499.81,129.40,7.56;1,47.77,509.81,77.03,7.57">The genetic contribution to mental capital is well below 50% in childhood, rising to more than 60% in adulthood and old age.</s></p><p xml:id="_NgSgtSH"><s xml:id="_4MHGr4y" coords="1,47.77,529.81,148.21,7.57;1,47.77,539.81,154.68,7.57;1,47.77,549.81,156.18,7.57;1,47.77,559.81,138.93,7.57">• What science could do in the early years Cognitive neuroscience is already uncovering neural markers, or biomarkers, that can reveal learning difficulties as early as in infancy.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_kDFPptz">• Early detection of mental disorders</head><p xml:id="_gj99gPy"><s xml:id="_fUARQkq" coords="1,47.77,589.81,143.11,7.57;1,47.77,599.81,54.76,7.57">The challenge of tackling mental ill-health is considerable.</s><s xml:id="_ecUYSxT" coords="1,102.53,599.81,86.97,7.57;1,47.77,609.81,144.30,7.57;1,47.77,619.81,145.20,7.57">There is great potential in improving diagnosis and treatment, and in addressing social risk factors such as debt.</s></p><p xml:id="_gyvXw47"><s xml:id="_Jv6aazr" coords="1,47.77,639.81,144.65,7.57;1,47.77,649.81,154.38,7.57;1,47.77,659.81,153.61,7.57;1,47.77,669.81,115.91,7.57">• Learning must continue throughout life This can have a direct effect on mental health and well-being across all age groups, and has particular promise in older people.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_qdmwvXs">• Changing needs for a changing workplace</head><p xml:id="_Uv7CHhX"><s xml:id="_eepZhbA" coords="1,47.77,699.81,115.73,7.57;1,47.77,709.81,153.24,7.57;1,47.77,719.81,13.60,7.57">The workforce is changing both in demographics and in the demands placed on it.</s><s xml:id="_hU8VCbN" coords="1,61.37,719.81,142.80,7.57;1,47.77,729.81,132.63,7.57;1,47.77,739.81,143.45,7.57">Workers' mental well-being is an important factor when attempting to improve the mental capital of economies and societies.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_ksyhSAx">Waste of mental capital</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_kqaqeZr">Social exclusion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_96fbjmQ">Mental capital</head><p xml:id="_f7MBgke"><s xml:id="_WwUtKFr" coords="2,630.94,398.13,30.71,7.12;2,623.58,407.73,45.50,7.12">Drug and alcohol abuse</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_P4jZUJs">Life course</head><p xml:id="_CszjjX5"><s xml:id="_A5yCZwP" coords="2,242.81,488.52,37.87,7.12;2,246.61,497.52,30.27,7.12">Early stress exposure</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_Jey5rXc">Childhood trauma</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_2dXVePC">Cognitive resilience and coping skills Cognitive reserve</head><p xml:id="_BmJRz8J"><s xml:id="_6nENxVh" coords="2,72.41,653.56,26.31,7.77;2,64.66,662.56,41.84,7.77">Genetic endowment</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_t55jvRG">• Executive function • Social cognition • Self-esteem • Literacy and numeracy</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_vA5vxES">Supportive teaching and education</head><p xml:id="_N3ASxAu"><s xml:id="_8ysmHqN" coords="2,928.59,431.21,39.44,7.12;2,926.23,439.70,44.14,7.12;2,916.36,448.20,63.86,7.12;2,138.21,617.35,18.56,8.10;2,121.74,628.15,51.50,8.10;2,34.02,52.63,165.04,9.40;2,34.02,63.13,165.08,9.40;2,34.02,73.63,164.89,9.40;2,34.02,84.13,164.98,9.40;2,34.02,94.63,28.82,9.40">Age-related cognitive and physical challenges Fetal programming addition, adolescents go through significant emotional, hormonal and behavioural adjustment, and are particularly prone to risk-taking behaviour, such as drug and alcohol use.</s><s xml:id="_yTk3dkA" coords="2,64.70,94.63,134.38,9.40;2,34.02,105.13,164.92,9.40;2,34.02,115.63,18.60,9.40;2,52.60,114.10,2.71,5.64;2,55.29,115.63,87.71,9.40">As the brain is still developing, such behaviour is particularly injurious to it at this stage <ref type="bibr" coords="2,52.60,114.10,2.71,5.64" target="#b2">3</ref> , with long-term effects.</s><s xml:id="_MVHQ2M2" coords="2,144.76,115.63,54.14,9.40;2,34.02,126.13,164.91,9.40;2,34.02,136.63,165.02,9.40;2,34.02,147.13,164.90,9.40;2,34.02,157.63,165.06,9.40;2,34.02,168.13,69.45,9.40">Neuroimaging and neuropsychological studies indicate that substance use during adolescence is associated with neural disadvantages, particularly in the networks involved in learning, attention and executive function.</s></p><p xml:id="_HkUFPf2"><s xml:id="_ZrZwh3U" coords="2,42.52,178.63,156.51,9.40;2,34.02,189.13,143.66,9.40">To help address these issues, the report came up with three main recommendations.</s><s xml:id="_nm5Mxcw" coords="2,179.48,189.13,19.44,9.40;2,34.02,199.63,165.05,9.40;2,34.02,210.13,165.10,9.40;2,34.02,220.63,164.98,9.40;2,34.02,231.13,63.20,9.40">First, training should be available for parents and teachers about issues in child development and how to help children who have learning difficulties to flourish.</s><s xml:id="_nH4EKJE" coords="2,98.60,231.13,100.41,9.40;2,34.02,241.63,164.98,9.40;2,34.02,252.13,137.29,9.40">In addition, a higher priority needs to be placed on supporting children with these difficulties, as well as their carers.</s><s xml:id="_tdaFHtT" coords="2,172.72,252.13,26.16,9.40;2,34.02,262.63,165.07,9.40;2,34.02,273.13,164.98,9.40;2,34.02,283.63,164.80,9.40;2,210.90,52.63,127.52,9.40">Finally, more emphasis needs to be placed on early identification and treatment of intrinsic learning difficulties such as dyslexia and dyscalculia -essentially dyslexia for numbers.</s></p><p xml:id="_A3NqVwq"><s xml:id="_Dv4rwRP" coords="2,219.40,63.13,156.48,9.40;2,210.90,73.63,165.04,9.40">Much more can be done to improve mental well-being as children develop into adults.</s><s xml:id="_kbn66Y3" coords="2,210.90,84.13,164.86,9.40;2,210.90,94.63,164.98,9.40;2,210.90,105.13,164.93,9.40;2,210.90,115.63,165.07,9.40;2,210.90,126.13,61.40,9.40">Occupational professionals should be closely integrated with primary-care givers, and workplaces can promote mental health through well-being audits and widespread availability of flexible working.</s><s xml:id="_SuEGSqC" coords="2,274.02,126.13,101.98,9.40;2,210.90,136.63,165.06,9.40;2,210.90,147.13,165.04,9.40;2,210.90,157.63,88.71,9.40">In addition, demand should be stimulated for continued learning in both individuals and employers by raising awareness and providing incentives.</s><s xml:id="_C49B6JF" coords="2,300.96,157.63,74.91,9.40;2,210.90,168.13,164.79,9.40;2,210.90,178.63,88.12,9.40">New technologies are also available and constantly being developed to personalize learning.</s><s xml:id="_A6zMz2a" coords="2,300.84,178.63,75.18,9.40;2,210.90,189.13,164.97,9.40;2,210.90,199.63,164.86,9.40;2,210.90,210.13,91.90,9.40">For adults who have problems with depression and alcohol use, for instance, use of best-practice treatments should become more widespread.</s><s xml:id="_C5WJpH6" coords="2,304.15,210.13,71.66,9.40;2,210.90,220.63,165.00,9.40;2,210.90,231.13,164.98,9.40;2,210.90,241.63,164.98,9.40;2,210.90,252.13,84.74,9.40">Treatments for these and other problems should encompass social support (such as working with financial advisers to help reduce debt) and address the underlying social risk factors.</s></p><p xml:id="_xwQBCsU"><s xml:id="_wmp3SKt" coords="2,219.40,262.63,156.47,9.40;2,210.90,273.13,164.99,9.40;2,210.90,283.63,164.91,9.40;2,387.78,52.63,66.02,9.40">As people move into older age, learning should continue to be promoted and actively encouraged, as this can protect against cognitive decline.</s><s xml:id="_A6msehP" coords="2,455.69,52.63,97.07,9.40;2,387.78,63.13,164.98,9.40;2,387.78,73.63,165.08,9.40;2,387.78,84.13,52.12,9.40">In particular, information technology has an important role in helping people to overcome the memory effects of dementias.</s><s xml:id="_DbQpehy" coords="2,442.24,84.13,110.61,9.40;2,387.78,94.63,164.96,9.40;2,387.78,105.13,113.46,9.40">Governments should also be encouraged to enable and empower people to work longer if they so wish.</s><s xml:id="_z988HPN" coords="2,503.22,105.13,49.45,9.40;2,387.78,115.63,165.12,9.40;2,387.78,126.13,88.43,9.40">Older people should also be involved in making these and other policy decisions.</s><s xml:id="_SMga5mQ" coords="2,478.72,126.13,74.11,9.40;2,387.78,136.63,165.06,9.40;2,387.78,147.13,127.36,9.40">In addition, efforts should be made to tackle the negative social stereotypes associated with old age.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_tfPxa7d">Biological basis</head><p xml:id="_Ez7JakM"><s xml:id="_nqaBtR2" coords="2,387.78,178.63,164.82,9.40;2,387.78,189.13,165.01,9.40;2,387.78,199.63,136.67,9.40">As in the case of learning difficulties, mental illnesses should also be a particular target for early identification and prompt action.</s><s xml:id="_4zpTDse" coords="2,526.05,199.63,26.62,9.40;2,387.78,210.13,165.03,9.40;2,387.78,220.63,165.08,9.40;2,387.78,231.13,83.89,9.40">Neural, genetic and cognitive biomarkers can play an important part in the early identification of many of these diseases.</s></p><p xml:id="_GWhdzA6"><s xml:id="_gh5rhgU" coords="2,396.28,241.63,156.59,9.40;2,387.78,252.13,121.66,9.40">Alzheimer's disease, for example, accounts for about 60% of all dementia cases.</s><s xml:id="_5x9nBZv" coords="2,510.64,252.13,42.16,9.40;2,387.78,262.63,165.08,9.40;2,387.78,273.13,164.94,9.40;2,387.78,283.63,126.50,9.40;2,514.37,282.10,2.73,5.64;2,517.19,283.63,2.16,9.40">The plaques and neurofibrillary tangles that characterize the disease begin to form many years before any clinical signs start to appear <ref type="bibr" coords="2,514.37,282.10,2.73,5.64" target="#b3">4</ref> .</s><s xml:id="_xQQ5vY8" coords="2,521.91,283.63,30.86,9.40;2,637.80,52.63,111.86,9.40">A range of biomarkers already exists.</s><s xml:id="_kwkfHKh" coords="2,752.18,52.63,50.54,9.40;2,637.80,63.13,164.96,9.40;2,637.80,73.63,165.02,9.40;2,637.80,84.13,165.09,9.40;2,637.80,94.63,121.95,9.40;2,759.69,93.10,2.68,5.64;2,762.34,94.63,2.12,9.40">For instance, altered levels of proteins such as tau protein and Aβ42 (a pathogenic form of amyloid) in cerebrospinal fluid can identify patients in the early stages of Alzheimer's disease <ref type="bibr" coords="2,759.69,93.10,2.68,5.64" target="#b4">5</ref> .</s><s xml:id="_GpnQpYP" coords="2,765.94,94.63,36.83,9.40;2,637.80,105.13,165.07,9.40;2,637.80,115.63,164.99,9.40;2,637.80,126.13,164.92,9.40;2,637.80,136.63,156.04,9.40;2,793.92,135.10,6.70,5.64;2,800.62,136.63,2.15,9.40">Structural magnetic resonance imaging (MRI) can also be used to measure brain atrophy, particularly in regions that are affected in Alzheimer's, such as the entorhinal cortex and hippocampus <ref type="bibr" coords="2,793.92,135.10,4.47,5.64" target="#b5">6,</ref><ref type="bibr" coords="2,798.39,135.10,2.23,5.64" target="#b6">7</ref> .</s><s xml:id="_2eDsKwj" coords="2,637.80,147.13,164.80,9.40;2,637.80,157.63,164.97,9.40;2,637.80,168.13,164.95,9.40;2,637.80,178.63,9.66,9.40">Genes have also been shown to play a part in the development of the disease, particularly the E4 variant of the apo lipo protein E (refs 8,  9).</s><s xml:id="_qyz4Frm" coords="2,648.93,178.63,153.72,9.40;2,637.80,189.13,165.06,9.40;2,637.80,199.63,165.08,9.40;2,637.80,210.13,165.03,9.40;2,637.80,220.63,165.03,9.40;2,637.80,231.13,89.05,9.40">Furthermore, new insights into underlying mechanisms, coupled with the use of more selective cohorts in clinical trials (see below), will be essential in the development of effective drugs, including those to enhance cognition or for neuroprotection.</s><s xml:id="_JreY4ES" coords="2,729.05,231.13,73.80,9.40;2,637.80,241.63,164.99,9.40;2,637.80,252.13,165.01,9.40;2,637.80,262.63,46.94,9.40">This will also allow patients to be diagnosed earlier, allowing them to seek treatment and support, and plan for their futures.</s></p><p xml:id="_yV54x9h"><s xml:id="_5s7mdff" coords="2,646.30,273.13,156.57,9.40;2,637.80,283.63,165.06,9.40;2,814.68,52.63,89.98,9.40">Mechanistic studies coupled with novel biomarkers could also be important in the treatment of depression.</s><s xml:id="_Jnx3ayr" coords="2,906.44,52.63,73.29,9.40;2,814.68,63.13,165.06,9.40;2,814.68,73.63,164.89,9.40;2,814.68,84.13,59.27,9.40">One effective way is to measure brain activity in the left amygdala and ventromedial prefrontal cortex using functional MRI.</s><s xml:id="_5ysSjhf" coords="2,875.68,84.13,103.91,9.40;2,814.68,94.63,164.86,9.40;2,814.68,105.13,164.84,9.40;2,814.68,115.63,80.39,9.40;2,895.03,114.10,5.22,5.64;2,900.21,115.63,79.39,9.40;2,814.68,126.13,92.12,9.40">By monitoring brain activity in response to being shown happy or sad faces, researchers can differentiate between unipolar and bipolar depression <ref type="bibr" coords="2,895.03,114.10,5.22,5.64" target="#b9">10</ref> , disorders that require very different treatments.</s></p><p xml:id="_Jcad4Q3"><s xml:id="_CDg3mtY" coords="2,823.18,136.63,156.38,9.40;2,814.68,147.13,164.97,9.40;2,814.68,157.63,165.05,9.40;2,814.68,168.13,101.04,9.40;2,915.67,166.60,11.87,5.64;2,927.51,168.13,2.12,9.40">Similarly, differences in the subgenual anterior cingulate identified by structural and functional neuroimaging can predict the likely responsiveness to treatment <ref type="bibr" coords="2,915.67,166.60,7.12,5.64" target="#b10">11,</ref><ref type="bibr" coords="2,922.79,166.60,4.75,5.64" target="#b11">12</ref> .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_GncsCB5">Implications for future research</head><p xml:id="_NM8uebY"><s xml:id="_AUGT5cc" coords="2,814.68,199.63,164.97,9.40;2,814.68,210.13,164.85,9.40;2,814.68,220.63,136.24,9.40">Future research will be key to improving both mental capital and mental well-being, as well as diagnosis and treatment of disease.</s></p><p xml:id="_f6TweQB"><s xml:id="_KJJxbsA" coords="2,823.18,231.13,156.47,9.40;2,814.68,241.63,165.11,9.40;2,814.68,252.13,164.88,9.40;2,814.68,262.63,164.88,9.40;2,814.68,273.13,115.10,9.40">One strategy for identifying complex combinations of risk factors and for validating potential biomarkers of learning difficulties, dementia and depression is the development of large, publicly available cohorts.</s><s xml:id="_PkcEutX" coords="2,931.27,273.13,48.38,9.40;2,814.68,283.63,165.08,9.40;2,991.56,52.63,165.04,9.40;2,991.56,63.13,67.14,9.40">Cohorts containing tens of thousands of people have helped to identify susceptibility genes in diseases such as type 2 diabetes.</s><s xml:id="_AQBSJpK" coords="2,1060.53,63.13,96.04,9.40;2,991.56,73.63,164.98,9.40;2,991.56,84.13,165.02,9.40;2,991.56,94.63,76.63,9.40">In much the same way, an international collaboration to generate similar cohorts for various mental illnesses could prove very valuable.</s><s xml:id="_QThdfTx" coords="2,1070.38,94.63,86.11,9.40;2,991.56,105.13,164.83,9.40;2,991.56,115.63,34.79,9.40">Large public-privately funded consortia could play an important part here.</s></p><p xml:id="_g8CbvFZ"><s xml:id="_vdVRJJb" coords="2,1000.06,126.13,156.31,9.40;2,991.56,136.63,46.43,9.40">The challenge also extends to the research community.</s><s xml:id="_DUQ2Kjx" coords="2,1040.31,136.63,116.06,9.40;2,991.56,147.13,164.85,9.40;2,991.56,157.63,165.12,9.40;2,991.56,168.13,81.15,9.40">Research is needed to identify factors that directly affect our mental capital and well-being, as well as those that are merely associated with them.</s><s xml:id="_fceY9k7" coords="2,1074.56,168.13,81.97,9.40;2,991.56,178.63,164.97,9.40;2,991.56,189.13,164.90,9.40;2,991.56,199.63,164.98,9.40;2,991.56,210.13,80.32,9.40">To deepen our understanding of causes and effects, multidisciplinary longitudinal studies involving genetics, neuroscience, social risk factors and behaviour will be required.</s><s xml:id="_64Kk9ta" coords="2,1074.00,210.13,82.41,9.40;2,991.56,220.63,164.95,9.40;2,991.56,231.13,164.98,9.40;2,991.56,241.63,119.58,9.40;2,1111.10,240.10,5.42,5.64;2,1116.50,241.63,34.65,9.40;2,1151.12,240.10,5.42,5.64;2,991.56,252.13,31.62,9.40;2,1023.12,250.60,5.33,5.64;2,1028.42,252.13,2.12,9.40">For instance, we need to explore the underlying neuroscientific basis of the strong associations between mental disorders and lone parenting <ref type="bibr" coords="2,1111.10,240.10,5.42,5.64" target="#b12">13</ref> , bullying <ref type="bibr" coords="2,1151.12,240.10,5.42,5.64" target="#b13">14</ref> and debt <ref type="bibr" coords="2,1023.12,250.60,5.33,5.64" target="#b14">15</ref> .</s></p><p xml:id="_H3EerUS"><s xml:id="_TK8pGRA" coords="2,1000.06,262.63,156.52,9.40;2,991.56,273.13,164.97,9.40;2,991.56,283.63,165.05,9.40;3,42.52,157.63,156.33,9.40;3,34.02,168.13,164.94,9.40;3,34.02,178.63,79.32,9.40">Significant gaps also exist in medications for the treatment of mental disorders, particularly antipsychotics, antidepressants, Behavioural and other non-pharmaceutical interventions for improving well-being also need to be developed.</s><s xml:id="_Jm6n3nJ" coords="3,115.06,178.63,83.86,9.40;3,34.02,189.13,164.87,9.40;3,34.02,199.63,164.94,9.40;3,34.02,210.13,165.04,9.40;3,34.02,220.63,145.22,9.40">This would encompass the treatment of people affected and prevention of the disorders in high-risk groups, as well as the enhancement of mental capital and wellbeing for all members of the population.</s></p><p xml:id="_H9NGSuH"><s xml:id="_n4xExsM" coords="3,42.52,231.13,156.51,9.40;3,34.02,241.63,164.98,9.40;3,34.02,252.13,141.75,9.40">A range of skills and behaviours is crucial in empowering people to develop and maintain their mental capital and well-being.</s><s xml:id="_EbMNvWD" coords="3,177.21,252.13,21.65,9.40;3,34.02,262.63,164.89,9.40;3,34.02,273.13,165.00,9.40;3,34.02,283.63,164.92,9.40;3,34.02,294.13,165.06,9.40;3,34.02,304.63,165.00,9.40;3,34.02,315.13,65.07,9.40">These include executive function (self-regulation) skills; an eagerness to learn, train and retrain throughout life; the resilience to cope with stress and life events; and behaviours that can promote a healthy lifestyle and protect against decline in old age.</s><s xml:id="_A9mqQp2" coords="3,100.79,315.13,98.16,9.40;3,34.02,325.63,165.01,9.40;3,34.02,336.13,165.05,9.40;3,34.02,346.63,164.92,9.40;3,34.02,357.13,80.88,9.40">Multidisciplinary research, in the natural and social sciences, will be needed to investigate the systematic relations between these skills, to determine how they can best be developed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_uPc6Gp3">The costs of inaction</head><p xml:id="_pBwFvP2"><s xml:id="_3Vehx3Z" coords="3,34.02,388.63,164.87,9.40;3,34.02,399.13,164.98,9.40;3,34.02,409.63,165.09,9.40;3,34.02,420.13,75.26,9.40">Our project shows that governments and others have tremendous opportunities to create environments in which mental capital and well-being flourish.</s><s xml:id="_VKEumrz" coords="3,111.69,420.13,87.16,9.40;3,34.02,430.63,118.22,9.40">However, failure to act could have severe consequences.</s></p><p xml:id="_R2kfXcP"><s xml:id="_RfyQbYE" coords="3,42.52,441.13,156.35,9.40;3,34.02,451.63,164.86,9.40;3,34.02,462.13,165.09,9.40;3,34.02,472.63,113.52,9.40;3,147.39,471.10,5.29,5.64;3,152.64,472.63,2.11,9.40">Already, we have found that learning difficulties such as dyslexia, which affects up to 10% of children, reduce the probability of achieving good grades at school <ref type="bibr" coords="3,147.39,471.10,5.29,5.64" target="#b15">16</ref> .</s><s xml:id="_mnwE8CB" coords="3,156.21,472.63,42.79,9.40;3,34.02,483.13,165.07,9.40;3,34.02,493.63,164.83,9.40;3,34.02,504.13,165.05,9.40;3,34.02,514.63,164.83,9.40;3,34.02,525.13,25.87,9.40">In turn, disengagement with the educational system can lead to behavioural problems, social exclusion and crime and reduced employment prospects (which in turn make mental ill-health more likely).</s><s xml:id="_RCxUqPa" coords="3,61.81,525.13,137.18,9.40;3,34.02,535.63,165.03,9.40;3,34.02,546.13,14.11,9.40">This in turn can have adverse consequences for cognitive function throughout life.</s><s xml:id="_sUsQp7F" coords="3,50.29,546.13,148.82,9.40;3,34.02,556.63,164.81,9.40;3,34.02,567.13,103.72,9.40;3,137.77,565.60,2.73,5.64;3,140.52,567.13,2.16,9.40">In addition, developmental dyscalculia is currently the poor relation of dyslexia, with a much lower public profile 2 .</s><s xml:id="_T9QPKPR" coords="3,144.64,567.13,54.35,9.40;3,34.02,577.63,165.12,9.40;3,34.02,588.13,65.21,9.40">But the consequences of dyscalculia are at least as severe as those for dyslexia.</s></p><p xml:id="_UzssM5R"><s xml:id="_4PzgxBA" coords="3,42.52,598.63,156.59,9.40;3,34.02,609.13,165.08,9.40;3,34.02,619.63,165.08,9.40;3,34.02,630.13,98.36,9.40;3,132.36,628.60,5.42,5.64;3,137.77,630.13,2.15,9.40">Mental ill-health is more widespread than many realize, with 16% of adults in Britain having a common mental disorder such as depression at any one time <ref type="bibr" coords="3,132.36,628.60,5.42,5.64" target="#b16">17</ref> .</s><s xml:id="_xZKnhcp" coords="3,141.70,630.13,57.29,9.40;3,34.02,640.63,165.02,9.40;3,34.02,651.13,164.96,9.40;3,34.02,661.63,164.94,9.40;3,34.02,672.13,20.99,9.40;3,54.96,670.60,5.33,5.64;3,60.26,672.13,2.12,9.40">Worldwide, the prevalence of having any mental disorder in the year prior to assessment varies from 4% in Shanghai in China to 26% in the United States <ref type="bibr" coords="3,54.96,670.60,5.33,5.64" target="#b17">18</ref> .</s><s xml:id="_NdYaFdf" coords="3,219.40,52.63,156.35,9.40;3,210.90,63.13,116.56,9.40;3,327.41,61.60,5.22,5.64;3,332.55,63.13,2.11,9.40">Furthermore, depression is the leading global cause of years lived with disability <ref type="bibr" coords="3,327.41,61.60,5.22,5.64" target="#b18">19</ref> .</s><s xml:id="_fhfx4rk" coords="3,335.91,63.13,39.93,9.40;3,210.90,73.63,165.04,9.40;3,210.90,84.13,164.96,9.40;3,210.90,94.63,164.91,9.40;3,210.90,105.13,165.08,9.40;3,210.90,115.63,10.88,9.40;3,221.60,114.10,5.21,5.64;3,226.71,115.63,2.10,9.40">The annual costs from mental ill-health in England alone are about £36 billion (US$62 billion) for economic costs, rising to £77 billion when wider impacts are included, such as a reduction in quality of life <ref type="bibr" coords="3,221.60,114.10,5.21,5.64">20</ref> .</s><s xml:id="_mwSjRkh" coords="3,230.06,115.63,145.95,9.40;3,210.90,126.13,159.27,9.40">Measures to improve mental health would therefore yield benefits well in excess of costs.</s></p><p xml:id="_528AED4"><s xml:id="_JqAUvcM" coords="3,219.40,136.63,156.36,9.40;3,210.90,147.13,108.82,9.40">Future demographic changes mean that this figure could rise substantially.</s><s xml:id="_2bSKndb" coords="3,321.45,147.13,54.55,9.40;3,210.90,157.63,164.81,9.40;3,210.90,168.13,131.58,9.40">The age profile of the population will change as life expectancy increases and fecundity levels fall.</s><s xml:id="_qsY8ZMy" coords="3,344.84,168.13,30.98,9.40;3,210.90,178.63,103.18,9.40;3,314.19,177.10,5.48,5.64;3,321.60,178.63,54.21,9.40;3,210.90,189.13,165.06,9.40;3,210.90,199.63,165.00,9.40;3,210.90,210.13,164.99,9.40;3,210.90,220.63,41.10,9.40">The UK Office of National Statistics 21 estimates that, by 2071, the number of people older than 65 could double to nearly 21.3 million, and those aged 80 and over could more than treble to 9.5 million.</s><s xml:id="_tMHp3Su" coords="3,253.46,220.63,122.35,9.40;3,210.90,231.13,165.04,9.40;3,210.90,241.63,165.02,9.40;3,210.90,252.13,164.94,9.40;3,210.90,262.63,164.89,9.40;3,210.90,273.13,164.96,9.40;3,210.90,283.63,84.07,9.40;3,295.16,282.10,5.53,5.64;3,300.76,283.63,2.16,9.40">This would probably lead to much more cognitive decline and dementia, and an expenditure time bomb: over the next 30 years, the number of people with dementia in the United Kingdom could double to 1.4 million, and costs to the UK economy could treble to more than £50 billion <ref type="bibr" coords="3,295.16,282.10,5.53,5.64" target="#b19">22</ref> .</s><s xml:id="_JSuehdp" coords="3,305.29,283.63,70.52,9.40;3,210.90,294.13,165.06,9.40;3,210.90,304.63,164.98,9.40;3,210.90,315.13,165.08,9.40;3,210.90,325.63,91.69,9.40">In addition, as the number of older people increases, there is a pressing case to take steps to prevent the wastage of their mental capital that occurs in part through marginalization.</s></p><p xml:id="_Y2EWFmZ"><s xml:id="_meUensr" coords="3,219.40,336.13,156.48,9.40;3,210.90,346.63,164.82,9.40;3,210.90,357.13,164.97,9.40;3,210.90,367.63,164.98,9.40;3,210.90,378.13,102.65,9.40">The effects of mental capital and well-being on an individual's life course are profound, and governments have considerable scope to more fully realize a long-term and strategic perspective that spans the life course.</s><s xml:id="_YHpTb6K" coords="3,314.96,378.13,60.91,9.40;3,210.90,388.63,165.05,9.40;3,210.90,399.13,124.19,9.40">As discussed earlier, this Foresight project has delivered some specific policy recommendations.</s><s xml:id="_JpDqeqP" coords="3,336.85,399.13,39.01,9.40;3,210.90,409.63,164.79,9.40;3,210.90,420.13,78.04,9.40">It will now be for the UK government to consider how best to take these forward.</s></p><p xml:id="_FFrwYej"><s xml:id="_dVqVCD6" coords="3,219.40,430.63,156.44,9.40;3,210.90,441.13,121.76,9.40">However, a cross-governmental approach is needed to realize the full benefits.</s><s xml:id="_DfJMPkB" coords="3,334.36,441.13,41.52,9.40;3,210.90,451.63,165.08,9.40;3,210.90,462.13,165.05,9.40;3,210.90,472.63,165.12,9.40;3,210.90,483.13,165.03,9.40;3,210.90,493.63,14.50,9.40">Early intervention in education could provide benefits for reducing crime, improving productivity in work, and reducing pressure on health and care systems by preserving mental capital in older age.</s><s xml:id="_47XrNCj" coords="3,227.18,493.63,148.53,9.40;3,210.90,504.13,45.98,9.40">Departments will need to work together more closely.</s><s xml:id="_cgYcX22" coords="3,258.29,504.13,117.52,9.40;3,210.90,514.63,138.55,9.40">And interventions may have long timescales before they see any returns.</s><s xml:id="_SZJ5JS2" coords="3,351.15,514.63,24.72,9.40;3,210.90,525.13,164.83,9.40;3,210.90,535.63,164.98,9.40;3,210.90,546.13,164.82,9.40;3,210.90,556.63,98.86,9.40">Implementing these recommendations will require significant changes in the nature of governance, placing mental capital and well-being at the heart of policy-making.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="1,545.38,762.99,15.89,6.68;1,42.52,18.54,117.76,7.12;1,440.89,52.57,124.61,28.48;2,126.86,701.89,35.42,9.00;2,177.87,701.89,92.22,9.00;2,300.54,701.89,51.05,9.00;2,473.03,701.89,48.00,9.00;2,779.68,701.89,23.65,9.00;2,941.79,701.89,47.94,9.00;2,758.77,720.72,35.52,9.90;2,925.76,720.72,81.75,9.90;2,289.27,720.72,47.64,9.90;2,66.24,317.18,295.73,13.35;2,131.31,549.16,32.64,7.12;2,130.22,557.65,34.77,7.12;2,121.48,566.15,52.26,7.12"><head></head><label></label><figDesc><div><p xml:id="_nBEbJDe"><s xml:id="_btW5P87" coords="2,66.24,317.18,295.73,13.35;2,131.31,549.16,32.64,7.12;2,130.22,557.65,34.77,7.12;2,121.48,566.15,52.26,7.12">MENTAL CAPITAL OVER THE COURSE OF LIFE• Tobacco • Poor diet • Drugs/alcohol</s></p></div></figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_gGbzBpe">Author information</head><p xml:id="_AgjtzbX"><s xml:id="_43d4hC8" coords="3,387.78,630.51,148.41,6.67;3,387.78,639.01,88.34,6.67">Reprints and permissions information is available at www.nature.com/reprints.</s><s xml:id="_PyCx8x2" coords="3,477.49,639.01,60.15,6.67;3,387.78,647.51,159.30,6.67;3,387.78,656.01,154.71,6.67">The authors declare competing financial interests: details accompany the full-text HTML version of the paper at www.nature.</s><s xml:id="_bcW6Kn8" coords="3,387.78,664.51,37.82,6.67">com/nature.</s><s xml:id="_9UJpdKu" coords="3,426.98,664.51,122.11,6.67;3,387.78,673.01,120.29,6.67">Correspondence should be addressed to S.M.T. (sandy.thomas@dius.gsi.gov.uk).</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="3,390.37,269.86,159.93,6.23;3,397.70,277.86,111.73,6.23" xml:id="b0">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">J</forename><surname>Llewellyn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><forename type="middle">A</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">M</forename><surname>Langa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">C</forename><surname>Mcwilliams</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">A</forename><surname>Huppert</surname></persName>
+		</author>
+		<title level="m" xml:id="_gz9ypHB" coord="3,442.94,277.86,27.29,6.23">Age Ageing</title>
+		<imprint/>
+	</monogr>
+	<note>in the press</note>
+	<note type="raw_reference">Llewellyn, D. J., Lang, I. A., Langa, K. M., McWilliams, B. C. &amp; Huppert, F. A. Age Ageing (in the press).</note>
+</biblStruct>
+
+<biblStruct coords="3,390.97,285.86,160.66,6.23;3,397.70,293.86,153.08,6.23;3,397.70,301.86,52.61,6.23" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="3,430.89,285.86,118.39,6.23" xml:id="_TVUJra2">Foresight Mental Capital and Wellbeing Project</title>
+		<author>
+			<persName coords=""><forename type="first">U</forename><surname>Goswami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_e2qWK3H" coord="3,397.70,293.86,96.87,6.23">Learning Difficulties: Future Challenges</title>
+		<imprint>
+			<publisher>Government Office for Science</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goswami, U. Foresight Mental Capital and Wellbeing Project. Learning Difficulties: Future Challenges (Government Office for Science, 2008).</note>
+</biblStruct>
+
+<biblStruct coords="3,391.50,309.86,143.04,6.23;3,397.70,317.86,138.32,6.23;3,397.70,325.86,152.48,6.23;3,397.70,333.86,52.61,6.23" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="3,397.70,317.86,116.55,6.23" xml:id="_s7ujTGs">Foresight Mental Capital and Wellbeing Project</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Kirkwood</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>May</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Mckeith</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Teh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Vr2R4Jv" coord="3,517.62,317.86,18.40,6.23;3,397.70,325.86,96.27,6.23">Mental Capital through Life: Future Challenges</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Government Office for Science</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kirkwood, T., Bond, J., May, C., McKeith, I. &amp; Teh, M. Foresight Mental Capital and Wellbeing Project. Mental Capital through Life: Future Challenges (Government Office for Science, 2008).</note>
+</biblStruct>
+
+<biblStruct coords="3,391.16,341.86,142.19,6.23;3,397.70,349.86,47.36,6.23" xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">S</forename><surname>Albert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Blacker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4a4Sf4E" coord="3,468.32,341.86,59.95,6.23">Annu. Rev. Clin. Psychol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="379" to="388" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Albert, M. S. &amp; Blacker, D. Annu. Rev. Clin. Psychol. 2, 379-388 (2006).</note>
+</biblStruct>
+
+<biblStruct coords="3,390.97,357.86,143.78,6.23;3,397.70,365.86,21.53,6.23" xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Blennow</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Hampel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zYjUNtp" coord="3,466.54,357.86,40.06,6.23">Lancet Neurol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="605" to="613" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blennow, K. &amp; Hampel, H. Lancet Neurol. 2, 605-613 (2003).</note>
+</biblStruct>
+
+<biblStruct coords="3,391.08,373.86,136.96,6.23;3,397.70,381.86,96.01,6.23" xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">C</forename><surname>Chua</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Slavin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">S</forename><surname>Sachdev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_x4cCkBX" coord="3,397.70,381.86,49.55,6.23">Curr. Opin. Neurol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="83" to="92" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chua, T. C., Wen, W., Slavin, M. J. &amp; Sachdev, P. S. Curr. Opin. Neurol. 21, 83-92 (2008).</note>
+</biblStruct>
+
+<biblStruct coords="3,390.66,389.86,133.70,6.23" xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Schott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9m9YhYN" coord="3,444.02,389.86,27.71,6.23">Neurology</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="119" to="124" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schott, J. M. et al. Neurology 65, 119-124 (2005).</note>
+</biblStruct>
+
+<biblStruct coords="3,391.09,397.86,158.58,6.23" xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Papassotiropoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_SaPVtUS" coord="3,469.68,397.86,22.85,6.23">Science</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="475" to="478" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Papassotiropoulos, A. et al. Science 314, 475-478 (2006).</note>
+</biblStruct>
+
+<biblStruct coords="3,390.98,405.86,132.02,6.23" xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">M</forename><surname>Reiman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pTantxe" coord="3,447.80,405.86,20.25,6.23">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="713" to="720" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reiman, E. M. et al. Neuron 54, 713-720 (2007).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.84,413.86,142.85,6.23;3,397.70,421.86,21.47,6.23" xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Vieta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NtbQXBb" coord="3,463.66,413.86,41.68,6.23">Schizophr. Bull</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="893" to="904" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Phillips, M. L. &amp; Vieta, E. Schizophr. Bull. 33, 893-904 (2007).</note>
+</biblStruct>
+
+<biblStruct coords="3,392.77,429.86,147.53,6.23" xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">S</forename><surname>Mayberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_C2HH54F" coord="3,450.58,429.86,33.65,6.23">NeuroReport</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1057" to="1061" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mayberg, H. S. et al. NeuroReport 8, 1057-1061 (1997).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.56,437.86,157.51,6.23;3,397.70,445.86,21.90,6.23" xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_87Zzxdm" coord="3,441.44,437.86,71.12,6.23">Neuropsychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1909" to="1918" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen, C. H. et al. Neuropsychopharmacology 33, 1909-1918 (2008).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.51,453.86,138.30,6.23" xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bnJD5GP" coord="3,439.38,453.86,34.41,6.23">Psychol. Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="335" to="342" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cooper, C. et al. Psychol. Med. 38, 335-342 (2008).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.82,461.86,135.31,6.23" xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">E</forename><surname>Bebbington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ns6F3AA" coord="3,462.77,461.86,3.63,6.23">J</title>
+		<imprint/>
+	</monogr>
+	<note>Psychiatr. (in the press</note>
+	<note type="raw_reference">Bebbington, P. E. et al. Br. J. Psychiatr. (in the press).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.56,469.86,143.15,6.23" xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Jenkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TD44kGj" coord="3,439.23,469.86,34.41,6.23">Psychol. Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1485" to="1493" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jenkins, R. et al. Psychol. Med. 38, 1485-1493 (2008).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.71,477.86,146.48,6.23;3,397.70,485.86,130.64,6.23;3,397.70,493.86,147.28,6.23;3,397.70,501.86,148.57,6.23;3,397.70,509.86,51.11,6.23" xml:id="b15">
+	<monogr>
+		<title level="m" type="main" coord="3,517.29,477.86,22.90,6.23;3,397.70,485.86,130.64,6.23;3,397.70,493.86,147.28,6.23;3,397.70,501.86,92.36,6.23" xml:id="_Y4q8wB2">Foresight Mental Capital and Wellbeing Project. The Economic Consequences of Specific Learning Difficulties and the Cost-Effectiveness of Prevention Strategies</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Challen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Knapp</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Mcnally</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Government Office for Science</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Challen, A., King, D., Knapp, M. &amp; McNally, S. Foresight Mental Capital and Wellbeing Project. The Economic Consequences of Specific Learning Difficulties and the Cost- Effectiveness of Prevention Strategies (Government Office for Science, 2008).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.15,517.86,145.17,6.23;3,397.70,525.86,142.23,6.23;3,397.70,533.86,68.61,6.23" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="3,439.23,517.86,99.09,6.23;3,397.70,525.86,16.44,6.23" xml:id="_Pw8fbva">Foresight Mental Capital and Wellbeing Project</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Jenkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_QV9BQGP" coord="3,417.51,525.86,89.21,6.23">Mental Health: Future Challenges</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Government Office for Science</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jenkins, R. et al. Foresight Mental Capital and Wellbeing Project. Mental Health: Future Challenges (Government Office for Science, 2008).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.72,541.86,143.18,6.23;3,397.70,549.86,113.86,6.23" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="3,397.70,541.86,136.18,6.23" xml:id="_3trp3em">The WHO World Mental Health Survey Consortium</title>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Nvr8wFu" coord="3,397.70,549.86,46.80,6.23">J. Am. Med. Assoc</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page" from="2581" to="2590" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">The WHO World Mental Health Survey Consortium. J. Am. Med. Assoc. 291, 2581-2590 (2004).</note>
+</biblStruct>
+
+<biblStruct coords="3,393.57,557.86,157.52,6.23;3,397.70,565.86,104.95,6.23" xml:id="b18">
+	<monogr>
+		<title level="m" type="main" coord="3,397.70,557.86,85.54,6.23" xml:id="_MCQDF3v">World Health Organization www</title>
+		<ptr target="who.int/mental_health/management/depression/definition/en" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">World Health Organization www.who.int/mental_health/ management/depression/definition/en</note>
+</biblStruct>
+
+<biblStruct coords="3,393.20,605.86,157.29,6.23" xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Knapp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_S2zpa8f" coord="3,439.18,605.86,89.50,6.23">Dementia UK (Alzheimer&apos;s Society</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Knapp, M. et al. Dementia UK (Alzheimer&apos;s Society, 2007).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

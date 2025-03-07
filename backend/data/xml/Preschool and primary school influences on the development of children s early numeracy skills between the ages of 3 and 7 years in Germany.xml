@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_uq49McZ" coord="1,97.10,173.35,411.37,17.91;1,97.10,194.35,411.25,17.91;1,97.10,215.35,400.23,17.91;2,67.29,122.63,358.60,10.28;2,67.29,136.58,344.96,10.28">Preschool and primary school influences on the development of children&apos;s early numeracy skills between the ages of 3 and 7 years in Germany</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Informa UK Limited</publisher>
+				<availability status="unknown"><p>Copyright Informa UK Limited</p>
+				</availability>
+				<date type="published" when="2012-12-20">20 Dec 2012.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,97.10,262.07,87.00,11.94"><forename type="first">Yvonne</forename><surname>Anders</surname></persName>
+							<email>yvonne.anders@fu-berlin.de</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Free University of Berlin, Berlin, Germany;</note>
+								<orgName type="institution">Free University of Berlin</orgName>
+								<address>
+									<settlement>Berlin</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,193.52,262.07,101.72,11.94"><forename type="first">Christiane</forename><surname>Grosse</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> University of Bamberg, Bamberg, Germany</note>
+								<orgName type="institution">University of Bamberg</orgName>
+								<address>
+									<settlement>Bamberg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,304.66,262.07,139.33,11.94"><forename type="first">Hans-Günther</forename><surname>Rossbach</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,453.42,262.07,83.20,11.94"><forename type="first">Susanne</forename><surname>Ebert</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> University of Bamberg, Bamberg, Germany</note>
+								<orgName type="institution">University of Bamberg</orgName>
+								<address>
+									<settlement>Bamberg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,109.09,276.07,87.74,11.94"><forename type="first">Sabine</forename><surname>Weinert</surname></persName>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> University of Bamberg, Bamberg, Germany</note>
+								<orgName type="institution">University of Bamberg</orgName>
+								<address>
+									<settlement>Bamberg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_6kk4G5U" coord="1,97.10,173.35,411.37,17.91;1,97.10,194.35,411.25,17.91;1,97.10,215.35,400.23,17.91;2,67.29,122.63,358.60,10.28;2,67.29,136.58,344.96,10.28">Preschool and primary school influences on the development of children&apos;s early numeracy skills between the ages of 3 and 7 years in Germany</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main" xml:id="_z5Gjmbj">School Effectiveness and School Improvement</title>
+						<title level="j" type="abbrev">School Effectiveness and School Improvement</title>
+						<idno type="ISSN">0924-3453</idno>
+						<idno type="eISSN">1744-5124</idno>
+						<imprint>
+							<publisher>Informa UK Limited</publisher>
+							<biblScope unit="volume">24</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page" from="195" to="211"/>
+							<date type="published" when="2012-12-20">20 Dec 2012.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FD8779CF4C8C5DE7E62E7F918CB06807</idno>
+					<idno type="DOI">10.1080/09243453.2012.749794</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_x5Re7Gv">preschool quality</term>
+					<term xml:id="_9UZDvVe">cognitive development</term>
+					<term xml:id="_HXWJsAh">primary school quality</term>
+					<term xml:id="_tnndxB2">numeracy</term>
+					<term xml:id="_smx48BJ">longitudinal studies</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_jXjYwsv"><p xml:id="_KmrMnYv"><s xml:id="_NSwVPqv" coords="2,91.22,229.29,310.78,7.72;2,91.22,239.21,169.99,7.72">Few studies have investigated how preschool and primary school interact to influence children's cognitive development.</s><s xml:id="_PqpMdYD" coords="2,265.71,239.21,136.30,7.72;2,91.22,249.19,310.79,7.72;2,91.22,259.17,119.95,7.72">The present investigation explores German children's numeracy skills between age 3 (1st year of preschool) and age 7 (1st year of primary school).</s><s xml:id="_PEM28mX" coords="2,216.45,259.17,185.54,7.72;2,91.22,269.15,310.80,7.72;2,91.22,279.07,272.10,7.72">We first identified the influence of preschool experience on development while controlling for child factors, family background, and the quality of the home learning environment (HLE).</s><s xml:id="_MFnE7nX" coords="2,367.87,279.07,34.15,7.72;2,91.22,289.05,310.75,7.72">We then considered how the instructional quality of primary schools influences numeracy.</s><s xml:id="_AVpNb3u" coords="2,91.22,299.02,245.08,7.72">We finally analysed how preschool and primary school interact.</s><s xml:id="_GbPF5Ef" coords="2,338.96,299.02,63.05,7.72;2,91.22,308.94,187.16,7.72">We sampled 547 children who attended 97 German preschools.</s><s xml:id="_Ua2bAJF" coords="2,283.06,308.94,118.94,7.72;2,91.22,318.92,310.77,7.72;2,91.22,328.90,310.79,7.72;2,91.22,338.88,64.36,7.72">Latent growth curve analyses identified child and family factors related to age 3 numeracy and development to age 7: gender, migration background, socioeconomic status (SES), mother education, HLE.</s><s xml:id="_P76eEmQ" coords="2,158.34,338.88,243.64,7.72;2,91.22,348.80,178.37,7.72">The effects of preschool on numeracy development persist until age 7 with notable effects from process quality.</s><s xml:id="_SVT52d2" coords="2,271.89,348.80,130.10,7.72;2,91.22,358.78,206.41,7.72">Strengthened efforts are needed to ensure high quality preschool education in Germany.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="634.32" lry="833.04"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="493.228" lry="702.992"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_q43G9hf">Background and objectives</head><p xml:id="_FJfT4f6"><s xml:id="_pgxmRhm" coords="2,67.29,435.73,358.63,8.58;2,67.29,447.69,358.56,8.58;2,67.29,459.66,78.66,8.58">Large longitudinal studies have produced growing evidence of the potential benefits of preschool education for the cognitive development of children (see <ref type="bibr" coords="2,370.31,447.69,51.03,8.58">Gorey, 2001</ref>, for an overview).</s><s xml:id="_2aBJnAG" coords="2,151.82,459.66,274.09,8.58;2,67.29,471.62,358.59,8.58;2,67.29,483.58,222.82,8.58">Whereas the evidence of short-and medium-term academic benefits of early education or preschool programs is compelling, findings on the persistence of beneficial preschool effects are mixed.</s><s xml:id="_e8YFfAs" coords="2,293.26,483.58,132.62,8.58;2,67.29,495.49,358.60,8.58;2,67.29,507.45,314.54,8.58">It seems that the quality of the preschool setting attended is a crucial factor for the magnitude and the persistence of beneficial effects (e.g., <ref type="bibr" coords="2,161.46,507.45,122.39,8.58" target="#b24">Peisner-Feinberg et al., 2001;</ref><ref type="bibr" coords="2,286.23,507.45,91.28,8.58" target="#b29">Sammons et al., 2008)</ref>.</s><s xml:id="_EHgMMUD" coords="2,384.25,507.45,41.58,8.58;2,67.29,519.41,358.59,8.58;2,67.29,531.37,358.60,8.58;2,67.29,543.33,358.58,8.58;2,67.29,555.30,129.89,8.58">Preschool quality covers multiple dimensions and relates to structural characteristics (e.g., class size, staff qualifications levels) as well as the professional beliefs and orientations of teachers with respect to learning processes and the process quality of the interactions between teachers and children.</s><s xml:id="_Dy4fmkC" coords="2,199.67,555.30,226.22,8.58;2,67.29,567.26,358.54,8.58;2,67.29,579.22,358.60,8.58;3,67.29,65.13,78.14,8.58">Process quality refers to global characteristics such as warm climate <ref type="bibr" coords="2,136.85,567.26,158.56,8.58" target="#b9">(Harms, Clifford, &amp; Cryer, 1998)</ref> as well as domain-specific stimulation in educational areas <ref type="bibr" coords="2,206.70,579.22,116.10,8.58" target="#b13">(Kuger &amp; Kluczniok, 2008;</ref><ref type="bibr" coords="2,325.69,579.22,100.20,8.58;3,67.29,65.13,73.82,8.58" target="#b38">Sylva, Siraj-Blatchford, &amp; Taggart, 2003)</ref>.</s><s xml:id="_Tqmm4c7" coords="3,149.50,65.13,276.36,8.58;3,67.29,77.09,265.60,8.58">When children grow older, the learning experiences in primary school will further influence children's academic progress.</s><s xml:id="_sQcdjEe" coords="3,338.96,77.09,86.92,8.58;3,67.29,89.06,358.57,8.58;3,67.29,101.02,358.59,8.58;3,67.29,112.92,358.59,8.58;3,67.29,124.89,195.75,8.58">Comparable to the construct of preschool quality, current frameworks of primary school quality differentiate between structural characteristics, teacher beliefs, and the quality of pedagogical processes (see European Child Care and Education [ECCE]-Study Group, 1999, for an empirical application).</s><s xml:id="_eTeS6SK" coords="3,268.15,124.89,157.74,8.58;3,67.29,136.85,358.54,8.58;3,67.29,148.81,358.62,8.58;3,67.29,160.77,198.84,8.58">Theories of instructional quality in school classrooms underline the impact of three dimensions of instructional quality: classroom management, supportive climate, and cognitive activation (e.g., <ref type="bibr" coords="3,389.01,148.81,36.90,8.58;3,67.29,160.77,51.30,8.58" target="#b3">Baumert et al., 2010;</ref><ref type="bibr" coords="3,122.62,160.77,139.19,8.58" target="#b12">Klieme, Pauli, &amp; Reusser, 2009)</ref>.</s><s xml:id="_zYMv3m9" coords="3,270.14,160.77,155.75,8.58;3,67.29,172.73,358.58,8.58;3,67.29,184.70,343.00,8.58">Some studies have shown that high instructional quality may have positive effects on children's cognitive development (e.g., <ref type="bibr" coords="3,92.12,184.70,240.19,8.58" target="#b25">Pianta, Belsky, Vandergrift, Houts, &amp; Morrison, 2008;</ref><ref type="bibr" coords="3,336.41,184.70,69.57,8.58" target="#b27">Rossbach, 2002)</ref>.</s><s xml:id="_mB7sdD3" coords="3,414.41,184.70,11.51,8.58;3,67.29,196.66,358.60,8.58;3,67.29,208.56,218.94,8.58">As most children attend preschool as well as primary school, it is of special interest to understand how these educational settings interact.</s><s xml:id="_Js4PeN7" coords="3,289.35,208.56,136.53,8.58;3,67.29,220.53,358.55,8.58;3,67.29,232.49,182.84,8.58">It is possible that a high-quality preschool experience gives children a better start to primary school and that these early benefits are maintained over years.</s><s xml:id="_UgdY6TJ" coords="3,255.22,232.49,170.59,8.58;3,67.29,244.45,358.55,8.58;3,67.29,256.41,327.50,8.58">Furthermore, a high-quality preschool experience might not only give children a better start to school but also prepare them in a way that they show better progress as they move through primary school.</s><s xml:id="_aD9gdKN" coords="3,397.18,256.41,28.70,8.58;3,67.29,268.37,358.60,8.58;3,67.29,280.34,358.58,8.58;3,67.29,292.30,259.14,8.58">On the other hand, beneficial preschool effects might also vanish very quickly; and once children attend primary school, the instructional quality and effectiveness of the primary school might compensate for any preschool effects.</s><s xml:id="_C9Dd3f4" coords="3,330.00,292.30,95.92,8.58;3,67.29,304.20,228.54,8.58">Empirical evidence on interactive effects of both educational settings is rare.</s><s xml:id="_3uVEHUm" coords="3,298.93,304.20,126.95,8.58;3,67.29,316.16,312.03,8.58;3,229.38,340.09,196.51,8.58;3,67.29,352.05,67.60,8.58">At this time, it is not possible to draw a final conclusion (e.g., <ref type="bibr" coords="3,212.31,316.16,167.02,8.58" target="#b16">Magnuson, Ruhm, &amp; Waldfogel, 2007</ref>  <ref type="bibr" coords="3,229.38,340.09,100.79,8.58" target="#b29">Sammons et al., 2008;</ref><ref type="bibr" coords="3,335.39,340.09,90.50,8.58;3,67.29,352.05,63.27,8.58" target="#b39">Tietze, Rossbach, &amp; Grenner, 2005)</ref>.</s></p><p xml:id="_dCbZaK8"><s xml:id="_HAzHjSe" coords="3,82.20,364.01,343.71,8.58;3,67.29,375.98,207.10,8.58">Certainly, schooling factors are not the only factors with potential influence on children's development and educational careers.</s><s xml:id="_jJThfTf" coords="3,277.90,375.98,147.99,8.58;3,67.29,387.94,358.62,8.58;3,67.29,399.84,358.58,8.58;3,67.29,411.80,132.86,8.58">It is well known that a number of child characteristics and family factors (e.g., parental education levels, socioeconomic status) may have a significant impact (e.g., <ref type="bibr" coords="3,298.03,399.84,46.20,8.58" target="#b5">Cox, 2000;</ref><ref type="bibr" coords="3,347.46,399.84,78.42,8.58;3,67.29,411.80,22.61,8.58">NICHD ECCRN, 2002;</ref><ref type="bibr" coords="3,94.11,411.80,101.71,8.58" target="#b26">Pianta &amp; Hamre, 2009)</ref>.</s><s xml:id="_C3FF7BP" coords="3,204.32,411.80,221.57,8.58;3,67.29,423.77,358.58,8.58;3,67.29,435.73,358.56,8.58;3,67.29,447.69,281.32,8.58">Already when children enter primary school, their cognitive skills vary markedly according to their gender, ethnicity, or the social background of the family (e.g., <ref type="bibr" coords="3,211.12,435.73,214.74,8.58" target="#b7">Dubowy, Ebert, von Maurice, &amp; Weinert, 2008;</ref><ref type="bibr" coords="3,67.29,447.69,53.24,8.58" target="#b35">Strand, 1995</ref><ref type="bibr" coords="3,128.80,447.69,18.16,8.58" target="#b36">Strand, , 1997</ref><ref type="bibr" coords="3,155.22,447.69,22.61,8.58" target="#b37">Strand, , 1999;;</ref><ref type="bibr" coords="3,181.64,447.69,162.66,8.58" target="#b41">Tymms, Merrell, &amp; Henderson, 1997)</ref>.</s><s xml:id="_D7BnmGe" coords="3,352.45,447.69,73.43,8.58;3,67.29,459.65,358.64,8.58;3,67.29,471.62,358.62,8.58;3,67.29,483.58,25.93,8.58">Additionally, the quality of the home learning environment (HLE) may influence children's development (e.g., <ref type="bibr" coords="3,148.70,471.62,89.05,8.58" target="#b10">Hart &amp; Risley, 1995;</ref><ref type="bibr" coords="3,240.94,471.62,92.80,8.58" target="#b19">Melhuish et al., 2008;</ref><ref type="bibr" coords="3,336.92,471.62,89.00,8.58;3,67.29,483.58,21.61,8.58" target="#b32">Snow &amp; Van Hemel, 2008)</ref>.</s><s xml:id="_Y6UvfZD" coords="3,97.85,483.58,328.05,8.58;3,67.29,495.48,358.57,8.58;3,67.29,507.44,241.80,8.58">It is related to the availability of educational resources such as books or educational games and the nature of parenting activities (e.g., reading to a child, playing with numbers, taking the child to a library).</s><s xml:id="_AXMKRzD" coords="3,314.47,507.44,111.39,8.58;3,67.29,519.41,358.62,8.58;3,67.29,531.37,340.13,8.58">Thus, when investigating potential effects of preschool and primary school education, potential effects of child factors, family factors, and the quality of the HLE need to be also considered.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_QuYaq2a">The longitudinal project BiKS in Germany</head><p xml:id="_DR2zs3e"><s xml:id="_h6Pb6vf" coords="3,67.29,579.22,336.58,8.58">Empirical evidence on effects of preschool education is rare in Germany.</s><s xml:id="_UHH3EWE" coords="3,409.37,579.22,16.49,8.58;3,67.29,591.12,358.61,8.58;3,67.29,603.08,358.54,8.58;3,67.29,615.05,358.62,8.58;3,67.29,627.01,358.56,8.58;3,67.29,638.97,358.62,8.58;4,67.29,65.13,136.59,8.58">The longitudinal project BiKS (Bildungsprozesse, Kompetenzentwicklung und Selektionsentscheidungen im Vor-und Grundschulalter [Educational processes, competence development, and selection decisions at pre-and primary school age]) was set up to shed light on how learning environments at home, at preschool, and at primary school differentially influence children's development <ref type="bibr" coords="3,301.54,638.97,124.38,8.58;4,67.29,65.13,22.61,8.58" target="#b31">(Schmidt, Smidt, &amp; Schmitt, 2009;</ref><ref type="bibr" coords="4,93.03,65.13,106.53,8.58" target="#b42">von Maurice et al., 2007)</ref>.</s><s xml:id="_cXSCbWM" coords="4,207.04,65.13,218.85,8.58;4,67.29,77.09,358.61,8.58;4,67.29,89.06,196.59,8.58">The substudy BiKS 3-10 follows the acquisition of competencies of 547 children in Germany who attended 97 preschool settings in two federal states (Bavaria and Hesse) since 2005.</s></p><p xml:id="_TMJdBrZ"><s xml:id="_92D5kQk" coords="4,82.20,101.02,343.72,8.58;4,67.29,112.92,358.62,8.58;4,67.29,124.89,288.58,8.58">Based on the BiKS dataset, we recently examined the development of early numeracy skills and growth in this cognitive domain between the ages of 3 and 5 years while children move through preschool <ref type="bibr" coords="4,264.98,124.89,86.57,8.58" target="#b0">(Anders et al., 2012)</ref>.</s><s xml:id="_QGqNT46" coords="4,359.31,124.89,66.58,8.58;4,67.29,136.85,358.62,8.58;4,67.29,148.81,358.61,8.58;4,67.29,160.77,358.62,8.58">With respect to the impact of child and family background factors, the findings revealed that gender, parental native language status, parental education, and socioeconomic status (SES) are related to initial achievement levels as well as to further growth.</s><s xml:id="_7tqzXnx" coords="4,67.29,172.73,358.66,8.58;4,67.29,184.70,233.30,8.58">Further, a strong effect of the quality of the learning environment at home (HLE) on initial numeracy skills could be established.</s><s xml:id="_7mS9FXx" coords="4,309.31,184.70,116.58,8.58;4,67.29,196.66,358.55,8.58;4,67.29,208.56,263.73,8.58">A number of structural characteristics of the preschool setting (e.g., spatial size of the setting, average age of the class) are also associated with initial achievement.</s><s xml:id="_n4RP9VT" coords="4,334.65,208.56,91.24,8.58;4,67.29,220.53,358.60,8.58;4,67.29,232.49,358.61,8.58;4,67.29,244.45,239.00,8.58">But when we look at developmental progress, the process quality of the preschool settings in terms of fostering academic skills as measured by Early Childhood Rating Scale Extensions (ECERS-E; <ref type="bibr" coords="4,122.46,244.45,83.61,8.58" target="#b38">Sylva et al., 2003)</ref> makes the difference.</s><s xml:id="_Sh8D6Aw" coords="4,311.86,244.45,114.02,8.58;4,67.29,256.41,358.58,8.58;4,67.29,268.37,153.42,8.58">Stated precisely, it is the quality of stimulation in mathematics that has the strongest impact on growth between the ages of 3 and 5 years.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_8pxds8p">The present study</head><p xml:id="_aRz5Wvy"><s xml:id="_sJBCku9" coords="4,67.29,316.16,358.61,8.58;4,67.29,328.13,208.47,8.58;4,275.75,325.90,3.74,5.72;4,283.35,328.13,142.55,8.58;4,67.30,340.09,202.89,8.58">In the current study, we explore the development of early numeracy skills of children between the ages of 3 and 7 years in Germany. 1 This age range covers 3 years of preschool and the 1st year of primary school.</s><s xml:id="_cUAxEgk" coords="4,274.39,340.09,151.53,8.58;4,67.30,352.05,358.62,8.58;4,67.30,364.02,149.57,8.58">We focus on schooling effects and investigate how preschool and primary school influences interact in shaping young children's acquisition of numeracy.</s><s xml:id="_AP3MeKr" coords="4,219.74,364.02,206.17,8.58;4,67.30,375.98,42.81,8.58">In particular, this study addresses three research questions.</s><s xml:id="_DcxESrv" coords="4,116.22,375.98,309.70,8.58;4,67.30,387.94,358.62,8.58;4,67.30,399.85,229.17,8.58">First, it seeks to identify the influence of preschool experience on developmental progress between age 3 and age 7 while controlling for relevant child factors, family background, and the early years HLE.</s><s xml:id="_rnWneJ8" coords="4,299.33,399.85,126.59,8.58;4,67.30,411.81,358.53,8.58;4,67.30,423.77,225.08,8.58">We are especially interested if the beneficial effects of different indicators of process quality of preschool settings persist until the end of the 1st year of primary school.</s><s xml:id="_mvT9d8Q" coords="4,294.85,423.77,131.03,8.58;4,67.30,435.73,358.60,8.58;4,67.30,447.69,329.10,8.58">Second, we investigate how the instructional quality of the primary school further influences the development of numeracy skills when children have moved from preschool to primary school.</s><s xml:id="_YRUpb36" coords="4,398.99,447.69,26.84,8.58;4,67.30,459.66,283.17,8.58">Third, we analyse how preschool and primary school influences interact.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_82AkyKx">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_GW3Bm3A">Procedure and sample</head><p xml:id="_6Q25D9Z"><s xml:id="_VxTTEKX" coords="4,67.30,519.41,358.59,8.58;4,67.30,531.37,285.48,8.58">The present investigation analyses the development of early numeracy skills over four measurement points (average age 3, 4, 5, and 7 years).</s><s xml:id="_yzEjZh3" coords="4,359.03,531.37,66.82,8.58;4,67.30,543.33,358.60,8.58;4,67.30,555.30,358.56,8.58;4,67.30,567.26,30.06,8.58">The first three measurement points took place while children were in preschool, the last measurement point took place during the last 6 weeks of the 1st year of primary school.</s><s xml:id="_w9N7Vu4" coords="4,100.46,567.26,296.13,8.58;4,396.62,565.03,3.74,5.72;4,403.37,567.26,22.57,8.58;4,67.30,579.22,358.60,8.58;4,67.30,591.13,22.61,8.58">The average number of children assessed per preschool class was 5.5. 2 Most of the 547 BiKS children moved from preschool to primary school in September 2008.</s><s xml:id="_P86tf7H" coords="4,94.45,591.13,331.40,8.58;4,67.30,603.09,203.37,8.58">At this time, the sample includes 435 children; 142 primary school classes participate in the study <ref type="bibr" coords="4,173.53,603.09,92.81,8.58" target="#b31">(Schmidt et al., 2009)</ref>.</s><s xml:id="_XyYTXqp" coords="4,274.73,603.09,151.16,8.58;4,67.30,615.05,358.61,8.58;4,67.30,627.01,237.22,8.58">Looking at the background of the children in the initial sample, we find that 19.6% of the children have one or two parents with a mother tongue other than German.</s><s xml:id="_v8DZrAM" coords="4,310.56,627.01,115.37,8.58;4,67.30,638.98,110.13,8.58">With respect to mother's education, we find 34.0%</s><s xml:id="_PS9FDpM" coords="4,180.79,638.98,187.09,8.58">with a qualification for university entrance.</s></p><p xml:id="_r4gQ2Rx"><s xml:id="_qtPSpZn" coords="5,82.20,65.13,343.72,8.58;5,67.29,77.09,358.52,8.58;5,67.29,89.06,85.80,8.58">Parents gave information about their family structure, occupational and educational background, as well as parent-child activities and routines in interviews and questionnaires.</s><s xml:id="_2Dv5JNn" coords="5,158.62,89.06,267.26,8.58;5,67.29,101.02,187.65,8.58">Further information was obtained through observations at home, which were also conducted annually.</s><s xml:id="_HCZcnme" coords="5,258.12,101.02,167.77,8.58;5,67.29,112.92,358.58,8.58;5,67.29,124.89,289.15,8.58">Structural characteristics and measures of the process quality in the preschool settings were obtained through interviews with the heads of the preschools, staff questionnaires, and observations.</s><s xml:id="_59GCfwE" coords="5,359.88,124.89,65.98,8.58;5,67.29,136.85,358.57,8.58">Staff interviews were carried out twice a year, observations in the settings were repeated annually.</s><s xml:id="_gWGZqCG" coords="5,67.29,148.81,358.60,8.58;5,67.29,160.77,324.69,8.58">Since spring 2009, different aspects of general and subject-specific aspects of instructional quality at the primary schools were obtained by observations.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_TzmkNGk">Measures</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_rbvDFCY">Outcome measure</head><p xml:id="_JgeNfEX"><s xml:id="_aBF8njJ" coords="5,67.29,232.49,358.61,8.58;5,67.29,244.45,358.58,8.58;5,67.29,256.41,193.11,8.58">Early numeracy skills over the investigated period were assessed by the subscale ''arithmetics'' of the German version of the Kaufman Assessment Battery for Children (K-ABC, <ref type="bibr" coords="5,149.33,256.41,106.76,8.58" target="#b17">Melchers &amp; Preuss, 2003)</ref>.</s><s xml:id="_mK42uZs" coords="5,263.28,256.41,162.61,8.58;5,67.29,268.37,358.62,8.58;5,67.29,280.34,100.05,8.58">This scale measures children's skills in counting, identifying numbers, knowledge of shapes, and understanding of early mathematical concepts.</s><s xml:id="_5RDAQp5" coords="5,170.36,280.34,205.57,8.58">It is internationally well known and established.</s><s xml:id="_Upb4fc5" coords="5,378.92,280.34,46.94,8.58;5,67.29,292.30,266.87,8.58">In contrast to other instruments, it can be applied over a wide age range.</s></p><p xml:id="_rHGyzYa"><s xml:id="_avVnMh4" coords="5,82.20,304.20,343.71,8.58">The test is organized into sets of three to five items of increasing difficulty.</s><s xml:id="_76sYW7c" coords="5,67.29,316.16,247.16,8.58">Children score one point for each item answered correctly.</s><s xml:id="_QM34GRt" coords="5,316.96,316.16,108.95,8.58;5,67.29,328.13,203.31,8.58">Testing is stopped when a child answers all items in a subset incorrectly.</s><s xml:id="_uatXmsd" coords="5,274.61,328.13,151.27,8.58;5,67.29,340.09,140.85,8.58">Thus, potential practice effects are reduced when applying the test.</s><s xml:id="_RYjqpRE" coords="5,212.42,340.09,213.49,8.58;5,67.29,352.05,327.51,8.58">The test items are embedded in a story about a family visiting a zoo, which is presented verbally with accompanying pictures.</s><s xml:id="_aVyXbj7" coords="5,397.18,352.05,28.75,8.58;5,67.29,364.01,358.65,8.58;5,67.29,375.98,87.55,8.58">In Sets 1 and 2, the child has to count objects, identify numerals up to 10, and identify twodimensional shapes.</s><s xml:id="_Q5DE36p" coords="5,160.27,375.98,265.56,8.58;5,67.29,387.94,358.63,8.58;5,67.29,399.84,358.55,8.58;5,67.29,411.80,142.25,8.58">In Sets 3 and 4, the child has to solve various numerical problems in the number range up to 10: comparing quantities of pictured objects, understanding numbers as symbols, and solving verbally presented subtraction problems supported by pictures.</s><s xml:id="_J9s26RE" coords="5,214.07,411.80,211.77,8.58;5,67.29,423.77,358.62,8.58;5,67.29,435.73,257.66,8.58">In Sets 4 and 5, the child has to read numbers greater than 10, solve verbally presented arithmetic problems that cross the ''10'' boundary, and do simple multiplication and division tasks.</s><s xml:id="_PvmjeDW" coords="5,328.70,435.73,97.23,8.58;5,67.29,447.69,358.60,8.58;5,67.29,459.65,358.55,8.58;5,67.29,471.62,97.46,8.58">From Set 6, children's skills in dealing with numbers higher than 100 and with scale units are assessed, as well as their ability to solve more complex multiplication and division tasks embedded in the story.</s><s xml:id="_d98ZbeC" coords="5,167.64,471.62,258.24,8.58;5,67.29,483.58,54.90,8.58">We used raw scores so that change over time could be better documented.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_7Xf9Rmb">Predictors</head><p xml:id="_bFCwNfY"><s xml:id="_hkC3Hb8" coords="5,67.29,531.49,168.57,8.40">Child and family background factors.</s><s xml:id="_eNxHfEf" coords="5,242.08,531.37,183.83,8.58;5,67.29,543.33,358.51,8.58;5,67.29,555.29,358.62,8.58;5,67.29,567.26,175.82,8.58">Gender, age in months, parental native language status (German/other), highest socioeconomic status of the family, maternal education, and age at entry to the preschool setting were used as child and family background control variables.</s><s xml:id="_sN4KRud" coords="5,245.70,567.26,180.19,8.58;5,67.29,579.22,358.63,8.58;5,67.29,591.12,238.75,8.58">As measure of the socioeconomic status of the family, the International Socio-economic Index of Occupational Status <ref type="bibr" coords="5,400.01,579.22,25.91,8.58;5,67.29,591.12,182.09,8.58">(ISEI, Ganzeboom, De Graaf, &amp; Treiman, 1992)</ref> was derived.</s></p><p xml:id="_FBFswNr"><s xml:id="_AKEDUJF" coords="5,67.29,615.17,197.60,8.40">Early years home learning environment (HLE).</s><s xml:id="_SKcNESK" coords="5,267.31,615.05,158.61,8.58;5,67.29,627.01,358.62,8.58;5,67.29,638.97,358.58,8.58;6,67.29,65.13,358.60,8.58;6,67.29,77.09,358.57,8.58;6,67.29,89.06,358.59,8.58;6,67.29,101.02,72.53,8.58">The assessment of characteristics that provide an indication of the early years HLE in promoting (pre)reading literacy and numeracy skills is based on (a) self-constructed questionnaires and interviews, (b) the adapted version of the Home Observation for Measurement of the Environment (HOME; <ref type="bibr" coords="6,108.74,77.09,111.35,8.58" target="#b4">Caldwell &amp; Bradley, 1984)</ref>, and (c) a semi-standardized book reading task between parent and child called the Family Rating Scale <ref type="bibr" coords="6,338.90,89.06,86.98,8.58;6,67.29,101.02,68.21,8.58" target="#b15">(Kuger, Pflieger, &amp; Rossbach, 2005)</ref>.</s><s xml:id="_FUQqf2p" coords="6,142.52,101.02,283.38,8.58;6,67.29,112.92,266.02,8.58">One scale measure to assess the quality of the early years HLE was developed considering information from all three data sources.</s><s xml:id="_vJdt3Nc" coords="6,335.84,112.92,90.07,8.58;6,67.29,124.89,216.38,8.58">The scale contains 20 items which refer to activities as well as to material.</s><s xml:id="_aMUs2k2" coords="6,286.12,124.89,139.77,8.58;6,67.29,136.85,358.61,8.58;6,67.29,148.81,187.45,8.58">Example items are stimulation to learn the alphabet, frequency of shared book reading, counting activities, and stimulation to learn spatial relationships.</s><s xml:id="_TuPeCZk" coords="6,260.72,146.31,165.19,11.07;6,67.29,160.77,318.82,8.58">The internal consistency (Cronbach ´s alpha) at the three measurements is 0.74, 0.77, and 0.77, respectively.</s><s xml:id="_BEsQHgW" coords="6,391.45,160.77,34.43,8.58;6,67.29,172.73,358.55,8.58;6,67.29,184.70,358.58,8.58;6,67.29,196.66,104.29,8.58">For the following analyses, the scale was standardized to a range of 0 to 1, and one indicator representing overall quality was derived by taking the means of the composite over the three measurements.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_XBWh9ud">Preschool measures</head><p xml:id="_VnNTFGa"><s xml:id="_jtgeb8f" coords="6,67.29,244.57,119.70,8.40">Structural (quality) factors.</s><s xml:id="_GThuYp8" coords="6,190.66,244.45,235.24,8.58;6,67.29,256.41,358.59,8.58;6,67.29,268.37,102.12,8.58;6,169.46,266.15,3.74,5.72;6,176.14,268.38,230.21,8.58">Structural (quality) factors included the proportion of children with a parental native language different from German in the class, class size, child-staff ratio, m 2 per child, and the average age of children in the class.</s><s xml:id="_Be85mrk" coords="6,409.43,268.38,16.49,8.58;6,67.29,280.34,161.93,8.58">The federal state was treated as a control.</s></p><p xml:id="_A5gjXwZ"><s xml:id="_gxs28zq" coords="6,67.29,304.32,66.64,8.40">Process quality.</s><s xml:id="_hxKmseW" coords="6,137.31,304.20,288.58,8.58;6,67.29,316.17,358.62,8.58;6,67.29,328.13,49.66,8.58">The quality of preschool measure is based on observations of each preschool setting using environment ratings (German versions of ECERS-R and ECERS-E).</s><s xml:id="_fgYFBU6" coords="6,119.68,328.13,306.23,8.58;6,67.29,340.09,358.62,8.58;6,67.29,352.05,358.60,8.58;6,67.29,364.02,166.65,8.58">This study focused on ECERS-E <ref type="bibr" coords="6,262.03,328.13,76.95,8.58" target="#b38">(Sylva et al., 2003)</ref>, which is a measure of process quality considering four educational aspects: the quality of learning environments for verbal, mathematics, and science literacy and taking care of diversity and individual learning needs.</s><s xml:id="_bfV9sQp" coords="6,236.69,364.02,189.20,8.58;6,67.29,375.98,247.79,8.58">The overall score of ECERS-E as well as the subscale ''mathematics'' were used in the present analyses.</s><s xml:id="_CFegcyK" coords="6,317.81,375.98,108.10,8.58;6,67.29,387.94,358.59,8.58;6,67.29,399.84,163.57,8.58">These were the indicators which had shown to have an effect on the development of numeracy skills between age 3 and age 5 <ref type="bibr" coords="6,139.52,399.84,87.03,8.58" target="#b0">(Anders et al., 2012)</ref>.</s><s xml:id="_M4Zt2Z7" coords="6,234.42,399.84,191.46,8.58;6,67.29,411.81,358.58,8.58;6,67.29,423.77,112.15,8.58">Although some preschool characteristics are naturally subject to change (e.g., class composition), the correlations between the assessments are moderate.</s><s xml:id="_rxpxjN4" coords="6,182.55,423.77,243.32,8.58;6,67.29,435.73,358.59,8.58;6,67.29,447.69,211.04,8.58">For all preschool measures, average scores of the annual assessments were used in the following analyses to keep the complexity of the following statistical models at a reasonable level.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_8RhWk8D">Primary school measures</head><p xml:id="_bfttRx5"><s xml:id="_J7gkQPT" coords="6,67.29,495.60,156.16,8.40">Instructional quality in mathematics.</s><s xml:id="_zCrbCmg" coords="6,227.39,495.48,198.50,8.58;6,67.29,507.45,358.60,8.58;6,67.29,519.41,358.52,8.58;6,67.29,531.37,136.17,8.58">The measurement of quality of instruction in mathematics is based on classroom observations assuming three dimensions of instructional quality <ref type="bibr" coords="6,159.02,519.41,88.50,8.58" target="#b12">(Klieme et al., 2009)</ref>: supportive climate, classroom management, and cognitive activation.</s><s xml:id="_XJfzmhJ" coords="6,207.72,531.37,218.17,8.58;6,67.29,543.33,89.69,8.58">In this study, we focus on cognitive activation in mathematics lessons.</s><s xml:id="_w8PjGNX" coords="6,160.49,543.33,198.44,8.58">It was covered by five items <ref type="bibr" coords="6,285.56,543.33,69.06,8.58" target="#b33">(Steinweg, 2009)</ref>.</s><s xml:id="_swK7XrK" coords="6,362.54,543.33,63.31,8.58;6,67.29,555.30,339.72,8.58">Example items are: ''positive culture of handling mistakes'' and ''transparency of lesson's goal''.</s><s xml:id="_QBBFBHW" coords="6,409.42,555.30,16.49,8.58;6,67.29,566.93,290.10,9.32">The items were aggregated to a scale measure (Cronbach's alpha ¼ .82).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_RYKZm9g">Statistical analyses</head><p xml:id="_Y8PP8dw"><s xml:id="_jsRCua8" coords="6,67.29,615.05,358.61,8.58;6,67.29,627.01,151.15,8.58">To examine the influences on the development of numeracy skills over time, two strings of analyses were conducted.</s><s xml:id="_M9zjcwe" coords="6,221.72,627.01,204.16,8.58;6,67.29,638.97,358.58,8.58;7,67.29,65.13,358.58,8.58;7,67.29,77.09,358.62,8.58;7,67.29,89.06,346.32,8.58">In the first string, we analysed the development of numeracy skills between age 3 and age 7. The main focus of the first set of analyses was to investigate if effects of preschool experience continue until age 7. Latent linear growth curve (LLGC) models were fitted to the data with four repeated measurements (numeracy skills at first, second, third, and fourth assessment).</s><s xml:id="_7Qwjc72" coords="7,418.21,89.06,7.67,8.58;7,67.29,101.02,150.82,8.58">A stepwise procedure was carried out.</s><s xml:id="_GCVzPe2" coords="7,220.64,101.02,205.23,8.58;7,67.29,112.92,358.60,8.58;7,67.29,124.89,125.85,8.58">First, a null model with an intercept and a linear slope was specified, only considering age at assessment as time-varying predictor of numeracy skills and growth.</s><s xml:id="_5KZYzzw" coords="7,197.74,124.89,228.14,8.58;7,67.29,136.85,358.60,8.58;7,67.29,148.81,134.69,8.58">Then child, individual background factors, and the quality of the HLE were tested as potential influencing factors for initial attainment and growth (LLGC -Model 1).</s><s xml:id="_6ZX5GBU" coords="7,204.49,148.81,156.47,8.58">Model 1 served as the control model.</s><s xml:id="_adDZZ49" coords="7,363.51,148.81,62.38,8.58;7,67.29,160.77,358.58,8.58;7,67.29,172.73,125.34,8.58">In a third step, structural (quality) characteristics of the preschools were additionally included in the models (LLGC -Model 2).</s><s xml:id="_w33c3Hq" coords="7,197.46,172.73,228.42,8.58;7,67.29,184.70,358.61,8.58">Fourth, indicators of preschool quality were tested individually while controlling for the other variables (LLGC -Model 3a, Model 3b).</s><s xml:id="_Xd9Qx7t" coords="7,67.29,196.66,358.62,8.58;7,67.29,208.56,358.57,8.58;7,67.29,220.53,16.49,8.58">Finally, we tested whether effects of preschool quality remain stable when including quality of instruction at primary school in the models (LLGC -Model 4a, Model 4b).</s><s xml:id="_yxcHfJr" coords="7,87.42,220.53,338.41,8.58;7,67.29,232.49,253.71,8.58">Model fit was evaluated by root mean square error approximation (RMSEA) and comparative fit index (CFI) (see <ref type="bibr" coords="7,229.54,232.49,87.14,8.58" target="#b11">Hu &amp; Bentler, 1999)</ref>.</s><s xml:id="_ftkEJFn" coords="7,324.62,232.49,101.24,8.58;7,67.29,244.45,358.56,8.58;7,67.29,256.41,148.29,8.58">The data have a nested structure, with children being nested in preschool classes (age 3 to age 5) or primary school classes (age 7), respectively.</s><s xml:id="_X8fQVy9" coords="7,218.66,256.41,207.16,8.58;7,67.29,268.37,358.55,8.58;7,67.29,280.34,68.28,8.58">Although the numbers of children per preschool or primary school class were low, ignoring the clustering may lead to unreliable standard errors.</s><s xml:id="_WEzekcU" coords="7,138.38,280.34,287.50,8.58;7,67.29,292.30,21.47,8.58">We used standard errors adjusted for the multilevel structure of the data.</s><s xml:id="_b4N9mbm" coords="7,92.24,292.30,333.67,8.58;7,67.29,304.20,303.42,8.58;7,370.83,301.98,3.74,5.72">As the preschool classes are the main source of clustering between age 3 and age 7, we decided to take account of the clustering by preschool classes. 3</s><s xml:id="_uJm2udJ" coords="7,377.18,304.21,48.74,8.58;7,67.30,315.84,358.62,9.31;7,67.30,328.13,136.97,8.58">The sample size for the first string of analyses was n ¼ 532 children with at least one valid outcome measure and predictor.</s><s xml:id="_spz5F8F" coords="7,206.70,328.13,219.23,8.58;7,67.30,340.09,96.73,8.58">The strategy of analyses for this string of analyses is illustrated in Figure <ref type="figure" coords="7,156.35,340.09,3.84,8.58" target="#fig_0">1</ref>.</s></p><p xml:id="_AGNtsAh"><s xml:id="_cGhhzeU" coords="7,82.21,352.05,343.68,8.58;7,67.30,364.02,358.62,8.58">A second string of analyses was conducted to explore the influence of the instructional quality in mathematics at the primary school attended in more detail.</s><s xml:id="_jgBmsmt" coords="7,67.30,375.98,358.62,8.58;7,67.30,387.94,358.57,8.58;7,67.30,399.85,37.92,8.58">In this string, we focused on the development between age 5 (last year of preschool) and age 7 (first year of primary school) using multivariate value-added regression analyses.</s><s xml:id="_JCZ2ccu" coords="7,108.96,399.85,316.93,8.58;8,67.29,65.13,358.59,8.58;8,67.29,77.09,358.59,8.58;8,67.29,89.06,358.59,8.58;8,67.29,101.02,95.01,8.58">The outcome was achievement in numeracy at age 7. First, influences of preschool quality on achievement were investigated controlling for attainment at age 5 and all other child, background, home learning, and preschool characteristics (Regression model 1a: including ECERS-mathematics, Regression model 1b: including ECERS-E).</s><s xml:id="_Kr6vPtc" coords="8,168.21,101.02,257.70,8.58;8,67.29,112.92,358.58,8.58;8,67.29,124.89,329.15,8.58">Second, instructional quality of the primary school was added, controlling for all predictors included in Model 1 (Regression model 2a: including ECERS-mathematics, Regression model 2b: including ECERS-E).</s><s xml:id="_qgunnNw" coords="8,399.91,124.89,25.98,8.58;8,67.29,136.85,358.60,8.58;8,67.29,148.81,255.96,8.58">In the next step, interaction terms (process quality of preschool x instructional quality of primary school) were specified and included in the model.</s><s xml:id="_ENJWs5f" coords="8,327.39,148.81,98.46,8.58;8,67.29,160.77,358.62,8.58;8,67.29,172.73,358.59,8.58;8,67.29,184.70,43.32,8.58">As the primary school classes were the main source of clustering for the outcome in this string of analyses, standard errors accounting for the clustering by primary school classes were estimated.</s><s xml:id="_mWvtbRh" coords="8,112.99,184.37,312.89,9.31;8,67.29,196.66,222.37,8.58">The sample size for the second string of analyses was n ¼ 396 children with at least one valid outcome measure and predictor.</s><s xml:id="_KudQYN9" coords="8,293.89,196.66,132.00,8.58;8,67.29,208.56,145.20,8.58">The strategy for this string of analyses is illustrated in Figure <ref type="figure" coords="8,204.82,208.56,3.84,8.58" target="#fig_1">2</ref>.</s></p><p xml:id="_JrP38Zg"><s xml:id="_Dk8nWuj" coords="8,82.20,220.53,343.69,8.58">All analyses were carried out using MPlus version 5.2 <ref type="bibr" coords="8,310.55,220.53,106.70,8.58" target="#b20">(Muthe´n &amp; Muthe´n, 2008</ref>).</s><s xml:id="_dXEhuZU" coords="8,67.29,232.49,358.60,8.58;8,67.29,244.45,358.61,8.58;8,67.29,256.41,243.87,8.58">To deal with missing data, we chose the full information maximum likelihood (FIML) approach (e.g., <ref type="bibr" coords="8,169.34,244.45,67.85,8.58" target="#b2">Arbuckle, 1996)</ref> that is implemented in MPlus and uses valid information of all observations for model estimation.</s><s xml:id="_7EuVYDc" coords="8,316.79,256.41,109.09,8.58;8,67.29,268.37,358.54,8.58;8,67.29,280.34,358.58,8.58;8,67.29,292.30,218.73,8.58">To account for possible selection bias (e.g., NICHD <ref type="bibr" coords="8,187.36,268.37,110.39,8.58">ECCRN &amp; Duncan, 2003)</ref>, we included child and family background indicators which might be correlated with the outcome as well as with indicators of the quality of learning environments.</s><s xml:id="_QgaGXnF" coords="8,289.58,292.30,136.34,8.58;8,67.29,304.20,358.62,8.58;8,67.29,316.16,75.71,8.58">All continuous variables were z standardized before included in the multivariate analyses or before building interaction terms.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_VzxrcZG">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_GD9Hgm2">Descriptives</head><p xml:id="_uvFVys4"><s xml:id="_pA5BbSQ" coords="8,67.29,375.98,286.95,8.58">Table <ref type="table" coords="8,94.39,375.98,4.98,8.58" target="#tab_1">1</ref> shows descriptive statistics for the outcome and predictors.</s><s xml:id="_9DvgjsN" coords="8,357.15,375.98,68.72,8.58;8,67.29,387.94,358.57,8.58;8,67.29,399.84,343.03,8.58;8,410.34,397.62,3.74,5.72">The descriptives shown for the quality of the HLE and preschool characteristics represent mean scores of all available assessments while the children moved through preschool. 4</s><s xml:id="_2mpErad" coords="8,82.20,411.81,343.67,8.58;8,67.29,423.77,94.41,8.58"> The results illustrate the average growth of achievement in arithmetic over the duration of the study.</s><s xml:id="_2w7VF5e" coords="8,165.03,423.77,260.85,8.58;8,67.29,435.73,100.64,8.58">There were no indications of any floor or ceiling effects over the investigated period.</s><s xml:id="_XGZXByY" coords="8,171.38,435.73,254.50,8.58;8,67.29,447.69,111.16,8.58">Looking at the quality of the HLE, we observe substantial variance between families.</s><s xml:id="_ZQpeHuX" coords="8,181.13,447.69,244.71,8.58;9,67.29,340.09,155.70,8.58">With regard to the preschool characteristics, the observed process quality is of special interest.</s><s xml:id="_EkcWwmt" coords="9,226.37,340.09,199.51,8.58;9,67.29,352.05,358.63,8.58;9,67.29,364.02,40.54,8.58">We see that the quality in terms of promoting domain-specific skills and abilities is low or medium in most of the preschools observed.</s><s xml:id="_3aB5EeW" coords="9,110.72,364.02,315.20,8.58;9,67.29,375.98,244.12,8.58">The mean of instructional quality in mathematics is 3.21, and we also find substantial variance between primary school classrooms.</s></p><p xml:id="_5NhDFVs"><s xml:id="_Fq4PCD9" coords="9,67.29,408.85,319.91,8.58;9,67.29,420.76,358.60,8.58;9,67.29,432.72,84.51,8.58">How are child characteristics, family factors, and early years home learning environment related with the development of numeracy skills between age 3 and age 7? (LLGC -Model 1)</s></p><p xml:id="_TGdcq9A"><s xml:id="_b8W638j" coords="9,67.29,447.69,358.66,8.58;9,67.29,459.66,197.37,8.58">The impact of the control variables on initial numeracy skills and their development over years was explored with growth models.</s><s xml:id="_pE28WM5" coords="9,268.27,459.66,157.61,8.58;9,67.29,471.62,358.62,8.58;9,67.29,483.25,358.60,9.31;9,67.29,495.16,358.57,9.31">The null model confirmed the linear growth of numeracy skills over the years as well as that the age of the child is a significant predictor at all measurement points (Year 1: b ¼ 0.30***, Year 2: b ¼ 0.31***, Year 3: b ¼ 0.27***, Year 4: b ¼ 0.26***, unstandardized coefficients).</s><s xml:id="_KtgH37P" coords="9,67.29,507.45,358.57,8.58;9,67.29,519.41,358.54,8.58;9,67.29,531.37,42.68,8.58">In Model 1, explanatory individual child, family background factors and the quality of the learning environment at home (HLE) were additionally included as predictors (Table <ref type="table" coords="9,98.98,531.37,3.66,8.58" target="#tab_2">2</ref>).</s><s xml:id="_FZemKcA" coords="9,114.12,531.37,311.76,8.58;9,67.29,543.33,358.54,8.58;9,67.29,555.30,224.65,8.58">The results show that gender, parental native language status, and the socioeconomic status of the family have a significant influence on initial achievement levels (intercept) as well as on further growth (slope).</s><s xml:id="_Ut6XXvE" coords="9,294.57,555.30,131.35,8.58;9,67.29,567.26,358.58,8.58">Mother's educational level and the quality of the early years HLE are associated with the intercept but not the slope.</s><s xml:id="_cThagr2" coords="9,67.29,578.89,358.62,9.32;9,67.29,590.80,358.57,9.32">Girls start better (b ¼ 70.29, p 5 0.01), but boys catch up and even show slightly better achievement at the end of the 1st year of primary school (b ¼ 0.94, p 5 0.001).</s><s xml:id="_dRJdRmH" coords="9,67.29,603.09,358.57,8.58;9,67.29,614.72,358.57,9.32;9,67.29,626.68,358.58,9.32;9,67.29,638.65,358.61,9.32;10,67.29,423.44,126.98,9.31">Children whose parents have a native language different from German show lower achievement at the first assessment (one parent: b ¼ 70.66, p 5 0.001, both parents: b ¼ 70.90, p 5 0.001), but compared to their peers with native German parents they show relatively stronger growth over the years (one parent: b ¼ 0.80, p 5 0.05, both parents: b ¼ 1.96, p 5 0.001).</s><s xml:id="_9CUwB9r" coords="10,198.82,423.77,227.08,8.58;10,67.30,435.73,358.58,8.58;10,67.30,447.37,358.63,9.31;10,67.29,459.33,332.55,9.31">With respect to the influence of the socioeconomic status of the family (HISEI), we find that children with higher socioeconomic status have higher numeracy skills already at the first assessment (b ¼ 0.12, p 5 0.05) and that the achievement gap widens over the following years (b ¼ 0.30, p 5 0.01).</s><s xml:id="_yGtGDab" coords="10,402.74,459.66,23.12,8.58;10,67.29,471.29,358.60,9.31;10,67.29,483.30,313.52,8.86">Early years HLE has a strong effect on numeracy skills at age 3 (intercept, b ¼ 0.23, p 5 0.01), but there is no further significant effect of HLE on the slope.</s><s xml:id="_UBcQwFc" coords="10,384.48,483.58,41.41,8.58;10,67.30,495.16,220.75,9.31">The fit of Model 1 is moderate (CFI ¼ 0.91, RMSEA ¼ 0.07).</s></p><p xml:id="_yFXYpp2"><s xml:id="_JFqgGBe" coords="10,67.29,528.36,339.37,8.58;10,67.29,540.32,326.06,8.58">How are characteristics of the preschool settings related with the development of numeracy skills between age 3 and age 7? (LLGC: Models 2, 3a, 3b, 4a, 4b)</s></p><p xml:id="_uFnMeNf"><s xml:id="_GjKeSgp" coords="10,67.29,555.30,290.44,8.58">In the next step, the influence of preschool indicators was examined.</s><s xml:id="_wJsXDDE" coords="10,360.50,555.30,65.42,8.58;10,67.29,567.26,4.58,8.58;12,82.20,136.85,343.69,8.58;12,67.29,148.81,358.61,8.58;12,67.29,160.77,125.08,8.58">LLGC model 2 (  To investigate if effects of preschool quality persist until the end of the 1st year of primary school (age 7), indicators of the process quality of the preschool were added in LLGC models 3a and 3b.</s><s xml:id="_FyGET6H" coords="12,196.16,160.77,229.77,8.58;12,67.29,172.73,171.48,8.58">None of the indicators has a significant influence on initial achievement levels (see Table <ref type="table" coords="12,227.78,172.73,3.66,8.58" target="#tab_3">3</ref>).</s><s xml:id="_neXYeA5" coords="12,242.81,172.73,183.08,8.58;12,67.29,184.70,358.62,8.58;12,67.29,196.33,358.58,9.31;12,67.29,208.23,85.23,9.31">The overall ECERS-E score just failed to reach statistical significance in its impact on growth between age 3 and age 7 (b ¼ 0.19, p ¼ 0.08), but ECERS-mathematics has a significant influence on growth (b ¼ 0.20, p 5 0.05).</s><s xml:id="_yqeA5YQ" coords="12,155.51,208.56,270.40,8.58;12,67.29,220.53,358.60,8.58;12,67.29,232.49,97.33,8.58">Model fit of Models 3a and 3b is satisfying; the models explain 35% of variance of the intercept, amounts of explained variance of the slope are 75% and 76%, respectively.</s></p><p xml:id="_dbGxp7J"><s xml:id="_5crQgmm" coords="12,82.20,244.45,343.69,8.58;12,67.29,256.41,142.60,8.58">Children who went to higher quality preschool settings might also have moved to higher quality primary schools.</s><s xml:id="_wEKWBht" coords="12,215.88,256.41,210.01,8.58;12,67.29,268.37,358.62,8.58;12,67.29,280.34,358.59,8.58;12,67.29,292.30,202.75,8.58">One might argue that the persisting effect of preschools' process quality on the development of numeracy skills is reflecting a positive effect of primary schools' instructional quality in mathematics rather than showing a persisting effect of preschool quality.</s><s xml:id="_GYRCgPw" coords="12,272.97,292.30,152.93,8.58;12,67.29,304.20,358.60,8.58;12,67.29,315.84,358.64,9.31;12,67.29,327.80,48.55,9.31">In our sample, we find only low but negative correlations between preschools' process quality and primary schools' instructional quality in mathematics (ECERS-E: r ¼ 70.05, ECERS-mathematics: r ¼ 70.03).</s><s xml:id="_btdSzgB" coords="12,119.45,327.80,306.45,9.31;12,67.29,339.76,358.60,9.31;12,67.29,352.05,358.65,8.58;12,67.29,363.68,127.98,9.31">Also, the beneficial effects of ECERS-mathematics (b ¼ 0.21, p 5 0.05) and ECERS-E (b ¼ 0.21, p 5 0.10) on growth remain stable in the models (4a, 4b) when controlling for the instructional quality in mathematics at the primary school attended (b ¼ 0.08, p 4 0.05).</s><s xml:id="_e7Z8BMj" coords="12,199.67,364.01,226.16,8.58;12,67.29,375.98,358.55,8.58;12,67.29,387.94,71.50,8.58">The strengths of the effects of the other predictors included in Models 4a and 4b also remain stable when primary schools' instructional quality is added.</s><s xml:id="_TDkJdza" coords="12,142.13,387.94,241.24,8.58">Therefore, Models 4a and 4b are not shown in Table <ref type="table" coords="12,375.69,387.94,3.84,8.58" target="#tab_1">1</ref>.</s></p><p xml:id="_QMn8nuH"><s xml:id="_a8y86Z3" coords="12,67.29,420.75,358.60,8.58;12,67.29,432.71,283.43,8.58">How do the qualities of pre-and primary school interact in their influence on numeracy skills between age 5 and age 7? (Regression models 1a, 1b, 2a, 2b)</s></p><p xml:id="_2NSyCA6"><s xml:id="_gUXGB6U" coords="12,67.29,447.69,358.62,8.58;12,67.29,459.65,358.56,8.58;12,67.29,471.62,50.87,8.58">We further focused on the development between age 5 and age 7, when children move from preschool to primary school and have their first primary school experiences.</s><s xml:id="_UPA5NQ9" coords="12,120.58,471.62,305.33,8.58;12,67.29,483.58,123.28,8.58">In multivariate value-added regression analyses, numeracy skills at age 7 were treated as an outcome.</s><s xml:id="_kHen9k9" coords="12,194.34,483.58,231.49,8.58;12,67.29,495.48,358.61,8.58;12,67.29,507.44,306.42,8.58">In the first step, the influences of preschools' process quality on achievement were investigated controlling for achievement at age 5 and all other child, background, home learning, and preschool characteristics.</s><s xml:id="_ns9x7mY" coords="12,377.34,507.44,48.58,8.58;12,67.29,519.41,274.30,8.58">Second, we included the quality of mathematics instruction in the models.</s><s xml:id="_pd85uJ3" coords="12,345.59,519.41,80.29,8.58;12,67.29,531.37,358.59,8.58;12,67.29,543.33,63.98,8.58">Table <ref type="table" coords="12,373.82,519.41,4.98,8.58" target="#tab_4">4</ref> shows the results of the models including the subscale ''mathematics'' of ECERS-E (Regression models 1a, 2a).</s><s xml:id="_fdNc3V7" coords="12,133.96,543.33,291.87,8.58;12,67.29,555.29,251.73,8.58">It should be noted that the coefficients may not be compared directly with the coefficients obtained in the latent growth models.</s><s xml:id="_Nd2bder" coords="12,322.40,555.29,103.42,8.58;12,67.29,567.26,358.63,8.58;12,67.29,578.89,129.00,9.32">The results demonstrate that -as expected -numeracy skills at age 5 are highly predictive for numeracy skills at age 7 (b ¼ 0.48, p 5 0.001).</s><s xml:id="_XFGwkdW" coords="12,199.84,579.22,226.02,8.58;12,67.29,590.79,358.59,9.32;12,67.29,603.08,279.65,8.58">We further see that the socioeconomic status is also related with progress between age 5 and age 7 (b ¼ 0.13, p 5 0.05), whereas parental native language status and mother's educational level are not.</s><s xml:id="_ZzpK7us" coords="12,351.83,603.08,74.05,8.58;12,67.29,615.05,358.62,8.58;12,67.29,626.68,86.06,9.32">Interestingly, the quality of early years HLE shows an effect for development between age 5 and age 7 (b ¼ 0.09, p 5 0.05).</s><s xml:id="_6gnVHFC" coords="12,157.27,627.01,268.62,8.58;12,67.30,638.97,358.60,8.58;13,67.29,483.58,332.42,8.58">But while observing this, one has to consider that testing the effect of HLE in the latent growth model is more conservative than testing it in value-added regression analyses considering two measurement points only.</s><s xml:id="_bRfQgMQ" coords="13,404.49,483.58,21.43,8.58;13,67.29,495.49,358.61,8.58;13,67.29,507.12,358.61,9.32;13,67.29,519.41,95.93,8.58">With regard to preschool characteristics, the findings indicate that children who attended larger preschool classes (b ¼ 0.11, p 5 0.01) and children from Hesse (b ¼ 70.15) show better progress.</s><s xml:id="_pCJc4G7" coords="13,168.60,519.41,257.23,8.58;13,67.29,531.04,358.58,9.32;13,67.29,543.34,57.02,8.58">The process quality of the preschool setting in fostering mathematical skills (ECERS-mathematics: b ¼ 0.07, p 5 0.05) is also predictive for development.</s><s xml:id="_ebtGrRU" coords="13,127.05,543.34,298.84,8.58;13,67.29,555.30,358.57,8.58;13,67.29,567.26,101.14,8.58">This result underlines that children not only start with better skills but also move forward faster in primary school when they attended a high quality preschool centre before.</s><s xml:id="_v4wJs7p" coords="13,170.87,567.26,255.05,8.58;13,67.29,579.22,358.58,8.58;13,67.29,590.80,358.56,9.32;13,67.29,602.76,113.64,9.32">The results for Model 2a show that the quality of instruction in mathematics in the primary school class attended fails to show significant influence on progress (b ¼ 0.03, p 4 0.05), but the effect of preschool quality remains stable (b ¼ 0.08, p 5 0.05).</s></p><p xml:id="_qgsjx73"><s xml:id="_XTJehcR" coords="13,82.20,615.05,343.69,8.58;13,67.29,627.01,288.50,8.58">The same set of analyses was run using the ECERS-E total score as indicator of the process quality of the preschool (Regression models 2a, 2b).</s><s xml:id="_GW7sCqk" coords="13,360.44,627.01,65.45,8.58;13,67.29,638.98,358.60,8.58;14,67.29,65.13,79.56,8.58">The pattern of results is similar to the pattern obtained for ECERS-mathematics and therefore not shown in a table.</s><s xml:id="_EZ2WCmg" coords="14,151.93,65.13,273.96,8.58;14,67.29,77.09,358.62,8.58;14,67.29,88.73,326.32,9.31">While the total score of ECERS-E failed to reach statistical significance for growth over the whole period between age 3 and age 7, we now find a significant effect for progress between age 5 and age 7 (b ¼ 0.09, p 5 0.05).</s><s xml:id="_zeB9bsQ" coords="14,397.36,89.06,28.51,8.58;14,67.29,101.02,358.52,8.58;14,67.29,112.59,358.61,9.31;14,67.29,124.56,160.29,9.32">Again, primary school's quality of instruction in mathematics has no additional predictive value (b ¼ 0.03, p 4 0.05), and the process quality of the preschool does not loose its predictive power (b ¼ 0.09, p 5 0.05).</s></p><p xml:id="_mC3TFRN"><s xml:id="_hEjvMJh" coords="14,82.20,136.85,343.69,8.58;14,67.29,148.81,196.17,8.58">Finally, we tested whether we could establish interactive effects of the qualities of the learning environments in both settings.</s><s xml:id="_S42KX4t" coords="14,269.11,148.81,156.81,8.58;14,67.29,160.89,358.53,8.40;14,67.29,172.73,358.57,8.58;14,67.29,184.70,358.65,8.58;14,67.29,196.33,358.59,9.31;14,67.29,208.23,358.61,9.31;14,67.29,220.20,92.21,9.31">Both interaction terms (ECERSmathematics x quality of instruction in mathematics, ECERS-E x quality of instruction mathematics) did not have any significant influence on numeracy skills at age 7 when controlling for attainment at age 5 and all other background, family, home learning, and preschool characteristics (b ¼ ECERS -mathematics x quality of instruction in mathematics: b ¼ 70.03, p 4 0.05; ECERS-E x quality of instruction mathematics: b ¼ 70.06, p 4 0.05).</s><s xml:id="_d2an38V" coords="14,162.82,220.53,263.05,8.58;14,67.29,232.49,358.66,8.58;14,67.29,244.45,69.31,8.58">Taken together, results indicate that the instructional quality of mathematics lessons in primary schools needs more time to take a significant effect than just 1 year.</s><s xml:id="_6rETbdP" coords="14,139.57,244.45,286.29,8.58;14,67.29,256.41,150.60,8.58">At this time, it is still the prior preschool experience having greater influence on progress in numeracy.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_EFCrZHh">Discussion</head><p xml:id="_M2kspD2"><s xml:id="_zkbvxfy" coords="14,67.29,304.20,358.62,8.58;14,67.29,316.16,358.62,8.58;14,67.29,328.13,358.62,8.58;14,67.29,340.09,31.90,8.58">The presented study investigated the development of numeracy skills between age 3 and 7 and provided insight into the influences of preschool characteristics and primary school quality controlling for child, family background, and home learning factors.</s><s xml:id="_g8cqdnH" coords="14,101.59,340.09,324.28,8.58;14,67.29,352.05,358.62,8.58;14,67.29,364.01,171.47,8.58">The results show, on the one hand, that achievement differences due to social background, family factors, and the quality of the home learning environment emerge very early in the lives of young children.</s><s xml:id="_s4H6CMJ" coords="14,241.67,364.01,184.19,8.58;14,67.29,375.98,358.57,8.58;14,67.29,387.94,99.00,8.58">This is in line with findings of other studies (e.g., <ref type="bibr" coords="14,93.48,375.98,90.30,8.58" target="#b1">Anders et al., 2011;</ref><ref type="bibr" coords="14,189.23,375.98,122.56,8.58" target="#b8">ECCE Study Group, 1999;</ref><ref type="bibr" coords="14,317.25,375.98,108.62,8.58">NICHD ECCRN, 2002;</ref><ref type="bibr" coords="14,67.29,387.94,94.68,8.58" target="#b30">Sammons et al., 2004)</ref>.</s><s xml:id="_ayEYZjy" coords="14,169.85,387.94,256.06,8.58;14,67.29,399.84,78.29,8.58">But, on the other hand, we see that school experiences can make a difference.</s><s xml:id="_yHFXXNG" coords="14,148.82,399.84,277.10,8.58;14,67.29,411.80,358.58,8.58;14,67.29,423.77,277.77,8.58">Looking at the effect of preschool characteristics over the whole age range (age 3 to age 7), we find that structural characteristics of the class and the setting are associated with initial achievement levels of children.</s><s xml:id="_wSDhN4v" coords="14,348.65,423.77,77.26,8.58;14,67.29,435.73,358.59,8.58;14,67.29,447.69,358.61,8.58">Classes of smaller size, classes of higher average age, and classes with fewer children whose parents have a different mother tongue than German show better initial numeracy skills.</s><s xml:id="_DRq24rh" coords="14,67.29,459.65,358.58,8.58;14,67.29,471.62,55.34,8.58">Furthermore, the spatial size of the preschool setting is also associated with better achievement.</s><s xml:id="_M4K6zkA" coords="14,126.76,471.62,299.12,8.58;14,67.29,483.58,214.87,8.58">When developmental growth over the whole age range is examined, none of these indicators has a significant influence.</s><s xml:id="_xRcZY68" coords="14,284.87,483.58,140.99,8.58;14,67.29,495.48,358.62,8.58;14,67.29,507.44,358.56,8.58;14,67.29,519.41,25.93,8.58">All the indicators that are related to initial numeracy skills are understood as quality indicators or are known to be correlated with process quality in German preschool classes <ref type="bibr" coords="14,333.17,507.44,92.68,8.58;14,67.29,519.41,21.61,8.58" target="#b13">(Kuger &amp; Kluczniok, 2008)</ref>.</s><s xml:id="_UeM4j8y" coords="14,97.28,519.41,328.61,8.58;14,67.29,531.37,175.37,8.58">Thus, the observed associations are reflecting the current understanding of producing quality in preschool settings.</s><s xml:id="_NpCh5R6" coords="14,247.23,531.37,178.66,8.58;14,67.29,543.33,310.30,8.58">However, it is striking that they do not explain significant variance in children's developmental growth over time.</s><s xml:id="_WC9gDNx" coords="14,380.00,543.33,45.89,8.58;14,67.29,555.29,358.58,8.58;14,67.29,567.26,358.61,8.58;14,67.29,579.22,358.60,8.58;14,67.29,591.12,78.18,8.58">As most of the children usually have already spent a couple of months in the setting when they are tested the first time, this might point to the fact that achievement differences due to structural quality differences show up already shortly after the children have entered preschool.</s><s xml:id="_kmH5SzS" coords="14,148.65,591.12,277.27,8.58;14,67.29,603.08,358.56,8.58;14,67.29,615.05,258.78,8.58">Selection bias might be an alternative explanation, and although we controlled for child and family background factors, we cannot rule out that possibility completely (NICHD <ref type="bibr" coords="14,207.21,615.05,114.53,8.58">ECCRN &amp; Duncan, 2002)</ref>.</s><s xml:id="_mbKAvhg" coords="14,329.95,615.05,95.90,8.58;14,67.29,627.01,358.63,8.58;14,67.29,638.97,358.60,8.58;15,67.29,65.13,234.33,8.58">The results are in line with findings of <ref type="bibr" coords="14,141.11,627.01,54.49,8.58" target="#b36">Strand (1997</ref><ref type="bibr" coords="14,204.20,627.01,21.61,8.58" target="#b37">Strand ( , 1999))</ref>, who reports significant preschool effects on initial cognitive achievements at age 4, but not on progress between age 4 and 7. His analyses are based on large samples of English children.</s><s xml:id="_8HuCEBn" coords="15,303.87,65.13,122.03,8.58;15,67.29,77.09,358.60,8.58;15,67.29,89.06,358.58,8.58;15,67.29,101.02,358.55,8.58;15,67.29,112.92,306.09,8.58">When we turn to the effect of preschools' process quality, the study documented clearly that effects of preschools' process quality in fostering academic skills, especially mathematics, persist until the end of the first grade of primary school (age 7), regardless of the level of cognitive activation in the mathematics lessons at the primary school attended.</s><s xml:id="_N27Hh8M" coords="15,377.40,112.92,48.54,8.58;15,67.29,124.89,358.59,8.58;15,67.29,136.85,358.56,8.58;15,67.29,148.81,96.51,8.58">Our results underpin the argument that beneficial effects of high quality preschool experience may persist for a while, regardless of the primary school context (e.g., <ref type="bibr" coords="15,370.59,136.85,50.74,8.58">Gorey, 2001</ref><ref type="bibr" coords="15,421.33,136.85,4.52,8.58;15,67.29,148.81,92.19,8.58">, Sammons et al., 2008)</ref>.</s><s xml:id="_Rw35SwE" coords="15,166.56,148.81,259.33,8.58;15,67.29,160.77,358.59,8.58;15,67.29,172.73,75.76,8.58">The number of preschool centres that provide high quality in terms of fostering children's academic skills is relatively small in Germany <ref type="bibr" coords="15,385.27,160.77,40.61,8.58;15,67.29,172.73,71.44,8.58" target="#b13">(Kuger &amp; Kluczniok, 2008)</ref>.</s><s xml:id="_K7dH7jP" coords="15,145.81,172.73,280.11,8.58;15,67.29,184.70,358.62,8.58;15,67.29,196.66,358.55,8.58;15,67.29,208.56,297.11,8.58">Due to this fact, the variance of preschool quality in the sample is naturally reduced, and it is very likely that the impact of preschool quality on children's development is even underestimated (see <ref type="bibr" coords="15,285.16,196.66,77.39,8.58" target="#b0">Anders et al., 2012</ref>, for a detailed discussion of the association between variance and predictive power).</s></p><p xml:id="_zGkvAuY"><s xml:id="_2NJkevQ" coords="15,82.20,220.53,343.65,8.58;15,67.29,232.49,358.60,8.58;15,67.29,244.45,275.29,8.58">Focusing on the further development when children have moved to primary school (age 5 to age 7), findings show that the quality of HLE while children were in preschool has an effect on the development of numeracy skills.</s><s xml:id="_8sd2uRN" coords="15,346.38,244.45,79.50,8.58;15,67.29,256.41,358.61,8.58;15,67.29,268.37,109.24,8.58">The quality of the early years HLE is most likely to be correlated with parental support during the first grade of primary school.</s><s xml:id="_hkwWzGu" coords="15,180.68,268.37,245.21,8.58;15,67.29,280.34,358.62,8.58;15,67.29,292.30,72.98,8.58">Furthermore, studies conducted in other countries were also able to establish long-lasting effects of the quality of the early years HLE (e.g., <ref type="bibr" coords="15,67.29,292.30,68.66,8.58" target="#b18">Melhuish, 2010)</ref>.</s><s xml:id="_EzxJygm" coords="15,144.62,292.30,281.29,8.58;15,67.29,304.20,358.60,8.58;15,67.29,316.16,68.21,8.58">With regard to effects of preschool characteristics, we find that children who were cared for in larger classes make better progress in the 1st year of primary school.</s><s xml:id="_KZJjUEX" coords="15,139.63,316.16,286.25,8.58;15,67.29,328.13,358.60,8.58;15,67.29,340.09,164.34,8.58">One possible explanation is that children who attended relatively larger classes in preschool are already used to the larger group contexts they have to be accustomed to in primary school.</s><s xml:id="_2GcECP2" coords="15,236.29,340.09,189.60,8.58;15,67.29,352.05,358.58,8.58;15,67.29,364.01,52.05,8.58">When we look at the interactive effects of preschool quality and primary school quality, results point to interesting conclusions.</s><s xml:id="_kdCpym8" coords="15,122.62,364.01,303.30,8.58;15,67.29,375.98,358.62,8.58;15,67.29,387.94,222.57,8.58">First, preschool quality in terms of fostering children's academic skills does not only give children a better start to school but also seems to give them a boost for better progress in their numeracy skills.</s><s xml:id="_Ub8cg2H" coords="15,294.51,387.94,131.33,8.58;15,67.29,399.84,358.60,8.58;15,67.29,411.80,164.87,8.58">Second, the level of cognitive activation of mathematics instruction has no significant additional effect on progress and in the 1st year of primary school.</s><s xml:id="_fBbyDXy" coords="15,235.67,411.80,190.20,8.58;15,67.29,423.77,123.13,8.58">It cannot compensate for the effects of lowquality preschool experience.</s><s xml:id="_Z44HcNN" coords="15,193.03,423.77,232.80,8.58;15,67.29,435.73,358.59,8.58;15,67.29,447.69,219.61,8.58">But one also has to take into account that the outcome measure is not based on the curriculum in mathematics first grade, though measuring an important aspect of mathematical competence.</s><s xml:id="_kZ4Y7vX" coords="15,291.06,447.69,134.80,8.58;15,67.29,459.65,358.61,8.58;15,67.29,471.62,358.63,8.58;15,67.29,483.58,358.64,8.58;15,67.29,495.48,78.29,8.58">Other studies have also shown that the relationship between classroom context and cognitive progress seems to be complex (e.g., <ref type="bibr" coords="15,130.73,471.62,177.78,8.58" target="#b6">Curby, Rimm-Kaufman, &amp; Ponitz, 2009;</ref><ref type="bibr" coords="15,312.09,471.62,80.45,8.58" target="#b25">Pianta et al., 2008)</ref>, and it might be necessary to consider additional factors like emotional support to show differential effects.</s><s xml:id="_RHKPxd3" coords="15,148.98,495.48,276.90,8.58;15,67.29,507.44,172.08,8.58">We also assume that effects of instructional quality will increase the longer the children are exposed to it.</s><s xml:id="_uM9e9Tb" coords="15,242.19,507.44,183.68,8.58;15,67.29,519.41,358.57,8.58;15,67.29,531.37,274.97,8.58">They might be evident when children move further through primary school, although we did not find them in this study when children have spent only a couple of months in primary school.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_etuKgP5">Implications, limitations, and future research</head><p xml:id="_GP67UbE"><s xml:id="_sVNBg2V" coords="15,67.29,579.22,358.63,8.58;15,67.29,591.12,206.14,8.58">The study has provided evidence for the potential of high-quality early education programs to foster numeracy skills in Germany.</s><s xml:id="_NZBWkNu" coords="15,276.48,591.12,149.42,8.58;15,67.29,603.08,358.60,8.58;15,67.29,615.05,173.78,8.58">Recent policy changes in Germany seem to point in the right direction, and the study underlines that it is important to invest in high quality preschool settings.</s></p><p xml:id="_GNYYKKE"><s xml:id="_wzhXxYx" coords="15,82.20,627.01,343.67,8.58;15,67.29,638.97,221.43,8.58">But the possible conclusions of BiKS 3-10 are limited by the fact that data collection started at age 3 and not earlier (at birth).</s><s xml:id="_KauPPAe" coords="15,291.79,638.97,134.10,8.58;16,67.29,65.13,179.31,8.58">Furthermore, no control group without preschool experience is available.</s><s xml:id="_tDMF7nH" coords="16,250.12,65.13,175.76,8.58;16,67.29,77.09,358.53,8.58;16,67.29,89.06,358.60,8.58;16,67.29,101.02,219.31,8.58">We are aware that due to these facts the design does not allow for any conclusions regarding the effect of preschool experience compared to no preschool experience, and it will also not be possible to rule out the possibility of selection bias completely.</s><s xml:id="_FrePVRC" coords="16,289.69,101.02,136.19,8.58;16,67.29,112.92,358.62,8.58;16,67.29,124.89,358.56,8.58;16,67.29,136.85,358.62,8.58;16,67.29,148.81,268.00,8.58">While this paper focused on the development of numeracy skills, the findings of Ebert and colleagues on vocabulary development in this special issue highlight that it is not possible to generalize to other cognitive domains and that differential effects for certain groups of children (e.g., children with migration background) deserve more attention.</s><s xml:id="_B3fmGDp" coords="16,339.30,148.81,86.59,8.58;16,67.29,160.77,328.83,8.58">In addition, we will investigate possible influencing factors at primary school age in more detail.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_JuYxY2C">Notes</head><p xml:id="_VVza4j2"><s xml:id="_XZ247TE" coords="16,67.29,198.28,6.90,7.72">1.</s><s xml:id="_9xY2Xmt" coords="16,83.17,198.28,342.77,7.72;16,83.17,208.26,342.70,7.72;16,83.17,218.24,47.97,7.72">The study is conducted within two subprojects (grant to S. Weinert and H.-G. <ref type="bibr" coords="16,385.90,198.28,40.04,7.72">Rossbach)</ref> of the larger interdisciplinary research group BiKS, funded by the German Research Foundation.</s><s xml:id="_AAGc828" coords="16,134.64,218.24,291.25,7.72;16,83.17,228.16,342.73,7.72;16,83.17,238.14,48.34,7.72">We would like to thank all participating children, their parents, and their preschool teachers, as well as all students engaged in data collection for their most active cooperation.</s><s xml:id="_k2rHuRe" coords="16,67.29,248.11,358.62,7.72;16,83.17,258.03,342.77,7.72;16,83.17,268.01,202.29,7.72">2. Please note that this number is not equivalent to the class size as preschool classes usually were mixed-age groups, and therefore primary school enrolment was not due in 2008 (inclusion criterion) for all the children of one class.</s><s xml:id="_kwM8Jnn" coords="16,67.29,277.99,358.63,7.72">3. Please note that the potential effects of clustering in all these analyses are generally low.</s></p><p xml:id="_4PXKwNh"><s xml:id="_N95GaBn" coords="16,83.17,287.97,342.77,7.72;16,83.17,297.89,203.82,7.72">The pattern of results remains the same if standard errors adjusted for the clustering by preschool classes or primary school classes are used.</s><s xml:id="_aN58QQG" coords="16,290.09,297.89,135.83,7.72;16,83.17,307.87,307.32,7.72">The pattern of results remains also stable if standard errors not adjusted for the multilevel structure are estimated.</s><s xml:id="_TXjBpzm" coords="16,67.29,317.84,358.63,7.72;16,83.17,327.82,170.20,7.72">4. The shown descriptives for preschool measures are slightly different to those reported in the paper of <ref type="bibr" coords="16,135.38,327.82,114.23,7.72">Anders and colleagues (2012)</ref>.</s><s xml:id="_wzcwC5j" coords="16,256.93,327.82,169.01,7.72;16,83.17,337.74,342.76,7.72;16,83.17,347.72,34.06,7.72">This is due to the fact that for the present analyses one further measurement point of preschool indicators could be included in the analyses.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="7,67.29,639.35,258.90,7.72"><head>Figure 1 .</head><label>1</label><figDesc><div><p xml:id="_rXe9b8B"><s xml:id="_En7hZUb" coords="7,67.29,639.35,35.08,7.72">Figure 1.</s><s xml:id="_dfQUTeh" coords="7,111.34,639.35,214.85,7.72">Latent linear growth curve models: stepwise procedure.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="8,67.29,639.64,298.41,7.72"><head>Figure 2 .</head><label>2</label><figDesc><div><p xml:id="_9jqAkER"><s xml:id="_uJshumV" coords="8,67.29,639.64,298.41,7.72">Figure 2. Multivariate value added regression analyses: stepwise procedure.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,67.29,316.16,358.59,32.50"><head></head><label></label><figDesc><div><p xml:id="_efFVA5U"><s xml:id="_uy3VXUd" coords="3,379.33,316.16,46.51,8.58;3,67.29,328.13,358.59,8.58;3,67.29,340.09,156.80,8.58">; National Institute of Child Health &amp; Human Development of Early Child Care Research Network [NICHD ECCRN], 2006;</s></p></div></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="9,67.29,63.81,358.63,250.90"><head>Table 1 .</head><label>1</label><figDesc><div><p xml:id="_8Y9NS9C"><s xml:id="_5DYZEDN" coords="9,107.89,63.81,49.15,7.72">Descriptives.</s></p></div></figDesc><table coords="9,67.29,81.71,358.63,215.17"><row><cell>Child sample (N ¼ 532)</cell><cell>Mean</cell><cell>SD</cell><cell>Min</cell><cell>Max</cell></row><row><cell>Outcome</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Arithmetics score t1</cell><cell>4.96</cell><cell>3.37</cell><cell>0</cell><cell>14</cell></row><row><cell>Arithmetics score t2</cell><cell>10.40</cell><cell>3.91</cell><cell>0</cell><cell>20</cell></row><row><cell>Arithmetics score t3</cell><cell>15.08</cell><cell>3.74</cell><cell>2</cell><cell>27</cell></row><row><cell>Arithmetics score t4</cell><cell>22.51</cell><cell>3.10</cell><cell>5</cell><cell>32</cell></row><row><cell>Home learning environment (HLE)</cell><cell>0.47</cell><cell>0.12</cell><cell>0.03</cell><cell>0.77</cell></row><row><cell>Preschool sample (N ¼ 97)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Structural characteristics</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Class size</cell><cell>23.82</cell><cell>3.69</cell><cell>11.00</cell><cell>36.33</cell></row><row><cell>Average age of all children in the class</cell><cell>5.05</cell><cell>0.24</cell><cell>4.31</cell><cell>5.70</cell></row><row><cell>Child-to-staff ratio</cell><cell>11.35</cell><cell>2.50</cell><cell>5.67</cell><cell>19.00</cell></row><row><cell>Proportion of children whose parents had</cell><cell>0.24</cell><cell>0.25</cell><cell>0.00</cell><cell>0.90</cell></row><row><cell>a native language other than German</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>M 2 per child</cell><cell>3.46</cell><cell>2.25</cell><cell>1.47</cell><cell>16.00</cell></row><row><cell>Indicators of process quality</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>ECERS-E</cell><cell>2.98</cell><cell>0.53</cell><cell>1.76</cell><cell>4.07</cell></row><row><cell>ECERS-mathematics</cell><cell>2.63</cell><cell>0.79</cell><cell>1.44</cell><cell>4.67</cell></row><row><cell>Primary school class sample (N ¼ 142)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Level of cognitive activation in mathematics</cell><cell>3.21</cell><cell>1.18</cell><cell>1.20</cell><cell>6.00</cell></row></table><note coords="9,67.29,307.85,318.25,6.86"><p xml:id="_htB9nbV"><s xml:id="_ZtXDvTJ" coords="9,67.29,307.85,318.25,6.86">Note: For achievement in arithmetics, the average raw scores (non-standardized) are shown.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="10,67.29,63.81,358.68,584.15"><head>Table 2 .</head><label>2</label><figDesc><div><p xml:id="_6agQQRz"><s xml:id="_kWWJKvM" coords="10,71.87,567.26,353.96,8.58;10,67.29,579.22,254.44,8.58">Table 3) includes structural characteristics of preschool settings as potential predictors while controlling for all factors tested in Model 1.</s><s xml:id="_C4XFFNW" coords="10,324.10,579.22,101.81,8.58;10,108.51,63.81,317.40,7.72;10,67.29,73.73,177.35,7.72">The results indicate that Results of latent growth curve analyses to predict the development of numeracy skills between the first and fourth assessment.</s></p></div></figDesc><table coords="10,67.29,92.09,358.67,268.34"><row><cell></cell><cell></cell><cell cols="2">LLGC Model 1</cell><cell></cell></row><row><cell></cell><cell cols="2">Intercept</cell><cell>Slope</cell><cell></cell></row><row><cell>Predictors</cell><cell>B</cell><cell>SE (B)</cell><cell>B</cell><cell>SE (B)</cell></row><row><cell>Child and family background factors</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Age of child at entry to the preschool</cell><cell>70.11 #</cell><cell>0.06</cell><cell>0.16</cell><cell>0.12</cell></row><row><cell>setting</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gender (0 ¼ female, 1 ¼ male)</cell><cell>70.29**</cell><cell>0.09</cell><cell>0.94***</cell><cell>0.24</cell></row><row><cell>Parental native language status</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Reference category: none</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>One parent</cell><cell>70.66***</cell><cell>0.18</cell><cell>0.80*</cell><cell>0.36</cell></row><row><cell>Both parents</cell><cell>70.90***</cell><cell>0.20</cell><cell>1.96***</cell><cell>0.48</cell></row><row><cell>Mother's education</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Reference category: no degree or a</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>degree at vocational level</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>General certificate of secondary</cell><cell>0.18</cell><cell>0.12</cell><cell>0.12</cell><cell>0.27</cell></row><row><cell>education</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Qualification for university</cell><cell>0.25</cell><cell>0.15</cell><cell>0.20</cell><cell>0.34</cell></row><row><cell>entrance in Germany</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Any other degree</cell><cell>0.67*</cell><cell>0.22</cell><cell>70.64</cell><cell>0.61</cell></row><row><cell>Highest socioeconomic status of</cell><cell>0.12*</cell><cell>0.06</cell><cell>0.30*</cell><cell>0.13</cell></row><row><cell>the family</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Home learning environment (HLE)</cell><cell>0.23***</cell><cell>0.05</cell><cell>0.08</cell><cell>0.13</cell></row><row><cell>Slope with Intercept R 2</cell><cell cols="2">B ¼ 70.09 0.29***</cell><cell cols="2">SE ¼ 0.25 0.63**</cell></row><row><cell>CFI/RMSEA</cell><cell></cell><cell cols="2">0.91/0.07</cell><cell></cell></row></table><note coords="10,67.29,590.80,358.60,9.32;10,67.30,603.09,358.60,8.58;10,67.30,614.72,358.57,9.32;10,67.29,626.68,358.59,9.32;10,67.30,638.65,358.57,9.32;10,67.29,371.40,358.68,6.86;10,67.29,380.36,358.61,6.86;10,67.29,389.09,224.16,7.09"><p xml:id="_AGF78WT"><s xml:id="_hUsHxn8" coords="10,67.29,590.80,358.60,9.32;10,67.30,603.09,358.60,8.58;10,67.30,614.72,284.90,9.32">the average age of children in the class (b ¼ 0.11, p 5 0.05) is positively related to initial numeracy skills, whereas the number of children with non-German native parents in the class has a negative influence (b ¼ 70.15, p 5 0.05).</s><s xml:id="_fe6j2Y4" coords="10,355.29,615.05,70.58,8.58;10,67.29,626.68,358.59,9.32;10,67.30,638.65,333.18,9.32">Class size is also negatively associated with initial numeracy skills (b ¼ 70.13, p 5 0.01), but children who are part of larger classes tend to catch up over years (b ¼ 0.18, p 5 0.10).</s><s xml:id="_7UMDumE" coords="10,403.48,638.97,22.38,8.58;10,67.29,371.40,358.68,6.86;10,67.29,380.36,18.82,6.86">Also, Notes: In all models, age at assessment was included as time-varying predictor, although not shown in the table.</s><s xml:id="_DKZfYvr" coords="10,91.50,380.36,334.40,6.86;10,67.29,389.09,224.16,7.09">Coefficients are standardized using the variances of the continuous latent variables (Stdstandardization). #p 5 0.10, *p 5 0.05, **p 5 0.01, ***p 5 0.001.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="11,125.71,58.80,234.29,586.26"><head>Table 3 .</head><label>3</label><figDesc><div><p xml:id="_BTEbxuR"><s xml:id="_PGd2Fmh" coords="11,125.71,576.33,7.72,28.08;11,125.71,565.40,7.72,7.93;11,125.71,540.66,7.72,21.74;11,125.71,510.43,7.72,27.25;11,125.71,486.69,7.72,20.72;11,125.71,452.07,7.72,31.64;11,125.71,441.14,7.72,7.93;11,125.71,411.54,7.72,26.59;11,125.71,396.69,7.72,11.85;11,125.71,344.88,7.72,48.80;11,125.71,333.94,7.72,7.93;11,125.71,293.41,7.72,37.52;11,125.71,271.28,7.72,19.11;11,125.71,237.21,7.72,31.07;11,125.71,222.31,7.72,11.85;11,125.71,204.52,7.72,14.84;11,125.71,187.12,7.72,14.38;11,125.71,159.89,7.72,24.27;11,125.71,113.04,7.72,43.85">Results of latent growth curve analyses to predict the development of numeracy skills between the first and fourth assessment.</s><s xml:id="_Jaj6RzZ" coords="11,344.13,607.33,6.86,13.12;11,344.13,580.98,6.86,24.05;11,344.13,544.14,6.86,34.58;11,344.13,531.73,6.86,10.12;11,344.13,521.14,6.86,8.29;11,344.13,484.73,6.86,34.11;11,344.13,475.38,6.86,7.05;11,344.13,450.82,6.86,22.26;11,344.13,444.55,6.86,3.99;11,344.13,435.19,6.86,7.05;11,344.13,419.43,6.86,13.45;11,344.13,410.07,6.86,7.05;11,344.13,390.60,6.86,17.17;11,344.13,363.42,6.86,24.90;11,344.13,348.33,6.86,12.78;11,344.13,328.93,6.86,17.10;11,344.13,293.35,6.86,33.24;11,344.13,260.71,6.86,30.32;11,344.13,246.99,6.86,11.45;11,344.13,222.73,6.86,21.99;11,344.13,213.90,6.86,6.55;11,344.13,201.08,6.86,10.54;11,344.13,179.98,6.86,18.82">The models controlled for all predictors of Model 1 as well as HLE literacy and HLE numeracy although not shown in the table.</s><s xml:id="_jbfQhPe" coords="11,344.13,138.37,6.86,39.34;11,344.13,125.51,6.86,10.54;11,344.13,79.88,6.86,43.35;11,344.13,59.62,6.86,17.93;11,353.14,634.52,6.86,10.53;11,353.14,600.36,6.86,31.55;11,353.14,590.61,6.86,7.05;11,353.14,577.44,6.86,10.53;11,353.14,537.13,6.86,37.69;11,353.14,515.20,6.86,19.32;11,353.14,482.37,6.86,30.22;11,353.14,405.10,6.86,74.61">Coefficients are standardized using the variances of the continuous latent variables (Std-standardization).</s><s xml:id="_aHMxpaR" coords="12,84.42,64.80,323.31,9.31">spatial size is positively related to initial achievement (b ¼ 0.13, p 5 0.01).</s><s xml:id="_fXRJ5Aa" coords="12,411.70,65.13,14.21,8.58;12,67.29,77.09,358.61,8.58;12,67.29,88.73,358.61,9.31;12,67.29,100.69,241.90,9.31">We observe a significant effect for the federal state indicating that children from Hesse compared to children from Bavaria have lower initial skills (b ¼ 0.43, p 5 0.01) but show better progress over years (b ¼ 70.67, p 5 0.05).</s><s xml:id="_gefnVnc" coords="12,313.62,101.02,112.29,8.58;12,67.29,112.92,358.63,8.58;12,67.29,124.56,171.26,9.32">The amount of explained variance of Model 2 is 35% (intercept) and 73% (slope), respectively, model fit is moderate (CFI ¼ 0.89, RMSEA ¼ 0.06).</s></p></div></figDesc><table coords="11,144.08,58.80,189.09,586.26"><row><cell>LLGC Model 2 LLGC Model 3a LLGC Model 3b</cell><cell>Intercept Slope Intercept Slope Intercept Slope</cell><cell>B SE (B) B SE (B) B SE B SE B SE B SE</cell><cell></cell><cell>70.13** 0.04 0.18 # 0.10 70.13** 0.04 0.19* 0.09 70.13** 0.04 0.18* 0.09</cell><cell>0.11* 0.05 70.16 0.11 0.11* 0.05 70.18 0.11 0.11* 0.05 70.17 0.11</cell><cell>70.01 0.06 0.07 0.11 70.01 0.06 0.06 0.11 70.01 0.06 0.05 0.11</cell><cell>70.15* 0.07 0.18 0.15 70.14* 0.07 0.20 0.15 70.14* 0.07 0.17 0.15</cell><cell></cell><cell>0.13** 0.04 70.18 # 0.10 0.13** 0.04 70.20* 0.09 0.13** 0.04 70.18 # 0.10</cell><cell>0.43** 0.13 70.67* 0.27 0.41** 0.13 70.82* 0.28 0.41** 0.13 70.85** 0.29</cell><cell></cell><cell>0.04 0.06 0.19 # 0.11</cell><cell>0.03 0.05 0.20* 0.10</cell><cell cols="2">B ¼ 0.06 SE ¼ 0.33 B ¼ 0.04 SE ¼ 0.33 B ¼ 0.04 ¼ 0.34 SE</cell><cell>0.35*** 0.73** 0.35*** 0.75** 0.35*** 0.76**</cell><cell>0.89/0.07 0.90/0.06 0.90/0.07</cell></row><row><cell></cell><cell></cell><cell>Predictors</cell><cell>Structural preschool characteristics</cell><cell>Class size</cell><cell>Average age of children in the class</cell><cell>Child-to-staff ratio</cell><cell>Proportion of children whose parents had</cell><cell>a native language other than German</cell><cell>M 2 per child</cell><cell>Federal state</cell><cell>Process quality</cell><cell>ECERS-E</cell><cell>ECERS-Mathematics</cell><cell>Slope with Intercept</cell><cell>R 2</cell><cell>CFI/RMSEA</cell></row></table><note coords="11,344.13,622.75,6.86,22.30;11,351.33,398.98,4.57,3.48;11,353.24,394.96,6.72,3.99;11,352.92,385.71,7.09,7.97;11,353.14,368.12,6.86,16.26;11,353.14,357.55,6.86,7.95;11,352.92,348.29,7.09,7.97;11,353.14,330.70,6.86,16.26;11,353.14,316.16,6.86,11.92;11,352.92,306.85,7.09,7.97;11,353.14,289.32,6.86,16.26;11,353.14,270.75,6.86,15.95;11,352.92,261.49,7.09,7.97;11,353.14,239.98,6.86,20.18;12,67.29,65.13,13.17,8.58"><p xml:id="_ewusnEc"><s xml:id="_a67TM8z" coords="11,344.13,622.75,6.86,22.30;11,351.33,398.98,4.57,3.48;11,353.24,394.96,6.72,3.99;11,352.92,385.71,7.09,7.97;11,353.14,368.12,6.86,16.26;11,353.14,357.55,6.86,7.95;11,352.92,348.29,7.09,7.97;11,353.14,330.70,6.86,16.26;11,353.14,316.16,6.86,11.92;11,352.92,306.85,7.09,7.97;11,353.14,289.32,6.86,16.26;11,353.14,270.75,6.86,15.95;11,352.92,261.49,7.09,7.97;11,353.14,239.98,6.86,20.18">Notes: # p 5 0.10, *p 5 0.05, **p 5 0.01, ***p 5 0.001.</s><s xml:id="_hdz8Ktz" coords="12,67.29,65.13,13.17,8.58">the</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="13,67.29,63.81,358.67,395.75"><head>Table 4 .</head><label>4</label><figDesc><div><p xml:id="_SUJGcyZ"><s xml:id="_6ujDuhB" coords="13,109.93,63.81,315.95,7.72;13,67.29,73.73,217.83,7.72">Results of regression analyses to predict the development of numeracy skills between the third (age 5) and fourth assessment (age 7).</s></p></div></figDesc><table coords="13,279.84,92.09,127.63,17.54"><row><cell>Regression</cell><cell>Regression</cell></row><row><cell>Model 1a</cell><cell>Model 2a</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0" coords="2,67.29,664.93,72.00,6.12"><p xml:id="_wedW9US"><s xml:id="_Jg3aqeZ" coords="2,67.29,664.93,72.00,6.12">© 2013 Taylor &amp; Francis</s></p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="16,67.29,400.50,358.62,7.72;16,82.20,410.48,343.71,7.72;16,82.20,420.46,290.05,7.72" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="16,110.89,410.48,315.02,7.72;16,82.20,420.46,91.70,7.72" xml:id="_TzhhDr6">Home and preschool learning environments and their relations to the development of early numeracy skills</title>
+		<author>
+			<persName><forename type="first">Yvonne</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans-Günther</forename><surname>Rossbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabine</forename><surname>Weinert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Kuger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Lehrl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jutta</forename><surname>Von Maurice</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ecresq.2011.08.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Zxqqxej">Early Childhood Research Quarterly</title>
+		<title level="j" type="abbrev">Early Childhood Research Quarterly</title>
+		<idno type="ISSN">0885-2006</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="231" to="244" />
+			<date type="published" when="2012-04">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anders, Y., Rossbach, H.-G., Weinert, S., Ebert, S., Kuger, S., Lehrl, S., &amp; von Maurice, J. (2012). Home and preschool learning environments and their relations to the development of early numeracy skills. Early Childhood Research Quarterly, 27, 231-244.</note>
+</biblStruct>
+
+<biblStruct coords="16,67.29,430.44,358.64,7.72;16,82.20,440.36,343.67,7.72;16,82.20,450.34,343.74,7.72" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="16,82.20,440.36,343.67,7.72;16,82.20,450.34,143.59,7.72" xml:id="_r6cQ9EW">The influence of child, family, home factors and pre‐school education on the identification of special educational needs at age 10</title>
+		<author>
+			<persName><forename type="first">Yvonne</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pam</forename><surname>Sammons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brenda</forename><surname>Taggart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathy</forename><surname>Sylva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iram</forename><surname>Siraj‐blatchford</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01411921003725338</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WwM7fhh" coord="16,232.38,450.44,139.01,7.56">British Educational Research Journal</title>
+		<title level="j" type="abbrev">British Educational Research Journal</title>
+		<idno type="ISSN">0141-1926</idno>
+		<idno type="ISSNe">1469-3518</idno>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="421" to="441" />
+			<date type="published" when="2011-06">2011</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anders, Y., Sammons, P., Taggart, B., Sylva, K., Melhuish, E., &amp; Siraj-Blatchford, I. (2011). The influence of child, family home factors and pre-school education on the identification of special educational needs at age 10. British Educational Research Journal, 37, 421-441.</note>
+</biblStruct>
+
+<biblStruct coords="16,67.29,460.31,358.61,7.72;16,82.20,470.29,343.70,7.72;16,82.20,480.21,294.40,7.72" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="16,157.38,460.31,240.91,7.72" xml:id="_Bdh7XX8">Full information estimation in the presence of incomplete data</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">L</forename><surname>Arbuckle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WPurPSs" coord="16,253.30,470.40,172.60,7.56;16,82.20,480.32,57.96,7.56">Advanced structural equation modeling: Issues and Techniques</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Marcoulides</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schumacker</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Mahwah, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates</publisher>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="page" from="243" to="277" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arbuckle, J. L. (1996). Full information estimation in the presence of incomplete data. In G. A. Marcoulides &amp; R. E. Schumacker (Eds.), Advanced structural equation modeling: Issues and Techniques (pp. 243-277). Mahwah, NJ: Lawrence Erlbaum Associates.</note>
+</biblStruct>
+
+<biblStruct coords="16,67.29,490.19,358.65,7.72;16,82.20,500.17,343.72,7.72;16,82.20,510.09,343.68,7.72" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="16,82.20,500.17,343.72,7.72;16,82.20,510.09,30.69,7.72" xml:id="_vPcFTFb">Teachers&apos; mathematical knowledge, cognitive activation in the classroom, and student progress</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Baumert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Kunter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Brunner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">.</forename><forename type="middle">.</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y.-M</forename></persName>
+		</author>
+		<idno type="DOI">10.3102/000283120</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ugWxkSC" coord="16,121.21,510.20,154.94,7.56">American Educational Research Journal</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="133" to="180" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumert, J., Kunter, M., Blum, W., Brunner, M., Voss, T., Jordan, A., . . .Tsai, Y.-M. (2010). Teachers&apos; mathematical knowledge, cognitive activation in the classroom, and student progress. American Educational Research Journal, 47, 133-180. doi:10.3102/000283120</note>
+</biblStruct>
+
+<biblStruct coords="16,67.29,530.05,358.63,7.72;16,82.20,540.02,313.46,7.72" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coord="16,251.55,530.15,174.37,7.56;16,82.20,540.13,85.30,7.56" xml:id="_NDG5DSk">Home Observation for Measurement of the Environment (HOME)</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">M</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">H</forename><surname>Bradley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984">1984</date>
+			<pubPlace>Little Rock, AR</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Arkansas at Little Rock</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Caldwell, B. M., &amp; Bradley, R. H. (1984). Home Observation for Measurement of the Environment (HOME). Little Rock, AR: University of Arkansas at Little Rock.</note>
+</biblStruct>
+
+<biblStruct coords="16,67.29,549.94,358.62,7.72;16,82.20,559.92,98.24,7.72" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_ucXvakm">Introduction</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203009833-4</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_4NmdZRe" coord="16,128.81,550.05,293.55,7.56">Combating Educational Disadvantage</title>
+		<meeting><address><addrLine>London, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="page" from="13" to="26" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cox, T. (2000). Combating educational disadvantage. Meeting the needs of vulnerable children. London, UK: Routledge.</note>
+</biblStruct>
+
+<biblStruct coords="16,67.29,569.90,358.67,7.72;16,82.20,579.88,343.71,7.72;16,82.20,589.80,234.32,7.72" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="16,308.86,569.90,117.10,7.72;16,82.20,579.88,291.58,7.72" xml:id="_KKZQr7d">Teacher–child interactions and children’s achievement trajectories across kindergarten and first grade.</title>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">W</forename><surname>Curby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sara</forename><forename type="middle">E</forename><surname>Rimm-Kaufman</surname></persName>
+			<idno type="ORCID">0000-0002-1354-8249</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Claire</forename><forename type="middle">Cameron</forename><surname>Ponitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0016647</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_xHgmHrS" coord="16,383.98,579.99,41.94,7.56;16,82.20,589.91,88.64,7.56">Journal of Educational Psychology</title>
+		<title level="j" type="abbrev">Journal of Educational Psychology</title>
+		<idno type="ISSN">0022-0663</idno>
+		<idno type="ISSNe">1939-2176</idno>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="912" to="925" />
+			<date type="published" when="2009-11">2009</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Curby, T. W., Rimm-Kaufman, S. E., &amp; Ponitz, C. C. (2009). Teacher-child interactions and children&apos;s achievement trajectories across kindergarten and first grade. Journal of Educational Psychology, 101, 912-925. doi:10.1037/a0016647</note>
+</biblStruct>
+
+<biblStruct coords="16,67.29,599.78,358.60,7.72;16,82.20,609.75,343.72,7.72;16,82.20,619.68,343.70,7.72;16,82.20,629.65,343.72,7.72;16,82.20,639.63,264.59,7.72" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="16,346.95,599.78,78.94,7.72;16,82.20,609.75,343.72,7.72;16,82.20,619.68,343.70,7.72;16,82.20,629.65,275.66,7.72" xml:id="_24H7kpy">Sprachlich-kognitive Kompetenzen beim Eintritt in den Kindergarten</title>
+		<author>
+			<persName><forename type="first">Minja</forename><surname>Dubowy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jutta</forename><surname>Von Maurice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabine</forename><surname>Weinert</surname></persName>
+		</author>
+		<idno type="DOI">10.1026/0049-8637.40.3.124</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3JzXyEu" coord="16,368.84,629.76,57.08,7.56;16,82.20,639.74,209.46,7.56">Zeitschrift für Entwicklungspsychologie und Pädagogische Psychologie</title>
+		<title level="j" type="abbrev">Zeitschrift für Entwicklungspsychologie und Pädagogische Psychologie</title>
+		<idno type="ISSN">0049-8637</idno>
+		<idno type="ISSNe">2190-6262</idno>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="124" to="134" />
+			<date type="published" when="2008-07">2008</date>
+			<publisher>Hogrefe Publishing Group</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dubowy, M., Ebert, S., von Maurice, J., &amp; Weinert, S. (2008). Sprachlich-kognitive Kompetenzen beim Eintritt in den Kindergarten: Ein Vergleich von Kindern mit und ohne Migrationshintergrund [Linguistic-cognitive competencies at entry to preschool: A comparison of children with and without migration background]. Zeitschrift fu¨r Entwicklungspsychologie und Pa¨dagogische Psychologie, 40, 124-134.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,63.81,358.62,7.72;17,82.20,73.83,343.73,7.56;17,82.20,83.70,343.58,7.72;17,82.20,93.68,343.39,7.72;17,82.20,103.66,13.08,7.72;17,67.29,113.58,358.62,7.72;17,82.20,123.56,343.73,7.72;17,82.20,133.54,134.60,7.72;17,67.29,143.51,358.61,7.72;17,82.20,153.44,343.73,7.72;17,82.20,163.41,114.32,7.72" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="17,331.26,63.91,94.66,7.56;17,82.20,73.83,343.73,7.56;17,82.20,83.81,102.24,7.56;17,329.72,113.58,96.19,7.72;17,82.20,123.56,186.11,7.72;17,155.17,143.51,270.73,7.72;17,82.20,153.44,189.41,7.72" xml:id="_QjKDX5h">School-age assessment of child development: Long-term impact of pre-school experiences on school success, and family-school relationships</title>
+		<author>
+			<persName coords=""><forename type="first">)-Study</forename><surname>Ecce</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Group</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0049-089X(92)90017</idno>
+		<idno>doi:10.1521/scpq.16.1.9.19163</idno>
+		<ptr target="http://www.uni-bamberg.de/fileadmin/uni/fakultaeten/ppp_lehrstuehle/elementarpaedagogik/Team/Rossbach/Ecce_Study_Group.pdfGanzeboom" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_knqmqsx" coord="17,278.82,123.67,97.47,7.56;17,278.02,153.54,107.65,7.56">School Psychology Quarterly</title>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>-B Gorey</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="9" to="30" />
+			<date type="published" when="1992">1999. 1992. 2001</date>
+			<publisher>European Child Care and Education</publisher>
+		</imprint>
+	</monogr>
+	<note>Social Science Research</note>
+	<note type="raw_reference">European Child Care and Education (ECCE)-Study Group. (1999). School-age assessment of child development: Long-term impact of pre-school experiences on school success, and family-school relationships. Retrieved from http://www.uni-bamberg.de/fileadmin/uni/ fakultaeten/ppp_lehrstuehle/elementarpaedagogik/Team/Rossbach/Ecce_Study_Group. pdf Ganzeboom, H. B. G., De Graaf, P. M., &amp; Treiman, D. J. (1992). A standard international socio-economic index of occupational status. Social Science Research, 21, 1-56. doi:10.1016/0049-089X(92)90017-B Gorey, K. M. (2001). Early childhood education: A meta-analytic affirmation of the short- and long-term benefits of educational opportunity. School Psychology Quarterly, 16, 9-30. doi:10.1521/scpq.16.1.9.19163</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,173.39,358.66,7.72;17,82.20,183.31,176.59,7.72" xml:id="b9">
+	<monogr>
+		<title level="m" type="main" coord="17,250.87,173.50,151.92,7.56" xml:id="_ZQ5fbfd">Early Childhood Environmental Rating Scale--Revised (Spanish)</title>
+		<author>
+			<persName><forename type="first">Thelma</forename><surname>Harms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">M</forename><surname>Clifford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Debby</forename><surname>Cryer</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/t15192-000</idno>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>American Psychological Association (APA)</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Rev. ed.</note>
+	<note type="raw_reference">Harms, T., Clifford, R. M., &amp; Cryer, D. (1998). Early childhood environment rating scale (Rev. ed.). New York, NY: Teachers College Press.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,193.29,358.65,7.72;17,82.20,203.27,206.29,7.72" xml:id="b10">
+	<monogr>
+		<title level="m" type="main" coord="17,199.33,193.40,226.61,7.56;17,82.20,203.38,67.52,7.56" xml:id="_h8u2SPu">Meaningful differences in the everyday experience of young American children</title>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">T</forename><surname>Risley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<publisher>Paul H. Brookes</publisher>
+			<pubPlace>Baltimore, MD</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hart, B., &amp; Risley, R. T. (1995). Meaningful differences in the everyday experience of young American children. Baltimore, MD: Paul H. Brookes.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,213.25,358.59,7.72;17,82.20,223.17,343.73,7.72;17,82.20,233.14,123.23,7.72" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="17,190.99,213.25,234.89,7.72;17,82.20,223.17,179.53,7.72" xml:id="_UD8mYdt">Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives</title>
+		<author>
+			<persName><forename type="first">Li‐tze</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><forename type="middle">M</forename><surname>Bentler</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10705519909540118</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2gYn4Ac" coord="17,270.08,223.27,114.99,7.56">Structural Equation Modeling: A Multidisciplinary Journal</title>
+		<title level="j" type="abbrev">Structural Equation Modeling: A Multidisciplinary Journal</title>
+		<idno type="ISSN">1070-5511</idno>
+		<idno type="ISSNe">1532-8007</idno>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="55" />
+			<date type="published" when="1999-01">1999</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu, L., &amp; Bentler P. M. (1999). Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives. Structural Equation Modeling, 6, 1-55. doi:10.1080/10705519909540118</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,243.12,358.62,7.72;17,82.20,253.10,343.72,7.72;17,82.20,263.02,343.71,7.72;17,82.20,273.00,219.62,7.72" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="17,245.98,243.12,179.93,7.72;17,82.20,253.10,268.92,7.72" xml:id="_pykZ3cD">The pythagoras study: Investigating effects of teaching and learning in Swiss and German mathematics classrooms</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Klieme</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Pauli</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Reusser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_vGXZdss" coord="17,139.29,263.13,286.62,7.56;17,82.20,273.11,37.04,7.56">The power of video studies in investigating teaching and learning in the classroom</title>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Janik</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Seidel</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Waxmann</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="137" to="160" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klieme, E., Pauli, C., &amp; Reusser, K. (2009). The pythagoras study: Investigating effects of teaching and learning in Swiss and German mathematics classrooms. In T. Janik &amp; T. Seidel (Eds.), The power of video studies in investigating teaching and learning in the classroom (pp. 137-160). Mu¨nster, Germany: Waxmann.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,282.98,358.60,7.72;17,82.20,292.95,343.67,7.72" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" xml:id="_Gb46UJp">Prozessqualität im Kindergarten — Konzept, Umsetzung und Befunde</title>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Kuger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katharina</forename><surname>Kluczniok</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-531-91452-7_11</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_qgbMmmu" coord="17,210.72,282.98,215.17,7.72;17,82.20,292.95,50.40,7.72">Frühpädagogische Förderung in Institutionen</title>
+		<imprint>
+			<publisher>VS Verlag für Sozialwissenschaften</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="page" from="159" to="178" />
+		</imprint>
+	</monogr>
+	<note>Process quality in preschools -concepts, implementations and findings</note>
+	<note type="raw_reference">Kuger, S., &amp; Kluczniok, K. (2008). Prozessqualita¨t im Kindergarten. Konzept, Umsetzung und Befunde [Process quality in preschools -concepts, implementations and findings].</note>
+</biblStruct>
+
+<biblStruct coords="17,82.20,302.87,257.45,7.72" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" xml:id="_bGpH8sb">Forschung und Publikationskulturen</title>
+		<author>
+			<persName><forename type="first">Bernhard</forename><surname>Schmidt-Hertha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lorenz</forename><surname>Tafertshofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rudolf</forename><surname>Tippelt</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctvdf04v5.9</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_xBqmSYc">Datenreport Erziehungswissenschaft 2016</title>
+		<imprint>
+			<publisher>Verlag Barbara Budrich</publisher>
+			<date type="published" when="2016-02-22" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="159" to="178" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zeitschrift fu¨r Erziehungswissenschaft, Special Edition 11, 159-178.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,312.85,358.61,7.72;17,82.20,322.83,343.72,7.72;17,82.20,332.75,313.74,7.72" xml:id="b15">
+	<monogr>
+		<title level="m" type="main" coord="17,275.58,312.85,150.32,7.72;17,82.20,322.83,101.33,7.72" xml:id="_e3kZwYa">Familieneinscha¨tzskala [Family Rating Scale] (Forschungsversion)</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Kuger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Pflieger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H.-G</forename><surname>Rossbach</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<pubPlace>Bamberg, Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Bamberg), BiKS-Forschergruppe, Otto-Friedrich-Universita¨t Bamberg</orgName>
+		</respStmt>
+	</monogr>
+	<note>Unpublished document (available at</note>
+	<note type="raw_reference">Kuger, S., Pflieger, K., &amp; Rossbach, H.-G. (2005). Familieneinscha¨tzskala [Family Rating Scale] (Forschungsversion). Unpublished document (available at University of Bamberg), BiKS-Forschergruppe, Otto-Friedrich-Universita¨t Bamberg, Bamberg, Germany.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,342.73,358.61,7.72;17,82.20,352.71,285.68,7.72" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="17,281.25,342.73,144.65,7.72;17,82.20,352.71,117.15,7.72" xml:id="_snkTEjZ">Does prekindergarten improve school preparation and performance?</title>
+		<author>
+			<persName><forename type="first">Katherine</forename><forename type="middle">A</forename><surname>Magnuson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Ruhm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jane</forename><surname>Waldfogel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.econedurev.2005.09.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gtqSNP3" coord="17,202.39,352.81,119.14,7.56">Economics of Education Review</title>
+		<title level="j" type="abbrev">Economics of Education Review</title>
+		<idno type="ISSN">0272-7757</idno>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="51" />
+			<date type="published" when="2007-02">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Magnuson, K. A. &amp; Ruhm, C., &amp; Waldfogel, J. (2007). Does prekindergarten improve school preparation and performance? Economics of Education Review, 26, 33-51.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,362.68,358.60,7.72;17,82.20,372.61,219.33,7.72" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="17,209.37,362.79,211.57,7.56" xml:id="_ESEqSmN">5.6 Kaufman Assessment Battery for Children (K-ABC), deutsche Version (K-ABC)</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Melchers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">U</forename><surname>Preuss</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/b-0034-5330</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HxnKfmy" coord="17,82.20,372.71,58.83,7.56">Kinderpsychologische Tests</title>
+		<meeting><address><addrLine>Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Georg Thieme Verlag</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>th ed.</note>
+	<note type="raw_reference">Melchers, P., &amp; Preuss, U. (2003). Kaufman -Assessment Battery for Children (K-ABC). German version (6th ed.). Go¨ttingen, Germany: Hogrefe.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,382.58,358.63,7.72;17,82.20,392.56,343.71,7.72;17,82.20,402.54,343.70,7.72;17,82.20,412.46,62.07,7.72" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="17,148.13,382.58,213.46,7.72" xml:id="_wfHd7SW">Early Childhood Matters</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Melhuish</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203862063</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_jcNRty7" coord="17,333.01,392.67,92.90,7.56;17,82.20,402.65,260.99,7.56">Early childhood matters: Evidence from the Effective Pre-school and Primary Education Project</title>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Sylva</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><surname>Melhuish</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Sammons</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Siraj-Blatchford</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">&amp;</forename><forename type="middle">B</forename><surname>Taggart</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2010-01-04">2010</date>
+			<biblScope unit="page" from="44" to="69" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Melhuish, E. (2010). Why children, parents and home learning are important. In K. Sylva, E. Melhuish, P. Sammons, I. Siraj-Blatchford, &amp; B. Taggart (Eds.), Early childhood matters: Evidence from the Effective Pre-school and Primary Education Project (pp. 44-69). London, UK: Routledge.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,422.44,358.64,7.72;17,82.20,432.42,343.75,7.72;17,82.20,442.34,343.67,7.72;17,82.20,452.31,70.01,7.72" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="17,82.20,432.42,343.75,7.72;17,82.20,442.34,126.71,7.72" xml:id="_Nc69Jug">Effects of the Home Learning Environment and Preschool Center Experience upon Literacy and Numeracy Development in Early Primary School</title>
+		<author>
+			<persName><forename type="first">Edward</forename><forename type="middle">C</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mai</forename><forename type="middle">B</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathy</forename><surname>Sylva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pam</forename><surname>Sammons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iram</forename><surname>Siraj‐blatchford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brenda</forename><surname>Taggart</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1540-4560.2008.00550.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZwAMM2H" coord="17,215.09,442.44,86.89,7.56">Journal of Social Issues</title>
+		<title level="j" type="abbrev">Journal of Social Issues</title>
+		<idno type="ISSN">0022-4537</idno>
+		<idno type="ISSNe">1540-4560</idno>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="95" to="114" />
+			<date type="published" when="2008-02-07">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Melhuish, E., Sylva, K., Sammons, P., Siraj-Blatchford, I., Taggart, B., &amp; Phan, M. (2008). Effects of Home Learning Environment and preschool center experience upon literacy and numeracy in early primary school. Journal of Social Issues, 64, 95-114. doi:10.1111/j.1540- 4560.2008.00550.x</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,462.29,358.64,7.72;17,82.20,472.27,34.06,7.72" xml:id="b20">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">K</forename><surname>Muthe´n</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">O</forename><surname>Muthe´n</surname></persName>
+		</author>
+		<title level="m" xml:id="_GxU8ruc" coord="17,239.07,462.40,73.25,7.56">Mplus user&apos;s guide</title>
+		<meeting><address><addrLine>Los Angeles, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Authors</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>th ed</note>
+	<note type="raw_reference">Muthe´n, L. K., &amp; Muthe´n, B. O. (2008). Mplus user&apos;s guide (5th ed). Los Angeles, CA: Authors.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,482.19,358.57,7.72;17,82.20,492.17,343.71,7.72;17,82.20,502.15,205.63,7.72" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="17,296.89,482.19,128.97,7.72;17,82.20,492.17,340.07,7.72" xml:id="_dZ9zP7V">Early Child Care and Children’s Development Prior to School Entry: Results from the NICHD Study of Early Child Care</title>
+		<idno type="DOI">10.3102/00028312039001133</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aPFwF9y" coord="17,82.20,502.25,150.63,7.56">American Educational Research Journal</title>
+		<title level="j" type="abbrev">American Educational Research Journal</title>
+		<idno type="ISSN">0002-8312</idno>
+		<idno type="ISSNe">1935-1011</idno>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="133" to="164" />
+			<date type="published" when="2002-03">2002</date>
+			<publisher>American Educational Research Association (AERA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">NICHD Early Child Care Research Network. (2002). Early child care and children&apos;s development prior to school entry. Results from the NICHD Study of early child care. American Educational Research Journal, 39, 133-164.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,512.13,358.59,7.72;17,82.20,522.05,343.73,7.72;17,82.20,532.03,117.97,7.72" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="17,278.42,512.13,147.47,7.72;17,82.20,522.05,200.60,7.72" xml:id="_bw7PBCU">Child-care effect sizes for the NICHD Study of Early Child Care and Youth Development.</title>
+		<idno type="DOI">10.1037/0003-066x.61.2.99</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yKGuJU4" coord="17,290.38,522.16,84.85,7.56">American Psychologist</title>
+		<title level="j" type="abbrev">American Psychologist</title>
+		<idno type="ISSN">0003-066X</idno>
+		<idno type="ISSNe">1935-990X</idno>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="99" to="116" />
+			<date type="published" when="2006">2006</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">NICHD Early Child Care Research Network. (2006). Child-care effect sizes for the NICHD Study of Early Child Care and Youth Development. American Psychologist, 61, 99-116. doi:10.1037/0003-066X.61.2.99</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,542.01,358.61,7.72;17,82.20,551.99,343.71,7.72;17,82.20,561.91,57.16,7.72" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="17,341.85,542.01,84.06,7.72;17,82.20,551.99,261.59,7.72" xml:id="_Cu24c8q">Modeling the Impacts of Child Care Quality on Children&apos;s Preschool Cognitive Development</title>
+		<author>
+			<persName><forename type="first">Greg</forename><forename type="middle">J</forename><surname>Duncan</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-8624.00617</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_suCc4Cc" coord="17,351.50,552.09,70.19,7.56">Child Development</title>
+		<title level="j" type="abbrev">Child Development</title>
+		<idno type="ISSN">0009-3920</idno>
+		<idno type="ISSNe">1467-8624</idno>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1454" to="1475" />
+			<date type="published" when="2003-09-12">2003</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">NICHD Early Child Care Research Network, &amp; Duncan, G.J. (2003). Modeling the impacts of child care quality on children&apos;s preschool cognitive development. Child Development, 74, 1454-1475.</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,571.89,358.64,7.72;17,82.20,581.86,343.71,7.72;17,82.20,591.79,343.71,7.72;17,82.20,601.76,170.86,7.72" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="17,201.65,581.86,224.26,7.72;17,82.20,591.79,263.52,7.72" xml:id="_A6vJYZF">The Relation of Preschool Child‐Care Quality to Children&apos;s Cognitive and Social Developmental Trajectories through Second Grade</title>
+		<author>
+			<persName><forename type="first">Ellen</forename><forename type="middle">S</forename><surname>Peisner‐feinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Margaret</forename><forename type="middle">R</forename><surname>Burchinal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><forename type="middle">M</forename><surname>Clifford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mary</forename><forename type="middle">L</forename><surname>Culkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carollee</forename><surname>Howes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sharon</forename><forename type="middle">Lynn</forename><surname>Kagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Noreen</forename><surname>Yazejian</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-8624.00364</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CHHgU6A" coord="17,352.29,591.89,69.40,7.56">Child Development</title>
+		<title level="j" type="abbrev">Child Development</title>
+		<idno type="ISSN">0009-3920</idno>
+		<idno type="ISSNe">1467-8624</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1534" to="1553" />
+			<date type="published" when="2001-09">2001</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peisner-Feinberg, E. S., Burchinal, M. R., Clifford, R. M., Culkin, M. L., Howes, C., Kagan, S. L., &amp; Yazejian, N. (2001). The relation of preschool child-care quality to children&apos;s cognitive and social developmental trajectories through second grade. Child Development, 72, 1534-1553. doi:10.1111/1467-8624.00364</note>
+</biblStruct>
+
+<biblStruct coords="17,67.29,611.74,358.60,7.72;17,82.20,621.72,343.72,7.72;17,82.20,631.64,240.75,7.72" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="17,384.93,611.74,40.96,7.72;17,82.20,621.72,253.29,7.72" xml:id="_bpRW2as">Classroom Effects on Children’s Achievement Trajectories in Elementary School</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Pianta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jay</forename><surname>Belsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathan</forename><surname>Vandergrift</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Renate</forename><surname>Houts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fred</forename><forename type="middle">J</forename><surname>Morrison</surname></persName>
+		</author>
+		<idno type="DOI">10.3102/0002831207308230</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UBxS7ED" coord="17,342.31,621.83,83.61,7.56;17,82.20,631.75,63.95,7.56">American Educational Research Journal</title>
+		<title level="j" type="abbrev">American Educational Research Journal</title>
+		<idno type="ISSN">0002-8312</idno>
+		<idno type="ISSNe">1935-1011</idno>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="365" to="397" />
+			<date type="published" when="2008-06">2008</date>
+			<publisher>American Educational Research Association (AERA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pianta, R. C., Belsky, J., Vandergrift, N., Houts, R., &amp; Morrison, F. J. (2008). Classroom effects on children&apos;s achievement trajectories in elementary school. American Educational Research Journal, 45, 365-397. doi:10.3102/0002831207308230</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,63.81,358.63,7.72;18,82.20,73.73,343.72,7.72;18,82.20,83.70,219.25,7.72" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="18,216.57,63.81,209.36,7.72;18,82.20,73.73,288.33,7.72" xml:id="_44pfYC4">Conceptualization, Measurement, and Improvement of Classroom Processes: Standardized Observation Can Leverage Capacity</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Pianta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bridget</forename><forename type="middle">K</forename><surname>Hamre</surname></persName>
+		</author>
+		<idno type="DOI">10.3102/0013189x09332374</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_s4ykxfc" coord="18,381.32,73.83,44.61,7.56;18,82.20,83.81,39.93,7.56">Educational Researcher</title>
+		<title level="j" type="abbrev">Educational Researcher</title>
+		<idno type="ISSN">0013-189X</idno>
+		<idno type="ISSNe">1935-102X</idno>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="109" to="119" />
+			<date type="published" when="2009-03">2009</date>
+			<publisher>American Educational Research Association (AERA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pianta, R. C., &amp; Hamre, B. K. (2009). Conceptualization, measurement, and improvement of classroom processes: Standardized observation can leverage capacity. Educational Researcher, 38, 109-119. doi:10.3102/0013189X09332374</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,93.68,358.60,7.72;18,82.20,103.66,332.63,7.72" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" xml:id="_jjjjr4h">Unterrichtsqualität in Grundschulklassen und ihre Auswirkungen auf die Schüler</title>
+		<author>
+			<persName coords=""><forename type="first">H.-G</forename><surname>Rossbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-322-99278-9_22</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_NnZgYaH" coord="18,167.24,93.68,258.65,7.72;18,82.20,103.66,43.69,7.72">Individuelles und soziales Lernen in der Grundschule</title>
+		<imprint>
+			<publisher>VS Verlag für Sozialwissenschaften</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="217" to="222" />
+		</imprint>
+	</monogr>
+	<note>Instructional quality in primary school classes and its effects on students</note>
+	<note type="raw_reference">Rossbach, H.-G. (2002). Unterrichtsqualita¨t in Grundschulklassen und ihre Auswirkungen auf Schu¨ler [Instructional quality in primary school classes and its effects on students].</note>
+</biblStruct>
+
+<biblStruct coords="18,417.53,103.66,8.40,7.72;18,82.20,113.58,343.66,7.72;18,82.20,123.56,343.68,7.72;18,82.20,133.54,117.10,7.72" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="18,156.36,113.69,269.50,7.56;18,82.20,123.67,100.56,7.56" xml:id="_GQaaxEx">Individuelles und soziales Lernen in der Grundschule</title>
+		<idno type="DOI">10.1007/978-3-322-99278-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_XRYnHDN" coord="18,189.24,123.67,114.87,7.56">Jahrbuch Grundschulforschung</title>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Petillon</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="217" to="222" />
+			<date type="published" when="2002" />
+			<publisher>VS Verlag für Sozialwissenschaften</publisher>
+			<pubPlace>Opladen, Germany</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">In H. Petillon (Ed.), Individuelles und soziales Lernen in der Grundschule -Kindperspektive und pa¨dagogische Konzepte. Jahrbuch Grundschulforschung (Vol. 5, pp. 217-222). Opladen, Germany: Leske and Budrich.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,143.51,358.61,7.72;18,82.20,153.44,343.71,7.72;18,82.20,163.41,343.68,7.72;18,82.20,173.39,343.73,7.72;18,82.20,183.31,115.95,7.72" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="18,163.56,153.44,262.36,7.72;18,82.20,163.41,343.68,7.72;18,82.20,173.39,35.94,7.72" xml:id="_bENWGVa">Children’s Cognitive Attainment and Progress in English Primary Schools During Key Stage 2: Investigating the potential continuing influences of pre-school education</title>
+		<author>
+			<persName><forename type="first">Pam</forename><surname>Sammons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yvonne</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathy</forename><surname>Sylva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iram</forename><surname>Siraj-Blatchford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brenda</forename><surname>Taggart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sofka</forename><surname>Barreau</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-531-91452-7_12</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_afe3hjA">Frühpädagogische Förderung in Institutionen</title>
+		<imprint>
+			<publisher>VS Verlag für Sozialwissenschaften</publisher>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="179" to="198" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sammons, P., Anders, Y., Sylva, K., Melhuish, E., Siraj-Blatchford, I., Taggart, B., &amp; Barreau, S. (2008). Children&apos;s cognitive attainment and progress in English primary schools during Key Stage 2. Investigating the potential continuing influencesof pre-school education. Zeitschrift fu¨r Erziehungswissenschaft, Special Edition, 11, 179-198. doi: 10.1007/978-3-531-91452-7_12</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,193.29,358.64,7.72;18,82.20,203.27,343.66,7.72;18,82.20,213.25,330.00,7.72" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="18,82.20,203.27,339.88,7.72" xml:id="_jCnXBgd">The impact of pre‐school on young children&apos;s cognitive attainments at entry to reception</title>
+		<author>
+			<persName><forename type="first">Pam</forename><surname>Sammons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karen</forename><surname>Elliot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathy</forename><surname>Sylva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Melhuish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iram</forename><surname>Siraj‐blatchford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brenda</forename><surname>Taggart</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0141192042000234656</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5CPhGQx" coord="18,82.20,213.35,139.80,7.56">British Educational Research Journal</title>
+		<title level="j" type="abbrev">British Educational Res J</title>
+		<idno type="ISSN">0141-1926</idno>
+		<idno type="ISSNe">1469-3518</idno>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="691" to="712" />
+			<date type="published" when="2004-10">2004</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sammons, P., Elliot, K., Sylva, K., Melhuish, E., Siraj-Blatchford, I., &amp; Taggart, B. (2004). The impact of pre-school on young children&apos;s cognitive attainments at entry to reception. British Educational Research Journal, 30, 691-712. doi:10.1080/0141192042000234656</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,223.17,358.64,7.72;18,82.20,233.14,343.70,7.72;18,82.20,243.12,233.97,7.72" xml:id="b31">
+	<monogr>
+		<title level="m" type="main" coord="18,249.17,223.27,176.76,7.56;18,82.20,233.25,48.80,7.56" xml:id="_udn4Byc">Die BiKS-Studie. Methodenbericht zur zweiten Projektphase</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Smidt</surname></persName>
+		</author>
+		<ptr target="http://psydok.sulb.uni-saarland.de/volltexte/2009/2534/" />
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>The BiKS study: Report about methods -2nd project phase</note>
+	<note type="raw_reference">Schmidt, S., Schmitt, M., &amp; Smidt, W. (2009). Die BiKS-Studie. Methodenbericht zur zweiten Projektphase [The BiKS study: Report about methods -2nd project phase]. Retrieved from http://psydok.sulb.uni-saarland.de/volltexte/2009/2534/</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,253.10,358.62,7.72;18,82.20,263.13,343.71,7.56;18,82.20,273.00,174.72,7.72" xml:id="b32">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Snow</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Van Hemel</surname></persName>
+		</author>
+		<title level="m" xml:id="_4TQueaQ" coord="18,203.24,253.21,222.67,7.56;18,82.20,263.13,339.87,7.56">Early childhood assessment: Why, what and how? Report of the Committee on Developmental Outcomes and Assessments for Young Children</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>National Academies Press</publisher>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Snow, C., &amp; Van Hemel, S. (2008). Early childhood assessment: Why, what and how? Report of the Committee on Developmental Outcomes and Assessments for Young Children. Washington, DC: National Academies Press.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,282.98,358.65,7.72;18,82.20,293.06,343.69,7.56;18,82.20,302.87,343.65,7.72" xml:id="b33">
+	<monogr>
+		<title level="m" type="main" coord="18,160.95,283.08,265.00,7.56;18,82.20,293.06,343.69,7.56;18,82.20,302.87,335.47,7.72" xml:id="_nZnckCn">Dimensionen zur Einscha¨tzung pa¨dagogisch-didaktischer Qualita¨t von Lernsituationen in Mathematik. Schulungsunterlagen. Unvero¨ffentlichte Forschungsversion [Dimensions of rating pedagogical quality of learning situations in mathematics</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">S</forename><surname>Steinweg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Steinweg, A. S. (2009). Dimensionen zur Einscha¨tzung pa¨dagogisch-didaktischer Qualita¨t von Lernsituationen in Mathematik. Schulungsunterlagen. Unvero¨ffentlichte Forschungsversion [Dimensions of rating pedagogical quality of learning situations in mathematics].</note>
+</biblStruct>
+
+<biblStruct coords="18,82.20,312.85,343.73,7.72" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coord="18,82.20,312.85,114.81,7.72" xml:id="_zJNgfUa">Vielgestaltigkeit von Uniformität: Zur Bedeutung von Kleidung in totalen Institutionen</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Oelbauer</surname></persName>
+		</author>
+		<idno type="DOI">10.7160/ks.2023.210203</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BtBfRrD">Kulturní studia</title>
+		<title level="j" type="abbrev">Cultural Studies</title>
+		<idno type="ISSN">2533-7599</idno>
+		<idno type="ISSNe">2336-2766</idno>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="62" to="89" />
+			<date type="published" when="2023-11-01" />
+			<publisher>Ceska zemedelska univerzita v Praze</publisher>
+			<pubPlace>Bamberg, Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Otto-Friedrich-Universita¨t Bamberg</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Unpublished training material, Otto-Friedrich-Universita¨t Bamberg, Bamberg, Germany.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,322.83,358.62,7.72;18,82.20,332.75,91.43,7.72" xml:id="b35">
+	<monogr>
+		<title level="m" type="main" coord="18,141.51,322.94,126.89,7.56" xml:id="_4RgZ2Wd">Ambache, Jeremy Noel, (born 16 Dec. 1946), Trustee: Age UK (Wandsworth) (formerly Wandsworth Age Concern), since 2008; Wandsworth LINK, 2009–12 (Chairman, 2009)</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Strand</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ww/9780199540884.013.u9792</idno>
+		<imprint>
+			<date type="published" when="1994">1995. 1994. 1995</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>London, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Strand, S. (1995). Wandsworth Baseline assessment 1994/1995. London, UK: Wandsworth Education Department.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,342.73,358.63,7.72;18,82.20,352.71,194.81,7.72" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="18,136.51,342.73,286.16,7.72" xml:id="_SvwhEmF">Pupil Progress during Key Stage 1: a value added analysis of school effects</title>
+		<author>
+			<persName coords=""><forename type="first">Steve</forename><surname>Strand</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0141192970230406</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_STzRDec" coord="18,82.20,352.81,139.80,7.56">British Educational Research Journal</title>
+		<title level="j" type="abbrev">British Educational Res J</title>
+		<idno type="ISSN">0141-1926</idno>
+		<idno type="ISSNe">1469-3518</idno>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="471" to="487" />
+			<date type="published" when="1997-09">1997</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Strand, S. (1997). Pupil progress during Key Stage 1: A value added analysis of school effects. British Educational Research Journal, 23, 471-487.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,362.68,358.61,7.72;18,82.20,372.61,195.76,7.72" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="18,138.55,362.68,287.35,7.72;18,82.20,372.61,25.06,7.72" xml:id="_vd8q8Uk">Baseline assessment results at age 4: associations with pupil background factors</title>
+		<author>
+			<persName coords=""><forename type="first">Steve</forename><surname>Strand</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1467-9817.00065</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_udpV5CP" coord="18,113.90,372.71,117.73,7.56">Journal of Research in Reading</title>
+		<title level="j" type="abbrev">Journal Research in Reading</title>
+		<idno type="ISSN">0141-0423</idno>
+		<idno type="ISSNe">1467-9817</idno>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="26" />
+			<date type="published" when="1999-02">1999</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Strand, S. (1999). Baseline assessments results at age 4: Associations with pupil background factors. Journal of Research in Reading, 22, 14-26.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,382.58,358.60,7.72;18,82.20,392.56,302.95,7.72" xml:id="b38">
+	<monogr>
+		<title level="m" type="main" coord="18,272.86,382.69,153.03,7.56;18,82.20,392.67,140.62,7.56" xml:id="_p75GDAP">Early Childhood Matters</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Sylva</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Siraj-Blatchford</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Taggart</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203862063</idno>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>Routledge</publisher>
+			<pubPlace>Stoke On Trent, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sylva, K., Siraj-Blatchford, I., &amp; Taggart, B. (2003). Assessing quality in the Early Childhood Rating Scale Extensions (ECERS-E). Stoke On Trent, UK: Trentham Books.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,402.54,358.64,7.72;18,82.20,412.46,343.73,7.72;18,82.20,422.44,343.69,7.72;18,82.20,432.42,46.40,7.72" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coord="18,266.00,402.65,92.02,7.56" xml:id="_fRB9Zvn">9. Politische Bildung und Erziehung in der Bundesrepublik Deutschland von den siebziger Jahren des 20. Jahrhunderts bis zur Gegenwart. 10. Politische Bildung und Erziehung in der DDR</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><surname>Tietze</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H.-G</forename><surname>Rossbach</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Grenner</surname></persName>
+		</author>
+		<idno type="DOI">10.1524/9783486741902.169</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_s3YjqkQ">Politische Bildung</title>
+		<imprint>
+			<publisher>Oldenbourg Wissenschaftsverlag Verlag</publisher>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>Children from age 4 to 8 years. Speaking about the quality of the educational settings preschool, primary school and family</note>
+	<note type="raw_reference">Tietze, W., Rossbach, H.-G., &amp; Grenner, K. (2005). Kinder von 4 bis 8 Jahren. Zur Qualita¨t der Erziehung und Bildung in Kindergarten, Grundschule und Familie [Children from age 4 to 8 years. Speaking about the quality of the educational settings preschool, primary school and family].</note>
+</biblStruct>
+
+<biblStruct coords="18,131.64,432.42,107.35,7.72" xml:id="b40">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">Germany</forename><surname>Weinheim</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Beltz</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weinheim, Germany: Beltz.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,442.34,358.60,7.72;18,82.20,452.31,343.74,7.72;18,82.20,462.29,89.30,7.72" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coord="18,273.54,442.34,152.36,7.72;18,82.20,452.31,229.51,7.72" xml:id="_Ezr3xcT">The First Year at School: A Quantitative Investigation of the Attainment and Progress of Pupils∗</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Tymms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christine</forename><surname>Merrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brian</forename><surname>Henderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1380361970030201</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NPdV9jX" coord="18,321.51,452.42,104.44,7.56;18,82.20,462.40,38.74,7.56">Educational Research and Evaluation</title>
+		<title level="j" type="abbrev">Educational Research and Evaluation</title>
+		<idno type="ISSN">1380-3611</idno>
+		<idno type="ISSNe">1744-4187</idno>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="101" to="118" />
+			<date type="published" when="1997-01">1997</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tymms, P. B., Merrell, C., &amp; Henderson, B. (1997). The first year at school: A quantitative investigation of the attainment and progress of pupils. Educational Research and Evaluation, 3, 101-118.</note>
+</biblStruct>
+
+<biblStruct coords="18,67.29,472.27,358.64,7.72;18,82.20,482.30,343.68,7.56;18,82.20,490.52,343.74,9.32;18,82.20,502.15,343.67,7.72;18,82.20,512.13,343.72,7.72;18,82.20,522.05,343.71,7.72;18,82.20,532.03,314.49,7.72" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coord="18,82.20,482.30,343.68,7.56;18,82.20,490.52,343.74,9.32;18,82.20,502.15,343.67,7.72;18,82.20,512.13,343.72,7.72;18,82.20,522.05,343.71,7.72;18,82.20,532.03,33.18,7.72" xml:id="_MV8EAFk">Übersicht über die Gesamtarbeit</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Von Maurice</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Artelt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H.-P</forename><surname>Blossfeld</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Faust</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H.-G</forename><surname>Rossbach</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Weinert</surname></persName>
+		</author>
+		<idno type="DOI">10.1515/9783111483825-004</idno>
+		<ptr target="http://psydok.sulb.uni-saarland.de/volltexte/2007/1008" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Frj9m33">Ursprung und sachliches Verhältnis von Leibnizens sogenannter Monadologie und den Principes de la nature et de la grâce</title>
+		<imprint>
+			<publisher>De Gruyter</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="11" to="12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">von Maurice, J., Artelt, C., Blossfeld, H.-P., Faust, G., Rossbach, H.-G., &amp; Weinert, S. (2007). Bildungsprozesse, Kompetenzentwicklung und Formation von Selektionsentscheidungen im Vor-und Grundschulalter. U ¨berblick u¨ber die Erhebung in den La¨ngsschnitten BiKS-3-8 und BiKS-8-12 in den ersten beiden Projektjahren [Educational processes, competence development and selection decisions at pre-and primary school age: Overview of the data collection in the longitudinal studies BiKS-3-8 and BiKS-8-12 in the first two years of the study]. Retrieved from http://psydok.sulb.uni-saarland.de/volltexte/2007/1008</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

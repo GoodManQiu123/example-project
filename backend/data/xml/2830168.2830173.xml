@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_yxRv2Rz" coord="1,65.40,49.37,494.93,5.54;1,296.91,69.29,31.88,5.54">Testing and debugging exascale applications by mocking MPI</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>ACM</publisher>
+				<availability status="unknown"><p>Copyright ACM</p>
+				</availability>
+				<date type="published" when="2015-11-15">2015-11-15</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,127.74,101.67,77.73,12.34"><forename type="first">Thomas</forename><surname>Clune</surname></persName>
+							<email>thomas.l.clune@nasa.gov</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">NASA Goddard Space Flight Center Greenbelt, MD 20771</note>
+								<orgName type="department">NASA Goddard Space Flight Center Greenbelt</orgName>
+								<address>
+									<postCode>20771</postCode>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,286.41,101.67,52.90,12.34"><forename type="first">Hal</forename><surname>Finkel</surname></persName>
+							<email>hfinkel@anl.gov</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Leadership Computing Facility Argonne National Laboratory 9700 South Cass Avenue Building 240 Argonne, IL 60439</note>
+								<orgName type="laboratory">Leadership Computing Facility Argonne National Laboratory</orgName>
+								<address>
+									<addrLine>9700 South Cass Avenue Building 240 Argonne</addrLine>
+									<postCode>60439</postCode>
+									<region>IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,423.25,101.64,71.74,12.34"><forename type="first">Michael</forename><surname>Rilee</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Rilee Systems Technologies LLC and NASA GSFC PO Box 5532 Derwood, MD 20855</note>
+								<orgName type="laboratory">Rilee Systems Technologies LLC and NASA GSFC</orgName>
+								<address>
+									<postBox>PO Box 5532</postBox>
+									<postCode>20855</postCode>
+									<settlement>Derwood</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_qrsgNTf" coord="1,65.40,49.37,494.93,5.54;1,296.91,69.29,31.88,5.54">Testing and debugging exascale applications by mocking MPI</title>
+					</analytic>
+					<monogr>
+						<title level="m" xml:id="_NUudQwS">Proceedings of the 3rd International Workshop on Software Engineering for High Performance Computing in Computational Science and Engineering</title>
+						<meeting>the 3rd International Workshop on Software Engineering for High Performance Computing in Computational Science and Engineering						</meeting>
+						<imprint>
+							<publisher>ACM</publisher>
+							<date type="published" when="2015-11-15" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">D290872CDB240F2DD8ED6784758C65D7</idno>
+					<idno type="DOI">10.1145/2830168.2830173</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T01:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_8c4Dubu">D.2.4 [Software/Program Verification]: Model checking-Assertion checkers</term>
+					<term xml:id="_HvczWrK">D.2.5 [Testing and Debugging]: Distributed debugging -Error handling and recovery Reliability</term>
+					<term xml:id="_DScDZZ3">Verification software verification</term>
+					<term xml:id="_EXfcT7H">mock objects</term>
+					<term xml:id="_tkvt6sM">MPI</term>
+					<term xml:id="_fahwPvX">exascale</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_btZyukd"><p xml:id="_KhUQ6r5"><s xml:id="_rzRD9gn" coords="1,61.80,239.85,239.09,8.57;1,61.80,250.32,239.08,8.57;1,61.80,260.78,105.69,8.57">Debugging and code verification present daunting challenges for message-passing parallel applications that employ billions of processes/threads.</s><s xml:id="_cXUxVbz" coords="1,171.69,260.78,129.21,8.57;1,61.80,271.25,156.03,8.57">Yet often it is only at scale that software defects first show themselves.</s><s xml:id="_9xKJ4Fg" coords="1,223.41,271.25,77.48,8.57;1,61.80,281.71,239.09,8.57;1,61.80,292.17,239.09,8.57;1,61.80,302.64,34.33,8.57">When it is di cult or impossible to replicate problems on small scale platforms, development delays and resource costs are significant considerations.</s></p><p xml:id="_rzkch6v"><s xml:id="_xQFHNQ5" coords="1,70.76,313.10,230.12,8.57;1,61.80,323.57,239.09,8.57;1,61.80,334.03,239.09,8.57;1,61.80,344.49,199.97,8.57">Software mocks, in which reconfigurable components replace dependencies in an application component under test, are a powerful and versatile way to side-step expensive, complex, and/or otherwise impractical dependencies.</s><s xml:id="_D8AHtMQ" coords="1,267.94,344.49,32.95,8.57;1,61.80,354.96,239.08,8.57;1,61.80,365.42,239.10,8.57;1,61.80,375.88,242.83,8.57;1,61.80,386.35,68.15,8.57">We propose that mocking application dependencies, and MPI in particular, is an e↵ective technique for testing and debugging exascale message-passing software using small-scale computing resources.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_qTeUEyu">INTRODUCTION</head><p xml:id="_cnq2kAv"><s xml:id="_qJwnPNT" coords="1,70.77,555.45,230.13,8.57;1,61.80,565.92,239.08,8.57;1,61.80,576.38,52.08,8.57">Verification and debugging are some of the most di cult challenges faced when developing software to be run on exascale systems.</s><s xml:id="_TqP4WWW" coords="1,118.05,576.38,182.82,8.57;1,324.81,225.41,239.10,8.57;1,324.81,235.87,239.07,8.57;1,324.81,246.34,239.09,8.57;1,324.81,256.80,239.09,8.57;1,324.81,267.26,217.34,8.57">And while static analysis, relative debugging, and formal methods for development continue to make admirable progress <ref type="bibr" coords="1,387.95,235.87,11.28,8.57" target="#b7">[8]</ref>, testing and debugging generally remain quite expensive both in terms of the consumption of dedicated computing resources and in terms of wasted developer time due to delays in availability of such large resources.</s><s xml:id="_UkAT3fn" coords="1,542.15,267.26,21.74,8.57;1,324.81,277.73,239.08,8.57;1,324.81,288.19,239.08,8.57;1,324.81,298.66,85.42,8.57"><ref type="bibr" coords="1,542.15,267.26,11.24,8.57" target="#b3">[4]</ref> In an ideal world, all software defects could be exhibited using modestly sized computational domains and small numbers of processes/threads.</s><s xml:id="_Z34DJx4" coords="1,418.28,298.66,145.61,8.57;1,324.81,309.12,239.10,8.57;1,324.81,319.58,239.09,8.57;1,324.81,330.05,40.72,8.57">However, real-world experience has shown that bugs are all-too-often first detected when extending an application to larger domains and/or computing platforms.</s><s xml:id="_HedBQD6" coords="1,372.53,330.05,191.38,8.57;1,324.81,340.51,239.10,8.57;1,324.81,350.97,239.10,8.57;1,324.81,361.44,150.54,8.57">Further, even once a defect has been detected and isolated, the creation of a small-scale reproducer can require precise understanding of the nature of the problem to preserve the salient characteristics.</s><s xml:id="_t9X5rZB" coords="1,479.35,361.44,84.56,8.57;1,324.81,371.90,239.09,8.57;1,324.81,382.37,106.19,8.57">Thus, problems must often be largely resolved at-scale before a proper small-scale reproducer can be crafted.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1" xml:id="_Gx4DPSj">Scenarios</head><p xml:id="_ZhFGZ6G"><s xml:id="_W7Yn4n6" coords="1,333.78,421.04,230.11,8.57;1,324.81,431.51,239.11,8.57;1,324.81,441.97,239.10,8.57;1,324.81,452.43,84.51,8.57">We list here some representative scenarios in which traditional approaches to testing and/or debugging of exascale applications would appear to require the use of large-scale computing resources:</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_XAj4eZa">Serial algorithmic performance.</head><p xml:id="_MuUeSDy"><s xml:id="_HuC7AFx" coords="1,333.78,485.30,230.12,8.57;1,324.81,495.77,239.10,8.57;1,324.81,506.23,239.09,8.57;1,324.81,516.69,239.09,8.57;1,324.81,527.16,239.11,8.57;1,324.81,537.62,74.02,8.57">When the measured performance (speed or memory footprint) of an algorithm diverges from prediction, profiling tools may be insu cient to completely identify and correct the problem (or could still involve considerable expense due to the need to investigate the performance under a variety of configurations.)</s><s xml:id="_PMWS3K8" coords="1,406.26,537.62,157.66,8.57;1,324.81,548.08,64.25,8.57;1,392.79,554.40,21.73,2.26;1,419.16,548.08,144.76,8.57;1,324.81,558.55,168.55,8.57">Here we are considering only the performance of the serial portion of an algorithm, but in the context of a distributed implementation.</s><s xml:id="_edC3umk" coords="1,501.49,558.55,62.40,8.57;1,324.81,569.01,239.08,8.57;1,324.81,579.48,239.09,8.57;1,324.81,589.94,239.11,8.57;1,324.81,600.40,179.62,8.57">Except in relatively trivial cases, rescaling the problem to enable study with more modest resources will unacceptably alter the balance of data structure sizes, cache usage, and computational load of the di↵erent phases of the algorithm.</s></p><p xml:id="_4vgAwUB"><s xml:id="_5yWZcKf" coords="1,324.81,629.10,146.57,2.98">Testing/debugging complex logic.</s></p><p xml:id="_P4rxfe5"><s xml:id="_X8CBX83" coords="1,333.78,633.25,230.13,8.57;1,324.81,643.71,239.08,8.57;1,324.81,654.17,239.08,8.57;1,324.81,664.64,161.93,8.57">Although complex logic in a procedure frequently can be verified using modestly sized grids on a few or perhaps just one process, there remain important situations in which such reductions are exceedingly di cult.</s><s xml:id="_WDnPY9G" coords="1,490.73,664.64,73.17,8.57;1,324.81,675.10,239.08,8.57;2,61.80,21.54,239.11,8.57;2,61.80,32.00,126.85,8.57">Consider the common situation in which an algorithm relies on complex data-structures that are created and populated by some initialization layer of an application.</s><s xml:id="_yjp6tJT" coords="2,195.85,32.00,105.04,8.57;2,61.80,42.47,196.96,8.57;2,262.29,48.78,21.97,2.26;2,288.62,42.47,12.27,8.57;2,61.79,52.93,239.09,8.57;2,61.79,63.40,239.09,8.57;2,61.79,73.86,153.70,8.57">Even if the routine to be tested is itself completely serial and thus has no direct dependency on MPI, there can still be an induced dependency in the corresponding tests due to MPI procedure calls in the initialization logic for the application.</s><s xml:id="_yyyQRjb" coords="2,220.80,73.86,80.07,8.57;2,61.79,84.32,239.10,8.57;2,61.79,94.79,239.09,8.57;2,61.79,105.25,239.09,8.57;2,61.79,115.71,239.09,8.57;2,61.79,126.18,104.07,8.57">Configuring the initialization to produce realistic large-scale data structures to drive the control logic on a small number of processes is not possible in many cases and the developer must then choose between enhancing the initialization to support testing and creating a custom variant.</s><s xml:id="_TGgyh6a" coords="2,169.80,126.18,131.10,8.57;2,61.79,136.64,239.10,8.57;2,61.79,147.11,98.23,8.57">As a trivial example consider the case where the size of the local data structure is a nonlinear function of the grid size.</s></p><p xml:id="_zjBWtvB"><s xml:id="_a8zdr6F" coords="2,61.80,175.79,109.56,2.98">Error handling/trapping.</s></p><p xml:id="_jnxFhyC"><s xml:id="_6m2mKCn" coords="2,70.77,179.95,230.13,8.57;2,61.80,190.41,239.09,8.57">Consider an application that attempts to trap and fail gracefully when MPI procedures return with an error code.</s><s xml:id="_AESPdgv" coords="2,61.80,200.87,239.08,8.57;2,61.80,211.34,239.10,8.57">Such a policy is especially valuable for MPI I/O procedures due to inherent uncertainties in the state of the file system.</s><s xml:id="_GzhBjRD" coords="2,61.80,221.80,239.10,8.57;2,61.80,232.27,239.10,8.57;2,61.80,242.73,239.10,8.57;2,61.80,253.19,89.59,8.57">MPI errors are more frequent at high process counts due in part to the total number of procedure calls, but also due to larger bu↵ers, greater complexity, and hot-spots in the communication fabric.</s><s xml:id="_zeBCYVA" coords="2,155.78,253.19,145.12,8.57;2,61.80,263.66,239.10,8.57;2,61.80,274.12,239.09,8.57;2,61.80,284.58,43.49,8.57">Verification that an application correctly detects and handle these failures is di cult as small use cases may rarely or possibly never generate the necessary conditions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_HXAYRaB">Deadlock and Race Conditions?.</head><p xml:id="_t3MRV67"><s xml:id="_yVgj9Xe" coords="2,70.77,317.43,230.12,8.57;2,61.80,327.90,239.08,8.57;2,61.80,338.36,93.08,8.57">As with explicit failure signals from MPI, race conditions become increasingly likely as applications scale to larger numbers of processors.</s><s xml:id="_e5WrZ62" coords="2,162.05,338.36,138.85,8.57;2,61.80,348.82,239.40,8.57;2,61.80,359.29,239.10,8.57;2,61.80,369.75,121.33,8.57">Ensuring that race conditions are correctly guarded against, or debugging a procedure in which a race condition is suspected, therefore generally involves running a large scale scenario.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2" xml:id="_aFYCHzw">Goals</head><p xml:id="_SyqVnxZ"><s xml:id="_ZcRUJhJ" coords="2,70.77,401.87,230.13,8.57;2,61.80,412.34,239.10,8.57;2,61.80,422.80,239.10,8.57;2,61.80,433.26,239.07,8.57;2,61.80,443.73,239.09,8.57;2,61.80,454.19,239.10,8.57;2,61.80,464.65,97.62,8.57">In this paper we propose a methodology that enables the development of unit tests that can be used to verify correct software behavior for scenarios such as those discussed above while utilizing only a single process executing on a single node (i.e., in the extreme case, one could attempt to verify many aspects of an exascale application on a simple laptop with su cient memory.)</s><s xml:id="_MJh5NwZ" coords="2,163.70,464.65,137.19,8.57;2,61.80,475.12,164.76,8.57">In particular we expect to be able to verify software characteristics such as:</s></p><p xml:id="_znuRWMq"><s xml:id="_w9HeRX2" coords="2,75.12,496.02,4.60,14.78;2,84.21,495.88,181.45,8.57">• serial performance and memory consumption</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_9M264gt">• correct loop bounds</head><p xml:id="_56sGTxA"><s xml:id="_6QSRpg9" coords="2,75.12,534.31,4.60,14.78;2,84.21,534.16,153.63,8.57">• correct topology of neighbor processes</s></p><p xml:id="_nDnxrC3"><s xml:id="_McSRrgN" coords="2,75.12,553.45,4.60,14.78;2,84.21,553.31,190.20,8.57">• existence/size of messages from other processes</s></p><p xml:id="_YT4keNs"><s xml:id="_nnS8x7R" coords="2,75.12,572.59,4.60,14.78;2,84.21,572.45,126.11,8.57;2,75.12,591.74,4.60,14.78;2,84.21,591.59,116.37,8.57;2,70.77,612.35,230.14,8.57;2,61.80,622.81,63.75,8.57;2,128.71,629.13,9.87,2.26;2,142.64,622.81,158.26,8.57;2,61.80,633.28,239.11,8.57;2,61.80,643.74,77.15,8.57">• error handling / fault tolerance • race conditions and deadlock Note that we are not suggesting that this methodology would eliminate all requirements for testing and debugging at scale, but rather that it has the potential to significantly reduce such needs.</s><s xml:id="_WjnHqkn" coords="2,146.97,643.74,153.91,8.57;2,61.80,654.20,239.09,8.57;2,61.80,664.67,239.07,8.57;2,61.80,675.13,73.01,8.57">Also note that mocking is inherently unable to diagnose problems in the the implementation of the MPI layer itself except insofar as to aid in eliminating other possibilities.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_75jurmu">APPROACH</head><p xml:id="_tnjp9Ab"><s xml:id="_nF5gZKA" coords="2,333.78,34.49,230.12,8.57;2,324.81,44.96,239.11,8.57;2,324.81,55.42,162.90,8.57">In software engineering parlance, a "mock" is an interface, or collection of interfaces, that can be used to replace a dependency within a software system <ref type="bibr" coords="2,471.82,55.42,11.92,8.57" target="#b5">[6]</ref>.</s><s xml:id="_tvVA8GD" coords="2,492.28,55.42,71.61,8.57;2,324.81,65.88,239.10,8.57;2,324.81,76.35,239.09,8.57">Mocks are not intended to be fully functional, but rather to facilitate testing in the presence of complex and/or expensive dependencies.</s><s xml:id="_knubWDu" coords="2,324.81,86.81,239.09,8.57;2,324.81,97.28,239.11,8.57;2,324.81,107.74,226.10,8.57">Mocks can be used to verify that correct data is sent to an external dependency and can be configured to produce predictable return values from an external dependency.</s><s xml:id="_5hZHfqE" coords="2,557.01,107.74,6.90,8.57;2,324.81,118.20,239.10,8.57;2,324.81,128.67,164.18,8.57">A canonical example of the use of mocks is for tests of software that modifies large/important databases.</s><s xml:id="_Y9QRwd2" coords="2,492.98,128.67,70.92,8.57;2,324.81,139.13,239.11,8.57;2,324.81,149.59,239.11,8.57;2,324.81,160.06,183.87,8.57">In addition to the large overhead for connecting to a real shared database, tests would undesirably modify values in the database and could not rely on existing values in the database.</s><s xml:id="_nG5NWpg" coords="2,517.33,160.06,46.58,8.57;2,324.81,170.52,239.10,8.57;2,324.81,180.99,239.10,8.57;2,324.81,191.45,239.08,8.57;2,324.81,201.91,37.89,8.57">Mocks provide an appropriate sandbox to ensure that the procedures which interact with the database are correctly implemented without the cost and risk of working directly with the main database.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_NfqpPRM">Mocking MPI</head><p xml:id="_GSKePGz"><s xml:id="_rz6XedW" coords="2,333.78,235.74,230.11,8.57;2,324.81,246.20,239.10,8.57;2,324.81,256.67,118.01,8.57">Mocking MPI, at a high level, allows a test that only uses a few processes (perhaps just one) to act as though they are part of a much larger group.</s><s xml:id="_PxG9ACQ" coords="2,449.09,256.67,114.82,8.57;2,324.81,267.13,239.09,8.57;2,324.81,277.59,239.11,8.57;2,324.81,288.06,239.09,8.57;2,324.81,298.52,87.35,8.57">This capability is somewhat di cult to create as MPI makes its callers explicitly aware of the size of each communicator (group of processes), and requires that each group must be complete in order to function (e.g., collectives).</s><s xml:id="_q9mPhfR" coords="2,416.03,298.52,79.15,8.57;2,497.63,304.83,11.99,2.26;2,512.72,298.52,51.20,8.57;2,324.81,308.98,239.08,8.57;2,324.81,319.45,239.10,8.57;2,324.81,329.91,228.21,8.57">Nonetheless, MPI is the standardized interface for distributed-memory parallelism in high performance computing (HPC), and direct uses of MPI are pervasive throughout many important exascale applications.</s><s xml:id="_p628h6P" coords="2,557.01,329.91,6.90,8.57;2,324.81,340.38,150.09,8.57;2,478.34,346.69,9.87,2.26;2,492.56,340.38,71.35,8.57;2,324.81,350.84,239.09,8.57;2,324.81,361.30,96.42,8.57">It is therefore impractical to insist that all HPC applications hide MPI within abstractions such as Charm++ <ref type="bibr" coords="2,521.09,350.84,14.79,8.57" target="#b6">[7]</ref>, Pebbles <ref type="bibr" coords="2,339.15,361.30,14.34,8.57" target="#b9">[10]</ref>, and AM++ <ref type="bibr" coords="2,400.27,361.30,15.73,8.57" target="#b8">[9]</ref>.</s><s xml:id="_BVHsDnT" coords="2,427.03,361.30,136.87,8.57;2,324.81,371.77,239.09,8.57;2,324.81,382.23,55.99,8.57">Mocking can of course be equally useful in those contexts, and presumably considerably easier to implement.</s></p><p xml:id="_YUGgjrp"><s xml:id="_AVGbNAK" coords="2,333.78,392.69,230.61,8.57;2,324.81,403.16,180.80,8.57">Developers who are unfamiliar with the technique of mocking often initially confuse it with "stubbing".</s><s xml:id="_2JRDBTr" coords="2,510.30,403.16,53.61,8.57;2,324.81,413.62,93.09,8.57;2,422.00,419.93,23.85,2.26;2,450.84,413.62,113.05,8.57;2,324.81,424.09,185.00,8.57">Stubbing is a technique to provide a trivial implementation of some interface for the purpose of aiding portability.</s><s xml:id="_V3JjbXN" coords="2,517.88,424.09,46.04,8.57;2,324.81,434.55,239.09,8.57;2,324.81,445.01,239.09,8.57;2,324.81,455.48,15.85,8.57">E.g. many packages contain a stub of MPI which provide one-process behavior for the restricted subset of MPI used by the package.</s><s xml:id="_wS7bhy7" coords="2,344.62,455.48,219.28,8.57;2,324.81,465.94,239.09,8.57;2,324.81,476.40,127.58,8.57">This can reduce the installation di culty for new users and/or permit deployment of an application in environments that lack MPI or restrict its use.</s><s xml:id="_wF44bfR" coords="2,456.28,476.40,107.64,8.57;2,324.81,486.87,239.09,8.57;2,324.81,497.33,149.05,8.57;2,477.54,503.64,31.02,2.26;2,512.91,497.33,51.00,8.57;2,324.80,507.80,239.08,8.57;2,324.80,518.26,94.94,8.57">Whereas stubbing provides a trivial but technically correct implementation for some subset of MPI, mocking attempts to emulate the behavior of many MPI processes while providing essentially none of the actual functionality.</s><s xml:id="_7VMpvDZ" coords="2,423.64,518.26,140.27,8.57;2,324.80,528.72,239.09,8.57;2,324.80,539.19,239.11,8.57;2,324.80,549.65,94.19,8.57">Each test configures the mock layer such that calls to MPI processes return predetermined synthetic values that are intended to probe other aspects of the procedure being tested.</s><s xml:id="_HxXh7uZ" coords="2,423.11,549.65,140.78,8.57;2,324.80,560.12,239.09,8.57;2,324.80,570.58,29.91,8.57">The technique is powerful but subtle and therefore requires some experience and thought to exploit.</s></p><p xml:id="_eZ4aTzQ"><s xml:id="_Fs75fJ7" coords="2,333.77,581.04,230.13,8.57;2,324.80,591.51,77.26,8.57;2,406.54,597.82,34.21,2.26;2,446.06,591.51,117.84,8.57;2,324.81,601.97,25.73,8.57">To mock MPI the infrastructure must provide mechanisms for configuring the apparent behavior of nonexistent processes.</s><s xml:id="_NWvYbyW" coords="2,355.33,601.97,208.56,8.57;2,324.81,612.43,239.09,8.57;2,324.81,622.90,140.73,8.57">Often this behavior is trivial: broadcasts and sends to nonexistent ranks can be ignored, barriers can be assumed to have been reached, and so on.</s><s xml:id="_Xwqn4uM" coords="2,473.96,622.90,89.96,8.57;2,324.81,633.36,239.10,8.57;2,324.81,643.83,84.10,8.57">Emulating the contribution of nonexistent ranks to reduction operations is not particularly di cult.</s><s xml:id="_JZS7M5C" coords="2,415.94,643.83,147.97,8.57;2,324.81,654.29,239.09,8.57;2,324.81,664.75,239.11,8.57;2,324.81,675.22,18.40,8.57">The most complicated aspect is the emulation of messages sent from nonexistent ranks to the the process that is actually executing in the test configuration.</s><s xml:id="_CJR8jBs" coords="2,348.66,675.22,215.23,8.57;3,61.80,21.54,239.09,8.57;3,61.80,32.00,33.28,8.57">The mocking layer must support arbitrary sequences of procedure calls, each with a separately configurable set of outputs.</s></p><p xml:id="_p34bKAS"><s xml:id="_cxZtYhD" coords="3,70.76,42.47,230.12,8.57;3,61.80,52.93,239.09,8.57;3,61.80,63.40,239.11,8.57;3,61.80,73.86,239.09,8.57;3,61.80,84.32,239.10,8.57;3,61.80,94.79,239.09,8.57;3,61.80,105.25,239.10,8.57;3,61.80,115.71,196.67,8.57">As with many other mocking scenarios, a potentially significant complication for the implementer of the mock service is the di culty in manipulating private data structures defined within the code under test (e.g., if the code involves a complicated data structure for which an MPI data type has been constructed, it can be di cult for the mock service to take appropriate actions without implementing a substantial subset of MPI's type management system.)</s><s xml:id="_eA8aRz3" coords="3,265.59,115.71,35.28,8.57;3,61.80,126.18,239.09,8.57;3,61.80,136.64,204.29,8.57">Allowing the test implementer to use the existing definitions of these entities is essential to creating a practical solution.</s></p><p xml:id="_WwuzXBa"><s xml:id="_yxMQJDV" coords="3,70.76,147.11,230.12,8.57;3,61.80,157.57,239.07,8.57;3,61.80,168.03,239.09,8.57;3,61.80,178.50,186.61,8.57">The good news is that in many MPI applications, any given process primarily communicates with only a small number of neighbors with the major exception being relatively simple global broadcasts and reductions.</s><s xml:id="_uhhfW7v" coords="3,252.36,178.50,48.53,8.57;3,61.80,188.96,193.85,8.57;3,258.73,195.27,42.18,2.26;3,61.80,199.43,147.21,8.57">So the number of non-existent ranks that will have relevant non-trivial behavior to emulate is quite limited.</s><s xml:id="_gGRQsYM" coords="3,213.49,199.43,87.38,8.57;3,61.80,209.89,239.08,8.57;3,61.80,220.35,151.77,8.57">Yet two important issues requiring more e↵ort are: user-defined data types and complex sequences of data exchanges.</s></p><p xml:id="_aHDfKEG"><s xml:id="_e5HjCCg" coords="3,70.76,230.82,230.12,8.57;3,61.80,241.28,239.09,8.57;3,61.80,251.74,238.60,8.57;3,61.80,262.14,78.35,8.57">As a pedagogical example of our proposed methodology, consider a test in which we wish to "fool" the application into thinking that it is running in an environment with Np processes on rank r.</s><s xml:id="_t79UY7X" coords="3,143.96,262.14,156.93,8.57;3,61.80,272.60,166.75,8.57;3,230.62,278.91,70.48,2.11;3,61.80,283.07,152.94,8.57;3,217.81,289.38,73.03,2.11;3,61.80,306.35,197.34,2.11;3,75.89,316.82,108.07,2.11;3,75.89,327.28,126.87,2.11;3,75.89,337.74,159.75,2.11;3,75.89,358.66,220.83,2.11;3,75.89,369.13,206.74,2.11;3,75.89,379.59,206.74,2.11;3,61.80,390.05,131.56,2.11;3,61.80,400.72,239.11,8.57;3,61.80,411.19,239.10,8.57;3,61.80,421.65,16.37,8.57">A prototype mock MPI implementation might look something like the following for MPI_Comm_rank() with an analogous implementation for MPI_Comm_size(): subroutine MPI_Comm_rank(comm, rank, ierr) use MockMPI, only: mock integer, intent(in) :: comm integer, intent(out) :: rank, ierr call mock%verify('MPI_Comm_rank', 'comm', comm) call mock%get('MPI_Comm_rank', 'rank', rank) call mock%get('MPI_Comm_rank', 'ierr', ierr) end subroutine MPI_Comm_rank A test for a procedure proc() might then configure the mock to behave as rank 4 of a 10 process execution in a manner like:</s></p><p xml:id="_EBU22JX"><s xml:id="_mucfaTS" coords="3,61.80,444.95,108.07,2.11;3,61.80,455.41,192.64,2.11;3,61.80,465.87,192.64,2.11;3,61.80,476.34,14.10,2.11;3,61.80,486.80,65.79,2.11;3,61.80,497.26,79.88,2.11;3,61.80,507.93,15.86,8.57;3,81.68,514.24,23.50,2.11;3,109.19,507.93,144.68,8.57;3,257.88,514.24,25.37,2.26;3,288.12,507.93,12.78,8.57;3,61.79,518.39,144.07,8.57;3,210.69,524.70,23.50,2.11;3,239.02,518.39,36.60,8.57">use MockMPI, only: mock call mock%set('MPI_Comm_size','npes', 10) call mock%set('MPI_Comm_rank','rank', 4) ... call proc(...) &lt; check results &gt; The set() methods store values for procedure output parameters for later retrieval by the get() methods.</s><s xml:id="_FrSuHE9" coords="3,285.02,518.39,15.86,8.57;3,61.79,535.17,37.60,2.11;3,103.42,528.85,126.90,8.57;3,234.37,535.17,20.67,2.26;3,259.93,528.85,40.97,8.57;3,61.79,539.32,174.32,8.57">The verify() method can detect whether an input parameter matches previously set expectations, if any.</s></p><p xml:id="_zMBBvAN"><s xml:id="_EFb6BpS" coords="3,70.76,549.78,230.13,8.57;3,61.79,560.24,88.72,8.57">Note that this style of testing can also be very useful in non-exascale contexts.</s><s xml:id="_agUUuRX" coords="3,154.40,560.24,146.50,8.57;3,61.79,570.71,239.08,8.57;3,61.79,581.17,239.08,8.57;3,61.79,591.64,113.78,8.57">Also note that we are not advocating this particular implementation approach for mock MPI; it is only meant to be suggestive, easily understood, and fit within the 2-column format.</s></p><p xml:id="_6zevrrx"><s xml:id="_kNQAZGR" coords="3,70.76,602.10,230.12,8.57;3,61.79,612.56,239.10,8.57;3,61.79,623.03,194.52,8.57">A complete implementation of a mock layer for MPI would be a require a significant e↵ort, though with far less complexity than the implementation of MPI itself.</s><s xml:id="_DHE6Edv" coords="3,264.26,623.03,36.62,8.57;3,61.79,633.49,239.08,8.57;3,61.79,643.95,239.09,8.57;3,61.79,654.42,53.24,8.57">However, just as with MPI, many applications would only require a relatively modest subset of interfaces to be supported for practical use.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_EXt3g6N">Available technologies</head><p xml:id="_Xx9xvb2"><s xml:id="_Z2nkYBW" coords="3,333.78,21.54,230.11,8.57;3,324.81,32.00,239.11,8.57;3,324.81,42.47,110.27,8.57">Mocking is generally easier to implement and use in an object-oriented context where dependency injection (DI) becomes a powerful technique.</s><s xml:id="_M4pv5V2" coords="3,438.85,42.47,125.03,8.57;3,324.81,52.93,239.08,8.57;3,324.81,63.40,138.05,8.57">DI exposes dependencies within a system under test enabling them to be readily replaced with configurable mock behaviors.</s><s xml:id="_nGqaaTb" coords="3,467.38,63.40,96.52,8.57;3,324.81,73.86,67.22,8.57">Indeed, several mocking frameworks (e.g.</s><s xml:id="_Cykc3Gu" coords="3,398.77,73.86,165.11,8.57;3,324.81,84.32,239.09,8.57;3,324.81,94.79,88.29,8.57">Google Mock <ref type="bibr" coords="3,447.77,73.86,12.84,8.57" target="#b1">[1]</ref>, Hippo Mocks <ref type="bibr" coords="3,518.59,73.86,12.63,8.57" target="#b2">[2]</ref>, mockcpp[3]) exist for C++ and could be more-or-less directly applied to mock MPI.</s><s xml:id="_4tWKrP3" coords="3,416.17,94.79,147.72,8.57;3,324.81,105.25,239.09,8.57;3,324.81,115.71,239.09,8.57;3,324.81,126.18,59.56,8.57">These frameworks generally combine preprocessor directives and templating to allow developers to instantiate mock objects with a relatively modest amount of source code.</s><s xml:id="_uPu78UP" coords="3,388.72,126.18,175.18,8.57;3,324.81,136.64,239.10,8.57;3,324.81,147.11,194.94,8.57">They provide flexible means for configuring the outputs and specifying the expected input parameters to a sequence of calls to the layer being mocked.</s></p><p xml:id="_CEQcm9y"><s xml:id="_3d2GMx3" coords="3,333.78,157.57,230.12,8.57;3,324.81,168.03,22.77,8.57">The situation for Fortran is a bit more bleak at the moment.</s><s xml:id="_m6xMpEr" coords="3,353.33,168.03,210.56,8.57;3,324.81,178.50,239.09,8.57;3,324.81,188.96,161.51,8.57">We (Clune and Rilee) have made some initial steps to introduce mocking capabilities within pFUnit <ref type="bibr" coords="3,518.64,178.50,12.46,8.57">[5]</ref>, a unit testing framework for Fortran with MPI.</s><s xml:id="_uDQePYa" coords="3,488.77,188.96,75.14,8.57;3,324.81,199.43,239.09,8.57;3,324.81,209.89,239.09,8.57;3,324.81,220.35,239.10,8.57;3,324.81,230.82,215.78,8.57">While Fortran now supports object-oriented programming, it still lacks suitable templating capabilities comparable to those of C++, and therefore requires considerably more manual e↵ort on the part of developers to instantiate mock objects.</s><s xml:id="_aGVpmfw" coords="3,549.97,230.82,13.94,8.57;3,324.81,241.28,239.09,8.57;3,324.81,251.74,214.43,8.57">Regardless of this, the standard interfaces for MPI, except for the now-deprecated C++ interfaces, are procedural.</s><s xml:id="_4g97vSX" coords="3,545.96,251.74,17.94,8.57;3,324.81,262.21,239.11,8.57;3,324.81,272.67,239.10,8.57;3,324.81,283.14,140.40,8.57">This means that rather than using mock-objects for dependency injection, we must resort to reconfiguring an application at the link-step with a mock-library.</s><s xml:id="_U6zqQgD" coords="3,473.30,283.14,90.61,8.57;3,324.81,293.60,239.09,8.57;3,324.81,304.06,239.09,8.57;3,324.81,314.53,239.10,8.57;3,324.81,324.99,157.15,8.57">Further, to accommodate some use-cases in which user-defined state must be saved/compared/restored, users must be prepared to construct helper procedures that are passed into the mock library as part of the configuration step.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_RKPPqQS">EXAMPLES</head><p xml:id="_nT7dGfn"><s xml:id="_qFShwsr" coords="3,333.78,361.03,230.10,8.57;3,324.81,371.50,239.10,8.57;3,324.81,381.96,119.75,8.57">We consider here some highly-simplified examples that are representative of realistic di culties encountered when testing complex parallel software.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_bG8NYQ4">Error trapping</head><p xml:id="_RVppPrg"><s xml:id="_T2kAVbt" coords="3,333.78,412.97,230.13,8.57;3,324.81,423.44,239.09,8.57;3,324.81,433.90,65.81,8.57">Suppose we wish to test whether or not a procedure correctly traps a certain unsuccessful MPI return code within a given procedure.</s><s xml:id="_rEjCueG" coords="3,394.56,433.90,169.35,8.57;3,324.81,444.37,239.08,8.57;3,324.81,454.83,232.89,8.57;3,324.81,477.32,169.15,2.11;3,324.81,487.78,216.14,2.11;3,324.81,498.24,145.66,2.11;3,324.81,508.71,126.86,2.11">Arranging for MPI to routinely fail in that particular manner might be di cult or even impossible, but we can configure the mock to do so as part of such a test: use MockMPI, only: mock, MPI_ERR_TAG call mock%set('MPI_iSend','ierr', MPI_ERR_TAG) call proc_that_should_trap(...) @assertExceptionRaised(...)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_WC9rbxZ">Complex data types</head><p xml:id="_Z54V8zf"><s xml:id="_ExJ6nwX" coords="3,333.78,533.39,230.14,8.57;3,324.81,543.85,239.09,8.57;3,324.81,554.32,239.08,8.57;3,324.81,564.78,114.82,8.57;3,443.04,571.09,28.79,2.26;3,476.04,564.78,87.88,8.57;3,324.82,575.24,37.44,8.57">While standard approaches for manipulating procedure parameters su ce in cases where the types are fixed (e.g., 'rank', 'recvcounts', etc.), a generic implementation of a mock MPI will be unable to directly manipulate bu↵er parameters.</s><s xml:id="_c2bsKD2" coords="3,370.37,575.24,193.53,8.57;3,324.82,585.71,239.09,8.57;3,324.82,596.17,239.10,8.57;3,324.82,606.64,37.32,8.57">Instead, users will likely be required to create and pass to the mock a set of small auxiliary procedures that save/compare/restore values for the types actually being used.</s><s xml:id="_Xpqh5aG" coords="3,370.66,606.64,193.25,8.57;3,324.82,617.10,235.50,8.57">(Possibly the cretaion of these could be semiautomated through some sort of templating preprocessor.)</s></p><p xml:id="_RaEPbDe"><s xml:id="_yzSNRJC" coords="3,333.79,627.56,230.12,8.57;3,324.82,638.03,132.55,8.57;3,461.49,644.34,51.69,2.11;3,517.29,638.03,46.62,8.57">Suppose we wish to test a procedure which receives elements 1 and 3 an array of type UserDefined in a call to</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3" xml:id="_sMeCTMQ">Race condition</head><p xml:id="_N4NZgeW"><s xml:id="_g8vHdsd" coords="4,70.77,276.07,230.13,8.57;4,61.80,286.54,239.09,8.57;4,61.80,297.00,100.02,8.57">At first glance, race conditions would appear to be difficult or even impossible to address with the methodology advocated in this paper.</s><s xml:id="_KH6MHP9" coords="4,168.22,297.00,132.68,8.57;4,61.80,307.46,239.10,8.57;4,61.80,317.93,239.10,8.57;4,61.80,328.39,176.15,8.57">This is because the observed incorrect behavior can be on a process that executing correct code, and processes with incorrect code may behave correctly with regard to the values of its data.</s><s xml:id="_PZSYr9J" coords="4,242.94,328.39,57.95,8.57;4,61.80,338.85,239.08,8.57;4,61.80,349.32,156.18,8.57">However, with a modest amount of ingenuity, it is possible to configure the MPI mock to detect such code defects.</s></p><p xml:id="_NyCEkFW"><s xml:id="_ZMkZ8fT" coords="4,70.77,359.78,230.13,8.57;4,61.80,370.25,82.38,8.57;4,147.50,376.56,46.99,2.11;4,197.80,370.25,103.10,8.57;4,61.80,387.02,51.69,2.11;4,117.77,380.71,183.15,8.57;4,61.80,391.17,25.84,8.57;4,61.80,411.64,103.37,2.11;4,61.80,422.11,230.23,2.11;4,61.80,432.57,197.34,2.11;4,61.80,443.04,117.47,2.11;4,61.80,453.50,103.37,2.11;4,61.80,461.34,96.55,8.57;4,161.22,467.66,42.29,2.11;4,206.36,461.34,94.54,8.57;4,61.80,471.81,239.11,8.57;4,61.80,482.27,8.17,8.57;4,73.11,488.58,54.24,2.11;4,130.50,482.27,31.79,8.57;4,165.43,488.58,42.29,2.11;4,210.86,482.27,90.05,8.57;4,61.81,492.74,146.45,8.57;4,211.33,499.05,49.54,2.11">In this example we demonstrate a test that is meant to ensure that a call to MPI_Wait() is executed after a call to MPI_Isend() and priort to any local modification of that bu↵er: type (my_type) :: sbuf call mock%set('MPI_Isend', 'sbuf', sbuf, capture) call mock%expect_call('MPI_Wait', compare) call code_with_race(sbuf) call mock%verify_all() The auxiliary procedure capture() saves the address of the passed bu↵er as well as a copy of the data during the call to MPI_Isend(), whereas compare() verifies that the bu↵er still contains the same values during MPI_Wait().</s><s xml:id="_FdfJTHU" coords="4,61.81,513.21,79.88,2.11;4,75.90,523.67,145.66,2.11;4,75.90,534.13,155.06,2.11;4,61.81,544.60,37.60,2.11;4,75.90,555.06,136.26,2.11;4,90.00,565.53,173.85,2.11;4,90.00,575.99,145.66,2.11;4,90.00,586.45,98.67,2.11;4,90.00,596.92,155.06,2.11;4,90.00,607.38,75.18,2.11;4,75.90,617.84,103.37,2.11;4,75.90,628.31,93.98,2.11;4,90.00,638.77,145.66,2.11;4,90.00,649.24,155.06,2.11;4,90.00,659.70,136.26,2.11;4,75.90,670.16,103.37,2.11;4,61.81,680.63,98.67,2.11">module custom_mod type (C_PTR), save :: save_addr type (my_type), save :: sbuf_save contains subroutine capture(sbuf_addr) type (C_PTR), intent(in) :: sbuf_addr type (my_type), pointer :: sbuf save_addr = sbuf_addr call c_f_pointer(sbuf_addr, sbuf) sbuf_save = sbuf end subroutine capture subroutine compare() type (my_type), pointer :: sbuf call c_f_pointer(sbuf_addr, sbuf) @assertEqual(sbuf_save, sbuf) end subroutine compare end module custom_mod</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_6ByzaRe">CONCLUSION</head><p xml:id="_DKjzJzD"><s xml:id="_GAXtx9e" coords="4,333.78,34.49,230.12,8.57;4,324.81,44.96,239.09,8.57;4,324.81,55.42,126.26,8.57">Verification of software running on billions of cores is expected to be a serious barrier to scientific productivity on anticipated exascale platforms.</s><s xml:id="_TDzs6E9" coords="4,458.39,55.42,105.53,8.57;4,324.81,65.88,239.09,8.57;4,324.81,76.35,239.08,8.57">Traditional approaches to testing and debugging on bleeding edge machines are expensive and present significant bottlenecks for productivity.</s><s xml:id="_PKRaKvR" coords="4,324.81,86.81,239.09,8.57;4,324.81,97.28,239.09,8.57;4,324.81,107.74,203.92,8.57">Applying the methodology of software mocking in this environment may significantly improve the rate at which MPI applications can be developed, tested, and verified.</s><s xml:id="_22gAPXZ" coords="4,532.75,107.74,31.15,8.57;4,324.81,118.20,239.09,8.57;4,324.81,128.67,239.09,8.57;4,324.81,139.13,239.08,8.57;4,324.81,149.59,206.31,8.57">By simulating the parallel context experienced by a single process within the application, developers can then routinely test and investigate code behavior on relatively modest computing resourced during routine software development.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,324.81,648.49,162.72,35.06"><head></head><label></label><figDesc><div><p xml:id="_vJHaxCN"><s xml:id="_PvYsPr6" coords="3,324.81,654.80,40.14,2.11">MPI_Recv.</s><s xml:id="_3jBMbhc" coords="3,369.04,648.49,118.49,8.57">If the user type is defined by:</s></p></div></figDesc><table coords="3,324.81,670.98,75.18,12.57"><row><cell>integer :: n</cell></row><row><cell>end type UserDefined</cell></row><row><cell>then synthetic values can be specified in a test:</cell></row><row><cell>subroutine test_complicated()</cell></row><row><cell>type (UserDefined) :: x(4)</cell></row><row><cell>x(1) = UserDefined(2.5, 5) !synthetic</cell></row><row><cell>x(3) = UserDefined(3.5, 8) !synthetic</cell></row><row><cell>call mock%set('MPI_Recv', 'rbuf', custom_set, x)</cell></row><row><cell>call complicated_procedure(...)</cell></row><row><cell>...</cell></row><row><cell>end subroutine test_complicated</cell></row><row><cell>The aux. procedure custom_set() is defined as:</cell></row><row><cell>subroutine custom_set(addr, rbuf)</cell></row><row><cell>! sets elements 1 and 3 of rbuf</cell></row><row><cell>type (c_ptr) :: addr</cell></row><row><cell>type (UserDefined) :: rbuf(4)</cell></row><row><cell>type (UserDefined), pointer :: saved_buf</cell></row><row><cell>call c_f_pointer(addr, saved_buf, [4])</cell></row><row><cell>rbuf(1) = save_buf(1)</cell></row><row><cell>rbuf(3) = save_buf(3)</cell></row><row><cell>end subroutine custom_set</cell></row><row><cell>type UserDefined</cell></row><row><cell>real :: tau</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="4,329.30,171.51,96.81,12.37" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" xml:id="_4rrQmk9">Voltage References</title>
+		<author>
+			<persName coords=""><surname>References</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/9780470547038.ch3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_TqRHduX">Voltage References</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">REFERENCES</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,186.62,133.83,8.57;4,343.60,203.40,176.40,2.11;4,523.07,197.09,38.20,8.57;4,343.60,207.55,42.42,8.57" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" coord="4,343.60,186.62,129.35,8.57" xml:id="_Bw2KqMm">QR Code as a Google Spreadsheet-Based AKM Supporting Application</title>
+		<author>
+			<persName><forename type="first">Khilmatuz</forename><surname>Zuhria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fitria</forename><forename type="middle">Nur</forename><surname>Hasanah</surname></persName>
+			<idno type="ORCID">0000-0003-0271-9652</idno>
+		</author>
+		<idno type="DOI">10.21070/ups.2251</idno>
+		<ptr target="http://code.google.com/p/googlemock" />
+		<imprint>
+			<date type="published" when="2023-08-16" />
+			<publisher>Universitas Muhammadiyah Sidoarjo</publisher>
+			<biblScope unit="page" from="2015" to="0815" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Google c++ mocking framework. &quot;http://code.google.com/p/googlemock&quot;. Accessed: 2015-0815.</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,219.01,174.28,8.57;4,343.60,235.78,213.98,2.11;4,343.60,239.94,84.72,8.57" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" xml:id="_58xdUP9">The Project Wiki:</title>
+		<author>
+			<persName><forename type="first">Jèssica</forename><surname>Pérez-Moreno</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/j.ctt2005s41.6</idno>
+		<ptr target="https://www.assembla.com/wiki/show/hippomocks" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_C7QUvdK" coord="4,343.60,219.01,170.04,8.57">Children’s Home Musical Experiences Across the World</title>
+		<imprint>
+			<publisher>Indiana University Press</publisher>
+			<date>null</date>
+			<biblScope unit="page" from="43" to="54" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Home -hippo mocks project -assembla. https://www.assembla.com/wiki/show/hippomocks. Accessed: 2015-0815.</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,294.25,184.25,8.57;4,343.60,304.71,192.46,8.57;4,343.60,315.17,29.15,8.57;4,375.82,321.49,187.94,2.11;4,343.60,331.95,211.44,2.11;4,343.60,342.41,124.71,2.11;4,471.38,336.10,20.95,8.57" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_3pA48h8">Exascale for Energy: The Role of Exascale Computing in Energy Security</title>
+		<author>
+			<persName><forename type="first">Various</forename><surname>Authors</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/988989</idno>
+		<ptr target="http://science.energy.gov/~/media/ascr/pdf/research/cs/Exascale%20Workshop/Exascale_Tools_Workshop_Report.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_RHFY8x4" coord="4,466.95,294.25,60.89,8.57;4,343.60,304.71,192.46,8.57;4,343.60,315.17,29.15,8.57">Challenges and strategies. U.S. Department of Energy, O ce of Science</title>
+		<imprint>
+			<publisher>Office of Scientific and Technical Information (OSTI)</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tools for exascale computing: Challenges and strategies. U.S. Department of Energy, O ce of Science &quot;http://science.energy.gov/~/media/ascr/ pdf/research/cs/Exascale%20Workshop/Exascale_ Tools_Workshop_Report.pdf&quot;, 2011.</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,347.56,204.03,8.57;4,343.60,358.02,158.76,8.57;4,343.60,374.80,181.09,2.11;4,527.76,368.49,20.95,8.57;4,343.60,378.95,87.78,8.57" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coord="4,440.11,347.56,107.52,8.57;4,343.60,358.02,154.80,8.57" xml:id="_ug7NKnB">pFUnit 3.0 -a unit testing framework for parallel fortran software</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Clune</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Rilee</surname></persName>
+		</author>
+		<ptr target="http://sourceforge.net/projects/pfunit" />
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="2014" to="2017" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Clune and M. Rilee. pFUnit 3.0 -a unit testing framework for parallel fortran software. http://sourceforge.net/projects/pfunit, 2014. Accessed: 2014-07-08.</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,390.41,50.58,8.57;4,397.25,396.72,128.47,2.26;4,343.60,407.19,36.75,2.26;4,383.43,400.87,157.44,8.57;4,343.60,411.34,123.27,8.57" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" coord="4,397.25,396.72,128.47,2.26;4,343.60,407.19,32.67,2.26" xml:id="_AsPGwsc">Working E↵ectively with Legacy Software</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Feathers</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>Prentice Hall. Pearson Education, Inc</publisher>
+			<pubPlace>Upper Saddle River, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Feathers. Working E↵ectively with Legacy Software. Prentice Hall. Pearson Education, Inc., Upper Saddle River, NJ, 2005.</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,422.80,178.19,8.57;4,343.60,433.26,192.37,8.57;4,343.60,443.72,186.38,8.57;4,343.60,454.19,78.06,8.57;4,424.73,460.50,133.50,2.26;4,343.60,470.96,102.46,2.26;4,449.13,464.65,20.94,8.57" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="4,389.77,433.26,146.20,8.57;4,343.60,443.72,186.38,8.57;4,343.60,454.19,78.06,8.57;4,424.73,460.50,133.50,2.26" xml:id="_ddqfKS6">CHARM++</title>
+		<author>
+			<persName><forename type="first">Laxmikant</forename><forename type="middle">V</forename><surname>Kalé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sanjeev</forename><surname>Krishnan</surname></persName>
+		</author>
+		<idno type="DOI">10.7551/mitpress/5241.003.0009</idno>
+		<idno>#95-02</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_RkyAHUV">Parallel Programming Using C++</title>
+		<imprint>
+			<publisher>The MIT Press</publisher>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="page" from="175" to="214" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">L. V. Kalé, B. Ramkumar, A. B. Sinha, and A. Gursoy. The CHARM Parallel Programming Language and System: Part I -Description of Language Features. Parallel Programming Laboratory Technical Report #95-02, 1994.</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,476.11,218.15,8.57;4,343.60,486.57,184.27,8.57;4,343.60,497.04,168.84,8.57;4,343.60,507.50,211.86,8.57;4,343.60,517.97,25.15,8.57;4,371.83,524.28,66.52,2.26;4,441.41,517.97,95.34,8.57" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="4,469.63,497.04,42.82,8.57;4,343.60,507.50,211.86,8.57;4,343.60,517.97,21.56,8.57" xml:id="_H4SFe8G">Debugging high-performance computing applications at massive scales</title>
+		<author>
+			<persName><forename type="first">Ignacio</forename><surname>Laguna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dong</forename><forename type="middle">H</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bronis</forename><forename type="middle">R</forename><surname>De Supinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Todd</forename><surname>Gamblin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saurabh</forename><surname>Bagchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Milind</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bowen</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhezhe</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Feng</forename><surname>Qin</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2667219</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_X3Fruqx" coord="4,371.83,524.28,60.53,2.26">Communications of the ACM</title>
+		<title level="j" type="abbrev">Commun. ACM</title>
+		<idno type="ISSN">0001-0782</idno>
+		<idno type="ISSNe">1557-7317</idno>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="72" to="81" />
+			<date type="published" when="2015-08-24">Aug. 2015</date>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">I. Laguna, D. H. Ahn, B. R. de Supinski, T. Gamblin, G. L. Lee, M. Schulz, S. Bagchi, M. Kulkarni, B. Zhou, Z. Chen, and F. Qin. Debugging high-performance computing applications at massive scales. Commun. ACM, 58(9):72-81, Aug. 2015.</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,529.43,190.98,8.57;4,343.60,539.89,213.80,8.57;4,343.60,550.35,56.30,8.57;4,402.98,556.67,148.19,2.26;4,343.60,567.13,217.33,2.26;4,343.60,577.59,46.28,2.26;4,392.94,571.28,170.75,8.57;4,343.60,581.74,72.87,8.57" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="4,405.39,539.89,152.02,8.57;4,343.60,550.35,40.33,8.57" xml:id="_gdbrFtT">AM++</title>
+		<author>
+			<persName><forename type="first">Jeremiah</forename><forename type="middle">James</forename><surname>Willcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Torsten</forename><surname>Hoefler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">Gerard</forename><surname>Edmonds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Lumsdaine</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1854273.1854323</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_GNFNBsw" coord="4,402.98,556.67,148.19,2.26;4,343.60,567.13,217.33,2.26;4,343.60,577.59,46.28,2.26;4,392.94,571.28,39.26,8.57">Proceedings of the 19th international conference on Parallel architectures and compilation techniques</title>
+		<meeting>the 19th international conference on Parallel architectures and compilation techniques<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010-09-11">2010</date>
+			<biblScope unit="page" from="401" to="410" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. J. Willcock, T. Hoefler, N. G. Edmonds, and A. Lumsdaine. Am++: A generalized active message framework. In Proceedings of the 19th International Conference on Parallel Architectures and Compilation Techniques, PACT &apos;10, pages 401-410, New York, NY, USA, 2010. ACM.</note>
+</biblStruct>
+
+<biblStruct coords="4,343.60,593.20,190.98,8.57;4,343.60,603.67,214.67,8.57;4,343.60,614.13,125.34,8.57;4,472.01,620.44,71.93,2.26;4,343.60,630.91,182.03,2.26;4,528.69,624.59,32.46,8.57;4,343.60,635.06,200.79,8.57" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="4,405.39,603.67,152.88,8.57;4,343.60,614.13,109.95,8.57" xml:id="_8B6ZSe3">Active pebbles</title>
+		<author>
+			<persName><forename type="first">Jeremiah</forename><forename type="middle">James</forename><surname>Willcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Torsten</forename><surname>Hoefler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">Gerard</forename><surname>Edmonds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Lumsdaine</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1995896.1995934</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_s8r9uyK" coord="4,472.01,620.44,71.93,2.26;4,343.60,630.91,182.03,2.26;4,528.69,624.59,28.88,8.57">Proceedings of the international conference on Supercomputing</title>
+		<meeting>the international conference on Supercomputing<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2011-05-31">2011</date>
+			<biblScope unit="page" from="235" to="244" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. J. Willcock, T. Hoefler, N. G. Edmonds, and A. Lumsdaine. Active pebbles: Parallel programming for data-driven applications. In Proceedings of the International Conference on Supercomputing, ICS &apos;11, pages 235-244, New York, NY, USA, 2011. ACM.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

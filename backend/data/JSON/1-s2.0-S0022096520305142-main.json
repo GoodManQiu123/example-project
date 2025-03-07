@@ -1,0 +1,1204 @@
+{
+    "metadata": {
+        "title": "Fostering early numerical competencies by playing conventional board games",
+        "doi": "10.1016/j.jecp.2020.105060",
+        "publisher": "Elsevier BV",
+        "journal": "Journal of Experimental Child Psychology",
+        "published_date": "2 January 2021"
+    },
+    "content": {
+        "abstract": "Recent evidence indicates that playing numerical board games is beneficial for the numerical development of preschoolers. However, board games used in these studies were often specifically developed for training numerical skills. Therefore, we examined whether similar beneficial effects could be observed for playing conventional board games such as Parcheesi. In an intervention study with seven 30-min training sessions over a period of 4 weeks, we observed that 4-to 6-year-old children (M age = 4 years 11 months) who played conventional board games with traditional number dice (with dot faces numbered from one to six) benefitted more from the board games than children who played board games with color or non-numerical symbol dice. Pretest-posttest comparisons indicated differential effects on counting skills and the ability to recognize and use structures. Beyond these immediate training effects observed in posttest, the differential beneficial effects of playing board games using traditional dot dice on recognizing and using structures was still present in a follow-up test 1 year after the intervention. Thus, playing conventional board games using traditional number dice seems to be an effective lowthreshold intervention to foster early numerical competencies.",
+        "keywords": [
+            "early",
+            "dice",
+            "competency",
+            "effect",
+            "conventional",
+            "game",
+            "numerical",
+            "board"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Hedwig Gasteiger",
+            "affiliation": "Department of Mathematics",
+            "email": "hedwig.gasteiger@uni-osnabrueck.de"
+        },
+        {
+            "name": "Korbinian Moeller",
+            "affiliation": "Centre for Mathematical Cognition",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "Preschool and primary school influences on the development of children's early numeracy skills between the ages of 3 and 7 years in Germany",
+            "type": "article-journal",
+            "container_title": [
+                "School Effectiveness and School Improvement"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Beddington",
+                    "given": "J."
+                },
+                {
+                    "family": "Cooper",
+                    "given": "C.L."
+                },
+                {
+                    "family": "Field",
+                    "given": "J."
+                },
+                {
+                    "family": "Goswami",
+                    "given": "U."
+                },
+                {
+                    "family": "Huppert",
+                    "given": "F.A."
+                },
+                {
+                    "family": "Jenkins",
+                    "given": "R."
+                },
+                {
+                    "family": "Thomas",
+                    "given": "S.M."
+                }
+            ],
+            "title": "The mental wealth of nations",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bjorklund",
+                    "given": "D."
+                },
+                {
+                    "family": "Hubertz",
+                    "given": "M."
+                },
+                {
+                    "family": "Reubens",
+                    "given": "A."
+                }
+            ],
+            "title": "Young children's arithmetic strategies in social context",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Behavioral Development"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Butterworth",
+                    "given": "B."
+                },
+                {
+                    "family": "Varma",
+                    "given": "S."
+                },
+                {
+                    "family": "Laurillard",
+                    "given": "D."
+                }
+            ],
+            "title": "Dyscalculia: From brain to education",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Clements",
+                    "given": "D.H."
+                }
+            ],
+            "title": "Subitizing: What is it? Why teach it?",
+            "type": "article-journal",
+            "container_title": [
+                "Teaching Children Mathematics"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cohen",
+                    "given": "J."
+                }
+            ],
+            "title": "Statistical power analysis for the behavioural sciences",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1969"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Smedt",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Verschaffel",
+                    "given": "L."
+                },
+                {
+                    "family": "Gesquiere",
+                    "given": "P."
+                }
+            ],
+            "title": "The predictive values or numerical magnitude comparison for individual differences in mathematics achievement",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dolenc",
+                    "given": "R."
+                },
+                {
+                    "family": "Gasteiger",
+                    "given": "H."
+                },
+                {
+                    "family": "Kraft",
+                    "given": "G."
+                },
+                {
+                    "family": "Loibl",
+                    "given": "G."
+                }
+            ],
+            "title": "ZahlenZauberei",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dowker",
+                    "given": "A.D."
+                }
+            ],
+            "title": "Individual differences in arithmetic: Implications for psychology, neuroscience and education",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Duncan",
+                    "given": "G.J."
+                },
+                {
+                    "family": "Dowsett",
+                    "given": "C.J."
+                },
+                {
+                    "family": "Claessens",
+                    "given": "A."
+                },
+                {
+                    "family": "Magnuson",
+                    "given": "K."
+                },
+                {
+                    "family": "Huston",
+                    "given": "A.C."
+                },
+                {
+                    "family": "Klebanov",
+                    "given": "P."
+                },
+                {
+                    "family": "Japel",
+                    "given": "C."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "School readiness and later achievement",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Elofsson",
+                    "given": "J."
+                },
+                {
+                    "family": "Gustafson",
+                    "given": "S."
+                },
+                {
+                    "family": "Samuelsson",
+                    "given": "J."
+                },
+                {
+                    "family": "Tr\u00e4ff",
+                    "given": "U."
+                }
+            ],
+            "title": "Playing number board games supports 5-year-old children's early mathematical development",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Mathematical Behavior"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gasteiger",
+                    "given": "H."
+                }
+            ],
+            "title": "Elementare mathematische Bildung im Alltag der Kindertagesst\u00e4tte: Grundlegung und Evaluation eines kompetenzorientierten F\u00f6rderansatzes",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gasteiger",
+                    "given": "H."
+                }
+            ],
+            "title": "Fostering early mathematical competencies in natural learning situations-Foundation and challenges of a competence-oriented concept of mathematics education in kindergarten",
+            "type": "article-journal",
+            "container_title": [
+                "Journal f\u00fcr Mathematik-Didaktik"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gasteiger",
+                    "given": "H."
+                }
+            ],
+            "title": "Professionalization of early childhood educators with a focus on natural learning situations and individual development of mathematical competencies: Results from an evaluation study",
+            "type": "paper-conference",
+            "container_title": [
+                "Early mathematics learning: Selected papers of the POEM 2012 Conference"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Geary",
+                    "given": "D.C."
+                },
+                {
+                    "family": "Bailey",
+                    "given": "D.H."
+                },
+                {
+                    "family": "Littlefield",
+                    "given": "A."
+                },
+                {
+                    "family": "Wood",
+                    "given": "P."
+                },
+                {
+                    "family": "Hoard",
+                    "given": "M.K."
+                },
+                {
+                    "family": "Nugent",
+                    "given": "L."
+                }
+            ],
+            "title": "First-Grade Predictors of Mathematical Learning Disability: A Latent Class Trajectory Analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Cognitive Development"
+            ],
+            "doi": "10.1016/j.",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Geary",
+                    "given": "D.C."
+                }
+            ],
+            "title": "Cognitive predictors of achievement growth in mathematics: A 5-year longitudinal study",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Holloway",
+                    "given": "I.D."
+                },
+                {
+                    "family": "Ansari",
+                    "given": "D."
+                }
+            ],
+            "title": "Mapping numerical magnitudes onto symbols: The numerical distance effect and individual differences in children's mathematics achievement",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Holman",
+                    "given": "L."
+                },
+                {
+                    "family": "Head",
+                    "given": "M.L."
+                },
+                {
+                    "family": "Lanfear",
+                    "given": "R."
+                },
+                {
+                    "family": "Jennions",
+                    "given": "M.D."
+                }
+            ],
+            "title": "Evidence of experimental bias in the life sciences: Why we need blind data recording",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS Biology"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jordan",
+                    "given": "N.C."
+                },
+                {
+                    "family": "Glutting",
+                    "given": "J."
+                },
+                {
+                    "family": "Ramineni",
+                    "given": "C."
+                }
+            ],
+            "title": "The importance of number sense to mathematics achievement in first and third grades",
+            "type": "article-journal",
+            "container_title": [
+                "Learning and Individual Differences"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kamii",
+                    "given": "C."
+                },
+                {
+                    "family": "Rummelsburg",
+                    "given": "J."
+                },
+                {
+                    "family": "Kari",
+                    "given": "A."
+                }
+            ],
+            "title": "Teaching arithmetic to low-performing, low-SES first graders",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Mathematical Behavior"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kaufmann",
+                    "given": "L."
+                },
+                {
+                    "family": "Nuerk",
+                    "given": "H.-C."
+                },
+                {
+                    "family": "Graf",
+                    "given": "M."
+                },
+                {
+                    "family": "Krinzinger",
+                    "given": "H."
+                },
+                {
+                    "family": "Delazer",
+                    "given": "M."
+                },
+                {
+                    "family": "Willmes",
+                    "given": "K."
+                }
+            ],
+            "title": "TEDI-MATH: Test zur Erfassung numerisch-rechnerischer Fertigkeiten vom Kindergarten bis zur 3 Klasse",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Krajewski",
+                    "given": "K."
+                },
+                {
+                    "family": "Schneider",
+                    "given": "W."
+                }
+            ],
+            "title": "Early development of quantity to number-word linkage as a precursor of mathematical school achievement and mathematical difficulties: Findings from a four-year longitudinal study",
+            "type": "article-journal",
+            "container_title": [
+                "Learning and Instruction"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Laski",
+                    "given": "E.V."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Learning from number board games: You learn what you encode",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "LeFevre",
+                    "given": "J.-A."
+                },
+                {
+                    "family": "Skwarchuk",
+                    "given": "S.-L."
+                },
+                {
+                    "family": "Smith-Chant",
+                    "given": "B.L."
+                },
+                {
+                    "family": "Fat",
+                    "given": "L."
+                },
+                {
+                    "family": "Kamawar",
+                    "given": "D."
+                },
+                {
+                    "family": "Bisanz",
+                    "given": "J."
+                }
+            ],
+            "title": "Home numeracy experiences and children's math performance in the early school years",
+            "type": "article-journal",
+            "container_title": [
+                "Canadian Journal of Behavioural Science"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "L\u00fcken",
+                    "given": "M.M."
+                }
+            ],
+            "title": "Young children's structure sense",
+            "type": "article-journal",
+            "container_title": [
+                "Journal f\u00fcr Mathematik-Didaktik"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mulligan",
+                    "given": "J."
+                },
+                {
+                    "family": "Mitchelmore",
+                    "given": "M."
+                }
+            ],
+            "title": "Awareness of pattern and structure in early mathematical development",
+            "type": "article-journal",
+            "container_title": [
+                "Mathematics Education Research Journal"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nguyen",
+                    "given": "T."
+                },
+                {
+                    "family": "Watts",
+                    "given": "T.W."
+                },
+                {
+                    "family": "Duncan",
+                    "given": "G.J."
+                },
+                {
+                    "family": "Clements",
+                    "given": "D.H."
+                },
+                {
+                    "family": "Sarama",
+                    "given": "J.S."
+                },
+                {
+                    "family": "Wolfe",
+                    "given": "C."
+                },
+                {
+                    "family": "Spitler",
+                    "given": "M.E."
+                }
+            ],
+            "title": "Which preschool mathematics competencies are most predictive of fifth grade achievement?",
+            "type": "article-journal",
+            "container_title": [
+                "Early Childhood Research Quarterly"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Obersteiner",
+                    "given": "A."
+                },
+                {
+                    "family": "Reiss",
+                    "given": "K."
+                },
+                {
+                    "family": "Ufer",
+                    "given": "S."
+                },
+                {
+                    "family": "Luwel",
+                    "given": "K."
+                },
+                {
+                    "family": "Verschaffel",
+                    "given": "L."
+                }
+            ],
+            "title": "Do first graders make efficient use of external number representations? The case of the twenty-frame",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition and Instruction"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Passolunghi",
+                    "given": "M.C."
+                },
+                {
+                    "family": "Lanfranchi",
+                    "given": "S."
+                }
+            ],
+            "title": "Domain-specific and domain-general precursors of mathematical achievement: A longitudinal study from kindergarten to first grade",
+            "type": "article-journal",
+            "container_title": [
+                "British Journal of Educational Psychology"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Petermann",
+                    "given": "F."
+                },
+                {
+                    "family": "Lipsius",
+                    "given": "M."
+                }
+            ],
+            "title": "Wechsler Preschool and Primary Scale of Intelligence III, German version",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Peters",
+                    "given": "S."
+                }
+            ],
+            "title": "Playing games and learning mathematics: The results of two intervention studies",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Early Years Education"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piazza",
+                    "given": "M."
+                },
+                {
+                    "family": "Facoetti",
+                    "given": "A."
+                },
+                {
+                    "family": "Trussardi",
+                    "given": "A.N."
+                },
+                {
+                    "family": "Berteletti",
+                    "given": "I."
+                },
+                {
+                    "family": "Conte",
+                    "given": "S."
+                },
+                {
+                    "family": "Lucangeli",
+                    "given": "D."
+                },
+                {
+                    "family": "Zorzi",
+                    "given": "M."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Developmental trajectory of number acuity reveals a severe impairment in developmental dyscalculia",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Purpura",
+                    "given": "D.J."
+                },
+                {
+                    "family": "Baroody",
+                    "given": "A.J."
+                },
+                {
+                    "family": "Lonigan",
+                    "given": "C.J."
+                }
+            ],
+            "title": "The transition from informal to formal mathematical knowledge: Mediation by numeral knowledge",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Educational Psychology"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ramani",
+                    "given": "G.B."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Promoting broad and stable improvements in low-income children's numerical knowledge through playing number board games",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ramani",
+                    "given": "G.B."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Hitti",
+                    "given": "A."
+                }
+            ],
+            "title": "Taking it to the classroom: Number board games as a small group learning activity",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Educational Psychology"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Richardson",
+                    "given": "J.T.E."
+                }
+            ],
+            "title": "Eta squared and partial eta squared as measurements of effect size in educational research",
+            "type": "article-journal",
+            "container_title": [
+                "Educational Research Review"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ritchie",
+                    "given": "S.J."
+                },
+                {
+                    "family": "Bates",
+                    "given": "T.C."
+                }
+            ],
+            "title": "Enduring links from childhood mathematics and reading achievement to adult socioeconomic status",
+            "type": "article-journal",
+            "container_title": [
+                "Psychological Science"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rittle-Johnson",
+                    "given": "B."
+                },
+                {
+                    "family": "Zippert",
+                    "given": "E.L."
+                },
+                {
+                    "family": "Boice",
+                    "given": "K.L."
+                }
+            ],
+            "title": "The roles of patterning and spatial skills in early mathematics development",
+            "type": "article-journal",
+            "container_title": [
+                "Early Childhood Research Quarterly"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sasanguie",
+                    "given": "D."
+                },
+                {
+                    "family": "G\u00f6bel",
+                    "given": "S.M."
+                },
+                {
+                    "family": "Moll",
+                    "given": "K."
+                },
+                {
+                    "family": "Smets",
+                    "given": "K."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                }
+            ],
+            "title": "Approximate number sense, symbolic number processing, or number-space mappings: What underlies mathematics achievement?",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Seo",
+                    "given": "K.-H."
+                },
+                {
+                    "family": "Ginsburg",
+                    "given": "H.P."
+                }
+            ],
+            "title": "What is developmentally appropriate in early childhood mathematics education? Lessons from new research",
+            "type": "chapter",
+            "container_title": [
+                "Engaging young children in mathematics: Standards for early childhood mathematics education"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Ramani",
+                    "given": "G.B."
+                }
+            ],
+            "title": "Playing linear numerical board games promotes low-income children's numerical development",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Science"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Ramani",
+                    "given": "G.B."
+                }
+            ],
+            "title": "Playing linear number board games-but not circular ones-improves low-income preschoolers' numerical understanding",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Educational Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sonnenschein",
+                    "given": "S."
+                },
+                {
+                    "family": "Metzger",
+                    "given": "S.R."
+                },
+                {
+                    "family": "Dowling",
+                    "given": "R."
+                },
+                {
+                    "family": "Gay",
+                    "given": "B."
+                },
+                {
+                    "family": "Simons",
+                    "given": "C.L."
+                }
+            ],
+            "title": "Extending an effective classroom-based math board game intervention to preschoolers' homes",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Applied Research on Children: Informing Policy for Children at Risk"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Stebler",
+                    "given": "R."
+                },
+                {
+                    "family": "Vogt",
+                    "given": "F."
+                },
+                {
+                    "family": "Wolf",
+                    "given": "I."
+                },
+                {
+                    "family": "Hauser",
+                    "given": "B."
+                },
+                {
+                    "family": "Rechsteiner",
+                    "given": "K."
+                }
+            ],
+            "title": "Play-based mathematics in kindergarten: A video analysis of children's mathematical behaviour while playing a board game in small groups",
+            "type": "article-journal",
+            "container_title": [
+                "Journal f\u00fcr Mathematik-Didaktik"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Streit-Lehmann",
+                    "given": "J."
+                }
+            ],
+            "title": "Involving parents in games and picture books",
+            "type": "chapter",
+            "container_title": [
+                "Engaging families as children's first mathematics educators: International perspectives"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oers",
+                    "given": "B.",
+                    "particle": "van"
+                }
+            ],
+            "title": "Emergent mathematical thinking in the context of play",
+            "type": "article-journal",
+            "container_title": [
+                "Educational Studies in Mathematics"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Verguts",
+                    "given": "T."
+                },
+                {
+                    "family": "Fias",
+                    "given": "W."
+                }
+            ],
+            "title": "Representation of number in animals and humans: A neural model",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Cognitive Neuroscience"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Whyte",
+                    "given": "J.C."
+                },
+                {
+                    "family": "Bull",
+                    "given": "R."
+                }
+            ],
+            "title": "Number games, magnitude representation, and basic number skills in preschoolers",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wijns",
+                    "given": "N."
+                },
+                {
+                    "family": "Torbeyns",
+                    "given": "J."
+                },
+                {
+                    "family": "Smedt",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Verschaffel",
+                    "given": "L."
+                }
+            ],
+            "title": "Young children's patterning competencies and mathematical development: A review",
+            "type": "chapter",
+            "container_title": [
+                "Mathematical learning and cognition in early childhood"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wood",
+                    "given": "D."
+                },
+                {
+                    "family": "Middleton",
+                    "given": "D."
+                }
+            ],
+            "title": "A study of assisted problem-solving",
+            "type": "article-journal",
+            "container_title": [
+                "British Journal of Psychology"
+            ],
+            "doi": "",
+            "published_date": "1975"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Young-Loveridge",
+                    "given": "J.M."
+                }
+            ],
+            "title": "Effects on early numeracy of a program using number books and games",
+            "type": "article-journal",
+            "container_title": [
+                "Early Childhood Research Quarterly"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zippert",
+                    "given": "E.L."
+                },
+                {
+                    "family": "Clayback",
+                    "given": "K."
+                },
+                {
+                    "family": "Rittle-Johnson",
+                    "given": "B."
+                }
+            ],
+            "title": "Not just IQ: Patterning predicts preschoolers' math knowledge beyond fluid reasoning",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Cognition and Development"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        }
+    ]
+}

@@ -1,0 +1,1611 @@
+{
+    "metadata": {
+        "title": "A Novel Graph Indexing Approach for Uncovering Potential COVID-19 Transmission Clusters",
+        "doi": "10.1145/3538492",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "The COVID-19 pandemic has caused the society lockdowns and a large number of deaths in many countries. Potential transmission cluster discovery is to find all suspected users with infections, which is greatly needed to fast discover virus transmission chains so as to prevent an outbreak of COVID-19 as early as possible. In this paper, we study the problem of potential transmission cluster discovery based on the spatio-temporal logs. Given a query of patient user and a timestamp of confirmed infection , the problem is to find all potential infected users who have close social contacts to user before time . We motivate and formulate the potential transmission cluster model, equipped with a detailed analysis of transmission cluster property and particular model usability. To identify potential clusters, one straightforward method is to compute all close contacts on-the-fly, which is simple but inefficient caused by scanning spatio-temporal logs many times. To accelerate the efficiency, we propose two indexing algorithms by constructing a multigraph index and an advanced BCG-index. Leveraging two well-designed techniques of spatio-temporal compression and graph partition on bipartite contact graphs, our BCG-index approach achieves a good balance of index construction and online query processing to fast discover potential transmission cluster. We theoretically analyze and compare the algorithm complexity of three proposed approaches. Extensive experiments on real-world check-in datasets and COVID-19 confirmed cases in the United States validate the effectiveness and efficiency of our potential transmission cluster model and algorithms.",
+        "keywords": [
+            "covid",
+            "potential",
+            "transmission",
+            "system",
+            "graph",
+            "model",
+            "approach",
+            "novel",
+            "cluster",
+            "user",
+            "database",
+            "processing"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Xuliang Zhu",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Jiming Liu",
+            "affiliation": null,
+            "email": "jiming@comp.hkbu.edu.hk"
+        },
+        {
+            "name": "Acm Trans",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Knowl",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Discov",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Xuliang Data",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Xin Zhu",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Longxu Huang",
+            "affiliation": null,
+            "email": "xinhuang@comp.hkbu.edu.hk"
+        },
+        {
+            "name": "Jiming Sun",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Liu",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Adiga",
+                    "given": "Aniruddha"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Lijing"
+                },
+                {
+                    "family": "Hurt",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Peddireddy",
+                    "given": "Akhil Sai"
+                },
+                {
+                    "family": "Porebski",
+                    "given": "Przemyslaw"
+                },
+                {
+                    "family": "Venkatramanan",
+                    "given": "Srinivasan"
+                },
+                {
+                    "family": "Lewis",
+                    "given": "Bryan"
+                },
+                {
+                    "family": "Marathe",
+                    "given": "Madhav"
+                }
+            ],
+            "title": "All models are useful: Bayesian ensembling for robust high resolution covid-19 forecasting",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ahmed",
+                    "given": "Pritom"
+                },
+                {
+                    "family": "Hasan",
+                    "given": "Mahbub"
+                },
+                {
+                    "family": "Kashyap",
+                    "given": "Abhijith"
+                },
+                {
+                    "family": "Hristidis",
+                    "given": "Vagelis"
+                },
+                {
+                    "family": "Tsotras",
+                    "given": "Vassilis J."
+                }
+            ],
+            "title": "Efficient computation of top-k frequent terms over spatio-temporal ranges",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Anwar",
+                    "given": "Md Musfique"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Chengfei"
+                },
+                {
+                    "family": "Li",
+                    "given": "Jianxin"
+                }
+            ],
+            "title": "Discovering and tracking query oriented active online social groups in dynamic information network",
+            "type": "article-journal",
+            "container_title": [
+                "World Wide Web"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Atluri",
+                    "given": "Gowtham"
+                },
+                {
+                    "family": "Karpatne",
+                    "given": "Anuj"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Vipin"
+                }
+            ],
+            "title": "Spatio-temporal data mining: A survey of problems and methods",
+            "type": "article-journal",
+            "container_title": [
+                "Comput. Surveys"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brown",
+                    "given": "Chlo\u00eb"
+                },
+                {
+                    "family": "Chauhan",
+                    "given": "Jagmohan"
+                },
+                {
+                    "family": "Grammenos",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "Han",
+                    "given": "Jing"
+                },
+                {
+                    "family": "Hasthanasombat",
+                    "given": "Apinan"
+                },
+                {
+                    "family": "Spathis",
+                    "given": "Dimitris"
+                },
+                {
+                    "family": "Xia",
+                    "given": "Tong"
+                },
+                {
+                    "family": "Cicuta",
+                    "given": "Pietro"
+                },
+                {
+                    "family": "Mascolo",
+                    "given": "Cecilia"
+                }
+            ],
+            "title": "Exploring Automatic Diagnosis of COVID-19 from Crowdsourced Respiratory Sound Data",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cho",
+                    "given": "Eunjoon"
+                },
+                {
+                    "family": "Myers",
+                    "given": "Seth A."
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Friendship and mobility: user movement in location-based social networks",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dai",
+                    "given": "Rui"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Shenkun"
+                },
+                {
+                    "family": "Gu",
+                    "given": "Qian"
+                },
+                {
+                    "family": "Ji",
+                    "given": "Chenguang"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Kaikui"
+                }
+            ],
+            "title": "Hybrid Spatio-Temporal Graph Convolutional Network: Improving Traffic Prediction with Navigation Data",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Francalanci",
+                    "given": "Chiara"
+                },
+                {
+                    "family": "Pernici",
+                    "given": "Barbara"
+                },
+                {
+                    "family": "Scalia",
+                    "given": "Gabriele"
+                }
+            ],
+            "title": "Exploratory spatio-temporal queries in evolving information",
+            "type": "chapter",
+            "container_title": [
+                "International Workshop on Mobility Analytics for Spatio-temporal and Social Data"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fu",
+                    "given": "Zhenxin"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Yu"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Hailei"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Yichuan"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Dongyan"
+                },
+                {
+                    "family": "Yan",
+                    "given": "Rui"
+                }
+            ],
+            "title": "Be Aware of the Hot Zone: A Warning System of Hazard Area Prediction to Intervene Novel Coronavirus COVID-19 Outbreak",
+            "type": "chapter",
+            "container_title": [
+                "SIGIR"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Galvin",
+                    "given": "Fred"
+                }
+            ],
+            "title": "The list chromatic index of a bipartite multigraph",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Combinatorial Theory, Series B"
+            ],
+            "doi": "",
+            "published_date": "1995"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ghamizi",
+                    "given": "Salah"
+                },
+                {
+                    "family": "Rwemalika",
+                    "given": "Renaud"
+                },
+                {
+                    "family": "Cordy",
+                    "given": "Maxime"
+                },
+                {
+                    "family": "Veiber",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "Bissyand\u00e9",
+                    "given": "Tegawend\u00e9 F."
+                },
+                {
+                    "family": "Papadakis",
+                    "given": "Mike"
+                },
+                {
+                    "family": "Klein",
+                    "given": "Jacques"
+                },
+                {
+                    "family": "Traon",
+                    "given": "Yves Le"
+                }
+            ],
+            "title": "Data-driven Simulation and Optimization for Covid-19 Exit Strategies",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gross",
+                    "given": "Jonathan L."
+                },
+                {
+                    "family": "Yellen",
+                    "given": "Jay"
+                }
+            ],
+            "title": "Graph Theory and Its Applications",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guttman",
+                    "given": "Antonin"
+                }
+            ],
+            "title": "R-trees: A dynamic index structure for spatial searching",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "1984"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hao",
+                    "given": "Qianyue"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Lin"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Fengli"
+                },
+                {
+                    "family": "Li",
+                    "given": "Yong"
+                }
+            ],
+            "title": "Understanding the Urban Pandemic Spreading of COVID-19 with Real World Mobility Data",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Harary",
+                    "given": "Frank"
+                }
+            ],
+            "title": "Graph Theory",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1991"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jin",
+                    "given": "Xiaoyong"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Yu-Xiang"
+                },
+                {
+                    "family": "Yan",
+                    "given": "Xifeng"
+                }
+            ],
+            "title": "Inter-Series Attention Model for COVID-19 Forecasting",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2021 SIAM International Conference on Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kempe",
+                    "given": "David"
+                },
+                {
+                    "family": "Kleinberg",
+                    "given": "Jon"
+                },
+                {
+                    "family": "Tardos",
+                    "given": "\u00c9va"
+                }
+            ],
+            "title": "Maximizing the spread of influence through a social network",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "Minseok"
+                },
+                {
+                    "family": "Kang",
+                    "given": "Junhyeok"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Doyoung"
+                },
+                {
+                    "family": "Song",
+                    "given": "Hwanjun"
+                },
+                {
+                    "family": "Min",
+                    "given": "Hyangsuk"
+                },
+                {
+                    "family": "Nam",
+                    "given": "Youngeun"
+                },
+                {
+                    "family": "Park",
+                    "given": "Dongmin"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Jae-Gil"
+                }
+            ],
+            "title": "Hi-COVIDNet: Deep Learning Approach to Predict Inbound COVID-19 Patients and Case Study in South Korea",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                },
+                {
+                    "family": "Krevl",
+                    "given": "Andrej"
+                }
+            ],
+            "title": "SNAP Datasets: Stanford Large Network Dataset Collection",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Hui-Jia"
+                },
+                {
+                    "family": "Bu",
+                    "given": "Zhan"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Zhen"
+                },
+                {
+                    "family": "Cao",
+                    "given": "Jie"
+                }
+            ],
+            "title": "Dynamical clustering in electronic commerce systems via optimization and leadership expansion",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Industrial Informatics"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Hui-Jia"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Lin"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Yan"
+                },
+                {
+                    "family": "Perc",
+                    "given": "Matja\u017e"
+                }
+            ],
+            "title": "Optimization of identifiability for efficient community detection",
+            "type": "article-journal",
+            "container_title": [
+                "New Journal of Physics"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Hui-Jia"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Wenzhe"
+                },
+                {
+                    "family": "Song",
+                    "given": "Shenpeng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Wen-Xuan"
+                },
+                {
+                    "family": "Perc",
+                    "given": "Matja\u017e"
+                }
+            ],
+            "title": "The dynamics of epidemic spreading on signed networks",
+            "type": "article-journal",
+            "container_title": [
+                "Chaos, Solitons & Fractals"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Ting"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Junbo"
+                },
+                {
+                    "family": "Bao",
+                    "given": "Kainan"
+                },
+                {
+                    "family": "Liang",
+                    "given": "Yuxuan"
+                },
+                {
+                    "family": "Li",
+                    "given": "Yexin"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Yu"
+                }
+            ],
+            "title": "Autost: Efficient neural architecture search for spatio-temporal prediction",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Gu",
+                    "given": "Zhonglei"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Jiming"
+                }
+            ],
+            "title": "Uncovering transmission patterns of COVID-19 outbreaks: A region-wide comprehensive retrospective study in Hong Kong",
+            "type": "article-journal",
+            "container_title": [
+                "EClinicalMedicine"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Yang"
+                },
+                {
+                    "family": "Gu",
+                    "given": "Zhonglei"
+                },
+                {
+                    "family": "Xia",
+                    "given": "Shang"
+                },
+                {
+                    "family": "Benyun Shi",
+                    "given": "X.-N.Zhou"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Yong"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Jiming"
+                }
+            ],
+            "title": "What are the underlying transmission patterns of covid-19 outbreak?-an age-specific social contact characterization",
+            "type": "article-journal",
+            "container_title": [
+                "EClinicalMedicine"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Luo",
+                    "given": "Yuyu"
+                },
+                {
+                    "family": "Li",
+                    "given": "Wenbo"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Tianyu"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Xiang"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Lixi"
+                },
+                {
+                    "family": "Li",
+                    "given": "Guoliang"
+                },
+                {
+                    "family": "Tang",
+                    "given": "Nan"
+                }
+            ],
+            "title": "Deeptrack: Monitoring and exploring spatio-temporal data: a case of tracking COVID-19",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 13"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mamoulis",
+                    "given": "Nikos"
+                },
+                {
+                    "family": "Cao",
+                    "given": "Huiping"
+                },
+                {
+                    "family": "Kollios",
+                    "given": "George"
+                },
+                {
+                    "family": "Hadjieleftheriou",
+                    "given": "Marios"
+                },
+                {
+                    "family": "Tao",
+                    "given": "Yufei"
+                },
+                {
+                    "family": "Cheung",
+                    "given": "David W."
+                }
+            ],
+            "title": "Mining, indexing, and querying historical spatiotemporal data",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Manolopoulos",
+                    "given": "Yannis"
+                },
+                {
+                    "family": "Papadopoulos",
+                    "given": "Apostolos N."
+                },
+                {
+                    "family": "Papadopoulos",
+                    "given": "Apostolos N."
+                },
+                {
+                    "family": "Theodoridis",
+                    "given": "Yannis"
+                }
+            ],
+            "title": "R-Trees: Theory and Applications: Theory and Applications",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Marti",
+                    "given": "Lukas M."
+                },
+                {
+                    "family": "Santo",
+                    "given": "Michael P.Dal"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Ronald Keryuan"
+                }
+            ],
+            "title": "Modeling significant locations",
+            "type": "patent",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nanni",
+                    "given": "Mirco"
+                },
+                {
+                    "family": "Andrienko",
+                    "given": "Gennady"
+                },
+                {
+                    "family": "Barab\u00e1si",
+                    "given": "Albert-L\u00e1szl\u00f3"
+                },
+                {
+                    "family": "Boldrini",
+                    "given": "Chiara"
+                },
+                {
+                    "family": "Bonchi",
+                    "given": "Francesco"
+                },
+                {
+                    "family": "Cattuto",
+                    "given": "Ciro"
+                },
+                {
+                    "family": "Chiaromonte",
+                    "given": "Francesca"
+                },
+                {
+                    "family": "Comand\u00e9",
+                    "given": "Giovanni"
+                },
+                {
+                    "family": "Conti",
+                    "given": "Marco"
+                },
+                {
+                    "family": "Cot\u00e9",
+                    "given": "Mark"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Give more data, awareness and control to individual citizens, and they will help COVID-19 containment",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ni",
+                    "given": "Bing"
+                },
+                {
+                    "family": "Shen",
+                    "given": "Qiaomu"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Jiayi"
+                },
+                {
+                    "family": "Qu",
+                    "given": "Huamin"
+                }
+            ],
+            "title": "Spatio-temporal flow maps for visualizing movement and contact patterns",
+            "type": "article-journal",
+            "container_title": [
+                "Visual Informatics"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Okawa",
+                    "given": "Maya"
+                },
+                {
+                    "family": "Iwata",
+                    "given": "Tomoharu"
+                },
+                {
+                    "family": "Kurashima",
+                    "given": "Takeshi"
+                },
+                {
+                    "family": "Tanaka",
+                    "given": "Yusuke"
+                },
+                {
+                    "family": "Toda",
+                    "given": "Hiroyuki"
+                },
+                {
+                    "family": "Ueda",
+                    "given": "Naonori"
+                }
+            ],
+            "title": "Deep mix-ture point processes: Spatio-temporal event prediction with rich contextual information",
+            "type": "paper-conference",
+            "container_title": [
+                "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Papadias",
+                    "given": "Dimitris"
+                },
+                {
+                    "family": "Yufei Tao",
+                    "given": "P.Kanis"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Jun"
+                }
+            ],
+            "title": "Indexing spatio-temporal data warehouses",
+            "type": "paper-conference",
+            "container_title": [
+                "IEEE International Conference on Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Peng",
+                    "given": "Zhe"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Jinbin"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Haixin"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Shihao"
+                },
+                {
+                    "family": "Chu",
+                    "given": "Xiaowen"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Xinzhi"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Li"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Xin"
+                },
+                {
+                    "family": "Fu",
+                    "given": "Xiaoyi"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Yike"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "BU-Trace: A Permissionless Mobile System for Privacy-Preserving Intelligent Contact Tracing",
+            "type": "chapter",
+            "container_title": [
+                "DASFAA 2021 International Workshops: BDQM"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Peng",
+                    "given": "Zhe"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Cheng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Haixin"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Jinbin"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Jianliang"
+                },
+                {
+                    "family": "Chu",
+                    "given": "Xiaowen"
+                }
+            ],
+            "title": "P2B-Trace: Privacy-Preserving Blockchain-based Contact Tracing to Combat Pandemics",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2021 International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pornphol",
+                    "given": "Putsadee"
+                },
+                {
+                    "family": "Chittayasothorn",
+                    "given": "Suphamit"
+                }
+            ],
+            "title": "System Dynamics Model of COVID-19 Pandemic Situation: The Case of Phuket Thailand",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Computer Modeling and Simulation"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schwabe",
+                    "given": "Amray"
+                },
+                {
+                    "family": "Persson",
+                    "given": "Joel"
+                },
+                {
+                    "family": "Feuerriegel",
+                    "given": "Stefan"
+                }
+            ],
+            "title": "Predicting COVID-19 Spread from Large-Scale Mobility Data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tao",
+                    "given": "Yufei"
+                },
+                {
+                    "family": "Papadias",
+                    "given": "Dimitris"
+                }
+            ],
+            "title": "The mv3r-tree: A spatio-temporal access method for timestamp and interval queries",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Very Large Data Bases"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Times",
+                    "given": "The New York"
+                }
+            ],
+            "title": "Coronavirus (Covid-19) Data in the United States",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tseng",
+                    "given": "Vincent S."
+                },
+                {
+                    "family": "Ying",
+                    "given": "Josh Jia-Ching"
+                },
+                {
+                    "family": "Wong",
+                    "given": "Stephen T.C."
+                },
+                {
+                    "family": "Cook",
+                    "given": "Diane J."
+                },
+                {
+                    "family": "Liu",
+                    "given": "Jiming"
+                }
+            ],
+            "title": "Computational intelligence techniques for combating COVID-19: a survey",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Computational Intelligence Magazine"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Bowen"
+                },
+                {
+                    "family": "Sun",
+                    "given": "Yanjing"
+                },
+                {
+                    "family": "Duong",
+                    "given": "Trung Q."
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Long D."
+                },
+                {
+                    "family": "Hanzo",
+                    "given": "Lajos"
+                }
+            ],
+            "title": "Risk-Aware Identification of Highly Suspected COVID-19 Cases in Social IoT: A Joint Graph Theory and Reinforcement Learning Approach",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Access"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "given": "W.H.O."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Guojun"
+                },
+                {
+                    "family": "Ding",
+                    "given": "Yichen"
+                },
+                {
+                    "family": "Li",
+                    "given": "Yanhua"
+                },
+                {
+                    "family": "Bao",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Yu"
+                },
+                {
+                    "family": "Luo",
+                    "given": "Jun"
+                }
+            ],
+            "title": "Mining spatio-temporal reachable regions over massive trajectory data",
+            "type": "paper-conference",
+            "container_title": [
+                "IEEE International Conference on Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Huanhuan"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "James"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Ke",
+                    "given": "Yiping"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Yuzhen"
+                },
+                {
+                    "family": "Yan",
+                    "particle": "Da"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Hejun"
+                }
+            ],
+            "title": "Core decomposition in large temporal graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "IEEE International Conference on Big Data"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Huanhuan"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Yuzhen"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "James"
+                },
+                {
+                    "family": "Li",
+                    "given": "Jinfeng"
+                },
+                {
+                    "family": "Ke",
+                    "given": "Yiping"
+                }
+            ],
+            "title": "Reachability and time-based path queries in temporal graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "IEEE International Conference on Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wylot",
+                    "given": "Marcin"
+                },
+                {
+                    "family": "Cudr\u00e9-Mauroux",
+                    "given": "Philippe"
+                },
+                {
+                    "family": "Hauswirth",
+                    "given": "Manfred"
+                },
+                {
+                    "family": "Groth",
+                    "given": "Paul"
+                }
+            ],
+            "title": "Storing, tracking, and querying provenance in linked data",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Knowledge and Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xiong",
+                    "given": "Xiaopeng"
+                },
+                {
+                    "family": "Mokbel",
+                    "given": "Mohamed F."
+                },
+                {
+                    "family": "Aref",
+                    "given": "Walid G."
+                }
+            ],
+            "title": "Sea-cnn: Scalable processing of continuous k-nearest neighbor queries in spatio-temporal databases",
+            "type": "paper-conference",
+            "container_title": [
+                "IEEE International Conference on Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zhe"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Lei"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Yijin"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Jiyuan"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Lei"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chao"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Shuhong"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Peng"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Hongxia"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Li"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Pathological findings of COVID-19 associated with acute respiratory distress syndrome",
+            "type": "article-journal",
+            "container_title": [
+                "The Lancet Respiratory Medicine"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Dingqi"
+                },
+                {
+                    "family": "Qu",
+                    "given": "Bingqing"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Cudre-Mauroux",
+                    "given": "Philippe"
+                }
+            ],
+            "title": "Revisiting user mobility and social relation-ships in lbsns: a hypergraph embedding approach",
+            "type": "paper-conference",
+            "container_title": [
+                "The world wide web conference"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Dingqi"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Daqing"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Longbiao"
+                },
+                {
+                    "family": "Qu",
+                    "given": "Bingqing"
+                }
+            ],
+            "title": "Nationtelescope: Monitoring and visualizing large-scale collective behavior in lbsns",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Network and Computer Applications"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Dingqi"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Daqing"
+                },
+                {
+                    "family": "Qu",
+                    "given": "Bingqing"
+                }
+            ],
+            "title": "Participatory cultural mapping based on collective behavior data in location-based social networks",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Transactions on Intelligent Systems and Technology"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Zhao"
+                },
+                {
+                    "family": "Japkowicz",
+                    "given": "Nathalie"
+                }
+            ],
+            "title": "Meta-morisita index: Anomaly behaviour detection for large scale tracking data with spatio-temporal marks",
+            "type": "paper-conference",
+            "container_title": [
+                "IEEE International Conference on Data Mining Workshops"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "Tianming"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Yunjun"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Lu"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Pu",
+                    "given": "Shiliang"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Baihua"
+                },
+                {
+                    "family": "Jensen",
+                    "given": "Christian S."
+                }
+            ],
+            "title": "Efficient distributed reachability querying of massive temporal graphs",
+            "type": "article-journal",
+            "container_title": [
+                "The VLDB Journal"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        }
+    ]
+}

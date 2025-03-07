@@ -1,0 +1,1342 @@
+{
+    "metadata": {
+        "title": "The effectiveness of intervention with board games: a systematic review",
+        "doi": "10.1186/s13030-019-0164-1",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "To examine the effectiveness of board games and programs that use board games, the present study conducted a systematic review using the PsycINFO and PubMed databases with the keywords \"board game\" AND \"trial;\" in total, 71 studies were identified. Of these 71 studies, 27 satisfied the inclusion criteria in terms of program content, intervention style, and pre-post comparisons and were subsequently reviewed. These 27 studies were divided into the following three categories regarding the effects of board games and programs that use board games: educational knowledge (11 articles), cognitive functions (11 articles), and other conditions (five articles). The effect sizes between pre-and post-tests or pre-tests and follow-up tests were 0.12-1.81 for educational knowledge, 0.04-2.60 and -1.14 --0.02 for cognitive functions, 0.06-0.65 for physical activity, and -0.87 --0.61 for symptoms of attention-deficit hyperactivity disorder (ADHD). The present findings showed that, as a tool, board games can be expected to improve the understanding of knowledge, enhance interpersonal interactions among participants, and increase the motivation of participants. However, because the number of published studies in this area remains limited, the possibility of using board games as treatment for clinical symptoms requires further discussion.",
+        "keywords": [
+            "function",
+            "article",
+            "review",
+            "cognitive",
+            "knowledge",
+            "study",
+            "intervention",
+            "systematic",
+            "game",
+            "board"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Shota Noda",
+            "affiliation": "Graduate School of Human and Social Sciences",
+            "email": "norashouta@outlook.jp"
+        },
+        {
+            "name": "Kentaro Shirotsuki",
+            "affiliation": "Faculty of Human Sciences",
+            "email": null
+        },
+        {
+            "name": "Mutsuhiro Nakao",
+            "affiliation": "Department of Psychosomatic Medicine",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "BMN",
+                    "given": "El Daou"
+                },
+                {
+                    "family": "SI",
+                    "given": "El-Shamieh"
+                }
+            ],
+            "title": "The effect of playing chess on the concentration of ADHD students in the 2nd cycle",
+            "type": "article-journal",
+            "container_title": [
+                "Procedia Soc Behav Sci"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Charness",
+                    "given": "N."
+                }
+            ],
+            "title": "The impact of chess research on cognitive science",
+            "type": "article-journal",
+            "container_title": [
+                "Psycho Res"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Burgoyne",
+                    "given": "A.P."
+                },
+                {
+                    "family": "Sala",
+                    "given": "G."
+                },
+                {
+                    "family": "Gobet",
+                    "given": "F."
+                },
+                {
+                    "family": "Macnamara",
+                    "given": "B.N."
+                },
+                {
+                    "family": "Campitella",
+                    "given": "G."
+                },
+                {
+                    "family": "Hambrick",
+                    "given": "D.Z."
+                }
+            ],
+            "title": "The relationship between cognitive ability and chess skill: a comprehensive meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Intelligence"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sala",
+                    "given": "G."
+                },
+                {
+                    "family": "Gobet",
+                    "given": "F."
+                }
+            ],
+            "title": "Do the benefits of chess instruction transfer to academic and cognitive skill?: a meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Educ Res Rev"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Association",
+                    "given": "American Go"
+                }
+            ],
+            "title": "What is Go? American Go Association",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019-01-22"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Iizuka",
+                    "given": "A."
+                },
+                {
+                    "family": "Suzuki",
+                    "given": "H."
+                },
+                {
+                    "family": "Ogawa",
+                    "given": "S."
+                },
+                {
+                    "family": "Kobayashi-Cuya",
+                    "given": "K.E."
+                },
+                {
+                    "family": "Kobayashi",
+                    "given": "M."
+                },
+                {
+                    "family": "Fujiwara",
+                    "given": "Y."
+                }
+            ],
+            "title": "Pilot randomized controlled trail of the GO game intervention on cognitive function",
+            "type": "article-journal",
+            "container_title": [
+                "Am J Alzheimers Dis Other Dement"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kim",
+                    "given": "S.H."
+                },
+                {
+                    "family": "Han",
+                    "given": "D.H."
+                },
+                {
+                    "family": "Lee",
+                    "given": "Y.S."
+                },
+                {
+                    "family": "Kim",
+                    "given": "B.N."
+                },
+                {
+                    "family": "Cheong",
+                    "given": "J.H."
+                },
+                {
+                    "family": "Han",
+                    "given": "S.H."
+                }
+            ],
+            "title": "Baduk (the game of go) improved cognitive function and brain activity in children with attention deficit hyperactivity disorder",
+            "type": "article-journal",
+            "container_title": [
+                "Psychiatry Investig"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lin",
+                    "given": "Q."
+                },
+                {
+                    "family": "Cao",
+                    "given": "Y."
+                },
+                {
+                    "family": "Gao",
+                    "given": "J."
+                }
+            ],
+            "title": "The impacts of a GO-game (Chinese chess) intervention on Alzheimer disease in a northeast Chinese population",
+            "type": "article-journal",
+            "container_title": [
+                "Front Aging Neurosci"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wan",
+                    "given": "X."
+                },
+                {
+                    "family": "Takano",
+                    "given": "D."
+                },
+                {
+                    "family": "Asamizuya",
+                    "given": "T."
+                },
+                {
+                    "family": "Suzuki",
+                    "given": "C."
+                },
+                {
+                    "family": "Ueno",
+                    "given": "K."
+                },
+                {
+                    "family": "Cheng",
+                    "given": "K."
+                },
+                {
+                    "family": "Ito",
+                    "given": "T."
+                },
+                {
+                    "family": "Tanaka",
+                    "given": "K."
+                }
+            ],
+            "title": "Developing intuition: neural correlates of cognitive-skill learning in caudate nucleus",
+            "type": "article-journal",
+            "container_title": [
+                "J Neurosci"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Amaro",
+                    "given": "S."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Costanzo",
+                    "given": "A.",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Madeo",
+                    "given": "I."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Baccari",
+                    "given": "M.E."
+                },
+                {
+                    "family": "Marchitelli",
+                    "given": "E."
+                },
+                {
+                    "family": "Raia",
+                    "given": "M."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "E."
+                },
+                {
+                    "family": "Deepak",
+                    "given": "S."
+                },
+                {
+                    "family": "Monda",
+                    "given": "M."
+                },
+                {
+                    "family": "Luca",
+                    "given": "B.",
+                    "particle": "De"
+                }
+            ],
+            "title": "Kal\u00e8do, a new educational board-game, gives nutritional rudiments and encourages healthy eating in children: a pilot cluster randomized trial",
+            "type": "article-journal",
+            "container_title": [
+                "Eur J Pediatr"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zeedyk",
+                    "given": "M.S."
+                },
+                {
+                    "family": "Wallace",
+                    "given": "L."
+                },
+                {
+                    "family": "Carcary",
+                    "given": "B."
+                },
+                {
+                    "family": "Jones",
+                    "given": "K."
+                },
+                {
+                    "family": "Larter",
+                    "given": "K."
+                }
+            ],
+            "title": "Children and road safety: increasing knowledge does not improve behavior",
+            "type": "article-journal",
+            "container_title": [
+                "Br J Educ Psychol"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Moher",
+                    "given": "D."
+                },
+                {
+                    "family": "Liberati",
+                    "given": "A."
+                },
+                {
+                    "family": "Tetzlaff",
+                    "given": "J."
+                },
+                {
+                    "family": "Altman",
+                    "given": "D.G."
+                }
+            ],
+            "title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement",
+            "type": "article-journal",
+            "container_title": [
+                "PLoS Med"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cohen",
+                    "given": "J."
+                }
+            ],
+            "title": "Statistical power analysis for the behavioural sciences",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sala",
+                    "given": "G."
+                },
+                {
+                    "family": "Aksayli",
+                    "given": "N.D."
+                },
+                {
+                    "family": "Tatlidil",
+                    "given": "K.S."
+                },
+                {
+                    "family": "Gondo",
+                    "given": "Y."
+                },
+                {
+                    "family": "Gobet",
+                    "given": "F."
+                }
+            ],
+            "title": "Working Memory training does not enhance older adults' cognitive skills: a comprehensive meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "from file:///C:/Users/noras/AppData/Local/Packages/Microsoft. MicrosoftEdge_8wekyb3d8bbwe/TempState/Downloads/WMT_older_"
+            ],
+            "doi": "",
+            "published_date": "2019-07-22"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Khazaal",
+                    "given": "Y."
+                },
+                {
+                    "family": "Chatton",
+                    "given": "A."
+                },
+                {
+                    "family": "Prezzemolo",
+                    "given": "R."
+                },
+                {
+                    "family": "Zebouni",
+                    "given": "F."
+                },
+                {
+                    "family": "Edel",
+                    "given": "Y."
+                },
+                {
+                    "family": "Jacquet",
+                    "given": "J."
+                },
+                {
+                    "family": "Ruggeri",
+                    "given": "O."
+                },
+                {
+                    "family": "Burnens",
+                    "given": "E."
+                },
+                {
+                    "family": "Monney",
+                    "given": "G."
+                },
+                {
+                    "family": "Protti",
+                    "given": "A.S."
+                },
+                {
+                    "family": "Etter",
+                    "given": "J.F."
+                },
+                {
+                    "family": "Khan",
+                    "given": "R."
+                },
+                {
+                    "family": "Cornuz",
+                    "given": "J."
+                },
+                {
+                    "family": "Zullino",
+                    "given": "D."
+                }
+            ],
+            "title": "Impact of a board-game approach on current smokers: a randomized controlled trial",
+            "type": "article-journal",
+            "container_title": [
+                "Subst Abuse Treat Prev Policy"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wanyama",
+                    "given": "J.N."
+                },
+                {
+                    "family": "Castelnuovo",
+                    "given": "B."
+                },
+                {
+                    "family": "Robertson",
+                    "given": "G."
+                },
+                {
+                    "family": "Newell",
+                    "given": "K."
+                },
+                {
+                    "family": "Sempa",
+                    "given": "J.B."
+                },
+                {
+                    "family": "Kambugu",
+                    "given": "A."
+                },
+                {
+                    "family": "Manabe",
+                    "given": "Y.C."
+                },
+                {
+                    "family": "Colebunders",
+                    "given": "R."
+                }
+            ],
+            "title": "A randomized controlled trial to evaluate the effectiveness of a board game on patients' knowledge uptake of HIV and sexually transmitted diseases at the infectious diseases institute, Kampala, Uganda",
+            "type": "article-journal",
+            "container_title": [
+                "J Acquir Immune Defic Syndr"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nieh",
+                    "given": "H.P."
+                },
+                {
+                    "family": "Wu",
+                    "given": "W.C."
+                }
+            ],
+            "title": "Effects of a collaborative board game on bullying intervention: a group-randomized controlled trial",
+            "type": "article-journal",
+            "container_title": [
+                "J Sch Health"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Martins",
+                    "given": "F.D.P."
+                },
+                {
+                    "family": "Leal",
+                    "given": "L.P."
+                },
+                {
+                    "family": "Linhares",
+                    "given": "F.M.P."
+                },
+                {
+                    "family": "Santos",
+                    "given": "A.H.D.S."
+                },
+                {
+                    "family": "Leite",
+                    "given": "G.O."
+                },
+                {
+                    "family": "Pontes",
+                    "given": "C.M."
+                }
+            ],
+            "title": "Effect of the board game as educational technology on schoolchildren's knowledge on breastfeeding",
+            "type": "article-journal",
+            "container_title": [
+                "Rev Lat Am Enfermagem"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Viggiano",
+                    "given": "E."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Costanzo",
+                    "given": "A.",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Andreozzi",
+                    "given": "E."
+                },
+                {
+                    "family": "Romano",
+                    "given": "V."
+                },
+                {
+                    "family": "Vicidomini",
+                    "given": "C."
+                },
+                {
+                    "family": "Tuoro",
+                    "given": "D.",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Gargano",
+                    "given": "G."
+                },
+                {
+                    "family": "Incarnato",
+                    "given": "L."
+                },
+                {
+                    "family": "Fevola",
+                    "given": "C."
+                },
+                {
+                    "family": "Volta",
+                    "given": "P."
+                },
+                {
+                    "family": "Tolomeo",
+                    "given": "C."
+                },
+                {
+                    "family": "Scianni",
+                    "given": "G."
+                },
+                {
+                    "family": "Santangelo",
+                    "given": "C."
+                },
+                {
+                    "family": "Battista",
+                    "given": "R."
+                },
+                {
+                    "family": "Raia",
+                    "given": "M."
+                },
+                {
+                    "family": "Valentino",
+                    "given": "I."
+                },
+                {
+                    "family": "Palumbo",
+                    "given": "M."
+                },
+                {
+                    "family": "Messina",
+                    "given": "A."
+                },
+                {
+                    "family": "Monda",
+                    "given": "M."
+                },
+                {
+                    "family": "Luca",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Amare",
+                    "given": "S."
+                }
+            ],
+            "title": "Healthy lifestyle promotion in primary schools through the board game Kaledo: a pilot cluster randomized trial",
+            "type": "article-journal",
+            "container_title": [
+                "Eur J Pediatr"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karbownik",
+                    "given": "M.S."
+                },
+                {
+                    "family": "Wiktorowska-Owczarek",
+                    "given": "A."
+                },
+                {
+                    "family": "Kowalczyk",
+                    "given": "E."
+                },
+                {
+                    "family": "Kwarta",
+                    "given": "P."
+                },
+                {
+                    "family": "Mokros",
+                    "given": "\u0141."
+                },
+                {
+                    "family": "Pietras",
+                    "given": "T."
+                }
+            ],
+            "title": "Board game versus lecture-based seminar in the teaching of pharmacology of antimicrobial drugs-a randomized controlled trial",
+            "type": "article-journal",
+            "container_title": [
+                "FEMS Microbiol Lett"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "E."
+                },
+                {
+                    "family": "Costanzo",
+                    "given": "A.",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Andreozzi",
+                    "given": "E."
+                },
+                {
+                    "family": "Romano",
+                    "given": "V."
+                },
+                {
+                    "family": "Rianna",
+                    "given": "I."
+                },
+                {
+                    "family": "Vicidomini",
+                    "given": "C."
+                },
+                {
+                    "family": "Gargano",
+                    "given": "G."
+                },
+                {
+                    "family": "Incarnato",
+                    "given": "L."
+                },
+                {
+                    "family": "Fevola",
+                    "given": "C."
+                },
+                {
+                    "family": "Volta",
+                    "given": "P."
+                },
+                {
+                    "family": "Tolomeo",
+                    "given": "C."
+                },
+                {
+                    "family": "Scianni",
+                    "given": "G."
+                },
+                {
+                    "family": "Santangelo",
+                    "given": "C."
+                },
+                {
+                    "family": "Battista",
+                    "given": "R."
+                },
+                {
+                    "family": "Monda",
+                    "given": "M."
+                },
+                {
+                    "family": "Viggiano",
+                    "given": "A."
+                },
+                {
+                    "family": "Luca",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Kaledo",
+                    "given": "Amaro S."
+                }
+            ],
+            "title": "a board game for nutrition education of children and adolescents at school: cluster randomized controlled trial of healthy lifestyle promotion",
+            "type": "article-journal",
+            "container_title": [
+                "Eur J Pediatr"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Charlier",
+                    "given": "N."
+                },
+                {
+                    "family": "Fraine",
+                    "given": "B.",
+                    "particle": "De"
+                }
+            ],
+            "title": "Game-based learning as a vehicle to teach first aid content: a randomized experiment",
+            "type": "article-journal",
+            "container_title": [
+                "J Sch Health"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bartfay",
+                    "given": "W.J."
+                },
+                {
+                    "family": "Bartfay",
+                    "given": "E."
+                }
+            ],
+            "title": "Promoting health in schools through a board game",
+            "type": "article-journal",
+            "container_title": [
+                "West J Nurs Res"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Panphunpho",
+                    "given": "S."
+                },
+                {
+                    "family": "Thavichachart",
+                    "given": "N."
+                },
+                {
+                    "family": "Kritpet",
+                    "given": "T."
+                }
+            ],
+            "title": "Positive effects of Ska game practice on cognitive function among older adults",
+            "type": "article-journal",
+            "container_title": [
+                "J Med Assoc Thail"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Demily",
+                    "given": "C."
+                },
+                {
+                    "family": "Cav\u00e9zian",
+                    "given": "C."
+                },
+                {
+                    "family": "Desmurget",
+                    "given": "M."
+                },
+                {
+                    "family": "Berquand-Merle",
+                    "given": "M."
+                },
+                {
+                    "family": "Chambon",
+                    "given": "V."
+                },
+                {
+                    "family": "Franck",
+                    "given": "N."
+                }
+            ],
+            "title": "The game of chess enhances cognitive abilities in schizophrenia",
+            "type": "article-journal",
+            "container_title": [
+                "Schizophr Res"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sala",
+                    "given": "G."
+                },
+                {
+                    "family": "Gorini",
+                    "given": "A."
+                },
+                {
+                    "family": "Pravettoni",
+                    "given": "G."
+                }
+            ],
+            "title": "Mathematical problem-solving abilities and chess: an experimental study on young pupils",
+            "type": "article-journal",
+            "container_title": [
+                "SAGA Open"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sala",
+                    "given": "G."
+                },
+                {
+                    "family": "Gobet",
+                    "given": "F."
+                }
+            ],
+            "title": "Does chess instruction improve mathematical problem-solving ability?: two experimental studies with an active control group",
+            "type": "article-journal",
+            "container_title": [
+                "Learn Behav"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Aciego",
+                    "given": "R."
+                },
+                {
+                    "family": "Garcia",
+                    "given": "L."
+                },
+                {
+                    "family": "Betancort",
+                    "given": "M."
+                }
+            ],
+            "title": "The benefits of chess for the intellectual and social-emotional enrichment in schoolchildren",
+            "type": "article-journal",
+            "container_title": [
+                "Span J Psychol"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Aydin",
+                    "given": "M."
+                }
+            ],
+            "title": "Examining the impact of chess instruction for the visual impairment on mathematics",
+            "type": "article-journal",
+            "container_title": [
+                "Educ Res Rev"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barrett",
+                    "given": "D.C."
+                },
+                {
+                    "family": "Fish",
+                    "given": "W.W."
+                }
+            ],
+            "title": "Our move: using chess to improve math achievement for students who receive special education services",
+            "type": "article-journal",
+            "container_title": [
+                "Int J Special Educ"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gliga",
+                    "given": "F."
+                },
+                {
+                    "family": "Flesner",
+                    "given": "P.I."
+                }
+            ],
+            "title": "Cognitive benefits of chess training in novice children",
+            "type": "article-journal",
+            "container_title": [
+                "Procedia Soc Behav Sci"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hong",
+                    "given": "S."
+                },
+                {
+                    "family": "Bart",
+                    "given": "W.M."
+                }
+            ],
+            "title": "Cognitive effects of chess instruction on students at risk for academic failure",
+            "type": "article-journal",
+            "container_title": [
+                "Int J Special Educ"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Scholz",
+                    "given": "M."
+                },
+                {
+                    "family": "Niesch",
+                    "given": "H."
+                },
+                {
+                    "family": "Steffen",
+                    "given": "O."
+                },
+                {
+                    "family": "Ernst",
+                    "given": "B."
+                },
+                {
+                    "family": "Markus",
+                    "given": "L."
+                },
+                {
+                    "family": "Witruk",
+                    "given": "E."
+                },
+                {
+                    "family": "Schwarz",
+                    "given": "H."
+                }
+            ],
+            "title": "Impact of chess training on mathematics performance and concentration ability of children with learning disabilities",
+            "type": "article-journal",
+            "container_title": [
+                "Int J Special Educ"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mouton",
+                    "given": "A."
+                },
+                {
+                    "family": "Gillet",
+                    "given": "N."
+                },
+                {
+                    "family": "Mouton",
+                    "given": "F."
+                },
+                {
+                    "family": "Kann",
+                    "given": "D.",
+                    "particle": "Van"
+                },
+                {
+                    "family": "Bruy\u00e8re",
+                    "given": "O."
+                },
+                {
+                    "family": "Cloes",
+                    "given": "M."
+                },
+                {
+                    "family": "Buckinx",
+                    "given": "F."
+                }
+            ],
+            "title": "Effects of a giant exercising board game intervention on ambulatory physical activity among nursing home residents: a preliminary study",
+            "type": "article-journal",
+            "container_title": [
+                "Clin Interv Aging"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fernandes",
+                    "given": "S.C."
+                },
+                {
+                    "family": "Arriaga",
+                    "given": "P."
+                },
+                {
+                    "family": "Esteves",
+                    "given": "F."
+                }
+            ],
+            "title": "Providing preoperative information for children undergoing surgery: a randomized study testing different types of educational material to reduce children's preoperative worries",
+            "type": "article-journal",
+            "container_title": [
+                "Health Educ Res"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Blasco-Fontecilla",
+                    "given": "H."
+                },
+                {
+                    "family": "Gonzalez-Perez",
+                    "given": "M."
+                },
+                {
+                    "family": "Garcia-Lopez",
+                    "given": "R."
+                },
+                {
+                    "family": "Poza-Cano",
+                    "given": "B."
+                },
+                {
+                    "family": "Perez-Moreno",
+                    "given": "M.R."
+                },
+                {
+                    "family": "Leon-Ma",
+                    "given": "V.",
+                    "particle": "de"
+                },
+                {
+                    "family": "Otero-Perez",
+                    "given": "J."
+                }
+            ],
+            "title": "Efficacy of chess training for the treatment of ADHD: a prospective, open label study",
+            "type": "article-journal",
+            "container_title": [
+                "Rev Psiquiatr Salud Ment"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barzegar",
+                    "given": "K."
+                },
+                {
+                    "family": "Barzegar",
+                    "given": "S."
+                }
+            ],
+            "title": "Chess therapy: a new approach to curing panic attack",
+            "type": "article-journal",
+            "container_title": [
+                "Asian J Psychiatr"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wakutani",
+                    "given": "Y."
+                },
+                {
+                    "family": "Kusumi",
+                    "given": "M."
+                },
+                {
+                    "family": "Wada",
+                    "given": "K."
+                },
+                {
+                    "family": "Kawashima",
+                    "given": "M."
+                },
+                {
+                    "family": "Ishizaki",
+                    "given": "K."
+                },
+                {
+                    "family": "Mori",
+                    "given": "M."
+                },
+                {
+                    "family": "Mori",
+                    "given": "N."
+                },
+                {
+                    "family": "Ijiri",
+                    "given": "T."
+                },
+                {
+                    "family": "Adachi",
+                    "given": "Y."
+                },
+                {
+                    "family": "Ashida",
+                    "given": "Y."
+                },
+                {
+                    "family": "Kuno",
+                    "given": "N."
+                },
+                {
+                    "family": "Urakumi",
+                    "given": "K."
+                },
+                {
+                    "family": "Takeshima",
+                    "given": "T."
+                },
+                {
+                    "family": "Nakashima",
+                    "given": "K."
+                }
+            ],
+            "title": "Longitudinal changes in the prevalence of dementia in a Japanese rural area",
+            "type": "article-journal",
+            "container_title": [
+                "Psychogeriatrics"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sala",
+                    "given": "G."
+                },
+                {
+                    "family": "Aksayli",
+                    "given": "N.D."
+                },
+                {
+                    "family": "Tatlidil",
+                    "given": "K.S."
+                },
+                {
+                    "family": "Tatsumi",
+                    "given": "T."
+                },
+                {
+                    "family": "Gondo",
+                    "given": "Y."
+                },
+                {
+                    "family": "Gobet",
+                    "given": "F."
+                }
+            ],
+            "title": "Near and fear transfer in cognitive training: a second-order meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Collabra Psychol"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        }
+    ]
+}

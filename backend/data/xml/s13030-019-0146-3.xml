@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_bFEGuP7" coord="1,56.69,121.58,395.07,24.00;1,56.69,148.56,416.22,22.06;1,56.69,174.52,354.69,22.06;1,56.69,200.55,379.14,22.06">Special series on &quot;effects of board games on health education and promotion&quot; board games as a promising tool for health promotion: a review of recent literature</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,56.69,234.15,71.23,9.71"><forename type="first">Mutsuhiro</forename><surname>Nakao</surname></persName>
+							<email>m-nakao@iuhw.ac.jp</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Department of Psychosomatic Medicine, School of Medicine, International University of Health and Welfare, 4-3, Kozunomori, Narita-shi, Chiba-ken 286-8686, Japan</note>
+								<orgName type="department" key="dep1">Department of Psychosomatic Medicine</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">International University of Health and Welfare</orgName>
+								<address>
+									<addrLine>4-3, Narita-shi</addrLine>
+									<postCode>286-8686</postCode>
+									<settlement>Kozunomori, Chiba-ken</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_76ermW6" coord="1,56.69,121.58,395.07,24.00;1,56.69,148.56,416.22,22.06;1,56.69,174.52,354.69,22.06;1,56.69,200.55,379.14,22.06">Special series on &quot;effects of board games on health education and promotion&quot; board games as a promising tool for health promotion: a review of recent literature</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CAB7FA5C19DF3F6983FDC64CAE75D66C</idno>
+					<idno type="DOI">10.1186/s13030-019-0146-3</idno>
+					<note type="submission">Received: 10 January 2019 Accepted: 7 February 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_PN7cGNv">Board game</term>
+					<term xml:id="_wGT322v">Chess</term>
+					<term xml:id="_ZBGbttg">Dementia</term>
+					<term xml:id="_5raPS6F">Go</term>
+					<term xml:id="_8JyScSx">Lifestyle modification</term>
+					<term xml:id="_uAGpyyw">Shogi</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_6s8f9MW"><p xml:id="_44SvjSf"><s xml:id="_fBsEQXv" coords="1,63.21,291.35,435.57,8.83">Board games are played by moving game pieces in particular ways on special boards marked with patterns.</s><s xml:id="_CbkhpTt" coords="1,501.85,291.35,9.89,8.83;1,63.21,303.37,460.64,8.83;1,63.21,315.33,299.61,8.83">To clarify the possible roles of board game use in psychosomatic medicine, the present review evaluated studies that investigated the effects of this activity on health education and treatment.</s><s xml:id="_ar6ms9K" coords="1,365.85,315.33,157.30,8.83;1,63.21,327.35,451.69,8.83;1,63.21,339.37,432.57,8.83;1,63.21,351.33,468.49,8.83">A literature search conducted between January 2012 and August 2018 identified 83 relevant articles; 56 (67%) targeted education or training for healthrelated problems, six (7%) examined basic brain mechanisms, five (6%) evaluated preventative measures for dementia or contributions to healthy aging, and three (4%) assessed social communication or public health policies.</s><s xml:id="_sctFR7J" coords="1,63.21,363.35,464.60,8.83;1,63.21,375.37,455.59,8.83;1,63.21,387.33,465.82,8.83;1,63.21,399.35,51.10,8.83">The results of several randomized controlled trials indicated that the playing of traditional board games (e.g., chess, Go, and Shogi) helps to improve cognitive impairment and depression, and that the playing of newly developed board games is beneficial for behavioral modifications, such as the promotion of healthy eating, smoking cessation, and safe sex.</s><s xml:id="_z2rjbMC" coords="1,117.36,399.35,387.65,8.83;1,63.21,411.31,468.83,8.83;1,63.21,423.33,183.19,8.83">Although the number of studies that have evaluated board game use in terms of mental health remains limited, many studies have provided interesting findings regarding brain function, cognitive effects, and the modification of health-related lifestyle factors.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="595.276" lry="790.866"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_vJBw8ea">Introduction</head><p xml:id="_khDvnvA"><s xml:id="_Fuw4Uup" coords="1,56.69,482.95,233.86,8.98;1,56.69,494.97,233.82,8.98">Board games are played by moving game pieces in particular ways on special boards marked with patterns <ref type="bibr" coords="1,277.12,494.97,10.05,8.98" target="#b0">[1]</ref>.</s><s xml:id="_8byHaut" coords="1,56.69,506.93,233.82,8.98;1,56.69,518.95,233.83,8.98;1,56.69,530.97,78.41,8.98">For example, one game originated in northern India in the sixth century AD and spread to Eastern as well as Western countries.</s><s xml:id="_27UbnKR" coords="1,138.95,530.97,151.57,8.98;1,56.69,542.93,233.79,8.98;1,56.69,554.19,233.85,9.80">In the West, it spread to Persia and then to Spain via the Moorish conquest, and then throughout Europe, where it ultimately became "chess."</s><s xml:id="_2nnryXm" coords="1,56.69,566.21,233.84,9.80;1,56.69,578.17,233.84,9.80;1,56.69,590.94,39.98,8.98">In the East, this game became "Xiangqi" in China, "Shogi" in Japan, and a variety of similar games in other countries.</s><s xml:id="_SJBVPF5" coords="1,100.23,590.94,190.32,8.98;1,56.69,602.21,233.85,9.80;1,56.69,614.17,99.43,9.80">Other popular board games that use two patterns for the game pieces include "Go" and "Othello," also known as "Reversi."</s></p><p xml:id="_3XpkNsE"><s xml:id="_9kDwX9H" coords="1,64.69,626.94,225.83,8.98;1,56.69,638.96,233.83,8.98;1,304.73,470.93,233.83,8.98;1,304.73,482.94,233.76,8.98;1,304.73,494.96,64.99,8.98">In the field of psychosomatic medicine, board game playing is sometimes regarded as a leisure activity, and engagement in this type of activity has been shown to protect against dementia and cognitive decline in elderly individuals <ref type="bibr" coords="1,356.32,494.96,10.05,8.98" target="#b1">[2]</ref>.</s><s xml:id="_AVYTds3" coords="1,377.23,494.96,161.25,8.98;1,304.73,506.92,233.77,8.98;1,304.73,518.94,233.77,8.98;1,304.73,530.96,233.82,8.98">For example, a 20-year prospective population-based study conducted in southwestern France investigated the relationship between the playing of board games and the risk of subsequent dementia <ref type="bibr" coords="1,525.21,530.96,10.00,8.98" target="#b2">[3]</ref>.</s><s xml:id="_pxm49Ve" coords="1,304.72,542.92,233.77,8.98;1,304.72,554.94,233.83,8.98;1,304.72,566.96,233.85,8.98;1,304.72,578.92,28.33,8.98">Of the 3675 participants without dementia in that study, 1176 (32%) reported regular board game playing and 840 (23%) developed dementia during the follow-up period.</s><s xml:id="_GEryPWS" coords="1,337.83,578.92,200.67,8.98;1,304.72,590.94,233.76,8.98;1,304.72,602.96,233.80,8.98;1,304.72,614.92,233.85,8.98;1,304.72,626.94,115.06,8.98">The risk of dementia was 15% lower in board game players than in non-players, and board game players exhibited lesser declines in Mini-Mental State Examination (MMSE) scores and less incident depression than did non-players.</s><s xml:id="_xxmsQBk" coords="1,425.48,626.94,113.05,8.98;1,304.72,638.96,233.76,8.98;1,304.72,650.92,233.80,8.98;1,304.72,662.94,233.84,8.98;1,304.72,674.96,139.25,8.98">Although the mechanisms underlying the reduced risk of dementia in board game players have yet to be elucidated fully, these games require players to be proactive and to anticipate, thinking several steps ahead, during play.</s><s xml:id="_mEeqyaU" coords="1,448.89,674.96,89.66,8.98;1,304.72,686.92,233.82,8.98;2,56.69,88.76,80.96,8.98">These processes may enhance logical thinking and prevent declines in cognitive function.</s><s xml:id="_R2dHS35" coords="2,145.59,88.76,144.93,8.98;2,56.69,100.72,233.84,8.98;2,56.69,112.74,233.83,8.98;2,56.69,124.76,233.77,8.98">Individuals may also engage in non-verbal communication while playing board games, and players are more likely to have the opportunity to gather and participate in a fun activity with others.</s><s xml:id="_VtkFBQ2" coords="2,56.69,136.72,233.84,8.98;2,56.69,148.74,194.79,8.98">These factors could enhance individuals' social networks, which also protects against cognitive decline.</s><s xml:id="_zUrBFrY" coords="2,256.48,148.74,34.07,8.98;2,56.69,160.76,233.77,8.98;2,56.69,172.72,233.83,8.98;2,56.69,184.74,233.83,8.98;2,56.69,196.76,202.80,8.98">Furthermore, in terms of leisure activities, board game playing may also be a form of stress management <ref type="bibr" coords="2,246.11,172.72,10.00,8.98" target="#b3">[4]</ref>, as the fight-or-flight response is regulated safely within the sophisticated structures of match-type games.</s><s xml:id="_5UsxbFx" coords="2,266.29,196.76,24.25,8.98;2,56.69,208.72,233.77,8.98;2,56.69,220.74,233.80,8.98;2,56.69,232.76,189.18,8.98">Board game playing could also be a form of art therapy, similar to miniature garden therapy <ref type="bibr" coords="2,191.34,220.74,10.01,8.98" target="#b4">[5]</ref>, facilitating infinite internal manifestations within a narrow space.</s></p><p xml:id="_WfCpgvV"><s xml:id="_kQ8eEFe" coords="2,64.69,244.72,225.78,8.98;2,56.69,256.74,233.82,8.98;2,56.69,268.76,233.83,8.98;2,56.69,280.72,98.21,8.98">In terms of education, the playing of board games may help children learn to follow rules and stay seated for a certain amount of time, and it may increase children's concentration levels <ref type="bibr" coords="2,141.51,280.72,10.05,8.98" target="#b5">[6]</ref>.</s><s xml:id="_nD8DUxM" coords="2,157.83,280.72,132.64,8.98;2,56.69,292.74,233.85,8.98;2,56.69,304.76,149.16,8.98">For students and trainees, board game use can enhance health education by stimulating players' interests and motivation.</s><s xml:id="_Fmjeg4X" coords="2,213.62,304.76,76.90,8.98;2,56.69,316.72,233.76,8.98;2,56.69,328.74,233.84,8.98;2,56.69,340.75,233.80,8.98;2,56.69,352.72,50.84,8.98">A search of the Cochrane Database of Systematic Reviews <ref type="bibr" coords="2,236.98,316.72,11.21,8.98" target="#b6">[7]</ref> identified a total of 2079 unique citations related to educational games, such as board games and games based on television shows.</s><s xml:id="_PcCnnYP" coords="2,114.63,352.72,175.87,8.98;2,56.69,364.74,233.84,8.98;2,56.69,376.75,233.81,8.98;2,56.69,388.72,233.81,8.98;2,56.69,400.73,53.14,8.98">Of these citations, 84 were potentially eligible for review based on methodological quality, number of participants, interventions, and outcomes of interest, and two randomized controlled trials (RCTs) were chosen.</s><s xml:id="_ncKqzmn" coords="2,112.99,400.73,177.51,8.98;2,56.69,412.00,233.75,9.80;2,56.69,424.71,233.82,8.98;2,56.69,436.73,214.18,8.98">The first study <ref type="bibr" coords="2,176.66,400.73,11.26,8.98" target="#b7">[8]</ref> was based on the television game show "Family Feud" and focused on infection control; the group that was randomized to play the game had significantly higher scores on a knowledge test.</s><s xml:id="_pRu6EpY" coords="2,274.40,436.73,16.21,8.98;2,56.69,448.75,233.80,8.98;2,56.69,459.96,233.78,9.80;2,56.70,472.73,233.79,8.98">The second study <ref type="bibr" coords="2,115.43,448.75,11.26,8.98" target="#b8">[9]</ref> compared game-based learning (using "Snakes and Ladders") with traditional case-based learning of stroke prevention and management information.</s><s xml:id="_kKx9jSZ" coords="2,56.70,484.75,233.75,8.98;2,56.70,496.71,233.83,8.98;2,56.70,508.73,233.82,8.98;2,56.70,520.75,190.86,8.98">Although the two study groups did not have significantly different knowledge test scores immediately or 3 months after the intervention, the reported level of enjoyment was higher in the game-based learning group.</s><s xml:id="_GwVwApv" coords="2,251.21,520.75,39.33,8.98;2,56.70,532.71,233.82,8.98;2,56.70,544.73,233.83,8.98;2,56.70,556.75,233.75,8.98;2,56.70,568.71,54.75,8.98">The findings of an original review of articles published through January 2012 <ref type="bibr" coords="2,119.91,544.73,11.21,8.98" target="#b6">[7]</ref> neither confirmed nor refuted the utility of game playing as a teaching strategy for health professionals.</s><s xml:id="_4rbg7nA" coords="2,116.22,568.71,174.29,8.98;2,56.70,580.73,233.81,8.98;2,56.70,592.69,233.81,8.98;2,56.70,604.71,233.78,8.98;2,56.70,616.73,155.55,8.98">Thus, the present study aimed to clarify the possible roles of board game use in psychosomatic medicine through a literature search for articles published after 2012 that focused on the effects of board game playing on health-related issues.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_nn6kEwN">Mind/body changes due to board game use</head><p xml:id="_JuHEzaq"><s xml:id="_8b69Wdw" coords="2,56.69,651.99,233.85,9.80;2,56.69,664.76,233.84,8.98;2,56.69,676.72,233.84,8.98;2,56.69,688.74,233.87,8.98;2,56.69,700.76,233.86,8.98;2,56.69,712.72,233.86,8.98;2,56.69,724.74,233.84,8.98;2,304.72,88.76,182.51,8.98">Using "board game" as a PubMed search term, 83 studies published between January 2012 and August 2018 were identified; 56 (67%) articles targeted education or training for health-related problems, six (7%) examined basic brain mechanisms, five (6%) evaluated preventative measures for dementia or contributions to healthy aging, and three (4%) assessed social communication or public health policies.</s><s xml:id="_zgRseGm" coords="2,492.36,88.76,46.22,8.98;2,304.72,100.72,233.88,8.98;2,304.72,112.74,167.55,8.98">The major studies that investigated the effects of traditional board game use are shown in Table 1 ; some of the articles listed in the table were identified in the reference sections of the original 56 articles or other databases.</s></p><p xml:id="_FhTVEAa"><s xml:id="_WqqjpWx" coords="2,312.72,160.76,225.82,8.98;2,304.72,172.72,233.84,8.98;2,304.72,184.74,233.84,8.98;2,304.72,196.76,27.70,8.98">Experimental studies investigating brain magnetic resonance imaging (MRI) or electroencephalographic (EEG) signals in professional board game players <ref type="bibr" coords="2,508.42,184.74,15.12,8.98" target="#b9">[10,</ref><ref type="bibr" coords="2,526.62,184.74,11.94,8.98" target="#b21">22,</ref><ref type="bibr" coords="2,304.72,196.76,9.23,8.98" target="#b25">[26]</ref><ref type="bibr" coords="2,313.96,196.76,4.62,8.98" target="#b26">[27]</ref><ref type="bibr" coords="2,318.57,196.76,13.85,8.98" target="#b27">[28]</ref><ref type="bibr" coords="2,336.53,196.76,12.96,8.98" target="#b30">31]</ref> demonstrated that the basal ganglia play an important role in the ability to rapidly determine, or intuit, the best subsequent move in a game situation <ref type="bibr" coords="2,520.27,220.74,14.62,8.98" target="#b23">[24]</ref>.</s><s xml:id="_QyGCvSw" coords="2,336.53,196.76,12.96,8.98">Additionally, variations in heart rate and eye movements were examined as physiological parameters during chess play <ref type="bibr" coords="2,325.19,256.74,15.12,8.98" target="#b9">[10,</ref><ref type="bibr" coords="2,344.18,256.74,11.94,8.98" target="#b13">14,</ref><ref type="bibr" coords="2,360.00,256.74,11.32,8.98" target="#b15">16]</ref>.</s><s xml:id="_qKW5dTC" coords="2,353.59,196.76,56.11,8.98">In case studies and case-control studies, board games were shown to effectively improve symptoms in individuals who experience panic attacks <ref type="bibr" coords="2,304.72,292.74,14.62,8.98" target="#b10">[11]</ref>, as well as those with attention-deficit/hyperactivity disorder (ADHD) <ref type="bibr" coords="2,385.91,304.76,16.14,8.98" target="#b20">[21]</ref> and Alzheimer's disease (AD) <ref type="bibr" coords="2,304.72,316.72,14.62,8.98" target="#b28">[29]</ref>.</s><s xml:id="_Ma2FJTG" coords="2,413.80,196.76,32.96,8.98">On the other hand, one study revealed possible hazardous effects associated with the playing of "Go" in individuals with seizure disorders <ref type="bibr" coords="2,448.61,340.76,14.62,8.98" target="#b22">[23]</ref>.</s><s xml:id="_TsEXnc3" coords="2,450.88,196.76,20.34,8.98">The amounts of real and virtual playing of board games have increased recently and, as a result, the number of published studies assessing the effects of board game use has also increased <ref type="bibr" coords="2,339.81,388.72,15.12,8.98" target="#b11">[12,</ref><ref type="bibr" coords="2,359.71,388.72,11.94,8.98" target="#b12">13,</ref><ref type="bibr" coords="2,376.44,388.72,11.94,8.98" target="#b16">17,</ref><ref type="bibr" coords="2,393.11,388.72,11.37,8.98" target="#b18">19]</ref>.</s><s xml:id="_BysauNc" coords="2,475.31,196.76,63.25,8.98">The increase in game play is likely due to the prevalence of computer systems in the current age of information and communication technology (ICT) and artificial intelligence (AI).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_4rwYUkX">Recent RCTs evaluating board game use</head><p xml:id="_9Qcsd9q"><s xml:id="_yEyT2PY" coords="2,304.72,460.72,233.81,8.98;2,304.72,472.74,233.84,8.98;2,304.72,484.76,233.83,8.98;2,304.72,496.72,233.82,8.98;2,304.72,508.74,38.85,8.98">According to a recent meta-analysis of four studies that investigated chess play <ref type="bibr" coords="2,402.75,472.74,14.62,8.98" target="#b13">[14]</ref>, age and skill have differential effects on two tasks during game play: selecting the best move for chess positions and recalling chess game positions.</s><s xml:id="_dPQ9dyZ" coords="2,349.06,508.74,189.42,8.98;2,304.72,520.76,233.78,8.98;2,304.72,532.72,109.71,8.98">The authors found that age was associated negatively, whereas skill was associated positively, with performance in both tasks.</s><s xml:id="_8NtzGFQ" coords="2,417.49,532.72,121.08,8.98;2,304.72,544.74,233.83,8.98;2,304.72,556.76,233.84,8.98;2,304.72,568.72,188.69,8.98">Another RCT showed that an intervention using Go improved depression and increased serum levels of brain-derived neurotrophic factor (BDNF) in patients with AD <ref type="bibr" coords="2,475.14,568.72,14.62,8.98" target="#b19">[20]</ref>.</s><s xml:id="_YcBwGPT" coords="2,500.54,568.72,37.93,8.98;2,304.72,580.74,233.80,8.98;2,304.72,592.76,233.82,8.98;2,304.72,604.72,189.94,8.98">Similarly, players' depression and anxiety levels were shown to decrease significantly during a 6-week stress management intervention that utilized Shogi games <ref type="bibr" coords="2,476.39,604.72,14.62,8.98" target="#b24">[25]</ref>.</s><s xml:id="_QaWfUUf" coords="2,500.14,604.72,38.34,8.98;2,304.72,616.74,233.85,8.98;2,304.72,628.76,233.83,8.98">Although these data have been presented only at a scientific conference, they will soon be published in this special series.</s><s xml:id="_5cywh8Z" coords="2,304.72,640.72,233.78,8.98;2,304.72,652.74,233.81,8.98;2,304.72,664.76,233.84,8.98;2,304.72,676.72,233.82,8.98;2,304.72,688.74,26.11,8.98">The authors also reported that several patterns of negative cognitive distortion (e.g., lower levels of activity) significantly improved following completion of the Shogi program compared with those in a wait-list control group.</s><s xml:id="_JBjZXpz" coords="2,336.64,687.98,201.90,9.80;2,304.72,700.76,233.79,8.98;2,304.72,712.72,233.82,8.98;2,304.72,724.74,64.87,8.98">An RCT showed that the playing of "Ska," a traditional board game in Thailand <ref type="bibr" coords="2,455.76,700.76,14.66,8.98" target="#b31">[32]</ref>, enhanced cognitive function in terms of memory and attention in elderly subjects.</s><s xml:id="_2V9pK7F" coords="4,64.69,364.74,225.86,8.98;4,56.69,376.76,233.81,8.98;4,56.69,388.72,194.42,8.98">Of the 83 articles identified in the present PubMed literature search, 12 articles <ref type="bibr" coords="4,168.49,376.76,13.67,8.98" target="#b33">[34]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b34">[35]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b35">[36]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b36">[37]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b37">[38]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b38">[39]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b39">[40]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b40">[41]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b41">[42]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b42">[43]</ref><ref type="bibr" coords="4,182.16,376.76,4.56,8.98" target="#b43">[44]</ref><ref type="bibr" coords="4,186.72,376.76,13.67,8.98" target="#b44">[45]</ref> report on RCTs that assessed non-traditional board games (Table <ref type="table" coords="4,240.89,388.72,3.41,8.98" target="#tab_2">2</ref>).</s><s xml:id="_vMMEcBS" coords="4,254.04,388.72,36.51,8.98;4,56.69,400.74,233.76,8.98;4,56.69,412.76,233.83,8.98;4,56.69,424.72,233.76,8.98;4,56.69,436.74,233.82,8.98;4,56.69,448.76,175.82,8.98">A variety of board games has been developed to aid in the health education of patients, children, and medical trainees; most of these games are focused on behavioral modifications, such as the promotion of healthy eating <ref type="bibr" coords="4,256.37,436.74,15.12,8.98" target="#b33">[34,</ref><ref type="bibr" coords="4,275.41,436.74,11.32,8.98" target="#b37">38]</ref>, smoking cessation <ref type="bibr" coords="4,136.40,448.76,14.62,8.98" target="#b42">[43]</ref>, and safe sex <ref type="bibr" coords="4,214.18,448.76,14.66,8.98" target="#b44">[45]</ref>.</s><s xml:id="_UCpcZBB" coords="4,236.52,448.76,54.01,8.98;4,56.69,460.72,233.85,8.98;4,56.69,472.74,233.85,8.98;4,56.69,484.76,233.82,8.98;4,56.69,496.72,186.02,8.98">For example, in a Swiss study <ref type="bibr" coords="4,124.89,460.72,14.62,8.98" target="#b42">[43]</ref>, 240 current smokers were assigned randomly to a group participating in smoking cessation program employing an educational board game ("Pick-Klop") and a wait-list control group.</s><s xml:id="_KYyhpKd" coords="4,247.09,496.72,43.50,8.98;4,56.69,508.74,233.82,8.98;4,56.69,520.76,233.83,8.98;4,56.69,532.72,233.85,8.98;4,56.69,544.74,92.68,8.98">Compared with those in the wait-list group, individuals in the board game group were less likely to remain smokers at the end of the program and at the 3-month follow-up assessment.</s><s xml:id="_MWTXDgR" coords="4,153.98,544.74,136.45,8.98;4,56.69,556.76,233.79,8.98;4,56.69,568.72,233.80,8.98;4,56.69,580.74,23.04,8.98">The authors suggested that use of the board game would be an interesting alternative for the education of smokers in the precontemplation stage.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_pCf3BzR">Clinical applications of board games</head><p xml:id="_suCDUAH"><s xml:id="_thKghbP" coords="4,56.69,616.74,233.84,8.98;4,56.69,628.76,233.81,8.98;4,56.69,640.72,233.85,8.98;4,56.69,652.74,233.82,8.98;4,56.69,664.76,92.14,8.98">Based on the results of studies investigating traditional and non-traditional board games, it was hypothesized that board game use would prevent cognitive impairment in elderly individuals and illness-prone behaviors in children and adults.</s><s xml:id="_m3ZEQsQ" coords="4,151.82,664.76,138.70,8.98;4,56.69,676.72,233.83,8.98;4,56.69,688.74,186.09,8.98">Board game playing also seems to be an effective, fun means of delivering medical and safety education to students and trainees.</s><s xml:id="_4h7uxRV" coords="4,249.11,688.74,41.39,8.98;4,56.69,700.76,233.77,8.98;4,56.69,712.72,233.85,8.98;4,56.69,724.74,212.17,8.98">Currently, many people spend large portions of their time playing games online and offline on television monitors, personal computers, tablets, and/or smart-phones.</s><s xml:id="_EARXqaX" coords="4,276.60,724.74,13.87,8.98;4,304.72,364.74,233.83,8.98;4,304.72,376.76,233.80,8.98;4,304.72,388.72,120.83,8.98">For example, more than half of Japanese elementary and junior-high school students play video games for more than 1 h on weekdays <ref type="bibr" coords="4,407.28,388.72,14.62,8.98" target="#b45">[46]</ref>.</s><s xml:id="_zkwugYE" coords="4,431.38,388.72,107.18,8.98;4,304.72,400.74,199.26,8.98">Thus, video game-based training will become more popular in the future.</s></p><p xml:id="_WSEWrYf"><s xml:id="_FWuVTeh" coords="4,312.72,412.76,225.84,8.98;4,304.72,424.72,233.77,8.98;4,304.72,436.74,233.83,8.98;4,304.72,448.76,233.76,8.98;4,304.72,460.72,233.81,8.98;4,304.72,472.74,233.76,8.98">On the other hand, a series of meta-analyses <ref type="bibr" coords="4,522.43,412.76,16.14,8.98" target="#b46">[47]</ref> found only small or null effect sizes in three models examining correlations between video game skills and cognitive ability, differences in cognitive ability between game players and non-players, and the effects of video game-based training on cognitive ability, respectively.</s><s xml:id="_HFZBCKp" coords="4,304.72,484.76,233.84,8.98;4,304.72,496.72,233.83,8.98;4,304.72,508.74,233.83,8.98;4,304.72,520.76,233.84,8.98;4,304.72,532.72,131.31,8.98">Thus, examination of the clinical effects of real or virtual training using board games may provide more appropriate information for discussion of the advantages and disadvantages of each style of board game for future applications in clinical settings.</s><s xml:id="_2Tt2pEp" coords="4,440.28,532.72,98.26,8.98;4,304.72,544.74,233.84,8.98;4,304.72,556.76,233.80,8.98;4,304.72,568.72,233.80,8.98;4,304.72,580.74,233.81,8.98;4,304.72,592.70,233.82,8.98;4,304.72,604.72,233.78,8.98;4,304.72,616.73,233.85,8.98;4,304.72,628.70,233.82,8.98;4,304.72,640.71,31.70,8.98">A recent assessment of cognitive science research on board game playing <ref type="bibr" coords="4,522.43,544.74,16.14,8.98" target="#b47">[48]</ref> highlighted six suggestions for future studies: 1) do not forget about chess (i.e., a traditional board game for which large amounts of data have been collected), 2) look beyond action games and chess, 3) use optimal play to understand human play and players, 4) investigate social phenomena, 5) raise the standards for studies investigating game play as treatment, and 6) talk to real experts.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_xFbbwnc">Conclusions</head><p xml:id="_HZSPRnH"><s xml:id="_qybG4zH" coords="4,304.72,676.72,233.78,8.98;4,304.72,688.74,233.87,8.98;4,304.72,700.76,233.85,8.98;4,304.72,712.72,233.77,8.98">Although the number of studies investigating board game use remains limited, interesting findings have recently been obtained in terms of brain function, cognitive effects, and health-related lifestyle modification.</s><s xml:id="_4ZbQgta" coords="4,304.72,724.74,233.80,8.98;5,56.69,652.74,101.75,8.98">Board games may also be applicable as educational tools for health professionals.</s><s xml:id="_gNz2dr5" coords="5,163.62,652.74,126.87,8.98;5,56.69,664.70,233.76,8.98;5,56.69,676.72,233.84,8.98;5,56.69,688.74,233.84,8.98;5,56.69,700.70,233.77,8.98">Although a systematic review <ref type="bibr" coords="5,56.69,664.70,11.21,8.98" target="#b6">[7]</ref> neither confirmed nor refuted the utility of game playing as a teaching strategy for health professionals, these findings were published in 2013 and additional high-quality studies have been reported since then.</s><s xml:id="_stUvNz4" coords="5,56.69,712.72,233.79,8.98;5,56.69,724.74,233.85,8.98;5,304.72,652.74,109.17,8.98">Thus, it is time to re-evaluate the usefulness of games and gamifications following technological advances made in modern society.</s><s xml:id="_VTxE2GE" coords="5,419.70,652.74,118.78,8.98;5,304.72,664.70,233.85,8.98;5,304.72,676.72,233.78,8.98;5,304.72,688.74,157.17,8.98">Clinical medicine is closely linked to a public health approach, and medical practices should be undertaken within the limited human, time, and financial resources available <ref type="bibr" coords="5,443.62,688.74,14.62,8.98" target="#b48">[49]</ref>.</s><s xml:id="_JdY7dnA" coords="5,465.96,688.74,72.57,8.98;5,304.72,700.70,233.76,8.98;5,304.72,712.72,233.83,8.98;5,304.72,724.74,233.81,8.98;6,56.69,88.76,233.83,8.98;6,56.69,100.72,233.83,8.98;6,56.69,112.74,233.83,8.98;6,56.69,124.76,106.68,8.98">In this sense, appropriate health education programs with a board game component would be useful for both preventive and therapeutic intervention for cognitive-behavioral functioning (e.g., ADHD and dementia), psychological conditions (e.g., depression and anxiety disorders), and life-style diseases (e.g., metabolic syndromes and smoking-related diseases).</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="3,56.69,89.01,481.91,638.05"><head>Table 1</head><label>1</label><figDesc><div><p xml:id="_sAZ9BRa"><s xml:id="_ABKDNeq" coords="3,89.07,89.01,207.92,7.95">Examples of recent studies using traditional board games</s></p></div></figDesc><table coords="3,56.69,102.83,481.91,624.22"><row><cell>Authors (years)</cell><cell>Countries</cell><cell>Study design</cell><cell>Subjects or materials</cell><cell>Outcomes or variables</cell><cell>Impact</cell></row><row><cell>Chess:</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fuentes JP et al.</cell><cell>Spain</cell><cell>Experimental,</cell><cell>Expert chess player,</cell><cell>EEG changes, decreased</cell><cell>Increased cortical arousal by critical flicker</cell></row><row><cell>(2018) [10]</cell><cell></cell><cell>single case</cell><cell>male, 33 years old</cell><cell>heart rate variability</cell><cell>fusion threshold, decreased heart rate</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>variability during chess play</cell></row><row><cell>Barzegar K &amp;</cell><cell>Iran</cell><cell>Clinical case</cell><cell>Middle-aged man</cell><cell>Clinical course, including</cell><cell>No symptom of nausea, vomiting, or panic</cell></row><row><cell>Barzegar S (2017)</cell><cell></cell><cell></cell><cell>with panic attack after</cell><cell>subjective physical</cell><cell>attack after cell-phone chess play</cell></row><row><cell>[11]</cell><cell></cell><cell></cell><cell>post-traumatic stress</cell><cell>symptoms</cell><cell></cell></row><row><cell>Schaigorodsky AL</cell><cell>Argentina</cell><cell>Database</cell><cell>1.4 million chess</cell><cell>Long-range correlations,</cell><cell>Cattuto's model well described long-range</cell></row><row><cell>et al. (2016) [12]</cell><cell></cell><cell></cell><cell>games played by</cell><cell>inter-event time</cell><cell>memory used in opening chess lines</cell></row><row><cell></cell><cell></cell><cell></cell><cell>humans</cell><cell>distributions</cell><cell></cell></row><row><cell>Chassy P &amp; Gobet F</cell><cell>UK</cell><cell>Database</cell><cell>667,599 chess games</cell><cell>Conflict avoidance, risk-</cell><cell>Buddhist experts used riskiest strategy</cell></row><row><cell>(2015) [13]</cell><cell></cell><cell></cell><cell>played by experts</cell><cell>taking behaviors during</cell><cell>nearly 35% more vs. Jewish experts</cell></row><row><cell></cell><cell></cell><cell></cell><cell>from 11 civilizations</cell><cell>open aggression</cell><cell></cell></row><row><cell>Sheridan H &amp;</cell><cell>Canada</cell><cell>Experimental</cell><cell>41 chess players (17</cell><cell>Eye movements in 8</cell><cell>Only experts distinguished relevant and</cell></row><row><cell>Reingold EM (2014)</cell><cell></cell><cell></cell><cell>experts, 24 novices)</cell><cell>chess problems</cell><cell>irrelevant information during early trial</cell></row><row><cell>[14]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Moxley JH &amp;</cell><cell>USA</cell><cell>Meta-analysis</cell><cell>4 studies of age and</cell><cell>Age, chess skill, move</cell><cell>Best-move, recall tasks associated</cell></row><row><cell>Charness N (2013)</cell><cell></cell><cell></cell><cell>skill effects in chess</cell><cell>selection, chess recall</cell><cell>negatively with aging, positively with skill</cell></row><row><cell>[15]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Leone MJ et al.</cell><cell>Argentina</cell><cell>Experimental</cell><cell>25 chess games</cell><cell>Heart rate variation</cell><cell>Heart rate signals relevant cognitive</cell></row><row><cell>(2012) [16]</cell><cell></cell><cell></cell><cell>played by 9 subjects</cell><cell></cell><cell>episodes, e.g., objective choice correctness</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>events</cell></row><row><cell>Go:</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Barradas-Bautista D</cell><cell>Mexico</cell><cell>Computer</cell><cell>Ising Hamiltonian</cell><cell>Two-player scenarios,</cell><cell>Go, Ising model provided elements for</cell></row><row><cell>et al. (2018) [17]</cell><cell></cell><cell>simulation</cell><cell>model of black, white</cell><cell>cancer vs. immune</cell><cell>characterization of cancer invasion,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Go stones fighting</cell><cell>system</cell><cell>reduction, metastasis</cell></row><row><cell>Bae J et al.</cell><cell>Republic of</cell><cell>Questionnaire</cell><cell>63 subjects predicting</cell><cell>Network density, game</cell><cell>Game predictions more accurate in low-</cell></row><row><cell>(2017) [18]</cell><cell>Korea</cell><cell>survey</cell><cell>outcome of AlpaGo</cell><cell>predictions</cell><cell>density vs. high-density group</cell></row><row><cell></cell><cell></cell><cell></cell><cell>vs. Sedol Lee match</cell><cell></cell><cell></cell></row><row><cell>Silver D et al.</cell><cell>UK</cell><cell>AI Go program</cell><cell>Search algorithm of</cell><cell>Go win rate</cell><cell>AlphaGo had 99.8% win rate against other</cell></row><row><cell>(2016) [19]</cell><cell></cell><cell></cell><cell>Monte Carlo</cell><cell></cell><cell>Go programs, defeated human Go</cell></row><row><cell></cell><cell></cell><cell></cell><cell>simulation and</cell><cell></cell><cell>champion</cell></row><row><cell></cell><cell></cell><cell></cell><cell>networks</cell><cell></cell><cell></cell></row><row><cell>Lin Q et al.</cell><cell>China</cell><cell>RCT</cell><cell>147 patients with</cell><cell>Cognitive impairment,</cell><cell>Go ameliorated Alzheimer's disease</cell></row><row><cell>(2015) [20]</cell><cell></cell><cell></cell><cell>Alzheimer's disease</cell><cell>depression, anxiety,</cell><cell>symptoms, with BDNF up-regulation</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>serum BDNF level</cell><cell></cell></row><row><cell>Kim SH et al.</cell><cell>Republic of</cell><cell>Case-control</cell><cell>17 children with</cell><cell>Cognitive function, brain</cell><cell>Right theta/beta change in prefrontal</cell></row><row><cell>(2014) [21]</cell><cell>Korea</cell><cell>study</cell><cell>ADHD, 17 age-, sex-</cell><cell>EEG changes during Go</cell><cell>cortex during study period greater in</cell></row><row><cell></cell><cell></cell><cell></cell><cell>matched controls</cell><cell>play-based education</cell><cell>ADHD group</cell></row><row><cell>Jung WH et al.</cell><cell>Republic of</cell><cell>Experimental</cell><cell>17 Go experts</cell><cell>Structural, functional MRI</cell><cell>Experts had increased gray-matter volume,</cell></row><row><cell>(2013) [22]</cell><cell>Korea</cell><cell></cell><cell></cell><cell>during working memory</cell><cell>functional connectivity around amygdala</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>tasks</cell><cell></cell></row><row><cell>Lee MK et al.</cell><cell>Republic of</cell><cell>Clinical case</cell><cell>11 patients with reflex</cell><cell>MRI, EEG with clinical</cell><cell>Individualized strategies like game</cell></row><row><cell>(2012) [23]</cell><cell>Korea</cell><cell></cell><cell>epilepsy, including 6</cell><cell>course</cell><cell>avoidance most effectively prevented</cell></row><row><cell></cell><cell></cell><cell></cell><cell>male Go players</cell><cell></cell><cell>seizures</cell></row><row><cell>Shogi:</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Tanaka K</cell><cell>Japan</cell><cell>Review</cell><cell>Summary of data from</cell><cell>fMRI changes in game</cell><cell>Cingulate cortex essential for intuitive,</cell></row><row><cell>(2018) [24]</cell><cell></cell><cell></cell><cell>[26, 27, 30]</cell><cell>situations</cell><cell>strategic decision making for any given</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Shogi board position</cell></row><row><cell>Nakao M et al.</cell><cell>Japan</cell><cell>Protocol, RCT</cell><cell>65 men aged ≥65</cell><cell>Cognitive-behavioral</cell><cell>Depression, anxiety levels lower during 6-</cell></row><row><cell>(2017) [25]</cell><cell></cell><cell></cell><cell>years</cell><cell>attitudes, depression,</cell><cell>week Shogi stress management program</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>anxiety, well-being</cell><cell></cell></row><row><cell>Wan X et al.</cell><cell>China</cell><cell>Experimental</cell><cell>17 professional, 17</cell><cell>fMRI signals during</cell><cell>In professional group, rostral frontal cortex</cell></row><row><cell>(2016) [26]</cell><cell></cell><cell></cell><cell>amateur Shogi players,</cell><cell>problem-solving tasks</cell><cell>activated only in post-decision period</cell></row><row><cell></cell><cell></cell><cell></cell><cell>19 novices</cell><cell></cell><cell></cell></row><row><cell>Wan X et al.</cell><cell>China</cell><cell>Experimental</cell><cell>17 amateur Shogi</cell><cell>fMRI signals during quick</cell><cell>Rostral anterior, posterior cingulate</cell></row><row><cell>(2015) [27]</cell><cell></cell><cell></cell><cell>players</cell><cell>offense-vs.-defense</cell><cell>cortices encoded defense, attack strategy</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="4,56.69,88.68,478.91,249.35"><head>Table 1</head><label>1</label><figDesc><div><p xml:id="_KGCHbRT"><s xml:id="_pYBnfxu" coords="4,89.07,88.68,250.89,8.64">Examples of recent studies using traditional board games (Continued)</s></p></div></figDesc><table coords="4,56.69,102.83,478.91,235.20"><row><cell>Authors (years)</cell><cell>Countries</cell><cell>Study design</cell><cell>Subjects or materials</cell><cell>Outcomes or variables</cell><cell>Impact</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>strategy decisions</cell><cell>values</cell></row><row><cell>Nakanishi H &amp;</cell><cell>Japan</cell><cell>Experimental</cell><cell>12 professional, 12</cell><cell>EEG responses in quick</cell><cell>Frontal area responded only to</cell></row><row><cell>Yamaguchi Y</cell><cell></cell><cell></cell><cell>amateur Shogi players,</cell><cell>understanding of Shogi</cell><cell>meaningful game positions, in contrast to</cell></row><row><cell>(2014) [28]</cell><cell></cell><cell></cell><cell>12 novices</cell><cell>game patterns</cell><cell>temporal area</cell></row><row><cell>Aoyagi M &amp; Ogawa</cell><cell>Japan</cell><cell>Clinical case</cell><cell>Man with Alzheimer's</cell><cell>Frequent chewing for</cell><cell>Shogi play encouragement useful for</cell></row><row><cell>T (2013) [29]</cell><cell></cell><cell></cell><cell>disease aged 75-79</cell><cell>aspiration pneumonia</cell><cell>education about frequent, smooth</cell></row><row><cell></cell><cell></cell><cell></cell><cell>years</cell><cell>prevention</cell><cell>chewing during eating</cell></row><row><cell>Wan X et al.</cell><cell>Japan</cell><cell>Experimental</cell><cell>20 men aged 20-22</cell><cell>fMRI changes during</cell><cell>Activation in caudate nucleus head</cell></row><row><cell>(2012) [30]</cell><cell></cell><cell></cell><cell>years with little Shogi</cell><cell>Shogi training period</cell><cell>developed over training course</cell></row><row><cell></cell><cell></cell><cell></cell><cell>knowledge</cell><cell></cell><cell></cell></row><row><cell>Others:</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Duan X et al.</cell><cell>China</cell><cell>Experimental</cell><cell>20 expert Chinese-</cell><cell>Functional connectivity</cell><cell>Increased connectivity between basal</cell></row><row><cell>(2014) [31]</cell><cell></cell><cell></cell><cell>chess players, 20</cell><cell>networks assessed by</cell><cell>ganglia, thalamus, hippocampus and</cell></row><row><cell></cell><cell></cell><cell></cell><cell>novices</cell><cell>fMRI</cell><cell>parietal, temporal areas in experts</cell></row><row><cell>Panphunpho S et</cell><cell>Thailand</cell><cell>RCT</cell><cell>20 elderly Ska players,</cell><cell>Cognitive function</cell><cell>16-week Ska group joiners had</cell></row><row><cell>al. (2013) [32]</cell><cell></cell><cell></cell><cell>20 elderly controls</cell><cell>(memory, attention,</cell><cell>significantly better cognitive function</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>executive function)</cell><cell>scores</cell></row><row><cell>van den Dries S &amp;</cell><cell>The</cell><cell>Computer</cell><cell>Combination of three</cell><cell>Evaluation functions</cell><cell>Method outperforms linear networks, fully</cell></row><row><cell>Wiering MA (2012)</cell><cell>Netherlands</cell><cell>algorithms of</cell><cell>structured neural</cell><cell>(simple linear networks,</cell><cell>connected neural networks or evaluation</cell></row><row><cell>[33]</cell><cell></cell><cell>learning to play</cell><cell>network techniques</cell><cell>multilayered perceptions)</cell><cell>functions evolved with algorithms</cell></row><row><cell></cell><cell></cell><cell>Othello</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="5,56.69,89.01,481.68,548.02"><head>Table 2</head><label>2</label><figDesc><div><p xml:id="_6ZJHdfD"><s xml:id="_Z8cHvxH" coords="5,89.07,89.01,160.98,7.95">Examples of recent RCTs using board games</s></p></div></figDesc><table coords="5,56.69,102.83,481.68,534.19"><row><cell>Authors (years)</cell><cell>Countries</cell><cell>Subjects</cell><cell>Board games</cell><cell>Control setting</cell><cell>Outcomes or</cell><cell>Impact</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>variables</cell><cell></cell></row><row><cell>Nederkoorn C et</cell><cell>The</cell><cell>66 children</cell><cell>Age-appropriate</cell><cell>Play with large bowl</cell><cell>Acceptance of a</cell><cell>Jelly group ate significantly</cell></row><row><cell>al. (2018) [34]</cell><cell>Netherlands</cell><cell>aged 3-10</cell><cell>memory-related board</cell><cell>filled with colorless,</cell><cell>food with a specific</cell><cell>more jelly dessert</cell></row><row><cell></cell><cell></cell><cell>years</cell><cell>game</cell><cell>odorless jelly (Jelly</cell><cell>texture</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>group)</cell><cell></cell><cell></cell></row><row><cell>Fancourt D et al.</cell><cell>UK</cell><cell>352 subjects</cell><cell>Board game requiring</cell><cell>Operating theater</cell><cell>Surgical speed,</cell><cell>Rock music impaired men's</cell></row><row><cell>(2016) [35]</cell><cell></cell><cell>aged &gt; 16</cell><cell>removal of 3 organs</cell><cell>sound, classical</cell><cell>accuracy, and</cell><cell>performance of complex</cell></row><row><cell></cell><cell></cell><cell>years without</cell><cell>from Cavity Sam</cell><cell>music, or rock as</cell><cell>perceived</cell><cell>surgical procedures in</cell></row><row><cell></cell><cell></cell><cell>surgical</cell><cell>(experimental tool)</cell><cell>background music</cell><cell>distraction</cell><cell>board game</cell></row><row><cell></cell><cell></cell><cell>training</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Karbownik MS et</cell><cell>Poland</cell><cell>124 medical</cell><cell>AntimicroGAME to</cell><cell>Lecture-based</cell><cell>Short-term</cell><cell>Long-term knowledge</cell></row><row><cell>al. (2016) [36]</cell><cell></cell><cell>students</cell><cell>learn bacteriology,</cell><cell>seminar</cell><cell>knowledge</cell><cell>retention greater in board</cell></row><row><cell></cell><cell></cell><cell></cell><cell>antimicrobial drug</cell><cell></cell><cell>retention about</cell><cell>game participants vs.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>actions</cell><cell></cell><cell>pharmacology of</cell><cell>controls</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>antimicrobial drugs</cell><cell></cell></row><row><cell>Sharps M &amp;</cell><cell>UK</cell><cell>143 children</cell><cell>Board game with</cell><cell>Board game with</cell><cell>Children's fruit and</cell><cell>Health and social norm-</cell></row><row><cell>Robinson E</cell><cell></cell><cell>aged 6-11</cell><cell>descriptive social</cell><cell>animal images</cell><cell>vegetable intake</cell><cell>based messages increased</cell></row><row><cell>(2016) [37]</cell><cell></cell><cell>years</cell><cell>norm-based or health</cell><cell></cell><cell></cell><cell>fruit and vegetable intake</cell></row><row><cell></cell><cell></cell><cell></cell><cell>message</cell><cell></cell><cell></cell><cell>vs. controls</cell></row><row><cell>Viggiano A et al.</cell><cell>Italy</cell><cell>3110 subjects</cell><cell>Kaledo board game to</cell><cell>No board game</cell><cell>Adolescent food</cell><cell>Treatment group showed</cell></row><row><cell>(2015) [38]</cell><cell></cell><cell>aged 9-19</cell><cell>promote nutrition</cell><cell>during study period</cell><cell>habits and body</cell><cell>improved nutrition</cell></row><row><cell></cell><cell></cell><cell>years</cell><cell>education, improve</cell><cell></cell><cell>mass index</cell><cell>knowledge, healthy diet,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>dietary behavior</cell><cell></cell><cell></cell><cell>food habits, physical activity</cell></row><row><cell>Fernandes SC et</cell><cell>Sweden</cell><cell>125 children</cell><cell>Educational board</cell><cell>Entertaining tools</cell><cell>Children's</cell><cell>Educational group less</cell></row><row><cell>al. (2014) [39]</cell><cell></cell><cell>aged 8-12</cell><cell>game, video, or</cell><cell>with same formats</cell><cell>preoperative worries</cell><cell>worried about surgery,</cell></row><row><cell></cell><cell></cell><cell>years</cell><cell>booklet with surgery</cell><cell>(comparison group),</cell><cell>and parental anxiety</cell><cell>hospital procedures vs.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>and hospitalization</cell><cell>no tool (control</cell><cell></cell><cell>other two groups</cell></row><row><cell></cell><cell></cell><cell></cell><cell>information</cell><cell>group)</cell><cell></cell><cell></cell></row><row><cell>Laski EV &amp; Siegler</cell><cell>USA</cell><cell>42</cell><cell>Numerical board</cell><cell>Same game, standard</cell><cell>Children's</cell><cell>Number line estimates,</cell></row><row><cell>RS (2014) [40]</cell><cell></cell><cell>kindergartners,</cell><cell>game, counting on</cell><cell>count-from-1</cell><cell>knowledge of</cell><cell>numeral identification,</cell></row><row><cell></cell><cell></cell><cell>mean age 5.8</cell><cell>from current number</cell><cell>procedure</cell><cell>numbers in the 0-</cell><cell>count-on skill improved</cell></row><row><cell></cell><cell></cell><cell>years</cell><cell>on board</cell><cell></cell><cell>100 range</cell><cell>more in count-on group</cell></row><row><cell>Charlier N &amp; De</cell><cell>Belgium</cell><cell>120 students</cell><cell>Board game to obtain</cell><cell>Traditional lecture</cell><cell>Students'</cell><cell>Game condition was</cell></row><row><cell>Fraine B (2013)</cell><cell></cell><cell></cell><cell>first-aid knowledge</cell><cell></cell><cell>Knowledge of first</cell><cell>preferred, but lecture more</cell></row><row><cell>[41]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>aids</cell><cell>effectively increased</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>knowledge</cell></row><row><cell>Swiderska N et al.</cell><cell>UK</cell><cell>67 medical</cell><cell>Educational board</cell><cell>Normally provided</cell><cell>Students' test scores</cell><cell>Neonatology test scores</cell></row><row><cell>(2013) [42]</cell><cell></cell><cell>students</cell><cell>game in neonatology</cell><cell>teaching</cell><cell>in neonatology</cell><cell>higher in game vs. control</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>group (p = 0.09)</cell></row><row><cell>Khazaal Y et al.</cell><cell cols="2">Switzerland 240 current</cell><cell>Pick-Klop game, cards</cell><cell>Psychoeducation to</cell><cell>Smoking-related</cell><cell>Game group less likely to</cell></row><row><cell>(2013) [43]</cell><cell></cell><cell>smokers aged</cell><cell>with smoking-related</cell><cell>stop smoking, wait-</cell><cell>attitudes and</cell><cell>remain smokers vs. wait-list</cell></row><row><cell></cell><cell></cell><cell>18-65 years</cell><cell>questions, response</cell><cell>list control</cell><cell>behaviors</cell><cell>group</cell></row><row><cell></cell><cell></cell><cell></cell><cell>options</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Cho KH et al.</cell><cell>Republic of</cell><cell>24 stroke</cell><cell>Virtual reality training</cell><cell>Standard</cell><cell>Statics balance of</cell><cell>Significant improvement in</cell></row><row><cell>(2012) [44]</cell><cell>Korea</cell><cell>patients</cell><cell>with balance-board</cell><cell>rehabilitation</cell><cell>chronic stroke</cell><cell>dynamic balance in chronic</cell></row><row><cell></cell><cell></cell><cell></cell><cell>game system</cell><cell>program only</cell><cell>patients</cell><cell>stroke patients with virtual-</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>reality balance training</cell></row><row><cell>Wanyama JN et</cell><cell>Uganda</cell><cell>180 HIV-</cell><cell>Educational board</cell><cell>Standardized health</cell><cell>Uptake of</cell><cell>Educational game improved</cell></row><row><cell>al. (2012) [45]</cell><cell></cell><cell>positive</cell><cell>game to impart health</cell><cell>talk</cell><cell>knowledge to HIV</cell><cell>uptake of HIV, sexually</cell></row><row><cell></cell><cell></cell><cell>participants</cell><cell>knowledge</cell><cell></cell><cell>and sexually</cell><cell>transmitted infection</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>transmitted</cell><cell>knowledge</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>infections</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_jWVxewb">Acknowledgements</head><p xml:id="_SBHh797">The author (M.N.) appreciates the support of the members of the <rs type="institution">Japan Shogi Association and officials in Kakogawa City</rs> for conceptualizing health promotion models using board games, such as <rs type="person">Shogi</rs> and other traditional games.</p></div>
+			</div>
+			<div type="funding">
+<div><head xml:id="_35drHmv">Funding</head><p xml:id="_yJ9n5Yq">Not applicable.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_3BT2FrF">Availability of data and materials</head><p xml:id="_q4CU6f4"><s xml:id="_KZtTByT" coords="6,56.69,297.29,44.94,6.62">Not applicable.</s></p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_2r7uJfc">Abbreviations</head><p xml:id="_UqwcZcs"><s xml:id="_acgEPEn" coords="6,56.69,153.29,202.46,6.62;6,56.69,162.30,213.10,6.62;6,56.69,171.26,214.32,6.62;6,56.69,180.27,224.07,6.62;6,56.69,189.29,135.81,6.62">(f)MRI: (functional) Magnetic resonance imaging; AD: Anno Domini; ADHD: Attention-deficit/hyperactivity disorder; AI: Artificial intelligence; BDNF: Brain-derived neurotrophic factor; EEG: Electroencephalographic; HIV: Human immunodeficiency virus; ICT: Information and communication technology; RCT: Randomized controlled trial</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_7Ng2nQx">Authors' contributions</head><p xml:id="_spgTYSB"><s xml:id="_aEPrr4t" coords="6,56.69,324.27,225.03,6.62;6,56.69,333.29,173.92,6.62">The author (MN) wrote the entire manuscript and holds final responsibility for the decision to submit the manuscript for publication.</s><s xml:id="_2jgzwgw" coords="6,232.95,333.29,48.39,6.62;6,56.69,342.30,106.10,6.62">The author read and approved the final manuscript.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_FQhb8ju">Ethics approval and consent to participate</head><p xml:id="_EB2TGfY"><s xml:id="_Bw74CrK" coords="6,56.69,369.29,44.94,6.62">Not applicable.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_TQETCx9">Consent for publication</head><p xml:id="_n84zjGm"><s xml:id="_AkvauFt" coords="6,56.69,396.27,44.94,6.62">Not applicable.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_8j83DcK">Competing interests</head><p xml:id="_Ygcxyqq"><s xml:id="_k3pwX2W" coords="6,56.69,423.26,152.62,6.62">The author (M.N.) declares no competing interests.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_xz2kuQG">Publisher's Note</head><p xml:id="_4tZKWqb"><s xml:id="_gqDbkUu" coords="6,56.69,456.26,210.54,6.62;6,56.69,465.27,132.40,6.62">Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,58.99,519.30,231.31,6.62;6,71.72,528.25,137.12,6.62" xml:id="b0">
+	<monogr>
+		<title level="m" type="main" coord="6,97.68,519.30,189.77,6.62" xml:id="_sJhgdTA">Board games: throughout the history and multidimensional spaces</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Kyppo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>World Scientific Publishing Co Inc</publisher>
+			<pubPlace>NJ, U.S</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kyppo J. Board games: throughout the history and multidimensional spaces. NJ, U.S: World Scientific Publishing Co Inc; 2018.</note>
+</biblStruct>
+
+<biblStruct coords="6,58.99,537.27,205.11,6.62;6,71.72,546.28,208.05,6.62;6,71.72,555.30,206.32,6.62" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="6,153.35,546.28,126.41,6.62;6,71.72,555.30,123.65,6.62" xml:id="_Uu2gZpn">Leisure activities and the risk of dementia in the elderly: results from the three-city study</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">N</forename><surname>Akbaraly</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Portet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Fustinoni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">F</forename><surname>Dartigues</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Artero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Rouaud</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Touchon</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Berr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fz8nrX6" coord="6,200.29,555.30,27.82,6.62">Neurology</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="854" to="861" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akbaraly TN, Portet F, Fustinoni S, Dartigues JF, Artero S, Rouaud O, Touchon J, Ritchie K, Berr C. Leisure activities and the risk of dementia in the elderly: results from the three-city study. Neurology. 2009;73:854-61.</note>
+</biblStruct>
+
+<biblStruct coords="6,58.99,564.25,224.25,6.62;6,71.72,573.27,212.61,6.62;6,71.72,582.28,208.44,6.62;6,71.72,591.30,58.63,6.62" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="6,171.72,573.27,112.61,6.62;6,71.72,582.28,157.15,6.62" xml:id="_upwrAuC">Playing board games, cognitive decline and dementia: a French population-based cohort study</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">F</forename><surname>Dartigues</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Foubert-Samier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Le</forename><surname>Goff</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Viltard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Amieva</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Orgogozo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Barberger-Gateau</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Helmer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_UCtMqMG" coord="6,233.74,582.28,27.25,6.62;6,71.72,591.30,11.71,6.62">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">2998</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Aug</note>
+	<note type="raw_reference">Dartigues JF, Foubert-Samier A, Le Goff M, Viltard M, Amieva H, Orgogozo JM, Barberger-Gateau P, Helmer C. Playing board games, cognitive decline and dementia: a French population-based cohort study. BMJ Open. 2013 Aug 29;3(8):e002998.</note>
+</biblStruct>
+
+<biblStruct coords="6,58.99,600.25,224.60,6.62;6,71.72,609.27,193.27,6.62" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="6,182.43,600.25,101.15,6.62;6,71.72,609.27,72.41,6.62" xml:id="_bC2X4pP">Gamification in stress management apps: a critical app review</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">A</forename><surname>Christmann</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Bleser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hRSuvGZ" coord="6,149.16,609.27,54.70,6.62">JMIR Serious Games</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2017-06-07">2017 Jun 7</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoffmann A, Christmann CA, Bleser G. Gamification in stress management apps: a critical app review. JMIR Serious Games. 2017 Jun 7;5(2):e13.</note>
+</biblStruct>
+
+<biblStruct coords="6,58.99,618.28,226.56,6.62;6,71.72,627.30,57.48,6.62" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="6,95.36,618.28,108.75,6.62" xml:id="_FQCzEPY">The availability of shogi for art therapy</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Ueda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ndMh4wj" coord="6,209.08,618.28,48.73,6.62">Jpn Bull Arts Ther</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="38" to="45" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>in Japanese</note>
+	<note type="raw_reference">Ueda T. The availability of shogi for art therapy. Jpn Bull Arts Ther. 2002;33: 38-45 [in Japanese].</note>
+</biblStruct>
+
+<biblStruct coords="6,58.99,636.25,210.45,6.62;6,71.72,645.27,204.88,6.62;6,71.72,654.28,48.03,6.62" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="6,132.60,636.25,136.84,6.62;6,71.72,645.27,164.38,6.62" xml:id="_ywj5ruY">Developmental changes in children&apos;s normative reasoning across learning contexts and collaborative roles</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">E</forename><surname>Riggs</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">G</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9x3VYkk" coord="6,240.66,645.27,33.11,6.62">Dev Psychol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1236" to="1246" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riggs AE, Young AG. Developmental changes in children&apos;s normative reasoning across learning contexts and collaborative roles. Dev Psychol. 2016;52:1236-46.</note>
+</biblStruct>
+
+<biblStruct coords="6,58.99,663.30,228.01,6.62;6,71.72,672.25,200.39,6.62;6,71.72,681.27,126.60,6.62" xml:id="b6">
+	<monogr>
+		<title level="m" type="main" coord="6,119.22,672.25,152.88,6.62;6,71.72,681.27,50.06,6.62" xml:id="_hAPnHH4">Educational games for health professionals. Cochrane Database Syst Rev</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><forename type="middle">F</forename><surname>Kairouz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">M</forename><surname>Sackett</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">S</forename><surname>Erdley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">A</forename><surname>Mustafa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Fiander</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Gabriel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Schünemann</surname></persName>
+		</author>
+		<idno>CD006411</idno>
+		<imprint>
+			<date type="published" when="2013-03-28">2013 Mar 28</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akl EA, Kairouz VF, Sackett KM, Erdley WS, Mustafa RA, Fiander M, Gabriel C, Schünemann H. Educational games for health professionals. Cochrane Database Syst Rev. 2013 Mar 28;3:CD006411.</note>
+</biblStruct>
+
+<biblStruct coords="6,58.99,690.28,226.95,6.62;6,71.72,699.30,198.93,6.62;6,71.72,708.25,183.68,6.62" xml:id="b7">
+	<monogr>
+		<title level="m" type="main" coord="6,98.98,690.28,186.96,6.62;6,71.72,699.30,128.34,6.62" xml:id="_WmQkWNv">The influences of teaching strategies and reinforcement techniques on health care workers&apos; learning and retention</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">T</forename><surname>Burke</surname></persName>
+		</author>
+		<idno>UM I Microform 3038675</idno>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<pubPlace>Hattiesburg</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Southern Mississippi</orgName>
+		</respStmt>
+	</monogr>
+	<note>PhD thesis</note>
+	<note type="raw_reference">Burke CT. The influences of teaching strategies and reinforcement techniques on health care workers&apos; learning and retention [PhD thesis]. Hattiesburg: University of Southern Mississippi; 2001. [UM I Microform 3038675]</note>
+</biblStruct>
+
+<biblStruct coords="6,58.99,717.27,209.44,6.62;6,71.72,726.28,210.19,6.62;6,319.75,90.30,212.70,6.62;6,319.75,99.26,84.60,6.62" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="6,135.83,726.28,146.07,6.62;6,319.75,90.30,182.25,6.62" xml:id="_mqdzGuZ">Game-based versus traditional case-based learning: comparing effectiveness in stroke continuing medical education</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Telner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Bujas-Bobanovic</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Chan</forename><forename type="middle">D</forename><surname>Chester</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Meuser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Rothman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2qHfrxg" coord="6,507.11,90.30,25.33,6.62;6,319.75,99.26,24.55,6.62">Can Fam Physician</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="345" to="351" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Telner D, Bujas-Bobanovic M, Chan D, Chester B, Marlow B, Meuser J, Rothman A, Harvey B. Game-based versus traditional case-based learning: comparing effectiveness in stroke continuing medical education. Can Fam Physician. 2010;56(9):e345-51.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,108.56,219.60,6.62;6,319.75,117.51,188.86,6.62;6,319.75,126.53,204.09,6.62;6,319.75,135.54,37.97,6.62" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="6,349.68,117.51,158.93,6.62;6,319.75,126.53,167.55,6.62" xml:id="_DzSb6p3">Use of biotechnological devices in the quantification of psychophysiological workload of professional chess players</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">P</forename><surname>Fuentes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Villafaina</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Collado-Mateo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">La</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Vega</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Gusi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Clemente-Suárez</forename><surname>Vj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_K7R2SwY" coord="6,492.03,126.53,29.35,6.62">J Med Syst</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">40</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fuentes JP, Villafaina S, Collado-Mateo D, de la Vega R, Gusi N, Clemente- Suárez VJ. Use of biotechnological devices in the quantification of psychophysiological workload of professional chess players. J Med Syst. 2018;42(3):40.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,144.78,211.56,6.62;6,319.75,153.80,111.63,6.62" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="6,385.79,144.78,135.83,6.62;6,319.75,153.80,15.37,6.62" xml:id="_RvQ5tBV">Chess therapy: a new approach to curing panic attack</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Barzegar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Barzegar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_2jwr353" coord="6,339.82,153.80,45.56,6.62">Asian J Psychiatr</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="118" to="119" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barzegar K, Barzegar S. Chess therapy: a new approach to curing panic attack. Asian J Psychiatr. 2017;30:118-9.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,163.04,211.06,6.62;6,319.75,172.05,139.47,6.62" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="6,432.28,163.04,88.85,6.62;6,319.75,172.05,41.28,6.62" xml:id="_Vy4JthT">A study of memory effects in a chess database</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">L</forename><surname>Schaigorodsky</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">I</forename><surname>Perotti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><forename type="middle">V</forename><surname>Billoni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_du23yeU" coord="6,366.12,172.05,25.77,6.62">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">168213</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schaigorodsky AL, Perotti JI, Billoni OV. A study of memory effects in a chess database. PLoS One. 2016;11(12):e0168213.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,181.29,195.58,6.62;6,319.75,190.31,171.85,6.62" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="6,374.34,181.29,131.30,6.62;6,319.75,190.31,77.00,6.62" xml:id="_K4NEhdH">Risk taking in adversarial situations: civilization differences in chess experts</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Chassy</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Gobet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_DTf7G3A" coord="6,401.67,190.31,29.29,6.62">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="36" to="40" />
+			<date type="published" when="2015-08">2015 Aug</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chassy P, Gobet F. Risk taking in adversarial situations: civilization differences in chess experts. Cognition. 2015 Aug;141:36-40.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,199.60,219.47,6.62;6,319.75,208.56,214.00,6.62;6,319.75,217.58,72.80,6.62" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="6,393.90,199.60,135.63,6.62;6,319.75,208.56,210.49,6.62" xml:id="_MJvkDcg">Expert vs novice differences in the detection of relevant information during a chess game: Evidence from eye movements</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Sheridan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">M</forename><surname>Reingold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cJWbB4b" coord="6,319.75,217.58,36.97,6.62">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">941</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sheridan H, Reingold EM. Expert vs novice differences in the detection of relevant information during a chess game: Evidence from eye movements. Front Psychol. 2014;5:941.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,226.82,203.16,6.62;6,319.75,235.83,204.48,6.62;6,319.75,244.84,71.37,6.62" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="6,392.43,226.82,120.80,6.62;6,319.75,235.83,160.22,6.62" xml:id="_JsMP6RA">Meta-analysis of age and skill effects on recalling chess positions and selecting the best move</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">H</forename><surname>Moxley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Charness</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EejPvtw" coord="6,486.47,235.83,37.76,6.62;6,319.75,244.84,8.73,6.62">Psychon Bull Rev</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1017" to="1022" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moxley JH, Charness N. Meta-analysis of age and skill effects on recalling chess positions and selecting the best move. Psychon Bull Rev. 2013;20(5):1017-22.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,254.08,213.12,6.62;6,319.75,263.10,217.27,6.62;6,319.75,272.11,118.72,6.62" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="6,471.85,254.08,51.33,6.62;6,319.75,263.10,217.27,6.62;6,319.75,272.11,21.67,6.62" xml:id="_qKV3EFc">The tell-tale heart: heart rate fluctuations index objective and subjective events during a game of chess</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Leone</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Petroni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Fernandez</forename><surname>Slezak</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Sigman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_paMYch8" coord="6,346.34,272.11,56.27,6.62">Front Hum Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">273</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leone MJ, Petroni A, Fernandez Slezak D, Sigman M. The tell-tale heart: heart rate fluctuations index objective and subjective events during a game of chess. Front Hum Neurosci. 2012;6:273.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,281.35,215.60,6.62;6,319.75,290.37,196.16,6.62;6,319.75,299.38,119.79,6.62" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="6,506.09,281.35,19.57,6.62;6,319.75,290.37,196.16,6.62;6,319.75,299.38,24.90,6.62" xml:id="_55SByeq">Cancer growth and metastasis as a metaphor of go gaming: an Ising model approach</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Barradas-Bautista</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Alvarado-Mentado</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Agostino</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Cocho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_43YV4rR" coord="6,349.91,299.38,25.77,6.62">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">195654</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barradas-Bautista D, Alvarado-Mentado M, Agostino M, Cocho G. Cancer growth and metastasis as a metaphor of go gaming: an Ising model approach. PLoS One. 2018;13(5):e0195654.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,308.62,213.43,6.62;6,319.75,317.64,209.25,6.62;6,319.75,326.59,160.66,6.62" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="6,466.18,308.62,57.31,6.62;6,319.75,317.64,209.25,6.62;6,319.75,326.59,66.05,6.62" xml:id="_t6q7vnF">Social networks and inference about unknown events: a case of the match between Google&apos;s AlphaGo and Sedol Lee</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">J</forename><surname>Cha</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Baek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Jang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zM5aMEa" coord="6,390.73,326.59,25.77,6.62">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">171472</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bae J, Cha YJ, Lee H, Lee B, Baek S, Choi S, Jang D. Social networks and inference about unknown events: a case of the match between Google&apos;s AlphaGo and Sedol Lee. PLoS One. 2017;12(2):e0171472.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,335.89,208.16,6.62;6,319.75,344.91,206.95,6.62;6,319.75,353.86,190.41,6.62;6,319.75,362.88,216.53,6.62;6,319.75,371.89,179.89,6.62" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="6,429.45,362.88,106.83,6.62;6,319.75,371.89,90.56,6.62" xml:id="_PQVNKbF">Mastering the game of go with deep neural networks and tree search</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">J</forename><surname>Maddison</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Guez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Sifre</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Van Den Driessche</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Schrittwieser</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Antonoglou</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Panneershelvam</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Lanctot</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Dieleman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Grewe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Nham</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Kalchbrenner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Lillicrap</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Leach</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Kavukcuoglu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Graepel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Hassabis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8MZhShg" coord="6,415.22,371.89,17.34,6.62">Nature</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="issue">7587</biblScope>
+			<biblScope unit="page" from="484" to="489" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silver D, Huang A, Maddison CJ, Guez A, Sifre L, van den Driessche G, Schrittwieser J, Antonoglou I, Panneershelvam V, Lanctot M, Dieleman S, Grewe D, Nham J, Kalchbrenner N, Sutskever I, Lillicrap T, Leach M, Kavukcuoglu K, Graepel T, Hassabis D. Mastering the game of go with deep neural networks and tree search. Nature. 2016;529(7587):484-9.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,381.13,227.62,6.62;6,319.75,390.15,198.09,6.62;6,319.75,399.16,58.86,6.62" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="6,377.63,381.13,160.06,6.62;6,319.75,390.15,158.63,6.62" xml:id="_CfMcYW5">The impacts of a GO-game (Chinese chess) intervention on Alzheimer disease in a northeast Chinese population</title>
+		<author>
+			<persName coords=""><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_96WUUPA" coord="6,483.47,390.15,34.36,6.62;6,319.75,399.16,23.00,6.62">Front Aging Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">163</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin Q, Cao Y, Gao J. The impacts of a GO-game (Chinese chess) intervention on Alzheimer disease in a northeast Chinese population. Front Aging Neurosci. 2015;7:163.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,408.40,209.85,6.62;6,319.75,417.41,215.91,6.62;6,319.75,426.43,208.25,6.62;6,319.75,435.39,37.93,6.62" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="6,487.84,408.40,32.08,6.62;6,319.75,417.41,215.91,6.62;6,319.75,426.43,128.55,6.62" xml:id="_FzjXsyb">Baduk (the game of go) improved cognitive function and brain activity in children with attention deficit hyperactivity disorder</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">H</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">N</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">H</forename><surname>Cheong</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">H</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ZpaWkP9" coord="6,454.04,426.43,53.17,6.62">Psychiatry Investig</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="143" to="151" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim SH, Han DH, Lee YS, Kim BN, Cheong JH, Han SH. Baduk (the game of go) improved cognitive function and brain activity in children with attention deficit hyperactivity disorder. Psychiatry Investig. 2014; 11(2):143-51.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,444.68,220.89,6.62;6,319.75,453.64,208.28,6.62;6,319.75,462.65,216.30,6.62;6,319.75,471.67,30.85,6.62" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="6,504.34,444.68,26.62,6.62;6,319.75,453.64,208.28,6.62;6,319.75,462.65,152.46,6.62" xml:id="_gSfBXff">Exploring the brains of Baduk (go) experts: gray matter morphometry, resting-state functional connectivity, and graph theoretical analysis</title>
+		<author>
+			<persName coords=""><forename type="first">W</forename><forename type="middle">H</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">N</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">H</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">S</forename><surname>Kwon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FMkGttw" coord="6,476.90,462.65,56.28,6.62">Front Hum Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">633</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jung WH, Kim SN, Lee TY, Jang JH, Choi CH, Kang DH, Kwon JS. Exploring the brains of Baduk (go) experts: gray matter morphometry, resting-state functional connectivity, and graph theoretical analysis. Front Hum Neurosci. 2013;7:633.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,480.91,216.78,6.62;6,319.75,489.92,149.11,6.62" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="6,427.41,480.91,99.44,6.62;6,319.75,489.92,68.33,6.62" xml:id="_eeHX9vH">Reflex epilepsy induced by playing go-stop or Baduk games</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">J</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">I</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Heo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hXSuswa" coord="6,393.56,489.92,18.68,6.62">Seizure</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="770" to="774" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee MK, Yoo J, Cho YJ, Lee BI, Heo K. Reflex epilepsy induced by playing go-stop or Baduk games. Seizure. 2012;21(10):770-4.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,499.16,225.78,6.62;6,319.75,508.18,68.93,6.62" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="6,348.26,499.16,131.66,6.62" xml:id="_GJGEcUj">Brain mechanisms of intuition in shogi experts</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_F5CSZDx" coord="6,484.83,499.16,31.04,6.62">Brain Nerve</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="607" to="615" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>in Japanese</note>
+	<note type="raw_reference">Tanaka K. Brain mechanisms of intuition in shogi experts. Brain Nerve. 2018; 70:607-15 [in Japanese].</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,517.42,216.75,6.62;6,319.75,525.86,214.88,7.50;6,319.75,535.45,195.30,6.62;6,319.75,544.46,172.85,6.62" xml:id="b24">
+	<monogr>
+		<title level="m" type="main" coord="6,356.37,525.86,178.26,7.50;6,319.75,535.45,9.55,6.62" xml:id="_haMdGnX">Introduction of &quot;Shogi&quot; health promotion project in Kakogawa City</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Nakao</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Furukawa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Oomine</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Fukumoto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Obara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Noda</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Kitashima</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Japanese Society of Behavioral Medicine</publisher>
+		</imprint>
+	</monogr>
+	<note>Tokyo: Abstract of the 24th Annual Scientific Conference of the. in Japanese</note>
+	<note type="raw_reference">Nakao M, Furukawa H, Oomine A, Fukumoto T, Ono H, Obara A, Noda S, Kitashima C. Introduction of &quot;Shogi&quot; health promotion project in Kakogawa City. Tokyo: Abstract of the 24th Annual Scientific Conference of the Japanese Society of Behavioral Medicine; 2017. [in Japanese]</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,553.70,204.47,6.62;6,319.75,562.72,198.83,6.62;6,319.75,571.73,63.08,6.62" xml:id="b25">
+	<monogr>
+		<title level="m" type="main" coord="6,406.21,553.70,108.33,6.62;6,319.75,562.72,196.22,6.62" xml:id="_hQkdFtK">The neural system of post-decision evaluation in rostral frontal cortex during problem-solving tasks</title>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Tanaka</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wan X, Cheng K, Tanaka K. The neural system of post-decision evaluation in rostral frontal cortex during problem-solving tasks. eNeuro. 2016;29:3(4).</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,580.97,224.43,6.62;6,319.75,589.99,215.95,6.62" xml:id="b26">
+	<analytic>
+		<title level="a" type="main" coord="6,398.15,580.97,136.34,6.62;6,319.75,589.99,108.83,6.62" xml:id="_ZCSV4Mn">Neural encoding of opposing strategy values in anterior and posterior cingulate cortex</title>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aSbFvPD" coord="6,433.36,589.99,37.89,6.62">Nat Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="752" to="759" />
+			<date type="published" when="2015-05">2015 May</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wan X, Cheng K, Tanaka K. Neural encoding of opposing strategy values in anterior and posterior cingulate cortex. Nat Neurosci. 2015 May;18(5):752-9.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,599.23,220.19,6.62;6,319.75,608.24,200.15,6.62;6,319.75,617.21,82.28,6.62" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="6,394.81,599.23,135.44,6.62;6,319.75,608.24,200.15,6.62;6,319.75,617.21,19.01,6.62" xml:id="_jXADAAw">Quick concurrent responses to global and local cognitive information underlie intuitive understanding in board-game experts</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Nakatani</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Yamaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8Athnzs" coord="6,343.62,617.21,18.99,6.62">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">5894</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakatani H, Yamaguchi Y. Quick concurrent responses to global and local cognitive information underlie intuitive understanding in board-game experts. Sci Rep. 2014;4:5894.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,626.50,227.38,6.62;6,319.75,635.52,211.78,6.62;6,319.75,644.48,58.08,6.62" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="6,379.10,626.50,158.34,6.62;6,319.75,635.52,118.83,6.62" xml:id="_PffDD5V">Effects of denture wearing and chewing in elderly with dementia repeating aspiration pneumonia</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Aoyagi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Ogawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_bQ5QjsC" coord="6,444.13,635.52,70.42,6.62">J Jpn Psychiatr Nurs Soc</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="118" to="119" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aoyagi M, Ogawa T. Effects of denture wearing and chewing in elderly with dementia repeating aspiration pneumonia. J Jpn Psychiatr Nurs Soc. 2013; 56:118-9 [Japanese].</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,653.77,222.86,6.62;6,319.75,662.73,214.85,6.62;6,319.75,671.74,112.62,6.62" xml:id="b29">
+	<analytic>
+		<title level="a" type="main" coord="6,319.75,662.73,214.85,6.62;6,319.75,671.74,20.11,6.62" xml:id="_kkghdyy">Developing intuition: neural correlates of cognitive-skill learning in caudate nucleus</title>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Takano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Asamizuya</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Ueno</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_g4jWNYK" coord="6,344.86,671.74,27.59,6.62">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="17492" to="17501" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wan X, Takano D, Asamizuya T, Suzuki C, Ueno K, Cheng K, Ito T, Tanaka K. Developing intuition: neural correlates of cognitive-skill learning in caudate nucleus. J Neurosci. 2012;32:17492-501.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,681.04,200.49,6.62;6,319.75,690.00,213.46,6.62;6,319.75,699.01,101.04,6.62" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="6,319.75,690.00,213.46,6.62;6,319.75,699.01,19.01,6.62" xml:id="_WFJ8GmZ">Functional organization of intrinsic connectivity networks in Chinese-chess experts</title>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Z</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Q</forename><surname>Gong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JVrcNC9" coord="6,343.62,699.01,24.28,6.62">Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">1558</biblScope>
+			<biblScope unit="page" from="33" to="43" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duan X, Long Z, Chen H, Liang D, Qiu L, Huang X, Liu TC, Gong Q. Functional organization of intrinsic connectivity networks in Chinese-chess experts. Brain Res. 2014;1558:33-43.</note>
+</biblStruct>
+
+<biblStruct coords="6,310.06,708.25,224.51,6.62;6,319.75,717.27,212.65,6.62;6,319.75,726.28,45.91,6.62" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="6,449.75,708.25,84.82,6.62;6,319.75,717.27,151.36,6.62" xml:id="_8mhQrWd">Positive effects of Ska game practice on cognitive function among older adults</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Panphunpho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Thavichachart</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Kritpet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qKW4Dsv" coord="6,476.73,717.27,55.66,6.62">J Med Assoc Thail</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="358" to="364" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Panphunpho S, Thavichachart N, Kritpet T. Positive effects of Ska game practice on cognitive function among older adults. J Med Assoc Thail. 2013;96:358-64.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,90.30,210.38,6.62;7,71.72,99.26,216.05,6.62;7,71.72,108.27,48.03,6.62" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="7,157.09,90.30,115.32,6.62;7,71.72,99.26,112.49,6.62" xml:id="_A5F3Uuu">Neural-fitted TD-leaf learning for playing Othello with structured neural networks</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Van Den Dries</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">A</forename><surname>Wiering</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_TfeSDJB" coord="7,189.35,99.26,95.96,6.62">IEEE Trans Neural Netw Learn Syst</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1701" to="1713" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van den Dries S, Wiering MA. Neural-fitted TD-leaf learning for playing Othello with structured neural networks. IEEE Trans Neural Netw Learn Syst. 2012;23:1701-13.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,117.29,225.45,6.62;7,71.72,126.30,193.78,6.62;7,71.72,135.26,79.28,6.62" xml:id="b33">
+	<analytic>
+		<title level="a" type="main" coord="7,208.18,117.29,79.31,6.62;7,71.72,126.30,190.73,6.62" xml:id="_MtdJjjx">Taste the feeling or feel the tasting: tactile exposure to food texture promotes food acceptance</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Nederkoorn</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Theiβen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Tummers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Roefs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_5Ywag6g" coord="7,71.72,135.26,22.81,6.62">Appetite</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="297" to="301" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nederkoorn C, Theiβen J, Tummers M, Roefs A. Taste the feeling or feel the tasting: tactile exposure to food texture promotes food acceptance. Appetite. 2018;120:297-301.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,144.27,227.11,6.62;7,71.72,153.29,214.70,6.62;7,71.72,162.30,44.62,6.62" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coord="7,178.01,144.27,111.13,6.62;7,71.72,153.29,176.28,6.62" xml:id="_539eQ8a">The razor&apos;s edge: Australian rock music impairs men&apos;s performance when pretending to be a surgeon</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Fancourt</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">M</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Williamon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_8GJHGbM" coord="7,253.19,153.29,30.48,6.62">Med J Aust</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="515" to="518" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fancourt D, Burton TM, Williamon A. The razor&apos;s edge: Australian rock music impairs men&apos;s performance when pretending to be a surgeon. Med J Aust. 2016;205:515-8.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,170.69,221.94,7.50;7,71.72,180.27,200.26,6.62;7,71.72,189.29,211.77,6.62;7,71.72,198.30,98.46,6.62" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coord="7,98.87,180.27,173.10,6.62;7,71.72,189.29,192.40,6.62" xml:id="_8MBh8cC">Board game versus lecture-based seminar in the teaching of pharmacology of antimicrobial drugs--a randomized controlled trial</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">S</forename><surname>Karbownik</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Wiktorowska-Owczarek</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Kowalczyk</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Kwarta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ł</forename><surname>Mokros</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Pietras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CfCruWK" coord="7,268.21,189.29,15.28,6.62;7,71.72,198.30,38.35,6.62">FEMS Microbiol Lett</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karbownik MS, Wiktorowska-Owczarek A, Kowalczyk E, Kwarta P, Mokros Ł, Pietras T. Board game versus lecture-based seminar in the teaching of pharmacology of antimicrobial drugs--a randomized controlled trial. FEMS Microbiol Lett. 2016;363(7):fnw045.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,207.26,198.29,6.62;7,71.72,216.27,205.94,6.62;7,71.72,225.29,44.63,6.62" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="7,136.80,207.26,123.53,6.62;7,71.72,216.27,174.99,6.62" xml:id="_FfaD4qC">Encouraging children to eat more fruit and vegetables: Health vs descriptive social norm-based messages</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Sharps</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Robinson</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_263EPJh" coord="7,252.00,216.27,22.81,6.62">Appetite</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="18" to="25" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sharps M, Robinson E. Encouraging children to eat more fruit and vegetables: Health vs descriptive social norm-based messages. Appetite. 2016;100:18-25.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,234.30,224.24,6.62;7,71.72,243.26,218.12,6.62;7,71.72,252.27,217.80,6.62;7,71.72,261.29,218.01,6.62;7,71.72,270.30,215.40,6.62;7,71.72,279.26,86.87,6.62" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="7,100.80,261.29,188.93,6.62;7,71.72,270.30,212.23,6.62" xml:id="_UsaPK7q">a board game for nutrition education of children and adolescents at school: cluster randomized controlled trial of healthy lifestyle promotion</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Viggiano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Viggiano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Di</forename><surname>Costanzo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Viggiano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Andreozzi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Rianna</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Vicidomini</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Gargano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Incarnato</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Fevola</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Volta</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Tolomeo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Scianni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Santangelo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Battista</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Monda</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Viggiano</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">De</forename><surname>Luca</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Amaro</forename><forename type="middle">S</forename><surname>Kaledo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_REm6kUe" coord="7,71.72,279.26,34.05,6.62">Eur J Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="217" to="228" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Viggiano A, Viggiano E, Di Costanzo A, Viggiano A, Andreozzi E, Romano V, Rianna I, Vicidomini C, Gargano G, Incarnato L, Fevola C, Volta P, Tolomeo C, Scianni G, Santangelo C, Battista R, Monda M, Viggiano A, De Luca B, Amaro S. Kaledo, a board game for nutrition education of children and adolescents at school: cluster randomized controlled trial of healthy lifestyle promotion. Eur J Pediatr. 2015;174:217-28.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,288.27,220.46,6.62;7,71.72,297.29,214.60,6.62;7,71.72,306.30,215.42,6.62;7,71.72,315.26,60.96,6.62" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coord="7,172.23,288.27,110.26,6.62;7,71.72,297.29,214.60,6.62;7,71.72,306.30,176.04,6.62" xml:id="_tUBrHVp">Providing preoperative information for children undergoing surgery: a randomized study testing different types of educational material to reduce children&apos;s preoperative worries</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">C</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Arriaga</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Esteves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zWnYuwJ" coord="7,252.62,306.30,34.51,6.62;7,71.72,315.26,8.06,6.62">Health Educ Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1058" to="1076" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fernandes SC, Arriaga P, Esteves F. Providing preoperative information for children undergoing surgery: a randomized study testing different types of educational material to reduce children&apos;s preoperative worries. Health Educ Res. 2014;29:1058-76.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,324.27,218.09,6.62;7,71.72,333.29,120.20,6.62" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coord="7,128.69,324.27,151.43,6.62;7,71.72,333.29,32.02,6.62" xml:id="_Mq2rMfh">Learning from number board games: you learn what you encode</title>
+		<author>
+			<persName coords=""><forename type="first">E</forename><forename type="middle">V</forename><surname>Laski</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">S</forename><surname>Siegler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_hfc8fjb" coord="7,109.13,333.29,33.11,6.62">Dev Psychol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="853" to="864" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laski EV, Siegler RS. Learning from number board games: you learn what you encode. Dev Psychol. 2014;50:853-64.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,342.30,222.58,6.62;7,71.72,351.26,182.67,6.62" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coord="7,139.58,342.30,145.04,6.62;7,71.72,351.26,97.55,6.62" xml:id="_rEMY53X">Game-based learning as a vehicle to teach first aid content: a randomized experiment</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Charlier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">De</forename><surname>Fraine</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_psM9Bbh" coord="7,174.44,351.26,33.74,6.62">J Sch Health</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="493" to="499" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charlier N, De Fraine B. Game-based learning as a vehicle to teach first aid content: a randomized experiment. J Sch Health. 2013;83:493-9.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,360.27,227.96,6.62;7,71.72,369.29,213.01,6.62;7,71.72,378.30,42.40,6.62" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coord="7,207.50,360.27,82.50,6.62;7,71.72,369.29,172.58,6.62" xml:id="_MNy7xsY">Randomised controlled trial of the use of an educational board game in neonatology</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Swiderska</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Thomason</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><forename type="middle">N</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FZfMvZB" coord="7,250.45,369.29,31.21,6.62">Med Teach</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="413" to="415" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swiderska N, Thomason E, Hart A, Shaw BN. Randomised controlled trial of the use of an educational board game in neonatology. Med Teach. 2013;35:413-5.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,387.26,227.64,6.62;7,71.72,396.27,217.65,6.62;7,71.72,405.29,208.46,6.62;7,71.72,414.30,146.29,6.62" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coord="7,269.80,396.27,19.57,6.62;7,71.72,405.29,208.46,6.62;7,71.72,414.30,9.63,6.62" xml:id="_5wEkekx">Impact of a board-game approach on current smokers: a randomized controlled trial</title>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Khazaal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Chatton</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Prezzemolo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Zebouni</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Edel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Jacquet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Ruggeri</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Burnens</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Monney</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">S</forename><surname>Protti</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">F</forename><surname>Etter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Cornuz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Zullino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_AZSUhwG" coord="7,85.38,414.30,83.39,6.62">Subst Abuse Treat Prev Policy</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2013-01-17">2013 Jan 17</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khazaal Y, Chatton A, Prezzemolo R, Zebouni F, Edel Y, Jacquet J, Ruggeri O, Burnens E, Monney G, Protti AS, Etter JF, Khan R, Cornuz J, Zullino D. Impact of a board-game approach on current smokers: a randomized controlled trial. Subst Abuse Treat Prev Policy. 2013 Jan 17;8:3.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,423.26,225.58,6.62;7,71.72,432.27,214.70,6.62;7,71.72,441.29,60.73,6.62" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coord="7,146.66,423.26,140.95,6.62;7,71.72,432.27,171.73,6.62" xml:id="_sM92Axy">Virtual-reality balance training with a video-game system improves dynamic balance in chronic stroke patients</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">H</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">H</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_qe72Cms" coord="7,248.20,432.27,38.22,6.62;7,71.72,441.29,10.45,6.62">Tohoku J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="page" from="69" to="74" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cho KH, Lee KJ, Song CH. Virtual-reality balance training with a video-game system improves dynamic balance in chronic stroke patients. Tohoku J Exp Med. 2012;228:69-74.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,450.30,227.56,6.62;7,71.72,459.26,210.32,6.62;7,71.72,468.27,209.93,6.62;7,71.72,477.29,209.53,6.62;7,71.72,486.30,154.15,6.62" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coord="7,152.67,459.26,129.36,6.62;7,71.72,468.27,209.93,6.62;7,71.72,477.29,179.63,6.62" xml:id="_aFDfPSp">A randomized controlled trial to evaluate the effectiveness of a board game on patients&apos; knowledge uptake of HIV and sexually transmitted diseases at the infectious diseases institute</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">N</forename><surname>Wanyama</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Castelnuovo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">B</forename><surname>Sempa</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kambugu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><forename type="middle">C</forename><surname>Manabe</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">R</forename><surname>Colebunders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ea7vFT6" coord="7,97.34,486.30,82.19,6.62">J Acquir Immune Defic Syndr</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="253" to="258" />
+			<date type="published" when="2012">2012</date>
+			<pubPlace>Kampala, Uganda</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wanyama JN, Castelnuovo B, Robertson G, Newell K, Sempa JB, Kambugu A, Manabe YC, Colebunders R. A randomized controlled trial to evaluate the effectiveness of a board game on patients&apos; knowledge uptake of HIV and sexually transmitted diseases at the infectious diseases institute, Kampala, Uganda. J Acquir Immune Defic Syndr. 2012;59:253-8.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,495.26,210.57,6.62;7,71.72,504.27,215.08,6.62;7,71.72,513.28,211.40,6.62;7,71.72,522.30,188.13,6.62" xml:id="b45">
+	<monogr>
+		<title level="m" type="main" coord="7,242.64,504.27,44.15,6.62;7,71.72,513.28,142.82,6.62" xml:id="_rsATNHt">of investigation of scholastic ability and learning situation in Japan</title>
+		<ptr target="http://www.nier.go.jp/18chousakekkahoukoku/index.html" />
+		<imprint>
+			<date type="published" when="2018-02-14">2018. 14 Feb 2018</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Institute for Educational Research Policy, Japanese Ministry of Education, Culture, Sports, Science and Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Report</note>
+	<note type="raw_reference">National Institute for Educational Research Policy, Japanese Ministry of Education, Culture, Sports, Science and Technology. Report of investigation of scholastic ability and learning situation in Japan, 2018. http://www.nier. go.jp/18chousakekkahoukoku/index.html. [Accessed 14 Feb 2018].</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,531.26,200.21,6.62;7,71.72,540.27,214.54,6.62;7,71.72,549.28,48.03,6.62" xml:id="b46">
+	<analytic>
+		<title level="a" type="main" coord="7,149.55,531.26,112.69,6.62;7,71.72,540.27,174.75,6.62" xml:id="_Z99Fkf6">Video game training does not enhance cognitive ability: a comprehensive meta-analytic investigation</title>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Sala</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">S</forename><surname>Tatlidil</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">F</forename><surname>Gobet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EyxbvXX" coord="7,251.26,540.27,32.71,6.62">Psychol Bull</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="111" to="139" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sala G, Tatlidil KS, Gobet F. Video game training does not enhance cognitive ability: a comprehensive meta-analytic investigation. Psychol Bull. 2018;144:111-39.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,558.30,213.53,6.62;7,71.72,567.26,89.83,6.62" xml:id="b47">
+	<analytic>
+		<title level="a" type="main" coord="7,105.45,558.30,167.35,6.62" xml:id="_GAuf5zk">Six suggestions for research on games in cognitive science</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">F</forename><surname>Chabris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uyNxPCX" coord="7,71.72,567.26,43.06,6.62">Topics Cog Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="497" to="509" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chabris CF. Six suggestions for research on games in cognitive science. Topics Cog Sci. 2017;9:497-509.</note>
+</biblStruct>
+
+<biblStruct coords="7,62.03,576.27,224.91,6.62;7,71.72,585.28,214.46,6.62" xml:id="b48">
+	<analytic>
+		<title level="a" type="main" coord="7,100.29,576.27,186.65,6.62;7,71.72,585.28,125.00,6.62" xml:id="_tswgPWS">Bio-psycho-social medicine is a comprehensive form of medicine bridging clinical medicine and public health</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Nakao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ChS7sY6" coord="7,201.60,585.28,51.50,6.62">BioPsychoSoc Med</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakao M. Bio-psycho-social medicine is a comprehensive form of medicine bridging clinical medicine and public health. BioPsychoSoc Med. 2010;4:19.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

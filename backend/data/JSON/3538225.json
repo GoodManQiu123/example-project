@@ -1,0 +1,5749 @@
+{
+    "metadata": {
+        "title": "Energy-eficient Database Systems: A Systematic Survey",
+        "doi": "10.1145/3538225",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Constructing energy-eicient database systems to reduce economic costs and environmental impact has been studied for ten years. With the emergence of the big data age, along with the data-centric and -intensive computing trend, the great amount of energy consumed by database systems has become a major concern in a society that pursues green information technology. However, to the best of our knowledge, despite the importance of this matter in Green IT, there have been few comprehensive or systematic studies conducted in this ield. Therefore, the objective of this article is to present a literature survey with breadth and depth on existing energy management techniques for database systems. The existing literature are organized hierarchically with two major branches focusing separately on energy consumption models and energy-saving techniques. Under each branch, we irst introduce some basic knowledge, and then we classify, discuss, and compare existing research according to their core ideas, basic approaches, and main characteristics. Finally, based on these observations through our study, we identify multiple open issues and challenges, and provide insights for future research. We hope that our outcome of this work will help researchers to develop more energy-eicient database systems. CCS Concepts: \u2022 General and reference   Surveys and overviews; \u2022 Hardware   Power estimation and optimization; \u2022 Information systems   Data management systems.",
+        "keywords": [
+            "survey",
+            "eiciency",
+            "proportionality",
+            "management",
+            "green",
+            "system",
+            "energy",
+            "consumption",
+            "systematic",
+            "energyeficient",
+            "database"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Binglei Guo",
+            "affiliation": "School of Computer Engineering",
+            "email": "bingleiguo@stu.xju.edu.cn"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Agrawal",
+                    "given": "Rakesh"
+                },
+                {
+                    "family": "Ailamaki",
+                    "given": "Anastasia"
+                },
+                {
+                    "family": "Bernstein",
+                    "given": "Philip A."
+                },
+                {
+                    "family": "Brewer",
+                    "given": "Eric A."
+                },
+                {
+                    "family": "Carey",
+                    "given": "Michael J."
+                },
+                {
+                    "family": "Chaudhuri",
+                    "given": "Surajit"
+                },
+                {
+                    "family": "Doan",
+                    "given": "AnHai"
+                },
+                {
+                    "family": "Florescu",
+                    "given": "Daniela"
+                },
+                {
+                    "family": "Franklin",
+                    "given": "Michael J."
+                },
+                {
+                    "family": "Garcia-Molina",
+                    "given": "Hector"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "The Claremont report on database research",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Sigmod Record"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ailamaki",
+                    "given": "Anastasia"
+                }
+            ],
+            "title": "Databases and hardware: The beginning and sequel of a beautiful friendship",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 8"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Andersen",
+                    "given": "David G."
+                },
+                {
+                    "family": "Franklin",
+                    "given": "Jason"
+                },
+                {
+                    "family": "Kaminsky",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Phanishayee",
+                    "given": "Amar"
+                },
+                {
+                    "family": "Tan",
+                    "given": "Lawrence"
+                },
+                {
+                    "family": "Vasudevan",
+                    "given": "Vijay"
+                }
+            ],
+            "title": "FAWN: A fast array of wimpy nodes",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM SIGOPS 22nd symposium on Operating systems"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Appuswamy",
+                    "given": "Raja"
+                },
+                {
+                    "family": "Olma",
+                    "given": "Matthaios"
+                },
+                {
+                    "family": "Ailamaki",
+                    "given": "Anastasia"
+                }
+            ],
+            "title": "Scaling the memory power wall with dram-aware data management",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 11th International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Arnold",
+                    "given": "Oliver"
+                },
+                {
+                    "family": "Haas",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Fettweis",
+                    "given": "Gerhard"
+                },
+                {
+                    "family": "Schlegel",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Kissinger",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "An application-speciic instruction set for accelerating set-oriented database primitives",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data. 767\u015b778"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bae",
+                    "given": "Chang S."
+                },
+                {
+                    "family": "Jamel",
+                    "given": "Tayeb"
+                }
+            ],
+            "title": "Energy-aware memory management through database bufer control",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. Workshop on Energy-Eicient Design"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Balkesen",
+                    "given": "Cagri"
+                },
+                {
+                    "family": "Kunal",
+                    "given": "Nitin"
+                },
+                {
+                    "family": "Giannikis",
+                    "given": "Georgios"
+                },
+                {
+                    "family": "Fender",
+                    "given": "Pit"
+                },
+                {
+                    "family": "Sundara",
+                    "given": "Seema"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Wen",
+                    "given": "Jarod"
+                },
+                {
+                    "family": "Agrawal",
+                    "given": "Sandeep"
+                },
+                {
+                    "family": "Raghavan",
+                    "given": "Arun"
+                },
+                {
+                    "family": "Varadarajan",
+                    "given": "Venkatanathan"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Rapid: In-memory analytical query processing engine with extreme performance per watt",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2018 International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barroso",
+                    "given": "Luiz Andr\u00e9"
+                },
+                {
+                    "family": "H\u00f6lzle",
+                    "given": "Urs"
+                }
+            ],
+            "title": "The case for energy-proportional computing",
+            "type": "article-journal",
+            "container_title": [
+                "Computer"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barroso",
+                    "given": "Luiz Andr\u00e9"
+                },
+                {
+                    "family": "H\u00f6lzle",
+                    "given": "Urs"
+                }
+            ],
+            "title": "The datacenter as a computer: An introduction to the design of warehouse-scale machines",
+            "type": "article-journal",
+            "container_title": [
+                "Synthesis lectures on computer architecture"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bausch",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Petrov",
+                    "given": "Ilia"
+                },
+                {
+                    "family": "Buchmann",
+                    "given": "Alejandro"
+                }
+            ],
+            "title": "Making cost-based query optimization asymmetry-aware",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Eighth International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Becher",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "Bauer",
+                    "given": "Florian"
+                },
+                {
+                    "family": "Ziener",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Teich",
+                    "given": "J\u00fcrgen"
+                }
+            ],
+            "title": "Energy-aware SQL query acceleration through FPGA-based dynamic partial reconiguration",
+            "type": "paper-conference",
+            "container_title": [
+                "2014 24th International Conference on Field Programmable Logic and Applications (FPL"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Beloglazov",
+                    "given": "Anton"
+                },
+                {
+                    "family": "Buyya",
+                    "given": "Rajkumar"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Young Choon"
+                },
+                {
+                    "family": "Zomaya",
+                    "given": "Albert"
+                }
+            ],
+            "title": "A taxonomy and survey of energy-eicient data centers and cloud computing systems",
+            "type": "chapter",
+            "container_title": [
+                "Advances in computers"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Benini",
+                    "given": "Luca"
+                },
+                {
+                    "family": "Bogliolo",
+                    "given": "Alessandro"
+                },
+                {
+                    "family": "Micheli",
+                    "given": "Giovanni",
+                    "particle": "De"
+                }
+            ],
+            "title": "A survey of design techniques for system-level dynamic power management",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE transactions on very large scale integration (VLSI) systems"
+            ],
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Berl",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "Gelenbe",
+                    "given": "Erol"
+                },
+                {
+                    "family": "Girolamo",
+                    "given": "Marco",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Giuliani",
+                    "given": "Giovanni"
+                },
+                {
+                    "family": "Meer",
+                    "given": "Hermann",
+                    "particle": "De"
+                },
+                {
+                    "family": "Dang",
+                    "given": "Minh Quan"
+                },
+                {
+                    "family": "Pentikousis",
+                    "given": "Kostas"
+                }
+            ],
+            "title": "Energy-eicient cloud computing",
+            "type": "article-journal",
+            "container_title": [
+                "The computer journal"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bestgen",
+                    "given": "Robert Joseph"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Kethireddy",
+                    "given": "Shantan"
+                },
+                {
+                    "family": "Passe",
+                    "given": "Andrew Peter"
+                },
+                {
+                    "family": "Thiemann",
+                    "given": "Ulrich"
+                }
+            ],
+            "title": "Aggregating database queries",
+            "type": "patent",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bestgen",
+                    "given": "Robert J."
+                },
+                {
+                    "family": "Hu",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Kethireddy",
+                    "given": "Shantan"
+                },
+                {
+                    "family": "Passe",
+                    "given": "Andrew P."
+                },
+                {
+                    "family": "Thiemann",
+                    "given": "Ulrich"
+                }
+            ],
+            "title": "Generating database query plans",
+            "type": "patent",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bestgen",
+                    "given": "Robert J."
+                },
+                {
+                    "family": "Hu",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Kethireddy",
+                    "given": "Shantan"
+                },
+                {
+                    "family": "Passe",
+                    "given": "Andrew P."
+                },
+                {
+                    "family": "Thiemann",
+                    "given": "Ulrich"
+                }
+            ],
+            "title": "Organizing databases for energy eiciency",
+            "type": "patent",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bonomi",
+                    "given": "Flavio"
+                },
+                {
+                    "family": "Milito",
+                    "given": "Rodolfo"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Jiang"
+                },
+                {
+                    "family": "Addepalli",
+                    "given": "Sateesh"
+                }
+            ],
+            "title": "Fog computing and its role in the internet of things",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the irst edition of the MCC workshop on Mobile cloud computing"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Boru",
+                    "given": "Dejene"
+                },
+                {
+                    "family": "Kliazovich",
+                    "given": "Dzmitry"
+                },
+                {
+                    "family": "Granelli",
+                    "given": "Fabrizio"
+                },
+                {
+                    "family": "Bouvry",
+                    "given": "Pascal"
+                },
+                {
+                    "family": "Zomaya",
+                    "given": "Albert Y."
+                }
+            ],
+            "title": "Energy-eicient data replication in cloud computing datacenters",
+            "type": "article-journal",
+            "container_title": [
+                "Cluster computing"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bostoen",
+                    "given": "Tom"
+                },
+                {
+                    "family": "Mullender",
+                    "given": "Sape"
+                },
+                {
+                    "family": "Berbers",
+                    "given": "Yolande"
+                }
+            ],
+            "title": "Power-reduction techniques for data-center storage systems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Computing Surveys (CSUR"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Brown",
+                    "given": "Richard E."
+                },
+                {
+                    "family": "Brown",
+                    "given": "Richard"
+                },
+                {
+                    "family": "Masanet",
+                    "given": "Eric"
+                },
+                {
+                    "family": "Nordman",
+                    "given": "Bruce"
+                },
+                {
+                    "family": "Tschudi",
+                    "given": "Bill"
+                },
+                {
+                    "family": "Shehabi",
+                    "given": "Arman"
+                },
+                {
+                    "family": "Stanley",
+                    "given": "John"
+                },
+                {
+                    "family": "Koomey",
+                    "given": "Jonathan"
+                },
+                {
+                    "family": "Sartor",
+                    "given": "Dale"
+                },
+                {
+                    "family": "Chan",
+                    "given": "Peter"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Report to congress on server and data center energy eiciency: Public law 109-431",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bunse",
+                    "given": "Christian"
+                },
+                {
+                    "family": "H\u00f6pfner",
+                    "given": "Hagen"
+                },
+                {
+                    "family": "Mansour",
+                    "given": "Essam"
+                },
+                {
+                    "family": "Roychoudhury",
+                    "given": "Suman"
+                }
+            ],
+            "title": "Exploring the energy consumption of data sorting algorithms in embedded and mobile environments",
+            "type": "paper-conference",
+            "container_title": [
+                "2009 Tenth International Conference on Mobile Data Management: Systems, Services and Middleware"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Casalicchio",
+                    "given": "Emiliano"
+                },
+                {
+                    "family": "Lundberg",
+                    "given": "Lars"
+                },
+                {
+                    "family": "Shirinbab",
+                    "given": "Sogand"
+                }
+            ],
+            "title": "Energy-aware adaptation in managed cassandra datacenters",
+            "type": "paper-conference",
+            "container_title": [
+                "2016 International Conference on Cloud and Autonomic Computing (ICCAC"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Casalicchio",
+                    "given": "Emiliano"
+                },
+                {
+                    "family": "Lundberg",
+                    "given": "Lars"
+                },
+                {
+                    "family": "Shirinbab",
+                    "given": "Sogand"
+                }
+            ],
+            "title": "Energy-aware auto-scaling algorithms for Cassandra virtual data centers",
+            "type": "article-journal",
+            "container_title": [
+                "Cluster Computing"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Casper",
+                    "given": "Jared"
+                },
+                {
+                    "family": "Olukotun",
+                    "given": "Kunle"
+                }
+            ],
+            "title": "Hardware acceleration of database operations",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2014 ACM/SIGDA international symposium on Field-programmable gate arrays"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Caulield",
+                    "given": "Adrian M."
+                },
+                {
+                    "family": "Grupp",
+                    "given": "Laura M."
+                },
+                {
+                    "family": "Swanson",
+                    "given": "Steven"
+                }
+            ],
+            "title": "Gordon: using lash memory to build fast, power-eicient clusters for data-intensive applications",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Sigplan Notices"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cesana",
+                    "given": "Ulpian"
+                },
+                {
+                    "family": "He",
+                    "given": "Zhen"
+                }
+            ],
+            "title": "Multi-bufer manager: Energy-eicient bufer manager for databases on lash memory",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Transactions on Embedded Computing Systems (TECS"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chandrasekharan",
+                    "given": "Srinivasan"
+                },
+                {
+                    "family": "Gniady",
+                    "given": "Chris"
+                }
+            ],
+            "title": "Qamem: Query aware memory energy management",
+            "type": "paper-conference",
+            "container_title": [
+                "2018 18th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chaudhuri",
+                    "given": "Surajit"
+                }
+            ],
+            "title": "An overview of query optimization in relational systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the seventeenth ACM SIGACT-SIGMOD-SIGART symposium on Principles of database"
+            ],
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Colmant",
+                    "given": "Maxime"
+                },
+                {
+                    "family": "Felber",
+                    "given": "Pascal"
+                },
+                {
+                    "family": "Rouvoy",
+                    "given": "Romain"
+                },
+                {
+                    "family": "Seinturier",
+                    "given": "Lionel"
+                }
+            ],
+            "title": "Wattskit: Software-deined power monitoring of distributed systems",
+            "type": "paper-conference",
+            "container_title": [
+                "2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cong",
+                    "given": "Jason"
+                },
+                {
+                    "family": "Ghodrat",
+                    "given": "Mohammad Ali"
+                },
+                {
+                    "family": "Gill",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Grigorian",
+                    "given": "Beayna"
+                },
+                {
+                    "family": "Gururaj",
+                    "given": "Karthik"
+                },
+                {
+                    "family": "Reinman",
+                    "given": "Glenn"
+                }
+            ],
+            "title": "Accelerator-rich architectures: Opportunities and progresses",
+            "type": "paper-conference",
+            "container_title": [
+                "2014 51st ACM/EDAC/IEEE Design Automation Conference (DAC"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cong",
+                    "given": "Peijin"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Junlong"
+                },
+                {
+                    "family": "Li",
+                    "given": "Liying"
+                },
+                {
+                    "family": "Cao",
+                    "given": "Kun"
+                },
+                {
+                    "family": "Wei",
+                    "given": "Tongquan"
+                },
+                {
+                    "family": "Li",
+                    "given": "Keqin"
+                }
+            ],
+            "title": "A survey of hierarchical energy optimization for mobile edge computing: A perspective from end devices to the cloud",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Computing Surveys (CSUR"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dabaghi",
+                    "given": "Fahimeh"
+                },
+                {
+                    "family": "Movahedi",
+                    "given": "Zeinab"
+                },
+                {
+                    "family": "Langar",
+                    "given": "Rami"
+                }
+            ],
+            "title": "A survey on green routing protocols using sleep-scheduling in wired networks",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Network and Computer Applications"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "David",
+                    "given": "Howard"
+                },
+                {
+                    "family": "Fallin",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Gorbatov",
+                    "given": "Eugene"
+                },
+                {
+                    "family": "Hanebutte",
+                    "given": "Ulf R."
+                },
+                {
+                    "family": "Mutlu",
+                    "given": "Onur"
+                }
+            ],
+            "title": "Memory power management via dynamic voltage/frequency scaling",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 8th ACM international conference on Autonomic computing"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "David",
+                    "given": "Howard"
+                },
+                {
+                    "family": "Gorbatov",
+                    "given": "Eugene"
+                },
+                {
+                    "family": "Hanebutte",
+                    "given": "Ulf R."
+                },
+                {
+                    "family": "Khanna",
+                    "given": "Rahul"
+                },
+                {
+                    "family": "Le",
+                    "given": "Christian"
+                }
+            ],
+            "title": "RAPL: Memory power estimation and capping",
+            "type": "paper-conference",
+            "container_title": [
+                "2010 ACM/IEEE International Symposium on Low-Power Electronics and Design (ISLPED"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dayarathna",
+                    "given": "Miyuru"
+                },
+                {
+                    "family": "Wen",
+                    "given": "Yonggang"
+                },
+                {
+                    "family": "Fan",
+                    "given": "Rui"
+                }
+            ],
+            "title": "Data center energy consumption modeling: A survey",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Communications Surveys & Tutorials"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dembele",
+                    "given": "Simon Pierre"
+                },
+                {
+                    "family": "Bellatreche",
+                    "given": "Ladjel"
+                },
+                {
+                    "family": "Ordonez",
+                    "given": "Carlos"
+                }
+            ],
+            "title": "Towards Green Query Processing-Auditing Power Before Deploying",
+            "type": "paper-conference",
+            "container_title": [
+                "2020 IEEE International Conference on Big Data (Big Data"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dembele",
+                    "given": "Simon Pierre"
+                },
+                {
+                    "family": "Bellatreche",
+                    "given": "Ladjel"
+                },
+                {
+                    "family": "Ordonez",
+                    "given": "Carlos"
+                },
+                {
+                    "family": "Roukh",
+                    "given": "Amine"
+                }
+            ],
+            "title": "Think big, start small: a good initiative to design green query optimizers",
+            "type": "article-journal",
+            "container_title": [
+                "Cluster Computing"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Do",
+                    "given": "Jaeyoung"
+                },
+                {
+                    "family": "Kee",
+                    "given": "Yang-Suk"
+                },
+                {
+                    "family": "Patel",
+                    "given": "Jignesh M."
+                },
+                {
+                    "family": "Park",
+                    "given": "Chanik"
+                },
+                {
+                    "family": "Park",
+                    "given": "Kwanghyun"
+                },
+                {
+                    "family": "DeWitt",
+                    "given": "David J."
+                }
+            ],
+            "title": "Query processing on smart ssds: Opportunities and challenges",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2013 ACM SIGMOD International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Do",
+                    "given": "Jaeyoung"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Donghui"
+                },
+                {
+                    "family": "Patel",
+                    "given": "Jignesh M."
+                },
+                {
+                    "family": "DeWitt",
+                    "given": "David J."
+                },
+                {
+                    "family": "Naughton",
+                    "given": "Jefrey F."
+                },
+                {
+                    "family": "Halverson",
+                    "given": "Alan"
+                }
+            ],
+            "title": "Turbocharging DBMS bufer pool using SSDs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2011 ACM SIGMOD International Conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dokeroglu",
+                    "given": "Tansel"
+                },
+                {
+                    "family": "Bayir",
+                    "given": "Murat Ali"
+                },
+                {
+                    "family": "Cosar",
+                    "given": "Ahmet"
+                }
+            ],
+            "title": "Robust heuristic algorithms for exploiting the common tasks of relational cloud database queries",
+            "type": "article-journal",
+            "container_title": [
+                "Applied Soft Computing"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dokeroglu",
+                    "given": "Tansel"
+                },
+                {
+                    "family": "Ozal",
+                    "given": "Serkan"
+                },
+                {
+                    "family": "Bayir",
+                    "given": "Murat Ali"
+                },
+                {
+                    "family": "Cinar",
+                    "given": "Muhammet Serkan"
+                },
+                {
+                    "family": "Cosar",
+                    "given": "Ahmet"
+                }
+            ],
+            "title": "Improving the performance of Hadoop Hive by sharing scan and computation tasks",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Cloud Computing"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dominico",
+                    "given": "Simone"
+                },
+                {
+                    "family": "Almeida",
+                    "given": "Eduardo C.",
+                    "particle": "de"
+                },
+                {
+                    "family": "Meira",
+                    "given": "Jorge A."
+                },
+                {
+                    "family": "Alves",
+                    "given": "Marco A.Z."
+                }
+            ],
+            "title": "An elastic multi-core allocation mechanism for database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "2018 IEEE 34th International Conference on Data Engineering (ICDE"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dreseler",
+                    "given": "Markus"
+                },
+                {
+                    "family": "Kissinger",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Dj\u00fcrken",
+                    "given": "Timo"
+                },
+                {
+                    "family": "L\u00fcbke",
+                    "given": "Eric"
+                },
+                {
+                    "family": "Ulacker",
+                    "given": "Matthias"
+                },
+                {
+                    "family": "Habich",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Plattner",
+                    "given": "Hasso"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "Hardware-Accelerated Memory Operations on Large-Scale NUMA Systems",
+            "type": "chapter",
+            "container_title": [
+                "ADMS@ VLDB"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Esmaeilzadeh",
+                    "given": "Hadi"
+                },
+                {
+                    "family": "Blem",
+                    "given": "Emily"
+                },
+                {
+                    "family": "Amant",
+                    "given": "Renee",
+                    "particle": "St"
+                },
+                {
+                    "family": "Sankaralingam",
+                    "given": "Karthikeyan"
+                },
+                {
+                    "family": "Burger",
+                    "given": "Doug"
+                }
+            ],
+            "title": "Dark silicon and the end of multicore scaling",
+            "type": "paper-conference",
+            "container_title": [
+                "2011 38th Annual international symposium on computer architecture (ISCA"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Faisal",
+                    "given": "S.M."
+                },
+                {
+                    "family": "Georgios Tziantzioulis",
+                    "given": "A.M.Gok"
+                },
+                {
+                    "family": "Nikolaos Hardavellas",
+                    "given": "S.Ogrenci-Memik"
+                },
+                {
+                    "family": "Parthasarathy",
+                    "given": "Srinivasan"
+                }
+            ],
+            "title": "Edge importance identiication for energy eicient graph processing",
+            "type": "paper-conference",
+            "container_title": [
+                "2015 IEEE International Conference on Big Data (Big Data"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fan",
+                    "given": "Xiaobo"
+                },
+                {
+                    "family": "Weber",
+                    "given": "Wolf-Dietrich"
+                },
+                {
+                    "family": "Barroso",
+                    "given": "Luiz Andre"
+                }
+            ],
+            "title": "Power provisioning for a warehouse-sized computer",
+            "type": "article-journal",
+            "container_title": [
+                "ACM SIGARCH computer architecture news"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "F\u00e4rber",
+                    "given": "Franz"
+                },
+                {
+                    "family": "Cha",
+                    "given": "Sang Kyun"
+                },
+                {
+                    "family": "Primsch",
+                    "given": "J\u00fcrgen"
+                },
+                {
+                    "family": "Bornh\u00f6vd",
+                    "given": "Christof"
+                },
+                {
+                    "family": "Sigg",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "SAP HANA database: data management for modern business applications",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Sigmod Record"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Flach",
+                    "given": "Tobias"
+                }
+            ],
+            "title": "Optimizing query execution to improve the energy eiciency of database management systems",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Franklin",
+                    "given": "Gene F."
+                },
+                {
+                    "family": "Powell",
+                    "given": "J.David"
+                },
+                {
+                    "family": "Workman",
+                    "given": "Michael L."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Digital control of dynamic systems",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1998"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Galindo-Legaria",
+                    "given": "Cesar"
+                },
+                {
+                    "family": "Waas",
+                    "given": "Florian"
+                }
+            ],
+            "title": "Automatic detection of frequently used query patterns in a query workload",
+            "type": "article-journal",
+            "container_title": [
+                "US Patent App"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gharaibeh",
+                    "given": "Abdullah"
+                },
+                {
+                    "family": "Santos-Neto",
+                    "given": "Elizeu"
+                },
+                {
+                    "family": "Costa",
+                    "given": "Lauro Beltr\u00e3o"
+                },
+                {
+                    "family": "Ripeanu",
+                    "given": "Matei"
+                }
+            ],
+            "title": "The energy case for graph processing on hybrid cpu and gpu systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 3rd Workshop on Irregular Applications: Architectures and Algorithms"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ghomi",
+                    "given": "Einollah Jafarnejad"
+                },
+                {
+                    "family": "Rahmani",
+                    "given": "Amir Masoud"
+                },
+                {
+                    "family": "Qader",
+                    "given": "Nooruldeen Nasih"
+                }
+            ],
+            "title": "Load-balancing algorithms in cloud computing: A survey",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Network and Computer Applications"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ghosh",
+                    "given": "Antara"
+                },
+                {
+                    "family": "Parikh",
+                    "given": "Jignashu"
+                },
+                {
+                    "family": "Sengar",
+                    "given": "Vibhuti S."
+                },
+                {
+                    "family": "Haritsa",
+                    "given": "Jayant R."
+                }
+            ],
+            "title": "Plan selection based on query clustering",
+            "type": "paper-conference",
+            "container_title": [
+                "VLDB'02: Proceedings of the 28th international conference on very large databases"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "G\u00f6tz",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Ilsche",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Cardoso",
+                    "given": "Jorge"
+                },
+                {
+                    "family": "Spillner",
+                    "given": "Josef"
+                },
+                {
+                    "family": "Kissinger",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "A\u00dfmann",
+                    "given": "Uwe"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Nagel",
+                    "given": "Wolfgang E."
+                },
+                {
+                    "family": "Schill",
+                    "given": "Alexander"
+                }
+            ],
+            "title": "Energy-eicient databases using sweet spot frequencies",
+            "type": "paper-conference",
+            "container_title": [
+                "2014 IEEE/ACM 7th International Conference on Utility and Cloud Computing"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Graefe",
+                    "given": "Goetz"
+                }
+            ],
+            "title": "Database servers tailored to improve energy eiciency",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2008 EDBT workshop on Software engineering for tailor-made data management"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Graefe",
+                    "given": "Goetz"
+                },
+                {
+                    "family": "Volos",
+                    "given": "Haris"
+                },
+                {
+                    "family": "Kimura",
+                    "given": "Hideaki"
+                },
+                {
+                    "family": "Kuno",
+                    "given": "Harumi"
+                },
+                {
+                    "family": "Tucek",
+                    "given": "Joseph"
+                },
+                {
+                    "family": "Lillibridge",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Veitch",
+                    "given": "Alistair"
+                }
+            ],
+            "title": "In-Memory Performance for Big Data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 8"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gray",
+                    "given": "Jim"
+                }
+            ],
+            "title": "Tape is dead, disk is tape, lash is disk, RAM locality is king",
+            "type": "chapter",
+            "container_title": [
+                "Gong Show Presentation at CIDR"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gray",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Fitzgerald",
+                    "given": "Bob"
+                }
+            ],
+            "title": "Flash Disk Opportunity for Server Applications: Future lash-based disks could provide breakthroughs in IOPS, power, reliability, and volumetric capacity when compared with conventional disks",
+            "type": "article-journal",
+            "container_title": [
+                "Queue"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guerra",
+                    "given": "Jorge"
+                },
+                {
+                    "family": "Belluomini",
+                    "given": "Wendy"
+                },
+                {
+                    "family": "Glider",
+                    "given": "Joseph"
+                },
+                {
+                    "family": "Gupta",
+                    "given": "Karan"
+                },
+                {
+                    "family": "Pucha",
+                    "given": "Himabindu"
+                }
+            ],
+            "title": "Energy proportionality for storage: Impact and feasibility",
+            "type": "article-journal",
+            "container_title": [
+                "ACM SIGOPS Operating Systems Review"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guo",
+                    "given": "Binglei"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jiong"
+                },
+                {
+                    "family": "Liao",
+                    "given": "Bin"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Dexian"
+                }
+            ],
+            "title": "SQL energy consumption modeling and optimization research",
+            "type": "article-journal",
+            "container_title": [
+                "J. Comput. Scie"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guo",
+                    "given": "Binglei"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jiong"
+                },
+                {
+                    "family": "Liao",
+                    "given": "Bin"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Dexian"
+                }
+            ],
+            "title": "SQL execution power proiling and modeling",
+            "type": "article-journal",
+            "container_title": [
+                "J. Comput. Appl"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guo",
+                    "given": "Binglei"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jiong"
+                },
+                {
+                    "family": "Liao",
+                    "given": "Bin"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Dexian"
+                }
+            ],
+            "title": "SQL energy consumption forecasting model based on database load status",
+            "type": "article-journal",
+            "container_title": [
+                "J. Comput. Scie"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guo",
+                    "given": "Binglei"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jiong"
+                },
+                {
+                    "family": "Liao",
+                    "given": "Bin"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Dexian"
+                },
+                {
+                    "family": "Lu",
+                    "given": "Liang"
+                }
+            ],
+            "title": "A green framework for DBMS based on energy-aware query optimization and energy-eicient query processing",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Network and Computer Applications"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guo",
+                    "given": "Chaopeng"
+                },
+                {
+                    "family": "Pierson",
+                    "given": "Jean-Marc"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Hui"
+                },
+                {
+                    "family": "Song",
+                    "given": "Jie"
+                }
+            ],
+            "title": "Frequency selection approach for energy aware cloud database",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE access"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guo",
+                    "given": "Chaopeng"
+                },
+                {
+                    "family": "Pierson",
+                    "given": "Jean-Marc"
+                },
+                {
+                    "family": "Song",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Herzog",
+                    "given": "Christina"
+                }
+            ],
+            "title": "Hot-N-Cold model for energy aware cloud databases",
+            "type": "article-journal",
+            "container_title": [
+                "J. Parallel and Distrib. Comput"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Haas",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Arnold",
+                    "given": "Oliver"
+                },
+                {
+                    "family": "N\u00f6then",
+                    "given": "Benedikt"
+                },
+                {
+                    "family": "Scholze",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Ellguth",
+                    "given": "Georg"
+                },
+                {
+                    "family": "Dixius",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "H\u00f6ppner",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Schiefer",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Hartmann",
+                    "given": "Stephan"
+                },
+                {
+                    "family": "Henker",
+                    "given": "Stephan"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "An MPSoC for energy-eicient database query processing",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 53rd Annual Design Automation Conference"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Haas",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Fettweis",
+                    "given": "Gerhard P."
+                }
+            ],
+            "title": "Energy-Eicient Hash Join Implementations in Hardware-Accelerated MPSoCs",
+            "type": "chapter",
+            "container_title": [
+                "ADMS@ VLDB"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Haas",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Scholze",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "H\u00f6ppner",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Ungeth\u00fcm",
+                    "given": "Annett"
+                },
+                {
+                    "family": "Mayr",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Sch\u00fcfny",
+                    "given": "Ren\u00e9"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Fettweis",
+                    "given": "Gerhard"
+                }
+            ],
+            "title": "Application-speciic architectures for energy-eicient database query processing and optimization",
+            "type": "article-journal",
+            "container_title": [
+                "Microprocessors and Microsystems"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ham",
+                    "given": "Tae Jun"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "Sundaram",
+                    "given": "Narayanan"
+                },
+                {
+                    "family": "Satish",
+                    "given": "Nadathur"
+                },
+                {
+                    "family": "Martonosi",
+                    "given": "Margaret"
+                }
+            ],
+            "title": "Graphicionado: A high-performance and energy-eicient accelerator for graph analytics",
+            "type": "paper-conference",
+            "container_title": [
+                "2016 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                },
+                {
+                    "family": "Hudlet",
+                    "given": "Volker"
+                },
+                {
+                    "family": "Ou",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                }
+            ],
+            "title": "Energy eiciency is not enough, energy proportionality is needed!",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Database Systems for Advanced Applications"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Karsten"
+                },
+                {
+                    "family": "Ou",
+                    "given": "Yi"
+                },
+                {
+                    "family": "B\u00e4chle",
+                    "given": "Sebastian"
+                }
+            ],
+            "title": "Towards lash disk use in databases\u015bKeeping performance while saving energy?",
+            "type": "chapter",
+            "container_title": [
+                "Datenbanksysteme in Business, Technologie und Web (BTW)\u015b13. Fachtagung des GI-Fachbereichs\" Datenbanken und Informationssysteme\"(DBIS"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Harizopoulos",
+                    "given": "Stavros"
+                },
+                {
+                    "family": "Shah",
+                    "given": "Mehul A."
+                },
+                {
+                    "family": "Meza",
+                    "given": "Justin"
+                },
+                {
+                    "family": "Ranganathan",
+                    "given": "Parthasarathy"
+                }
+            ],
+            "title": "Energy Eiciency: The New Holy Grail of Data Management Systems Research",
+            "type": "article-journal",
+            "container_title": [
+                "CIDR"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hassan",
+                    "given": "Ahmad"
+                },
+                {
+                    "family": "Nikolopoulos",
+                    "given": "Dimitrios S."
+                },
+                {
+                    "family": "Vandierendonck",
+                    "given": "Hans"
+                }
+            ],
+            "title": "Fast and Energy-Eicient OLAP Data Management on Hybrid Main Memory Systems",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Trans. Comput"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hassan",
+                    "given": "Ahmad"
+                },
+                {
+                    "family": "Vandierendonck",
+                    "given": "Hans"
+                },
+                {
+                    "family": "Nikolopoulos",
+                    "given": "Dimitrios S."
+                }
+            ],
+            "title": "Energy-eicient in-memory data stores on hybrid memory hierarchies",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 11th International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hassan",
+                    "given": "Ahmad"
+                },
+                {
+                    "family": "Vandierendonck",
+                    "given": "Hans"
+                },
+                {
+                    "family": "Nikolopoulos",
+                    "given": "Dimitrios S."
+                }
+            ],
+            "title": "Software-managed energy-eicient hybrid DRAM/NVM main memory",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 12th ACM International Conference on Computing Frontiers"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "He",
+                    "given": "Bingsheng"
+                }
+            ],
+            "title": "When data management systems meet approximate hardware: Challenges and opportunities",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 7"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "H\u00f6lzle",
+                    "given": "Urs"
+                }
+            ],
+            "title": "Brawny cores still beat wimpy cores, most of the time",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Micro"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hooper",
+                    "given": "Andy"
+                }
+            ],
+            "title": "Green computing",
+            "type": "article-journal",
+            "container_title": [
+                "Communication of the ACM"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "H\u00f6pfner",
+                    "given": "Hagen"
+                },
+                {
+                    "family": "Bunse",
+                    "given": "Christian"
+                }
+            ],
+            "title": "Towards an Energy Aware DBMS-Energy Consumptions of Sorting and Join Algorithms",
+            "type": "chapter",
+            "container_title": [
+                "Grundlagen von Datenbanken. 69\u015b73"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hoque",
+                    "given": "Mohammad Ashraful"
+                },
+                {
+                    "family": "Siekkinen",
+                    "given": "Matti"
+                },
+                {
+                    "family": "Khan",
+                    "given": "Kashif Nizam"
+                },
+                {
+                    "family": "Xiao",
+                    "given": "Yu"
+                },
+                {
+                    "family": "Tarkoma",
+                    "given": "Sasu"
+                }
+            ],
+            "title": "Modeling, proiling, and debugging the energy consumption of mobile devices",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Computing Surveys (CSUR"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hsiao",
+                    "given": "Hui-I."
+                },
+                {
+                    "family": "DeWitt",
+                    "given": "David J."
+                }
+            ],
+            "title": "Chained declustering: A new availability strategy for multiprocessor database machines",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1989"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Imani",
+                    "given": "Mohsen"
+                },
+                {
+                    "family": "Gupta",
+                    "given": "Saransh"
+                },
+                {
+                    "family": "Sharma",
+                    "given": "Sahil"
+                },
+                {
+                    "family": "Rosing",
+                    "given": "Tajana Simunic"
+                }
+            ],
+            "title": "NVQuery: Eicient query processing in nonvolatile memory",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Istv\u00e1n",
+                    "given": "Zsolt"
+                },
+                {
+                    "family": "Sidler",
+                    "given": "David"
+                },
+                {
+                    "family": "Alonso",
+                    "given": "Gustavo"
+                }
+            ],
+            "title": "Caribou: Intelligent distributed storage",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the VLDB Endowment"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Janukowicz",
+                    "given": "Jef"
+                },
+                {
+                    "family": "Reinsel",
+                    "given": "David"
+                },
+                {
+                    "family": "Rydning",
+                    "given": "John"
+                }
+            ],
+            "title": "Worldwide solid state drive 2008-2012 forecast and analysis",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jin",
+                    "given": "Peiquan"
+                },
+                {
+                    "family": "Ou",
+                    "given": "Yi"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                },
+                {
+                    "family": "Li",
+                    "given": "Zhi"
+                }
+            ],
+            "title": "AD-LRU: An eicient bufer replacement algorithm for lash-based databases",
+            "type": "article-journal",
+            "container_title": [
+                "Data & Knowledge Engineering"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Johnson",
+                    "given": "David S."
+                }
+            ],
+            "title": "Near-optimal bin packing algorithms",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1973"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kang",
+                    "given": "Kyoung-Don"
+                }
+            ],
+            "title": "Reducing deadline misses and power consumption in real-time databases",
+            "type": "paper-conference",
+            "container_title": [
+                "2016 IEEE Real-Time Systems Symposium (RTSS"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kang",
+                    "given": "Kyoung-Don"
+                }
+            ],
+            "title": "Enhancing timeliness and saving power in real-time databases",
+            "type": "article-journal",
+            "container_title": [
+                "Real-Time Systems"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kang",
+                    "given": "Woochul"
+                },
+                {
+                    "family": "Chung",
+                    "given": "Jaeyong"
+                }
+            ],
+            "title": "Energy-eicient response time management for embedded databases",
+            "type": "article-journal",
+            "container_title": [
+                "Real-Time Systems"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kang",
+                    "given": "Woochul"
+                },
+                {
+                    "family": "Son",
+                    "given": "Sang H."
+                },
+                {
+                    "family": "Stankovic",
+                    "given": "John A."
+                }
+            ],
+            "title": "Power-aware data bufer cache management in real-time embedded databases",
+            "type": "paper-conference",
+            "container_title": [
+                "2008 14th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karyakin",
+                    "given": "Alexey"
+                },
+                {
+                    "family": "Salem",
+                    "given": "Kenneth"
+                }
+            ],
+            "title": "An analysis of memory power consumption in database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 13th International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karyakin",
+                    "given": "Alexey"
+                },
+                {
+                    "family": "Salem",
+                    "given": "Kenneth"
+                }
+            ],
+            "title": "DimmStore: memory power optimization for database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 12"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kissinger",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Habich",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "Adaptive energy-control for in-memory database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2018 International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kissinger",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "H\u00e4hnel",
+                    "given": "Marcus"
+                },
+                {
+                    "family": "Smejkal",
+                    "given": "Till"
+                },
+                {
+                    "family": "Habich",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "H\u00e4rtig",
+                    "given": "Hermann"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "Energy-utility function-based resource control for in-memory database systems live",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2018 International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barbara Kitchenham",
+                    "given": "O.Pearl Brereton"
+                },
+                {
+                    "family": "Budgen",
+                    "given": "David"
+                },
+                {
+                    "family": "Turner",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Bailey",
+                    "given": "John"
+                },
+                {
+                    "family": "Linkman",
+                    "given": "Stephen"
+                }
+            ],
+            "title": "Systematic literature reviews in software engineering\u015ba systematic literature review",
+            "type": "article-journal",
+            "container_title": [
+                "Information and software technology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kocberber",
+                    "given": "Onur"
+                },
+                {
+                    "family": "Grot",
+                    "given": "Boris"
+                },
+                {
+                    "family": "Picorel",
+                    "given": "Javier"
+                },
+                {
+                    "family": "Falsai",
+                    "given": "Babak"
+                },
+                {
+                    "family": "Lim",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Ranganathan",
+                    "given": "Parthasarathy"
+                }
+            ],
+            "title": "Meet the walkers accelerating index traversals for in-memory databases",
+            "type": "paper-conference",
+            "container_title": [
+                "2013 46th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kong",
+                    "given": "Fanxin"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Xue"
+                }
+            ],
+            "title": "A survey on green-energy-aware power management for datacenters",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Computing Surveys (CSUR"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Korkmaz",
+                    "given": "Mustafa"
+                },
+                {
+                    "family": "Karsten",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Salem",
+                    "given": "Kenneth"
+                },
+                {
+                    "family": "Salihoglu",
+                    "given": "Semih"
+                }
+            ],
+            "title": "Workload-aware CPU performance scaling for transactional database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2018 International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Korkmaz",
+                    "given": "Mustafa"
+                },
+                {
+                    "family": "Karyakin",
+                    "given": "Alexey"
+                },
+                {
+                    "family": "Karsten",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Salem",
+                    "given": "Kenneth"
+                }
+            ],
+            "title": "Towards Dynamic Green-Sizing for Database Servers",
+            "type": "chapter",
+            "container_title": [
+                "ADMS@ VLDB"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kunjir",
+                    "given": "Mayuresh"
+                },
+                {
+                    "family": "Birwa",
+                    "given": "Puneet K."
+                },
+                {
+                    "family": "Haritsa",
+                    "given": "Jayant R."
+                }
+            ],
+            "title": "Peak power plays in database engines",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 15th International Conference on Extending Database Technology"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lang",
+                    "given": "Willis"
+                },
+                {
+                    "family": "Harizopoulos",
+                    "given": "Stavros"
+                },
+                {
+                    "family": "Patel",
+                    "given": "Jignesh M."
+                },
+                {
+                    "family": "Shah",
+                    "given": "Mehul A."
+                },
+                {
+                    "family": "Tsirogiannis",
+                    "given": "Dimitris"
+                }
+            ],
+            "title": "Towards energy-eicient database cluster design",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lang",
+                    "given": "Willis"
+                },
+                {
+                    "family": "Kandhan",
+                    "given": "Ramakrishnan"
+                },
+                {
+                    "family": "Patel",
+                    "given": "Jignesh M."
+                }
+            ],
+            "title": "Rethinking query processing for energy eiciency: Slowing down to win the race",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Data Eng. Bull"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lang",
+                    "given": "Willis"
+                },
+                {
+                    "family": "Patel",
+                    "given": "Jignesh"
+                }
+            ],
+            "title": "Towards eco-friendly database management systems",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lang",
+                    "given": "Willis"
+                },
+                {
+                    "family": "Patel",
+                    "given": "Jignesh M."
+                },
+                {
+                    "family": "Naughton",
+                    "given": "Jefrey F."
+                }
+            ],
+            "title": "On energy management, load balancing and replication",
+            "type": "article-journal",
+            "container_title": [
+                "Acm Sigmod Record"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lang",
+                    "given": "Willis"
+                },
+                {
+                    "family": "Patel",
+                    "given": "Jignesh M."
+                },
+                {
+                    "family": "Shankar",
+                    "given": "Srinath"
+                }
+            ],
+            "title": "Wimpy node clusters: What about non-wimpy workloads?",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Sixth International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lee",
+                    "given": "Sang-Won"
+                },
+                {
+                    "family": "Moon",
+                    "given": "Bongki"
+                },
+                {
+                    "family": "Park",
+                    "given": "Chanik"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Jae-Myung"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Sang-Woo"
+                }
+            ],
+            "title": "A case for lash memory SSD in enterprise database applications",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2008 ACM SIGMOD international conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "LeFevre",
+                    "given": "Jef"
+                }
+            ],
+            "title": "Physical design tuning methods for emerging system architectures",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lefurgy",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Rajamani",
+                    "given": "Karthick"
+                },
+                {
+                    "family": "Rawson",
+                    "given": "Freeman"
+                },
+                {
+                    "family": "Felter",
+                    "given": "Wes"
+                },
+                {
+                    "family": "Kistler",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Keller",
+                    "given": "Tom W."
+                }
+            ],
+            "title": "Energy management for commercial servers",
+            "type": "article-journal",
+            "container_title": [
+                "Computer"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Ding"
+                },
+                {
+                    "family": "Hao",
+                    "given": "Shuai"
+                },
+                {
+                    "family": "Gui",
+                    "given": "Jiaping"
+                },
+                {
+                    "family": "Halfond",
+                    "given": "William G.J."
+                }
+            ],
+            "title": "An empirical study of the energy consumption of android applications",
+            "type": "paper-conference",
+            "container_title": [
+                "2014 IEEE International Conference on Software Maintenance and Evolution"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Tiantian"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Ge"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Xuebing"
+                },
+                {
+                    "family": "Song",
+                    "given": "Jie"
+                }
+            ],
+            "title": "Analyzing the waiting energy consumption of nosql databases",
+            "type": "paper-conference",
+            "container_title": [
+                "2014 IEEE 12th International Conference on Dependable, Autonomic and Secure Computing"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Zhi"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Peiquan"
+                },
+                {
+                    "family": "Su",
+                    "given": "Xuan"
+                },
+                {
+                    "family": "Cui",
+                    "given": "Kai"
+                },
+                {
+                    "family": "Yue",
+                    "given": "Lihua"
+                }
+            ],
+            "title": "CCF-LRU: A new bufer replacement algorithm for lash memory",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Consumer Electronics"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lin",
+                    "given": "Jiang"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Hongzhong"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Zhichun"
+                },
+                {
+                    "family": "Gorbatov",
+                    "given": "Eugene"
+                },
+                {
+                    "family": "David",
+                    "given": "Howard"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Zhao"
+                }
+            ],
+            "title": "Software thermal management of DRAM memory for multicore systems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM SIGMETRICS Performance Evaluation Review"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lin",
+                    "given": "Weiwei"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Fang"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Wentai"
+                },
+                {
+                    "family": "Li",
+                    "given": "Keqin"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Guangxin"
+                },
+                {
+                    "family": "Mohammed",
+                    "given": "Al-Alas"
+                }
+            ],
+            "title": "A taxonomy and survey of power models and power modeling for cloud servers",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Computing Surveys (CSUR"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Jian"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Kefei"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Feng"
+                }
+            ],
+            "title": "Understanding Energy Eiciency of Databases on Single Board Computers for Edge Computing",
+            "type": "paper-conference",
+            "container_title": [
+                "2021 29th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Xiaowei"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Jinbao"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Haijie"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Hong"
+                }
+            ],
+            "title": "Generating power-eicient query execution plan",
+            "type": "paper-conference",
+            "container_title": [
+                "2nd International Conference on Advances in Computer Science and Engineering (CSE 2013"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liu",
+                    "given": "Xue"
+                },
+                {
+                    "family": "Zhu",
+                    "given": "Xiaoyun"
+                },
+                {
+                    "family": "Padala",
+                    "given": "Pradeep"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Zhikui"
+                },
+                {
+                    "family": "Singhal",
+                    "given": "Sharad"
+                }
+            ],
+            "title": "Optimal multivariate control for diferentiated services on a shared hosting platform",
+            "type": "paper-conference",
+            "container_title": [
+                "2007 46th IEEE Conference on Decision and Control. IEEE"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lo",
+                    "given": "Eric"
+                },
+                {
+                    "family": "Binnig",
+                    "given": "Carsten"
+                },
+                {
+                    "family": "Donald Kossmann",
+                    "given": "M.Tamer \u00d6zsu"
+                },
+                {
+                    "family": "Hon",
+                    "given": "Wing-Kai"
+                }
+            ],
+            "title": "A framework for testing DBMS features",
+            "type": "article-journal",
+            "container_title": [
+                "The VLDB Journal"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Loghin",
+                    "given": "Dumitrel"
+                },
+                {
+                    "family": "Tudor",
+                    "given": "Bogdan Marius"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Ooi",
+                    "given": "Beng Chin"
+                },
+                {
+                    "family": "Teo",
+                    "given": "Yong Meng"
+                }
+            ],
+            "title": "A performance study of big data on small nodes",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 8"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lombardi",
+                    "given": "Federico"
+                },
+                {
+                    "family": "Muti",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Aniello",
+                    "given": "Leonardo"
+                },
+                {
+                    "family": "Baldoni",
+                    "given": "Roberto"
+                },
+                {
+                    "family": "Bonomi",
+                    "given": "Silvia"
+                },
+                {
+                    "family": "Querzoni",
+                    "given": "Leonardo"
+                }
+            ],
+            "title": "Pascal: An architecture for proactive auto-scaling of distributed services",
+            "type": "article-journal",
+            "container_title": [
+                "Future Generation Computer Systems"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ma",
+                    "given": "Lin"
+                },
+                {
+                    "family": "Aken",
+                    "given": "Dana",
+                    "particle": "Van"
+                },
+                {
+                    "family": "Hefny",
+                    "given": "Ahmed"
+                },
+                {
+                    "family": "Mezerhane",
+                    "given": "Gustavo"
+                },
+                {
+                    "family": "Pavlo",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Gordon",
+                    "given": "Geofrey J."
+                }
+            ],
+            "title": "Query-based workload forecasting for self-driving database management systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2018 International Conference on Management of Data. 631\u015b645"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mackert",
+                    "given": "Lothar F."
+                },
+                {
+                    "family": "Lohman",
+                    "given": "Guy M."
+                }
+            ],
+            "title": "R* optimizer validation and performance evaluation for local queries",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1986 ACM SIGMOD international conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "1986"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mahajan",
+                    "given": "Divya"
+                },
+                {
+                    "family": "Blakeney",
+                    "given": "Cody"
+                },
+                {
+                    "family": "Zong",
+                    "given": "Ziliang"
+                }
+            ],
+            "title": "Improving the energy eiciency of relational and NoSQL databases via query optimizations",
+            "type": "article-journal",
+            "container_title": [
+                "Sustainable Computing: Informatics and Systems"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mansouri",
+                    "given": "Yaser"
+                },
+                {
+                    "family": "Prokhorenko",
+                    "given": "Victor"
+                },
+                {
+                    "family": "Ullah",
+                    "given": "Faheem"
+                },
+                {
+                    "family": "Babar",
+                    "given": "M.Ali"
+                }
+            ],
+            "title": "Evaluation of Distributed Databases in Hybrid Clouds and Edge Computing: Energy, Bandwidth, and Storage Consumption",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Meng",
+                    "given": "Xiaofeng"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Peiquan"
+                },
+                {
+                    "family": "Cao",
+                    "given": "Wei"
+                },
+                {
+                    "family": "Yue",
+                    "given": "Lihua"
+                }
+            ],
+            "title": "Report on the irst international workshop on lash-based database systems (FlashDB 2011",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Sigmod Record"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Meza",
+                    "given": "Justin"
+                },
+                {
+                    "family": "Shah",
+                    "given": "Mehul A."
+                },
+                {
+                    "family": "Ranganathan",
+                    "given": "Parthasarathy"
+                },
+                {
+                    "family": "Fitzner",
+                    "given": "Mike"
+                },
+                {
+                    "family": "Veazey",
+                    "given": "Judson"
+                }
+            ],
+            "title": "Tracking the power in an enterprise decision support system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2009 ACM/IEEE international symposium on Low power electronics and design"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Michalke",
+                    "given": "Adrian"
+                },
+                {
+                    "family": "Grulich",
+                    "given": "Philipp M."
+                },
+                {
+                    "family": "Lutz",
+                    "given": "Clemens"
+                },
+                {
+                    "family": "Zeuch",
+                    "given": "Stefen"
+                },
+                {
+                    "family": "Markl",
+                    "given": "Volker"
+                }
+            ],
+            "title": "An Energy-Eicient Stream Join for the Internet of Things",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 17th International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mittal",
+                    "given": "Sparsh"
+                }
+            ],
+            "title": "A survey of architectural techniques for DRAM power management",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of High Performance Systems Architecture"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mittal",
+                    "given": "Sparsh"
+                }
+            ],
+            "title": "A survey of techniques for improving energy eiciency in embedded computing systems",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Computer Aided Engineering and Technology"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Moghaddamfar",
+                    "given": "Mehdi"
+                },
+                {
+                    "family": "F\u00e4rber",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "May",
+                    "given": "Norman"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Akash"
+                }
+            ],
+            "title": "Resource-Eicient Database Query Processing on FPGAs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 17th International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Molka",
+                    "given": "Karsten"
+                },
+                {
+                    "family": "Casale",
+                    "given": "Giuliano"
+                }
+            ],
+            "title": "Energy-eicient resource allocation and provisioning for in-memory database clusters",
+            "type": "paper-conference",
+            "container_title": [
+                "2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mueller",
+                    "given": "Rene"
+                },
+                {
+                    "family": "Teubner",
+                    "given": "Jens"
+                }
+            ],
+            "title": "FPGAs: a new point in the database design space",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 13th International Conference on Extending Database Technology. 721\u015b723"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "M\u00fchlbauer",
+                    "given": "Tobias"
+                },
+                {
+                    "family": "R\u00f6diger",
+                    "given": "Wolf"
+                },
+                {
+                    "family": "Seilbeck",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Reiser",
+                    "given": "Angelika"
+                },
+                {
+                    "family": "Kemper",
+                    "given": "Alfons"
+                },
+                {
+                    "family": "Neumann",
+                    "given": "Thomas"
+                }
+            ],
+            "title": "One DBMS for all: the Brawny Few and the Wimpy Crowd",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2014 ACM SIGMOD international conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nan",
+                    "given": "Guofang"
+                },
+                {
+                    "family": "Li",
+                    "given": "Minqiang"
+                }
+            ],
+            "title": "Energy-eicient query management scheme for a wireless sensor database system",
+            "type": "article-journal",
+            "container_title": [
+                "EURASIP Journal on Wireless Communications and Networking"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Neumann",
+                    "given": "Thomas"
+                }
+            ],
+            "title": "Eiciently compiling eicient query plans for modern hardware",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 4"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nguyen",
+                    "given": "Xuan-Thuan"
+                },
+                {
+                    "family": "Hoang",
+                    "given": "Trong-Thuc"
+                },
+                {
+                    "family": "Nguyen",
+                    "given": "Hong-Thu"
+                },
+                {
+                    "family": "Inoue",
+                    "given": "Katsumi"
+                },
+                {
+                    "family": "Pham",
+                    "given": "Cong-Kha"
+                }
+            ],
+            "title": "An FPGA-based hardware accelerator for energy-eicient bitmap index creation",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Access"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Orgerie",
+                    "given": "Anne-Cecile"
+                },
+                {
+                    "family": "Assuncao",
+                    "given": "Marcos Dias",
+                    "particle": "de"
+                },
+                {
+                    "family": "Lefevre",
+                    "given": "Laurent"
+                }
+            ],
+            "title": "A survey on techniques for improving the energy eiciency of large-scale distributed systems",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Computing Surveys (CSUR"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ou",
+                    "given": "Yi"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Peiquan"
+                }
+            ],
+            "title": "CFDC: a lash-aware replacement policy for database bufer management",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ifth international workshop on data management on new hardware"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ou",
+                    "given": "Yi"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                },
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                }
+            ],
+            "title": "Performance and power evaluation of lash-aware bufer algorithms",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Database and Expert Systems Applications"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Park",
+                    "given": "Sangwon"
+                }
+            ],
+            "title": "Flash-Aware Cost Model for Embedded Database Query Optimizer",
+            "type": "article-journal",
+            "container_title": [
+                "J. Inf. Sci. Eng"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pelley",
+                    "given": "Steven"
+                },
+                {
+                    "family": "LeFevre",
+                    "given": "Kristen"
+                },
+                {
+                    "family": "Wenisch",
+                    "given": "Thomas F."
+                }
+            ],
+            "title": "Do query optimizers need to be SSD-aware?",
+            "type": "chapter",
+            "container_title": [
+                "ADMS@ VLDB"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pisharath",
+                    "given": "Jayaprakash"
+                },
+                {
+                    "family": "Choudhary",
+                    "given": "Alok"
+                },
+                {
+                    "family": "Kandemir",
+                    "given": "Mahmut"
+                }
+            ],
+            "title": "Energy management schemes for memory-resident database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the thirteenth ACM international conference on Information and knowledge management"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pisharath",
+                    "given": "Jayaprakash"
+                },
+                {
+                    "family": "Choudhary",
+                    "given": "Alok"
+                },
+                {
+                    "family": "Kandemir",
+                    "given": "Mahmut"
+                }
+            ],
+            "title": "Reducing energy consumption of queries in memory-resident database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2004 international conference on Compilers"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Poess",
+                    "given": "Meikel"
+                },
+                {
+                    "family": "Nambiar",
+                    "given": "Raghunath Othayoth"
+                }
+            ],
+            "title": "Energy cost, the key challenge of today's data centers: a power consumption analysis of TPC-C results",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 1"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Poess",
+                    "given": "Meikel"
+                },
+                {
+                    "family": "Nambiar",
+                    "given": "Raghunath Othayoth"
+                },
+                {
+                    "family": "Vaid",
+                    "given": "Kushagra"
+                },
+                {
+                    "family": "Stephens",
+                    "given": "John M.",
+                    "suffix": "Jr"
+                },
+                {
+                    "family": "Huppler",
+                    "given": "Karl"
+                },
+                {
+                    "family": "Haines",
+                    "given": "Evan"
+                }
+            ],
+            "title": "Energy benchmarks: a detailed analysis",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1st International Conference on Energy-Eicient Computing and Networking"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Poess",
+                    "given": "Meikel"
+                },
+                {
+                    "family": "Qi Ren",
+                    "particle": "Da"
+                },
+                {
+                    "family": "Rabl",
+                    "given": "Tilmann"
+                },
+                {
+                    "family": "Jacobsen",
+                    "given": "Hans-Arno"
+                }
+            ],
+            "title": "Methods for Quantifying Energy Consumption in TPC-H",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2018 ACM/SPEC International Conference on Performance Engineering"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Psaroudakis",
+                    "given": "Iraklis"
+                },
+                {
+                    "family": "Kissinger",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Porobic",
+                    "given": "Danica"
+                },
+                {
+                    "family": "Ilsche",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Liarou",
+                    "given": "Erietta"
+                },
+                {
+                    "family": "T\u00f6z\u00fcn",
+                    "given": "P\u0131nar"
+                },
+                {
+                    "family": "Ailamaki",
+                    "given": "Anastasia"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "Dynamic ine-grained scheduling for energy-eicient main-memory queries",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Tenth International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rabl",
+                    "given": "Tilmann"
+                },
+                {
+                    "family": "Jacobsen",
+                    "given": "Hans-Arno"
+                }
+            ],
+            "title": "Query centric partitioning and allocation for partially replicated database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2017 ACM International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rivoire",
+                    "given": "Suzanne"
+                },
+                {
+                    "family": "Shah",
+                    "given": "Mehul A."
+                },
+                {
+                    "family": "Ranganathan",
+                    "given": "Parthasarathy"
+                },
+                {
+                    "family": "Kozyrakis",
+                    "given": "Christos"
+                }
+            ],
+            "title": "JouleSort: a balanced energy-eiciency benchmark",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2007 ACM SIGMOD international conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rivoire",
+                    "given": "Suzanne"
+                },
+                {
+                    "family": "Shah",
+                    "given": "Mehul A."
+                },
+                {
+                    "family": "Ranganathan",
+                    "given": "Parthasarathy"
+                },
+                {
+                    "family": "Kozyrakis",
+                    "given": "Christos"
+                },
+                {
+                    "family": "Meza",
+                    "given": "Justin"
+                }
+            ],
+            "title": "Models and metrics to enable energy-eiciency optimizations",
+            "type": "article-journal",
+            "container_title": [
+                "Computer"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rodriguez-Martinez",
+                    "given": "Manuel"
+                },
+                {
+                    "family": "Valdivia",
+                    "given": "Harold"
+                },
+                {
+                    "family": "Seguel",
+                    "given": "Jaime"
+                },
+                {
+                    "family": "Greer",
+                    "given": "Melvin"
+                }
+            ],
+            "title": "Estimating power/energy consumption in database servers",
+            "type": "article-journal",
+            "container_title": [
+                "Procedia Computer Science"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roukh",
+                    "given": "Amine"
+                }
+            ],
+            "title": "Estimating power consumption of batch query workloads",
+            "type": "chapter",
+            "container_title": [
+                "Model and Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roukh",
+                    "given": "Amine"
+                },
+                {
+                    "family": "Bellatreche",
+                    "given": "Ladjel"
+                }
+            ],
+            "title": "Eco-processing of OLAP complex queries",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Big Data Analytics and Knowledge Discovery"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roukh",
+                    "given": "Amine"
+                },
+                {
+                    "family": "Bellatreche",
+                    "given": "Ladjel"
+                },
+                {
+                    "family": "Bouarar",
+                    "given": "Selma"
+                },
+                {
+                    "family": "Boukorca",
+                    "given": "Ahcene"
+                }
+            ],
+            "title": "Eco-physic: Eco-physical design initiative for very large databases",
+            "type": "article-journal",
+            "container_title": [
+                "Information Systems"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roukh",
+                    "given": "Amine"
+                },
+                {
+                    "family": "Bellatreche",
+                    "given": "Ladjel"
+                },
+                {
+                    "family": "Boukorca",
+                    "given": "Ahc\u00e8ne"
+                },
+                {
+                    "family": "Bouarar",
+                    "given": "Selma"
+                }
+            ],
+            "title": "Eco-dmw: Eco-design methodology for data warehouses",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the ACM Eighteenth International Workshop on Data Warehousing and OLAP"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roukh",
+                    "given": "Amine"
+                },
+                {
+                    "family": "Bellatreche",
+                    "given": "Ladjel"
+                },
+                {
+                    "family": "Ordonez",
+                    "given": "Carlos"
+                }
+            ],
+            "title": "Enerquery: energy-aware query processing",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 25th ACM International on Conference on Information and Knowledge Management"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roukh",
+                    "given": "Amine"
+                },
+                {
+                    "family": "Bellatreche",
+                    "given": "Ladjel"
+                },
+                {
+                    "family": "Tziritas",
+                    "given": "Nikos"
+                },
+                {
+                    "family": "Ordonez",
+                    "given": "Carlos"
+                }
+            ],
+            "title": "Energy-aware query processing on a parallel database cluster node",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Algorithms and Architectures for Parallel Processing"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Salami",
+                    "given": "Behzad"
+                },
+                {
+                    "family": "Malazgirt",
+                    "given": "Gorker Alp"
+                },
+                {
+                    "family": "Arcas-Abella",
+                    "given": "Oriol"
+                },
+                {
+                    "family": "Yurdakul",
+                    "given": "Arda"
+                },
+                {
+                    "family": "Sonmez",
+                    "given": "Nehir"
+                }
+            ],
+            "title": "AxleDB: A novel programmable query processing platform on FPGA",
+            "type": "article-journal",
+            "container_title": [
+                "Microprocessors and Microsystems"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sanka",
+                    "given": "Abdurrashid Ibrahim"
+                },
+                {
+                    "family": "Chowdhury",
+                    "given": "Mehdi Hasan"
+                },
+                {
+                    "family": "Cheung",
+                    "given": "Ray C.C."
+                }
+            ],
+            "title": "Eicient High-Performance FPGA-Redis Hybrid NoSQL Caching System for Blockchain Scalability",
+            "type": "article-journal",
+            "container_title": [
+                "Computer Communications"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sarda",
+                    "given": "Parag"
+                },
+                {
+                    "family": "Haritsa",
+                    "given": "Jayant R."
+                }
+            ],
+            "title": "Green query optimization: Taming query optimization overheads through plan recycling",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Thirtieth international conference on Very large data"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                }
+            ],
+            "title": "Energy-proportional query execution using a cluster of wimpy nodes",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Ninth International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                }
+            ],
+            "title": "Towards an energy-proportional storage system using a cluster of wimpy nodes",
+            "type": "article-journal",
+            "container_title": [
+                "Datenbanksysteme f\u00fcr Business, Technologie und Web (BTW"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                }
+            ],
+            "title": "Approximating an energy-proportional dbms by a dynamic cluster of nodes",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Database Systems for Advanced Applications"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                }
+            ],
+            "title": "Energy and Performance-Can a Wimpy-Node Cluster Challenge a Brawny Server?",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                }
+            ],
+            "title": "Dynamic physiological partitioning on a shared-nothing database cluster",
+            "type": "paper-conference",
+            "container_title": [
+                "2015 IEEE 31st International Conference on Data Engineering. IEEE"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "H\u00f6fner",
+                    "given": "Volker"
+                },
+                {
+                    "family": "Kern",
+                    "given": "Manuel"
+                }
+            ],
+            "title": "Towards an enhanced benchmark advocating energy-eicient systems",
+            "type": "paper-conference",
+            "container_title": [
+                "Technology Conference on Performance Evaluation and Benchmarking"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Hudlet",
+                    "given": "Volker"
+                }
+            ],
+            "title": "Wattdb: an energy-proportional cluster of wimpy nodes",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2011 ACM SIGMOD International Conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schall",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Hudlet",
+                    "given": "Volker"
+                },
+                {
+                    "family": "H\u00e4rder",
+                    "given": "Theo"
+                }
+            ],
+            "title": "Enhancing energy eiciency of database applications using SSDs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Third C* Conference on Computer Science and Software Engineering"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sellis",
+                    "given": "Timos K."
+                }
+            ],
+            "title": "Multiple-query optimization",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Transactions on Database Systems (TODS"
+            ],
+            "doi": "",
+            "published_date": "1988"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sen",
+                    "given": "Rathijit"
+                },
+                {
+                    "family": "Halverson",
+                    "given": "Alan"
+                }
+            ],
+            "title": "Frequency governors for cloud database OLTP workloads",
+            "type": "paper-conference",
+            "container_title": [
+                "2017 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sen",
+                    "given": "Rathijit"
+                },
+                {
+                    "family": "Ramachandra",
+                    "given": "Karthik"
+                }
+            ],
+            "title": "Characterizing resource sensitivity of database workloads",
+            "type": "paper-conference",
+            "container_title": [
+                "2018 IEEE International Symposium on High Performance Computer Architecture (HPCA"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sengar",
+                    "given": "Vibhuti S."
+                },
+                {
+                    "family": "Haritsa",
+                    "given": "Jayant R."
+                }
+            ],
+            "title": "PLASTIC: Reducing query optimization overheads through plan recycling",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2003 ACM SIGMOD international conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shallahamer",
+                    "given": "Craig"
+                },
+                {
+                    "family": "Alkema",
+                    "given": "Jody"
+                },
+                {
+                    "family": "Gorman",
+                    "given": "Tim"
+                },
+                {
+                    "family": "Still",
+                    "given": "Jared"
+                }
+            ],
+            "title": "Forecasting Oracle Performance",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shuja",
+                    "given": "Junaid"
+                },
+                {
+                    "family": "Madani",
+                    "given": "Sajjad A."
+                },
+                {
+                    "family": "Bilal",
+                    "given": "Kashif"
+                },
+                {
+                    "family": "Hayat",
+                    "given": "Khizar"
+                },
+                {
+                    "family": "Khan",
+                    "given": "Samee U."
+                },
+                {
+                    "family": "Sarwar",
+                    "given": "Shahzad"
+                }
+            ],
+            "title": "Energy-eicient data centers",
+            "type": "article-journal",
+            "container_title": [
+                "Computing"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sirin",
+                    "given": "Utku"
+                },
+                {
+                    "family": "Appuswamy",
+                    "given": "Raja"
+                },
+                {
+                    "family": "Ailamaki",
+                    "given": "Anastasia"
+                }
+            ],
+            "title": "OLTP on a server-grade ARM: power, throughput and latency comparison",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 12th International Workshop on Data Management on New Hardware"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sitaridi",
+                    "given": "Evangelia A."
+                },
+                {
+                    "family": "Ross",
+                    "given": "Kenneth A."
+                }
+            ],
+            "title": "GPU-accelerated string matching for database applications",
+            "type": "article-journal",
+            "container_title": [
+                "The VLDB Journal"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Stonebraker",
+                    "given": "Michael"
+                }
+            ],
+            "title": "SQL databases v",
+            "type": "article-journal",
+            "container_title": [
+                "NoSQL databases. Commun. ACM"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Subramaniam",
+                    "given": "Balaji"
+                },
+                {
+                    "family": "Feng",
+                    "given": "Wu-chun"
+                }
+            ],
+            "title": "On the Energy Proportionality of Distributed NoSQL Data Stores",
+            "type": "chapter",
+            "container_title": [
+                "International Workshop on Performance Modeling, Benchmarking and Simulation of High Performance Computer Systems"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sun",
+                    "given": "Xuan"
+                },
+                {
+                    "family": "Xue",
+                    "given": "Chun Jason"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Jinghuan"
+                },
+                {
+                    "family": "Kuo",
+                    "given": "Tei-Wei"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Xue"
+                }
+            ],
+            "title": "Accelerating data iltering for database using FPGA",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Systems Architecture"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Szalay",
+                    "given": "Alexander S."
+                },
+                {
+                    "family": "Bell",
+                    "given": "Gordon C."
+                },
+                {
+                    "family": "Huang",
+                    "given": "H.Howie"
+                },
+                {
+                    "family": "Terzis",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "White",
+                    "given": "Alainna"
+                }
+            ],
+            "title": "Low-power amdahl-balanced blades for data intensive computing",
+            "type": "article-journal",
+            "container_title": [
+                "ACM SIGOPS Operating Systems Review"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "T\u00f6z\u00fcn",
+                    "given": "P\u0131nar"
+                },
+                {
+                    "family": "Pandis",
+                    "given": "Ippokratis"
+                },
+                {
+                    "family": "Johnson",
+                    "given": "Ryan"
+                },
+                {
+                    "family": "Ailamaki",
+                    "given": "Anastasia"
+                }
+            ],
+            "title": "Scalable and dynamically balanced shared-everything OLTP with physiological partitioning",
+            "type": "article-journal",
+            "container_title": [
+                "The VLDB Journal"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tsirogiannis",
+                    "given": "Dimitris"
+                },
+                {
+                    "family": "Harizopoulos",
+                    "given": "Stavros"
+                },
+                {
+                    "family": "Shah",
+                    "given": "Mehul A."
+                }
+            ],
+            "title": "Analyzing the energy eiciency of a database server",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2010 ACM SIGMOD International Conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tsirogiannis",
+                    "given": "Dimitris"
+                },
+                {
+                    "family": "Harizopoulos",
+                    "given": "Stavros"
+                },
+                {
+                    "family": "Shah",
+                    "given": "Mehul A."
+                },
+                {
+                    "family": "Wiener",
+                    "given": "Janet L."
+                },
+                {
+                    "family": "Graefe",
+                    "given": "Goetz"
+                }
+            ],
+            "title": "Query processing techniques for solid state drives",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2009 ACM SIGMOD International Conference on Management of data"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tu",
+                    "given": "Yi-Cheng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xiaorui"
+                },
+                {
+                    "family": "Zeng",
+                    "given": "Bo"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Zichen"
+                }
+            ],
+            "title": "A system for energy-eicient data management",
+            "type": "article-journal",
+            "container_title": [
+                "ACM SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ungeth\u00fcm",
+                    "given": "Annett"
+                },
+                {
+                    "family": "Habich",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Karnagel",
+                    "given": "Tomas"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Asmussen",
+                    "given": "Nils"
+                },
+                {
+                    "family": "V\u00f6lp",
+                    "given": "Marcus"
+                },
+                {
+                    "family": "N\u00f6then",
+                    "given": "Benedikt"
+                },
+                {
+                    "family": "Fettweis",
+                    "given": "Gerhard"
+                }
+            ],
+            "title": "Query processing on low-energy many-core processors",
+            "type": "paper-conference",
+            "container_title": [
+                "2015 31st IEEE International Conference on Data Engineering Workshops"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ungeth\u00fcm",
+                    "given": "Annett"
+                },
+                {
+                    "family": "Kissinger",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Habich",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "Work-energy proiles: General approach and in-memory database application",
+            "type": "paper-conference",
+            "container_title": [
+                "Technology Conference on Performance Evaluation and Benchmarking"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ungeth\u00fcm",
+                    "given": "Annett"
+                },
+                {
+                    "family": "Kissinger",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Mentzel",
+                    "given": "Willi-Wolfram"
+                },
+                {
+                    "family": "Habich",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "Energy elasticity on heteroge-neous hardware using adaptive resource reconiguration LIVE",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2016 International Conference on Management of Data"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Valentini",
+                    "given": "Giorgio Luigi"
+                },
+                {
+                    "family": "Lassonde",
+                    "given": "Walter"
+                },
+                {
+                    "family": "Khan",
+                    "given": "Samee Ullah"
+                },
+                {
+                    "family": "Min-Allah",
+                    "given": "Nasro"
+                },
+                {
+                    "family": "Madani",
+                    "given": "Sajjad A."
+                },
+                {
+                    "family": "Li",
+                    "given": "Juan"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Limin"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Lizhe"
+                },
+                {
+                    "family": "Ghani",
+                    "given": "Nasir"
+                },
+                {
+                    "family": "Kolodziej",
+                    "given": "Joanna"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "An overview of energy eiciency techniques in cluster computing systems",
+            "type": "article-journal",
+            "container_title": [
+                "Cluster Computing"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vallina-Rodriguez",
+                    "given": "Narseo"
+                },
+                {
+                    "family": "Crowcroft",
+                    "given": "Jon"
+                }
+            ],
+            "title": "Energy management techniques in modern mobile handsets",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Communications Surveys & Tutorials"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vasudevan",
+                    "given": "Vijay"
+                },
+                {
+                    "family": "Andersen",
+                    "given": "David"
+                },
+                {
+                    "family": "Kaminsky",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Tan",
+                    "given": "Lawrence"
+                },
+                {
+                    "family": "Franklin",
+                    "given": "Jason"
+                },
+                {
+                    "family": "Moraru",
+                    "given": "Iulian"
+                }
+            ],
+            "title": "Energy-eicient cluster computing with FAWN: Workloads and implications",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 1st International Conference on Energy-Eicient Computing and Networking"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Jun"
+                },
+                {
+                    "family": "Feng",
+                    "given": "Ling"
+                },
+                {
+                    "family": "Xue",
+                    "given": "Wenwei"
+                },
+                {
+                    "family": "Song",
+                    "given": "Zhanjiang"
+                }
+            ],
+            "title": "A survey on energy-eicient data management",
+            "type": "article-journal",
+            "container_title": [
+                "ACM SIGMOD Record"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Lizhe"
+                },
+                {
+                    "family": "Laszewski",
+                    "given": "Gregor",
+                    "particle": "Von"
+                },
+                {
+                    "family": "Dayal",
+                    "given": "Jay"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Fugang"
+                }
+            ],
+            "title": "Towards energy aware scheduling for precedence constrained parallel tasks in a cluster with DVFS",
+            "type": "paper-conference",
+            "container_title": [
+                "2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wang",
+                    "given": "Xiaorui"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Ming"
+                }
+            ],
+            "title": "Cluster-level feedback power control for performance optimization",
+            "type": "paper-conference",
+            "container_title": [
+                "2008 IEEE 14th International Symposium on High Performance Computer Architecture"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ware",
+                    "given": "Malcolm"
+                },
+                {
+                    "family": "Rajamani",
+                    "given": "Karthick"
+                },
+                {
+                    "family": "Floyd",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Brock",
+                    "given": "Bishop"
+                },
+                {
+                    "family": "Rubio",
+                    "given": "Juan C."
+                },
+                {
+                    "family": "Rawson",
+                    "given": "Freeman"
+                },
+                {
+                    "family": "Carter",
+                    "given": "John B."
+                }
+            ],
+            "title": "Architecting for power management: The IBM\u00ae POWER7TM approach",
+            "type": "paper-conference",
+            "container_title": [
+                "HPCA-16 2010 The Sixteenth International Symposium on High-Performance Computer Architecture"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Webb",
+                    "given": "Molly"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Smart 2020: Enabling the low carbon economy in the information age",
+            "type": "article-journal",
+            "container_title": [
+                "The Climate Group. London"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Weing\u00e4rtner",
+                    "given": "Rafael"
+                },
+                {
+                    "family": "Br\u00e4scher",
+                    "given": "Gabriel Beims"
+                },
+                {
+                    "family": "Westphall",
+                    "given": "Carlos Becker"
+                }
+            ],
+            "title": "Cloud resource management: A survey on forecasting and proiling models",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Network and Computer Applications"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "Lottarini",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Paine",
+                    "given": "Timothy K."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Martha A."
+                },
+                {
+                    "family": "Ross",
+                    "given": "Kenneth A."
+                }
+            ],
+            "title": "Q100: The architecture and design of a database processing unit",
+            "type": "article-journal",
+            "container_title": [
+                "ACM SIGARCH Computer Architecture News"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wu",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "Lottarini",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Paine",
+                    "given": "Timothy K."
+                },
+                {
+                    "family": "Kim",
+                    "given": "Martha A."
+                },
+                {
+                    "family": "Ross",
+                    "given": "Kenneth A."
+                }
+            ],
+            "title": "The Q100 database processing unit",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Micro"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xie",
+                    "given": "Jiazhuang"
+                }
+            ],
+            "title": "Research on Energy-saving Query Processing Technologies for Database Clusters",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xing",
+                    "given": "Baoping"
+                }
+            ],
+            "title": "Research on Energy Eicient Query Processing Technologies for Database Systems",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zichen"
+                }
+            ],
+            "title": "Building a power-aware database management system",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Fourth SIGMOD PhD Workshop on Innovative Database Research"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zichen"
+                },
+                {
+                    "family": "Bai",
+                    "given": "Gele"
+                },
+                {
+                    "family": "Cui",
+                    "given": "Ao"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Shasha"
+                }
+            ],
+            "title": "Power-aware throughput control for containerized relational operation",
+            "type": "article-journal",
+            "container_title": [
+                "CCF Transactions on High Performance Computing"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zichen"
+                },
+                {
+                    "family": "Tu",
+                    "given": "Yi-Cheng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xiaorui"
+                }
+            ],
+            "title": "Exploring power-performance tradeofs in database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "2010 IEEE 26th International Conference on Data Engineering (ICDE 2010"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zichen"
+                },
+                {
+                    "family": "Tu",
+                    "given": "Yi-Cheng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xiaorui"
+                }
+            ],
+            "title": "PET: reducing database energy cost via query optimization",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the VLDB Endowment 5"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zichen"
+                },
+                {
+                    "family": "Tu",
+                    "given": "Yi-Cheng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xiaorui"
+                }
+            ],
+            "title": "Dynamic energy estimation of query plans in database systems",
+            "type": "paper-conference",
+            "container_title": [
+                "2013 IEEE 33rd International Conference on Distributed Computing Systems"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zichen"
+                },
+                {
+                    "family": "Tu",
+                    "given": "Yi-Cheng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xiaorui"
+                }
+            ],
+            "title": "Online energy estimation of relational operations in database systems",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE transactions on computers"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Xu",
+                    "given": "Zichen"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Xiaorui"
+                },
+                {
+                    "family": "Tu",
+                    "given": "Yi-cheng"
+                }
+            ],
+            "title": "Power-Aware Throughput Control for Database Management Systems",
+            "type": "paper-conference",
+            "container_title": [
+                "10th International Conference on Autonomic Computing (ICAC"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Puyuan"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Peiquan"
+                },
+                {
+                    "family": "Yue",
+                    "given": "Lihua"
+                }
+            ],
+            "title": "Exploiting the Performance-Energy Tradeofs for Mobile Database Applications",
+            "type": "article-journal",
+            "container_title": [
+                "J. Univers. Comput. Sci"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "You",
+                    "given": "Xindong"
+                },
+                {
+                    "family": "Lv",
+                    "given": "Xueqiang"
+                },
+                {
+                    "family": "Zhao",
+                    "given": "Zhikai"
+                },
+                {
+                    "family": "Han",
+                    "given": "Junmei"
+                },
+                {
+                    "family": "Ren",
+                    "given": "Xueping"
+                }
+            ],
+            "title": "A survey and taxonomy on energy-aware data management strategies in cloud environment",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Access"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yun",
+                    "given": "Ji-Tae"
+                },
+                {
+                    "family": "Yoon",
+                    "given": "Su-Kyung"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Jeong-Geun"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Shin-Dug"
+                }
+            ],
+            "title": "Efective data prediction method for in-memory database applications",
+            "type": "article-journal",
+            "container_title": [
+                "The Journal of Supercomputing"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Gang"
+                },
+                {
+                    "family": "Ooi",
+                    "given": "Beng Chin"
+                },
+                {
+                    "family": "Tan",
+                    "given": "Kian-Lee"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Meihui"
+                }
+            ],
+            "title": "In-memory big data management and processing: A survey",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Knowledge and Data Engineering"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "Kai"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Feng"
+                },
+                {
+                    "family": "Ding",
+                    "given": "Xiaoning"
+                },
+                {
+                    "family": "Huai",
+                    "given": "Yin"
+                },
+                {
+                    "family": "Lee",
+                    "given": "Rubao"
+                },
+                {
+                    "family": "Luo",
+                    "given": "Tian"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Kaibo"
+                },
+                {
+                    "family": "Yuan",
+                    "given": "Yuan"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Xiaodong"
+                }
+            ],
+            "title": "Hetero-db: next generation high-performance database systems by best utilizing heterogeneous computing and storage resources",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Computer Science and Technology"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "Kai"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Kaibo"
+                },
+                {
+                    "family": "Yuan",
+                    "given": "Yuan"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Lei"
+                },
+                {
+                    "family": "Li",
+                    "given": "Rubao"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Xiaodong"
+                },
+                {
+                    "family": "He",
+                    "given": "Bingsheng"
+                },
+                {
+                    "family": "Hu",
+                    "given": "Jiayu"
+                },
+                {
+                    "family": "Hua",
+                    "given": "Bei"
+                }
+            ],
+            "title": "A distributed in-memory key-value store system on heterogeneous CPU\u015bGPU cluster",
+            "type": "article-journal",
+            "container_title": [
+                "The VLDB Journal"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Jinhong"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Shaoli"
+                },
+                {
+                    "family": "Guo",
+                    "given": "Qi"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Xuda"
+                },
+                {
+                    "family": "Zhi",
+                    "given": "Tian"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Daofu"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Chao"
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Xuehai"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Yunji"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Tianshi"
+                }
+            ],
+            "title": "Tunao: A high-performance and energy-eicient reconigurable accelerator for graph processing",
+            "type": "paper-conference",
+            "container_title": [
+                "2017 17th IEEE/ACM International Symposium on Cluster"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Shijie"
+                },
+                {
+                    "family": "Chelmis",
+                    "given": "Charalampos"
+                },
+                {
+                    "family": "Prasanna",
+                    "given": "Viktor K."
+                }
+            ],
+            "title": "High-throughput and energy-eicient graph processing on FPGA",
+            "type": "paper-conference",
+            "container_title": [
+                "2016 IEEE 24th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Taneja",
+                    "given": "Shubbhi"
+                },
+                {
+                    "family": "Alghamdi",
+                    "given": "Mohammed"
+                },
+                {
+                    "family": "Qin",
+                    "given": "Xiao"
+                }
+            ],
+            "title": "Improving energy eiciency of database clusters through prefetching and caching",
+            "type": "paper-conference",
+            "container_title": [
+                "2018 18th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Taneja",
+                    "given": "Shubbhi"
+                },
+                {
+                    "family": "Qin",
+                    "given": "Xiao"
+                },
+                {
+                    "family": "Ku",
+                    "given": "Wei-Shinn"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Jifu"
+                }
+            ],
+            "title": "EDOM: Improving energy eiciency of database operations on multicore servers",
+            "type": "article-journal",
+            "container_title": [
+                "Future Generation Computer Systems"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhou",
+                    "given": "Yi"
+                },
+                {
+                    "family": "Taneja",
+                    "given": "Shubbhi"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Chaowei"
+                },
+                {
+                    "family": "Qin",
+                    "given": "Xiao"
+                }
+            ],
+            "title": "GreenDB: Energy-eicient prefetching and caching in database clusters",
+            "type": "article-journal",
+            "container_title": [
+                "IEEE Transactions on Parallel and Distributed Systems"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhu",
+                    "given": "Yanhong"
+                }
+            ],
+            "title": "Real-time Power Modeling and Control in the Power-aware DBMS",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        }
+    ]
+}

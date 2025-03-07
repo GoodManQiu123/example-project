@@ -1,0 +1,837 @@
+{
+    "metadata": {
+        "title": "A Smoothed Particle Hydrodynamics Mini-App for Exascale",
+        "doi": "10.1145/3394277.3401855",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "The Smoothed Particles Hydrodynamics (SPH) is a particle-based, meshfree, Lagrangian method used to simulate multidimensional fluids with arbitrary geometries, most commonly employed in astrophysics, cosmology, and computational fluid-dynamics (CFD). It is expected that these computationally-demanding numerical simulations will significantly benefit from the up-and-coming Exascale computing infrastructures, that will perform 10 18 FLOP/s. In this work, we review the status of a novel SPH-EXA mini-app, which is the result of an interdisciplinary co-design project between the fields of astrophysics, fluid dynamics and computer science, whose goal is to enable SPH simulations to run on Exascale systems. The SPH-EXA mini-app merges the main characteristics of three stateof-the-art parent SPH codes (namely ChaNGa, SPH-flow, SPHYNX) with state-of-the-art (parallel) programming, optimization, and parallelization methods. The proposed SPH-EXA mini-app is a C++14 lightweight and flexible header-only code with no external software dependencies. Parallelism is expressed via multiple programming models, which can be chosen at compilation time with or without accelerator support, for a hybrid process+thread+accelerator configuration. Strong-and weak-scaling experiments on a production supercomputer show that the SPH-EXA mini-app can be efficiently executed with up 267 million particles and up to 65 billion particles in total on 2,048 hybrid CPU-GPU nodes.",
+        "keywords": [
+            "algorithm",
+            "parallelization",
+            "sphexa",
+            "miniapp",
+            "exascale",
+            "performance",
+            "particle",
+            "sph",
+            "hydrodynamics"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Aur\u00e9lien Cavelan",
+            "affiliation": "University of Basel",
+            "email": "aurelien.cavelan@unibas.ch"
+        },
+        {
+            "name": "Rub\u00e9n M Cabez\u00f3n",
+            "affiliation": "University of Basel",
+            "email": "ruben.cabezon@unibas.ch"
+        },
+        {
+            "name": "Michal Grabarczyk",
+            "affiliation": "University of Basel",
+            "email": "michalprzemyslaw.grabarczyk@unibas.ch"
+        },
+        {
+            "name": "Florina M Ciorba",
+            "affiliation": "University of Basel",
+            "email": "florina.ciorba@unibas.ch"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Cabez\u00f3n",
+                    "given": "R.M."
+                },
+                {
+                    "family": "Garc\u00eda-Senz",
+                    "given": "D."
+                },
+                {
+                    "family": "Figueira",
+                    "given": "J."
+                }
+            ],
+            "title": "SPHYNX: An accurate density-based SPH method for astrophysical applications",
+            "type": "article-journal",
+            "container_title": [
+                "A&A"
+            ],
+            "doi": "",
+            "published_date": "2017-10"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tremmel",
+                    "given": "M."
+                },
+                {
+                    "family": "Karcher",
+                    "given": "M."
+                },
+                {
+                    "family": "Governato",
+                    "given": "F."
+                },
+                {
+                    "family": "Volonteri",
+                    "given": "M."
+                },
+                {
+                    "family": "Quinn",
+                    "given": "T.R."
+                },
+                {
+                    "family": "Pontzen",
+                    "given": "A."
+                },
+                {
+                    "family": "Anderson",
+                    "given": "L."
+                },
+                {
+                    "family": "Bellovary",
+                    "given": "J."
+                }
+            ],
+            "title": "The Romulus cosmological simulations: a physical approach to the formation, dynamics and accretion models of SMBHs",
+            "type": "article-journal",
+            "container_title": [
+                "MNRAS"
+            ],
+            "doi": "",
+            "published_date": "2017-09"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oger",
+                    "given": "G."
+                },
+                {
+                    "family": "Touz\u00e9",
+                    "given": "D.Le"
+                },
+                {
+                    "family": "Guibert",
+                    "given": "D."
+                },
+                {
+                    "family": "Leffe",
+                    "given": "M.",
+                    "particle": "de"
+                },
+                {
+                    "family": "Biddiscombe",
+                    "given": "J."
+                },
+                {
+                    "family": "Soumagne",
+                    "given": "J."
+                },
+                {
+                    "family": "Piccinali",
+                    "given": "J.-G."
+                }
+            ],
+            "title": "On distributed memory MPI-based parallelization of SPH codes in massive HPC context",
+            "type": "article-journal",
+            "container_title": [
+                "Computer Physics Communications"
+            ],
+            "doi": "",
+            "published_date": "2016-03"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Colagrossi",
+                    "given": "A."
+                }
+            ],
+            "title": "A meshless Lagrangian method for free-surface and interface flows with fragmentation",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ciorba",
+                    "given": "Florina M."
+                },
+                {
+                    "family": "Mayer",
+                    "given": "Lucio"
+                },
+                {
+                    "family": "Cabez\u00f3n",
+                    "given": "Rub\u00e9n M."
+                },
+                {
+                    "family": "Imbert",
+                    "given": "David"
+                }
+            ],
+            "title": "SPH-EXA: Optimizing Smoothed Particle Hydrodynamics for Exascale Computing",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Liebend\u00f6rfer",
+                    "given": "M."
+                },
+                {
+                    "family": "Rampp",
+                    "given": "M."
+                },
+                {
+                    "family": "Janka",
+                    "given": "H.-Th"
+                },
+                {
+                    "family": "Mezzacappa",
+                    "given": "A."
+                }
+            ],
+            "title": "Supernova Simu-lations with Boltzmann Neutrino Transport: A Comparison of Methods",
+            "type": "article-journal",
+            "container_title": [
+                "The Astro-physical Journal"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Agertz",
+                    "given": "O."
+                },
+                {
+                    "family": "Moore",
+                    "given": "B."
+                },
+                {
+                    "family": "Stadel",
+                    "given": "J."
+                },
+                {
+                    "family": "Potter",
+                    "given": "D."
+                },
+                {
+                    "family": "Miniati",
+                    "given": "F."
+                },
+                {
+                    "family": "Read",
+                    "given": "J."
+                },
+                {
+                    "family": "Mayer",
+                    "given": "L."
+                },
+                {
+                    "family": "Gawryszczak",
+                    "given": "A."
+                },
+                {
+                    "family": "Kravtsov",
+                    "given": "A."
+                },
+                {
+                    "family": "Nordlund",
+                    "given": "A."
+                },
+                {
+                    "family": "Pearce",
+                    "given": "F."
+                },
+                {
+                    "family": "Quilis",
+                    "given": "V."
+                },
+                {
+                    "family": "Rudd",
+                    "given": "D."
+                },
+                {
+                    "family": "Springel",
+                    "given": "V."
+                },
+                {
+                    "family": "Stone",
+                    "given": "J."
+                },
+                {
+                    "family": "Tasker",
+                    "given": "E."
+                },
+                {
+                    "family": "Teyssier",
+                    "given": "R."
+                },
+                {
+                    "family": "Wadsley",
+                    "given": "J."
+                },
+                {
+                    "family": "Walder",
+                    "given": "R."
+                }
+            ],
+            "title": "Fundamental differences between SPH and grid methods",
+            "type": "article-journal",
+            "container_title": [
+                "Monthly Notices of the Royal Astronomical Society"
+            ],
+            "doi": "10.1111/j.1365-2966.2007.12183.x",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barret",
+                    "given": "R.F."
+                },
+                {
+                    "family": "Vaughan",
+                    "given": "C.T."
+                },
+                {
+                    "family": "Heroux",
+                    "given": "M.A."
+                }
+            ],
+            "title": "MiniGhost: A mini-app for exploring boundary exchange strategies using stencil computations in scientific parallel com-puting",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Heroux",
+                    "given": "M.A."
+                },
+                {
+                    "family": "Doerfler",
+                    "given": "D.W."
+                },
+                {
+                    "family": "Crozier",
+                    "given": "P.S."
+                },
+                {
+                    "family": "Willenbring",
+                    "given": "J.M."
+                },
+                {
+                    "family": "Edwards",
+                    "given": "H.C."
+                },
+                {
+                    "family": "Williams",
+                    "given": "A."
+                },
+                {
+                    "family": "Rajan",
+                    "given": "M."
+                },
+                {
+                    "family": "Keiter",
+                    "given": "E.R."
+                },
+                {
+                    "family": "Thornquist",
+                    "given": "H.K."
+                },
+                {
+                    "family": "Numrich",
+                    "given": "R.W."
+                }
+            ],
+            "title": "Improving performance via mini-applications",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Tasker",
+                    "given": "E.J."
+                },
+                {
+                    "family": "Brunino",
+                    "given": "R."
+                },
+                {
+                    "family": "Mitchell",
+                    "given": "N.L."
+                },
+                {
+                    "family": "Michielsen",
+                    "given": "D."
+                },
+                {
+                    "family": "Hopton",
+                    "given": "S."
+                },
+                {
+                    "family": "Pearce",
+                    "given": "F.R."
+                },
+                {
+                    "family": "Bryan",
+                    "given": "G.L."
+                },
+                {
+                    "family": "Theuns",
+                    "given": "T."
+                }
+            ],
+            "title": "A test suite for quantitative comparison of hydrodynamic codes in astrophysics",
+            "type": "article-journal",
+            "container_title": [
+                "Monthly Notices of the Royal Astronomical Society"
+            ],
+            "doi": "10.1111/j.1365-2966.2008.13836.x",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cabez\u00f3n",
+                    "given": "R.M."
+                },
+                {
+                    "family": "Pan",
+                    "given": "K.-C."
+                },
+                {
+                    "family": "Liebend\u00f6rfer",
+                    "given": "M."
+                },
+                {
+                    "family": "Kuroda",
+                    "given": "T."
+                },
+                {
+                    "family": "Ebinger",
+                    "given": "K."
+                },
+                {
+                    "family": "Heinimann",
+                    "given": "O."
+                },
+                {
+                    "family": "Thielemann",
+                    "given": "F.-K."
+                },
+                {
+                    "family": "Perego",
+                    "given": "A."
+                }
+            ],
+            "title": "Core-collapse supernovae in the hall of mirrors. A three-dimensional code-comparison project",
+            "type": "article-journal",
+            "container_title": [
+                "Astron.Astrophys"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Stone",
+                    "given": "A."
+                },
+                {
+                    "family": "Dennis",
+                    "given": "J.M."
+                },
+                {
+                    "family": "Strout",
+                    "given": "M.Mills"
+                }
+            ],
+            "title": "The CGPOP Miniapp, version 1.0",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Marcus",
+                    "given": "R."
+                }
+            ],
+            "title": "MCMini: Monte Carlo on GPGPU",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Team",
+                    "given": "T.C."
+                }
+            ],
+            "title": "The CESAR codesign center: Early results",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bauer",
+                    "given": "P."
+                },
+                {
+                    "family": "Wedi",
+                    "given": "N."
+                },
+                {
+                    "family": "Deconinck",
+                    "given": "W."
+                }
+            ],
+            "title": "ESCAPE: Energy-efficient scalable algorithms for weather prediction at Exascale",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Deconinck",
+                    "given": "W."
+                },
+                {
+                    "family": "Bauer",
+                    "given": "P."
+                },
+                {
+                    "family": "Diamantakis",
+                    "given": "M."
+                },
+                {
+                    "family": "Hamrud",
+                    "given": "M."
+                },
+                {
+                    "family": "K\u00fchnlein",
+                    "given": "C."
+                },
+                {
+                    "family": "Maciel",
+                    "given": "P."
+                },
+                {
+                    "family": "Mengaldo",
+                    "given": "G."
+                },
+                {
+                    "family": "Quintino",
+                    "given": "T."
+                },
+                {
+                    "family": "Raoult",
+                    "given": "B."
+                },
+                {
+                    "family": "Smolarkiewicz",
+                    "given": "P.K."
+                },
+                {
+                    "family": "Wedi",
+                    "given": "N.P."
+                }
+            ],
+            "title": "Atlas: A library for numerical weather prediction and climate modelling",
+            "type": "article-journal",
+            "container_title": [
+                "Computer Phys. Comm"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schulthess",
+                    "given": "T.C."
+                }
+            ],
+            "title": "Programming revisited",
+            "type": "article-journal",
+            "container_title": [
+                "Nature Physics"
+            ],
+            "doi": "",
+            "published_date": "2015-05"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Messer",
+                    "given": "O."
+                },
+                {
+                    "family": "D'Azevedo",
+                    "given": "E."
+                },
+                {
+                    "family": "Hill",
+                    "given": "J."
+                },
+                {
+                    "family": "Joubert",
+                    "given": "W."
+                },
+                {
+                    "family": "Laosooksathit",
+                    "given": "S."
+                },
+                {
+                    "family": "Tharrington",
+                    "given": "A."
+                }
+            ],
+            "title": "Developing MiniApps on modern platforms using multiple programming models",
+            "type": "paper-conference",
+            "container_title": [
+                "2015 IEEE International Conference on Cluster Computing"
+            ],
+            "doi": "",
+            "published_date": "2015-09"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rosswog",
+                    "given": "S."
+                }
+            ],
+            "title": "Astrophysical smooth particle hydrodynamics",
+            "type": "article-journal",
+            "container_title": [
+                "New Astron-omy Reviews"
+            ],
+            "doi": "10.1016/j.newar.2009.08.007.",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Monaghan",
+                    "given": "J.J."
+                },
+                {
+                    "family": "Gringold",
+                    "given": "R.A."
+                }
+            ],
+            "title": "Shock Simulation by the Particle Method SPH",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Computational Physics"
+            ],
+            "doi": "",
+            "published_date": "1983"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Reinders",
+                    "given": "J."
+                }
+            ],
+            "title": "Intel Threading Building Block: Outfitting C++ for Multi-core Processor Parallelism",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Robison",
+                    "given": "A.D."
+                }
+            ],
+            "title": "Composable Parallel Patterns with Intel Cilk Plus",
+            "type": "article-journal",
+            "container_title": [
+                "Computing in Science & Engineering"
+            ],
+            "doi": "",
+            "published_date": "2013-03"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chamberlain",
+                    "given": "B.L."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Parallel Programmability and the Chapel Language",
+            "type": "article-journal",
+            "container_title": [
+                "The International Journal of High Performance Computing Applications"
+            ],
+            "doi": "",
+            "published_date": "2007-08"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Edwards",
+                    "given": "H.Carter"
+                },
+                {
+                    "family": "Trott",
+                    "given": "C.R."
+                },
+                {
+                    "family": "Sunderland",
+                    "given": "D."
+                }
+            ],
+            "title": "Kokkos",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Parallel and Distributed Computing"
+            ],
+            "doi": "",
+            "published_date": "2014-12"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kaiser",
+                    "given": "H."
+                },
+                {
+                    "family": "Heller",
+                    "given": "T."
+                },
+                {
+                    "family": "Adelstein-Lelbach",
+                    "given": "B."
+                },
+                {
+                    "family": "Serio",
+                    "given": "A."
+                },
+                {
+                    "family": "Fey",
+                    "given": "D."
+                }
+            ],
+            "title": "HPX: A Task Based Programming Model in a Global Address Space",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 8th International Conference on Partitioned Global Address Space Programming Models (PGAS '14"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cabez\u00f3n",
+                    "given": "R.M."
+                },
+                {
+                    "family": "Garcia-Senz",
+                    "given": "D."
+                },
+                {
+                    "family": "Rela\u00f1o",
+                    "given": "A."
+                }
+            ],
+            "title": "A one-parameter family of interpolating kernels for Smoothed Particle Hydrodynamics studies",
+            "type": "article-journal",
+            "container_title": [
+                "J. Comput. Phys"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Garc\u00eda-Senz",
+                    "given": "D."
+                },
+                {
+                    "family": "Cabez\u00f3n",
+                    "given": "R.M."
+                },
+                {
+                    "family": "Escart\u00edn",
+                    "given": "J.A."
+                }
+            ],
+            "title": "Improving smoothed particle hydrodynamics with an integral approach to calculating gradients",
+            "type": "article-journal",
+            "container_title": [
+                "A&A"
+            ],
+            "doi": "",
+            "published_date": "2012-02"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cavelan",
+                    "given": "Aur\u00e9lien"
+                },
+                {
+                    "family": "Cabez\u00f3n",
+                    "given": "Rub\u00e9n M."
+                },
+                {
+                    "family": "Ciorba",
+                    "given": "Florina M."
+                }
+            ],
+            "title": "Detection of Silent Data Corruptions in Smoothed Particle Hydrodynamics",
+            "type": "paper-conference",
+            "container_title": [
+                "19th IEEE/ACM Interna-tional Symposium on Cluster, Cloud and Grid Computing, CCGRID 2019"
+            ],
+            "doi": "",
+            "published_date": "May 14-17, 2019"
+        }
+    ]
+}

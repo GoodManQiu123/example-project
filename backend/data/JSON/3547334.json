@@ -1,0 +1,1177 @@
+{
+    "metadata": {
+        "title": "Tensor Network Quantum Virtual Machine for Simulating Quantum Circuits at Exascale",
+        "doi": "10.1145/3547334",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "The numerical simulation of quantum circuits is an indispensable tool for development, verification and validation of hybrid quantum-classical algorithms intended for near-term quantum co-processors. The emergence of exascale high-performance computing (HPC) platforms presents new opportunities for pushing the boundaries of quantum circuit simulation. We present a modernized version of the Tensor Network Quantum Virtual Machine (TNQVM) which serves as the quantum circuit simulation backend in the eXtreme-scale ACCelerator (XACC) framework. The new version is based on the scalable tensor network processing library ExaTN (Exascale Tensor Networks). It provides multiple configurable quantum circuit simulators which perform either an exact quantum circuit simulation via the full tensor network contraction or an approximate simulation via a suitably chosen tensor factorization scheme. Upon necessity, stochastic noise modeling from real quantum processors is incorporated into the simulations by modeling quantum channels with Kraus tensors. By combining the portable",
+        "keywords": [
+            "quantum",
+            "tensor",
+            "machine",
+            "simulation",
+            "virtual",
+            "exascale",
+            "circuit",
+            "network"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Thien Nguyen",
+            "affiliation": null,
+            "email": "nguyentm@ornl.gov"
+        },
+        {
+            "name": "David Clark",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Jeff Larkin",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Alexander Mccaskey",
+            "affiliation": null,
+            "email": "mccaskeyaj@ornl.gov"
+        },
+        {
+            "name": "Acm Trans",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Comput Quantum",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Dmitry Lyakh",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "Eugene Dumitrescu",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "ExaTN library: Exascale Tensor Networks",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Aaronson",
+                    "given": "Scott"
+                },
+                {
+                    "family": "Gottesman",
+                    "given": "Daniel"
+                }
+            ],
+            "title": "Improved simulation of stabilizer circuits",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev. A"
+            ],
+            "doi": "10.1103/PhysRevA.70.052328",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Alliance",
+                    "given": "Q.I.R."
+                }
+            ],
+            "title": "Quantum Intermediate Representation",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "XXXX"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Arute",
+                    "given": "Frank"
+                },
+                {
+                    "family": "Arya",
+                    "given": "Kunal"
+                },
+                {
+                    "family": "Babbush",
+                    "given": "Ryan"
+                },
+                {
+                    "family": "Bacon",
+                    "given": "Dave"
+                },
+                {
+                    "family": "Bardin",
+                    "given": "Joseph C."
+                },
+                {
+                    "family": "Barends",
+                    "given": "Rami"
+                },
+                {
+                    "family": "Biswas",
+                    "given": "Rupak"
+                },
+                {
+                    "family": "Boixo",
+                    "given": "Sergio"
+                },
+                {
+                    "family": "Brandao",
+                    "given": "Fernando G.S.L."
+                },
+                {
+                    "family": "Buell",
+                    "given": "David A."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Quantum supremacy using a programmable superconducting processor",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Arute",
+                    "given": "Frank"
+                },
+                {
+                    "family": "Arya",
+                    "given": "Kunal"
+                },
+                {
+                    "family": "Babbush",
+                    "given": "Ryan"
+                },
+                {
+                    "family": "Bacon",
+                    "given": "Dave"
+                },
+                {
+                    "family": "Bardin",
+                    "given": "Joseph C."
+                },
+                {
+                    "family": "Barends",
+                    "given": "Rami"
+                },
+                {
+                    "family": "Biswas",
+                    "given": "Rupak"
+                },
+                {
+                    "family": "Boixo",
+                    "given": "Sergio"
+                },
+                {
+                    "family": "Brandao",
+                    "given": "Fernando G.S.L."
+                },
+                {
+                    "family": "Buell",
+                    "given": "David A."
+                },
+                {
+                    "given": "and"
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Quantum supremacy using a programmable superconducting processor",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "10.1038/s41586-019-1666-5",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bennink",
+                    "given": "Ryan S."
+                },
+                {
+                    "family": "Ferragut",
+                    "given": "Erik M."
+                },
+                {
+                    "family": "Humble",
+                    "given": "Travis S."
+                },
+                {
+                    "family": "Laska",
+                    "given": "Jason A."
+                },
+                {
+                    "family": "Nutaro",
+                    "given": "James J."
+                },
+                {
+                    "family": "Pleszkoch",
+                    "given": "Mark G."
+                },
+                {
+                    "family": "Pooser",
+                    "given": "Raphael C."
+                }
+            ],
+            "title": "Unbiased simulation of near-Clifford quantum circuits",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev. A"
+            ],
+            "doi": "10.1103/PhysRevA.95.062337",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bravyi",
+                    "given": "Sergey"
+                },
+                {
+                    "family": "Browne",
+                    "given": "Dan"
+                },
+                {
+                    "family": "Calpin",
+                    "given": "Padraic"
+                },
+                {
+                    "family": "Campbell",
+                    "given": "Earl"
+                },
+                {
+                    "family": "Gosset",
+                    "given": "David"
+                },
+                {
+                    "family": "Howard",
+                    "given": "Mark"
+                }
+            ],
+            "title": "Simulation of quantum circuits by low-rank stabilizer decompositions",
+            "type": "article-journal",
+            "container_title": [
+                "Quantum"
+            ],
+            "doi": "10.22331/q-2019-09-02-181",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bravyi",
+                    "given": "Sergey"
+                },
+                {
+                    "family": "Gosset",
+                    "given": "David"
+                }
+            ],
+            "title": "Improved Classical Simulation of Quantum Circuits Dominated by Clifford Gates",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev. Lett"
+            ],
+            "doi": "10.1103/PhysRevLett.116.250501",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dang",
+                    "given": "Aidan"
+                },
+                {
+                    "family": "Hill",
+                    "given": "Charles D."
+                },
+                {
+                    "family": "Hollenberg",
+                    "given": "Lloyd C.L."
+                }
+            ],
+            "title": "Optimising Matrix Product State Simulations of Shor's Algorithm",
+            "type": "article-journal",
+            "container_title": [
+                "Quantum"
+            ],
+            "doi": "10.22331/q-2019-01-25-116",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Raedt",
+                    "given": "Hans",
+                    "particle": "De"
+                },
+                {
+                    "family": "Jin",
+                    "given": "Fengping"
+                },
+                {
+                    "family": "Willsch",
+                    "given": "Dennis"
+                },
+                {
+                    "family": "Willsch",
+                    "given": "Madita"
+                },
+                {
+                    "family": "Yoshioka",
+                    "given": "Naoki"
+                },
+                {
+                    "family": "Ito",
+                    "given": "Nobuyasu"
+                },
+                {
+                    "family": "Yuan",
+                    "given": "Shengjun"
+                },
+                {
+                    "family": "Michielsen",
+                    "given": "Kristel"
+                }
+            ],
+            "title": "Massively parallel quantum computer simulator, eleven years later",
+            "type": "article-journal",
+            "container_title": [
+                "Computer Physics Communications"
+            ],
+            "doi": "10.1016/j.cpc.2018.11.005",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fishman",
+                    "given": "Matthew"
+                },
+                {
+                    "family": "White",
+                    "given": "Steven R."
+                },
+                {
+                    "family": "Stoudenmire",
+                    "given": "E.Miles"
+                }
+            ],
+            "title": "The ITensor Software Library for Tensor Network Calculations",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gamma",
+                    "given": "Erich"
+                },
+                {
+                    "family": "Helm",
+                    "given": "Richard"
+                },
+                {
+                    "family": "Johnson",
+                    "given": "Ralph"
+                },
+                {
+                    "family": "Vlissides",
+                    "given": "John M."
+                }
+            ],
+            "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gidney",
+                    "given": "Craig"
+                }
+            ],
+            "title": "Stim: a fast stabilizer circuit simulator",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Glasser",
+                    "given": "Ivan"
+                },
+                {
+                    "family": "Pancotti",
+                    "given": "Nicola"
+                },
+                {
+                    "family": "Cirac",
+                    "given": "J.Ignacio"
+                }
+            ],
+            "title": "From probabilistic graphical models to generalized tensor networks for supervised learning",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gray",
+                    "given": "Johnnie"
+                }
+            ],
+            "title": "quimb: a python library for quantum information and many-body calculations",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Open Source Software"
+            ],
+            "doi": "10.21105/joss.00819",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gray",
+                    "given": "Johnnie"
+                },
+                {
+                    "family": "Kourtis",
+                    "given": "Stefanos"
+                }
+            ],
+            "title": "Hyper-optimized tensor network contraction",
+            "type": "article-journal",
+            "container_title": [
+                "Quantum"
+            ],
+            "doi": "10.22331/q-2021-03-15-410",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Guerreschi",
+                    "given": "Gian Giacomo"
+                },
+                {
+                    "family": "Hogaboam",
+                    "given": "Justin"
+                },
+                {
+                    "family": "Baruffa",
+                    "given": "Fabio"
+                },
+                {
+                    "family": "Sawaya",
+                    "given": "Nicolas P.D."
+                }
+            ],
+            "title": "Intel Quantum Simulator: a cloud-ready high-performance simulator of quantum circuits",
+            "type": "article-journal",
+            "container_title": [
+                "Quantum Science and Technology"
+            ],
+            "doi": "10.1088/2058-9565/ab8505",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Han",
+                    "given": "Zhao-Yu"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Jun"
+                },
+                {
+                    "family": "Fan",
+                    "given": "Heng"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Lei"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Pan"
+                }
+            ],
+            "title": "Unsupervised Generative Modeling Using Matrix Product States",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev"
+            ],
+            "doi": "10.1103/PhysRevX.8.031012",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "H\u00e4ner",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Steiger",
+                    "given": "Damian S."
+                }
+            ],
+            "title": "0.5 petabyte simulation of a 45-qubit quantum circuit",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis"
+            ],
+            "doi": "10.1145/3126908.3126947",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huang",
+                    "given": "Cupjin"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Fang"
+                },
+                {
+                    "family": "Newman",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Cai",
+                    "given": "Junjie"
+                },
+                {
+                    "family": "Gao",
+                    "given": "Xun"
+                },
+                {
+                    "family": "Tian",
+                    "given": "Zhengxiong"
+                },
+                {
+                    "family": "Wu",
+                    "given": "Junyin"
+                },
+                {
+                    "family": "Xu",
+                    "given": "Haihong"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Huanjun"
+                },
+                {
+                    "family": "Yuan",
+                    "given": "Bo"
+                },
+                {
+                    "family": "Szegedy",
+                    "given": "Mario"
+                },
+                {
+                    "family": "Shi",
+                    "given": "Yaoyun"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Jianxin"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jakob",
+                    "given": "Wenzel"
+                },
+                {
+                    "family": "Rhinelander",
+                    "given": "Jason"
+                },
+                {
+                    "family": "Moldovan",
+                    "given": "Dean"
+                }
+            ],
+            "title": "pybind11 -Seamless operability between C++11 and Python",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Karypis",
+                    "given": "George"
+                },
+                {
+                    "family": "Kumar",
+                    "given": "Vipin"
+                }
+            ],
+            "title": "A fast and high quality multilevel scheme for partitioning irregular graphs",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM Journal on Scientific Computing"
+            ],
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Li",
+                    "given": "Ang"
+                },
+                {
+                    "family": "Subasi",
+                    "given": "Omer"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Xiu"
+                },
+                {
+                    "family": "Krishnamoorthy",
+                    "given": "Sriram"
+                }
+            ],
+            "title": "Density Matrix Quantum Circuit Simulation via the BSP Machine on Modern GPU Clusters",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lykov",
+                    "given": "Danylo"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Angela"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Huaxuan"
+                },
+                {
+                    "family": "Keipert",
+                    "given": "Kristopher"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Zheng"
+                },
+                {
+                    "family": "Gibbs",
+                    "given": "Tom"
+                },
+                {
+                    "family": "Alexeev",
+                    "given": "Yuri"
+                }
+            ],
+            "title": "Performance Evaluation and Acceleration of the QTensor Quantum Circuit Simulator on GPUs",
+            "type": "chapter",
+            "container_title": [
+                "2021 IEEE/ACM Second International Workshop on Quantum Computing Software (QCS"
+            ],
+            "doi": "10.1109/QCS54837.2021.00007",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Markov",
+                    "given": "Igor L."
+                },
+                {
+                    "family": "Shi",
+                    "given": "Yaoyun"
+                }
+            ],
+            "title": "Simulating Quantum Computation by Contracting Tensor Networks",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Comput"
+            ],
+            "doi": "10.1137/050644756",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McCaskey",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Dumitrescu",
+                    "given": "Eugene"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Mengsu"
+                },
+                {
+                    "family": "Lyakh",
+                    "given": "Dmitry"
+                },
+                {
+                    "family": "Humble",
+                    "given": "Travis"
+                }
+            ],
+            "title": "Validating quantum-classical programming models with tensor network simulations",
+            "type": "article-journal",
+            "container_title": [
+                "PloS one"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McCaskey",
+                    "given": "Alexander J."
+                },
+                {
+                    "family": "Lyakh",
+                    "given": "Dmitry I."
+                },
+                {
+                    "family": "Dumitrescu",
+                    "given": "Eugene F."
+                },
+                {
+                    "family": "Powers",
+                    "given": "Sarah S."
+                },
+                {
+                    "family": "Humble",
+                    "given": "Travis S."
+                }
+            ],
+            "title": "XACC: a system-level software infrastructure for heterogeneous quantum-classical computing",
+            "type": "article-journal",
+            "container_title": [
+                "Quantum Science and Technology"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nielsen",
+                    "given": "Michael A."
+                },
+                {
+                    "family": "Chuang",
+                    "given": "Isaac L."
+                }
+            ],
+            "title": "Quantum Computation and Quantum Information",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2000"
+        },
+        {
+            "authors": [
+                {
+                    "given": "N.V.I.D.I.A."
+                }
+            ],
+            "title": "cuQuantum: Accelerate Quantum Information Science",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Or\u00fas",
+                    "given": "Rom\u00e1n"
+                }
+            ],
+            "title": "A practical introduction to tensor networks: Matrix product states and projected entangled pair states",
+            "type": "article-journal",
+            "container_title": [
+                "Annals of Physics"
+            ],
+            "doi": "10.1016/j.aop.2014.06.013",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Pan",
+                    "given": "Feng"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Pan"
+                }
+            ],
+            "title": "Simulating the Sycamore quantum supremacy circuits",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Paolo",
+                    "given": "Agustin",
+                    "particle": "Di"
+                },
+                {
+                    "family": "Baker",
+                    "given": "Thomas E."
+                },
+                {
+                    "family": "Foley",
+                    "given": "Alexandre"
+                },
+                {
+                    "family": "S\u00e9n\u00e9chal",
+                    "given": "David"
+                },
+                {
+                    "family": "Blais",
+                    "given": "Alexandre"
+                }
+            ],
+            "title": "Efficient modeling of superconducting quantum circuits with tensor networks",
+            "type": "article-journal",
+            "container_title": [
+                "npj Quantum Information"
+            ],
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Preskill",
+                    "given": "John"
+                }
+            ],
+            "title": "Quantum Computing in the NISQ era and beyond",
+            "type": "article-journal",
+            "container_title": [
+                "Quantum"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Reyes",
+                    "given": "Justin"
+                },
+                {
+                    "family": "Stoudenmire",
+                    "given": "Miles"
+                }
+            ],
+            "title": "A Multi-Scale Tensor Network Architecture for Classification and Regression",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roberts",
+                    "given": "Chase"
+                },
+                {
+                    "family": "Milsted",
+                    "given": "Ashley"
+                },
+                {
+                    "family": "Ganahl",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Zalcman",
+                    "given": "Adam"
+                },
+                {
+                    "family": "Fontaine",
+                    "given": "Bruce"
+                },
+                {
+                    "family": "Zou",
+                    "given": "Yijian"
+                },
+                {
+                    "family": "Hidary",
+                    "given": "Jack"
+                },
+                {
+                    "family": "Vidal",
+                    "given": "Guifre"
+                },
+                {
+                    "family": "Leichenauer",
+                    "given": "Stefan"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Y.-Y."
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shi",
+                    "given": "L.-M.Duan"
+                },
+                {
+                    "family": "Vidal",
+                    "given": "G."
+                }
+            ],
+            "title": "Classical simulation of quantum many-body systems with a tree tensor network",
+            "type": "article-journal",
+            "container_title": [
+                "Phys. Rev. A"
+            ],
+            "doi": "10.1103/PhysRevA.74.022320",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Villalonga",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Boixo",
+                    "given": "Sergio"
+                },
+                {
+                    "family": "Nelson",
+                    "given": "Bron"
+                },
+                {
+                    "family": "Henze",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Rieffel",
+                    "given": "Eleanor"
+                },
+                {
+                    "family": "Biswas",
+                    "given": "Rupak"
+                },
+                {
+                    "family": "Mandr\u00e0",
+                    "given": "Salvatore"
+                }
+            ],
+            "title": "A flexible high-performance simulator for verifying and benchmarking quantum circuits implemented on real hardware",
+            "type": "article-journal",
+            "container_title": [
+                "npj Quantum Information"
+            ],
+            "doi": "10.1038/s41534-019-0196-1",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Villalonga",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Lyakh",
+                    "given": "Dmitry"
+                },
+                {
+                    "family": "Boixo",
+                    "given": "Sergio"
+                },
+                {
+                    "family": "Neven",
+                    "given": "Hartmut"
+                },
+                {
+                    "family": "Humble",
+                    "given": "Travis S."
+                },
+                {
+                    "family": "Biswas",
+                    "given": "Rupak"
+                },
+                {
+                    "family": "Rieffel",
+                    "given": "Eleanor G."
+                },
+                {
+                    "family": "Ho",
+                    "given": "Alan"
+                },
+                {
+                    "family": "Mandr\u00e0",
+                    "given": "Salvatore"
+                }
+            ],
+            "title": "Establishing the quantum supremacy frontier with a 281 Pflop/s simulation",
+            "type": "article-journal",
+            "container_title": [
+                "Quantum Science and Technology"
+            ],
+            "doi": "10.1088/2058-9565/ab7eeb",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Vincent",
+                    "given": "Trevor"
+                },
+                {
+                    "family": "O'Riordan",
+                    "given": "Lee J."
+                },
+                {
+                    "family": "Andrenkov",
+                    "given": "Mikhail"
+                },
+                {
+                    "family": "Brown",
+                    "given": "Jack"
+                },
+                {
+                    "family": "Killoran",
+                    "given": "Nathan"
+                },
+                {
+                    "family": "Qi",
+                    "given": "Haoyu"
+                },
+                {
+                    "family": "Dhand",
+                    "given": "Ish"
+                }
+            ],
+            "title": "Jet: Fast quantum circuit simulations with parallel task-based tensor-network contraction",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2021"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Werner",
+                    "given": "Albert H."
+                },
+                {
+                    "family": "Jaschke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Silvi",
+                    "given": "Pietro"
+                },
+                {
+                    "family": "Kliesch",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Calarco",
+                    "given": "Tommaso"
+                },
+                {
+                    "family": "Eisert",
+                    "given": "Jens"
+                },
+                {
+                    "family": "Montangero",
+                    "given": "Simone"
+                }
+            ],
+            "title": "Positive tensor network approach for simulating open quantum many-body systems",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2016"
+        }
+    ]
+}

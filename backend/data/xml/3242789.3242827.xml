@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_VmKZRuJ" coord="1,66.96,72.10,478.17,16.65;1,252.50,92.80,107.11,16.65">Descriptive Epidemiology of Neonatal Mortality in Gowa District 2015</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,86.58,115.16,103.02,11.10"><forename type="first">Amalya</forename><forename type="middle">Rezky</forename><surname>Putri</surname></persName>
+							<email>amalyarp@gmail.com</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Faculty of Public Health, Hasanuddin University, Jl. Perintis Kemerdekaan Km. 10, Tamalanrea Indah, Tamalanrea, Tamalanrea Indah, Tamalanrea, Kota Makassar, Sulawesi Selatan 90245, Indonesia</note>
+								<orgName type="department">Faculty of Public Health</orgName>
+								<orgName type="institution">Hasanuddin University</orgName>
+								<address>
+									<addrLine>Jl. Perintis Kemerdekaan Km. 10, Tamalanrea Indah, Tamalanrea Indah</addrLine>
+									<postCode>90245</postCode>
+									<settlement>Tamalanrea, Tamalanrea, Kota Makassar, Sulawesi Selatan</settlement>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,266.00,115.16,80.00,11.10"><forename type="first">Jumriani</forename><surname>Ansar</surname></persName>
+							<email>jumriani.ansar@gmail.com</email>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Faculty of Public Health, Hasanuddin University, Jl. Perintis Kemerdekaan Km. 10, Tamalanrea Indah, Tamalanrea, Tamalanrea Indah, Tamalanrea, Kota Makassar, Sulawesi Selatan 90245, Indonesia</note>
+								<orgName type="department">Faculty of Public Health</orgName>
+								<orgName type="institution">Hasanuddin University</orgName>
+								<address>
+									<addrLine>Jl. Perintis Kemerdekaan Km. 10, Tamalanrea Indah, Tamalanrea Indah</addrLine>
+									<postCode>90245</postCode>
+									<settlement>Tamalanrea, Tamalanrea, Kota Makassar, Sulawesi Selatan</settlement>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,426.70,115.16,94.68,11.10"><forename type="first">Dian</forename><forename type="middle">Sidik</forename><surname>Arsyad</surname></persName>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Faculty of Public Health, Hasanuddin University, Jl. Perintis Kemerdekaan Km. 10, Tamalanrea Indah, Tamalanrea, Tamalanrea Indah, Tamalanrea, Kota Makassar, Sulawesi Selatan 90245, Indonesia</note>
+								<orgName type="department">Faculty of Public Health</orgName>
+								<orgName type="institution">Hasanuddin University</orgName>
+								<address>
+									<addrLine>Jl. Perintis Kemerdekaan Km. 10, Tamalanrea Indah, Tamalanrea Indah</addrLine>
+									<postCode>90245</postCode>
+									<settlement>Tamalanrea, Tamalanrea, Kota Makassar, Sulawesi Selatan</settlement>
+									<country key="ID">Indonesia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_FCBNUb3" coord="1,66.96,72.10,478.17,16.65;1,252.50,92.80,107.11,16.65">Descriptive Epidemiology of Neonatal Mortality in Gowa District 2015</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B30813BF4DF17BD8A0D8E2322F80F1BD</idno>
+					<idno type="DOI">10.1145/3242789.3242827</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-19T00:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_Q5hSBWb">Descriptive</term>
+					<term xml:id="_jGNBw67">epidemiology</term>
+					<term xml:id="_KdYh8cE">neonatal death</term>
+					<term xml:id="_futEueg">GIS</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_CCckUUK"><p xml:id="_vS27Fue"><s xml:id="_HTtewq6" coords="1,54.00,267.65,240.03,8.10;1,54.00,277.97,134.18,8.10">The aim of this study is to describe epidemiology of neonatal mortality in Gowa district 2015.</s><s xml:id="_VWXZhVq" coords="1,195.09,277.97,99.04,8.10;1,54.00,288.35,114.92,8.10">The study type was an observational descriptive study.</s><s xml:id="_stkskvJ" coords="1,171.47,288.35,122.45,8.10;1,54.00,298.67,239.97,8.10;1,54.00,309.05,20.25,8.10">The population for this study was all neonatal deaths had recorded in Gowa district health office in 2015.</s><s xml:id="_ASRYHUN" coords="1,77.14,309.05,216.83,8.10">Meanwhile, the sample sizes were 77 neonatal death cases.</s><s xml:id="_WQYcdKZ" coords="1,54.00,319.37,240.16,8.10;1,54.00,329.75,239.97,8.10;1,54.00,340.07,95.03,8.10">The point coordinates were determined by using geographic positioning system (GPS) and exported into geographic information system (GIS).</s><s xml:id="_FeQ67ga" coords="1,151.51,340.07,142.50,8.10;1,54.00,350.45,239.95,8.10;1,54.00,360.68,239.97,8.18;1,54.00,371.09,239.96,8.10">The result showed neonatal death cases occurred by maternal characteristics with received antenatal care visit (ANC) ≥ 4visits (71.2%), 2 times of tetanus toxoid (TT) vaccination (81.9%) and birth attendance by midwife (85.7%).</s><s xml:id="_sQWCqUF" coords="1,54.00,381.47,242.26,8.10">Based on infant characteristics occurred based on parity 1 (51.9%),</s><s xml:id="_sFVAbyX" coords="1,54.00,391.79,239.96,8.10;1,54.00,402.17,31.52,8.10">gestational age &lt; 37 weeks (64.9%), birth weight &lt; 2500 gram (54.2%).</s><s xml:id="_GpPZF2g" coords="1,90.47,402.17,203.46,8.10;1,54.00,412.49,79.71,8.10">The main cause of neonatal mortality was asphyxia neonatorum (45.5%).</s><s xml:id="_FWr6nSs" coords="1,138.90,412.49,155.18,8.10;1,54.00,422.89,144.25,8.10">The neonatal mortality was occurred at health centres (46.8%) and hospital (57.</s><s xml:id="_G22vbdt" coords="1,200.62,422.89,93.38,8.10;1,54.00,433.21,239.96,8.10;1,54.00,443.59,36.60,8.10">1%).The average distance from respondent house to the hospital respectively 19. 41 km and 19.94 km.</s><s xml:id="_HG3nsnV" coords="1,93.25,443.59,200.66,8.10;1,54.00,453.91,109.75,8.10">Most of neonatal mortality occurred in September with total of 12.52/1000 live births.</s><s xml:id="_FEjthhe" coords="1,166.04,453.91,127.96,8.10;1,54.00,464.29,142.67,8.10">The number of midwives should be increasing to reduce neonatal mortality.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_ECZU9uh">INTRODUCTION</head><p xml:id="_rG8CwmS"><s xml:id="_8ghF7jm" coords="1,54.00,555.37,240.03,8.10;1,54.00,565.75,152.63,8.10">Neonatal is period that infant adapted new environment from intrauterine life to extra-uterine life <ref type="bibr" coords="1,187.16,565.75,9.73,8.10" target="#b1">[1,</ref><ref type="bibr" coords="1,196.90,565.75,6.49,8.10" target="#b2">2]</ref>.</s><s xml:id="_4fTR5B6" coords="1,215.63,565.75,78.46,8.10;1,54.00,576.07,239.95,8.10;1,54.00,586.39,220.44,8.10">Each year, more than 4 million infants were died within first 4 weeks of their life, while 3 million deaths occurred in early neonatal period <ref type="bibr" coords="1,261.75,586.39,9.52,8.10" target="#b3">[3]</ref>.</s><s xml:id="_BX5YZNX" coords="1,279.98,586.39,14.21,8.10;1,317.92,253.85,240.07,8.10;1,317.92,264.17,83.81,8.10">The neonatal mortality was reduced from 4.7 million in 1990 to 2.8 million in 2013 <ref type="bibr" coords="1,389.04,264.17,9.52,8.10" target="#b4">[4]</ref>.</s><s xml:id="_4cDrT5Y" coords="1,408.46,264.17,149.50,8.10;1,317.92,274.55,174.63,8.10">Higher risk in neonatal mortality in developing countries than developed countries.</s><s xml:id="_88FhrAF" coords="1,496.00,274.55,61.87,8.10;1,317.92,284.87,226.12,8.10">There were 40% of neonatal mortality occurred in central Asia sub-regional <ref type="bibr" coords="1,531.35,284.87,9.52,8.10" target="#b3">[3]</ref>.</s></p><p xml:id="_g8MrJfE"><s xml:id="_bkATZRA" coords="1,317.92,301.25,239.93,8.10;1,317.92,311.57,157.59,8.10">In Indonesia, East Kalimantan had recorded lowest of neonatal mortality of 12 per 1000 live births <ref type="bibr" coords="1,462.82,311.57,9.52,8.10">[5]</ref>.</s><s xml:id="_wa8m7hQ" coords="1,480.09,311.57,77.72,8.10;1,317.92,321.95,240.08,8.10;1,317.92,332.27,118.86,8.10">Meanwhile, neonatal mortality cases were decreased from 820 cases in 2012 to 762 cases in 2014 in South Sulawesi.</s><s xml:id="_mScnj6a" coords="1,439.17,332.27,118.72,8.10;1,317.92,342.65,223.33,8.10">Gowa district was among largest contributor to neonatal mortality in South Sulawesi province.</s><s xml:id="_4y7estV" coords="1,543.93,342.65,14.00,8.10;1,317.92,352.97,239.98,8.10;1,317.92,363.35,226.36,8.10">The number of neonatal mortality cases has increased 48 cases (3.95 per 1000 live births) to 80 cases (8.11 per 1000 live births) <ref type="bibr" coords="1,531.59,363.35,9.52,8.10" target="#b6">[6]</ref>.</s></p><p xml:id="_4bE5V7v"><s xml:id="_VX4BdVk" coords="1,317.92,379.67,239.98,8.10;1,317.92,389.99,35.28,8.10">Few studies had been done to find out factors lead to neonatal mortality.</s><s xml:id="_JXXrKzx" coords="1,357.91,389.99,200.03,8.10;1,317.92,400.37,239.94,8.10">The studies were conducted in Gaza strip and Iran indicated prematurity was risk factor for neonatal mortality <ref type="bibr" coords="1,538.39,400.37,9.73,8.10">[7,</ref><ref type="bibr" coords="1,548.13,400.37,6.49,8.10">8]</ref>.</s><s xml:id="_Uh3VaUS" coords="1,317.92,410.69,240.09,8.10;1,317.92,421.09,131.93,8.10">In additions, low birth weight (LBW) and asphyxia also risk factors for neonatal mortality <ref type="bibr" coords="1,425.95,421.09,10.24,8.10" target="#b7">[9,</ref><ref type="bibr" coords="1,436.19,421.09,10.24,8.10" target="#b8">10]</ref>.</s><s xml:id="_HwcbWyE" coords="1,452.32,421.09,105.50,8.10;1,317.92,431.41,152.90,8.10">The LBW is very susceptible to health problems such as hypothermia.</s><s xml:id="_DMpQNu9" coords="1,474.57,431.41,83.35,8.10;1,317.92,441.79,239.95,8.10;1,317.92,452.11,96.45,8.10">Meanwhile, healthcare services and incomplete antenatal care also contributed to neonatal mortality <ref type="bibr" coords="1,385.85,452.11,14.26,8.10" target="#b9">[11,</ref><ref type="bibr" coords="1,400.11,452.11,10.70,8.10" target="#b10">12]</ref>.</s></p><p xml:id="_RCh62TE"><s xml:id="_CG4cFJY" coords="1,317.92,468.49,239.97,8.10;1,317.92,478.81,239.98,8.10;1,317.92,489.19,88.23,8.10">The studies showed risk factors for neonatal mortality had influenced neonatal factors, maternal factors, health care and socioeconomic factors.</s><s xml:id="_HJ6q8Fw" coords="1,413.61,489.19,144.34,8.10;1,317.92,499.51,239.98,8.10;1,317.92,509.89,35.28,8.10">However, there is a limitation on geographical description with GIS application on neonatal mortality.</s><s xml:id="_bGMNSVW" coords="1,358.09,509.89,199.83,8.10;1,317.92,520.21,148.38,8.10">This study was aimed to describe epidemiology of neonatal mortality in Gowa district 2015.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_PrXDzrU">METHODOLOGY 2.1 Study Type</head><p xml:id="_xPTmtfB"><s xml:id="_fDYMBcE" coords="1,317.92,564.19,239.99,8.10;1,317.92,574.51,25.75,8.10">This study was used observational research with descriptive design.</s><s xml:id="_JxU54p3" coords="1,353.54,574.51,204.46,8.10;1,317.92,584.89,219.51,8.10">All independent and dependent variables were systematically explored in both general and special data.</s><s xml:id="_rgPrWxa" coords="1,542.00,584.89,15.97,8.10;1,317.92,595.21,210.93,8.10">This study also used GIS method and mapping with using GPS.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_KPXDPMm">Location and Time</head><p xml:id="_2dnhR26"><s xml:id="_j9ZgCnC" coords="1,317.92,625.39,240.02,8.10;1,317.92,635.71,27.28,8.10">This study was conducted from February to March 2016 in Gowa district.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3" xml:id="_MVzazVF">Population and Sample</head><p xml:id="_QyHnS8D"><s xml:id="_mskvw6n" coords="1,317.92,665.89,240.08,8.10;1,317.92,676.21,182.01,8.10">In this study, the population were all neonatal mortality cases had recorded in Gowa district Health Office by 2015.</s><s xml:id="_fQ5pMXn" coords="1,502.93,676.21,54.93,8.10;1,317.92,686.59,239.98,8.10;1,317.92,696.93,69.38,8.10">The number of neonatal mortality had recorded in Gowa district Health Office in 2015 was 87 cases.</s><s xml:id="_9he762E" coords="1,389.70,696.93,168.25,8.10;1,317.92,707.31,108.93,8.10">The samples in this study was 77 cases by non probability sampling method.</s><s xml:id="_GnQ3kUV" coords="1,430.46,707.31,127.53,8.10;1,55.08,605.51,240.42,7.18;1,55.08,614.69,240.44,7.18;1,55.08,623.87,240.28,7.18;1,55.08,633.11,175.17,7.18">The criteria for being respondents Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.</s><s xml:id="_Ep4hmjJ" coords="1,232.91,633.11,62.71,7.18;1,55.08,642.29,240.37,7.18;1,55.08,651.47,103.64,7.18">To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee.</s></p><formula xml:id="formula_0" coords="1,55.08,661.61,24.40,7.18">ICHSM</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4" xml:id="_sEY8b5n">Data Processing and Data Analysis</head><p xml:id="_KMEtg9n"><s xml:id="_shN6qrb" coords="2,54.00,96.51,239.97,8.10;2,54.00,106.83,182.81,8.10">Data analysis was performed by using Microsoft Excel 2010, SPSS program version 16, Quantum GIS 2.14.1.</s><s xml:id="_NxtFTw9" coords="2,240.50,106.83,53.55,8.10;2,54.00,117.21,239.91,8.10;2,54.00,127.53,64.79,8.10">The univariate analysis was done for general description by using frequency distribution table.</s><s xml:id="_HzJfg5Q" coords="2,122.35,127.53,171.58,8.10;2,54.00,137.93,34.47,8.10">The geographical distribution was represented by QGIS.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_wjf8KHM">RESULT AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1" xml:id="_9ZeNDqY">Univariate Analysis</head><p xml:id="_fXBvGun"><s xml:id="_CqeFPbu" coords="2,54.00,181.85,240.08,8.10;2,54.00,192.23,239.95,8.10;2,54.00,202.55,84.22,8.10">Based on Table <ref type="table" coords="2,113.68,181.85,3.38,8.10" target="#tab_1">1</ref>, 52 respondents (71.2%) had more than 4 ANC visits and only 21 respondents (28.8%) had less than 4 ANC visits during their pregnancy.</s><s xml:id="_uEtphnh" coords="2,54.00,328.19,239.96,8.10;2,54.00,338.57,160.45,8.10">The spreading of neonatal mortality cases based on ANC visit frequency in Gowa district 2015 in Figure <ref type="figure" coords="2,207.70,338.57,3.38,8.10">1</ref>.</s><s xml:id="_fKj56Mx" coords="2,317.92,254.81,240.17,8.10;2,317.92,265.19,240.00,8.10;2,317.92,275.51,38.77,8.10">Based on Table <ref type="table" coords="2,383.28,254.81,3.38,8.10" target="#tab_4">3</ref>, most birth attendances were midwives, 66 respondents (85.7%) and 3 respondents (3.9%) had no birth attendants.</s><s xml:id="_daZ6e9n" coords="2,360.97,275.51,196.95,8.10;2,317.92,285.89,239.88,8.10;2,317.92,296.21,20.25,8.10">Meanwhile, Figure <ref type="figure" coords="2,435.75,275.51,4.50,8.10">3</ref> showed spreading of neonatal mortality cases based on birth attendances in Gowa district in 2015.</s><s xml:id="_KNhp9Wn" coords="3,120.33,392.69,173.82,8.10;3,54.00,403.07,239.92,8.10;3,54.00,413.39,108.23,8.10"><ref type="table" coords="3,120.33,392.69,3.38,8.10" target="#tab_7">5</ref>, There were 50 respondents (64.9%) were pregnant less than 37 weeks and 27 respondents (35.1%) were pregnant more than 37 weeks.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_XzhXzyg">Figure 1. Coverage map of neonatal mortality cases based on ANC visits in Gowa district 2015.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_AuG59Tv">Based on</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_4vsVh5S">Based on Table</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2" xml:id="_xxjmWXg">Overall Discussion</head><p xml:id="_jYwdWt3"><s xml:id="_2MnyVBS" coords="5,54.00,239.51,239.90,8.10;5,54.00,249.89,239.97,8.10">The result found 71.2% respondents had ANC visits more than 4 times and 28.8% of respondents had ANC visits less than 4 times.</s></p><p xml:id="_4amhEXt"><s xml:id="_yjyP7v4" coords="5,54.00,260.21,239.98,8.10;5,54.00,270.59,239.91,8.10;5,54.00,280.91,91.31,8.10">A study found pregnant women had ANC visit less than 4 times at risk of 7.3 times greater than pregnant women had ANC visits more than 4 times <ref type="bibr" coords="5,128.12,280.91,13.75,8.10" target="#b11">[13]</ref>.</s><s xml:id="_fTzPw8G" coords="5,149.39,280.91,144.47,8.10;5,54.00,291.29,64.47,8.10">The ANC behavior had influenced by various factors.</s><s xml:id="_5FasW8C" coords="5,129.74,291.29,164.23,8.10;5,54.00,301.61,240.01,8.10;5,54.00,311.99,172.38,8.10">In Kenya, maternal education level, socioeconomic, transportation and distance to health facilities had influenced pregnant women in ANC visits <ref type="bibr" coords="5,209.19,311.99,13.75,8.10" target="#b12">[14]</ref>.</s><s xml:id="_aZen93E" coords="5,228.79,311.99,65.11,8.10;5,54.00,322.31,186.45,8.10">The lack in health facilities also contributed in neonatal mortality.</s><s xml:id="_E5VBy8Y" coords="5,245.88,322.31,48.20,8.10;5,54.00,332.69,239.92,8.10;5,54.00,343.01,158.62,8.10">In additions, inappropriate neonatal care due to lack of maternal knowledge also increase risk in neonatal mortality <ref type="bibr" coords="5,195.43,343.01,13.75,8.10" target="#b13">[15]</ref>.</s></p><p xml:id="_4RDsqDE"><s xml:id="_3VRDCmC" coords="5,54.00,359.39,240.03,8.10;5,54.00,369.71,149.87,8.10">In this study, 81.9% of respondents had TT vaccination for 2 times during their pregnancy period.</s><s xml:id="_ShVxuJR" coords="5,210.85,369.71,83.23,8.10;5,54.00,380.09,239.98,8.10;5,54.00,390.41,191.66,8.10">This vaccination has prevented infants from tetanus neonatorum but not for other death causes included asphyxia neonatorum and LBW.</s><s xml:id="_MkjPmWF" coords="5,251.13,390.41,42.87,8.10;5,54.00,400.79,207.53,8.10">The proper medical handling could reduce birth complications <ref type="bibr" coords="5,244.34,400.79,13.75,8.10" target="#b14">[16]</ref>.</s><s xml:id="_2FBnEKJ" coords="5,264.72,400.79,29.21,8.10;5,54.00,411.11,240.08,8.10;5,54.00,421.51,239.85,8.10">Most of birth attendances were midwives and lowest of birth attendances were traditional healer and friend or family members with 2.6%.</s><s xml:id="_m3vZT3W" coords="5,54.00,431.83,239.98,8.10;5,54.00,442.21,84.52,8.10">In this study, most pregnant women are assisted by health workers in their birth delivery.</s><s xml:id="_CHETn4V" coords="5,142.56,442.21,151.36,8.10;5,54.00,452.53,231.69,8.10">The neonatal mortality had high risk in birth delivery with health workers than non-health workers <ref type="bibr" coords="5,268.48,452.53,13.77,8.10" target="#b15">[17]</ref>.</s></p><p xml:id="_tRDgagU"><s xml:id="_PvrwMAj" coords="5,54.00,468.85,240.04,8.10;5,54.00,479.23,239.95,8.10;5,54.00,489.55,172.95,8.10">Besides, 33.8% of respondents had parity of 2-3 and 14.3 % of respondents had parity more than 4. The parity 2 or 3 is safest parity in maternal and perinatal mortality <ref type="bibr" coords="5,209.76,489.55,13.75,8.10" target="#b16">[18]</ref>.</s><s xml:id="_YngXxcH" coords="5,230.14,489.55,63.76,8.10;5,54.00,499.93,172.57,8.10">High parity more than 3 had high risk in maternal mortality rate.</s><s xml:id="_Jk5TJ75" coords="5,229.44,499.93,64.70,8.10;5,54.00,510.25,102.79,8.10">High parity could prevent by family planning.</s><s xml:id="_FHMcCwV" coords="5,160.06,510.25,133.87,8.10;5,54.00,520.63,39.74,8.10">Some pregnancies at high parity are unplanned.</s><s xml:id="_BWJUZ9d" coords="5,99.81,520.63,194.15,8.10;5,54.00,530.95,176.37,8.10">Besides, repetitive pregnancy and childbirth also caused damage to blood vessels in uterine lining.</s></p><p xml:id="_sZFnrdV"><s xml:id="_xxwfDzC" coords="5,54.00,547.33,240.04,8.10;5,54.00,557.65,239.99,8.10;5,54.00,568.03,75.51,8.10">The result also showed 64.9% of respondents had gestational age less than 37 weeks and 35.1% of respondents had gestational age more than 37 weeks.</s><s xml:id="_9xDT9GX" coords="5,132.17,568.03,161.81,8.10;5,54.00,578.35,158.55,8.10">In Kenya, premature infants had high risk in neonatal mortality shortly after birth <ref type="bibr" coords="5,195.36,578.35,13.75,8.10" target="#b17">[19]</ref>.</s><s xml:id="_xsgUAbK" coords="5,216.52,578.35,77.45,8.10;5,54.00,588.73,240.12,8.10;5,54.00,599.05,200.24,8.10">Based on this study, 54.25% of respondents had LBW less than 2500 gram and 45.8% of respondents had birth weight more than 2500 gram.</s><s xml:id="_BgasYJq" coords="5,257.13,599.05,36.79,8.10;5,54.00,609.43,239.96,8.10;5,54.00,619.75,118.45,8.10">The LBW had high tendency toward in birth complications such as jaundice, hypoglycemia and hypothermia.</s><s xml:id="_eV8pmTU" coords="5,175.85,619.75,118.13,8.10;5,54.00,630.13,240.16,8.10;5,54.00,640.45,86.44,8.10">In Cameroon, infants had LBW had 1.6 times greater risk in neonatal mortality than infants had normal birth weight <ref type="bibr" coords="5,127.75,640.45,9.52,8.10" target="#b7">[9]</ref>.</s></p><p xml:id="_CvG3ZUt"><s xml:id="_VK3WFnb" coords="5,54.00,656.83,240.04,8.10;5,54.00,667.15,185.62,8.10">Furthermore, the result found most common cause of neonatal mortality was neonatal asphyxia which was 45.5%.</s><s xml:id="_KQ9vRF3" coords="5,242.09,667.15,54.13,8.10;5,54.00,677.53,239.95,8.10;5,54.00,687.85,28.47,8.10">In Bangladesh, highest neonatal mortality cases were due to asphyxia neonatorum <ref type="bibr" coords="5,54.00,687.85,14.23,8.10" target="#b18">[20,</ref><ref type="bibr" coords="5,68.23,687.85,10.68,8.10" target="#b19">21]</ref>.</s><s xml:id="_kXtvVNa" coords="5,86.50,687.85,207.56,8.10;5,54.00,698.25,240.03,8.10;5,54.00,708.57,65.66,8.10">In additions, insufficient monitoring by health workers was among factors associated with asphyxia-induced mortality in South Africa <ref type="bibr" coords="5,102.51,708.57,13.72,8.10" target="#b20">[22]</ref>.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,54.00,694.09,239.99,8.10;2,54.00,704.49,166.36,8.10"><head>Figure 2</head><label>2</label><figDesc><div><p xml:id="_GyFna5c"><s xml:id="_yCnk2R2" coords="2,54.00,694.09,239.99,8.10;2,54.00,704.49,166.36,8.10">Figure 2 had described spreading of neonatal mortality based on TT vaccination during their pregnancy period.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="2,321.22,230.33,233.40,8.10;2,365.50,240.65,145.01,8.10"><head>Figure 2 .</head><label>2</label><figDesc><div><p xml:id="_c3nD3NJ"><s xml:id="_TAUVFGr" coords="2,321.22,230.33,233.40,8.10;2,365.50,240.65,145.01,8.10">Figure 2. Coverage map of neonatal mortality cases based on TT vaccination in Gowa district 2015.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="3,57.30,368.21,233.49,8.10;3,118.94,378.53,110.25,8.10"><head>Figure 4 .</head><label>4</label><figDesc><div><p xml:id="_p7mdYGA"><s xml:id="_4MeYBMV" coords="3,57.30,368.21,233.49,8.10;3,118.94,378.53,110.25,8.10">Figure 4. Coverage map of neonatal mortality cases based on parity in Gowa district 2015.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="5,65.04,201.23,217.94,8.10;5,103.04,211.55,142.05,8.10"><head>Figure 10 .</head><label>10</label><figDesc><div><p xml:id="_UXUNFVW"><s xml:id="_Rvwgzbc" coords="5,65.04,201.23,39.05,8.10">Figure 10.</s><s xml:id="_wEPASj4" coords="5,106.33,201.23,176.65,8.10;5,103.04,211.55,142.05,8.10">Distribution of respondents based on neonatal mortality time in Gowa district 2015.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="2,54.00,219.11,230.90,102.84"><head>Table 1 . Distribution of respondent based on frequency of ANC visits in Gowa district 2015.</head><label>1</label><figDesc xml:id="_X84ytp2"></figDesc><table coords="2,54.00,244.31,213.61,77.64"><row><cell>ANC visit</cell><cell>n</cell><cell>%</cell></row><row><cell>frequency</cell><cell></cell><cell></cell></row><row><cell>&lt;4 times</cell><cell>21</cell><cell>28.8</cell></row><row><cell>≥4 times</cell><cell>52</cell><cell>71.2</cell></row><row><cell>Total</cell><cell>73</cell><cell>100.0</cell></row><row><cell>Source: Primary data, 2016</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="2,54.00,568.45,240.02,18.48"><head>Table 2 ,</head><label>2</label><figDesc><div><p xml:id="_6C3Z9rB"><s xml:id="_GUVDFhg" coords="2,124.28,568.45,169.74,8.10;2,54.00,578.83,209.60,8.10">There were 59 respondents had 2 times of TT vaccination and 13 respondents had only once vaccination</s></p></div></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="2,54.00,595.33,234.98,92.52"><head>Table 2 . Distribution of respondent based TT vaccination in Gowa district 2015.</head><label>2</label><figDesc xml:id="_NE7mRft"></figDesc><table coords="2,61.02,620.53,206.59,52.50"><row><cell>TT vaccination</cell><cell>n</cell><cell>%</cell></row><row><cell>1</cell><cell>13</cell><cell>18.1</cell></row><row><cell>2</cell><cell>59</cell><cell>81.9</cell></row><row><cell>Total</cell><cell>72</cell><cell>100.0</cell></row></table><note coords="2,54.00,679.75,98.54,8.10"><p xml:id="_tExqmGM"><s xml:id="_YutWmA8" coords="2,54.00,679.75,98.54,8.10">Source: Primary data, 2016</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="2,317.92,312.77,218.32,326.90"><head>Table 3 . Distribution of respondents based on birth attendance in Gowa district 2015.</head><label>3</label><figDesc xml:id="_wc6UWu2"></figDesc><table coords="2,317.92,337.97,213.61,301.70"><row><cell>Birth attendant</cell><cell>n</cell><cell>%</cell></row><row><cell>Obstetricians</cell><cell>4</cell><cell>5.2</cell></row><row><cell>Midwives</cell><cell>66</cell><cell>85.7</cell></row><row><cell>Traditional healer</cell><cell>2</cell><cell>2.6</cell></row><row><cell>Friend/family</cell><cell>2</cell><cell>2.6</cell></row><row><cell>No birth attendance</cell><cell>3</cell><cell>3.9</cell></row><row><cell>Total</cell><cell>77</cell><cell>100.0</cell></row><row><cell>Source: Primary data, 2016</cell><cell></cell><cell></cell></row><row><cell>Figure 3.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="2,317.92,631.57,240.07,53.34"><head>Coverage map of neonatal mortality cases based on birth attendances in Gowa district 2015.</head><label></label><figDesc xml:id="_nVqttjH"></figDesc><table coords="2,317.92,656.11,240.07,28.80"><row><cell>Based on Table 4, Most of respondents had parity 2-3, 59</cell></row><row><cell>respondents (33.8%) and 11 respondents (14.3%) had parity more</cell></row><row><cell>than 4.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="3,54.00,56.19,239.94,132.08"><head>Table 4 . Distribution of respondent based parity in Gowa district 2015.</head><label>4</label><figDesc xml:id="_prG3T7m"></figDesc><table coords="3,54.00,81.39,239.94,106.88"><row><cell>Parity</cell><cell>n</cell><cell>%</cell></row><row><cell>1</cell><cell>40</cell><cell>51.9</cell></row><row><cell>2-3</cell><cell>59</cell><cell>33.8</cell></row><row><cell>≥4</cell><cell>11</cell><cell>14.3</cell></row><row><cell>Total</cell><cell>77</cell><cell>100.0</cell></row><row><cell>Source: Primary data, 2016</cell><cell></cell><cell></cell></row><row><cell cols="3">Figure 4 was described spreading of neonatal mortality cases</cell></row><row><cell cols="2">based on parity in Gowa district 2015.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="3,54.00,56.19,301.73,490.96"><head>Table 5 . Distribution of respondent based gestational age in Gowa district 2015.</head><label>5</label><figDesc xml:id="_vJNfXjy"></figDesc><table coords="3,54.00,455.17,239.94,91.98"><row><cell>Gestational age</cell><cell>n</cell><cell>%</cell></row><row><cell>&lt; 37 weeks</cell><cell>50</cell><cell>64.9</cell></row><row><cell>≥37 weeks</cell><cell>27</cell><cell>35.1</cell></row><row><cell>Total</cell><cell>77</cell><cell>100.0</cell></row><row><cell>Source: Primary data, 2016</cell><cell></cell><cell></cell></row><row><cell cols="3">Figure 5 had described the spreading of neonatal mortality cases</cell></row><row><cell cols="2">based on gestational age in Gowa district in 2015.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" coords="3,317.92,56.19,240.06,53.34"><head>Coverage map of neonatal mortality cases based on gestational age in Gowa district 2015.</head><label></label><figDesc><div><p><s xml:id="_RcVuB3z" coords="3,317.92,80.73,240.06,8.10;3,317.92,91.05,239.99,8.10;3,317.92,101.43,106.24,8.10">Based on Table6, More than half of respondents (54.2%) had birth weight lower than 2500 gram and 33 respondents had birth weight more than 2500 gram.</s></p></div></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9" coords="3,317.92,117.93,239.96,307.06"><head>Table 6 . Distribution of respondent based birth weight in Gowa district 2015.</head><label>6</label><figDesc xml:id="_TrNzRbM"></figDesc><table coords="3,317.92,143.15,239.96,281.84"><row><cell>Birth weight</cell><cell>n</cell><cell>%</cell></row><row><cell>&lt; 2500 gram</cell><cell>39</cell><cell>64.9</cell></row><row><cell>≥2500 gram</cell><cell>33</cell><cell>45.8</cell></row><row><cell>Total</cell><cell>72</cell><cell>100.0</cell></row><row><cell>Source: Primary data, 2016</cell><cell></cell><cell></cell></row><row><cell cols="3">Figure 6 showed spreading of neonatal mortality cases based on</cell></row><row><cell>birth weight in Gowa district.</cell><cell></cell><cell></cell></row><row><cell>Figure 6.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10" coords="3,317.92,416.89,239.98,53.34"><head>Coverage map of neonatal mortality cases based on birth weight in Gowa district 2015.</head><label></label><figDesc xml:id="_X3MUw4B"></figDesc><table coords="3,317.92,441.43,239.98,28.80"><row><cell>Based on Table 7, Most of neonatal mortality was asphyxia</cell></row><row><cell>neonatorum, 35 cases (45.5%) and 2 cases (2.6%) had recorded</cell></row><row><cell>was due to neonatal tetanus.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11" coords="3,317.92,478.69,239.94,182.46"><head>Table 7 . Distribution of respondents based on death causes in Gowa district 2015.</head><label>7</label><figDesc xml:id="_9cwCqB9"></figDesc><table coords="3,317.92,503.89,239.94,157.26"><row><cell>Death causes</cell><cell>n</cell><cell>%</cell></row><row><cell>Low birth weight</cell><cell>26</cell><cell>33.8</cell></row><row><cell>Asphyxia</cell><cell>35</cell><cell>45.5</cell></row><row><cell>neonatorum</cell><cell></cell><cell></cell></row><row><cell>Congenital</cell><cell>8</cell><cell>10.4</cell></row><row><cell>abnormalities</cell><cell></cell><cell></cell></row><row><cell>Neonatal sepsis</cell><cell>6</cell><cell>7.8</cell></row><row><cell>Neonatal tetanus</cell><cell>2</cell><cell>2.6</cell></row><row><cell>Total</cell><cell>77</cell><cell>100.0</cell></row><row><cell>Source: Primary data, 2016</cell><cell></cell><cell></cell></row><row><cell cols="3">Figure 7 was described spreading of neonatal mortality cases</cell></row><row><cell cols="2">based on death causes in Gowa district.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12" coords="4,54.00,335.51,234.23,347.30"><head>Table 8 . Distribution of respondents based on birth place in Gowa district 2015.</head><label>8</label><figDesc xml:id="_gwfZmpp"></figDesc><table coords="4,54.00,360.71,224.77,322.10"><row><cell>Birth place</cell><cell>n</cell><cell>%</cell></row><row><cell>House</cell><cell>19</cell><cell>24.7</cell></row><row><cell>Hospital</cell><cell>9</cell><cell>11.7</cell></row><row><cell>Maternity hospital</cell><cell>1</cell><cell>1.3</cell></row><row><cell>Community health center</cell><cell>36</cell><cell>46.8</cell></row><row><cell>(Puskesmas)/ auxiliary public</cell><cell></cell><cell></cell></row><row><cell>health center (Pustu)</cell><cell></cell><cell></cell></row><row><cell>Midwives practice</cell><cell>12</cell><cell>15.6</cell></row><row><cell>Total</cell><cell>77</cell><cell>100.0</cell></row><row><cell>Source: Primary data, 2016</cell><cell></cell><cell></cell></row><row><cell>Figure 8.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13" coords="4,94.05,56.01,463.95,637.18"><head>Coverage map of neonatal mortality cases based on birth places in Gowa district 2015.</head><label></label><figDesc xml:id="_QPypw5D"></figDesc><table coords="4,317.92,56.01,240.08,28.80"><row><cell>Based on Table 9, Most neonatal mortality occurred in hospital</cell></row><row><cell>were 44 respondents (57.1%) and lowest neonatal mortality</cell></row><row><cell>occurred at midwives practice, 4 respondents (5.2%).</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14" coords="4,317.68,93.21,240.23,357.88"><head>Table 9 . Distribution of respondents based on neonatal mortality location in Gowa district 2015.</head><label>9</label><figDesc xml:id="_34DcuYR"></figDesc><table coords="4,317.68,118.41,240.23,332.68"><row><cell>Neonatal mortality location</cell><cell>n</cell><cell>%</cell></row><row><cell>House</cell><cell>13</cell><cell>16.9</cell></row><row><cell>Hospital</cell><cell>44</cell><cell>57.1</cell></row><row><cell>Puskesmas/Pustu</cell><cell>16</cell><cell>20.8</cell></row><row><cell>Midwives practice</cell><cell>4</cell><cell>5.2</cell></row><row><cell>Total</cell><cell>77</cell><cell>100.0</cell></row><row><cell>Source: Primary data, 2016</cell><cell></cell><cell></cell></row><row><cell cols="3">Figure 9 had described spreading of neonatal mortality based on</cell></row><row><cell cols="2">neonatal mortality location in Gowa district.</cell><cell></cell></row><row><cell>Figure 9.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_15" coords="4,317.92,442.99,240.04,73.98"><head>Coverage map of neonatal mortality cases based on neonatal mortality location in Gowa district 2015 Based onTable 10 ,</head><label>10</label><figDesc><div><p xml:id="_d6yS93E"><s xml:id="_RBVS2H6" coords="4,397.72,467.47,160.24,8.10;4,317.92,477.85,239.99,8.10;4,317.92,488.17,32.10,8.10">The minimum distance for respondents to reach Syed Yusuf and Thalia Irham hospitals were 0.53 km and 1.15 km.</s><s xml:id="_D6GBApQ" coords="4,352.67,488.08,205.20,8.19;4,317.92,498.55,144.69,8.10">Meanwhile, longest distance from respondent's house to hospital were 54.45 km and 58.12 km.</s><s xml:id="_Abq5Z75" coords="4,465.98,498.55,91.86,8.10;4,317.92,508.87,159.82,8.10">The average distance for both hospitals were 19.41 km and 19.94 km.</s></p></div></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_16" coords="4,317.92,525.43,240.04,179.30"><head>Table 10 . Distribution of respondents based on distance to hospital in Gowa district 2015</head><label>10</label><figDesc xml:id="_ctnHJxc"></figDesc><table coords="4,317.92,550.63,240.04,123.06"><row><cell>Hospital</cell><cell>n</cell><cell>Min</cell><cell>Max</cell><cell cols="2">Distance (km) Median Mean</cell><cell>SD</cell></row><row><cell>Syekh Yusuf</cell><cell>77</cell><cell cols="2">0.53 54.45</cell><cell>13.27</cell><cell cols="2">19.41 17.23</cell></row><row><cell>Thalia Irham</cell><cell></cell><cell cols="2">1.15 58.12</cell><cell>12.42</cell><cell cols="2">19.94 18.51</cell></row><row><cell cols="3">Source: Primary data, 2016</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="7">Figure 10 showed distribution of respondents by time (months) of</cell></row><row><cell cols="7">neonatal mortality in Gowa district. The time is months of</cell></row><row><cell cols="7">neonatal mortality which obtained from Puskesmas or hospital.</cell></row></table><note coords="4,317.92,675.91,239.93,8.10;4,317.92,686.29,239.99,8.10;4,317.92,696.63,138.37,8.10"><p xml:id="_3wtFPvd"><s xml:id="_HHvMhfa" coords="4,317.92,675.91,239.93,8.10;4,317.92,686.29,239.99,8.10;4,317.92,696.63,138.37,8.10">Highest neonatal mortality rate occurred in September at 12.52 per 1000 live births and lowest neonatal mortality occurred in December at 2.10 per 1000 live births.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_17" coords="5,68.75,56.01,491.43,661.32"><head></head><label></label><figDesc><div><p><s xml:id="_PA5NmCp" coords="5,317.92,56.01,239.90,8.10;5,317.92,66.33,239.94,8.10;5,317.92,76.71,240.05,8.10;5,317.92,87.03,239.90,8.10;5,317.92,97.41,153.87,8.10;5,317.92,113.73,240.00,8.10;5,317.92,124.11,239.94,8.10;5,317.92,134.45,239.89,8.10;5,317.92,144.83,239.93,8.10;5,317.92,155.15,239.97,8.10;5,317.92,165.53,240.03,8.10;5,317.92,175.85,240.01,8.10;5,317.92,186.23,136.58,8.10;5,317.92,216.35,240.04,8.10;5,317.92,226.64,240.10,8.19;5,317.92,237.05,239.93,8.10">[23]e were 46.8% of respondents preferred Puskesmas or Pustu as their birth delivery and only 1.3% of respondents preferred birth delivery at maternity hospital.The factors in consideration of birth delivery place included budget, distance to health centers, health facilities, health services and environment.The result showed most neonatal mortality cases occurred in the hospital and lowest neonatal mortality cases occurred in midwifery practices.The neonatal mortality occurred was due to late in access to health centers.The short distance from house to Syekh Yusuf Hospital and Thalia Irham Hospital were 0.53 km and 1.15 km and longest distance were 54.45 km and 58.13 km.In Malawi and Zambia, a study found distance to health care facilities with neonatal mortality[23].In conclusions, the neonatal mortality cases occurred by maternal characteristics with received ANC ≥ 4visits (71.2%), 2 times of TT vaccination (81.9%) and birth attendance by midwife (85.7%).</s><s xml:id="_UbZrwQc" coords="5,317.92,247.43,242.26,8.10">Based on infant characteristics occurred based on parity 1 (51.9%),</s><s xml:id="_rVjY25p" coords="5,317.92,257.75,239.96,8.10;5,317.92,268.13,31.52,8.10">gestational age &lt; 37 weeks (64.9%), birth weight &lt; 2500 gram (54.2%).</s><s xml:id="_AcSXBjA" coords="5,354.39,268.13,203.62,8.10;5,317.92,278.45,79.68,8.10">The main cause of neonatal mortality was asphyxia neonatorum (45.5%).</s><s xml:id="_DTU3hrj" coords="5,402.78,278.45,155.18,8.10;5,317.92,288.83,161.47,8.10">The neonatal mortality was occurred at health centres (46.8%) and hospital (57.1%).</s><s xml:id="_aYpCrNG" coords="5,481.74,288.83,76.16,8.10;5,317.92,299.15,205.71,8.10">The average distance to the hospital respectively 19. 41 km and 19.94 km.</s><s xml:id="_DXXyefN" coords="5,527.78,299.15,30.10,8.10;5,317.92,309.53,240.14,8.10;5,317.92,319.85,41.04,8.10">Most of neonatal mortality occurred in September with total of 12.52/1000 live births.</s><s xml:id="_dFeH3Qb" coords="5,363.77,319.85,194.14,8.10;5,317.92,330.23,98.60,8.10">The number of midwives should be increasing to reduce neonatal mortality.</s><s xml:id="_dVQHwz2" coords="5,420.93,330.23,136.98,8.10;5,317.92,340.55,240.17,8.10;5,317.92,350.93,138.65,8.10">Besides, Puskesmas should improve antenatal care quality, 24 hours delivery service and post-natal service in reducing neonatal mortality.</s><s xml:id="_4PysS3S" coords="5,317.92,653.47,111.26,8.10">[7] El Awour, I. et al. (2012).</s><s xml:id="_CJeYMWP" coords="5,431.47,653.47,115.92,8.10;5,335.92,663.79,209.40,8.10;5,335.92,674.17,111.48,8.10">Determinants and risk factors of neonatal mortality in the Gaza Strip, Occupied Palestinian Territory: a case-control study.</s><s xml:id="_KkVJUbZ" coords="5,449.68,674.17,95.95,8.10">The Lancet, 380, S25-S26.</s></p></div></figDesc><table coords="5,68.75,61.67,344.75,152.63"><row><cell>Neonatal MOrtality</cell><cell>0 5 10 15</cell><cell>10.28 10.02 4.13 6.16 3.48 4.51 7.49 4.45 12.52 5.54</cell><cell>2.9 2.1</cell></row><row><cell></cell><cell></cell><cell>Month</cell><cell></cell></row><row><cell></cell><cell></cell><cell>per 1000 live births</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>4. CONCLUSION</cell></row></table><note coords="5,317.92,688.51,235.88,8.10;5,335.92,698.85,182.44,8.10;5,335.92,709.23,120.51,8.10"><p xml:id="_PFj9mDm"><s xml:id="_spZQ9zF" coords="5,317.92,688.51,108.99,8.10">[8] Chaman, R. et al. (2014).</s><s xml:id="_6sD2Mce" coords="5,429.20,688.51,124.61,8.10;5,335.92,698.85,99.49,8.10">Consanguinity and neonatal death: a nested case-control study.</s><s xml:id="_2TcNAJT" coords="5,437.63,698.85,80.73,8.10;5,335.92,709.23,120.51,8.10">Journal of Family and Reproductive Health, 8, 189-193.</s></p></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="5,322.42,368.20,90.37,10.80" xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><surname>References</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">REFERENCES</note>
+</biblStruct>
+
+<biblStruct coords="5,335.92,381.05,198.57,8.10;5,335.92,391.43,211.78,8.10;5,335.92,401.75,192.39,8.10;5,335.92,412.13,86.25,8.10;5,335.92,422.47,151.40,8.10" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="5,477.08,381.05,57.41,8.10;5,335.92,391.43,211.78,8.10;5,335.92,401.75,100.67,8.10" xml:id="_ahP2Uvr">Childcare in the neonatal period: evaluation of neonatal mortality reduction pact in Rio Grande do Norte</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">M</forename><surname>Ferreira Pinheiro</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/141381232015211.09912014</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_SG9XKQg" coord="5,468.83,401.75,59.48,8.10;5,335.92,412.13,30.00,8.10">Ciencia &amp; Saude Coletiva</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="243" to="252" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Brazil</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferreira Pinheiro, J. M. et al. (2015). Childcare in the neonatal period: evaluation of neonatal mortality reduction pact in Rio Grande do Norte. Brazil.Ciencia &amp; Saude Coletiva,21(1),243-252. doi:10.1590/141381232015211.09912014</note>
+</biblStruct>
+
+<biblStruct coords="5,335.92,436.81,214.70,8.10;5,335.92,447.19,192.53,8.10;5,335.92,457.51,148.22,8.10;5,335.92,467.89,90.73,8.10" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="5,432.15,436.81,118.46,8.10;5,335.92,447.19,148.91,8.10" xml:id="_nTyYPje">Factors of neo-natal morbidity at the Provincial Hospital Centre of Missour</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Doukkali</surname></persName>
+		</author>
+		<idno type="DOI">10.4236/jbm.2016.45005</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_yjaWA8k" coord="5,491.22,447.19,37.23,8.10;5,335.92,457.51,94.96,8.10">Journal of Biosciences and Medicines</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="48" to="57" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doukkali, L. et al. (2016). Factors of neo-natal morbidity at the Provincial Hospital Centre of Missour. Journal of Biosciences and Medicines,4, 48-57. doi: 10.4236/jbm.2016.45005</note>
+</biblStruct>
+
+<biblStruct coords="5,335.92,482.23,214.24,8.10;5,335.92,492.55,222.08,8.10;5,335.92,502.93,17.50,8.10;5,335.92,513.25,221.94,8.10;5,335.92,523.63,31.79,8.10" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" coord="5,465.16,482.23,85.00,8.10;5,335.92,492.55,181.21,8.10" xml:id="_UNBaGwH">Neonatal and Perinatal Mortality: Country, Regional and global estimates</title>
+		<ptr target="http://apps.who.int/iris/bitstream/10665/43444/1/9241563206_eng.pdf" />
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">World Health Organization (2006). Neonatal and Perinatal Mortality: Country, Regional and global estimates. Retrieved from http://apps.who.int/iris/bitstream/10665/43444/1/9241563206 _eng.pdf</note>
+</biblStruct>
+
+<biblStruct coords="5,335.92,537.97,212.91,8.10;5,335.92,548.29,210.50,8.10;5,335.92,558.67,185.71,8.10;5,335.92,568.99,89.26,8.10" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="5,412.66,537.97,136.17,8.10;5,335.92,548.29,210.50,8.10;5,335.92,558.67,16.20,8.10" xml:id="_AAVVheV">Neonatal cause-of-death estimates for the early and late neonatal periods for 194 countries:2000-2013</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Oza</surname></persName>
+		</author>
+		<idno type="DOI">10.2471/BLT.14.139790</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Fh4BRv4" coord="5,358.48,558.67,103.57,8.10">Bulletin World Health Organ</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="19" to="28" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oza, S. et al. (2015). Neonatal cause-of-death estimates for the early and late neonatal periods for 194 countries:2000- 2013. Bulletin World Health Organ, 93, 19-28. doi: 10.2471/BLT.14.139790</note>
+</biblStruct>
+
+<biblStruct coords="5,335.92,583.33,212.74,8.10;5,335.92,593.71,214.94,8.10;5,335.92,604.03,72.46,8.10" xml:id="b5">
+	<monogr>
+		<title level="m" type="main" coord="5,527.70,583.33,20.96,8.10;5,335.92,593.71,73.70,8.10" xml:id="_Zxnh4Ex">Profil kesehatan Indonesia</title>
+		<imprint>
+			<date type="published" when="2012">2013. 2012</date>
+			<publisher>Kementerian Kesehatan Republik Indonesia</publisher>
+			<pubPlace>Jakarta</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kementerian Kesehatan Republik Indonesia. (2013). Profil kesehatan Indonesia 2012. Jakarta: Kementerian Kesehatan Republik Indonesia.</note>
+</biblStruct>
+
+<biblStruct coords="5,335.92,618.43,210.52,8.10;5,335.92,628.75,222.06,8.10;5,335.92,639.13,95.77,8.10" xml:id="b6">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">Dinas</forename><surname>Kesehatan</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Provinsi</forename><surname>Sulawesi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Selatan</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_RmkPfh2" coord="5,525.48,618.43,20.96,8.10;5,335.92,628.75,99.50,8.10">Profil kesehatan Sulawesi Selatan</title>
+		<title level="s" xml:id="_5eRa7Ve" coord="5,497.48,628.75,60.50,8.10;5,335.92,639.13,92.17,8.10">Dinas Kesehatan Provinsi Sulawesi Selatan</title>
+		<meeting><address><addrLine>Makassar</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2015. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dinas Kesehatan Provinsi Sulawesi Selatan. (2015). Profil kesehatan Sulawesi Selatan 2014. Makassar:Dinas Kesehatan Provinsi Sulawesi Selatan.</note>
+</biblStruct>
+
+<biblStruct coords="6,72.00,56.01,220.40,8.10;6,72.00,66.33,200.41,8.10;6,72.00,76.71,203.33,8.10" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="6,159.79,56.01,132.62,8.10;6,72.00,66.33,196.78,8.10" xml:id="_ZSRepE2">Risk factors for neonatal mortality at the Yaounde Gynaeco-Obstetric and Pediatric Hospital</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Chiabi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_My3UrHE" coord="6,72.00,76.71,151.76,8.10">Cameroon. Iranian journal of Pediatrics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="393" to="400" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chiabi, A. et al. (2014). Risk factors for neonatal mortality at the Yaounde Gynaeco-Obstetric and Pediatric Hospital, Cameroon. Iranian journal of Pediatrics, 24, 393-400.</note>
+</biblStruct>
+
+<biblStruct coords="6,72.00,91.05,215.94,8.10;6,72.00,101.43,210.77,8.10" xml:id="b8">
+	<monogr>
+		<title level="m" type="main" coord="6,172.27,91.05,115.67,8.10;6,72.00,101.43,168.25,8.10" xml:id="_7WKAKDc">Faktor risiko kematian neonatus dengan penyakit membran hialin. Sari Pediatri</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Anggraini</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="75" to="80" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anggraini, A. et al. (2012). Faktor risiko kematian neonatus dengan penyakit membran hialin. Sari Pediatri, 15, 75-80.</note>
+</biblStruct>
+
+<biblStruct coords="6,72.00,115.77,194.45,8.10;6,72.00,126.09,201.72,8.10;6,72.00,136.49,78.28,8.10" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="6,162.79,115.77,103.66,8.10;6,72.00,126.09,67.11,8.10" xml:id="_yt7KvzQ">Pelayanan kesehatan ibu dan kematian neonatal</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><forename type="middle">F</forename><surname>Yani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YdmM9AM" coord="6,143.09,126.09,130.63,8.10;6,72.00,136.49,30.90,8.10">Kesmas: Jurnal Kesehatan Masyarat Nasional</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="373" to="377" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yani, D. F. et al. (2013). Pelayanan kesehatan ibu dan kematian neonatal.Kesmas: Jurnal Kesehatan Masyarat Nasional, 7, 373-377.</note>
+</biblStruct>
+
+<biblStruct coords="6,72.00,150.83,196.39,8.10;6,72.00,161.15,174.65,8.10" xml:id="b10">
+	<monogr>
+		<title level="m" type="main" coord="6,145.03,150.83,123.36,8.10;6,72.00,161.15,170.48,8.10" xml:id="_Zx5BW48">Faktor risiko kematian neonatal di Kabupaten Morowali provinsi Sulawesi Tengah</title>
+		<author>
+			<persName coords=""><surname>Masni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masni et al. (2014). Faktor risiko kematian neonatal di Kabupaten Morowali provinsi Sulawesi Tengah.</note>
+</biblStruct>
+
+<biblStruct coords="6,72.00,175.55,220.68,8.10;6,72.00,185.87,224.38,8.10;6,72.00,196.19,201.95,8.10;6,72.00,206.57,62.03,8.10" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="6,169.27,175.55,123.41,8.10;6,72.00,185.87,220.76,8.10" xml:id="_reQmBST">Faktor risiko kematian neonatal di provinsi Nusa Tenggara Timur: a matched case-control study</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Abdullah</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+		<respStmt>
+			<orgName>NTT: Australia Indonesia Partnership for Maternal and Neonatal Health</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Abdullah, A. et al. (2015). Faktor risiko kematian neonatal di provinsi Nusa Tenggara Timur: a matched case-control study. NTT: Australia Indonesia Partnership for Maternal and Neonatal Health.</note>
+</biblStruct>
+
+<biblStruct coords="6,72.00,220.91,196.14,8.10;6,72.00,231.29,195.35,8.10;6,72.00,241.61,180.47,8.10" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="6,163.28,220.91,104.86,8.10;6,72.00,231.29,195.35,8.10;6,72.00,241.61,88.46,8.10" xml:id="_krXRZWB">Use of antenatal services and delivery care among women in rural western Kenya: a community based survey</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><forename type="middle">M</forename><surname>Eijk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mseZdwm" coord="6,166.52,241.61,73.09,8.10">Reproductive Health</title>
+		<imprint>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eijk, A. M. et al. (2006). Use of antenatal services and delivery care among women in rural western Kenya: a community based survey. Reproductive Health, 6.</note>
+</biblStruct>
+
+<biblStruct coords="6,72.00,255.95,216.61,8.10;6,72.00,266.33,224.39,8.10;6,72.00,276.65,203.26,8.10" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="6,154.77,255.95,133.84,8.10;6,72.00,266.33,224.39,8.10;6,72.00,276.65,115.42,8.10" xml:id="_nn36X8x">Neonatal mortality and prevalence of practices for newborn care in a squatter settlement of Karachi, Pakistan: a cross-sectional study</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Ayaz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Ft4DUga" coord="6,193.28,276.65,36.97,8.10">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2010">2010. 13783</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ayaz, A. et al. (2010). Neonatal mortality and prevalence of practices for newborn care in a squatter settlement of Karachi, Pakistan: a cross-sectional study. PLoS ONE, 5, e13783.</note>
+</biblStruct>
+
+<biblStruct coords="6,72.00,290.99,212.74,8.10;6,72.00,301.37,214.95,8.10;6,72.00,311.69,72.46,8.10" xml:id="b14">
+	<monogr>
+		<title level="m" type="main" coord="6,263.78,290.99,20.96,8.10;6,72.00,301.37,73.70,8.10" xml:id="_PcJ5atc">Profil kesehatan Indonesia</title>
+		<imprint>
+			<date type="published" when="2012">2013. 2012</date>
+			<publisher>Kementerian Kesehatan Republik Indonesia</publisher>
+			<pubPlace>Jakarta</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kementerian Kesehatan Republik Indonesia. (2013). Profil kesehatan Indonesia 2012. Jakarta: Kementerian Kesehatan Republik Indonesia.</note>
+</biblStruct>
+
+<biblStruct coords="6,335.92,56.01,217.15,8.10;6,335.92,66.33,203.37,8.10;6,335.92,76.71,196.79,8.10;6,335.92,87.03,150.92,8.10" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="6,424.71,56.01,128.37,8.10;6,335.92,66.33,203.37,8.10;6,335.92,76.71,193.09,8.10" xml:id="_d7X4RbY">Type of delivery attendant, place of delivery and risk of early neonatal mortality: analyses of 1994-2007 Indonesia demographic and health surveys</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Titaley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_J9Bzjv7" coord="6,335.92,87.03,99.07,8.10">Health Policy and Planning</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="405" to="416" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Titaley, C. et al. (2012). Type of delivery attendant, place of delivery and risk of early neonatal mortality: analyses of 1994-2007 Indonesia demographic and health surveys. Health Policy and Planning, 27, 405-416.</note>
+</biblStruct>
+
+<biblStruct coords="6,335.92,101.43,224.64,8.10;6,335.92,111.75,170.65,8.10" xml:id="b16">
+	<monogr>
+		<title level="m" type="main" coord="6,429.70,101.43,97.55,8.10" xml:id="_dDtrX4s">Ilmu kebidanan edisi ketiga</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Wiknjosastro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Yayasan Bina Pustaka Sarwono Prawirohardjo</publisher>
+			<pubPlace>Jakarta</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wiknjosastro, H. (2007). Ilmu kebidanan edisi ketiga. Jakarta: Yayasan Bina Pustaka Sarwono Prawirohardjo.</note>
+</biblStruct>
+
+<biblStruct coords="6,335.92,126.09,219.43,8.10;6,335.92,136.49,205.78,8.10;6,335.92,146.81,177.96,8.10;6,335.92,157.19,102.72,8.10" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="6,428.71,126.09,126.64,8.10;6,335.92,136.49,205.78,8.10;6,335.92,146.81,21.45,8.10" xml:id="_pVATEEm">A case-control study of risk factors for fetal and early neonatal deaths in a tertiary hospital in Kenya</title>
+		<author>
+			<persName coords=""><forename type="first">F</forename><forename type="middle">H</forename><surname>Yego</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12884-014-0389-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RWdVWkt" coord="6,363.94,146.81,98.60,8.10">BMC Pregnancy Childbirth</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">389</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yego, F. H. et al. (2014). A case-control study of risk factors for fetal and early neonatal deaths in a tertiary hospital in Kenya. BMC Pregnancy Childbirth, 14, 389. doi: 10.1186/s12884-014-0389-8</note>
+</biblStruct>
+
+<biblStruct coords="6,335.92,171.53,216.68,8.10;6,335.92,181.85,195.72,8.10;6,335.92,192.23,211.96,8.10;6,335.92,202.55,45.75,8.10" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="6,459.38,171.53,93.21,8.10;6,335.92,181.85,195.72,8.10;6,335.92,192.23,42.21,8.10" xml:id="_s2GVvWc">Causes of neonatal deaths in a rural subdistrict of Bangladesh: Implications from intervention</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><forename type="middle">R</forename><surname>Chowdhury</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jGfzk4q" coord="6,383.92,192.23,160.43,8.10">Population, and Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="375" to="382" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Journal of Health</note>
+	<note type="raw_reference">Chowdhury, H. R. et al. (2010). Causes of neonatal deaths in a rural subdistrict of Bangladesh: Implications from intervention. Journal of Health, Population, and Nutrition, 28, 375-382.</note>
+</biblStruct>
+
+<biblStruct coords="6,335.92,216.89,221.45,8.10;6,335.92,227.27,219.50,8.10;6,335.92,237.59,102.75,8.10" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="6,419.72,216.89,137.65,8.10;6,335.92,227.27,219.50,8.10;6,335.92,237.59,45.88,8.10" xml:id="_mkFtCZf">Maternal and antenatal risk factors for stillbirths and neonatal mortality in rural Bangladesh: a casecontrol study</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Owais</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aFxcHzP" coord="6,387.70,237.59,36.90,8.10">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Owais, A. et al. 2013). Maternal and antenatal risk factors for stillbirths and neonatal mortality in rural Bangladesh: a case- control study. PLoS ONE, 8.</note>
+</biblStruct>
+
+<biblStruct coords="6,335.92,251.99,212.45,8.10;6,335.92,262.31,207.95,8.10;6,335.92,272.69,188.69,8.10;6,335.92,283.01,95.49,8.10" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="6,433.46,251.99,114.91,8.10;6,335.92,262.31,207.95,8.10;6,335.92,272.69,115.23,8.10" xml:id="_8tCsSYd">Avoidable factors and causes of neonatal deaths from perinatal asphyxia-hypoxia in South Africa: national perinatal survey</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Velaphi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_YeZ7nFq" coord="6,457.18,272.69,67.43,8.10;6,335.92,283.01,40.02,8.10">Annals of Tropical Paediatrics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="99" to="106" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Velaphi, S. et al. (2007). Avoidable factors and causes of neonatal deaths from perinatal asphyxia-hypoxia in South Africa: national perinatal survey. Annals of Tropical Paediatrics,27(2), 99-106.</note>
+</biblStruct>
+
+<biblStruct coords="6,335.92,297.35,215.32,8.10;6,335.92,307.73,209.24,8.10;6,335.92,318.05,60.24,8.10" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="6,431.69,297.35,119.55,8.10;6,335.92,307.73,183.10,8.10" xml:id="_ghvdpeH">Distance to care, facility delivery and early neonatal mortality in Malawi and Zambia</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><forename type="middle">J</forename><surname>Lohela</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_26KE82a" coord="6,525.66,307.73,19.50,8.10;6,335.92,318.05,15.19,8.10">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">52110</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lohela, T. J. et al. (2012). Distance to care, facility delivery and early neonatal mortality in Malawi and Zambia. PLoS ONE, 7, e52110.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

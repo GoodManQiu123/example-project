@@ -1,0 +1,1263 @@
+{
+    "metadata": {
+        "title": "Enhancing arithmetic in pre-schoolers with comparison or number line estimation training: Does it matter? *",
+        "doi": "10.1016/j.learninstruc.2016.08.004",
+        "publisher": null,
+        "journal": null,
+        "published_date": "7 September 2016"
+    },
+    "content": {
+        "abstract": "Children's intuitive understanding of number, i.e. number sense, is associated with individual differences in mathematics achievement. To investigate the causal association between number sense, traditionally assessed with comparison or number line estimation tasks, and mathematics achievement, often assessed with an arithmetic test, an intervention study was conducted that aimed at training either comparison or number line estimation skills. We contrasted a comparison and number line estimation training. By doing so, we wanted to address the question which intervention had the largest effect on arithmetic. In addition, such a direct comparison between comparison and number line estimation trainings would allow us to get more insight in the association between both tasks. Participants were 151 five-year-olds that were randomly allocated to either an experimental condition (i.e. comparison or number line estimation) or one of the two control conditions (i.e., active control condition and empty control condition) in a pretest-posttest design measuring number knowledge, (non-)symbolic comparison and number line estimation and arithmetic. The results showed that both comparison and number line estimation trainings had a positive effect on arithmetic. However, the absence of transfer effects from one task to another, also suggested that comparison and number line estimation rely on different mechanisms and probably influence arithmetic through different mechanisms.",
+        "keywords": [
+            "number",
+            "estimation",
+            "preschooler",
+            "arithmetic",
+            "comparison",
+            "line",
+            "training",
+            "matter"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Bieke Maertens",
+            "affiliation": "Brain & Cognition, KU Leuven",
+            "email": null
+        },
+        {
+            "name": "Bert De Smedt",
+            "affiliation": "Parenting and Special Education Research Group",
+            "email": null
+        },
+        {
+            "name": "Delphine Sasanguie",
+            "affiliation": "Brain & Cognition, KU Leuven",
+            "email": null
+        },
+        {
+            "name": "Jan Elen",
+            "affiliation": "Centre for Instructional Psychology and Technology",
+            "email": null
+        },
+        {
+            "name": "Bert Reynvoet",
+            "affiliation": "Brain & Cognition, KU Leuven",
+            "email": "bert.reynvoet@kuleuven-kulak.be"
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Barth",
+                    "given": "H."
+                },
+                {
+                    "family": "Mont",
+                    "given": "K.",
+                    "particle": "La"
+                },
+                {
+                    "family": "Lipton",
+                    "given": "J."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Abstract number and arithmetic in preschool children",
+            "type": "article-journal",
+            "container_title": [
+                "Proceedings of the National Academy of Sci-ences"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barth",
+                    "given": "H."
+                },
+                {
+                    "family": "Paladino",
+                    "given": "A.M."
+                }
+            ],
+            "title": "The development of numerical estimation: ev-idence against a representational shift",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Science"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Berch",
+                    "given": "D.B."
+                }
+            ],
+            "title": "Making sense of number sense: Implications for children with mathematical disabilities",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Learning Disabilities"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Berteletti",
+                    "given": "I."
+                },
+                {
+                    "family": "Lucangeli",
+                    "given": "D."
+                },
+                {
+                    "family": "Piazza",
+                    "given": "M."
+                },
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                },
+                {
+                    "family": "Zorzi",
+                    "given": "M."
+                }
+            ],
+            "title": "Numerical estimation in preschoolers",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Booth",
+                    "given": "J.L."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Developmental and individual differences in pure numerical estimation",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Borenstein"
+                }
+            ],
+            "title": "Effect sizes for continuous data",
+            "type": "chapter",
+            "container_title": [
+                "The handbook of research synthesis and meta-analysis"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Carey",
+                    "given": "S."
+                }
+            ],
+            "title": "The origin of concepts",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Condry",
+                    "given": "K.F."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "The development of language and abstract concepts: The case of natural number",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Psychology: General"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "literal": "De Smedt, B., No\u20ac el, M. P., Gilmore, C., & Ansari, D."
+                }
+            ],
+            "title": "The relationship between symbolic and non-symbolic numerical magnitude processing and the typical and atypical development of mathematics. A review of evidence from brain and behaviour",
+            "type": "article-journal",
+            "container_title": [
+                "Trends in Neuroscience and Education"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "literal": "De Smedt, B., Verschaffel, L., & Ghesqui ere, P."
+                }
+            ],
+            "title": "The predictive value of nu-merical magnitude comparison for individual differences in mathematics achievement",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "The number sense: How the mind creates mathematics",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                },
+                {
+                    "family": "Izard",
+                    "given": "V."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E."
+                },
+                {
+                    "family": "Pica",
+                    "given": "P."
+                }
+            ],
+            "title": "Log or linear? Distinct intuitions of the number scale in western and Amazonian indigene cultures",
+            "type": "article-journal",
+            "container_title": [
+                "Science"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dieckman",
+                    "given": "N.F."
+                },
+                {
+                    "family": "Slovic",
+                    "given": "P."
+                },
+                {
+                    "family": "Peters",
+                    "given": "E.M."
+                }
+            ],
+            "title": "The use of narrative evidence and explicit likelihood by decision makers varying in numeracy",
+            "type": "article-journal",
+            "container_title": [
+                "Risk Analysis"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Erdfelder",
+                    "given": "E."
+                },
+                {
+                    "family": "Faul",
+                    "given": "F."
+                },
+                {
+                    "family": "Bucher",
+                    "given": "A."
+                }
+            ],
+            "title": "GPOWER: a general power analysis pro-gram",
+            "type": "article-journal",
+            "container_title": [
+                "Behavior Research Methods, Instruments & Computers"
+            ],
+            "doi": "",
+            "published_date": "1996"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Feigenson",
+                    "given": "L."
+                },
+                {
+                    "family": "Libertus",
+                    "given": "M.E."
+                },
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                },
+                {
+                    "family": "Bos",
+                    "given": "I.",
+                    "particle": "Friso-van den"
+                },
+                {
+                    "family": "Ven",
+                    "given": "S.H.G.",
+                    "particle": "van der"
+                },
+                {
+                    "family": "Kroesbergen",
+                    "given": "E.H."
+                },
+                {
+                    "family": "Luit",
+                    "given": "J.E.H.",
+                    "particle": "van"
+                }
+            ],
+            "title": "Links between the intuitive sense of number and formal mathematics abilityWorking memory and mathematics in primary school children: A meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development Perspectives",
+                "Educational Research Review"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gallistel",
+                    "given": "C.R."
+                },
+                {
+                    "family": "Gelman",
+                    "given": "R."
+                }
+            ],
+            "title": "Preverbal and verbal counting and computation",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "1992"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gebuis",
+                    "given": "T."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                }
+            ],
+            "title": "Generating nonsymbolic number stimuli",
+            "type": "article-journal",
+            "container_title": [
+                "Behavior Research Methods"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ltd",
+                    "given": "GiggleUp Kids Apps And Educational Games Pty"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "literal": "Gr egoire, J., No\u20ac el, M., & Van Nieuwenhoven, C."
+                }
+            ],
+            "title": "TEDI-MATH",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                },
+                {
+                    "family": "Feigenson",
+                    "given": "L."
+                }
+            ],
+            "title": "Developmental change in the acuity of the \"number sense\": The approximate number system in 3-, 4-, 5-, and 6-year-olds and adults",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Halberda",
+                    "given": "J."
+                },
+                {
+                    "family": "Mazzocco",
+                    "given": "M.M.M."
+                },
+                {
+                    "family": "Feigenson",
+                    "given": "L."
+                }
+            ],
+            "title": "Individual differences in non-verbal number acuity correlate with maths achievement",
+            "type": "article-journal",
+            "container_title": [
+                "Nature"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Holloway",
+                    "given": "I.D."
+                },
+                {
+                    "family": "Ansari",
+                    "given": "D."
+                }
+            ],
+            "title": "Mapping numerical magnitudes onto symbols: The numerical distance effect and individual differences in children's mathe-matics achievement",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hunter",
+                    "given": "J.E."
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "F.L."
+                }
+            ],
+            "title": "Methods of meta-analysis: Correcting error and bias in research findings",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1990"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hyde",
+                    "given": "D.C."
+                },
+                {
+                    "family": "Khanum",
+                    "given": "S."
+                },
+                {
+                    "family": "Spelke",
+                    "given": "E.S."
+                }
+            ],
+            "title": "Brief non-symbolic, approximate number practise enhances subsequent exact symbolic arithmetic in children",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jordan",
+                    "given": "N.C."
+                },
+                {
+                    "family": "Levine",
+                    "given": "S.C."
+                }
+            ],
+            "title": "Socioeconomic variation, number competence, and mathematics learning difficulties in young children",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Dis-abilities Research Reviews"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "literal": "Kucian, K., Grond, U., Rotzer, S., Henzi, B., Sch\u20ac onmann, C., Plangger, F., et al."
+                }
+            ],
+            "title": "Mental number line training in children with developmental dyscalculia",
+            "type": "article-journal",
+            "container_title": [
+                "Neu-roimage"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Laski",
+                    "given": "E.V."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Is 27 a big number? Correlational and causal connections among numerical categorization, number line estimation, and numerical magnitude comparison",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lindskog",
+                    "given": "M."
+                },
+                {
+                    "family": "Winman",
+                    "given": "A."
+                },
+                {
+                    "family": "Juslin",
+                    "given": "P."
+                },
+                {
+                    "family": "Poom",
+                    "given": "L."
+                }
+            ],
+            "title": "Measuring acuity of the approximate number system reliably and validly: The evaluation of an adaptive test procedure",
+            "type": "article-journal",
+            "container_title": [
+                "Frontiers in Psychology"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Link",
+                    "given": "T."
+                },
+                {
+                    "family": "Moeller",
+                    "given": "K."
+                },
+                {
+                    "family": "Huber",
+                    "given": "S."
+                },
+                {
+                    "family": "Fischer",
+                    "given": "U."
+                },
+                {
+                    "family": "Nuerk",
+                    "given": "H.C."
+                }
+            ],
+            "title": "Walk the number line e An embodied training of numerical concepts",
+            "type": "article-journal",
+            "container_title": [
+                "Trends in Neuroscience and Education"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Link",
+                    "given": "T."
+                },
+                {
+                    "family": "Nuerk",
+                    "given": "H.C."
+                },
+                {
+                    "family": "Moeller",
+                    "given": "K."
+                }
+            ],
+            "title": "On the relation between the mental number line and arithmetic competencies",
+            "type": "article-journal",
+            "container_title": [
+                "The Quarterly Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Linsen",
+                    "given": "S."
+                },
+                {
+                    "family": "Maertens",
+                    "given": "B."
+                },
+                {
+                    "family": "Husson",
+                    "given": "J."
+                },
+                {
+                    "family": "Audenaeren",
+                    "given": "L.",
+                    "particle": "Van den"
+                },
+                {
+                    "family": "Wauters",
+                    "given": "J."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Design of the game \"Dudeman & Sidegirl: Operation clean world\", a numerical magnitude processing training",
+            "type": "chapter",
+            "container_title": [
+                "Describing and studying domain-specific serious games"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Maertens",
+                    "given": "B."
+                },
+                {
+                    "family": "Sasanguie",
+                    "given": "S."
+                },
+                {
+                    "family": "Smedt",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Elen",
+                    "given": "J."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                }
+            ],
+            "title": "",
+            "type": "manuscript",
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mundy",
+                    "given": "E."
+                },
+                {
+                    "family": "Gilmore",
+                    "given": "C.K."
+                }
+            ],
+            "title": "Children's mapping between symbolic and nonsymbolic representations of number",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychol-ogy"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Nieder",
+                    "given": "A."
+                },
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "Representations of number in the brain",
+            "type": "article-journal",
+            "container_title": [
+                "Annual Review of Neuroscience"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Obersteiner",
+                    "given": "A."
+                },
+                {
+                    "family": "Reiss",
+                    "given": "K."
+                },
+                {
+                    "family": "Ufer",
+                    "given": "S."
+                }
+            ],
+            "title": "How training on exact or approximate mental representations of number can enhance first-grade students' basic number processing and arithmetic skills",
+            "type": "article-journal",
+            "container_title": [
+                "Learning and Instruction"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Park",
+                    "given": "J."
+                },
+                {
+                    "family": "Brannon",
+                    "given": "E.M."
+                }
+            ],
+            "title": "Improving arithmetic performance with number sense training: An investigation of the underlying mechanism",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Piazza",
+                    "given": "M."
+                },
+                {
+                    "family": "Facoetti",
+                    "given": "A."
+                },
+                {
+                    "family": "Trussardi",
+                    "given": "A.N."
+                },
+                {
+                    "family": "Berteletti",
+                    "given": "I."
+                },
+                {
+                    "family": "Conte",
+                    "given": "S."
+                },
+                {
+                    "family": "Lucangeli",
+                    "given": "D."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Developmental trajectory of number acuity reveals a severe impairment in developmental dyscalculia",
+            "type": "article-journal",
+            "container_title": [
+                "Cognition"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ramani",
+                    "given": "G.B."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Promoting broad and stable improvements in low-income children's numerical knowledge through playing number board games",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ramani",
+                    "given": "G.B."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                }
+            ],
+            "title": "Reducing the gap in numerical knowledge between low-and middle-income preschoolers",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Applied Develop-mental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ramani",
+                    "given": "G.B."
+                },
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Hitti",
+                    "given": "A."
+                }
+            ],
+            "title": "Taking it to the classroom: Number board games as a small group learning activity",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Educational Psychol-ogy"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "anen",
+                    "given": "R.\u20ac",
+                    "particle": "as\u20ac"
+                },
+                {
+                    "family": "P.",
+                    "given": "Salminen"
+                },
+                {
+                    "family": "J.",
+                    "given": "Wilson"
+                },
+                {
+                    "family": "J.",
+                    "given": "A."
+                },
+                {
+                    "family": "Aunio",
+                    "given": "P."
+                },
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                }
+            ],
+            "title": "Computer-assisted intervention for children with low numeracy skills",
+            "type": "article-journal",
+            "container_title": [
+                "Cognitive Devel-opment"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                },
+                {
+                    "family": "Smets",
+                    "given": "K."
+                },
+                {
+                    "family": "Sasanguie",
+                    "given": "D."
+                }
+            ],
+            "title": "Number sense: what's in a name and why should we bother?",
+            "type": "chapter",
+            "container_title": [
+                "Continuous issues in numerical cognition: How many or how much"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sasanguie",
+                    "given": "D."
+                },
+                {
+                    "family": "Smedt",
+                    "given": "B.",
+                    "particle": "De"
+                },
+                {
+                    "family": "Defever",
+                    "given": "E."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                }
+            ],
+            "title": "Association between basic numerical abilities and mathematics achievement",
+            "type": "article-journal",
+            "container_title": [
+                "British Journal of Developmental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sasanguie",
+                    "given": "D."
+                },
+                {
+                    "family": "Defever",
+                    "given": "E."
+                },
+                {
+                    "family": "Maertens",
+                    "given": "B."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                }
+            ],
+            "title": "The approximate number system is not predictive for symbolic number processing in kinder-gartners",
+            "type": "article-journal",
+            "container_title": [
+                "The Quarterly Journal of Experimental Psychology"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sasanguie",
+                    "given": "D."
+                },
+                {
+                    "family": "obel",
+                    "given": "G.\u20ac"
+                },
+                {
+                    "family": "S.",
+                    "given": "Moll"
+                },
+                {
+                    "family": "K.",
+                    "given": "Smets"
+                },
+                {
+                    "family": "K."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                }
+            ],
+            "title": "Acuity of the approximate number sense, symbolic number comparison or mapping numbers onto space: What underlies mathematics achievement?",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Experimental Child Psychology"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sasanguie",
+                    "given": "D."
+                },
+                {
+                    "family": "Reynvoet",
+                    "given": "B."
+                }
+            ],
+            "title": "Number comparison and number line esti-mation rely on different mechanisms",
+            "type": "article-journal",
+            "container_title": [
+                "Psychologica Belgica"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schatz",
+                    "given": "P."
+                },
+                {
+                    "family": "Ybarra",
+                    "given": "V."
+                },
+                {
+                    "family": "Leitner",
+                    "given": "D."
+                }
+            ],
+            "title": "Validating the accuracy of reaction time assessment on computer-based tablet devices",
+            "type": "article-journal",
+            "container_title": [
+                "Assessment"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Schneider",
+                    "given": "M."
+                },
+                {
+                    "family": "Beeres",
+                    "given": "K."
+                },
+                {
+                    "family": "Coban",
+                    "given": "L."
+                },
+                {
+                    "family": "Merz",
+                    "given": "S."
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "S.S."
+                },
+                {
+                    "family": "Stricker",
+                    "given": "J."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "Associations of non-symbolic and symbolic numerical magnitude processing with mathematical competence: A meta-analysis",
+            "type": "article-journal",
+            "container_title": [
+                "Developmental Science"
+            ],
+            "doi": "10.1111/desc.12372",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Booth",
+                    "given": "J.L."
+                }
+            ],
+            "title": "Development of numerical estimation in young children",
+            "type": "article-journal",
+            "container_title": [
+                "Child Development"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Siegler",
+                    "given": "R.S."
+                },
+                {
+                    "family": "Ramani",
+                    "given": "G.B."
+                }
+            ],
+            "title": "Playing linear number board games e But not circular ones e Improves low-income preschoolers' numerical understanding",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Educational Psychology"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "literal": "Vanbinst, K., Ghesqui ere, P., & De Smedt, B."
+                }
+            ],
+            "title": "Does numerical processing uniquely predict first graders' future development of single-digit arithmetic?",
+            "type": "article-journal",
+            "container_title": [
+                "Learning & Individual Differences"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [],
+            "title": "Vlaams Ministerie van Onderwijs en Vorming, Agentschap voor Kwaliteitszorg in Onderwijs en VormingOntwikkelingsdoelen en eindtermen voor het gewoon basisonderwijs. Informatie voor de onderwijspraktijk [Developmental ob-jectives and attainment targets for regular elementary education",
+            "type": "article-journal",
+            "container_title": [
+                "Information for educational practice"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wilson",
+                    "given": "A.J."
+                },
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                },
+                {
+                    "family": "Dubois",
+                    "given": "O."
+                },
+                {
+                    "family": "Fayol",
+                    "given": "M."
+                }
+            ],
+            "title": "Effects of an adaptive game intervention on accessing number sense in low-socioeconomic-status kinder-garten children",
+            "type": "article-journal",
+            "container_title": [
+                "Mind, Brain, and Education"
+            ],
+            "doi": "",
+            "published_date": "2009"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wilson",
+                    "given": "A.J."
+                },
+                {
+                    "family": "Dehaene",
+                    "given": "S."
+                },
+                {
+                    "family": "Pinel",
+                    "given": "P."
+                },
+                {
+                    "family": "Revkin",
+                    "given": "S.K."
+                },
+                {
+                    "family": "Cohen",
+                    "given": "L."
+                },
+                {
+                    "family": "Cohen",
+                    "given": "D."
+                }
+            ],
+            "title": "Principles underlying the design of \"the number race\", an adaptive computer game for remediation of dyscalculia",
+            "type": "article-journal",
+            "container_title": [
+                "Behavioral and Brain Functions"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        }
+    ]
+}

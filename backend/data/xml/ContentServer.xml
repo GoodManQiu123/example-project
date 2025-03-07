@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_kdHDH2q" coord="1,107.28,100.39,395.33,13.46">Game-based learning. Using board games in adult education*</title>
+				<funder>
+					<orgName type="full">University of Ljubljana</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Western Norway University of Applied Sciences, Norway</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,125.16,127.84,74.48,11.96"><forename type="first">Ioana</forename><surname>Boghian</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Vasile Alecsandri University of Bacӑu, Mӑrӑşeşti 157, Bacӑu 600115, Romania</note>
+								<orgName type="institution">Vasile Alecsandri University of Bacӑu</orgName>
+								<address>
+									<addrLine>Mӑrӑşeşti 157</addrLine>
+									<postCode>600115</postCode>
+									<settlement>Bacӑu</settlement>
+									<country key="RO">Romania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,209.04,127.84,138.59,11.96"><forename type="first">Venera-Mihaela</forename><surname>Cojocariu</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Vasile Alecsandri University of Bacӑu, Mӑrӑşeşti 157, Bacӑu 600115, Romania</note>
+								<orgName type="institution">Vasile Alecsandri University of Bacӑu</orgName>
+								<address>
+									<addrLine>Mӑrӑşeşti 157</addrLine>
+									<postCode>600115</postCode>
+									<settlement>Bacӑu</settlement>
+									<country key="RO">Romania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,361.80,128.54,77.64,11.04"><forename type="first">Violeta</forename><surname>Carmen</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Vasile Alecsandri University of Bacӑu, Mӑrӑşeşti 157, Bacӑu 600115, Romania</note>
+								<orgName type="institution">Vasile Alecsandri University of Bacӑu</orgName>
+								<address>
+									<addrLine>Mӑrӑşeşti 157</addrLine>
+									<postCode>600115</postCode>
+									<settlement>Bacӑu</settlement>
+									<country key="RO">Romania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,442.56,128.54,38.36,11.04;1,274.32,142.70,34.44,11.04"><forename type="first">Liliana</forename><surname>Popescu</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Vasile Alecsandri University of Bacӑu, Mӑrӑşeşti 157, Bacӑu 600115, Romania</note>
+								<orgName type="institution">Vasile Alecsandri University of Bacӑu</orgName>
+								<address>
+									<addrLine>Mӑrӑşeşti 157</addrLine>
+									<postCode>600115</postCode>
+									<settlement>Bacӑu</settlement>
+									<country key="RO">Romania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,312.00,142.70,25.08,11.04"><surname>Mâţӑ</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">Vasile Alecsandri University of Bacӑu, Mӑrӑşeşti 157, Bacӑu 600115, Romania</note>
+								<orgName type="institution">Vasile Alecsandri University of Bacӑu</orgName>
+								<address>
+									<addrLine>Mӑrӑşeşti 157</addrLine>
+									<postCode>600115</postCode>
+									<settlement>Bacӑu</settlement>
+									<country key="RO">Romania</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_7HJhADq" coord="1,107.28,100.39,395.33,13.46">Game-based learning. Using board games in adult education*</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">38504281E0456AC5A83CEFBAF94AC928</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_tdzeMKS">game-based learning</term>
+					<term xml:id="_ADB8xma">board game</term>
+					<term xml:id="_GcMZ2Hn">adult education</term>
+					<term xml:id="_u4Vazd8">competences and skills</term>
+					<term xml:id="_8t8qHWw">learning outcome</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_83PrUwQ"><p xml:id="_UZhUAGw"><s xml:id="_vZ9YvFG" coords="1,110.40,215.44,390.83,8.48;1,110.40,225.76,180.18,8.48">Our paper relies on a literature review type of research and aims to approach several aspects related to game-based learning in the education of adults.</s><s xml:id="_F4KJMQx" coords="1,293.40,225.76,207.95,8.48;1,110.40,236.20,390.83,8.48;1,110.40,246.52,390.71,8.48;1,110.40,256.84,390.71,8.48;1,110.40,267.16,82.26,8.48">The objectives are: to highlight the importance of play and games in human development; to briefly present learning theories that support the use of games in learning; to define the main characteristics of game-based learning; to define board games in relation to adult education -learning outcomes of board games and competences that may be built and developed through board games.</s><s xml:id="_DpwpEDt" coords="1,195.36,267.16,305.72,8.48;1,110.40,277.48,390.67,8.48;1,110.40,287.80,22.14,8.48">This paper is part of the research within an international cooperation project that aims to develop and implement game-based learning in adult education through board games and role plays.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="595.276" lry="841.89"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_VmMjz2J">Introduction</head><p xml:id="_zNYj7jd"><s xml:id="_KedyNV3" coords="1,121.56,370.96,379.67,10.22;1,110.40,382.24,390.77,10.22;1,110.40,393.52,390.68,10.22;1,110.40,404.80,390.77,10.22;1,110.40,416.08,390.87,10.22;1,110.40,427.36,116.93,10.22">Games are the expression of the ludic nature of the human being; games are also necessary and useful as tools for intended or unintended entertainment, recreation, learning and behavioural modification <ref type="bibr" coords="1,306.72,393.52,119.09,10.22" target="#b7">(Connolly et al., 2012)</ref>.Games provide enjoyment, passionate involvement, structure, motivation, ego gratification, adrenaline, creativity, social interaction and emotion, satisfying the human need for learning <ref type="bibr" coords="1,151.44,427.36,71.05,10.22" target="#b20">(Prensky, 2001)</ref>.</s><s xml:id="_4JVGnQs" coords="1,231.48,427.36,269.87,10.22;1,110.40,438.64,390.90,10.22;1,110.40,449.92,390.75,10.22;1,110.40,461.20,135.77,10.22">Nowadays there is an increasing need for teachers to help learners engage with learning and keep them motivated; to do this, teachers and adults need to understand the importance of games in learning, as well as how to use gamebased teaching and learning.</s><s xml:id="_VMyv78x" coords="1,251.76,461.20,249.49,10.22;1,110.40,472.48,390.68,10.22;1,110.40,483.76,390.83,10.22;1,110.40,495.04,381.65,10.22">Games have recently become increasingly important within formative action, generating the emergence of the "Ludic epistemology" theory: it aims to identify ways to encode knowledge in the form of games and how to shape the process of knowledge acquisition like a process of playing <ref type="bibr" coords="1,422.04,495.04,65.19,10.22" target="#b3">(Castell, 2011)</ref>.</s></p><p xml:id="_AkjDPKQ"><s xml:id="_PSmSXXx" coords="1,121.56,506.32,379.67,10.22;1,110.40,517.60,318.17,10.22">There are two major types of learning theories that guide the use of games in education: behavioural theories and constructivist theories of learning.</s><s xml:id="_kCMWBd7" coords="1,431.64,517.60,69.59,10.22;1,110.40,528.88,390.80,10.22;1,110.40,540.16,390.90,10.22;1,110.40,551.44,390.80,10.22;1,110.40,562.72,390.75,10.22;1,110.40,574.00,390.87,10.22;1,110.40,585.28,390.63,10.22;1,110.40,596.56,390.75,10.22;1,110.40,607.84,390.90,10.22;1,110.40,619.12,390.89,10.22;1,110.40,630.40,244.37,10.22">In games based on behavioural theories of learning, the basic element of the learning process is a question that the game addresses the player; the player's response to this question/stimulus is an answer, which may be right or wrong; correct answers are rewarded with a positive response from the game (e.g. a happy tune or the display of happy faces) which further stimulates positive emotions in the player; a wrong answer triggers a negative game response (e.g. a sad tune or sad emoticons); a series of correct answers triggers a larger reward from the game, for example a mini game or animation; such games rely on the "drill and practice principle" and use techniques such as quizzes, point and click, practicing basic arithmetic operations <ref type="bibr" coords="1,469.08,619.12,32.21,10.22;1,110.40,630.40,24.37,10.22" target="#b29">(Zalka, 2012;</ref><ref type="bibr" coords="1,134.77,630.40,62.76,10.22" target="#b24">Rugelj, 2015;</ref><ref type="bibr" coords="1,200.40,630.40,149.55,10.22" target="#b22">Rugelj, Jedrinović, Bevčič, 2018)</ref>.</s></p><p xml:id="_P8fexbw"><s xml:id="_pVfer9E" coords="1,121.56,641.68,379.50,10.22;1,110.40,652.96,390.85,10.22;1,110.40,664.24,390.85,10.22;2,110.40,68.92,390.68,10.22;2,110.40,80.20,390.75,10.22;2,110.40,91.48,390.78,10.22;2,110.40,102.76,390.80,10.22;2,110.40,114.04,147.41,10.22">Games based on constructivist learning theories of learning rely on the learner's active role and enable the achievement of higher taxonomic levels of knowledge; learning is problem-based, therefore such games are designed as life-like or fictional stories in which the learner plays a role, identifies with what is happening in the game world and actively solves problems; the teacher's role is to select (and produce, if possible) suitable games and provide guidance and feedback on the learner's evolution during the game and results; such games help learners build appropriate mental models <ref type="bibr" coords="2,186.12,114.04,66.85,10.22" target="#b24">(Rugelj, 2015)</ref>.</s><s xml:id="_9Nz5sJR" coords="2,264.00,114.04,237.20,10.22;2,110.40,125.32,369.89,10.22">The psycho-pedagogical use of games (from the constructivist perspective!) also generates changes in how the teacher intervenes.</s><s xml:id="_QbjaZcP" coords="2,483.72,125.32,17.36,10.22;2,110.40,136.60,390.77,10.22;2,110.40,147.88,390.77,10.22;2,110.40,159.16,333.89,10.22">The teacher plays a more discrete teaching role, its impact is predominantly formative, problematic, applicative, interactive, of counseling and guidance (with consequences, including in the initial and continuous training for the teaching career !!!).</s></p><p xml:id="_7v7Memx"><s xml:id="_8ybQAjV" coords="2,121.56,170.44,379.57,10.22;2,110.40,181.72,390.83,10.22;2,110.40,193.00,390.68,10.22;2,110.40,204.28,390.73,10.22;2,110.40,215.56,390.83,10.22;2,110.40,226.84,75.41,10.22">Based on the finality of the game and how it is built, games may be classified into: 1. educational games: with educational finalities; practiced non-formally and informally, anywhere and anytime, with or without adult supervision; 2. didactic games: explicitly designed for a learning purpose, designed to teach learners about certain subjects, expand concepts, reinforce development, or assist learners in acquiring a skill.</s></p><p xml:id="_bN3kfWv"><s xml:id="_kSdraBv" coords="2,121.56,238.12,379.55,10.22;2,110.40,249.40,390.83,10.22;2,110.40,260.68,267.41,10.22">Types of games include: 1. board games: pure strategy and/or rolling dice; 2. card games/ playing cards; 3. video games -humans interact with a user interface to generate visual feedback on a video device <ref type="bibr" coords="2,306.96,260.68,66.01,10.22" target="#b14">(Keesee, 2012)</ref>.</s></p><p xml:id="_tfkG9DZ"><s xml:id="_72B5k8b" coords="2,121.56,271.96,379.67,10.22;2,110.40,283.24,390.77,10.22;2,110.40,294.52,390.83,10.22;2,110.40,305.80,390.77,10.22">The basic structure of a didactic game comprises: 1. theme/subject and content in accordance with the participants/students' age; 2. didactic aim/educational finality; 3. operational objectives/specific finalities; 4. didactic task/instructions/the training element (recognition, naming, comparing etc.); 5. game rules; 6. game elements(e.g.</s><s xml:id="_QaKcYJD" coords="2,110.40,317.08,390.80,10.22;2,110.40,328.36,390.90,10.22;2,110.40,339.64,390.77,10.22">competition, cooperation, rewards, penalty, applauses, encouragement); 7. didactic strategy (the didactic procedures, the materials, and game organization); 8. the stages of the game; 9. game versions/complication <ref type="bibr" coords="2,310.80,339.64,76.33,10.22" target="#b9">(Dumitriu, 2011;</ref><ref type="bibr" coords="2,389.88,339.64,106.45,10.22">Mâţă&amp;Cojocariu, 2011)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_YJSME82">Methodology: searching, selection and data analysis</head><p xml:id="_uQQ4RZN"><s xml:id="_t9qVe77" coords="2,121.56,384.76,379.71,10.22;2,110.40,396.04,310.97,10.22">The purpose of this section is to highlight the relevance of board games for education in general and, more specifically, for adult education.</s><s xml:id="_PyaT7Wb" coords="2,427.32,396.04,73.91,10.22;2,110.40,407.32,390.83,10.22;2,110.40,418.60,390.85,10.22;2,110.40,429.88,50.45,10.22">The search and selection procedure applied to electronic databases and open-ended search period focused on the key words 'board game(s) and education', 'board games and adult education'.</s><s xml:id="_ybkHgtH" coords="2,170.16,429.88,331.21,10.22;2,110.40,441.16,390.80,10.22;2,110.40,452.44,390.90,10.22;2,110.40,463.72,114.41,10.22">The electronic databases used include, but are not limited to: PsycARTICLES, ERIC, EdITLib Digital Library and Academic Search Premier, the latter of which is one of the most prominent databases in academic institutions <ref type="bibr" coords="2,110.40,463.72,109.57,10.22">(Blessinger&amp;Olle, 2004)</ref>.</s></p><p xml:id="_VxgARY4"><s xml:id="_F3DFMyn" coords="2,121.56,475.00,285.85,10.22;2,121.56,486.28,379.55,10.22;2,110.40,497.56,156.80,10.22">Our literature review is an attempt to answer questions such as: Q1: Is there, according to the literature, a correlation between board games and key competences for lifelong learning?</s></p><p xml:id="_DMNYemS"><s xml:id="_2EDpcQr" coords="2,121.56,508.84,326.00,10.22">Q2: What are the learning outcomes of using board games in education?</s><s xml:id="_JXNa5tE" coords="2,121.56,520.12,378.44,10.22">Q3: What are the advantages and disadvantages of using board games in education?</s><s xml:id="_BdVPM3p" coords="2,121.56,531.40,379.55,10.22;2,110.40,542.68,390.83,10.22;2,110.40,553.96,390.83,10.22;2,110.40,565.24,246.20,10.22">Q4: Are the advantages and the learning outcomes of using board games in education, in general and, more specifically, in adult education relevant enough -in the context of an increasingly globalised world -to support further investigation into this topic and promote game-based learning activities?</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_64AbWXA">Results of the literature review on using board games in adult education</head><p xml:id="_T9K2YeF"><s xml:id="_meh7mKs" coords="2,121.56,610.36,379.55,10.22;2,110.40,621.64,390.95,10.22;2,110.40,632.92,390.68,10.22;2,110.40,644.20,187.01,10.22">The search yielded a small number of papers on the topic of using board games in education, this being a recent approach in education as a response to the need to find innovative teaching-learning-evaluation-self-evaluation methods that may suit the needs of 21st-century globalized citizens.</s></p><p xml:id="_d4nrBjJ"><s xml:id="_VzUGRzZ" coords="2,121.56,655.48,17.48,10.22">The</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1." xml:id="_p4vG5eB">Board games, learning outcomes and key competences</head><p xml:id="_X8CNtK6"><s xml:id="_YwN3HMZ" coords="3,121.56,125.32,379.74,10.22;3,110.40,136.60,390.83,10.22;3,110.40,147.88,172.55,10.22;3,221.40,181.72,279.85,10.22;3,110.40,193.00,390.68,10.22;3,110.40,204.28,390.83,10.22;3,110.40,215.56,390.80,10.22;3,110.40,226.84,390.90,10.22;3,110.40,238.12,390.97,10.22;3,110.40,249.40,390.77,10.22;3,110.40,260.68,390.83,10.22;3,110.40,271.96,390.80,10.22;3,110.40,283.24,390.93,10.22;3,110.40,294.52,390.75,10.22;3,110.40,305.80,390.71,10.22;3,110.40,317.08,390.83,10.22;3,110.40,328.36,390.77,10.22;3,110.40,339.64,390.85,10.22;3,110.40,350.92,390.85,10.22;3,110.40,362.20,390.73,10.22;3,110.40,373.48,119.33,10.22">Regarding Q1 and Q2, the literature on using games in education mentions as outcomes for game-based education the following competences and skills related to the eight domains mentioned above <ref type="bibr" coords="3,277.92,147.88,5.03,10.22">(</ref> Abilities related to the thinking process: a. creative thinking: the ability to approach an issue or problem from different points of view leading to a deeper and more complete understanding of the situation and at the same time helping to identify alternative ways to approach it; b. analytic and reflective thinking: the processes of analysing and making judgments about what has happened; 2. Abilities related to practical/organizational aspects of learning: organizational competences: planning work, organizing resources, dealing with crises and solving problems, getting the job done, measuring progress, taking calculated risks; 3. Self-related abilities: a. the ability to concentrate for extended periods and reflect critically on the purposes and aims of learning; b. the ability to gain, process and assimilate new knowledge and skills as well as to seek and make use of guidance and support; c. selfmanagement competences: being self-motivated, acting with confidence, managing and evaluating one's learning, demonstrating flexibility, initiating; 4. Abilities related to others: a. the ability to work collaboratively during the learning process; b. improvement of social skills and communication competences; c. interpersonal competences: empathy, consensus building, negotiating, diplomacy, conflict management -resolving conflict, respecting others, being a team player; d. cultural awareness and expression.</s></p><p xml:id="_5yezQ4a"><s xml:id="_CRHCNJc" coords="3,121.56,384.76,379.61,10.22;3,110.40,396.04,390.83,10.22;3,110.40,407.32,313.13,10.22">Building social competences at children implies learning certain behaviours, adopting them and using them in life situations; adults, who possess certain competences but need improvement may also benefit from games.</s><s xml:id="_XpphaMj" coords="3,428.16,407.32,72.95,10.22;3,110.40,418.60,390.83,10.22;3,110.40,429.88,390.83,10.22;3,110.40,441.16,313.49,10.22">The formal and informal education of children and adults plays a significant role in shaping knowledge, skills and social competences, the latter of which are highly desirable in the context of the current labour market (Paczyńska-Jędrycka, 2016).</s><s xml:id="_zj2zJKj" coords="3,427.08,441.16,74.12,10.22;3,110.40,452.44,390.68,10.22;3,110.40,463.72,390.85,10.22;3,110.40,475.00,390.80,10.22;3,110.40,486.28,390.68,10.22;3,110.40,497.56,390.83,10.22;3,110.40,508.84,292.73,10.22">The authors of a recent literature review on board games in education (Staudt Willet et al., 2018) have highlighted several descriptions and associations of gaming in relation to education: gaming is a multimodal literacy par excellence <ref type="bibr" coords="3,346.32,475.00,55.11,10.22" target="#b11">(Gee, 2007)</ref>; games provide the opportunity to practice rhetoric and persuasion skills <ref type="bibr" coords="3,355.92,486.28,66.51,10.22" target="#b1">(Bogost, 2010)</ref>; games provide problems to solve and lessons to learn <ref type="bibr" coords="3,292.56,497.56,64.49,10.22" target="#b25">(Squire, 2011)</ref>; games are activities that may result in finding solutions for real-life issues <ref type="bibr" coords="3,313.20,508.84,85.09,10.22" target="#b16">(McGonigal, 2011)</ref>.</s></p><p xml:id="_D2E77SC"><s xml:id="_E852XsP" coords="3,121.56,520.12,379.67,10.22;3,110.40,531.40,390.77,10.22;3,110.40,542.68,390.83,10.22;3,110.40,553.96,390.84,10.22;3,110.40,565.24,30.29,10.22">In the context of the need for life-long learning and of the need for learning together, needs generated by an increasingly versatile and multicultural labour market, board games in adult education are a viable solution to bring students together and keep them motivated to stay engaged in a process of learning with others and from others.</s></p><p xml:id="_RR7jxsy"><s xml:id="_wJ3vYyB" coords="3,121.56,576.52,379.67,10.22;3,110.40,587.80,390.78,10.22;3,110.40,599.08,390.68,10.22;3,110.40,610.36,390.95,10.22;3,110.40,621.64,390.92,10.22;3,110.40,632.92,390.77,10.22;3,110.40,644.20,29.09,10.22">Although the interest has been, for some time, mainly on the use of video games in education, in recent years there has been a rejuvenation of the focus on board games as a result of a growing diversity of board games available on the market and of some studies that have drawn attention to the opportunities provided by the use of board games in (adult) education that are comparable and similar to those provided by the use of video games <ref type="bibr" coords="3,204.72,632.92,237.13,10.22" target="#b8">(Copeland, Henderson, Mayer, &amp; Nicholson, 2013;</ref><ref type="bibr" coords="3,445.80,632.92,55.37,10.22;3,110.40,644.20,24.25,10.22" target="#b12">Greenhalgh, 2016)</ref>.</s><s xml:id="_DAyvqWe" coords="3,144.36,644.20,356.89,10.22;3,110.40,655.48,131.91,10.22">Board games player communities (for example, Board Game Geek -BGG; https://boardgamegeek.com/)</s><s xml:id="_mfvddHa" coords="3,254.04,655.48,247.07,10.22;3,110.40,666.76,390.80,10.22;3,110.40,678.04,359.57,10.22">encourage visitors to engage with board games by "reading articles, becoming members, selling/buying/trading games, and posting game reviews and comments to an existing database" (Staudt Willet et al., 2018: 1).</s><s xml:id="_gUd8zUf" coords="3,473.64,678.04,27.59,10.22;3,110.40,689.32,390.80,10.22;3,110.40,700.60,169.37,10.22">Board games player communities may provide valuable insight on how to look at the educational potential of board games.</s></p><p xml:id="_5sAwEsM"><s xml:id="_UWn7bR8" coords="4,121.56,68.92,379.64,10.22;4,110.40,80.20,390.83,10.22;4,110.40,91.48,390.65,10.22;4,110.40,102.76,346.73,10.22">Board games are tools able to provide hands-on and heads-on skill and knowledge development for people of all ages on all subjects: well-designed games create an engaging, nonthreatening yet competitive class atmosphere; while playing games, students focus on content and reinforce and apply learning <ref type="bibr" coords="4,377.16,102.76,75.96,10.22">(Treher, 2011: 3)</ref>.</s></p><p xml:id="_A8dEkY2"><s xml:id="_wJ5tFfx" coords="4,121.56,114.04,379.69,10.22;4,110.40,125.32,390.90,10.22;4,110.40,136.60,145.37,10.22">The board and the other tangible game elements (cards, dice etc.) act as visual metaphors that support players / students in connecting information / content, thus becoming vehicles for learning.</s><s xml:id="_PVX7UQY" coords="4,259.68,136.60,241.62,10.22;4,110.40,147.88,390.75,10.22;4,110.40,159.16,390.90,10.22;4,110.40,170.44,390.87,10.22;4,110.40,181.72,123.41,10.22">The game strategy that includes questions, problems to solve and challenging situations engage the students' critical thinking, problemsolving, information-organization and practical skills, enhancing peer learning; games also provide the opportunity to diminish the risk of students with lower levels of knowledge to feel exposed.</s></p><p xml:id="_96vmbxM"><s xml:id="_SHVA4JJ" coords="4,121.56,193.00,379.55,10.22;4,110.40,204.28,390.84,10.22;4,110.40,215.56,390.90,10.22;4,110.40,226.84,124.97,10.22">The questions that keep the game going check understanding and help identify learning gaps or learning errors; also, board games are a great way to transform abstract concepts into something more tangible and thus support acquisition of notions otherwise difficult to teach.</s><s xml:id="_zdkt2jx" coords="4,238.68,226.84,262.67,10.22;4,110.40,238.12,132.53,10.22">The demands of various learning styles may be addressed through board games as well.</s></p><p xml:id="_Y7MxRe2"><s xml:id="_DRCStW8" coords="4,121.56,249.40,379.52,10.22;4,110.40,260.68,390.65,10.22;4,110.40,271.96,390.83,10.22;4,110.40,283.24,390.83,10.22;4,110.40,294.52,390.71,10.22;4,110.40,305.80,390.80,10.22;4,110.40,317.08,390.95,10.22;4,110.40,328.36,390.80,10.22;4,110.40,339.64,390.83,10.22;4,110.40,350.92,390.90,10.22;4,110.40,362.20,390.85,10.22;4,110.40,373.48,390.71,10.22;4,110.40,384.76,390.83,10.22;4,110.40,396.04,390.90,10.22;4,110.40,407.32,390.83,10.22;4,110.40,418.60,390.83,10.22;4,110.40,429.88,205.85,10.22">The learning outcomes and impact of using board games in adult education may be systematized as follows: 1. students learn how to face daily situations successfully; 2. students exchange and learn how to exchange information and ideas, and communicate thoughts and feelings; 3. students build cultural awareness and expression, and intercultural competences; they understand better the way of life and mentalities of other peoples if the game provides an intercultural approach; 4. the teaching and learning is focused on the needs, motivations, characteristics and resources of the learner; 5. learners achieve the ability to define valid and realistic objectives; 6. the learner builds the capacity of self-evaluation; game-based education raises the learner's awareness of the present level of his/her knowledge; 7. students learn how to identify, analyse and select the best strategies for work / team work / group work, problem-solving, conflict management etc.; 8. learners build and develop creative, analytic and reflective thinking, organizational competences, the ability to concentrate for extended periods of time, self-management competences; 9. students learn how to seek and make use of guidance and support, how to work collaboratively; 10. students build and develop social skills and communication competences, and interpersonal competences.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2." xml:id="_QHfGwNx">Advantages and disadvantages of game-based learning</head><p xml:id="_4XkbjbH"><s xml:id="_rD52sCj" coords="4,121.56,475.00,379.52,10.22;4,110.40,486.28,390.80,10.22;4,110.40,497.56,390.96,10.22;4,110.40,508.84,390.83,10.22;4,110.40,520.12,390.80,10.22;4,110.40,531.40,390.90,10.22;4,110.40,542.68,390.77,10.22;4,110.40,553.96,390.90,10.22;4,110.40,565.24,298.25,10.22">In relation to Q3, from among the advantages of GBL, we shall here present the ones that we consider to be most relevant: 1. GBL promotes a positive attitude towards learning; 2. develops memory skills; 3. connects learners and helps them build self-constructed learning; 4. involves all the students in a class in active learning and keeps them motivated; 5. supports experiential learning; 6. provides a transdisciplinary approach to education as students may work on multiple skills related to various disciplines: research, problem-solving, leadership, team-work, creativity, logics, taking decisions, adaptation, communicative and interaction skills <ref type="bibr" coords="4,110.40,565.24,100.93,10.22" target="#b0">(Anderson et al. 2009;</ref><ref type="bibr" coords="4,214.20,565.24,65.53,10.22" target="#b28">Whitton 2012;</ref><ref type="bibr" coords="4,282.60,565.24,121.23,10.22">Cojocariu&amp;Boghian, 2014)</ref>.</s></p><p xml:id="_gNktdjS"><s xml:id="_jFAgEkH" coords="4,121.56,577.84,379.55,8.48;4,110.40,589.12,390.67,8.48;4,110.40,599.08,390.87,10.22;4,110.40,610.36,390.80,10.22;4,110.40,621.64,390.71,10.22;4,110.40,632.92,390.65,10.22;4,110.40,644.20,390.83,10.22;4,110.40,655.48,66.41,10.22">From among the disadvantages of GBL, we have systematized those with which we have been faced in our teaching practice most often: 1. GBL may be time consuming; 2. time management may be difficult during the game; 3. students' failure to comply with the deadline for ending/completing the game may lead to discouragement and low self-esteem; 4. the risk that the beneficiaries may consider the game activity as fickle, which they would be tempted not to address with responsibility and from the perspectives of learning; 5. difficulty to identify if and what students have learnt, as well as possible flaws/gaps in the evaluation.</s></p><p xml:id="_hNBCJbe"><s xml:id="_dpJBPSt" coords="4,121.56,666.76,379.62,10.22;4,110.40,678.04,390.78,10.22;4,110.40,689.32,220.13,10.22">Game-based learning (GBL) has been found to promote a positive attitude towards learning and developing memory skills, along with its potential to connect learners and help them build self-constructed learning.</s><s xml:id="_V4ZbnFD" coords="4,335.76,689.32,165.47,10.22;4,110.40,700.60,390.80,10.22;4,110.40,711.88,390.71,10.22;5,110.40,68.92,390.83,10.22;5,110.40,80.20,152.45,10.22">GBL is a type of game play with clearly defined learning outcomes: it combines subject matter with game play and the player's ability to retain and apply the subject matter to the real world in a balanced way; it is approached in terms of educational method, didactic procedure, organization of the teaching-learning activity.</s><s xml:id="_W6pSCFe" coords="5,267.48,80.20,233.75,10.22;5,110.40,91.48,390.83,10.22;5,110.40,102.76,390.89,10.22;5,110.40,114.04,100.85,10.22">Modern theories of effective learning have shown that learning is most effective when it is active, experiential, situated, problem-based and provides immediate feedback; games have all these features <ref type="bibr" coords="5,423.48,102.76,77.81,10.22;5,110.40,114.04,25.69,10.22" target="#b7">(Connolly et al., 2012;</ref><ref type="bibr" coords="5,139.08,114.04,67.34,10.22" target="#b19">Popescu, 2014)</ref>.</s></p><p xml:id="_jezteCX"><s xml:id="_EVhQ2Eg" coords="5,121.56,125.32,379.69,10.22;5,110.40,136.60,390.85,10.22;5,110.40,147.88,390.83,10.22;5,110.40,159.16,25.37,10.22">Team-based board games help to build communication and relationship skills: players work face-to-face to answer questions or solve problems and realise that working together makes them better and faster at finding solutions and implementing them.</s><s xml:id="_Wcc8AWD" coords="5,141.12,159.16,360.08,10.22;5,110.40,170.44,390.83,10.22;5,110.40,181.72,288.89,10.22">Board games are a great way to make players/adults become aware of the strengths of collaboration; in organizational settings, this awareness may really transform working relationships for the better <ref type="bibr" coords="5,319.20,181.72,76.08,10.22">(Treher, 2011: 4)</ref>.</s></p><p xml:id="_uXUVpeb"><s xml:id="_mFEDXZe" coords="5,121.56,193.00,379.81,10.22;5,110.40,204.28,390.71,10.22;5,110.40,215.56,390.73,10.22;5,110.40,226.84,361.37,10.22">Given the results of Q1, Q2 and Q3 systematized above, the answer to Q4 is that the advantages and the learning outcomes of using board games in education, in general and, more specifically, in adult education are relevant enough to support further investigation into this topic and promote game-based learning activities.</s><s xml:id="_ehP6jym" coords="5,474.96,226.84,26.24,10.22;5,110.40,238.12,390.77,10.22;5,110.40,249.40,390.71,10.22;5,110.40,260.68,28.37,10.22">In the case of game-based (adult) education, the teacher's role is that of a guide, cheerleader, resource and support: game-based learning is learning from experience or learning by doing.</s><s xml:id="_vJ3QyG2" coords="5,143.16,260.68,357.99,10.22;5,110.40,271.96,289.13,10.22">The teacher's task is to select educational games appropriate to the students' level of skills and general knowledge that need to be developed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_QCMbC89">Conclusions</head><p xml:id="_23QCbvQ"><s xml:id="_NGKruP7" coords="5,121.56,317.08,379.52,10.22;5,110.40,328.36,390.83,10.22;5,110.40,339.64,390.85,10.22;5,110.40,350.92,251.69,10.22">The literature on using board games in education is yet scarce; however, there is a growing interest in approaching and studying the use of board games in education and adult education particularly, in the context of a versatile, globalised, multicultural labour market and enhanced need for life-long learning.</s></p><p xml:id="_NQm3kjX"><s xml:id="_8sTvtxT" coords="5,121.56,362.20,379.59,10.22;5,110.40,373.48,281.69,10.22">We live longer, we learn more: life-long learning implies all the three modalities of education -formal, non-formal and informal <ref type="bibr" coords="5,320.28,373.48,66.99,10.22" target="#b13">(Hinzen, 2018)</ref>.</s><s xml:id="_6ExVZPt" coords="5,395.76,373.48,105.32,10.22;5,110.40,384.76,390.83,10.22;5,110.40,396.04,381.17,10.22">The most relevant idea promoted by using board games in adult education is the fact that there is constantly something new to learn and there is always something to learn with and from others.</s></p><p xml:id="_6mDXEwy"><s xml:id="_sjbTnrt" coords="5,121.56,407.32,379.55,10.22;5,110.40,418.60,390.92,10.22;5,110.40,429.88,390.90,10.22;5,110.40,441.16,192.53,10.22">Serious games can be used in all fields in which people need training and learning and at all levels of education: games as forms of education are very popular in the army, in the fields of safety, security, rescue and healthcare, i.e. in areas where it is difficult to train people in real situations.</s><s xml:id="_VyrhGQR" coords="5,307.20,441.16,194.05,10.22;5,110.40,452.44,390.77,10.22;5,110.40,463.72,390.65,10.22;5,110.40,475.00,120.53,10.22">Lately, the number of serious educational games has also increased in the fields of public administration, governance, management and other fields that require specific forms of communication, negotiation and teamwork.</s></p><p xml:id="_mmqmUmF"><s xml:id="_ekQps9T" coords="5,121.56,486.28,379.67,10.22;5,110.40,497.56,390.75,10.22;5,110.40,508.84,98.93,10.22">Game-based education provides learners with an experience, as well as a chance to reflect on that experience and draw knowledge, build new attitudes, skills or ways of thinking based on it.</s><s xml:id="_KXES9ZA" coords="5,214.56,508.84,286.69,10.22;5,110.40,520.12,390.80,10.22;5,110.40,531.40,390.85,10.22;5,110.40,542.68,390.87,10.22;5,110.40,553.96,390.85,10.22;5,110.40,565.24,230.21,10.22">The interdisciplinary and constructivist type of learning that occurs during game-based education provides students with the opportunity to: make mistakes without suffering real-life consequences; discover their personal relevance; understand connections between reasons, actions, causes and effects; learn at their own learning pace; reflect on their experience; undertake the role of leaders and act accordingly <ref type="bibr" coords="5,170.76,565.24,165.01,10.22">(Rugelj, Jedrinović&amp;Bevčič, 2018)</ref>.</s><s xml:id="_4u4Zztb" coords="5,347.76,565.24,153.56,10.22;5,110.40,576.52,224.93,10.22">Board games provide all these opportunities for students and learners of all ages.</s></p><p xml:id="_D2EM55j"><s xml:id="_f7USShX" coords="5,121.56,587.80,379.67,10.22;5,110.40,599.08,390.80,10.22;5,110.40,610.36,390.65,10.22;5,110.40,621.64,390.87,10.22;5,110.40,632.92,390.95,10.22;5,110.40,644.20,390.80,10.22;5,110.40,655.48,390.83,10.22">As more and more games have been designed for educational purposes by interdisciplinary teams (experts in didactics and the selected subject areas, cognitive psychology, graphic designers, videographers, programmers, advertising, marketing), teachers have lately begun to participate in the design, testing and improvement of educational games, along with groups of students that may provide useful feedback on the games: the transnational Erasmus+GameIT project: Gamestorming for Innovative Teaching(2017-2020) 3coordinated by the Philological School of Higher Education in</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="2,145.68,655.48,355.43,10.22;2,110.40,666.76,390.78,10.22;2,110.40,678.04,390.83,10.22;2,110.40,689.32,390.78,10.22;2,110.40,700.60,390.80,10.22;2,110.40,711.88,390.85,10.22;3,110.40,68.92,390.77,10.22;3,110.40,80.20,159.05,10.22"><head></head><label></label><figDesc><div><p xml:id="_45S6kC3"><s xml:id="_vZx3amh" coords="2,145.68,655.48,355.43,10.22;2,110.40,666.76,390.78,10.22;2,110.40,678.04,390.83,10.22;2,110.40,689.32,390.78,10.22;2,110.40,700.60,390.80,10.22;2,110.40,711.88,390.85,10.22;3,110.40,68.92,390.77,10.22;3,110.40,80.20,159.05,10.22">Recommendation of the European Parliament and of the Council of 18 December 2006 on key competences for lifelong learning (2006/962/EC) establishes, for the graduates of compulsory education, a European training profile defined by eight domains of key competences: 1. Communication in the mother tongue; 2. Communication in foreign languages; 3. Mathematical competence and basic competences in science and technology; 4. Digital competence; 5. Learning to learn; 6. Social and civic competences; 7. Sense of initiative and entrepreneurship; 8. Cultural awareness and expression.</s></p></div></figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_0" coords="5,113.52,693.40,387.67,8.48;5,110.40,704.20,390.71,8.48;5,110.40,715.00,137.94,8.48"><p xml:id="_BqU5nr8"><s xml:id="_J5KdHrE" coords="5,113.52,693.40,387.67,8.48;5,110.40,704.20,390.71,8.48;5,110.40,715.00,137.94,8.48">Acknowledgements: This work was supported by a grant of the Polish National Agency, through the "GameIT: Gamestorming for Innovative Teaching" under the Erasmus+ programme KA203, No. 2017-1-PL01-KA203-038535, 2017-2010.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_1" coords="6,113.52,692.41,345.06,9.47"><p xml:id="_N977A5P"><s xml:id="_7CvDq6w" coords="6,113.52,693.40,226.98,8.48">https://www.wsf.edu.pl/wspolpraca-z-zagranica,gameit.xml,</s><s xml:id="_FTvKjT2" coords="6,342.96,692.41,115.62,9.47">Accessed September 4 th , 2018.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_2" coords="6,113.52,704.20,387.71,8.48;6,110.40,714.01,77.70,9.47"><p xml:id="_YtyS3Du"><s xml:id="_gBf9tjU" coords="6,113.52,704.20,326.87,8.48">https://www.researchgate.net/project/GameIT-Gamestorming-for-Innovative-Teaching</s><s xml:id="_5bqgXW3" coords="6,447.24,704.20,53.99,8.48;6,110.40,714.01,77.70,9.47">, , Accessed September 4 th , 2018.</s></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xml:id="_7P7ChBS"><p xml:id="_HgTugQN">Wroclaw, Poland4, brings together teachers, experts in management, advertising and IT and students from three other partner institutions: the <rs type="institution">Vasile Alecsandri University of Bacӑu, Romania</rs>; the <rs type="funder">University of Ljubljana</rs>, Slovenia; the <rs type="funder">Western Norway University of Applied Sciences, Norway</rs>.One of the major results5 of the project is a board game aimed at shaping and developing creative thinking, communication, intercultural awareness and cooperative skills at adult learners, with application in academic classes.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_uNXZQgr"><p xml:id="_Q5mStzT"><s xml:id="_JJnMYhV" coords="8,70.87,73.87,434.25,10.80;8,70.87,87.67,435.25,10.80;8,70.87,101.47,371.06,10.80">Copyright of Journal of Educational Sciences &amp; Psychology is the property of Petroleum -Gas University of Ploiesti and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder's express written permission.</s><s xml:id="_gUYpTPM" coords="8,444.97,101.47,74.63,10.80;8,70.87,115.27,273.59,10.80">However, users may print, download, or email articles for individual use.</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="6,125.07,190.96,376.01,8.48;6,138.48,201.76,48.47,8.48;6,202.08,201.76,33.95,8.48;6,251.04,201.76,10.79,8.48;6,276.96,201.76,21.44,8.48;6,313.56,201.76,40.38,8.48;6,369.12,201.76,28.16,8.48;6,412.32,201.81,38.63,8.33;6,466.08,201.81,35.03,8.33;6,138.48,212.61,323.63,8.33;6,498.72,212.56,2.34,8.48;6,138.48,222.37,104.70,9.47" xml:id="b0">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">O</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename></persName>
+		</author>
+		<ptr target="http://www.adulterc.org/Proceedings/2009/proceedings/anderson_etal.pdf" />
+		<title level="m" xml:id="_AqR4e6v" coord="6,363.72,190.96,137.36,8.48;6,138.48,201.76,48.47,8.48;6,202.08,201.76,33.95,8.48;6,251.04,201.76,10.79,8.48;6,276.96,201.76,21.44,8.48;6,313.56,201.76,40.38,8.48;6,369.12,201.76,28.16,8.48;6,412.32,201.81,38.63,8.33;6,466.08,201.81,35.03,8.33;6,138.48,212.61,39.95,8.33">New Territories in Adult Education: Game-Based Learning for Adult Education. InAdult Education Research Conference</title>
+		<imprint>
+			<date type="published" when="2009-03-26">2009. March 26 th , 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anderson, O., B., Anderson, N., M., Taylor, A., T. (2009). New Territories in Adult Education: Game-Based Learning for Adult Education. InAdult Education Research Conference.http://www.adulterc.org/Proceedings/2009/proceedings/anderson_etal.pdf . Accessed March 26 th , 2018.</note>
+</biblStruct>
+
+<biblStruct coords="6,125.07,234.16,376.01,8.48;6,138.48,244.96,41.70,8.48" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" coord="6,211.20,234.21,216.49,8.33" xml:id="_VS4xRhR">Persuasive games: The expressive power of videogames</title>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Bogost</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bogost, I. (2010). Persuasive games: The expressive power of videogames. Cambridge, MA: MIT Press.</note>
+</biblStruct>
+
+<biblStruct coords="6,125.07,255.88,376.00,8.48;6,138.48,266.68,287.46,8.48" xml:id="b2">
+	<monogr>
+		<title level="m" type="main" coord="6,242.88,255.88,258.19,8.48;6,138.48,266.68,180.94,8.48" xml:id="_v2R6ws5">The functions of role-playing games: How participants create community, solve problems and explore identity</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">L</forename><surname>Bowman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>McFarland</publisher>
+			<pubPlace>Jefferson, NC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bowman, S. L. (2010). The functions of role-playing games: How participants create community, solve problems and explore identity. Jefferson, NC: McFarland.</note>
+</biblStruct>
+
+<biblStruct coords="6,125.07,277.36,376.00,8.48;6,138.48,288.16,328.62,8.48" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" coord="6,213.48,277.36,287.59,8.48;6,138.48,288.16,26.19,8.48" xml:id="_Kp3DVRA">Ludic Epistemology: What Game-Based Learning Can Teach Curriculum Studies</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Castell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Dvdkt72" coord="6,170.88,288.16,233.63,8.48">InJournal of the Canadian Association for Curriculum Studies</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="19" to="27" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Castell, S. (2011). Ludic Epistemology: What Game-Based Learning Can Teach Curriculum Studies. InJournal of the Canadian Association for Curriculum Studies,8(2), pp. 19-27.</note>
+</biblStruct>
+
+<biblStruct coords="6,125.07,299.08,376.11,8.48;6,138.48,309.88,332.58,8.48" xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">V.-M</forename><forename type="middle">(</forename><surname>Cojocariu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="middle">)</forename><surname>Coord</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Boghian</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Lupu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Mâţӑ</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Nedelcu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Puşcaşu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">P</forename><surname>Savin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>EdituraMiniped</publisher>
+			<pubPlace>Bucureşti</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Jocurididacticeminunate din diferiteizvoareadunate</note>
+	<note type="raw_reference">Cojocariu, V.-M. (Coord.), Boghian, I., Lupu, C., Mâţӑ, L., Nedelcu, C., Puşcaşu, D., Savin, P. (2017). Jocurididacticeminunate din diferiteizvoareadunate. Bucureşti: EdituraMiniped.</note>
+</biblStruct>
+
+<biblStruct coords="6,125.07,320.68,376.16,8.48;6,138.48,331.48,362.10,8.48" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="6,291.96,320.68,209.27,8.48;6,138.48,331.48,120.22,8.48" xml:id="_8Zwuss4">Teaching the Relevance of Game-Based Learning to Preschool and Primary Teachers</title>
+		<author>
+			<persName coords=""><forename type="first">V.-M</forename><surname>Cojocariu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">I</forename><surname>Boghian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_ewdEG6S" coord="6,265.20,331.48,162.53,8.48">InProcedia-Social and Behavioral Sciences</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="640" to="646" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cojocariu, V.-M., Boghian, I. (2014). Teaching the Relevance of Game-Based Learning to Preschool and Primary Teachers. InProcedia-Social and Behavioral Sciences, 142, pp. 640-646.</note>
+</biblStruct>
+
+<biblStruct coords="6,125.07,342.28,376.04,8.48;6,138.48,353.08,362.63,8.48;6,138.48,363.88,86.82,8.48" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="6,368.28,342.28,132.83,8.48;6,138.48,353.08,99.72,8.48" xml:id="_Pr94YmH">Not just for children: game-based learning for older adults</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Charlier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Remmelle</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Whitton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZxxSpmu" coord="6,247.68,353.08,253.43,8.48;6,138.48,363.93,32.69,8.33">InProceedings of the European Conference on Games Based Learning</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="102" to="109" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charlier, N., Ott, M., Remmelle, B., Whitton, N. (2012). Not just for children: game-based learning for older adults. InProceedings of the European Conference on Games Based Learning, pp. 102-109.</note>
+</biblStruct>
+
+<biblStruct coords="6,125.07,374.68,375.96,8.48;6,138.48,385.60,362.58,8.48;6,138.48,396.40,178.74,8.48" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="6,494.28,374.68,6.75,8.48;6,138.48,385.60,358.19,8.48" xml:id="_KYyf2aP">A systematic literature review of empirical evidence on computer games and serious games</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Th</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Macarthur</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Hainey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Th</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_4FQq9nm" coord="6,138.48,396.40,97.85,8.48">InComputers &amp; Education</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="661" to="686" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Connolly, M., Th., Boyle, A., E., MacArthur, E., Hainey, Th., Boyle, M., J. (2012). A systematic literature review of empirical evidence on computer games and serious games. InComputers &amp; Education, 59(2), pp. 661-686.</note>
+</biblStruct>
+
+<biblStruct coords="6,125.07,407.08,375.92,8.48;6,138.48,417.88,266.82,8.48" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="6,403.68,407.08,97.31,8.48;6,138.48,417.88,129.57,8.48" xml:id="_QyBzBK5">Three different paths for tabletop gaming in school libraries</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Copeland</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">B</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Nicholson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_VQQcgwp" coord="6,273.72,417.88,63.20,8.48">InLibrary Trends</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="825" to="835" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Copeland, T., Henderson, B., Mayer, B., &amp; Nicholson, S. (2013). Three different paths for tabletop gaming in school libraries. InLibrary Trends, 61, pp. 825-835.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,428.80,257.42,8.48" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="6,218.40,428.85,85.39,8.33" xml:id="_jAckz2Q">Psihopedagogiajocului</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Dumitriu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gQwscym" coord="6,338.76,428.80,43.83,8.48">Alma Mater</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<pubPlace>Bacău</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dumitriu, C. (2011). Psihopedagogiajocului. Bacău: Alma Mater.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,439.60,371.83,8.48;6,138.48,450.40,302.10,8.48" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="6,241.32,439.60,259.79,8.48;6,138.48,450.40,139.78,8.48" xml:id="_gQP6X5N">Digital game-based learning: Impact of instructions and feedback on motivation and learning effectiveness</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Erhel</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Jamet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BxfjAVJ" coord="6,284.52,450.45,89.63,8.33">Computers &amp; Education</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="156" to="167" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erhel, S., Jamet, E. (2013) Digital game-based learning: Impact of instructions and feedback on motivation and learning effectiveness, Computers &amp; Education,67, pp. 156-167.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,461.08,371.78,8.48;6,138.48,472.00,97.74,8.48" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="6,209.16,461.13,242.97,8.33" xml:id="_zHuvkeE">What video games have to teach us about learning and literacy</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">P</forename><surname>Gee</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Palgrave MacMillan</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gee, J. P. (2007). What video games have to teach us about learning and literacy. New York, NY: Palgrave MacMillan.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,482.80,371.80,8.48;6,138.48,493.60,362.60,8.48;6,138.48,504.40,354.78,8.48" xml:id="b12">
+	<monogr>
+		<title level="m" type="main" coord="6,241.92,482.80,259.16,8.48;6,138.48,493.60,86.78,8.48;6,396.60,493.65,104.48,8.33;6,138.48,504.45,252.26,8.33" xml:id="_PgAVpha">Examining the evolution of gaming and its impact on social, cultural and political perspectives</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">P</forename><surname>Greenhalgh</surname></persName>
+		</author>
+		<editor>K. D. Valentine &amp; L. J. Jensen</editor>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>IGI Global</publisher>
+			<pubPlace>Hershey, PA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Affordances and constraints of analog games for ethics education: Dilemmas and dragons</note>
+	<note type="raw_reference">Greenhalgh, S. P. (2016). Affordances and constraints of analog games for ethics education: Dilemmas and dragons. In K. D. Valentine &amp; L. J. Jensen (Eds.), Examining the evolution of gaming and its impact on social, cultural and political perspectives. Hershey, PA: IGI Global.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,515.32,371.95,8.48;6,138.48,526.00,362.60,8.48;6,138.48,535.81,362.60,9.47;6,138.48,546.61,61.14,9.47" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="6,218.16,515.37,283.07,8.33;6,138.48,526.05,243.55,8.33" xml:id="_EUatXZT">Comparing commitments, documents and recommendations at global level</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Hinzen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_egsjRus" coord="6,389.16,526.00,111.92,8.48;6,138.48,535.81,199.89,9.47">Keynote Addressdelivered at the 5 th International Conference on Adult Education</title>
+		<meeting><address><addrLine>Iaşi, Romania-Chişinӑu, Moldova</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018-04-25">2018. April 25 th -28 th 2018</date>
+		</imprint>
+	</monogr>
+	<note>Skills and values in adult education and lifelong learning</note>
+	<note type="raw_reference">Hinzen, H. (2018). Skills and values in adult education and lifelong learning. Comparing commitments, documents and recommendations at global level. Keynote Addressdelivered at the 5 th International Conference on Adult Education, Iaşi, Romania-Chişinӑu, Moldova, April 25 th -28 th 2018.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,558.52,38.66,8.48;6,210.84,558.52,9.90,8.48;6,263.64,558.52,9.06,8.48;6,315.60,558.52,27.42,8.48;6,385.92,558.57,45.92,8.33;6,474.72,558.57,26.34,8.33;6,138.48,569.32,334.60,8.48;6,498.84,569.32,2.34,8.48;6,138.48,579.13,104.70,9.47" xml:id="b14">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Keesee</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename></persName>
+		</author>
+		<ptr target="http://teachinglearningresources.pbworks.com/w/page/35130965/Educational%20Games" />
+		<title level="m" xml:id="_Rq2MpN4" coord="6,385.92,558.57,45.92,8.33;6,474.72,558.57,21.95,8.33">Educational games</title>
+		<imprint>
+			<date type="published" when="2012-03-26">2012. March 26 th , 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keesee, S., G. (2012). Educational games. http://teachinglearningresources.pbworks.com/w/page/35130965/Educational%20Games . Accessed March 26 th , 2018.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,590.80,364.34,8.48" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="6,274.80,590.85,136.24,8.33" xml:id="_vbASEBv">Ghid de elaborare a jocului didactic</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Mâță</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">.-M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_VtSDXh9" coord="6,445.44,590.80,44.03,8.48">Alma Mater</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<pubPlace>Bacău</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mâță, L. &amp;Cojocariu V.-M. (2011). Ghid de elaborare a jocului didactic, Bacău: Alma Mater.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,601.72,371.79,8.48;6,138.48,612.52,162.66,8.48" xml:id="b16">
+	<monogr>
+		<title level="m" type="main" coord="6,226.08,601.77,274.99,8.33;6,138.48,612.57,33.95,8.33" xml:id="_2nK5NQx">Reality is broken: Why games make us better and how they can change the world</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Mcgonigal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Penguin Books</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McGonigal, J. (2011). Reality is broken: Why games make us better and how they can change the world. New York, NY: Penguin Books.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,623.32,371.78,8.48;6,138.48,634.12,101.34,8.48" xml:id="b17">
+	<monogr>
+		<title level="m" type="main" coord="6,248.40,623.32,248.40,8.48" xml:id="_U6GpF6Y">Literature Review: Effectiveness of Gaming in the Classroom</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">A</forename><surname>Milczynski</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Michigan State University</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milczynski, K. A. (2011). Literature Review: Effectiveness of Gaming in the Classroom. Michigan State University.</note>
+</biblStruct>
+
+<biblStruct coords="6,129.28,644.92,371.71,8.48;6,138.48,655.72,265.26,8.48" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="6,267.60,644.92,233.39,8.48;6,138.48,655.72,68.85,8.48" xml:id="_gNQHbrv">Outdoor games and playtime versus social competences of children and youth</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Paczyńska-Jędrycka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gKeFzz9" coord="6,213.60,655.72,104.57,8.48">InHANDEL WEWNĘTRZNY</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">365</biblScope>
+			<biblScope unit="page" from="309" to="318" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paczyńska-Jędrycka, M. (2016). Outdoor games and playtime versus social competences of children and youth. InHANDEL WEWNĘTRZNY, 6(365), pp. 309-318.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,69.76,371.78,8.48;7,138.48,80.56,362.58,8.48;7,138.48,91.24,108.54,8.48" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="7,235.20,69.76,149.89,8.48" xml:id="_dNwM7JZ">Web 2 resources for teaching Matlab</title>
+		<author>
+			<persName coords=""><forename type="first">C.-V</forename><surname>Popescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_jAWC8BB" coord="7,268.92,80.61,190.92,8.33">Social Media in Academia: Reseach and Teaching</title>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Pӑtruţ</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Andone</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Holotescu</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Grossek</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Bologna, Italy_ Medimond</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="79" to="82" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Popescu, C.-V. (2014). Web 2 resources for teaching Matlab. In Pӑtruţ, B., Andone, D., Holotescu, C, Grossek, G. (Eds.), Social Media in Academia: Reseach and Teaching, Bologna, Italy_ Medimond, pp. 79-82.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,102.04,371.83,8.48;7,138.48,112.96,162.30,8.48" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="7,219.84,102.04,206.28,8.48" xml:id="_nu8rGVS">Fun, Play and Games: What Makes Games Engaging</title>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Prensky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_k43aW9K" coord="7,445.32,102.09,55.79,8.33;7,138.48,113.01,57.90,8.33">Digital Game-Based Learning</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Prensky, M. (2001). Fun, Play and Games: What Makes Games Engaging. In Digital Game- Based Learning. New York: McGraw-Hill.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,123.76,371.18,8.48" xml:id="b21">
+	<monogr>
+		<title level="m" type="main" coord="7,206.28,123.76,196.57,8.48" xml:id="_sDUxeYH">Games and Learning. Lifelong Learning Programme</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Rugelj</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>University of Ljubljana</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rugelj, J. (2018). Games and Learning. Lifelong Learning Programme. University of Ljubljana.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,134.56,371.83,8.48;7,138.48,145.36,123.18,8.48" xml:id="b22">
+	<monogr>
+		<title level="m" type="main" coord="7,318.72,134.61,182.39,8.33;7,138.48,145.41,48.57,8.33" xml:id="_KUQmbrz">A comprehensive model of a cooperative roleplaying game</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Rugelj</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><surname>Jedrinović</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Bevčič</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Work in progress</note>
+	<note type="raw_reference">Rugelj, J., Jedrinović, S., Bevčič, M. (2018). A comprehensive model of a cooperative role- playing game. Work in progress.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,156.16,371.78,8.48;7,138.48,166.96,278.70,8.48" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="7,208.08,156.16,288.93,8.48" xml:id="_8KvfdQx">Serious Computer Games Design for Active Learning in Teacher Education</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Rugelj</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Bw6xrTF" coord="7,278.46,166.96,47.36,8.48">SGAMES 2015</title>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Vaz De Carvalho</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rugelj, J. (2016). Serious Computer Games Design for Active Learning in Teacher Education. In C. Vaz de Carvalho et al. (Eds.):SGAMES 2015, LNICST, 161, pp. 1-9.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,177.76,371.96,8.48;7,138.48,188.61,48.99,8.33;7,231.24,188.61,9.35,8.33;7,284.40,188.61,28.12,8.33;7,356.16,188.61,28.38,8.33;7,428.28,188.56,17.94,8.48;7,489.84,188.56,11.22,8.48;7,138.48,199.48,361.83,8.48;7,138.48,209.29,187.86,9.47" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="7,210.84,177.76,216.36,8.48" xml:id="_hUs3zFt">Serious computer games in computer science education</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Rugelj</surname></persName>
+		</author>
+		<ptr target="https://www.researchgate.net/publication/283567970_Serious_computer_games_in_computer_science_education" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_YkMhfPE" coord="7,446.52,177.81,54.71,8.33;7,138.48,188.61,48.99,8.33;7,231.24,188.61,9.35,8.33;7,284.40,188.61,28.12,8.33;7,356.16,188.61,23.65,8.33">EAI Endorsed Transactions on Serious Games</title>
+		<imprint>
+			<date type="published" when="2015-09-04">2015. September 4 th , 2018</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rugelj, J. (2015). Serious computer games in computer science education. In EAI Endorsed Transactions on Serious Games, 2(6), e6. https://www.researchgate.net/publication/283567970_Serious_computer_games_in_computer_s cience_education . Accessed September 4 th , 2018.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,220.96,371.80,8.48;7,138.48,231.76,170.94,8.48" xml:id="b25">
+	<monogr>
+		<title level="m" type="main" coord="7,210.00,221.01,291.08,8.33;7,138.48,231.81,11.83,8.33" xml:id="_G9fS569">Video games and learning: Teaching and participatory culture in the digital age</title>
+		<author>
+			<persName coords=""><forename type="first">K</forename><surname>Squire</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Teachers College Press</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Squire, K. (2011). Video games and learning: Teaching and participatory culture in the digital age. New York, NY: Teachers College Press.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,242.68,371.90,8.48;7,138.48,253.48,362.59,8.48;7,138.48,264.28,306.30,8.48" xml:id="b26">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">B</forename><surname>Staudt Willet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">K</forename><surname>Moudgalya</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">L</forename><surname>Owens Boltz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">P</forename><surname>Greenhalgh</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><forename type="middle">J</forename><surname>Koehler</surname></persName>
+		</author>
+		<title level="m" xml:id="_bQEkpQS" coord="7,168.24,253.53,332.83,8.33;7,138.48,264.33,28.92,8.33;7,290.28,264.28,84.84,8.48">Back to the Gaming Board: Understanding Games and Education through Board Game Reviews</title>
+		<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>SITE 2018 Conference</note>
+	<note type="raw_reference">Staudt Willet, K. B., Moudgalya, S. K., Owens Boltz, L., Greenhalgh, S. P., Koehler, M. J. (2018). Back to the Gaming Board: Understanding Games and Education through Board Game Reviews. Conference paper presented at SITE 2018 Conference, Washington DC.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,275.08,371.78,8.48;7,138.48,285.88,331.67,8.48;7,498.84,285.88,2.34,8.48;7,138.48,295.69,104.70,9.47" xml:id="b27">
+	<monogr>
+		<title level="m" type="main" coord="7,250.32,275.13,127.55,8.33" xml:id="_rbqWQjc">Learning with Board Games</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><forename type="middle">E</forename><surname>Treher</surname></persName>
+		</author>
+		<ptr target="https://www.thelearningkey.com/pdf/Board_Games_TLKWhitePaper_May16_2011.pdf" />
+		<imprint>
+			<date type="published" when="2011-03-26">2011. March 26 th , 2018</date>
+			<publisher>The Learning Key Inc</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Treher, N. E. (2011). Learning with Board Games. The Learning Key Inc. https://www.thelearningkey.com/pdf/Board_Games_TLKWhitePaper_May16_2011.pdf . Accessed March 26 th , 2018.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,307.48,371.92,8.48;7,138.48,318.28,183.30,8.48" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="7,216.24,307.48,212.23,8.48" xml:id="_bSHAnw6">The place of game-based learning in an age of austerity</title>
+		<author>
+			<persName coords=""><forename type="first">N</forename><surname>Whitton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_FtXruB4" coord="7,432.15,307.48,69.04,8.48;7,138.48,318.33,51.11,8.33">Electronic Journal of E-Learning</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whitton, N. (2012). The place of game-based learning in an age of austerity.Electronic Journal of E-Learning, Volume 10, Issue 2, pp. 249-256.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,329.20,371.95,8.48;7,138.48,339.88,362.63,8.48;7,138.48,350.68,250.38,8.48" xml:id="b29">
+	<monogr>
+		<title level="m" type="main" coord="7,226.43,329.20,274.80,8.48;7,138.48,339.88,191.67,8.48" xml:id="_n6ssCg9">Adventures in the Classroom: Creating Role-Playing Games Based on Traditional Stories for the High School Curriculum</title>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">V</forename><surname>Zalka</surname></persName>
+		</author>
+		<ptr target="https://dc.etsu.edu/etd/1469" />
+		<imprint>
+			<date type="published" when="2012-09-04">2012. September 4th, 2018</date>
+		</imprint>
+	</monogr>
+	<note>Electronic Theses and Dissertations.Paper 1469</note>
+	<note type="raw_reference">Zalka, C. V. (2012). &quot;Adventures in the Classroom: Creating Role-Playing Games Based on Traditional Stories for the High School Curriculum&quot;. Electronic Theses and Dissertations.Paper 1469. https://dc.etsu.edu/etd/1469. Accessed September 4th, 2018.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,361.48,371.83,8.48;7,138.48,372.40,362.59,8.48;7,138.48,383.20,120.18,8.48" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="7,155.28,361.53,345.83,8.33;7,138.48,372.45,142.19,8.33" xml:id="_zjd2G2v">Recommendation of the European Parliament and of the Council of 18 December 2006 on key competences for lifelong learning</title>
+		<author>
+			<persName coords=""><forename type="first">*</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">*</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_WKHWchJ" coord="7,374.64,372.40,126.43,8.48;7,138.48,383.20,115.89,8.48">The European Parliament and the Council of the European Union</title>
+		<imprint>
+			<date type="published" when="2006">2006/962/EC. 2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">*** Recommendation of the European Parliament and of the Council of 18 December 2006 on key competences for lifelong learning (2006/962/EC). (2006). The European Parliament and the Council of the European Union.</note>
+</biblStruct>
+
+<biblStruct coords="7,129.28,393.01,250.46,9.47" xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">*</forename></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">*</forename></persName>
+		</author>
+		<ptr target="https://boardgamegeek.com/" />
+		<imprint>
+			<date type="published" when="2018-09-04">September 4 th , 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">***https://boardgamegeek.com/. Accessed September 4 th , 2018.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,238 @@
+{
+    "metadata": {
+        "title": "Testing and Debugging Exascale Applications by Mocking MPI",
+        "doi": "10.1145/2830168.2830173",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Debugging and code verification present daunting challenges for message-passing parallel applications that employ billions of processes/threads. Yet often it is only at scale that software defects first show themselves. When it is di cult or impossible to replicate problems on small scale platforms, development delays and resource costs are significant considerations. Software mocks, in which reconfigurable components replace dependencies in an application component under test, are a powerful and versatile way to side-step expensive, complex, and/or otherwise impractical dependencies. We propose that mocking application dependencies, and MPI in particular, is an e ective technique for testing and debugging exascale message-passing software using small-scale computing resources.",
+        "keywords": [
+            "resource",
+            "dependency",
+            "software",
+            "verification",
+            "exascale",
+            "mpi",
+            "mock",
+            "application",
+            "checkingassertion",
+            "component"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Thomas Clune",
+            "affiliation": "NASA Goddard Space Flight Center Greenbelt",
+            "email": "thomas.l.clune@nasa.gov"
+        },
+        {
+            "name": "Hal Finkel",
+            "affiliation": "Leadership Computing Facility Argonne National Laboratory",
+            "email": "hfinkel@anl.gov"
+        },
+        {
+            "name": "Michael Rilee",
+            "affiliation": "Rilee Systems Technologies LLC and NASA GSFC",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "Google c++ mocking framework. \"http://code.google.com/p/googlemock\"",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [],
+            "title": "Home -hippo mocks project -assembla",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Energy",
+                    "given": "U.S.Department",
+                    "particle": "of"
+                }
+            ],
+            "title": "Tools for exascale computing: Challenges and strategiesO ce of Science \"http://science.energy.gov/~/media/ascr/ pdf/research/cs/Exascale%20Workshop/Exascale_ Tools_Workshop_Report.pdf\"",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Clune",
+                    "given": "T."
+                },
+                {
+                    "family": "Rilee",
+                    "given": "M."
+                }
+            ],
+            "title": "pFUnit 3.0 -a unit testing framework for parallel fortran software",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Feathers",
+                    "given": "M."
+                }
+            ],
+            "title": "Working E\u21b5ectively with Legacy Software",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kal\u00e9",
+                    "given": "L.V."
+                },
+                {
+                    "family": "Ramkumar",
+                    "given": "B."
+                },
+                {
+                    "family": "Sinha",
+                    "given": "A.B."
+                },
+                {
+                    "family": "Gursoy",
+                    "given": "A."
+                }
+            ],
+            "title": "The CHARM Parallel Programming Language and System: Part I -Description of Language Features",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Laguna",
+                    "given": "I."
+                },
+                {
+                    "family": "Ahn",
+                    "given": "D.H."
+                },
+                {
+                    "family": "Supinski",
+                    "given": "B.R.",
+                    "particle": "de"
+                },
+                {
+                    "family": "Gamblin",
+                    "given": "T."
+                },
+                {
+                    "family": "Lee",
+                    "given": "G.L."
+                },
+                {
+                    "family": "Schulz",
+                    "given": "M."
+                },
+                {
+                    "family": "Bagchi",
+                    "given": "S."
+                },
+                {
+                    "family": "Kulkarni",
+                    "given": "M."
+                },
+                {
+                    "family": "Zhou",
+                    "given": "B."
+                },
+                {
+                    "family": "Chen",
+                    "given": "Z."
+                },
+                {
+                    "family": "Qin",
+                    "given": "F."
+                }
+            ],
+            "title": "Debugging high-performance computing applications at massive scales",
+            "type": "article-journal",
+            "container_title": [
+                "Commun. ACM"
+            ],
+            "doi": "",
+            "published_date": "2015-08"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Willcock",
+                    "given": "J.J."
+                },
+                {
+                    "family": "Hoefler",
+                    "given": "T."
+                },
+                {
+                    "family": "Edmonds",
+                    "given": "N.G."
+                },
+                {
+                    "family": "Lumsdaine",
+                    "given": "A."
+                }
+            ],
+            "title": "Am++: A generalized active message framework",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 19th International Conference on Parallel Architectures and Compilation Techniques, PACT '10"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Willcock",
+                    "given": "J.J."
+                },
+                {
+                    "family": "Hoefler",
+                    "given": "T."
+                },
+                {
+                    "family": "Edmonds",
+                    "given": "N.G."
+                },
+                {
+                    "family": "Lumsdaine",
+                    "given": "A."
+                }
+            ],
+            "title": "Active pebbles: Parallel programming for data-driven applications",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the International Conference on Supercomputing, ICS '11"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        }
+    ]
+}

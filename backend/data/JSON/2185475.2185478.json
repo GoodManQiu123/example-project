@@ -1,0 +1,526 @@
+{
+    "metadata": {
+        "title": "Position paper: Towards a codelet-based runtime for exascale computing",
+        "doi": null,
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "Computing systems have reached the performance limits attainable by increasing clock rates and complexity, and are now using increased thread-level parallelism and heterogeneity instead. Existing software typically deals poorly with large-scale or heterogeneous computer systems, relying on multiple poorly interacting or special-purpose software interfaces to approach scaling/heterogeneity; attempting to use these approaches on future computers (especially at exascale) will only make matters worse. To solve this problem, software components may be broken up into pieces, called \"codelets\", that can be dynamically scheduled without reliance on binding to any one thread or hardware component in relation to other codelets. By placing a supporting runtime layer between the system interface and codelet-based application, a very high degree of parallelism can be exposed, scaled, and scheduled to use the available hardware efficiently and intelligently. A codeletbased runtime can be used to create a clear path forward to exascale, as well as to deal with computing challenges in the interim.",
+        "keywords": [
+            "paper",
+            "computer",
+            "system",
+            "towards",
+            "position",
+            "software",
+            "concurrent",
+            "exascale",
+            "manycore",
+            "runtime",
+            "parallel"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Christopher Lauderdale",
+            "affiliation": "ET International, Inc",
+            "email": null
+        },
+        {
+            "name": "Rishi Khan",
+            "affiliation": "ET International, Inc",
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "SWARM beta download",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Agullo",
+                    "given": "E."
+                },
+                {
+                    "family": "Dongarra",
+                    "given": "J."
+                },
+                {
+                    "family": "Hadri",
+                    "given": "B."
+                },
+                {
+                    "family": "Kurzak",
+                    "given": "J."
+                },
+                {
+                    "family": "Langou",
+                    "given": "J."
+                },
+                {
+                    "family": "Ltaief",
+                    "given": "H."
+                },
+                {
+                    "family": "Luszczek",
+                    "given": "P."
+                },
+                {
+                    "family": "YarKhan",
+                    "given": "A."
+                }
+            ],
+            "title": "PLASMA users' guide",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Anderson",
+                    "given": "M."
+                },
+                {
+                    "family": "Brodowicz",
+                    "given": "M."
+                },
+                {
+                    "family": "Kaiser",
+                    "given": "H."
+                },
+                {
+                    "family": "Sterling",
+                    "given": "T."
+                }
+            ],
+            "title": "An application-driven analysis of the ParalleX execution model",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011-09"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Barriuso",
+                    "given": "R."
+                },
+                {
+                    "family": "Knies",
+                    "given": "A."
+                }
+            ],
+            "title": "SHMEM user's guide for C",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1994-06"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Blumofe",
+                    "given": "R.D."
+                },
+                {
+                    "family": "Joerg",
+                    "given": "C.F."
+                },
+                {
+                    "family": "Kuszmaul",
+                    "given": "B.C."
+                },
+                {
+                    "family": "Leiserson",
+                    "given": "C.E."
+                },
+                {
+                    "family": "Randall",
+                    "given": "K.H."
+                },
+                {
+                    "family": "Zhou",
+                    "given": "Y."
+                }
+            ],
+            "title": "Cilk: An efficient multithreaded runtime system",
+            "type": "article-journal",
+            "container_title": [
+                "SIGPLAN Not"
+            ],
+            "doi": "",
+            "published_date": "1995-08"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chamberlain",
+                    "given": "B.L."
+                },
+                {
+                    "family": "Callahan",
+                    "given": "D."
+                },
+                {
+                    "family": "Zima",
+                    "given": "H.P."
+                }
+            ],
+            "title": "Parallel programmability and the Chapel language",
+            "type": "article-journal",
+            "container_title": [
+                "IJHPCA"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chapman",
+                    "given": "B."
+                },
+                {
+                    "family": "Jost",
+                    "given": "G."
+                },
+                {
+                    "family": "Pas",
+                    "given": "R.",
+                    "particle": "van der"
+                }
+            ],
+            "title": "Using OpenMP: Portable shared-memory parallel programming",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Charles",
+                    "given": "P."
+                },
+                {
+                    "family": "Grothoff",
+                    "given": "C."
+                },
+                {
+                    "family": "Saraswat",
+                    "given": "V."
+                },
+                {
+                    "family": "Donawa",
+                    "given": "C."
+                },
+                {
+                    "family": "Kielstra",
+                    "given": "A."
+                },
+                {
+                    "family": "Ebcioglu",
+                    "given": "K."
+                },
+                {
+                    "family": "Praun",
+                    "given": "C.",
+                    "particle": "von"
+                },
+                {
+                    "family": "Sarkar",
+                    "given": "V."
+                }
+            ],
+            "title": "X10: An object-oriented approach to non-uniform cluster computing",
+            "type": "chapter",
+            "container_title": [
+                "OOPSLA '05"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dongarra",
+                    "given": "J."
+                },
+                {
+                    "family": "Beckman",
+                    "given": "P."
+                },
+                {
+                    "family": "Moore",
+                    "given": "T."
+                },
+                {
+                    "others": true
+                }
+            ],
+            "title": "The International Exascale Software Project roadmap",
+            "type": "article-journal",
+            "container_title": [
+                "IJHPCA"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fatahalian",
+                    "given": "K."
+                },
+                {
+                    "family": "Horn",
+                    "given": "D.R."
+                },
+                {
+                    "family": "Knight",
+                    "given": "T.J."
+                },
+                {
+                    "family": "Leem",
+                    "given": "L."
+                },
+                {
+                    "family": "Houston",
+                    "given": "M."
+                },
+                {
+                    "family": "Park",
+                    "given": "J.Y."
+                },
+                {
+                    "family": "Erez",
+                    "given": "M."
+                },
+                {
+                    "family": "Ren",
+                    "given": "M."
+                },
+                {
+                    "family": "Aiken",
+                    "given": "A."
+                },
+                {
+                    "family": "Dally",
+                    "given": "W.J."
+                },
+                {
+                    "family": "Hanrahan",
+                    "given": "P."
+                }
+            ],
+            "title": "Sequoia: Programming the memory hierarchy",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2006 ACM/IEEE conference on Supercomputing, SC '06"
+            ],
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Gropp",
+                    "given": "W."
+                },
+                {
+                    "family": "Lusk",
+                    "given": "E."
+                },
+                {
+                    "family": "Skjellum",
+                    "given": "A."
+                }
+            ],
+            "title": "Using MPI",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1999-11"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kaiser",
+                    "given": "H."
+                },
+                {
+                    "family": "Brodowicz",
+                    "given": "M."
+                },
+                {
+                    "family": "Sterling",
+                    "given": "T."
+                }
+            ],
+            "title": "ParalleX: An advanced parallel execution model for scaling-impaired applications",
+            "type": "article-journal",
+            "container_title": [
+                "ICPPW"
+            ],
+            "doi": "",
+            "published_date": "2009-09"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Machanick",
+                    "given": "P."
+                }
+            ],
+            "title": "Approaches to addressing the memory wall",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007-06"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Reinders",
+                    "given": "J."
+                }
+            ],
+            "title": "Intel Threading Building Blocks",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2007-07"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shalf",
+                    "given": "J."
+                },
+                {
+                    "family": "Dosanjh",
+                    "given": "S."
+                },
+                {
+                    "family": "Morrison",
+                    "given": "J."
+                }
+            ],
+            "title": "Exascale computing technology challenges",
+            "type": "chapter",
+            "container_title": [
+                "VECPAR 2010"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Stone",
+                    "given": "J.E."
+                },
+                {
+                    "family": "Gohara",
+                    "given": "D."
+                },
+                {
+                    "family": "Shi",
+                    "given": "G."
+                }
+            ],
+            "title": "OpenCL: A parallel programming standard for heterogeneous computing systems",
+            "type": "article-journal",
+            "container_title": [
+                "Computing in Science & Engineering"
+            ],
+            "doi": "",
+            "published_date": "2010-05"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Theobald",
+                    "given": "K.B."
+                }
+            ],
+            "title": "EARTH: An efficient architecture for running threads",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": "1999"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yan",
+                    "given": "Y."
+                },
+                {
+                    "family": "Zhao",
+                    "given": "J."
+                },
+                {
+                    "family": "Guo",
+                    "given": "Y."
+                },
+                {
+                    "family": "Sarkar",
+                    "given": "V."
+                }
+            ],
+            "title": "Hierarchical Place Trees: A portable abstraction for task parallelism and data movement",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 22nd Workshop on Languages and Compilers for Parallel Computing"
+            ],
+            "doi": "",
+            "published_date": "2009-10"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zuckerman",
+                    "given": "S."
+                },
+                {
+                    "family": "Suetterlein",
+                    "given": "J."
+                },
+                {
+                    "family": "Knauerhase",
+                    "given": "R."
+                },
+                {
+                    "family": "Gao",
+                    "given": "G.R."
+                }
+            ],
+            "title": "Position paper: Using a \"codelet\" program execution model for exascale machines",
+            "type": "chapter",
+            "container_title": [
+                "EXADAPT '11"
+            ],
+            "doi": "",
+            "published_date": "2011-06"
+        }
+    ]
+}

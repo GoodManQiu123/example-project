@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_JVVPBQ6" coord="1,135.95,84.23,340.10,15.44">DiBB: Distributing Black-Box Optimization</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,143.76,111.64,79.26,10.59"><forename type="first">Giuseppe</forename><surname>Cuccu</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,143.08,125.58,77.13,10.59;1,220.21,123.33,1.00,7.77"><forename type="first">Luca</forename><surname>Rolshoven</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,149.57,139.53,64.15,10.59;1,213.72,137.27,1.00,7.77"><forename type="first">Fabien</forename><surname>Vorpe</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,122.59,153.48,121.88,10.59"><forename type="first">Philippe</forename><surname>Cudré-Mauroux</surname></persName>
+						</author>
+						<author>
+							<persName coords="1,150.48,178.69,65.82,8.83"><forename type="first">Exascale</forename><surname>Infolab</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">University of Fribourg Switzerland</note>
+								<orgName type="institution">University of Fribourg</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Tobias Glasmachers</note>
+								<orgName type="institution">Tobias Glasmachers</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Theory of ML Group Ruhr University Bochum Germany</note>
+								<orgName type="laboratory">Theory of ML Group Ruhr University Bochum</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_EjjBNxD" coord="1,135.95,84.23,340.10,15.44">DiBB: Distributing Black-Box Optimization</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1FDBD67784CF83C4336BB96B7E276CDA</idno>
+					<idno type="DOI">10.1145/3512290.3528764</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_mv4yjrn">Black-Box Optimization</term>
+					<term xml:id="_XFfUQ8r">Distributed Algorithms</term>
+					<term xml:id="_w4DXFPD">Parallelization</term>
+					<term xml:id="_BFTymqb">Evolution Strategies</term>
+					<term xml:id="_PnyPFah">Neuroevolution</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_qCuRkD2"><p xml:id="_JhjqXwc"><s xml:id="_hQkEyhB" coords="1,53.80,234.70,241.75,7.94;1,53.47,245.66,240.78,7.94;1,53.80,256.62,218.41,7.94">DiBB (for Distributing Black-Box) is a meta-algorithm and framework that addresses the decades-old scalability issue of Black-Box Optimization (BBO), including Evolutionary Computation.</s><s xml:id="_Gp4AA4e" coords="1,274.50,256.62,21.04,7.94;1,53.80,267.58,241.75,7.94;1,53.80,278.53,211.82,7.94">Algorithmically, it does so by creating out-of-the-box a Partially Separable (PS) version of any existing black-box algorithm.</s><s xml:id="_8PJ7P6t" coords="1,268.59,278.53,25.44,7.94;1,53.80,289.49,240.24,7.94;1,53.80,300.39,241.76,8.02;1,53.80,311.41,241.75,7.94;1,53.80,322.37,68.75,7.94">This is done by leveraging expert knowledge about the task at hand to define blocks of parameters expected to have significant correlation, such as weights entering a same neuron/layer in a neuroevolution application.</s><s xml:id="_D2M4xtp" coords="1,125.51,322.37,168.53,7.94;1,53.80,333.33,240.23,7.94;1,53.80,344.29,240.23,7.94;1,53.80,355.25,240.24,7.94;1,53.80,366.21,141.90,7.94">DiBB distributes the computation to a set of machines without further customization, while still retaining the advanced features of the underlying BBO algorithm, such as scale invariance and step-size adaptation, which are typically lost in recent distributed ES implementations.</s><s xml:id="_zV7qJrP" coords="1,197.94,366.21,97.61,7.94;1,53.80,377.16,240.40,7.94;1,53.80,388.12,240.24,7.94;1,53.80,399.08,241.75,7.94;1,53.80,410.04,97.44,7.94">This is achieved by instantiating a separate instance of the underlying base algorithm for each block, running on a dedicated machine, with DiBB handling communication and constructing complete individuals for evaluation on the original task.</s><s xml:id="_rcJYXJr" coords="1,153.86,409.98,140.19,8.02;1,53.47,421.00,240.90,7.94;1,53.80,431.96,184.99,7.94">DiBB's performance scales constantly with the number of parameter-blocks defined, which should allow for unprecedented applications on large clusters.</s><s xml:id="_t8fpuTc" coords="1,241.72,431.96,52.32,7.94;1,53.80,442.92,240.45,7.94;1,53.80,453.88,207.43,7.94">Our reference implementation (Python, on GitHub and PyPI) demonstrates a 5x speed-up on COCO/BBOB using our new PS-CMA-ES.</s><s xml:id="_CcGVGFF" coords="1,264.21,453.88,29.82,7.94;1,53.80,464.84,240.24,7.94;1,53.80,475.79,179.31,7.94">We also showcase a neuroevolution application (11 590 weights) on the PyBullet Walker2D with our new PS-LM-MA-ES.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_BPPwVVy">CCS CONCEPTS</head><p xml:id="_ZeTH68k"><s xml:id="_6Y2fMha" coords="1,53.80,512.74,208.75,8.43">• Computing methodologies → Randomized search.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1" xml:id="_QwJXpFP">INTRODUCTION</head><p xml:id="_QNHyyZQ"><s xml:id="_KZAmhwG" coords="1,317.96,306.97,240.24,7.94;1,317.96,317.93,240.24,7.94;1,317.96,328.83,240.25,8.02;1,317.96,339.85,53.84,7.94">Black Box Optimization (BBO) is a broad class of optimization algorithms with the distinguishing advantage that they can be applied, by definition, to any problem, independently of the specific application <ref type="bibr" coords="1,359.44,339.85,9.27,7.94" target="#b1">[2]</ref>.</s><s xml:id="_SzRKMJg" coords="1,373.31,339.85,184.88,7.94;1,317.96,350.81,204.03,7.94">In principle, this provides a method that is applicable to problems yet unsolved by the current state of the art.</s></p><p xml:id="_8UY9T3u"><s xml:id="_GTXmbxq" coords="1,327.92,361.77,230.27,7.94;1,317.96,372.73,49.55,7.94">Unfortunately most of these methods have heavy computational requirements.</s><s xml:id="_YZH2dc6" coords="1,369.76,372.73,189.94,7.94;1,317.96,383.68,241.23,7.94;1,317.96,394.64,240.40,7.94;1,317.96,405.60,240.41,7.94;1,317.96,416.56,63.41,7.94">Sophisticated implementations, such as modern Evolution Strategies (ES; Hansen and Ostermeier 18, Wierstra et al. <ref type="bibr" coords="1,546.29,383.68,9.67,7.94" target="#b33">34)</ref>, have a high internal computational cost per sample, in exchange for a wide set of properties (see Section 2) that correspond to a higher sample efficiency.</s><s xml:id="_WPZJEZM" coords="1,383.59,416.56,174.60,7.94;1,317.96,427.52,241.22,7.94;1,317.62,438.42,147.48,8.02">Simpler black-box solvers, while less demanding in their performance, conversely suffer from low sample efficiency, which makes them notably data hungry.</s></p><p xml:id="_w3QYR5K"><s xml:id="_e7EXNpJ" coords="1,327.92,449.44,230.27,7.94;1,317.96,460.40,72.88,7.94">BBO algorithms in the literature address this trade-off across the whole spectrum.</s><s xml:id="_32CXp7R" coords="1,392.90,460.40,165.30,7.94;1,317.96,471.36,241.75,7.94;1,317.96,482.31,67.24,7.94">For example, population-based algorithms can evaluate candidate solutions efficiently using embarrassingly parallel computation.</s><s xml:id="_TNdHQE6" coords="1,387.55,482.31,170.81,7.94;1,317.96,493.27,240.24,7.94;1,317.96,504.23,240.24,7.94;1,317.96,515.19,59.01,7.94">More sophisticated implementations however have their computational performance dominated by the update costs, rendering the advantage of parallel population evaluation inconsequential.</s><s xml:id="_M5GAJ4N" coords="1,379.19,515.19,179.00,7.94;1,317.96,526.15,107.57,7.94">State-of-the-art algorithms relying on Covariance Matrix Adaptation (CMA; e.g.</s><s xml:id="_7JNqXVj" coords="1,427.77,526.15,130.43,7.94;1,317.96,537.05,240.24,8.02;1,317.96,548.07,240.24,7.94;1,317.96,559.03,240.24,7.94;1,317.96,569.99,75.59,7.94">CMA-ES by <ref type="bibr" coords="1,472.34,526.15,40.73,7.94">Hansen 13)</ref> for example have at best quadratic complexity <ref type="bibr" coords="1,436.96,537.11,13.40,7.94" target="#b12">[13,</ref><ref type="bibr" coords="1,452.13,537.11,11.47,7.94" target="#b33">34]</ref> in the number of variables for processing a sample, strictly limiting their application (within a sensible time frame) to problems of up to a few thousands variables on today's hardware.</s><s xml:id="_FDFZsdA" coords="1,395.76,569.99,163.94,7.94;1,317.96,580.95,240.23,7.94;1,317.96,591.90,241.62,7.94">Simpler methods meanwhile struggle traversing complex fitness landscapes, requiring disproportionately more samples which also offsets their advantage in practical applications.</s></p><p xml:id="_d6BWvvm"><s xml:id="_WefqQyc" coords="1,327.92,602.86,230.27,7.94;1,317.96,613.82,241.75,7.94;1,317.96,624.78,240.41,7.94;1,317.96,635.74,156.80,7.94">As a consequence, while BBO algorithms could in principle be applied to any problem without restriction, their practical application is limited to either trivial problems in high dimensions, or complex problems in very low dimensions.</s></p><p xml:id="_cnRCyCw"><s xml:id="_yzebDNr" coords="1,327.92,646.70,231.79,7.94;1,317.96,657.59,241.22,8.02;1,317.96,668.55,241.75,8.02;1,317.96,679.58,240.24,7.94;1,317.96,690.53,65.97,7.94">To fairly evaluate this trade off, this paper distinguishes between convergence speed, correspondent to high sample efficiency, and wall-clock speed, which effectively measures the practical applicability of a method as the dimensionality and computational complexity grows.</s><s xml:id="_JzpGWWP" coords="1,386.14,690.53,172.05,7.94;1,317.96,701.43,240.25,8.02;2,53.53,87.79,15.00,7.94">In particular we highlight how some algorithms implement an assumption of separability between the variables (e.g.</s><s xml:id="_zMQ7GVe" coords="2,70.76,87.79,224.79,7.94;2,53.57,98.75,240.46,7.94;2,53.80,109.71,100.13,7.94">sep-CMA-ES <ref type="bibr" coords="2,120.19,87.79,14.79,7.94" target="#b26">[27]</ref> and SNES <ref type="bibr" coords="2,175.43,87.79,12.98,7.94" target="#b28">[29]</ref>), trading off significant convergence speed for wall-clock speed by relinquishing covariance information altogether <ref type="bibr" coords="2,137.40,109.71,13.22,7.94" target="#b17">[18]</ref>.</s><s xml:id="_cVqqEyX" coords="2,156.01,109.71,139.54,7.94;2,53.80,120.61,240.24,8.02;2,53.80,131.57,240.24,8.02;2,53.57,142.59,240.46,7.94;2,53.80,153.55,241.62,7.94">Previous work by the authors also covers a generalization of this trade-off by establishing a block-diagonal covariance matrix <ref type="bibr" coords="2,118.08,131.63,9.27,7.94" target="#b5">[6]</ref>, leveraging the fact that the correlation among variables is not uniform for most complex problems, and that this information is often available to the user based on the target task.</s><s xml:id="_qR8CaSF" coords="2,53.53,164.51,239.97,7.94">This provides initial inspiration for this work, as discussed below.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1" xml:id="_WafCrRG">Intuition and design</head><p xml:id="_W2uDUN6"><s xml:id="_Zbhpk3F" coords="2,53.80,199.45,241.75,7.94;2,53.80,210.41,69.47,7.94">BBO algorithms are designed to work in any unknowable (blackbox) environment.</s><s xml:id="_YsjMJX9" coords="2,126.26,210.41,167.78,7.94;2,53.80,221.37,240.24,7.94;2,53.80,232.33,90.05,7.94">By design, BBO algorithms cannot integrate task knowledge, in order to ensure that no illegitimate assumptions are made in their design.</s><s xml:id="_zvZGKXP" coords="2,146.10,232.33,148.92,7.94;2,53.80,243.29,240.24,7.94;2,53.80,254.18,148.72,8.02">In most real-world applications however, some degree of expert knowledge is often available about the end task, making it rather a gray-box setting.</s><s xml:id="_Vmpg4QV" coords="2,204.75,254.25,89.29,7.94;2,53.80,265.20,240.24,7.94;2,53.80,276.16,47.43,7.94">Expert knowledge about the correlation between variables is often simple to deduce, as it is task-specific.</s></p><p xml:id="_5WsMVFY"><s xml:id="_MUk9MPw" coords="2,63.76,287.12,230.27,7.94;2,53.80,298.08,240.24,7.94;2,53.80,309.04,240.24,7.94;2,53.80,320.00,240.24,7.94;2,53.80,330.96,69.75,7.94">For example in neuroevolution, where evolutionary algorithms learn the parameters of a neural network, weights of connections entering the same neuron are by necessity highly correlated, as the network's equation aggregates them in a linear combination prior to activation.</s><s xml:id="_sNuhgEm" coords="2,125.79,330.96,168.25,7.94;2,53.80,341.92,240.24,7.94;2,53.53,352.88,112.25,7.94">While weights entering different neurons are not entirely uncorrelated, the expectation on their covariance is (relatively) significantly lower.</s><s xml:id="_JzgtEvm" coords="2,168.02,352.88,126.02,7.94;2,53.80,363.83,240.24,7.94;2,53.80,374.79,240.24,7.94;2,53.80,383.60,43.62,10.09">A similar reasoning is easily made about neurons entering a same layer versus neurons in different layers, and remains true as the network expands towards deep networks <ref type="foot" coords="2,91.53,383.60,3.38,6.44" target="#foot_0">1</ref> .</s><s xml:id="_JEMxjBe" coords="2,100.19,385.69,193.85,8.02;2,53.80,396.71,240.25,7.94;2,53.80,407.67,241.75,7.94;2,53.80,418.63,42.38,7.94">The assumption of partial correlation, which allows partitioning the variables into highly intra-correlated blocks, leads to the blocks being separable between one another, i.e. low intercorrelation.</s><s xml:id="_HdRExYc" coords="2,98.44,418.57,196.51,8.02;2,53.80,429.52,170.92,8.02">The corresponding covariance matrix becomes blockdiagonal, as explored in our previous work <ref type="bibr" coords="2,212.19,429.59,9.39,7.94" target="#b5">[6]</ref>.</s></p><p xml:id="_b3GFwha"><s xml:id="_tJcjYEz" coords="2,63.76,440.55,230.27,7.94;2,53.80,451.51,240.47,7.94;2,53.80,462.46,240.24,7.94;2,53.80,473.42,55.36,7.94">This paper extends the concept by leveraging the underlying assumption of separability between blocks to optimize each block of variables using a different, independent instance of the same BBO algorithm.</s><s xml:id="_2BSvDeW" coords="2,110.83,473.42,183.54,7.94;2,53.80,484.38,240.24,7.94;2,53.80,495.34,241.23,7.94;2,53.80,506.30,240.24,7.94;2,53.80,517.26,240.24,7.94;2,53.80,528.22,34.35,7.94">As a consequence, block-wise computation can now be distributed across multiple machines: not only the individual fitnesses can be evaluated in an embarrassingly parallel fashion, but different blocks can be searched asynchronously, and each BBO instance can be distributed to different nodes in a cluster (see Figure <ref type="figure" coords="2,79.33,528.22,2.94,7.94" target="#fig_0">1</ref>).</s></p><p xml:id="_RsxQ7KV"><s xml:id="_MwX7jRH" coords="2,63.76,539.18,231.79,7.94;2,53.80,550.14,241.22,7.94;2,53.80,561.09,50.17,7.94">Based on the above insights, this paper proposes a new metaalgorithm and framework for Distributed Black Box optimization, named DiBB.</s><s xml:id="_aAkw4nD" coords="2,106.22,561.09,187.82,7.94;2,53.80,572.05,241.75,7.94;2,53.47,583.01,69.38,7.94">DiBB is particularly suited for large-scale problems evidently structured, as not infrequent (arguably common) in realworld applications.</s><s xml:id="_tRu7Hgq" coords="2,125.08,583.01,169.12,7.94;2,53.80,593.97,240.40,7.94;2,53.80,604.93,237.93,7.94">We provide rigorous theoretical arguments for the sample efficiency of this approach in Section 2, and further explore the example application of neuroevolution in Section 4.3.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2" xml:id="_ZR7bxJa">Challenges</head><p xml:id="_eBgrjTJ"><s xml:id="_EbcKsgx" coords="2,53.48,639.87,240.55,7.94;2,53.80,650.83,240.24,7.94;2,53.80,661.73,240.24,8.02;2,317.96,87.79,177.12,7.94">A major challenge comes with solution evaluation: a BBO instance running on one machine will produce a population of samples that are incomplete individuals, as the variables constituting a complete sample are practically scattered across a network.</s><s xml:id="_ew9fwYu" coords="2,497.14,87.79,61.05,7.94;2,317.96,98.75,241.75,7.94;2,317.96,109.71,240.47,7.94;2,317.96,120.67,63.65,7.94">This is addressed in Section 3, by establishing a sparse communication scheme between block instances, and running the fitness evaluation locally on each machine.</s></p><p xml:id="_Ef7hq6F"><s xml:id="_9azjpzf" coords="2,327.92,131.63,231.80,7.94;2,317.96,142.59,111.84,7.94">This paper notably makes no assumption or claim on the underlying BBO algorithm of choice.</s><s xml:id="_DYXnsYU" coords="2,432.05,142.59,126.14,7.94;2,317.96,153.55,241.22,7.94;2,317.96,164.51,240.24,7.94;2,317.96,175.47,42.76,7.94">While our experiments explore the applicability of DiBB in the context of modern, sophisticated ESs, it can in principle be applied to any BBO algorithm with minimal interfacing.</s><s xml:id="_FneVumT" coords="2,363.00,175.47,195.19,7.94;2,317.96,186.42,240.47,7.94;2,317.95,197.38,241.75,7.94;2,317.96,208.28,240.24,8.02;2,317.96,219.30,241.75,7.94;2,317.96,230.26,25.97,7.94">Even in the extreme case of a known fully-separable problem, a fully-separable BBO <ref type="bibr" coords="2,437.60,186.42,12.09,7.94" target="#b25">[26]</ref><ref type="bibr" coords="2,449.69,186.42,4.03,7.94" target="#b26">[27]</ref><ref type="bibr" coords="2,449.69,186.42,4.03,7.94" target="#b27">[28]</ref><ref type="bibr" coords="2,453.72,186.42,12.09,7.94" target="#b28">[29]</ref> can still be improved by DiBB as it maintains the separability hypothesis, while immediately generating a distributable version of the base BBO, providing constant scaling in wall-clock speed to even the humblest of algorithms.</s></p><p xml:id="_3MHFVtP"><s xml:id="_UdPkyuH" coords="2,327.92,241.22,230.27,7.94;2,317.96,252.18,241.22,7.94;2,317.96,263.14,240.24,7.94;2,317.96,274.10,241.75,7.94;2,317.96,285.05,11.20,7.94">We analyze the performance of our framework on the classic COCO benchmark, both on the BBOB and BBOB-large-scale suites, using the industry-standard CMA-ES both as a reference and as a base, block-level optimizer in our new DiBB-derived PS-CMA-ES.</s><s xml:id="_evptjyp" coords="2,331.40,285.05,227.32,7.94;2,317.96,296.01,240.24,7.94;2,317.73,306.97,241.98,7.94;2,317.96,317.93,240.23,7.94;2,317.96,328.89,105.95,7.94">The sample complexity of our approach typically (as expected) sits in between the full-covariance and the diagonal-covariance versions of CMA-ES, with few notable exceptions where maintaining extra covariance information is actually deceptive/misleading due to problem separability.</s><s xml:id="_jzE88Mb" coords="2,426.85,328.89,131.35,7.94;2,317.96,339.85,241.75,7.94;2,317.96,350.81,240.24,7.94;2,317.96,361.77,241.23,7.94;2,317.96,372.73,241.62,7.94">While algorithms derived by DiBB cannot be in principle superior to the base BBO utilized on lowdimensional problems, using parallel and distributed hardware the new PS-derived algorithm will be considerably (even, arbitrarily, depending on available machines) faster in terms of wall-clock time.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3" xml:id="_6eNcTzD">Contributions</head><p xml:id="_Pmy8YXK"><s xml:id="_RTucXqE" coords="2,317.96,422.36,135.65,7.94">Our key contributions are as follows:</s></p><p xml:id="_dAyDh2H"><s xml:id="_fxu5cVV" coords="2,333.92,448.95,224.27,8.43;2,342.36,460.40,174.92,7.94">• We provide a novel meta-algorithm, DiBB, that generates a partially-separable version of any available BBO.</s><s xml:id="_MDWB4xJ" coords="2,519.52,460.40,40.19,7.94;2,342.03,471.36,217.15,7.94;2,342.36,482.31,143.10,7.94">Our framework also creates a parallel and distributed computation, running on a set of available machines.</s><s xml:id="_EfSHNkY" coords="3,288.77,211.27,269.41,7.70;3,53.80,222.23,504.38,7.70;3,53.80,233.19,76.36,7.70">This is a sample instantiation on a cluster with 3 nodes: one acts as the head node, running the main routine, while two worker nodes encapsulate the underlying BBO and host the pools of Fitness Evaluators.</s><s xml:id="_u2rMavX" coords="3,132.42,233.19,426.01,7.70;3,53.80,244.15,450.91,7.70">This schema highlights how DiBB leverages Partial Separability in the construction of full samples ready for evaluation, and how the (potentially expensive) objective function is evaluated locally on the worker nodes.</s></p><formula xml:id="formula_0" coords="3,70.40,129.01,165.49,59.36">A B C D E F X X Y Z Y Y C D A B C D E F A B X X E F A B Y Z E F A B Y Y E F</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2" xml:id="_SgyXR57">A PRIMER ON EVOLUTION STRATEGIES</head><p xml:id="_6W5GhJM"><s xml:id="_UNusjKT" coords="3,53.80,285.82,240.24,7.94;3,53.80,296.78,240.24,7.94;3,53.80,307.74,240.24,7.94;3,53.80,318.70,241.61,7.94">DiBB can be applied to any BBO algorithm to great and immediate advantage: even with methods that already treat the parameters as separable, DiBB provides a parallel and distributed implementation at the only cost of minimal overhead (for nontrivial applications).</s><s xml:id="_w6YyxJh" coords="3,53.80,329.65,240.23,7.94;3,53.80,340.61,241.75,7.94;3,53.80,351.57,240.57,7.94;3,53.80,362.53,36.64,7.94">In this section however, we highlight modern Evolution Strategies as the state-of-the-art family of continuous black-box optimization methods, which we expect to gain the most from this new approach.</s><s xml:id="_zJeHc4a" coords="3,93.02,362.53,201.01,7.94;3,53.80,373.49,241.75,7.94;3,53.80,384.45,240.24,7.94;3,53.80,395.41,195.75,7.94">The rationale here is that these methods have proven and popularized the importance of maintaining covariance information for search performance, and are thus best positioned to gain from DiBB's scalability into distributed computation.</s><s xml:id="_bypYR8R" coords="3,251.80,395.41,42.24,7.94;3,53.80,406.37,240.24,7.94;3,53.80,417.33,240.24,7.94;3,53.80,428.28,175.74,7.94">This choice however should not be interpreted as limited to neuroevolution applications, as DiBB users can adapt the partitioning of variables into blocks depending on each problem at hand.</s></p><p xml:id="_u2ECBtE"><s xml:id="_D2DdCN5" coords="3,63.76,439.24,231.79,7.94;3,53.80,450.74,69.73,8.10;3,123.17,450.17,3.91,3.24;3,131.20,450.25,162.84,8.58;3,53.80,461.70,115.07,7.94">ES are direct search methods, which optimize a black-box objective function  : R  → R by sampling candidate points from an adaptive Gaussian distribution.</s><s xml:id="_5WGQnXF" coords="3,171.10,461.70,122.93,7.94;3,53.80,472.66,122.48,7.94">We briefly review the types of ES most relevant for our discussion.</s><s xml:id="_pHuxBQ2" coords="3,178.63,472.66,116.91,7.94;3,53.80,483.61,28.31,7.94">The classic variant is the (1+1)-ES <ref type="bibr" coords="3,65.40,483.61,13.36,7.94" target="#b25">[26]</ref>.</s><s xml:id="_Rqs3PFG" coords="3,84.36,483.61,210.66,7.94;3,53.80,494.57,240.25,7.94;3,53.80,505.05,139.90,8.43;3,194.41,503.38,3.38,6.44;3,198.16,505.05,82.17,8.43">Its central algorithmic mechanism is step-size adaptation, i.e. its ability to actively adapt the standard deviation  &gt; 0 of its Gaussian sampling distribution N (,  2  ) to the current needs.</s><s xml:id="_Et7HXFQ" coords="3,282.25,505.53,11.96,7.94;3,53.80,516.49,240.24,7.94;3,53.80,527.45,32.18,7.94">For the last 20 years, CMA-ES <ref type="bibr" coords="3,153.83,516.49,14.85,7.94" target="#b17">[18]</ref> has been the gold standard in ES research.</s><s xml:id="_t9zEAUc" coords="3,88.22,527.45,205.81,7.94;3,53.53,538.41,90.07,7.94">Many variants exist, such as Natural Evolution Strategies (NES; <ref type="bibr" coords="3,76.28,538.41,64.07,7.94">Wierstra et al. 34)</ref>.</s><s xml:id="_HM5QXNk" coords="3,145.83,538.41,149.72,7.94;3,53.80,549.37,240.24,7.94;3,53.53,560.33,240.52,7.94;3,53.80,570.80,187.89,8.43;3,242.40,569.14,3.38,6.44;3,245.74,571.29,48.30,7.94;3,53.80,582.24,85.52,7.94">Its most important mechanism going beyond "simple" step-size adaptive ES is covariance matrix adaptation (CMA), which means that not only the global step size , but also the full covariance matrix  of the Gaussian N (,  2 ) is adapted to the problem at hand.</s><s xml:id="_uVhU2aX" coords="3,63.76,593.20,230.27,7.94;3,53.80,604.16,240.24,7.94;3,53.57,615.12,64.17,7.94">CMA-ES is a powerful optimizer; however, it was not designed for high-dimensional applications with hundreds of thousands of variables or more.</s><s xml:id="_fGcMgXr" coords="3,119.78,615.12,174.25,7.94;3,53.80,627.87,213.48,7.94">Its internal parameters are not tuned with such a regime in mind, and learning a full covariance matrix with</s></p><formula xml:id="formula_1" coords="3,270.36,624.09,21.91,14.42">𝑑 (𝑑+1) 2</formula><p xml:id="_WkZQuYx"><s xml:id="_QmCHxaB" coords="3,53.80,638.82,113.17,7.94">parameters is inherently slow.</s><s xml:id="_PXqbNGr" coords="3,169.53,638.82,126.01,7.94;3,53.80,649.78,241.75,7.94;3,53.80,660.74,240.48,7.94;3,53.80,671.70,182.03,7.94">Such problems are commonly addressed by placing specific restrictions on , such as being represented by a diagonal matrix <ref type="bibr" coords="3,156.54,660.74,13.46,7.94" target="#b26">[27,</ref><ref type="bibr" coords="3,172.23,660.74,10.09,7.94" target="#b28">29]</ref>, or a diagonal plus a low-rank matrix <ref type="bibr" coords="3,80.85,671.70,9.43,7.94" target="#b0">[1,</ref><ref type="bibr" coords="3,92.68,671.70,10.35,7.94" target="#b21">22,</ref><ref type="bibr" coords="3,105.42,671.70,10.20,7.94" target="#b22">23]</ref>, or a block-diagonal matrix <ref type="bibr" coords="3,223.13,671.70,9.53,7.94" target="#b5">[6]</ref>.</s><s xml:id="_XndqwPZ" coords="3,238.22,671.70,55.81,7.94;3,53.80,682.66,240.47,7.94;3,317.96,272.12,62.70,7.94">The number of parameters of the covariance matrix can hence be chosen flexibly in the range  to</s></p><formula xml:id="formula_2" coords="3,384.00,268.35,21.91,6.25">𝑑 (𝑑+1)</formula><p xml:id="_bREsKrk"><s xml:id="_thwuyUt" coords="3,393.73,276.32,3.38,6.44;3,407.68,272.12,150.51,7.94;3,317.96,283.08,169.78,7.94">2 , allowing scaling to higher dimensional problems by trading off covariance awareness.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1" xml:id="_yndYBcU">ES for Neuroevolution</head><p xml:id="_JHDH7hT"><s xml:id="_MxWfyGN" coords="3,317.69,321.18,240.51,7.94;3,317.96,332.14,171.77,7.94">The application of ES to machine learning problems and to RL in particular has a multi-decade history <ref type="bibr" coords="3,459.84,332.14,13.62,7.94" target="#b18">[19,</ref><ref type="bibr" coords="3,476.12,332.14,10.21,7.94" target="#b19">20]</ref>.</s><s xml:id="_NhswwQr" coords="3,492.39,332.14,66.04,7.94;3,317.96,343.10,241.76,7.94;3,317.96,354.06,240.24,7.94;3,317.96,365.02,240.23,7.94;3,317.96,375.97,241.75,7.94;3,317.96,386.93,16.69,7.94">In 2017, the work of Salimans et al. <ref type="bibr" coords="3,380.35,343.10,14.72,7.94" target="#b27">[28]</ref> sparked a renewed interest in ES by showcasing how to successfully exploit the embarrassingly parallel nature of individual objective function evaluations in populations-based algorithms, proposing a considerable speed-up in the learning process.</s><s xml:id="_jNUdrwk" coords="3,336.88,386.93,221.31,7.94;3,317.96,397.89,137.39,7.94">This triggered a large body of work on neuroevolution based on ES over the past few years, see e.g.</s><s xml:id="_dYKfH4E" coords="3,457.58,397.89,100.63,7.94;3,317.96,408.85,240.48,7.94;3,317.96,419.81,120.43,7.94">Chrabaszcz et al. <ref type="bibr" coords="3,520.65,397.89,9.38,7.94" target="#b3">[4]</ref>, Cuccu et al. <ref type="bibr" coords="3,338.97,408.85,9.42,7.94" target="#b6">[7]</ref>, Ha and Schmidhuber <ref type="bibr" coords="3,436.56,408.85,13.39,7.94" target="#b11">[12]</ref>, Plappert et al. <ref type="bibr" coords="3,511.36,408.85,13.39,7.94" target="#b24">[25]</ref>, Stanley et al. <ref type="bibr" coords="3,337.72,419.81,14.72,7.94" target="#b31">[32]</ref> and references therein.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2" xml:id="_cT8xJNN">Convergence Rates and Computational Complexity</head><p xml:id="_9NJrZpf"><s xml:id="_SSC9EDb" coords="3,317.96,469.02,241.76,10.09;3,317.96,481.65,163.70,8.43;3,482.46,479.59,77.26,10.49;3,317.96,490.85,92.26,10.37;3,406.83,497.47,3.38,6.44;3,411.86,492.79,21.82,7.70;3,434.48,490.73,6.91,9.76;3,441.26,492.71,34.90,7.78;3,476.96,490.73,9.34,9.76">Due to Taylor's theorem, local optima of -dimensional C 2 functions are well approximated (up to O (∥ - * ∥ 3 )) by convex quadratic functions  () = 1 2 ( - * )   ( - * ).</s><s xml:id="_NzMxxF2" coords="3,488.54,493.27,69.65,7.94;3,317.96,504.23,241.75,7.94;3,317.96,514.71,240.25,8.43;3,317.96,526.15,173.21,7.94">The computational complexity of solving this problem with an ES to a fixed target precision  &gt; 0 is of the form O ( • ( ) • log(1/)), where  ( ) denotes the condition number of the Hessian  <ref type="bibr" coords="3,462.04,526.15,13.45,7.94" target="#b14">[15,</ref><ref type="bibr" coords="3,477.72,526.15,10.08,7.94" target="#b20">21]</ref>.</s><s xml:id="_vBp2gET" coords="3,493.40,526.15,64.79,7.94;3,317.96,536.63,241.63,8.43">Hence, a step-size adaptive ES achieves linear convergence with rate O 1/( •  ( )) .</s></p><p xml:id="_SXpbbmw"><s xml:id="_9VEQBHQ" coords="3,327.92,548.07,230.28,7.94;3,317.95,559.03,223.17,7.94">The linear dependency on  is optimal for comparison-based optimization <ref type="bibr" coords="3,367.98,559.03,13.49,7.94" target="#b10">[11]</ref>, but the dependency on  is sub-optimal.</s><s xml:id="_hkshFDH" coords="3,543.73,559.03,14.47,7.94;3,317.96,569.99,240.40,7.94;3,317.55,578.40,144.80,10.49;3,462.98,578.40,3.43,6.25;3,469.89,580.95,89.82,7.94;3,317.73,591.90,129.44,7.94">The advantage of maintaining covariance information is that the factor  ( ) is improved to  ( * ), where  * denotes the optimal covariance matrix available to the ES.</s><s xml:id="_hdMxv7y" coords="3,449.43,591.90,77.56,7.94;3,527.62,589.36,20.10,9.98;3,548.71,589.36,8.01,6.25;3,557.21,591.90,1.98,7.94;3,317.96,602.86,240.24,7.94;3,317.55,611.28,48.58,10.49">When approaching  * =  -1 , methods maintaining full covariance achieve the optimal value  ( * ) = 1.</s><s xml:id="_sfJtz7R" coords="3,369.12,613.82,189.24,7.94;3,317.96,624.72,185.39,8.02">In effect, as expected from a pseudo second order method, the convergence rate is independent of  .</s><s xml:id="_tbdDeAj" coords="3,505.59,624.78,54.12,7.94;3,317.73,635.74,63.37,7.94;3,381.73,633.20,3.43,6.25;3,387.75,635.74,170.44,7.94;3,317.96,646.70,144.60,7.94">A diagonal covariance matrix  * acts as a diagonal pre-conditioner, with varying effectiveness depending on the problem.</s><s xml:id="_XppqceC" coords="3,464.80,646.70,93.39,7.94;3,317.96,657.66,240.24,7.94;3,317.96,668.62,43.29,7.94">Obviously, block-diagonal <ref type="bibr" coords="3,317.96,657.66,10.68,7.94" target="#b5">[6]</ref> and low-rank <ref type="bibr" coords="3,384.85,657.66,13.61,7.94" target="#b21">[22,</ref><ref type="bibr" coords="3,401.25,657.66,11.59,7.94" target="#b22">23]</ref> covariance matrix representations are in-between.</s><s xml:id="_seH9Vtj" coords="3,363.50,668.62,194.69,7.94;3,317.96,679.58,240.24,7.94;3,317.96,690.53,240.48,7.94;3,317.96,701.49,78.09,7.94">The block-diagonal case notably generalizes both the full-covariance and diagonal-covariance implementations when the size of the blocks is  and 1 respectively (corresponding to 1 block and  blocks in turn).</s></p><p xml:id="_EUApt9Q"><s xml:id="_Tn9tfKJ" coords="4,63.76,87.79,230.27,7.94;4,53.80,98.75,193.96,7.94">The OpenAI-ES <ref type="bibr" coords="4,123.92,87.79,13.40,7.94" target="#b27">[28]</ref>, while being highly distributable, features neither step-size adaptation nor covariance adaptation.</s><s xml:id="_Rkm5egJ" coords="4,249.29,98.75,44.74,7.94;4,53.80,109.71,240.25,7.94;4,53.80,120.67,240.24,7.94;4,53.80,131.63,105.69,7.94">Based on the NES framework of Wierstra et al. <ref type="bibr" coords="4,175.25,109.71,13.32,7.94" target="#b33">[34]</ref>, it leverages the ability of ES to estimate the natural gradient of  from samples, and then applies the ADAM optimizer on top.</s><s xml:id="_7VQ3REY" coords="4,161.74,131.63,132.30,7.94;4,53.80,142.59,79.43,7.94">In effect, this is roughly comparable to using a diagonal .</s></p><p xml:id="_AbZtvMA"><s xml:id="_j4G7Zne" coords="4,63.76,153.48,230.28,8.02;4,53.80,164.51,240.24,7.94;4,53.80,175.47,241.75,7.94;4,53.80,186.42,33.72,7.94">CMA has a price in terms of algorithm internal complexity, and in addition the adaptation process is slow even in terms of sample complexity-due to large hidden constants in its performance estimation.</s><s xml:id="_ddRZmU5" coords="4,89.84,186.42,204.20,7.94;4,53.80,197.38,241.61,7.94">The above convergence rates measure time in terms of the number of objective function evaluations (sample complexity).</s><s xml:id="_kgxMzXN" coords="4,53.37,208.34,240.67,7.94;4,53.80,219.30,169.71,7.94">When scaling up CMA to high dimensions however, we need to take the following concepts into consideration.</s><s xml:id="_H3wSCyh" coords="4,225.76,219.30,68.27,7.94;4,53.80,230.26,240.24,7.94;4,53.80,241.22,241.23,7.94;4,53.80,252.18,124.44,7.94">Algorithm internal complexity refers to the required (amortized) number of operations needed for creating a sample and for updating the internal statethe covariance matrix in particular.</s><s xml:id="_ZbKX8UX" coords="4,180.02,252.18,114.02,7.94;4,53.80,263.14,240.24,7.94;4,53.80,274.10,240.24,7.94;4,53.80,285.05,97.17,7.94">This concept will be re-explored later when introducing distributed computing, as DiBB employs multiple machines to evaluate proportionally more samples without impacting wall-clock time.</s><s xml:id="_3QEjb6P" coords="4,153.20,285.05,141.82,7.94;4,53.47,296.01,240.57,7.94;4,53.80,306.97,240.23,7.94;4,53.80,317.93,32.29,7.94">For now, regarding sample complexity, we distinguish between the number of samples needed to learn the covariance matrix, and the number of samples needed to solve the problem.</s></p><p xml:id="_mYs8X4Z"><s xml:id="_QXZ56Uj" coords="4,63.76,326.74,231.65,10.25">Learning  with up to Θ( 2 ) parameters is sample-inefficient.</s><s xml:id="_KpDS7Au" coords="4,53.80,337.70,240.24,10.09;4,53.80,352.59,7.33,7.94">For example, a (small) neural network with  = 10 4 weights results in</s></p><formula xml:id="formula_3" coords="4,64.20,348.82,21.91,14.42">𝑑 (𝑑+1) 2</formula><p xml:id="_uZTHd3p"><s xml:id="_JGKSRdP" coords="4,90.37,350.44,168.42,10.09">≈ 5 • 10 7 parameters of the covariance matrix.</s><s xml:id="_78xyZ24" coords="4,261.03,352.59,33.00,7.94;4,53.80,363.55,240.24,7.94;4,53.80,374.51,240.24,7.94;4,53.80,385.47,220.83,7.94">Learning these takes hundreds of millions of samples, each of which can be significantly expensive: imagine for example a continuous control task involving a robot interacting in a physics simulation.</s><s xml:id="_rQgwFng" coords="4,277.61,385.47,16.43,7.94;4,53.80,396.43,240.24,7.94;4,53.80,407.39,240.24,7.94;4,53.80,418.35,105.46,7.94">This quickly becomes far too slow for practical use, even without taking into consideration the (typically expensive) covariance update step in the underlying algorithm.</s><s xml:id="_WRQFA6W" coords="4,161.51,418.35,132.53,7.94;4,53.80,429.31,191.80,7.94">For larger , even the storage of the full covariance matrix  quickly becomes prohibitive.</s><s xml:id="_4RUARtX" coords="4,247.79,429.31,47.24,7.94;4,53.80,440.26,240.24,7.94;4,53.80,451.22,240.46,7.94;4,53.80,460.03,79.33,10.25">Furthermore, performing computations with  scales at least linear with the number of its parameters, which amounts to an internal complexity of Ω( 2 ) for full CMA.</s><s xml:id="_BpDqSr4" coords="4,134.67,462.18,159.36,7.94;4,53.80,473.14,240.47,7.94;4,53.80,484.10,140.14,7.94">Since network evaluation scales linearly with the number of weights  (in a direct encoding scheme), CMA quickly becomes the computational bottleneck.</s><s xml:id="_MU5h8nE" coords="4,196.07,484.10,99.47,7.94;4,53.80,495.06,241.23,7.94;4,53.47,506.02,242.09,7.94;4,53.80,516.98,159.54,7.94">Therefore, a different tradeoff between fast convergence and internal complexity is needed, which can be realized for example with block-diagonal and lowrank structures, and combinations thereof.</s><s xml:id="_vkA8SP6" coords="4,215.83,516.98,78.20,7.94;4,53.80,527.94,240.24,7.94;4,53.80,538.89,167.15,7.94">Or, in the case of the proposed work, by leveraging the partial correlation assumption to construct a block-diagonal covariance matrix.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3" xml:id="_4wgPkPE">Implications for Neural Network Training</head><p xml:id="_pTbrZzK"><s xml:id="_CrwVazm" coords="4,53.80,580.95,240.40,7.94;4,53.80,591.90,240.24,7.94;4,53.80,602.86,216.04,7.94">Diagonal, block-diagonal, and low-rank schemes successfully lower both internal and sample costs of CMA significantly (at the expense of higher sample complexity for solving the overall problem).</s><s xml:id="_xywWTxm" coords="4,271.56,602.86,23.99,7.94;4,53.80,613.82,240.55,7.94;4,53.80,624.78,241.75,7.94;4,53.80,635.74,218.03,7.94">Therefore, they are key to the application of modern ES based on CMA to real-world problems, especially involving expensive physics simulations as common in reinforcement learning applications.</s></p><p xml:id="_KN9MyRA"><s xml:id="_Yyz8urm" coords="4,63.76,646.70,230.51,7.94;4,53.80,657.66,64.99,7.94">In neural network training, weight spaces are often extremely high-dimensional.</s><s xml:id="_XVVXzKV" coords="4,121.02,657.66,174.52,7.94;4,53.80,668.62,147.16,7.94">However, they also come with a canonical structure, induced by the network topology.</s><s xml:id="_2zyW5DZ" coords="4,203.61,668.62,90.43,7.94;4,53.80,679.58,240.23,7.94;4,53.80,690.53,54.96,7.94">Hence, a block-diagonal covariance structure with one block per layer (or per neuron) is a natural choice.</s><s xml:id="_scaSeNX" coords="4,111.00,690.53,183.20,7.94;4,53.80,701.49,241.23,7.94;4,317.96,87.79,240.24,7.94;4,317.96,98.75,240.24,7.94;4,317.96,109.71,17.04,7.94">It should be noted that there exist approaches for identifying a problem decomposition automatically <ref type="bibr" coords="4,241.09,701.49,13.27,7.94" target="#b23">[24]</ref>, if needed, extending the applicability of DiBB to problems where problem structure and variable correlation are not initially known to the user.</s></p><p xml:id="_EwYhZtd"><s xml:id="_nqn2kxk" coords="4,327.92,120.61,230.28,8.02;4,317.96,131.63,240.24,7.94;4,317.96,142.59,32.93,7.94">If  has a block structure ( is separable), then sequentially optimizing all blocks in isolation is as fast as optimizing the full problem.</s><s xml:id="_daVGv72" coords="4,353.43,142.10,204.77,8.43;4,317.95,153.55,240.24,7.94;4,317.96,164.51,27.47,7.94">This is a direct consequence of the O () scaling of the sample complexity discussed above, and leads to the following insight:</s></p><p xml:id="_znYHyc6"><s xml:id="_m59Js3Q" coords="4,321.34,180.43,235.44,8.19;4,321.34,191.57,235.44,8.02;4,321.01,202.59,59.71,7.94">Solving  independent sub-problems with  = / variables each in parallel results in a -fold speed-up over solving the full problem with  variables.</s><s xml:id="_94N6xMq" coords="4,382.97,202.59,174.81,7.94;4,321.34,213.55,235.43,7.94;4,321.34,224.45,235.44,8.02;4,321.34,235.47,235.43,7.94;4,321.01,246.43,140.14,7.94">Importantly, since  and hence  is user-defined, and provided that block remains of constant size while scaling the dimension, this allows the constant runtime (depending on communication overhead, thus implementation dependent) that we see in DiBB's experimental results.</s></p><p xml:id="_ecRmcHf"><s xml:id="_AuqwQAQ" coords="4,327.92,262.42,231.79,7.94;4,317.96,273.37,75.84,7.94">It is understood that this comes at a cost if the separability assumption is violated.</s><s xml:id="_BWadqy5" coords="4,396.05,273.37,162.31,7.94;4,317.96,284.33,27.36,7.94">However, the block structure offers a further benefit:</s></p><p xml:id="_zH6kzbc"><s xml:id="_neM7Qat" coords="4,321.34,298.25,235.44,8.19;4,321.01,307.30,235.77,10.09;4,321.34,318.26,235.44,10.09;4,321.34,331.37,21.56,7.94">Solving  independent sub-problems with  = / variables each with an ES featuring CMA results in O ( 2 ) sample and internal complexity for covariance learning, in contrast to O ( 2 ) for full CMA.</s><s xml:id="_2DVvh7N" coords="4,345.15,331.37,211.63,7.94;4,321.34,341.84,235.66,8.43;4,321.34,353.28,56.32,7.94">If the number of blocks  scales linearly with the problem size , or  ∈ O (1), then CMA becomes feasible for arbitrarily large problems.</s></p><p xml:id="_TnjJEj5"><s xml:id="_PBhV7RJ" coords="4,327.92,369.27,230.27,7.94;4,317.96,380.23,231.16,7.94">These two insights offer a novel route towards highly parallel and at the same time more sample-efficient neuroevolution strategies.</s><s xml:id="_fBaUqKV" coords="4,550.82,380.23,7.37,7.94;4,317.96,391.19,240.23,7.94;4,317.96,402.15,241.62,7.94">In addition to the embarrassingly parallel evaluation of a population of candidate points, multiple blocks can be optimized in parallel.</s><s xml:id="_qfNMsyv" coords="4,317.96,413.11,241.62,7.94">Given enough cores, higher parallelism results in a -fold speed-up.</s><s xml:id="_Cr3U3yA" coords="4,317.64,424.06,240.79,7.94;4,317.96,435.02,46.07,7.94">As an additional benefit, CMA can be applied within each block of variables.</s><s xml:id="_JWP22Nq" coords="4,367.28,435.02,191.46,7.94;4,317.96,445.98,241.23,7.94;4,317.96,456.94,101.65,7.94">Provided that the problem has an (approximately) separable structure, CMA results in improved sample efficiency, yielding a further speed-up.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3" xml:id="_7yPrX6U">METHOD</head><p xml:id="_Uk9mFAM"><s xml:id="_6TR8FZ8" coords="4,317.69,493.27,242.02,7.94;4,317.96,504.23,240.24,7.94;4,317.96,515.19,241.75,7.94;4,317.96,526.15,132.74,7.94">The DiBB framework is inspired by our previous work with BD-NES <ref type="bibr" coords="4,336.43,504.23,10.68,7.94" target="#b5">[6]</ref> in the sense that we utilize a block-diagonal covariance matrix and partial separability towards distributing the block computation across dedicated machines.</s><s xml:id="_FczV2HZ" coords="4,452.94,526.15,105.42,7.94;4,317.62,537.11,242.09,7.94;4,317.95,548.07,240.24,7.94;4,317.95,559.03,240.24,7.94;4,317.96,569.99,240.24,7.94;4,317.96,580.95,35.62,7.94">The original design however was specifically tailored to the NES family of ES, while the metaalgorithm facet of DiBB makes it applicable not only to any ES but to any BBO algorithm without restrictions, providing at the same time a parallel and distributed implementation with limited overhead.</s></p><p xml:id="_qMpY6Bx"><s xml:id="_z4RnRey" coords="4,327.92,591.90,165.91,7.94">Here is a short summary of how to use DiBB:</s></p><p xml:id="_c2JraVF"><s xml:id="_sbQAQwT" coords="4,328.87,602.86,229.56,7.94;4,342.36,613.82,168.57,7.94">(1) The user defines a partition of the parameters, typically based on expert knowledge of the application.</s><s xml:id="_dHRegTQ" coords="4,513.17,613.82,45.03,7.94;4,342.36,624.78,215.83,7.94;4,342.36,635.74,85.67,7.94">For example in neuroevolution, consider weights of connections entering a same neuron or layer.</s><s xml:id="_mBN5pxX" coords="4,328.87,646.64,229.33,8.02;4,342.36,657.66,215.82,7.94;4,342.36,668.62,121.79,7.94">(2) The main method, launched on a head node, spawns the run control routine plus the object store that maintains shared data and handles communication.</s><s xml:id="_fAzkTfC" coords="4,466.39,668.62,91.80,7.94;4,342.36,679.58,140.10,7.94">This follows modern best practices in distributed processing <ref type="bibr" coords="4,469.94,679.58,9.39,7.94" target="#b7">[8]</ref>.</s></p><p xml:id="_TYAnTNB"><s xml:id="_P6wNdP2" coords="4,328.87,690.47,229.50,8.02;4,342.36,701.49,217.21,7.94">(3) The control routine then launches one Block Worker (BW) for each parameter block, one on each of the available machines.</s></p><p xml:id="_ersYuvY"><s xml:id="_H5GMPkN" coords="5,77.94,87.79,216.09,7.94;5,78.21,98.75,217.21,7.94">The BW encapsulates the actual BBO algorithm, and runs fully asynchronously from the others, though contemporary.</s><s xml:id="_Qezcmtz" coords="5,77.94,109.71,216.09,7.94;5,78.21,120.61,216.73,8.02;5,78.21,131.57,215.83,8.02;5,78.21,142.59,132.78,7.94">The BWs exchange information by uploading to the head node the state of their search after each update (i.e. a generation in ES); updates from the other nodes are also pulled before generating a new population.</s><s xml:id="_5TgDXPc" coords="5,64.71,153.48,229.34,8.02;5,78.21,164.44,216.06,8.02;5,78.21,175.47,215.83,7.94;5,78.21,186.42,25.15,7.94;5,64.71,197.38,230.85,7.94;5,78.21,208.34,216.06,7.94;5,78.21,219.30,217.35,7.94;5,78.21,230.26,215.82,7.94;5,78.21,241.22,215.83,7.94;5,78.21,252.18,16.99,7.94">(4) In our implementation, each BW can spawn a pool of Fitness Evaluators (FE) on the same machine, used to automatically manage limited computational resources (such as available CPUs). ( <ref type="formula" coords="5,67.88,197.38,3.17,7.94">5</ref>) Alternatively, the user can request to evaluate trivial optimization functions on the BW directly (either sequentially or using multithreading), which is useful when the overhead of maintaining a discrete pool of evaluators would be significant with respect to the cost of the actual evaluation task.</s><s xml:id="_tyXSxCV" coords="5,63.76,263.14,230.27,7.94;5,53.80,274.10,240.24,7.94;5,53.80,285.05,102.20,7.94">The Block Workers communicate with the head node in each generation, while generation cycles are defined asynchronously and autonomously by each BW.</s><s xml:id="_yTbVPky" coords="5,158.37,285.05,135.68,7.94;5,53.53,297.95,21.47,6.96">Consider a problem with  variables  1 , . . .</s><s xml:id="_BxkCgHA" coords="5,76.38,297.95,11.50,5.96;5,88.96,296.01,142.76,7.94">,   , and a BW optimizing  variables   , . . .</s><s xml:id="_wvPxPuG" coords="5,233.11,297.95,27.84,5.96;5,261.45,296.01,32.60,7.94;5,53.80,306.97,60.36,7.94;5,117.85,306.97,35.10,7.94">,  +-1 , denoted as the vector   for short.</s><s xml:id="_dShHfXP" coords="5,155.81,306.91,138.23,8.02;5,53.80,318.00,52.25,8.58;5,105.69,317.92,3.91,3.24;5,110.68,318.48,183.35,7.94;5,53.80,329.44,240.23,7.94;5,53.80,340.40,197.26,7.94">The head node maintains a reference solution x ∈ R  , which fulfills a two-fold purpose: it serves as an anytime-estimate of the state of the search (current optimum), and it provides a unifying context to the BWs and the FEs.</s></p><p xml:id="_ZSwSqvh"><s xml:id="_gpwcEE5" coords="5,63.76,351.36,231.26,7.94;5,53.80,362.32,241.62,7.94">Intuitively, each BW is only aware of the variables in one block, and can only generate samples for the corresponding variables.</s><s xml:id="_BfF3W93" coords="5,53.53,373.28,240.50,7.94;5,53.80,384.24,214.14,7.94">These incomplete samples however need to be constructed as part of a complete solution in order to be scored on the task.</s><s xml:id="_bg2MzMb" coords="5,270.80,384.24,23.40,7.94;5,53.80,395.20,240.23,7.94;5,53.80,406.16,240.24,7.94;5,53.80,417.11,146.32,7.94">In our recurring example of neuroevolution, the sample could correspond to the weights for a neuron, or layer, while obviously only full networks can be evaluated on the task.</s><s xml:id="_3PwCXBU" coords="5,202.61,417.11,91.65,7.94;5,53.80,428.07,219.19,7.94">We address this issue by leveraging once again our assumption of partial separability.</s><s xml:id="_2FMxvtS" coords="5,275.23,428.07,18.98,7.94;5,53.80,439.03,240.24,7.94;5,53.80,449.99,240.23,7.94;5,53.80,460.95,241.61,7.94">After our hypothesis of the correlation across blocks being negligible, we can evaluate each block in isolation by inserting it in the context of the (current) reference solution, as obtained from the head node.</s></p><p xml:id="_jkujZDu"><s xml:id="_SeVQkCG" coords="5,63.76,471.91,231.79,7.94;5,53.80,482.87,241.62,7.94">Hypothesize for a moment that there is no correlation interblock-we will address the validity of this statement just below.</s><s xml:id="_xEDtc6T" coords="5,53.80,493.83,240.23,7.94;5,53.80,504.79,240.24,7.94;5,53.80,515.75,240.24,7.94;5,53.80,526.70,141.60,7.94">In this case, each layer can be scored fairly by constructing a full reference network, then swapping the corresponding weights in the target layer for the block sample, and finally evaluating the resulting complete network on the task.</s><s xml:id="_C6PMHdc" coords="5,197.34,526.70,98.21,7.94;5,53.80,537.66,240.24,7.94;5,53.80,548.62,241.75,7.94;5,53.80,559.58,51.10,7.94">Different independent samples from a same block (individuals) would receive fair evaluation in this fashion as long as they are evaluated on the same reference network.</s><s xml:id="_k85VZrb" coords="5,107.13,559.58,186.90,7.94;5,53.80,570.54,152.95,7.94">This is in fact constructed by assembling the partial sample into the global reference solutions.</s><s xml:id="_Kp2TY35" coords="5,209.01,570.54,86.54,7.94;5,53.80,581.50,240.23,7.94;5,53.80,592.46,240.23,7.94;5,53.80,603.42,240.24,7.94;5,53.80,614.38,60.41,7.94">Partial samples are constructed by aggregating the reference or center sample from each of the BBO instances running on each block, which as mentioned is maintained in the head node by each block instance at the end of each generation.</s></p><p xml:id="_tPRsM6R"><s xml:id="_5Qy3BkB" coords="5,63.76,625.33,230.27,7.94;5,53.80,636.24,140.03,8.00">More formally: at the start of each generation, the BW receives the current reference solution x1 , . . .</s><s xml:id="_8GnuHKM" coords="5,195.21,634.14,98.34,10.09">, x from the head node. <ref type="foot" coords="5,290.17,634.14,3.38,6.44" target="#foot_1">2</ref></s><s xml:id="_4AXQaW9" coords="5,53.53,647.25,240.50,7.94;5,53.26,660.68,4.58,4.02;5,58.30,656.60,3.38,6.44;5,61.91,660.68,13.20,4.02">he block-level ES samples a population of candidate solutions  1 , . . .</s><s xml:id="_BRE9WRq" coords="5,76.22,658.18,8.79,6.52;5,88.62,658.26,13.65,8.58;5,101.89,658.18,3.81,3.24;5,106.64,658.75,2.01,7.94">  ∈ R  .</s><s xml:id="_KYY6wKt" coords="5,110.99,658.75,183.05,7.94;5,53.80,669.22,112.11,8.43;5,166.62,667.56,3.38,6.44;5,169.97,669.71,51.14,7.94">If  is small, then sampling from a Gaussian with full covariance matrix N (,  2 ) is feasible.</s><s xml:id="_Wv2Etnx" coords="5,223.83,669.71,70.22,7.94;5,317.96,87.79,240.24,7.94;5,317.51,99.29,89.51,7.94;5,407.82,97.14,3.38,6.44;5,411.43,101.22,13.20,4.02">The -dimensional points are injected into the reference solution by constructing the -dimensional vectors  1 , . . .</s><s xml:id="_FhvDgca" coords="5,426.01,98.72,8.81,6.52;5,438.58,98.80,13.79,8.58;5,452.00,98.72,3.91,3.24;5,459.39,99.29,98.81,7.94;5,317.96,110.25,16.59,7.94">  ∈ R  according to the following rule:</s></p><formula xml:id="formula_4" coords="5,385.14,120.95,103.86,23.00">𝑥 𝑗 𝑖 = 𝑦 𝑗 𝑖-𝑎 if 𝑎 ≤ 𝑖 ≤ 𝑎 + 𝑏 x𝑖 otherwise</formula><p xml:id="_6X2G8pg"><s xml:id="_EQKUv6z" coords="5,317.69,153.55,50.48,7.94;5,368.97,151.40,3.38,6.44;5,372.58,155.48,13.20,4.02">The vectors  1 , . . .</s><s xml:id="_WrpPXT3" coords="5,387.16,152.98,12.10,6.52;5,402.52,153.55,155.67,7.94;5,317.95,164.51,152.05,7.94">,   are passed to the (thread or node) pool of Fitness Evaluators for fitness evaluation.</s><s xml:id="_rggydf8" coords="5,472.55,164.51,86.63,7.94;5,317.95,175.47,240.24,7.94;5,317.95,186.42,241.75,7.94;5,317.96,197.38,82.81,7.94">Once all are computed, the ES updates its internal state based on the initially produced partial candidates and the fitness values obtained from the fullindividual evaluations.</s><s xml:id="_vdE7ENW" coords="5,403.01,197.38,155.19,7.94;5,317.39,208.34,241.79,7.94;5,317.96,219.30,240.24,7.94;5,317.96,230.26,105.85,7.94">This includes updating the sampling mean  and optionally further parameters like step size, evolution paths, and covariance matrix, depending on the base BBO and with no tampering from DiBB itself.</s><s xml:id="_wmue2rF" coords="5,426.92,230.26,131.27,7.94;5,317.39,241.22,240.80,7.94;5,317.96,252.18,94.91,7.94;5,415.59,252.18,27.03,7.94">Finally, it sends the updated mean  back to the head node, which incorporates it into its reference solution by overwriting   with .</s><s xml:id="_eW8QrYy" coords="5,444.50,252.18,113.70,7.94;5,317.96,263.14,213.74,7.94">This makes the update available for the next cluster node preparing for its next generation.</s></p><p xml:id="_2WJuyNF"><s xml:id="_S3NMqUv" coords="5,327.92,274.10,230.27,7.94;5,317.62,285.05,241.20,7.94;5,317.96,296.01,240.47,7.94;5,317.96,306.97,181.97,7.94">The last issue remaining is that of course we cannot expect the weights entering different neurons or layers to be entirely separable; after all, they do belong to the same network and they are thereby all contributing to the final output in its equation.</s><s xml:id="_SpAcgkd" coords="5,502.17,306.97,56.03,7.94;5,317.96,317.87,240.24,8.02;5,317.96,328.83,240.24,8.02;5,317.96,339.85,241.22,7.94;5,317.96,350.81,240.23,7.94;5,317.96,361.77,240.24,7.94;5,317.96,372.73,19.15,7.94">Since all blocks are searched at the same time, this induces a problem of moving target, where the score of a block sample depends on the global state of the search (in the form of the current whole reference solution, as held by the head node), which changes constantly as every BBO instance asynchronously sends an update to the global reference state.</s></p><p xml:id="_9Zp9yPF"><s xml:id="_5aAwzPf" coords="5,327.92,383.68,231.79,7.94;5,317.96,394.64,240.23,7.94;5,317.96,405.60,130.33,7.94">Empirically we verify that the impact on the algorithm is however only minimal: after all, our hypothesis is much stricter than in fully-separable implementations.</s><s xml:id="_RAtuchr" coords="5,450.52,405.60,109.18,7.94;5,317.96,416.56,240.41,7.94;5,317.96,427.52,230.37,7.94">While in principle and in theory full-covariance algorithms have better sample efficiency, their hypothesis is for all parameters to be meaningfully correlated.</s><s xml:id="_rwatQAA" coords="5,550.56,427.52,7.63,7.94;5,317.96,438.48,240.45,7.94;5,317.96,449.44,240.57,7.94;5,317.96,460.40,40.80,7.94">In real-world scenarios however it is most common to have complex applications with high dimensionality and relatively sparse or low covariance.</s><s xml:id="_wrcCnCq" coords="5,361.00,460.40,197.20,7.94;5,317.96,471.36,241.23,7.94;5,317.62,482.31,172.89,7.94">A full-covariance algorithm still needs to learn the full covariance matrix each time, at significant computational costs, which effectively lowers their sample efficiency.</s><s xml:id="_BHFyxYT" coords="5,492.75,482.31,65.61,7.94;5,317.96,493.27,241.75,7.94;5,317.96,504.23,240.24,7.94;5,317.96,515.19,185.45,7.94">DiBB on the other hand allows for integrating expert knowledge in its blocks construction, sidestepping the problem of learning covariance information between blocks that can be considered independent.</s><s xml:id="_JyNAnBn" coords="5,505.37,515.19,52.83,7.94;5,317.96,526.15,240.24,7.94;5,317.96,537.11,150.92,7.94">As a result and in practice, we have seen no measurable advantage or disadvantage on either approach from this perspective.</s></p><p xml:id="_ufgy6bR"><s xml:id="_pm2q44b" coords="5,327.92,548.07,231.26,7.94;5,317.96,559.03,101.97,7.94">The proposed setup directly reflects the added level of parallelism, compared to a standard ES.</s><s xml:id="_EuGCNXE" coords="5,422.33,559.03,136.09,7.94;5,317.96,569.99,240.24,7.94;5,317.96,580.95,230.49,7.94">Traditional implementations usually restrict parallelism to maintaining a pool of evaluators to speed up the evaluation of independent samples using multiple cores.</s><s xml:id="_UyVUWgG" coords="5,550.69,580.95,7.50,7.94;5,317.96,591.90,240.24,7.94;5,317.96,602.86,240.24,7.94;5,317.96,613.82,240.24,7.94;5,317.96,624.78,129.31,7.94">In our setup, a second level of parallelism is established in terms of the Block Workers, which operate independently except for sparse communication with the head node-itself entirely dedicated to the task to ensure high responsiveness.</s></p><p xml:id="_fevHwaD"><s xml:id="_sGTUyes" coords="5,327.92,635.74,230.28,7.94;5,317.96,646.70,240.23,7.94;5,317.96,657.66,162.38,7.94">Per generation and BW,  real values need to be communicated to and from the head node, to update the global reference solution and to obtain a local copy of it respectively.</s><s xml:id="_UGekJa8" coords="5,482.67,657.66,75.75,7.94;5,317.96,668.62,240.24,7.94;5,317.96,679.58,162.92,7.94">For a constant block size and a number of nodes linear in , the total network traffic per generation grows quadratically with .</s><s xml:id="_cH8Zhq2" coords="5,483.86,679.58,74.34,7.94;5,317.96,690.53,240.24,7.94;5,317.96,701.49,19.87,7.94">For extremely large problems, this may eventually limit the effectiveness of the head node.</s></p><p xml:id="_auzqBQt"><s xml:id="_B7CE3XB" coords="6,63.76,87.79,230.52,7.94;6,53.80,98.69,240.24,8.02;6,53.80,109.71,240.41,7.94;6,53.80,120.67,241.75,7.94;6,53.80,131.63,64.34,7.94">The problem is smartly sidestepped by Salimans et al. <ref type="bibr" coords="6,267.85,87.79,14.72,7.94" target="#b27">[28]</ref> by synchronizing the entropy (random number generation) across the machines, which makes them generate the same samples, however at the price of a fully-synchronous implementation (and greatly simplified algorithm).</s><s xml:id="_64ywtJy" coords="6,120.05,131.63,173.98,7.94;6,53.80,142.59,240.24,7.94;6,53.80,153.55,241.75,7.94;6,53.80,164.51,161.21,7.94">The same method can be implemented into DiBB to allow a Block Worker to spawn Fitness Evaluators across multiple machines, which would immediately improve performance particularly in the case of large population sizes.</s><s xml:id="_scUmSsB" coords="6,217.57,164.51,77.45,7.94;6,53.80,175.47,240.24,7.94;6,53.80,186.42,240.24,7.94;6,53.80,197.38,19.11,7.94">With DiBB however, the actual updates would remain asynchronous, which implies that the FEs spawned in the cluster could actually be shared between BWs.</s><s xml:id="_gQRX95J" coords="6,75.93,197.38,218.27,7.94;6,53.53,208.34,242.02,7.94;6,53.80,219.30,240.47,7.94;6,53.80,230.26,241.62,7.94">Since this communication overhead occurs only once per (block-wise) generation in DiBB, and not once per fitness evaluation, our implementation has considerable less pronounced network overhead than in the distribution of fitness evaluation in a plain ES.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4" xml:id="_dGfBrnP">EXPERIMENTS</head><p xml:id="_cZWaAts"><s xml:id="_6PQNbZM" coords="6,53.53,269.82,240.50,7.94;6,53.80,280.78,77.73,7.94">This section describes the setup used to empirically assess the performance of DiBB.</s><s xml:id="_D23Fb8a" coords="6,133.59,280.78,160.45,7.94;6,53.80,291.74,107.27,7.94;6,61.64,302.69,232.39,7.94;6,78.21,313.65,142.40,7.94;6,61.64,324.61,232.39,7.94;6,78.21,335.57,75.64,7.94">With our experiments, we aim to address the following research questions: Q1: How well does the block-diagonal approach work, compared to diagonal-and full-covariance CMA? Q2: How does DiBB's performance scale to a large number of machines and cores?</s><s xml:id="_E7mpAZH" coords="6,61.64,346.53,208.61,7.94">Q3: Is DiBB well-suited for neuroevolution applications?</s><s xml:id="_jGXP2jK" coords="6,53.37,357.49,242.18,7.94;6,53.80,368.45,240.47,7.94;6,53.53,379.34,242.02,8.02;6,53.80,390.37,43.89,7.94">We assess the first two questions on the standard COmparing Continuous Optimizers (COCO) Black Box Optimization Benchmark (BBOB), using both the standard <ref type="bibr" coords="6,172.48,379.41,14.62,7.94" target="#b16">[17]</ref> and the large-scale <ref type="bibr" coords="6,258.20,379.41,10.45,7.94" target="#b8">[9]</ref> benchmark suites.</s><s xml:id="_w9GSaRr" coords="6,99.94,390.37,195.60,7.94;6,53.80,401.32,240.40,7.94;6,53.80,412.28,49.15,7.94">For answering the third question, we showcase a neuroevolution application in the challenging OpenAI Gym 2D Walker environment.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1" xml:id="_2fzYaS7">Setup and reference implementation</head><p xml:id="_QjjkDaQ"><s xml:id="_k2qa3zp" coords="6,53.37,451.84,194.54,7.94">We tested DiBB on a variety of hardware solutions.</s><s xml:id="_5PCM4a6" coords="6,250.62,451.84,44.92,7.94;6,53.80,462.80,240.24,7.94;6,53.80,472.15,240.25,10.09;6,53.53,485.26,164.49,7.94">The COCO-BBOB experiments were run on a cluster of 24 low-performance machines, all based on an Intel (R) Core (TM) i7-2600 CPU @ 3.40GHz (4 cores/8 threads each), and 32 GB of RAM.</s><s xml:id="_eVaVUrd" coords="6,220.34,485.26,73.69,7.94;6,53.80,496.21,240.24,7.94;6,53.80,507.17,241.62,7.94">These machines are far from state-of-the-art performance, which leaves a significant margin of improvement for the timings presented in our results.</s><s xml:id="_xacms6U" coords="6,53.53,518.13,240.51,7.94;6,53.80,529.09,240.24,7.94;6,53.80,540.05,178.09,7.94">This decision was taken to encourage interested labs to reproduce our results on whatever hardware they can put together, without expectation of dedicating any significant budget.</s></p><p xml:id="_D6KjzMu"><s xml:id="_wc52Br9" coords="6,63.76,551.01,231.66,7.94">The cluster setup is simplified by the included managing scripts.</s><s xml:id="_DuXu5fA" coords="6,53.80,561.97,240.24,7.94;6,53.80,572.93,240.24,7.94;6,53.80,583.89,241.22,7.94;6,53.80,594.85,241.75,7.94;6,53.80,605.80,11.54,7.94">Running on a single machine with a single block and no Fitness Evaluators roughly corresponds to running the underlying BBO algorithm alone (plus overhead, and with parallel fitness evaluation), and can be achieved without setup with a syntax alike to CMA-ES.</s><s xml:id="_hvBJpAb" coords="6,68.05,605.80,225.99,7.94;6,53.80,616.76,240.24,7.94;6,53.80,627.72,95.18,7.94">Spawning multiple BWs and FEs automatically scales to the available resources, as declared in the managing script using a simple list of network IPs.</s></p><p xml:id="_ag4Pqzx"><s xml:id="_Z7PxCYj" coords="6,63.76,638.68,231.79,7.94;6,53.80,649.64,240.24,7.94;6,53.80,658.45,76.01,10.09;6,317.96,256.85,241.23,10.09;6,317.96,269.96,194.04,7.94">The experiments below are based on our reference implementation of DiBB written in Python, which leverages the Ray distributed computation library 3  both for the experiment design <ref type="foot" coords="6,431.10,256.85,3.38,6.44" target="#foot_3">4</ref> and framework implementation <ref type="foot" coords="6,553.34,256.85,3.38,6.44" target="#foot_4">5</ref> , and collaborations and contributions are encouraged.</s><s xml:id="_4D3yR3J" coords="6,514.24,269.96,43.95,7.94;6,317.96,280.92,240.24,7.94;6,317.96,291.88,46.93,7.94">DiBB is also available through PyPI<ref type="foot" coords="6,403.24,278.77,3.38,6.44" target="#foot_5">6</ref> for ease of adoption, using the standard pip installer.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2" xml:id="_bv6RuhR">COCO BBOB</head><p xml:id="_7xsX5xr"><s xml:id="_Gdgs6jZ" coords="6,317.96,329.30,241.62,7.94">COCO provides multiple suites covering a broad range of test cases.</s></p><p xml:id="_ztw52kV"><s xml:id="_S3swZUw" coords="6,317.69,340.26,240.50,7.94;6,317.96,351.16,97.10,8.02">The experiments presented in this work are based on the BBOB standard large-scale suites.</s><s xml:id="_x2CeygX" coords="6,421.80,351.22,136.39,7.94;6,317.96,362.18,240.24,7.94;6,317.96,372.65,147.28,8.43">The BBOB standard suite comes with 24 noise-free real-parameter single-objective benchmark functions in dimensions  ∈ {2, 3, 5, 10, 20, 40} <ref type="bibr" coords="6,448.71,373.14,13.22,7.94" target="#b16">[17]</ref>.</s><s xml:id="_JKdmkmK" coords="6,469.56,373.14,88.63,7.94;6,317.96,383.79,114.21,8.43;6,432.34,383.71,3.91,3.24;6,439.58,384.28,120.13,7.94;6,317.96,395.24,87.43,7.94">All of the functions have their global optimum in [-5, 5]  by design, where  is the dimensionality of the problem.</s><s xml:id="_CPcTbbS" coords="6,407.45,395.24,151.80,7.94;6,317.96,406.19,241.22,7.94;6,317.96,417.15,241.22,7.94;6,317.96,428.11,200.26,7.94">The functions are divided into five groups: separable functions (f1-f5), moderately conditioned functions (f6-f9), ill-conditioned functions (f10-f14), multi-modal functions (f15-f19), and weakly structured multi-modal functions (f20-f24).</s><s xml:id="_dGsHBhh" coords="6,520.45,428.11,37.74,7.94;6,317.96,439.07,240.47,7.94;6,317.96,450.03,148.69,7.94">We expect the performance of DiBB to vary accordingly to the actual validity of our assumption of partial separability.</s></p><p xml:id="_JRua3JW"><s xml:id="_muvEwnB" coords="6,327.92,460.99,230.27,7.94;6,317.62,471.95,240.57,7.94;6,317.96,482.42,201.34,8.43">The BBOB large-scale suite contains the same 24 same functions which are found in the standard suite, but scales up the available number of dimensions to  ∈ {20, 40, 80, 160, 320, 640}.</s><s xml:id="_cARzy2M" coords="6,521.59,482.91,36.61,7.94;6,317.96,493.87,240.23,7.94;6,317.96,504.82,189.70,7.94">This suite however introduces heuristics to decrease the computational cost of a selection of functions in a large-scale setting.</s><s xml:id="_BK8APPB" coords="6,510.60,504.82,47.59,7.94;6,317.96,515.78,198.91,7.94">We refer the interested reader to Elhara et al. <ref type="bibr" coords="6,437.34,515.78,10.55,7.94" target="#b8">[9]</ref> for further details.</s></p><p xml:id="_yBgtHGs"><s xml:id="_akGcpqX" coords="6,327.92,526.74,231.79,7.94;6,317.96,537.70,241.61,7.94">The BBOB suite provides a broad range of problems representative of many use-cases in the spectrum of Black-Box Optimization.</s><s xml:id="_bRTmd8h" coords="6,317.96,548.66,240.24,7.94;6,317.96,559.62,241.75,7.94;6,317.96,570.58,240.24,7.94;6,317.96,581.54,38.70,7.94">Particularly, and by design, several edge cases are present that are unlikely to be encountered in real applications but provide compelling insights on the performance and applicability of the tested algorithm.</s><s xml:id="_BAS8ape" coords="6,358.93,581.54,199.27,7.94;6,317.96,592.50,241.75,7.94;6,317.96,603.46,240.47,7.94;6,317.96,614.41,180.37,7.94">BBOB problems are specifically designed to be solved to high precision with the goal to test for scale invariance; therefore  is not in the thousands, without the lower dimensionality significantly impacting the problem complexity.</s><s xml:id="_5hKSPZG" coords="6,501.05,614.41,58.13,7.94;6,317.96,625.37,240.24,7.94;6,317.96,636.33,240.24,7.94;6,317.96,647.29,130.76,7.94">Scalability of , and the distinction between separable and non-separable problem classes, allows us to systematically evaluate the effect of DiBB's block structure on its performance.</s><s xml:id="_RVnhjnF" coords="6,450.96,647.29,107.23,7.94;7,53.80,413.89,240.46,7.94;7,53.80,422.70,102.66,10.09">COCO greatly facilitates this  process by providing publicly available performance data for many state-of-the-art algorithms. 7</s><s xml:id="_59QYsMz" coords="7,63.76,435.81,230.27,7.94;7,53.80,446.77,241.75,7.94;7,53.80,457.73,191.11,7.94"> We test the scaling of DiBB's performance as we vary in turn the problem dimensions and the block size, from the related but radically different perspectives of sample efficiency (i.e.</s><s xml:id="_NfKJbKg" coords="7,247.16,457.73,46.88,7.94;7,53.80,468.68,241.75,7.94;7,53.57,479.64,132.13,7.94">convergence speed, how many samples it takes for the algorithm to reach convergence) and effective run time (i.e.</s><s xml:id="_TwWJNdJ" coords="7,187.94,479.64,106.09,7.94;7,53.80,490.60,201.05,7.94">wall-clock speed, how long it actually takes for the algorithm to converge in real time).</s><s xml:id="_DgHE62z" coords="7,256.60,490.60,37.43,7.94;7,53.80,501.56,241.75,7.94;7,53.80,512.52,240.23,7.94;7,53.80,523.48,240.47,7.94;7,53.80,534.44,71.45,7.94">In the case of DiBB, run time is significantly (positively) impacted by its inherent distributed implementation, as each BW evaluates the fitness of its individuals locally in its dedicated machine, asynchronously from all other BWs.</s></p><p xml:id="_6jPQPGA"><s xml:id="_Zqm7NYx" coords="7,63.76,545.40,170.73,7.94">To this end, we ran the following experiments:</s></p><p xml:id="_ydcCTtd"><s xml:id="_YMqzS9W" coords="7,64.71,556.36,229.33,7.94;7,78.21,567.31,99.24,7.94;7,64.71,578.27,229.34,7.94;7,78.21,589.23,99.24,7.94;7,64.71,600.19,229.34,7.94;7,78.21,611.15,129.70,7.94;7,64.71,622.11,229.34,7.94;7,78.21,633.07,129.70,7.94;7,64.71,644.03,229.32,7.94;7,78.21,654.99,156.73,7.94;7,53.80,665.95,241.75,7.94;7,53.80,676.90,118.23,7.94;7,53.67,701.13,2.55,4.86">(1) Constant number of blocks, increasing  and block size, on the BBOB suite (bbob_fnb) (2) Constant block size, increasing  and number of blocks on the BBOB suite (bbob_fbs) (3) Constant number of blocks, increasing  and block size on the large-scale suite (bbob_ls_fnb) (4) Constant block size, increasing  and number of blocks on the large-scale suite (bbob_ls_fbs) (5) Comparison of the wall-clock speed between plain CMA-ES and PS-CMA-ES using different block sizes Complete details of the experimental setup for reproducibility purpose are found in Appendix A.1. 7</s><s xml:id="_cChjVkW" coords="7,56.72,702.79,140.28,6.18">See https://numbbo.github.io/data-archive/bbob/.</s></p><p xml:id="_Dh9ePET"><s xml:id="_s9G75dA" coords="7,327.92,251.83,231.79,7.94;7,317.96,262.79,114.32,7.94">We chose to focus on the group of separable (f1-f5) and illconditioned functions (f10-f14).</s><s xml:id="_KSx2ky9" coords="7,434.51,262.79,123.68,7.94;7,317.96,273.75,241.75,7.94;7,317.96,284.71,241.54,7.94">The first group contains problems that can be solved easily by DiBB, while the second group is extremely hard since it strongly violates the separability assumption.</s></p><p xml:id="_9AqSkkF"><s xml:id="_h7H3Kgc" coords="7,327.92,295.66,230.27,7.94;7,317.96,306.62,152.23,7.94">Prototypical results of the COCO/BBOB experiments are found in Figure <ref type="figure" coords="7,353.59,306.62,4.24,7.94" target="#fig_1">2</ref> (full results in Appendix A.1).</s><s xml:id="_5Xv6g8J" coords="7,472.44,306.62,87.27,7.94;7,317.96,317.58,240.24,7.94;7,317.96,328.54,240.23,7.94;7,317.96,339.50,110.68,7.94">The Empirical Cumulative Distribution Function (ECDF) plots <ref type="bibr" coords="7,466.38,317.58,14.82,7.94" target="#b16">[17]</ref> show the fraction of reached (precision) targets over dimension-normalized time on a log-scale, so "higher is better".</s><s xml:id="_edvEwP7" coords="7,317.96,356.05,62.99,8.04">Sample Efficiency.</s><s xml:id="_knquDHt" coords="7,384.43,356.11,173.76,7.94;7,317.96,367.07,209.03,7.94">On fully separable problems f1-f5, all algorithms perform roughly the same in terms of sample complexity.</s><s xml:id="_fvNGvY6" coords="7,529.23,367.07,29.14,7.94;7,317.62,378.03,240.57,7.94;7,317.96,388.99,117.55,7.94">In other words, covariance terms can be dropped at no cost, and blocks can be optimized independently.</s><s xml:id="_RwSwYzA" coords="7,437.73,388.99,121.98,7.94;7,317.96,399.95,240.24,7.94;7,317.96,410.91,179.71,7.94">This confirms the theoretical predictions from Section 2. Interestingly, in some cases PS-CMA-ES outperforms standard CMA-ES (if only slightly).</s><s xml:id="_JzyvUTF" coords="7,499.97,410.91,58.22,7.94;7,317.96,421.87,241.75,7.94;7,317.96,432.83,240.24,7.94;7,317.96,443.78,241.75,7.94;7,317.96,454.74,11.27,7.94">We expect such a behavior in this particular (artificial and extreme) case, since effectively dedicating resources to learn the (initially misleading and then uninformative) off-diagonal covariance terms can be detrimental.</s></p><p xml:id="_7FtG6KZ"><s xml:id="_N5UPyR9" coords="7,327.92,465.70,231.79,7.94;7,317.96,476.66,240.24,7.94;7,317.96,487.62,240.24,7.94;7,317.96,498.58,240.24,7.94;7,317.96,509.05,97.50,8.43">For the ill-conditioned non-separable problems f10-f14, the performance of PS-CMA-ES is close to sep-CMA-ES and far worse than standard CMA-ES, again as expected since the unmodeled covariance terms (with unrealistic correlations, extremely close to ±1) dominate performance.</s><s xml:id="_m57h7f6" coords="7,417.41,509.54,142.29,7.94;7,317.96,520.50,148.54,7.94">Yet, unsurprisingly, larger blocks immediately result in better sample complexity.</s><s xml:id="_UcnhJhz" coords="7,468.32,520.50,89.87,7.94;7,317.96,531.46,240.23,7.94;7,317.96,542.41,240.24,7.94;7,317.96,553.37,100.36,7.94">This finding confirms the theoretical prediction that the assumption of partial separability is crucial, and that the user can find an ideal trade-off by optimizing the block hyperparameters.</s></p><p xml:id="_FdKn9Az"><s xml:id="_j8vDZkX" coords="7,327.92,564.33,231.79,7.94;7,317.95,575.29,241.75,7.94;7,317.96,586.25,240.24,7.94;7,317.96,597.21,240.40,7.94;7,317.96,608.17,39.35,7.94">Taken together, the two results imply that DiBB-derived algorithms applied to a problem with block structure greatly outperform an ES with diagonal covariance matrix by simply being more sample-efficient within each block, while full CMA offers no further advantage.</s><s xml:id="_an44NtV" coords="7,359.55,608.17,96.60,7.94">This answers question Q1.</s></p><p xml:id="_qvrmzAt"><s xml:id="_a998hyr" coords="7,327.92,624.72,31.48,8.02">Timings.</s><s xml:id="_gzGAnzM" coords="7,362.89,624.78,195.31,7.94;7,317.96,635.74,87.15,7.94">Most experiments were run on the low-performance cluster described above.</s><s xml:id="_4Gzwpn4" coords="7,407.36,635.74,150.84,7.94;7,317.96,646.70,240.47,7.94;7,317.96,657.66,241.22,7.94;7,317.62,668.62,197.93,7.94">For three of the experiments however we tested the flexibility of DiBB by leveraging a new cluster of only three nodes but with Intel(R) Xeon(R) CPU E5-2620 v4 processors, with 16 cores (32 threads) @ 2.10GHz and 128 GB RAM.</s><s xml:id="_AW7T5cB" coords="7,517.48,668.62,40.72,7.94;7,317.96,679.58,240.24,7.94;7,317.96,690.53,240.23,7.94;7,317.96,701.49,240.24,7.94">These were used for the 5d BBOB suite with one block (thus running on a single machine), the 40d BBOB suite with two blocks (running on three machines: one head node and two for the Block Workers), and the</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_F9U8q5n">Blocks Duration</head><p xml:id="_BXVupSz"><s xml:id="_2eeyUBQ" coords="8,163.77,88.97,112.31,7.70;8,53.59,247.71,240.44,7.94;8,53.80,258.67,17.60,7.94">Relative Time Speed Gain 40d BBOB large-scale suite with one block (another single-machine run).</s><s xml:id="_9H7fGQS" coords="8,63.76,269.63,230.27,7.94;8,53.80,280.59,241.75,7.94;8,53.80,291.55,41.06,7.94">Tables <ref type="table" coords="8,90.34,269.63,4.25,7.94" target="#tab_1">1</ref> and<ref type="table" coords="8,113.95,269.63,4.25,7.94" target="#tab_2">2</ref> compare the run times of DiBB with different numbers of blocks, block sizes, and dimensions on the BBOB largescale suite.</s><s xml:id="_RpZBtaJ" coords="8,97.96,291.55,197.06,7.94;8,53.80,302.51,241.75,7.94;8,53.80,313.47,19.46,7.94">Several effects come together: in larger dimensions, function evaluation time and communication overhead grow linearly.</s><s xml:id="_2f8hNN5" coords="8,75.50,313.47,218.53,7.94;8,53.80,324.43,170.27,7.94">Due to the fixed budget multiplier used in COCO, the overall function evaluation budget also grows linearly.</s><s xml:id="_SuNfMtF" coords="8,226.30,324.43,68.72,7.94;8,53.80,335.38,241.61,7.94">On the other hand, CMA's computational effort grows quadratically in the block size.</s><s xml:id="_nGK7w4y" coords="8,53.37,346.34,240.66,7.94;8,53.80,357.30,240.24,7.94;8,53.80,368.26,137.15,7.94">We clearly observe that the runtime grows far more benign when using a fixed block size, which indicates that CMA overhead indeed quickly becomes the dominating term.</s><s xml:id="_Ad7VxTB" coords="8,192.98,368.26,101.05,7.94;8,53.80,379.22,106.63,7.94">Hence, the block size should be kept tightly under control.</s><s xml:id="_cXJMxCb" coords="8,162.68,379.22,95.69,7.94">This answers question Q2.</s><s xml:id="_uEmxrYM" coords="8,260.61,379.22,34.94,7.94;8,53.80,390.18,240.24,7.94;8,53.80,401.14,241.62,7.94">Additionally, Table <ref type="table" coords="8,93.79,390.18,4.25,7.94" target="#tab_3">3</ref> compares the wall-clock speed of PS-CMA-ES using different block sizes on the 160d BBOB large-scale problems suite.</s><s xml:id="_eJbAMRp" coords="8,53.80,412.10,38.93,7.94">For one vs.</s><s xml:id="_xEvCAhB" coords="8,94.79,412.10,199.25,7.94;8,53.80,423.06,65.34,7.94">two blocks, there is almost no difference in the duration of the experiment.</s><s xml:id="_mSh7vhj" coords="8,121.17,423.06,173.10,7.94;8,53.80,434.01,220.27,7.94">However, for four or more blocks, the wall-clock time diminished drastically, leading to a speed gain of 471%.</s><s xml:id="_dskuuHz" coords="8,276.30,434.01,17.73,7.94;8,53.80,444.97,240.24,7.94;8,53.80,455.93,240.24,7.94;8,53.80,466.89,76.86,7.94">Note that for BBOB and most other benchmark problems, evaluations are unrealistically cheap, so DiBB's parallelization overhead becomes relatively significant.</s><s xml:id="_7eEWgEZ" coords="8,132.89,466.89,161.15,7.94;8,53.53,477.85,240.51,7.94;8,53.80,488.81,124.29,7.94">For a more realistic function evaluation cost (i.e. as little as 10ms) the overhead becomes negligible, highlighting the benefit of parallel evaluations.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3" xml:id="_b57D9kS">PyBullet Walker 2D</head><p xml:id="_RS7ePUh"><s xml:id="_A3H22Rt" coords="8,53.48,526.15,241.54,7.94;8,53.80,537.11,240.23,7.94;8,53.80,548.07,241.75,7.94;8,53.47,559.03,69.75,7.94">Although DiBB can be applied to any existing BBO and problem, its value in neuroevolution applications has undeniably been one of the original inspirations, particularly in relation to neural networks of large size.</s><s xml:id="_c5HZRKV" coords="8,125.47,559.03,168.78,7.94;8,53.80,569.99,240.23,7.94;8,53.80,580.95,222.87,7.94">Therefore we present our results on a complex reinforcement learning control task: the Walker 2D environment from PyBullet <ref type="bibr" coords="8,107.00,580.95,9.39,7.94" target="#b4">[5]</ref>, instantiated through the OpenAI Gym <ref type="bibr" coords="8,264.14,580.95,9.39,7.94" target="#b2">[3]</ref>.</s></p><p xml:id="_ThCgCkY"><s xml:id="_fsDqTZB" coords="8,63.76,591.90,230.27,7.94;8,53.80,602.86,109.95,7.94">In this task, an agent controls a basic 2D robotic walker using the PyBullet physics simulator.</s><s xml:id="_et99VsY" coords="8,165.63,602.86,128.41,7.94;8,53.80,613.82,118.91,7.94">The observation is a 22-dimensional reading of the environment (e.g.</s><s xml:id="_XGCbyn8" coords="8,174.94,613.82,119.09,7.94;8,53.80,624.78,240.24,7.94;8,53.80,635.74,24.18,7.94">aperture and angular velocity of each joint, etc.), while the action is a 6-dimensional torque-control signal.</s><s xml:id="_mQykSPB" coords="8,80.76,635.74,213.28,7.94;8,53.80,646.70,240.24,7.94;8,53.80,657.66,130.30,7.94">The goal of the task is for the robot to walk the farthest distance possible in the allotted time, without toppling, which in turn requires learning a usable gait.</s></p><p xml:id="_AUjMf93"><s xml:id="_NzGHhA7" coords="8,63.76,668.62,231.79,7.94;8,53.80,679.09,241.76,8.43;8,53.80,690.53,20.51,7.94">The policy network is feed-forward and fully connected, composed by two hidden layers of sizes [128, 64], using ReLU activations.</s><s xml:id="_qYU6EEB" coords="8,76.55,690.53,217.48,7.94;8,53.80,701.49,222.91,7.94">The output layer is composed of six neurons with rescaled tanh activation normalized to the range of motor commands.</s></p><p xml:id="_UZtuDZr"><s xml:id="_eYCFQE3" coords="8,327.92,87.79,230.27,7.94;8,317.62,98.75,241.56,7.94;8,317.96,109.71,148.13,7.94">The network, totaling 11 590 weights and 198 neurons, is trained with DiBB applied to LM-MA-ES <ref type="bibr" coords="8,447.48,98.75,14.85,7.94" target="#b22">[23]</ref> to derive PS-LM-MA-ES, running four blocks on four machines.</s><s xml:id="_e87w3Pq" coords="8,469.26,109.71,89.16,7.94;8,317.96,120.67,240.24,7.94;8,317.96,131.63,228.47,7.94">The first and last block corresponded to the input layer (2 944 parameters) and output layer (390 parameters) were run directly on separate machines.</s><s xml:id="_8J7s22N" coords="8,548.66,131.63,9.53,7.94;8,317.96,142.59,240.24,7.94;8,317.75,153.55,240.44,7.94;8,317.96,164.51,241.62,7.94">As part of the testing, the output layer block was run on one of the 16-cores machine, together with the main routine (rather than a dedicated head node), to no noticeable difference in performance.</s><s xml:id="_HS8fuXh" coords="8,317.69,175.47,240.51,7.94;8,317.95,186.42,240.24,7.94;8,317.96,197.38,240.47,7.94;8,317.96,208.34,241.62,7.94">The connection between the two hidden layers however (accounting for 8 256 weights) was instead split in two blocks, as the connections entering two groups of 32 neurons each (4 128 weights), simply to further test DiBB's flexibility and substantially reduce run-time.</s><s xml:id="_cw5Vhzg" coords="8,317.69,219.30,240.51,7.94;8,317.96,230.26,157.68,7.94">This setup achieved a score of 1 126 (average over 100 runs, episode length capped at 1 000 frames) in 25 hours.</s><s xml:id="_EMYCyJ3" coords="8,477.89,230.26,80.30,7.94;8,317.96,241.22,240.24,7.94;8,317.75,252.18,40.46,7.94">As a baseline we used Random Weight Guessing <ref type="bibr" coords="8,413.63,241.22,13.25,7.94" target="#b29">[30]</ref>, which reached a score of 42 within 1 000 trials.</s><s xml:id="_PGfdSda" coords="8,360.21,252.18,197.98,7.94;8,317.95,263.14,145.20,7.94">To the authors' knowledge, these are the first results on this benchmark that use neuroevolution.</s><s xml:id="_MZ9MSQC" coords="8,465.24,263.14,94.33,7.94">This answers question Q3.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5" xml:id="_ZmsFMcm">CONCLUSIONS</head><p xml:id="_rmRNzTT"><s xml:id="_g8WP5PS" coords="8,317.69,317.93,240.50,7.94;8,317.96,328.89,241.75,7.94;8,317.96,339.85,241.75,7.94;8,317.96,350.81,240.24,7.94;8,317.96,361.77,241.75,7.94;8,317.96,372.73,176.04,7.94">This paper introduces DiBB, a meta-algorithm and framework that addresses the scalability and performance issues of black-box optimization (notably including Evolutionary Computation), by constructing a Partially-Separable (PS) version of the underlying BBO algorithm of choice, and then parallelizing and distributing its computation across a number of available machines.</s><s xml:id="_JV647tm" coords="8,496.24,372.73,62.29,7.94;8,317.96,383.62,240.25,8.02;8,317.96,394.58,240.41,8.02;8,317.96,405.60,241.59,7.94">Configuring new BBO algorithms or adding and removing machines takes literally minutes in our reference implementation, with no limitation or requirement on the underlying BBO algorithm nor on the problem.</s></p><p xml:id="_ZUC6sKC"><s xml:id="_DHZnbGr" coords="8,327.92,416.56,88.17,7.94">This allows DiBB to e.g.</s><s xml:id="_MP5XqAx" coords="8,418.34,416.56,141.37,7.94;8,317.96,427.52,240.24,7.94;8,317.96,438.48,207.46,7.94">scale state-of-the-art Evolution Strategies to large-dimensional problems while maintaining key advanced features such as scale invariance and adaptable step-size.</s><s xml:id="_AJBBz5T" coords="8,527.65,438.48,30.54,7.94;8,317.96,449.44,241.23,7.94;8,317.62,460.40,240.74,7.94;8,317.96,471.36,101.07,7.94">This is a significant step forward over recent large-scale implementations, which renounced such advanced features as a price for their flavor of distributed computation.</s><s xml:id="_KbUaWzq" coords="8,421.25,471.36,136.94,7.94;8,317.96,482.31,240.41,7.94;8,317.96,493.27,212.74,7.94">DiBB instead runs multiple instances of the base algorithm each on a subset of parameters selected for being highly intra-correlated, each on a separate machine.</s></p><p xml:id="_EDT5WUf"><s xml:id="_zm47fky" coords="8,327.92,504.17,230.45,8.02;8,317.96,515.19,240.24,7.94;8,317.96,526.15,241.75,7.94;8,317.96,537.11,119.57,7.94">The resulting performance scales constantly with the number of machines available, as the overall computational complexity is bound not in the total number of variables, but in the (arbitrary, userdefined) size of the largest block.</s><s xml:id="_EZjN8zr" coords="8,439.77,537.11,118.42,7.94;8,317.96,548.07,240.24,7.94;8,317.96,559.03,196.39,7.94">The algorithm complexity scales constantly with the number of blocks as long as more machines are available, but for a limited communication overhead.</s><s xml:id="_K9zB8Nk" coords="8,516.59,559.03,41.61,7.94;8,317.96,569.99,240.77,7.94;8,317.96,580.95,240.24,7.94;8,317.96,591.90,241.75,7.94;8,317.96,602.86,185.36,7.94">Our results on scaling CMA-ES to large dimensions (via our new PS-CMA-ES) on the COCO BBOB large-scale suite reaches an unprecedented number of dimensions simply by adding more (but cheap, old, lowperformance) machines, for a significant speed-up.</s></p><p xml:id="_ke84qrC"><s xml:id="_bDebYRH" coords="8,327.92,613.82,230.27,7.94;8,317.95,624.78,240.24,7.94;8,317.96,635.74,240.47,7.94;8,317.69,646.70,130.60,7.94">We also included a neuroevolution demonstration, training a network of 11 590 weights using PS-LM-MA-ES in 25 hours on four low-performance machines, learning a complex robotic task (2D Walker) simulated in PyBullet.</s><s xml:id="_JjfUunp" coords="8,450.84,646.70,107.35,7.94;8,317.96,657.66,240.24,7.94;8,317.96,668.62,71.02,7.94">Our code is open source and available on GitHub, and includes out-of-the-box both PS-CMA-ES and PS-LM-MA-ES.</s></p><p xml:id="_vZcrsu9"><s xml:id="_mnCQpuN" coords="8,327.92,679.58,230.28,7.94;8,317.96,690.53,241.75,7.94;8,317.96,701.49,215.60,7.94">Future work includes exploring the dynamics of different BBO algorithms, and scaling to larger models-potentially even nondifferentiable, as smoothness is not a requirement for BBO.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="3,53.80,211.27,504.38,7.70;3,53.80,222.23,504.38,7.70;3,53.80,233.19,504.63,7.70;3,53.80,244.15,450.91,7.70"><head>Figure 1 :</head><label>1</label><figDesc><div><p xml:id="_8nMkHj8"><s xml:id="_ugV3rse" coords="3,53.80,211.27,231.98,7.70">Figure1: Example architecture of DiBB as a framework.</s><s xml:id="_YS3KHyH" coords="3,288.77,211.27,269.41,7.70;3,53.80,222.23,504.38,7.70;3,53.80,233.19,76.36,7.70">This is a sample instantiation on a cluster with 3 nodes: one acts as the head node, running the main routine, while two worker nodes encapsulate the underlying BBO and host the pools of Fitness Evaluators.</s><s xml:id="_bkz39Cy" coords="3,132.42,233.19,426.01,7.70;3,53.80,244.15,450.91,7.70">This schema highlights how DiBB leverages Partial Separability in the construction of full samples ready for evaluation, and how the (potentially expensive) objective function is evaluated locally on the worker nodes.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="7,53.80,190.98,504.38,7.70;7,53.80,201.94,504.38,7.70;7,53.80,212.90,504.38,7.70;7,53.80,223.86,327.03,7.70"><head>Figure 2 :</head><label>2</label><figDesc><div><p xml:id="_ynazdfn"><s xml:id="_z3DS9S3" coords="7,53.80,190.98,452.61,7.70">Figure 2: ECDF plots of the performance of PS-CMA-ES, sep-CMA-ES and standard CMA-ES in dimension 320.</s><s xml:id="_2GVCUGC" coords="7,509.05,190.98,49.13,7.70;7,53.80,201.94,87.79,7.70">From left to right: f1-f5 with Exp.</s><s xml:id="_Fb7jYKa" coords="7,144.76,201.94,25.24,7.70">1/Exp.</s><s xml:id="_JznHzwu" coords="7,173.16,201.94,27.76,7.70">3, Exp.</s><s xml:id="_fFTYSRq" coords="7,204.09,201.94,25.24,7.70">2/Exp.</s><s xml:id="_QU6R29y" coords="7,232.49,201.94,103.19,7.70">4, then f10-f14 with Exp.</s><s xml:id="_euKvDNa" coords="7,338.85,201.94,25.24,7.70">1/Exp.</s><s xml:id="_RmfBwA2" coords="7,367.25,201.94,27.76,7.70">3, Exp.</s><s xml:id="_tdmeDR7" coords="7,398.17,201.94,25.24,7.70">2/Exp.</s><s xml:id="_FC2DrHW" coords="7,426.58,201.94,131.60,7.70;7,53.80,212.90,504.38,7.70;7,53.80,223.86,71.73,7.70">4. The curves show the fraction of precision targets reached over time, measured as number of function evaluations divided by problem dimension, on a logarithmic scale.</s><s xml:id="_YYDHFVX" coords="7,127.77,223.86,253.06,7.70">For additional information on ECDF plots, please refer to [16].</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="6,53.80,88.97,506.00,620.00"><head>Table 1 :</head><label>1</label><figDesc><div><p xml:id="_E6vG5GN"><s xml:id="_6UNn4sK" coords="6,130.31,660.60,163.73,7.94;6,53.80,701.13,65.73,7.84">. The code is released open source on GitHub 3 https://www.ray.io/</s><s xml:id="_zbe86cK" coords="6,121.27,702.79,133.71,6.18;6,351.56,173.48,206.63,7.70;6,317.96,184.44,145.40,7.70">-a Python framework for distributed computing Timing results for Experiment 3: BBOB large-scale suite with a fixed number of blocks.</s><s xml:id="_4K6ab9V" coords="6,465.58,184.44,94.21,7.70;6,317.96,195.40,240.23,7.70;6,317.96,206.35,240.23,7.70;6,317.96,217.31,24.55,7.70">Larger problem dimensions are addressed here with larger block sizes, which leads to more correlation information being considered in each block.</s><s xml:id="_a6QAKWn" coords="6,345.83,217.31,212.61,7.70;6,317.61,228.27,210.57,7.70">The duration of the experiments increases linearly with the block size for small dimension increments.</s></p></div></figDesc><table coords="6,349.58,88.97,181.98,77.99"><row><cell>Number of dimensions</cell><cell>Number of blocks</cell><cell>Block size</cell><cell>Duration</cell></row><row><cell>80</cell><cell>16</cell><cell>5</cell><cell>02h 47m 53s</cell></row><row><cell>160</cell><cell>16</cell><cell>10</cell><cell>04h 11m 15s</cell></row><row><cell>320</cell><cell>16</cell><cell>20</cell><cell>07h 01m 38s</cell></row><row><cell>640</cell><cell>16</cell><cell>40</cell><cell>12h 16m 02s</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2" coords="7,53.50,201.94,504.68,198.07"><head>Table 2 :</head><label>2</label><figDesc><div><p><s xml:id="_F9nxBDF" coords="7,173.16,201.94,6.80,7.70">[16]xp.2/Exp.4,then</s><s xml:id="_Y5AdFJM" coords="7,183.12,201.94,56.16,7.70">f10-f14 with Exp.1/Exp.3,Exp.2/Exp.4.The curves show the fraction of precision targets reached over time, measured as number of function evaluations divided by problem dimension, on a logarithmic scale.For additional information on ECDF plots, please refer to[16].</s><s xml:id="_YatYxV5" coords="7,242.45,201.94,18.67,7.70">Timing results for Experiment 4: BBOB large-scale suite with fixed block size (5× budget).</s><s xml:id="_gxVrznd" coords="7,264.28,201.94,16.37,7.70">Larger problem dimensions are addressed here with increasing the number of blocks.</s><s xml:id="_QeHMn5m" coords="7,280.66,201.94,12.28,7.70">Since each block is optimized in parallel, the increase in run time of the experiments is only limited to communication overhead, thus small as problem dimensions grow.</s></p></div></figDesc><table coords="7,85.42,253.01,181.98,77.99"><row><cell>Number of dimensions</cell><cell>Number of blocks</cell><cell>Block size</cell><cell>Duration</cell></row><row><cell>40</cell><cell>1</cell><cell>40</cell><cell>25h 13m 47s</cell></row><row><cell>80</cell><cell>2</cell><cell>40</cell><cell>43h 26m 57s</cell></row><row><cell>160</cell><cell>4</cell><cell>40</cell><cell>40h 21m 01s</cell></row><row><cell>320</cell><cell>8</cell><cell>40</cell><cell>44h 53m 29s</cell></row><row><cell>640</cell><cell>16</cell><cell>40</cell><cell>61h 20m 11s</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="8,53.50,104.22,241.62,120.79"><head>Table 3 :</head><label>3</label><figDesc><div><p xml:id="_kWUrBFS"><s xml:id="_pwCTg3m" coords="8,87.40,162.52,206.63,7.70;8,53.80,173.48,203.92,7.70">Timing results for Experiment 5: BBOB large-scale suite in 160 dimensions using different block sizes.</s><s xml:id="_4GUN9KN" coords="8,259.68,173.48,34.36,7.70;8,53.80,184.44,240.23,7.70;8,53.80,195.40,23.38,7.70">The first row (one block) corresponds to running CMA-ES without DiBB.</s><s xml:id="_zFv75AG" coords="8,79.97,195.40,214.06,7.70;8,53.80,206.35,87.88,7.70">When using only two blocks, we observe almost the same wall-clock time.</s><s xml:id="_NTn2MDk" coords="8,143.79,206.35,151.34,7.70;8,53.80,217.31,132.60,7.70">For larger number of blocks however, the time is significantly reduced.</s></p></div></figDesc><table coords="8,71.75,104.22,187.39,51.78"><row><cell>1</cell><cell>17h 43m 41s 100.00%</cell><cell>0.00%</cell></row><row><cell>2</cell><cell>17h 33m 30s 99.04%</cell><cell>0.97%</cell></row><row><cell>4</cell><cell>06h 32m 19s 36.88%</cell><cell>171.13%</cell></row><row><cell>8</cell><cell>03h 56m 56s 22.27%</cell><cell>348.94%</cell></row><row><cell>16</cell><cell>03h 06m 05s 17.49%</cell><cell>471.62%</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0" coords="2,56.72,678.63,237.46,6.18;2,53.80,686.60,240.25,6.18;2,53.54,694.57,240.51,6.18;2,53.80,702.79,225.60,6.18"><p xml:id="_5hdKTjY"><s xml:id="_grNUdQg" coords="2,56.72,678.63,237.46,6.18;2,53.80,686.60,240.25,6.18;2,53.54,694.57,139.13,6.18">The fundamental assumption of partial separability across network layers however does not seem to be very well studied in the literature, despite a considerable body of work on neural network loss landscapes<ref type="bibr" coords="2,169.92,694.57,10.50,6.18" target="#b9">[10,</ref><ref type="bibr" coords="2,182.17,694.57,7.88,6.18" target="#b30">31]</ref>.</s><s xml:id="_xBFgNzS" coords="2,194.42,694.57,99.63,6.18;2,53.80,702.79,225.60,6.18">This can be partially tracked to the limited availability of algorithms making use of partial correlation information.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1" coords="5,56.84,694.58,237.20,6.44;5,53.80,702.79,133.20,6.18"><p xml:id="_fP8AvU6"><s xml:id="_W7hhhad" coords="5,56.84,694.58,85.22,6.44">It would suffice to send x1 , . . .</s><s xml:id="_YxR2bJW" coords="5,143.18,694.58,44.95,6.44">, x-1 , x+ , . . .</s><s xml:id="_qqVWhDF" coords="5,189.24,694.58,104.81,6.44;5,53.80,702.79,133.20,6.18">, x to the BW, but the difference has been negligible in our experiments so far up to</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="30" xml:id="foot_2" coords="5,196.97,702.79,19.65,6.18"><p xml:id="_Bz9gSZM"><s xml:id="_3fRjFPw" coords="5,196.97,702.79,19.65,6.18">blocks.</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_3" coords="6,320.88,677.75,237.79,6.18;6,317.96,685.97,75.63,6.18"><p xml:id="_V2KRMrA"><s xml:id="_UbCE4tA" coords="6,320.88,677.75,237.79,6.18">Experiments code to reproduce our BBOB/COCO results: https://github.com/</s><s xml:id="_vZJFD62" coords="6,317.96,685.97,75.63,6.18">eXascaleInfolab/dibb_coco</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_4" coords="6,321.00,694.38,179.99,6.18"><p xml:id="_6G9Jduj"><s xml:id="_JTGVGn4" coords="6,321.00,694.38,179.99,6.18">DiBB reference implementation: https://github.com/giuse/dibb/</s></p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_5" coords="6,321.00,702.79,214.11,6.18"><p xml:id="_VRB84EJ"><s xml:id="_q7hnHqR" coords="6,321.00,702.79,214.11,6.18">Python Package Index ( pip install dibb ): https://pypi.org/project/dibb/</s></p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="9,69.23,99.81,224.82,6.18;9,69.23,107.73,224.82,6.23;9,69.23,115.70,114.69,6.23" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="9,240.02,99.81,54.03,6.18;9,69.23,107.78,139.58,6.18" xml:id="_PUJbQHZ">Comparison-based natural gradient optimization in high dimension</title>
+		<author>
+			<persName coords=""><forename type="first">Youhei</forename><surname>Akimoto</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anne</forename><surname>Auger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_ZSpp8y3" coord="9,221.93,107.73,72.12,6.23;9,69.23,115.70,66.99,6.23">Genetic and Evolutionary Computation Conference</title>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="373" to="380" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Youhei Akimoto, Anne Auger, and Nikolaus Hansen. 2014. Comparison-based natural gradient optimization in high dimension. In Genetic and Evolutionary Computation Conference. ACM, 373-380.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,123.67,225.89,6.23;9,69.23,131.69,25.59,6.18" xml:id="b1">
+	<monogr>
+		<title level="m" type="main" coord="9,179.21,123.67,113.14,6.23" xml:id="_YcAQehn">Derivative-free and blackbox optimization</title>
+		<author>
+			<persName coords=""><forename type="first">Charles</forename><surname>Audet</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Warren</forename><surname>Hare</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charles Audet and Warren Hare. 2017. Derivative-free and blackbox optimization. Springer.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,139.66,224.81,6.18;9,69.23,147.63,165.97,6.18;9,251.15,147.63,43.97,6.18;9,69.23,155.60,65.49,6.18" xml:id="b2">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Greg</forename><surname>Brockman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Vicki</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ludwig</forename><surname>Pettersson</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jonas</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">John</forename><surname>Schulman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jie</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Wojciech</forename><surname>Zaremba</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:arXiv:1606.01540</idno>
+		<title level="m" xml:id="_b3XNqVH" coord="9,251.15,147.63,40.04,6.18">OpenAI Gym</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greg Brockman, Vicki Cheung, Ludwig Pettersson, Jonas Schneider, John Schulman, Jie Tang, and Wojciech Zaremba. 2016. OpenAI Gym. arXiv:arXiv:1606.01540</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,163.52,225.27,6.23;9,69.23,171.49,224.82,6.23;9,69.07,179.51,61.99,6.18" xml:id="b3">
+	<monogr>
+		<title level="m" type="main" coord="9,252.35,163.52,42.16,6.23;9,69.23,171.49,172.06,6.23" xml:id="_Tj2NdMK">Back to basics: Benchmarking Canonical Evolution Strategies for Playing ATARI</title>
+		<author>
+			<persName coords=""><forename type="first">Patryk</forename><surname>Chrabaszcz</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ilya</forename><surname>Loshchilov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Frank</forename><surname>Hutter</surname></persName>
+		</author>
+		<idno>1802.08842. arXiv.org</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Patryk Chrabaszcz, Ilya Loshchilov, and Frank Hutter. 2018. Back to basics: Benchmarking Canonical Evolution Strategies for Playing ATARI. Technical Report 1802.08842. arXiv.org.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,187.48,224.81,6.18;9,69.23,195.45,207.74,6.18" xml:id="b4">
+	<monogr>
+		<title level="m" type="main" coord="9,189.73,187.48,104.32,6.18;9,69.23,195.45,148.53,6.18" xml:id="_bg9mGwT">PyBullet, a Python module for physics simulation for games, robotics and machine learning</title>
+		<author>
+			<persName coords=""><forename type="first">Erwin</forename><surname>Coumans</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yunfei</forename><surname>Bai</surname></persName>
+		</author>
+		<ptr target="http://pybullet.org" />
+		<imprint>
+			<date type="published" when="2016">2016-2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erwin Coumans and Yunfei Bai. 2016-2021. PyBullet, a Python module for physics simulation for games, robotics and machine learning. http://pybullet.org.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,203.42,224.81,6.18;9,69.23,211.34,225.89,6.23;9,69.23,219.36,52.14,6.18" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" coord="9,198.88,203.42,95.17,6.18;9,69.23,211.39,26.68,6.18" xml:id="_tVwyutT">Block diagonal natural evolution strategies</title>
+		<author>
+			<persName coords=""><forename type="first">Giuseppe</forename><surname>Cuccu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Faustino</forename><surname>Gomez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_zUwdtbv" coord="9,108.19,211.34,183.94,6.23">International Conference on Parallel Problem Solving from Nature</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="488" to="497" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giuseppe Cuccu and Faustino Gomez. 2012. Block diagonal natural evolution strategies. In International Conference on Parallel Problem Solving from Nature. Springer, 488-497.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,227.33,224.81,6.18;9,68.99,235.25,225.06,6.23;9,69.23,243.22,225.99,6.23;9,69.23,251.24,225.27,6.18;9,69.23,259.21,88.55,6.18" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="9,271.99,227.33,22.06,6.18;9,68.99,235.30,64.99,6.18" xml:id="_tyfzE3f">Playing Atari with six neurons</title>
+		<author>
+			<persName coords=""><forename type="first">Giuseppe</forename><surname>Cuccu</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Julian</forename><surname>Togelius</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Philippe</forename><surname>Cudré-Mauroux</surname></persName>
+		</author>
+		<ptr target="https://exascale.info/assets/pdf/cuccu2019aamas.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Gtkp88V" coord="9,147.39,235.25,146.66,6.23;9,69.23,243.22,225.99,6.23;9,69.23,251.24,123.63,6.18">Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Autonomous Agents and Multiagent Systems</title>
+		<meeting>the 18th International Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Autonomous Agents and Multiagent Systems</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="998" to="1006" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Giuseppe Cuccu, Julian Togelius, and Philippe Cudré-Mauroux. 2019. Playing Atari with six neurons. In Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems. International Foundation for Au- tonomous Agents and Multiagent Systems, 998-1006. https://exascale.info/ assets/pdf/cuccu2019aamas.pdf</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,267.18,224.81,6.18;9,69.23,275.10,225.27,6.23;9,69.07,283.12,46.94,6.18" xml:id="b7">
+	<analytic>
+		<title level="a" type="main" coord="9,186.32,267.18,107.73,6.18;9,69.23,275.15,45.52,6.18" xml:id="_hyMbTaZ">MapReduce: simplified data processing on large clusters</title>
+		<author>
+			<persName coords=""><forename type="first">Jeffrey</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Sanjay</forename><surname>Ghemawat</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1327452.1327492</idno>
+		<ptr target="https://doi.org/10.1145/1327452.1327492" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_A9Yn2Ha" coord="9,119.84,275.10,42.87,6.23">Commun. ACM</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="107" to="113" />
+			<date type="published" when="2008">2008. 2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeffrey Dean and Sanjay Ghemawat. 2008. MapReduce: simplified data processing on large clusters. Commun. ACM 51, 1 (2008), 107-113. https://doi.org/10.1145/ 1327452.1327492</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,291.09,224.82,6.18;9,69.23,299.06,224.81,6.18;9,69.23,306.98,224.81,6.23;9,69.23,314.95,90.96,6.23" xml:id="b8">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Ait</forename><surname>Ouassim</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Konstantinos</forename><surname>Elhara</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Duc</forename><surname>Varelas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tea</forename><surname>Manh Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dimo</forename><surname>Tušar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Brockhoff</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anne</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Auger</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1903.06396</idno>
+		<title level="m" xml:id="_eyT6kyh" coord="9,224.74,299.06,69.31,6.18;9,69.23,307.03,199.78,6.18">COCO: The Large Scale Black-Box Optimization Benchmarking (bbob-largescale) Test Suite</title>
+		<imprint>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Ouassim Ait Elhara, Konstantinos Varelas, Duc Manh Nguyen, Tea Tušar, Dimo Brockhoff, Nikolaus Hansen, and Anne Auger. 2019. COCO: The Large Scale Black-Box Optimization Benchmarking (bbob-largescale) Test Suite. arXiv preprint arXiv:1903.06396 (2019).</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,322.97,224.81,6.18;9,69.23,330.89,224.81,6.23;9,69.03,338.91,51.71,6.18" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="9,205.56,322.97,88.48,6.18;9,69.23,330.94,67.79,6.18" xml:id="_DbzR9CH">Large scale structure of neural network loss landscapes</title>
+		<author>
+			<persName coords=""><forename type="first">Stanislav</forename><surname>Fort</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Stanislaw</forename><surname>Jastrzebski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gY8Vy4W" coord="9,142.46,330.89,143.18,6.23">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="6709" to="6717" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stanislav Fort and Stanislaw Jastrzebski. 2019. Large scale structure of neural network loss landscapes. Advances in Neural Information Processing Systems 32 (2019), 6709-6717.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,346.88,224.81,6.18;9,69.23,354.80,224.81,6.23;9,69.03,362.82,45.22,6.18" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="9,191.18,346.88,102.87,6.18;9,69.23,354.85,166.73,6.18" xml:id="_VduwqSM">Lower bounds for comparison based evolution strategies using vc-dimension and sign patterns</title>
+		<author>
+			<persName coords=""><forename type="first">Hervé</forename><surname>Fournier</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Olivier</forename><surname>Teytaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_cpqhB4A" coord="9,241.55,354.80,37.35,6.23">Algorithmica</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="387" to="408" />
+			<date type="published" when="2011">2011. 2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hervé Fournier and Olivier Teytaud. 2011. Lower bounds for comparison based evolution strategies using vc-dimension and sign patterns. Algorithmica 59, 3 (2011), 387-408.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,370.74,224.82,6.23;9,69.23,378.71,141.85,6.23" xml:id="b11">
+	<monogr>
+		<title level="m" type="main" coord="9,186.56,370.74,107.49,6.23;9,69.23,378.71,24.23,6.23" xml:id="_RQF6Vcv">Recurrent world models facilitate policy evolution</title>
+		<author>
+			<persName coords=""><forename type="first">David</forename><surname>Ha</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jürgen</forename><surname>Schmidhuber</surname></persName>
+		</author>
+		<idno>1809.01999. arXiv.org</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">David Ha and Jürgen Schmidhuber. 2018. Recurrent world models facilitate policy evolution. Technical Report 1809.01999. arXiv.org.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,386.73,224.82,6.18;9,69.23,394.65,224.81,6.23;9,69.23,402.62,158.11,6.23" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="9,139.03,386.73,155.02,6.18;9,69.23,394.70,160.88,6.18" xml:id="_vgxuHGk">Adapting Arbitrary Normal Mutation Distributions in Evolution Strategies: The Covariance Matrix Adaptation</title>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_vEsnnCe" coord="9,242.62,394.65,51.43,6.23;9,69.23,402.62,112.75,6.23">IEEE International Conference on Evolutionary Computation</title>
+		<imprint>
+			<date type="published" when="1996">1996. 1996</date>
+			<biblScope unit="page" from="312" to="317" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nikolaus Hansen. 1996. Adapting Arbitrary Normal Mutation Distributions in Evolution Strategies: The Covariance Matrix Adaptation. In IEEE International Conference on Evolutionary Computation, 1996. 312-317.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,410.59,224.81,6.23;9,69.23,418.56,225.58,6.23;9,69.23,426.58,143.19,6.18" xml:id="b13">
+	<analytic>
+		<title level="a" type="main" coord="9,135.84,410.64,97.85,6.18" xml:id="_DuMCR4a">A global surrogate assisted CMA-ES</title>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Hansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3321707.3321842</idno>
+		<ptr target="https://doi.org/10.1145/3321707.3321842" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_n3QyngY" coord="9,245.99,410.59,48.05,6.23;9,69.23,418.56,137.03,6.23">Proceedings of the Genetic and Evolutionary Computation Conference</title>
+		<meeting>the Genetic and Evolutionary Computation Conference<address><addrLine>Prague Czech Republic</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="664" to="672" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nikolaus Hansen. 2019. A global surrogate assisted CMA-ES. In Proceedings of the Genetic and Evolutionary Computation Conference. ACM, Prague Czech Republic, 664-672. https://doi.org/10.1145/3321707.3321842</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,434.55,224.81,6.18;9,69.23,442.47,189.29,6.23" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="9,228.87,434.55,54.49,6.18" xml:id="_q8KSquW">Evolution strategies</title>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Dirk</forename><forename type="middle">V</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anne</forename><surname>Auger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_scFwTN9" coord="9,69.23,442.47,132.87,6.23">Springer handbook of computational intelligence</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="871" to="898" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nikolaus Hansen, Dirk V Arnold, and Anne Auger. 2015. Evolution strategies. In Springer handbook of computational intelligence. Springer, 871-898.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,450.49,225.89,6.18;9,69.23,458.46,224.81,6.18;9,69.23,466.38,224.82,6.23;9,69.23,474.35,148.85,6.23" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="9,89.49,458.46,204.56,6.18;9,69.23,466.43,71.65,6.18" xml:id="_hWVhmts">Comparing results of 31 algorithms from the black-box optimization benchmarking BBOB-2009</title>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anne</forename><surname>Auger</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Raymond</forename><surname>Ros</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Steffen</forename><surname>Finck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Petr</forename><surname>Pošík</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_9uVe7wB" coord="9,152.49,466.38,141.56,6.23;9,69.23,474.35,112.79,6.23">Proceedings of the 12th annual conference companion on Genetic and evolutionary computation</title>
+		<meeting>the 12th annual conference companion on Genetic and evolutionary computation</meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="1689" to="1696" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nikolaus Hansen, Anne Auger, Raymond Ros, Steffen Finck, and Petr Pošík. 2010. Comparing results of 31 algorithms from the black-box optimization benchmarking BBOB-2009. In Proceedings of the 12th annual conference companion on Genetic and evolutionary computation. 1689-1696.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,482.32,225.51,6.23;9,69.23,490.29,225.51,6.23;9,69.23,498.26,113.58,6.23" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="9,280.22,482.32,14.52,6.23;9,69.23,490.29,136.02,6.23" xml:id="_xwQTzjN">Real-Parameter Black-Box Optimization Benchmarking</title>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Steffen</forename><surname>Finck</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Raymond</forename><surname>Ros</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Anne</forename><surname>Auger</surname></persName>
+		</author>
+		<idno>RR-6869. INRIA</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_W2CQdN4" coord="9,222.38,490.29,72.37,6.23;9,69.23,498.26,12.33,6.23">Noiseless Functions Definitions</title>
+		<imprint>
+			<date type="published" when="2009">2009. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Nikolaus Hansen, Steffen Finck, Raymond Ros, and Anne Auger. 2009. Real- Parameter Black-Box Optimization Benchmarking 2009: Noiseless Functions Defini- tions. Technical Report RR-6869. INRIA.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,506.28,224.81,6.18;9,69.23,514.20,225.58,6.23;9,69.07,522.22,24.81,6.18" xml:id="b17">
+	<analytic>
+		<title level="a" type="main" coord="9,215.81,506.28,78.24,6.18;9,69.23,514.25,112.17,6.18" xml:id="_pmsTGxZ">Completely Derandomized Self-Adaptation in Evolution Strategies</title>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Andreas</forename><surname>Ostermeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_M7t5KKF" coord="9,186.87,514.20,75.29,6.23">Evolutionary Computation</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="159" to="195" />
+			<date type="published" when="2001">2001. 2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nikolaus Hansen and Andreas Ostermeier. 2001. Completely Derandomized Self-Adaptation in Evolution Strategies. Evolutionary Computation 9, 2 (2001), 159-195.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,530.19,224.95,6.18;9,69.23,538.11,217.48,6.23" xml:id="b18">
+	<analytic>
+		<title level="a" type="main" coord="9,211.81,530.19,82.37,6.18;9,69.23,538.16,89.46,6.18" xml:id="_e2wwYmp">Neuroevolution strategies for episodic reinforcement learning</title>
+		<author>
+			<persName coords=""><forename type="first">Verena</forename><surname>Heidrich</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">-</forename><surname>Meisner</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Christian</forename><surname>Igel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zA5HwpA" coord="9,164.01,538.11,60.83,6.23">Journal of Algorithms</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="152" to="168" />
+			<date type="published" when="2009">2009. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verena Heidrich-Meisner and Christian Igel. 2009. Neuroevolution strategies for episodic reinforcement learning. Journal of Algorithms 64, 4 (2009), 152-168.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,546.13,224.81,6.18;9,69.23,554.05,225.89,6.23;9,69.23,562.07,48.30,6.18" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="9,126.25,546.13,167.79,6.18;9,69.23,554.10,27.30,6.18" xml:id="_HhedzFG">Neuroevolution for Reinforcement Learning using Evolution Strategies</title>
+		<author>
+			<persName coords=""><forename type="first">Christian</forename><surname>Igel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_53Bhnbh" coord="9,109.01,554.05,163.40,6.23">The 2003 Congress on Evolutionary Computation (CEC&apos;03)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2588" to="2595" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christian Igel. 2003. Neuroevolution for Reinforcement Learning using Evolution Strategies. In The 2003 Congress on Evolutionary Computation (CEC&apos;03), Vol. 4. IEEE, 2588-2595.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,570.04,224.82,6.18;9,69.23,577.96,225.58,6.23;9,69.23,585.98,18.33,6.18" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="9,139.69,570.04,154.37,6.18;9,69.23,578.01,94.09,6.18" xml:id="_MC5q9xh">How the (1+1)-ES using isotropic mutations minimizes positive definite quadratic forms</title>
+		<author>
+			<persName coords=""><forename type="first">Jens</forename><surname>Jägersküpper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3qYWjPT" coord="9,170.56,577.96,83.65,6.23">Theoretical Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="38" to="56" />
+			<date type="published" when="2006">2006. 2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jens Jägersküpper. 2006. How the (1+1)-ES using isotropic mutations minimizes positive definite quadratic forms. Theoretical Computer Science 361, 1 (2006), 38-56.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,593.95,224.95,6.18;9,69.23,601.87,225.89,6.23;9,68.99,609.89,43.06,6.18" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="9,131.39,593.95,162.80,6.18;9,69.23,601.92,70.60,6.18" xml:id="_76bSzzR">A Computationally Efficient Limited Memory CMA-ES for Large Scale Optimization</title>
+		<author>
+			<persName coords=""><forename type="first">Ilya</forename><surname>Loshchilov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_hgeaeHW" coord="9,152.24,601.87,139.97,6.23">Genetic and Evolutionary Computation Conference</title>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="397" to="404" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ilya Loshchilov. 2014. A Computationally Efficient Limited Memory CMA-ES for Large Scale Optimization. In Genetic and Evolutionary Computation Conference. ACM, 397-404.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,617.86,224.82,6.18;9,69.23,625.78,225.51,6.23;9,69.23,633.75,125.91,6.23" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="9,261.54,617.86,32.51,6.18;9,69.23,625.83,180.95,6.18" xml:id="_B8vkjAv">Large Scale Black-box Optimization by Limited-Memory Matrix Adaptation</title>
+		<author>
+			<persName coords=""><forename type="first">Ilya</forename><surname>Loshchilov</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tobias</forename><surname>Glasmachers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Hans-Georg</forename><surname>Beyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_GgVQXUK" coord="9,255.75,625.78,39.00,6.23;9,69.23,633.75,97.26,6.23">IEEE Transactions on Evolutionary Computation</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ilya Loshchilov, Tobias Glasmachers, and Hans-Georg Beyer. 2018. Large Scale Black-box Optimization by Limited-Memory Matrix Adaptation. IEEE Transac- tions on Evolutionary Computation 99 (2018).</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,641.77,225.99,6.18;9,69.23,649.69,224.81,6.23;9,69.23,657.66,180.70,6.23" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" coord="9,268.19,641.77,27.04,6.18;9,69.23,649.74,205.93,6.18" xml:id="_WSg7fAT">Cooperative co-evolution with differential grouping for large scale optimization</title>
+		<author>
+			<persName coords=""><forename type="first">Mohammad</forename><surname>Nabi Omidvar</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xiaodong</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Yi</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xin</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_a3GyKXd" coord="9,280.83,649.69,13.22,6.23;9,69.23,657.66,118.97,6.23">IEEE Transactions on Evolutionary Computation</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="378" to="393" />
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mohammad Nabi Omidvar, Xiaodong Li, Yi Mei, and Xin Yao. 2013. Coopera- tive co-evolution with differential grouping for large scale optimization. IEEE Transactions on Evolutionary Computation 18, 3 (2013), 378-393.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,665.68,225.02,6.18;9,69.23,673.65,225.89,6.18;9,69.23,681.57,219.47,6.23" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="9,69.23,681.57,101.82,6.23" xml:id="_zzz7Muk">Parameter space noise for exploration</title>
+		<author>
+			<persName coords=""><forename type="first">Matthias</forename><surname>Plappert</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Rein</forename><surname>Houthooft</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Prafulla</forename><surname>Dhariwal</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Szymon</forename><surname>Sidor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xi</forename><surname>Richard Y Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tamim</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Asfour</surname></persName>
+		</author>
+		<idno>1706.01905. arXiv.org</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Cxxq6tn" coord="9,158.93,673.65,116.49,6.18">Pieter Abbeel, and Marcin Andrychowicz</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Matthias Plappert, Rein Houthooft, Prafulla Dhariwal, Szymon Sidor, Richard Y Chen, Xi Chen, Tamim Asfour, Pieter Abbeel, and Marcin Andrychowicz. 2017. Parameter space noise for exploration. Technical Report 1706.01905. arXiv.org.</note>
+</biblStruct>
+
+<biblStruct coords="9,69.23,689.54,224.82,6.23;9,69.23,697.51,168.87,6.23" xml:id="b25">
+	<monogr>
+		<author>
+			<persName coords=""><forename type="first">Ingo</forename><surname>Rechenberg</surname></persName>
+		</author>
+		<title level="m" xml:id="_2aP8xMJ" coord="9,135.48,689.54,158.57,6.23;9,69.23,697.51,101.00,6.23">Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution</title>
+		<imprint>
+			<publisher>Frommann-Holzboog</publisher>
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ingo Rechenberg. 1973. Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. Frommann-Holzboog.</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,89.10,224.81,6.18;9,333.15,97.02,225.06,6.23;9,333.39,104.99,225.59,6.23;9,333.39,113.01,223.20,6.18" xml:id="b26">
+	<monogr>
+		<title level="m" type="main" coord="9,458.25,89.10,99.96,6.18;9,333.15,97.02,225.06,6.23;9,333.39,104.99,40.80,6.23" xml:id="_gHxeEKS">A Simple Modification in CMA-ES Achieving Linear Time and Space Complexity</title>
+		<author>
+			<persName coords=""><forename type="first">Raymond</forename><surname>Ros</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Nikolaus</forename><surname>Hansen</surname></persName>
+		</author>
+		<editor>X, Günter Rudolph, Thomas Jansen, Nicola Beume, Simon Lucas, and Carlo Poloni</editor>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="296" to="305" />
+			<pubPlace>Berlin Heidelberg; Berlin, Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+	<note>In Parallel Problem Solving from Nature -PPSN</note>
+	<note type="raw_reference">Raymond Ros and Nikolaus Hansen. 2008. A Simple Modification in CMA-ES Achieving Linear Time and Space Complexity. In Parallel Problem Solving from Nature -PPSN X, Günter Rudolph, Thomas Jansen, Nicola Beume, Simon Lucas, and Carlo Poloni (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 296-305.</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,120.93,224.81,6.23;9,333.39,128.90,224.82,6.23;9,333.39,136.92,78.26,6.18" xml:id="b27">
+	<monogr>
+		<title level="m" type="main" coord="9,531.37,120.93,26.83,6.23;9,333.39,128.90,170.80,6.23" xml:id="_JUGvEP8">Evolution Strategies as a Scalable Alternative to Reinforcement Learning</title>
+		<author>
+			<persName coords=""><forename type="first">Tim</forename><surname>Salimans</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jonathan</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Xi</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Ilya</forename><surname>Sutskever</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1703.03864</idno>
+		<idno>arxiv.org</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note type="raw_reference">Tim Salimans, Jonathan Ho, Xi. Chen, and Ilya Sutskever. 2017. Evolution Strategies as a Scalable Alternative to Reinforcement Learning. Technical Report arXiv:1703.03864. arxiv.org.</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,144.89,225.99,6.18;9,333.39,152.81,224.81,6.23;9,333.39,160.78,223.04,6.23" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="9,521.63,144.89,37.75,6.18;9,333.39,152.86,150.87,6.18" xml:id="_2TaCfm6">High Dimensions and Heavy Tails for Natural Evolution Strategies</title>
+		<author>
+			<persName coords=""><forename type="first">Tom</forename><surname>Schaul</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Tobias</forename><surname>Glasmachers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jürgen</forename><surname>Schmidhuber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_CsUfJuQ" coord="9,496.10,152.81,62.11,6.23;9,333.39,160.78,167.75,6.23">Proceedings of the 13th annual conference on Genetic and Evolutionary Computation</title>
+		<meeting>the 13th annual conference on Genetic and Evolutionary Computation</meeting>
+		<imprint>
+			<publisher>GECCO</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="845" to="852" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tom Schaul, Tobias Glasmachers, and Jürgen Schmidhuber. 2011. High Dimen- sions and Heavy Tails for Natural Evolution Strategies. In Proceedings of the 13th annual conference on Genetic and Evolutionary Computation (GECCO). 845-852.</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,168.80,225.00,6.18;9,333.39,176.72,225.58,6.23;9,333.39,184.69,119.44,6.23" xml:id="b29">
+	<monogr>
+		<title level="m" type="main" coord="9,493.27,168.80,65.12,6.18;9,333.39,176.72,222.52,6.23" xml:id="_Z5TcRzU">Evaluating benchmark problems by random guessing. A Field Guide to Dynamical Recurrent Networks</title>
+		<author>
+			<persName coords=""><forename type="first">Jürgen</forename><surname>Schmidhuber</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Hochreiter</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Bengio</surname></persName>
+		</author>
+		<editor>J. Kolen and S. Cremer</editor>
+		<imprint>
+			<date type="published" when="2001">2001. 2001</date>
+			<biblScope unit="page" from="231" to="235" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jürgen Schmidhuber, S Hochreiter, and Y Bengio. 2001. Evaluating benchmark problems by random guessing. A Field Guide to Dynamical Recurrent Networks, ed. J. Kolen and S. Cremer (2001), 231-235.</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,192.71,224.81,6.18;9,333.39,200.68,224.82,6.18;9,333.39,208.60,206.85,6.23" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="9,525.20,192.71,33.01,6.18;9,333.39,200.68,224.82,6.18;9,333.39,208.65,25.06,6.18" xml:id="_VRXTaGn">Theoretical insights into the optimization landscape of over-parameterized shallow neural networks</title>
+		<author>
+			<persName coords=""><forename type="first">Mahdi</forename><surname>Soltanolkotabi</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Adel</forename><surname>Javanmard</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Jason</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_3PbyUaA" coord="9,364.09,208.60,114.12,6.23">IEEE Transactions on Information Theory</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="742" to="769" />
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mahdi Soltanolkotabi, Adel Javanmard, and Jason D Lee. 2018. Theoretical insights into the optimization landscape of over-parameterized shallow neural networks. IEEE Transactions on Information Theory 65, 2 (2018), 742-769.</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,216.62,225.99,6.18;9,333.39,224.54,225.58,6.23;9,333.23,232.56,43.72,6.18" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="9,548.90,216.62,10.49,6.18;9,333.39,224.59,136.65,6.18" xml:id="_5kRuMca">Designing neural networks through neuroevolution</title>
+		<author>
+			<persName coords=""><forename type="first">Jeff</forename><surname>Kenneth O Stanley</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Joel</forename><surname>Clune</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Risto</forename><surname>Lehman</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><surname>Miikkulainen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Ws6qXkq" coord="9,475.52,224.54,76.82,6.23">Nature Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="24" to="35" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kenneth O Stanley, Jeff Clune, Joel Lehman, and Risto Miikkulainen. 2019. De- signing neural networks through neuroevolution. Nature Machine Intelligence 1, 1 (2019), 24-35.</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,240.53,224.81,6.18;9,333.39,248.45,224.82,6.23;9,333.39,256.42,224.95,6.23;9,333.39,264.44,225.27,6.18;9,333.39,272.41,46.94,6.18" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" coord="9,417.99,240.53,140.21,6.18;9,333.39,248.50,129.55,6.18" xml:id="_DaK2ycg">Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the Bbob-Largescale Testbed</title>
+		<author>
+			<persName coords=""><forename type="first">Konstantinos</forename><surname>Varelas</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3319619.3326893</idno>
+		<ptr target="https://doi.org/10.1145/3319619.3326893" />
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_HNBAE8Q" coord="9,475.11,248.45,83.10,6.23;9,333.39,256.42,177.33,6.23">Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO &apos;19)</title>
+		<meeting>the Genetic and Evolutionary Computation Conference Companion (GECCO &apos;19)<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1937" to="1945" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Konstantinos Varelas. 2019. Benchmarking Large Scale Variants of CMA-ES and L-BFGS-B on the Bbob-Largescale Testbed. In Proceedings of the Genetic and Evolutionary Computation Conference Companion (GECCO &apos;19). Association for Computing Machinery, New York, NY, USA, 1937-1945. https://doi.org/10.1145/ 3319619.3326893</note>
+</biblStruct>
+
+<biblStruct coords="9,333.39,280.38,225.89,6.18;9,333.39,288.30,225.58,6.23;9,333.39,296.32,24.81,6.18" xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Wierstra</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Schaul</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Glasmachers</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Schmidhuber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Zkzjfd9" coord="9,333.39,288.30,195.98,6.23">Natural Evolution Strategies. Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="949" to="980" />
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Wierstra, T. Schaul, T. Glasmachers, Y. Sun, J. Peters, and J. Schmidhuber. 2014. Natural Evolution Strategies. Journal of Machine Learning Research 15 (2014), 949-980.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

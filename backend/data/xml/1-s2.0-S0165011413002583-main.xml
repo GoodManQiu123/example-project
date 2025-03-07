@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_d2gBGm7" coord="1,70.06,145.31,415.52,15.13;1,72.01,165.25,411.65,15.13;1,193.04,185.17,166.86,15.13">Development of child&apos;s home environment indexes based on consistent families of aggregation operators with prioritized hierarchical information</title>
+				<funder ref="#_JBatvQv">
+					<orgName type="full">Government of Spain</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability status="unknown"><p>Copyright Elsevier BV</p>
+				</availability>
+				<date type="published" when="2013-06-24">24 June 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,79.52,211.90,67.98,11.38"><forename type="first">Karina</forename><surname>Rojas</surname></persName>
+							<email>krojas@spm.uach.cl</email>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Facultad de Ciencias Matemáticas, Universidad Complutense, Plaza de las Ciencias 3, 28040 Madrid, Spain</note>
+								<orgName type="department">Facultad de Ciencias Matemáticas</orgName>
+								<orgName type="institution">Universidad Complutense</orgName>
+								<address>
+									<addrLine>Plaza de las Ciencias 3</addrLine>
+									<postCode>28040</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<note type="raw_affiliation"><label>b</label> Centro de Docencia Superior en Ciencias Básicas, Universidad Austral de Chile, Puerto Montt, Chile</note>
+								<orgName type="department">Centro de Docencia Superior en Ciencias Básicas</orgName>
+								<orgName type="institution">Universidad Austral de Chile</orgName>
+								<address>
+									<addrLine>Puerto Montt</addrLine>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,167.29,211.90,75.17,11.38"><forename type="first">Daniel</forename><surname>Gómez</surname></persName>
+							<email>dagomez@estad.ucm.es</email>
+							<affiliation key="aff2">
+								<note type="raw_affiliation"><label>c</label> Escuela de Estadística, Universidad Complutense, Avenida Puerta de Hierro s/n, 28040 Madrid, Spain</note>
+								<orgName type="department">Escuela de Estadística</orgName>
+								<orgName type="institution" key="instit1">Universidad Complutense</orgName>
+								<orgName type="institution" key="instit2">Avenida Puerta de Hierro s/n</orgName>
+								<address>
+									<postCode>28040</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,262.17,211.90,78.51,11.38"><forename type="first">Javier</forename><surname>Montero</surname></persName>
+							<affiliation key="aff3">
+								<note type="raw_affiliation"><label>d</label> Instituto de Geociencias CSIC-UCM, Facultad de Ciencias Matemáticas, Universidad Complutense, Plaza de las Ciencias 3, 28040 Madrid, Spain</note>
+								<orgName type="department">Facultad de Ciencias Matemáticas</orgName>
+								<orgName type="institution" key="instit1">Instituto de Geociencias CSIC-UCM</orgName>
+								<orgName type="institution" key="instit2">Universidad Complutense</orgName>
+								<address>
+									<addrLine>Plaza de las Ciencias 3</addrLine>
+									<postCode>28040</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,352.38,211.90,115.73,11.38"><forename type="first">J</forename><surname>Tinguaro Rodríguez</surname></persName>
+							<affiliation key="aff0">
+								<note type="raw_affiliation"><label>a</label> Facultad de Ciencias Matemáticas, Universidad Complutense, Plaza de las Ciencias 3, 28040 Madrid, Spain</note>
+								<orgName type="department">Facultad de Ciencias Matemáticas</orgName>
+								<orgName type="institution">Universidad Complutense</orgName>
+								<address>
+									<addrLine>Plaza de las Ciencias 3</addrLine>
+									<postCode>28040</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,185.68,225.85,84.19,11.38"><forename type="first">Andrea</forename><surname>Valdivia</surname></persName>
+							<email>andrea.valdivia@uchile.cl</email>
+							<affiliation key="aff4">
+								<note type="raw_affiliation"><label>e</label> Instituto de Comunicación e Imagen, Universidad de Chile, Capitán Ignacio Carrera Pinto, 1045. Ñuñoa, Santiago</note>
+								<orgName type="department">Instituto de Comunicación e Imagen</orgName>
+								<orgName type="institution" key="instit1">Universidad de Chile</orgName>
+								<orgName type="institution" key="instit2">Capitán Ignacio Carrera Pinto</orgName>
+								<address>
+									<addrLine>1045. Ñuñoa</addrLine>
+									<country>Santiago</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName coords="1,280.97,225.85,81.53,11.38"><forename type="first">Francisco</forename><surname>Paiva</surname></persName>
+							<email>fpaiva@uach.cl</email>
+							<affiliation key="aff5">
+								<note type="raw_affiliation"><label>f</label> Facultad de Filosofía y Humanidades, Instituto de Filosofía y Estudios Educacionales, Universidad Austral de Chile, Campus Isla Teja, Valdivia, Chile</note>
+								<orgName type="department">Facultad de Filosofía y Humanidades</orgName>
+								<orgName type="institution" key="instit1">Instituto de Filosofía y Estudios Educacionales</orgName>
+								<orgName type="institution" key="instit2">Universidad Austral de Chile</orgName>
+								<address>
+									<addrLine>Campus Isla Teja</addrLine>
+									<settlement>Valdivia</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_JVFZM42" coord="1,70.06,145.31,415.52,15.13;1,72.01,165.25,411.65,15.13;1,193.04,185.17,166.86,15.13">Development of child&apos;s home environment indexes based on consistent families of aggregation operators with prioritized hierarchical information</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main" xml:id="_E9tmsVF">Fuzzy Sets and Systems</title>
+						<title level="j" type="abbrev">Fuzzy Sets and Systems</title>
+						<idno type="ISSN">0165-0114</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">241</biblScope>
+							<biblScope unit="page" from="41" to="60"/>
+							<date type="published" when="2013-06-24">24 June 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F1BFECEB96566AFEC0CE0D1240D969AD</idno>
+					<idno type="DOI">10.1016/j.fss.2013.06.007</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T01:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_jtst9tW">Aggregation operators</term>
+					<term xml:id="_9Mexfrs">Stability</term>
+					<term xml:id="_uQbkZXy">Prioritized operators</term>
+					<term xml:id="_qtFQcxt">Hierarchical data</term>
+					<term xml:id="_MyJGTTj">Consistency</term>
+					<term xml:id="_Y4aDBzf">Self-identity</term>
+					<term xml:id="_xz5XER7">Fuzzy sets</term>
+					<term xml:id="_ccw6BZW">Home environment</term>
+					<term xml:id="_jJQg9xF">Social indexes</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_K9Z5wFw"><p xml:id="_3rQNEWt"><s xml:id="_QZypWuD" coords="1,51.08,395.34,460.48,7.88;1,44.11,406.30,266.04,7.88">The interventions aimed at the early childhood are of a main interest in educational policy, since it is in this period when it is possible to produce a major impact in the subsequent human development.</s><s xml:id="_tXnMcGD" coords="1,312.25,406.30,199.31,7.88;1,44.11,417.26,336.57,7.88">The quality of children's social environment is the main influence to consider in achieving sound child development, affecting throughout school life.</s><s xml:id="_uwTVkhP" coords="1,383.27,417.26,128.29,7.88;1,44.11,428.22,467.46,7.88">For this reason, the development of child's environment indexes appears in a natural way in the evaluation of all kind of educational policy research and social programs.</s><s xml:id="_eghZSeE" coords="1,44.11,439.18,467.49,7.88;1,44.11,450.14,214.45,7.88">However, crisp measures and indexes, based on usual linear techniques, do not ensure an adequate representation of social reality, since this last has a fuzzy nature and a nonlinear behavior.</s><s xml:id="_NC4B9tz" coords="1,261.40,450.14,250.21,7.88">The development of indexes can be seen as an aggregation problem.</s><s xml:id="_RgRze3y" coords="1,44.11,461.10,467.46,7.88;1,44.11,472.06,467.50,7.88;1,44.11,483.01,224.69,7.88">In this paper, we extend the notions of consistency and strict stability of a family of aggregation operators (FAO), proposed in a previous work of the authors for the case of an aggregation process in which the data have no particular structure, to the case in which the information has a prioritized hierarchical structure.</s><s xml:id="_yyYAC79" coords="1,271.68,483.01,239.91,7.88;1,44.11,493.98,85.06,7.88">This extended notion of strict stability is then used to address the construction of indexes.</s><s xml:id="_SeWMvDj" coords="1,131.12,493.98,380.45,7.88;1,44.11,504.94,467.48,7.88;1,44.11,515.90,136.13,7.88">Particularly, we apply this approach to develop a construction method of child's home environment indexes in which a stable family of prioritized aggregation operators is used in order to ensure robustness of the aggregation process when the information has a lineal structure.</s><s xml:id="_s5TWkYV" coords="1,182.91,515.90,328.68,7.88;1,44.11,526.86,467.50,7.88;1,44.11,537.82,248.18,7.88">These indexes are built using fuzzy data that fit into a hierarchical structure by means of a stable family of prioritized aggregation operators based on the prioritized operator formulated by Yager, where the order relationship over fuzzy information was defined by experts on child development.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="2" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="3" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="4" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="5" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="6" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="7" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="8" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="9" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="10" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="11" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="12" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="13" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="14" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="15" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="16" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="17" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="18" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="19" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+		<surface n="20" ulx="0.0" uly="0.0" lrx="561.26" lry="759.685"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1." xml:id="_JnwqjHY">Introduction</head><p xml:id="_3XXgwmC"><s xml:id="_PmwHqD2" coords="2,61.54,91.73,457.46,8.76;2,51.57,103.68,467.43,8.76;2,51.57,115.64,342.22,8.76">The interventions aimed at the early childhood are of a main interest in educational policy, because every aspect of early human development is affected by the encountered environments and experiences in a cumulative fashion, beginning in the prenatal period and extending throughout the early childhood years.</s><s xml:id="_SyW88Wt" coords="2,396.73,115.64,122.31,8.76;2,51.57,127.59,244.60,8.76">Early family environments are major predictors of cognitive and non-cognitive abilities <ref type="bibr" coords="2,277.08,127.59,15.27,8.76" target="#b24">[25]</ref>.</s><s xml:id="_7ZqJ2rV" coords="2,298.54,127.59,220.50,8.76;2,51.57,139.55,467.42,8.76;2,51.57,151.51,210.17,8.76">Therefore, early childhood is the most important period in order to achieve impacts from social-educational interventions, since the social and educational environment in which the children live influence all their school life.</s></p><p xml:id="_Fwk6Uhj"><s xml:id="_sFZ2CQq" coords="2,61.54,163.47,457.45,8.76;2,51.57,175.42,398.75,8.76">The quality of parenting practices and, in a global sense, of the whole home environment, plays a major role in the cognitive and non-cognitive dimensions of an individual during the different development stages.</s><s xml:id="_tkBReqt" coords="2,452.60,175.42,66.38,8.76;2,51.57,187.37,467.41,8.76;2,51.57,199.33,101.76,8.76">Nowadays, there is a great interest in the qualitative study of cognitive stimulation at the most significant social environments where the children grow up <ref type="bibr" coords="2,139.22,199.33,10.58,8.76" target="#b8">[9]</ref>.</s><s xml:id="_yKd9HDt" coords="2,156.48,199.33,362.52,8.76;2,51.57,211.28,295.34,8.76">This leads to the analysis of home environment and child care centers quality indexes, as well as their incidence in different development dimensions (see <ref type="bibr" coords="2,312.05,211.28,15.50,8.76" target="#b14">[15,</ref><ref type="bibr" coords="2,327.54,211.28,11.62,8.76" target="#b17">18]</ref>).</s><s xml:id="_vBgzGNA" coords="2,349.60,211.28,169.42,8.76;2,51.57,223.24,467.42,8.76;2,51.57,235.19,311.17,8.76">Additionally, there is a growing interest in comparing the way different environments affect children growth and the way that different child caring practices are related with the intellectual and emotional development of the children <ref type="bibr" coords="2,336.18,235.19,11.39,8.76" target="#b6">[7,</ref><ref type="bibr" coords="2,347.57,235.19,11.39,8.76" target="#b17">18]</ref>.</s><s xml:id="_7wPDtTs" coords="2,61.54,247.15,457.51,8.76;2,51.57,259.10,269.33,8.76">Some works focus on the relationship between home environment and child development using different approximations in order to conceptualize and analyze environment quality.</s><s xml:id="_tPSu6Qf" coords="2,323.68,259.10,195.31,8.76;2,51.57,271.06,315.00,8.76">Nowadays, a predominant approach is the use of the Home Observation for Measurement of the Environment (HOME) inventory.</s><s xml:id="_4AxVsDe" coords="2,368.59,271.06,150.41,8.76;2,51.57,283.01,222.31,8.76">This inventory is used in order to evaluate the cognitive stimulation at home environment <ref type="bibr" coords="2,259.77,283.01,10.58,8.76" target="#b5">[6]</ref>.</s><s xml:id="_Qc4WhAc" coords="2,276.53,283.01,242.50,8.76;2,51.57,294.97,467.44,8.76;2,51.57,306.93,467.43,8.76;2,51.57,318.88,467.42,8.76;2,51.57,330.84,68.36,8.76">This kind of studies that combine semi-structured interviews with observation patterns of the interactions caregiver-child <ref type="bibr" coords="2,293.23,294.97,16.60,8.76" target="#b27">[28]</ref> represent an improvement and a complement to the cognitive development measures based on the isolated use of IQ evaluations as a development predictor, as well as to the conceptualization of home environment only in terms of structural characteristics by means of social-economic indicators <ref type="bibr" coords="2,93.36,330.84,11.39,8.76" target="#b6">[7,</ref><ref type="bibr" coords="2,104.75,330.84,11.39,8.76" target="#b40">41]</ref>.</s></p><p xml:id="_UAc5qcK"><s xml:id="_9TPnJw9" coords="2,61.54,342.79,457.43,8.76;2,51.57,354.75,227.69,8.76">An alternative in social research, such as HOME, are the mixed research designs, which combine approaches, methods and qualitative and quantitative techniques <ref type="bibr" coords="2,260.17,354.75,15.27,8.76" target="#b13">[14]</ref>.</s><s xml:id="_fMXMjK8" coords="2,281.79,354.75,237.22,8.76;2,51.57,366.70,299.00,8.76">Although they bring knowledge of social phenomena, these designs also find difficulties to get an adequate knowledge representation.</s><s xml:id="_Ud7vSYB" coords="2,353.69,366.70,165.34,8.76;2,51.57,378.66,467.47,8.76;2,51.57,390.61,467.47,8.76;2,51.57,402.56,341.12,8.76">Some social research tends to reduce the inherent complexity of the phenomenon, because variables and factors are usually represented as segmented and isolated components, while child development is the result of the combination of many social, cultural, biological, economic and psychological factors, which are rarely present in a homogeneous and stable way.</s></p><p xml:id="_9SaE46Y"><s xml:id="_WefKXbX" coords="2,61.54,414.52,457.49,8.76;2,51.57,426.47,467.45,8.76;2,51.57,438.43,14.11,8.76">In this sense, several difficulties arise because of the social nature of the object of research, which involves a huge complexity related to the fact that the researcher is actually a part of that object, thus entailing a high degree of reflexivity <ref type="bibr" coords="2,51.57,438.43,10.58,8.76" target="#b3">[4]</ref>.</s><s xml:id="_MG8kBPQ" coords="2,68.52,438.43,450.50,8.76;2,51.57,450.39,253.30,8.76">In <ref type="bibr" coords="2,79.66,438.43,15.27,8.76" target="#b26">[27]</ref>, Lazarsfeld observes that, due to the nature of the involved concepts, in some cases we can only observe symptoms, behind which we assume a more permanent reality.</s><s xml:id="_tWMsNkX" coords="2,307.77,450.39,211.24,8.76;2,51.57,462.35,168.56,8.76">To some extent, the object of research is so vast that we can only analyze certain aspects of it.</s><s xml:id="_gAsPCPK" coords="2,223.38,462.35,295.63,8.76;2,51.57,474.30,60.63,8.76">For still other purposes the problem itself seems to require a looser kind of formulation.</s><s xml:id="_3xc5adj" coords="2,114.97,474.30,404.01,8.76;2,51.57,486.25,104.50,8.76">This peculiarity of the social scientist's intellectual tools has been deplored by some, and considered unavailable by others <ref type="bibr" coords="2,136.98,486.25,15.27,8.76" target="#b27">[28]</ref>.</s><s xml:id="_2Pt3g8Q" coords="2,157.94,486.25,361.07,8.76;2,51.57,498.21,186.11,8.76">In this sense, in <ref type="bibr" coords="2,219.93,486.25,15.27,8.76" target="#b31">[32]</ref>, it is pointed out that the language of classical sets does not always seem adequate to formulate psychological problems.</s><s xml:id="_uWqcRmz" coords="2,240.00,498.21,278.98,8.76;2,51.57,510.16,243.36,8.76">The boundaries of many of the sets ordinarily deal with are quite more fuzzy than those of the sets traditionally used in mathematics.</s><s xml:id="_hrUG72W" coords="2,297.16,510.16,221.84,8.76;2,51.57,522.12,328.71,8.76">The categories of uncertainty are not really well-defined sets and their fuzziness is not particularly well summarized by probability notions.</s></p><p xml:id="_uH2PDv3"><s xml:id="_934P4A2" coords="2,61.54,534.07,457.43,8.76;2,51.57,546.03,410.80,8.76">Normally, in order to address such vagueness in the involved concepts, social science researchers have adopted a mixed approach that complements the registration of qualitative information with a quantitative codification.</s><s xml:id="_u76vdU5" coords="2,465.42,546.03,53.54,8.76;2,51.57,557.98,467.43,8.76;2,51.57,569.94,128.36,8.76">Nevertheless, the numeric values assigned to natural language terms are usually generated in a linear and crisp way, in order to enable the posterior statistical analysis.</s><s xml:id="_2ABcFDg" coords="2,182.78,569.94,336.21,8.76;2,51.57,581.89,467.44,8.76;2,51.57,593.85,51.20,8.76">However, it seems logical to try to maintain the information richness present on the qualitative discourses, and to focus on an adequate representation of the conceptual constructs when numeric values are assigned.</s><s xml:id="_z32jsjx" coords="2,105.01,593.85,413.99,8.76;2,51.57,605.81,467.45,8.76">In this sense, the construction of indexes requires an adequate theoretical discussion in order to provide a conceptual definition of the construct under consideration, and to relate these concepts with the selected indicators <ref type="bibr" coords="2,499.93,605.81,15.27,8.76" target="#b32">[33]</ref>.</s><s xml:id="_gJZnycd" coords="2,51.57,617.76,467.42,8.76">Expert's judgments are used on social research in order to establish the validity of the theoretical instrument's content.</s><s xml:id="_Had66jg" coords="2,51.57,629.72,467.43,8.76;2,51.57,641.67,255.65,8.76">This strategy is useful to state the coherence between the operational definitions used in a study and the theoretical conceptualizations of the social construct being researched <ref type="bibr" coords="2,288.13,641.67,15.27,8.76" target="#b39">[40]</ref>.</s></p><p xml:id="_G8xKXkP"><s xml:id="_7ZqJhJp" coords="2,61.54,653.63,457.47,8.76;2,51.57,665.58,467.44,8.76;2,51.57,677.54,428.56,8.76">On the other hand, the development of indexes based on usual statistics techniques (as factorial analysis) does not ensure an adequate representation of a conceptual construct, as is the case of child's home environment, where its fuzzy components are hierarchically related, existing a linear order relationship between them.</s><s xml:id="_WjqKXxF" coords="2,483.66,677.54,35.34,8.76;3,44.11,67.82,467.46,8.76;3,44.11,79.78,50.64,8.76">Thus, an aggregation must maintain the priority relationships of the information without allowing compensation between its components.</s><s xml:id="_8SzrYqt" coords="3,97.73,79.78,413.79,8.76;3,44.11,91.73,421.48,8.76">Therefore, there is a risk of misusing basic notions and tools if the meaning and the importance of the relationships holding in the information measured to represent a conceptual construct are not considered.</s><s xml:id="_JnU8gsH" coords="3,468.36,91.73,43.17,8.76;3,44.11,103.68,467.43,8.76;3,44.11,115.64,467.44,8.76;3,44.11,127.59,133.51,8.76">In the case of the HOME inventory, the proposed approximation gives greater relevance to the ecological approach to familiar and educational systems <ref type="bibr" coords="3,145.96,115.64,15.27,8.76" target="#b40">[41]</ref>, which considers the mutual dependence and influence between the most meaningful environments of the children <ref type="bibr" coords="3,163.50,127.59,10.58,8.76" target="#b7">[8]</ref>.</s><s xml:id="_hgbVNhM" coords="3,180.72,127.59,114.79,8.76">However, other authors (e.g.</s><s xml:id="_5q9HcHf" coords="3,298.62,127.59,212.92,8.76;3,44.11,139.55,402.75,8.76"><ref type="bibr" coords="3,298.62,127.59,15.94,8.76" target="#b27">[28]</ref>) propose the re-evaluation of HOME sub-scales in order to determine those items that are part of a new scale with a different conceptual meaning.</s><s xml:id="_XX7fjQK" coords="3,450.15,139.55,61.38,8.76;3,44.11,151.51,467.44,8.76;3,44.11,163.47,34.58,8.76">This idea leads to focus on aggregation indicators based on a theoretical connection instead of those based on the classical factorial analysis.</s></p><p xml:id="_fwnaP82"><s xml:id="_jWA3n6D" coords="3,54.06,175.42,457.46,8.76;3,44.11,187.37,378.69,8.76">Notice that the development of indexes corresponds to an aggregation-fusion process, where the main aim of such aggregation is to simplify information by means of a reduction of the original data dimension.</s><s xml:id="_YNdJq3F" coords="3,425.60,187.37,85.96,8.76;3,44.11,199.33,467.45,8.76;3,44.11,211.28,385.84,8.76">The aggregated value must represent the meaning of a conceptual construct theoretically defined by experts, which usually possesses a hierarchical structure, defining an importance relationship on the information to be aggregated.</s><s xml:id="_4szQXKG" coords="3,433.15,211.28,78.37,8.76;3,44.11,223.24,467.41,8.76;3,44.11,235.19,187.25,8.76">In this sense, many indexes have been developed to represent our knowledge of a social reality, normally using crisp information and linear techniques of dimensionality reduction.</s><s xml:id="_xAEXn8E" coords="3,234.94,235.19,276.57,8.76;3,44.11,247.15,319.10,8.76">This kind of indexes allows the compensation between variables of different levels, a situation we could not want to allow in many applications.</s><s xml:id="_SQkeAr4" coords="3,366.97,247.15,144.56,8.76;3,44.11,259.10,467.41,8.76;3,44.11,271.06,467.41,8.76;3,44.11,283.01,38.20,8.76">In <ref type="bibr" coords="3,379.06,247.15,16.60,8.76" target="#b44">[45]</ref> Yager proposed a weighted aggregation operator in which the weights are associated with a variable dependent on the higher priority variables, in such a way that this operator allows to represent a nested structure in terms of the importance and composition of the variables.</s></p><p xml:id="_awQmpqH"><s xml:id="_FATSf92" coords="3,54.06,294.97,457.54,8.76;3,44.11,306.93,467.44,8.76;3,44.11,318.88,467.46,8.76;3,44.11,330.84,32.37,8.76">However, although the prioritization of information is considered on this aggregation process by means of a prioritized weighted operator, the definition of its weights sequence strongly influences the consistency of the associated family of aggregation operators, and thus it is necessary to establish some conditions to guarantee the robustness of the aggregation process.</s><s xml:id="_2q3mDrN" coords="3,78.99,330.84,432.56,8.76;3,44.11,342.79,446.51,8.76">In this sense, let us recall that, in an aggregation problem, data cardinality changes can often occur, and each time this happens a different aggregation operator has to be used to aggregate the new collection of elements.</s><s xml:id="_QfywUTT" coords="3,493.81,342.79,17.71,8.76;3,44.11,354.75,264.03,8.76">This rather simple issue is usually known as the dimensionality problem.</s><s xml:id="_eHSSxNU" coords="3,310.10,354.75,201.46,8.76;3,44.11,365.82,360.34,9.96;3,404.65,366.70,35.00,9.64;3,439.65,364.74,3.79,6.50;3,447.26,365.82,64.29,9.96;3,44.11,378.66,369.00,8.76">For this reason, in <ref type="bibr" coords="3,382.25,354.75,16.60,8.76" target="#b37">[38]</ref> this dimensionality problem was analyzed in terms of the notion of family of aggregation operators (FAO), i.e. a set {A n : [0, 1] n → [0, 1], n N} of aggregation operators, also referred to as extended aggregation function by other authors.</s><s xml:id="_DkpWrZu" coords="3,415.83,378.66,95.70,8.76;3,44.11,390.61,467.43,8.76;3,44.11,402.56,353.39,8.76">In the same work, some stability properties for FAOs were proposed, addressing the key issue of the relationships that should hold between the operators in a family so that we can understand they properly constitute a consistent whole.</s><s xml:id="_DqaRzeb" coords="3,399.26,402.56,112.26,8.76;3,44.11,414.52,467.44,8.76;3,44.11,426.47,467.41,8.76;3,44.11,438.43,87.25,8.76">Furthermore, a classification of the main aggregation families in terms of the stability properties they satisfy was presented, and some weighted FAOs were analyzed in term of their stability level and the restrictions that should be imposed over the weights sequence to define a stable family.</s></p><p xml:id="_T87rJbd"><s xml:id="_x2fmf5r" coords="3,54.07,450.39,316.33,8.76">In this work, we extend these consistency notions defined on previous works.</s><s xml:id="_fNXz9FX" coords="3,373.71,450.39,137.82,8.76;3,44.11,462.34,467.41,8.76;3,44.11,474.30,181.40,8.76">Particularly, this paper focuses on aggregation processes in which the information has a prioritized hierarchical structure, the different levels of the structure being related through a linear order.</s><s xml:id="_nTS3Pf6" coords="3,228.22,474.30,283.31,8.76;3,44.11,486.25,427.18,8.76">In this sense, we will first define the notion of hierarchical aggregation family, which is composed by an unstructured FAO and a FAO that aggregates data with a linear structure.</s><s xml:id="_S9MJK2k" coords="3,474.12,486.25,37.42,8.76;3,44.11,498.21,288.31,8.76">Then, we will define some stability properties for this kind of structured families.</s><s xml:id="_HBvPnba" coords="3,335.33,498.21,176.18,8.76;3,44.11,510.16,467.39,8.76;3,44.11,522.12,53.90,8.76">In practical terms, this paper focuses on the construction issues that allow the development of indexes with an improved ability to represent our knowledge of a social reality.</s><s xml:id="_6fAb7DR" coords="3,101.35,522.12,410.21,8.76;3,44.11,534.07,49.38,8.76">In this sense, a method to develop indexes of child's home environment with prioritized information is proposed.</s><s xml:id="_wYhmUHt" coords="3,97.22,534.07,414.32,8.76;3,44.11,546.03,467.41,8.76;3,44.11,557.98,44.00,8.76">The information involved in home environment has been represented by means of fuzzy sets, where the membership functions, as well as the priority relationships between the variables, were defined through expert's judgments.</s><s xml:id="_3eUgr66" coords="3,89.84,557.98,421.68,8.76;3,44.11,569.94,467.41,8.76;3,44.11,581.89,52.11,8.76">The developed indexes have been generated by means of a stable family of prioritized aggregation operators, based on both the prioritized operators defined by Yager and the stability properties of a hierarchical structure proposed in this paper.</s><s xml:id="_2n4pRTD" coords="3,99.16,581.89,412.41,8.76;3,44.11,593.85,467.45,8.76;3,44.11,605.80,467.45,8.76;3,44.11,617.76,49.79,8.76">This method was applied in the context of a population of Chilean children on a vulnerable condition, where the qualitative information of its home environment was generated in 2008 through the codification of the semi-structured interviews of a longitudinal research made by the National Board of Kindergartens (JUNJI) of Chile government.</s></p><p xml:id="_qCPdke2"><s xml:id="_CHn3Ebw" coords="3,54.07,629.72,457.46,8.76;3,44.11,641.67,467.44,8.76;3,44.11,653.63,467.41,8.76;3,44.11,665.58,59.61,8.76">Therefore, in the second section of this paper the notion of consistency as well as the definitions of the different stability levels of a FAO proposed in <ref type="bibr" coords="3,194.39,641.67,16.60,8.76" target="#b37">[38]</ref> are reviewed, providing a summary of the stability level of some standard families of aggregation operators as well as of the conditions a weights sequence must satisfy in order to define a stable weighted FAO.</s><s xml:id="_Uhx6NDz" coords="3,106.50,665.58,405.05,8.76;3,44.11,677.54,316.90,8.76">In the third section, we study the notion of stability of a FAO in the context of data with a prioritized hierarchical structure, i.e. the stability of hierarchical (HIE) FAOs is analyzed.</s><s xml:id="_A6EdXdR" coords="3,364.15,677.54,147.40,8.76;4,51.57,67.82,296.91,8.76">In the fourth section, these ideas are applied to the development of Chilean child's home environment indexes.</s><s xml:id="_Cz9NYuv" coords="4,351.38,67.82,167.60,8.76;4,51.57,79.78,43.45,8.76">Last, the paper concludes with some final comments.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2." xml:id="_2CXMT9z">Preliminaries</head><p xml:id="_hbnTUem"><s xml:id="_fT3PeYv" coords="4,61.54,128.49,457.48,8.76;4,51.57,140.45,467.47,8.76;4,51.57,152.41,297.37,8.76">In this section we recall the notions of consistency and strict stability for FAOs proposed in <ref type="bibr" coords="4,427.63,128.49,15.77,8.76" target="#b37">[38,</ref><ref type="bibr" coords="4,443.40,128.49,11.83,8.76" target="#b38">39]</ref>, applying them to the most common FAOs, and particularly stressing that some conditions have to be imposed on the weights of some weighted FAOs (as the weighted mean) in order to define consistent FAOs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1." xml:id="_6BMbfNE">Consistency in families of aggregation operators</head><p xml:id="_5kVYX6w"><s xml:id="_ufhekzQ" coords="4,61.54,201.12,456.64,9.65;4,51.57,212.20,411.05,10.61">Without loss of generality, it is possible to say that an aggregation operator is basically defined as a real function A n that, from n data items x 1 , ... , x n in [0, 1], produces an aggregated value A n (x 1 , ... , x n ) in [0,1] <ref type="bibr" coords="4,443.53,213.07,15.27,8.76" target="#b10">[11]</ref>.</s><s xml:id="_h7bWNQf" coords="4,465.47,213.07,53.53,8.76;4,51.57,225.03,467.44,9.64;4,51.57,236.98,100.76,8.76">Nevertheless, each time a data cardinality change occurs, a different aggregation operator A m has to be used to aggregate the new collection of m elements.</s><s xml:id="_ZPpF8ey" coords="4,154.82,236.98,257.77,8.76">This rather simple issue is known as the dimensionality problem.</s></p><p xml:id="_Ujrvm72"><s xml:id="_uJKQ6b6" coords="4,61.54,248.94,457.47,8.76;4,51.57,260.90,387.70,8.76">Therefore, instead of just a single operator, to effectively solve an aggregation problem it is rather needed to count with a family of operators, enabling to aggregate collections of items with different dimension.</s><s xml:id="_4wz5Wuc" coords="4,442.61,260.90,76.44,8.76;4,51.57,271.98,357.38,9.96;4,409.15,272.85,35.21,9.65;4,444.36,270.88,3.79,6.50;4,452.08,271.98,66.95,9.96;4,51.58,284.81,344.39,8.76">This has led to the current standard definition <ref type="bibr" coords="4,159.78,272.85,16.60,8.76" target="#b10">[11,</ref><ref type="bibr" coords="4,176.39,272.85,12.45,8.76" target="#b23">24]</ref> of a family of aggregation operators (FAO) as a set {A n : [0, 1] n → [0, 1], n N}, providing instructions on how to aggregate collections of items of any dimension n.</s><s xml:id="_z2Zn2eW" coords="4,399.39,284.81,119.64,8.76;4,51.58,295.89,50.33,9.96;4,102.10,299.91,3.79,6.50;4,106.73,295.89,3.69,9.96;4,110.42,296.77,323.83,10.35">This sequence of aggregation functions {A n } n N is also called extended aggregation functions (EAF) by other authors <ref type="bibr" coords="4,402.70,296.77,15.77,8.76" target="#b11">[12,</ref><ref type="bibr" coords="4,418.47,296.77,11.83,8.76" target="#b23">24]</ref>.</s></p><p xml:id="_vf2EM9N"><s xml:id="_Tz3XdJX" coords="4,61.54,308.72,457.49,8.76;4,51.58,320.67,253.30,8.76">The operators that compose a FAO have to be somehow related so that the aggregation process remains the same throughout the possible changes in the dimension n of the data.</s><s xml:id="_abDRDRx" coords="4,307.51,320.67,211.51,8.76;4,51.58,331.75,157.61,10.61">Therefore, it seems logical to study properties giving sense to the sequences A 2 , A 3 , A 4 , . .</s><s xml:id="_Q6AUyxp" coords="4,209.19,332.63,309.84,8.76">., because otherwise we may have only a bunch of disconnected operators.</s><s xml:id="_QEkSYVT" coords="4,51.57,344.58,467.44,8.76;4,51.57,356.54,112.95,8.76">Nevertheless, the notion of consistency, in the above-exposed sense of a necessary relation between the members of a FAO, is perhaps too wide.</s><s xml:id="_VJ76dyZ" coords="4,167.72,356.54,174.69,8.76">Many facets have to be taken into account.</s><s xml:id="_27k9MvE" coords="4,345.62,356.54,173.41,8.76;4,51.57,368.49,467.45,8.76;4,51.57,380.45,48.18,8.76">For example, consistency is indeed a more general concept than that of recursiveness, since some non-recursive operators, like the median, fulfill such idea of consistency.</s><s xml:id="_rgUgKpz" coords="4,101.98,380.45,417.05,8.76;4,51.57,392.40,467.42,8.76;4,51.57,404.36,139.48,8.76">Hence, it seems more plausible and convenient, at least as a first step, to define properties expressing such a notion from different perspectives, allowing different kinds of consistency instead of pursuing a single definition of such general notion of consistency.</s></p><p xml:id="_zgZbfhG"><s xml:id="_j6kQVXt" coords="4,61.54,416.31,429.11,8.76">Particularly, in <ref type="bibr" coords="4,123.13,416.31,16.60,8.76" target="#b37">[38]</ref> we studied a notion of consistency based on the robustness of the aggregation process.</s><s xml:id="_VyGnVUt" coords="4,493.49,416.31,25.53,8.76;4,51.57,428.27,467.46,8.76;4,51.57,440.23,467.43,8.76;4,51.57,452.18,269.67,8.76">In this sense, the notion of stability for a family of aggregation operators is inspired in continuity, though our approach focuses in the cardinality of the data rather than in the data itself, in order to guarantee a certain robustness in the result of the aggregation process despite the unavoidable cardinality changes.</s><s xml:id="_xXPxemE" coords="4,323.38,451.30,195.64,10.61;4,51.58,463.26,168.86,10.61">In particular, let A n (x 1 , ... , x n ) be the aggregated value of the n-dimensional data x 1 , ... , x n .</s><s xml:id="_NUa4H9k" coords="4,222.40,464.14,235.70,9.64">Now, suppose that a new element x n+1 has to be aggregated.</s><s xml:id="_8QM68qE" coords="4,460.07,464.14,58.95,9.64;4,51.58,475.21,136.97,10.61">If x n+1 is close to the aggregation result A n (x 1 , . . .</s><s xml:id="_Fhfvv5y" coords="4,190.20,475.21,328.82,10.61;4,51.57,488.05,315.95,8.76">, x n ) of the n-dimensional data x 1 , ... , x n , then the result of aggregating these n + 1 elements should not differ too much with the result of aggregating such n items.</s><s xml:id="_RzbRqn8" coords="4,369.79,488.05,149.23,8.76;4,51.57,499.12,92.46,9.96;4,144.33,503.15,13.82,6.50;4,160.65,499.12,139.22,10.61;4,300.07,499.12,57.50,10.61;4,358.39,499.12,160.62,10.61;4,51.58,511.95,24.08,8.76">Following the idea of stability for any mathematical tool, if |x n+1 -A n (x 1 , ... , x n )| is small, then |A n+1 (x 1 , ... , x n , x n+1 ) -A n (x 1 , ... , x n )| should be also small.</s><s xml:id="_7G5ZQgT" coords="4,78.01,511.95,441.01,8.76;4,51.57,523.91,467.40,8.76;4,51.57,535.86,305.47,8.76">Note that our approach is obviously partially gathered in the self-identity definition given in <ref type="bibr" coords="4,443.04,511.95,15.27,8.76" target="#b43">[44]</ref>, though in this property it is implicitly imposed that the information has to be aggregated in some order, specifically it is assumed that the last data has to be placed in the n-th position of the aggregation function.</s></p><p xml:id="_mFx8t7P"><s xml:id="_FxwUMVK" coords="4,61.54,546.95,164.49,9.96;4,226.22,550.97,3.79,6.50;4,230.85,546.95,3.69,9.96;4,234.53,547.82,89.66,9.65">It is important to note that if the family {A n } n is not symmetric (i.e.</s><s xml:id="_WXBRTnv" coords="4,326.22,547.82,192.79,8.76;4,52.56,559.77,442.41,9.65">there exist a n for which the aggregation operator A n is not symmetric), then the position of the new data is relevant to the final output of the aggregation process.</s><s xml:id="_sPYtHWf" coords="4,497.39,559.77,21.59,8.76;4,51.57,571.73,467.46,8.76;4,51.57,583.69,467.46,8.76;4,51.57,595.64,228.20,8.76">From this observation, in <ref type="bibr" coords="4,128.21,571.73,16.60,8.76" target="#b37">[38]</ref> we presented the following definitions of stability, which extend the notion of self-identity both in the direction of allowing its application to non-symmetric operators, as well as in the direction of allowing different levels (strict, asymptotic, almost sure, etc.) of fulfillment.</s></p><formula xml:id="formula_0" coords="4,51.29,617.59,430.64,70.66">Definition 2.1. Let {A n : [0, 1] n → [0, 1], n ∈ N} be a family of aggregation operators. Then, it is said that 1. {A n } n is a R-strictly stable family if A n (x 1 , x 2 , ... x n-1 , A n-1 (x 1 , x 2 . . . , x n-1 )) = A n-1 (x 1 , x 2 , . . . , x n-1 ) holds ∀n ≥ 3 and ∀{x n } n∈N ⊂ [0, 1] 2. {A n } n is a L-strictly stable family if A n (A n-1 (x 1 , x 2 , ... , x n-1 ), x 1 , x 2 , ... x n-1 ) = A n-1 (x 1 , x 2 , ... , x n-1 ) holds ∀n ≥ 3 and ∀{x n } n∈N ⊂ [0, 1] 3.</formula><p xml:id="_VUJJbSY"><s xml:id="_qNmygZU" coords="5,55.17,115.24,10.76,9.96;5,66.13,119.27,3.79,6.50;5,70.75,115.24,3.69,9.96;5,74.44,116.12,277.02,9.65">{A n } n is a LR-strictly stable family if both properties hold simultaneously.</s></p><p xml:id="_fen288U"><s xml:id="_yG4Eusq" coords="5,54.06,138.28,168.93,9.96;5,223.19,142.31,3.79,6.50;5,227.82,138.28,283.73,10.52;5,44.11,151.11,467.47,8.76;5,44.11,163.07,25.29,8.76">Let us observe that in case the family {A n , n ∈ N} is symmetric (i.e. for all n, A n is a symmetric aggregation operator), then the three previous definitions are equivalent and coincide with the self-identity property defined by Yager.</s><s xml:id="_N5CQV8t" coords="5,72.45,163.07,439.12,8.76;5,44.11,175.02,421.97,8.76">Thus, those symmetric families that satisfy the self-identity property, for instance the well-known minimum, maximum, median, arithmetic mean, geometric mean FAOs, among others, are RL-strictly stable families.</s></p><p xml:id="_WkHSG2F"><s xml:id="_vnG8nDb" coords="5,54.07,186.97,457.45,8.76;5,44.11,198.93,34.49,8.76">On the other hand, it is important to stress that these three definitions are generally not equivalent for non-symmetric families.</s><s xml:id="_9DzpRXK" coords="5,81.56,198.93,429.98,8.76;5,44.11,210.88,251.94,8.76">In fact, in this case it is possible to consider them as mutually exclusive properties, since a non-symmetric FAO fulfilling one of them would rarely verify any of the other.</s><s xml:id="_aHAvEvj" coords="5,298.50,210.88,213.05,8.76;5,44.11,222.84,25.92,8.76">For example, as discussed in <ref type="bibr" coords="5,414.82,210.88,15.27,8.76" target="#b37">[38]</ref>, the weighted mean family</s></p><formula xml:id="formula_1" coords="5,63.75,238.42,156.85,31.39">W n (x 1 , ... , x n ) = n i=1 w i • x i , n ∈ N,</formula><p xml:id="_kMFjF9J"><s xml:id="_q7kGFQN" coords="5,44.11,277.20,223.14,9.96;5,267.19,278.08,75.16,9.65">is a LR-strictly stable FAO if and only if the weights w i are the same (i.e.</s><s xml:id="_vHzyUjH" coords="5,345.24,277.21,7.32,9.96;5,352.51,281.23,2.10,6.50;5,359.29,277.21,152.26,9.96;5,44.11,290.03,317.79,8.76">w i = 1/n) for all i = 1, ... , n, that is, if it coincides with the arithmetic mean FAO, which indeed is a symmetric family.</s><s xml:id="_akJgZhp" coords="5,364.38,290.03,147.20,8.76;5,44.11,301.99,467.47,8.76;5,44.11,313.95,342.30,8.76">Thus, as we shall discuss later in this paper, the notion of stability is closely related to the structure of the data being aggregated, allowing to generalize the notion of self-identity in the case of structured, non-symmetric aggregation processes.</s></p><p xml:id="_SHcYCDz"><s xml:id="_HPeVmDS" coords="5,54.07,325.90,457.49,8.76;5,44.11,337.86,467.45,8.76;5,44.11,349.82,122.10,8.76">Although the previous definition presents a reasonable approach to the idea of consistency of a FAO (i.e. from the point of view of its stability in front of cardinality changes), it is important to note that not all consistent families are included in this definition.</s><s xml:id="_z9f5ARt" coords="5,169.41,349.82,342.11,8.76;5,44.11,361.77,8.30,8.76">Let us consider for example the productory family of aggregation operators, defined as</s></p><formula xml:id="formula_2" coords="5,56.18,358.87,166.32,13.91">{P n (x 1 , ... , x n ) = n i=1 (x i ), n ∈ N} n .</formula><p xml:id="_UCc4taR"><s xml:id="_hBp266n" coords="5,226.26,361.77,285.26,8.76;5,44.11,373.72,275.08,8.76">This family defines an aggregation process that can be considered as consistent, but it does not satisfy any of the three previous definitions.</s><s xml:id="_6tHgBvc" coords="5,321.40,373.72,190.16,8.76;5,44.11,385.68,467.42,8.76;5,44.11,397.63,16.88,8.76">In this way the productory FAO shows that there are differences between the properties of recursion and stability, since it is a recursive family but not a strictly stable one.</s><s xml:id="_MfF7Ptr" coords="5,63.66,397.63,447.89,8.76;5,44.11,409.59,134.48,8.76">Similarly, some weighted mean based aggregation processes can be considered as consistent though they do not fulfill the above definitions either.</s></p><p xml:id="_v5tB3Ne"><s xml:id="_FuHvYDx" coords="5,54.07,421.54,457.49,8.76;5,44.11,433.50,467.46,8.76;5,44.11,445.45,420.17,8.76">Thus, in order to extend the proposed approach to other consistent FAOs, the following two definitions express a relaxed version of the same stability concept: in the first one, stability is fulfilled in the limit, while in the second one, a weaker concept of stability is reached by demanding the operators to be, in the limit, almost sure stable.</s></p><formula xml:id="formula_3" coords="5,43.83,466.52,433.13,132.45">Definition 2.2. Let {A n : [0, 1] n → [0, 1], n ∈ N} be a family of aggregation operators. Then, it is said that 1. {A n } n is an asymptotically R-strictly stable family if lim n→+∞ |A n (x 1 , ... x n-1 , A n-1 (x 1 , . . . , x n-1 )) -A n-1 (x 1 , ... , x n-1 )| = 0 holds ∀{x n } n∈N ⊂ [0, 1]. 2. {A n } n is an asymptotically L-strictly stable family if lim n→+∞ |A n (A n-1 (x 1 , . . . , x n-1 ), x 1 , ... x n-1 ) -A n-1 (x 1 , ... , x n-1 )| = 0 holds ∀{x n } n∈N ⊂ [0, 1]. 3.</formula><p xml:id="_WRVhRTb"><s xml:id="_Fn2x3RJ" coords="5,55.17,589.34,10.76,9.96;5,66.13,593.36,3.79,6.50;5,70.75,589.34,3.69,9.96;5,74.44,590.22,381.60,9.64">{A n } n is an asymptotically LR-strictly stable family if the two above properties simultaneously hold.</s></p><formula xml:id="formula_4" coords="5,43.83,611.29,433.13,76.96">Definition 2.3. Let {A n : [0, 1] n → [0, 1], n ∈ N} be a family of aggregation operators. Then, it is said that 1. {A n } n is an almost sure R-strictly stable family if P lim n→+∞ |A n (x 1 , . . . x n-1 , A n-1 (x 1 , ... , x n-1 )) -A n-1 (x 1 , . . . , x n-1 )| = 0 = 1, ∀x i ∼ U (0, 1) holds ∀{x n } n∈N ⊂ [0, 1]. 2. {A n } n is an almost sure L-strictly stable family if P lim n→+∞ [|A n (A n-1 (x 1 , ... , x n-1 ), x 1 , . . . x n-1 ) -A n-1 (x 1 , . . . , x n-1 )| = 0 = 1, ∀x i ∼ U (0, 1) holds ∀{x n } n∈N ⊂ [0, 1]. 3.</formula><p xml:id="_mV3DXnV"><s xml:id="_buyHJun" coords="6,62.65,128.88,10.76,9.96;6,73.61,132.90,3.79,6.50;6,78.23,128.88,3.69,9.96;6,81.91,129.75,369.60,9.65">{A n } n is an almost sure LR-strictly stable family if the above two conditions hold simultaneously.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_h9YXGQJ">Remark 1.</head><p xml:id="_3gucSTT"><s xml:id="_MssKnwk" coords="6,101.22,153.50,417.83,8.76;6,51.57,165.45,65.59,8.76">Let us observe that the previous definitions are fully meaningful only when the cardinality of the aggregation is big.</s><s xml:id="_9trTKVP" coords="6,120.30,165.45,398.69,8.76;6,51.57,177.41,205.83,8.76">However, for aggregation problems with small data size, these definitions could actually not make sense or at least look not enough for our proposal.</s><s xml:id="_ZPpWU9g" coords="6,260.63,177.41,258.39,8.76;6,51.57,189.36,467.41,8.76">Nevertheless, the spirit of these definition can be preserved and adapted to small data problems if it is possible to obtain an uniform bound on the error or the difference between</s></p><formula xml:id="formula_5" coords="6,52.56,200.44,139.42,10.61">A n (x 1 , . . . x n-1 , A n-1 (x 1 , ... , x n-1</formula><p xml:id="_29e8bzB"><s xml:id="_6Ucbhj6" coords="6,192.48,200.44,326.55,10.61;6,51.57,213.27,123.72,8.76">)) and A n-1 (x 1 , ... , x n-1 ) (as in a Lipschitzian-like condition) in terms of the cardinality n of the data, for all n.</s><s xml:id="_Wqy3Hun" coords="6,177.99,213.27,341.00,8.76;6,51.57,225.23,117.53,8.76">In this case, it is then possible to estimate and control the departures from stability to be expected for any data size.</s></p><p xml:id="_UtYSNvv"><s xml:id="_Z8Zbc6v" coords="6,61.54,237.19,457.46,8.76;6,51.57,249.14,467.44,8.76;6,51.57,261.10,58.66,8.76">Since for almost sure and asymptotically strictly stable FAOs such bounds are assumed to converge to zero, the speed of convergence of these bounds can be used to establish relevant differences in the observed stability level for small data problems.</s><s xml:id="_AQGmqnA" coords="6,112.72,261.10,184.14,8.76">The following are some examples of this idea:</s></p><p xml:id="_e4c2Cnt"><s xml:id="_bRhmBHD" coords="6,52.57,278.15,57.20,9.96;6,109.97,282.17,3.79,6.50;6,114.60,278.15,261.57,10.61">• A family {A n , n ∈ N } can be said to be linearly stable if ∀n ∈ N and ∀x 1 , . . .</s><s xml:id="_CDPPHa7" coords="6,377.83,278.15,141.19,10.52">, x n-1 in [0, 1] the following holds:</s></p><formula xml:id="formula_6" coords="6,70.96,297.74,275.47,10.61">|A n (x 1 , ... x n-1 , A n-1 (x 1 , ... , x n-1 )) -A n-1 (x 1 , . . . , x n-1 )| ≤ 1/n.</formula><p xml:id="_e5kQ2s7"><s xml:id="_8PwttEV" coords="6,52.58,317.33,374.46,9.96">• This implies that the previous difference converges to 0 with at least the same speed as 1/n.</s></p><formula xml:id="formula_7" coords="6,52.57,329.28,436.71,69.39">• A family {A n , n ∈ N } is k-polynomially stable if ∀n ∈ N and ∀x 1 , ... , x n-1 in [0, 1] the following holds: |A n (x 1 , ... x n-1 , A n-1 (x 1 , ... , x n-1 )) -A n-1 (x 1 , . . . , x n-1 )| ≤ 1/n k . • A family {A n , n ∈ N } is ex ponentially stable if ∀n ∈ N and ∀x 1 , . . . , x n-1 in [0, 1] the following holds: |A n (x 1 , ... x n-1 , A n-1 (x 1 , ... , x n-1 )) -A n-1 (x 1 , . . . , x n-1 )| ≤ 1/e n .</formula><p xml:id="_KFqBd8W"><s xml:id="_JDteBqJ" coords="6,52.58,407.65,57.70,9.96;6,110.48,411.67,3.79,6.50;6,115.11,407.65,383.22,10.61">• A family {A n , n ∈ N } is logarithmically stable if ∀n ∈ N and ∀x 1 , ... , x n-1 in [0, 1] the following holds:</s></p><formula xml:id="formula_8" coords="6,70.96,427.23,297.62,10.61">|A n (x 1 , ... x n-1 , A n-1 (x 1 , ... , x n-1 )) -A n-1 (x 1 , . . . , x n-1 )| ≤ 1/Log(n).</formula><p xml:id="_t67AVQH"><s xml:id="_uQ7nfNP" coords="6,61.54,451.85,392.19,8.76">Obviously, these three levels of strict stability (normal, asymptotic and almost sure) are connected.</s><s xml:id="_yaaumkU" coords="6,456.19,451.85,62.79,8.76;6,51.57,463.81,128.99,8.76">Particularly, the following results are immediate:</s></p><formula xml:id="formula_9" coords="6,51.57,485.59,174.22,11.61">Proposition 2.1. Let {A n : [0, 1] n → [0, 1]</formula><p xml:id="_CguTyWa"><s xml:id="_BqBmyRD" coords="6,225.80,486.67,187.84,9.96">, n ∈ N} be a family of aggregation operators.</s><s xml:id="_WHezbXm" coords="6,416.14,487.64,19.92,8.55">Then</s></p><formula xml:id="formula_10" coords="6,51.29,504.61,371.22,22.47">1. If {A n } n is (L, R, LR)-strictly stable then it also is (L, R, LR)-asymptotically strictly stable. 2. If {A n } n is (L, R,</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_nYbBK8F">LR)-asymptotically strictly stable then it also is almost-sure strictly stable.</head><p xml:id="_fEZPgbn"><s xml:id="_wU4aanF" coords="6,61.54,541.18,409.51,8.76">Therefore, if a FAO is not almost sure stable, then it does not verify any of the three levels of stability.</s><s xml:id="_e8G6GQd" coords="6,473.75,541.18,45.24,8.76;6,51.57,553.14,142.62,8.76">In this case we will talk about an unstable FAO.</s></p><formula xml:id="formula_11" coords="6,51.57,574.91,167.76,11.62">Definition 2.4. Let {A n : [0, 1] n → [0, 1]</formula><p xml:id="_mc8rwhs"><s xml:id="_96tf9Dv" coords="6,219.33,576.01,186.50,9.96">, n ∈ N} be a family of aggregation operators.</s><s xml:id="_YyAHsGa" coords="6,408.32,576.88,88.27,8.76;6,51.30,593.93,22.11,9.96;6,73.61,597.96,3.79,6.50;6,78.23,593.93,3.69,9.96;6,81.91,594.81,437.13,9.65;6,62.65,606.77,27.76,8.76">Then, we will say that 1. {A n } n fulfills the property of R-instability if it is not almost sure R-strictly stable, and then it will be called R-unstable family.</s><s xml:id="_sMg5AqG" coords="6,51.29,617.84,22.11,9.96;6,73.61,621.87,3.79,6.50;6,78.23,617.84,3.69,9.96;6,81.91,618.72,437.13,9.64;6,62.65,630.68,27.76,8.76">2. {A n } n fulfills the property of L-instability if it is not almost sure L-strictly stable, and then it will be called L-unstable family.</s><s xml:id="_XRJQZjf" coords="6,51.29,641.76,22.11,9.96;6,73.61,645.78,3.79,6.50;6,78.23,641.76,3.69,9.96;6,81.91,642.63,437.14,9.64;6,62.65,654.59,27.76,8.76">3. {A n } n fulfills the property of LR-instability if it satisfies the above two points, and then it will be called LR-unstable family.</s></p><p xml:id="_wnJXuxG"><s xml:id="_RngZg9U" coords="6,61.54,678.33,447.01,8.76">Thus, it is now possible to differentiate the families of aggregation operators in relation to their level of stability.</s></p><formula xml:id="formula_12" coords="7,45.10,124.05,446.44,185.22">n = Min(x 1 , ... , x n ) R, L R, L R, L - Max n = Max(x 1 , ... , x n ) R, L R, L R, L - Md n = Md(x 1 , ... , x n ) R, L R, L R, L - M n = n i=1 x i n R, L R, L R, L - G n = n i=1 x i 1/n R, L R, L R, L - H n = n n i=1 1/xi R, L R, L R, L - Qn = n i=1 x i i - - R, L - P n = n i=1 x i - - R, L - A f n = A f n (x 1 , ... , x n ) R R R L A b n = A b n (x 1 , ... , x n ) L L L R W n = n i=1 x i • w i - - - R, L O n = n i=1 x (i) • w i - - - R, L</formula><p xml:id="_WG8Dn6c"><s xml:id="_AYrSTyc" coords="7,44.11,318.47,267.70,7.00">Note: R and L indicate level of stability from the right and from the left respectively.</s><s xml:id="_bPYAqHH" coords="7,44.11,328.42,281.64,7.00">Note: The weights of the weighted families of aggregation operators are not constrained.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2." xml:id="_AptYTeK">Stability levels of some well-known families of aggregation operators</head><p xml:id="_gGU7r2v"><s xml:id="_dGYCrwP" coords="7,54.06,399.96,457.44,8.76;7,44.11,411.92,265.62,8.76">In <ref type="bibr" coords="7,64.53,399.96,15.27,8.76" target="#b37">[38]</ref>, the stability level of some frequently used aggregation operators was analyzed, allowing to know in advance the level of robustness of the correspondent aggregation processes.</s><s xml:id="_UcZAw5W" coords="7,312.24,411.92,133.40,8.76">Table <ref type="table" coords="7,336.61,411.92,4.98,8.76" target="#tab_0">1</ref> summarizes this analysis.</s></p><p xml:id="_JaW8r59"><s xml:id="_XVMBmx3" coords="7,54.06,423.87,457.48,8.76;7,44.11,435.83,467.47,8.76;7,44.11,447.87,20.31,8.55">Table <ref type="table" coords="7,79.45,423.87,4.98,8.76" target="#tab_0">1</ref> shows the stability level of some of the most used families of aggregation operators: the minimum and maximum operators, as well as the arithmetic, harmonic and geometric means and the median constitute strictly stable FAO.</s><s xml:id="_mfJYcen" coords="7,67.41,447.78,444.15,8.76;7,44.11,459.74,278.87,8.76">Recursive extensions of binary idempotent operators only satisfy R-strict stability if the inductive extension is forward and L-strict stability if the inductive extension is backward.</s><s xml:id="_JrjCSfU" coords="7,326.41,458.86,96.20,9.96;7,421.93,462.89,3.79,6.50;7,426.56,458.86,3.69,9.96;7,430.24,459.74,81.32,9.65;7,44.11,470.81,58.23,9.96;7,102.88,474.84,3.79,6.50;7,107.50,470.81,3.69,9.96;7,111.19,471.69,200.07,9.65">Both the productory {P n } n and the geometric productory {Q n } n FAOs are almost sure-asymptotic-strictly stable.</s><s xml:id="_8PSpasd" coords="7,314.19,471.69,197.39,8.76;7,44.11,482.77,7.32,9.96;7,51.43,483.65,460.12,9.65;7,44.11,495.60,388.09,8.76">Finally, since it is possible to choose the weights w n in such a way that the corresponding weighted FAO does not fulfill any of the previous stability levels, those FAOs based on the usage of weights, as the weighted mean or the OWA families, are generally unstable.</s></p><p xml:id="_pstExh4"><s xml:id="_gUsDG78" coords="7,54.07,506.68,444.53,9.96;7,498.61,510.70,3.79,6.50;7,503.24,506.68,3.69,9.96;7,506.93,510.70,3.79,6.50;7,44.11,519.51,87.45,8.76">As just pointed out, if no conditions are imposed over the weights, then the weighted mean aggregation family {W n } n is unstable in general.</s><s xml:id="_EUschvu" coords="7,134.24,519.51,377.30,8.76;7,44.11,531.46,328.66,8.76">Let us recall that in a weighted mean, the weights associated to the elements being aggregated represent the importance of each one of these elements in the aggregation process.</s><s xml:id="_zvRW7kc" coords="7,375.30,531.46,136.25,8.76;7,44.11,543.42,208.78,8.76">Moreover, for any data cardinality n, the weights are usually assumed to form a vector</s></p><formula xml:id="formula_13" coords="7,255.81,540.52,219.63,14.31">w n = (w n 1 , ... , w n n ) ∈ [0, 1] n , such that n i=1 w n i = 1</formula><p xml:id="_nJc3ddY"><s xml:id="_98nZTBg" coords="7,475.44,543.42,36.11,8.76;7,44.11,554.50,264.71,10.61">, and the corresponding weighted mean operator is then given by W n (x 1 , . . .</s><s xml:id="_xMBgbbd" coords="7,310.48,554.50,28.42,10.52;7,352.08,552.48,3.79,6.50;7,352.03,559.90,12.53,6.50;7,366.98,555.47,6.77,9.55;7,377.19,554.50,12.30,9.96;7,389.45,555.38,5.82,9.64">, x n ) = n i=1 x i • w i .</s><s xml:id="_Sj9Hn34" coords="7,54.07,567.33,457.49,8.76;7,44.11,579.29,107.41,8.76">In <ref type="bibr" coords="7,64.97,567.33,15.27,8.76" target="#b37">[38]</ref>, necessary and sufficient conditions for the strict stability of a weighted mean FAO were given by means of the following propositions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_BgTPPeG">Proposition 2.2. Let w</head><formula xml:id="formula_14" coords="7,139.45,601.07,164.40,13.54">n = (w n 1 , . . . , w n n ) ∈ [0, 1] n , n ∈ N be</formula><formula xml:id="formula_15" coords="7,44.11,626.17,269.20,37.97">n i = (1 -w n n ) • (w n-1 i ), ∀n ∈ N. Proposition 2.3. Let w n = (w n 1 , ... , w n n ) ∈ [0, 1] n , n ∈ N be</formula><formula xml:id="formula_16" coords="7,128.60,675.69,139.09,14.06">n i+1 = (1 -w n 1 ) • (w n-1 i ), ∀n ∈ N.</formula><p xml:id="_eSGw7vK"><s xml:id="_M23Qjrh" coords="8,61.54,66.94,118.85,9.96;8,180.41,70.97,3.79,6.50;8,185.03,66.94,3.69,9.96;8,188.72,66.94,260.85,10.52;8,449.71,65.86,2.95,6.50;8,456.68,66.94,21.19,9.96;8,478.02,65.81,2.95,6.50;8,477.87,72.59,3.79,6.66;8,482.22,66.94,15.20,9.96">Observe that, if the family {W n } n is an R-or L-strictly stable family, then any vector of weights w r = (w r 1 , . . .</s><s xml:id="_dwjjvjd" coords="8,499.08,66.94,12.28,9.96;8,511.50,65.86,2.95,6.50;8,511.20,72.15,2.95,6.50;8,515.71,67.82,3.32,8.76;8,51.58,78.90,108.03,9.96;8,159.90,77.81,2.95,6.50;8,163.79,78.90,56.14,9.96">, w r r ) can be built from a given w s , where r ≤ s.</s><s xml:id="_GTHXnNb" coords="8,222.24,79.78,296.81,8.76;8,51.57,91.73,467.45,8.76;8,51.58,103.68,32.36,8.76">Therefore, with these propositions it is possible to specify the relationships that should exist between two vectors of weights of dimension r and s in order to produce a consistent aggregation process.</s></p><p xml:id="_yf7bsHC"><s xml:id="_qMpXRhc" coords="8,61.54,115.64,395.95,8.76">Finally, to conclude this analysis, we show that strict stability is conserved through transformations.</s><s xml:id="_QQa8pXb" coords="8,459.86,115.64,59.19,8.76;8,51.58,127.59,225.59,8.76">To this aim, let us first introduce the following notations and definitions.</s></p><formula xml:id="formula_17" coords="8,71.62,195.19,190.03,14.63">M A n f (x 1 , . . . , x n ) = f -1 (A n ( f (x 1 ), ... , f (x n )))</formula><p xml:id="_GANCK9r"><s xml:id="_xtsntU9" coords="8,61.54,222.34,457.49,8.76">Let us observe that if f is the identity function, then the transformed family coincides with the original family.</s><s xml:id="_FjmYeyx" coords="8,51.57,234.58,20.96,9.96;8,72.73,238.61,3.79,6.50;8,77.36,234.58,3.69,9.96;8,81.04,235.46,193.09,9.91;8,275.74,232.22,7.77,7.31;8,275.85,240.35,2.10,6.50;8,288.33,235.46,230.69,8.76;8,51.58,247.42,90.94,8.76">If {A n } n∈N is the mean or the weighted mean then M A n f is respectively called quasi-arithmetic mean or weighted quasi-arithmetic mean.</s><s xml:id="_EkDYSFx" coords="8,144.64,247.42,326.91,8.76">The quasi-arithmetic mean FAOs are very important in many aggregation analyses.</s><s xml:id="_mcUjYvf" coords="8,473.69,247.42,45.30,8.76;8,51.58,258.49,467.45,9.96;8,53.76,270.45,200.96,9.96;8,256.47,269.36,3.79,6.50;8,260.99,271.33,65.08,8.76">Some wellknown quasi-arithmetic aggregation families are: the geometric mean (when f (x) = log(x)), the harmonic mean (when f (x) = 1/x) and the power mean (when f (x) = x p ), among others.</s><s xml:id="_KhHPmzn" coords="8,328.73,271.33,190.30,8.76;8,51.57,282.40,155.67,9.96;8,206.56,286.43,3.79,6.50;8,211.19,282.40,3.69,9.96;8,214.88,283.28,196.82,9.91">It is important to remark that some of the FAOs defined in this paper (as for example {P n } n∈N ), can not be transformed or extended directly.</s><s xml:id="_mYqDA3q" coords="8,413.78,282.40,105.25,9.96;8,51.57,294.36,342.19,10.61">For example if f (x) = 5x, then D = [0, 5], but it is not possible to guarantee that for all n ∈ N, P n f (x 1 ), ... , f</s></p><formula xml:id="formula_18" coords="8,51.57,292.34,467.45,23.61">(x n ) = n i=1 f (x i ) belongs to the interval [0, 5].</formula><p xml:id="_UbxTQB5"><s xml:id="_cczXYrZ" coords="8,61.54,319.15,276.04,8.76">In <ref type="bibr" coords="8,72.33,319.15,16.60,8.76" target="#b38">[39]</ref> it was proved that strict stability remains after transformation.</s></p><p xml:id="_Hf2zPfS"><s xml:id="_9GXUZzA" coords="8,51.57,344.09,140.80,8.90">Proposition 2.4 (Rojas et al. <ref type="bibr" coords="8,168.86,344.32,15.68,8.55" target="#b38">[39]</ref>).</s><s xml:id="_4Eg4nKk" coords="8,197.35,343.35,25.23,9.96;8,222.78,347.38,3.79,6.50;8,227.40,343.35,3.69,9.96;8,231.09,343.35,47.00,10.79;8,279.70,340.98,7.77,7.31;8,279.81,349.12,2.10,6.50;8,288.73,343.35,3.69,9.96;8,292.41,344.32,226.60,9.82;8,51.58,356.27,82.71,8.55">Let {A n } n∈N and {M A n f } n∈N be a family of aggregation operators and its extension or transformed FAO.</s><s xml:id="_44pZUFx" coords="8,136.78,356.27,19.92,8.55;8,153.62,415.41,23.52,8.55">Then  <ref type="bibr" coords="8,153.62,415.41,15.68,8.55" target="#b38">[39]</ref>).</s><s xml:id="_Nex5wyD" coords="8,182.12,415.41,186.64,8.55">The quasi-arithmetic FAO is LR-strictly stable.</s></p><formula xml:id="formula_19" coords="8,51.58,370.96,76.12,14.63">• {M A n f } n∈N is a R-</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3." xml:id="_Q5k9R8A">Stability in prioritized hierarchical aggregation operators families</head><p xml:id="_myPq2Qy"><s xml:id="_VA93R5v" coords="8,61.54,463.14,457.51,8.76;8,51.57,475.10,269.40,8.76">In the previous section, the notion of strict stability has been introduced without actually taking into account the structure of the data to be aggregated (see <ref type="bibr" coords="8,229.49,475.10,16.60,8.76" target="#b38">[39]</ref> for more details).</s><s xml:id="_K2Hg6wa" coords="8,324.64,475.10,194.40,8.76;8,51.57,487.05,467.42,8.76;8,51.57,499.01,289.36,8.76">The properties of L-and R-strict stability were established in a general way, and similar definitions could be given considering other possible positions (not just the last or the first) in which the new datum enters in the aggregation process.</s><s xml:id="_Qvmq8JQ" coords="8,343.08,499.01,175.93,8.76;8,51.57,510.96,467.47,8.76;8,51.57,522.91,63.57,8.76">However, the existence of several definitions of strict stability only starts to fully make sense in aggregation frameworks in which the data present a relevant, nontrivial structure.</s><s xml:id="_abfbNHM" coords="8,117.78,522.91,401.26,8.76;8,51.57,534.87,145.87,8.76">In fact, as previously pointed out, the notion of strict stability is closely connected with the structure of the data that has to be aggregated.</s></p><p xml:id="_7fZtBRC"><s xml:id="_K99s77S" coords="8,61.54,546.82,457.44,8.76;8,51.57,558.78,467.44,8.76;8,51.57,570.73,296.81,8.76">In a situation in which the data has not inherent structure, the position of a particular data item in the aggregation process is not relevant at all, and thus such an aggregation process has to be resolved in terms of a symmetric FAO (i.e. the aggregation operators of the whole family should be symmetric).</s><s xml:id="_2nNgRmB" coords="8,351.43,570.73,167.59,8.76;8,51.57,582.69,467.43,8.76;8,51.57,594.64,467.43,8.76;8,51.57,606.60,309.88,8.76">This is an important point, since if this is the case, the consistency of a symmetric family of aggregation operators (at least in the sense of robustness in front of cardinality changes or stability exposed above) can then be univocally associated to LR-strict stability, which in this context is equivalent to L and R-strict stability (and thus also to self-identity).</s><s xml:id="_3muujMu" coords="8,364.00,606.60,155.06,8.76;8,51.57,618.56,467.47,8.76;8,51.57,630.51,409.84,8.76">That is, in a non-structured, symmetric aggregation framework, there is no point in distinguishing between consistency from the right or from the left, since these notions are already the same as the general notion of consistency (in the above mentioned sense).</s></p><p xml:id="_nb2aHZu"><s xml:id="_HGK5hG3" coords="8,61.54,642.47,457.46,8.76;8,51.57,654.42,467.42,8.76;8,51.57,666.38,313.58,8.76">On the other hand, when the data to be aggregated has an inherent structure (for example, when the data items that arrive later have more importance than the previous), the position of a data item in the aggregation process is relevant, and thus this last should be addressed through a non-symmetric FAO.</s><s xml:id="_4r3gq9E" coords="8,367.71,666.38,151.27,8.76;8,51.57,678.33,467.40,8.76;9,99.06,271.10,20.60,7.01">However, it has to be emphasized that in this context it is no longer possible to associate consistency to LR-strict stability, since no non-symmetric FAO can Fig. <ref type="figure" coords="9,113.68,271.10,2.99,7.01">1</ref>.</s><s xml:id="_QxugPdh" coords="9,121.65,271.10,137.87,7.01">Representation of a linear structure of data.</s><s xml:id="_XuByDCW" coords="9,261.53,270.40,195.05,9.00">Note: X 1 &lt; X 2 &lt; X 3 &lt; X 4 with respect to its prioritization.</s><s xml:id="_NUYyYFC" coords="9,44.11,307.72,180.85,8.76">simultaneously fulfill L-and R-strict stability.</s><s xml:id="_MaA2j6M" coords="9,227.09,307.72,284.42,8.76;9,44.11,319.68,467.40,8.76">This is, a non-symmetric aggregation process can be consistent from the right or from the left, but now these notions are exclusive and thus not equivalent to any general notion of consistency.</s><s xml:id="_VygDjMm" coords="9,44.11,331.63,467.45,8.76;9,44.11,343.59,274.57,8.76">In fact, the point is that in a non-symmetric aggregation framework, different non-equivalent notions of consistency do exist in relation with the different structures the data can present.</s><s xml:id="_49Ekyv3" coords="9,321.52,343.59,190.00,8.76;9,44.11,355.54,467.42,8.76;9,44.11,367.50,45.99,8.76">Therefore, the election of a particular notion of consistency to be imposed (as L-or R-strict stability) has to be dependent on the particular structure of the data to be aggregated.</s></p><p xml:id="_upmFYee"><s xml:id="_2w3X5Q2" coords="9,54.06,379.45,457.46,8.76;9,44.11,391.41,206.92,8.76">Therefore, in this section, we investigate the notion of consistency to be imposed in aggregation processes in which data has a prioritized hierarchical structure.</s><s xml:id="_U9b49m4" coords="9,254.76,391.41,256.76,8.76;9,44.11,403.36,357.04,8.76">First of all, it is important to mention that, as it happens with any mathematical representation, the meaning of a hierarchical structure can be variable.</s><s xml:id="_wpupXwR" coords="9,404.02,403.36,107.53,8.76;9,44.11,415.32,467.43,8.76;9,44.11,427.27,56.64,8.76">Hierarchical structures can represent different things: the organization of an enterprise, how a set of concepts are related or how an index is built, among others.</s><s xml:id="_8mEQnqd" coords="9,103.43,427.27,408.11,8.76;9,44.11,439.23,467.43,8.76;9,44.11,451.18,467.40,8.76;9,44.11,463.14,125.30,8.76">In preference modeling, for example, a hierarchical structure is usually obtained by means of a partial order structure on the set of alternatives, in such a way that it is possible that some alternatives can not be compared or differentiated between them, but at the same time there exists some kind of prioritization between the different levels of such a hierarchical structure.</s></p><p xml:id="_Y5c7KAZ"><s xml:id="_YvNxzG8" coords="9,54.06,475.10,457.52,8.76;9,44.11,487.05,467.40,8.76;9,44.11,499.01,467.43,8.76;9,44.11,510.96,87.55,8.76">Here we assume that the relations among the items to be aggregated belong to two classes: there are some items for which their relative importance in the information aggregation process is clear (and thus they have to be considered as structured); and there are others for which such importance is not so clear or makes no sense (i.e. they are unstructured), at least in a first step.</s><s xml:id="_3Pmrq3b" coords="9,134.83,510.96,376.69,8.76;9,44.11,522.91,467.41,8.76;9,44.11,534.87,158.05,8.76">The main aim of this section is to investigate the application of the stability notions exposed above to those situations in which the data present a structure that involves some preferences or priorities to be taken into account in the aggregation process.</s></p><p xml:id="_6dsH9KR"><s xml:id="_YMVy49R" coords="9,54.06,546.82,312.62,8.76">Thus, let us introduce the simplest hierarchical structure, that of a linear order.</s><s xml:id="_Nvj29SW" coords="9,369.24,545.95,62.21,9.96;9,431.74,549.97,3.79,6.50;9,436.36,545.95,3.69,9.96;9,440.05,546.82,71.50,9.65;9,44.11,558.78,467.44,9.65;9,44.11,570.73,155.43,8.76">Suppose that {x n } n denotes the data to be aggregated, and suppose also that the importance of each datum x i (i.e. its hierarchy) in the aggregation process increases (or decreases) as i increases.</s><s xml:id="_YNsAC73" coords="9,202.52,570.73,309.04,8.76;9,44.11,581.82,467.45,10.61;9,44.11,593.77,240.48,10.61">This kind of data structures can be represented by a linear order, either from right to left if the first item is the most important, i.e. x 1 &gt; x 2 &gt; • • • &gt; x n , or from left to right if the last item is the most important, i.e. x 1 &lt; x 2 &lt; • • • &lt; x n as shown in Fig. <ref type="figure" coords="9,277.12,594.64,3.74,8.76">1</ref>.</s><s xml:id="_t7fGJ2s" coords="9,287.24,594.64,224.30,8.76;9,44.11,606.60,467.46,8.76;9,44.11,618.56,467.42,8.76;9,44.11,630.51,196.11,8.76">Note that these two kinds of linear order are in fact dual notions, as a linear order from left to right can be obtained from a linear order from right to left by reversing the order of the indexes i. Linear structures of data appear in a natural way in those situations in which more importance is given to the last (or first) elements than to the first (resp.</s><s xml:id="_GgASctq" coords="9,242.37,630.51,269.14,8.76;9,44.11,642.47,98.50,8.76">last) ones, as in time series analysis and some multi-criteria decision problems, among others.</s></p><p xml:id="_bwV3bcz"><s xml:id="_HmVKSTT" coords="9,54.06,654.42,457.45,8.76;9,44.11,666.38,467.43,8.76;9,44.11,678.33,110.92,8.76">Note that, as just explained, to be able to represent this asymmetric configuration of the data, the aggregation process has to be based on a non-symmetric FAO, in which some data items (either the first or the last ones) are assigned more importance than the others.</s><s xml:id="_4XTxm6d" coords="9,158.33,678.33,353.19,8.76;10,51.57,67.82,467.41,8.76;10,51.57,79.78,467.50,8.76;10,51.57,91.73,299.19,8.76">In this situation, to defend against possible cardinality changes and obtain a consistent aggregation process, it could be desirable to impose the condition that if the most important datum is the aggregation of the other data items, then the new aggregation should coincide with the previous one, since the most relevant information is just a confirmation of the information we had after the first aggregation.</s><s xml:id="_ZnMMBzY" coords="10,353.60,91.73,165.39,8.76;10,51.57,103.68,297.74,8.76">For example, let us suppose that with the information available until yesterday a rain probability of 0.6 is forecasted.</s><s xml:id="_Cqdr5Vw" coords="10,351.74,103.68,167.30,8.76;10,51.57,115.64,190.42,8.76">If today's information is a confirmation of this fact, then our estimation should not change.</s><s xml:id="_FQTFasq" coords="10,244.39,115.64,251.02,8.76">Also, consider some tests ordered by its increasing importance.</s><s xml:id="_jXnTcNv" coords="10,497.80,115.64,21.20,8.76;10,51.57,127.59,443.41,8.76">If the mark in the last test coincides with the aggregation of the previous ones, the final evaluation should not change.</s></p><p xml:id="_ZsZ4AvD"><s xml:id="_whp5sYs" coords="10,61.54,138.68,457.48,10.61;10,51.57,151.51,467.42,8.76;10,51.57,163.47,289.73,8.76">Thus, if the most important item is the last one, i.e. if x 1 &lt; x 2 &lt; • • • &lt; x n , and we desire our aggregation process to be consistent with this structure (in the sense of being stable under cardinality changes), then it is clear that the condition of R-strict stability is the correct one to be imposed, since then</s></p><formula xml:id="formula_20" coords="10,71.95,184.17,202.55,10.61">A n (x 1 , . . . , x n ) = x n if x n = A n-1 (x 1 , . . . , x n-1 ).</formula><p xml:id="_WVqkGpB"><s xml:id="_M7aFctg" coords="10,61.54,205.77,457.49,10.61;10,51.57,218.60,276.06,8.76">Similarly, if the most important item is the first one, i.e. if x 1 &gt; x 2 &gt; • • • &gt; x n , the condition of L-strict stability guarantees the consistency of the aggregation process, as it holds that</s></p><formula xml:id="formula_21" coords="10,71.95,239.31,192.22,10.61">A n (x 1 , . . . , x n ) = x 1 if x 1 = A n-1 (x 2 , ... , x n ).</formula><p xml:id="_BMGhYqc"><s xml:id="_WaDcAYy" coords="10,61.54,261.78,457.47,8.76;10,51.58,273.73,467.41,8.76">Therefore, in the context of the aggregation of data with a linear structure, consistency is associated with either L-or R-strict stability, depending on whether the data relevance is ordered from right to left or from left to right, respectively.</s><s xml:id="_TEJphEp" coords="10,51.58,285.69,467.42,8.76;10,51.58,297.64,467.42,8.76;10,51.58,309.60,81.89,8.76">As in this setting the involved (non-symmetric) FAO can not be LR-strictly stable, we conclude that at least two (dual but exclusive) notions of consistency has to be considered, and that the one to be applied depends on the particular structure of the data.</s></p><p xml:id="_waBHTUK"><s xml:id="_KFBHJZF" coords="10,61.54,321.56,457.46,8.76;10,51.58,333.51,230.77,8.76">Once the adequate conditions of consistency to be imposed in the context of linear data structures have been analyzed, it is possible to study more general hierarchical structures.</s><s xml:id="_Uj4df9R" coords="10,284.67,333.51,234.32,8.76;10,51.58,344.59,467.45,10.61;10,51.57,357.43,36.04,8.76">As pointed out above, a prioritized hierarchical structure of data represents a situation in which there are some clusters or levels H 1 , ... H r , with respect to which some preferences are clear.</s><s xml:id="_fWhPAPz" coords="10,90.95,357.43,428.07,9.99;10,51.58,368.50,87.64,9.96;10,138.95,372.53,2.10,6.50;10,142.29,368.50,3.69,9.96;10,145.92,373.70,24.53,8.76">H r is more important in the aggregation process than H r -1 , and so on until H 1 , hence a linear order among the different levels {H i } i=1,.</s><s xml:id="_3acThWt" coords="10,170.45,373.70,2.87,8.76;10,176.89,369.38,40.78,8.76">..r is defined.</s><s xml:id="_npAsPT8" coords="10,219.98,369.38,299.05,8.76;10,51.57,382.37,330.55,8.76">Elements or variables of the data associated to each cluster are unstructured since no preferences regarding the aggregation process are given a priori for them.</s><s xml:id="_TZMJHnu" coords="10,384.72,382.37,134.30,8.76;10,51.57,394.33,202.79,8.76">In the next definition, the concept of a prioritized hierarchical structure is introduced.</s><s xml:id="_vDNztUk" coords="10,51.57,418.10,59.35,8.78">Definition 3.1.</s><s xml:id="_nqcsC9Z" coords="10,115.90,418.24,85.78,8.76">Let X be a set of data.</s><s xml:id="_gPdTz3Z" coords="10,204.50,418.24,314.53,8.76;10,51.58,429.31,105.10,10.61">X has a prioritized hierarchical structure if it is possible to classify the elements of X into r clusters H 1 , . . .</s><s xml:id="_DjDSJXN" coords="10,159.09,430.19,157.19,9.64">H r , satisfying the following conditions:</s></p><p xml:id="_uuwUYzK"><s xml:id="_SqXAc54" coords="10,51.57,447.25,39.77,10.61">• {H 1 , . . .</s><s xml:id="_n4XTDXT" coords="10,93.76,448.21,9.77,9.56;10,104.80,447.25,126.40,9.96;10,242.88,445.22,2.95,6.50;10,242.99,452.64,12.53,6.50;10,258.44,448.21,9.04,9.56;10,271.48,447.25,50.06,10.52;10,324.98,447.25,19.95,10.52;10,348.95,447.25,49.96,9.96;10,51.57,459.20,223.06,10.61">H r } constitute a partition of X , i.e. r i=1 H i = X , and H i ∩ H j = ∅, if i j. • A linear order is defined regarding the subsets H 1 , . . .</s><s xml:id="_QwQKfEd" coords="10,276.29,459.20,242.73,10.52">, H r , in the following sense: given two elements x, y ∈ X , if</s></p><p xml:id="_vccQmBk"><s xml:id="_V2ZtBwB" coords="10,60.70,471.16,414.34,10.52">x ∈ H i , and y ∈ H j , with i &lt; j, then element y has more importance in the aggregation process than x.</s><s xml:id="_qckw8Hf" coords="10,51.57,483.11,333.65,9.96">• Elements belonging to the same class are aggregated as in the unstructured case.</s><s xml:id="_jZyv6Zp" coords="10,388.13,483.11,129.89,9.96;10,60.44,495.06,384.98,10.52">A priori, two elements x, y ∈ X are given the same importance in the aggregation process if x, y ∈ H i , for a given i ∈ {1, ... , r }.</s></p><p xml:id="_WtVYqHR"><s xml:id="_VnUg6W5" coords="10,61.54,519.85,457.44,8.76;10,51.58,531.81,355.71,8.76">Although it is clear that more complex hierarchical structures could be considered, as for example with overlapping levels, in this work we will focus in this class of linearly prioritized hierarchical structures.</s><s xml:id="_pk8DhTJ" coords="10,409.38,531.81,109.61,8.76;10,51.58,543.76,467.42,8.76;10,51.58,555.72,150.18,8.76">It is important to emphasize that when an aggregation is done in a prioritized hierarchical structure like the one presented above, such an aggregation process usually consists of two steps.</s><s xml:id="_FWz8yrR" coords="10,204.63,555.72,314.38,8.76;10,51.58,567.67,187.18,8.76">First, elements in the same class or cluster, for which a clear preference is not defined, are aggregated in an unstructured way.</s><s xml:id="_mpsqmTV" coords="10,241.16,567.67,277.84,8.76;10,51.58,579.63,467.45,8.76;10,51.58,591.58,25.75,8.76">And once this aggregation is done, then the aggregated information of these classes is aggregated according to its importance in the aggregation process (see for example <ref type="bibr" coords="10,447.18,579.63,14.94,8.76" target="#b44">[45]</ref>), as shown in Fig. <ref type="figure" coords="10,69.85,591.58,3.74,8.76" target="#fig_1">3</ref>.</s><s xml:id="_FzbXpv9" coords="10,79.81,591.58,150.03,8.76;11,54.06,425.22,189.67,9.96;11,243.48,429.25,2.10,6.50;11,246.81,425.22,264.75,9.96;11,44.11,438.05,36.80,8.76">This leads to the following definition:   Let us observe that for a set of items X with |H i | = 1, ∀ i = 1, ... r , an aggregation family on a linear structure is obtained.</s><s xml:id="_mYgKZzR" coords="11,83.72,438.05,427.80,8.76;11,44.11,450.01,308.27,8.76">Also, in the following example, we show that some prioritized hierarchical aggregation operators, as those proposed in <ref type="bibr" coords="11,93.36,450.01,16.60,8.76" target="#b44">[45]</ref> can be viewed as a particular case of the previous definition.</s></p><formula xml:id="formula_22" coords="10,51.58,613.53,408.53,12.79">Definition 3.2. Let {V n : [0, 1] n → [0, 1], n ∈ N} and {U i n : [0, 1] n → [0, 1], n ∈ N} for i ∈ N,</formula><formula xml:id="formula_23" coords="10,71.72,671.57,221.16,14.39">H I E |X | (X ) = V r t(U 1 |H 1 | (H 1 ), U 2 |H 2 | (H 2 ), . . . U r |H r | (H r )) Fig. 2.</formula><p xml:id="_23zF2sP"><s xml:id="_ezq8sjg" coords="11,44.11,473.78,54.91,8.78">Example 3.1.</s><s xml:id="_8FuvrrD" coords="11,104.00,473.92,407.55,8.76;11,44.11,485.00,196.18,10.52;11,241.11,485.00,230.57,9.96;11,471.39,489.02,3.79,6.50;11,476.01,485.00,35.55,9.96;11,44.11,497.83,49.25,8.76">The family of prioritized aggregation operators defined in <ref type="bibr" coords="11,341.52,473.92,16.60,8.76" target="#b44">[45]</ref> can be viewed as a particular case of prioritized hierarchical aggregation family {H I E n , n ∈ N}, where the vertical aggregation operator family {V n , n ∈ N} is defined as</s></p><formula xml:id="formula_24" coords="11,63.78,515.65,178.38,31.38">V n (y 1 , ... y n ) = n i=1 w n i i k=1 y n-k+1 , ∀n ∈ N</formula><p xml:id="_cR2b2xC"><s xml:id="_cE2njD8" coords="11,44.11,557.90,217.93,9.96;11,263.01,556.82,2.10,6.50;11,262.07,563.11,3.79,6.50;11,266.70,557.90,187.73,9.96;11,454.58,561.93,3.79,6.50;11,459.20,557.90,50.36,9.96">and the unstructured aggregation operators families {U l n , n ∈ N} are given by the minimum FAO {Min n , n ∈ N} ∀l.</s></p><p xml:id="_DhC7wEY"><s xml:id="_Px2e2eH" coords="11,54.07,582.69,457.46,8.76;11,44.11,593.77,104.52,9.96;11,148.93,592.52,3.79,6.50;11,148.58,599.53,2.10,6.50;11,155.44,594.64,356.09,8.76;11,44.11,606.60,448.01,8.76">However, note that in order to guarantee some robustness in an aggregation process involving this last operator, the definition of the weights w n i must satisfy some conditions similar to those described in Section 2. In the next definitions, we extend the notion of consistent FAO as well as these conditions to the context of prioritized hierarchical data.</s><s xml:id="_Mq23Vcr" coords="11,44.11,630.37,59.34,8.78">Definition 3.3.</s><s xml:id="_PnT5Uy9" coords="11,108.43,630.51,357.83,8.76">Let X be a set of data with a prioritized hierarchical structure from left to right (resp.</s><s xml:id="_5p7jCqv" coords="11,469.82,630.51,41.74,8.76;11,44.11,642.47,85.54,8.76">from right to left), i.e. such that</s></p><formula xml:id="formula_25" coords="11,44.11,641.59,467.44,23.66">H 1 &lt; • • • &lt; H r . Given a prioritized hierarchical aggregation family {H I E n } n composed by {V n : [0, 1] n → [0, 1], n ∈ N} and {U i n : [0, 1] n → [0, 1], n ∈ N}, for i ∈ N, it is said that {H I E n } n</formula><p xml:id="_hFEqZYg"><s xml:id="_um4YHAs" coords="11,462.31,654.42,49.24,8.76;11,44.11,665.50,350.67,9.96;11,394.49,669.53,3.79,6.50;11,399.12,665.50,3.69,9.96;11,402.80,666.38,108.75,9.65;11,44.11,677.45,151.89,9.96;11,197.08,676.37,2.10,6.50;11,196.03,682.66,3.79,6.50;11,200.66,677.45,3.69,9.96;11,204.35,678.33,127.86,9.65">is consistent with respect to the hierarchy of X (or simply hierarchically consistent) if and only if {V n } n is R-strictly stable family and ∀ i ∈ N, the symmetric family {U i n } n is an LR-strictly stable family.</s></p><p xml:id="_YtsD5qY"><s xml:id="_Yz7KCbu" coords="12,61.54,67.82,457.46,8.76;12,51.57,79.78,467.43,8.76;12,51.57,91.73,403.18,8.76">As it happens in the case in which no structure is considered (Section 2), it is also possible to extend the notion of hierarchical consistency in terms of asymptotic and almost sure convergence, as well as to establish different levels of stability for small data problems in terms of uniform bounds dependent on the cardinality of the data.</s></p><p xml:id="_35jk2rg"><s xml:id="_A9CHBCC" coords="12,61.54,103.68,457.44,8.76;12,51.57,114.77,383.92,9.96;12,435.21,118.79,3.79,6.50;12,439.84,114.77,3.69,9.96;12,443.53,114.77,53.14,10.52;12,496.81,118.79,3.79,6.50;12,501.44,114.77,3.69,9.96;12,505.12,115.64,13.90,9.65;12,51.58,126.72,192.53,9.96;12,243.82,130.74,3.79,6.50;12,248.45,126.72,3.69,9.96;12,252.14,127.59,120.29,9.65">Continuing Example 3.1, the next proposition shows that the hierarchical consistency of the prioritized operator proposed in <ref type="bibr" coords="12,101.11,115.64,16.60,8.76" target="#b44">[45]</ref> by Yager depends on the definition of the sequence of weights of the family {V n } n , since {Min n } n is a strictly stable FAO and the strict stability of {V n } n only depends on its weights.</s><s xml:id="_s8WkRgN" coords="12,51.57,151.37,66.36,8.78">Proposition 3.1.</s><s xml:id="_ABvPVwd" coords="12,122.91,150.63,44.23,10.52;12,167.99,150.63,3.69,9.96;12,171.68,151.60,223.81,9.56">Let {H I E n } n be the prioritized hierarchical FAO defined as follows:</s></p><p xml:id="_2TdfJYJ"><s xml:id="_zmYJAKs" coords="12,51.57,168.56,126.34,9.96;12,178.99,167.48,2.10,6.50;12,177.95,173.77,3.79,6.50;12,182.58,168.56,180.74,9.96">• For all i ∈ N, the families {U i n , n ∈ N} are given by the Minimum FAO, i.e.</s></p><formula xml:id="formula_26" coords="12,51.57,167.48,443.61,38.66">{U i n , n ∈ N} = {Min n , n ∈ N}. • The family {V n , n ∈ N} is defined as V n (y 1 , y 2 , ... , y n ) = n j=1 w n j j k=1 y n-k+1 . Then, {H I E n } n</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_9JcuBen">is a hierarchically consistent family if and only if the sequence of weights of {V</head><formula xml:id="formula_27" coords="12,51.58,194.36,467.45,28.59">n } n satisfies w n j = (1 -w n n ) • (w n-1 j )∀n ∈ N and ∀ j = 1, n -1.</formula><p xml:id="_umtRnBf"><s xml:id="_ehteW7a" coords="12,51.57,237.83,25.95,8.78">Proof.</s><s xml:id="_g9scq5x" coords="12,81.41,237.09,29.01,10.52;12,111.25,237.09,3.69,9.96;12,114.94,237.09,272.05,10.52;12,388.07,236.01,2.10,6.50;12,387.02,242.30,3.79,6.50;12,391.65,237.09,127.38,9.96;12,51.57,249.05,107.92,9.96;12,159.21,253.08,3.79,6.50;12,163.84,249.05,3.69,9.96;12,167.52,249.93,121.07,9.65">{H I E n } n is a hierarchically consistent family if and only if the families {U i n , n ∈ N} are LR-strictly stable families and the family {V n } n is a R-strictly stable family.</s><s xml:id="_ckd5JBJ" coords="12,291.94,249.05,122.55,9.96;12,414.63,253.08,3.79,6.50;12,419.26,249.05,3.69,9.96;12,422.94,249.93,96.08,9.65;12,51.57,261.01,148.03,9.96;12,199.32,265.03,3.79,6.50;12,203.95,261.01,3.69,9.96;12,207.63,261.01,311.39,10.52;12,51.57,272.96,76.45,10.61;12,131.28,272.96,30.65,9.96">Taking into account that {Min n } n is a LR strictly stable family, we only have to prove that {V n } n is a R-strictly stable family, i.e. we have to prove that for a given n ∈ N, and for all y 1 , ... , y n-1 ∈ [0, 1]</s></p><formula xml:id="formula_28" coords="12,71.24,293.01,270.44,10.61">V n y 1 , ... , y n-1 , V n-1 (y 1 , . . . , y n-1 ) = V n-1 (y 1 , ... , y n-1 ) holds.</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head xml:id="_HKQqfsx">Note that the previous equation is equivalent to</head><formula xml:id="formula_29" coords="12,71.11,324.77,187.57,41.32">n-1 j=1 ⎛ ⎝ j k=1 y n-k+1 ⎞ ⎠ (w n j -w n-1 j (1 -w n n )) = 0.</formula><p xml:id="_NzKBSXU"><s xml:id="_xybqSPn" coords="12,61.54,378.57,185.45,10.61">Now, observe that this equation holds ∀y 1 , ... ,</s></p><formula xml:id="formula_30" coords="12,249.29,376.81,250.20,14.03">y n-1 ∈ [0, 1] if and only if ∀ j = 1, n -1, w n j = w n-1 j (1 -w n n )</formula><p xml:id="_9Ys3sEr"><s xml:id="_NJEMZSS" coords="12,499.49,379.45,19.54,8.76;12,51.58,391.41,105.73,8.76">, and thus the proposition holds.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4." xml:id="_22GJfAj">Development of child's home environment indexes</head><p xml:id="_f92MqCy"><s xml:id="_zjmwHhn" coords="12,61.54,439.23,457.47,8.76;12,51.58,451.18,151.62,8.76">In order to apply the approach presented in last section, we propose a method to develop indexes to assess the quality level of children's home environment.</s><s xml:id="_36uchDu" coords="12,205.80,451.18,313.24,8.76;12,51.58,463.14,467.41,8.76;12,51.58,475.10,189.28,8.76">The data set used for this study contains information of the home environment of Chilean children in condition of vulnerability, on the context of a longitudinal research made by the National Board of Kindergartens (JUNJI) of Chile government.</s></p><p xml:id="_Hvk7gVA"><s xml:id="_93JyzUg" coords="12,61.54,487.05,457.50,8.76;12,51.58,499.01,285.72,8.76">The sample of this study has a probabilistic design, particularly stratified random sampling with proportional allocation, where the stratums correspond to geographical areas of Chile.</s><s xml:id="_T5PRH9A" coords="12,340.01,499.01,178.98,8.76;12,51.58,510.96,467.42,8.76;12,51.58,522.91,49.27,8.76">Furthermore, a clustered sampling was used, where the kindergartens correspond to the clusters, and all children's mothers enrolled on the sample centers were interviewed.</s><s xml:id="_bhKrwYV" coords="12,104.00,522.91,415.00,8.76;12,51.58,534.87,39.22,8.76">The size of the sample is 715 children, who were between 15 and 30 months of life at the time of the interview.</s><s xml:id="_upYrJaY" coords="12,93.90,534.87,425.14,8.76;12,51.58,546.82,409.08,8.76">Out of the total sample, 71% of the children were enrolled in a public kindergarten, while 29% were not enrolled, and they were selected from the public health centers near to the kindergartens of the sample.</s></p><p xml:id="_RrrW6wR"><s xml:id="_bEFtSxX" coords="12,61.54,558.78,457.45,8.76;12,51.58,570.73,87.79,8.76">The environmental information of the children was generated in 2008 through the codification of the semi-structured qualitative interviews.</s><s xml:id="_p5H22Ye" coords="12,141.76,570.73,377.24,8.76;12,51.58,582.69,467.43,8.76;12,51.58,594.64,90.05,8.76">The result of this codification process was a data set with crisp linguistic variables, wherein the distance between the linguistic values was always the same, thus not adequately representing the theoretical meaning defined by the experts.</s></p><p xml:id="_kHv6Vbv"><s xml:id="_ktx6x8z" coords="12,61.54,606.60,457.45,8.76;12,51.58,618.56,74.94,8.76">To model the knowledge in a fuzzy framework, the crisp linguistic variables were transformed into fuzzy sets in the following way.</s><s xml:id="_5HMCkgz" coords="12,129.49,618.56,389.51,8.76;12,51.58,630.51,467.44,8.76;12,51.58,642.47,76.04,8.76">For each linguistic variable, a fuzzy set was build taking into account the expert opinion and the fact that the values associated with each linguistic variable are ordered from the optimal case to the worst case for the child development.</s><s xml:id="_EmsmNDj" coords="12,130.18,642.47,388.82,8.76;12,51.58,654.42,467.45,8.76">These truth values were defined by experts in order to represent its incidence level on the concept associated with each component of the diagram, as can be seen in Fig. <ref type="figure" coords="12,341.57,654.42,4.98,8.76" target="#fig_3">5</ref> (a further example is presented in Fig. <ref type="figure" coords="12,508.23,654.42,3.60,8.76" target="#fig_4">6</ref>).</s><s xml:id="_qfyaA6s" coords="12,51.58,666.38,467.42,8.76;12,51.58,678.33,235.39,8.76">Thus, the membership function of each child to each variable represents the degree up to which this child belongs to the adequate value of this variable for a good development.</s><s xml:id="_ScSe3Ya" coords="13,54.06,325.41,457.49,10.61;13,44.11,338.24,211.45,8.76">After this fuzzy modelization, for each child x, we have a set of values x 1 , ... , x n that represent the membership degree to the fuzzy sets associated with each variable.</s><s xml:id="_UmZdd8D" coords="13,257.66,338.24,253.88,8.76;13,44.11,350.20,309.09,8.76">Now, the problem in which we are interested is how to aggregate this information in order to obtain an index or set of subindexes for each child.</s><s xml:id="_bY7TwZ4" coords="13,355.40,350.20,156.11,8.76;13,44.11,362.16,467.44,8.76;13,44.11,374.11,170.15,8.76">The main difference of this aggregation process with classical approaches is that in this case the fuzzy information that has to be aggregated is assumed to possess a prioritized hierarchical structure.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1." xml:id="_Ef9crek">The structure of the data</head><p xml:id="_3FK8jDu"><s xml:id="_fRsRdJ2" coords="13,54.07,427.27,364.53,8.76">As has been pointed out, the data that we want to aggregate present a complex structure.</s><s xml:id="_XBgBPKB" coords="13,421.98,427.27,89.55,8.76;13,44.11,439.22,426.51,8.76">In this subsection, the relationships between the different child environment variables and its hierarchical structure are shown.</s><s xml:id="_AgGWX2q" coords="13,474.33,439.22,37.19,8.76;13,44.11,451.18,284.60,8.76">Also, the variables involved in the different factors and sub-factors are described.</s></p><p xml:id="_98mFJcp"><s xml:id="_YNxXq3E" coords="13,54.07,463.14,457.46,8.76;13,44.11,475.10,288.17,8.76">The concept of child's home environment has been studied and defined by experts on child development, in such a way that it is disaggregated into six theoretical constructs called factors.</s><s xml:id="_Rq6Ss35" coords="13,334.88,475.10,176.66,8.76;13,44.11,487.05,467.40,8.76;13,44.11,499.01,140.41,8.76">Each factor is composed by sub-factors, and these are further discomposed into linguistic variables, which are prioritized by experts according to its impact over children development achievement.</s><s xml:id="_d4e32CJ" coords="13,186.66,499.01,324.88,8.76;13,44.11,510.96,467.42,8.76">These six factors are unstructured, since they represent different and incomparable aspects of child's home environment, but each one of them is composed by structured sub-factors with a linear order.</s><s xml:id="_9rCyrJb" coords="13,44.11,522.91,467.42,8.76;13,44.11,534.87,124.83,8.76">In the same way, each one of these sub-factors is composed by linguistic variables also presenting a linear order, as shown in the diagram of Fig. <ref type="figure" coords="13,161.47,534.87,3.74,8.76" target="#fig_3">5</ref>.</s></p><p xml:id="_wFFCZ57"><s xml:id="_AHtCayC" coords="13,54.07,546.82,96.11,9.65;13,151.42,545.95,42.90,9.96">Formally, each factor F i , i = 1, . . .</s><s xml:id="_3tfEcFD" coords="13,195.97,545.95,152.94,10.52;13,350.16,545.95,161.40,9.96;13,44.11,558.78,165.10,9.65">, 6, is decomposed in s i sub-factors S j , j = 1, ... , 10, each of which is in turn decomposed into c j unstructured clusters</s></p><formula xml:id="formula_31" coords="13,212.60,556.65,254.77,13.85">H k = {x k 1 , ... , x k v k } of v k variables each (for a total of |X | =<label>24</label></formula><p xml:id="_xWKyFTD"><s xml:id="_AQ3pXuh" coords="13,470.03,558.78,41.52,8.76">variables).</s><s xml:id="_4WGc2yK" coords="13,44.11,570.73,293.05,8.76">The prioritized hierarchical structure of sub-factors is illustrated in Fig. <ref type="figure" coords="13,329.68,570.73,3.74,8.76" target="#fig_3">5</ref>.</s><s xml:id="_WHCKCGj" coords="13,339.57,570.73,171.96,8.76;13,44.11,582.69,467.43,9.64;13,44.11,594.64,145.70,9.64">Note that taking into account this structure, the value of the different children in each sub-factor S j is obtained from the aggregation process of the corresponding c j unstructured clusters of variables.</s></p><p xml:id="_sCvhbnB"><s xml:id="_ft2FYG7" coords="13,54.06,606.60,457.46,8.76;13,44.11,618.56,76.99,8.76">As an example, the structure associated to the sub-factor 4 Resources and planning of activities for development is also illustrated in Fig. <ref type="figure" coords="13,113.62,618.56,3.74,8.76" target="#fig_4">6</ref>.</s><s xml:id="_dhUqQ9S" coords="13,123.14,618.56,306.83,8.76">The clusters of the hierarchical structure of this sub-factor are then given by H</s></p><formula xml:id="formula_32" coords="13,44.11,616.47,467.45,25.45">1 = {X 1 1 , X 1 2 }, H 2 = {X 2 1 }, H 3 = {X 3 1 } and H 4 = {X 4 1 }.</formula><p xml:id="_8eWBECA"><s xml:id="_huHb5gA" coords="13,182.10,630.51,329.44,8.76;13,44.11,642.47,45.20,8.76;13,90.32,640.38,3.79,6.66;13,90.02,647.22,3.79,6.66;13,94.61,642.47,11.98,8.76;13,107.60,640.38,3.79,6.66;13,107.30,647.22,3.79,6.66;13,111.88,642.47,11.98,8.76;13,124.88,640.38,3.79,6.66;13,124.57,647.22,3.79,6.66;13,129.19,642.47,11.98,8.76;13,142.19,640.38,3.79,6.66;13,141.88,647.22,3.79,6.66;13,149.10,642.47,23.87,8.76;13,173.99,640.38,3.79,6.66;13,173.69,647.22,3.79,6.66;13,180.91,642.47,49.58,8.76">For instance, let c be a child that has the values 0.6, 0.8, 0.2, 1, 0.6 associated to the variables X 1  1 , X 1 2 , X 2 1 , X 3 1 and X 4 1 respectively.</s><s xml:id="_GjgGzFN" coords="13,233.13,642.47,44.26,8.76;13,278.27,640.38,3.79,6.66;13,277.68,647.22,3.79,6.66;13,285.18,642.47,226.35,8.76;13,44.11,654.42,65.61,8.76">Note that x 3 1 is a dichotomous variable, which can not be transformed into a fuzzy set.</s><s xml:id="_fHbVg7p" coords="13,113.06,654.42,398.47,8.76;13,44.11,666.38,338.58,8.76">This kind of variables was defined as a contribution in the degree of membership of other related variables belonging to the same sub-factor (issue that was also defined by experts).</s><s xml:id="_kZqPUHF" coords="13,385.94,666.38,81.61,8.76;13,468.43,664.30,3.79,6.66;13,467.83,671.14,3.79,6.66;13,476.80,665.50,34.76,9.96;13,44.11,678.33,95.76,8.76;13,140.76,676.25,3.79,6.66;13,140.16,683.09,3.79,6.66;13,147.46,678.33,364.10,8.76;14,51.57,581.24,214.86,8.76">In this case, when x 3  1 = 1, the membership degree of x 2  1 increases in 0.2 if its original membership degree was lower than 0.5, and it increases in 0.1  if its original membership degree was higher than 0.5.</s><s xml:id="_AVJCR7f" coords="14,268.90,580.36,181.56,10.61">So, the child c has the new values H 1 = {0.6,</s><s xml:id="_DrEfp9X" coords="14,452.12,580.36,66.90,10.61">0.8}, H 2 = {0.3}</s><s xml:id="_Pve7fWW" coords="14,51.58,592.32,62.35,10.61">and H 3 = {0.6}</s><s xml:id="_MqRvyjK" coords="14,116.41,593.20,101.16,8.76">for the second sub-factor.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2." xml:id="_v6zXZ7r">The aggregation process</head><p xml:id="_3NUnNqV"><s xml:id="_hve79U9" coords="14,61.54,642.47,457.47,8.76;14,51.58,654.42,102.70,8.76">Once the structure of the data has been defined, in this subsection we formally define the way in which the sub-factors and factors are calculated.</s><s xml:id="_kFbhtKM" coords="14,156.37,654.42,362.66,8.76;14,51.58,665.50,333.78,10.52;14,386.20,665.50,3.69,9.96;14,389.89,666.38,129.13,9.65;14,51.58,678.33,203.72,8.76">Taking into account that each factor and sub-factor is defined as an aggregation of some data that present a prioritized hierarchical structure, now we provide the family {H I E n } n used for building the different factors and sub-factors that appear in Figs. <ref type="figure" coords="14,223.47,678.33,4.98,8.76" target="#fig_3">5</ref> and<ref type="figure" coords="14,247.83,678.33,3.74,8.76" target="#fig_4">6</ref>.</s><s xml:id="_BMAKtKU" coords="16,61.54,208.34,457.46,8.76;16,51.57,220.30,91.40,8.76">Therefore, it is possible to develop child's home environment indexes by means of a nested pattern of prioritized hierarchical structures.</s><s xml:id="_sjmm7te" coords="16,146.13,220.30,372.91,8.76;16,51.57,232.25,467.47,8.76;16,51.57,244.21,467.41,8.76;16,51.57,256.17,78.31,8.76">Particularly, it has been shown that when the associated structured data set is aggregated by means of two consistent FAOs (i.e. a prioritized family in order to aggregate the linearly structured data, and the arithmetic mean in order to aggregate the unstructured data), then a consistent prioritized hierarchical aggregation process is obtained.</s></p><p xml:id="_kt39Phq"><s xml:id="_JHuwdMp" coords="16,61.54,268.12,227.60,8.76;16,288.69,272.45,2.95,6.50;16,297.26,268.12,23.56,8.76;16,321.90,266.15,2.10,6.50;16,320.85,272.45,5.74,7.39;16,328.18,268.12,190.84,8.76;16,51.57,279.20,467.45,9.96;16,51.57,291.15,318.44,9.96">The prioritized and unstructured aggregation operators (V r and U i n i ) being used for the construction of the proposed index were presented in Definition 4.1, where the importance level of the structures was represented by = 0.7 when four elements are aggregated, and = 0.8 to aggregate two or three elements.</s><s xml:id="_TeZkCvs" coords="16,373.07,292.03,145.95,8.76;16,51.57,303.99,467.46,8.76;16,51.57,315.94,181.93,8.76">Therefore, the aggregated value that represents the membership degree of child c to the fuzzy set associated with the factor Adequate organization of the physical and temporal environment is 0.3548.</s></p><p xml:id="_cCspR5z"><s xml:id="_7xfQ4z9" coords="16,61.54,327.90,457.46,8.76;16,51.57,339.85,46.66,8.76">As shown in Fig. <ref type="figure" coords="16,129.32,327.90,3.74,8.76" target="#fig_3">5</ref>, each one of the six factors that represent the child's home environment is composed by prioritized sub-factors.</s><s xml:id="_dRs5VhS" coords="16,100.48,339.85,418.54,8.76;16,51.57,351.80,42.23,8.76">Hence, it is possible to develop each factor and sub-factor of the same manner as illustrated for the second sub-factor.</s><s xml:id="_GnYrBNK" coords="16,97.24,351.80,421.76,8.76;16,51.57,363.76,282.15,8.76;16,333.28,368.09,2.95,6.50;16,339.72,363.76,179.30,8.76;16,51.57,375.71,46.89,8.76;16,99.54,373.75,2.10,6.50;16,98.50,380.04,5.74,7.39;16,105.82,375.71,93.55,8.76;16,198.92,380.04,2.95,6.50;16,208.14,375.71,288.59,8.76;16,497.80,373.75,2.10,6.50;16,496.76,380.04,5.74,7.39;16,506.86,375.71,12.16,8.76;16,51.58,387.67,175.49,8.76">Thus, the child's home environment index is composed by a set of nested hierarchical structures, to be aggregated by means of a total of 16 prioritized weighted operators V r , as well as by 23 unstructured, un-weighted operators U i n i , where the operators V r are used to aggregate the data sets with linear order and the operators U i n i are used to aggregate the unstructured data sets.</s></p><p xml:id="_PuHcztf"><s xml:id="_34C3N3p" coords="16,61.54,399.63,259.52,8.76">Therefore, the child's home environment index can be defined by</s></p><formula xml:id="formula_33" coords="16,71.67,421.75,352.61,12.79">I ndex(X ) = U 6 (F 1 , F 2 , F 3 , F 4 , F 5 , F 6 ) where F k = H I E |S k | (S k ), ∀k ∈ {1, 2, ... , 6},</formula><p xml:id="_9XfSwGr"><s xml:id="_uea7RqN" coords="16,51.57,445.64,467.44,9.65;16,51.57,457.59,467.45,9.64;16,51.58,468.67,76.87,9.96;16,128.45,469.55,45.01,9.64">where each factor F i is obtained as the prioritized aggregation of its s i sub-factors S j , which in turn are obtained from the prioritized aggregation of its c j unstructured clusters H k , each one of which is computed as the unstructured aggregation of its v k variables.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3." xml:id="_PBwkDSz">Experimental results and validation</head><p xml:id="_rtFHmuK"><s xml:id="_ux5RmFH" coords="16,61.54,522.91,457.48,8.76;16,51.84,533.99,467.19,10.61;16,51.57,546.82,467.40,8.76;16,51.57,558.78,273.72,8.76">The same procedure shown to develop the second sub-factor, composed of a fuzzy modeling stage -where each child x has associated a set of values x 1 , ... , x n that represent the membership degree to the fuzzy sets associated with each linguistic variable-, and an aggregation process -where this information is aggregated in order to obtain a sub-index for each child-, was replicated for the other sub-factors and factors.</s><s xml:id="_bWp7JbN" coords="16,328.42,558.78,190.59,8.76;16,51.57,570.73,82.76,8.76">A statistical synthesis of the obtained results is presented in Table <ref type="table" coords="16,126.86,570.73,3.74,8.76" target="#tab_6">2</ref>.</s></p><p xml:id="_VEvyHHt"><s xml:id="_Nh6wKvD" coords="16,61.54,582.69,457.45,8.76;16,51.57,594.64,432.43,8.76">In order to validate these results, the indices of the child's home environment have been compared with the family psychosocial risk perceived by the interviewer in the child's home after the in-depth interview to the mother.</s><s xml:id="_bV3gcGR" coords="16,486.54,594.64,32.45,8.76;16,51.57,606.60,467.47,8.76;16,51.57,618.56,83.54,8.76">Furthermore, in order to validate the proposed methodology, we compared the results of the indices obtained through two different procedures.</s><s xml:id="_ENn45Sj" coords="16,138.39,618.56,380.61,8.76;16,51.57,630.51,467.43,8.76;16,51.57,642.47,467.46,8.76;16,51.57,654.42,346.37,8.76">The first procedure corresponds to the methodology proposed in this paper, which uses fuzzy sets associated to linguistic variables and a prioritized hierarchical aggregation process, while the second procedure is based on the additive methodology applied by Ramey <ref type="bibr" coords="16,267.61,642.47,16.60,8.76" target="#b36">[37]</ref> to construct the High-Risk Index, a measure used to distinguish children by origin-family economic status and exposition level to multiple risks.</s><s xml:id="_QEEeedU" coords="16,400.73,654.42,118.30,8.76;16,51.57,666.38,467.41,8.76;16,51.57,678.33,467.44,8.76">High-Risk Index considers 13 child's home risk factors, measured from variables related to the child's family socio-educational and economic level, where each of these variables have an associated weight representing its contribution to the child's home risk indicator.</s><s xml:id="_CVTkNDE" coords="17,44.11,232.07,467.44,8.76;17,44.11,244.03,51.74,8.76">The construction of the index is additive, and thus the higher accumulation of factors the more likely the child is in a home at risk.</s><s xml:id="_SpSAqxx" coords="17,54.06,255.98,457.47,8.76;17,44.11,267.94,467.41,8.76;17,44.11,279.89,467.42,8.76">Though the construction of the second index is based on an additive method of accumulation of risk factors measured by crisp linguistic variables, for this comparison, linguistic variables associated to fuzzy sets have been used, since we are interested in validate the aggregation method and not the theoretical construction of child's home environment.</s><s xml:id="_xyc2P6S" coords="17,44.11,291.85,467.43,8.76;17,44.11,303.80,313.21,8.76">Therefore, the development of indexes through both procedures is based on the same data set, the same theoretical conceptualization presented in Fig. <ref type="figure" coords="17,186.05,303.80,4.98,8.76" target="#fig_2">4</ref> and the same fuzzy modeling of the data.</s></p><p xml:id="_6wPuPKd"><s xml:id="_vQfz9Jd" coords="17,54.06,315.76,457.49,8.76;17,44.11,327.71,302.67,8.76">The familial psychosocial risk perceived by the interviewer was measured on a part of the sample by an ordinal variable with three levels that represent high, medium and low familial risk.</s><s xml:id="_Jy659w3" coords="17,349.38,327.71,162.14,8.76;17,44.11,339.67,401.40,8.76">Then, in order to enable the comparative analysis with the indexes, a classification rule was applied to assign index values to these three levels.</s><s xml:id="_4KcY7Vy" coords="17,447.81,339.67,63.74,8.76;17,44.11,351.62,274.39,8.76">The proportions of correct risk classifications obtained by the two indexes are similar.</s><s xml:id="_P5TjgFe" coords="17,320.92,351.62,190.62,8.76;17,44.11,363.58,467.41,8.76;17,44.11,375.53,467.40,8.76;17,44.11,387.49,245.77,8.76">Nevertheless, there exist some cases affected by the trade-off produced by the additive method, which render this last as not acceptable since it fails to take into account that the conceptual definition of child's home environment given by the experts has a hierarchical structure, in which the variables have different levels of importance or influence.</s><s xml:id="_tgNGvVG" coords="17,292.64,387.49,218.90,8.76;17,44.11,399.45,312.42,8.76">Table <ref type="table" coords="17,317.29,387.49,4.98,8.76" target="#tab_7">3</ref> shows the similarities and differences between the familial risk classifications resulting from each index construction method.</s></p><p xml:id="_tyhsAhE"><s xml:id="_CMTXWyQ" coords="17,54.06,411.40,206.42,8.76">Notice that there exist two highly discordant cases.</s><s xml:id="_WUrsDxN" coords="17,263.49,411.40,248.05,8.76;17,44.11,423.36,130.36,8.76">Therefore, the behavior of these two children on the different factors was studied more deeply.</s><s xml:id="_mvUfaEy" coords="17,177.06,423.36,334.49,8.76;17,44.11,435.31,467.43,8.76;17,44.11,447.27,129.14,8.76">Particularly, these children present a significant discordance in the factor "Adequate family characteristics and socioeconomic status", and thus the valuations of the sub-factors and variables that composed this factor were further analyzed.</s><s xml:id="_9jM2Kg2" coords="17,175.06,447.27,336.49,8.76;17,44.11,459.22,467.44,8.76;17,44.11,471.18,47.31,8.76">The sub-factor "Family composition and parenting roles" is composed by a prioritized hierarchical structure of three variables, where the variable "Mother's available time for caring" has the highest importance.</s><s xml:id="_tbpShft" coords="17,94.92,471.18,416.64,8.76;17,44.11,483.13,217.24,8.76">The sub-factor "Nonviolent climate at home" has the same structure, in which the variable "Maternal psychological adjustment" has the highest importance.</s></p><p xml:id="_hBtAEbQ"><s xml:id="_3VAzpZx" coords="17,54.06,495.08,457.48,8.76;17,44.11,507.04,129.80,8.76">Table <ref type="table" coords="17,78.92,495.08,4.98,8.76" target="#tab_8">4</ref> shows the degrees of membership of the fuzzy variables associated to these sub-factors, and the resulting scores obtained by each method.</s><s xml:id="_wXyxdud" coords="17,176.39,507.04,335.16,8.76;17,44.11,518.99,467.39,8.76;17,44.11,530.95,467.47,8.76;17,44.11,542.91,49.54,8.76">In both cases, the additive aggregation method compensates the low valuation of the higher priority variables with the other variables that have lower level of importance, while the prioritized hierarchical aggregation method does not produce this trade-off since it considers the structure of priorities when aggregating the information.</s></p><p xml:id="_baPCbxp"><s xml:id="_wRMVfza" coords="17,54.06,554.86,457.50,8.76;17,44.11,566.82,467.45,8.76;17,44.11,578.77,105.76,8.76">Particularly, it is possible to see that the additive method overestimates Case 1 in the sub-factor Nonviolent climate at home, since the high relevance of the variable with low score Maternal psychological adjustment is not considered in the aggregation process.</s><s xml:id="_K9Yyytr" coords="17,152.09,578.77,359.47,8.76;17,44.11,590.73,356.84,8.76">The same applies to Case 2 in the sub-factor Family composition and parenting roles, since the relevance of the variable with low score Exist a father figure is not taken into account.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5." xml:id="_yN88VvW">Conclusions and final remarks</head><p xml:id="_HRprjNu"><s xml:id="_7mb6cv2" coords="17,54.07,642.47,457.46,8.76;17,44.11,654.42,114.86,8.76">The point of departure of this paper is the classical definition of an aggregation family, which does not impose any relation among its members.</s><s xml:id="_K6wyagS" coords="17,161.93,654.42,349.65,8.76;17,44.11,666.38,218.34,8.76">Meanwhile such a relation does not exist, the resulting notion could not be understood as a proper family, but just as a set of n-ary operators.</s><s xml:id="_P4EvXVp" coords="17,265.37,666.38,246.19,8.76;17,44.11,678.33,371.52,8.76">Aggregation operators within a proper family must be deeply related, following a somehow unique building procedure throughout the aggregation process.</s><s xml:id="_V68XysG" coords="17,418.24,678.33,93.27,8.76;18,51.57,354.66,215.70,9.96;18,267.47,358.69,3.79,6.50;18,272.09,354.66,3.69,9.96;18,275.77,355.54,243.25,9.64;18,51.57,367.50,301.66,8.76">Since it is clear that we should not define a family of aggregation operators {A n } n in which each operator is randomly chosen, the aggregation process demands a conceptual unit idea rather than a mathematical formula.</s><s xml:id="_SpYqMPM" coords="18,355.64,367.50,163.37,8.76;18,51.57,379.45,114.27,8.76">From this approach, different issues have been addressed in this paper.</s><s xml:id="_CJexaJJ" coords="18,61.54,391.41,457.49,8.76;18,51.57,403.36,467.41,8.76;18,51.57,415.32,32.97,8.76">On one hand, we have focused on the notions of consistency and stability initially presented in <ref type="bibr" coords="18,428.79,391.41,15.27,8.76" target="#b37">[38]</ref>, where the notions of consistency and strict stability were proposed in a general way, i.e. without taking into account a possible structure of the data.</s><s xml:id="_cRyHSck" coords="18,86.24,415.32,432.76,8.76;18,51.57,427.27,48.53,8.76">Nevertheless, there exist many real situations in which the data to be aggregated present some inherent relations or structure.</s><s xml:id="_Ztm4F22" coords="18,102.98,427.27,416.01,8.76;18,51.57,439.23,134.85,8.76">As an example, consider the aggregation of different variables involved in the construction of an index, with different roles or importance.</s><s xml:id="_hApTDRk" coords="18,188.45,439.23,330.57,8.76;18,51.57,451.18,422.64,8.76">In this work, the initial notion of consistency presented in <ref type="bibr" coords="18,415.74,439.23,16.60,8.76" target="#b37">[38]</ref> has been translated to the context of prioritized structured data, distinguishing between linear orders and hierarchical structures.</s><s xml:id="_F82AZvQ" coords="18,476.94,451.18,42.06,8.76;18,51.57,463.14,467.43,8.76;18,51.57,475.10,278.40,8.76">Prioritized aggregation operators based on linear orders or hierarchical structures are more adequate for those aggregation processes in which trade-offs between the different elements are not acceptable.</s><s xml:id="_mJ7PZvQ" coords="18,332.61,475.10,186.40,8.76;18,51.57,487.05,467.44,8.76;18,51.57,499.01,193.74,8.76">As happens in multi-criteria analysis, there are some circumstances (as ethical or safety issues), in which a bad evaluation in some variables or criteria can not be compensated by a good evaluation on the others.</s></p><p xml:id="_wwmAaxf"><s xml:id="_tgFfTbQ" coords="18,61.54,510.96,457.44,8.76;18,51.57,522.91,467.41,8.76;18,51.57,534.87,205.81,8.76">On the other hand, the relevance of the notion of consistency when the information has a prioritized hierarchical structure has been stressed through its application to the development of indexes, with the aim of improving the representation of our knowledge of a social reality.</s><s xml:id="_DYSBf6d" coords="18,260.38,534.87,258.66,8.76;18,51.57,546.82,173.48,8.76">Also, a method to develop indexes of child's home environment with prioritized information was proposed.</s><s xml:id="_HM4CNaz" coords="18,228.26,546.82,290.70,8.76;18,51.57,558.78,467.46,8.76;18,51.57,570.73,194.88,8.76">The information involved in the development of these indexes has been represented by means of fuzzy sets, where the membership functions were defined by experts' judgments, just as the prioritization relationships between the variables.</s><s xml:id="_rjP4yNV" coords="18,248.55,570.73,270.46,8.76;18,51.57,582.69,233.25,8.76">Social indexes developed in this work have been generated by means of a consistent family of prioritized aggregation operators.</s><s xml:id="_VJ23xRu" coords="18,287.47,582.69,231.57,8.76;18,51.57,594.64,467.43,8.76;18,51.57,606.60,332.93,8.76">This method was applied in the context of a population of Chilean children on a vulnerable condition, showing actual advantages with previous approaches based on classical statistical multivariate analysis, quite often subject to some unrealistic assumptions.</s></p><p xml:id="_gpZXfkJ"><s xml:id="_4uXfkAN" coords="18,61.54,618.56,179.45,8.76">Obviously, this work opens several questions.</s><s xml:id="_E8BT8ZV" coords="18,243.05,618.56,275.93,8.76;18,51.57,630.51,81.53,8.76">For example, how to extend the notion of consistency to other kinds of particular structures.</s><s xml:id="_RZf4zEv" coords="18,135.23,630.51,383.79,8.76;18,51.57,641.59,152.03,10.52;18,204.45,641.59,3.69,9.96;18,208.14,642.47,7.11,9.65">In this paper we have obtained necessary and sufficient conditions to guarantee consistency of the prioritized aggregation family {H I E n } n .</s><s xml:id="_xTuR6dZ" coords="18,218.17,642.47,300.83,8.76;18,51.57,654.42,151.89,8.76">A general approach when the structure is not completely known is another issue to be addressed in future works.</s><s xml:id="_tzRAXu5" coords="18,206.34,654.42,312.66,8.76;18,51.57,666.38,467.45,8.76;18,51.57,678.33,275.48,8.76">Moreover, some technical problems already pointed out in previous works, as the analysis of the consistency of OWA operators (in any of its levels and in relation with the conditions that have to be imposed on its weights sequence), remain still open for future works.</s></p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0" coords="8,51.58,150.63,338.37,9.96;8,390.14,150.63,128.89,10.52;8,51.58,165.19,427.57,9.96;8,485.31,165.00,2.99,5.13;8,480.85,170.96,2.10,6.50;8,489.56,165.19,3.69,9.96;8,493.25,166.07,25.78,9.91;8,51.58,178.03,40.12,8.76"><head>Definition 2 . 5 .</head><label>25</label><figDesc><div><p xml:id="_qj9Ze5J"><s xml:id="_mbhHUg3" coords="8,115.90,150.63,274.04,9.96;8,390.14,150.63,128.89,10.52;8,51.58,165.19,427.57,9.96;8,485.31,165.00,2.99,5.13;8,480.85,170.96,2.10,6.50;8,489.56,165.19,3.69,9.96;8,493.25,166.07,25.78,9.91;8,51.58,178.03,40.12,8.76">Let f : [0, 1] → D be a continuous and injective function, and let {A n : D → D, n ∈ N} be a family of aggregation operators defined in the domain A. Then, the transformed aggregation operator family {M n f } n∈N is defined as</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1" coords="11,180.63,399.73,194.37,7.01"><head>Fig. 3 .</head><label>3</label><figDesc><div><p xml:id="_8A94p6p"><s xml:id="_xTGfWq4" coords="11,180.63,399.73,194.37,7.01">Fig. 3. Aggregation process of a prioritized hierarchical data.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2" coords="13,160.98,278.10,233.68,7.01"><head>Fig. 4 .</head><label>4</label><figDesc><div><p xml:id="_tw4BVj6"><s xml:id="_YZ5Yauw" coords="13,160.98,278.10,233.68,7.01">Fig. 4. The complete nested structure of Child's home environment index.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3" coords="14,142.96,193.10,284.64,7.01"><head>Fig. 5 .</head><label>5</label><figDesc><div><p xml:id="_P5AzYWz"><s xml:id="_XSWyZT3" coords="14,142.96,193.10,284.64,7.01">Fig. 5. Nested structure of factors and sub-factors of the Child's home environment index.</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4" coords="14,121.58,555.30,327.35,7.01"><head>Fig. 6 .</head><label>6</label><figDesc><div><p xml:id="_eNREXfe"><s xml:id="_quduWUD" coords="14,121.58,555.30,20.60,7.01">Fig. 6.</s><s xml:id="_Te9274N" coords="14,144.17,555.30,304.76,7.01">Theoretical representation of the factor "Resources and planning of activities for development".</s></p></div></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0" coords="7,44.11,67.65,466.43,64.10"><head>Table 1</head><label>1</label><figDesc><div><p xml:id="_mPBtyKM"><s xml:id="_5AVnHbx" coords="7,44.11,77.61,180.94,7.00">Stability level of some families of aggregation operators.</s></p></div></figDesc><table coords="7,45.10,95.79,465.44,35.96"><row><cell>Family of aggregation</cell><cell>Strict</cell><cell>Asymptotic</cell><cell>Almost sure</cell><cell>Instability</cell></row><row><cell>operators {A n } n N</cell><cell>stability</cell><cell>stability</cell><cell>stability</cell><cell></cell></row><row><cell>Min</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1" coords="7,44.11,603.29,467.45,34.61"><head></head><label></label><figDesc><div><p xml:id="_nZwYgeq"><s xml:id="_fmnv5Wv" coords="7,307.50,603.29,204.06,8.55;7,44.11,614.27,12.24,9.96;7,56.37,618.30,3.79,6.50;7,60.99,614.27,75.51,9.96;7,149.45,612.25,3.79,6.50;7,149.40,619.67,12.53,6.50;7,164.09,614.27,7.32,9.96;7,171.71,613.02,3.79,6.50;7,171.36,620.04,2.10,6.50;7,179.19,614.27,74.01,9.96">a sequence of weights of a weighted mean family {W n , n ∈ N} such that n i=1 w n i = 1 holds ∀n ≥ 2.</s><s xml:id="_xWUW5xp" coords="7,255.74,614.27,79.36,9.96;7,335.13,618.30,3.79,6.50;7,339.76,614.27,3.69,9.96;7,343.45,615.24,168.11,9.56;7,44.11,627.93,138.21,9.96">Then, the family {W n } n is a R-strictly stable family if and only if the sequence of weights satisfies w</s></p></div></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3" coords="8,51.57,373.24,364.10,50.84"><head></head><label></label><figDesc><div><p xml:id="_5p9Ebmk"><s xml:id="_Sqmq4Aq" coords="8,87.19,390.53,191.66,10.79;8,279.05,394.56,3.79,6.50;8,283.67,390.53,3.69,9.96;8,287.36,391.50,128.31,9.82">n∈N is a L-strictly stable family if and only if {A n } n∈N is a R-strictly stable family.</s></p></div></figDesc><table /><note coords="8,127.69,373.24,149.74,9.96;8,277.63,377.26,3.79,6.50;8,282.25,373.24,3.69,9.96;8,285.94,374.21,128.31,9.82;8,51.58,390.53,21.50,9.96;8,79.25,390.34,2.99,5.13;8,74.79,396.30,2.10,6.50;8,83.51,390.53,3.69,9.96;8,51.57,415.18,99.56,8.90"><p xml:id="_XAT5cFn"><s xml:id="_FXKfJXU" coords="8,127.69,373.24,149.74,9.96;8,277.63,377.26,3.79,6.50;8,282.25,373.24,3.69,9.96;8,285.94,374.21,128.31,9.82">strictly stable family if and only if {A n } n∈N is a R-strictly stable family.</s><s xml:id="_6sGSjv9" coords="8,51.58,390.53,21.50,9.96;8,79.25,390.34,2.99,5.13;8,74.79,396.30,2.10,6.50;8,83.51,390.53,3.69,9.96;8,51.57,415.18,99.56,8.90">• {M n f } Corollary 1 (Rojas et al.</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" coords="10,51.50,615.50,467.52,46.88"><head></head><label></label><figDesc><div><p xml:id="_Pw9hK3P"><s xml:id="_5ZMztQd" coords="10,463.18,615.50,55.84,8.76;10,51.57,627.45,89.54,8.76">be families of aggregation operators.</s><s xml:id="_vd6kkbK" coords="10,144.25,626.57,221.50,10.52;10,366.60,626.57,3.69,9.96;10,370.28,626.57,74.47,10.52;10,444.46,630.60,3.79,6.50;10,449.09,626.57,3.69,9.96;10,452.78,626.57,38.51,10.52;10,492.37,625.48,2.10,6.50;10,491.33,631.78,3.79,6.50;10,495.95,626.57,3.69,9.96;10,499.64,627.45,19.39,9.64;10,51.50,638.53,466.26,10.61;10,51.57,650.48,75.57,9.96;10,140.16,648.46,2.95,6.50;10,140.27,655.88,12.53,6.50;10,154.96,650.48,10.80,9.96">The prioritized hierarchical aggregation family {H I E n } n composed by {V n } n , and {U i n } n for i ∈ N is defined as follows: for any set of items X having a prioritized hierarchical structure with clusters H 1 , ... , H r and cardinal |X | = r i=1 |H</s></p></div></figDesc><table /><note coords="10,165.50,654.51,2.10,6.50;10,168.83,648.66,215.79,12.68;10,387.88,650.48,81.15,9.96"><p xml:id="_xqJahSC"><s xml:id="_qvkpEHg" coords="10,165.50,654.51,2.10,6.50;10,168.83,648.66,215.79,12.68;10,387.88,650.48,81.15,9.96">i |, the aggregation operator function H I E |X | : [0, 1] |X | → [0, 1] is given by</s></p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5" coords="11,66.07,223.40,445.47,9.00"><head></head><label></label><figDesc><div><p xml:id="_tz88vae"><s xml:id="_DWjrVmQ" coords="11,66.07,224.10,190.34,7.01">Representation of a prioritized hierarchical structure of data.</s><s xml:id="_jDP338q" coords="11,258.12,223.40,253.41,9.00">Note: {X 1 , X 2 , ... , X i } is unstructured and {H 1 , H 2 , ... , H r } has a linear order.</s></p></div></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6" coords="16,51.57,67.65,466.46,101.51"><head>Table 2</head><label>2</label><figDesc><div><p xml:id="_KnuEjkp"><s xml:id="_DbAJ6HX" coords="16,51.57,77.61,188.00,7.00">General statistics of the child's home environment indexes.</s></p></div></figDesc><table coords="16,52.57,94.05,26.10,7.01"><row><cell>Indexes</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7" coords="17,44.11,67.65,466.46,129.03"><head>Table 3</head><label>3</label><figDesc><div><p xml:id="_stpj4DW"><s xml:id="_tubz7AE" coords="17,44.11,77.61,58.21,7.00">Additive index vs.</s><s xml:id="_gbQKAcN" coords="17,104.32,77.61,192.78,7.00">prioritized index of quality of the child's home environment.</s></p></div></figDesc><table coords="17,188.27,95.79,92.73,7.00"><row><cell>Prioritized hierarchical index</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8" coords="18,51.57,67.65,466.45,242.62"><head>Table 4</head><label>4</label><figDesc><div><p xml:id="_JBCwGG7"><s xml:id="_PRBpW6n" coords="18,51.57,77.61,349.80,7.00">Membership degrees of fuzzy sets associated to the factor "Family characteristics and socioeconomic status".</s></p></div></figDesc><table coords="18,52.57,95.79,465.46,214.47"><row><cell>Sub-factor</cell><cell>Variable</cell><cell>Case 1</cell><cell>Case 2</cell></row><row><cell>1. Family composition</cell><cell>Mother's available time for caring</cell><cell>0.00</cell><cell>0.99</cell></row><row><cell>and parenting roles</cell><cell>Exist a father figure</cell><cell>0.00</cell><cell>0.00</cell></row><row><cell></cell><cell>Father involves in childbearing</cell><cell>0.00</cell><cell>1.00</cell></row><row><cell cols="2">Score of the sub-factor 1 with prioritized hierarchical method</cell><cell>0.00</cell><cell>0.41</cell></row><row><cell cols="2">Score of the sub-factor 1 with additive method</cell><cell>0.00</cell><cell>0.66</cell></row><row><cell>2. Nonviolent climate</cell><cell>Maternal psychological adjustment</cell><cell>0.09</cell><cell>0.99</cell></row><row><cell>at home</cell><cell>Perception of family relation</cell><cell>0.71</cell><cell>0.99</cell></row><row><cell></cell><cell>No presence of family violence</cell><cell>1.00</cell><cell>0.99</cell></row><row><cell cols="2">Score of the sub-factor 2 with prioritized hierarchical method</cell><cell>0.07</cell><cell>0.98</cell></row><row><cell cols="2">Score of the sub-factor 2 with additive method</cell><cell>0.60</cell><cell>0.99</cell></row><row><cell>3. Economic stability</cell><cell>Low income is not a problem</cell><cell>0.52</cell><cell>0.72</cell></row><row><cell cols="2">Score of the sub-factor 3 with prioritized hierarchical method</cell><cell>0.52</cell><cell>0.72</cell></row><row><cell cols="2">Score of the sub-factor 3 with additive method</cell><cell>0.52</cell><cell>0.72</cell></row><row><cell cols="2">Score of the factor with prioritized hierarchical method</cell><cell>0.00</cell><cell>0.37</cell></row><row><cell>Score of the factor with additive method</cell><cell></cell><cell>0.33</cell><cell>0.81</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head xml:id="_ksAVpSU">Acknowledgment</head><p xml:id="_uZp4NtE">This research has been partially supported by the <rs type="funder">Government of Spain</rs>, Grant <rs type="grantNumber">TIN2009-32482</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_JBatvQv">
+					<idno type="grant-number">TIN2009-32482</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_CYFPXxf"><p xml:id="_6sntzMq"><s xml:id="_wcMccs9" coords="15,54.06,67.82,457.46,8.76;15,44.11,80.37,87.95,9.96;15,131.77,84.40,3.79,6.50;15,136.40,80.37,195.69,10.61;15,345.42,78.35,3.79,6.50;15,346.66,85.76,12.54,6.50;15,361.36,80.37,7.32,9.96;15,368.99,79.12,3.79,6.50;15,369.92,86.14,2.10,6.50;15,373.61,81.25,3.32,8.76;15,387.54,77.70,2.10,6.50;15,386.30,86.14,13.51,6.50;15,402.60,81.25,108.94,9.64;15,44.11,93.20,243.56,8.76">In order to aggregate a set of items X with a hierarchical prioritized structure, we are going to use the prioritized aggregation family {V n , n ∈ N } previously defined as V n (y 1 , ... , y n ) = n j=1 w n j ( j k=1 y n-k+1 ) for the lineal order structure and the arithmetic mean for the unstructured levels.</s><s xml:id="_54CzCYv" coords="15,290.33,93.20,221.22,8.76;15,44.11,104.28,467.46,9.96;15,44.11,116.23,233.04,9.96;15,277.44,114.98,3.79,6.50;15,278.38,122.00,2.10,6.50;15,284.83,116.23,22.84,9.96;15,307.97,114.98,3.79,6.50;15,308.91,122.00,12.54,6.50;15,321.95,117.11,2.49,8.76">Following the experts' opinion, we want to impose that the importance of a level j decrease a factor ∈ [0, 1] with respect to the importance (in the aggregation of the corresponding factor or sub-factor) of the level j -1, i.e. w n j = w n j-1 .</s><s xml:id="_SSXV5Wb" coords="15,326.52,117.11,185.02,8.76;15,44.11,129.07,467.50,8.76;15,44.11,141.02,244.95,8.76">Taking this into account, and also imposing the hierarchical consistency of the aggregation process, the following definition is proposed in order to build the aggregation process of the different factors and sub-factors just described.</s></p><p xml:id="_hWnenU5"><s xml:id="_wpThBTn" coords="15,44.11,222.07,14.38,8.76">and</s></p><p xml:id="_c5kE5uX"><s xml:id="_JP28s3q" coords="15,54.07,287.04,457.47,8.76;15,44.11,298.99,234.18,8.76">In this aggregation process, represents a discount factor in the importance of the different levels of the hierarchical structure when computing a specific factor or sub-factor.</s><s xml:id="_QRw8nZ4" coords="15,282.09,298.11,116.64,9.96;15,399.43,296.86,3.79,6.50;15,400.17,303.88,2.10,6.50;15,409.10,298.11,30.94,9.96">Notice that if = 1, then l n j = 1/n.</s><s xml:id="_RpB3fZg" coords="15,443.84,298.99,67.72,8.76;15,44.11,310.94,221.12,8.76">Otherwise, more importance is given to the first elements of this addend.</s><s xml:id="_Fqwf9Xg" coords="15,267.80,310.07,243.74,9.96;15,44.11,322.90,161.82,8.76">If = 0, only the elements that appear in the highest level of the hierarchical structure are considered.</s></p><p xml:id="_cmGksDX"><s xml:id="_avVeFnW" coords="15,44.11,346.67,54.91,8.78">Example 4.1.</s><s xml:id="_ZkaEXtV" coords="15,104.00,345.94,407.55,10.62;15,44.11,358.77,434.53,8.76">Let X be a hierarchical structure with H 1 = {x 1 , x 2 }, H 2 = {x 3 , x 4 }, H 3 = {x 5 }, and let x be an element (a specific child) with membership degrees for this 5 variables given by (0.6, 0.7, 1, 1, 0.4).</s><s xml:id="_4Qe2VZv" coords="15,482.67,357.89,28.89,9.96;15,44.11,370.72,192.12,8.76;15,237.12,368.56,9.70,6.66;15,236.63,375.64,3.79,6.66;15,251.70,370.72,142.76,8.76;15,395.35,368.56,9.70,6.66;15,394.86,375.64,3.79,6.66;15,405.55,369.85,106.00,9.96;15,44.39,385.42,6.09,8.55;15,51.98,383.16,9.70,6.66;15,50.19,390.08,3.79,6.66;15,62.18,385.33,168.71,9.74;15,232.40,383.16,9.70,6.66;15,230.60,390.08,3.79,6.66;15,242.60,384.45,58.13,10.61;15,315.39,382.36,3.79,6.66;15,316.63,389.84,12.54,6.50;15,331.12,385.42,2.77,8.55;15,334.60,383.24,3.79,6.66;15,335.34,390.22,2.10,6.50;15,351.14,381.78,2.10,6.50;15,349.91,390.22,13.51,6.50;15,365.58,385.33,37.64,9.74;15,403.93,383.24,3.79,6.66;15,404.67,390.22,2.10,6.50;15,412.47,384.45,24.79,9.96;15,438.49,383.36,12.54,6.50;15,451.53,384.45,4.68,9.96;15,466.62,382.36,3.79,6.66;15,466.62,389.84,13.51,6.50;15,482.29,385.33,12.77,8.76;15,495.06,383.36,13.51,6.50;15,509.06,385.33,2.49,8.76;15,44.11,397.28,27.73,9.65;15,77.94,396.40,182.07,10.52">If = 0.8, the prioritized hierarchical operator H I E 0.8 5 is given by the composition H I E 0.8 5 (0.6, 0.7, 1, 1, 0.4) = V 0.8 3 (U 2 (0.6, 0.7), U 2 (1, 1), U 1 (0.4)), where V 0.8 3 (Y 1 , Y 2 , Y 3 ) = 3 j=1 l 3 j j k=1 Y 3-k+1 , l 3 j = 0.8 j-1 / 3 k=1 0.8 k-1 , and U n = M n , i.e. the arithmetic mean of n elements.</s></p><p xml:id="_aqJGdxk"><s xml:id="_A8PZwwr" coords="15,54.07,408.36,457.49,11.41;15,44.11,421.19,65.10,8.76">Therefore, elements in the same cluster H j are first aggregated by M |H j | , and hence Y 1 , Y 2 , Y 3 have values 0.65,1, 0.4 respectively.</s><s xml:id="_MJJY9pj" coords="15,112.30,421.19,399.24,8.76;15,44.11,433.15,123.43,8.76;15,168.24,431.06,3.79,6.66;15,168.98,438.04,2.10,6.50;15,172.53,433.15,2.49,8.76">Then, the aggregated information of these clusters is aggregated according to its importance in the aggregation process, given by l 3 j .</s><s xml:id="_MYsbb5u" coords="15,177.50,433.15,158.38,8.76">Thus, the aggregation of this 5 values is</s></p><p xml:id="_uZP2yVG"><s xml:id="_NgbkrNw" coords="15,64.25,464.74,20.38,8.55;15,85.53,462.12,9.70,6.66;15,85.03,469.20,3.79,6.66;15,95.73,463.77,100.79,9.96;15,44.11,576.31,25.95,8.78">H I E 0.8 5 (0.6, 0.7, 1, 1, 0.4) = 0.4 Proof.</s><s xml:id="_zMPu4Qb" coords="15,73.94,576.45,315.24,8.76;15,389.88,574.32,3.79,6.50;15,390.62,581.34,2.10,6.50;15,397.48,575.57,35.31,9.96;15,433.50,574.49,3.79,6.50;15,433.00,580.78,3.79,6.50;15,438.12,576.45,5.88,8.76;15,444.71,573.81,13.82,6.50;15,445.45,581.34,2.10,6.50;15,463.68,575.57,47.87,9.96;15,43.90,591.00,6.32,9.55;15,54.23,590.03,7.77,9.96;15,70.98,588.94,12.54,6.50;15,84.02,590.03,4.68,9.96;15,99.12,588.01,3.79,6.50;15,99.12,595.42,13.51,6.50;15,119.76,588.94,13.51,6.50;15,136.27,590.91,117.73,8.76">Taking the previous considerations into account, we just have to prove that l n j -(1l n n )l n-1 j = 0, where l j = j-1 / n k=1 k-1 for each particular sub-factor.</s><s xml:id="_CMYNCFN" coords="15,256.48,590.91,61.59,8.76">And effectively</s></p><p xml:id="_GdFPy2F"><s xml:id="_ukhFYvX" coords="15,164.74,650.09,15.52,9.96;15,44.11,678.33,107.91,8.76">= 0 which concludes the proof.</s><s xml:id="_5xJJfUS" coords="15,159.77,677.45,7.74,9.96">ç</s></p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct coords="19,60.37,138.88,361.85,7.01" xml:id="b0">
+	<analytic>
+		<title level="a" type="main" coord="19,164.42,138.88,137.74,7.01" xml:id="_mMEm2AY">Representation of consistent recursive rules</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Amo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Molina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_JFAq7Xd" coord="19,307.06,138.88,53.56,7.01">Eur. J. Oper.Res</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="29" to="53" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Amo, J. Montero, E. Molina, Representation of consistent recursive rules, Eur. J. Oper.Res. 130 (2001) 29-53.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,148.92,451.15,7.01;19,60.37,158.89,329.41,7.01" xml:id="b1">
+	<analytic>
+		<title level="a" type="main" coord="19,339.01,148.92,172.52,7.01;19,60.37,158.89,168.20,7.01" xml:id="_sQg5X72">Home and preschool learning environments and their relations to the development of early numeracy skills</title>
+		<author>
+			<persName><forename type="first">Yvonne</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hans-Günther</forename><surname>Rossbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sabine</forename><surname>Weinert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Susanne</forename><surname>Kuger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simone</forename><surname>Lehrl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jutta</forename><surname>Von Maurice</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ecresq.2011.08.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NkpUBDX" coord="19,233.24,158.89,90.98,7.01">Early Childhood Research Quarterly</title>
+		<title level="j" type="abbrev">Early Childhood Research Quarterly</title>
+		<idno type="ISSN">0885-2006</idno>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="231" to="244" />
+			<date type="published" when="2012-04">2012</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Y. Anders, H.-G. Rossbach, S. Weinert, S. Ebert, S. Kuger, S. Lehrl, J. von Maurice, Home and preschool learning environments and their relations to the development of early numeracy skills, Early Childhood Res. Quart. 37 (2012) 231-244.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,168.93,364.09,7.01" xml:id="b2">
+	<analytic>
+		<title level="a" type="main" coord="19,171.35,168.93,151.53,7.01" xml:id="_Y5Ckbzu">Interpolatory Type Aggregation Functions</title>
+		<author>
+			<persName><forename type="first">Gleb</forename><surname>Beliakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ana</forename><surname>Pradera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomasa</forename><surname>Calvo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-540-73721-6_6</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_977j4Tp">Aggregation Functions: A Guide for Practitioners</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="271" to="296" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">G. Beliakov, A. Pradera, T. Calvo, Aggregation Functions, a Guide to Practitioners, Springer-Verlag, Berlin, 2007.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,178.98,451.13,7.01;19,60.37,188.94,129.67,7.01" xml:id="b3">
+	<analytic>
+		<title level="a" type="main" xml:id="_kzb8YMk">Cinco vías de acceso a la realidad social</title>
+		<author>
+			<persName coords=""><forename type="first">Miguel</forename><surname>Beltrán</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/40183084</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_94gZqeF">Reis</title>
+		<idno type="ISSN">0210-5233</idno>
+		<imprint>
+			<biblScope unit="issue">29</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="1986">1986</date>
+			<publisher>JSTOR</publisher>
+			<pubPlace>Madrid, Alianza</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Cinco vías de acceso a la realidad social</note>
+	<note type="raw_reference">M. Beltrán, Cinco vías de acceso a la realidad social, En: García Ferrando; Ibañez y Alvira, El análisis de la realidad social, Métodos y técnicas de investigación, Madrid, Alianza, 1986.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,198.98,451.17,7.01;19,60.37,208.94,101.62,7.01" xml:id="b4">
+	<analytic>
+		<title level="a" type="main" coord="19,198.20,198.98,255.88,7.01" xml:id="_pk2ZjPq">The Child Care HOME Inventories: assessing the quality of family child care homes</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">H</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bettye</forename><forename type="middle">M</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">F</forename><surname>Corwyn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0885-2006(03)00041-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_46AvMsD" coord="19,459.26,198.98,52.28,7.01;19,60.37,208.94,36.07,7.01">Early Childhood Research Quarterly</title>
+		<title level="j" type="abbrev">Early Childhood Research Quarterly</title>
+		<idno type="ISSN">0885-2006</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="294" to="309" />
+			<date type="published" when="2003-09">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.H. Bradley, B.M. Caldwell, R.F. Corwyn, The child care HOME inventories: assessing the quality of family child care homes, Early Childhood Res. Quart. 18 (2003) 294-309.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,218.99,362.97,7.01" xml:id="b5">
+	<analytic>
+		<title level="a" type="main" xml:id="_UF3QzeM">The HOME Inventory and family demographics.</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">H</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bettye</forename><forename type="middle">M</forename><surname>Caldwell</surname></persName>
+		</author>
+		<idno type="DOI">10.1037//0012-1649.20.2.315</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_Jw5PjKt" coord="19,313.99,218.99,43.77,7.01">Developmental Psychology</title>
+		<title level="j" type="abbrev">Developmental Psychology</title>
+		<idno type="ISSN">0012-1649</idno>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="315" to="320" />
+			<date type="published" when="1984">1984</date>
+			<publisher>American Psychological Association (APA)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.H. Bradley, B.M. Caldwell, The HOME inventory and family demographics, Dev. Psychol. 20 (1984) 315-320.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,229.04,451.17,7.01;19,60.37,238.99,101.62,7.01" xml:id="b6">
+	<analytic>
+		<title level="a" type="main" coord="19,198.20,229.04,255.88,7.01" xml:id="_Yv6GQZJ">The Child Care HOME Inventories: assessing the quality of family child care homes</title>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">H</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bettye</forename><forename type="middle">M</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">F</forename><surname>Corwyn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0885-2006(03)00041-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_jtSgnsS" coord="19,459.26,229.04,52.28,7.01;19,60.37,238.99,36.07,7.01">Early Childhood Research Quarterly</title>
+		<title level="j" type="abbrev">Early Childhood Research Quarterly</title>
+		<idno type="ISSN">0885-2006</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="294" to="309" />
+			<date type="published" when="2003-09">2003</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.H. Bradley, B.M. Caldwell, R.F. Corwyn, The child care HOME inventories: assessing the quality of family child care homes, Early Childhood Res. Quart. 18 (2003) 294-309.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,249.04,257.83,7.01" xml:id="b7">
+	<analytic>
+		<author>
+			<persName coords=""><forename type="first">U</forename><surname>Bronfenbrenner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_YKr3q5f" coord="19,124.23,249.04,108.68,7.01">La ecología del desarrollo humano</title>
+		<meeting><address><addrLine>Barcelona</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">U. Bronfenbrenner, La ecología del desarrollo humano, Paidos, Barcelona, 1987.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,259.09,451.08,7.01;19,60.37,269.05,140.10,7.01" xml:id="b8">
+	<analytic>
+		<title level="a" type="main" coord="19,180.71,259.09,327.58,7.01" xml:id="_wCAbVKC">At HOME in Scotland: validation of the home observation for measurement of the environment inventory</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Burston</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Puckering</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Kearney</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2214.2005.00546.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_fQMjMZS" coord="19,60.37,269.05,74.52,7.01">Child: Care, Health and Development</title>
+		<title level="j" type="abbrev">Child</title>
+		<idno type="ISSN">0305-1862</idno>
+		<idno type="ISSNe">1365-2214</idno>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="533" to="538" />
+			<date type="published" when="2005-08-05">2005</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Burston, C. Puckering, E. Kearney, At HOME in Scotland: validation of the home observation for measurement of the environment inventory, Child Care Health Dev. 31 (2005) 533-538.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,279.09,451.10,7.01;19,60.37,289.06,38.31,7.01" xml:id="b9">
+	<analytic>
+		<title level="a" type="main" coord="19,312.89,279.09,87.39,7.01" xml:id="_mBqe9pm">Contrast of a fuzzy relation</title>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Bustince</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">E</forename><surname>Barrenechea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Pagola</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Guerra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ins.2009.12.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_aRaZ7Xb" coord="19,405.49,279.09,68.21,7.01">Information Sciences</title>
+		<title level="j" type="abbrev">Information Sciences</title>
+		<idno type="ISSN">0020-0255</idno>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1326" to="1344" />
+			<date type="published" when="2010-04">2010</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">H. Bustince, E. Barrenechea, J. Fernàndez, M. Pagola, J. Montero, C. Guerra. Contrast of a fuzzy relation. Information Sciences 180 (2010) 1326-1344.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,299.10,451.12,7.01;19,60.37,309.07,347.18,7.01" xml:id="b10">
+	<analytic>
+		<title level="a" type="main" coord="19,234.09,299.10,215.10,7.01" xml:id="_PQ88dbS">Aggregation Operators: Properties, Classes and Construction Methods</title>
+		<author>
+			<persName><forename type="first">Tomasa</forename><surname>Calvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anna</forename><surname>Kolesárová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magda</forename><surname>Komorníková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Radko</forename><surname>Mesiar</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-7908-1787-4_1</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_Ua93rV6" coord="19,83.60,309.07,161.49,7.01">Aggregation Operators</title>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Calvo</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Physica-Verlag HD</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page" from="3" to="104" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Calvo, A. Kolesárová, M. Komorníková, R. Mesiar, Aggregation operators, properties, classes and construction methods, in: T. Calvo, et al. (Eds.), Aggregation Operators New trends ans Aplications, vol. 2022, Physica-Verlag, Heidelberg, pp. 3-104</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,319.11,451.15,7.01;19,60.37,329.07,216.32,7.01" xml:id="b11">
+	<analytic>
+		<title level="a" type="main" coord="19,266.80,319.11,228.64,7.01" xml:id="_KwxHU63">GENERATION OF WEIGHTING TRIANGLES ASSOCIATED WITH AGGREGATION FUNCTIONS</title>
+		<author>
+			<persName coords=""><forename type="first">T</forename><surname>Calvo</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">G</forename><surname>Mayor</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Torrens</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Suñer</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Mas</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">M</forename><surname>Carbonell</surname></persName>
+		</author>
+		<idno type="DOI">10.1142/s0218488500000290</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_P9QvKcH" coord="19,500.67,319.11,10.85,7.01;19,60.37,329.07,140.30,7.01">International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems</title>
+		<title level="j" type="abbrev">Int. J. Unc. Fuzz. Knowl. Based Syst.</title>
+		<idno type="ISSN">0218-4885</idno>
+		<idno type="ISSNe">1793-6411</idno>
+		<imprint>
+			<biblScope unit="volume">08</biblScope>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page" from="417" to="451" />
+			<date type="published" when="2000-08">2000</date>
+			<publisher>World Scientific Pub Co Pte Lt</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">T. Calvo, G. Mayor, J. Torrens, J. Suñer, M. Mas, M. Carbonell, Generation of weighting triangles associated with aggregation functions, Int. J. Uncertainty Fuzziness Knowl.-Based Syst. 8 (4) (2000) 417-451.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,339.12,382.87,7.01" xml:id="b12">
+	<analytic>
+		<title level="a" type="main" coord="19,141.28,339.12,176.55,7.01" xml:id="_7KZaAFT">Fuzzy Reasoning for Fuzzy Optimization</title>
+		<author>
+			<persName><forename type="first">Christer</forename><surname>Carlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Fullér</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-7908-1805-5_5</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_u3m9tEv">Fuzzy Reasoning in Decision Making and Optimization</title>
+		<meeting><address><addrLine>Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Physica-Verlag HD</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="157" to="205" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">C.H. Carlsson, R. Fuller, Fuzzy Reasoning in Decision Making and Optimization, Springfield-Verlag, Heidelberg, 2002.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,349.16,371.27,7.01" xml:id="b13">
+	<monogr>
+		<title level="m" type="main" coord="19,130.61,349.16,167.72,7.01" xml:id="_Ut9T37c">Designing and Conducting Mixed Methods Research</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Creswell</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Plano</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>SAGE Publications</publisher>
+			<pubPlace>Los Angeles</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Creswell, V. Plano, Designing and Conducting Mixed Methods Research, SAGE Publications, Los Angeles, 2011.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,359.21,451.13,7.01;19,60.37,369.17,150.34,7.01" xml:id="b14">
+	<analytic>
+		<title level="a" type="main" coord="19,136.79,359.21,310.37,7.01" xml:id="_w9nqMwc">HIERARCHICAL AGGREGATION OF OWA OPERATORS: BASIC MEASURES AND RELATED COMPUTATIONAL PROBLEMS</title>
+		<author>
+			<persName><forename type="first">Vincenzo</forename><surname>Cutello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Montero</surname></persName>
+		</author>
+		<idno type="DOI">10.1142/s0218488595000037</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_NszjWpW" coord="19,453.11,359.21,58.39,7.01;19,60.37,369.17,96.74,7.01">International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems</title>
+		<title level="j" type="abbrev">Int. J. Unc. Fuzz. Knowl. Based Syst.</title>
+		<idno type="ISSN">0218-4885</idno>
+		<idno type="ISSNe">1793-6411</idno>
+		<imprint>
+			<biblScope unit="volume">03</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="17" to="26" />
+			<date type="published" when="1995-03">1995</date>
+			<publisher>World Scientific Pub Co Pte Lt</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Cutello, J. Montero, Hierarchical aggregation of OWA operators: basic measures and related computational problems, Int. J. Uncertainty Fuzziness Knowl.-Based Syst. 3 (1995) 17-26.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,379.22,451.13,7.01;19,60.37,389.17,57.73,7.01" xml:id="b15">
+	<analytic>
+		<title level="a" type="main" coord="19,135.48,379.22,118.43,7.01" xml:id="_Qz37cF2">Recursive families of OWA operators</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>Cutello</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/fuzzy.1994.343894</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_XRnwF2Z" coord="19,269.69,379.22,138.76,7.01">Proceedings of 1994 IEEE 3rd International Fuzzy Systems Conference</title>
+		<meeting>1994 IEEE 3rd International Fuzzy Systems Conference<address><addrLine>Piscataway</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="page" from="1137" to="1141" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Cutello, J. Montero, Recursive families of OWA operators, in: Proceedings of the FUZZ-IEEE Conference, IEEE Press, Piscataway, 1994, pp. 1137âŁ&quot;1141.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,399.22,273.97,7.01" xml:id="b16">
+	<analytic>
+		<title level="a" type="main" coord="19,135.05,399.22,84.32,7.01" xml:id="_kd3wM46">Recursive connective rules</title>
+		<author>
+			<persName><forename type="first">Vincenzo</forename><surname>Cutello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Montero</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(sici)1098-111x(199901)14:1&lt;3::aid-int2&gt;3.3.co;2-b</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zTte2Dk" coord="19,224.28,399.22,56.44,7.01">International Journal of Intelligent Systems</title>
+		<title level="j" type="abbrev">Int. J. Intell. Syst.</title>
+		<idno type="ISSN">0884-8173</idno>
+		<idno type="ISSNe">1098-111X</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="20" />
+			<date type="published" when="1999-01">1999</date>
+			<publisher>Hindawi Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Cutello, J. Montero, Recursive connective rules, Int. J. Intell. Syst. 14 (1999) 3-20.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,409.27,451.15,7.01;19,60.37,419.23,451.14,7.01;19,60.37,429.19,17.92,7.01" xml:id="b17">
+	<monogr>
+		<title level="m" type="main" coord="19,375.13,409.27,136.40,7.01;19,60.37,419.23,194.69,7.01" xml:id="_tEW88JD">NICHD Study of Early Child Care and Youth Development: Phase IV, 2005-2008 [United States]</title>
+		<idno type="DOI">10.3886/icpsr22361</idno>
+		<idno>Age 4 1/2 Years (05-4318</idno>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Inter-university Consortium for Political and Social Research (ICPSR)</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Eunice Kennedy Shriver National Institute of Child Health and Human Development, NIH, DHHS</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Eunice Kennedy Shriver National Institute of Child Health and Human Development, NIH, DHHS, The NICHD Study of Early Child Care and Youth Development (SECCYD): Findings for Children up to Age 4 1/2 Years (05-4318), Washington, DC, U.S. Government Printing Office, 2006.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,439.23,451.13,7.01;19,60.37,449.20,104.94,7.01" xml:id="b18">
+	<monogr>
+		<title level="m" type="main" coord="19,169.84,439.23,296.92,7.01" xml:id="_zKX4UCh">Early Childhood Counts</title>
+		<author>
+			<persName><forename type="first">Judith</forename><forename type="middle">L</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">G</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ellen</forename><forename type="middle">M</forename><surname>Ilfeld</surname></persName>
+		</author>
+		<idno type="DOI">10.1596/0-8213-4567-2</idno>
+		<imprint>
+			<date type="published" when="2000-06">2000</date>
+			<publisher>The World Bank</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Evans, R. Myers and E. Illfeld, Early Childhood Counts-A Programming Guide on Early Childhood Care for Development, World Bank Institute, Washington, DC, 2000.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,459.24,451.11,7.01;19,60.37,469.21,333.11,7.01" xml:id="b19">
+	<analytic>
+		<title level="a" type="main" coord="19,127.63,459.24,238.91,7.01" xml:id="_epDfEfC">AN AXIOMATIC APPROACH TO RATIONAL DECISION MAKING IN A FUZZY ENVIRONMENT††This work was supported by the National Science Foundation Grant GK-36721.</title>
+		<author>
+			<persName coords=""><forename type="first">L</forename><forename type="middle">W</forename><surname>Fung</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">K</forename><forename type="middle">S</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-0-12-775260-0.50015-3</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_zPMwtHz" coord="19,462.88,459.24,48.60,7.01;19,60.37,469.21,174.13,7.01">Fuzzy Sets and their Applications to Cognitive and Decision Processes</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Zadeh</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="1975">1975</date>
+			<biblScope unit="page" from="227" to="256" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">L.W. Fung, K.S. Fu, An axiomatic approach to rational decision making in a fuzzy environment, in: L.A. Zadeh et al. (Eds.), Fuzzy Sets and their Applications to Cognitive and Decision Processes, Academic Press, New York, 1975, pp. 227-256.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,479.25,304.66,7.01" xml:id="b20">
+	<analytic>
+		<title level="a" type="main" coord="19,135.62,479.25,119.49,7.01" xml:id="_QpRtzn6">A discussion of aggregation functions</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_WBCcvPR" coord="19,260.27,479.25,39.17,7.01">Kybernetika</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="107" to="120" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gómez, J. Montero, A discussion of aggregation functions, Kybernetika 40 (2004) 107-120.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,489.30,451.09,7.01" xml:id="b21">
+	<analytic>
+		<title level="a" type="main" coord="19,213.26,489.30,193.59,7.01" xml:id="_V3FnFhP">A graph coloring approach for image segmentation</title>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Yáñez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><surname>Poidomani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.omega.2005.05.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_h3sTHsZ" coord="19,412.17,489.30,22.84,7.01">Omega</title>
+		<title level="j" type="abbrev">Omega</title>
+		<idno type="ISSN">0305-0483</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="173" to="183" />
+			<date type="published" when="2007-04">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gómez, J. Montero, J. Yáñez, C. Poidomani, A graph coloring algorithm approach for image segmentation, Omega 35 (2) (2007) 173-183.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,499.34,356.44,7.01" xml:id="b22">
+	<analytic>
+		<title level="a" type="main" coord="19,166.25,499.34,142.70,7.01" xml:id="_RV3dnc4">A coloring fuzzy graph approach for image classification</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yanez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ins.2006.01.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_kYBkF8K" coord="19,313.86,499.34,25.44,7.01">Information Sciences</title>
+		<title level="j" type="abbrev">Information Sciences</title>
+		<idno type="ISSN">0020-0255</idno>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="3645" to="3657" />
+			<date type="published" when="2006-12-15">2006</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">D. Gómez, J. Montero, J. Yáñez, A coloring algorithm for image classification, Inf. Sci. 176 (2006) 3645-3657.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,509.38,451.13,7.01;19,60.37,519.35,54.24,7.01" xml:id="b23">
+	<analytic>
+		<title level="a" type="main" xml:id="_eCZTKyM">Aggregation Functions</title>
+		<author>
+			<persName><forename type="first">Michel</forename><surname>Grabisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Luc</forename><surname>Marichal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Radko</forename><surname>Mesiar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Endre</forename><surname>Pap</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/cbo9781139644150</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_85DnRqv" coord="19,200.80,509.38,233.97,7.01">Aggregation Functions. Encyclopedia of Mathematics and its Applications</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2009-07-09">2009</date>
+		</imprint>
+		<respStmt>
+			<orgName>Cambridge University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">M. Grabisch, J. Marichal, R. Mesiar, E. Pap, Aggregation Functions. Encyclopedia of Mathematics and its Applications, Cambridge University, New York, 2009.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,529.39,342.34,7.01" xml:id="b24">
+	<analytic>
+		<title level="a" type="main" coord="19,101.97,529.39,231.68,7.01" xml:id="_KBze576">Skill Formation and the Economics of Investing in Disadvantaged Children</title>
+		<author>
+			<persName coords=""><forename type="first">James</forename><forename type="middle">J</forename><surname>Heckman</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1128898</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_EThTYUa" coord="19,338.77,529.39,24.77,7.01">Science</title>
+		<title level="j" type="abbrev">Science</title>
+		<idno type="ISSN">0036-8075</idno>
+		<idno type="ISSNe">1095-9203</idno>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="issue">5782</biblScope>
+			<biblScope unit="page" from="1900" to="1902" />
+			<date type="published" when="2006-06-30">2006</date>
+			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Heckman, Skill formation and the economics of investing in disadvantaged children, Science 312 (2006).</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,539.44,450.98,7.01;19,60.37,549.40,287.23,7.01" xml:id="b25">
+	<analytic>
+		<title level="a" type="main" coord="19,110.44,539.44,72.10,7.01" xml:id="_Wa3F3bn">Sequential aggregation</title>
+		<author>
+			<persName coords=""><forename type="first">A</forename><surname>Kolesárová</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_rHsy64C" coord="19,284.45,539.44,226.89,7.01;19,60.37,549.40,30.06,7.01">Proceedings of the Fifth International Summer School on Aggregation Operators</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>González</surname></persName>
+		</editor>
+		<meeting>the Fifth International Summer School on Aggregation Operators</meeting>
+		<imprint>
+			<publisher>Palma de Mallorca</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="183" to="187" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">A. Kolesárová, Sequential aggregation, in: M. González et al. (Eds.), Proceedings of the Fifth International Summer School on Aggregation Operators, AGOP, Universitat de les Illes Balears, Palma de Mallorca, 2009, pp. 183-187.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,559.45,211.10,7.01" xml:id="b26">
+	<monogr>
+		<title level="m" type="main" coord="19,111.31,559.45,63.22,7.01" xml:id="_C9XDJE3">Qualitative Methods</title>
+		<author>
+			<persName coords=""><forename type="first">P</forename><forename type="middle">F</forename><surname>Lazarsfeld</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972">1972</date>
+			<publisher>Free Press</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P.F. Lazarsfeld, Qualitative Methods, Free Press, New York, 1972.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,569.49,450.97,7.01;19,60.37,579.45,189.14,7.01" xml:id="b27">
+	<analytic>
+		<title level="a" type="main" coord="19,168.92,569.49,342.43,7.01;19,60.37,579.45,59.19,7.01" xml:id="_H5UyQjS">The Home Observation for Measurement of the Environment (HOME) Inventory: The Derivation of Conceptually Designed Subscales</title>
+		<author>
+			<persName><forename type="first">Miriam</forename><surname>Linver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeanne</forename><surname>Brooks-Gunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Natasha</forename><surname>Cabrera</surname></persName>
+		</author>
+		<idno type="DOI">10.1207/s15327922par0402&amp;3_1</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_zkYZptV" coord="19,124.77,579.45,67.16,7.01">Parenting</title>
+		<title level="j" type="abbrev">HPAR</title>
+		<idno type="ISSN">1529-5192</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="99" to="114" />
+			<date type="published" when="2004-01-01">2004</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">M. Linver, G. Brooks, M. Cabrera, The home observation for measurement of the environment (HOME) inventory: the derivation of conceptually designed subscales, Parenting: Sci. Pract. 4 (2004) 99-114.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,589.50,451.09,7.01;19,60.37,599.46,102.74,7.01" xml:id="b28">
+	<analytic>
+		<title level="a" type="main" coord="19,219.80,589.50,174.06,7.01" xml:id="_EvDRG74">SPECIFICATION AND COMPUTING STATES IN FUZZY ALGORITHMS</title>
+		<author>
+			<persName><forename type="first">Victoria</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luis</forename><surname>Garmendia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Germano</forename><surname>Resconi</surname></persName>
+		</author>
+		<idno type="DOI">10.1142/s0218488508005303</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_wcFXnFV" coord="19,399.22,589.50,112.24,7.01;19,60.37,599.46,34.04,7.01">International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems</title>
+		<title level="j" type="abbrev">Int. J. Unc. Fuzz. Knowl. Based Syst.</title>
+		<idno type="ISSN">0218-4885</idno>
+		<idno type="ISSNe">1793-6411</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<biblScope unit="page" from="301" to="336" />
+			<date type="published" when="2008-06">2008</date>
+			<publisher>World Scientific Pub Co Pte Lt</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. López, L. Garmendia, J. Montero, G. Resconi, Specification and computing states in fuzzy algorithms, Int. Uncertainty Fuzziness Knowl.- Based Syst. 16 (2008) 301-336.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,609.50,420.77,7.01" xml:id="b29">
+	<monogr>
+		<title level="m" type="main" coord="19,131.50,609.50,280.12,7.01" xml:id="_sYwQS3R">Software engineering specification under fuzziness, Multiple-Valued Logic Soft Comput</title>
+		<author>
+			<persName coords=""><forename type="first">V</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="209" to="228" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. López, J. Montero, Software engineering specification under fuzziness, Multiple-Valued Logic Soft Comput. 15 (2009) 209-228.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,619.54,451.11,7.01;19,60.37,629.51,391.64,7.01" xml:id="b30">
+	<analytic>
+		<title level="a" type="main" coord="19,192.15,619.54,256.77,7.01" xml:id="_qsPvSRb">FORMAL SPECIFICATION AND IMPLEMENTATION OF COMPUTATIONAL AGGREGATION FUNCTIONS</title>
+		<author>
+			<persName><forename type="first">Victoria</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">Tinguaro</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1142/9789814324700_0078</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FsyUGcF" coord="19,464.10,619.54,47.39,7.01;19,60.37,629.51,324.59,7.01">Computational Intelligence</title>
+		<imprint>
+			<publisher>WORLD SCIENTIFIC</publisher>
+			<date type="published" when="2010-07">2010</date>
+			<biblScope unit="page" from="523" to="528" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. López, J. Montero and J.T. Rodriguez, Formal Specification and implementation of computational aggregation functions, in: Proceedings of the 9th International FLINS Conference on Computational Intelligence, Foundations and Applications, 2010, pp. 523-528.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,639.55,326.90,7.01" xml:id="b31">
+	<analytic>
+		<title level="a" type="main" coord="19,97.33,639.55,165.05,7.01" xml:id="_p4dM9MD">The Mathematics Used in Mathematical Psychology</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">D</forename><surname>Luce</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00029890.1964.11992249</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_gJ5JvST" coord="19,267.92,639.55,53.79,7.01">The American Mathematical Monthly</title>
+		<title level="j" type="abbrev">The American Mathematical Monthly</title>
+		<idno type="ISSN">0002-9890</idno>
+		<idno type="ISSNe">1930-0972</idno>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="364" to="378" />
+			<date type="published" when="1964-04">1964</date>
+			<publisher>Informa UK Limited</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.D. Luce, The Mathematics Used in Mathematical Psychology, Am. Math. Mon. 71 (1964) 364-378.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,649.60,451.08,7.01;19,60.37,659.56,180.52,7.01" xml:id="b32">
+	<analytic>
+		<title level="a" type="main" xml:id="_rHvyuJC">Construct Measurement and Validation Procedures in MIS and Behavioral Research: Integrating New and Existing Techniques</title>
+		<author>
+			<persName><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Podsakoff</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Podsakoff</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/23044045</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_SKNP4Y6" coord="19,139.04,659.56,36.29,7.01">MIS Quarterly</title>
+		<title level="j" type="abbrev">MIS Quarterly</title>
+		<idno type="ISSN">0276-7783</idno>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">293</biblScope>
+			<date type="published" when="2011">2011</date>
+			<publisher>JSTOR</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S. MacKenzie, P. Podsakoff, N. Podsakoff, Construct measurement and validation procedures in MIS and behavioral research: integrating new and existing techniques, MIS Quart. 35 (2011) 293-334.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,669.61,254.83,7.01" xml:id="b33">
+	<monogr>
+		<title level="m" type="main" coord="19,98.88,669.61,147.61,7.01" xml:id="_vdQQEHb">A note on Fung-Fu&apos;s theorem, Fuzzy Sets Syst</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="259" to="269" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Montero, A note on Fung-Fu&apos;s theorem, Fuzzy Sets Syst. 13 (1985) 259-269.</note>
+</biblStruct>
+
+<biblStruct coords="19,60.37,679.65,401.70,7.01" xml:id="b34">
+	<analytic>
+		<title level="a" type="main" coord="19,177.23,679.65,150.08,7.01" xml:id="_UkRzkhH">On the relevance of some families of fuzzy sets</title>
+		<author>
+			<persName coords=""><forename type="first">J</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">D</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">H</forename><surname>Bustince</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fss.2007.04.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_BTuVENJ" coord="19,332.10,679.65,52.47,7.01">Fuzzy Sets and Systems</title>
+		<title level="j" type="abbrev">Fuzzy Sets and Systems</title>
+		<idno type="ISSN">0165-0114</idno>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="2429" to="2442" />
+			<date type="published" when="2007-11">2007</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Montero, D. Gómez, H. Bustince, On the relevance of some families of fuzzy sets, Fuzzy Sets Syst. 158 (2007) 2429-2442.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.84,69.14,406.07,7.01" xml:id="b35">
+	<analytic>
+		<title level="a" type="main" coord="20,175.71,69.14,127.98,7.01" xml:id="_r63YpkE">The Role of Fuzziness in Decision Making</title>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Victoria</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Gómez</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-540-71258-9_16</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_vpjA4KC">Fuzzy Logic</title>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="337" to="349" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Montero, V. López, D. Gómez, The role of fuzziness in decision making, Stud. Fuzziness Soft Comput. 215 (2007) 337-349.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.84,79.10,451.12,7.01;20,67.85,89.06,363.82,7.01" xml:id="b36">
+	<analytic>
+		<title level="a" type="main" coord="20,148.22,79.10,188.21,7.01" xml:id="_zTpUGE6">Early childhood experiences and developmental competence</title>
+		<author>
+			<persName coords=""><forename type="first">S</forename><forename type="middle">L</forename><surname>Ramey</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">C</forename><forename type="middle">T</forename><surname>Ramey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_FyB5uE8" coord="20,455.05,79.10,63.91,7.01;20,67.85,89.06,146.82,7.01">Securing the Future: Investing in Children from Birth Until College</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Danziger</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Waldfogel</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Russell Sage Foundation</publisher>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="122" to="152" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">S.L. Ramey, C.T. Ramey, Early childhood experiences and developmental competence, in: S. Danziger, J. Waldfogel (Eds.), Securing the Future: Investing in Children from Birth Until College, vol. 107, Russell Sage Foundation, New York, 2000, pp. 122-152.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.85,99.03,451.13,7.01;20,67.85,108.99,451.10,7.01" xml:id="b37">
+	<analytic>
+		<title level="a" type="main" coord="20,228.04,99.03,228.59,7.01" xml:id="_gx2ZuuA">Some Properties of Consistency in the Families of Aggregation Operators</title>
+		<author>
+			<persName><forename type="first">Karina</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName coords=""><forename type="first">J</forename><forename type="middle">Tinguaro</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Montero</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-24001-0_17</idno>
+	</analytic>
+	<monogr>
+		<title level="m" xml:id="_zW2wbua" coord="20,228.67,108.99,138.27,7.01">Advances in Intelligent and Soft Computing</title>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Melo-Pinto</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Couto</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Serodio</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Fodor</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Baets</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="169" to="176" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Rojas, D. Gómez, J.T. Rodríguez, J. Montero, Some properties of consistency in the families of aggregation functions, in: P. Melo-Pinto, P. Couto, C. Serodio, J. Fodor, B. De Baets (Eds.), Advances in Intelligent and Soft Computing, vol. 107, Springer, Berlin, 2011, pp. 169-176.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.85,118.96,451.13,7.01;20,67.85,128.91,138.86,7.01" xml:id="b38">
+	<analytic>
+		<title level="a" type="main" coord="20,255.26,118.96,137.91,7.01" xml:id="_fzB8HcA">Strictly stable families of aggregation operators</title>
+		<author>
+			<persName><forename type="first">Karina</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Javier</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tinguaro Rodríguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fss.2012.12.010</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.fss.2012.12.010" />
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_pFTsyqD" coord="20,402.05,118.96,87.97,7.01">Fuzzy Sets and Systems</title>
+		<title level="j" type="abbrev">Fuzzy Sets and Systems</title>
+		<idno type="ISSN">0165-0114</idno>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="page" from="44" to="63" />
+			<date type="published" when="2013-10">2013</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K. Rojas, D. Gómez, J.T. Rodríguez, J. Montero, Strict stability in aggregation operators, Fuzzy Sets and Systems (2013), http://dx.doi.org/10.1016/j.fss.2012.12.010.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.84,138.88,320.58,7.01" xml:id="b39">
+	<analytic>
+		<title level="a" type="main" coord="20,135.84,138.88,132.61,7.01" xml:id="_7DsrYHa">A practical approach to content validation</title>
+		<author>
+			<persName><forename type="first">Elaine</forename><forename type="middle">M</forename><surname>Slocumb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Frank</forename><forename type="middle">L</forename><surname>Cole</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0897-1897(05)80097-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_R4gvK4u" coord="20,273.51,138.88,53.33,7.01">Applied Nursing Research</title>
+		<title level="j" type="abbrev">Applied Nursing Research</title>
+		<idno type="ISSN">0897-1897</idno>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="192" to="195" />
+			<date type="published" when="1991-11">1991</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">E. Slocumb, F. Cole, A practical approach to content validation, Appl. Nurs. Res. 4 (1991) 192-195.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.85,148.84,441.26,7.01" xml:id="b40">
+	<analytic>
+		<title level="a" type="main" coord="20,135.49,148.84,223.22,7.01" xml:id="_WQ8Tv5J">The Home Observation for Measurement of the Environment Revisited</title>
+		<author>
+			<persName><forename type="first">Vasiliki</forename><surname>Totsika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kathy</forename><surname>Sylva</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1475-357x.2003.00073.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_uhV93BN" coord="20,363.63,148.84,91.85,7.01">Child and Adolescent Mental Health</title>
+		<title level="j" type="abbrev">Child Adoles Ment Health</title>
+		<idno type="ISSN">1475-357X</idno>
+		<idno type="ISSNe">1475-3588</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="35" />
+			<date type="published" when="2004-01-19">2004</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">V. Totsika, K. Sylva, The Home Observation for Measurement of the Environment revisited, Child Adolesc. Ment. Health 9 (2004) 25-35.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.85,158.80,325.43,7.01" xml:id="b41">
+	<analytic>
+		<title level="a" type="main" coord="20,109.89,158.80,144.55,7.01" xml:id="_zan2x4x">Assigning Membership in a Fuzzy Set Analysis</title>
+		<author>
+			<persName coords=""><forename type="first">Jay</forename><surname>Verkuilen</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0049124105274498</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_RymgxMN" coord="20,259.51,158.80,68.19,7.01">Sociological Methods &amp; Research</title>
+		<title level="j" type="abbrev">Sociological Methods &amp; Research</title>
+		<idno type="ISSN">0049-1241</idno>
+		<idno type="ISSNe">1552-8294</idno>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="462" to="496" />
+			<date type="published" when="2005-05">2005</date>
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J. Verkuilen, Assigning membership in a fuzzy set analysis, Sociol. Methods Res. 33 (2005) 462-496.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.85,168.77,451.13,7.01;20,67.85,178.73,30.35,7.01" xml:id="b42">
+	<analytic>
+		<title level="a" type="main" coord="20,106.34,168.77,274.44,7.01" xml:id="_qxJHPxs">On ordered weighted averaging aggregation operators in multicriteria decisionmaking</title>
+		<author>
+			<persName coords=""><forename type="first">R</forename><forename type="middle">R</forename><surname>Yager</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/21.87068</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_mPWDbTq" coord="20,386.26,168.77,99.96,7.01">IEEE Transactions on Systems, Man, and Cybernetics</title>
+		<title level="j" type="abbrev">IEEE Trans. Syst., Man, Cybern.</title>
+		<idno type="ISSN">0018-9472</idno>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="183" to="190" />
+			<date type="published" when="1988">1988</date>
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.R. Yager, On ordered weighted averaging aggregation operators in multi-criteria decision making, IEEE Trans. Syst. Man Cybern. 18 (1988) 183-190.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.84,188.69,328.04,7.01" xml:id="b43">
+	<analytic>
+		<title level="a" type="main" coord="20,146.89,188.69,133.63,7.01" xml:id="_55RYWdr">Noncommutative self-identity aggregation</title>
+		<author>
+			<persName><forename type="first">Ronald</forename><forename type="middle">R</forename><surname>Yager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Rybalov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0165-0114(95)00325-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_9pHEPz8" coord="20,285.83,188.69,52.47,7.01">Fuzzy Sets and Systems</title>
+		<title level="j" type="abbrev">Fuzzy Sets and Systems</title>
+		<idno type="ISSN">0165-0114</idno>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="73" to="82" />
+			<date type="published" when="1997-01">1997</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.R. Yager, A. Rybalov, Noncommutative self-identity aggregation, Fuzzy Sets Syst. 85 (1997) 73-82.</note>
+</biblStruct>
+
+<biblStruct coords="20,67.85,198.66,310.85,7.01" xml:id="b44">
+	<analytic>
+		<title level="a" type="main" coord="20,106.79,198.66,103.55,7.01" xml:id="_dbA6xQr">Prioritized aggregation operators</title>
+		<author>
+			<persName coords=""><forename type="first">Ronald</forename><forename type="middle">R</forename><surname>Yager</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijar.2007.08.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j" xml:id="_CTv3Wje" coord="20,215.52,198.66,97.60,7.01">International Journal of Approximate Reasoning</title>
+		<title level="j" type="abbrev">International Journal of Approximate Reasoning</title>
+		<idno type="ISSN">0888-613X</idno>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="263" to="274" />
+			<date type="published" when="2008-04">2008</date>
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">R.R. Yager, Prioritized aggregation operators, Int. J. Approximate Reasoning 48 (2008) 263-274.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

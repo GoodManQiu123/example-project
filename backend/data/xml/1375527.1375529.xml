@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_JTEDSE8" coord="1,101.46,96.76,409.02,16.72">Challenges on the Road to Exascale Computing</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName coords="1,258.00,128.18,95.96,11.15"><roleName>Dr</roleName><forename type="first">Tilak</forename><surname>Agerwala</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">VP of Systems IBM Research</note>
+								<orgName type="department">VP of Systems IBM Research</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">Indian Institute of Technology, Kanpur, India</note>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<settlement>Kanpur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">Johns Hopkins University, Baltimore, Maryland.</note>
+								<orgName type="institution">Johns Hopkins University</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>Maryland</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_GVghFHN" coord="1,101.46,96.76,409.02,16.72">Challenges on the Road to Exascale Computing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2F0B2E37BA4C33F969CF800E83216FC2</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-14T10:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_3ctZG89">B</term>
+					<term xml:id="_E3c6xn3">m MISCELLANEOUS, C</term>
+					<term xml:id="_DSYQDnT">5</term>
+					<term xml:id="_URdkTYA">1 Large and Medium Computers</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_XPw752N"><p xml:id="_u7bnDKe"><s xml:id="_5xfwsPU" coords="1,90.00,203.01,432.08,8.74;1,90.00,214.53,431.99,8.74;1,90.00,226.05,34.11,8.74">Supercomputing systems have made great strides in recent years as the extensive computing needs of cutting-edge engineering work and scientific discovery have driven the development of more powerful systems.</s><s xml:id="_nJ8dv9m" coords="1,129.88,226.05,392.10,8.74;1,90.00,237.51,354.65,8.74">The first teraflop computer, ASCI Red, came on the scene in late 1996, and now a machine must achieve 5.9 teraflops to gain entry to the very bottom of the Top500 supercomputing list.</s></p><p xml:id="_ntHmDcS"><s xml:id="_Ycb5Mn6" coords="1,90.00,255.03,432.02,8.74;1,90.00,266.49,277.36,8.74">With the emergence of petascale supercomputers expected in 2008 or 2009, we have set our sights on the increased capacity and expected muscle of exascale computing.</s><s xml:id="_xgKuSx5" coords="1,378.89,266.49,143.06,8.74;1,90.00,278.01,432.11,8.74;1,90.00,289.53,93.24,8.74">This has also been the focus of organizations such as the Institute for Advanced Architectures jointly launched at Sandia and Oak Ridge National Laboratories.</s><s xml:id="_vUpthTH" coords="1,194.69,289.53,327.30,8.74;1,90.00,300.99,88.04,8.74">However, the challenges of exascale computing will not be solved by the technologies of today.</s><s xml:id="_4kbqpXR" coords="1,90.00,318.51,432.02,8.74;1,90.00,330.03,432.01,8.74;1,90.00,341.49,35.15,8.74">If today's most power and energy efficient supercomputer was linearly scaled to the exascale level, it would consume around 200MWatts of power, contain over 60 million cores, and require over 400M dollars of memory.</s><s xml:id="_JS2UnDt" coords="1,131.38,341.49,390.70,8.74;1,90.00,353.01,132.46,8.74">Such a system will present significant problems in management and programmability as current bounds of parallelism are tested.</s><s xml:id="_qUVYJ2N" coords="1,228.76,353.01,293.27,8.74;1,90.00,364.53,432.03,8.74;1,90.00,375.99,19.20,8.74">Data accessibility will also be a significant issue as our ability to sense, generate and calculate on data is growing faster than our ability to access, manage and even "store" that data.</s><s xml:id="_unJZest" coords="1,116.03,375.99,326.27,8.74">These problems only get worse as the system's computational power scales up.</s><s xml:id="_65S67Es" coords="1,449.12,375.99,72.87,8.74;1,90.00,387.51,432.10,8.74;1,90.00,399.03,143.53,8.74">In this talk, I will discuss exascale computing challenges to be overcome in the areas of power, architecture, programmability, management, and data accessibility.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body/>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

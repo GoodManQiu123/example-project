@@ -1,0 +1,1060 @@
+{
+    "metadata": {
+        "title": "An evaluation of Graph Databases and Object-Graph Mappers in CIDOC CRM-compliant digital archives",
+        "doi": "10.1145/3485847",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "The Portuguese General Directorate for Book, Archives and Libraries (DGLAB) has selected CIDOC CRM as base for its next-generation digital archive management software. Given the ontology foundations of the CRM, a graph database or a triple store were seen as the best candidates to represent a CRM-based data model for the new software. We thus decided to compare several of these databases, based on their maturity, features, performance in standard tasks and, most importantly, the Object-Graph Mappers (OGM) available to interact with each database in an Object-Oriented way. Our conclusions are drawn not only from a systematic review of related works but from an experimental scenario. For our experiment, we designed a simple CRM-compliant graph designed to test the ability of each OGM/database combination to tackle the so-called \"Diamond-problem\" in Object-Oriented Programming (OOP), to ensure that property instances follow domain and range constraints. Our results show that 1. ontological consistency enforcement in graph databases and triplestores is much harder to achieve than in a relational database, making them more suited to an analytical rather than a transactional role, 2. Object-Graph Mappers are still rather immature solutions and 3. neomodel, an OGM for the Neo4j graph database, is the most mature solution in the study as it satisfies all requirements, although it is also the least performing.",
+        "keywords": [
+            "mapper",
+            "ogm",
+            "archive",
+            "cidoc",
+            "graph",
+            "crmcompliant",
+            "digital",
+            "solution",
+            "performance",
+            "evaluation",
+            "crm",
+            "database"
+        ]
+    },
+    "authors": [
+        {
+            "name": "L\u00e1zaro Costa",
+            "affiliation": null,
+            "email": "lazaroosta@hotmail.com"
+        },
+        {
+            "name": "Nuno Freitas",
+            "affiliation": null,
+            "email": "nuno.freitas96@gmail.com"
+        },
+        {
+            "name": "Jo\u00e3o Rocha",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "name": "D A Silva",
+            "affiliation": null,
+            "email": null
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Ameya",
+                    "given": "Nayak"
+                },
+                {
+                    "family": "Anil",
+                    "given": "Poriya"
+                },
+                {
+                    "family": "Dikshay",
+                    "given": "Poojary"
+                }
+            ],
+            "title": "Type of NOSQL databases and its comparison with relational databases",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Applied Information Systems"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Angles",
+                    "given": "Renzo"
+                }
+            ],
+            "title": "A comparison of current graph database models",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings -2012 IEEE 28th International Conference on Data Engineering Workshops, ICDEW 2012. IEEE"
+            ],
+            "doi": "10.1109/ICDEW.2012.31",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "given": "ArangoDB"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Auer",
+                    "given": "S\u00f6ren"
+                },
+                {
+                    "family": "Herre",
+                    "given": "Heinrich"
+                }
+            ],
+            "title": "A Versioning and Evolution Framework for RDF Knowledge Bases",
+            "type": "chapter",
+            "container_title": [
+                "Perspectives of Systems Informatics"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Berners-Lee",
+                    "given": "Tim"
+                },
+                {
+                    "family": "Hendler",
+                    "given": "James"
+                },
+                {
+                    "family": "Lassila",
+                    "given": "Ora"
+                }
+            ],
+            "title": "The semantic web",
+            "type": "article-journal",
+            "container_title": [
+                "Scienti\u0104c american"
+            ],
+            "doi": "",
+            "published_date": "2001"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Broekstra",
+                    "given": "Jeen"
+                },
+                {
+                    "family": "Kampman",
+                    "given": "Arjohn"
+                }
+            ],
+            "title": "Inferencing and Truth Maintenance in RDF Schema",
+            "type": "paper-conference",
+            "container_title": [
+                "PSSS1 -Practical and Scalable Semantic Systems, Proceedings of the First International Workshop on Practical and Scalable Semantic Systems",
+                "2003 (CEUR Workshop Proceedings"
+            ],
+            "doi": "",
+            "published_date": "2003"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Can",
+                    "given": "Ozgu"
+                },
+                {
+                    "family": "Sezer",
+                    "given": "Emine"
+                },
+                {
+                    "family": "Bursa",
+                    "given": "Okan"
+                },
+                {
+                    "family": "Unalir",
+                    "given": "Murat Osman"
+                }
+            ],
+            "title": "Comparing relational and ontological triple stores in healthcare domain",
+            "type": "article-journal",
+            "container_title": [
+                "Entropy"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cassidy",
+                    "given": "Steve"
+                },
+                {
+                    "family": "Ballantine",
+                    "given": "James"
+                }
+            ],
+            "title": "Version control for RDF triple stores",
+            "type": "paper-conference",
+            "container_title": [
+                "ICSOFT 2007 -2nd International Conference on Software and Data Technologies, Proceedings ISDM, WSEHS/-(2007"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Consortium",
+                    "given": "World Wide Web"
+                }
+            ],
+            "title": "Shapes Constraint Language (SHACL",
+            "type": "article-journal",
+            "container_title": [
+                "World Wide Web Consortium"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Consortium",
+                    "given": "World Wide Web"
+                }
+            ],
+            "title": "Large Triple Stores",
+            "type": "article-journal",
+            "container_title": [
+                "World Wide Web Consortium"
+            ],
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dietze",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Karof",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Valdez",
+                    "given": "Andr\u00e9 Calero"
+                },
+                {
+                    "family": "Zie\u0106e",
+                    "given": "Martina"
+                },
+                {
+                    "family": "Greven",
+                    "given": "Christoph"
+                },
+                {
+                    "family": "Schroeder",
+                    "given": "Ulrik"
+                }
+            ],
+            "title": "An Open-Source Object-Graph-Mapping Framework for Neo4j and Scala: Renesca",
+            "type": "chapter",
+            "container_title": [
+                "Availability, Reliability, and Security in Information Systems"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dietze",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Karof",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Valdez",
+                    "given": "Andr\u00e9 Calero"
+                },
+                {
+                    "family": "Zie\u0106e",
+                    "given": "Martina"
+                },
+                {
+                    "family": "Greven",
+                    "given": "Christoph"
+                },
+                {
+                    "family": "Schroeder",
+                    "given": "Ulrik"
+                }
+            ],
+            "title": "An Open-Source Object-Graph-Mapping Framework for Neo4j and Scala: Renesca",
+            "type": "paper-conference",
+            "container_title": [
+                "Availability, Reliability, and Security in Information Systems -IFIP WG 8.4, 8.9, TC 5 International Cross-Domain Conference, CD-ARES 2016, and Workshop on Privacy Aware Machine Learning for Health Data Science, PAML 2016",
+                "Proceedings (Lecture Notes in Computer Science"
+            ],
+            "doi": "10.1007/978-3-319-45507-5_14",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Dominguez-Sal",
+                    "given": "David"
+                },
+                {
+                    "family": "Martinez-Bazan",
+                    "given": "Norbert"
+                },
+                {
+                    "family": "Muntes-Mulero",
+                    "given": "Victor"
+                },
+                {
+                    "family": "Baleta",
+                    "given": "Pere"
+                },
+                {
+                    "family": "Larriba-Pey",
+                    "given": "Josep Lluis"
+                }
+            ],
+            "title": "A Discussion on the Design of Graph Database Benchmarks",
+            "type": "chapter",
+            "container_title": [
+                "Performance Evaluation, Measurement and Characterization of Complex Systems, Raghunath Nambiar and Meikel Poess (Eds"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ducournau",
+                    "given": "Roland"
+                },
+                {
+                    "family": "Privat",
+                    "given": "Jean"
+                }
+            ],
+            "title": "Metamodeling semantics of multiple inheritance",
+            "type": "article-journal",
+            "container_title": [
+                "Science of Computer Programming"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fernandes",
+                    "given": "Diogo"
+                },
+                {
+                    "family": "Bernardino",
+                    "given": "Jorge"
+                }
+            ],
+            "title": "Graph Databases Comparison: AllegroGraph, ArangoDB, In\u0104niteGraph, Neo4J, and OrientDB",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 7th International Conference on Data Science, Technology and Applications, DATA 2018"
+            ],
+            "doi": "10.5220/0006910203730380",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fernandes",
+                    "given": "Diogo"
+                },
+                {
+                    "family": "Bernardino",
+                    "given": "Jorge"
+                }
+            ],
+            "title": "Graph Databases Comparison: AllegroGraph, ArangoDB, In\u0104niteGraph, Neo4J, and OrientDB",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 7th International Conference on Data Science, Technology and Applications"
+            ],
+            "doi": "10.5220/0006910203730380",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Fischer",
+                    "given": "Peter M."
+                },
+                {
+                    "family": "Lausen",
+                    "given": "Georg"
+                },
+                {
+                    "family": "Sch\u00e4tzle",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Schmidt",
+                    "given": "Michael"
+                }
+            ],
+            "title": "RDF constraint checking",
+            "type": "paper-conference",
+            "container_title": [
+                "CEUR Workshop Proceedings 1330"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Grove",
+                    "given": "David"
+                },
+                {
+                    "family": "DeFouw",
+                    "given": "Greg"
+                },
+                {
+                    "family": "Dean",
+                    "given": "Jefrey"
+                },
+                {
+                    "family": "Chambers",
+                    "given": "Craig"
+                }
+            ],
+            "title": "Call graph construction in object-oriented languages",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Conference on Object-Oriented Programming Systems, Languages, and Applications, OOPSLA 32"
+            ],
+            "doi": "10.1145/263700.264352",
+            "published_date": "1997"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Horridge",
+                    "given": "Matthew"
+                },
+                {
+                    "family": "Bechhofer",
+                    "given": "Sean"
+                }
+            ],
+            "title": "The OWL API: A Java API for OWL ontologies",
+            "type": "article-journal",
+            "container_title": [
+                "Semantic Web"
+            ],
+            "doi": "10.3233/SW-2011-0025",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Huang",
+                    "given": "Jiewen"
+                },
+                {
+                    "family": "Abadi",
+                    "given": "Daniel J."
+                },
+                {
+                    "family": "Ren",
+                    "given": "Kun"
+                }
+            ],
+            "title": "Scalable SPARQL Querying of Large RDF Graphs",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. VLDB Endow. 4"
+            ],
+            "doi": "10.14778/3402707.3402747",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hyv\u00f6nen",
+                    "given": "Eero"
+                },
+                {
+                    "family": "Heino",
+                    "given": "Erkki"
+                },
+                {
+                    "family": "Leskinen",
+                    "given": "Petri"
+                },
+                {
+                    "family": "Ikkala",
+                    "given": "Esko"
+                },
+                {
+                    "family": "Koho",
+                    "given": "Mikko"
+                },
+                {
+                    "family": "Tamper",
+                    "given": "Minna"
+                },
+                {
+                    "family": "Tuominen",
+                    "given": "Jouni"
+                },
+                {
+                    "family": "M\u00e4kel\u00e4",
+                    "given": "Eetu"
+                }
+            ],
+            "title": "WarSampo data service and semantic portal for publishing linked open data about the second world war history",
+            "type": "paper-conference",
+            "container_title": [
+                "European Semantic Web Conference"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jain",
+                    "given": "Manish"
+                },
+                {
+                    "family": "Labs",
+                    "given": "Dgraph"
+                }
+            ],
+            "title": "Dgraph: Synchronously Replicated, Transactional and Distributed Graph Database",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jatana",
+                    "given": "Nishtha"
+                },
+                {
+                    "family": "Puri",
+                    "given": "Sahil"
+                },
+                {
+                    "family": "Ahuja",
+                    "given": "Mehak"
+                },
+                {
+                    "family": "Kathuria",
+                    "given": "Ishita"
+                },
+                {
+                    "family": "Gosain",
+                    "given": "Dishant"
+                }
+            ],
+            "title": "A survey and comparison of relational and non-relational database",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Engineering Research & Technology"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jouili",
+                    "given": "Salim"
+                },
+                {
+                    "family": "Vansteenberghe",
+                    "given": "Valentin"
+                }
+            ],
+            "title": "An Empirical Comparison of Graph Databases",
+            "type": "paper-conference",
+            "container_title": [
+                "International Conference on Social Computing, SocialCom 2013, SocialCom/PASSAT/BigData/EconCom/BioMedCom 2013"
+            ],
+            "doi": "10.1109/SocialCom.",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Koch",
+                    "given": "In\u00eas"
+                },
+                {
+                    "family": "Freitas",
+                    "given": "Nuno"
+                },
+                {
+                    "family": "Ribeiro",
+                    "given": "Cristina"
+                },
+                {
+                    "family": "Lopes",
+                    "given": "Carla Teixeira"
+                },
+                {
+                    "family": "Silva",
+                    "given": "Jo\u00e3o Rocha",
+                    "particle": "da"
+                }
+            ],
+            "title": "Knowledge Graph Implementation of Archival Descriptions Through CIDOC-CRM",
+            "type": "chapter",
+            "container_title": [
+                "Digital Libraries for Open Knowledge"
+            ],
+            "doi": "10.1007/978-3-030-30760-8_8",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Koch",
+                    "given": "In\u00eas"
+                },
+                {
+                    "family": "Ribeiro",
+                    "given": "Cristina"
+                },
+                {
+                    "family": "Lopes",
+                    "given": "Carla Teixeira"
+                }
+            ],
+            "title": "ArchOnto, a CIDOC-CRM-Based Linked Data Model for the Portuguese Archives",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 24th International Conference on Theory and Practice of Digital Libraries"
+            ],
+            "doi": "10.1007/978-3-030-54956-5_10",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Konstantinou",
+                    "given": "Ioannis"
+                },
+                {
+                    "family": "Angelou",
+                    "given": "Evangelos"
+                },
+                {
+                    "family": "Boumpouka",
+                    "given": "Christina"
+                },
+                {
+                    "family": "Tsoumakos",
+                    "given": "Dimitrios"
+                },
+                {
+                    "family": "Koziris",
+                    "given": "Nectarios"
+                }
+            ],
+            "title": "On the elasticity of NoSQL databases over cloud management platforms",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 20th ACM international conference on Information and knowledge management"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Lampe",
+                    "given": "Karl-Heinz"
+                },
+                {
+                    "family": "Krause",
+                    "given": "Sigfried"
+                },
+                {
+                    "family": "Doerr",
+                    "given": "Martin"
+                }
+            ],
+            "title": "The CIDOC Conceptual Reference Model (CIDOC-CRM): PRIMER",
+            "type": "article-journal",
+            "container_title": [
+                "CIDOC-CRM oicial web site"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leavitt",
+                    "given": "Neal"
+                }
+            ],
+            "title": "Will NoSQL databases live up to their promise?",
+            "type": "article-journal",
+            "container_title": [
+                "Computer"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Maillot",
+                    "given": "Pierre"
+                },
+                {
+                    "family": "Raimbault",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Genest",
+                    "given": "David"
+                },
+                {
+                    "family": "Loiseau",
+                    "given": "St\u00e9phane"
+                }
+            ],
+            "title": "Consistency Evaluation of RDF Data: How Data and Updates are Relevant",
+            "type": "paper-conference",
+            "container_title": [
+                "Tenth International Conference on Signal-Image Technology and Internet-Based Systems, SITIS 2014"
+            ],
+            "doi": "10.1109/SITIS.2014.39",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "McColl",
+                    "given": "Robert Campbell"
+                },
+                {
+                    "family": "Ediger",
+                    "given": "David"
+                },
+                {
+                    "family": "Poovey",
+                    "given": "Jason"
+                },
+                {
+                    "family": "Campbell",
+                    "given": "Dan"
+                },
+                {
+                    "family": "Bader",
+                    "given": "David A."
+                }
+            ],
+            "title": "A performance evaluation of open source graph databases",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the \u0104rst workshop on Parallel programming for analytics applications, PPAA 2014",
+                "ACM"
+            ],
+            "doi": "10.1145/2567634.2567638",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mendel-Gleason",
+                    "given": "Gavin"
+                },
+                {
+                    "family": "Feeney",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Brennan",
+                    "given": "Rob"
+                }
+            ],
+            "title": "Ontology Consistency and Instance Checking for Real World Linked Data",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 2nd Workshop on Linked Data Quality co-located with 12th Extended Semantic Web Conference (ESWC 2015), Portoro\u017e, Slovenia, June 1, 2015 (CEUR Workshop Proceedings"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Miller",
+                    "given": "Justin J."
+                }
+            ],
+            "title": "Graph database applications and concepts with Neo4j",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the Southern Association for Information Systems Conference"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Moniruzzaman",
+                    "given": "A.B.M."
+                },
+                {
+                    "family": "Hossain",
+                    "given": "Syed Akhter"
+                }
+            ],
+            "title": "NoSQL Database: New Era of Databases for Big data Analytics -Classi\u0104cation, Characteristics and Comparison",
+            "type": "article-journal",
+            "container_title": [
+                "CoRR"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Neo4j"
+                }
+            ],
+            "title": "Rdf triple stores vs",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2020"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Obay",
+                    "given": "Mohamed A.Mohamed"
+                },
+                {
+                    "family": "Altra\u0104",
+                    "given": "G."
+                },
+                {
+                    "family": "Ismail",
+                    "given": "Mohammed O."
+                }
+            ],
+            "title": "Relational vs . NoSQL Databases : A Survey",
+            "type": "article-journal",
+            "container_title": [
+                "International Journal of Computer and Information Technology"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ognyanov",
+                    "given": "Damyan"
+                },
+                {
+                    "family": "Kiryakov",
+                    "given": "Atanas"
+                }
+            ],
+            "title": "Tracking Changes in RDF(S) Repositories",
+            "type": "chapter",
+            "container_title": [
+                "Knowledge Engineering and Knowledge Management: Ontologies and the Semantic Web"
+            ],
+            "doi": "",
+            "published_date": "2002"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Oldman",
+                    "given": "Dominic"
+                },
+                {
+                    "family": "Tanase",
+                    "given": "Diana"
+                }
+            ],
+            "title": "Reshaping the Knowledge Graph by Connecting Researchers, Data and Practices in ResearchSpace",
+            "type": "chapter",
+            "container_title": [
+                "The Semantic Web -ISWC 2018"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "given": "Orango"
+                }
+            ],
+            "title": "Orango",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Robinson",
+                    "given": "Ian"
+                },
+                {
+                    "family": "Webber",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Eifrem",
+                    "given": "Emil"
+                }
+            ],
+            "title": "Graph databases",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Roussakis",
+                    "given": "Yannis"
+                },
+                {
+                    "family": "Chrysakis",
+                    "given": "Ioannis"
+                },
+                {
+                    "family": "Stefanidis",
+                    "given": "Kostas"
+                },
+                {
+                    "family": "Flouris",
+                    "given": "Giorgos"
+                },
+                {
+                    "family": "Stavrakas",
+                    "given": "Yannis"
+                }
+            ],
+            "title": "A Flexible Framework for Understanding the Dynamics of Evolving RDF Datasets",
+            "type": "chapter",
+            "container_title": [
+                "The Semantic Web -ISWC 2015"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Russom",
+                    "given": "Philip"
+                }
+            ],
+            "title": "BIG DATA ANALYTICS -TDWI BEST PRACTICES REPORT Introduction to Big Data Analytics",
+            "type": "report",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Santos",
+                    "given": "Maribel Yasmina"
+                },
+                {
+                    "family": "Ramos",
+                    "given": "Isabel"
+                }
+            ],
+            "title": "Business Intelligence: tecnologias da informa\u00e7\u00e3o na gest\u00e3o de conhecimento",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2006"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sharma",
+                    "given": "Chandan"
+                },
+                {
+                    "family": "Sinha",
+                    "given": "Roopak"
+                }
+            ],
+            "title": "A Schema-First Formalism for Labeled Property Graph Databases: Enabling Structured Data Loading and Analytics",
+            "type": "paper-conference",
+            "container_title": [
+                "Proceedings of the 6th IEEE/ACM International Conference on Big Data Computing, Applications and Technologies"
+            ],
+            "doi": "10.1145/3365109.3368782",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Sirin",
+                    "given": "Evren"
+                },
+                {
+                    "family": "Parsia",
+                    "given": "Bijan"
+                },
+                {
+                    "family": "Grau",
+                    "given": "Bernardo Cuenca"
+                },
+                {
+                    "family": "Kalyanpur",
+                    "given": "Aditya"
+                },
+                {
+                    "family": "Katz",
+                    "given": "Yarden"
+                }
+            ],
+            "title": "Pellet: A practical OWL-DL reasoner",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Web Semantics"
+            ],
+            "doi": "10.1016/j.websem.2007.03.004",
+            "published_date": "2007"
+        }
+    ]
+}

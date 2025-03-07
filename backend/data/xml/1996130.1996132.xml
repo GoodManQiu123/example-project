@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" xml:id="_YAwfy4y" coord="1,136.92,87.03,338.11,20.09">Exascale Opportunities and Challenges</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName coords="1,262.68,121.26,86.63,13.39"><forename type="first">Katherine</forename><surname>Yelick</surname></persName>
+							<email>yelick@eecs.berkeley.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<note type="raw_affiliation">University of California -Berkeley and Lawrence Berkeley National Laboratory Berkeley, CA, USA</note>
+								<orgName type="laboratory">Lawrence Berkeley National Laboratory Berkeley</orgName>
+								<orgName type="institution">University of California -Berkeley</orgName>
+								<address>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<note type="raw_affiliation">the University of California at Berkeley</note>
+								<orgName type="institution">University of California at Berkeley</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<note type="raw_affiliation">National Energy Research Scientific Computing Center (NERSC) at Lawrence Berkeley National Laboratory.</note>
+								<orgName type="laboratory">National Energy Research Scientific Computing Center (NERSC) at Lawrence Berkeley National Laboratory</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<note type="raw_affiliation">HPDC&apos;11, June 8-11, 2011, San Jose, California, USA.</note>
+								<orgName type="department">HPDC&apos;11</orgName>
+								<address>
+									<addrLine>June 8-11</addrLine>
+									<postCode>2011</postCode>
+									<settlement>San Jose</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main" xml:id="_df3P9YU" coord="1,136.92,87.03,338.11,20.09">Exascale Opportunities and Challenges</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7EEAE909257626E0B02B022607300F2E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-03-13T15:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term xml:id="_MyrFNbr">F.1.2 Algorithms</term>
+					<term xml:id="_CjDxVa5">Performance</term>
+					<term xml:id="_PpgWECE">Reliability</term>
+					<term xml:id="_vrxjb7D">Languages</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0" xml:id="_cJRk24z"><p xml:id="_R4ju62r"><s xml:id="_nSWrk9r" coords="1,126.00,196.16,360.03,9.96;1,126.00,209.12,360.09,9.96;1,126.00,222.14,302.01,9.96">Despite the availability of petascale systems for scientific computing, demand for computational capability grows unabated, with areas of national and commercial interest including global climate change, alternative energy sources, defense and medicine, as well as basic science.</s><s xml:id="_VPwQ8Bz" coords="1,433.29,222.14,52.74,9.96;1,126.00,235.16,360.08,9.96;1,126.00,248.12,360.15,9.96;1,126.00,261.14,19.26,9.96">Past growth in the high end has relied on a combination of faster clock speeds and larger systems, but the clock speed benefits of Moore's Law have ended, and 200-cabinet petascale machines are near a practical limit.</s><s xml:id="_hhdmf9T" coords="1,149.01,261.14,337.03,9.96;1,126.00,274.16,187.25,9.96">In future computing systems, performance and energy optimization will be the combined responsibility of hardware and software developers.</s><s xml:id="_RuPHRZZ" coords="1,318.06,274.16,168.07,9.96;1,126.00,287.12,360.14,9.96;1,126.00,300.14,70.76,9.96">Since data movement dominates energy use in a computing system, minimizing the movement of data throughout the memory and communication fabric are essential.</s><s xml:id="_S2kMyUb" coords="1,202.31,300.14,283.69,9.96;1,126.00,313.16,158.23,9.96">In this talk I will describe some of the hardware trends and open problems in developing and using an exascale system.</s><s xml:id="_bc3KXmJ" coords="1,288.14,313.16,197.93,9.96;1,126.00,326.12,303.68,9.96">In particular, how will an energy-constrained design affect the architecture, which in turn affects algorithms and programming models.</s><s xml:id="_AqCnwdV" coords="1,435.92,326.12,50.13,9.96;1,126.00,339.14,360.01,9.96;1,126.00,352.16,325.79,9.96">In addition to these universal problems, fault resilience is a problem at the high end that will require novel system support, possibly propagating up the software stack to user level software and algorithms.</s><s xml:id="_SCp6zRV" coords="1,456.72,352.16,29.27,9.96;1,126.00,365.12,359.95,9.96;1,126.00,378.14,232.27,9.96">Overall, the trends in hardware demand that the community undertake a broad set of research activities to sustain the growth in computing performance expected by users.</s></p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" ulx="0.0" uly="0.0" lrx="612.0" lry="792.0"/>
+	</facsimile>
+	<text xml:lang="en">
+		<body/>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

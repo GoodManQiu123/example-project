@@ -1,0 +1,751 @@
+{
+    "metadata": {
+        "title": "Extreme-scaling applications en route to exascale",
+        "doi": "10.1145/2938615.2938616",
+        "publisher": "ACM",
+        "journal": null,
+        "published_date": "2016-04-26"
+    },
+    "content": {
+        "abstract": "Feedback from the previous year's very successful workshop motivated the organisation of a three-day workshop from 1 to 3 February 2016, during which the 28-rack JUQUEEN Blue Gene/Q system with 458 752 cores was reserved for over 50 hours. Eight international code teams were selected to use this opportunity to investigate and improve their application scalability, assisted by staff from JSC Simulation Laboratories and Cross-Sectional Teams. Ultimately seven teams had codes successfully run on the full JUQUEEN system. Strong scalability demonstrated by Code Saturne and Seven-League Hydro, both using 4 OpenMP threads for 16 MPI processes on each compute node for a total of 1 835 008 threads, qualify them for High-Q Club membership. Existing members CIAO and iFETI were able to show that they had additional solvers which also scaled acceptably. Furthermore, large-scale in-situ interactive visualisation was demonstrated with a CIAO simulation using 458 752 MPI processes running on 28 racks coupled via JU-SITU to VisIt. The two adaptive mesh refinement utilities, ICI and p4est, showed that they could respectively scale to run with 458 752 and 971 504 MPI ranks, but both encountered problems loading large meshes. Parallel file I/O issues also hindered large-scale executions of PFLOTRAN. Poor performance of a NEST-import module which loaded and connected 1.9 TiB of neuron and synapse data was tracked down to an internal data-structure mismatch with the HDF5 file objects that prevented use of MPI collective file reading, which when rectified is expected to enable large-scale neuronal network simulations. Comparative analysis is provided to the 25 codes in the High-Q Club at the start of 2016, which includes five codes that qualified from the previous workshop. Despite more mixed results, we learnt more about application file I/O limitations and inefficiencies which continue to be the primary inhibitor to large-scale simulations.",
+        "keywords": [
+            "team",
+            "largescale",
+            "route",
+            "file",
+            "simulation",
+            "analysis",
+            "insitu",
+            "exascale",
+            "geneq",
+            "application",
+            "visualisation",
+            "code"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Dirk Br\u00f6mmel",
+            "affiliation": "J\u00fclich Supercomputing Centre",
+            "email": "d.broemmel@fz-juelich.de"
+        },
+        {
+            "name": "Wolfgang Frings",
+            "affiliation": "J\u00fclich Supercomputing Centre",
+            "email": "w.frings@fz-juelich.de"
+        },
+        {
+            "name": "Brian J N Wylie",
+            "affiliation": "J\u00fclich Supercomputing Centre",
+            "email": "b.wylie@fz-juelich.de"
+        }
+    ],
+    "references": [
+        {
+            "authors": [],
+            "title": "Architectures and Technology for Extreme Scale Computing, Advanced Scientific Computing Research: Scientific Grand Challenges Workshop Series",
+            "type": "book",
+            "container_title": "",
+            "doi": "",
+            "published_date": "2009-12"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "chapter",
+            "container_title": [
+                "J\u00fclich Blue Gene/L Scaling Workshop 2006"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mohr",
+                    "given": "Bernd"
+                },
+                {
+                    "family": "Frings",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "J\u00fclich Blue Gene/P Porting",
+            "type": "article-journal",
+            "container_title": [
+                "Tuning & Scaling Workshop 2008, Innovatives Supercomputing in Deutschland"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "chapter",
+            "container_title": [
+                "J\u00fclich Blue Gene/P Extreme Scaling Workshop 2009, Technical Report FZJ-JSC-IB-2010-02, Forschungszentrum J\u00fclich, Feb"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "chapter",
+            "container_title": [
+                "J\u00fclich Blue Gene/P Extreme Scaling Workshop"
+            ],
+            "doi": "",
+            "published_date": "2010"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "chapter",
+            "container_title": [
+                "J\u00fclich Blue Gene/P Extreme Scaling Workshop 2011, Technical Report FZJ-JSC-IB-2011-02"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "chapter",
+            "container_title": [
+                "JUQUEEN Extreme Scaling Workshop 2015, Technical Report FZJ-JSC-IB-2015-01"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Br\u00f6mmel",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Frings",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Wylie",
+                    "given": "Brian J.N."
+                }
+            ],
+            "title": "Extreme-scaling applications 24/7 on JUQUEEN Blue Gene/Q",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. Int'l Conf. on Parallel Computing",
+                "Advances in Parallel Computing"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Stephan",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Doctor",
+                    "given": "Jutta"
+                }
+            ],
+            "title": "JUQUEEN: IBM Blue Gene/Q supercomputer system at the J\u00fclich Supercomputing Centre",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of Large-Scale Research Facilities"
+            ],
+            "doi": "10.17815/jlsrf-1-18",
+            "published_date": "2015"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [],
+            "title": "The High-Q Club at JSC",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Br\u00f6mmel",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Frings",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Wylie",
+                    "given": "Brian J.N."
+                }
+            ],
+            "title": "MAXI -Multi-system Application Extreme-scaling Imperative",
+            "type": "paper-conference",
+            "container_title": [
+                "Mini-symposium at Int'l Conf. on Parallel Computing (ParCo, Edinburgh, UK), Advances in Parallel Computing"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Br\u00f6mmel",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Frings",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Wylie",
+                    "given": "Brian J.N."
+                }
+            ],
+            "title": "Application Extreme-scaling Experience of Leading Supercomputing Centres, Workshop at 30th Int'l Conf",
+            "type": "chapter",
+            "container_title": [
+                "ISC High Performance"
+            ],
+            "doi": "",
+            "published_date": "2015-07"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bode",
+                    "given": "Mathis"
+                },
+                {
+                    "family": "G\u00f6bbert",
+                    "given": "Jens Henrik"
+                },
+                {
+                    "family": "Pitsch",
+                    "given": "Heinz"
+                }
+            ],
+            "title": "High-fidelity multiphase simulations and in-situ visualization using CIAO",
+            "type": "paper-conference",
+            "container_title": [
+                "Poster at 8th NIC Symposium, Forschungszentrum J\u00fclich, Feb"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Archambeau",
+                    "given": "Fr\u00e9d\u00e9ric"
+                },
+                {
+                    "family": "M\u00e9chitoua",
+                    "given": "Namane"
+                },
+                {
+                    "family": "Sakiz",
+                    "given": "Marc"
+                }
+            ],
+            "title": "Code Saturne: A finite volume code for the computation of turbulent incompressible flows -Industrial applications",
+            "type": "article-journal",
+            "container_title": [
+                "Int'l J. Finite"
+            ],
+            "doi": "",
+            "published_date": "2004-02"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Digonnet",
+                    "given": "Hugues"
+                },
+                {
+                    "family": "Silva",
+                    "given": "Luisa"
+                },
+                {
+                    "family": "Coupez",
+                    "given": "Thierry"
+                }
+            ],
+            "title": "Using full Tier0 supercomputers for finite element computations with adaptive meshing",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. 4th Int'l Conf. on Parallel, Distributed, Grid and Cloud Computing for Engineering"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Klawonn",
+                    "given": "Axel"
+                },
+                {
+                    "family": "Lanser",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Rheinbach",
+                    "given": "Oliver"
+                }
+            ],
+            "title": "Toward extremely scalable nonlinear domain decomposition methods for elliptic partial differential equations",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Scientific Computing"
+            ],
+            "doi": "10.1137/140997907",
+            "published_date": "2015-12"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Plesser",
+                    "given": "Hans Ekkehard"
+                },
+                {
+                    "family": "Diesmann",
+                    "given": "Markus"
+                },
+                {
+                    "family": "Gewaltig",
+                    "given": "Marc-Oliver"
+                },
+                {
+                    "family": "Morrison",
+                    "given": "Abigail"
+                }
+            ],
+            "title": "NEST: the Neural Simulation Tool",
+            "type": "book",
+            "container_title": "",
+            "doi": "10.1007/978-1-4614-6675-8",
+            "published_date": "1849-03"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Burstedde",
+                    "given": "Carsten"
+                },
+                {
+                    "family": "Wilcox",
+                    "given": "Lucas C."
+                },
+                {
+                    "family": "Ghattas",
+                    "given": "Omar"
+                },
+                {
+                    "given": "p4est"
+                }
+            ],
+            "title": "Scalable algorithms for parallel adaptive mesh refinement on forests of octrees",
+            "type": "article-journal",
+            "container_title": [
+                "SIAM J. Scientific Computing"
+            ],
+            "doi": "10.1137/100791634",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Hammond",
+                    "given": "Glenn E."
+                },
+                {
+                    "family": "Lichtner",
+                    "given": "Peter C."
+                },
+                {
+                    "family": "Mills",
+                    "given": "Richard T."
+                }
+            ],
+            "title": "Evaluating the performance of parallel subsurface simulators: An illustrative example with PFLOTRAN",
+            "type": "article-journal",
+            "container_title": [
+                "Water Resources Research"
+            ],
+            "doi": "10.1002/2012WR013483",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Miczek",
+                    "given": "Fabian"
+                },
+                {
+                    "family": "R\u00f6pke",
+                    "given": "Friedrich K."
+                },
+                {
+                    "family": "Edelmann",
+                    "given": "Philip V.F."
+                }
+            ],
+            "title": "New numerical solver for flows at various Mach numbers",
+            "type": "article-journal",
+            "container_title": [
+                "Astronomy and Astrophysics"
+            ],
+            "doi": "10.1051/0004-6361/201425059",
+            "published_date": "2015-02"
+        },
+        {
+            "authors": [],
+            "title": "",
+            "type": "chapter",
+            "container_title": [
+                "JUQUEEN Extreme Scaling Workshop"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "G\u00f6bbert",
+                    "given": "Jens Henrik"
+                },
+                {
+                    "family": "Bode",
+                    "given": "Mathis"
+                },
+                {
+                    "family": "Wylie",
+                    "given": "Brian J.N."
+                }
+            ],
+            "title": "Extreme-scale in-situ visualization of turbulent flows on IBM Blue Gene/Q JUQUEEN",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. ISC-HPC'16 Workshop on Exascale Multi/Many-Core Computing Systems"
+            ],
+            "doi": "",
+            "published_date": "2016-06-23"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Childs",
+                    "given": "Hank"
+                },
+                {
+                    "family": "Brugger",
+                    "given": "Eric"
+                },
+                {
+                    "family": "Whitlock",
+                    "given": "Brad"
+                },
+                {
+                    "family": "Meredith",
+                    "given": "Jeremy"
+                },
+                {
+                    "family": "Ahern",
+                    "given": "Sean"
+                },
+                {
+                    "family": "Pugmire",
+                    "given": "David"
+                },
+                {
+                    "family": "Biagas",
+                    "given": "Kathleen"
+                },
+                {
+                    "family": "Miller",
+                    "given": "Mark"
+                },
+                {
+                    "family": "Harrison",
+                    "given": "Cyrus"
+                },
+                {
+                    "family": "Weber",
+                    "given": "Gunther H."
+                },
+                {
+                    "family": "Krishnan",
+                    "given": "Hari"
+                },
+                {
+                    "family": "Fogal",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Sanderson",
+                    "given": "Allen"
+                },
+                {
+                    "family": "Christoph Garth",
+                    "given": "E.Wes Bethel"
+                },
+                {
+                    "family": "Camp",
+                    "given": "David"
+                },
+                {
+                    "family": "R\u00fcbel",
+                    "given": "Oliver"
+                },
+                {
+                    "family": "Durant",
+                    "given": "Marc"
+                },
+                {
+                    "family": "Favre",
+                    "given": "Jean M."
+                },
+                {
+                    "family": "Navr\u00e1til",
+                    "given": "Paul"
+                }
+            ],
+            "title": "VisIt: An end-user tool for visualizing and analyzing very large data",
+            "type": "chapter",
+            "container_title": [
+                "High Performance Visualization -Enabling Extreme-scale Scientific Insight"
+            ],
+            "doi": "",
+            "published_date": "2012-10"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kn\u00fcpfer",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "R\u00f6ssel",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Mey",
+                    "given": "Dieter",
+                    "particle": "an"
+                },
+                {
+                    "family": "Biersdorff",
+                    "given": "Scott"
+                },
+                {
+                    "family": "Diethelm",
+                    "given": "Kai"
+                },
+                {
+                    "family": "Eschweiler",
+                    "given": "Dominic"
+                },
+                {
+                    "family": "Geimer",
+                    "given": "Markus"
+                },
+                {
+                    "family": "Gerndt",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Lorenz",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Malony",
+                    "given": "Allen D."
+                },
+                {
+                    "family": "Nagel",
+                    "given": "Wolfgang E."
+                },
+                {
+                    "family": "Oleynik",
+                    "given": "Yury"
+                },
+                {
+                    "family": "Philippen",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Saviankou",
+                    "given": "Pavel"
+                },
+                {
+                    "family": "Schmidl",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Shende",
+                    "given": "Sameer S."
+                },
+                {
+                    "family": "Tsch\u00fcter",
+                    "given": "Ronny"
+                },
+                {
+                    "family": "Wagner",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Wesarg",
+                    "given": "Bert"
+                },
+                {
+                    "family": "Wolf",
+                    "given": "Felix"
+                }
+            ],
+            "title": "Score-P -A joint performance measurement run-time infrastructure for Periscope",
+            "type": "paper-conference",
+            "container_title": [
+                "Scalasca, TAU, and Vampir, In Proc. 5th Parallel Tools Workshop"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Springer",
+                    "given": "Sept"
+                }
+            ],
+            "title": "",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Geimer",
+                    "given": "Markus"
+                },
+                {
+                    "family": "Wolf",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Wylie",
+                    "given": "Brian J.N."
+                },
+                {
+                    "family": "\u00c1brah\u00e1m",
+                    "given": "Erika"
+                },
+                {
+                    "family": "Becker",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Mohr",
+                    "given": "Bernd"
+                }
+            ],
+            "title": "The Scalasca performance toolset architecture",
+            "type": "article-journal",
+            "container_title": [
+                "Concurrency and Computation: Practice and Experience"
+            ],
+            "doi": "",
+            "published_date": "2010-04"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Carns",
+                    "given": "Philip"
+                },
+                {
+                    "family": "Harms",
+                    "given": "Kevin"
+                },
+                {
+                    "family": "Allcock",
+                    "given": "William"
+                },
+                {
+                    "family": "Bacon",
+                    "given": "Charles"
+                },
+                {
+                    "family": "Lang",
+                    "given": "Samuel"
+                },
+                {
+                    "family": "Latham",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Ross",
+                    "given": "Robert"
+                }
+            ],
+            "title": "Understanding and improving computational science storage access through continuous characterization",
+            "type": "article-journal",
+            "container_title": [
+                "ACM Transactions on Storage"
+            ],
+            "doi": "",
+            "published_date": "2011-10"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Frings",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Wolf",
+                    "given": "Felix"
+                },
+                {
+                    "family": "Petkov",
+                    "given": "Vestsislav"
+                }
+            ],
+            "title": "Scalable massively parallel I/O to task-local files",
+            "type": "paper-conference",
+            "container_title": [
+                "Proc. ACM/IEEE SC09 Conference"
+            ],
+            "doi": "",
+            "published_date": ""
+        },
+        {
+            "authors": [
+                {
+                    "family": "Frings",
+                    "given": "Wolfgang"
+                }
+            ],
+            "title": "Efficient Task-Local I/O Operations of Massively Parallel Applications",
+            "type": "thesis",
+            "container_title": "",
+            "doi": "",
+            "published_date": ""
+        }
+    ]
+}

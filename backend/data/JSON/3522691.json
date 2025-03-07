@@ -1,0 +1,727 @@
+{
+    "metadata": {
+        "title": "Finding Key Structures in MMORPG Graph with Hierarchical Graph Summarization",
+        "doi": "10.1145/3522691",
+        "publisher": null,
+        "journal": null,
+        "published_date": null
+    },
+    "content": {
+        "abstract": "What are the key structures existing in a large real-world MMORPG (Massively Multiplayer Online Role-Playing Game) graph? How can we compactly summarize an MMORPG graph with hierarchical node labels, considering substructures at diferent levels of hierarchy? Recent MMORPGs generate complex interactions between entities inducing a heterogeneous graph where each entity has hierarchical labels. Succinctly summarizing a heterogeneous MMORPG graph is crucial to better understand its structure; however it is a challenging task since it needs to handle complex interactions and hierarchical labels eiciently. Although there exist few methods to summarize a large-scale graph, they do not deal with heterogeneous graphs with hierarchical node labels. We propose GSHL, a novel method that summarizes a heterogeneous graph with hierarchical labels. We formulate the encoding cost of hierarchical labels using MDL (Minimum Description Length). GSHL exploits the formulation to identify and segment subgraphs, and discovers compact and consistent structures in the graph. Experiments on a large real-world MMORPG graph with multi-million edges show that GSHL is a useful and scalable tool for summarizing the graph, inding important structures in the graph, and inding similar users. CCS Concepts: \u2022 Information systems   Massively multiplayer online games; Data mining; \u2022 Mathematics of computing   Graph algorithms.",
+        "keywords": [
+            "description",
+            "length",
+            "roleplaying",
+            "structure",
+            "summarization",
+            "label",
+            "graph",
+            "minimum",
+            "key",
+            "hierarchical",
+            "mmorpg"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jun-Gi Jang",
+            "affiliation": null,
+            "email": "jangcw@ncsoft.com"
+        },
+        {
+            "name": "U Kang",
+            "affiliation": null,
+            "email": "ukang@snu.ac.kr."
+        }
+    ],
+    "references": [
+        {
+            "authors": [
+                {
+                    "family": "Al-Dhelaan",
+                    "given": "Mohammed"
+                },
+                {
+                    "family": "Alhawasi",
+                    "given": "Hadel"
+                }
+            ],
+            "title": "Graph Summarization for Hashtag Recommendation",
+            "type": "paper-conference",
+            "container_title": [
+                "3rd International Conference on Future Internet of Things and Cloud, FiCloud 2015"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Bernardi",
+                    "given": "Mario Luca"
+                },
+                {
+                    "family": "Cimitile",
+                    "given": "Marta"
+                },
+                {
+                    "family": "Martinelli",
+                    "given": "Fabio"
+                },
+                {
+                    "family": "Mercaldo",
+                    "given": "Francesco"
+                }
+            ],
+            "title": "A time series classiication approach to game bot detection",
+            "type": "article-journal",
+            "container_title": [
+                "WIMS"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Blondel",
+                    "given": "Vincent D."
+                },
+                {
+                    "family": "Guillaume",
+                    "given": "Jean-Loup"
+                },
+                {
+                    "family": "Lambiotte",
+                    "given": "Renaud"
+                },
+                {
+                    "family": "Lefebvre",
+                    "given": "Etienne"
+                }
+            ],
+            "title": "Fast unfolding of communities in large networks",
+            "type": "article-journal",
+            "container_title": [
+                "Journal of statistical mechanics: theory and experiment"
+            ],
+            "doi": "",
+            "published_date": "2008"
+        },
+        {
+            "authors": [
+                {
+                    "family": "\u010cebiri\u0107",
+                    "given": "\u0160ejla"
+                },
+                {
+                    "family": "Goasdou\u00e9",
+                    "given": "Fran\u00e7ois"
+                },
+                {
+                    "family": "Guzewicz",
+                    "given": "Pawel"
+                },
+                {
+                    "family": "Manolescu",
+                    "given": "Ioana"
+                }
+            ],
+            "title": "Compact Summaries of Rich Heterogeneous Graphs",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Chakrabarti",
+                    "given": "Deepayan"
+                },
+                {
+                    "family": "Papadimitriou",
+                    "given": "Spiros"
+                },
+                {
+                    "family": "Modha",
+                    "given": "Dharmendra S."
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Fully automatic cross-associations",
+            "type": "chapter",
+            "container_title": [
+                "SIGKDD. 79\u015b88"
+            ],
+            "doi": "",
+            "published_date": "2004"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Cook",
+                    "given": "Diane J."
+                },
+                {
+                    "family": "Holder",
+                    "given": "Lawrence B."
+                }
+            ],
+            "title": "Substructure Discovery Using Minimum Description Length and Background Knowledge",
+            "type": "article-journal",
+            "container_title": [
+                "J. Artif. Intell. Res"
+            ],
+            "doi": "",
+            "published_date": "1994"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Drachen",
+                    "given": "Anders"
+                },
+                {
+                    "family": "Sifa",
+                    "given": "Rafet"
+                },
+                {
+                    "family": "Bauckhage",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Thurau",
+                    "given": "Christian"
+                }
+            ],
+            "title": "Guns, swords and data: Clustering of player behavior in computer games in the wild",
+            "type": "chapter",
+            "container_title": [
+                "CIG"
+            ],
+            "doi": "",
+            "published_date": "2012"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                },
+                {
+                    "family": "Megalooikonomou",
+                    "given": "Vasileios"
+                }
+            ],
+            "title": "On data mining, compression, and kolmogorov complexity",
+            "type": "article-journal",
+            "container_title": [
+                "Data mining and knowledge discovery"
+            ],
+            "doi": "",
+            "published_date": "2007"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Jung",
+                    "given": "Jinhong"
+                },
+                {
+                    "family": "Park",
+                    "given": "Namyong"
+                },
+                {
+                    "family": "Sael",
+                    "given": "Lee"
+                },
+                {
+                    "family": "Kang",
+                    "given": "U."
+                }
+            ],
+            "title": "BePI: Fast and Memory-Eicient Method for Billion-Scale Random Walk with Restart",
+            "type": "chapter",
+            "container_title": [
+                "SIGMOD"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Kang",
+                    "given": "U."
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Beyond 'Caveman Communities': Hubs and Spokes for Graph Compression and Mining",
+            "type": "chapter",
+            "container_title": [
+                "ICDM"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Danai Koutra",
+                    "given": "U.Kang"
+                },
+                {
+                    "family": "Vreeken",
+                    "given": "Jilles"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "VOG: Summarizing and Understanding Large Graphs",
+            "type": "chapter",
+            "container_title": [
+                "SDM"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Koutra",
+                    "given": "Danai"
+                },
+                {
+                    "family": "Tai-You Ke",
+                    "given": "U.Kang"
+                },
+                {
+                    "family": "Chau",
+                    "given": "Duen Horng"
+                },
+                {
+                    "family": "Pao",
+                    "given": "Hsing-Kuo Kenneth"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Unifying Guilt-by-Association Approaches: Theorems and Fast Algorithms",
+            "type": "chapter",
+            "container_title": [
+                "ECML-PKDD. 245\u015b260"
+            ],
+            "doi": "",
+            "published_date": "2011"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                },
+                {
+                    "family": "Kleinberg",
+                    "given": "Jon M."
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Graphs over time: densiication laws, shrinking diameters and possible explanations",
+            "type": "chapter",
+            "container_title": [
+                "SIGKDD"
+            ],
+            "doi": "",
+            "published_date": "2005"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Mo",
+                    "given": "Kaichun"
+                },
+                {
+                    "family": "Guerrero",
+                    "given": "Paul"
+                },
+                {
+                    "family": "Yi",
+                    "given": "Li"
+                },
+                {
+                    "family": "Su",
+                    "given": "Hao"
+                },
+                {
+                    "family": "Wonka",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Mitra",
+                    "given": "Niloy"
+                },
+                {
+                    "family": "Guibas",
+                    "given": "Leonidas J."
+                }
+            ],
+            "title": "Structurenet: Hierarchical graph networks for 3d shape generation",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rissanen",
+                    "given": "J."
+                }
+            ],
+            "title": "Modeling by shortest data description",
+            "type": "article-journal",
+            "container_title": [
+                "Automatica"
+            ],
+            "doi": "",
+            "published_date": "1978"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Rissanen",
+                    "given": "Jorma"
+                }
+            ],
+            "title": "A universal prior for integers and estimation by minimum description length",
+            "type": "article-journal",
+            "container_title": [
+                "The Annals of statistics"
+            ],
+            "doi": "",
+            "published_date": "1983"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shah",
+                    "given": "Neil"
+                },
+                {
+                    "family": "Beutel",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Gallagher",
+                    "given": "Brian"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "Spotting suspicious link behavior with fbox: An adversarial perspective",
+            "type": "chapter",
+            "container_title": [
+                "ICDM"
+            ],
+            "doi": "",
+            "published_date": "2014"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shah",
+                    "given": "Neil"
+                },
+                {
+                    "family": "Koutra",
+                    "given": "Danai"
+                },
+                {
+                    "family": "Zou",
+                    "given": "Tianmin"
+                },
+                {
+                    "family": "Gallagher",
+                    "given": "Brian"
+                },
+                {
+                    "family": "Faloutsos",
+                    "given": "Christos"
+                }
+            ],
+            "title": "TimeCrunch: Interpretable Dynamic Graph Summarization",
+            "type": "chapter",
+            "container_title": [
+                "SIGKDD"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Shin",
+                    "given": "Kijung"
+                },
+                {
+                    "family": "Jung",
+                    "given": "Jinhong"
+                },
+                {
+                    "family": "Sael",
+                    "given": "Lee"
+                },
+                {
+                    "family": "Kang",
+                    "given": "U."
+                }
+            ],
+            "title": "BEAR: Block Elimination Approach for Random Walk with Restart on Large Graphs",
+            "type": "chapter",
+            "container_title": [
+                "SIGMOD"
+            ],
+            "doi": "",
+            "published_date": "2015"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Thompson",
+                    "given": "Joseph J."
+                },
+                {
+                    "family": "Leung",
+                    "given": "Betty H.M."
+                },
+                {
+                    "family": "Blair",
+                    "given": "Mark R."
+                },
+                {
+                    "family": "Taboada",
+                    "given": "Maite"
+                }
+            ],
+            "title": "Sentiment analysis of player chat messaging in the video game StarCraft 2: Extending a lexicon-based model",
+            "type": "article-journal",
+            "container_title": [
+                "Knowl.-Based Syst"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Wendt",
+                    "given": "James Bradley"
+                },
+                {
+                    "family": "Bendersky",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Pueyo",
+                    "given": "Lluis Garcia"
+                },
+                {
+                    "family": "Josifovski",
+                    "given": "Vanja"
+                },
+                {
+                    "family": "Miklos",
+                    "given": "Balint"
+                },
+                {
+                    "family": "Krka",
+                    "given": "Ivo"
+                },
+                {
+                    "family": "Saikia",
+                    "given": "Amitabh"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Jie"
+                },
+                {
+                    "family": "Cartright",
+                    "given": "Marc-Allen"
+                },
+                {
+                    "family": "Ravi",
+                    "given": "Sujith"
+                }
+            ],
+            "title": "Hierarchical Label Propagation and Discovery for Machine Generated Email",
+            "type": "chapter",
+            "container_title": [
+                "WSDM"
+            ],
+            "doi": "",
+            "published_date": "2016"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Jaewon"
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Overlapping community detection at scale: a nonnegative matrix factorization approach",
+            "type": "chapter",
+            "container_title": [
+                "WSDM. 587\u015b596"
+            ],
+            "doi": "",
+            "published_date": "2013"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Yang",
+                    "given": "Wanshan"
+                },
+                {
+                    "family": "Yang",
+                    "given": "Gemeng"
+                },
+                {
+                    "family": "Huang",
+                    "given": "Ting"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Lijun"
+                },
+                {
+                    "family": "Liu",
+                    "given": "Youjian Eugene"
+                }
+            ],
+            "title": "Whales, Dolphins, or Minnows?",
+            "type": "chapter",
+            "container_title": [
+                "Towards the Player Clustering in Free Online Games Based on Purchasing Behavior via Data Mining Technique. In Big Data"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Ying",
+                    "given": "Zhitao"
+                },
+                {
+                    "family": "You",
+                    "given": "Jiaxuan"
+                },
+                {
+                    "family": "Morris",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Ren",
+                    "given": "Xiang"
+                },
+                {
+                    "family": "Hamilton",
+                    "given": "Will"
+                },
+                {
+                    "family": "Leskovec",
+                    "given": "Jure"
+                }
+            ],
+            "title": "Hierarchical Graph Representation Learning with Diferentiable Pooling",
+            "type": "chapter",
+            "container_title": [
+                "Advances in Neural Information Processing Systems"
+            ],
+            "doi": "",
+            "published_date": "2018"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "L."
+                },
+                {
+                    "family": "Shah",
+                    "given": "S.K."
+                },
+                {
+                    "family": "Kakadiaris",
+                    "given": "Ioannis A."
+                }
+            ],
+            "title": "Hierarchical Multi-label Classiication using Fully Associative Ensemble Learning",
+            "type": "article-journal",
+            "container_title": [
+                "Pattern Recognition"
+            ],
+            "doi": "",
+            "published_date": "2017"
+        },
+        {
+            "authors": [
+                {
+                    "family": "Zhang",
+                    "given": "Zhen"
+                },
+                {
+                    "family": "Bu",
+                    "given": "Jiajun"
+                },
+                {
+                    "family": "Ester",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Jianfeng"
+                },
+                {
+                    "family": "Yao",
+                    "given": "Chengwei"
+                },
+                {
+                    "family": "Yu",
+                    "given": "Zhi"
+                },
+                {
+                    "family": "Wang",
+                    "given": "Can"
+                }
+            ],
+            "title": "Hierarchical Graph Pooling with Structure Learning",
+            "type": null,
+            "container_title": "",
+            "doi": "",
+            "published_date": "2019"
+        }
+    ]
+}
